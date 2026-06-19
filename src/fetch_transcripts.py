@@ -32,14 +32,19 @@ from pathlib import Path
 # (The professor mentioned youtube-dl / yt-dlp — that works too and can
 #  download .vtt subtitle files, but this library is simpler for transcripts.)
 try:
-    from youtube_transcript_api import YouTubeTranscriptApi
-    from youtube_transcript_api._errors import (
+    from youtube_transcript_api import (
+        YouTubeTranscriptApi,
         TranscriptsDisabled,
         NoTranscriptFound,
         VideoUnavailable,
     )
 except ImportError:
     raise SystemExit("Run:  pip install youtube-transcript-api")
+
+# youtube-transcript-api >= 1.0 changed the API: you instantiate the class and
+# call .fetch(); the old static .get_transcript() was removed. We instantiate
+# once and reuse it.
+_API = YouTubeTranscriptApi()
 
 
 # ---------------------------------------------------------------------------
@@ -51,8 +56,11 @@ except ImportError:
 # Just put video IDs here. Example format:
 #   "dQw4w9WgXcQ"  ->  from https://www.youtube.com/watch?v=dQw4w9WgXcQ
 SEED_VIDEOS = [
-    # "VIDEO_ID_1",
-    # "VIDEO_ID_2",
+    "vif8NQcjVf0",
+    "b1TeeIG6Uaw",
+    "WLBsUarvWTw",
+    "F_7M4Hc-usM",
+    "RSNuB9pj9P8",
 ]
 
 # People we care about (used later for speaker identification + the graph).
@@ -87,9 +95,11 @@ SEG_DIR = DATA_DIR / "segments"
 def fetch_one(video_id: str, languages=("en",)):
     """Return list of {text, start, duration} or None if unavailable."""
     try:
-        # prefers manual captions, falls back to auto-generated
-        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=list(languages))
-        return transcript
+        # prefers manual captions, falls back to auto-generated.
+        # .fetch() returns a FetchedTranscript; .to_raw_data() gives a list of
+        # {text, start, duration} dicts (same shape the rest of the code expects).
+        fetched = _API.fetch(video_id, languages=list(languages))
+        return fetched.to_raw_data()
     except (TranscriptsDisabled, NoTranscriptFound):
         print(f"  [skip] no transcript for {video_id}")
         return None
