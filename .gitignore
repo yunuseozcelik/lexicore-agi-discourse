@@ -1,0 +1,20 @@
+# Data lives in Google Drive (/data/), not in git — only keep the folders.
+data/raw/*
+data/segments/*
+!data/raw/.gitkeep
+!data/segments/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/
