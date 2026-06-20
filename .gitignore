@@ -1,8 +1,13 @@
 # Data lives in Google Drive (/data/), not in git — only keep the folders.
 data/raw/*
 data/segments/*
+data/labeled/*
 !data/raw/.gitkeep
 !data/segments/.gitkeep
+!data/labeled/.gitkeep
+
+# Working notes / drafts (kept locally)
+docs/
 
 # Python
 __pycache__/

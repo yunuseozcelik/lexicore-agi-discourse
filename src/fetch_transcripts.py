@@ -1,26 +1,18 @@
 """
-AGI-Discourse — Step 1: Transcript collection + baseline segmentation
-====================================================================
+Step 1 — transcript collection + baseline segmentation.
 
-What this does (the professor's "first job = data collection"):
-  1. Takes a list of YouTube videos.
-  2. Pulls their subtitles/transcripts (NO speech-to-text).
-  3. Saves a clean structured JSON per video into ../data/raw/.
-  4. Does a BASELINE segmentation (time-window based) so you immediately
-     get numbers for the report (how many videos, how many segments).
-  5. Prints dataset stats.
+  1. Takes a list of YouTube video IDs.
+  2. Pulls their subtitles/transcripts (no speech-to-text).
+  3. Saves a structured JSON per video into ../data/raw/.
+  4. Runs a baseline time-window segmentation into ../data/segments/.
+  5. Prints dataset stats (videos / segments / hours).
 
-IMPORTANT — this is a STARTING POINT, not the final pipeline:
-  - Baseline segmentation here is simple time-windowing. The professor
-    wants SEMANTIC segmentation (via an LLM) later. That's the planned
-    next step; the function `segment_baseline` is where you'll swap it in.
-  - Speaker / claim / stance labeling is NOT here yet (that's the LLM
-    labeling stage, next milestone). This script just gets you clean data.
+Baseline segmentation is simple time-windowing; semantic (LLM-based)
+segmentation is planned and would replace `segment_baseline`. Speaker /
+claim / stance labeling happens later in label_segments.py.
 
-Setup:
+Usage:
   pip install youtube-transcript-api
-
-Run:
   python fetch_transcripts.py
 """
 
@@ -28,9 +20,8 @@ import json
 import os
 from pathlib import Path
 
-# youtube-transcript-api is the cleanest tool for pulling captions directly.
-# (The professor mentioned youtube-dl / yt-dlp — that works too and can
-#  download .vtt subtitle files, but this library is simpler for transcripts.)
+# youtube-transcript-api pulls captions directly. (yt-dlp can also download
+# .vtt subtitle files, but this library is simpler for plain transcripts.)
 try:
     from youtube_transcript_api import (
         YouTubeTranscriptApi,
@@ -48,19 +39,15 @@ _API = YouTubeTranscriptApi()
 
 
 # ---------------------------------------------------------------------------
-# 1. SEED LIST — fill this in. These are the channels/people the professor
-#    named in the kickoff meeting. Start with a handful, grow toward ~200.
-#    You only need the 11-char video ID (the part after v= in the URL).
+# 1. SEED LIST — video IDs to collect. Start with a handful, grow toward ~200.
+#    Only the 11-char video ID is needed (the part after v= in the URL),
+#    e.g. "dQw4w9WgXcQ" from https://www.youtube.com/watch?v=dQw4w9WgXcQ
 # ---------------------------------------------------------------------------
-
-# Just put video IDs here. Example format:
-#   "dQw4w9WgXcQ"  ->  from https://www.youtube.com/watch?v=dQw4w9WgXcQ
 SEED_VIDEOS = [
     "vif8NQcjVf0",
     "b1TeeIG6Uaw",
     "WLBsUarvWTw",
     "F_7M4Hc-usM",
-    "RSNuB9pj9P8",
 ]
 
 # People we care about (used later for speaker identification + the graph).
@@ -74,14 +61,14 @@ TRACKED_PEOPLE = [
     # add more as you find them (snowball from podcast guest lists)
 ]
 
-# Channels to mine for video IDs (note for the report / your own reference):
+# Channels to mine for video IDs.
 SOURCE_CHANNELS = [
     "Lex Fridman Podcast",
     "Dwarkesh Patel",
     "Machine Learning Street Talk",
 ]
 
-# Time window for the dataset (professor: 2022-2026, ~200 videos).
+# Target time window for the dataset.
 YEAR_RANGE = (2022, 2026)
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -112,10 +99,9 @@ def fetch_one(video_id: str, languages=("en",)):
 
 
 # ---------------------------------------------------------------------------
-# 3. Baseline segmentation (PLACEHOLDER for semantic segmentation)
-#    Groups caption lines into ~`window_sec` chunks. Good enough to get
-#    segment counts for the progress report. Replace later with LLM-based
-#    semantic segmentation.
+# 3. Baseline segmentation (placeholder for semantic segmentation).
+#    Groups caption lines into ~`window_sec` chunks. To be replaced later with
+#    LLM-based semantic segmentation.
 # ---------------------------------------------------------------------------
 def segment_baseline(transcript, window_sec=90):
     segments = []
@@ -129,7 +115,7 @@ def segment_baseline(transcript, window_sec=90):
                 "start": round(cur_start, 1),
                 "end": round(line["start"] + line.get("duration", 0), 1),
                 "text": " ".join(cur_text).strip(),
-                # fields to be filled by the LLM labeling stage (next milestone):
+                # filled in later by label_segments.py:
                 "speaker": None,
                 "claim": None,
                 "stance": None,   # one of: Support / Refute / Neutral
@@ -146,7 +132,7 @@ def segment_baseline(transcript, window_sec=90):
 
 
 # ---------------------------------------------------------------------------
-# 4. Run the whole thing + print stats for the report
+# 4. Run the pipeline and print dataset stats
 # ---------------------------------------------------------------------------
 def main():
     RAW_DIR.mkdir(parents=True, exist_ok=True)
@@ -181,8 +167,7 @@ def main():
         total_seconds += dur
         print(f"  -> {len(segs)} segments, ~{dur/60:.0f} min")
 
-    # ---- numbers you can paste into the Dataset section of the report ----
-    print("\n=== DATASET STATS (for the progress report) ===")
+    print("\n=== DATASET STATS ===")
     print(f"Videos with transcripts : {total_videos}")
     print(f"Total discourse segments: {total_segments}")
     print(f"Total content           : {total_seconds/3600:.1f} hours")
