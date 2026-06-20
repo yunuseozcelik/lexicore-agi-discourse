@@ -57,5 +57,5 @@ python src/train_baseline.py
 
 ```
 src/    pipeline code
-data/   transcripts, segments, labels (gitignored — lives in Google Drive)
+data/   raw transcripts, baseline segments, and labeled segments
 ```
