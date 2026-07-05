@@ -73,6 +73,8 @@ VIDEO_META = {
                     "source": "Dwarkesh Patel"},
     "F_7M4Hc-usM": {"host": "Moderator",      "guests": ["Sam Altman"],
                     "source": "Stanford (How to Start a Startup)"},
+    "5t1vTLU7s40": {"host": "Lex Fridman",    "guests": ["Yann LeCun"],
+                    "source": "Lex Fridman Podcast"},
 }
 
 
@@ -215,7 +217,7 @@ def _call_gemini(client, model, prompt):
     return json.loads(resp.text)
 
 
-def label_one(provider, client, model, seg, candidates, retries=3):
+def label_one(provider, client, model, seg, candidates, retries=5):
     """Return a dict of labels for one segment, or None on failure."""
     prompt = _build_prompt(seg, candidates)
     call = _call_openai if provider == "openai" else _call_gemini
@@ -223,8 +225,14 @@ def label_one(provider, client, model, seg, candidates, retries=3):
         try:
             return call(client, model, prompt)
         except Exception as e:  # rate limit / transient / parse
-            wait = 2 * attempt
-            print(f"    [retry {attempt}/{retries}] {e} (waiting {wait}s)")
+            msg = str(e)
+            # On rate-limit (429), wait long enough for the quota to reset.
+            # Free tiers meter per-minute, so back off in ~15s steps.
+            if "429" in msg or "RESOURCE_EXHAUSTED" in msg or "quota" in msg.lower():
+                wait = 15 * attempt
+            else:
+                wait = 2 * attempt
+            print(f"    [retry {attempt}/{retries}] {msg[:120]} (waiting {wait}s)")
             time.sleep(wait)
     return None
 
@@ -307,6 +315,10 @@ def main():
             if seg.get("is_claim"):
                 claim_count += 1
             print(f"  [{i}] {str(seg['speaker'])[:18]:18} | {str(st):7} | {seg.get('topic')}")
+            # save periodically so a crash / rate-limit stop doesn't lose work
+            if labeled_count % 5 == 0:
+                out_path.write_text(
+                    json.dumps(segments, ensure_ascii=False, indent=2), encoding="utf-8")
             time.sleep(args.sleep)
 
         # save after each video (so a crash doesn't lose work)

@@ -48,6 +48,7 @@ SEED_VIDEOS = [
     "b1TeeIG6Uaw",
     "WLBsUarvWTw",
     "F_7M4Hc-usM",
+    "5t1vTLU7s40",  # Lex Fridman × Yann LeCun (AGI skeptic; strengthens Refute)
 ]
 
 # People we care about (used later for speaker identification + the graph).
