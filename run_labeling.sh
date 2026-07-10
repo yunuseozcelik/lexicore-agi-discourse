@@ -21,11 +21,10 @@ set -euo pipefail
 # --- move to the repo root (folder this script lives in) ---
 cd "$(dirname "$0")"
 
-# --- which videos to label (default: the new Yann LeCun video) ---
+# --- which videos to label ---
+# Pass video IDs as args to label only those; with no args, label ALL videos
+# found in data/segments/ (label_segments.py resumes already-labeled ones).
 VIDEOS=("$@")
-if [ ${#VIDEOS[@]} -eq 0 ]; then
-  VIDEOS=("5t1vTLU7s40")
-fi
 
 # --- pick provider from whichever key is present ---
 if [ -n "${GEMINI_API_KEY:-}" ] || [ -n "${GOOGLE_API_KEY:-}" ]; then
@@ -38,7 +37,8 @@ else
   echo "  OpenAI:         export OPENAI_API_KEY=\"sk-...\""
   exit 1
 fi
-echo "Provider: $PROVIDER (key hidden). Labeling videos: ${VIDEOS[*]}"
+# (${VIDEOS[*]:-} guards against "unbound variable" when no IDs were passed)
+echo "Provider: $PROVIDER (key hidden). Labeling videos: ${VIDEOS[*]:-ALL}"
 
 # --- set up an isolated virtualenv with the needed libraries ---
 # Create the venv if missing, then always ensure deps are present (idempotent —
@@ -60,7 +60,12 @@ else
   SLEEP=0.2
 fi
 echo "[1/2] labeling segments (pacing ${SLEEP}s between calls)..."
-.venv/bin/python src/label_segments.py --provider "$PROVIDER" --sleep "$SLEEP" --videos "${VIDEOS[@]}"
+if [ ${#VIDEOS[@]} -eq 0 ]; then
+  # no IDs given -> label every video in data/segments/
+  .venv/bin/python src/label_segments.py --provider "$PROVIDER" --sleep "$SLEEP"
+else
+  .venv/bin/python src/label_segments.py --provider "$PROVIDER" --sleep "$SLEEP" --videos "${VIDEOS[@]}"
+fi
 
 # --- 2. rebuild the knowledge graph with the new labels ---
 echo "[2/2] rebuilding knowledge graph..."

@@ -133,6 +133,61 @@ def segment_baseline(transcript, window_sec=90):
 
 
 # ---------------------------------------------------------------------------
+# 3b. Semantic-ish segmentation (improved baseline; still no LLM).
+#     Instead of cutting purely on elapsed time, it cuts at *natural boundaries*
+#     — a long pause between caption lines (a strong signal of a speaker turn)
+#     or a sentence end (.?!) — but only once a segment is long enough. This
+#     avoids slicing through the middle of a sentence or a speaker's turn, which
+#     is what makes the fixed-window baseline noisy (mixed speakers/topics in one
+#     segment -> more "Unknown" speakers, blurrier stance).
+#
+#     Params:
+#       min_sec    : don't cut before a segment reaches this length.
+#       max_sec    : force a cut past this length even without a clean boundary.
+#       pause_sec  : a gap >= this between two lines counts as a turn boundary.
+# ---------------------------------------------------------------------------
+def segment_semantic(transcript, min_sec=60, max_sec=180, pause_sec=1.5):
+    segments = []
+    if not transcript:
+        return segments
+
+    def flush(cur_text, cur_start, end):
+        segments.append({
+            "start": round(cur_start, 1),
+            "end": round(end, 1),
+            "text": " ".join(cur_text).strip(),
+            # filled in later by label_segments.py:
+            "speaker": None, "claim": None, "stance": None,
+        })
+
+    cur_text, cur_start = [], transcript[0]["start"]
+    for i, line in enumerate(transcript):
+        cur_text.append(line["text"])
+        line_end = line["start"] + line.get("duration", 0)
+        elapsed = line["start"] - cur_start
+
+        # gap to the NEXT line (long gap == likely speaker turn / topic shift)
+        nxt = transcript[i + 1] if i + 1 < len(transcript) else None
+        gap = (nxt["start"] - line_end) if nxt else 0.0
+
+        ends_sentence = line["text"].rstrip().endswith((".", "?", "!"))
+
+        # cut when: long enough AND (a real pause OR a sentence end),
+        # or when we've simply run past the hard max length.
+        clean_boundary = elapsed >= min_sec and (gap >= pause_sec or ends_sentence)
+        too_long = elapsed >= max_sec
+        if clean_boundary or too_long:
+            flush(cur_text, cur_start, line_end)
+            cur_text = []
+            cur_start = nxt["start"] if nxt else line_end
+
+    if cur_text:  # leftover
+        flush(cur_text, cur_start,
+              transcript[-1]["start"] + transcript[-1].get("duration", 0))
+    return segments
+
+
+# ---------------------------------------------------------------------------
 # 4. Run the pipeline and print dataset stats
 # ---------------------------------------------------------------------------
 def main():
@@ -156,8 +211,9 @@ def main():
             json.dumps(transcript, ensure_ascii=False, indent=2), encoding="utf-8"
         )
 
-        # baseline segmentation
-        segs = segment_baseline(transcript)
+        # semantic-ish segmentation (cuts at natural pauses / sentence ends);
+        # segment_baseline() is kept for comparison but no longer the default.
+        segs = segment_semantic(transcript)
         (SEG_DIR / f"{vid}.json").write_text(
             json.dumps(segs, ensure_ascii=False, indent=2), encoding="utf-8"
         )

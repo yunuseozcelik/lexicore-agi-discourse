@@ -6,153 +6,159 @@
       "label": "AGI will arrive in the near term and/or is something to be optimistic about."
     },
     {
-      "id": "PERSON::Yann LeCun",
-      "type": "person",
-      "label": "Yann LeCun",
-      "segments": 85
-    },
-    {
       "id": "PERSON::Ege Erdil",
       "type": "person",
       "label": "Ege Erdil",
-      "segments": 83
+      "segments": 130
+    },
+    {
+      "id": "PERSON::Yann LeCun",
+      "type": "person",
+      "label": "Yann LeCun",
+      "segments": 108
     },
     {
       "id": "PERSON::Jensen Huang",
       "type": "person",
       "label": "Jensen Huang",
-      "segments": 69
-    },
-    {
-      "id": "PERSON::Victor Shih",
-      "type": "person",
-      "label": "Victor Shih",
-      "segments": 33
+      "segments": 84
     },
     {
       "id": "PERSON::Lex Fridman",
       "type": "person",
       "label": "Lex Fridman",
-      "segments": 30
+      "segments": 49
     },
     {
-      "id": "PERSON::Tamay Besiroglu",
+      "id": "PERSON::Victor Shih",
       "type": "person",
-      "label": "Tamay Besiroglu",
-      "segments": 17
+      "label": "Victor Shih",
+      "segments": 48
     },
     {
       "id": "PERSON::Sam Altman",
       "type": "person",
       "label": "Sam Altman",
-      "segments": 14
+      "segments": 21
+    },
+    {
+      "id": "PERSON::Tamay Besiroglu",
+      "type": "person",
+      "label": "Tamay Besiroglu",
+      "segments": 11
     },
     {
       "id": "PERSON::Dwarkesh Patel",
       "type": "person",
       "label": "Dwarkesh Patel",
       "segments": 4
+    },
+    {
+      "id": "PERSON::Moderator",
+      "type": "person",
+      "label": "Moderator",
+      "segments": 3
     }
   ],
   "edges": [
     {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 51
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 47
+    },
+    {
       "source": "PERSON::Yann LeCun",
       "target": "CLAIM::anchor",
       "stance": "Refute",
-      "weight": 49
-    },
-    {
-      "source": "PERSON::Jensen Huang",
-      "target": "CLAIM::anchor",
-      "stance": "Neutral",
-      "weight": 36
+      "weight": 44
     },
     {
       "source": "PERSON::Ege Erdil",
       "target": "CLAIM::anchor",
       "stance": "Refute",
-      "weight": 32
+      "weight": 44
     },
     {
-      "source": "PERSON::Jensen Huang",
-      "target": "CLAIM::anchor",
-      "stance": "Support",
-      "weight": 27
-    },
-    {
-      "source": "PERSON::Ege Erdil",
+      "source": "PERSON::Yann LeCun",
       "target": "CLAIM::anchor",
       "stance": "Neutral",
-      "weight": 26
-    },
-    {
-      "source": "PERSON::Ege Erdil",
-      "target": "CLAIM::anchor",
-      "stance": "Support",
-      "weight": 25
+      "weight": 42
     },
     {
       "source": "PERSON::Victor Shih",
       "target": "CLAIM::anchor",
       "stance": "Neutral",
-      "weight": 25
+      "weight": 37
     },
     {
-      "source": "PERSON::Yann LeCun",
+      "source": "PERSON::Ege Erdil",
       "target": "CLAIM::anchor",
-      "stance": "Neutral",
-      "weight": 21
+      "stance": "Support",
+      "weight": 35
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::anchor",
+      "stance": "Support",
+      "weight": 32
     },
     {
       "source": "PERSON::Lex Fridman",
       "target": "CLAIM::anchor",
       "stance": "Neutral",
-      "weight": 15
+      "weight": 29
     },
     {
       "source": "PERSON::Yann LeCun",
       "target": "CLAIM::anchor",
       "stance": "Support",
-      "weight": 15
+      "weight": 22
     },
     {
       "source": "PERSON::Sam Altman",
       "target": "CLAIM::anchor",
       "stance": "Support",
-      "weight": 10
+      "weight": 14
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::anchor",
+      "stance": "Refute",
+      "weight": 11
     },
     {
       "source": "PERSON::Lex Fridman",
       "target": "CLAIM::anchor",
       "stance": "Support",
-      "weight": 8
-    },
-    {
-      "source": "PERSON::Lex Fridman",
-      "target": "CLAIM::anchor",
-      "stance": "Refute",
-      "weight": 7
-    },
-    {
-      "source": "PERSON::Tamay Besiroglu",
-      "target": "CLAIM::anchor",
-      "stance": "Refute",
-      "weight": 7
-    },
-    {
-      "source": "PERSON::Tamay Besiroglu",
-      "target": "CLAIM::anchor",
-      "stance": "Neutral",
-      "weight": 6
-    },
-    {
-      "source": "PERSON::Jensen Huang",
-      "target": "CLAIM::anchor",
-      "stance": "Refute",
-      "weight": 6
+      "weight": 9
     },
     {
       "source": "PERSON::Victor Shih",
+      "target": "CLAIM::anchor",
+      "stance": "Refute",
+      "weight": 8
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 5
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::anchor",
+      "stance": "Support",
+      "weight": 5
+    },
+    {
+      "source": "PERSON::Jensen Huang",
       "target": "CLAIM::anchor",
       "stance": "Refute",
       "weight": 5
@@ -160,7 +166,7 @@
     {
       "source": "PERSON::Tamay Besiroglu",
       "target": "CLAIM::anchor",
-      "stance": "Support",
+      "stance": "Refute",
       "weight": 4
     },
     {
@@ -168,6 +174,12 @@
       "target": "CLAIM::anchor",
       "stance": "Neutral",
       "weight": 4
+    },
+    {
+      "source": "PERSON::Moderator",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 3
     },
     {
       "source": "PERSON::Victor Shih",
@@ -182,7 +194,7 @@
       "weight": 2
     },
     {
-      "source": "PERSON::Sam Altman",
+      "source": "PERSON::Tamay Besiroglu",
       "target": "CLAIM::anchor",
       "stance": "Neutral",
       "weight": 2

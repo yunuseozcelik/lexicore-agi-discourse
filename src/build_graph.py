@@ -124,37 +124,48 @@ def draw_graph(graph, out_path):
         matplotlib.use("Agg")  # no display needed
         import matplotlib.pyplot as plt
         from matplotlib.lines import Line2D
+        from matplotlib.patches import FancyArrowPatch
     except ImportError:
         print("\n[viz] skipped PNG (install: pip install networkx matplotlib)")
         return
-
-    G = nx.MultiDiGraph()
-    for n in graph["nodes"]:
-        G.add_node(n["id"], **n)
-    for e in graph["edges"]:
-        G.add_edge(e["source"], e["target"], stance=e["stance"], weight=e["weight"])
 
     anchor = next(n["id"] for n in graph["nodes"] if n["type"] == "claim")
     persons = [n["id"] for n in graph["nodes"] if n["type"] == "person"]
 
     # anchor in the centre, people on a circle around it
+    G = nx.Graph()
+    G.add_nodes_from(persons + [anchor])
     pos = nx.circular_layout(persons, scale=1.0)
     pos[anchor] = (0.0, 0.0)
 
-    fig, ax = plt.subplots(figsize=(11, 8))
+    fig, ax = plt.subplots(figsize=(12, 9))
+
+    # index each person's stance edges so we can fan the 3 stances apart with
+    # different curvatures (otherwise Support/Refute/Neutral overlap on the same
+    # line and you can't tell which is thickest). Each stance gets its own arc so
+    # every edge is always readable.
+    STANCE_RAD = {"Support": -0.22, "Refute": 0.0, "Neutral": 0.22}
+    for e in graph["edges"]:
+        p, a = pos[e["source"]], pos[e["target"]]
+        rad = STANCE_RAD.get(e["stance"], 0.0)
+        patch = FancyArrowPatch(
+            p, a, connectionstyle=f"arc3,rad={rad}",
+            arrowstyle="-", linewidth=1.0 + 0.35 * e["weight"],
+            color=STANCE_COLORS.get(e["stance"], "#000000"),
+            alpha=0.85, zorder=1,
+        )
+        ax.add_patch(patch)
+        # small weight label near the person end of each edge
+        lx = p[0] * 0.72 + a[0] * 0.28 + rad * 0.18
+        ly = p[1] * 0.72 + a[1] * 0.28 + rad * 0.18
+        ax.text(lx, ly, str(e["weight"]), fontsize=7, ha="center", va="center",
+                color=STANCE_COLORS.get(e["stance"], "#000"), zorder=3,
+                bbox=dict(boxstyle="round,pad=0.1", fc="white", ec="none", alpha=0.7))
 
     nx.draw_networkx_nodes(G, pos, nodelist=[anchor], node_color="#1f77b4",
-                           node_size=2600, node_shape="s", ax=ax)
+                           node_size=2800, node_shape="s", ax=ax)
     nx.draw_networkx_nodes(G, pos, nodelist=persons, node_color="#ffcc66",
-                           node_size=1600, ax=ax)
-
-    # each (person, stance) edge, colored + width by weight
-    for e in graph["edges"]:
-        nx.draw_networkx_edges(
-            G, pos, edgelist=[(e["source"], e["target"])],
-            edge_color=STANCE_COLORS.get(e["stance"], "#000000"),
-            width=1.0 + 0.25 * e["weight"], alpha=0.7,
-            connectionstyle="arc3,rad=0.08", arrows=True, ax=ax)
+                           node_size=1700, ax=ax)
 
     labels = {n["id"]: n["label"] if n["type"] == "person" else "ANCHOR CLAIM\n(AGI near-term)"
               for n in graph["nodes"]}
@@ -162,9 +173,11 @@ def draw_graph(graph, out_path):
 
     legend = [Line2D([0], [0], color=c, lw=3, label=s)
               for s, c in STANCE_COLORS.items()]
-    ax.legend(handles=legend, title="Stance (edge width = #segments)", loc="upper left")
+    ax.legend(handles=legend, title="Stance (edge width & number = #segments)",
+              loc="upper left")
     ax.set_title("Person–Stance Knowledge Graph (mini)")
     ax.axis("off")
+    ax.margins(0.12)
     fig.tight_layout()
     fig.savefig(out_path, dpi=150)
     plt.close(fig)
