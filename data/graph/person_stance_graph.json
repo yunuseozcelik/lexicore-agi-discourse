@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "id": "CLAIM::anchor",
+      "type": "claim",
+      "label": "AGI will arrive in the near term and/or is something to be optimistic about."
+    },
+    {
+      "id": "PERSON::Ege Erdil",
+      "type": "person",
+      "label": "Ege Erdil",
+      "segments": 130
+    },
+    {
+      "id": "PERSON::Yann LeCun",
+      "type": "person",
+      "label": "Yann LeCun",
+      "segments": 108
+    },
+    {
+      "id": "PERSON::Jensen Huang",
+      "type": "person",
+      "label": "Jensen Huang",
+      "segments": 84
+    },
+    {
+      "id": "PERSON::Lex Fridman",
+      "type": "person",
+      "label": "Lex Fridman",
+      "segments": 49
+    },
+    {
+      "id": "PERSON::Victor Shih",
+      "type": "person",
+      "label": "Victor Shih",
+      "segments": 48
+    },
+    {
+      "id": "PERSON::Sam Altman",
+      "type": "person",
+      "label": "Sam Altman",
+      "segments": 21
+    },
+    {
+      "id": "PERSON::Tamay Besiroglu",
+      "type": "person",
+      "label": "Tamay Besiroglu",
+      "segments": 11
+    },
+    {
+      "id": "PERSON::Dwarkesh Patel",
+      "type": "person",
+      "label": "Dwarkesh Patel",
+      "segments": 4
+    },
+    {
+      "id": "PERSON::Moderator",
+      "type": "person",
+      "label": "Moderator",
+      "segments": 3
+    }
+  ],
+  "edges": [
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 51
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 47
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::anchor",
+      "stance": "Refute",
+      "weight": 44
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::anchor",
+      "stance": "Refute",
+      "weight": 44
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 42
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 37
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::anchor",
+      "stance": "Support",
+      "weight": 35
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::anchor",
+      "stance": "Support",
+      "weight": 32
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 29
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::anchor",
+      "stance": "Support",
+      "weight": 22
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::anchor",
+      "stance": "Support",
+      "weight": 14
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::anchor",
+      "stance": "Refute",
+      "weight": 11
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::anchor",
+      "stance": "Support",
+      "weight": 9
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::anchor",
+      "stance": "Refute",
+      "weight": 8
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 5
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::anchor",
+      "stance": "Support",
+      "weight": 5
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::anchor",
+      "stance": "Refute",
+      "weight": 5
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::anchor",
+      "stance": "Refute",
+      "weight": 4
+    },
+    {
+      "source": "PERSON::Dwarkesh Patel",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 4
+    },
+    {
+      "source": "PERSON::Moderator",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 3
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::anchor",
+      "stance": "Support",
+      "weight": 3
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::anchor",
+      "stance": "Refute",
+      "weight": 2
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::anchor",
+      "stance": "Neutral",
+      "weight": 2
+    }
+  ]
+}
