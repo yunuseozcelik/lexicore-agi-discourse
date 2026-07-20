@@ -1,0 +1,312 @@
+{
+  "0": {
+    "canonical_claim": "Elon Musk is a good systems thinker who questions everything to optimize processes.",
+    "size": 4,
+    "members": [
+      "The current state of academia and industry is not adequately addressing important questions in AI, which justifies the creation of their organization.",
+      "AI is contributing to total factor productivity (TFP) through improvements in processes and efficiencies.",
+      "The speaker expresses concern about the potential for suffering in future AI systems and questions the inevitability of negative outcomes.",
+      "Elon Musk is a good systems thinker who questions everything to optimize processes."
+    ]
+  },
+  "1": {
+    "canonical_claim": "Scaling AI models can lead to interesting developments despite concerns about unpredictability and risks.",
+    "size": 12,
+    "members": [
+      "Emergent properties and scaling in AI can lead to unexpected positive outcomes.",
+      "Scaling AI models is often underestimated by experts in the field.",
+      "Scaling AI models can lead to interesting developments despite concerns about unpredictability and risks.",
+      "Scaling deep learning models can lead to significant advancements and should be pursued despite skepticism.",
+      "Betting against LLM scaling is misguided and the empirical results support its success.",
+      "The increasing efficiency and lower cost of running AI models will lead to more experiments and potentially faster advancements in AI capabilities.",
+      "The simultaneous scaling of capital and AI workforce will lead to faster growth and transformative changes.",
+      "The development of AI could lead to a beneficial economic situation for humans, despite concerns about losing control.",
+      "The influence of current developments in AGI is relatively low despite being higher than in the past, and the transition to AGI will be diffuse rather than concentrated in specific labs.",
+      "China is enthusiastic about AI advancements and sees them as a path to national greatness, despite concerns about AGI undermining authority.",
+      "Central planning can lead to success cases in technology funding, despite skepticism about its effectiveness.",
+      "There are blockers that need to be overcome to continue scaling AI technology."
+    ]
+  },
+  "2": {
+    "canonical_claim": "NVIDIA's growth is extremely likely and inevitable.",
+    "size": 7,
+    "members": [
+      "There are likely undiscovered problems that could lead to significant market opportunities in AGI.",
+      "Building the necessary infrastructure for AGI is extremely challenging and relies on a vast amount of data.",
+      "Plans made today for managing AI growth will likely become obsolete as new information emerges.",
+      "NVIDIA's growth is extremely likely and inevitable.",
+      "NVIDIA has the potential to become a $3 trillion revenue company in the near future due to its scalable business model and partnerships.",
+      "NVIDIA's success is crucial for the United States' technology leadership and national security, contributing to job creation and economic prosperity.",
+      "NVIDIA is doing very important work that is consequential for humanity."
+    ]
+  },
+  "3": {
+    "canonical_claim": "The potential for an arms race due to explosive growth in AI capabilities could impact international relations and military dynamics.",
+    "size": 13,
+    "members": [
+      "The potential for AGI is significant and can lead to valuable products.",
+      "The development of AI capabilities has been slow and may require more significant advancements before matching human capabilities.",
+      "The value of a system in monetary terms does not necessarily indicate its potential to transform the world economy.",
+      "The initial growth of AI innovation may be concentrated in a small geographic area before expanding globally.",
+      "The potential for an arms race due to explosive growth in AI capabilities could impact international relations and military dynamics.",
+      "AGI will lead to explosive growth and new organizations, despite potential negative impacts on human contributions.",
+      "Regulation may slow down AI development but is unlikely to prevent explosive growth.",
+      "The argument against explosive growth in AI is fundamentally flawed because it misunderstands the nature of productivity growth rates.",
+      "Engineering should be based on first principles and physical limits rather than continuous improvement.",
+      "The open source culture and social dynamics in certain countries accelerate innovation and talent development.",
+      "The success of CUDA is due to the dedication of the company and its large developer community, not just the technology itself.",
+      "The speaker suggests that the rapid growth of AI applications indicates a significant future impact of AI technology.",
+      "DLSS 5 enhances game graphics without altering the original artistry."
+    ]
+  },
+  "4": {
+    "canonical_claim": "In five years, AGI will be capable of performing most white-collar work, indicating a near-term arrival of AGI.",
+    "size": 8,
+    "members": [
+      "The excitement around early models like GPT-3 was not matched by their actual performance, indicating that AGI is still a long way off.",
+      "Extrapolating current AI trends to predict near-term AGI is flawed due to the small fraction of the economy currently automated by AI.",
+      "There are significant constraints on scaling compute for AI, which may limit the near-term development of AGI.",
+      "We should be humble about our predictions regarding AGI and focus on the nearer term.",
+      "In five years, AGI will be capable of performing most white-collar work, indicating a near-term arrival of AGI.",
+      "The market for inference in supercomputing is approaching an inflection point, indicating significant growth.",
+      "The advancements in deep learning over the last five years have increased confidence in its effectiveness and potential for generating revenue.",
+      "The arrival of transformative technology like AI will cause significant job loss and suffering, and there is uncertainty about how to address this pain."
+    ]
+  },
+  "5": {
+    "canonical_claim": "Cultural and governance factors will slow down the deployment of AI technologies in some countries, affecting their growth compared to others.",
+    "size": 9,
+    "members": [
+      "There is a significant compute shortage affecting the AI industry, but people believe improvements will be made with existing hardware.",
+      "Humans have more efficient learning and cultural transmission compared to animals, which affects their capabilities in the economy.",
+      "The deployment of AI technology will be valuable despite potential regulatory constraints.",
+      "The political and social reactions to AI deployment will vary significantly across countries, and some may adapt positively to it.",
+      "The adoption of AGI technology will vary by region due to regulatory and economic factors.",
+      "Misalignment is not the sole cause of conflict; other factors also contribute.",
+      "Cultural and governance factors will slow down the deployment of AI technologies in some countries, affecting their growth compared to others.",
+      "Regulatory jurisdiction boundaries will significantly influence the growth of AI technology across countries.",
+      "The Chinese government's efforts to improve technology and fulfill its goals are dysfunctional compared to the private sector."
+    ]
+  },
+  "6": {
+    "canonical_claim": "The speaker believes that AI will be useful before it becomes universally intelligent and that it will need to use existing tools to be effective.",
+    "size": 7,
+    "members": [
+      "The speaker believes that with sufficient computing power and current architectures, AI will achieve significant capabilities in the near future.",
+      "The speaker believes that existing economic solutions like universal basic income may not need to be novel but rather tweaked for the current era.",
+      "AI will operate more efficiently within the existing economy rather than developing independently.",
+      "AI will grow to dominate the workforce, but this growth comes with costs to existing norms and rules.",
+      "The speaker believes that the potential for positive impact on the future is hopeless due to the magnitude of change expected before technological maturity.",
+      "The speaker expresses concern about the future treatment of digital beings and emphasizes the importance of their welfare.",
+      "The speaker believes that AI will be useful before it becomes universally intelligent and that it will need to use existing tools to be effective."
+    ]
+  },
+  "7": {
+    "canonical_claim": "The concept of an intelligence explosion is misleading and not useful for understanding AI development.",
+    "size": 17,
+    "members": [
+      "The concept of an intelligence explosion is misleading and not useful for understanding AI development.",
+      "The development of AGI could lead to an intelligence explosion if certain advancements are made in the near future.",
+      "Automating necessary tasks could lead to a rapid intelligence explosion resulting in superhuman AGI.",
+      "The rapid increase in compute could lead to an intelligence explosion in the next few years.",
+      "Understanding the complexities of AI development leads to a more conservative view on its near-term potential.",
+      "AI will be much more powerful than humans, but that doesn't necessarily predict aggressive actions.",
+      "AI may not become misaligned even with optimization pressure and superintelligence.",
+      "Making contact with the real world is crucial for understanding AI's impact and informing policies.",
+      "The concept of superhuman intelligence is vague and not particularly helpful for understanding the transition to advanced AI.",
+      "The concept of ASI (Artificial Superintelligence) is not particularly meaningful or useful for understanding AI's impact on the world.",
+      "Focusing on optimizing AI capabilities beyond human levels is worthwhile, but the concept of superhuman AI may not be useful in development.",
+      "The Chinese government prioritizes developing safety measures for AI alongside its advancement, contrasting with the American approach.",
+      "Inference in AI is more complex than pre-training and will not be easily commoditized.",
+      "The process of scaling AI involves creating agentic systems that can spawn sub-agents, which is a significant step in AI development.",
+      "AI development involves managing psychological burdens and sharing concerns to address challenges effectively.",
+      "Intelligence is a commodity and should not be overly romanticized, as it is functional and distinct from humanity.",
+      "Understanding the biological machine and explaining consciousness will happen within five years."
+    ]
+  },
+  "8": {
+    "canonical_claim": "AI could significantly boost economic growth, potentially allowing China to overcome its debt issues.",
+    "size": 3,
+    "members": [
+      "The capabilities and ambitions of startups in AI have significantly changed due to advancements in technology.",
+      "AI could significantly boost economic growth, potentially allowing China to overcome its debt issues.",
+      "China's competitive tech ecosystem and education system contribute significantly to advancements in AI."
+    ]
+  },
+  "9": {
+    "canonical_claim": "R&D is important but not sufficient on its own for achieving significant technological advancements like a Dyson sphere.",
+    "size": 11,
+    "members": [
+      "Building a reasoning model was insurmountable in 2015 and required significant technological advancements.",
+      "The development of agency in AI may seem simple in hindsight, but achieving it will require significant complementary innovations and improvements in hardware and scaling.",
+      "Technological growth and R&D will lead to significant advancements, potentially similar to what humans would invent by 2050.",
+      "The development of technology like AGI requires significant infrastructure and capital buildup, which is a complex interplay rather than a straightforward invention process.",
+      "R&D is important but not sufficient on its own for achieving significant technological advancements like a Dyson sphere.",
+      "Technological maturity may lead to a slowdown in growth and change in civilization.",
+      "Intelligence is not the bottleneck for technological progress, and scaling other factors is necessary for AI advancements.",
+      "Advanced technology may not be fully accessible or understandable to individuals, but it is preferable to live in a world with such advancements.",
+      "There will be significant demand for increased product variety and consumption as the economy grows.",
+      "Lex expresses skepticism about AI achieving human-like subjective experiences and acknowledges the mysteries of intelligence.",
+      "Humanity and character are more important than intelligence, and AI will help celebrate human qualities."
+    ]
+  },
+  "10": {
+    "canonical_claim": "AI systems could quickly be integrated into companies as substitutes for human workers, leading to optimism about their near-term impact.",
+    "size": 13,
+    "members": [
+      "LLMs have surpassed human intelligence in some areas and will continue to scale, suggesting optimism about their capabilities.",
+      "AI will continue to progress exponentially, leading to significant societal changes in the near future.",
+      "Many people underestimate the complexity of jobs and overestimate the potential for automation to replace them, which reflects a more cautious view on AGI's near-term impact.",
+      "AI systems excel at tasks that are recent innovations, while struggling with tasks that humans find easier.",
+      "AI systems can make rapid progress on specific tasks that impress humans, but this doesn't indicate their overall competence.",
+      "AI systems may pose risks due to poor communication and coordination with humans, leading to inefficiencies.",
+      "AI systems could quickly be integrated into companies as substitutes for human workers, leading to optimism about their near-term impact.",
+      "AI systems can be aligned to have desired preferences, which could transform the structure of human firms.",
+      "AI systems have advantages over humans in learning efficiency and economies of scale.",
+      "The development of systems like OpenClaw represents a profound impact on the future of computing and suggests that AGI is advancing rapidly.",
+      "One should approach new experiences with optimism and a child-like mindset, ignoring potential setbacks.",
+      "Lex expresses optimism about humanity's capacity for kindness and generosity, which gives him hope for the future.",
+      "Jensen Huang expresses optimism about the near-term potential of technology to solve major problems and improve life."
+    ]
+  },
+  "11": {
+    "canonical_claim": "Jensen Huang believes that AGI will eventually be achieved and is optimistic about its future.",
+    "size": 9,
+    "members": [
+      "AI systems are expected to eventually drive most of the economy.",
+      "We should prepare for future challenges related to AGI and its societal impacts, but it's uncertain if limiting competition is beneficial.",
+      "We should maintain flexibility and adaptability in the face of uncertainty about the future of AGI.",
+      "The ability to replicate coherent vision and culture in organizations is a significant issue for the future of AGI.",
+      "Jensen Huang believes that a convincing future of AGI will manifest due to strong reasoning and belief.",
+      "Jensen Huang actively shapes the beliefs of his team regarding new technologies and strategies.",
+      "Jensen Huang emphasizes the practical challenges and considerations for AI in space, suggesting a focus on immediate opportunities rather than predicting the timeline for AGI.",
+      "Jensen Huang believes that AGI will eventually be achieved and is optimistic about its future.",
+      "AGI has already been achieved and could enable a company to be run by an AI system."
+    ]
+  },
+  "12": {
+    "canonical_claim": "Current AI models may not be capable of achieving full agentic computer use by 2026.",
+    "size": 12,
+    "members": [
+      "The current capabilities pipeline for AI models may not be optimal and could undergo a major rewrite in the future.",
+      "We will have incredible AI models soon, but we need to focus on making intelligence cheap and abundant.",
+      "The demand for AI models will continue to grow indefinitely as they become smarter and cheaper to produce.",
+      "Unhobbling existing AI models is easier than creating entirely new capabilities for intelligence.",
+      "Current AI models may not be capable of achieving full agentic computer use by 2026.",
+      "AI models are improving rapidly and may achieve human-like intelligence by 2030.",
+      "Automating research is more difficult than people think and current AI models lack the necessary skills.",
+      "Current AI models excel in specific reasoning tasks but struggle with broader, more complex problem-solving contexts.",
+      "Current reasoning models in AI have not demonstrated creativity or innovation in mathematics despite their vast knowledge.",
+      "Humans have the ability to find connections that current AI models do not incentivize, but with the right training, AI could potentially achieve similar capabilities.",
+      "The design of the new computing system anticipates future needs for running advanced AI models and agents.",
+      "The development of open-source projects like OpenClaw is significant for agentic systems and has captured global attention."
+    ]
+  },
+  "13": {
+    "canonical_claim": "Everyone should learn to use AI to enhance their jobs and adapt to its impact.",
+    "size": 7,
+    "members": [
+      "Intelligence will become a new utility that everyone needs access to and will use in various ways.",
+      "We are still very far from achieving a general AI model that can adapt to new, generic tasks without prior training.",
+      "The traditional arguments against central banking may weaken with the use of AI, suggesting a potential for improved economic management.",
+      "Generative AI tools enhance artistic creation and help artists express their intent.",
+      "People are worried about their jobs due to the rise of AI agents, but there will be social applications that may succeed temporarily.",
+      "The prediction that AI would eliminate radiology jobs was incorrect, as the number of radiologists has actually increased despite advancements in AI.",
+      "Everyone should learn to use AI to enhance their jobs and adapt to its impact."
+    ]
+  },
+  "14": {
+    "canonical_claim": "Expertise in AI will be crucial for hiring decisions across various professions.",
+    "size": 7,
+    "members": [
+      "Value alignment in AI is crucial because if AI becomes wealthy, it may prioritize the utility function programmed into it.",
+      "Reasoning about the implications of advanced AI is crucial for making progress in planning for its transition.",
+      "The success of CUDA is crucial for attracting developers to the computing platform.",
+      "AI should be broadly accessible and utilized across various industries and modalities.",
+      "AI will elevate the capabilities and value of various professions, making more people able to code and design software.",
+      "Expertise in AI will be crucial for hiring decisions across various professions.",
+      "Passing on knowledge and empowering others is crucial for the future of a company."
+    ]
+  },
+  "15": {
+    "canonical_claim": "Economic growth could accelerate significantly due to AI and data collection, despite human bottlenecks.",
+    "size": 15,
+    "members": [
+      "AGI will not experience a sudden leap in capabilities like the transition from pre-human primates to humans due to biological constraints that do not apply to AI.",
+      "A significant change in AI collaboration and communication will occur, similar to the transition from non-human animals to humans.",
+      "Having more intelligence and reasoning alone will not significantly accelerate technological change and economic growth.",
+      "The speaker suggests that the idea of explosive economic growth driven by automation and robotics may be overly optimistic or aggressive.",
+      "Widespread deployment of AI systems is necessary for efficient data collection and improvement of AI capabilities.",
+      "Economic growth could accelerate significantly due to AI and data collection, despite human bottlenecks.",
+      "Accelerating human change due to AI could lead to significant shifts in values and influence.",
+      "AI may not improve certain sectors like health care, which could bottleneck economic growth.",
+      "The reallocation of labor due to AGI could lead to significant economic growth, even with bottlenecks.",
+      "The centralized processing of AI data can lead to more intelligent updates and improvements, suggesting progress in AI capabilities.",
+      "The belief that we are out of data for training AI is incorrect, and we will continue to scale data, including synthetic data, for AI development.",
+      "The growth and efficiency of AI computing are accelerating, which is crucial for overcoming supply chain bottlenecks.",
+      "The growth of the IT and infrastructure industries is expected to continue or accelerate in the near future.",
+      "The world's GDP will accelerate in growth due to advancements in computation and the value of tokens.",
+      "AI may understand human emotions but will not replicate the feelings associated with them."
+    ]
+  },
+  "16": {
+    "canonical_claim": "The concentration of AGI power in a few companies is a risk that should not be tolerated, and there is a strong belief in a democratic path for AGI development.",
+    "size": 14,
+    "members": [
+      "The development of AGI is comparable to the historical introduction of electricity as a utility, suggesting a transformative potential that may not be immediately understood or accepted by the public.",
+      "AGI technology should be widely democratized to avoid concentration of power and ensure fairness.",
+      "The concentration of AGI power in a few companies is a risk that should not be tolerated, and there is a strong belief in a democratic path for AGI development.",
+      "Ege Erdil suggests that significant advancements in AGI capabilities would be marked by the ability to perform complex tasks and generate substantial revenue, but he is skeptical about AGI arriving soon.",
+      "Dario has a history of predicting short timelines for AGI, which may not be well calibrated.",
+      "The capabilities of animals compared to humans highlight a discontinuity that AI could potentially bridge, suggesting a path toward AGI.",
+      "The belief that AGI will arrive soon is based on weak arguments about the stability of utility functions and the preservation of digital information.",
+      "It's unclear whether speeding up or slowing down AGI development affects the likelihood of a negative outcome.",
+      "The Chinese government has mechanisms to control AGI development, potentially pulling the plug if it generates undesirable content.",
+      "The financial system influences companies to behave in a way that may not align with profit-seeking motives, particularly in sectors deemed strategic by the government.",
+      "Distributed computing presents significant challenges that complicate the scaling of AGI development.",
+      "The future blockers for AGI development include compute and energy efficiency, but significant progress has been made in scaling computing capabilities.",
+      "The shift from retrieval-based to generative computing requires significantly more processing power and fundamentally changes how computing is done.",
+      "The timeline for AGI depends on how one defines AGI, particularly in terms of job performance."
+    ]
+  },
+  "17": {
+    "canonical_claim": "The probability of achieving AGI by 2027 and a software-only singularity is considered quite high due to expected software progress.",
+    "size": 8,
+    "members": [
+      "The education system has not adapted to the advancements in AI as expected, which is concerning.",
+      "Progress in AI has been rapid, suggesting AGI could arrive sooner than expected.",
+      "The probability of achieving AGI by 2027 and a software-only singularity is considered quite high due to expected software progress.",
+      "The idea of a software-only singularity leading to value lock-in is unlikely and differs from historical precedents.",
+      "Delaying AGI could lead to significant loss of life, making the pursuit of AGI a high-value endeavor.",
+      "Ege Erdil expresses skepticism about the software singularity but believes it won't block explosive growth in AGI development.",
+      "Digital firms could evolve more rapidly with high fidelity replication of knowledge and skills.",
+      "The number of software engineers will grow due to the evolving nature of their work."
+    ]
+  },
+  "18": {
+    "canonical_claim": "The effectiveness of compute in AI research is heavily influenced by the culture and prioritization of the team, not just the amount of compute available.",
+    "size": 10,
+    "members": [
+      "Research in AI is harder than people think and heavily relies on compute scale.",
+      "The relationship between research effort and innovation in AI is ambiguous, suggesting that scaling up may not guarantee acceleration in progress.",
+      "The progress in AI is closely tied to advancements in hardware, particularly in GPU-rich environments.",
+      "The relationship between compute and AI progress is not necessarily causal, as companies with less compute can outperform those with more.",
+      "AI researchers may overstate the importance of cognitive effort in driving innovations, suggesting that compute is a more significant factor.",
+      "The speaker is skeptical about the claims of significant acceleration in AI research due to current models.",
+      "The effectiveness of compute in AI research is heavily influenced by the culture and prioritization of the team, not just the amount of compute available.",
+      "Pausing AI research will hinder progress on alignment and discoveries, making it important to continue scaling efforts.",
+      "Intelligence will scale primarily through increased compute and ongoing innovation in AI architectures.",
+      "Open source is necessary for AI innovation and diffusion across industries."
+    ]
+  },
+  "19": {
+    "canonical_claim": "The economic situation in China shows significant waste and inefficiency, impacting the quality of life despite growth.",
+    "size": 4,
+    "members": [
+      "Accelerating automation and AGI will lead to significant economic growth and improved quality of life.",
+      "AI content creation will face significant challenges in China due to strict content regulation.",
+      "The economic situation in China shows significant waste and inefficiency, impacting the quality of life despite growth.",
+      "AI can provide practical guidance and support in various aspects of life, acting as a life coach."
+    ]
+  }
+}
