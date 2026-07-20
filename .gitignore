@@ -1,6 +1,9 @@
 # Working notes / drafts (kept locally)
 docs/
 
+# Model training outputs / checkpoints (large, regenerable)
+data/bert_out/
+
 # Python
 __pycache__/
 *.pyc
