@@ -96,7 +96,8 @@ karşılaştırma için korundu.
 - **5 video**, **546 semantic segment** (min=60, ~67 sn ortalama), tümü etiketli.
 - **Stance Macro-F1 = 0.562** | **Claim Macro-F1 = 0.782** (5-fold CV).
 - Knowledge graph: **9 kişi düğümü + 1 anchor**, 23 ağırlıklı stance kenarı.
-- Kod, ayrı `eylul` branch'inde; API anahtarları `.gitignore` ile korunuyor.
+- Kod artık `main`'e merge edildi (eski `eylul` ve `claim-clustering-embedding`
+  branch'leri); API anahtarları `.gitignore` ile korunuyor.
 
 ### Stance dağılımı (546 segment)
 
@@ -128,14 +129,69 @@ okunmuyor (mini graf sınırı); baskın stance için aşağıdaki tabloya bakı
 
 ---
 
-## 6. Sonraki adımlar (planlanan)
+## 6. Kanonik claim clustering — tek anchor → çok-claim'li grafa geçiş
 
-- **Kanonik claim clustering:** ham claim'leri gruplayıp tek anchor → çok-claim'li
-  gerçek person–claim–stance grafına geçmek. İki yöntem karşılaştırılıyor:
-  **topic-tabanlı** vs **embedding-tabanlı** clustering.
-- **Gold set:** stratified örneklemi elle doğrulayıp LLM–insan uyumu (Cohen's κ).
-- **BERT distillation:** LLM silver etiketlerinden BERT/DistilBERT student modeli
-  (GPU ile — okuldan talep edildi, onaylandı).
+**İlk durum:** Graf tek bir "anchor claim" düğümü kullanıyordu; ham claim'ler
+gruplanmamıştı.
+
+**Ne yaptık:** 546 segmentteki **359 ham claim** iki yöntemle kanonik claim'lere
+gruplandı ve karşılaştırıldı:
+- `src/cluster_claims.py` — **TF-IDF + KMeans** (topic-tabanlı, yüzeysel kelime örtüşmesi).
+- `src/cluster_claims_embed.py` — **sentence-transformer embedding** (`all-MiniLM-L6-v2`)
+  + KMeans (anlam-tabanlı).
+- Her iki çıktı `data/graph/canonical_claims.json` ve `canonical_claims_embed.json`
+  (20'şer küme, küme başına kanonik claim + üyeler).
+
+**Ne oldu:** İki yöntem de 359 claim'i 20 kanonik başlığa indirdi. Embedding
+yöntemi anlamca yakın ama farklı kelimelerle ifade edilmiş claim'leri daha iyi
+topluyor; TF-IDF ise yüzeysel kelime örtüşmesine takılıyor. Bu, tek-anchor
+grafından gerçek çok-claim'li person–claim–stance grafına geçişin altyapısı.
+
+---
+
+## 7. BERT student model — silver etiketlerden distillation
+
+**İlk durum:** Sadece TF-IDF + LogReg stance baseline'ı vardı (Macro-F1 0.562).
+
+**Ne yaptık:** `src/train_bert_stance.py` yazıldı. LLM silver stance etiketlerinden
+**DistilBERT** (`distilbert-base-uncased`) fine-tune ediliyor — "teacher LLM →
+küçük BERT student" distillation. Eğitim RTX 3050 GPU'da. Baseline ile **aynı
+5-fold CV** metodolojisi kullanıldı.
+
+- **Dengesizlik tuzağı:** düz cross-entropy ile model çoğunluk sınıfına (Neutral)
+  çöktü → Macro-F1 **0.233** (hepsini Neutral tahmin etti). Baseline'daki gibi
+  **balanced class-weighted cross-entropy** eklenince model üç sınıfı da öğrendi.
+
+**Ne oldu:**
+
+| Model | Metod | Stance Macro-F1 |
+|---|---|---|
+| Majority-class | — | ~0.23 |
+| DistilBERT (düz CE) | 5-fold CV | 0.233 (çöktü) |
+| DistilBERT (weighted CE, 6 epoch) | 5-fold CV | **0.518** |
+| **TF-IDF + LogReg (baseline)** | 5-fold CV | **0.562** |
+
+**Bulgu:** DistilBERT (0.518) bu veri setinde tuned TF-IDF baseline'ı (0.562)
+**geçemedi**. Neden: sadece **546 örnek** (transformer fine-tune için çok küçük),
+**silver** (gürültülü) etiketler ve sınıf dengesizliği. "Transformer küçük +
+silver veride otomatik kazanmaz" — rapora değer dürüst bir negatif sonuç.
+Sonraki adım: daha fazla veri + gold set ile yeniden ölçüm, veya soft-label
+(teacher logit) distillation.
+
+DistilBERT sınıf-bazlı (5-fold CV): Support F1 0.518, Refute 0.437, Neutral 0.597.
+
+---
+
+## 8. Sonraki adımlar (planlanan)
+
+- **Veri genişletme:** BERT'in TF-IDF'i geçebilmesi için daha fazla etiketli
+  segment (transformer 546 örnekte veri-aç).
+- **Gold set:** stratified örneklemi elle doğrulayıp LLM–insan uyumu (Cohen's κ);
+  BERT'i silver yerine gold üzerinde de ölç.
+- **Soft-label distillation:** hard etiket yerine teacher LLM logit/olasılıklarıyla
+  distillation.
+- **Kanonik claim → graf:** kanonik claim kümelerini person–claim–stance grafına
+  bağlayıp çok-claim'li grafa geçmek.
 - **Konuşmacı belirsizliği (%16 Unknown):** diyalog yapısıyla iyileştirme.
 - **Retrieval değerlendirmesi:** graf-destekli retrieval vs BM25 & zero-shot LLM
   (MRR, nDCG@10).
@@ -151,4 +207,7 @@ okunmuyor (mini graf sınırı); baskın stance için aşağıdaki tabloya bakı
 | `src/train_baseline.py` | Stance baseline (TF-IDF + LogReg) |
 | `src/train_claim_baseline.py` | Claim classification baseline |
 | `src/build_graph.py` | Person–stance knowledge graph + görsel |
+| `src/cluster_claims.py` | Kanonik claim clustering (TF-IDF + KMeans) |
+| `src/cluster_claims_embed.py` | Kanonik claim clustering (sentence-embedding + KMeans) |
+| `src/train_bert_stance.py` | BERT stance student (DistilBERT, weighted CE, 5-fold CV) |
 | `run_labeling.sh` | Etiketleme + graf yeniden kurma yardımcı script'i |
