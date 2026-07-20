@@ -16,11 +16,15 @@ zero-shot LLM baselines.
 ## Pipeline (current → planned)
 
 1. **Transcript collection** — pull YouTube captions (no speech-to-text). → `src/fetch_transcripts.py`
-2. **Segmentation** — baseline time-window. → `src/fetch_transcripts.py` (semantic LLM segmentation planned)
+2. **Segmentation** — time-window baseline **and** semantic segmentation (min-duration + natural break points). → `src/fetch_transcripts.py`
 3. **Labeling** — speaker + claim + stance via zero-shot LLM. → `src/label_segments.py`
-4. **Baseline classifier** — TF-IDF + Logistic Regression for stance, Macro-F1. → `src/train_baseline.py`
-5. **Graph construction** — person–claim–stance graph with time dimension. *(planned)*
-6. **Evaluation** — Macro-F1 for stance; MRR / nDCG@10 for retrieval vs. BM25 & zero-shot LLM. *(planned, BERT distillation)*
+4. **Baseline classifiers** — TF-IDF + Logistic Regression: stance (Macro-F1 0.562) and claim detection (Macro-F1 0.782). → `src/train_baseline.py`, `src/train_claim_baseline.py`
+5. **Graph construction** — person–stance knowledge graph (weighted stance edges + plot). → `src/build_graph.py`
+6. **Canonical claim clustering** — group raw claims into canonical claims, two methods (TF-IDF+KMeans vs. sentence embeddings). → `src/cluster_claims.py`, `src/cluster_claims_embed.py`
+7. **BERT stance model** — fine-tune DistilBERT on the LLM silver labels (student distillation), compared to the TF-IDF baseline. → `src/train_bert_stance.py`
+8. **Retrieval evaluation** — MRR / nDCG@10 for graph-supported retrieval vs. BM25 & zero-shot LLM. *(planned)*
+
+See `PROGRESS.md` for the step-by-step sprint log, ablations, and current results.
 
 ## Setup
 
