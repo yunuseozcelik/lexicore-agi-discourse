@@ -17,7 +17,8 @@ zero-shot LLM baselines.
 
 1. **Transcript collection** — pull YouTube captions (no speech-to-text). → `src/fetch_transcripts.py`
 2. **Segmentation** — time-window baseline **and** semantic segmentation (min-duration + natural break points). → `src/fetch_transcripts.py`
-3. **Labeling** — speaker + claim + stance via zero-shot LLM. → `src/label_segments.py`
+3. **Labeling** — speaker + claim + stance via zero-shot LLM (silver labels). → `src/label_segments.py`
+3b. **Gold labeling** — human review of the silver labels (Streamlit tool) + LLM-vs-human agreement (Cohen's κ). → `src/label_manual.py`, `src/compute_agreement.py`
 4. **Baseline classifiers** — TF-IDF + Logistic Regression: stance (Macro-F1 0.562) and claim detection (Macro-F1 0.782). → `src/train_baseline.py`, `src/train_claim_baseline.py`
 5. **Graph construction** — person–stance knowledge graph (weighted stance edges + plot). → `src/build_graph.py`
 6. **Canonical claim clustering** — group raw claims into canonical claims, two methods (TF-IDF+KMeans vs. sentence embeddings). → `src/cluster_claims.py`, `src/cluster_claims_embed.py`
@@ -51,7 +52,14 @@ python src/label_segments.py
 
 Writes labeled segments to `data/labeled/`.
 
-3. Train and evaluate the baseline stance classifier:
+3. (Optional) Build a human-verified **gold** set by reviewing the silver labels:
+
+```bash
+streamlit run src/label_manual.py     # confirm/correct pre-filled labels -> data/gold/
+python src/compute_agreement.py       # LLM-vs-human Cohen's kappa
+```
+
+4. Train and evaluate the baseline stance classifier:
 
 ```bash
 python src/train_baseline.py

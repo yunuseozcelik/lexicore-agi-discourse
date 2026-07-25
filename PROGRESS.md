@@ -182,11 +182,32 @@ DistilBERT sınıf-bazlı (5-fold CV): Support F1 0.518, Refute 0.437, Neutral 0
 
 ---
 
-## 8. Sonraki adımlar (planlanan)
+## 8. Gold etiketleme altyapısı — insan doğrulaması (human-in-the-loop)
 
-- **Veri genişletme:** BERT'in TF-IDF'i geçebilmesi için daha fazla etiketli
-  segment (transformer 546 örnekte veri-aç).
-- **Gold set:** stratified örneklemi elle doğrulayıp LLM–insan uyumu (Cohen's κ);
+**İlk durum:** Tüm etiketler silver'dı (LLM); gerçek (gold) test seti ve
+LLM–insan uyum ölçümü yoktu.
+
+**Ne yaptık (altyapı hazır, veri toplanacak):** Sıfırdan elle etiketlemek yerine
+**LLM ön-etiketi + insan düzeltmesi** akışı kuruldu:
+- `src/label_manual.py` — Streamlit aracı: her segmenti silver etiket **önceden
+  dolu** gösterir; insan speaker/is_claim/claim/stance/topic'i onaylar veya
+  düzeltir. Düzeltilen segment `reviewed: true` ile `data/gold/`'a yazılır,
+  orijinal silver değer `*_silver` altında saklanır.
+- `src/compute_agreement.py` — silver vs gold **Cohen's κ** + doğruluk +
+  stance confusion matrix.
+
+**Plan:** 20 yeni video eklenecek. ~2200 segmentin hepsi elle yapılmayacak;
+**stratified ~400-500 segment** elle doğrulanıp **gold test seti** olacak, kalanı
+BERT eğitimi için silver kalacak. κ değeri silver etiketlerin güvenilirliğini
+raporlayacak.
+
+---
+
+## 9. Sonraki adımlar (planlanan)
+
+- **Veri genişletme:** 20 video ekle (`SEED_VIDEOS` + `VIDEO_META`), silver
+  etiketle; BERT'in TF-IDF'i geçebilmesi için transformer'a daha çok veri.
+- **Gold set:** ~400-500 segmenti `label_manual.py` ile doğrula, κ'yı raporla;
   BERT'i silver yerine gold üzerinde de ölç.
 - **Soft-label distillation:** hard etiket yerine teacher LLM logit/olasılıklarıyla
   distillation.
@@ -210,4 +231,6 @@ DistilBERT sınıf-bazlı (5-fold CV): Support F1 0.518, Refute 0.437, Neutral 0
 | `src/cluster_claims.py` | Kanonik claim clustering (TF-IDF + KMeans) |
 | `src/cluster_claims_embed.py` | Kanonik claim clustering (sentence-embedding + KMeans) |
 | `src/train_bert_stance.py` | BERT stance student (DistilBERT, weighted CE, 5-fold CV) |
+| `src/label_manual.py` | Elle gold etiketleme aracı (Streamlit; silver'ı düzeltip data/gold/) |
+| `src/compute_agreement.py` | LLM silver vs insan gold uyumu (Cohen's κ) |
 | `run_labeling.sh` | Etiketleme + graf yeniden kurma yardımcı script'i |
