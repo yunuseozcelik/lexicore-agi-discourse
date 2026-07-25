@@ -26,9 +26,13 @@ Usage:
 """
 
 import json
+import sys
 from pathlib import Path
 
 import streamlit as st
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from claim_taxonomy import CLAIM_IDS, ID2NAME
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 SILVER_DIR = DATA_DIR / "labeled"
@@ -36,7 +40,7 @@ GOLD_DIR = DATA_DIR / "gold"
 STANCES = ["Support", "Refute", "Neutral"]
 
 # Fields the annotator can edit, with the silver value snapshotted alongside.
-EDITABLE = ["speaker", "is_claim", "claim", "stance", "topic"]
+EDITABLE = ["speaker", "is_claim", "claim", "claim_labels", "stance", "topic"]
 
 
 def list_videos():
@@ -129,7 +133,14 @@ with col2:
                       index=STANCES.index(cur_stance),
                       key=f"st_{video_id}_{idx}", horizontal=True)
     claim = st.text_area("Claim (one-sentence paraphrase)", seg.get("claim") or "",
-                         height=120, key=f"cl_{video_id}_{idx}")
+                         height=100, key=f"cl_{video_id}_{idx}")
+
+# multi-label canonical claim categories (full width, easier to scan)
+cur_labels = [c for c in (seg.get("claim_labels") or []) if c in CLAIM_IDS]
+claim_labels = st.multiselect(
+    "Canonical claim categories (multi-label)", options=CLAIM_IDS,
+    default=cur_labels, format_func=lambda i: f"{ID2NAME[i]} ({i})",
+    key=f"cll_{video_id}_{idx}")
 
 # show what the LLM originally said, so the annotator sees the correction
 silver_bits = " · ".join(
@@ -141,6 +152,7 @@ def apply_edits():
     seg["speaker"] = speaker.strip() or "Unknown"
     seg["is_claim"] = is_claim
     seg["claim"] = claim.strip() or None
+    seg["claim_labels"] = claim_labels
     seg["stance"] = stance
     seg["topic"] = topic.strip() or None
     seg["reviewed"] = True
