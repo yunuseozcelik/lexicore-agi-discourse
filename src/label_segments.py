@@ -26,8 +26,12 @@ Usage:
 import argparse
 import json
 import os
+import sys
 import time
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from claim_taxonomy import CLAIM_IDS, taxonomy_prompt_block
 
 # ---------------------------------------------------------------------------
 # Config
@@ -104,6 +108,13 @@ SCHEMA_PROPERTIES = {
         "description": "One concise sentence paraphrasing the main claim. "
                        "Empty string if is_claim is false.",
     },
+    "claim_labels": {
+        "type": "array",
+        "items": {"type": "string", "enum": CLAIM_IDS},
+        "description": "Multi-label: every canonical claim category the segment "
+                       "expresses (zero, one, or several). Use 'other' if none "
+                       "of the substantive categories apply.",
+    },
     "topic": {
         "type": "string",
         "description": "Short 2-4 word topic tag, e.g. 'AGI timeline', "
@@ -136,7 +147,10 @@ SPEAKERS IN THIS VIDEO (assign the speaker to one of these based on conversation
 
 Other people who may be mentioned across the dataset (do NOT assign unless clearly speaking): {people}
 
-Label the following transcript segment. Extract the speaker, whether it states a claim, a one-sentence paraphrase of that claim, a short topic tag, the stance toward the anchor, and your confidence.
+CANONICAL CLAIM CATEGORIES (for multi-label claim_labels — pick EVERY category the segment actually expresses; use "other" if none of the substantive ones apply):
+{claim_taxonomy}
+
+Label the following transcript segment. Extract the speaker, whether it states a claim, a one-sentence paraphrase of that claim, all canonical claim categories it expresses (claim_labels), a short topic tag, the stance toward the anchor, and your confidence.
 
 SEGMENT (t={start}s-{end}s):
 \"\"\"{text}\"\"\"
@@ -177,6 +191,7 @@ def _build_prompt(seg, candidates):
         anchor=ANCHOR_CLAIM,
         candidates=cand_str,
         people=", ".join(TRACKED_PEOPLE),
+        claim_taxonomy=taxonomy_prompt_block(),
         start=seg.get("start"),
         end=seg.get("end"),
         text=seg.get("text", "").strip(),
@@ -242,6 +257,9 @@ def merge_labels(seg, labels):
     seg["speaker"] = labels.get("speaker") or "Unknown"
     seg["claim"] = labels.get("claim") or None
     seg["stance"] = labels.get("stance")  # Support / Refute / Neutral
+    # multi-label canonical claim categories (see claim_taxonomy.py)
+    cl = labels.get("claim_labels") or []
+    seg["claim_labels"] = [c for c in cl if c in CLAIM_IDS]
     # extra fields kept for clustering + manual QA
     seg["is_claim"] = labels.get("is_claim")
     seg["topic"] = labels.get("topic")
