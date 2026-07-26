@@ -1,0 +1,658 @@
+[
+  {
+    "start": 50.4,
+    "end": 122.8,
+    "text": "Today I have the pleasure of speaking \nwith Dario Amodei, the CEO of Anthropic,   and I'm really excited about this one.\nDario, thank you so much for coming   on the podcast.\nThanks for having me.  First question. You have been one of \nthe very few people who has seen scaling   coming for years. As somebody who's seen it \ncoming, what is fundamentally the explanation   for why scaling works? Why is the universe \norganized such that if you throw big blobs   of compute at a wide enough distribution \nof data, the thing becomes intelligent?  I think the truth is that we still don't know. \nIt's almost entirely an empirical fact. It's a   fact that you could sense from the data and from \na bunch of different places but we still don't   have a satisfying explanation for it.\nIf I were to try to make one and I'm just   kind of waving my hands when I say this, there's \nthese ideas in physics around long tail or power   law of correlations or effects. When a bunch of \nstuff happens, when you have a bunch of features,   you get a lot of the data in the early fat \npart of the distribution before the tails.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 123.5,
+    "end": 196.5,
+    "text": "For language, this would be things like \n— “Oh, I figured out there are parts of   speech and nouns follow verbs.” And then there \nare these more and more subtle correlations.  So it kind of makes sense why every log or order \nof magnitude that you add, you capture more of the   distribution. What's not clear at all is why does \nit scale so smoothly with parameters? Why does it   scale so smoothly with the amount of data?\nYou can think up some explanations of why   it's linear. The parameters are like \na bucket, and the data is like water,   and so size of the bucket is proportional to size \nof the water. But why does it lead to all this   very smooth scaling? We still don't know. There's \nall these explanations. Our chief scientist,   Jared Kaplan did some stuff on fractal manifold \ndimension that you can use to explain it.  So there's all kinds of ideas, but I feel \nlike we just don't really know for sure.  And by the way, for the audience who \nis trying to follow along. By scaling,   we're referring to the fact that you can very \npredictably see how if you go from Claude-1   to Claude-2 that the loss in terms of whether it \ncan predict the next token scales very smoothly.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 197.0,
+    "end": 272.9,
+    "text": "Okay, so we don't know why it's happening, but \ncan you at least predict empirically that here   is the loss at which this ability will \nemerge, here is the place where this   circuit will emerge? Is that at all predictable \nor are you just looking at the loss number?  That is much less predictable. What's \npredictable is this statistical average,   this loss, this entropy. And it's super \npredictable. It's sometimes predictable even   to several significant figures which you don't \nsee outside of physics. You don't expect to see   it in this messy empirical field. But specific \nabilities are actually very hard to predict.   Back when I was working on GPT-2 and GPT-3, when \ndoes arithmetic come in place? When do models   learn to code? Sometimes it's very abrupt.\nIt's like how you can predict statistical   averages of the weather, but the weather on \none particular day is very hard to predict.  Dumb it down for me. I don't understand \nmanifolds, but mechanistically,   it doesn't know addition yet and suddenly \nnow it knows addition. What has happened?  This is another question that we don't know the \nanswer to. We're trying to answer this with things   like mechanistic interpretability. You can think \nabout these things like circuits snapping into   place. Although there is some evidence that when \nyou look at the models being able to add things,",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 275.5,
+    "end": 357.4,
+    "text": "its chance of getting the right answer shoots \nup all of a sudden. But if you look at what's   the probability of the right answer? You'll \nsee it climb from like one in a million to   one in 100,000 to one in a 1000 long before it \nactually gets the right answer. In many of these   cases there's some continuous process going on \nbehind the scenes. I don't understand it at all.  Does that imply that the circuit or \nthe process for doing addition was pre   existing and it just got increased in salience?\nI don't know if there's this circuit that's weak   and getting stronger. I don't know if it's \nsomething that works, but not very well.   I think we don't know and these are \nsome of the questions we're trying   to answer with mechanistic interpretability.\nAre there abilities that won't emerge with scale?  I definitely think that things like alignment \nand values are not guaranteed to emerge with   scale. One way to think about it is you train the \nmodel and it's basically predicting the world,   it's understanding the world. Its job is facts \nnot values. It's trying to predict what comes   next. But there's free variables here — What \nshould you do? What should you think? What   should you value? There aren't bits for that.\nThere's just — if I started with this I should   finish with this. If I started with this other \nthing I should finish with this other thing.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 358.2,
+    "end": 453.1,
+    "text": "And so I think that's not going to emerge.\nIf it turns out that scaling plateaus before   we reach human level intelligence, looking \nback on it, what would be your explanation?   What do you think is likely to be the \ncase if that turns out to be the outcome?  I would distinguish some problem with the \nfundamental theory with some practical   issue. One practical issue we could have is \nwe could run out of data. For various reasons,   I think that's not going to happen but if you \nlook at it very naively we're not that far from   running out of data. So it's like we just don't \nhave the data to continue the scaling curves.   Another way it could happen is we just use \nup all of the compute that was available and   that wasn't enough and then progress is slow \nafter that. I wouldn't bet on either of those   things happening but they could.\nFrom a fundamental perspective,   I personally think it's very unlikely \nthat the scaling laws will just stop.   If they do, another reason could just be that \nwe don't have quite the right architecture. If   we tried to do it with an LSTM or an RNN the slope \nwould be different. It still might be that we get   there but there are some things that are just very \nhard to represent when you don't have the ability   to attend far in the past that transformers have. \nIf somehow we just hit a wall and it wasn’t about   the architecture I'd be very surprised by that. \nWe're already at the point where to me the   things the models can't do don't seem to be \ndifferent in kind from the things they can do.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 455.9,
+    "end": 531.5,
+    "text": "You could have made a case a few years ago \nthat they can't reason, they can't program.   You could have drawn boundaries and said maybe \nyou'll hit a wall. I didn't think we would hit a   wall, a few other people didn't think we would \nhit a wall, but it was a more plausible case   then. It's a less plausible case now.\nIt could happen. This stuff is crazy.   We could hit a wall tomorrow. If that happens my \nexplanation would be there's something wrong with   the loss when you train on next word prediction.\nIf you really want to learn to program at a   really high level, it means you care about some \ntokens much more than others and they're rare   enough that the loss function over focuses on the \nappearance, the things that are responsible for   the most bits of entropy, and instead they don't \nfocus on this stuff that's really essential. So   you could have the signal drowned out in the \nnoise. I don't think it's going to play out   that way for a number of reasons. But if you \ntold me — Yes, you trained your 2024 model.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 531.5,
+    "end": 621.4,
+    "text": "It was much bigger and it just wasn't any better, \nand you tried every architecture and didn't work,   that's the explanation I would reach for.\nIs there a candidate for another loss function?   If you had to abandon next token prediction.\nI think then you would have to go for some   kind of RL. There's many different \nkinds. There's RL from immune feedback,   there's RL against an objective, there's things \nlike Constitutional AI. There's things like   amplification and debate. These are kind of both \nalignment methods and ways of training models.  You would have to try a bunch of things, but the \nfocus would have to be on what do we actually care   about the model doing? In a sense, we're a little \nbit lucky that predict the next word gets us all   these other things we need. There's no guarantee.\nFrom your worldview it seems there's a multitude   of different loss functions that it's just a \nmatter of what can allow you to just throw a   whole bunch of data at it. Next token \nprediction itself is not significant.  The thing with RL is you get slowed down a bit \nbecause you have to design how the loss function   works by some method. The nice thing with the \nnext token prediction is it's there for you.   It's the easiest thing in the world. So \nI think it would slow you down if you   couldn't scale in just that very simplest way.\nYou mentioned that data is likely not to be the   constraint. Why do you think that is the case?\nThere's various possibilities here and for a   number of reasons I shouldn't go into the details, \nbut there's many sources of data in the world   and there's many ways that you can also generate \ndata. My guess is that this will not be a blocker.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 621.4,
+    "end": 700.7,
+    "text": "Maybe it would be better \nif it was, but it won't be.  Are you talking about multimodal?\nThere’s just many different ways to do it.  How did you form your views on scaling? How \nfar back can we go? And then you would be   basically saying something similar to this.\nThis view that I have formed gradually from   2014 to 2017. My first experience with \nit was my first experience with AI.   I saw some of the early stuff around AlexNet in \n2012. I always had wanted to study intelligence   but before I was just like, this doesn’t seem \nlike it’s actually working. All the way back   to 2005. I'd read Ray Kurzweil’s work. I'd read \neven some of Eliezer’s work on the early Internet   back then. And I thought this stuff kind of \nlooks far away. I look at the AI stuff of   today and it’s not anywhere close.\nBut with AlexNet I was like, oh,   this stuff is actually starting to \nwork. So I joined Andrew Ng’s group   at Baidu. I had been in a different field and \nthis was my first experience with AI and it was   a bit different from a lot of the academic style \nresearch that was going on elsewhere in the world.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 702.6,
+    "end": 778.2,
+    "text": "I kind of got lucky in that the task \nthat was given to me and the other   folks there. It was just to make the best \nspeech recognition system that you can.  There was a lot of data available, there were a \nlot of GPUs available. It posed the problem in   a way that was amenable to discovering that kind \nof scaling was a solution. That's very different   from being a postdoc whose job is to come up with \nan idea that seems clever and new and makes your   mark as someone who's invented something.\nI just tried the simplest experiments. I   was just fiddling with some dials. I was \nlike, try adding more layers to the RNN,   try training it for longer, what happens? \nHow long does it take to overfit? What if   I add new data and repeat it less times? And \nI just saw these very consistent patterns.  I didn't really know that this was unusual or \nthat others weren't thinking in this way. This was   almost like beginner's luck. It was my first \nexperience with it and I didn't really think   about it beyond speech recognition. I was just \nlike, oh, I don't know anything about this field.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 778.2,
+    "end": 876.2,
+    "text": "There are zillions of things people do with \nmachine learning. But I'm like, weird, this   seems to be true in the speech recognition field.\nIt was just before OpenAI started that I met Ilya,   who you interviewed. One of the first \nthings he said to me was — “Look. The   models, they just want to learn. You have to \nunderstand this. The models, they just want   to learn.” And it was a bit like a Zen Koan. \nI listened to this and I became enlightened.  And over the years, I would be the one who would \nformalize a lot of these things and kind of put   them together, but what that told me was that the \nphenomenon that I'd seen wasn't just some random   thing. It was broad. It was more general. \nThe models just want to learn. You get the   obstacles out of their way. You give them good \ndata, you give them enough space to operate in,   you don't do something stupid like \ncondition them badly numerically,   and they want to learn. They'll do it.\nWhat I find really interesting about   what you said is there were many people who were \naware that these things are really good at speech   recognition or at playing these constrained games. \nVery few extrapolated from there like you and Ilya   did to something that is generally intelligent.\nWhat was different about the way you were thinking   about it versus how others were thinking about \nit? What made you think it's getting better at   speech in this consistent way, it will get \nbetter at everything in this consistent way.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 877.4,
+    "end": 947.1,
+    "text": "I genuinely don't know. At first when I saw it for \nspeech, I assumed this was just true for speech or   for this narrow class of models. I think it was \njust that over the period between 2014 and 2017,   I tried it for a lot of things and saw the same \nthing over and over again. I watched the same   being true with Dota. I watched the same being \ntrue with robotics. Many people thought that   as a counterexample, but I just thought, \nwell, it's hard to get data for robotics,   but if we look within the data that \nwe have, we see the same patterns.  I think people were very focused \non solving the problem in front of   them. It's very hard to explain why one \nperson thinks one way and another person   thinks a different way. People just see it \nthrough a different lens. They are looking   vertically instead of horizontally. \nThey're not thinking about the scaling,   they're thinking about how do I solve my problem? \nAnd for robotics, there's not enough data.   That can easily abstract to — scaling \ndoesn't work because we don't have the data.  For some reason, and it may just have been random, \nI was obsessed with that particular direction.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 947.1,
+    "end": 1032.2,
+    "text": "When did it become obvious to you that language \nis the means to just feed a bunch of data into   these things? Or was it just you ran out of other \nthings. Like robotics, there's not enough data.   This other thing, there's not enough data.\nI think this whole idea of the next word   prediction, that you could do self supervised \nlearning, together with the idea that there's so   much richness and structure there for predicting \nthe next word. It might say two plus two equals   and you have to know the answer is four. It \nmight be telling the story about a character.  Basically, it's posing to the model the \nequivalent of these developmental tests   that get posed to children. Mary walks into \nthe room and puts an item in there and then   Chuck walks into the room and removes the item \nand Mary doesn't see it. What does Mary think?  To get this right in the service of predicting \nthe next word the models are going to have to   solve all these theory of mind problems, solve all \nthese math problems. And so my thinking was just,   well, you scale it up as much as you \ncan. There's kind of no limit to it.  And I think I kind of abstractly had \nthat view but the thing that really   solidified and convinced me was the work that \nAlec Radford did on GPT-1. Which was that not   only could you get this language model that could \npredict things very well but you could also fine   tune it. In those days, you needed to \nfine tune it to do all these other tasks.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1032.2,
+    "end": 1103.2,
+    "text": "So I was like, wow, this isn't just some \nnarrow thing where you get the language   model right. It's sort of halfway to everywhere. \nYou get the language model right and then with a   little move in this direction, it can solve this \nlogical dereference test or whatever. And with   this other thing, it can solve translation \nor something. And then you're like, wow,   I think there's really something to do. \nAnd of course, we can really scale it.  One thing that's confusing, or that would have \nbeen hard to see — If you told me in 2018 we'll   have models in 2023, like Claude 2 that can \nwrite theorems in the style of Shakespeare,   whatever theory you want, they can ace \nstandardized test with open ended questions,   just all kinds of really impressive things, I \nwould have said — Oh, you have AGI. You clearly   have something that is human level intelligence.\nWhile these things are impressive, it clearly   seems we're not at human level, at least \nin the current generation and potentially   for generations to come. What explains \nthis discrepancy between super impressive   performance in these benchmarks and the things \nyou could describe versus general intelligence?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1103.2,
+    "end": 1197.8,
+    "text": "That was one area where actually I was \nnot prescient and I was surprised as well.  When I first looked at GPT-3 and the kind \nof things that we built in the early days   at Anthropic, my general sense was that it \nseems like they've really grasped the essence   of language. I'm not sure how much we need \nto scale them up. Maybe what's more needed   from here is like RL and all the other stuff.\nIn 2020 I thought we can scale this a bunch   more but I wonder if it's more efficient to \nscale it more or to start adding on these   other objectives like RL. I thought maybe if you \ndo as much RL as you've done pre training for a   2020 style model, that's the way to go.\nScaling it up will keep working. But is   that really the best path? And I don't \nknow, it just keeps going. I thought   it had understood a lot of the essence of \nlanguage but then there's further to go.  Stepping back from it. One of the reasons \nwhy I'm sort of very empiricist about AI,   about safety, about organizations, is \nthat you often get surprised. I feel like   I've been right about some things but still with \nthese theoretical pictures ahead, been wrong about   most things. Being right about 10% of the stuff \nsets you head and shoulders above many people.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1198.7,
+    "end": 1269.9,
+    "text": "If you look back to these diagrams that are \nlike, here's the village idiot, here's Einstein.   Here's the scale of intelligence. And the village \nidiot and Einstein are very close to each other. Maybe that's still true in some abstract sense or \nsomething but it's not really what we're seeing,   is it? We're seeing that it seems like \nthe human range is pretty broad and we   don't hit the human range in the same place \nor at the same time for different tasks.  Like, write a sonnet in the style of Cormac \nMcCarthy. I'm not very creative, so I couldn't   do that but that's a pretty high level human \nskill. And even the model is starting to get   good at stuff like constrained writing like, \nwrite a page about X without using the letter E.  I think the models might be superhuman or close \nto superhuman at that. But when it comes to   proving relatively simple mathematical theorems, \nthey're just starting to do the beginning of it.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1269.9,
+    "end": 1348.0,
+    "text": "They make really dumb mistakes sometimes and \nthey really lack any kind of broad correcting   your errors or doing some extended task.\nSo it turns out that intelligence isn't a   spectrum. There are a bunch of different \nareas of domain expertise. There are a   bunch of different kinds of skills. Memory \nis different. It's all formed in the blob,   it's not complicated. But to the extent it even \nis on the spectrum, the spectrum is also wide.  If you asked me ten years ago, that's not what \nI would have expected at all, but I think that's   very much the way it's turned out.\nOh, man. I have so many questions   just as a follow up on that.\nDo you expect that given the   distribution of training that these models get \nfrom massive amounts of internet data versus what   humans got from evolution, that the repertoire \nof skills that elicits will be just barely   overlapping? Will it be like concentric circles? \nHow do you think about that? Do those matter?  Clearly there's certainly a large amount of \noverlap because a lot of the things these   models do have business applications and many \nof their business applications are doing things   that are helping humans to be more effective \nat things. So the overlap is quite large.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1349.3,
+    "end": 1427.5,
+    "text": "If you think of all the activity that humans put \non the internet in text, that covers a lot of it,   but it probably doesn't cover some things. \nLike the models learn a physical model of the   world to some extent, but they certainly don't \nlearn how to actually move around in the world.   Again, maybe that's easy to fine tune.\nSo there are some things that the models   don't learn that humans do. And then the models \nalso learn things that humans don’t, for example,   to speak fluent Base 64. I don't know \nabout you, but I never learned that.  How likely do you think it is that these models \nwill be superhuman for many years at economically   valuable tasks while they are still below humans \nin many other relevant tasks that prevents   an intelligence explosion or something?\nThis kind of stuff is really hard to know   so I'll give that caveat. You can kind of predict \nthe basic scaling laws and then this more granular   stuff, which we really want to know to know how \nthis all is going to go, is much harder to know.  My guess would be the scaling laws are \ngoing to continue. Again, subject to — do   people slow down for safety or for regulatory \nreasons? But let's just put all that aside and   say we have the economic capability to keep \nscaling. If we did that, what would happen?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1429.3,
+    "end": 1539.5,
+    "text": "My view is we're going to keep getting better \nacross the board and I don't see any area where   the models are super, super weak or not starting \nto make progress. That used to be true of math   and programming, but over the last six months \nthe 2023 generation of models, compared to the   2022 generation, has started to learn that. There \nmay be more subtle things we don't know. And so I   kind of suspect, even if it isn't quite even, \nthat the rising tide will lift all the boats.  Does that include the thing you were mentioning \nearlier where if there's an extended task,   it loses its train of thought or its \nability to just execute a series of steps?  That's going to depend on things like \nRL training to have the model do longer   horizon tasks. I don't expect that to require \na substantial amount of additional compute.   I think that was probably an artifact of thinking \nabout RL in the wrong way and underestimating   how much the model had learned on its own.\nIn terms of are we going to be superhuman   in some areas and not others? I think it's \ncomplicated. I could imagine that we won't   be superhuman in some areas because they involve \nembodiment in the physical world. And then what   happens? Do the AIs help us train faster AIs? \nAnd those faster AIs wrap around and solve   that? Do you not need the physical world? It \ndepends what you mean. Are we worried about an   alignment disaster? Are we worried about misuse, \nlike making weapons of mass destruction? Are we   worried about AI taking over research from humans? \nAre we worried about it reaching some threshold   of economic productivity where it can do what \nthe average human does? I think these different   thresholds have different answers, although I \nsuspect they will all come within a few years.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1539.5,
+    "end": 1643.7,
+    "text": "Let me ask about those thresholds. If Claude was \nan employee at Anthropic, what salary would it be   worth? Is it meaningfully speeding up AI progress?\nIt feels to me like an intern in most areas,   but then some specific areas \nwhere it's better than that.  One thing that makes the comparison hard is \nthat the form factor is not the same as a human.   If you were to behave like one of these chat \nbots, I guess we could have this conversation,   but they're more designed to answer single or \na few questions. They don't have the concept   of having a long life of prior experience. We're \ntalking here about things that I've experienced   in the past and chat bots don't have that.\nThere's all kinds of stuff missing and so   it's hard to make a comparison. They feel like \ninterns in some areas and then they have areas   where they spike and are really savants, \nwhere they may be better than anyone here.  But does the overall picture of something like \nan intelligence explosion make sense to you? My   former guest, Carl Shulman, has this very detailed \nmodel of an intelligence explosion. As somebody   who would actually see that happening, does that \nmake sense to you? As they go from interns to   entry level software engineers. Those entry level \nsoftware engineers increase your productivity…  I think the idea that as AI systems become \nmore productive, first they speed up the   productivity of humans, then they equal \nthe productivity of humans, and then in   some meaningful sense are the main contributor to \nscientific progress that happens at some point.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1646.5,
+    "end": 1738.0,
+    "text": "That basic logic seems likely to me although I \nhave a suspicion that when we actually go into   the details, it's going to be weird and different \nthan we expect. That in all the detailed models,   we're thinking about the wrong things \nor we're right about one thing,   and then are wrong about ten other things. I think \nwe might end up in a weirder world than we expect.  When you add all this together, what does \nyour estimate of when we get something   kind of human level look like?\nIt depends on the thresholds.   In terms of someone looks at the model and \neven if you talk to it for an hour or so, it's   basically like a generally well educated human, \nthat could be not very far away at all. I think   that could happen in two or three years.\nThe main thing that would stop it would   be if we hit certain safety thresholds and stuff \nlike that. So if a company or the industry decides   to slow down or we're able to get the government \nto institute restrictions that moderate the rate   of progress for safety reasons, that would be \nthe main reason it wouldn't happen. But if you   just look at the logistical and economic ability \nto scale, we're not very far at all from that.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1738.0,
+    "end": 1812.7,
+    "text": "Now that may not be the threshold where the \nmodels are existentially dangerous. In fact,   I suspect it's not quite there yet. It may not be \nthe threshold where the models can take over most   AI research. It may not be the threshold where \nthe models seriously change how the economy works.  I think it gets a little murky after that and \nall of those thresholds may happen at various   times after that. But in terms of the base \ntechnical capability of — it kind of sounds   like a reasonably generally educated human across \nthe board. I think that could be quite close.  Why would it be the case that it could pass \na Turing Test for an educated person but not   be able to contribute or substitute \nfor human involvement in the economy?  A couple of reasons. One is just that \nthe threshold of skill isn't high enough,   comparative advantage. It doesn't matter that \nI have someone who's better than the average   human at every task. What I really need for AI \nresearch is to find something that is strong   enough to substantially accelerate the labor \nof the thousand experts who are best at it.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1813.9,
+    "end": 1893.4,
+    "text": "We might reach a point where the comparative \nadvantage of these systems is not great.  Another thing that could be the case is that there \nare these mysterious frictions that don't show up   in naive economic models but you see it whenever \nyou go to a customer or something. You're like —   “Hey, I have this cool chat bot.” In principle, \nit can do everything that your customer service   bot does or this part of your company does, but \nthe actual friction of how do we slot it in? How   do we make it work? That includes both just the \nquestion of how it works in a human sense within   the company, how things happen in the economy and \novercome frictions, and also just, what is the   workflow? How do you actually interact with it?\nIt's very different to say, here's a chat bot that   looks like it's doing this task or helping the \nhuman to do some task as it is to say, okay, this   thing is deployed and 100,000 people are using it.\nRight now lots of folks are rushing to deploy   these systems but in many cases, they're not using \nthem anywhere close to the most efficient way that   they could. Not because they're not smart, but \nbecause it takes time to work these things out.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1893.4,
+    "end": 1967.2,
+    "text": "And so I think when things are changing this fast, \nthere are going to be all of these frictions.  These are messy realities that don't quite get \ncaptured in the model. I don't think it changes   the basic picture. I don't think it changes the \nidea that we're building up this snowball of,   the models help the models get better and \ncan accelerate what the humans do. And   eventually it's mostly the models doing the work.\nYou zoom out far enough that's happening. But I'm   skeptical of any kind of precise mathematical or \nexponential prediction of how it's going to be.   I think it's all going to be a mess. But what \nwe know is it's on a metaphorical exponential,   and it's going to happen fast.\nHow do those different exponentials   which we've been talking about net out?\nOne was the scaling laws themselves are   power laws with decaying marginal loss parameter \nor something. The other exponential you talked   about is, these things can get involved in the \nprocess of AI research itself, speeding it up.  Those two are sort of opposing exponentials. Does \nit net out to be superlinear or sublinear? And   also you mentioned that the distribution \nof intelligence might just be broader.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1968.8,
+    "end": 2046.1,
+    "text": "After we get to this point in two to \nthree years, what does that look like?  I think it's very unclear. We're already \nat the point where if you look at the loss,   the scaling laws are starting to bend. We've seen \nthat in published model cards offered by multiple   companies. So that's not a secret at all.\nBut as they start to bend, each little bit   of entropy of accurate prediction becomes \nmore important. Maybe these last little   bits of entropy are the difference between a \nphysics paper as Einstein would have written   it as opposed to some other physicist.\nIt's hard to assess significance from   this. It certainly looks like in terms of \npractical performance, the metrics keep   going up relatively linearly, although they're \nalways unpredictable. It's hard to see that.  And then the thing that I think is driving the \nmost acceleration is just more and more money   is going into the field. People are seeing that \nthere's just a huge amount of economic value and   so I expect the price, the amount of money spent \non the largest models, to go up by like a factor   of 100 or something. And for that to then be \nconcatenated with the chips are getting faster,   the algorithms are getting better because \nthere's so many people working on this now.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2047.4,
+    "end": 2118.7,
+    "text": "Again, I'm not making a normative statement \nhere. This is what should happen. I'm not   even saying this necessarily will happen because \nthere's important safety and government questions   here which we're very actively working \non. I'm just saying, left to itself,   this is what the economy is going to do.\nWe'll get to those questions in a second. But   how do you think about the contribution of \nAnthropic to that increase in the scope of   this industry. There's an argument you can make \nthat, with that investment, we can work on safety   stuff at Anthropic, another that says you're \nraising the salience of this field in general.  It's all costs and benefits. The costs are \nnot zero. A mature way to think about these   things is not to deny that there are any \ncosts, but to think about what the costs   are and what the benefits are. I think we've \nbeen relatively responsible in the sense   that we didn't cause the big acceleration that \nhappened late last year and at the beginning of   this year. We weren't the ones who did that.\nAnd honestly, if you look at the reaction of   Google, that might be ten times more important \nthan anything else. And then once it had happened,   once the ecosystem had changed, then we did \na lot of things to stay on the frontier.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2121.7,
+    "end": 2201.8,
+    "text": "It's like any other question. You're trying \nto do the things that have the lowest costs   and the biggest benefits and that causes you to \nhave different strategies at different times.  One question I had for you while we were \ntalking about the intelligence stuff was,   as a scientist yourself, what do you make of \nthe fact that these things have basically the   entire corpus of human knowledge memorized \nand they haven't been able to make a single   new connection that has led to a discovery?\nWhereas if even a moderately intelligent   person had this much stuff memorized, they \nwould notice — Oh, this thing causes this   symptom. This other thing also causes this \nsymptom. There's a medical cure right here.  Shouldn't we be expecting that kind of stuff?\nI'm not sure. These words. Discovery. Creativity.   One of the lessons I've learned is that in the big \nblob of compute, these ideas often end up being   fuzzy and elusive and hard to track down.\nBut I think there is something here.   The models do display a kind of \nordinary creativity. Things like,   write a sonnet in the style of Cormac McCarthy \nor Barbie. There is some creativity to that   and they do draw new connections of the \nkind that an ordinary person would draw.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2201.8,
+    "end": 2281.8,
+    "text": "I agree with you that there haven't been any “big” \nscientific discoveries. I think that's a mix of   just the model skill level is not high enough yet. \nI was on a podcast last week where the host said,   “I don't know, I play with these models. \nThey're kind of mid. They get a B or a B minus.”  That is going to change with the scaling.\nI do think there's an interesting point about,   well, the models have an advantage, which \nis they know a lot more than us. Shouldn’t   they have an advantage already, even \nif their skill level isn't quite high?   Maybe that's kind of what you're getting at.\nI don't really have an answer to that. It seems   certainly like memorization and facts and drawing \nconnections is an area where the models are ahead.   And I do think maybe you need those connections \nand you need a fairly high level of skill.  Particularly in the area of biology, for better \nand for worse, the complexity of biology is such   that the current models know a lot of things \nright now and that's what you need to make   discoveries and draw connections. It's not like \nphysics where you need to think and come up with   a formula. In biology you need to know a lot of \nthings. and so I do think the models know a lot   of things and they have a skill level that's \nnot quite high enough to put them together.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2282.5,
+    "end": 2359.6,
+    "text": "I think they are just on the cusp of \nbeing able to put these things together.  On that point. Last week in your Senate testimony, \nyou said that these models are two to three years   away from potentially enabling large scale bio \nterrorism attacks. Can you make that more concrete   without obviously giving the kind of information \nthat would result in speeding that up? Is it one   shotting how to weaponize something or \ndo you have to fine tune an open source   model? What would that actually look like?\nI think it'd be good to clarify this because   we did a blog post and the Senate testimony \nand various people didn't understand the   point or didn't understand what we'd done.\nToday you can ask the models all kinds of   things about biology and get them to say all \nkinds of scary things, but often those scary   things are things that you could Google, and I'm \ntherefore not particularly worried about that.   I think it's actually an impediment to seeing \nthe real danger, where someone just says — Oh,   I asked this model to tell me some \nthings about smallpox, and it will.  That is actually not what I'm worried about. \nWe spent about six months working with folks   who are the most expert in the world \non how do biological attacks happen,",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2361.4,
+    "end": 2449.6,
+    "text": "what would you need to conduct such an attack, \nand how do we defend against such an attack?  They worked very intensively on just the entire \nworkflow of trying to do a bad thing. It's not one   shot, it's a long process. There are many steps \nto it. It's not just like I asked the model for   this one page of information. And again, without \ngoing into any detail, the thing I said in the   Senate testimony is, there are some steps where \nyou can just get information on Google. There   are some steps that are what I'd call missing. \nThey're scattered across a bunch of textbooks,   or they're not in any textbook. \nThey're kind of implicit knowledge,   and they're not explicit knowledge. They're \nmore like, I have to do this lab protocol,   and what if I get it wrong? Oh, if this happens, \nthen my temperature was too low. If that happened,   I needed to add more of this particular reagent.\nWhat we found is that for the most part,   those key missing pieces, the models can't do \nthem yet, but we found that sometimes they can,   and when they can, sometimes they still \nhallucinate, which is the thing that's   keeping us safe. But we saw enough signs of the \nmodels doing those key things well. And if we look   at state of the art models and go backwards \nto previous models, we look at the trend,   it shows every sign that two or three years \nfrom now, we're going to have a real problem.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2449.6,
+    "end": 2570.0,
+    "text": "Yeah, especially the thing you mentioned on \nthe log scale. You go from one in 100 times,   it gets it right, to one in ten, to..\nExactly. I've seen many of these “groks”   in my life. I was there when I watched when GPT-3 \nlearned to do arithmetic, when GPT-2 learned to   do regression a little bit above chance, when \nwith Claude we got better on all these tests   of helpful, honest, harmless. I've seen a lot \nof groks. This is unfortunately not one that   I'm excited about, but I believe it's happening.\nSomebody might say, listen, you were a co-author   on this post that OpenAI released about GPT-2 \nwhere they said, we're not going to release the   weights or the details here because we're \nworried that this model will be used for   something bad. And looking back on it now, it's \nlaughable to think that GPT-2 could have done   anything bad. Are we just way too worried? \nThis is a concern that doesn't make sense? It is interesting. It might be worth looking \nback at the actual text of that post.   I don't remember it exactly but it's still \nup on the Internet. It says something like,   we're choosing not to release the weights because \nof concerns about misuse. But it also said,   this is an experiment. We're not sure if this is \nnecessary or the right thing to do at this time,   but we'd like to establish a norm of thinking \ncarefully about these things. You could think   of it a little like the Asilomar conference \nin the 1970s where they were just figuring out   recombinant DNA. It was not necessarily the case \nthat someone could do something really bad with   recombinant DNA. It's just the possibilities \nwere starting to become clear. Those words,   at least, were the right attitude.\nNow I think there's a separate thing that   people don't just judge the post, they judge \nthe organization. Is this an organization   that produces a lot of hype or that has \ncredibility or something like that? And   so that had some effect on it. I guess \nyou could also ask, is it inevitable that",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2573.6,
+    "end": 2665.6,
+    "text": "you can't get across any message more complicated \nthan this thing right here is dangerous.  You can argue about those but I think \nthe basic thing that was in my head and   the head of others who were involved in \nthat, and what is evident in the post is,   we actually don't know. We have pretty wide error \nbars on what's dangerous and what's not so we want   to establish a norm of being careful.\nBy the way we have enormously more   evidence now. We've seen enormously more of \nthese groks now and so we're well calibrated   but there's still uncertainty. In all these \nstatements I've said, in two or three years we   might be there. There's a substantial risk of \nit and we don't want to take that risk. But I   wouldn't say it's 100%. It could be 50-50.\nOkay, let's talk about cybersecurity,   which in addition to bio risk is another thing \nAnthropic has been emphasizing. How have you   avoided the cloud microarchitecture from leaking? \nBecause, as you know, your competitors have been   less successful at this kind of security.\nCan't comment on anyone else's security,   don't know what's going on in there. A thing that \nwe have done is, there are these architectural   innovations that make training more efficient. \nWe call them compute multipliers because   they're the equivalent of having more compute.\nI don't want to say too much about our compute   multipliers because it could allow an adversary \nto counteract our measures but we limit the   number of people who are aware of a given compute \nmultiplier to those who need to know about it.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2666.9,
+    "end": 2736.4,
+    "text": "So there's a very small number of people who could \nleak all of these secrets. There's a larger number   of people who could leak one of them. But this is \nthe standard compartmentalization strategy that's   used in the intelligence community or resistance \ncells or whatever. Over the last few months we've   implemented these measures. I don't want to jinx \nanything by saying, oh, this could never happen   to us but I think it would be harder for it to \nhappen. I don't want to go into any more detail.  By the way I'd encourage all the other \ncompanies to do this as well. As much as   competitors architecture’s leaking \nis narrowly helpful to Anthropic,   it's not good for anyone in the long run. \nSecurity around this stuff is really important.  Could you, with your current \nsecurity, prevent a dedicated state   level actor from getting the Claude 2 weights?\nIt depends how dedicated. Our head of security,   who used to work on security for Chrome, which \nis a very widely used and attacked application,   he likes to think about it in terms of — how much \nwould it cost to attack Anthropic successfully?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2736.4,
+    "end": 2819.5,
+    "text": "Again, I don't want to go into super detail \nof how much I think it will cost to attack   and it's just inviting people. One of our goals \nis that it costs more to attack Anthropic than   it costs to just train your own model. It doesn't \nguarantee things because, of course you need the   talent as well so you might still, but attacks \nhave risks, the diplomatic costs, and they use   up the very sparse resources that nation state \nactors might have in order to do the attacks.  We're not there yet by the way. But I think we \nare at a very high standard of security compared   to the size of company that we are. If you \nlook at security for most 150 person companies   there's just no comparison. But could we resist \nif it was a state actor's top priority to steal   our model weights? No. They would succeed.\nHow long does that stay true? Because at some   point the value keeps increasing and increasing. \nAnd another part of this question is what kind   of a secret is how to train Claude 3 or Claude 2?\nFor example, with nuclear weapons we had lots of   spies. You just take a blueprint of the implosion \ndevice across and that's what you need. Is it more   tacit here like the thing you were talking about \nwith biology? You need to know how these reagents   work or is it just like you got the blueprint, you \ngot the microarchitecture and the hyperparameters?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2819.5,
+    "end": 2910.4,
+    "text": "There are some things that are like a one line \nequation and there are other things that are   more complicated. I think compartmentalization is \nthe best way to do it. Just limit the number of   people who know about something. If you're a 1000 \nperson company and everyone knows every secret,   one, I guarantee you have a leaker \nand two, I guarantee you have a spy.  Okay, let's talk about alignment and let's \ntalk about mechanistic interpretability,   which is the branch you guys specialize in. While \nyou're answering this question, you might want to   explain what mechanistic interpretability is.\nThe broader question is mechanistically,   what is alignment? Is it that you're locking in \nthe model into a benevolent character? Are you   disabling deceptive circuits and procedures? What \nconcretely is happening when you align a model?  As with most things, when we actually train a \nmodel to be aligned, we don't know what happens   inside the model. There are different ways of \ntraining it to be aligned but we don't really   know what happens. All the current methods that \ninvolve some kind of fine tuning of course have   the property that the underlying knowledge and \nabilities that we might be worried about don't   disappear. The model is just taught not to \noutput them. I don't know if that's a fatal   flaw or if that's just the way things have \nto be. I don't know what's going on inside   mechanistically and I think that's the whole \npoint of mechanistic interpretability. To   really understand what's going on inside the \nmodels at the level of individual circuits.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2910.4,
+    "end": 2988.4,
+    "text": "Eventually when it's solved, what does the \nsolution look like? What is the case where   if you’re Claude 4, you do the mechanistic \ninterpretability thing and you're like,   I'm satisfied, it's aligned. \nWhat is it that you've seen?  We don't know enough to know that yet. I can \ngive you a sketch for what the process looks   like as opposed to what the final result \nlooks like. Verifiability is a lot of the   challenge here. We have all these methods \nthat purport to align AI systems and do   succeed at doing so for today's tasks.\nBut then the question is always if you   had a more powerful model or if you \nhad a model in a different situation,   would it be aligned? This problem would be much \neasier if you had an oracle that could just   scan a model and say okay, I know this model is \naligned, I know what it'll do in every situation.  I think the closest thing we have to that is \nsomething like mechanistic interpretability.   It's not anywhere near up to the task yet. \nBut I guess I would say I think of it as   almost like an extended training set and an \nextended test set. Everything we're doing,   all the alignment methods we're doing are \nthe training set. You can run tests in them,   but will it really work out a distribution? \nWill it really work in another situation?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2988.4,
+    "end": 3070.7,
+    "text": "Mechanistic interpretability is the only thing \nthat even in principle is the thing where it's   more like an X-ray of the model than modification \nof the model. It's more like an assessment than   an intervention. Somehow we need to get into \na dynamic where we have an extended test set,   an extended training set, which \nis all these alignment methods,   and an extended test set which is kind of \nlike you X-ray the model and say, okay,   what worked and what didn't? In a way that goes \nbeyond just the empirical test that you've run,   where you're saying, what is the model \ngoing to do in these situations? What   is within its capabilities to do instead \nof, what did it do phenomenologically?  And of course we have to be careful about that. \nOne of the things I think is very important is we   should never train for interpretability because \nthat's taking away that advantage. You even have   the problem similar to validation versus test set, \nwhere if you look at the X-ray too many times,   you can interfere. We should worry about \nthat, but that's a much weaker process,   it's not automated optimization. We should just \nmake sure, as with validation and test sets, that   we don't look at the validation set too many times \nbefore running the test set. But again, that's",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3072.8,
+    "end": 3138.7,
+    "text": "manual pressure rather than automated pressure.\nSo some solution where we have some dynamic   between the training and test set where we're \ntrying things out and we really figure out if they   work via a way of testing them, that the model \nisn't optimizing against, some orthogonal way.  I think we're never going to have a guarantee, but \nsome process where we do those things together.   Some way to put extended training for alignment \nability with extended testing for alignment   ability together in a way that actually works. \nAnd not in a stupid way, there's lots of stupid   ways to do this where you fool yourself.\nI still don't feel like I understand the   intuition for why you think this is likely \nto work or this is promising to pursue. Let   me ask the question in a more specific \nway, and excuse the tortured analogy.  If you're an economist and you want to \nunderstand the economy, you send a whole   bunch of microeconomists out there. One of them \nstudies how the restaurant business works. One of   them studies how the tourism business works, one \nof them studies how the baking business works.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3138.7,
+    "end": 3219.8,
+    "text": "And at the end, they all come together and \nyou still don't know whether there's going   to be a recession in five years or not.\nWhy is this not like that? Where you   have an understanding of how induction \nheads work in a two layer transformer,   we understand modular arithmetic. How does \nthis add up to — Does this model want to kill   us? What does this model fundamentally want?\nA few things on that. That's the right set of   questions to ask. I think what we're hoping for in \nthe end is not that we'll understand every detail,   but again, I would give the X-ray or the MRI \nanalogy. We can be in a position where we can   look at the broad features of the model and say, \nis this a model whose internal state and plans   are very different from what it externally \nrepresents itself to do? Is this a model   where we're uncomfortable that far too much of its \ncomputational power is devoted to doing what look   like fairly destructive and manipulative things?\nWe don't know for sure whether that's possible,   but at least some positive signs \nthat it might be possible. Again,   the model is not intentionally hiding from you, it \nmight turn out that the training process hides it   from you. I can think of cases where if the model \nis really super intelligent, it thinks in a way   so that it affects its own cognition. We should \nthink about that, we should consider everything.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3220.7,
+    "end": 3295.1,
+    "text": "I suspect that it may roughly work to think of \nthe model as if it's trained in the normal way,   just getting to above human level. It may be a \nreasonable assumption, you should check, that   the internal structure of the model is \nnot intentionally optimizing against us.  I'd give an analogy to humans. It's actually \npossible to look at an MRI of someone   and predict above random chance whether they're a \npsychopath. There was actually a story a few years   back about a neuroscientist who was studying \nthis, and then he looked at his own scan and   discovered that he was a psychopath and then \neveryone in his life was like — No, this is   obvious. You're a complete asshole. You must be \na psychopath. And he was totally unaware of this.  The basic idea that there can be these \nmacro features, psychopath is probably   a good analogy for it, this is what we would be \nafraid of, a model that's charming on the surface,   very goal oriented, and very dark \non the inside. On the surface,   their behavior might look like the behavior of \nsomeone else, but their goals are very different.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3295.1,
+    "end": 3362.9,
+    "text": "A question somebody might have is, you're \ntrying to empirically estimate if these   activations are suspicious but is this something \nwe can afford to be empirical about? Or do we need   a very good first principal theoretical reason \nto think — No, it's not just that these MRIs of   the model correlate with being bad. We need just \nsome deep rooted math proof that this is aligned.  It depends what you mean by empirical. A better \nterm would be phenomenological. I don't think   we should be purely phenomenological in like, \nhere are some brain scans of really dangerous   models and here are some other brain scans. The \nwhole idea of mechanistic interpretability is to   look at the underlying principles and circuits.\nBut I guess the way I'd think about it is like,   on one hand, I've actually always been a fan \nof studying these circuits at the lowest level   of detail that we possibly can. And the reason for \nthat is that's kind of how you build up knowledge.   Even if you're ultimately aiming for there's too \nmany of these features, it's too complicated.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3362.9,
+    "end": 3473.9,
+    "text": "At the end of the day, we're trying to build \nsomething broad and we're trying to build some   broad understanding. I think the way you build \nthat up is by trying to make a lot of these very   specific discoveries. You have to understand the \nbuilding blocks and then you have to figure out   how to use that to draw these broad conclusions \neven if you're not going to figure out everything.  You should probably talk to Chris Olah, who \nwould have much more detail. He controls the   interpretability agenda. He's the one who \ndecides what to do on interpretability.   This is my high level thinking about it, \nwhich is not going to be as good as his.  Does the bull case on Anthropic rely on the \nfact that mechanistic interpretability is   helpful for capabilities?\nI don't think so at all.   I think in principle it's possible that \nmechanistic interpretability could be helpful   with capabilities. We might, for various reasons, \nnot choose to talk about it if that were the case.  That wasn't something that I or any of \nus thought of at the time of Anthropic’s   founding. We thought of ourselves as people who \nare good at scaling models and good at doing   safety on top of those models. We think that we \nhave a very high talent density of folks who are   good at that. My view has always been talent \ndensity beats talent mass. That's more of our   bullcase. Talent density beats talent mass.\nI don't think it depends on some particular   thing. Others are starting to do \nmechanistic interpretability now,   and I'm very glad that they are. A part \nof our theory of change is paradoxically   to make other organizations more like us.\nI'm sure talent density is important but   another thing Anthropic has emphasized \nis that you need to have frontier models   in order to do safety research. And of \ncourse, actually be a company as well.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3473.9,
+    "end": 3665.0,
+    "text": "Somebody might guess that the current frontier \nmodels, GPT-4, Claude 2 cost one hundred   million dollars or something like that…\nThat general order of magnitude in   very broad terms is not wrong.\nBut two to three years from now,   the kinds of things you're talking about, we're \ntalking more and more orders of magnitude to   keep up with that. If it's the case that \nsafety requires us to be on the frontier,   what is a case in which Anthropic is competing \nwith these leviathans to stay on that same scale?  It's a situation with a lot \nof trade offs. It's not easy.   Maybe I'll just answer the questions one by one.\nTo go back to why is safety so tied to scale?   Some people don't think it is. But if I just \nlook at what have been the areas where safety   methods have been put into practice \nor worked for something, for anything,   even if we don't think they'll work in general.\nI go back to thinking of all the ideas,   something like debate and amplification. Back in \n2018 when we wrote papers about those at OpenAI,   it was like, human feedback isn't quite going to \nwork, but debate and amplification will take us   beyond that. But then if you actually look at the \nattempts to do debates, we're really limited by   the quality of the model. For two models to have \na debate that is coherent enough that a human can   judge it so that the training process can actually \nwork, you need models that are at or maybe even   beyond on some topics the current frontier. \nYou can come up with the method, you can come   up with the idea without being on the frontier \nbut for me, that's a very small fraction of what   needs to be done. It's very easy to come up with \nthese methods. It's very easy to come up with,   oh, the problem is X, maybe a solution is Y.\nI really want to know whether things work in   practice, even for the systems we have \ntoday, and I want to know what kinds of   things go wrong with them. I just feel like \nyou discover ten new ideas and ten new ways   that things are going to go wrong by trying these \nin practice. I think that empirical learning is   just not as widely understood as it should be.\nI would say the same thing about methods like   constitutional AI, and some people say, oh, it \ndoesn't matter. We know this method doesn't work,   it won't work for pure alignment. I neither agree \nnor disagree with that. I think that's just kind   of overconfident. The way we discover new things \nand understand the structure of what's going to   work and what's not is by playing around with \nthings. Not that we should just blindly say,   oh, this worked here, and so it'll work there. \nBut you really start to understand the patterns,   like with the scaling laws.\nEven mechanistic interpretability,   which might be the one area I see where a lot \nof progress has been made without the frontier   models, we're seeing in the work that OpenAI \nput out a couple months ago, that using very   powerful models to help you auto interpret the \nweak models. Again, that's not everything you   can do in interpretability, but that's a big \ncomponent of it and we found it useful too.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3665.8,
+    "end": 3731.1,
+    "text": "So you see this phenomenon over and over again \nwhere the scaling and the safety are these two   snakes that are coiled with each other, \nalways even more than you think. Even with   interpretability, three years ago, I didn't think \nthat this would be as true of interpretability,   but somehow it manages to be true. Why? Because \nintelligence is useful. It's useful for a number   of tasks. One of the tasks it's useful for \nis figuring out how to judge and evaluate   other intelligence and maybe someday even \nfor doing the alignment research itself.  Given all that's true, what does that imply \nfor Anthropic when in two to three years,   these leviathans are doing \nlike $10 billion training runs?  Choice one is if we can't, or if it costs too \nmuch to stay on the frontier, then we shouldn't   do it and we won't work with the most advanced \nmodels, we'll see what we can get with models   that are not quite as advanced. You can get some \nnon zero value there but I'm skeptical that the   value is all that high or the learning can be \nfast enough to really be in favor of the task.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3731.1,
+    "end": 3795.0,
+    "text": "The second option is you just find a way. You \njust accept the trade offs. And the trade offs are   more positive than they appear because of a \nphenomenon that I've called Race to the Top.   I could go into that later, but \nlet me put that aside for now.  And the third phenomenon is that as things get to \nthat scale, it may coincide with starting to get   into some non trivial probability of very serious \ndanger. I think it's going to come first from   misuse, the biorisk stuff that I talked about. I \ndon't think we have the level of autonomy yet to   worry about some of the alignment stuff happening \nin two years, but it might not be very far behind   that at all. That may lead to unilateral or \nmultilateral or government enforced decisions not   to scale as fast as we could, which we support. \nThat may end up being the right thing to do.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3795.0,
+    "end": 3861.0,
+    "text": "I hope things go in that direction, and then we \ndon't have this hard trade off between we're not   in the frontier and can't quite do the research \nas well as we want or influence other orgs as well   as we want, or versus we're on the frontier \nand have to accept the trade-offs which are   net positive, but have a lot in both directions.\nOn the misuse versus misalignment, those are both   problems as you mentioned but in the long scheme \nof things, say 30 years down the line, which do   you think will be considered a bigger problem?\nI think it's going to be much less than 30 years.   I'm worried about both. If you have a model that \ncould in theory, take over the world on its own,   if you were able to control that model, then \nit follows pretty simply that if a model was   following the wishes of some small subset \nof people and not others, then those people   could use it to take over the world on their \nbehalf. The very premise of misalignment means   that we should be worried about misuse as \nwell, with similar levels of consequences.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3861.0,
+    "end": 3942.8,
+    "text": "But some people who might be more doomery than \nyou would say — you're already working towards   the optimistic scenario there because you've at \nleast figured out how to align the model with   the bad guys. Now you just need to make sure \nthat it's aligned with the good guys instead.  Why do you think that you could get to \nthe point where it's aligned with the   bad guys? You haven't already solved this.\nI guess if you had the view that alignment   is completely unsolvable, then you'd be like, \nwell, we're dead anyway so I don't want to worry   about misuse. That's not my position at all.\nBut also you should think in terms of what's   a plan that would actually succeed \nthat would make things good. Any plan   that actually succeeds, regardless of how \nhard misalignment is to solve, is going to   need to solve misuse as well as misalignment.\nAs the AI models get better faster and faster,   they're going to create a big problem around the \nbalance of power between countries. They're going   to create a big problem around, is it possible \nfor a single individual to do something bad   that it's hard for everyone else to stop? Any \nactual solution that leads to a good future   needs to solve those problems as well. If your \nperspective is, we're screwed because we can't   solve the first problem, so don't worry about \nproblems two and three, that's not really a   statement. You should worry about problems two \nand three. They're in our path no matter what.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3942.8,
+    "end": 4012.3,
+    "text": "Yeah. In the scenario we succeed \nwe have to solve all of them.  We should be planning for success not for failure.\nIf misuse doesn't happen and the right people   have the superhuman models, what does that look \nlike? Who are the right people? Who is actually   controlling the model five years from now?\nMy view is that these things are powerful enough   that I think it's going to involve substantial \ninvolvement of some kind of government or assembly   of government bodies. There are very naive \nversions of this. I don't think we should just   hand the model over to the UN or whoever happens \nto be in office at a given time. I could see that   going poorly. But it's too powerful. There \nneeds to be some kind of legitimate process   for managing this technology, which includes \nthe role of the people building it, includes   the role of democratically elected authorities, \nincludes the role of all the individuals who will   be affected by it. At the end of the day, there \nneeds to be some politically legitimate process.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4012.3,
+    "end": 4102.9,
+    "text": "But what does that look like? If it's not the case \nthat you just hand it to whoever the President is   at the time, what does the body look like?\nIt's really hard to know these things ahead   of time. People love to propose these broad plans \nand say, oh, this is the way we should do it. The   honest fact is that we're figuring this out \nas we go along. I think we should try things   and experiment with them with less powerful \nversions of the technology. We need to figure   this out in time. But also it's not really \nthe kind of thing you can know in advance.  The long term benefit trust that \nyou have. How would that interface   with this body? Is that the body itself?\nI think that the long term benefit trust   is a much narrower thing. This is something \nthat makes decisions for Anthropic. This is   basically a body. It was described in a recent \nVox article. We'll be saying more about it later   this year. But it's basically a body that \nover time gains the ability to appoint the   majority of the board seats of Anthropic. \nIt's a mixture of experts in AI alignment,   national security, and philanthropy in general.\nIf Anthropic has AGI and if control of Anthropic   is handed to them, doesn't that imply that \ncontrol of AGI itself is handed to them?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4102.9,
+    "end": 4196.0,
+    "text": "That doesn't imply that Anthropic or any other \nentity should be the entity that makes decisions   about AGI on behalf of humanity. I would think \nof those as different things. If Anthropic does   play a broad role, then you'd want to widen \nthat body to a whole bunch of different people   from around the world. Or maybe you construe \nthis as very narrow, and then there's some   broad committee somewhere that manages all the \nAGIs of all the companies on behalf of anyone.  I don't know. I think my view is you shouldn't \nbe overly constructive and utopian. We're dealing   with a new problem here. We need to start \nthinking now about what are the governmental   bodies and structures that could deal with it.\nOkay, so let's forget about governance. Let's   just talk about what this going well looks like.\nObviously, there are things we can all agree on:   cure all the diseases, solve all the fraud – \nthings all humans would say, 'I'm down for that.'   But now it's 2030. You've solved all the real \nproblems that everybody can agree on. What happens   next? What are we doing with a superhuman God?\nI actually want to disagree with the framing of   something like this. I get nervous when someone \nsays, what are you going to do with a superhuman   AI? We've learned a lot of things over the last \n150 years about markets and democracy, and each   person can define for themselves what the best \nway for them to have the human experience is, and   that societies work out norms and what they value \njust in this very complex and decentralized way.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4196.6,
+    "end": 4266.0,
+    "text": "If you have these safety problems that \ncan be a reason why there needs to be a   certain amount of centralized control from the \ngovernment until we've solved these problems.  But as a matter of — we've solved all the \nproblems, now how do we make things good?   I think most people, most groups, \nmost ideologies that started with,   let's sit down and think over what the definition \nof the good life is, have led to disaster.  But this vision you have of a sort \nof tolerant, liberal, democracy,   market oriented system with AGI. Each person \nhas their own AGI? What does that mean?  I don't know. I don't know what it looks like. \nI guess what I'm saying is we need to solve   the important safety problems and the important \nexternalities. Those could be just narrowly about   alignment, there could be a bunch of economic \nissues that are super complicated and that we   can't solve. Subject to that, we should think \nabout what's worked in the past. And in general,   unitary visions for what it means to live a \ngood life have not worked out well at all.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4266.0,
+    "end": 4341.6,
+    "text": "On the opposite end of things going well \nor good actors having control of AI.   We might want to touch on China \nas a potential actor in the space.  First of all, being at Baidu and seeing \nprogress in AI happening generally,   why do you think the Chinese have underperformed? \nBaidu had a scaling laws group many years back.   Or is the premise wrong and I'm just not \naware of the progress that's happening there?  The scaling laws group, that was an \noffshoot of the stuff we did with speech   so there were still some people there but that was \na mostly Americanized lab. I was there for a year.   That was my first foray into deep learning. \nIt was led by Andrew Ng. I never went to   China. It was like a US lab. That was somewhat \ndisconnected, although it was an attempt by a   Chinese entity to kind of get into the game.\nSince then I think they've maybe been very   commercially focused and not as focused on these \nfundamental research side of things around scaling   laws. I do think because of all the excitement \nwith the release of ChatGPT in November or so,   that's been a starting gun for them as well. And \nthey're trying very aggressively to catch up now.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4341.6,
+    "end": 4435.7,
+    "text": "I think the US is substantially ahead but \nthey're trying very hard to catch up now.  How do you think China thinks about AGI? Are \nthey thinking about safety and misuse or not?  I don't really have a sense. One concern I \nwould have are people saying things like,   China isn't going to develop an AI because they \nlike stability or they're going to have all these   restrictions to make sure things are in line \nwith what the CCP wants. That might be true   in the short term and for consumer products. My \nworry is that if the basic incentives are about   national security and power, that's going to \nbecome clear sooner or later. If they see this   as a source of national power, they're going \nto at least try to do what's most effective,   and that could lead them in the direction of AGI.\nAssume they just get your blueprints or your code   base or something, is it possible for them to \nspin up their own lab that is competitive at   the frontier with the leading American companies?\nI don't know about fast but I'm concerned about   this. This is one reason why we're focusing so \nhard on cybersecurity. We've worked with our   cloud providers. We had this blog post out about \nsecurity where we said we have a two key system   for access to the model weights. We have other \nmeasures that we put in place or are thinking   of putting in place that we haven't announced. \nWe don't want an adversary to know about them,   but we're happy to talk about them broadly.\nBy the way all this stuff we're doing   is not sufficient yet for a super \ndetermined state level actor at all.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4437.1,
+    "end": 4509.1,
+    "text": "I think it will defend against most attacks and \nagainst a state level actor who's less determined.   But there's a lot more we need to do, and some of \nit may require new research on how to do security.  Let's talk about what it would take at that \npoint. We're at Anthropic offices and it's   got good security. We had to get badges and \neverything to come in here. But what does the   eventual version of this building or bunker or \nwhatever where the AGI is built look like? Is it   a building in the middle of San Francisco or are \nyou out in the middle of Nevada or Arizona? What   is a point in which you're Los Alamos-ing it?\nAt one point there was a running joke somewhere   that the way building AGI would look like is, \nthere would be a data center next to a nuclear   power plant next to a bunker, and that we'd all \nkind of live in the bunker and everything would   be local so it wouldn't get on the Internet.\nIf we take the rate at which all this is going   to happen seriously, which I can't be \nsure of, then it does make me think   that something like that might happen, but \nmaybe not something quite as cartoonish.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4511.8,
+    "end": 4598.2,
+    "text": "What is the timescale on which you think alignment \nis solvable? If these models are getting to human   level in some things in two to three years, \nwhat is the point at which they're aligned?  This is a really difficult question because I \nactually think often people are thinking about   alignment in the wrong way. There's a general \nfeeling that it's like models are misaligned   or there's like an alignment problem to solve. \nLike, someday we'll crack the Riemann hypothesis.   I don't quite think it's like that. Not in a \nway that's worse or better. It might be just   as bad or just as unpredictable.\nWhen I think of why am I scared,   there’s a few things I think of — One is, the \nthing that's really hard to argue with is: There   will be powerful models. They will be agentic. \nWe're getting towards them. If such a model   wanted to wreak havoc and destroy humanity or \nwhatever, we have basically no ability to stop it.   If that's not true, at some point we will reach \nthe point where it's true as we scale the models.   So that definitely seems to be the case.\nA second thing that seems to be the case is   that we seem to be bad at controlling the models. \nNot in any particular way, but they’re just   statistical systems and you can ask them a \nmillion things and they can say a million things   and reply. And you might not have thought of a \nmillionth and one thing that does something crazy.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4598.2,
+    "end": 4673.7,
+    "text": "Or when you train them, you train them in this \nvery abstract way and you might not understand   all the consequences of what they do in response \nto that. The best example we've seen of that is   Bing and Sydney. I don't know how they trained \nthat model. I don't know what they did to make it   do all this weird stuff like threaten people and \nhave this weird obsessive personality. But what it   shows is that we can get something very different \nfrom and maybe opposite to what we intended.  I actually think fact number one and fact \nnumber two are enough to be really worried.   You don't need all this detailed stuff about \nconvergent instrumental goals or analogies to   evolution. One and two for me are pretty \nmotivated. Okay, this thing's going to be   powerful. It could destroy us. And all the ones \nwe've built so far are at pretty decent risk of   doing some random shit we don't understand.\nIf you say that we're going to get something   with bioweapons or something that could \nbe dangerous in two to three years,   does the research agenda you have of mechanistic \ninterpretability, constitutional AI and other   RLHF stuff meaningfully contribute to \npreventing that in two to three years?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4680.7,
+    "end": 4751.1,
+    "text": "People talk about doom by default or alignment by \ndefault. I think it might be kind of statistical.   With the current models, you might get \nBing or Sydney or you might get Claude.   If we take our current understanding and move \nthat to very powerful models, you might just   be in this world where you make something and \ndepending on the details, maybe it's totally fine.   Not really alignment by default, but just \ndepends on a lot of the details. If you're   very careful about all those details and \nyou know what you're doing, you're getting   it right but we have a high susceptibility to, \nyou mess something up in a way that you didn't   really understand was connected to something else. \nActually, instead of making all the humans happy,   it wants to turn them into pumpkins, just some \nweird shit. Because the models are so powerful,   they're like these giants that are standing in \na landscape and if they start to move their arms   around randomly, they could just break everything.\nI'm starting it with that kind of framing because   I don't think we're aligned by default, \nI don't think we're doomed by default   and have some problem we need to solve. \nIt has some kind of different character.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4751.1,
+    "end": 4820.4,
+    "text": "Now what I do think is that hopefully within a \ntimescale of two to three years we get better at   diagnosing when the models are good and when \nthey're bad. We get better at increasing our   repertoire of methods to train the model that \nthey're less likely to do bad things and more   likely to do good things in a way that isn't just \nrelevant to the current models but scales. And we   can help develop that with interpretability \nas the test set. I don't think of it as,   oh, man, we tried RLHF, it didn't work. We tried \nConstitutional AI, it didn't work. We tried this   other thing, it didn't work. We tried mechanistic \ninterpretability. Now we're going to try something   else. I think this frame of like, man, we \nhaven't cracked the problem yet, we haven't   solved the Riemann hypothesis isn't quite right.\nAlready with today's systems, we are not very   good at controlling them and the consequences \nof that could be very bad. We just need to get   more ways of increasing the likelihood that \nwe can control our models and understand   what's going on in them. And we have some \nof them so far. They aren't that good yet.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4821.3,
+    "end": 4889.3,
+    "text": "But I don't think of this as binary. It works or \nit does not work. We're going to develop more. And   I do think that over the next two to three years \nwe're going to start eating that probability mass   of ways things can go wrong. It's like in the \ncore safety views paper, there's a probability   mass of how hard the problem is.\nI feel like that way of stating it   isn't really even quite right because I don't feel \nlike it's the Riemann hypothesis to solve. It's   almost like right now if I try and juggle five \nballs or something, I can juggle three balls,   I actually can, but I can't juggle five balls \nat all. You have to practice a lot to do that.   If I were to do that, I would almost certainly \ndrop them. And then just over time, you just get   better at the task of controlling the balls.\nOn that post in particular, what is your   personal probability distribution? For the \naudience, the three possibilities are: One, it is   trivial to align these models with RLHF++. Two, it \nis a difficult problem, but one that a big company   could solve. Three, something that is basically \nimpossible for human civilization currently to   solve. If I'm capturing those three, What is \nyour probability distribution over those three?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4890.5,
+    "end": 4965.2,
+    "text": "I'm not super into questions like what's your \nprobability distribution of X? I think all of   those have enough likelihood that they should \nbe considered seriously. The question I'm much   more interested in is, what could we learn \nthat shifts probability mass between them?  What is the answer to that?\nI think that one of the things   mechanistic interpretability is going to \ndo more than necessarily solve problems is,   it's going to tell us what's going on when we \ntry to align models. It's basically going to   teach us about this. One way I could imagine \nconcluding that things are very difficult is   if mechanistic interpretability sort of shows us \nthat problems tend to get moved around instead of   being stamped out or that, you get rid of one \nproblem, you create another one. Or it might   inspire us or give us insight into why problems \nare persistent or hard to eradicate or crop up.  For me to really believe some of these stories \nabout, oh, there's always this convergent goal   in this particular direction. I think the \nabstract story is not uncompelling, but I   don't find it really compelling either, nor do I \nfind it necessary to motivate all the safety work.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4965.2,
+    "end": 5040.3,
+    "text": "But the kind of thing that would really be \nlike, oh man, we can't solve this is like,   we see it happening inside the X-ray. I think \nright now there's way too many assumptions,   there's way too much overconfidence about how \nall this is going to go. I have a substantial   probability mass on — this all goes wrong, it's a \ncomplete disaster, but in a completely different   way than anyone had anticipated it would.\nIt would be beside the point to ask how   it could go different than anyone anticipated.\nOn this, in particular, what information would   be relevant? How much would the difficulty of \naligning Claude 3 and the next generation of   models be? Is that a big piece of information?\nI think the people who are most worried are   predicting that all the subhuman AI models are \ngoing to be alignable, They're going to seem   aligned. They're going to deceive us in some \nway. It certainly gives us some information   but I am more interested in what mechanistic \ninterpretability can tell us because, again,   you see this X ray, it would be too strong to \nsay it doesn't lie, but at least in the current   systems, it doesn't feel like it's optimizing \nagainst us. There are exotic ways that it could.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5041.1,
+    "end": 5113.9,
+    "text": "I don't think anything is a safe bet here, but \nit's the closest we're going to get to something   that isn't actively optimizing against us.\nLet's talk about the specific methods other   than mechanistic interpretability that you \nguys are researching. When we talk about   RLHF or Constitution AI, if you had to \nput it in terms of human psychology,   what is the change that is happening? Are we \ncreating new drives, new goals, new thoughts?   How is the model changing in terms of psychology?\nAll those terms are inadequate for describing   what's happening. It's not clear how useful \nthey are as abstractions for humans either.   I think we don't have the language to describe \nwhat's going on. And again, I'd love to have the   X-ray. I'd love to look inside and say and kind of \nactually know what we're talking about instead of   basically making up words, which is what I \ndo what you're doing in asking this question.   We should just be honest. We really have very \nlittle idea what we're talking about. It would   be great to say, well, what we actually mean \nby that is this circuit within here turns on,   and after we've trained the model, then this \ncircuit is no longer operative or weaker.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5117.0,
+    "end": 5188.4,
+    "text": "It's going to take a lot of \nwork to be able to do that.  Model organisms, which you hinted at before when \nyou said we're doing these evaluations to see if   they're capable of doing dangerous things now \nand currently not, how worried are you about a   lab leak scenario? Where in fine tuning it or in \ntrying to get these models to elicit dangerous   behaviors, make bioweapons or something, you \nleak somehow and it actually makes the bioweapons   instead of telling you it can make the bioweapons.\nIt's not that much of a concern with today's   passive models. If we were to fine tune a \nmodel, we would do it privately and we work   with the experts and so the leak would be like, \nsuppose the model got open sourced or something.   For now, it's mostly a security issue.\nIn terms of models truly being dangerous,   we do have to worry that if we make a truly \npowerful model and we're trying to see what   makes it dangerous or safe, then there could \nbe more of a one shot thing where there’s some   risk that the model takes over. The main \nway to control that is to make sure that   the capabilities of the model that we test are \nnot such that they're capable of doing this.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5188.4,
+    "end": 5331.4,
+    "text": "At what point would the capabilities be so high \nwhere you say, I don't even want to test this?  Well, there's different things. \nThere's capability testing..  But that itself could lead to... If you're \ntesting replicate, what if it actually does?  Sure. But I think what you want to do is you want \nto extrapolate. We've talked with Arc about this.   You have factors of two of compute, where you're \nlike, can the model do something like open up an   account on AWS and make some money for itself? \nSome of the things that are obvious prerequisites   to complete survival in the wild. Just set \nthose thresholds very well below and then   as you proceed upward from there, do kind of \nmore and more rigorous tests and be more and   more careful about what it is you're doing.\nOn Constitution AI, who decides what the   constitution for the next generation of \nmodels or a potentially superhuman model   is? How is that actually written?\nInitially to make the constitution,   we just took some stuff that was broadly agreed \non, like the UN declaration on Human Rights and   some of the stuff from Apple's Terms of Service. \nStuff that's consensus on what's acceptable to   say or what basic things are able to be included.\nOne, for future constitutions, we're looking into   more participatory processes for making these. \nBut beyond that, I don't think there should   be one constitution for a model that everyone \nuses. The model’s constitution should be very   simple. It should only have very basic facts that \neveryone would agree on. Then there should be a   lot of ways that you can customize, including \nappending constitutions. And beyond that,   we're developing new methods. I'm not imagining \nthat this or this alone is the method that   we'll use to train superhuman AI. Many of the \nparts of capability training may be different,   and so it could look very different.\nThere are levels above this. I'm pretty   uncomfortable with: here's the AI's constitution, \nit's going to run the world. From just normal   lessons from how societies work and how \npolitics works, that strikes me as fanciful.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5337.8,
+    "end": 5430.4,
+    "text": "Even after we've mitigated the safety issues, \nany good future, even if it has all these   security issues that we need to solve, it \nsomehow needs to end with something that's   more decentralized and less like a godlike \nsuper. I just don't think that ends well.  What scientists from the Manhattan \nProject do you respect most in terms of,   they acted most ethically under the constraints \nthey were given. Is there one that comes to mind?  I don't know. There's a lot of answers you could \ngive. I'm definitely a fan of Szilard for having   kind of figured it out. He was then against the \nactual dropping of the bomb. I don't actually   know the history well enough to have an opinion \non whether the demonstration of the bomb could   have ended the war. I mean that involves a bunch \nof facts about Imperial Japan that are complicated   and that I'm not an expert on. But Szilard, he \ndiscovered this stuff early, he kept it secret,   patented some of it and put it in the hands of the \nBritish Admiralty. He seemed to display the right   kind of awareness as well as discovering stuff. It \nwas when I read that book that when I wrote this   big blob of compute doc and I only showed it to a \nfew people and there were other docs that I showed   to almost no one. I was a bit inspired by this.\nAgain, we could all get self aggrandizing here.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5430.4,
+    "end": 5525.6,
+    "text": "Like we don't know if it's actually going to be \nsomething on par with the Manhattan project. This   could all be just Silicon Valley people building \ntechnology and just having delusions of grandeur.   I don't know how it's going to turn out.\nI mean, if the scaling stuff is true then   it's bigger than the Manhattan Project.\nYeah, it certainly could be bigger. I think   we should always maintain this attitude \nthat it's really easy to fool yourself.  If you're a physicist during World War II and \nyou were asked by the government to contribute   non replaceable research to the Manhattan \nProject, what do you think you would have said?  Given you're in a war with the Nazis, I don't \nreally see much choice but to do it if it's   possible. You have to figure it's going to \nbe done within ten years or so by someone.  Regarding cybersecurity, what should \nwe make of the fact that there's a   whole bunch of tech companies which have \nordinary tech company security policy   and it's not obvious that they've been hacked \npublicly. Coinbase still has its bitcoin.   As far as I know my Gmail hasn't been leaked.\nShould we take from that that current status   quo tech company security practices \nare good enough for AGI or just   simply that nobody has tried hard enough?\nIt would be hard for me to speak to current   tech company practices and of course there \nmay be many attacks that we don't know about,   where things are stolen and then silently used. I \nthink an indication of it is when someone really   cares basically cares about attacking \nsomeone, then often the attacks happen.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5527.2,
+    "end": 5637.5,
+    "text": "Recently we saw that some fairly high officials of \nthe US government had their email accounts hacked   via Microsoft. Microsoft was providing the email \naccounts. Presumably that relayed information   that was of great interest to foreign adversaries.\nIt seems to me at least that the evidence is more   consistent with, when something is really high \nenough value, then someone acts and it's stolen.   And my worry is that of course with AGI we'll get \nto a world where the value is seen as incredibly   high. It'll be like stealing nuclear missiles or \nsomething. You can't be too careful on this stuff.  At every place that I've worked, I've pushed for \ncybersecurity to be better. One of my concerns   about cybersecurity is, it's not something you can \ntrumpet. A good dynamic with safety research is,   you can get companies into a dynamic and \nI think we have, where you can get them   to compete to do the best safety research and \nuse it as a recruiting point of competition   or something. We used to do this all the time \nwith interpretability and then sooner or later   other orgs started recognizing the defect \nand started working on interpretability,   whether or not that was a priority to them before.\nBut it's harder to do that with cybersecurity   because a bunch of the stuff you have to do \nquietly. We did try to put out one post about it,   but mostly you just see the results. A good norm \nwould be people see these cybersecurity leaks from   companies or leaks the model parameters \nor something and say they screwed up,   that's bad. If I'm a safety person, \nI might not want to work there.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5638.2,
+    "end": 5727.6,
+    "text": "Of course, as soon as I say that, we'll \nprobably have a security breach tomorrow. But   that's part of the game here, that's \npart of trying to make things safe.  I want to go back to the thing we're talking \nabout earlier, where the ultimate level of   cybersecurity required two to three years from \nnow and whether it requires a bunker, are you   actually expecting to be in a physical bunker in \ntwo to three years, or is that just a metaphor?  That’s a metaphor. We’re still figuring it out. \nSomething I would think about is the security of   the data center, which may not be in the same \nphysical location as us, but we've worked very   hard to make sure it's in the United States. But \nsecuring the physical data centers and the GPUs.   If someone was really determined, some of the \nreally expensive attacks just involve going into   the data center and just trying to steal the \ndata directly or as it's flowing from a data   center to us. These data centers are going to have \nto be built in a very special way. Given the way   things are scaling up, we're anyway heading to a \nworld where the networks of data centers cost as   much as aircraft carriers. They're already going \nto be pretty unusual objects but in addition to   being unusual in terms of their ability to link \ntogether and train gigantic, gigantic models,   they're also going to have to be very secure.\nSpeaking of which, there's been rumors on the   difficulty of procuring the power and the \nGPUs for the next generation of models.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5727.6,
+    "end": 5800.9,
+    "text": "What has the process been like to secure the \nnecessary components to do the next generation?  That's something I can't go into great detail \nabout. I will say, people are thinking of   industrial scale data centers and people are not \nthinking at the scale that these models are going   to go to very soon. Whenever you do something \nat a scale where it's never been done before,   every single component, every single thing has to \nbe done in a new way than it was before. And so   you may run into problems with surprisingly simple \ncomponents. Power is one that you mentioned.  And is this something that Anthropic has \nto handle, or can you just outsource it?  For data centers, we work with \ncloud providers, for instance.  What should we make about the fact that these \nmodels require so much training and the entire   corpus of internet data in order to be subhuman?\nWhereas GPT-4, there's been estimates that it   was like 10^25 Flops or something, you can \ntake these numbers with a grain of salt,   but there's reports that the human brain, from \nthe time it is born to the time a human being   is 20 years old, is on the order of 10^14 \nFlops to simulate all those interactions.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5800.9,
+    "end": 5961.2,
+    "text": "We don't have to go into the particulars on \nthose numbers, but should we be worried about   how sample inefficient these models seem to be?\nThat's one of the remaining mysteries. One way   you could phrase it is that the models are maybe \ntwo to three orders of magnitude smaller than the   human brain. If you compare it to the number of \nsynapses, while at the same time being trained   on three to four more orders of magnitude of data. \nIf you compare the number of words a human sees as   they're developing to age 18, I don't remember \nexactly, but I think it's in the hundreds of   millions, whereas for the models, we're talking \nabout the hundreds of billions to the trillions.   So what explains this? There are these offsetting \nthings where the models are smaller, they need a   lot more data. They're still below human level.\nThere's some way in which   the analogy to the brain is not quite right or \nis breaking down or there's some missing factor.   This is just like in physics, where we can't \nexplain the Michelson-Morley experiment, or   one of the other 19th century physics paradoxes. \nIt's one thing we don't quite understand. Humans   see so little data, and they still do fine.\nOne theory on it, it could be that it's like   our other modalities. How do we get 10^14 bits \ninto the human brain? Most of it is these images,   and maybe a lot of what's going on inside the \nhuman brain is, our mental workspace involves   all these simulated images or something like that.\nBut honestly, intellectually we have to admit that   that's a weird thing that doesn't match up. And \nit's one reason I'm a bit skeptical of biological   analogies. I thought in terms of them, like, five \nor six years ago, but now that we actually have   these models in front of us as artifacts, it \nfeels like almost all the evidence from that   has been screened off by what we've seen. And \nwhat we've seen are models that are much smaller   than the human brain and yet can do a lot of the \nthings that humans can do, and yet, paradoxically,   require a lot more data. Maybe we'll discover \nsomething that makes it all efficient,   or maybe we'll understand why the discrepancy \nis present, but at the end of the day, I don't   think it matters, right? If we keep scaling the \nway we are. I think what's more relevant at this   point is just measuring the abilities of the \nmodel and seeing how far they are from humans,   and they don't seem terribly far to me.\nDoes this scaling picture and the big blob   of compute more generally, underemphasize the \nrole that algorithmic progress has played. When   you composed the big blob of compute, you're \npresumably talking about LSTMs at that point,   the scaling on that would not have \nyou at Claude 2 at this point.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5961.8,
+    "end": 6040.7,
+    "text": "Are you underemphasizing the role \nthat an improvement of the scale of   Transformer could be having here, when \nyou put it behind the label of scaling?  This big blob of compute document, which I \nstill have not made public, I probably should   for historical reasons. I don't think it would \ntell anyone anything they don't know now. But   when I wrote it, I actually said, look, there are \nseven factors and I wasn't like, these are all the   factors but just let me give some sense of the \nkinds of things that matter and what don't. There   could be nine, there could be five. But the things \nI said were — Number of parameters matters. Scale   of the model matters. Compute matters. Quantity \nof data matters. Quality of data matters. Loss   function matters. Are you doing RL? Are you doing \nnext word prediction? If your loss function isn't   rich or doesn't incentivize the right thing, you \nwon't get anything. Those were the key four ones,   which I think are the core of the hypothesis.\nBut then I said three more things. One was   symmetries, which is basically if your \narchitecture doesn't take into account   the right kinds of symmetries, it doesn't work or \nit's very inefficient. For example, convolutional   neural networks take into account translational \nsymmetry. LSTMs take into account time symmetry.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6041.2,
+    "end": 6137.2,
+    "text": "But a weakness of LSTMs is that they can't attend \nover the whole context. So there's kind of this   structural weakness. If a model isn't structurally \ncapable of absorbing and managing things that   happened in a far enough distant past, then it's \nlike the compute doesn't flow. The spice doesn't   flow. The blob has to be unencumbered. It's not \ngoing to work if you artificially close things   off. And I think RNNs and LSTMs artificially \nclose things off because they close you off   to the distant past. Again, things need to \nflow freely. If they don't, it doesn't work.  And then I added a couple things. One of them \nwas conditioning, which is if the thing you're   optimizing with is just really numerically \nbad, you're going to have trouble. And so   this is why atom works better than normal STD.\nI'm forgetting what the 7th condition was,   but it was similar to things like this, where \nif you set things up in a way that's set up to   fail or that doesn't allow the compute to \nwork in an uninhibited way, then it won't   work. Transformers were kind of within that even \nthough I can't remember if the transformer paper   had been published, it was around the same \ntime as I wrote that document. It might have   been just before. It might have been just after.\nFrom that view it sounds like the way to think   about these algorithmic progresses is not as \nincreasing the power of the blob of compute,   but simply getting rid of the artificial \nhindrances that older architectures have.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6139.4,
+    "end": 6216.1,
+    "text": "That's a little how I think about it. If you go \nback to Ilya's, the models want to learn, the   compute wants to be free and it's being blocked \nin various ways where you don't understand that   it's being blocked until you need to free it up.\nI love the gradients changing that to spice.   On that point, though, do you think that another \nthing on the scale of a transformer is coming down   the pike to enable the next great iteration?\nI think it's possible. People have worked on   things like trying to model very long time \ndependencies or there's various different   ideas where I could see that we're missing an \nefficient way of representing or dealing with   something. I think those inventions are possible.\nI guess my perspective would be, even if they   don't happen, we're already on this very, \nvery steep trajectory. Unless we're constantly   trying to discover them, as are others, but \nthings are already on such a fast trajectory,   all that would do is speed up the trajectory \neven more, and probably not by that much   because it's already going so fast.\nIs having an embodied version of a   model at all important in terms of \ngetting either data or progress?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6216.1,
+    "end": 6362.6,
+    "text": "I'd think of that less in terms of \na new architecture and more in terms   of a loss function like the data, the \nenvironments you're exposing yourself   to end up being very different. That could be \nimportant for learning some skills, although   data acquisition is hard and so things have gone \nthrough the language route and I would guess will   continue to go through the language route even \nas more is possible in terms of embodiment.  And then the other possibilities you \nmentioned. RL, you can see it as...  We kind of already do RL with RLHF. Is this \nalignment? Is this capabilities? I always think   in terms of the two snakes, they're often hard to \ndistinguish. We already kind of use RL on these   language models but I think we've used RL less \nin terms of getting them to take actions and do   things in the world but when you take actions \nover a long period of time and understand the   consequences of those actions only later, then \nRL is a typical tool we have for that. So I would   guess that in terms of models taking action in the \nworld, that RL will become a thing with all the   power and all the safety issues that come with it.\nWhen you project out in the future, do you see the   way in which these things will be integrated into \nproductive supply chains? Do you see them talking   with each other and criticizing each other and \ncontributing to each other's output? Or is it just   that one model one shots the answer or the work.\nModels will undertake extended tasks. That will   have to be the case. We may want to limit that to \nsome extent because it may make some of the safety   problems easier but some of that will be required.\nIn terms of our models talking to models or are   they talking to humans? Again, this goes kind \nof out of the technical realm and into the   sociocultural economic realm where my heuristic is \nalways that it's very, very difficult to predict   things. I feel like these scaling laws have been \nvery predictable but then when you say like,   when is there going to be a commercial explosion \nin these models? Or what's the form it's going to   be? Or are the models going to do things instead \nof humans or pairing with humans? Certainly my   track record on predicting these things is \nterrible but also looking around, I don't   really see anyone whose track record is great.\nYou mentioned how fast progress is happening,   but also the difficulties of integrating within \nthe existing economy into the way things work.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6362.6,
+    "end": 6431.2,
+    "text": "Do you think there will be enough time to \nactually have large revenues from AI products   before the next model is just so much better \nor we're in a different landscape entirely?  It depends what you mean by large. I \nthink multiple companies are already   in the 100 million to billion per year \nrange. Will it get to the 100 billion or   trillion range before? That stuff is just so hard \nto predict. And it's not even super well defined.  Right now there are companies that are throwing \na lot of money at generative AI as customers.   That's the right thing for them to do, and \nthey'll find uses for it, but it doesn't   mean they're finding uses or the best uses from \nday one. Even money changing hands is not quite   the same thing as economic value being created.\nBut surely you've thought about this from the   perspective of Anthropic, where if \nthese things are happening so fast,   then it should be an insane valuation, right?\nEven us who have not been super focused on   commercialization and more on safety, the graph \ngoes up and it goes up relatively quickly.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6432.6,
+    "end": 6528.2,
+    "text": "I can only imagine what's happening at the \norgs where this is their singular focus.   It's certainly happening fast but it's \nan exponential from the small base   while the technology itself is moving fast.\nIt's a race between how fast the technology   is getting better and how fast it's integrated \ninto the economy. And I think that's just a very   unstable and turbulent process. Both things are \ngoing to happen fast but if you ask me exactly   how it's going to play out, exactly what order \nthings are going to happen, I don't know. And   I'm skeptical of the ability to predict.\nI'm curious. With regards to Anthropic   specifically, you're a public benefit \ncorporation and rightfully so,   you want to make sure that this is an important \ntechnology. Obviously, the only thing you want   to care about is not shareholder value.\nBut how do you talk to investors who are   putting in hundreds of millions, billions \nof dollars of money? How do you get them   to put in this amount of money without the \nshareholder value being the main concern?  I think the LTBT (Long Term Benefit Trust) is \nthe right thing on this. We're going to talk   more about the LTBT, but some version of that \nhas been in development since the beginning   of Anthropic, even formally. Even as the body \nhas changed, from the beginning, it was like,   this body is going to exist and it's unusual.\nEvery traditional investor who invests in   Anthropic looks at this. Some of them are just \nlike, whatever, you run your company how you want.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6528.2,
+    "end": 6618.9,
+    "text": "Some of them are like, oh my god, this body of \nrandom people could move Anthropic in a direction   that's totally contrary to shareholder value. \nNow there are legal limits on that, of course,   but we have to have this conversation with every \ninvestor. And then it gets into a conversation of,   well, what are the kinds of things that \nwe might do that would be contrary to the   interests of traditional investors. \nAnd just having those conversations   has helped get everyone on the same page.\nI want to talk about the fact that so many   of the founders and the employees at Anthropic \nare physicists. We talked in the beginning about   the scaling laws and how the power laws \nfrom physics are something you see here,   but what are the actual approaches and ways of \nthinking from physics that seem to have carried   over so well? Is that notion of effective \ntheory super useful? What is going on here?  Part of it is just that physicists learn things \nreally fast. We have generally found that if we   hire someone who is a Physics PhD or something, \nthat they can learn ML and contribute just very   quickly in most cases. And because several of \nour founders myself, Jared Kaplan, Sam McCandlish   were physicists, we knew a lot of other \nphysicists, and so we were able to hire   them. And now there might be 30 or 40 of them \nhere. ML is not still not yet a field that has   an enormous amount of depth, and so they've \nbeen able to get up to speed very quickly.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6618.9,
+    "end": 6682.4,
+    "text": "Are you concerned that there's a lot of people \nwho would have been doing physics or something,   they would’ve gone into finance \ninstead and since Anthropic exists,   they have now been recruited to go into AI. \nYou obviously care about AI safety, but maybe   in the future they leave and they get funded to \ndo their own thing. Is that a concern that you're   bringing more people into the ecosystem here?\nThere's a broad set of actions, like we're causing   GPUs to exist. There's a lot of side effects \nthat you can't currently control or that you   just incur if you buy into the idea that you need \nto build frontier models. And that's one of them.   A lot of them would have happened anyway. I \nmean, finance was a hot thing 20 years ago,   so physicists were doing it. Now ML is a hot \nthing, and it's not like we've caused them to   do it when they had no interest previously. But \nagain, at the margin, you're bidding things up,   and a lot of that would have happened anyway. Some \nof it wouldn't but it's all part of the calculus.  Do you think that Claude has conscious \nexperience? How likely do you think that is?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6682.4,
+    "end": 6786.5,
+    "text": "This is another of these questions that just \nseems very unsettled and uncertain. One thing   I'll tell you is I used to think that we didn't \nhave to worry about this at all until models   were operating in rich environments, like \nnot necessarily embodied, but they needed   to have a reward function and have a long lived \nexperience. I still think that might be the case,   but the more we've looked at these language \nmodels and particularly looked inside them   to see things like induction heads, a lot of \nthe cognitive machinery that you would need   for active agents already seems present in the \nbase language models. So I'm not quite as sure   as I was before that we're missing enough \nof the things that you would need. I think   today's models just probably aren't smart enough \nthat we should worry about this too much but I'm   not 100% sure about this, and I do think in a \nyear or two, this might be a very real concern.  What would change if you found out that they \nare conscious? Are you worried that you're   pushing the negative gradient to suffering?\nConscious, again, is one of these words that   I suspect will not end up having a well defined.. \nI suspect that's a spectrum. Let's say we discover   that I should care about Claude’s experience as \nmuch as I should care about a dog or a monkey   or something. I would be kind of worried.\nI don't know if their experience is positive   or negative. Unsettlingly I also don't know I \nwouldn't know if any intervention that we made   was more likely to make Claude have a positive \nversus negative experience versus not having one.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6786.5,
+    "end": 6868.0,
+    "text": "If there's an area that is helpful with this, it's \nmaybe mechanistic interpretability because I think   of it as neuroscience for models. It's possible \nthat we could shed some light on this. Although   it's not a straightforward factual question. \nIt depends what we mean and what we value.  We talked about this initially, but I want to \nget more specific. We talked initially about   now that you're seeing these capabilities ramp \nup within the human spectrum, you think that the   human spectrum is wider than we thought but more \nspecifically, how is the way you think about human   intelligence different. The way you're seeing \nthese marginally useful abilities emerge? How does   that change your picture of what intelligence is?\nFor me, the big realization on what intelligence   is came with the blob of compute thing. There \nmight be all these separate modules. There   might be all this complexity. Rich Sutton called \nit The Bitter Lesson. It has many names. It's   been called the scaling hypothesis. The first \nfew people who figured it out was around 2017.   You could go further back. I think Shane Legg \nwas maybe the first person who really knew it,   maybe Ray Kurzweil, although in a very vague \nway. But the number of people who understood   it went up a lot around 2014 to 2017.\nI think that was the big realization.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6869.3,
+    "end": 6948.7,
+    "text": "How did intelligence evolve? If you don't \nneed very specific conditions to create it,   if you can create it just from the right kind \nof gradient and loss signal, then of course   it's not so mysterious how it all happened. \nIt had this click of scientific understanding.  In terms of watching what the models can do, how \nhas it changed my view of human intelligence? I   wish I had something more intelligent to say \non that. One thing that's been surprising   is I thought things might click into place a \nlittle more than they do. I thought different   cognitive abilities might all be connected and \nthere was more of one secret behind them. But   the model just learns various things at different \ntimes. It can be very good at coding but it can't   quite prove the prime number theorem yet. And \nI guess it's a little bit the same for humans,   although it's weird the juxtaposition of things it \ncan do and not. I guess the main lesson is having   theories of intelligence or how intelligence \nworks. A lot of these words just dissolve into   a continuum. They just kind of dematerialize. \nI think less in terms of intelligence and more   in terms of what we see in front of us.\nTwo things are really surprising to me.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6949.8,
+    "end": 7041.1,
+    "text": "One is how discrete these different paths \nof intelligent things that contribute to   loss are rather than just being one reasoning \ncircuit or one general intelligence. And the   other surprising and interesting thing is, many \nyears from now, it'll be one of those things that   you’ll wonder why it wasn't obvious to you? \nIf you're seeing these smooth scaling curves,   why were you not completely convinced at the time?\nYou've been less public than the CEOs of other AI   companies. You're not posting on Twitter, you're \nnot doing a lot of podcasts except for this one.   What gives? Why are you off the radar?\nI aspire to this and I'm proud of this.   If people think of me as boring and low \nprofile, this is actually kind of what I want.   I've just seen cases with a number of \npeople I've worked with, where attaching   your incentives very strongly to the approval \nor cheering of a crowd can destroy your mind,   and in some cases, it can destroy your soul.\nI've deliberately tried to be a little bit low   profile because I want to defend my ability to \nthink about things intellectually in a way that's   different from other people and isn't tinged by \nthe approval of other people. I've seen cases   of folks who are deep learning skeptics, and they \nbecome known as deep learning skeptics on Twitter.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 7041.1,
+    "end": 7096.6,
+    "text": "And then even as it starts to become clear to \nme, they've sort of changed their mind. This is   their thing on Twitter, and they can't change \ntheir Twitter persona and so forth and so on.  I don't really like the trend of personalizing \ncompanies. The whole cage match between CEOs   approach. I think it distracts people from the \nactual merits and concerns of the company in   question. I want people to think in terms of \nthe nameless, bureaucratic institution and its   incentives more than they think in terms of me. \nEveryone wants a friendly face, but actually,   friendly faces can be misleading.\nOkay, well, in this case,   this will be a misleading interview \nbecause this has been a lot of fun.  Indeed.\nYeah, this has been a blast. I’m super glad you   came on the podcast and hope people enjoyed it.\nThanks for having me.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  }
+]

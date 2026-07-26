@@ -8,7 +8,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 112.3,
@@ -19,7 +25,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 183.2,
@@ -30,7 +42,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 248.5,
@@ -41,7 +59,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 317.2,
@@ -52,7 +76,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 399.3,
@@ -63,7 +93,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 463.8,
@@ -74,7 +110,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 535.3,
@@ -85,7 +127,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 611.1,
@@ -96,7 +144,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "education/economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 677.0,
@@ -107,7 +161,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 746.4,
@@ -118,7 +178,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 810.5,
@@ -129,7 +195,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 872.9,
@@ -140,7 +212,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 954.3,
@@ -151,7 +229,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 1021.9,
@@ -162,7 +246,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 1097.2,
@@ -173,7 +263,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 1164.7,
@@ -184,7 +280,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 1231.2,
@@ -195,7 +297,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 1320.0,
@@ -206,7 +314,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 1392.2,
@@ -217,7 +331,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 1458.5,
@@ -228,7 +348,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 1524.6,
@@ -239,7 +365,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_safety_risk",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "agi_timeline"
+    ]
   },
   {
     "start": 1591.1,
@@ -250,7 +384,31 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source",
+      "scaling_compute",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source",
+      "scaling_compute",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "ai_race_power"
+    ]
   },
   {
     "start": 1655.8,
@@ -261,7 +419,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1721.9,
@@ -272,7 +438,35 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI adoption",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "hardware_infra",
+      "execution_engineering",
+      "geopolitics",
+      "open_source",
+      "scaling_compute",
+      "ai_race_power",
+      "llm_capabilities",
+      "breakthroughs_needed",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "hardware_infra",
+      "execution_engineering",
+      "geopolitics",
+      "open_source",
+      "scaling_compute",
+      "ai_race_power",
+      "llm_capabilities",
+      "breakthroughs_needed",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1785.7,
@@ -283,7 +477,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "geopolitics"
+    ]
   },
   {
     "start": 1850.4,
@@ -294,7 +496,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "compute/chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 1915.9,
@@ -305,7 +513,33 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI control and geopolitics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_race_power",
+      "open_source",
+      "llm_capabilities",
+      "agi_timeline",
+      "geopolitics",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_race_power",
+      "open_source",
+      "llm_capabilities",
+      "agi_timeline",
+      "geopolitics",
+      "hardware_infra"
+    ]
   },
   {
     "start": 1979.6,
@@ -316,7 +550,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2043.5,
@@ -327,7 +567,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI leadership",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_race_power"
+    ]
   },
   {
     "start": 2113.6,
@@ -338,7 +586,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI content creation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "geopolitics",
+      "execution_engineering",
+      "ai_race_power",
+      "ai_safety_risk",
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "geopolitics",
+      "execution_engineering",
+      "ai_race_power",
+      "ai_safety_risk",
+      "breakthroughs_needed",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2179.6,
@@ -349,7 +621,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "AI applications",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2268.6,
@@ -360,7 +638,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2332.7,
@@ -371,7 +655,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2416.4,
@@ -382,7 +672,17 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI governance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2480.0,
@@ -393,7 +693,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2543.2,
@@ -404,7 +710,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2607.3,
@@ -415,7 +727,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2675.5,
@@ -426,7 +744,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2739.1,
@@ -437,7 +761,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2803.5,
@@ -448,7 +778,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2869.9,
@@ -459,7 +795,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "AI funding",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 2937.8,
@@ -470,7 +812,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "finance/funding",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3004.4,
@@ -481,7 +829,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3069.0,
@@ -492,7 +846,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3141.7,
@@ -503,7 +863,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "economic systems",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3208.8,
@@ -514,7 +880,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "AI investment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3303.5,
@@ -525,7 +897,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI funding",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3368.4,
@@ -536,7 +916,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "China economy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "geopolitics",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_economics"
+    ]
   },
   {
     "start": 3434.8,
@@ -547,7 +935,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "China's social issues",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3499.4,
@@ -558,7 +954,27 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI effectiveness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "open_source",
+      "geopolitics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "llm_capabilities",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "geopolitics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "llm_capabilities",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3563.7,
@@ -569,7 +985,25 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "compute/chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "open_source",
+      "geopolitics",
+      "ai_race_power",
+      "llm_capabilities",
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "geopolitics",
+      "ai_race_power",
+      "llm_capabilities",
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3629.9,
@@ -580,7 +1014,23 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "geopolitics",
+      "execution_engineering",
+      "hardware_infra",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "geopolitics",
+      "execution_engineering",
+      "hardware_infra",
+      "open_source"
+    ]
   },
   {
     "start": 3695.8,
@@ -591,7 +1041,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI investment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "geopolitics"
+    ]
   },
   {
     "start": 3762.7,
@@ -602,7 +1060,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3828.9,
@@ -613,7 +1077,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3897.4,
@@ -624,7 +1094,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3976.0,
@@ -635,7 +1111,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4048.7,
@@ -646,7 +1128,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4111.8,
@@ -657,7 +1145,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4175.8,
@@ -668,7 +1162,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4239.3,
@@ -679,7 +1179,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4312.2,
@@ -690,7 +1196,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4375.4,
@@ -701,7 +1213,19 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "geopolitics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "geopolitics",
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "geopolitics",
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4443.5,
@@ -712,7 +1236,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4509.2,
@@ -723,7 +1253,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4583.4,
@@ -734,7 +1270,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4649.2,
@@ -745,7 +1287,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4717.3,
@@ -756,7 +1304,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4783.6,
@@ -767,7 +1321,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4846.6,
@@ -778,7 +1338,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4912.8,
@@ -789,7 +1355,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4978.3,
@@ -800,7 +1372,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 5043.7,
@@ -811,7 +1389,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 5107.9,
@@ -822,7 +1406,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "AI impact on economy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 5174.0,
@@ -833,7 +1423,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "economy",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "geopolitics",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_economics"
+    ]
   },
   {
     "start": 5235.8,
@@ -844,7 +1442,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 5301.4,
@@ -855,6 +1459,12 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   }
 ]

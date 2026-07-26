@@ -8,7 +8,17 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 103.2,
@@ -19,7 +29,21 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "hardware_infra",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "hardware_infra",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 165.1,
@@ -30,7 +54,25 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_economics"
+    ]
   },
   {
     "start": 228.6,
@@ -41,7 +83,29 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute",
+      "hardware_infra",
+      "open_source",
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute",
+      "hardware_infra",
+      "open_source",
+      "execution_engineering",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 294.0,
@@ -52,7 +116,33 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "breakthroughs_needed",
+      "execution_engineering",
+      "open_source",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_economics",
+      "hardware_infra",
+      "ai_safety_risk",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "breakthroughs_needed",
+      "execution_engineering",
+      "open_source",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_economics",
+      "hardware_infra",
+      "ai_safety_risk",
+      "ai_race_power"
+    ]
   },
   {
     "start": 361.8,
@@ -63,7 +153,17 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute",
+      "hardware_infra"
+    ]
   },
   {
     "start": 426.0,
@@ -74,7 +174,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "compute/chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "execution_engineering",
+      "agi_timeline"
+    ]
   },
   {
     "start": 487.1,
@@ -85,7 +209,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "jobs",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_economics",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 562.4,
@@ -96,7 +228,35 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "open_source",
+      "llm_capabilities",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "ai_safety_risk",
+      "hardware_infra",
+      "ai_race_power",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "llm_capabilities",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "ai_safety_risk",
+      "hardware_infra",
+      "ai_race_power",
+      "geopolitics"
+    ]
   },
   {
     "start": 638.5,
@@ -107,7 +267,33 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI training methods",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "llm_capabilities",
+      "agi_timeline",
+      "ai_economics",
+      "breakthroughs_needed",
+      "open_source",
+      "hardware_infra",
+      "ai_safety_risk",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "llm_capabilities",
+      "agi_timeline",
+      "ai_economics",
+      "breakthroughs_needed",
+      "open_source",
+      "hardware_infra",
+      "ai_safety_risk",
+      "ai_race_power"
+    ]
   },
   {
     "start": 709.6,
@@ -118,7 +304,21 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI development challenges",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed",
+      "open_source",
+      "execution_engineering",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed",
+      "open_source",
+      "execution_engineering",
+      "hardware_infra"
+    ]
   },
   {
     "start": 775.7,
@@ -129,7 +329,33 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "breakthroughs_needed",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "open_source",
+      "llm_capabilities",
+      "agi_timeline",
+      "ai_economics",
+      "hardware_infra",
+      "ai_race_power",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "open_source",
+      "llm_capabilities",
+      "agi_timeline",
+      "ai_economics",
+      "hardware_infra",
+      "ai_race_power",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 842.2,
@@ -140,7 +366,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI skepticism",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 904.3,
@@ -151,7 +385,21 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering",
+      "agi_timeline"
+    ]
   },
   {
     "start": 977.2,
@@ -162,7 +410,27 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "execution_engineering",
+      "ai_safety_risk",
+      "ai_race_power",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "execution_engineering",
+      "ai_safety_risk",
+      "ai_race_power",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 1052.5,
@@ -173,7 +441,27 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "open_source",
+      "llm_capabilities",
+      "breakthroughs_needed",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "open_source",
+      "llm_capabilities",
+      "breakthroughs_needed",
+      "ai_economics"
+    ]
   },
   {
     "start": 1118.7,
@@ -184,7 +472,25 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities",
+      "open_source",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities",
+      "open_source",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1184.7,
@@ -195,7 +501,21 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "hardware_infra"
+    ]
   },
   {
     "start": 1249.6,
@@ -206,7 +526,21 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source"
+    ]
   },
   {
     "start": 1316.1,
@@ -217,7 +551,33 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI value and impact",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute",
+      "ai_race_power",
+      "hardware_infra",
+      "llm_capabilities",
+      "execution_engineering",
+      "agi_timeline",
+      "geopolitics",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute",
+      "ai_race_power",
+      "hardware_infra",
+      "llm_capabilities",
+      "execution_engineering",
+      "agi_timeline",
+      "geopolitics",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1379.9,
@@ -228,7 +588,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 1456.2,
@@ -239,7 +607,29 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "ai_safety_risk",
+      "llm_capabilities",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "ai_safety_risk",
+      "llm_capabilities",
+      "hardware_infra"
+    ]
   },
   {
     "start": 1522.5,
@@ -250,7 +640,25 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "execution_engineering",
+      "llm_capabilities",
+      "scaling_compute",
+      "open_source",
+      "breakthroughs_needed",
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities",
+      "scaling_compute",
+      "open_source",
+      "breakthroughs_needed",
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1588.6,
@@ -261,7 +669,29 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities",
+      "execution_engineering",
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_race_power",
+      "open_source",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities",
+      "execution_engineering",
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_race_power",
+      "open_source",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1664.1,
@@ -272,7 +702,29 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI research complexity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power",
+      "open_source",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power",
+      "open_source",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1731.3,
@@ -283,7 +735,31 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "llm_capabilities",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "open_source",
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "llm_capabilities",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "open_source",
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1802.3,
@@ -294,7 +770,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1870.4,
@@ -305,7 +789,29 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_safety_risk",
+      "scaling_compute",
+      "open_source",
+      "ai_economics",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_safety_risk",
+      "scaling_compute",
+      "open_source",
+      "ai_economics",
+      "agi_timeline"
+    ]
   },
   {
     "start": 1943.7,
@@ -316,7 +822,25 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "execution_engineering",
+      "ai_race_power",
+      "ai_economics",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "execution_engineering",
+      "ai_race_power",
+      "ai_economics",
+      "open_source"
+    ]
   },
   {
     "start": 2010.3,
@@ -327,7 +851,33 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "scaling_compute",
+      "open_source",
+      "ai_economics",
+      "execution_engineering",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "geopolitics",
+      "intelligence_nature"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "scaling_compute",
+      "open_source",
+      "ai_economics",
+      "execution_engineering",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "geopolitics",
+      "intelligence_nature"
+    ]
   },
   {
     "start": 2075.5,
@@ -338,7 +888,29 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power",
+      "execution_engineering",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "ai_economics",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power",
+      "execution_engineering",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "ai_economics",
+      "agi_timeline"
+    ]
   },
   {
     "start": 2141.2,
@@ -349,7 +921,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI predictions",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 2204.5,
@@ -360,7 +940,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute",
+      "agi_timeline",
+      "open_source",
+      "intelligence_nature",
+      "ai_economics",
+      "ai_race_power",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute",
+      "agi_timeline",
+      "open_source",
+      "intelligence_nature",
+      "ai_economics",
+      "ai_race_power",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 2271.5,
@@ -371,7 +975,33 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI potential",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "execution_engineering",
+      "ai_race_power",
+      "intelligence_nature",
+      "llm_capabilities",
+      "hardware_infra",
+      "ai_safety_risk",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "execution_engineering",
+      "ai_race_power",
+      "intelligence_nature",
+      "llm_capabilities",
+      "hardware_infra",
+      "ai_safety_risk",
+      "ai_economics"
+    ]
   },
   {
     "start": 2349.2,
@@ -382,7 +1012,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI learning efficiency",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2419.0,
@@ -393,7 +1031,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "intelligence_nature",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "agi_timeline"
+    ]
   },
   {
     "start": 2494.9,
@@ -404,7 +1050,33 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "llm_capabilities",
+      "open_source",
+      "agi_timeline",
+      "ai_economics",
+      "ai_race_power",
+      "execution_engineering",
+      "intelligence_nature",
+      "ai_safety_risk",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "llm_capabilities",
+      "open_source",
+      "agi_timeline",
+      "ai_economics",
+      "ai_race_power",
+      "execution_engineering",
+      "intelligence_nature",
+      "ai_safety_risk",
+      "hardware_infra"
+    ]
   },
   {
     "start": 2583.3,
@@ -415,7 +1087,23 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI potential",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "agi_timeline"
+    ]
   },
   {
     "start": 2657.6,
@@ -426,7 +1114,21 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI impact on economy",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "open_source",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "open_source",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 2721.2,
@@ -437,7 +1139,27 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "hardware_infra",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_economics",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "hardware_infra",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_economics",
+      "execution_engineering"
+    ]
   },
   {
     "start": 2797.5,
@@ -448,7 +1170,31 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI research/optimizations",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "open_source",
+      "execution_engineering",
+      "hardware_infra",
+      "llm_capabilities",
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "open_source",
+      "execution_engineering",
+      "hardware_infra",
+      "llm_capabilities",
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 2867.6,
@@ -459,7 +1205,23 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI innovation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 2934.7,
@@ -470,7 +1232,27 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ]
   },
   {
     "start": 3004.5,
@@ -481,7 +1263,29 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "compute/chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "ai_economics",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "ai_economics",
+      "agi_timeline"
+    ]
   },
   {
     "start": 3078.2,
@@ -492,7 +1296,25 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "compute/chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_economics",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_economics",
+      "execution_engineering"
+    ]
   },
   {
     "start": 3151.4,
@@ -503,7 +1325,27 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "compute/chips",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ]
   },
   {
     "start": 3215.8,
@@ -514,7 +1356,29 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "compute/chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "ai_race_power",
+      "open_source",
+      "ai_safety_risk",
+      "llm_capabilities",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "ai_race_power",
+      "open_source",
+      "ai_safety_risk",
+      "llm_capabilities",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3280.2,
@@ -525,7 +1389,31 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI research acceleration",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "scaling_compute",
+      "open_source",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "hardware_infra",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "scaling_compute",
+      "open_source",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "hardware_infra",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 3350.3,
@@ -536,7 +1424,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI progress factors",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "open_source",
+      "ai_race_power",
+      "hardware_infra",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "open_source",
+      "ai_race_power",
+      "hardware_infra",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 3414.6,
@@ -547,7 +1459,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "compute/chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "hardware_infra",
+      "llm_capabilities",
+      "ai_race_power",
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "hardware_infra",
+      "llm_capabilities",
+      "ai_race_power",
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 3482.6,
@@ -558,7 +1494,23 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 3549.4,
@@ -569,7 +1521,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3613.5,
@@ -580,7 +1538,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3677.6,
@@ -591,7 +1555,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3745.5,
@@ -602,7 +1572,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3818.0,
@@ -613,7 +1589,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 3882.6,
@@ -624,7 +1606,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI discussions",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source",
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "ai_race_power",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source",
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "ai_race_power",
+      "scaling_compute",
+      "ai_economics"
+    ]
   },
   {
     "start": 3949.4,
@@ -635,7 +1641,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4023.7,
@@ -646,7 +1658,29 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "economic growth",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "execution_engineering",
+      "hardware_infra",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "execution_engineering",
+      "hardware_infra",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 4086.6,
@@ -657,7 +1691,19 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra",
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra",
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 4151.3,
@@ -668,7 +1714,33 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "data and infrastructure",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "open_source",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_economics",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_race_power",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_economics",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_race_power",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 4223.1,
@@ -679,7 +1751,15 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI deployment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4288.5,
@@ -690,7 +1770,33 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI deployment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "scaling_compute",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_race_power",
+      "hardware_infra",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "scaling_compute",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_race_power",
+      "hardware_infra",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 4361.4,
@@ -701,7 +1807,33 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering",
+      "agi_timeline",
+      "ai_safety_risk",
+      "scaling_compute",
+      "llm_capabilities",
+      "hardware_infra",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering",
+      "agi_timeline",
+      "ai_safety_risk",
+      "scaling_compute",
+      "llm_capabilities",
+      "hardware_infra",
+      "geopolitics"
+    ]
   },
   {
     "start": 4428.6,
@@ -712,7 +1844,33 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "agi_timeline",
+      "ai_race_power",
+      "open_source",
+      "geopolitics",
+      "execution_engineering",
+      "ai_safety_risk",
+      "hardware_infra",
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "agi_timeline",
+      "ai_race_power",
+      "open_source",
+      "geopolitics",
+      "execution_engineering",
+      "ai_safety_risk",
+      "hardware_infra",
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4501.6,
@@ -723,7 +1881,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4564.5,
@@ -734,7 +1898,29 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "open_source",
+      "ai_economics",
+      "llm_capabilities",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "open_source",
+      "ai_economics",
+      "llm_capabilities",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4631.9,
@@ -745,7 +1931,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "technology development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4698.6,
@@ -756,7 +1950,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "historical context",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4760.8,
@@ -767,7 +1967,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "open_source",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "open_source",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "execution_engineering",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 4825.8,
@@ -778,7 +2002,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI adoption",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 4891.9,
@@ -789,7 +2021,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "economy/innovation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 4960.5,
@@ -800,7 +2038,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "technology development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5030.1,
@@ -811,7 +2057,33 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "hardware_infra",
+      "open_source",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "ai_race_power",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "hardware_infra",
+      "open_source",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "ai_race_power",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5106.3,
@@ -822,7 +2094,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI reasoning",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5172.9,
@@ -833,7 +2113,27 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "ai_race_power",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "ai_race_power",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 5246.7,
@@ -844,7 +2144,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "economic growth",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 5314.5,
@@ -855,7 +2161,27 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI workforce",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5378.4,
@@ -866,7 +2192,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "AGI growth potential",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 5445.0,
@@ -877,7 +2209,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "AI impact on industries",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 5508.3,
@@ -888,7 +2226,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "R&D importance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5573.4,
@@ -899,7 +2245,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "economic factors",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power"
+    ]
   },
   {
     "start": 5640.1,
@@ -910,7 +2264,35 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI economy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power",
+      "scaling_compute",
+      "execution_engineering",
+      "hardware_infra",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "geopolitics",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power",
+      "scaling_compute",
+      "execution_engineering",
+      "hardware_infra",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "geopolitics",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5705.5,
@@ -921,7 +2303,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 5776.3,
@@ -932,7 +2320,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI economy/power",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "scaling_compute",
+      "open_source",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "scaling_compute",
+      "open_source",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "geopolitics"
+    ]
   },
   {
     "start": 5841.5,
@@ -943,7 +2355,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI integration",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5911.2,
@@ -954,7 +2390,17 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI economy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5975.1,
@@ -965,7 +2411,29 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI coordination",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "open_source",
+      "scaling_compute",
+      "ai_safety_risk",
+      "agi_timeline",
+      "ai_economics",
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "open_source",
+      "scaling_compute",
+      "ai_safety_risk",
+      "agi_timeline",
+      "ai_economics",
+      "llm_capabilities",
+      "execution_engineering"
+    ]
   },
   {
     "start": 6041.6,
@@ -976,7 +2444,29 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI alignment",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk",
+      "ai_economics",
+      "agi_timeline",
+      "llm_capabilities",
+      "execution_engineering",
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk",
+      "ai_economics",
+      "agi_timeline",
+      "llm_capabilities",
+      "execution_engineering",
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 6121.7,
@@ -987,7 +2477,29 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI conflict analysis",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "geopolitics",
+      "ai_economics",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source",
+      "intelligence_nature"
+    ],
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "geopolitics",
+      "ai_economics",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source",
+      "intelligence_nature"
+    ]
   },
   {
     "start": 6192.0,
@@ -998,7 +2510,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6272.0,
@@ -1009,7 +2529,31 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source",
+      "ai_race_power",
+      "ai_safety_risk",
+      "scaling_compute",
+      "agi_timeline",
+      "execution_engineering",
+      "geopolitics",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source",
+      "ai_race_power",
+      "ai_safety_risk",
+      "scaling_compute",
+      "agi_timeline",
+      "execution_engineering",
+      "geopolitics",
+      "hardware_infra"
+    ]
   },
   {
     "start": 6333.6,
@@ -1020,7 +2564,35 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI impact on society",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_economics",
+      "scaling_compute",
+      "agi_timeline",
+      "open_source",
+      "ai_safety_risk",
+      "hardware_infra",
+      "llm_capabilities",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_economics",
+      "scaling_compute",
+      "agi_timeline",
+      "open_source",
+      "ai_safety_risk",
+      "hardware_infra",
+      "llm_capabilities",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "geopolitics"
+    ]
   },
   {
     "start": 6401.9,
@@ -1031,7 +2603,19 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6465.6,
@@ -1042,7 +2626,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "open_source",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 6530.7,
@@ -1053,7 +2645,19 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI stability",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_race_power",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_race_power",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6599.7,
@@ -1064,7 +2668,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "cultural change",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6666.0,
@@ -1075,7 +2687,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 6739.6,
@@ -1086,7 +2706,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6801.3,
@@ -1097,7 +2725,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 6872.1,
@@ -1108,7 +2742,17 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI ethics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6935.0,
@@ -1119,7 +2763,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 7002.1,
@@ -1130,7 +2780,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 7073.8,
@@ -1141,7 +2797,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 7139.4,
@@ -1152,7 +2814,25 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_economics",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_economics",
+      "open_source"
+    ]
   },
   {
     "start": 7207.6,
@@ -1163,7 +2843,27 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI alignment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "ai_race_power",
+      "execution_engineering",
+      "agi_timeline",
+      "ai_economics",
+      "open_source",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "ai_race_power",
+      "execution_engineering",
+      "agi_timeline",
+      "ai_economics",
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7275.7,
@@ -1174,7 +2874,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 7337.6,
@@ -1185,7 +2893,29 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "agi_timeline",
+      "open_source",
+      "ai_economics",
+      "ai_race_power",
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "agi_timeline",
+      "open_source",
+      "ai_economics",
+      "ai_race_power",
+      "execution_engineering",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 7405.6,
@@ -1196,7 +2926,35 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "ai_economics",
+      "scaling_compute",
+      "ai_safety_risk",
+      "ai_race_power",
+      "open_source",
+      "breakthroughs_needed",
+      "execution_engineering",
+      "hardware_infra",
+      "llm_capabilities",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "ai_economics",
+      "scaling_compute",
+      "ai_safety_risk",
+      "ai_race_power",
+      "open_source",
+      "breakthroughs_needed",
+      "execution_engineering",
+      "hardware_infra",
+      "llm_capabilities",
+      "geopolitics"
+    ]
   },
   {
     "start": 7485.5,
@@ -1207,7 +2965,33 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI uncertainty",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "open_source",
+      "ai_race_power",
+      "llm_capabilities",
+      "ai_economics",
+      "execution_engineering",
+      "scaling_compute",
+      "agi_timeline",
+      "geopolitics",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "open_source",
+      "ai_race_power",
+      "llm_capabilities",
+      "ai_economics",
+      "execution_engineering",
+      "scaling_compute",
+      "agi_timeline",
+      "geopolitics",
+      "hardware_infra"
+    ]
   },
   {
     "start": 7556.1,
@@ -1218,7 +3002,17 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7628.4,
@@ -1229,7 +3023,19 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7693.6,
@@ -1240,7 +3046,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "historical context",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 7769.4,
@@ -1251,7 +3063,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 7833.6,
@@ -1262,7 +3080,29 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute",
+      "llm_capabilities",
+      "breakthroughs_needed",
+      "ai_safety_risk",
+      "open_source",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute",
+      "llm_capabilities",
+      "breakthroughs_needed",
+      "ai_safety_risk",
+      "open_source",
+      "ai_economics"
+    ]
   },
   {
     "start": 7922.1,
@@ -1273,7 +3113,33 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI impact",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute",
+      "open_source",
+      "ai_race_power",
+      "hardware_infra",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute",
+      "open_source",
+      "ai_race_power",
+      "hardware_infra",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 7993.2,
@@ -1284,7 +3150,25 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_race_power"
+    ]
   },
   {
     "start": 8062.4,
@@ -1295,7 +3179,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8130.9,
@@ -1306,7 +3198,27 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "ai_safety_risk",
+      "ai_economics",
+      "scaling_compute",
+      "open_source",
+      "hardware_infra",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "ai_safety_risk",
+      "ai_economics",
+      "scaling_compute",
+      "open_source",
+      "hardware_infra",
+      "execution_engineering"
+    ]
   },
   {
     "start": 8195.0,
@@ -1317,7 +3229,31 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source",
+      "ai_safety_risk",
+      "hardware_infra",
+      "ai_race_power",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source",
+      "ai_safety_risk",
+      "hardware_infra",
+      "ai_race_power",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 8260.3,
@@ -1328,7 +3264,15 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI urgency",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8325.2,
@@ -1339,7 +3283,15 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8392.1,
@@ -1350,7 +3302,23 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI transition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_race_power",
+      "ai_economics",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_race_power",
+      "ai_economics",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 8459.5,
@@ -1361,7 +3329,37 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI impact on economy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "llm_capabilities",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_race_power",
+      "hardware_infra",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "geopolitics",
+      "ai_safety_risk",
+      "intelligence_nature"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "llm_capabilities",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_race_power",
+      "hardware_infra",
+      "breakthroughs_needed",
+      "agi_timeline",
+      "geopolitics",
+      "ai_safety_risk",
+      "intelligence_nature"
+    ]
   },
   {
     "start": 8526.8,
@@ -1372,7 +3370,33 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI deployment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute",
+      "agi_timeline",
+      "geopolitics",
+      "execution_engineering",
+      "hardware_infra",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute",
+      "agi_timeline",
+      "geopolitics",
+      "execution_engineering",
+      "hardware_infra",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 8593.0,
@@ -1383,7 +3407,35 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI governance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "open_source",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute",
+      "geopolitics",
+      "llm_capabilities",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_safety_risk",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute",
+      "geopolitics",
+      "llm_capabilities",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_safety_risk",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 8662.8,
@@ -1394,7 +3446,33 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI arms race",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "geopolitics",
+      "open_source",
+      "agi_timeline",
+      "scaling_compute",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "execution_engineering",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "geopolitics",
+      "open_source",
+      "agi_timeline",
+      "scaling_compute",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "execution_engineering",
+      "hardware_infra"
+    ]
   },
   {
     "start": 8726.4,
@@ -1405,7 +3483,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 8797.0,
@@ -1416,7 +3500,31 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI growth dynamics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "open_source",
+      "ai_race_power",
+      "hardware_infra",
+      "llm_capabilities",
+      "scaling_compute",
+      "geopolitics",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "ai_race_power",
+      "hardware_infra",
+      "llm_capabilities",
+      "scaling_compute",
+      "geopolitics",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 8873.4,
@@ -1427,7 +3535,29 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "China's AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "geopolitics",
+      "ai_race_power",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "llm_capabilities",
+      "open_source",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "geopolitics",
+      "ai_race_power",
+      "hardware_infra",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "llm_capabilities",
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 8940.3,
@@ -1438,7 +3568,33 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "geopolitics",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "hardware_infra",
+      "agi_timeline",
+      "execution_engineering",
+      "ai_race_power",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "hardware_infra",
+      "agi_timeline",
+      "execution_engineering",
+      "ai_race_power",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 9004.5,
@@ -1449,7 +3605,33 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "superhuman intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "ai_economics",
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "agi_timeline",
+      "llm_capabilities",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "ai_economics",
+      "open_source",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 9069.8,
@@ -1460,7 +3642,31 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI concepts",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute",
+      "ai_safety_risk",
+      "ai_economics",
+      "hardware_infra",
+      "ai_race_power",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute",
+      "ai_safety_risk",
+      "ai_economics",
+      "hardware_infra",
+      "ai_race_power",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 9138.6,
@@ -1471,7 +3677,15 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI impact",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ]
   },
   {
     "start": 9201.2,
@@ -1482,7 +3696,33 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "agi_timeline",
+      "ai_economics",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "hardware_infra",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "agi_timeline",
+      "ai_economics",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "hardware_infra",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 9273.5,
@@ -1493,7 +3733,15 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AGI implications",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 9335.8,
@@ -1504,7 +3752,15 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 9412.1,
@@ -1515,7 +3771,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 9482.3,
@@ -1526,7 +3788,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 9554.4,
@@ -1537,7 +3805,21 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI impact on economy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra",
+      "ai_race_power",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra",
+      "ai_race_power",
+      "open_source"
+    ]
   },
   {
     "start": 9618.6,
@@ -1548,7 +3830,27 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_race_power",
+      "breakthroughs_needed",
+      "hardware_infra"
+    ]
   },
   {
     "start": 9687.1,
@@ -1559,7 +3861,15 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "compute/chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 9750.0,
@@ -1570,7 +3880,31 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power",
+      "open_source",
+      "hardware_infra",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "llm_capabilities",
+      "ai_economics",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power",
+      "open_source",
+      "hardware_infra",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "llm_capabilities",
+      "ai_economics",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 9816.0,
@@ -1581,7 +3915,23 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "breakthroughs_needed",
+      "open_source"
+    ]
   },
   {
     "start": 9880.9,
@@ -1592,7 +3942,33 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI regulation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "geopolitics",
+      "hardware_infra",
+      "llm_capabilities",
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "geopolitics",
+      "hardware_infra",
+      "llm_capabilities",
+      "execution_engineering",
+      "agi_timeline"
+    ]
   },
   {
     "start": 9953.4,
@@ -1603,7 +3979,33 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI regulation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "llm_capabilities",
+      "scaling_compute",
+      "ai_safety_risk",
+      "agi_timeline",
+      "hardware_infra",
+      "geopolitics",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "llm_capabilities",
+      "scaling_compute",
+      "ai_safety_risk",
+      "agi_timeline",
+      "hardware_infra",
+      "geopolitics",
+      "execution_engineering"
+    ]
   },
   {
     "start": 10016.5,
@@ -1614,7 +4016,29 @@
     "stance": "Refute",
     "is_claim": true,
     "topic": "AI growth objections",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "hardware_infra",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "hardware_infra",
+      "llm_capabilities",
+      "ai_safety_risk",
+      "execution_engineering"
+    ]
   },
   {
     "start": 10086.8,
@@ -1625,7 +4049,27 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AGI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering",
+      "hardware_infra",
+      "open_source",
+      "scaling_compute",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering",
+      "hardware_infra",
+      "open_source",
+      "scaling_compute",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 10150.7,
@@ -1636,7 +4080,35 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "hardware_infra",
+      "execution_engineering",
+      "llm_capabilities",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "ai_safety_risk",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "hardware_infra",
+      "execution_engineering",
+      "llm_capabilities",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "ai_safety_risk",
+      "geopolitics"
+    ]
   },
   {
     "start": 10217.0,
@@ -1647,7 +4119,31 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI evolution",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_economics",
+      "ai_race_power",
+      "open_source",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_economics",
+      "ai_race_power",
+      "open_source",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "breakthroughs_needed",
+      "hardware_infra",
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 10291.3,
@@ -1658,7 +4154,31 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI society",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_economics",
+      "open_source",
+      "execution_engineering",
+      "agi_timeline",
+      "ai_safety_risk",
+      "hardware_infra",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_economics",
+      "open_source",
+      "execution_engineering",
+      "agi_timeline",
+      "ai_safety_risk",
+      "hardware_infra",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 10354.7,
@@ -1669,7 +4189,33 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI impact on organizations",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power",
+      "open_source",
+      "execution_engineering",
+      "ai_safety_risk",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power",
+      "open_source",
+      "execution_engineering",
+      "ai_safety_risk",
+      "agi_timeline",
+      "breakthroughs_needed",
+      "hardware_infra"
+    ]
   },
   {
     "start": 10443.7,
@@ -1680,7 +4226,29 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "compute/chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_economics",
+      "execution_engineering",
+      "llm_capabilities",
+      "open_source",
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_economics",
+      "execution_engineering",
+      "llm_capabilities",
+      "open_source",
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 10510.3,
@@ -1691,7 +4259,21 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI systems",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_economics"
+    ]
   },
   {
     "start": 10579.1,
@@ -1702,7 +4284,29 @@
     "stance": "Support",
     "is_claim": true,
     "topic": "AI systems",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "ai_economics",
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source",
+      "execution_engineering",
+      "breakthroughs_needed",
+      "ai_economics",
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 10643.5,
@@ -1713,7 +4317,25 @@
     "stance": "Neutral",
     "is_claim": true,
     "topic": "AI impact on economy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 10713.6,
@@ -1724,7 +4346,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "AI relevance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 10779.6,
@@ -1735,7 +4363,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "career advice",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 10844.8,
@@ -1746,7 +4380,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 10907.8,
@@ -1757,7 +4397,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 10972.8,
@@ -1768,7 +4414,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 11040.4,
@@ -1779,7 +4431,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 11118.1,
@@ -1790,7 +4448,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "AI literature",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 11191.6,
@@ -1801,7 +4465,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 11258.3,
@@ -1812,7 +4482,13 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   },
   {
     "start": 11325.3,
@@ -1823,6 +4499,12 @@
     "stance": "Neutral",
     "is_claim": false,
     "topic": "off-topic",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ]
   }
 ]

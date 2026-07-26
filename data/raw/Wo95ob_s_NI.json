@@ -1,0 +1,3847 @@
+[
+  {
+    "text": "Today I have the pleasure to speak with John \nSchulman, who is one of the co-founders of OpenAI  ",
+    "start": 24.44,
+    "duration": 5.84
+  },
+  {
+    "text": "and leads the post-training team here. He also \nled the creation of ChatGPT and is the author  ",
+    "start": 30.28,
+    "duration": 7.08
+  },
+  {
+    "text": "of many of the most important and widely \ncited papers in AI and RL, including PPO  ",
+    "start": 37.36,
+    "duration": 4.8
+  },
+  {
+    "text": "and many others. John, really excited to chat \nwith you. Thanks for coming on the podcast.\n  ",
+    "start": 42.16,
+    "duration": 3.52
+  },
+  {
+    "text": "Thanks for having me on \nthe podcast. I'm a big fan.",
+    "start": 45.68,
+    "duration": 1.92
+  },
+  {
+    "text": "Thank you for saying that. Here’s my first \nquestion. We have these distinctions between  ",
+    "start": 48.12,
+    "duration": 5.64
+  },
+  {
+    "text": "pre-training and post-training. Let’s \ngo beyond what is actually happening  ",
+    "start": 53.76,
+    "duration": 3.68
+  },
+  {
+    "text": "in terms of loss function and training \nregimes. Taking a step back conceptually,  ",
+    "start": 57.44,
+    "duration": 5.24
+  },
+  {
+    "text": "what kind of thing is pre-training creating? \nWhat does post-training do on top of that?  \n  ",
+    "start": 62.68,
+    "duration": 6.6
+  },
+  {
+    "text": "In pre-training you're basically training to \nimitate all of the content on the Internet or on  ",
+    "start": 69.28,
+    "duration": 5.6
+  },
+  {
+    "text": "the web, including websites and code and so forth. \nSo you get a model that can generate content that  ",
+    "start": 74.88,
+    "duration": 8.56
+  },
+  {
+    "text": "looks like random web pages from the Internet. \nThe model is also trained to maximize likelihood  ",
+    "start": 83.44,
+    "duration": 6.72
+  },
+  {
+    "text": "where it has to put a probability on everything.  \nThe objective is basically predicting the next  ",
+    "start": 90.16,
+    "duration": 7.36
+  },
+  {
+    "text": "token given the previous tokens. Tokens \nare like words, or parts of words. Since  ",
+    "start": 97.52,
+    "duration": 6.08
+  },
+  {
+    "text": "the model has to put a probability on it—we're \ntraining to maximize log probability—it ends  ",
+    "start": 103.6,
+    "duration": 6.24
+  },
+  {
+    "text": "up being very calibrated. Not only can it \ngenerate all of the content of the web,  ",
+    "start": 109.84,
+    "duration": 5.44
+  },
+  {
+    "text": "it can also assign probabilities to everything.\nThe base model can effectively take on  ",
+    "start": 115.28,
+    "duration": 6.24
+  },
+  {
+    "text": "all of these different personas or generate \nall different kinds of content. When we do  ",
+    "start": 121.52,
+    "duration": 6.88
+  },
+  {
+    "text": "post-training, we're usually targeting a narrower \nrange of behaviors where we want the model to  ",
+    "start": 128.4,
+    "duration": 8.64
+  },
+  {
+    "text": "behave like a kind of chat assistant. It's a \nmore specific persona where it's trying to be  ",
+    "start": 137.04,
+    "duration": 8.24
+  },
+  {
+    "text": "helpful. It's not trying to imitate a person. \nIt's answering your questions or doing your  ",
+    "start": 145.28,
+    "duration": 5.16
+  },
+  {
+    "text": "tasks. We're optimizing on a different objective, \nwhich is more about producing outputs that humans  ",
+    "start": 150.44,
+    "duration": 8.16
+  },
+  {
+    "text": "will like and find useful, as opposed to just \nimitating this raw content from the web.  \n  ",
+    "start": 158.6,
+    "duration": 6.48
+  },
+  {
+    "text": "Maybe I should take a step back and ask this. \nRight now we have these models that are pretty  ",
+    "start": 166.72,
+    "duration": 4.28
+  },
+  {
+    "text": "good at acting as chatbots. Taking a step \nback from how these processes work currently,  ",
+    "start": 171.0,
+    "duration": 4.4
+  },
+  {
+    "text": "what kinds of things will the models released by \nthe end of the year be capable of doing? What do  ",
+    "start": 175.4,
+    "duration": 4.68
+  },
+  {
+    "text": "you think the progress will look like if we carry \neverything forward for the next five years?\n  ",
+    "start": 180.08,
+    "duration": 5.08
+  },
+  {
+    "text": "The models will get quite a \nbit better in five years.\n  ",
+    "start": 186.92,
+    "duration": 4.2
+  },
+  {
+    "text": "In what way?\n \nEven in one or two years,  ",
+    "start": 193.6,
+    "duration": 2.88
+  },
+  {
+    "text": "we'll find that the models can do a lot more \ninvolved tasks than they can do now. For example,  ",
+    "start": 196.48,
+    "duration": 12.32
+  },
+  {
+    "text": "you could imagine having the models carry out a \nwhole coding project instead of it giving you one  ",
+    "start": 211.52,
+    "duration": 5.16
+  },
+  {
+    "text": "suggestion on how to write a function. You could \nimagine the model taking high-level instructions  ",
+    "start": 216.68,
+    "duration": 7.6
+  },
+  {
+    "text": "on what to code and going out on its own, \nwriting any files, and testing it, and looking  ",
+    "start": 224.28,
+    "duration": 7.56
+  },
+  {
+    "text": "at the output. It might even iterate on that \na bit. So just much more complex tasks.  \n  ",
+    "start": 231.84,
+    "duration": 4.64
+  },
+  {
+    "text": "Fundamentally the unlock is that it can act \ncoherently for long enough to write multiple files  ",
+    "start": 236.48,
+    "duration": 4.84
+  },
+  {
+    "text": "of code? What has changed between now and then?  \n \nI would say this will come from some combination  ",
+    "start": 241.32,
+    "duration": 5.72
+  },
+  {
+    "text": "of training the models to do harder tasks \nlike this. Most of the training data is  ",
+    "start": 247.04,
+    "duration": 17.0
+  },
+  {
+    "text": "more like doing single steps at a time. \nI would expect us to do more for training  ",
+    "start": 264.04,
+    "duration": 5.92
+  },
+  {
+    "text": "the models to carry out these longer projects.  \nThat’s for any kind of training, like doing RL,  ",
+    "start": 269.96,
+    "duration": 8.72
+  },
+  {
+    "text": "to learn how to do these tasks. Whether you're \nsupervising the final output or supervising it  ",
+    "start": 279.24,
+    "duration": 7.4
+  },
+  {
+    "text": "at each step, any kind of training at \ncarrying out these long projects is  ",
+    "start": 286.64,
+    "duration": 5.04
+  },
+  {
+    "text": "going to make the models a lot better.\nSince the whole area is pretty new,  ",
+    "start": 291.68,
+    "duration": 6.76
+  },
+  {
+    "text": "I'd say there's a lot of low-hanging fruit \nin doing this kind of training. That's one  ",
+    "start": 298.44,
+    "duration": 8.24
+  },
+  {
+    "text": "thing. I would also expect that as models get \nbetter, they get better at recovering from  ",
+    "start": 306.68,
+    "duration": 5.56
+  },
+  {
+    "text": "errors or dealing with edge cases. When things \ngo wrong, they’ll know how to recover from it.   ",
+    "start": 312.24,
+    "duration": 12.2
+  },
+  {
+    "text": "The models will be more sample efficient. You \nwon't have to collect a ton of data to teach  ",
+    "start": 324.44,
+    "duration": 5.28
+  },
+  {
+    "text": "them how to get back on track. Just a little \nbit of data or their generalization from other  ",
+    "start": 329.72,
+    "duration": 7.64
+  },
+  {
+    "text": "abilities will allow them to get back on track. \nCurrent models might just get stuck and get lost.\n  ",
+    "start": 338.16,
+    "duration": 6.88
+  },
+  {
+    "text": "I want to understand specifically how \nthe generalization helps you get back on  ",
+    "start": 345.04,
+    "duration": 7.2
+  },
+  {
+    "text": "track. Can you say more about that? I'm not \nsure why those two concepts are connected.\n  ",
+    "start": 352.24,
+    "duration": 4.56
+  },
+  {
+    "text": "Right, they're not directly connected. You usually \nhave a little bit of data that does everything.  ",
+    "start": 356.8,
+    "duration": 6.96
+  },
+  {
+    "text": "If you collect a diverse data set, you're going \nto get a little bit of everything in it. If you  ",
+    "start": 366.64,
+    "duration": 6.04
+  },
+  {
+    "text": "have models that generalize really well—even from \njust a couple of examples of getting back on track  ",
+    "start": 372.68,
+    "duration": 6.76
+  },
+  {
+    "text": "or if in the pre-training data there are a couple \nof examples of a model getting back on track—the  ",
+    "start": 379.44,
+    "duration": 4.52
+  },
+  {
+    "text": "model will be able to generalize from those \nother things it’s seen to the current situation. ",
+    "start": 384.64,
+    "duration": 5.68
+  },
+  {
+    "text": "If you have models that are weaker, you might \nbe able to get them to do almost anything with  ",
+    "start": 393.68,
+    "duration": 4.52
+  },
+  {
+    "text": "enough data. But you might have to put a lot \nof effort into a particular domain or skill.   ",
+    "start": 398.2,
+    "duration": 6.04
+  },
+  {
+    "text": "Whereas for a stronger model, \nit might just do the right thing  ",
+    "start": 404.24,
+    "duration": 2.96
+  },
+  {
+    "text": "without any training data or any effort.\n \nRight now these models can work coherently  ",
+    "start": 407.2,
+    "duration": 7.28
+  },
+  {
+    "text": "for five minutes. We want them to be able to do \ntasks that a human would take an hour to do, then  ",
+    "start": 414.48,
+    "duration": 4.68
+  },
+  {
+    "text": "a week, then a month, and so forth. \nTo get to each of these benchmarks,  ",
+    "start": 419.16,
+    "duration": 5.88
+  },
+  {
+    "text": "is it going to be the case that each one takes \n10X more compute, analogous to the current  ",
+    "start": 425.04,
+    "duration": 4.68
+  },
+  {
+    "text": "scaling laws for pre-training? Or is it going \nto be a much more streamlined process of just  ",
+    "start": 429.72,
+    "duration": 7.84
+  },
+  {
+    "text": "getting to that point where you're already more \nsample efficient and you can just go straight to  ",
+    "start": 437.56,
+    "duration": 4.8
+  },
+  {
+    "text": "the years of carrying out tasks or something? \n \nAt a high level, I would agree that longer-horizon  ",
+    "start": 442.36,
+    "duration": 7.72
+  },
+  {
+    "text": "tasks are going to require more model intelligence \nto do well. They are going to be more expensive to  ",
+    "start": 450.08,
+    "duration": 6.44
+  },
+  {
+    "text": "train. I'm not sure I would expect a really \nclean scaling law unless you set it up in a  ",
+    "start": 456.52,
+    "duration": 7.92
+  },
+  {
+    "text": "very careful way, or design the experiment in a \ncertain way. There might end up being some phase  ",
+    "start": 464.44,
+    "duration": 10.56
+  },
+  {
+    "text": "transitions where once you get to a certain \nlevel you can deal with much longer tasks. ",
+    "start": 475.0,
+    "duration": 11.24
+  },
+  {
+    "text": "For example, when people do planning for \ndifferent timescales, I'm not sure they use  ",
+    "start": 486.24,
+    "duration": 11.24
+  },
+  {
+    "text": "completely different mechanisms. We probably \nuse the same mental machinery thinking about  ",
+    "start": 497.48,
+    "duration": 7.44
+  },
+  {
+    "text": "one month from now, one year from now, or a \nhundred years from now. We're not actually  ",
+    "start": 504.92,
+    "duration": 8.8
+  },
+  {
+    "text": "doing some kind of reinforcement learning \nwhere we need to worry about a discount factor  ",
+    "start": 513.72,
+    "duration": 5.48
+  },
+  {
+    "text": "that covers that timescale and so forth.\nUsing language, you can describe all of  ",
+    "start": 519.2,
+    "duration": 5.68
+  },
+  {
+    "text": "these different timescales and then you can do \nthings like plan. In the moment you can try to  ",
+    "start": 524.88,
+    "duration": 6.16
+  },
+  {
+    "text": "make progress towards your goal, whether it's \na month away or 10 years away. I don’t know if  ",
+    "start": 531.04,
+    "duration": 11.52
+  },
+  {
+    "text": "it’s a phase transition but I might expect the \nsame out of models where there might be some  ",
+    "start": 542.56,
+    "duration": 3.04
+  },
+  {
+    "text": "capabilities that work at multiple scales.\n \nCorrect me if this is wrong. It seems like you’re  ",
+    "start": 545.6,
+    "duration": 6.271
+  },
+  {
+    "text": "implying that right now we have models that are on \na per token basis pretty smart. They might be as  ",
+    "start": 551.871,
+    "duration": 5.609
+  },
+  {
+    "text": "smart as the smartest humans on a per token basis. \nThe thing that prevents them from being as useful  ",
+    "start": 557.48,
+    "duration": 6.52
+  },
+  {
+    "text": "as they could be is that five minutes from now, \nthey're not going to be still writing your code in  ",
+    "start": 564.0,
+    "duration": 4.88
+  },
+  {
+    "text": "a way that’s coherent and aligns with your broader \ngoals you have for your project or something. ",
+    "start": 568.88,
+    "duration": 5.2
+  },
+  {
+    "text": "If it's the case that once you start \nthis long-horizon RL training regime  ",
+    "start": 574.08,
+    "duration": 5.32
+  },
+  {
+    "text": "it immediately unlocks your ability to be \ncoherent for longer periods of time, should  ",
+    "start": 579.4,
+    "duration": 4.8
+  },
+  {
+    "text": "we be predicting something that is human-level \nas soon as that regime is unlocked? If not,  ",
+    "start": 584.2,
+    "duration": 5.64
+  },
+  {
+    "text": "then what is remaining after we can plan for a \nyear and execute projects that take that long?\n  ",
+    "start": 589.84,
+    "duration": 5.8
+  },
+  {
+    "text": "It's not totally clear what we're going \nto see once we get into that regime or  ",
+    "start": 595.64,
+    "duration": 3.68
+  },
+  {
+    "text": "how fast progress will be. That's still uncertain. \nI wouldn't expect everything to be immediately  ",
+    "start": 601.16,
+    "duration": 11.96
+  },
+  {
+    "text": "solved by doing any training like this. There'll \nbe other miscellaneous deficits that the models  ",
+    "start": 613.12,
+    "duration": 7.0
+  },
+  {
+    "text": "have that cause them to get stuck or make worse \ndecisions than humans. I don’t expect that this  ",
+    "start": 620.12,
+    "duration": 9.64
+  },
+  {
+    "text": "one little thing will unlock all capabilities. \nBut some improvement in the ability to do  ",
+    "start": 629.76,
+    "duration": 8.76
+  },
+  {
+    "text": "long-horizon tasks might go quite far.  \n \nWould you say it's plausible? Does it seem  ",
+    "start": 638.52,
+    "duration": 4.72
+  },
+  {
+    "text": "quite likely that there will be other reasons why \nthere might be bottlenecks? I'm also curious what  ",
+    "start": 643.24,
+    "duration": 5.64
+  },
+  {
+    "text": "the nature of these bottlenecks might be. It has \nall these representations of pre-training. Now it  ",
+    "start": 648.88,
+    "duration": 3.6
+  },
+  {
+    "text": "can work coherently for a long period of time \nbecause of long-horizon RL. What's remaining?\n  ",
+    "start": 652.48,
+    "duration": 6.76
+  },
+  {
+    "text": "Maybe there's some other experience that human \nexperts bring to different tasks such as having  ",
+    "start": 660.6,
+    "duration": 7.96
+  },
+  {
+    "text": "taste or dealing with ambiguity better. If \nwe want to do something like research I could  ",
+    "start": 669.24,
+    "duration": 8.56
+  },
+  {
+    "text": "imagine those considerations coming into \nplay. Obviously there are going to be  ",
+    "start": 677.8,
+    "duration": 10.32
+  },
+  {
+    "text": "mundane limitations around the affordances \nof the model and whether it can use UIs,  ",
+    "start": 689.28,
+    "duration": 7.2
+  },
+  {
+    "text": "interact with the physical world, or \nhave access to things. So there might  ",
+    "start": 696.48,
+    "duration": 6.04
+  },
+  {
+    "text": "be a lot of mundane barriers that \nare probably not going to last that  ",
+    "start": 702.52,
+    "duration": 5.52
+  },
+  {
+    "text": "long but would initially slow down progress.  \n \nLet’s talk about the websites that are designed  ",
+    "start": 708.04,
+    "duration": 6.48
+  },
+  {
+    "text": "for these AIs. Once they’re trained on more \nmultimodal data, will they be in any way different  ",
+    "start": 714.52,
+    "duration": 7.2
+  },
+  {
+    "text": "from the ones we have for humans? What UIs will be \nneeded? How will it compensate for their strengths  ",
+    "start": 721.72,
+    "duration": 5.96
+  },
+  {
+    "text": "and weaknesses? How would that look different \nfrom the current UIs we have for humans?  \n  ",
+    "start": 727.68,
+    "duration": 5.16
+  },
+  {
+    "text": "That's an interesting question. I expect that \nmodels will be able to use websites that are  ",
+    "start": 733.84,
+    "duration": 5.64
+  },
+  {
+    "text": "designed for humans just by using vision, after \nthe vision capabilities get a bit better. So there  ",
+    "start": 739.48,
+    "duration": 7.2
+  },
+  {
+    "text": "wouldn't be an immediate need to change them.\nOn the other hand, there’ll be some websites that  ",
+    "start": 746.68,
+    "duration": 4.36
+  },
+  {
+    "text": "are going to benefit a lot from AIs being able to \nuse them. We’ll probably want to design those to  ",
+    "start": 751.04,
+    "duration": 6.52
+  },
+  {
+    "text": "be better UXs for Ais. I'm not sure exactly what \nthat would mean. Assuming that our models are  ",
+    "start": 757.56,
+    "duration": 10.84
+  },
+  {
+    "text": "still better at text mode than reading text \nout of images, you'd probably want to have a  ",
+    "start": 768.4,
+    "duration": 6.72
+  },
+  {
+    "text": "good text-based representation for the models.\nYou’d also want a good indication of what all  ",
+    "start": 775.12,
+    "duration": 8.8
+  },
+  {
+    "text": "the things that can be interacted with are. But I \nwouldn't expect the web to get totally redesigned  ",
+    "start": 783.92,
+    "duration": 6.8
+  },
+  {
+    "text": "to have APIs everywhere. We can get models to \nuse the same kind of UIs that humans use.  \n  ",
+    "start": 790.72,
+    "duration": 6.96
+  },
+  {
+    "text": "I guess that's been the big lesson of language \nmodels, right? That they can act within the  ",
+    "start": 797.68,
+    "duration": 3.88
+  },
+  {
+    "text": "similar affordances that humans do.\nI want to go back to the point you  ",
+    "start": 801.56,
+    "duration": 4.92
+  },
+  {
+    "text": "made earlier about how this process could \nbe more sample efficient because it could  ",
+    "start": 806.48,
+    "duration": 3.68
+  },
+  {
+    "text": "generalize from its pre-training experiences \nof how to get unstuck in different scenarios.  ",
+    "start": 810.16,
+    "duration": 5.52
+  },
+  {
+    "text": "What is the strongest evidence you’ve \nseen of this generalization and transfer? ",
+    "start": 818.12,
+    "duration": 4.8
+  },
+  {
+    "text": "The big question for the future abilities models \nseems to be about how much generalization is  ",
+    "start": 828.64,
+    "duration": 3.88
+  },
+  {
+    "text": "happening. Is there something that feels \nreally compelling to you? Have you seen a  ",
+    "start": 832.52,
+    "duration": 2.56
+  },
+  {
+    "text": "model learn something that you wouldn't \nexpect it to learn from generalization?  \n  ",
+    "start": 835.08,
+    "duration": 3.96
+  },
+  {
+    "text": "There have definitely been some interesting \ninstances of generalization in post-training. ",
+    "start": 840.32,
+    "duration": 5.72
+  },
+  {
+    "text": "One well-known phenomenon is that if you \ndo all your fine-tuning with English data,  ",
+    "start": 847.76,
+    "duration": 5.72
+  },
+  {
+    "text": "the model will automatically behave well \nin other languages. So if you train the  ",
+    "start": 856.24,
+    "duration": 5.76
+  },
+  {
+    "text": "assistant on English data, it'll also do something \nreasonable in Spanish. Sometimes you might get the  ",
+    "start": 862.0,
+    "duration": 7.8
+  },
+  {
+    "text": "wrong behavior in terms of whether it replies \nin English or replies in Spanish. Usually you  ",
+    "start": 869.8,
+    "duration": 5.44
+  },
+  {
+    "text": "get the right behavior there, meaning you get it \nto respond in Spanish to Spanish queries. That's  ",
+    "start": 875.24,
+    "duration": 6.44
+  },
+  {
+    "text": "one interesting instance of generalization \nwhere the model just latches onto the right,  ",
+    "start": 881.68,
+    "duration": 6.24
+  },
+  {
+    "text": "helpful persona and then automatically does \nthe right thing in different languages.   ",
+    "start": 887.92,
+    "duration": 4.2
+  },
+  {
+    "text": "We've seen some version of this with multimodal \ndata where if you do text-only fine-tuning,  ",
+    "start": 892.12,
+    "duration": 7.32
+  },
+  {
+    "text": "you also get reasonable behavior with images. \nEarly on in ChatGPT we were trying to fix some  ",
+    "start": 899.44,
+    "duration": 11.0
+  },
+  {
+    "text": "issues with the model understanding its own \nlimitations. Early versions of the model would  ",
+    "start": 910.44,
+    "duration": 8.0
+  },
+  {
+    "text": "think that it could send you an email or call \nyou an Uber or something. The model would try  ",
+    "start": 918.44,
+    "duration": 6.44
+  },
+  {
+    "text": "to play the assistant and it would say “oh yeah, \nof course I sent that email.” Obviously it didn't. ",
+    "start": 924.88,
+    "duration": 4.88
+  },
+  {
+    "text": "So we started collecting some data to fix \nthose problems. We found that a tiny amount  ",
+    "start": 929.76,
+    "duration": 6.2
+  },
+  {
+    "text": "of data did the trick, even when you mixed \nit together with everything else. I don't  ",
+    "start": 935.96,
+    "duration": 4.16
+  },
+  {
+    "text": "remember exactly how many examples but something \nlike 30 examples. We had a pretty small number  ",
+    "start": 940.12,
+    "duration": 6.8
+  },
+  {
+    "text": "of examples showing this general behavior, \nexplaining that the model doesn’t have this  ",
+    "start": 946.92,
+    "duration": 6.88
+  },
+  {
+    "text": "capability. That generalized pretty well to all \nsorts of capabilities we didn't train for.  \n  ",
+    "start": 953.8,
+    "duration": 5.12
+  },
+  {
+    "text": "I still want to go back to this because I'm not \nsure I understood. Let’s say you have this model  ",
+    "start": 960.2,
+    "duration": 7.24
+  },
+  {
+    "text": "that is trained to be coherent for longer \nperiods of time. Setting aside these other  ",
+    "start": 967.44,
+    "duration": 6.24
+  },
+  {
+    "text": "bottlenecks which there may or may not be, by \nnext could you have models that are potentially  ",
+    "start": 973.68,
+    "duration": 6.6
+  },
+  {
+    "text": "like human-level? I’m thinking of a model that \nyou’re interacting with like a colleague and it's  ",
+    "start": 980.28,
+    "duration": 5.16
+  },
+  {
+    "text": "as good as interacting with a human colleague. \nYou can tell them to go do stuff and they go get  ",
+    "start": 986.2,
+    "duration": 3.24
+  },
+  {
+    "text": "it done. What seems wrong with that picture of \nthe capabilities you think might be possible?\n  ",
+    "start": 989.44,
+    "duration": 7.12
+  },
+  {
+    "text": "It's hard to say exactly what the deficit \nwill be. When you talk to the models today,  ",
+    "start": 996.56,
+    "duration": 5.96
+  },
+  {
+    "text": "they have various weaknesses besides long-term \ncoherence. They also struggle to really think  ",
+    "start": 1002.52,
+    "duration": 9.92
+  },
+  {
+    "text": "hard about things or pay attention to what \nyou ask them. I wouldn't expect improving  ",
+    "start": 1012.44,
+    "duration": 10.2
+  },
+  {
+    "text": "the coherence a little bit to be all it takes to \nget to AGI. I guess I can’t articulate exactly  ",
+    "start": 1022.64,
+    "duration": 11.0
+  },
+  {
+    "text": "what are the main weaknesses that will stop \nthem from being a fully functional colleague.\n \n  ",
+    "start": 1033.64,
+    "duration": 6.56
+  },
+  {
+    "text": "It seems like then, you should be planning for \nthe possibility you would have AGI very soon.\n  ",
+    "start": 1040.2,
+    "duration": 4.4
+  },
+  {
+    "text": "I think that would be reasonable. \n \nSo what's the plan if there's no  ",
+    "start": 1045.52,
+    "duration": 4.16
+  },
+  {
+    "text": "other bottlenecks. In the next year or \nsomething, you’ve got AGI. What's the plan?\n  ",
+    "start": 1049.68,
+    "duration": 3.68
+  },
+  {
+    "text": "If AGI came way sooner than expected we \nwould definitely want to be careful about  ",
+    "start": 1054.52,
+    "duration": 6.64
+  },
+  {
+    "text": "it. We might want to slow down a little bit \non training and deployment until we're pretty  ",
+    "start": 1061.16,
+    "duration": 7.4
+  },
+  {
+    "text": "sure we know we can deal with it safely. We \nwould need a pretty good handle on what it's  ",
+    "start": 1068.56,
+    "duration": 7.84
+  },
+  {
+    "text": "going to do and what it can do. We would \nhave to be very careful if it happened way  ",
+    "start": 1076.4,
+    "duration": 8.36
+  },
+  {
+    "text": "sooner than expected. Our understanding \nis still rudimentary in a lot of ways.\n  ",
+    "start": 1084.76,
+    "duration": 4.64
+  },
+  {
+    "text": "What would being careful mean? Presumably \nyou're already careful, right? You do these  ",
+    "start": 1091.12,
+    "duration": 4.44
+  },
+  {
+    "text": "evaluations before deploying. \n \nMaybe it means not training the  ",
+    "start": 1095.56,
+    "duration": 8.88
+  },
+  {
+    "text": "even smarter version or being really careful \nwhen you do train it. You can make sure it’s  ",
+    "start": 1104.44,
+    "duration": 4.16
+  },
+  {
+    "text": "properly sandboxed and everything. Maybe \nit means not deploying it at scale or  ",
+    "start": 1111.6,
+    "duration": 6.96
+  },
+  {
+    "text": "being careful about what scale you deploy it at.\n \nLet's just play with a scenario. AGI happens next  ",
+    "start": 1118.56,
+    "duration": 11.76
+  },
+  {
+    "text": "year. You're not training a smarter system but \nyou're deploying it in a somewhat measured way.  ",
+    "start": 1130.32,
+    "duration": 8.4
+  },
+  {
+    "text": "Presumably the development wouldn’t be particular \nto OpenAI. AGI just turns out to be much easier  ",
+    "start": 1147.88,
+    "duration": 5.88
+  },
+  {
+    "text": "than we expected and that’s why it happened. \nSo you wait to deploy a little bit. Now other  ",
+    "start": 1153.76,
+    "duration": 6.28
+  },
+  {
+    "text": "companies have a similar level of capabilities. \nWhat happens next? While you wait to deploy,  ",
+    "start": 1160.04,
+    "duration": 4.36
+  },
+  {
+    "text": "what are you waiting for? What is every \ncompany doing in this scenario?  \n  ",
+    "start": 1164.4,
+    "duration": 5.84
+  },
+  {
+    "text": "The game theory is a little tough \nto think through. First of all,  ",
+    "start": 1170.24,
+    "duration": 4.68
+  },
+  {
+    "text": "I don't think this is going to \nhappen next year but it's still  ",
+    "start": 1174.92,
+    "duration": 1.92
+  },
+  {
+    "text": "useful to have the conversation. It \ncould be two or three years instead.\n  ",
+    "start": 1176.84,
+    "duration": 3.92
+  },
+  {
+    "text": "Two or three years is still pretty soon.\n \nIt’s still pretty soon. You probably need  ",
+    "start": 1181.84,
+    "duration": 4.44
+  },
+  {
+    "text": "some coordination. Everyone needs to agree \non some reasonable limits to deployment or  ",
+    "start": 1186.28,
+    "duration": 8.68
+  },
+  {
+    "text": "to further training for this to work. \nOtherwise you have the race dynamics  ",
+    "start": 1194.96,
+    "duration": 6.28
+  },
+  {
+    "text": "where everyone's always trying to stay ahead and \nthat might require compromising safety. You would  ",
+    "start": 1201.24,
+    "duration": 9.8
+  },
+  {
+    "text": "probably need some coordination among the larger \nentities that are doing this kind of training.\n  ",
+    "start": 1211.04,
+    "duration": 6.84
+  },
+  {
+    "text": "You'd be coordinating to pause \ndeployment until what exactly? Until  ",
+    "start": 1217.88,
+    "duration": 6.88
+  },
+  {
+    "text": "you figure out what's happening in the model?\n \nWe could pause further training. We could pause  ",
+    "start": 1224.76,
+    "duration": 4.36
+  },
+  {
+    "text": "deployment. We could avoid certain types \nof training that might be riskier. We  ",
+    "start": 1229.12,
+    "duration": 8.66
+  },
+  {
+    "text": "would set up some reasonable rules for what \neveryone should do to limit these things.\n  ",
+    "start": 1237.78,
+    "duration": 12.06
+  },
+  {
+    "text": "Limit to what end? At some point the potential \nenergy that's within this intelligence will  ",
+    "start": 1251.04,
+    "duration": 6.96
+  },
+  {
+    "text": "be unleashed. Suppose in two years we get \nthe AGI. Now everybody's freaking out. The  ",
+    "start": 1259.48,
+    "duration": 8.96
+  },
+  {
+    "text": "AI companies have paused. What would \nbe the thing we plan to wait until?\n  ",
+    "start": 1268.44,
+    "duration": 6.44
+  },
+  {
+    "text": "I don't have a good answer to that. If we \ncan coordinate like that, that would be a  ",
+    "start": 1277.56,
+    "duration": 11.64
+  },
+  {
+    "text": "pretty good scenario. Building these models \nis very capital intensive and there are a lot  ",
+    "start": 1289.2,
+    "duration": 8.0
+  },
+  {
+    "text": "of complex pieces. It's not like everyone's \ngoing to go and recreate this stuff at home. ",
+    "start": 1297.2,
+    "duration": 5.72
+  },
+  {
+    "text": "Given the relatively small number of \nentities who could train the largest models,  ",
+    "start": 1305.44,
+    "duration": 4.4
+  },
+  {
+    "text": "it does seem possible to coordinate. I'm not \nsure how you would maintain this equilibrium for  ",
+    "start": 1309.84,
+    "duration": 8.92
+  },
+  {
+    "text": "a long period of time, but I think if we got \nto that point we would be in an okay position.\n  ",
+    "start": 1318.76,
+    "duration": 6.8
+  },
+  {
+    "text": "Would we? I'm still curious because I'm \nnot sure what happens next. Fundamentally,  ",
+    "start": 1325.56,
+    "duration": 5.6
+  },
+  {
+    "text": "the benefit is that you push it to the server \nand now we have a bunch of intelligences,  ",
+    "start": 1331.16,
+    "duration": 7.2
+  },
+  {
+    "text": "or they could push themselves to the server. \nNow we’ve got everybody coordinated but I'm  ",
+    "start": 1338.36,
+    "duration": 5.2
+  },
+  {
+    "text": "not sure what we do next in this world. Why \ndoes that set us up for a good outcome?\n  ",
+    "start": 1343.56,
+    "duration": 6.32
+  },
+  {
+    "text": "If we had everyone reasonably coordinated and we \nfelt like we could solve the technical problems  ",
+    "start": 1350.4,
+    "duration": 8.32
+  },
+  {
+    "text": "around alignment well enough then we could deploy. \nWe would be able to deploy really smart AIs that  ",
+    "start": 1358.72,
+    "duration": 6.0
+  },
+  {
+    "text": "can act as extensions of people's wills but also \nprevent them from being catastrophically misused.  ",
+    "start": 1364.72,
+    "duration": 9.16
+  },
+  {
+    "text": "That would be great. We could go ahead and \nsafely deploy these systems and it would usher  ",
+    "start": 1377.88,
+    "duration": 7.52
+  },
+  {
+    "text": "in a lot of prosperity and a much more rapid \nphase of scientific advancement. That would  ",
+    "start": 1385.4,
+    "duration": 9.96
+  },
+  {
+    "text": "be what the good scenario would look like.  \n \nThat makes sense. I’m curious about something  ",
+    "start": 1395.36,
+    "duration": 5.12
+  },
+  {
+    "text": "down the road in a couple of years. In the \nbest case scenario, all these actors have  ",
+    "start": 1400.48,
+    "duration": 7.12
+  },
+  {
+    "text": "agreed to pause until we've figured out that we're \nbuilding aligned systems that are not themselves  ",
+    "start": 1407.6,
+    "duration": 7.88
+  },
+  {
+    "text": "going to attempt a coup or not going to enable \nsomebody else to do that. What would proof of that  ",
+    "start": 1415.48,
+    "duration": 5.8
+  },
+  {
+    "text": "look like? What would evidence of that look like?\n \nIf we can deploy systems that are incrementally  ",
+    "start": 1421.28,
+    "duration": 9.24
+  },
+  {
+    "text": "that are successively smarter than the \nones before, that would be safer. I hope  ",
+    "start": 1430.52,
+    "duration": 4.88
+  },
+  {
+    "text": "the way things play out is not a scenario where \neveryone has to coordinate, lock things down,  ",
+    "start": 1435.4,
+    "duration": 5.48
+  },
+  {
+    "text": "and safely release things. That would lead \nto this big buildup in potential energy. ",
+    "start": 1440.88,
+    "duration": 6.52
+  },
+  {
+    "text": "I would rather have a scenario where we're all \ncontinually releasing things that are a little  ",
+    "start": 1449.12,
+    "duration": 5.12
+  },
+  {
+    "text": "better than what came before. We’d be doing \nthis while making sure we’re confident that  ",
+    "start": 1454.24,
+    "duration": 6.84
+  },
+  {
+    "text": "each diff improves on safety and alignment in \ncorrespondence to the improvement in capability.  ",
+    "start": 1461.08,
+    "duration": 11.2
+  },
+  {
+    "text": "If things started to look a little bit \nscary, then we would be able to slow  ",
+    "start": 1473.52,
+    "duration": 4.2
+  },
+  {
+    "text": "things down. That's what I would hope for.\nIf there's more of a discontinuous jump,  ",
+    "start": 1477.72,
+    "duration": 7.76
+  },
+  {
+    "text": "there’s a question of “how do you know if the \nthing you've got is safe to release”. I can't  ",
+    "start": 1485.48,
+    "duration": 7.96
+  },
+  {
+    "text": "give a generic answer. However, the type of thing \nyou might want to do to make that more acceptable  ",
+    "start": 1493.44,
+    "duration": 10.28
+  },
+  {
+    "text": "would be a lot of testing simulated deployment, \nred teaming of sorts. You'd want to do that in a  ",
+    "start": 1503.72,
+    "duration": 11.88
+  },
+  {
+    "text": "way that is much more likely to fail than the \nthing you’re planning to do in the real world. ",
+    "start": 1515.6,
+    "duration": 10.6
+  },
+  {
+    "text": "You'd want to have a really good monitoring system \nso that if something does start to go wrong with  ",
+    "start": 1526.2,
+    "duration": 7.12
+  },
+  {
+    "text": "the deployed system, you can immediately detect \nit. Maybe you've got something watching over  ",
+    "start": 1533.32,
+    "duration": 8.44
+  },
+  {
+    "text": "the deployed AIs, watching what they're \ndoing, and looking for signs of trouble.   ",
+    "start": 1542.28,
+    "duration": 4.56
+  },
+  {
+    "text": "You’d want some defense in depth. You'd want \nsome combination of “the model itself seems to be  ",
+    "start": 1551.36,
+    "duration": 6.88
+  },
+  {
+    "text": "really well-behaved with impeccable, moral \nconfidence in everything” and “I’m pretty  ",
+    "start": 1559.8,
+    "duration": 6.6
+  },
+  {
+    "text": "confident that it’s extremely resistant to any \nkind of severe misuse.” You'd also want really  ",
+    "start": 1566.4,
+    "duration": 9.44
+  },
+  {
+    "text": "good monitoring on top of it so you could \ndetect any kind of unforeseen trouble.  \n  ",
+    "start": 1575.84,
+    "duration": 5.68
+  },
+  {
+    "text": "What are you keeping track of while \nyou're doing long-horizon RL or when  ",
+    "start": 1581.52,
+    "duration": 2.6
+  },
+  {
+    "text": "you eventually start doing it? How could \nyou notice this sort of discontinuous jump  ",
+    "start": 1584.12,
+    "duration": 5.56
+  },
+  {
+    "text": "before you deployed these systems broadly?\n \nYou would want to have a lot of evals that  ",
+    "start": 1589.68,
+    "duration": 5.56
+  },
+  {
+    "text": "you're running during the training process. \n \nWhat specifically? Does it make sense to train on  ",
+    "start": 1595.24,
+    "duration": 8.76
+  },
+  {
+    "text": "a long-horizon RL knowing that this is something \nthat could happen? Or is it just a very low  ",
+    "start": 1604.0,
+    "duration": 3.72
+  },
+  {
+    "text": "possibility? How do you think about this?  \n \nYou'd want to be pretty careful when you  ",
+    "start": 1607.72,
+    "duration": 3.68
+  },
+  {
+    "text": "do this kind of training if you see a \nlot of potentially scary capabilities.  ",
+    "start": 1611.4,
+    "duration": 6.68
+  },
+  {
+    "text": "I would say it's not something we have to be \nscared of right now because right now it's  ",
+    "start": 1622.4,
+    "duration": 5.96
+  },
+  {
+    "text": "hard to get the models to do anything coherent.\nIf they started to get really good, we would  ",
+    "start": 1628.36,
+    "duration": 8.4
+  },
+  {
+    "text": "want to take some of these questions seriously. \nWe would want to have a lot of evals that test  ",
+    "start": 1636.76,
+    "duration": 7.92
+  },
+  {
+    "text": "them for misbehavior, mostly for the alignment \nof the models. We'd want to check that they’re  ",
+    "start": 1644.68,
+    "duration": 9.2
+  },
+  {
+    "text": "not going to turn against us or something. You \nmight also want to look for discontinuous jumps  ",
+    "start": 1653.88,
+    "duration": 10.88
+  },
+  {
+    "text": "in capabilities. You'd want to have lots of \nevals for the capabilities of the models. ",
+    "start": 1664.76,
+    "duration": 7.48
+  },
+  {
+    "text": "You'd also want to make sure that whatever \nyou're training on doesn't have any reason to  ",
+    "start": 1673.76,
+    "duration": 4.68
+  },
+  {
+    "text": "make the model turn against you. That doesn't \nseem like the hardest thing to do. The way we  ",
+    "start": 1678.44,
+    "duration": 14.16
+  },
+  {
+    "text": "train them with RLHF, that does feel very \nsafe even though the models are very smart.  ",
+    "start": 1692.6,
+    "duration": 5.84
+  },
+  {
+    "text": "The model is just trying to produce a message \nthat is pleasing to a human. It has no concern  ",
+    "start": 1700.28,
+    "duration": 6.2
+  },
+  {
+    "text": "about anything else in the world other than \nwhether the text it produces is approved.   ",
+    "start": 1706.48,
+    "duration": 7.24
+  },
+  {
+    "text": "Obviously if you were doing something where \nthe model has to carry out a long sequence  ",
+    "start": 1713.72,
+    "duration": 6.4
+  },
+  {
+    "text": "of actions which involve tools, then it \nmight have some incentive to do a lot of  ",
+    "start": 1720.12,
+    "duration": 4.64
+  },
+  {
+    "text": "wacky things that wouldn't make sense to a \nhuman in the process of producing its final  ",
+    "start": 1726.32,
+    "duration": 3.72
+  },
+  {
+    "text": "result. However, it wouldn't necessarily have \nan incentive to do anything other than produce  ",
+    "start": 1730.04,
+    "duration": 6.16
+  },
+  {
+    "text": "a very high quality output at the end.\nThere are old points about instrumental  ",
+    "start": 1736.2,
+    "duration": 10.64
+  },
+  {
+    "text": "convergence where the model wants to take over \nthe world so it can produce some awesome piece  ",
+    "start": 1746.84,
+    "duration": 4.6
+  },
+  {
+    "text": "of code at the end. If you ask it to write \nyou a Flask app, it'll be like “oh yeah,  ",
+    "start": 1751.44,
+    "duration": 4.8
+  },
+  {
+    "text": "first I need to take over the world. At a \ncertain point it's a little hard to imagine  ",
+    "start": 1756.24,
+    "duration": 8.32
+  },
+  {
+    "text": "why for fairly well specified tasks like coding \nan app, you would want to first take over the  ",
+    "start": 1764.56,
+    "duration": 5.52
+  },
+  {
+    "text": "world. Of course if you assigned a task such as \n“make money,” then maybe that would lead to some  ",
+    "start": 1770.08,
+    "duration": 9.12
+  },
+  {
+    "text": "nefarious behavior as an instrumental goal.\n \nBefore we get back to that, let's step back  ",
+    "start": 1779.2,
+    "duration": 6.6
+  },
+  {
+    "text": "and talk about today’s RLHF systems and \neverything. I do want to follow up on that  ",
+    "start": 1785.8,
+    "duration": 7.04
+  },
+  {
+    "text": "point because it is interesting.\nWith today's RLHF and the way in which  ",
+    "start": 1792.84,
+    "duration": 5.6
+  },
+  {
+    "text": "it influences these models, how would \nyou characterize it in terms of human  ",
+    "start": 1798.44,
+    "duration": 5.4
+  },
+  {
+    "text": "psychology? Is it a drive? Is it a goal? Is \nit an impulse? Psychologically, what kind of  ",
+    "start": 1803.84,
+    "duration": 7.2
+  },
+  {
+    "text": "thing is it? In what way is it being changed?\nNot simply the persona of a chatbot but “don't  ",
+    "start": 1811.04,
+    "duration": 6.2
+  },
+  {
+    "text": "talk that way, talk this other way” or \n“don’t put out those kinds of outputs.”\n  ",
+    "start": 1817.24,
+    "duration": 3.92
+  },
+  {
+    "text": "There are probably some analogies \nwith a drive or a goal in humans.  ",
+    "start": 1821.76,
+    "duration": 3.68
+  },
+  {
+    "text": "You're trying to steer towards a certain \nset of states rather than some other  ",
+    "start": 1829.0,
+    "duration": 3.2
+  },
+  {
+    "text": "states. I would think that our concept \nof a drive or a goal has other elements,  ",
+    "start": 1832.2,
+    "duration": 9.6
+  },
+  {
+    "text": "such as the feeling of satisfaction you get for \nachieving it. Those things have more to do with  ",
+    "start": 1841.8,
+    "duration": 7.88
+  },
+  {
+    "text": "the learning algorithm than what the model does \nat runtime when you just have a fixed model. ",
+    "start": 1849.68,
+    "duration": 5.76
+  },
+  {
+    "text": "There are probably some analogies though I don't \nknow exactly how close it is. To some extent,  ",
+    "start": 1858.04,
+    "duration": 9.16
+  },
+  {
+    "text": "the models do have drives and goals in \nsome meaningful way. In the case of RLHF  ",
+    "start": 1868.92,
+    "duration": 6.08
+  },
+  {
+    "text": "where you're trying to maximize human \napproval as measured by a reward model,  ",
+    "start": 1875.0,
+    "duration": 5.04
+  },
+  {
+    "text": "the model is just trying to produce something that \npeople are going to like and judge as correct.\n  ",
+    "start": 1880.04,
+    "duration": 6.24
+  },
+  {
+    "text": "I’ve heard two ideas in terms of using that \ninternal monologue to get better at reasoning.  ",
+    "start": 1886.28,
+    "duration": 6.6
+  },
+  {
+    "text": "At least publicly, I've seen two ideas and I'm \ncurious which one you think is more promising. ",
+    "start": 1892.88,
+    "duration": 4.6
+  },
+  {
+    "text": "One is that the model learns from its outputs \nover a bunch of potential trains of thought,  ",
+    "start": 1897.48,
+    "duration": 8.32
+  },
+  {
+    "text": "and it learns to follow the one that leads \nto the correct answer. It is then trained  ",
+    "start": 1905.8,
+    "duration": 5.92
+  },
+  {
+    "text": "on that before deployment. The other one is \nyou use a bunch of compute to do inference  ",
+    "start": 1911.72,
+    "duration": 5.08
+  },
+  {
+    "text": "in deployment. This approach involves the \nmodel talking to itself while it's deployed. ",
+    "start": 1916.8,
+    "duration": 6.0
+  },
+  {
+    "text": "Which one do you expect to be closer to the way \na model has been trained when it gets really good  ",
+    "start": 1922.8,
+    "duration": 3.64
+  },
+  {
+    "text": "at reasoning? Is it because it's doing just a \nbunch of inference clouds? Is it just because  ",
+    "start": 1926.44,
+    "duration": 3.4
+  },
+  {
+    "text": "you've trained it to do well at that?  \n \nYou could define reasoning as tasks that  ",
+    "start": 1929.84,
+    "duration": 6.64
+  },
+  {
+    "text": "require some kind of computation at test time \nor maybe some kind of deduction. By definition,  ",
+    "start": 1936.48,
+    "duration": 10.12
+  },
+  {
+    "text": "reasoning would be tasks that require some test \ntime computation and step-by-step computation.  ",
+    "start": 1946.6,
+    "duration": 8.4
+  },
+  {
+    "text": "On the other hand, I would also expect to \ngain a lot from doing practice at training  ",
+    "start": 1956.24,
+    "duration": 6.4
+  },
+  {
+    "text": "Right now, you have these two ways the \nmodel learns. One is in training, whether  ",
+    "start": 1973.756,
+    "duration": 6.16
+  },
+  {
+    "text": "it's pre-training or post-training. Most of the \ncompute in training is spent on pre-training,  ",
+    "start": 1979.916,
+    "duration": 5.32
+  },
+  {
+    "text": "glossing over trillions of tokens, skimming \ntrillions of tokens worth of information.  ",
+    "start": 1985.956,
+    "duration": 9.52
+  },
+  {
+    "text": "If a human was subjected to that, they \nwould just be totally confused. It's  ",
+    "start": 1995.476,
+    "duration": 4.56
+  },
+  {
+    "text": "just not a very efficient way to learn.\nThe other way is in-context learning.  ",
+    "start": 2000.036,
+    "duration": 4.0
+  },
+  {
+    "text": "Of course that is more sample-efficient, \nbut it's destroyed with each instance. ",
+    "start": 2005.196,
+    "duration": 4.76
+  },
+  {
+    "text": "I'm curious if you think that there's \na path for something in between those,  ",
+    "start": 2009.956,
+    "duration": 5.84
+  },
+  {
+    "text": "where it’s not destroyed at each instance but it's \nalso not as frivolous as just seeing trillions of  ",
+    "start": 2015.796,
+    "duration": 10.4
+  },
+  {
+    "text": "tokens. Something more deliberate and active.  \n \nDo you mean models having some kind of medium-term  ",
+    "start": 2026.196,
+    "duration": 6.52
+  },
+  {
+    "text": "memory? Too much to fit in context but \nmuch smaller scale than pre-training?\n  ",
+    "start": 2032.716,
+    "duration": 6.6
+  },
+  {
+    "text": "It might be memory. I don't have context. \nCertainly when I'm trying to prepare for  ",
+    "start": 2040.636,
+    "duration": 5.32
+  },
+  {
+    "text": "this conversation, I think of what I \nshould understand, read it carefully,  ",
+    "start": 2045.956,
+    "duration": 7.24
+  },
+  {
+    "text": "and maybe think about it as I’m reading it. I’m \nnot sure what it naturally corresponds to in  ",
+    "start": 2053.196,
+    "duration": 5.04
+  },
+  {
+    "text": "terms of models. What would that look like?\n \nI see. So it’s not just memory but it’s also  ",
+    "start": 2058.236,
+    "duration": 6.36
+  },
+  {
+    "text": "somewhat specializing to a certain task or putting \na lot of effort into some particular project.\n  ",
+    "start": 2064.596,
+    "duration": 8.28
+  },
+  {
+    "text": "I'm not even sure if it's specialization. \nIt’s more so “I don't understand this part,  ",
+    "start": 2072.876,
+    "duration": 4.8
+  },
+  {
+    "text": "so let me look into it more deeply. I \nalready understand this.” I guess it’s  ",
+    "start": 2077.676,
+    "duration": 3.0
+  },
+  {
+    "text": "specializing to your existing knowledge base.\n \nI see. So it's not just about training on a bunch  ",
+    "start": 2080.676,
+    "duration": 8.88
+  },
+  {
+    "text": "of sources that are relevant and fine-tuning \non some special domain. It's also about  ",
+    "start": 2089.556,
+    "duration": 4.04
+  },
+  {
+    "text": "reasoning and developing some knowledge \nthrough your own reasoning and using some  ",
+    "start": 2094.756,
+    "duration": 5.72
+  },
+  {
+    "text": "sort of introspection or self-knowledge \nto figure out what it needs to learn?\n  ",
+    "start": 2100.476,
+    "duration": 4.56
+  },
+  {
+    "text": "Yeah.\n \nThat does feel like something that's missing  ",
+    "start": 2105.036,
+    "duration": 5.8
+  },
+  {
+    "text": "from today's systems. People haven't really pushed \ntoo hard on this middle ground between large-scale  ",
+    "start": 2110.836,
+    "duration": 10.4
+  },
+  {
+    "text": "training—where you produce a single snapshot model \nthat's supposed to do everything like a deployed  ",
+    "start": 2121.236,
+    "duration": 6.84
+  },
+  {
+    "text": "model—and on the other hand in-context learning.\nPart of that is that we've just been increasing  ",
+    "start": 2128.076,
+    "duration": 6.64
+  },
+  {
+    "text": "context length so much that there hasn't \nbeen an incentive for it. If you can go  ",
+    "start": 2134.716,
+    "duration": 4.44
+  },
+  {
+    "text": "to a hundred thousand or a million context, \nthen that's actually quite a lot. It’s not  ",
+    "start": 2139.156,
+    "duration": 7.52
+  },
+  {
+    "text": "actually the bottleneck in a lot of cases.\nI agree that you'd probably also want to  ",
+    "start": 2146.676,
+    "duration": 5.96
+  },
+  {
+    "text": "supplement that with some kind of fine-tuning. \nThe capabilities you get from fine-tuning and  ",
+    "start": 2152.636,
+    "duration": 6.24
+  },
+  {
+    "text": "in-context learning are probably somewhat \ncomplementary. I’d expect us to want to build  ",
+    "start": 2158.876,
+    "duration": 6.68
+  },
+  {
+    "text": "systems that do some online learning and also \nhave some cognitive skills, like introspecting  ",
+    "start": 2165.556,
+    "duration": 7.92
+  },
+  {
+    "text": "on their own knowledge and seeking out \nnew knowledge that fills in the holes.\n  ",
+    "start": 2173.476,
+    "duration": 5.68
+  },
+  {
+    "text": "Is this all happening at the same time? \nIs it just a new training regime where  ",
+    "start": 2179.156,
+    "duration": 6.6
+  },
+  {
+    "text": "all these things can happen at once, whether \nit’s long-horizon or this kind of training? ",
+    "start": 2185.756,
+    "duration": 6.88
+  },
+  {
+    "text": "Are they separate or not? Is the model smart \nenough to both introspect and act on longer  ",
+    "start": 2192.636,
+    "duration": 4.8
+  },
+  {
+    "text": "horizons so that you get adequate \nreward on the long-horizon tasks?\n  ",
+    "start": 2197.436,
+    "duration": 4.44
+  },
+  {
+    "text": "If you're doing some kind of long-horizon task, \nyou're learning while you do the task, right?   ",
+    "start": 2202.396,
+    "duration": 9.48
+  },
+  {
+    "text": "The only way to do something that involves a lot \nof steps is to have learning and memory that gets  ",
+    "start": 2211.876,
+    "duration": 7.12
+  },
+  {
+    "text": "updated during the task. There’s a continuum \nbetween short-term and long-term memory. ",
+    "start": 2218.996,
+    "duration": 11.36
+  },
+  {
+    "text": "I expect the need for this capability would start \nto become clear when we start to look more at  ",
+    "start": 2232.516,
+    "duration": 15.0
+  },
+  {
+    "text": "long-horizon tasks. To some extent, putting a \nlot of stuff into context will take you pretty  ",
+    "start": 2247.516,
+    "duration": 8.8
+  },
+  {
+    "text": "far because we have really long context now. \nYou probably also want things like fine-tuning. ",
+    "start": 2256.316,
+    "duration": 5.92
+  },
+  {
+    "text": "As for introspection and the ability to do active \nlearning, that might automatically fall out of  ",
+    "start": 2262.956,
+    "duration": 7.44
+  },
+  {
+    "text": "the models’ abilities to know what they know. \nModels do have some calibration regarding what  ",
+    "start": 2270.396,
+    "duration": 8.92
+  },
+  {
+    "text": "they know. That's why models don't hallucinate \nthat badly. They have some understanding of  ",
+    "start": 2279.316,
+    "duration": 9.16
+  },
+  {
+    "text": "their own limitations. That same kind of ability \ncould be used for something like active learning.",
+    "start": 2289.316,
+    "duration": 7.64
+  },
+  {
+    "text": "There are all these complicated RL procedures, \nmany of which you've pioneered. How many of them  ",
+    "start": 2300.396,
+    "duration": 7.92
+  },
+  {
+    "text": "will be relevant when you get to the point where \nthe model itself is smart enough to act as its  ",
+    "start": 2308.316,
+    "duration": 5.72
+  },
+  {
+    "text": "own environment and interact in a more online \nand stable way? Is the path for progress going  ",
+    "start": 2314.036,
+    "duration": 8.56
+  },
+  {
+    "text": "to be more straightforward than the kinds of \nsolutions that were required for RL in the past?",
+    "start": 2322.596,
+    "duration": 6.04
+  },
+  {
+    "text": "I think policy grading algorithms are not \nthe most sample efficient algorithms. So  ",
+    "start": 2328.636,
+    "duration": 4.64
+  },
+  {
+    "text": "that's probably not what you want to do \nat test time if you want to learn really  ",
+    "start": 2333.276,
+    "duration": 3.64
+  },
+  {
+    "text": "fast. But who knows? Maybe it's not that bad. \nI think motor learning in animals is probably  ",
+    "start": 2336.916,
+    "duration": 10.72
+  },
+  {
+    "text": "something like a policy grading algorithm.  \nFor example, let’s say you're learning how  ",
+    "start": 2347.636,
+    "duration": 5.56
+  },
+  {
+    "text": "to shoot baskets. That probably takes \nthousands of tries to get more accurate.  ",
+    "start": 2353.196,
+    "duration": 8.56
+  },
+  {
+    "text": "There's probably something like a policy grading \nalgorithm underneath. That’s not going to be  ",
+    "start": 2363.756,
+    "duration": 7.28
+  },
+  {
+    "text": "the fastest way to learn if you have a model \ntrying to do a project or some kind of task. ",
+    "start": 2371.036,
+    "duration": 7.04
+  },
+  {
+    "text": "We would want to rely more on in-context learning \nwhere you effectively have a learned algorithm.  ",
+    "start": 2379.196,
+    "duration": 8.68
+  },
+  {
+    "text": "It’s learned how to explore. It’s learned \nhow to try all the possibilities exhaustively  ",
+    "start": 2387.876,
+    "duration": 5.68
+  },
+  {
+    "text": "instead of doing the same thing over and \nover again and making the same mistake.  ",
+    "start": 2395.556,
+    "duration": 4.0
+  },
+  {
+    "text": "We'll be able to do things that look more like \nlearned search algorithms. That'll be the kind  ",
+    "start": 2400.956,
+    "duration": 4.88
+  },
+  {
+    "text": "of thing that gets used in a particular task.\n \n \nInteresting. I want to step back and ask about  ",
+    "start": 2405.836,
+    "duration": 8.6
+  },
+  {
+    "text": "your own history, at least at OpenAI. You \nled the creation of ChatGPT. At what point  ",
+    "start": 2414.436,
+    "duration": 9.28
+  },
+  {
+    "text": "did you realize that these LLMs are the path to \ngo? When did you realize a chatbot or some way  ",
+    "start": 2423.716,
+    "duration": 5.56
+  },
+  {
+    "text": "to instruct them would be useful? Just walk me \nthrough the whole lineage from when this became  ",
+    "start": 2429.276,
+    "duration": 4.88
+  },
+  {
+    "text": "your main focus and what the process was like.\n \nBefore ChatGPT, OpenAI had these instruction  ",
+    "start": 2434.156,
+    "duration": 14.4
+  },
+  {
+    "text": "following models. The idea there was that we \nhad base models that people could prompt them  ",
+    "start": 2448.556,
+    "duration": 7.36
+  },
+  {
+    "text": "in elaborate ways. But they were also hard to \nprompt. They basically do autocomplete so you had  ",
+    "start": 2455.916,
+    "duration": 7.36
+  },
+  {
+    "text": "to set up a very good prompt with some examples.\nPeople at OpenAI were working on just taking the  ",
+    "start": 2463.276,
+    "duration": 9.88
+  },
+  {
+    "text": "base models and making them easier to prompt. So \nif you just wrote a question it would answer the  ",
+    "start": 2473.156,
+    "duration": 4.08
+  },
+  {
+    "text": "question, instead of giving you more questions or \nsomething. So we had these instruction following  ",
+    "start": 2477.236,
+    "duration": 7.68
+  },
+  {
+    "text": "models, which were like base models but a \nlittle easier to use. Those are the original  ",
+    "start": 2484.916,
+    "duration": 5.36
+  },
+  {
+    "text": "ones deployed in the API. Or after GPT-3, \nthose were the next generation of models. ",
+    "start": 2490.276,
+    "duration": 6.68
+  },
+  {
+    "text": "At the same time there were definitely a lot \nof people thinking about chat. Google had some  ",
+    "start": 2497.676,
+    "duration": 7.12
+  },
+  {
+    "text": "papers like LaMDA and earlier, Meena. They \nhad these chatbots. It was more like a base  ",
+    "start": 2504.796,
+    "duration": 10.92
+  },
+  {
+    "text": "model that was really specialized to the \ntask of chat. It was really good at chat.  ",
+    "start": 2515.716,
+    "duration": 4.68
+  },
+  {
+    "text": "Looking at the examples from the paper, it \nwas more used for fun applications where the  ",
+    "start": 2522.876,
+    "duration": 6.44
+  },
+  {
+    "text": "model would take on some persona and pretend \nto be that persona. It was not so functional  ",
+    "start": 2529.316,
+    "duration": 5.32
+  },
+  {
+    "text": "where it could help me refactor my code.\nSo there were definitely people thinking  ",
+    "start": 2534.636,
+    "duration": 6.6
+  },
+  {
+    "text": "about chat. I had worked before on a \nproject looking at chat called WebGPT,  ",
+    "start": 2541.236,
+    "duration": 7.08
+  },
+  {
+    "text": "which was more about doing question answering with \nthe help of web browsing and retrieval. When you  ",
+    "start": 2548.316,
+    "duration": 7.36
+  },
+  {
+    "text": "do question answering, it really wants to be in a \nchat. You always want to ask follow-up questions  ",
+    "start": 2555.676,
+    "duration": 8.4
+  },
+  {
+    "text": "or sometimes the model should ask a clarifying \nquestion because the question is ambiguous.   ",
+    "start": 2564.076,
+    "duration": 5.4
+  },
+  {
+    "text": "It was clear after we did the first version, that \nthe next version should be conversational. So we  ",
+    "start": 2569.476,
+    "duration": 6.36
+  },
+  {
+    "text": "started working on the conversational chat \nassistant. This was built on top of GPT-3.5,  ",
+    "start": 2575.836,
+    "duration": 11.72
+  },
+  {
+    "text": "which was done training at the beginning of \n2022. That model was quite good at language  ",
+    "start": 2587.556,
+    "duration": 4.96
+  },
+  {
+    "text": "and code.  We quickly realized that it was \nactually quite good at coding help. That was  ",
+    "start": 2592.516,
+    "duration": 5.4
+  },
+  {
+    "text": "one of the things we were excited about.\nWe worked on that for most of the year.  ",
+    "start": 2597.916,
+    "duration": 7.84
+  },
+  {
+    "text": "We had browsing as another feature in \nit although we ended up deemphasizing  ",
+    "start": 2606.756,
+    "duration": 5.32
+  },
+  {
+    "text": "that later on because the model's internal \nknowledge was so good. The browsing wasn't  ",
+    "start": 2612.076,
+    "duration": 6.16
+  },
+  {
+    "text": "the most interesting thing about it. We had it \nout to friends and family for a while and we  ",
+    "start": 2618.236,
+    "duration": 9.72
+  },
+  {
+    "text": "were thinking about doing a public release.\nActually, GPT-4 finished training in August  ",
+    "start": 2627.956,
+    "duration": 9.0
+  },
+  {
+    "text": "that year. The flagship RL effort at OpenAI was \nthe instruction following effort because those  ",
+    "start": 2639.556,
+    "duration": 8.08
+  },
+  {
+    "text": "were the models that were being deployed into \nproduction. The first fine-tunes of GPT-4 used  ",
+    "start": 2647.636,
+    "duration": 6.96
+  },
+  {
+    "text": "that whole stack. Those models were really \ngood and everyone got really excited about  ",
+    "start": 2655.636,
+    "duration": 6.44
+  },
+  {
+    "text": "that after seeing the instruct fine tune GPT-4s.\nThey were really good. They would occasionally  ",
+    "start": 2662.076,
+    "duration": 6.76
+  },
+  {
+    "text": "give you amazing outputs, but the model \nwas clearly also pretty unreliable. It  ",
+    "start": 2668.836,
+    "duration": 6.36
+  },
+  {
+    "text": "would sometimes hallucinate it a lot. It \nwould sometimes give you pretty unhinged  ",
+    "start": 2675.196,
+    "duration": 4.88
+  },
+  {
+    "text": "outputs. So it was clearly not quite ready for \nprime time, but it was obviously very good. ",
+    "start": 2680.076,
+    "duration": 5.72
+  },
+  {
+    "text": "People forgot about chat for a little while \nafter that, this alternative branch. We pushed  ",
+    "start": 2689.396,
+    "duration": 8.92
+  },
+  {
+    "text": "it further and we ended up mixing together all the \ndatasets, the instruct and the chat data, to try  ",
+    "start": 2698.316,
+    "duration": 5.52
+  },
+  {
+    "text": "to get something that was the best of both worlds. \nThe chat models were clearly easier to use. ",
+    "start": 2703.836,
+    "duration": 12.36
+  },
+  {
+    "text": "It automatically had much more sensible behavior \nin terms of the model knowing its own limitations.  ",
+    "start": 2716.196,
+    "duration": 8.44
+  },
+  {
+    "text": "That was actually one of the things that I \ngot excited about as we were developing it.  ",
+    "start": 2724.636,
+    "duration": 4.28
+  },
+  {
+    "text": "I realized a lot of the things that people \nthought were flaws in language models, like  ",
+    "start": 2730.276,
+    "duration": 5.48
+  },
+  {
+    "text": "blatant hallucination, could be not completely \nfixed but things that you could make a lot of  ",
+    "start": 2736.396,
+    "duration": 5.56
+  },
+  {
+    "text": "progress on with pretty straightforward methods.\nThe other thing about chat was when we had these  ",
+    "start": 2741.956,
+    "duration": 10.8
+  },
+  {
+    "text": "instruct models. The task of “complete this text, \nbut in a nice or helpful way” is a pretty poorly  ",
+    "start": 2752.756,
+    "duration": 7.08
+  },
+  {
+    "text": "defined task. That task is both confusing for the \nmodel and for the human who's supposed to do the  ",
+    "start": 2759.836,
+    "duration": 6.4
+  },
+  {
+    "text": "data labeling. Whereas for chat, people had an \nintuitive sense of what a helpful robot should  ",
+    "start": 2766.236,
+    "duration": 6.48
+  },
+  {
+    "text": "be like. So it was just much easier for people to \nget an idea of what the model was supposed to do.  ",
+    "start": 2772.716,
+    "duration": 10.44
+  },
+  {
+    "text": "As a result, the model had a much more \ncoherent personality and it was much easier  ",
+    "start": 2785.556,
+    "duration": 7.24
+  },
+  {
+    "text": "to get pretty sensible behavior robustly.\n \nInteresting. Is it the case that anybody  ",
+    "start": 2792.796,
+    "duration": 8.92
+  },
+  {
+    "text": "could have made ChatGPT using your \npublicly available fine-tuning API?  \n  ",
+    "start": 2801.716,
+    "duration": 7.28
+  },
+  {
+    "text": "Not exactly. I don't remember which models \nwere available for fine-tuning. Assuming we  ",
+    "start": 2808.996,
+    "duration": 11.4
+  },
+  {
+    "text": "had 3.5 available for fine-tuning at the time, you \ncould have made something decently close. I don't  ",
+    "start": 2820.396,
+    "duration": 8.92
+  },
+  {
+    "text": "think you would have been able to do just one \niteration of fine-tuning with purely human-written  ",
+    "start": 2829.316,
+    "duration": 5.4
+  },
+  {
+    "text": "data. You'd want to do several iterations.\nIf not you're not going to do RL, which we did,  ",
+    "start": 2834.716,
+    "duration": 9.36
+  },
+  {
+    "text": "you’d want some kind of iterative supervised \nfine-tuning where humans edit the model-generated  ",
+    "start": 2845.036,
+    "duration": 5.28
+  },
+  {
+    "text": "outputs. If you train on human-generated \ndata, even if it’s really high quality,  ",
+    "start": 2850.316,
+    "duration": 7.12
+  },
+  {
+    "text": "it’s just hard for a model to fit that data \nperfectly because it might be something a model  ",
+    "start": 2857.436,
+    "duration": 6.48
+  },
+  {
+    "text": "is capable of outputting. You need to do something \niterative that looks a bit more like RL. If you’d  ",
+    "start": 2863.916,
+    "duration": 9.44
+  },
+  {
+    "text": "done that, you could have gotten pretty \nclose but it would have been non-trivial. ",
+    "start": 2873.356,
+    "duration": 5.28
+  },
+  {
+    "text": "We also had another instruction-following \nmodel trained with RL, released a little  ",
+    "start": 2880.716,
+    "duration": 4.88
+  },
+  {
+    "text": "before ChatGPT. If you put a chat wrapper \non that you would’ve gotten decently close  ",
+    "start": 2885.596,
+    "duration": 6.36
+  },
+  {
+    "text": "but that model had some differences in \nstrengths. That model was good at writing  ",
+    "start": 2898.876,
+    "duration": 6.32
+  },
+  {
+    "text": "and poetry but it wasn’t as good at knowing \nits limitations, factuality, and so forth.\n  ",
+    "start": 2905.196,
+    "duration": 8.84
+  },
+  {
+    "text": "Stepping back from 3.5, I think I heard \nyou say somewhere that you were super  ",
+    "start": 2915.596,
+    "duration": 4.2
+  },
+  {
+    "text": "impressed with GPT-2. Compared to your \nexpectations in 2019, has AI progressed  ",
+    "start": 2919.796,
+    "duration": 4.88
+  },
+  {
+    "text": "faster or slower than you would have expected?\n \nFaster than I expected since GPT-2. I was pretty  ",
+    "start": 2924.676,
+    "duration": 8.96
+  },
+  {
+    "text": "bought into scaling and pre-training being a good \nidea. But when GPT-2 was done, I wasn't completely  ",
+    "start": 2934.316,
+    "duration": 11.92
+  },
+  {
+    "text": "sold on it being revolutionizing everything. It \nwas really after GPT-3 that I pivoted what I was  ",
+    "start": 2946.236,
+    "duration": 5.8
+  },
+  {
+    "text": "working on and what my team was working on. After \nthat, we got together and said, \"oh yeah, let's  ",
+    "start": 2952.036,
+    "duration": 8.28
+  },
+  {
+    "text": "see what we can do here with this language model \nstuff.\" But after GPT-2, I wasn't quite sure yet.\n  ",
+    "start": 2965.196,
+    "duration": 6.2
+  },
+  {
+    "text": "Let’s say the stuff we were talking about \nearlier with RL starts working better with  ",
+    "start": 2971.396,
+    "duration": 5.92
+  },
+  {
+    "text": "these smarter models. Does the fraction \nof compute that is spent on pre-training  ",
+    "start": 2977.316,
+    "duration": 6.08
+  },
+  {
+    "text": "versus post-training change significantly \nin favor of post-training in the future?\n  ",
+    "start": 2983.396,
+    "duration": 5.8
+  },
+  {
+    "text": "There are some arguments for that. \nRight now it's a pretty lopsided ratio.  ",
+    "start": 2989.196,
+    "duration": 3.76
+  },
+  {
+    "text": "You could argue that the output generated \nby the model is higher quality than most of  ",
+    "start": 2993.636,
+    "duration": 8.16
+  },
+  {
+    "text": "what's on the web. So it makes more sense for \nthe model to think by itself rather than just  ",
+    "start": 3001.796,
+    "duration": 8.48
+  },
+  {
+    "text": "training to imitate what's on the web. So I think \nthere's a first principles argument for that. ",
+    "start": 3010.276,
+    "duration": 6.2
+  },
+  {
+    "text": "We found a lot of gains through post-training. \nSo I would expect us to keep pushing this  ",
+    "start": 3018.876,
+    "duration": 8.4
+  },
+  {
+    "text": "methodology and probably increasing \nthe amount of compute we put into it.\n  ",
+    "start": 3027.276,
+    "duration": 4.56
+  },
+  {
+    "text": "The current GPT-4 has an Elo score that is like \na hundred points higher than the original one  ",
+    "start": 3031.836,
+    "duration": 7.84
+  },
+  {
+    "text": "that was released. Is that all because of what \nyou're talking about, with these improvements  ",
+    "start": 3039.676,
+    "duration": 4.92
+  },
+  {
+    "text": "that are brought on by post-training?  \n \nYeah, most of that is post-training.  ",
+    "start": 3044.596,
+    "duration": 7.56
+  },
+  {
+    "text": "There are a lot of different, \nseparate axes for improvement.   ",
+    "start": 3055.236,
+    "duration": 3.92
+  },
+  {
+    "text": "We think about data quality, data quantity. \nThere’s just doing more iterations of the  ",
+    "start": 3061.876,
+    "duration": 4.52
+  },
+  {
+    "text": "whole process of deploying and collecting \nnew data. There’s also changing what kind  ",
+    "start": 3066.396,
+    "duration": 6.28
+  },
+  {
+    "text": "of annotations you're collecting. There's a lot \nof things that stack up but together they give  ",
+    "start": 3072.676,
+    "duration": 5.64
+  },
+  {
+    "text": "you a pretty good effective compute increase.\n \nThat's a huge increase. It's really interesting  ",
+    "start": 3078.316,
+    "duration": 7.28
+  },
+  {
+    "text": "that there's this much room for \nimprovement from post-training. ",
+    "start": 3085.596,
+    "duration": 7.24
+  },
+  {
+    "text": "What makes for somebody who's really good at \ndoing this sort of RL research? I hear it's super  ",
+    "start": 3094.676,
+    "duration": 4.4
+  },
+  {
+    "text": "finicky. What is the sort of intuition that you \nhave that enables you to find these ways to mess  ",
+    "start": 3099.076,
+    "duration": 6.92
+  },
+  {
+    "text": "with the data and set up these environments?\n \nI have a decent amount of experience at this  ",
+    "start": 3105.996,
+    "duration": 7.68
+  },
+  {
+    "text": "point from the different parts of the stack, \nfrom RL algorithms, which I've worked on since  ",
+    "start": 3113.676,
+    "duration": 10.0
+  },
+  {
+    "text": "grad school, to data collection, annotation \nprocesses, and playing with language models. ",
+    "start": 3123.676,
+    "duration": 13.2
+  },
+  {
+    "text": "I'd say I've dabbled with these things and the \npeople who do well at this kind of research have  ",
+    "start": 3137.876,
+    "duration": 7.36
+  },
+  {
+    "text": "some view of the whole stack and have a lot \nof curiosity about the different parts of it.  ",
+    "start": 3145.236,
+    "duration": 4.0
+  },
+  {
+    "text": "You want to be both empirical and let experiments \nupdate your views, but you also want to think from  ",
+    "start": 3153.836,
+    "duration": 7.28
+  },
+  {
+    "text": "first principles. Assuming that learning works, \nwhat would be the ideal type of data to collect?  ",
+    "start": 3161.116,
+    "duration": 11.64
+  },
+  {
+    "text": "That type of thing.\n \nBecause there doesn't  ",
+    "start": 3173.356,
+    "duration": 1.96
+  },
+  {
+    "text": "seem to be a model since GPT-4 that seems to be \nsignificantly better, there's a hypothesis that  ",
+    "start": 3175.316,
+    "duration": 7.84
+  },
+  {
+    "text": "we might be hitting some sort of plateau. These \nmodels aren't actually generalizing that well,  ",
+    "start": 3183.676,
+    "duration": 5.04
+  },
+  {
+    "text": "and you're going to hit a data wall beyond \nwhich the abilities unlocked by memorizing a  ",
+    "start": 3188.716,
+    "duration": 7.76
+  },
+  {
+    "text": "vast corpus of pre-training data won't help \nyou get something much smarter than GPT-4. ",
+    "start": 3196.476,
+    "duration": 5.68
+  },
+  {
+    "text": "Do you think that hypothesis is wrong? We've \ntalked about some examples of generalization,  ",
+    "start": 3204.116,
+    "duration": 6.36
+  },
+  {
+    "text": "like Spanish to English. One example I think of is \nthe transfer from code to reasoning in language.  ",
+    "start": 3210.476,
+    "duration": 19.52
+  },
+  {
+    "text": "If you train on a bunch of code, it gets better at \nreasoning in language? Is that actually the case? ",
+    "start": 3229.996,
+    "duration": 5.72
+  },
+  {
+    "text": "Do you see positive transfer between different \nmodalities? If you train on a bunch of videos  ",
+    "start": 3235.716,
+    "duration": 6.6
+  },
+  {
+    "text": "and images, it'll get smarter from synthetic data? \nOr does it seem like the abilities unlocked are  ",
+    "start": 3242.316,
+    "duration": 7.28
+  },
+  {
+    "text": "extremely local to the exact kind of labels \nand data you put into the training corpus?\n  ",
+    "start": 3249.596,
+    "duration": 7.08
+  },
+  {
+    "text": "I'll try to respond to all that. \nFirst, are we about to hit the  ",
+    "start": 3257.676,
+    "duration": 4.52
+  },
+  {
+    "text": "data wall? I wouldn't draw too much from the \ntime since GPT-4 was released because it does  ",
+    "start": 3262.196,
+    "duration": 0.828
+  },
+  {
+    "text": "take a while to train these models and do all \nthe prep to train a new generation of models. ",
+    "start": 3263.024,
+    "duration": 0.092
+  },
+  {
+    "text": "I wouldn't draw too much from that fact. There \nare definitely some challenges from the limited  ",
+    "start": 3263.116,
+    "duration": 29.0
+  },
+  {
+    "text": "amount of data, but I wouldn't expect us \nto immediately hit the data wall. However,  ",
+    "start": 3292.116,
+    "duration": 5.72
+  },
+  {
+    "text": "I would expect the nature of pre-training to \nsomewhat change over time as we get closer to it. ",
+    "start": 3297.836,
+    "duration": 8.68
+  },
+  {
+    "text": "In terms of generalization from different types \nof pre-training data, I would say it's pretty hard  ",
+    "start": 3307.036,
+    "duration": 9.08
+  },
+  {
+    "text": "to do science on this type of question because \nyou can't create that many pre-trained models.  ",
+    "start": 3316.116,
+    "duration": 6.44
+  },
+  {
+    "text": "Maybe you can't train a GPT-4 sized model and \ndo ablation studies at that scale. Maybe you  ",
+    "start": 3323.156,
+    "duration": 8.16
+  },
+  {
+    "text": "can train a ton of GPT-2 size models or even \na GPT-3 size model with different data blends  ",
+    "start": 3331.316,
+    "duration": 6.84
+  },
+  {
+    "text": "and see what you get. I'm not aware of any \npublic results on ablations involving code  ",
+    "start": 3338.156,
+    "duration": 10.8
+  },
+  {
+    "text": "data and reasoning performance and so forth. I'd \nbe very interested to know about those results.\n  ",
+    "start": 3348.956,
+    "duration": 6.92
+  },
+  {
+    "text": "I'm curious about something. One of the things \nis that the model gets smarter as it gets  ",
+    "start": 3356.556,
+    "duration": 4.92
+  },
+  {
+    "text": "bigger. Would an ablation on a GPT-2 level model, \nwhich suggests that there isn't much transfer,  ",
+    "start": 3361.476,
+    "duration": 6.92
+  },
+  {
+    "text": "provide evidence for the level of transfer on a \nsimilar set of domains in a GPT-4 level model?\n  ",
+    "start": 3369.436,
+    "duration": 7.2
+  },
+  {
+    "text": "Right, you might not be able to conclude that \nif transfer fails at GPT-2 size, then it's  ",
+    "start": 3376.636,
+    "duration": 6.28
+  },
+  {
+    "text": "also going to fail at a higher scale. It might \nbe that for the larger models, you learn better  ",
+    "start": 3382.916,
+    "duration": 10.76
+  },
+  {
+    "text": "shared representations, whereas the smaller models \nhave to lean too much on memorization. The larger  ",
+    "start": 3393.676,
+    "duration": 6.88
+  },
+  {
+    "text": "models can learn how to do the right computation. \nI would expect this to be true to some extent.\n  ",
+    "start": 3400.556,
+    "duration": 6.44
+  },
+  {
+    "text": "This might have a very simple answer. You \ntrain bigger models on the same amount of data  ",
+    "start": 3406.996,
+    "duration": 5.8
+  },
+  {
+    "text": "and they become smarter. Or to get the same \nlevel of intelligence, you only have to train  ",
+    "start": 3412.796,
+    "duration": 6.88
+  },
+  {
+    "text": "them on less data. Why is that the case? \nIt's got more parameters, seen fewer things,  ",
+    "start": 3419.676,
+    "duration": 5.88
+  },
+  {
+    "text": "and now it's equally as smart. Why is that?\n \nI don't think anyone has a good explanation  ",
+    "start": 3425.556,
+    "duration": 7.52
+  },
+  {
+    "text": "for the scaling law with parameter count. \nI don't even know what the best mental  ",
+    "start": 3433.076,
+    "duration": 12.16
+  },
+  {
+    "text": "model is for this. Clearly, you have more \ncapacity if you have a bigger model. So you  ",
+    "start": 3445.236,
+    "duration": 5.72
+  },
+  {
+    "text": "should eventually be able to get lower loss.\nWhy are bigger models more sample efficient?  ",
+    "start": 3450.956,
+    "duration": 7.36
+  },
+  {
+    "text": "I can give you a sketchy explanation. You could \nsay that the model is an ensemble of different  ",
+    "start": 3460.076,
+    "duration": 13.0
+  },
+  {
+    "text": "circuits that do the computation. You could \nimagine that it's doing computations in parallel  ",
+    "start": 3473.076,
+    "duration": 8.8
+  },
+  {
+    "text": "and the output is a weighted combination of them. \nIf you have more width… actually width is somewhat  ",
+    "start": 3481.876,
+    "duration": 12.44
+  },
+  {
+    "text": "similar to depth because with residual networks, \ndepth can do something similar to width in  ",
+    "start": 3494.316,
+    "duration": 8.12
+  },
+  {
+    "text": "terms of updating what's in the residual stream.\nYou're learning all these different computations  ",
+    "start": 3502.436,
+    "duration": 12.48
+  },
+  {
+    "text": "in parallel and you have more of them with a \nbigger model. So you have a higher chance that  ",
+    "start": 3514.916,
+    "duration": 4.6
+  },
+  {
+    "text": "one of them is lucky, ends up guessing \ncorrectly a lot, and gets upweighted. ",
+    "start": 3519.516,
+    "duration": 9.16
+  },
+  {
+    "text": "There are some algorithms that work this way, \nlike mixture models or multiplicative weight  ",
+    "start": 3534.076,
+    "duration": 13.32
+  },
+  {
+    "text": "update algorithms, where you have—I don’t \nwant to say mixture of experts because it  ",
+    "start": 3547.396,
+    "duration": 9.92
+  },
+  {
+    "text": "means something different—basically a weighted \ncombination of experts with some learned gating. ",
+    "start": 3557.316,
+    "duration": 4.96
+  },
+  {
+    "text": "I actually said something slightly wrong, \nbut you could imagine something like that.  ",
+    "start": 3566.836,
+    "duration": 4.16
+  },
+  {
+    "text": "Just having a bigger model gives you \nmore chances to get the right function. ",
+    "start": 3570.996,
+    "duration": 4.76
+  },
+  {
+    "text": "Of course, it's not just totally disjoint \nfunctions you're taking a linear combination  ",
+    "start": 3578.636,
+    "duration": 8.64
+  },
+  {
+    "text": "of. It's more like a library where you might \nchain the functions together in some way.  ",
+    "start": 3587.276,
+    "duration": 4.48
+  },
+  {
+    "text": "There's some composability. So I would say a \nbigger model has a bigger library of different  ",
+    "start": 3594.076,
+    "duration": 7.8
+  },
+  {
+    "text": "computations, including lots of stuff that's \ndormant and only being used some of the time,  ",
+    "start": 3601.876,
+    "duration": 5.2
+  },
+  {
+    "text": "but it has more space to look for \ncircuits to do something useful.\n  ",
+    "start": 3608.636,
+    "duration": 6.4
+  },
+  {
+    "text": "Stepping back from the current research questions, \nI want to understand your modal scenario of what  ",
+    "start": 3618.476,
+    "duration": 8.92
+  },
+  {
+    "text": "happens for the next few years. Towards the \nbeginning of the conversation, we were talking  ",
+    "start": 3627.396,
+    "duration": 4.2
+  },
+  {
+    "text": "about the case in which it progresses really \nfast, but let's just take the modal scenario. ",
+    "start": 3631.596,
+    "duration": 6.24
+  },
+  {
+    "text": "You're unlocking long-horizon RL \nat some point, but as you said,  ",
+    "start": 3637.836,
+    "duration": 3.96
+  },
+  {
+    "text": "there are potentially other bottlenecks. What's \nhappening? How good are these models? How are  ",
+    "start": 3641.796,
+    "duration": 6.32
+  },
+  {
+    "text": "they being deployed? What other modalities are \npart of them and at what stage are these being  ",
+    "start": 3648.116,
+    "duration": 4.92
+  },
+  {
+    "text": "unlocked? I want to understand your broader \npicture of what the next few years look like.\n  ",
+    "start": 3653.036,
+    "duration": 5.16
+  },
+  {
+    "text": "I would expect new modalities to be added \nover time or pretty soon. I would expect the  ",
+    "start": 3658.196,
+    "duration": 14.32
+  },
+  {
+    "text": "capabilities to generally keep getting better \nthrough a combination of pre-training and  ",
+    "start": 3672.516,
+    "duration": 3.52
+  },
+  {
+    "text": "post-training, and that'll open up new use cases.\nRight now, AI is still not a huge part of the  ",
+    "start": 3676.036,
+    "duration": 8.64
+  },
+  {
+    "text": "economy. There's a pretty small fraction of \njobs that it can help with at all. I'd expect  ",
+    "start": 3684.676,
+    "duration": 6.68
+  },
+  {
+    "text": "that to be higher over time, not just from the \nmodels improving but also from people figuring  ",
+    "start": 3691.356,
+    "duration": 5.52
+  },
+  {
+    "text": "out how to integrate them into different \nprocesses. So even if we just froze the  ",
+    "start": 3696.876,
+    "duration": 6.08
+  },
+  {
+    "text": "models at their current state, you would still \nsee a lot of growth in how they're being used. ",
+    "start": 3702.956,
+    "duration": 6.72
+  },
+  {
+    "text": "I would expect AI to be used much more widely \nand for more technically sophisticated tasks.  ",
+    "start": 3714.116,
+    "duration": 13.68
+  },
+  {
+    "text": "I gave the programming example earlier, doing \nlonger projects, but also helping with various  ",
+    "start": 3729.476,
+    "duration": 7.32
+  },
+  {
+    "text": "kinds of research. I hope that we can use \nAI to accelerate science in various ways,  ",
+    "start": 3736.796,
+    "duration": 7.0
+  },
+  {
+    "text": "because you can potentially have the models \nunderstand all the literature in a given field  ",
+    "start": 3747.636,
+    "duration": 5.52
+  },
+  {
+    "text": "and be able to sift through tons of data. It’s \nmore than a person would have patience to do. ",
+    "start": 3753.156,
+    "duration": 8.76
+  },
+  {
+    "text": "I hope the form factor would be such that people \nare still driving all of this and you have your  ",
+    "start": 3768.316,
+    "duration": 5.24
+  },
+  {
+    "text": "helpful assistants that you can direct and \npoint to lots of different problems that are  ",
+    "start": 3774.076,
+    "duration": 4.8
+  },
+  {
+    "text": "useful to you. Everyone would have all these \nAIs helping them do more and get more done.\n  ",
+    "start": 3778.876,
+    "duration": 9.36
+  },
+  {
+    "text": "Obviously at some point they're going to be \nbetter than everyone at whatever they want to  ",
+    "start": 3853.116,
+    "duration": 4.36
+  },
+  {
+    "text": "do. What would that process look like? Right now, \nthey're clearly only helping you. At some point,  ",
+    "start": 3857.476,
+    "duration": 7.0
+  },
+  {
+    "text": "they’ll be able to just do things for you and \nmaybe run entire firms for you. Is it going to  ",
+    "start": 3864.476,
+    "duration": 9.24
+  },
+  {
+    "text": "be a smooth process? At that point, is the \nhope that we have systems that are aligned  ",
+    "start": 3873.716,
+    "duration": 6.0
+  },
+  {
+    "text": "with the user enough that they can count on \nthe firm being run in the way they expect.\n  ",
+    "start": 3879.716,
+    "duration": 4.0
+  },
+  {
+    "text": "We might not want to jump to having AIs run whole \nfirms immediately. We might want to have people  ",
+    "start": 3887.716,
+    "duration": 7.52
+  },
+  {
+    "text": "overseeing these important decisions and calling \nthe shots, even if the models are good enough to  ",
+    "start": 3898.196,
+    "duration": 8.44
+  },
+  {
+    "text": "actually run a successful business themselves. \nTo some extent, there might be choices there. ",
+    "start": 3907.516,
+    "duration": 9.28
+  },
+  {
+    "text": "I think people will still have different interests \nand ideas for what kind of interesting pursuits  ",
+    "start": 3918.676,
+    "duration": 6.88
+  },
+  {
+    "text": "they want to direct their AIs at. AI doesn't \nnecessarily have any kind of intrinsic desire,  ",
+    "start": 3925.556,
+    "duration": 18.04
+  },
+  {
+    "text": "unless we put it in the system. So \neven if AIs become extremely capable,  ",
+    "start": 3943.596,
+    "duration": 10.76
+  },
+  {
+    "text": "I would hope that people are still the \ndrivers of what the AIs end up doing.\n  ",
+    "start": 3954.356,
+    "duration": 5.68
+  },
+  {
+    "text": "I wonder if the economic equilibrium is so \nfar from that, where you have the equivalent  ",
+    "start": 3960.596,
+    "duration": 5.84
+  },
+  {
+    "text": "of Amdahl's law in a firm. The slowest part of the \nprocess is the one that's going to bottleneck you. ",
+    "start": 3966.436,
+    "duration": 5.88
+  },
+  {
+    "text": "Even if AI makes all the non-human \nparts of the firm 10X more efficient,  ",
+    "start": 3972.876,
+    "duration": 3.64
+  },
+  {
+    "text": "the firm is still bottlenecked by that step. \nIf one company decides to proceed by keeping  ",
+    "start": 3976.516,
+    "duration": 9.08
+  },
+  {
+    "text": "humans in the loop on all the things that you \nreally want human oversight on, then they'll  ",
+    "start": 3985.596,
+    "duration": 4.44
+  },
+  {
+    "text": "just be outcompeted by other companies. If \none country decides to go this route, other  ",
+    "start": 3990.036,
+    "duration": 3.16
+  },
+  {
+    "text": "countries will beat it. I wonder if this is a \nsustainable plan for keeping humans in the loop.\n  ",
+    "start": 3993.196,
+    "duration": 9.84
+  },
+  {
+    "text": "If we wanted to keep humans in the loop, \nwhich seems reasonable, and it turned  ",
+    "start": 4005.996,
+    "duration": 6.24
+  },
+  {
+    "text": "out that firms with any humans in the loop were \noutcompeted by firms that didn't have any humans,  ",
+    "start": 4012.236,
+    "duration": 6.12
+  },
+  {
+    "text": "then you would obviously need some kind \nof regulation that disallowed having no  ",
+    "start": 4019.476,
+    "duration": 5.44
+  },
+  {
+    "text": "humans in the loop for running a whole company.\n \nBut there are so many companies in any country,  ",
+    "start": 4024.916,
+    "duration": 7.68
+  },
+  {
+    "text": "let alone the world. I wonder if it's \nbetter to do the regulation on companies  ",
+    "start": 4033.236,
+    "duration": 7.48
+  },
+  {
+    "text": "and say you've got to keep humans in the \nloop in important processes, but then you  ",
+    "start": 4040.716,
+    "duration": 2.48
+  },
+  {
+    "text": "have to define what important processes are.\nYou've got to monitor every single company  ",
+    "start": 4043.196,
+    "duration": 3.76
+  },
+  {
+    "text": "and you also have to get collaboration \nfrom every single country which has  ",
+    "start": 4047.476,
+    "duration": 3.64
+  },
+  {
+    "text": "firms. If this is a problem, should it be \nsolved before the model is even deployed,  ",
+    "start": 4051.116,
+    "duration": 6.72
+  },
+  {
+    "text": "such that hopefully if you did decide to \nbuild a firm and depend on these models,  ",
+    "start": 4057.836,
+    "duration": 7.52
+  },
+  {
+    "text": "it basically does what you want it to do \nand you don't need a human in the loop? ",
+    "start": 4065.356,
+    "duration": 4.36
+  },
+  {
+    "text": "Does that question make sense? I'm \njust wondering, in this situation,  ",
+    "start": 4069.716,
+    "duration": 3.16
+  },
+  {
+    "text": "how do we actually monitor every single \nfirm to ensure a human is in the loop? And  ",
+    "start": 4072.876,
+    "duration": 3.4
+  },
+  {
+    "text": "what happens if China doesn't decide to do that?\n \nYou would either have to have every country agree  ",
+    "start": 4076.276,
+    "duration": 9.96
+  },
+  {
+    "text": "to this regulatory regime, or you would need \nall of the model infrastructure or the model  ",
+    "start": 4086.236,
+    "duration": 5.76
+  },
+  {
+    "text": "providers to agree to this kind of requirement.\nIt's definitely going to be non-trivial. This  ",
+    "start": 4091.996,
+    "duration": 13.52
+  },
+  {
+    "text": "is looking a ways ahead, so it's a little hard to \nimagine this world before seeing anything like it. ",
+    "start": 4105.516,
+    "duration": 9.24
+  },
+  {
+    "text": "For example, are we actually confident that AI-run \ncompanies are better in every way. Do we think  ",
+    "start": 4117.796,
+    "duration": 10.4
+  },
+  {
+    "text": "they're better most of the time, but occasionally \nthey malfunction because AIs are still less  ",
+    "start": 4128.196,
+    "duration": 6.48
+  },
+  {
+    "text": "sample efficient in certain ways? Consider when \nthey have to deal with very wacky situations. ",
+    "start": 4134.676,
+    "duration": 3.88
+  },
+  {
+    "text": "AI-run firms might actually have higher tail risk \nbecause they're more likely to malfunction in a  ",
+    "start": 4141.676,
+    "duration": 4.2
+  },
+  {
+    "text": "big way. There might be some practical questions \nlike that that would determine how things play  ",
+    "start": 4145.876,
+    "duration": 6.28
+  },
+  {
+    "text": "out. Maybe if you just require people to \nbe accountable for various liabilities,  ",
+    "start": 4153.076,
+    "duration": 7.36
+  },
+  {
+    "text": "this would also change the incentives a bit.\nLet’s say it turned out that AIs are better  ",
+    "start": 4160.436,
+    "duration": 6.92
+  },
+  {
+    "text": "at running everything and they're also \ncompletely benevolent. Let’s say we've  ",
+    "start": 4167.356,
+    "duration": 3.56
+  },
+  {
+    "text": "totally solved alignment, and they're better \nat being accountable to people than people  ",
+    "start": 4170.916,
+    "duration": 9.64
+  },
+  {
+    "text": "are. Then maybe it's okay having the AIs \nrun the firms. But that's pretty far out. ",
+    "start": 4180.556,
+    "duration": 7.88
+  },
+  {
+    "text": "We're more likely to be in a situation where they \nlook better in the short term, but they still have  ",
+    "start": 4189.516,
+    "duration": 5.56
+  },
+  {
+    "text": "some serious problems. It's actually practical \nconsiderations that push you more towards having  ",
+    "start": 4195.076,
+    "duration": 8.32
+  },
+  {
+    "text": "humans in the loop, at least for the near future.\n \nSo this is a problem we have to deal with today  ",
+    "start": 4203.396,
+    "duration": 4.4
+  },
+  {
+    "text": "with RLHF. You have to aggregate preferences \nacross a lot of different humans. It'll be maybe  ",
+    "start": 4207.796,
+    "duration": 7.8
+  },
+  {
+    "text": "more marked with future, more powerful systems. \nBut when you say we want these eventual AI systems  ",
+    "start": 4215.596,
+    "duration": 6.68
+  },
+  {
+    "text": "that are going to fully replace humans as part of \nthese firms to be aligned, what does that mean? ",
+    "start": 4222.276,
+    "duration": 4.88
+  },
+  {
+    "text": "Will it mean that they basically do what the \nuser wants them to do? Does it mean that they  ",
+    "start": 4227.156,
+    "duration": 4.36
+  },
+  {
+    "text": "have to result in some sort of global outcome \nthat we're happy with as the stakeholders in  ",
+    "start": 4231.516,
+    "duration": 8.48
+  },
+  {
+    "text": "OpenAI? Concretely, what would that mean?\n \nIf the models are being used for these higher  ",
+    "start": 4239.996,
+    "duration": 8.88
+  },
+  {
+    "text": "stakes use cases, then we would have to \nthink about RLHF in a much different way  ",
+    "start": 4248.876,
+    "duration": 5.16
+  },
+  {
+    "text": "than we are right now.We're not quite ready \nfor that or the current methods might not be  ",
+    "start": 4254.036,
+    "duration": 9.56
+  },
+  {
+    "text": "completely sufficient. We would need to make \ncompromises between the needs of the different  ",
+    "start": 4263.596,
+    "duration": 9.52
+  },
+  {
+    "text": "stakeholders involved. We have this document \nthat we're releasing called the Model Spec.  ",
+    "start": 4273.116,
+    "duration": 8.12
+  },
+  {
+    "text": "It's about how we want our models \nto behave in the API and in ChatGPT. ",
+    "start": 4282.156,
+    "duration": 4.36
+  },
+  {
+    "text": "We try to talk about this issue where there are \ndifferent stakeholders involved and sometimes  ",
+    "start": 4288.436,
+    "duration": 4.48
+  },
+  {
+    "text": "there are conflicts between what they might \nwant. In our case, we were thinking of the  ",
+    "start": 4292.916,
+    "duration": 7.36
+  },
+  {
+    "text": "stakeholders as the end user (someone sitting in \nfront of ChatGPT or some other app), the developer  ",
+    "start": 4300.276,
+    "duration": 11.64
+  },
+  {
+    "text": "(someone using the API who might be serving other \nend users with their app), the platform (OpenAI,  ",
+    "start": 4312.716,
+    "duration": 9.52
+  },
+  {
+    "text": "we don't want the models to expose us to legal \nrisk), and the rest of humanity (including  ",
+    "start": 4323.316,
+    "duration": 9.12
+  },
+  {
+    "text": "people not part of the users or customers).\nObviously, the user might ask the model to  ",
+    "start": 4332.436,
+    "duration": 11.84
+  },
+  {
+    "text": "do something that we think is actively harmful to \nother people. We might have to refuse that. By the  ",
+    "start": 4344.276,
+    "duration": 9.04
+  },
+  {
+    "text": "way, this isn't the order of priority necessarily. \nThese are just the four or so classes of  ",
+    "start": 4353.316,
+    "duration": 7.16
+  },
+  {
+    "text": "stakeholder. Actually, you could maybe also say in \nthe future, the model itself. We're not there yet. ",
+    "start": 4360.476,
+    "duration": 7.36
+  },
+  {
+    "text": "Anyway, we have these different stakeholders. \nSometimes they have conflicting demands. We  ",
+    "start": 4368.676,
+    "duration": 7.84
+  },
+  {
+    "text": "have to make some call on how to resolve those \nconflicts.It's not always obvious how to do  ",
+    "start": 4376.516,
+    "duration": 5.52
+  },
+  {
+    "text": "that. We had to think through the trade-offs and \nbasically the rough heuristic is that we mostly  ",
+    "start": 4382.036,
+    "duration": 11.96
+  },
+  {
+    "text": "want the models to follow your instructions \nand be helpful to the user and the developer. ",
+    "start": 4393.996,
+    "duration": 7.12
+  },
+  {
+    "text": "But when this impinges on other people's happiness \nor way of life, this becomes a problem and we have  ",
+    "start": 4402.396,
+    "duration": 9.56
+  },
+  {
+    "text": "to block certain kinds of usage. We mostly want \nthe models to just be an extension of people's  ",
+    "start": 4411.956,
+    "duration": 8.2
+  },
+  {
+    "text": "will and do what they say. We don't want to be \ntoo paternalistic. We want to be neutral and  ",
+    "start": 4420.156,
+    "duration": 5.6
+  },
+  {
+    "text": "not impose our opinions on people. We mostly want \nto let people do what they want with the models.\n  ",
+    "start": 4425.756,
+    "duration": 10.96
+  },
+  {
+    "text": "I got a chance to read the Spec beforehand. \nThis is a question of how well that transfers  ",
+    "start": 4436.716,
+    "duration": 7.52
+  },
+  {
+    "text": "over to how the model itself behaves. I was \nimpressed with how sensible the trade-offs  ",
+    "start": 4444.236,
+    "duration": 7.0
+  },
+  {
+    "text": "were. I believe the actual edge cases were \nexplicitly stated rather than the kinds  ",
+    "start": 4451.236,
+    "duration": 6.6
+  },
+  {
+    "text": "of things where are obvious. In this case, \nyou really are going after the edge cases.\n  ",
+    "start": 4457.836,
+    "duration": 5.04
+  },
+  {
+    "text": "We wanted it to be very actionable so \nthat it wasn't just a bunch of nice  ",
+    "start": 4462.876,
+    "duration": 3.2
+  },
+  {
+    "text": "sounding principles. Each example tells \nyou something about some non-obvious  ",
+    "start": 4466.076,
+    "duration": 6.76
+  },
+  {
+    "text": "situation and reasons through that situation.\n \nI have a couple of questions about the state  ",
+    "start": 4472.836,
+    "duration": 6.6
+  },
+  {
+    "text": "of the research itself. Famously in the social \nsciences, things are really hard to replicate.  ",
+    "start": 4479.436,
+    "duration": 6.32
+  },
+  {
+    "text": "There’s a question about how much of the \nscience there is real versus these manufactured,  ",
+    "start": 4485.756,
+    "duration": 6.28
+  },
+  {
+    "text": "bespoke sorts of experiments. When you \nlook at the average ML paper, does it  ",
+    "start": 4492.036,
+    "duration": 6.48
+  },
+  {
+    "text": "feel like a really solid piece of literature \nor does it often feel like the equivalent of  ",
+    "start": 4498.516,
+    "duration": 5.6
+  },
+  {
+    "text": "what p-hacking is in the social sciences?\n \nEveryone has their complaints about the ML  ",
+    "start": 4504.116,
+    "duration": 6.52
+  },
+  {
+    "text": "literature. Overall, I think it's a relatively \nhealthy field especially compared to some others  ",
+    "start": 4510.636,
+    "duration": 6.4
+  },
+  {
+    "text": "like in the social sciences. It's largely grounded \nin practicality and getting things to work. If you  ",
+    "start": 4517.036,
+    "duration": 15.04
+  },
+  {
+    "text": "publish something that can't be replicated \neasily, people will just forget about it. ",
+    "start": 4532.076,
+    "duration": 4.8
+  },
+  {
+    "text": "It's accepted that often you don't just report \nsomeone's number from their paper. You also try  ",
+    "start": 4538.076,
+    "duration": 6.28
+  },
+  {
+    "text": "to reimplement their method and compare it \nto your method on the same training dataset.  ",
+    "start": 4544.356,
+    "duration": 5.16
+  },
+  {
+    "text": "If you publish methods that are really \nhard to implement or are really finicky,  ",
+    "start": 4551.396,
+    "duration": 6.8
+  },
+  {
+    "text": "they'll tend to get forgotten.\nAs a result, people actually try  ",
+    "start": 4558.196,
+    "duration": 3.28
+  },
+  {
+    "text": "to open source their work a lot. There are \nalso various unfavorable incentives. People  ",
+    "start": 4561.476,
+    "duration": 13.0
+  },
+  {
+    "text": "are incentivized to make the baseline methods \nthey're comparing to worse. There are other  ",
+    "start": 4574.476,
+    "duration": 8.0
+  },
+  {
+    "text": "mild pathologies, like trying to make your \nmethods seem sophisticated mathematically. ",
+    "start": 4583.716,
+    "duration": 5.08
+  },
+  {
+    "text": "But overall, I feel like the field makes progress. \nI would like to see a little bit more science and  ",
+    "start": 4588.796,
+    "duration": 9.0
+  },
+  {
+    "text": "trying to understand things rather than just hill \nclimbing on benchmarks and trying to propose new  ",
+    "start": 4597.796,
+    "duration": 7.92
+  },
+  {
+    "text": "methods. There's been a decent amount of that \nrecently. We could use more of that. I think  ",
+    "start": 4605.716,
+    "duration": 7.6
+  },
+  {
+    "text": "that's a good thing for academics to work on.\nOn a slightly different note, I'd be really  ",
+    "start": 4613.316,
+    "duration": 11.92
+  },
+  {
+    "text": "excited to see more research on using base models \nto do simulated social science. These models have  ",
+    "start": 4625.236,
+    "duration": 9.6
+  },
+  {
+    "text": "a probabilistic model of the whole world and \nyou can set up a simulated questionnaire or  ",
+    "start": 4635.596,
+    "duration": 5.48
+  },
+  {
+    "text": "conversation and look at how anything is \ncorrelated. Any traits that you might imagine,  ",
+    "start": 4642.876,
+    "duration": 8.48
+  },
+  {
+    "text": "you can see how they might be \ncorrelated with other traits. ",
+    "start": 4651.356,
+    "duration": 3.32
+  },
+  {
+    "text": "It'd be pretty cool to see if people \ncould replicate some of the more notable  ",
+    "start": 4654.676,
+    "duration": 4.6
+  },
+  {
+    "text": "results in social science, like moral \nfoundations and that sort of thing,  ",
+    "start": 4659.276,
+    "duration": 5.16
+  },
+  {
+    "text": "by just prompting base models in different \nways and seeing what's correlated.\n  ",
+    "start": 4664.436,
+    "duration": 4.2
+  },
+  {
+    "text": "What is that Stanford experiment? \nThe Asch conformity test? It'd be  ",
+    "start": 4668.636,
+    "duration": 6.8
+  },
+  {
+    "text": "fun if that replicated with the language \nmodels as well. It's very interesting. ",
+    "start": 4675.436,
+    "duration": 5.56
+  },
+  {
+    "text": "I want to ask about the rest of the research \nthat happens at big labs. How much of it is  ",
+    "start": 4680.996,
+    "duration": 5.04
+  },
+  {
+    "text": "increasing or decreasing the amount of \ncompute you need to get a certain result  ",
+    "start": 4686.036,
+    "duration": 6.32
+  },
+  {
+    "text": "as an actual compute multiplier versus how \nmuch of it is just making the learning more  ",
+    "start": 4692.356,
+    "duration": 5.76
+  },
+  {
+    "text": "stable and building out the infrastructure?\nThe broader question I'm trying to ask is,  ",
+    "start": 4698.116,
+    "duration": 4.8
+  },
+  {
+    "text": "since GPT-4, does it feel like with the same \namount of compute, you can train a much better  ",
+    "start": 4702.916,
+    "duration": 3.72
+  },
+  {
+    "text": "model? Or does it feel like you’ve made sure \nthat learning can happen better and in a more  ",
+    "start": 4706.636,
+    "duration": 4.68
+  },
+  {
+    "text": "scalable way with GPT-5, but it's not like we \ncan train GPT-4 with GPT-3.5's budget now?\n  ",
+    "start": 4711.316,
+    "duration": 6.36
+  },
+  {
+    "text": "There's definitely always progress in improving \nefficiency. Whenever you have a 1D performance  ",
+    "start": 4721.036,
+    "duration": 6.48
+  },
+  {
+    "text": "metric, you're going to find that different \nimprovements can substitute for each other.  ",
+    "start": 4727.516,
+    "duration": 7.48
+  },
+  {
+    "text": "You might find that post-training and pre-training \nboth improve the metrics. They'll have a slightly  ",
+    "start": 4737.436,
+    "duration": 10.08
+  },
+  {
+    "text": "different profile of which metrics they improve.\nBut at the end of the day, if you have a single  ",
+    "start": 4747.516,
+    "duration": 4.72
+  },
+  {
+    "text": "number, they're both going to substitute \nfor each other somewhat. For something  ",
+    "start": 4752.236,
+    "duration": 5.72
+  },
+  {
+    "text": "like a human evaluation, what do humans \nprefer, we've definitely made a lot of  ",
+    "start": 4757.956,
+    "duration": 6.0
+  },
+  {
+    "text": "progress on both sides, pre-training \nand post-training, in improving that.\n  ",
+    "start": 4763.956,
+    "duration": 5.4
+  },
+  {
+    "text": "A couple of rapid-fire questions about \nRLHF. Obviously, RLHF is important to  ",
+    "start": 4769.356,
+    "duration": 5.08
+  },
+  {
+    "text": "make these models useful. So maybe the \n\"lobotomized\" description is inaccurate. ",
+    "start": 4774.436,
+    "duration": 5.96
+  },
+  {
+    "text": "However, there is a sense in which all of these \nmodels, once they're put in a chatbot form,  ",
+    "start": 4780.396,
+    "duration": 7.44
+  },
+  {
+    "text": "have a very similar way of speaking. They really \nwant to “delve” into things. They want to turn  ",
+    "start": 4787.836,
+    "duration": 4.44
+  },
+  {
+    "text": "things into bullet points. They often seem \nto have this formal and dull way of speaking. ",
+    "start": 4792.276,
+    "duration": 7.16
+  },
+  {
+    "text": "There are complaints that they're not as \ncreative. Like we were talking about before,  ",
+    "start": 4800.156,
+    "duration": 4.16
+  },
+  {
+    "text": "they could only do rhyming poetry and not \nnon-rhyming poetry until recently. Is that a  ",
+    "start": 4804.316,
+    "duration": 5.28
+  },
+  {
+    "text": "result of the particular way in which RLHF happens \nnow? If so, is it because of who the raters are?  ",
+    "start": 4809.596,
+    "duration": 5.44
+  },
+  {
+    "text": "Is it because of what the loss function \nis? Why is this the way all chatbots look?\n  ",
+    "start": 4815.036,
+    "duration": 4.2
+  },
+  {
+    "text": "I would say there's a decent amount of room for \nvariation in exactly how you do the training  ",
+    "start": 4819.236,
+    "duration": 4.72
+  },
+  {
+    "text": "process. We're actively trying to improve \nthis and make the writing more lively and  ",
+    "start": 4823.956,
+    "duration": 8.72
+  },
+  {
+    "text": "fun. We've made some progress like improving \nthe personality of ChatGPT. It is more fun  ",
+    "start": 4833.316,
+    "duration": 6.76
+  },
+  {
+    "text": "and it's better when you're trying to chit \nchat with it and so forth. It's less robotic. ",
+    "start": 4840.076,
+    "duration": 6.76
+  },
+  {
+    "text": "It's an interesting question how some of the \nticks came about, like the word \"delve.\" I've  ",
+    "start": 4850.316,
+    "duration": 6.56
+  },
+  {
+    "text": "actually caught myself using that word recently. I \ndon't know if it rubbed off on me from the model. ",
+    "start": 4856.876,
+    "duration": 7.36
+  },
+  {
+    "text": "Actually, there might also be some funny effects \ngoing on where there's unintentional distillation  ",
+    "start": 4866.996,
+    "duration": 6.96
+  },
+  {
+    "text": "happening between the language model and \nproviders. If you hire someone to go do a labeling  ",
+    "start": 4873.956,
+    "duration": 6.52
+  },
+  {
+    "text": "task, they might just be feeding it into a model. \nThey might be pulling up their favorite chatbot,  ",
+    "start": 4880.476,
+    "duration": 7.12
+  },
+  {
+    "text": "feeding it in, having the model do the task, \nand then copying and pasting it back. So that  ",
+    "start": 4888.476,
+    "duration": 6.6
+  },
+  {
+    "text": "might account for some of the convergence.\nSome of the things we're seeing are just what  ",
+    "start": 4895.076,
+    "duration": 5.8
+  },
+  {
+    "text": "people like. People do like bullet points. They \nlike structured responses. People do often like  ",
+    "start": 4900.876,
+    "duration": 7.32
+  },
+  {
+    "text": "the big info dumps that they get from the models.\nSo it's not completely clear how much is just a  ",
+    "start": 4908.196,
+    "duration": 12.4
+  },
+  {
+    "text": "quirk of the particular choices and design of the \npost-training processes, and how much is actually  ",
+    "start": 4920.596,
+    "duration": 12.96
+  },
+  {
+    "text": "intrinsic to what people actually want.\n \nIt does seem persistently more verbose than  ",
+    "start": 4933.556,
+    "duration": 7.04
+  },
+  {
+    "text": "some people want. Maybe it’s just because \nduring the labeling stage, the raters will  ",
+    "start": 4941.476,
+    "duration": 5.96
+  },
+  {
+    "text": "prefer the more verbose answer. I wonder if it's \ninherent because of how it's pre-trained and the  ",
+    "start": 4947.436,
+    "duration": 7.96
+  },
+  {
+    "text": "stop sequence doesn't come up that often \nand it really wants to just keep going.\n  ",
+    "start": 4955.396,
+    "duration": 2.72
+  },
+  {
+    "text": "There might be some biases in the labeling \nthat lead to verbosity. There’s the fact  ",
+    "start": 4958.996,
+    "duration": 4.6
+  },
+  {
+    "text": "that we tend to train for one message at a \ntime rather than the full interaction. If you  ",
+    "start": 4963.596,
+    "duration": 7.44
+  },
+  {
+    "text": "only see one message, then something \nthat just has a clarifying question,  ",
+    "start": 4971.036,
+    "duration": 5.2
+  },
+  {
+    "text": "or maybe a short response with an invitation \nto follow up, is going to look less complete  ",
+    "start": 4976.236,
+    "duration": 5.64
+  },
+  {
+    "text": "than something that covers all possibilities.\nThere's also a question of whether people's  ",
+    "start": 4981.876,
+    "duration": 7.72
+  },
+  {
+    "text": "preferences would change depending on how fast \nthe model is streaming its output. Clearly,  ",
+    "start": 4989.596,
+    "duration": 7.04
+  },
+  {
+    "text": "if you're sitting there waiting for the tokens \nto come out, you're going to prefer that it gets  ",
+    "start": 4996.636,
+    "duration": 4.92
+  },
+  {
+    "text": "to the point. But if it just gives you a dump \nof text instantly, maybe you don't actually  ",
+    "start": 5001.556,
+    "duration": 5.8
+  },
+  {
+    "text": "care if there's a bunch of boilerplate or \nif there's a bunch of stuff you're going  ",
+    "start": 5007.356,
+    "duration": 3.84
+  },
+  {
+    "text": "to skim. You'd rather just have it all there.\n \nThe reward model is such an interesting artifact  ",
+    "start": 5011.196,
+    "duration": 7.0
+  },
+  {
+    "text": "because it's the closest thing we have to \nan aggregation of what people want and what  ",
+    "start": 5018.196,
+    "duration": 6.52
+  },
+  {
+    "text": "preferences they have. I’m thinking \nabout models that are much smarter.  ",
+    "start": 5024.716,
+    "duration": 5.92
+  },
+  {
+    "text": "One hope is that you could just give it a list of \nthings we want that are not trivial and obvious,  ",
+    "start": 5035.676,
+    "duration": 8.92
+  },
+  {
+    "text": "something like the UN Declaration of Human Rights.\nOn the other hand, I think I heard you make the  ",
+    "start": 5044.596,
+    "duration": 5.32
+  },
+  {
+    "text": "point that a lot of our preferences and values \nare very subtle, so they might be best represented  ",
+    "start": 5049.916,
+    "duration": 7.32
+  },
+  {
+    "text": "through pairwise preferences. When you think \nof a GPT-6 or GPT-7 level model, are we giving  ",
+    "start": 5057.236,
+    "duration": 5.88
+  },
+  {
+    "text": "it more written instructions or are we still \ndoing these sorts of subliminal preferences?\n  ",
+    "start": 5063.116,
+    "duration": 8.2
+  },
+  {
+    "text": "That's a good question. These preference \nmodels do learn a lot of subtleties about  ",
+    "start": 5071.916,
+    "duration": 8.36
+  },
+  {
+    "text": "what people prefer that would be hard \nto articulate in an instruction manual.  ",
+    "start": 5080.276,
+    "duration": 7.12
+  },
+  {
+    "text": "Obviously, you can write an instruction manual \nthat has lots of examples of comparisons. That's  ",
+    "start": 5092.116,
+    "duration": 7.24
+  },
+  {
+    "text": "what the Model Spec has. It has a lot of examples \nwith some explanations. It's not clear what the  ",
+    "start": 5099.356,
+    "duration": 9.36
+  },
+  {
+    "text": "optimal format is for describing preferences.\nI would guess that whatever you can get out of  ",
+    "start": 5108.716,
+    "duration": 7.2
+  },
+  {
+    "text": "a big dataset that captures fuzzy preferences, \nyou can distill it down to a shorter document  ",
+    "start": 5115.916,
+    "duration": 7.68
+  },
+  {
+    "text": "that mostly captures the ideas. The bigger models \ndo learn a lot of these concepts automatically of  ",
+    "start": 5123.596,
+    "duration": 13.72
+  },
+  {
+    "text": "what people might find useful and helpful. \nThey'll have some complex moral theories  ",
+    "start": 5137.316,
+    "duration": 18.44
+  },
+  {
+    "text": "that they can latch onto. Of course, there's \nstill a lot of room to latch onto a different  ",
+    "start": 5155.756,
+    "duration": 7.88
+  },
+  {
+    "text": "style or a different morality.\nSo if we were to write a doc,  ",
+    "start": 5163.636,
+    "duration": 7.68
+  },
+  {
+    "text": "if we're going to align these models, what \nwe're doing is latching onto a specific style,  ",
+    "start": 5171.316,
+    "duration": 6.44
+  },
+  {
+    "text": "a specific morality. You still need a decently \nlong document to capture exactly what you want.\n  ",
+    "start": 5177.756,
+    "duration": 10.56
+  },
+  {
+    "text": "How much of a moat is better post-training? \nCompanies distinguish themselves currently by  ",
+    "start": 5188.996,
+    "duration": 6.24
+  },
+  {
+    "text": "how big their model is and so forth. Will it \nbe a big moat for who has figured out all the  ",
+    "start": 5195.236,
+    "duration": 4.2
+  },
+  {
+    "text": "finickiness that you were talking about \nearlier with regards to all this data? \n  ",
+    "start": 5199.436,
+    "duration": 4.68
+  },
+  {
+    "text": "There's something of a moat because \nit's just a very complex operation and  ",
+    "start": 5204.116,
+    "duration": 5.6
+  },
+  {
+    "text": "it takes a lot of skilled people to do \nit. There's a lot of tacit knowledge and  ",
+    "start": 5210.876,
+    "duration": 7.12
+  },
+  {
+    "text": "organizational knowledge that's required.\nWith post-training, to create a model that  ",
+    "start": 5220.916,
+    "duration": 10.0
+  },
+  {
+    "text": "actually has all the functionality people \ncare about, it’s pretty complicated. It  ",
+    "start": 5230.916,
+    "duration": 9.04
+  },
+  {
+    "text": "requires a pretty complicated effort and \naccumulation of a lot of R&D. That makes  ",
+    "start": 5239.956,
+    "duration": 12.56
+  },
+  {
+    "text": "it somewhat of a moat. It's not trivial \nto spin this up immediately. It does seem  ",
+    "start": 5252.516,
+    "duration": 7.16
+  },
+  {
+    "text": "like the same companies that are putting \ntogether the most serious pre-training  ",
+    "start": 5261.476,
+    "duration": 3.36
+  },
+  {
+    "text": "efforts are also putting together the \nmost serious post-training efforts. ",
+    "start": 5264.836,
+    "duration": 3.4
+  },
+  {
+    "text": "It is somewhat possible to copy or to spin \nup more of these efforts. There's also one  ",
+    "start": 5274.196,
+    "duration": 8.24
+  },
+  {
+    "text": "force that sort of makes it less of a moat. You \ncan distill the models, or you can take someone  ",
+    "start": 5282.436,
+    "duration": 6.12
+  },
+  {
+    "text": "else's model and clone the outputs. You can use \nsomeone else's model as a judge to do comparisons. ",
+    "start": 5288.556,
+    "duration": 7.64
+  },
+  {
+    "text": "The more big league people probably aren't \ndoing that because it goes against terms of  ",
+    "start": 5299.116,
+    "duration": 4.48
+  },
+  {
+    "text": "service policies. It would also be a hit to \ntheir pride. But I would expect some of the  ",
+    "start": 5303.596,
+    "duration": 6.4
+  },
+  {
+    "text": "smaller players are doing that to get off the \nground. That catches you up to a large extent.\n  ",
+    "start": 5309.996,
+    "duration": 5.6
+  },
+  {
+    "text": "I guess it helps clear the moat. What is the \nmedian rater like? Where are they based? What are  ",
+    "start": 5315.596,
+    "duration": 4.76
+  },
+  {
+    "text": "their politics? What is their knowledge level?\n \nIt varies a lot. We've definitely hired raters  ",
+    "start": 5320.356,
+    "duration": 10.24
+  },
+  {
+    "text": "with different skills for different kinds \nof tasks or projects. A decent mental model  ",
+    "start": 5330.596,
+    "duration": 13.4
+  },
+  {
+    "text": "is to just look at people who are on Upwork \nand other platforms like that. Look at who's  ",
+    "start": 5343.996,
+    "duration": 4.24
+  },
+  {
+    "text": "doing odd jobs with remote work.\nIt's a pretty international group.  ",
+    "start": 5348.236,
+    "duration": 9.76
+  },
+  {
+    "text": "There's a decent number of people in the \nU.S. We hire different groups of people  ",
+    "start": 5357.996,
+    "duration": 8.12
+  },
+  {
+    "text": "for different types of labeling, like whether \nwe're more focused on writing or STEM tasks.  ",
+    "start": 5366.116,
+    "duration": 7.4
+  },
+  {
+    "text": "People doing STEM tasks are more likely to be \nin India or other middle or lower-middle income  ",
+    "start": 5374.276,
+    "duration": 7.96
+  },
+  {
+    "text": "countries. People doing more English writing \nand composition tend more to be U.S.-based. ",
+    "start": 5382.236,
+    "duration": 7.52
+  },
+  {
+    "text": "There've been times when we needed to hire \ndifferent experts for some of our campaigns.  ",
+    "start": 5394.156,
+    "duration": 5.68
+  },
+  {
+    "text": "Some of the people are very talented, and we \neven find that they're at least as good as us,  ",
+    "start": 5399.836,
+    "duration": 7.64
+  },
+  {
+    "text": "the researchers, at doing these tasks and they're \nmuch more careful than us. I would say the people  ",
+    "start": 5407.476,
+    "duration": 6.12
+  },
+  {
+    "text": "we have now are quite skilled and conscientious.\n \nWith regards to the plateau narrative,  ",
+    "start": 5413.596,
+    "duration": 9.4
+  },
+  {
+    "text": "one of the things I've heard is that a lot of \nthe abilities these models have to help you  ",
+    "start": 5422.996,
+    "duration": 5.32
+  },
+  {
+    "text": "with specific things are related to having very \nclosely matched labels within the supervised  ",
+    "start": 5428.316,
+    "duration": 8.72
+  },
+  {
+    "text": "fine-tuning dataset. Is that true?\nCan it teach me how to use FFmpeg  ",
+    "start": 5437.036,
+    "duration": 5.72
+  },
+  {
+    "text": "correctly? Is it like there's somebody who’s \nseeing the inputs, seeing what flags you need  ",
+    "start": 5442.756,
+    "duration": 6.76
+  },
+  {
+    "text": "to add, and some human is figuring that out and \nmatching to that. Do you need to hire all these  ",
+    "start": 5449.516,
+    "duration": 8.08
+  },
+  {
+    "text": "label raters who have domain expertise in all \nthese different domains? If that's the case,  ",
+    "start": 5457.596,
+    "duration": 4.4
+  },
+  {
+    "text": "it seems like it’d be a much bigger slog to get \nthese models to be smarter and smarter over time.\n  ",
+    "start": 5461.996,
+    "duration": 4.92
+  },
+  {
+    "text": "You don't exactly need that. You can get \nquite a bit out of generalization. The  ",
+    "start": 5466.916,
+    "duration": 10.84
+  },
+  {
+    "text": "base model has already been trained on tons of \ndocumentation, code, with shell scripts and so  ",
+    "start": 5477.756,
+    "duration": 6.2
+  },
+  {
+    "text": "forth. It's already seen all the FFmpeg man \npages, lots of Bash scripts and everything. ",
+    "start": 5483.956,
+    "duration": 6.92
+  },
+  {
+    "text": "Even just giving the base model a good \nfew-shot prompt, you can get it to  ",
+    "start": 5495.876,
+    "duration": 4.0
+  },
+  {
+    "text": "answer queries like this. Just training \na preference model for helpfulness will,  ",
+    "start": 5499.876,
+    "duration": 7.16
+  },
+  {
+    "text": "even if you don't train it on any STEM, somewhat \ngeneralize to STEM. So not only do you not need  ",
+    "start": 5511.196,
+    "duration": 10.68
+  },
+  {
+    "text": "examples of how to use FFmpeg, you might not \neven need anything with programming to get some  ",
+    "start": 5522.796,
+    "duration": 4.96
+  },
+  {
+    "text": "reasonable behavior in the programming domain.\n \nMaybe a final question. We've touched on this  ",
+    "start": 5527.756,
+    "duration": 6.56
+  },
+  {
+    "text": "in different ways but let’s put it together. You \nsaid you're training on much more multimodal data.  ",
+    "start": 5534.316,
+    "duration": 5.8
+  },
+  {
+    "text": "Presumably, these things understand what screens \nlook like and will be able to interact with them  ",
+    "start": 5540.116,
+    "duration": 5.68
+  },
+  {
+    "text": "in a much more coherent way. Also you're going \nto do this long-horizon RL, so they'll be able  ",
+    "start": 5545.796,
+    "duration": 5.72
+  },
+  {
+    "text": "to act as agents in the systems and be part of \nyour workflow in a much more integrated way. ",
+    "start": 5551.516,
+    "duration": 8.08
+  },
+  {
+    "text": "What do you expect that to look like? What will be \nthe next steps from there? Suppose by the end of  ",
+    "start": 5559.596,
+    "duration": 5.88
+  },
+  {
+    "text": "the year or next year, you have something that's \nan assistant who can work with you on your screen.  ",
+    "start": 5565.476,
+    "duration": 4.56
+  },
+  {
+    "text": "Does that seem like a sensible thing to \nexpect? Where does it go from there?\n  ",
+    "start": 5570.916,
+    "duration": 5.12
+  },
+  {
+    "text": "I definitely expect things to move in that \ndirection. It's unclear what's going to be  ",
+    "start": 5576.036,
+    "duration": 6.64
+  },
+  {
+    "text": "the best form factor. It could be something that's \nlike a Clippy on your computer helping you or if  ",
+    "start": 5582.676,
+    "duration": 7.48
+  },
+  {
+    "text": "it's more like a helpful colleague in the cloud. \nWe'll see which kinds of form factors work the  ",
+    "start": 5590.156,
+    "duration": 8.36
+  },
+  {
+    "text": "best. I expect people to try all of them out.\nI expect the mental model of a helpful assistant  ",
+    "start": 5598.516,
+    "duration": 14.64
+  },
+  {
+    "text": "or helpful colleague to become more real. It’ll \nbe something where you can share more of your  ",
+    "start": 5613.156,
+    "duration": 4.64
+  },
+  {
+    "text": "everyday work. Instead of just giving it \none-off queries, you would have a whole  ",
+    "start": 5618.476,
+    "duration": 4.72
+  },
+  {
+    "text": "project that you're doing and it knows about \neverything you've done on that project so far. ",
+    "start": 5623.196,
+    "duration": 4.2
+  },
+  {
+    "text": "It can even proactively make suggestions. Maybe \nyou can tell it to remember to ask me about this  ",
+    "start": 5629.356,
+    "duration": 10.04
+  },
+  {
+    "text": "and if I've made any progress on it. Proactivity \nis one thing that's been missing. I'd love to see  ",
+    "start": 5639.396,
+    "duration": 7.32
+  },
+  {
+    "text": "us moving away from one-off queries, using the \nmodel like a search engine, and more towards  ",
+    "start": 5646.716,
+    "duration": 13.08
+  },
+  {
+    "text": "having a whole project that I'm doing in \ncollaboration with the model. Something where it  ",
+    "start": 5660.636,
+    "duration": 5.48
+  },
+  {
+    "text": "knows everything I've done. It's proactively \nsuggesting things for me to try or it's going  ",
+    "start": 5666.116,
+    "duration": 6.28
+  },
+  {
+    "text": "and doing work in the background.\n \nThat's really interesting. This is  ",
+    "start": 5672.396,
+    "duration": 4.16
+  },
+  {
+    "text": "the final question. What is your median \ntimeline for when it replaces your job?\n  ",
+    "start": 5676.556,
+    "duration": 4.64
+  },
+  {
+    "text": "Oh, it replaces my job? Maybe five years.\n \nPretty soon. Interesting. John, this was  ",
+    "start": 5681.956,
+    "duration": 10.76
+  },
+  {
+    "text": "super interesting. Thanks so much for \nmaking the time. This seems like one of  ",
+    "start": 5692.716,
+    "duration": 5.56
+  },
+  {
+    "text": "the parts of the AI process that is super \nimportant and people don't understand that  ",
+    "start": 5698.276,
+    "duration": 5.44
+  },
+  {
+    "text": "much about. It was super interesting to \ndelve into it and get your thoughts on it.\n  ",
+    "start": 5703.716,
+    "duration": 4.84
+  },
+  {
+    "text": "Thanks for having me on the podcast. It \nwas fun to talk about all this stuff.",
+    "start": 5709.156,
+    "duration": 4.56
+  }
+]

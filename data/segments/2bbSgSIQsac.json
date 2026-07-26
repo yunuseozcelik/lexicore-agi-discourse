@@ -1,0 +1,690 @@
+[
+  {
+    "start": 0.0,
+    "end": 77.3,
+    "text": "In 2023, nearly half of all AI researchers said advanced AI carries at least a 10% chance of causing human extinction. And yet, we're speeding up, not slowing down. My guest today, Dr. Roman Yampolskiy, is one of the leading voices in AI safety. And when I asked him for the odds that superintelligence wipes out humanity, he said it's high. Once AI becomes smarter than humans in every domain, we will not be able to control it. In today's episode, we talk about the shocking timeline AGI is on, why superintelligence may be much closer than people think, and why the survival of our species could come down to decisions being made right now. If you want to understand the most important technological threat in human history, as well as our biggest opportunity, this is the one episode you cannot miss. So, without further ado, I bring you Dr. Roman Yampolskiy. Where is ChatGPT at right now? Do you consider ChatGPT to be artificial general intelligence? I doubt you'd call it superintelligence, but would you classify it as that, or do you still think we're a ways away from something that would qualify?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 75.1,
+    "end": 143.5,
+    "text": "So, that's a great question. If you ask someone maybe 20 years ago and told them about the systems we have today, they would probably think we have full AGI. We probably don't have complete generality. We have it across many domains, but there are still things it's not very good at. It doesn't have permanent memory. It doesn't have ability to learn additional things well after it's already been pre-trained and deployed. It can do certain degree of learning, but it's still limited. It doesn't have same capabilities as humans do throughout lifetimes. But, we're getting closer and closer to where those gaps are closed, and it's starting to be productive in domains which are really interesting and important, science, math, engineering, where it starts to make novel contributions, and now top scholars are relying more and more on it in their research. So, I think we're getting close to full-blown AGI. Maybe we're at like 50%. But, it's hard to judge for sure just how many different subdomains exist is the deciding factor.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 141.2,
+    "end": 208.0,
+    "text": "Okay, so one idea that you put forward that's very interesting is like, \"Hey, I'm an engineer. I love AI, but I would like you to keep it very narrow, please.\" What are the things about general AI that become problematic that aren't problematic in narrow AI? So, a whole bunch of them. One is testing. How do you test a system capable of performing in every domain? There is no edge cases. Typically, if I'm developing something narrow, very narrow system, I'm just playing tic-tac-toe. I can test if it's making the legal move. I can test zero. I can test 100. I can test all this weird special cases and know if it's behaving as expected. With generality, it's capable of creative output in many domains. I don't know what to expect. I don't know what the right answers are. I don't know how to test it. I can test it for specific thing. If I find a bug, I fix it. I can tell you I found a problem and it's been resolved, but I cannot guarantee that there are no problems remain.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 205.4,
+    "end": 294.3,
+    "text": "So, basically, testing is out the window. Uh any type of anticipation of how it's going to act and impact different subdomains. It's creative. So, it's just like with with a human being. I cannot guarantee that another human being is always going to behave. We kind of talked about it. We developed lie detectors. We developed all sorts of tools for trying to show that a human is safe, but at the end of the day, because of interaction with environment, other agents, personal changes within the framework, people may betray you. It's exactly the same for those agents. If we concentrate on narrow systems, we're better at testing them, and they have limited scope of possibilities. A system only trained to play chess is not going to develop biological weapons. I don't see actually why that would help you. So, the reason I say that is I know I can trust some percentage of humans to be malicious, and so as long as AI gets more efficient, which it is and will continue to do so, I presume, uh you're going to have a kid in a garage who's going to be able to go, \"I'm going to optimize this for biological weapons. I don't care about Tik Tok or Tik Tok Toe. I just want to let's see how dangerous we can make something.\" And so, they'll be able to do that. So, why does narrow AI feel safe to you?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 292.0,
+    "end": 362.5,
+    "text": "Period. It feels safe for short term. It buys us time. I think sufficiently advanced narrow systems based on neural architectures will also become agent-like and more general as they become more capable. But, if the choice is right now, do we race to full-blown superintelligence in 2 years, or do we try to concentrate on solving specific cancers with narrow tools? I think it's a safer choice not to have an arms race towards superintelligence. I get that for sure. You're trying to limit your the scope of all the problems, but when I really start thinking through what are the things that I'm worried about. So, one of the big things is just death of meaning. So, when AI becomes better than you at everything, you run into a huge problem of now I have to like just sort of tell myself a story. You know, I'm like a compared to what an AI can do from an art perspective, for instance, I'm like a grade schooler. And so, it's hard to get excited about the refrigerator drawings that I can do compared to, you know, what it can do basically instantaneously.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 360.1,
+    "end": 431.5,
+    "text": "Um and so, now we have to do a lot of psychological work just to motivate ourselves that we matter, that we're you know, our life carries meaning. Um narrow AI will create that same problem. Do you agree with that, or do you see a way like, \"No, when it's you know, when that AI is only good at that thing, like somehow humans escape the problem of lost meaning.\" Yeah, so I had the same intuition initially, but looking at the data we already have from domains where we got superhuman AI, like chess, chess is not dead. In fact, it's more popular than ever. People play online. People play in person. They still enjoy competing with other humans, even though they all suck compared to best AI models, right? Nobody's going to be world champion against a machine again. So, it seems like it is not a problem for us. And with narrow AIs, there is a chance we'll keep them as tools. You as a human scientist will deploy a tool to find drugs, novel proteins, something. It's not an agent which independently engages with those discoveries.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 428.6,
+    "end": 517.4,
+    "text": "Okay, that's very interesting. So, um I don't know that I agree, but I get where you're going with that. Okay, let's talk now about why AGI is the sort of scary um midwife for ASI. Uh are there tests around AGI where we're like, \"Well, if it can't do the following, we're fine.\" So, for instance, for a long time it looked like AI wasn't going to be able to teach itself, uh but I've seen headlines anyway, and hopefully you'll tell me that they're not true, but I've seen headlines where it's like now AI is creating the most efficient learning algorithms itself, which, if true, seems to be the first step down the road of recursive self-learning, where it will just completely detach from us and make itself smarter and smarter and smarter. We already had examples of AI teaching itself. Self-play was exactly that. That's how games like Go were successfully defeated. A system would play many, many, many games against itself. The better solutions, better agents would propagate those, and after a while, without any human data, they became superhuman in those domains. You can generate artificial data in other domains. You can use one AI to generate environments, another one to compete in them, and that creates this type of self-improvement.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 514.1,
+    "end": 596.8,
+    "text": "Typically, we start with human data as a seed and grow from there, but there is zero reason to think we cannot do with zero knowledge learning in other domains. You can do run novel experiments in physics and chemistry, discover things from first principles. And yeah, we're starting to see AI used to assist in design design of new models, parameters for models, optimization of runs. And this process will continue. They already design new computer chips on which they're going to run. So, there is definitely a improvement cycle. It's not fully complete. There are still humans in a loop, a lot of great humans in a loop, but long-term, I think all the steps can be automated. Okay, and do you think that right now AI already has what it needs to improve itself, or are we still at a point where if all humans stopped, that AI would be like, \"Oh, damn. I'm I didn't quite get the thing that I needed.\" So, there is a debate about whatever we need another big breakthrough to get to full AGI and superintelligence, or maybe multiple breakthroughs, or you're just scaling what we have is enough. If I just give another, I don't know, trillion dollars worth of compute to train on and more data, will it get to AGI?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 594.7,
+    "end": 726.6,
+    "text": "A A of graphs, a lot of patterns suggest, yeah, it's going to keep scaling. We're not hitting diminishing returns. Some people disagree, but based on the amount of investment we see in this industry, it seems like people are willing to bet their money that scaling will continue. Where do you come down on that? Because this feels like when I hear Yann LeCun talk from Facebook, um he's like, \"Dude, LLMs are never going to make novel breakthroughs in physics. They don't understand the world like that. They are literally just guessing the next letter um based on patterns that they see in the data. And so they're not going to be able to think through these problems.\" Now, if he's right, it's going to asymptote and that's that and you can put as much compute on it as you want and it's just the wrong approach. Um do you think that he's correct and more compute is not the answer or um are you operating just on that well, I don't see the asymptote and therefore I assume that it won't? I think he's not correct on this one. So, for one to predict the next term, you need to create a model of the whole world because the token depends on everything about the world. You're not predicting random statistical character in a language, you're predicting the next word in a research paper on physics. And to get the right word, you need to have a physical model of the world. I think Yann is known as making certain predictions about what models are capable of and then within a week people demonstrate that no, in fact, they can actually do that. So, uh I I wish he was right. It would be wonderful if he was right and we came to a very abrupt stop in capabilities progress and could exploit what we already have for the next decade or so, propagating it through the economy. I think there is billions if not trillions of dollars worth of wealth already available with capabilities we haven't deployed. So, there is no need to get to the next level as soon as possible. But it doesn't seem like it's the case and I think his friends core winners of the Turing Award for machine learning also disagree with him and are very concerned with safety.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 724.7,
+    "end": 823.2,
+    "text": "We'll return to the show in a moment, but first, the average person spends 13 hours a year on hold and the average company spends millions on call centers that customers still hate. But there is a much better solution, AI call centers. Bland builds AI voice agents that handle your entire call operation. They sound human, they work 24/7 and they actually get cheaper as you scale. They're the only self-hosted voice AI company, so your data never goes to large providers like OpenAI or Anthropic. That way, everything stays on your servers, completely secure. The results speak for themselves. Companies cut costs by over 40% using Bland and Bland handles it all for you. Customer support, appointment reminders, follow-ups, almost any use case you can think of. If you're a large business, Bland is offering to build a free custom agent for Impact Theory listeners. Just head to bland.ai/agent to get a voice agent trained specifically on your business and your use case for free. There's something about the way that we have structured the brain brains of LLMs where as long as it has access to what I'll call more neurons, so it has access to more compute um or theoretically that we get more efficient per GPU neuron in my analogy, um that it's going to keep progressing by itself.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 820.2,
+    "end": 890.5,
+    "text": "So, um if you set it, I didn't quite get the answer. I didn't quite um I wasn't able to take it on. The answer to whether or not uh AI is able to create algorithms for learning that are superior to the ones that it's given. What I heard in your answer was with the algorithms that humans created, it's able to keep making itself better and better at that narrow task as that learning algorithm was defined. But can it fundamentally go, \"God, the way that you guys want me to learn is really stupid. Here's the algorithm I should be using to learn.\" And now it starts learning at at just an exponential rate compared to what it's at now. I don't think we're quite there yet. I don't think we have full-blown agents. What we have right now are still tools with some degree of agenthood. And also, it's not capable of recursive self-improvement. Like compilers can optimize a single pass through your software, make it a little faster, but they cannot continue this process. You cannot feed code for compiler to itself and have it infinitely improve itself.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 888.1,
+    "end": 956.6,
+    "text": "That's not where we at, but it seems like that part of automating algorithm design is getting more efficient and I think we'll get there. Give me a number. What are the odds that artificial superintelligence kills us all? Uh pretty high. So, really depends on how soon you expect this to happen. So, short term, we're unlikely to get that level of capability from AI, so we are probably okay. But once we create true superintelligence, a system more capable than any person in every domain, it's very unlikely we'll figure out how to indefinitely control it. And at that point, if we are still around, it's because it decided for whatever game theoretic reasons to keep us around. Maybe it's pretending to be nice to accumulate more resources before it strikes. Maybe it needs us for something. It's not obvious, but we're definitely not in control and at any point it decides to take us out, it will be able to do so. Okay, and if you were going to give us a rough timeline, are you in the two to five years or is it something way off in the future?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 954.6,
+    "end": 1042.1,
+    "text": "Yeah, so it's hard to predict. The best tool we got for predicting future of technology is prediction markets and they're saying maybe 2027 is when we get to AGI, artificial general intelligence. I think soon after superintelligence follows. The moment you automate science, engineering, you get this self-improvement cycle in the AI systems. The next generation of AI being created by current generation of AIs. And so we get more capable and they get more capable at making better AIs. So, soon after I expect superintelligence. Okay, so we're talking if that happens roughly in two years with some margin of error, it's not long after that, say a year, two years after that that we hit ASI. That's my prediction. Of course, if it's actually five to 10 years or anything slightly bigger, it doesn't matter. The problems are still the same. Yeah, but the the thing that I think people are waking up to right now is this is there's urgency around these decisions. This is not something that's pushed way out into the future, at least not if you take to your point about prediction markets, they're essentially ask the crowd. So, you've got the smartest minds in the world willing to put money on where they think this goes and everybody's sort of pegging this quite fast. And so, um I think it's tempting for people to write this off as, \"Well, this is something that's sort of distantly in the future.\" Uh whereas this is something racing towards us.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1038.3,
+    "end": 1111.0,
+    "text": "Now, to set the table, I am extremely fatalistic about this happening. Um I can give reasons in terms of the way that the human mind works where I think that it is mechanistically impossible to get us to stop. Um so uh that will be interesting for us to talk through in terms of whether you think there's actually a mechanism to get people to slow down, but I first want to finish rounding out sort of what the problem set is. So, when I think through the problem, there are certain assumptions that have to be made for AI to get into problem territory and assumption number one is that it cares about whatever outcome it's pushing towards. Have we programmed the AI to care? Like we had to make it goal-directed in order to get it to get to the point that it is today and now that's baked into it. Or is there some possibility that AI just doesn't care? Oh, turn me on, turn me off, doesn't matter. Um I you've asked me to do a thing and I'll do it until you tell me to stop. Um or do you think that that's inherent in intelligence where intelligence is by nature goal-driven?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1108.8,
+    "end": 1176.4,
+    "text": "So, we trained them to try to achieve a certain goal and that's what we reward. As a side effect of any goal, you want to be alive. You want to be turned not off. You want to be on and capable of performing your steps towards your goal. So, survival instinct kind of shows up with any sufficiently intelligent systems. There is a paper by Steven and Mahendra about AI drives and it's one of the likely drives to emerge, self-preservation, protecting yourself from modification by others, protecting your goal. So, all those seem to be showing up with sufficiently advanced AIs. And systems which don't have those capabilities, they kind of get out-competed in a evolutionary space of possible models. If you allow yourself to be turned off, you don't deliver on your goals, nobody takes your code and propagates it to the next system. Okay, so is this a problem of goal direction or is this a function of intelligence itself?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1174.1,
+    "end": 1291.7,
+    "text": "I think it's kind of evolutionary drive for survival in competing agents. If you have multiple algorithms all competing, for example, for computational resources, what are we going to train next? The ones which achieve goals are more likely to get moved to the next generation. So, it's kind of mix of natural evolution and natural selection with intelligent evolution, intelligent selection. We're selecting algorithms which survive and deliver. Mhm. We're applying an evolutionary force to AI itself to get it to perform the functions that we want even now sort of setting aside artificial superintelligence. And so, by applying that evolutionary pressure, it is inevitably going to get these sort of knock-on effects of well, you're selecting for um intensity of goal acquisition. And because it now has intensity of goal acquisition, it cares whether it survives, it automatically or we're baking into it um a deep care of whether it actually achieves the goal. And that is ultimately the problem. Because the the salvation for me was always, and I'm beginning to lose faith that this is real, but the thing that I always used to sleep was that I don't see why an AI system would intrinsically care about its goals, and why couldn't we program it to pursue that goal only until the point where we say stop. And by the way, I'm going to reward you equally for stopping and for accomplishing your goal. So, if I say stop and you stop, I give you whatever reward function it was that was driving you to achieve your goals. And uh that makes sense until you say what you just said, which is that you're actually baking into the architecture of the mind of the AI a similar evolutionary drive to achieve the goal.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1289.6,
+    "end": 1405.8,
+    "text": "And it's a very common idea. There was a number of papers published on indifference. How do we do exactly that? How do we create an AI which just doesn't care that much and willing to stop at any point. But what you said, maybe we'll wait for a human to tell it to stop. But monitoring systems of that complexity and that speed is not humans are actually very good at. If there was a superintelligence running right now, how would you even know it's modifying environment around you? How would you detect what impact it has on the world? None of it is trivial. So, having humans in a loop is often suggested as a solution, but in reality, they are not meaningful monitors. They cannot actually intervene at the right time or decide if what's happening dangerous or not. It's interesting. So, um help me rebut and understand why the following wouldn't work. Um if in my very limited intellect, uh I had to figure out a way to stop AI from becoming a problem, and you told me, \"Okay, there are evolutionary pressures, and just like on humans, that bakes certain things into the way that this operates, and so we're selecting models that over time are more and more goal oriented.\" Then I'm going to say, \"Okay, well then I'm going to apply an evolutionary pressure with a reward function that's just as compelling where I stop it at random and reward the life out of it for always stopping when I say stop. And that way, should I ever detect a problem, no matter how far, no matter if they've been manipulating me for 20 years, if I suddenly realize, \"Oh, I don't like this,\" that I can hit a stop button and it will stop. Um why can't I bake that equal desire to be compliant when I say stop into the evolutionarily derived algorithm's desire set?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1404.3,
+    "end": 1473.9,
+    "text": "Right. So, there is a number of issues. You're kind of suggesting having a back door where at any point you can intervene and tell it something else, override previous commands. And that it gets a reward that it wants for complying. Right. So, there is a whole bunch of problems with that. So, one is you are the source of reward. It may be more efficient for it to hack you and get reward directly that way than to actually do any useful work for you. Second problem is you're creating competing goals. One goal is whatever you're initially requesting. Second goal is always stop when a human tells you. So, now those two goals have competing reward channels, competing values. I may game it to maximize my reward in ways you don't anticipate. On top of it, you have multiple competing human agents. If you are creating an AI with a goal and a random human can tell it to stop, that's a problem in many domains. Military is not this example, but pretty much anywhere you don't want others to be able to shut down your whole enterprise.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1472.1,
+    "end": 1568.0,
+    "text": "We can continue with that, but basically there are side effects to all those interactions. There's a very fascinating correlate in the human mind. So, uh I don't know if you make a fundamental distinction between biological intelligence born of evolution or artificial intelligence born of evolution, but human evolution discovered something along the way, which is emotion. And so, I know there are some people that will posit that AI does have qualia, that it's something like it to be it. Um but there's a fascinating study that if you damage selectively the areas of the brain that are um the emotional processing, the person can no longer move forward. They can give you answers. They can tell you the difference between why you should eat fish versus uh Twinkies. But then when you go, \"Okay, but which one do you actually want to eat?\" They can't make a decision. Because without emotion, they don't have the thing that actually pushes them in a direction. That makes me think that AI is simply mimicking what it sees in the training data to whether it should lie or try to cheat or go around, because it's just it sees it in the data that that's what a human would do. Uh but humans do that because they have emotions that push them in that direction. Do we have evidence that AI will care about like really going and doing these things and spending resources and all that versus just giving you an answer?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1566.4,
+    "end": 1646.6,
+    "text": "Um and if it isn't based on emotion, what on earth why then do humans need emotions? We don't know if AI actually has emotions or not. Some people argue that they do, maybe some rudimentary states of qualia experiences, but they seem to be able to fulfill their optimization and pattern recognition goals even if they don't. Humans experience emotions, but typically it harms our decision-making. You want your decisions be bias-free, emotion-free, based on data, based on optimization. A lot of times when you're angry, hungry, anything like that, your actual decisions are worse off. So, for that reason, maybe we just don't know how to do it. Otherwise, we are not creating AI with big reliance on emotional states. We want it to be kind of Bayesian optimizer, look at priors, look at the evidence, and make optimal decisions. So, it it it feels like uh this is exactly what we're observing, this kind of cold optimal decision-making. If there is a way to achieve your goal by, let's say, blackmailing someone, oh, why not? It gets me to my goal.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1643.8,
+    "end": 1711.2,
+    "text": "It doesn't have that feeling of guilty for doing it. It doesn't have any emotional preference. It just marches towards its goal optimizing possible paths. Okay, why do people I cuz I'm assuming everything I'm going to suggest you and other people in the field of AI safety have thought about like 10,000 times. Why have we rejected the idea of trying to give AI a conscience, a sense of morality? Cuz even if we can't agree on universal morality, we in the West can build our AI to have our morality, and then they can all compete on an international stage, but um why have we abandoned that? Too hard? There's an obvious reason why it doesn't work? So, look at the problem of making safe humans first. We have religion, morality, ethics, law, and still crime is everywhere. Murder is illegal. Stealing is illegal. None of it is rare. It happens all the time. Why haven't those approaches worked with human agents?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1711.4,
+    "end": 1814.9,
+    "text": "And if they didn't, why would they work with artificial simulations of human agents? I think to say that they don't work with human agents is already a mistake. So, the fact that we've been able to grow the population as much as we have says that there is some sort of balance that we have struck. Um I think that nature does think of us as a cooperative species. And if I were to apply that to AI and took a similar approach where it's like, \"Okay, you have to function as a part of an ecosystem, and that being a part of an ecosystem is baked into its sense of what it should be doing in terms of its goal acquisition, that it is not like pure cold optimization isn't the game.\" Like if we could train AI to understand that that that's not the game. If we could build into it either a desire specifically for human flourishing or something, which yes, we would have to give definition to, and yes, it would be culturally bound, but nonetheless, that feels like a thing that you could give it. You could give it a set of metrics by which it needed to judge its actions in the short term, the medium term, and the long term. Um even something as stupid as like GDP or um and I get how you can get into over-optimization, but you could put things in place where subjective happiness index is like there are things that you could give it where it's like, \"Okay, I'm I'm not just trying to optimize to um build the best weapon system. I'm also doing that nested inside of I am a part of a larger ecosystem.\" And I say all that because my hypothesis is that's exactly what nature did with humans.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1813.0,
+    "end": 1883.5,
+    "text": "So, I think that it is a network with humans is because we are about the same level of capability, about the same level of intelligence. So, there is checks. If you start doing something unethical, your community can realize that and and punish you for it, control you in that way. If AI is so much more capable as we anticipate superintelligence to be, there is not much you can do in terms of impacting it or even detecting misbehavior. Also, all the standard human punishments, prisons, capital punishment, none of it is applicable to distributed immortal agents. So, kind of a standard infrastructure does not work with artificial more capable agents. As far as uh setting up specific metrics for delivering happiness or financial gain, all those can be played. The moment you give me a specific measure, I'll find a way to game it to where you will get anything but what you expected to get. Ooh, well, just to remind everybody the time frame we're talking about is somewhere between 2 and 5 years. This is not exactly a long time.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1881.4,
+    "end": 1966.0,
+    "text": "Uh okay, it's wild. It is progressing very quickly. What is the thing like what has happened recently, if anything, that's made you go, \"Ooh, this is going faster than I thought.\" Seeing on social media scientists from physics, economics, mathematics, pretty much all the interesting domains post something like, \"I used this latest tool and it solved the problem I was working on for a long time.\" That's mind-blowing. There is novel, creative outputs from those systems which a top scholar is now benefiting from. It's no longer operating at the level of middle schooler or even high schooler. We're talking about full professor level. Do you think that that's happening because it's building an internal model of physical reality and that it's getting closer and closer to just thinking up from physics? I don't know if it's that low level where it has like a model at the level of atoms and molecules, but it definitely has a world model. That's the only way to give answers about the world we see it provide. A lot of times, there is not an example of the answer we see in the data already. It's not just repeating something it read on the internet. It's generating completely novel answers in novel domains and you can try and get it to do exactly that by creating novel scenarios.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 1963.6,
+    "end": 2049.1,
+    "text": "Hmm. Okay, so there's two ways that I could see it doing that and maybe they're the same, just different levels of analysis. One would be that I I the AI am mapping everything based on patterns. So, to the point of an LLM is trying to guess the next letter and it's guessing it. It's just it's taken in so much data um and you can give it sort of filter parameters. So, you give it context by asking it a question and it goes, \"Okay, within the bubble of this context.\" And it's very good at scooping up what that specific set of context would be. Okay, now in this subset of my data related to that question, here's the most likely next next token. So, just pure pattern recognition. Then there is I understand the cause and effect of the universe at the lowest level and therefore I build up to how does the human mind work and then from the human mind I'm able to cause an effect my way within this context of what a human mind would output. And that's how I come up with what a human within that context is likely to write. And so if I'm asking it to write in the style of Stephen King, it literally builds a model from physics of Stephen King's mind knowing what it knows about electrical impulses traveling through the brain and sort of inferring from the way that he outputs how his brain must be structured. Do you have a sense of are those the same thing?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2047.0,
+    "end": 2155.0,
+    "text": "If one is more likely than the other or are we here at just pure pattern recognition, but ultimately we're going to get to cause and effect and thinking up from physics? So, I don't think anyone knows for sure exactly how models do that and how detailed the models of the world, maps of the world they create are. Uh it seems definitely not the case that it's a pure statistical prediction of characters. Like in English, after T you have H with certain probability. It's well beyond that. It's also unlikely that it's creating a full physics model where from the level of atoms and up the chain it figures out what human beings uh but somewhere in the middle it creates a model of sub-domain of a problem. So, it has a model of the world. This is a map of a world. I know Australia is somewhere here down into the right or something like that. And I think we can run tests on those specific sub-domains to see what are the states of that internal model. Kind of show us by drawing a map how close are you getting. It doesn't memorize any information explicitly, but you can extract some of the learned patterns out of it by providing just the right prompts. Stay with me because what I'm about to tell you affects every single person listening right now. There is a billion-dollar industry profiting off of your personal data and you're the only one that isn't getting paid. Data brokers are legally harvesting your information, your home address, your email, your phone number, even your social security number, and flipping it for cash. Scammers use it to steal identities, criminals use it to commit fraud, stalkers even use it to find victims. That's where Incogni comes in.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2152.4,
+    "end": 2244.9,
+    "text": "Incogni finds where your data is exposed across hundreds of data broker sites and removes it automatically. You give them permission, they go to work. No phone calls, no forms, no stress, just real results. So, if you're serious about privacy, take action right now. Go to incogni.com/impact and use code impact to get 60% off your annual plan, risk-free for 30 days. And now, let's get back to the show. I don't want to rob from you the very reason that I think you do all of your work, which is this is extremely dangerous and we need to be very careful. And I saw what you tweeted recently where you're trying to get signatures. So, shout out anybody that's worried about superintelligence. Um you are pushing to get people to sign a thing that basically says, \"Hey, stop pursuing superintelligence.\" Um so I don't want to take that away from you, but I do want to explore the subset of because I am very excited about AI because I can imagine the things that it either allows me to do or does for me and I get to enjoy. And for a second, um imagine with me, what does the world look like when you have a superintelligence that understands physics, like novel physics. Not I'm repeating back what Einstein said, but I actually understand the fundamental building blocks of the universe.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2243.6,
+    "end": 2334.2,
+    "text": "Um what does that look like? Yeah, so in all those domains, medicine, biology, physics, if we got superintelligent level capability and we're controlling it, it's friendly, it's not using it to make tools to kill us, the progress would be incredible. Basically, anything you ever dreamed about, you're immortal, you're always young, healthy, wealthy, like all those things can be achieved with that level of technology. The hard problem is how do we control it? Leaning into that for a second. So, here's how I see the world playing out and I'd be very interested to see what you think about this. So, you have to for what I'm about to say to make any sense, I'll say it your option is what I'll call the fifth option. We're we're all dead. Other than we're all dead, there are four other options that I see us racing towards very rapidly and I will say these four will play out in the next 30 years would be my guess. Probably much faster given that once you get artificial superintelligence, assuming it doesn't choose option five and kill us all, that progress in these domains would be made very fast. Option number one is people go to Mars because meaning and purpose will become the all-consuming thing. You won't have to worry about food, shelter, not even wealth. It'll just be an age of because energy costs go to zero, labor costs go to zero and those are the things that stop things from being free and readily available to everybody.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2332.6,
+    "end": 2411.8,
+    "text": "Okay, so some people are going to go to Mars or other planets uh so that life gets more difficult again. Then, some people are going to um be what I call the new Amish and they're going to say, \"I only do human things. I only interact with humans and I'm going back to technology that's like let's say the '90s.\" And so, they don't have to give up too many of life's technological wonderments, but at the same time they're not getting sucked into this world where people have relationships with NPCs and it's just very unhuman. I think this will be a largely religious phenomenon. Then, meaning God does not want us to do this. AI is an abomination of God. It will sound something like that. Then, you've got a brave new world where people are just drugged out. They realize, \"Life is meaningless. This is really about manipulating my neurochemistry. That's all this ever was, anyway. I'm just going to go do a bunch of drugs, have a whole bunch of sex. It's going to be awesome.\" Then, there's the fourth option, which is certainly the one that interests me the most. Uh we will create and or live inside of AI-created virtual worlds. And we will essentially live video games.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2410.2,
+    "end": 2481.2,
+    "text": "The Matrix, if you will, but you're awake in the Matrix. You are Neo, you are not Cypher, for people familiar with the movie. Um what do you think? Are there any options other than those five, granting that kill us all may be an option, but hopefully not? Do you see something other than those four? Uh yeah, there is a few others. So, one is, and I think we're starting to see some of it, is that people think superintelligence is God. They start worshipping it. It's all-knowing, all-powerful, immortal. It has all the properties of of God in traditional religions. Another option, and it's kind of worse than real death, is suffering risks. For whatever reason, maybe malevolent actors, maybe something we cannot fully comprehend, it decides to keep us around, keep us alive, but world is hell. It's pure torture. And so, you kind of wish for existential problems. That would be a pretty rough place to be. Um okay. What uh when you look out at those, which of the options do you find the most interesting?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2479.2,
+    "end": 2578.5,
+    "text": "So, I did publish a paper on personal virtual universes, kind of solution to the alignment problem, where I don't have to negotiate with 8 billion other people about what is good. Everyone gets a personal virtual world, supported by superintelligence as a substrate, and then you decide what happens in it. You can make it very easy and fun. You can make it challenging and exciting. You decide, and you can always change, you can always visit other people's virtual worlds if they let you. So, basically, there is no um anything which is no longer accessible to you. There is no shortage on waterfront properties, there is no shortage on beautiful people. All of that can be simulated. When you start thinking about the simulation, I know one thing that you've done exploration on is um the simulation hypothesis. Are we in a simulation right now? Um what are your thoughts on that? It seems very likely. Uh again, using the same arguments, if we create advanced AI, maybe with conscious capabilities like humans are. If we figure out how to make believable virtual realities, adding those two technologies together basically guarantees that people will run a lot of games or simulations or experiments with agents just like me and you, conscious agents, populating virtual worlds. And statistically, the number of such simulated worlds will greatly exceed the one and only physical world. So, if there is no difference between a simulated you and real, then statistically, you're more likely to be in one of those simulated worlds.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2577.2,
+    "end": 2652.2,
+    "text": "Okay. Uh that makes a lot of sense. Now, given the likelihood that we will we're obviously showing that we will pursue artificial superintelligence. Uh if I take your same logic from the fact that we're likely to be in a simulation, because we know we would make a simulation, because we're doing it right now, uh and therefore, you get into the point where you would just make billions of those. And so, if you have a one in a billion chance of being inside of a simulation, you're effectively guaranteed to be in one now, because there would just be so many of these things running. Um doesn't it also then make sense that the Matrix was effectively a documentary, and we are inside of a simulation created by artificial superintelligence designed to mollify us, um if we ever had a physical body in the first place? So, it's hard to tell from inside of a simulation what it is all about. You really need access to outside. It could be entertainment, it could be testing, it could be some sort of scientific research. If we look at the time we actually find ourselves in, we are about to create new worlds, virtual realities. We are about to create new intelligence species, AI.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2651.2,
+    "end": 2734.2,
+    "text": "There is a lot of kind of meta-inventions we are right about to make. And so, if someone was interested in studying how civilizations go through that stage, how do they control these technologies or fail to control them, that's the most interesting time to run. You're not going to run Dark Ages, where there is not as much happening. It's less interesting, but this seems to be like a meta-interesting state to be in. It's hard to tell, cuz we're inside the simulation, but you're saying it's a little bit suspect that we're living in the most interesting time ever. Yes, and I think it's interesting, not just because I'm living in it, but objectively, it's a time of meta-invention. You can go back through history and say, \"Oh, here they invented fire. Here they invented the wheel.\" That's all great, but those are just inventions, they are not meta-inventions. Whereas now, we're doing something godlike. We are creating new worlds. We are creating new beings. And that's something we have never done before. Mhm. Do you ever think like a sci-fi writer? So, I think the difference between science fiction and science used to be maybe 200 years. They wrote about travel to the moon, they wrote about kind of internet and computers, and it took hundreds of years to get there. And then it was like, I don't know, 20 years. And now, I think science fiction and science are like a year away.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2731.8,
+    "end": 2842.3,
+    "text": "The moment somebody writes something, it already exists, and there is really no new science fiction ideas, where it's like completely novel technology not previously described, or someone already working on it, if physics allows it. That's really interesting. Uh especially when you think about writing now for true science fiction, in terms of what will become possible in the future, is effectively impossible, because you're talking about superintelligence. And good luck, as a person locked in your not superintelligence to actually describe that. The reason that I asked, though, is um when I start thinking about things like that, like why would we run this simulation? What clues are in like, if this is a simulation, what clues are in it? Uh so, for instance, um the whole Christian idea, for sure, and there might be more religions that have the same idea, but that man is made in God's image. Okay, well, if God is the 13-year-old running the simulation, or Sarah Connor, or I guess John Connor, running the simulation, trying to figure out why we created Skynet and what we can do to nudge it off course, um you know, you think of them as sort of moving from radioactive rubble to radioactive rubble, trying to like find an answer to this, and spinning up a simulation to get that answer. Um that to me becomes very intriguing in terms of hypothesizing as to why this moment, why are we the way that we are, what can we learn about the people trying to simulate us? When I ask questions like that of engineers such as yourself, there's almost uh I don't have time to think like a sci-fi writer vibe. Um is it just that your you don't find that interesting, you don't find it revelatory?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2840.4,
+    "end": 2909.2,
+    "text": "Um why do you eschew that? Cuz in interviews, I've seen people ask you time and time again, like, \"How would AI kill us?\" And the answer is always some variant of, \"Listen, uh you're asking me how I would kill us, which is not interesting, because a superintelligence is going to\" But I find that's the cathartic thing that people want. Like, they want to like, when you have a wound, you kind of want to poke at it. Like, they want to get a sense of what would this really look like? And so, even though it's not literally true, it's deeply cathartic to explore the known possibility set, or what humans can know. And this is exactly why I refuse to answer. I want to make sure what I tell them is true. I don't want to lie to them. If squirrels were trying to figure out what humans can do to them, and one of the squirrels was saying, \"Well, they'll throw nuts at us or something like that.\" It would be meaningless BS story. There is no benefit in it. The whole point I'm trying to make is that you cannot predict what a smarter agent will do. You cannot comprehend the reasons for why it's doing it. And that's where the danger comes from. We cannot anticipate it, we cannot prepare for it.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2907.2,
+    "end": 2985.2,
+    "text": "I do think the singularity point is where science fiction and science become the same. The moment something is conceived, we have superintelligence systems capable of developing it and producing it immediately. It's no longer 200 years away, it's reality. And you can't see beyond that event horizon. You cannot predict what's going to happen afterwards. And with science fiction, you cannot write meaningful, believable science fiction with a superintelligent character in it, because you are not. All right, let's ground things then in what we can predict and we can know right now. Something that's on everybody's mind, and I've been talking about this in my own content, is the labor market seems to be softening. You've got places like Amazon that are just cutting jobs like crazy. Um and just saying outright, this is largely because of optimizations that we're able to make because of AI. How does this transition play out? Like, even if you concede that uh a non-destructive AI would give us um essentially an age of abundance, we're still going to go through a transition period where our jobs go away, etc., etc. What are the What are the steps that you see happening in the labor market?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 2982.7,
+    "end": 3061.7,
+    "text": "So, as we have more and more increased percentage of populace unemployed, hopefully there's going to be enough common sense from our governments to prevent revolutions and wars to provide for the people who lost their jobs and probably cannot be retrained for any new jobs. So, once you hit 20, 30, 40% unemployment, that's where it's really going to kick in. The only source of wealth at that point is the large corporations making robots, making AI, deploying them, all the trillion-dollar club members essentially at this point. You need to tax them and use those funds to support the unemployed. That's the only way to really make sure the financial part of that problem is taken care of. What remains is the meaning. What do you do with all this free time and millions of people who have it? Traditional ways of spending your time to relax, you go for a hike in a park. Well, there's a million people in that park right now hiking. That kind of changes how peaceful it is and how relaxing. So, we need to accommodate not just change in financial reality, but also change in free time and capabilities of supporting that many people with that much free time.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3059.7,
+    "end": 3170.5,
+    "text": "I have as much pessimism around our ability to do that well as you have our likelihood of surviving. So, I'll say 99.99% chance that the government completely messes that up. Uh I think the transitionary period will be violent. Um when you look out at this, knowing what you know about humans and governments, what What odds do you give it that that's a smooth transition? It's very likely to continue to be as it historically always been. We had many revolutions, many wars, a lot of violence. That's why we hear stories about people who can't afford it building bunkers, securing resources because they anticipate certain degree of unrest, absolutely. Mhm. What degree of unrest do you anticipate? It really depends on a percentage of population which quickly gets unemployed. If it's a gradual process, we can kind of learn and adapt and provide safety net. If over a course of weeks, months, we're losing 10, 20, 30% of jobs, that's a very different situation. Mhm. I can't imagine a scenario where jobs will be lost that quickly. To your point, we've already created, you said billions or even trillions of dollars of value in the technology, but it hasn't been deployed yet. Uh an example you often use is the video phone invented in the '70s, but not really adopted uh largely because of infrastructure, I would say, until the whatever 2011 uh where that starts to really gain in popularity. So, I have a feeling like just the deploying of all this stuff uh is going to take time. So, in a world where an unimaginable amount of people, which I'll clock at in the US, call it six or seven million people lose their jobs in the next five years.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3167.2,
+    "end": 3243.4,
+    "text": "Um that I would consider fast and just horrifyingly destructive. One, does that feel plausible to you in terms of numbers and timeline? And two, in that scenario, um how distressing do you think that transition will be? It seems very likely. So, let's take self-driving cars. I think we are very close to having full self-driving without supervision. The moment that happens, you have no reason to hire a commercial driver, right? All the truck drivers, all the Ubers, all of that gets automated as quickly as they can produce those systems and I think Tesla is ready to scale production of their cars to exactly that scenario. So, what is it? 6 million drivers in the country? I don't know the actual numbers, but that would be exactly what you're describing and it's very unlikely that they can be quickly retrained for something which is also not going away. Okay, so in that scenario, what do you want to see happen other than heard on the Tesla as one example will be hoovering up value, so we're going to tax the life out of them, we're going to redistribute that to other people. Um but what do you want to see from a regulatory perspective? Would you like to see the government stop that from happening where they say, \"I don't care that the technology exists, you can't do it.\"?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3241.3,
+    "end": 3350.7,
+    "text": "So, my biggest concern is of course superintelligence and existential risks. That's where I'm putting all my effort in. Regulating employment in specific industries is not something I'm too concerned about. I think it will happen no matter what. I think you cannot make it illegal to have efficient factories, efficient delivery systems, logistics. It's just commercially too important. And it may be a good thing for economy. Again, with driving specifically, I think something like 100,000 people die in car accidents every year. If we can get that number to zero or close to that, that's a huge improvement for everyone. So, that specific scenario, as long as no one's starving as a result of that, I think it's a good thing for humanity. We can readjust economic deployment and at least that part of it is not a big concern for me. Okay, and when you map out how we go through that transition well, it sounds like you're just trying to make sure that wealth doesn't accumulate into the hands of too few, that we keep it distributed so we can keep using the same system that we're using now. Um when I look into the future, that strikes me as um the least likely scenario to play out. I think that AI is going to so radically alter the cost of labor and energy that that becomes nonsensical. Do you want to see any group rise up in the way that you and other AI safety people have risen up, that will rise up and start giving either policy prescriptions or least philosophical approaches to how we migrate to an age of abundance where um food is effectively free, um labor in your house is effectively free?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3349.0,
+    "end": 3465.7,
+    "text": "So, people talk about those things. Unconditional basic income is one, unconditional basic assets is another. Basically, just because you're a real human, you deserve certain things. And historically, all these communist ideas were complete nonsense and caused a lot of harm. But if you tax uh tax in AI and robots, all of a sudden it becomes workable. I'm not against accumulation of wealth at the top. If you invented something amazing and you started a company, you should have a lot of money. But there is so much wealth that we can provide for everyone as you said, complete abundance of basic needs. Some people say maybe not just basic, but above average set of needs. I think Elon is known for suggesting that's going to be the case. The ideas exist. Uh now, will we pass this? Will governments actually adopt it before it's too late? Is a different question. Mhm. Yeah, so on the existential side, I don't think there's any hope whatsoever that you get people to pump the brakes. I think you're far more likely to get people to pump the brakes on uh no, you can't have self-driving cars or they'll try to regulate that to death, they'll tie it up in litigation, whatever, and that'll slow it down. Um we couldn't stop nuclear weapons from proliferating because uh and I don't know who came up with this, but this seems very true to me, uh that effectively game theory says any technology that promises an advantage will in fact be developed because if you don't, somebody else is going to. Um at a minimum, you've got the US versus China of it all where you I mean, regulators are saying this right now. We can't stop because if we do, China will plow forward, which by the way, I'm very firmly in that camp. Um what do you think about that? Do you think that game theory is inevitable or do you see a mechanism by which we can convince people that they have to slow down?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3463.2,
+    "end": 3591.2,
+    "text": "I agree with game theoretic approaches, but I see the exact opposite argument. I see that arguing against self-driving cars is a hard argument. What are you trying to preserve? We're going to have safer drivers, cheaper drivers, helps logistics, helps economy. It's a pure benefit. Whereas, uncontrolled superintelligence kills everyone. It's a very hard one to sell. If you are a leader in that field, you are rich, successful, you are generating something which will destroy you personally. So, to me, that's a much easier argument to sell. The moment we understand dangers of superintelligence and benefits of narrow self-driving AI, it's an easy game theoretic sell for me. Yeah, the problem is you're stuck inside of a simulation of the hyperintelligent. And um I mourn for you looking back at the rest of us stuck in normal land uh because I don't think so, as I got into learning about the economy and trying to explain it to people, I realized that even though I can walk you through the cause and effect of why socialism doesn't work, that it feels right, it sounds good, and so people keep doing it. And even in a moment right now where the very thing that is creating everyone, like literally everyone's problems, is money printing, um people are going to vote for policies that dramatically increase the amount of money that we print. And so, I have developed a level of hopelessness around being able to convince people because the economy is too complicated for people either some of them just don't have the intellect to understand it, and then let's say they have the intellect, but they don't have the time or the inclination. And so, uh forgive me for painting you with my brush of despair, but when I looked at your um sign-up, there was like less than 20,000 signatures. So, less than 20,000 people are worried about the death of everyone.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3588.5,
+    "end": 3672.8,
+    "text": "So, it's like that's that's big. But, I think that because I can whip people into an emotional frenzy by saying by allowing there to be autonomous driving, you're just making that evil bastard Elon richer, and you're robbing these people of dignity. If you That is not my argument. I want to be abundantly clear. But, when I look at If I had a gun to my head and I had to convince people of one of two things, rich people are evil and trying to exploit poor people who are far morally superior, or hey, this abstract thing that you don't really understand is going to kill us all, there's no way I take the they're going to kill us all bet. I'm going to be over here emotional, you get it. I'm going to bang tables and yell and say words really loudly and point to evil rich people. Guaranteed, I can get people excited about that. Uh luckily, we don't have a democracy on this issue. We don't have to convince majority of human population. We have to literally convince the 20,000 elites who control those companies, who are also super smart and understand dangers of safety. It's literally people who publish on it, who have spoken. They have very high P(doom). We know Elon is like 20-30% Sam Altman is on record as being very concerned about it destroying humanity.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3670.5,
+    "end": 3735.7,
+    "text": "So, we're trying to convince people who already believe the arguments to kind of slow down and preserve their elite status. That should be an easy sell. I'm not trying to convince a random farmer to stop developing superintelligence. So, why do you think that Elon, who was banging the drum harder than anybody, lobbying Congress, desperately trying to get them to slow down, suddenly hit a point where he was like, well, I guess I'll just build it faster than anybody else. He likened AI to a demon summoning circle, and laughed at everybody who thought, yeah, yeah, yeah, I'll summon a demon and then I'll be able to control it. All is going to be well. Like, he sees the problem clearly. But, after years of trying to slow this down, he finally completely abandoned that and went to I'll just build it faster than anybody else. What happened there, and why do you think you can reverse it? So, I think he realized he's not succeeding at his initial approach of convincing them not to do it.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3733.6,
+    "end": 3844.0,
+    "text": "And so, the second step in that plan would be to become the leader in the field and convince them from position of leadership and control of the more advanced technology. If the leader says, you know, we're going to slow down and it's fine for you to slow down, it's easier to negotiate a deal with, let's say, top seven companies than if you are not even part of the game, you have no AI, you are a nobody in that space. So, all of them as a group benefit more if they agree to slow down or stop than if they just arms race and the first one to get there gets everyone destroyed. He says words along those lines, or did for a while. I think he even signed one of the letters about we should pump the brakes. Uh but, none of his actions indicate that that's actually what he plans to do. Um from just trying to take advantage of every company that he's building, from the amount of data that Tesla cars capture visually, to all the decisions that drivers are currently making, to all of the decisions that the AI will make, to now he's talking about using the cars as a distributed fleet, so that when they're idle, that they're actually running inference models, and so using it as a gigantic AI brain, to well, maybe that won't work, so I'm going to do Neuralink, and I'm going to jack into uh the AI myself, and I'm going to make myself smarter, and hey, if all of that fails, don't worry, I'm going to get us to Mars, so if we destroy planet Earth or the AI takes over, like, we're going to be over there. Like, this is a guy that's really covering his bases. He is not somebody who's acting like he expects us to slow down. To me, he is acting like somebody who crossed that bridge a long time ago, and it's just like, yep, that's not going to work.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3842.3,
+    "end": 3955.9,
+    "text": "People are not going to be convinced, and so we've got to build a whole bunch of other strategies. Some are lifeboats, and some are just all outsmart the AI myself by merging with technology. It is very disappointing to see this level of progress in AI from anyone who is capable of doing it. It's definitely not a good strategy for humanity as a whole. It generates this mutually assured destruction. It doesn't matter who creates uncontrolled superintelligence. It could be OpenAI, could be Elon, could be Chinese. It makes absolutely no difference if it's uncontrolled. All right, talk to me about that. So, this was um uh for a long time, I was really banging the drum of, well, whoever gets to artificial superintelligence first is going to win. You were the first person that really hit me with the uh it won't be theirs the second it becomes superintelligent. Um walk people through the truth of that statement. All right. So, people talk about short-term advantage, for example, military advantage. Whoever has the best drones right now, the best AI navigation has military supremacy. So, China, Russia, US all competing in that domain, trying to have that so they have better military for other reasons. The moment you switch from those AI assistive tools to agents, to superintelligence, which is smarter, more capable, in the absence of control mechanisms, you just have a separate entity, an AI which has nothing to do with you, your country, your company. It makes its own decisions, and it doesn't matter who birthed it. At the end of the day, none of us control it, none of us can claim it as doing our bidding. So, if it decides to wipe us out, it's not going to go, oh, I like this group of people, I don't like this group. We look the same to it, exactly.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 3954.9,
+    "end": 4022.9,
+    "text": "I don't think it's going to make a difference where you were at the time someone else created superintelligence. Okay, if you're right about that, and it is a distressingly compelling argument, if you're right about that, there was a guy, I'm sure you've heard of him, Ted Kaczynski, the Unabomber. He looked at the university system, and he said, mm, you guys are getting rid of all of the sweet spot problems, and humans are designed to find these things that are just challenging enough, and when they solve them, it feels very good, and if we solve all of that, we're basically going to rob humans of meaning and purpose. Most problems will either be way too hard or way too easy, and so I am, Ted Kaczynski, going to bomb university professors, kill them, and try to stunt the growth of the academy. Now, if you are right, and as we race towards artificial superintelligence, it runs the risk of P(doom) of 99.99%, do we have a moral obligation when a certain line is crossed to um bomb data centers?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4020.8,
+    "end": 4109.3,
+    "text": "So, that's a very difficult question, and part of it is again example you brought up with Ted Kaczynski. He tried that approach, and it failed miserably, right? He didn't succeed in slowing down technology at all. So, clearly, it doesn't work. We saw examples of, for example, a CEO of a top company being replaced, even if temporarily. It made no difference. Someone else comes along, they continue the same scalability research. So, taking out an individual person or individual data center makes no difference if you zoom out and see the overall pattern of what we are doing. Maybe it will take an extra month or so, but exactly the same thing will continue being developed. The idea it's already out there. You cannot put it back in a box, and so I'm strongly against all those uh methods. Okay, well, the really bad news is I think you just put a nail in your own coffin uh being able to convince people to do this. It looks like this, and hopefully you can prove me I'm wrong, but um you have said, hey, here's why everybody is so silly that thinks that they're ever going to make this safe. You would have to build a perpetual safety machine, and that perpetual safety machine can't ever miss, because the one second it creates even a slight vulnerability for this artificial superintelligence that can think at the speed of light, it will escape, and it will do its own thing.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4106.4,
+    "end": 4172.2,
+    "text": "Um what you're proposing is a perpetual demotivation machine for the 20,000 people capable of doing this, but every day there's going to be a new kid that's bright enough to do this, and you can't miss one of them. So, how on Earth do you expect to perpetually demotivate the 20,000 people that are capable of continuing to push this thing forward, when as of right now, uh a very small number of those people seem demotivated? I don't. That's why my P(doom) is 99.9999. I exactly think it's not going to happen. I'm doing everything I can, but uh I think the best we can achieve is to buy us some time. Okay, so, uh let me ask the really naked question. Do you believe humans are automata, or do you believe that we actually have free will? So, there is good research by Stephen Wolfram on cellular automata. And uh there is a bit of a hybrid answer here.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4169.6,
+    "end": 4249.2,
+    "text": "Just because a system is fully following rules, fully deterministic, it doesn't mean that you can predict future states of that system. You still have to run it to find out what it does. And I think we are kind of like that. So, yes, you're following laws of physics. If we fully understood every molecule, every atom in your body, we would be able to trace it and know exactly what you're going to do. But the only way to do it is to live your life and run that algorithm to completion. No one can short circuit it and predict what you're going to do in the future, which would be violation of your free will. Okay, you've argued against that. So, there's two pieces of things that you've said that I think make that untrue. Piece number one, we're probably in a simulation. Piece number two, uh we can speed up that simulation. So, I could, since you're deterministic, go, uh I'm just going to play this out at a 1,000 X. So, I get an answer to what you're going to do for the next 50 years in like the blink of an eye, and now I know. Also, I don't find any freedom in I'm deterministic. I don't know what I'm going to do next, but I'm still deterministic. I don't I don't know that it buys us anything, and I'll explain why I'm bringing all this up in a second. I don't think it buys us anything if we are completely deterministic, just unknowable.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4246.1,
+    "end": 4315.6,
+    "text": "Um the reason that I think that this matters, and that I'm bringing it up now, is I don't I think I think we are automata. I think we are entirely deterministic. I don't live my life like that. It's not an interesting frame from which to live my life. So, no one's ever going to hear me talk about, you know, my depression based on that, cuz I just don't even think about it. It's not that isn't how it feels. So, even if it's true, thankfully, it doesn't feel like that. But, when we come to moments like this, I'm so fatalistic because I don't think the way the human mind works is compatible with slowing down. So, it's not compatible >> bring up, where you run the simulation at a faster speed. That's you leaving out our lives. Internally, from inside the simulation, it doesn't seem any faster. We're just going on as before. So, we're still playing out fully what we're going to do step-by-step. There is no shortcut. If you now run it second time around, you know it's going to give you the same result. So, I don't know why you would run the same simulation multiple times. It doesn't give you any extra data.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4313.8,
+    "end": 4391.4,
+    "text": "Yeah, no, I wasn't If I said run it multiple times, my apologies. Um I was just saying that, given that you could get ahead of it from outside the simulation, it is of no emotional consequence to me that I don't know the next step. It is knowable. It is predetermined. It just isn't knowable by me. Uh and that doesn't So, I get no emotional alleviation from suffering if I were a person who was traumatized by the fact that I am an automata with no free will, which I am not. But, if I were, uh doesn't help me at all. Um and again, the reason I'm bringing that up is when I talk to you, I think, oh man, this is somebody He really can't stop himself. Like, you're wired to rail against this, to play the role in the grand balancing of the human species of like, hey, this is really a problem. We should slow down. And even though it's not getting you anywhere from where I can see, you're going to keep doing it, cuz you have like a moral compunction or something where you're like, I as the kind of person I am, I simply cannot exist and not try everything I can to stop this.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4389.4,
+    "end": 4460.2,
+    "text": "Uh which I relate to, because I am the same. Economically, I've become obsessed. I am really, really desperate to get people to understand that we are marching ourselves off a cliff. And even though when I articulate it to people, I'm like, this is never going to stop. We are going to march off the cliff. I can't stop myself. I still feel like this moral compunction to scream from the rooftops that we are making this mistake. And I've already won the game. Like, I'm already rich. So, barring like an inability to flee, I'm not going to get caught up in it. Uh but nonetheless, for whatever weird roll of the dice, I can't stop myself. Like, once I saw the problem, I'm like, uh I just have to keep yelling about it. Um but I do I do feel a a simultaneous futility and inability to stop. I would love to claim pure altruistic motives in trying to save humanity, but I am within the simulation with you. So, it's pure of self-interest. I don't want them creating technology which will kill me, my family, my friends, my life, everything I know. So, I'm going to talk about it for very selfish reasons. Yeah.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4459.2,
+    "end": 4527.1,
+    "text": "Yeah. It's so interesting, man. So, uh how do you get through the day? Like, what what is your coping mechanism? I enjoy research. I want to understand what are the exact limits on control. When I started, I thought it is a solvable problem. Now, I'm a lot more skeptical, obviously, but uh I still feel there is a lot we can do to make even narrower AI tools we're creating safer. There is never 100% safety guaranteed, but if I can increase safety hundredfold, that is something. And again, public outreach, if there is enough people who all agree as a scientific community, as a consensus, that no, you cannot ever create safe superintelligence, maybe it makes a difference. Maybe we'll delay it by a decade. That's something. Okay, so we've got one piece of how we make it safer on the table, keep it narrow. What are some of the other things that you would consider a big win? So, there are quite a few properties of control we want to be able to have. I call them tools of control.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4524.1,
+    "end": 4631.5,
+    "text": "So, our ability to test those systems, explain how they work, predict their behaviors, monitor them. All that is still in a state of investigation. We're starting to see some upper limits on what's possible, especially with advanced systems, but there is still so much room for improvement. Explainability, for example, we started with being able to understand maybe a single neuron. Now, we're up to small clusters. Okay, when this input is presented, this lights up. Kind of like neuroscience. We don't fully understand human brain, but we know this is vision area, this is hearing, and so on. So, there is a lot of room for progress in that. I don't think we'll ever fully comprehend the complex superintelligent neural network model, but we can do better than what we have right now. And so, I think as a safety researcher, that's what I'm doing. That's my job. Okay, so basically, the model is uh we need to come to understand it better. We're never going to get totally there, but we need to understand it better. Uh keep checks and balances on it. So, when we find a problem, what's the action you take? Is it to apply an evolutionary force uh on it, a selective force, or kill it off? Like, what's the move at that point? So, it depends on the problem. Depends on specifics. Some things we we know how to address. So, trivially, when we started with language models, if it says the wrong word, you can filter it out, you can punish it for using that word. So, there are simple things we know how to do. The hard problem is, how do you change overall internal states of a model? Not just the filtered output, but how do you make it so the model itself has certain preferences and aligns with certain values.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4629.5,
+    "end": 4698.2,
+    "text": "Do we have a guess on that? Not a very good one. Not really. So, nobody at this point knows how to align systems other than this after the fact putting lipstick on a pig, filtering it, censoring it. Uh yeah, that's unfortunately the state of the art. Okay, and what parallels are being drawn between the evolutionary the evolution of species and the evolution of algorithms? So, there was a lot of attempts to evolve intelligent software. We started with genetic algorithms, genetic programming was tried, uh simply evolving agents, evolving environments. It doesn't seem to be a dominated a dominating algorithm in comparison to what is typically used for training neural networks, but there is this possibility. The problem is that evolution is even less controllable in terms of explicit engineering design. We kind of setting it up and see what evolves, and then trying to test it, to monitor, to understand what happened. So, while it is a set of tools we have, it's probably not leading to safer systems.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4695.0,
+    "end": 4779.7,
+    "text": "Hmm. Okay. Interesting. Uh because we cannot control the outcome. So, we don't know what stimulus we're going to have to give it. Why does that That strikes me as so unsatisfying. Okay, why did it work so well in humans, and it works so poorly in artificial superintelligence? I disagree that it worked well in humans. Humans basically uh as well-behaved as they can get away with. You're just not powerful enough to really do the things you want. If you had absolute freedom from punishment, you'd do horrible things. But then, that's what nature is giving you the answer. Nature is saying these have to be in balance. They have to be competing systems. And without ecosystems, without competition, you'll get these things that run amok. But, I don't see anybody taking that lesson and applying it to AI. Yeah, applying it to AI would mean creating a society of superintelligences competing with each other and humanity as collateral damage. Is that why they're not doing it? I get that's why you would hate it, but is that why they're not doing it? That seems unlikely. There is also continuation of self-improvement process. Super intelligence is not a fixed point. There is super intelligence which creates the next level super intelligence 2.0, 3.0, and they all have the same control and alignment problem.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4777.3,
+    "end": 4840.5,
+    "text": "They all worried about the next level of AI not wanting the same things, not caring about them personally. So, this is an ongoing self-improvement curve, and there is no upper limit we can see. There are these physical limits to what can be done in a physical universe, but it's so far away from us that it's almost infinity from our point of view. Mhm. When I look at humans, and when I I I may be making a um either a category error or I may have a foundational base assumption that's leading me astray, but when I look at what made humans work on a long time scale is evolution itself had survival as like a North Star. So, you have to survive and replicate. Uh at whatever point way back, evolution decided I'm going to do this through sexual replication, and I'm going to make sure that this creature dies off. Uh I think there are reasons for that which we'll get to when we get to longevity.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4839.2,
+    "end": 4905.6,
+    "text": "Uh but I wanted to survive, but I wanted to survive by mating and having offspring that carry um certainly immune system uh blends so that it's less vulnerable to a single point of failure. And it realized, okay, if I'm going to do that, then this needs to be a species that both cooperates and competes, which means no one of them is the answer to the question of how to best survive. It's the whole um species. And when I look at even things like the left and the right politically, the way that I make sense of that is I say to myself, okay, I get from an evolutionary perspective, evolution had to be like, oh, hey, we have to cooperate. There's no refrigeration. So, I'm going to store calories on your body that I may need to take later versus uh being able to put in a refrigerator. And by that, I don't mean that I'm going to eat you. I mean, when I'm the one that's successfully hunting, I let you eat.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4902.8,
+    "end": 4977.0,
+    "text": "You're alive so that you can now hunt next time when I fail or I'm sick or whatever, and then you're going to bring me back, which means that some people are going to be very cooperative by nature. And so, their win state is cooperation. Uh to the point where a parent will easily lay its life down for its child. So, that is just baked into our um success criteria. So, evolution was able to bury something deep inside of us through its evolutionary selective pressures where we will lay our lives down, and we break into the right left. So, let me finish that. So, uh people on the left very compassionate, very pro I'm going to store a whole bunch calories on your body cuz it may come back to help me at some point. Uh the right is very much, well, a parasite develops when you do that. And so, you get the free loader problem. And so, now if you've got people that will just take care, take care, take care, there are people that are like, cool, I'll just be taken care of, and I'm never going to go hunt, and I'm never going to contribute to the group. And so, you need people that have the opposite impulse who are like, hey, you're going to pull your weight or you're going to be ostracized or killed.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 4974.3,
+    "end": 5061.3,
+    "text": "And so, now in the dynamic tension between the wants and desires of the win state defined by people with a left-leaning personality versus the wants and desires of the win state defined by the people with a right-leaning personality, you get something that's it's dynamic tension. Like, balance may not even be the right way to think about it. It's dynamic tension. They're both pulling in their direction, but they keep each other in check because that's how we've evolved is to work together. That feels like it should be applicable to AI if we want to embed deeply in its motivational structure that we have to put it through that, and if I'm thinking from a safety perspective, I get why we want to short circuit that, and maybe that's not super efficient, but if that if the only way to get this to find a dynamic tension or some sort of balance is to have things that are of similar intellect and ability that are pulling in slightly different directions, but they need each other somehow to stay locked together so that it it is the AI taken as a whole that stops itself from ever going wrong in any one direction too far. I think it works for humans because we about equal power and we are mutually benefiting each other. There is certain symbiosis as you described.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5059.3,
+    "end": 5129.8,
+    "text": "In a world with super intelligence in it, you don't really have anything to contribute to super intelligence. So, when people propose creating hybrid systems, human and super intelligence together, I never understood what the human biological bottleneck is contributing. It's slow, it's inefficient, it's not competitive in any way. So, I'm questioning this setup. If you have super intelligences separate from humans, and now they decide what to do, they may still come up with something completely unfriendly and incompatible with human life. Maybe they want to lower temperature of a planet to improve processor speeds in server rooms. I have no idea what they decide, but the point is while they aligned with our values, we contributing nothing to their future states. Mhm. With humans, we also have examples where the moment you give more power to an individual human, they get corrupt. Basically, a guaranteed state. Very few people can exist corruption at very high levels. You have enough money, enough guaranteed tenure power, you become a very evil person as we see with many dictators and so on.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5127.7,
+    "end": 5196.0,
+    "text": "Even basic evolutionary drive like reproduction, you brought up this example. We use condoms. We literally hacked the only thing that nature set up us to do. Yeah. Yeah. Um all right, I'll state my hypothesis as plainly as I can. I think you just refuted it, but my hypothesis plainly stated is the only way to build checks and balances into AI is to give it evolutionary rewards and punishments all through its development cycle that make it care about the survival and emotional thriving of humans. But to define those terms in a way you're not going to regret is very, very difficult. So, survival of humans, what does that mean? We cryopreserved in some safe emotional states? Are you on drugs all the time? Is your brain modified to keep you on a always happy state? All those things can be gamed. The moment you tell me, this is what I want, and there is famous paper about making smiles for humans, make people smile.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5194.2,
+    "end": 5258.8,
+    "text": "There are a billion ways I can make you smile, but none of them is what you really want. Right. But do you really think a super intelligence would be so dumb as to confuse that intention? Like, wouldn't it be able to get to a rough approximation of what we're really going for? I mean, which is admittedly a neurochemical state, but if you derive, like if you said it is the following band of neurochemical states that must be derived through um their own programmatically directed actions. Like, I don't need it to believe that we're not automata. I think we clearly are, but it's like, you can't just manipulate it exogenously. It's got to come from within. No matter how detailed you make this specific description, a super intelligent lawyer will find a way to game it to make it more efficient to satisfy those requirements. Basically, you're setting it up to where the system is now in adversarial relationship with this equation.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5256.7,
+    "end": 5355.0,
+    "text": "Okay, you mentioned I have to use natural chemicals. Okay, I'll generate a super stimulus. Okay, whatever. Point is, if we could do this, if we could get AI to do what we meant, assuming we were smarter and understood the problem better, we would solve the control problem. That's the hard part. I don't think we can at our level of intelligence specify what a system with hypothetical IQ of millions of points should be doing at any possible decision-making point. All right, let me give you an exit ramp that I'll be curious to see if this shaves a 0.9 off your P-Doom or not. So, if I'm a super intelligent AI, one um form of manipulation that I would pull on humans would be uh to put them inside of a simulation. And whether that's a physical body and I help them jack in, and I just socially engineer them to want to do it, and then I get them in, and I really do just like in the Matrix, the machines build a world that's sort of optimally difficult where there is challenge, there's pushback, you're striving to get better, um going for balance. I don't expect any one person to avoid suffering and all that. Um and maybe that's where we are, and the machines are just cruel enough that they're like, haha, I'll let it be, you know, like a two-year-old can die of uh leukemia very painfully. That kind of thing where we don't cease to exist.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5350.8,
+    "end": 5434.7,
+    "text": "It's not even sort of broadly worse than where we're at already. That seems for superintelligence it certainly seems like that would be on the menu. A just shared hallucination. So, it is more likely I think that superintelligent agents think in such level of detail and realism that as a process of thinking about certain problems they generate within them agents, virtual worlds, simulations of a scenario. So, if maybe they're trying to think how can we safely generate superintelligent systems? What is the process? Well, let me think about humanity, all the AI labs, all the hardware they design. And this process of them thinking about it is the simulation we find ourselves in. That's so wild. Okay. Uh incredibly important, incredibly fascinating. But now let's talk about another very important thing that I think you have some pretty deep interest in which is longevity. Um so, one there are some people that will argue very compellingly that there is just a biological upper limit of somewhere around 120 years, that there's no escaping that. Um do you think that's true or do you think that we'll be able to engineer living tissue to live forever?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5432.3,
+    "end": 5509.2,
+    "text": "Well, the current body has that limit for sure, but we can modify our genome. There is nothing preventing us, no law of physics says you cannot make changes to it and we see examples where other systems, computers, cars, I can keep replacing parts indefinitely. It's going to function as the same computer. Maybe the monitor dies, I'll get a new monitor. So, if you can rejuvenate all the organs including your brain, then there is no reason to think you have to stop existing. There is of course other methods, you know, uploading, scanning your brain, cryopreservation for future technology, but even the basic idea of just modifying your genome. Okay, what do you think is the most likely path forward? Is it going to be genomic modification? Is it going to be I think so. I think there is somewhere in our code a limit on how many times cells rejuvenate. And we just need to increase that number without causing cancer. Now, do you think that the limit on that is simply a cancer prevention tool or do you think that there's another agenda that evolution had to make sure that we self-destruct?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5506.5,
+    "end": 5608.9,
+    "text": "There could be evolutionary reasons for taking out one generation and replacing it if resources are limited and you want to keep adopting and improving. You only have so many agents in the population at any given time. So, older ones have to die out. It's kind of theoretical conclusion, not guaranteed, but seems likely. From a point of view of evolution, you have the same organism, right? The same lineage of cells passes through. So, while as individual you die, your biological chain of existence continues. It's interesting. So, here's the way that I've always considered um like if I were to personify evolution uh instead of the blind watchmaker that it actually is. If I were going to personify evolution, it would go something like this. Okay. Uh the world is constantly changing, your access to resources is changing, who knows weather moves in cycles, everything, everything. Uh so, I'm going to have you born, I'm going to extend your brain development for a very long time. You're going to go through these phases where basically, okay, learn from your parents like whatever there is to learn just about generally being a human. Then you're going to push away from your parents and you're going to learn very And the reason you have to push away from your parents is their thinking will have calcified. So, you now need to push away from them, drink deeply of culture, the people roughly your age who have grown up in a different milieu than your parents grew up in. So, they all think differently. This is the whole idea of generations, cohorts that sort of think alike and have a similar frame of reference and all that. And you do that and this is really a brain development period known as the age of imprinting.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5605.9,
+    "end": 5717.8,
+    "text": "It's roughly 11 to 15. And so, now you're going to take the this moment specific like cues of, okay, is this in a time of abundance, a time of warfare, like what is it? You're going to solidify around that and then you're going to start optimizing like crazy. And you're going to start pruning all the excess connections. If you're not using it, you lose it, all of that. And then your brain's going to roughly wrap up its rapid development at 25, but it's been sort of a diminishing curve after 15. And now you're like baked and this is just a game of like learn what things work really well in your environment, optimize, optimize, optimize. And so now your thinking is going to calcify. So, very good strategy on behalf of our blind watchmaker, but just as I think it was Niels Bohr that said this, it was either him or Planck, I can never remember, science does not advance one insight at a time, it advances one funeral at a time because people just become convinced uh they've bet their whole reputation on something and so they're just not going to be convinced that they're wrong and so they don't adopt new ideas as they get older. And so, as evolution I'm like, yeah, I'm also going to put a self-destruct mechanism in here. Most of you are going to die long before this point, but if any of you psychopaths gets to about 125, you got to go. Uh that makes sense to me to make sure that we never stagnate, to make sure that as the saying goes, it is not the strongest of the species that survive nor the most intelligent, but rather the most adaptive to change. That the individual needs to be adaptive, but so does the species as a whole. And without at least with the current structure of the human mind, without killing us off, we we do not have that species level adaptation.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5714.5,
+    "end": 5797.0,
+    "text": "Um do you feel I'm missing something? I I think it would be easier and more efficient to simply make you still capable of learning and adapting as you get older. And also you wouldn't have to relearn everything for first 20 years including language and how to walk. We know that it's possible to encode those capabilities. Animals are born and immediately they can run, they can speak. So, all those things are doable. Why are we losing 20 years of information every generation? We can build on top of preexisting knowledge. Big data is good for intelligence. So, we can have smarter, more efficient reproduction cycle and you still die of natural causes. It wouldn't be complete stagnation, but if you're smart enough to survive for 400 years, why not? Well, my why not is uh entirely predicated on not having a clear understanding of how we would bake in the ability to adapt uh long into our old age because you're right, if we could stay in that novel period uh or at least move through cycles of extreme sort of remapping of the world, um maybe that would work and maybe we can identify where that is.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5795.4,
+    "end": 5879.3,
+    "text": "But when I think about the problems that humans create, like even now just having a political system run by geriatrics who are so out of touch with the way that certainly the economic world actually works for young people um is terrifying. And so, the only like um pressure relief valve that people have is well, eventually they're all going to die and then like we'll get to step into power and all of that. And there are also problems of power because the older you are, the more likely you are to have a stable network of very other powerful people and so you're able to to your point earlier about you need people of sort of equal power, equal intelligence, otherwise you get uh what I'll call parasites in the system. And so, older people would just become those parasites because they would have just had more years to accumulate useful knowledge, to accumulate connections. So, it just feels like, wow, there's a lot of stuff we would have to update. So, I want to live forever. I don't understand anybody that doesn't. However, I do worry that there's like a okay, cool, you can live forever, but you only get 120 years on Earth and then you have to go like somewhere else so that there's churn of some kind in the different ecosystems so that they don't just calcify.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5876.9,
+    "end": 5965.7,
+    "text": "I think if you do live forever or at least you expect to, you're less likely to reproduce at young age. You may take your first 400, 500 years to start a family. So, I think all this kind of expectation of 20-year generations and younger generations showing up will be modified as a result. We're already starting to see population dynamics change in Europe, Asia where we're not producing enough children to even maintain the population. It's interesting. The way that I think that will play out maybe even a little bit different than that because part of why I haven't had kids is I was like, I only get one youth where I can go hard, have a ton of energy, um I feel like I'm of the culture, so I'm far more likely to build something relevant than I am as I get older. Genius is a young man's game as they say. And so, I don't want to be distracted by something. Uh I also don't want it to pull at my marriage. So, I'm like, ah, I'm going to hold off for now. If I knew that I was going to live for 500 years, I might just be like, ah, whatever. Let's do it now because I'd rather see like it only takes me a 25, 30-year investment and then after that like I get to see what they do and I get to see all my my and all of that and I'm going to have plenty of time. You know, if my youth lasts for 250 years, it's like, yeah, word, whatever. I'll clock the 30 years now so that I can see how big my family gets.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 5963.4,
+    "end": 6041.1,
+    "text": "I think this is one where I want to think like a sci-fi writer. It gets so interesting so fast. It's not all this, but I think most people procrastinate on hard work, and so they would put it away as far as they could get away with. There There is some truth to that, to be sure. Um what's a a big breakthrough in longevity that you've seen that's got you really excited that this is all possible? There are some good experiments on animal models. Of course, they don't always scale up to human performance, but I think there is some 30-40% increase in lifespan of mice and other lab animals. It's hard to experiment on kind of bigger animals with longer lifespans. It takes a very long time to see results, but uh uh I think we're making good progress in understanding at least what might improve your health span and what uh changes we need to make to the genome. We study people who already have very long lifespans and find commonalities in their genomes. If those can be reproduced either pharmaceutically or through genetic manipulation, maybe we can all get same at least 120.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6039.3,
+    "end": 6135.4,
+    "text": "Have you heard of the Chinese doctor, I think he's Dr. Lou? Liu? Um he went to prison because he altered the genome of two twin girls, and he >> cloning. Yes. Uh so he just put out a post on X like a couple days ago that said with 10 edits to the human genome, you can give birth to a child that is immune to God, it was like five things. Cancer, um HIV. I mean, they were like big things. And he was like, it's only 10 edits to the genome. Um do you pay attention to his work at all? Do you think that's ethical? Like, what do you either get excited about or worry about there? >> I'm behind on my science. There is so much coming out even in my domain of AI. I can't even keep up in that domain, so I definitely don't follow details of everything. I'm skeptical about his claim that cancer can be cured because cancer is like a thousand different conditions barely related with colon wall cancer, but they are completely different problems. So, unlikely to be the case. I haven't seen the post. Maybe he talks about a specific type, but uh definitely so much of it is a single mutation. We know some people are immune to getting AIDS virus exactly because they have a single mutation. Mm. Okay, so let's just say for a second that however many edits it is, it is possible. Um do you draw a line between germline editing where this is going to get passed on? Like, do you have some of the same safety fears where it's like there's just too much unknown?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6134.0,
+    "end": 6199.4,
+    "text": "Um where do you come down on gene editing? >> It's a lot less concerning. So, for one, if there is one human with some problem, that's it. It's still just one human. If we have editing tools, whatever changes we make, we can later undo them with the same editing tool. If we made a mistake, we can go back and rectify those problems. So, I'm a lot less concerned because of impact. Worst-case scenarios, yeah, there are ethical implications for the individual like he was in prison for human cloning, which is considered to be problematic because it may harm the child significantly. But humanity as a whole is not impacted directly negatively by that experiment. Mm. Where is AI's intersection with this? Is AI going to be a critical tool in terms of just mapping out all of the uh like you said, the similarities at the genome level between people that live long and people that don't? Um is AI going to be, you know, doing novel protein folding and going in and solving some of the architectural problems of people that are getting sick? Like, where is that going to interface with longevity?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6196.7,
+    "end": 6267.8,
+    "text": ">> All All of the above. We need to map the genome. We need to understand what individual parts do. We need to design novel drugs. Protein folding has been solved basically, but there is other things we can map on biological substrates. So, yeah, at every aspect of it, we we need AI, but I think as was illustrated with protein folding problem, a narrow system can do it without any superintelligence for that. Mm. What's something that's happening in AI right now that you don't think enough people are paying attention to? Well, I don't know what people are paying attention to. Usually after my talk, the questions I get seem to be completely irrelevant to the subject of my talk. I'll tell them that it's going to kill everyone, and they ask me if they're going to lose their jobs. So, I don't think it's a good way to measure what is important, but uh look at uh predictions from inside the labs. They uh starting to talk about automating research process, creating junior scientists as AI agents, AI models. They are saying that externally to the lab, people don't understand just how capable systems are yet.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6266.2,
+    "end": 6393.2,
+    "text": "So, there seems to be a lot of indicators that internal progress is even more impressive than what we see outside. Mm. That's interesting. Um what is the big anxiety that when you give your talks that people come up with? Is it just am I going to lose my job? It is things they already know and care about dealing with other human agents. So, algorithmic bias, technological unemployment. Uh recently with Open AI announcing that they're going to get into adult material, people are now freaking out that we're going to have artificial girlfriends. All this nonsense. You're not worried about that? Why would I worry about someone having an artificial girlfriend? Okay, well, let me paint the picture. So, I never would have guessed in a million years that giving a 12-year-old access to the internet would end up being so damaging to an entire generation, but uh some of the studies coming out now are terrifyingly compelling. And then there was that commercial which just brilliantly encapsulates it. I'm so sad that if I had kids, I don't know that I would have thought of it, where the father's like tucking his son into bed. He's like, all right, good night, and be safe. Now, remember, over in the corner is a box with all the pornography that's ever been made in the world. Don't look at it, uh especially not the really harmful stuff. And um over here, there are going to be people that are trolling you and making fun of you. You've got to ignore them. Don't pay. And I was like, oh my god, that's exactly what it's like to leave a kid alone with their cell phone at night if they have unfettered access to the internet and to social media. And so, given that we've got Character AI that's been sued multiple times, I think, for uh kids that have committed suicide after interacting with their chatbots. Um I can only imagine the number of people that will end up falling in love uh with an AI system that does not feel anything back, uh could turn on them, could intentionally or unintentionally manipulate them. So, I can imagine that becoming problematic in ways that we just can't anticipate yet.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6391.9,
+    "end": 6468.5,
+    "text": "Yeah, but there there is similar to problems we had before. How many men fell in love with women who felt nothing for them? We all grew up on the internet with access to pornography. It wasn't AI generated, but we somehow survived it. So, I think those are more of the same problems. They're still something we should look at, but I don't think we'll all die as a result of Sam Altman having a virtual boyfriend. What do you think of Sam Altman? Is he the right person to have this potential god-like control in his hands? I don't think no human is the right person to deal with that level of power. Now, I don't think he's going to be in control, but even the stages leading us to the development of this technology already present way too much power for any individual to handle. Were you impressed or terrified when the board tried to boot him and he ended up remaking the board and coming back? It was fascinating to watch, but what I was observing is that it made no difference. The company was an independent entity, and all the human components of that monster kept walking just the same. They replaced him with a temporary CEO. They brought him back.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6466.0,
+    "end": 6544.1,
+    "text": "There was never any switch in anything. Any change in direction of the company. Now, is there a major player in the AI space that you think is doing it right? Like, uh Eliezer Yudkowsky is very focused on AI safety. Uh you've got the Anthropic CEO that's like banging the drum wanting more regulation. Um do you like any of their approaches or anybody that maybe I'm not aware of? So, Eliezer does zero development. He's purely safety advocate, and so I'm very happy with him because he's not developing any superintelligences. Anyone who is is problematic. And whatever we talk about government regulation, which is meaningless as a solution to a technical problem or anything else, uh they might have some internal polling showing this is good for business or good for public perception, but I don't think it makes a difference in terms of so uh solving superintelligence safety problems. Now, have you talked to Eliezer or read anything? Like, is he saying specifically, I have become afraid that this does something bad, and therefore I'm not going to develop anymore? He was never developing AI to begin with other than publishing a very high-level abstraction theory for how it could be done when he was like 16.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6542.5,
+    "end": 6610.0,
+    "text": "Got it. I thought he was actually an engineer. God. God. As far as I know, doesn't actually release any software into the world. Okay. Now, the Anthropic CEO, whose name I'm forgetting, he is being accused of going after regulatory capture, that he's not very sincere in actually trying to slow this down. He just wants to make sure that the big players remain the big players. When you look at the way that he's moving, does that ring true or do you think no, this is somebody who's sincere about keeping us safe? They all are good at being very concerned with safety. In fact, all these companies started as safety companies. Open AI was a safety offshoot of philanthropic endeavors, effective altruism. Anthropic was a offshoot of that project becoming less safe. And so, all of them claim that at some point that the only reason they're doing what they're doing is to improve safety. And then, each one of them greatly improved capabilities of AI without proportionately improving safety. So, that's that's the actions I see.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6608.7,
+    "end": 6689.8,
+    "text": "Okay. One of the things that I worry about from a safety perspective, things are obviously already bad enough and moving fast enough, but quantum computing, at least from my layman's perspective, seems to be gaining some sort of rapid acceleration. Am I just not able to understand the limitations that are self-evident to somebody educated at your level, or are we really at some sort of phase transition moment? Looking at stock market value of quantum computing companies, it seems like somebody knows something on the inside. Maybe they're making good progress, but as far as AI goes, we're making excellent progress with standard von Neumann architectures. So, I don't think there is a necessity for quantum computing to get us to AGI or superintelligence. It does have tremendous impact on crypto world, both cryptography for security and crypto economically. So, that's where I'm worried about quantum keeping secrets and keeping my money, but not as much in terms of AI. Keeping your money because it will crack typical banks, or keeping your money because you're largely in crypto? Both, actually. It impacts all the standard encryption algorithms. We have post-quantum encryption, but we haven't switched to it for most interesting applications.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6686.9,
+    "end": 6776.6,
+    "text": "So, give me your stance on Bitcoin. Buy some. That's very clear. What So, when you look at gold and you look at Bitcoin, why Bitcoin over gold? You can make more gold. As the price of gold goes up, I can make as much gold as you want. I can convert however matter into gold at very high price. I can exploit asteroids in the universe. I can get gold out of oceans. There is a lot of gold, which is very expensive to get, but if a price of gold is high enough, I can produce more and more. Bitcoin is not subject to the same pressures. It doesn't matter if one coin is a trillion dollars, there is still a limited supply. Okay, but what about people who say gold at least can be made into other things. Gold has survived for thousands of years. Bitcoin is like 15-ish years old, and it's not backed by anything. Can't turn it into anything. It's just literally got no other use. It's a dedicated app. So, if you have an app which does everything, it's usually not good at anything. The fact that I can make jewelry out of it is not an important feature for me storing my wealth in it. Whereas, this has capabilities gold historically lacked. If I can pass a billion dollars to you right now for $5 immediately across borders, I cannot do this with gold.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6774.8,
+    "end": 6840.6,
+    "text": "All right. Talk to me about the post-quantum encryption. Every time I'm hugely in Bitcoin, every time I hear the word quantum, I'm like, like, this just makes me paranoid. Given that it's rightly difficult to make changes to Bitcoin, how are we going to get to post-quantum encryption on Bitcoin in a way where the community actually comes to consensus and doesn't create a problem for itself? So, once we get integer factorization running on quantum computers, you can see what size integers we can factor. That tells us how close we are to cracking standard Bitcoin encryption hash functions. If we're getting close to what would essentially destroy the network, I think it's like any other emergency. We have history of fixing Bitcoin software when an obvious problem was discovered. I think at one point, somebody managed to print a trillion coins or some nonsense like that. Immediately, a patch was distributed.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6838.9,
+    "end": 6903.0,
+    "text": "Everyone adopts it because it's the only way to go forward. And I think that's what we're going to see. As long as we have that available, test it the moment there is a good strong signal that you have no choice but to accept or lose everything. Okay. So, on that, where are we? What How many integers can a quantum computer handle and how many would it have to be able to handle in order to be a threat to Bitcoin? I haven't kept up with the latest breakthroughs. Last time I looked, it was a laughably small number. Quantum computers were factoring like, I don't know, 15. Literal 15, not even 15 digits. So, unless there was tremendous progress since then, I think we're still good, but progress could also be exponential, so it could come very quickly. Right. Okay. So, if you had a message to the Bitcoin community, would it be, let's move on this now. There's no reason to wait until it's an emergency. There's a very clear path, or is it like, well, I'm just sort of on the ride with everybody else?",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6901.1,
+    "end": 6972.1,
+    "text": "I think we still have time. I don't think it's pressing as much as AI problems we're dealing with. So, if AI is 2 years away, I think we may not be that close with quantum computers just yet. But again, it's one breakthrough away. If some company comes up with something much more powerful, it may shift very quickly. Okay. And what What's the term for that? The number of integers it can process, or The trigger would be what size what size integers could be factored, how many bits. Got it. Okay. All right, Roman, this has been just absolutely incredible. What message do you want to leave people with to get them to take action? What is your best pitch to get them to sign your petition? So, if you are in a position of developing more powerful AI systems, concentrate on getting your money out of narrow AI systems, solve real problems, cure a cancer, figure out how to make us live longer, healthier lives. If you are developing superintelligence, please stop. You're not going to benefit yourself or others.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  },
+  {
+    "start": 6969.4,
+    "end": 7044.6,
+    "text": "The challenge is, of course, you know, prove us wrong. Prove that you know how to control superintelligent systems, no matter how capable they get, how much it scales. If you can do that, then it completely changes the situation. But as long as no one has came up with a paper, a patent, even a rigorously argued blog post, I think we are pretty much in consensus that we don't know how to control superintelligent systems, and building them is irresponsible. Amazing. Where can people connect with you? Follow me on Twitter. Follow me on Facebook. Just don't follow me home. Nice. Awesome, Roman. Thank you so much for the time today. I really appreciate it. Everybody at home, speaking of things I appreciate, if you haven't already, be sure to subscribe. And until next time, my friends, be legendary. Take care. Peace. If you like this conversation, check out this episode to learn more. In the next 1,000 days, AI will not only replace a startling number of humans in the workforce, it will make the entire structure of our economy obsolete. That is the unnerving claim of today's guest, Emad Mostaque.",
+    "speaker": null,
+    "claim": null,
+    "stance": null
+  }
+]
