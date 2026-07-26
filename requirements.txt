@@ -1,10 +1,14 @@
 youtube-transcript-api
 openai
 google-genai
+numpy
 scikit-learn
 sentence-transformers
 transformers
 torch
+accelerate>=1.1.0
 hf_xet
+networkx
+matplotlib
 streamlit
 rank-bm25

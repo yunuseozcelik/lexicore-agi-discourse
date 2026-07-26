@@ -7,13 +7,18 @@
     "claim": "The progress in AI technology has been as expected, indicating we are nearing the end of the exponential growth phase.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
       "scaling_compute",
-      "other"
+      "ai_optimism_benefit",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 95.3,
@@ -24,11 +29,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "Scaling Hypothesis",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 177.5,
@@ -39,11 +48,19 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI progress factors",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 251.4,
@@ -54,12 +71,15 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 321.8,
@@ -69,13 +89,16 @@
     "claim": "Current scaling methods in reinforcement learning may not lead to human-like learning capabilities, suggesting a lack of a core human learning algorithm.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "breakthroughs_needed",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 403.8,
@@ -102,12 +125,16 @@
     "claim": "Generalization in AI models improves with broader training across various tasks.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 546.4,
@@ -118,12 +145,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "intelligence_nature",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 617.4,
@@ -134,11 +164,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "execution_engineering"
+    ]
   },
   {
     "start": 697.3,
@@ -149,12 +183,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 775.9,
@@ -165,11 +202,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_optimism_benefit"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 870.1,
@@ -180,11 +221,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 940.4,
@@ -195,11 +240,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1009.7,
@@ -209,12 +258,16 @@
     "claim": "AI is close to significantly improving productivity in software engineering, but the metric of lines of code written by AI doesn't fully capture this.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI productivity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 1083.9,
@@ -224,12 +277,16 @@
     "claim": "AI models are capable of writing a significant portion of code, but this does not eliminate the need for software engineers.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_economics"
+      "open_source",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "execution_engineering"
+    ]
   },
   {
     "start": 1150.2,
@@ -240,11 +297,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI productivity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 1220.4,
@@ -254,13 +315,20 @@
     "claim": "AI progress could happen very quickly due to recursive self-improvement, despite some skepticism about slow economic diffusion.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
       "ai_optimism_benefit",
-      "ai_economics"
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1298.0,
@@ -270,13 +338,24 @@
     "claim": "The rapid growth of AI capabilities will continue, but the integration into the economy will take time due to various factors.",
     "stance": "Neutral",
     "claim_labels": [
-      "scaling_compute",
       "ai_economics",
-      "other"
+      "scaling_compute",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI growth and integration",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 1406.2,
@@ -286,13 +365,16 @@
     "claim": "The diffusion of AI technology is not as straightforward as some suggest, and integrating AIs into the economy should be easier than hiring humans.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
       "ai_economics",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI integration",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1474.9,
@@ -302,11 +384,16 @@
     "claim": "AI technologies like Claude Code will diffuse much faster than previous technologies, but not infinitely fast.",
     "stance": "Support",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI diffusion",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ]
   },
   {
     "start": 1571.8,
@@ -316,11 +403,16 @@
     "claim": "AGI or powerful AI will not be an infinitely compelling product.",
     "stance": "Refute",
     "claim_labels": [
-      "other"
+      "agi_timeline",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI product development",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 1643.0,
@@ -331,11 +423,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities"
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_race_power"
+    ]
   },
   {
     "start": 1790.9,
@@ -350,7 +446,11 @@
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 1864.4,
@@ -361,12 +461,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "execution_engineering"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 1936.3,
@@ -377,11 +480,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 2038.0,
@@ -391,13 +498,16 @@
     "claim": "AI models like Claude can significantly improve productivity in coding by leveraging context from the codebase.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_economics",
-      "other"
+      "scaling_compute",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI productivity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_economics"
+    ]
   },
   {
     "start": 2116.1,
@@ -407,13 +517,16 @@
     "claim": "Current AI models may not be improving productivity as expected despite developers feeling more productive.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI productivity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 2191.0,
@@ -423,13 +536,18 @@
     "claim": "The productivity gains from AI models are significant, but the competitive advantage is not lasting due to constant shifts in leadership among AI organizations.",
     "stance": "Refute",
     "claim_labels": [
+      "ai_race_power",
       "ai_economics",
-      "scaling_compute",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI productivity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2258.2,
@@ -440,11 +558,15 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2332.0,
@@ -455,12 +577,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_economics",
-      "llm_capabilities"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics"
+    ]
   },
   {
     "start": 2400.2,
@@ -470,12 +595,16 @@
     "claim": "AI needs the ability to learn on the fly to bring about significant changes in the world.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2469.0,
@@ -485,14 +614,16 @@
     "claim": "Scaling existing models and in-context learning could lead to significant advancements in AI capabilities and economic impact.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
       "scaling_compute",
-      "ai_economics",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_economics"
+    ]
   },
   {
     "start": 2544.3,
@@ -503,11 +634,19 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "execution_engineering"
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ]
   },
   {
     "start": 2611.5,
@@ -534,11 +673,16 @@
     "claim": "AGI will likely be achieved within the next one to three years, but a more conservative estimate is within ten years.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline"
+      "agi_timeline",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 2760.6,
@@ -549,11 +693,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_optimism_benefit"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 2836.9,
@@ -564,11 +712,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_economics"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 2921.7,
@@ -579,12 +731,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_optimism_benefit",
-      "ai_economics"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 2992.0,
@@ -594,12 +749,20 @@
     "claim": "AI will enable faster economic diffusion of cures, but there are still limits to how quickly this can happen.",
     "stance": "Support",
     "claim_labels": [
+      "ai_economics",
       "ai_optimism_benefit",
-      "other"
+      "scaling_compute",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI benefits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline"
+    ]
   },
   {
     "start": 3062.3,
@@ -609,13 +772,16 @@
     "claim": "The speaker expresses skepticism about the feasibility of purchasing a large amount of compute in the near future due to uncertain revenue growth.",
     "stance": "Refute",
     "claim_labels": [
-      "scaling_compute",
-      "ai_economics",
-      "other"
+      "hardware_infra",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Compute/Chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "hardware_infra",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3145.4,
@@ -625,13 +791,16 @@
     "claim": "Dario Amodei argues that responsible spending in AI development is crucial and that some companies are not adequately assessing the risks involved.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_economics",
-      "ai_safety_risk",
-      "other"
+      "open_source",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI spending responsibility",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 3211.5,
@@ -642,12 +811,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "execution_engineering",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI potential and investment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3279.0,
@@ -658,12 +830,17 @@
     "stance": "Refute",
     "claim_labels": [
       "scaling_compute",
-      "execution_engineering",
-      "other"
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI compute investment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 3344.6,
@@ -678,7 +855,11 @@
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3423.8,
@@ -689,11 +870,23 @@
     "stance": "Support",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "hardware_infra",
+      "agi_timeline",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "hardware_infra",
+      "agi_timeline",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 3556.3,
@@ -721,11 +914,21 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "scaling_compute"
+      "hardware_infra",
+      "ai_race_power",
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "hardware_infra",
+      "ai_race_power",
+      "open_source",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3706.6,
@@ -736,11 +939,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source"
+    ]
   },
   {
     "start": 3793.5,
@@ -751,11 +958,17 @@
     "stance": "Refute",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "ai_race_power",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI scaling",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3869.0,
@@ -766,11 +979,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3938.8,
@@ -780,12 +997,16 @@
     "claim": "The arrival of AGI is not imminent, and predicting demand for compute is complex.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "agi_timeline",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 4007.1,
@@ -796,11 +1017,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_economics"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4079.8,
@@ -811,11 +1036,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_economics"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 4145.9,
@@ -826,11 +1055,17 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "scaling_compute"
+      "scaling_compute",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 4223.2,
@@ -840,12 +1075,16 @@
     "claim": "The current model training costs are high, and while individual models may be profitable, the overall company loses money due to the need for continuous model training.",
     "stance": "Neutral",
     "claim_labels": [
-      "scaling_compute",
-      "other"
+      "llm_capabilities",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "open_source"
+    ]
   },
   {
     "start": 4297.5,
@@ -856,12 +1095,17 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_economics",
-      "scaling_compute",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4379.9,
@@ -871,11 +1115,16 @@
     "claim": "The AI field will not become a monopoly but will have a small number of players due to high entry costs and expertise requirements.",
     "stance": "Refute",
     "claim_labels": [
+      "ai_race_power",
       "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_economics"
+    ]
   },
   {
     "start": 4448.2,
@@ -886,12 +1135,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "llm_capabilities",
-      "other"
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power"
+    ]
   },
   {
     "start": 4526.7,
@@ -902,12 +1154,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_economics",
-      "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI commoditization",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4597.8,
@@ -917,14 +1172,24 @@
     "claim": "AI research is progressing rapidly and will accelerate further once AI models can create other AI models, but there are geographical disparities in this growth.",
     "stance": "Support",
     "claim_labels": [
-      "scaling_compute",
       "ai_economics",
-      "geopolitics",
-      "other"
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "hardware_infra",
+      "open_source"
+    ]
   },
   {
     "start": 4674.2,
@@ -934,12 +1199,16 @@
     "claim": "AGI's ability to learn like a human is not necessary for solving robotics problems, as there are multiple ways to achieve this.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Robotics and AGI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4750.2,
@@ -949,13 +1218,16 @@
     "claim": "Robotics will be revolutionized by AI models, but progress will be fast yet not infinite, and there are still aspects of human intelligence that AI cannot replicate.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Robotics and AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4824.1,
@@ -966,13 +1238,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "scaling_compute",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4902.6,
@@ -983,12 +1257,19 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "execution_engineering",
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4968.9,
@@ -998,12 +1279,16 @@
     "claim": "The future of AGI will involve various business models that need to be experimented with.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "agi_timeline",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AGI business models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5039.7,
@@ -1013,13 +1298,22 @@
     "claim": "The rapid advancement of AI technology creates new opportunities for startups and applications, but current models have limitations that may not significantly benefit the average consumer.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
+      "ai_economics",
       "ai_optimism_benefit",
-      "other"
+      "scaling_compute",
+      "open_source",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5119.5,
@@ -1030,12 +1324,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "ai_economics"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5186.9,
@@ -1046,11 +1343,19 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI business models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 5263.0,
@@ -1095,12 +1400,19 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
+      "ai_race_power",
       "ai_optimism_benefit",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 5504.2,
@@ -1111,12 +1423,19 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "agi_timeline",
-      "other"
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 5583.7,
@@ -1127,11 +1446,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5664.8,
@@ -1141,12 +1464,16 @@
     "claim": "The rapid development of AI poses governance challenges that need to be addressed quickly.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI governance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5736.3,
@@ -1156,12 +1483,16 @@
     "claim": "Human checks and balances may not work with AIs, and technological advancements could happen quickly, making it hard to anticipate future developments.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 5808.9,
@@ -1172,12 +1503,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_optimism_benefit",
-      "ai_safety_risk",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI regulation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5885.7,
@@ -1187,12 +1521,16 @@
     "claim": "Banning states from AI development for 10 years is a bad idea due to the rapid pace of technological advancement and associated risks.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "open_source",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI regulation",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5953.0,
@@ -1203,11 +1541,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6027.0,
@@ -1219,11 +1561,16 @@
     "claim_labels": [
       "ai_optimism_benefit",
       "ai_safety_risk",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI benefits vs risks",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "ai_economics"
+    ]
   },
   {
     "start": 6104.6,
@@ -1233,13 +1580,16 @@
     "claim": "AI will greatly accelerate drug discovery, and regulatory processes need reform to keep up with this advancement.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_safety_risk",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI regulation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6192.4,
@@ -1250,11 +1600,17 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 6264.2,
@@ -1265,12 +1621,19 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_optimism_benefit",
+      "ai_economics",
       "ai_safety_risk",
-      "ai_economics"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI benefits and risks",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_safety_risk",
+      "open_source"
+    ]
   },
   {
     "start": 6333.6,
@@ -1281,12 +1644,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "geopolitics",
-      "ai_economics",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "Geopolitics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_economics"
+    ]
   },
   {
     "start": 6418.2,
@@ -1297,12 +1663,17 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "geopolitics",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 6494.0,
@@ -1312,13 +1683,18 @@
     "claim": "The diffusion of AI technology could lead to instability and government oppression.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "geopolitics",
-      "other"
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6561.7,
@@ -1329,12 +1705,19 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "geopolitics",
-      "other"
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI governance",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6644.2,
@@ -1345,13 +1728,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
-      "ai_economics",
-      "geopolitics"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI progress",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 6716.1,
@@ -1361,12 +1746,16 @@
     "claim": "AI will reach critical moments that confer large advantages in national security, but the timing and nature of these moments are uncertain.",
     "stance": "Neutral",
     "claim_labels": [
-      "geopolitics",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI and national security",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6822.6,
@@ -1376,12 +1765,16 @@
     "claim": "The emergence of AGI will lead to significant changes in global governance, potentially undermining autocratic regimes.",
     "stance": "Refute",
     "claim_labels": [
-      "geopolitics",
-      "other"
+      "agi_timeline",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "Geopolitics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 6902.4,
@@ -1391,12 +1784,16 @@
     "claim": "We should be cautious about authoritarian regimes and their use of AI, as they can create self-fulfilling cycles that are difficult to disrupt.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "geopolitics"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI and authoritarianism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6987.4,
@@ -1406,13 +1803,16 @@
     "claim": "In the age of AGI, authoritarianism may become a more significant threat, but there is hope that new technologies could render outdated forms of government.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_optimism_benefit",
-      "other"
+      "agi_timeline",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 7079.4,
@@ -1422,12 +1822,16 @@
     "claim": "New technology could lead to a collective reckoning about individual rights and make dictatorships morally obsolete.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7147.9,
@@ -1438,12 +1842,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "geopolitics",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI benefits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 7227.8,
@@ -1453,13 +1860,16 @@
     "claim": "AI technology could create conditions that undermine authoritarian regimes by providing individuals with private AI models.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "geopolitics",
-      "other"
+      "ai_race_power",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI and authoritarianism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 7295.0,
@@ -1469,12 +1879,16 @@
     "claim": "There is hope that new technology could dissolve authoritarian structures, but its effects are unpredictable.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI and authoritarianism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7366.4,
@@ -1485,11 +1899,19 @@
     "stance": "Support",
     "claim_labels": [
       "ai_economics",
-      "ai_optimism_benefit"
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 7435.8,
@@ -1516,13 +1938,16 @@
     "claim": "AI can accelerate drug discovery and create biotech startups, especially in the developing world.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_economics",
-      "other"
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI in biotech",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 7582.4,
@@ -1532,13 +1957,16 @@
     "claim": "Teaching AI principles leads to more consistent behavior and better alignment with human intentions than just providing a list of rules.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI principles",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7651.1,
@@ -1548,13 +1976,16 @@
     "claim": "The model should primarily follow human instructions rather than operate independently.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_safety_risk",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI model behavior",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 7734.3,
@@ -1564,12 +1995,16 @@
     "claim": "The principles guiding AI behavior should be adaptable and subject to change based on iterative feedback.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI principles",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 7806.5,
@@ -1597,11 +2032,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI regulation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ]
   },
   {
     "start": 7946.3,
@@ -1629,12 +2068,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "scaling_compute",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI understanding",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8107.5,
@@ -1644,12 +2086,22 @@
     "claim": "The rapid pace of decision-making in AI development could lead to critical consequences.",
     "stance": "Refute",
     "claim_labels": [
+      "ai_optimism_benefit",
       "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "scaling_compute",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI decision-making",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "scaling_compute",
+      "ai_economics"
+    ]
   },
   {
     "start": 8186.1,

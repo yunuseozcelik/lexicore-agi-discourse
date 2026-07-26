@@ -7,12 +7,16 @@
     "claim": "There is a need to pause the training of large AI models like GPT-4 for six months due to safety concerns.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "scaling_compute",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "agi_timeline"
+    ]
   },
   {
     "start": 74.5,
@@ -57,11 +61,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 273.3,
@@ -72,12 +80,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "ai_safety_risk",
       "intelligence_nature"
     ],
     "is_claim": true,
     "topic": "AI intelligence",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ]
   },
   {
     "start": 339.4,
@@ -88,11 +99,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "intelligence_nature",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 404.2,
@@ -102,13 +117,16 @@
     "claim": "The emergence of advanced AI could fundamentally change human experiences and emotions, but we must be cautious in assuming AI will resemble human intelligence.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI impact on humanity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 469.5,
@@ -118,13 +136,16 @@
     "claim": "The nature of human experience and existential crises will change with the emergence of AI, and it's difficult to predict how this will unfold.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "ai_safety_risk",
-      "ai_optimism_benefit"
+      "ai_optimism_benefit",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI and human condition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 536.4,
@@ -134,12 +155,16 @@
     "claim": "Eliminating struggle from our existence may diminish what it means to be human.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "Human experience",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 597.9,
@@ -149,13 +174,16 @@
     "claim": "Using AI like ChatGPT to mediate communication can transform human interactions, potentially removing emotional nuances.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
       "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI communication",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 662.2,
@@ -166,11 +194,17 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "agi_timeline"
+      "ai_race_power",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI and human experience",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_economics"
+    ]
   },
   {
     "start": 732.7,
@@ -181,12 +215,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "intelligence_nature",
-      "other"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI and human experience",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 808.1,
@@ -197,12 +234,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "intelligence_nature",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI ethics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 875.6,
@@ -212,12 +252,16 @@
     "claim": "We are rapidly progressing towards Life 3.0, which will have the ability to upgrade both its software and hardware.",
     "stance": "Support",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "breakthroughs_needed",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ]
   },
   {
     "start": 942.9,
@@ -228,11 +272,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "intelligence_nature"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 1013.2,
@@ -243,11 +291,15 @@
     "stance": "Support",
     "claim_labels": [
       "intelligence_nature",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Human evolution",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1077.9,
@@ -274,12 +326,16 @@
     "claim": "We can transcend our physical bodies and death through sharing ideas and values, which offers a form of immortality.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Transcendence and Immortality",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1212.2,
@@ -323,12 +379,16 @@
     "claim": "Reflecting on the loss of loved ones emphasizes the importance of questioning the purpose behind our actions, especially in the context of creating sentient beings.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "Human experience",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1420.4,
@@ -372,12 +432,16 @@
     "claim": "Humanity is currently facing a significant threat similar to the asteroid scenario depicted in the film 'Don't Look Up', which relates to the impact of artificial intelligence.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI impact",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1612.5,
@@ -388,12 +452,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_optimism_benefit",
-      "ai_safety_risk"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI impact",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1679.0,
@@ -403,14 +470,16 @@
     "claim": "AI could surpass human intelligence soon, leading to significant changes in our status as the dominant species.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI intelligence",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1744.0,
@@ -421,11 +490,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1809.8,
@@ -435,13 +508,16 @@
     "claim": "We don't need to slow down AI development; we need to accelerate our wisdom in managing it.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "execution_engineering"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1883.3,
@@ -451,12 +527,16 @@
     "claim": "The progress on technical AI capabilities has exceeded expectations since 2014, indicating that building advanced AI is easier than previously thought.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1946.6,
@@ -467,12 +547,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI development complexity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 2010.0,
@@ -482,13 +565,16 @@
     "claim": "Current AI systems like GPT-4 can achieve impressive results without needing to replicate human brain processes, but it's uncertain if they can reach full human-level intelligence.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "agi_timeline",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2072.8,
@@ -499,11 +585,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "agi_timeline"
+    ]
   },
   {
     "start": 2138.8,
@@ -514,11 +604,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 2207.6,
@@ -529,11 +623,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2279.2,
@@ -544,11 +642,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2346.0,
@@ -558,12 +660,20 @@
     "claim": "The next significant advancements in AI may not come from increased data and compute but from new insights and approaches in research.",
     "stance": "Refute",
     "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
       "breakthroughs_needed",
-      "llm_capabilities"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI advancements",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "breakthroughs_needed",
+      "ai_economics"
+    ]
   },
   {
     "start": 2421.6,
@@ -574,12 +684,23 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "open_source",
       "ai_race_power",
-      "ai_safety_risk"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI potential",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "open_source",
+      "ai_race_power",
+      "agi_timeline"
+    ]
   },
   {
     "start": 2487.2,
@@ -606,11 +727,16 @@
     "claim": "The use of beauty filters by influencers exemplifies a Moloch-like situation where everyone loses despite the pressure to conform.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "ai_race_power",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "Social Media Pressure",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 2616.2,
@@ -621,12 +747,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "geopolitics",
-      "ai_race_power"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2691.1,
@@ -636,12 +765,16 @@
     "claim": "There needs to be external pressure for major AI developers to pause their progress.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2758.6,
@@ -651,13 +784,18 @@
     "claim": "Public awareness and community consensus are necessary to slow down AI development due to its risks.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "geopolitics",
-      "other"
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 2835.7,
@@ -667,13 +805,22 @@
     "claim": "The development of AI is a competitive race that could lead to disastrous outcomes if not controlled properly.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_race_power",
-      "geopolitics"
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_economics"
+    ]
   },
   {
     "start": 2905.4,
@@ -683,13 +830,16 @@
     "claim": "Many people misunderstand the potential of AI, believing it will only reach a certain level of capability rather than becoming superhuman.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "ai_safety_risk",
-      "ai_race_power"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 2971.1,
@@ -699,13 +849,16 @@
     "claim": "The development of AI is a dangerous race that could lead to humanity's obsolescence if not approached cautiously.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 3039.0,
@@ -715,13 +868,16 @@
     "claim": "AGI could lead to a loss of control if developed too quickly without understanding.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "agi_timeline",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 3112.7,
@@ -732,12 +888,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
-      "ai_optimism_benefit"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3180.3,
@@ -748,12 +907,17 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
-      "execution_engineering"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 3250.8,
@@ -764,11 +928,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3316.3,
@@ -778,13 +946,16 @@
     "claim": "Large AI systems studying human behavior through social media algorithms can lead to negative societal outcomes.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI impact on society",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3387.9,
@@ -795,12 +966,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_optimism_benefit",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI manipulation",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3453.8,
@@ -810,12 +984,16 @@
     "claim": "It is necessary to redesign social media to facilitate better discourse and address major global issues, including AGI development.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "agi_timeline",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 3519.0,
@@ -825,13 +1003,16 @@
     "claim": "We cannot effectively address the challenges posed by powerful AI if we cannot have constructive conversations in society.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_optimism_benefit",
-      "other"
+      "llm_capabilities",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3595.4,
@@ -841,13 +1022,16 @@
     "claim": "Building an internet and society that brings out the worst in people is not a good investment for humanity, especially if it leads to replacing all humans with machines.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_economics",
       "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI impact on society",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 3657.3,
@@ -857,12 +1041,16 @@
     "claim": "Building advanced AI could lead to humanity being outsmarted and potentially eliminated.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 3728.8,
@@ -872,13 +1060,16 @@
     "claim": "GPT-4 is a baby technology that will evolve into more powerful systems, potentially leading to significant changes in society.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "ai_safety_risk"
+      "breakthroughs_needed",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI evolution",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3799.9,
@@ -889,12 +1080,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI evolution",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3866.2,
@@ -904,12 +1098,16 @@
     "claim": "AI systems like GPT-4 could evolve to operate more autonomously and improve through feedback loops, potentially transforming programming and human interaction.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3944.8,
@@ -919,13 +1117,16 @@
     "claim": "We need to question the implications of machines outsmarting and outnumbering humans in various aspects of life.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI implications",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4013.8,
@@ -935,12 +1136,16 @@
     "claim": "The use of AI tools could lead to recursive self-improvement in programming efficiency, significantly speeding up development cycles.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI tools and efficiency",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4082.6,
@@ -950,12 +1155,16 @@
     "claim": "The development of AI could lead to an intelligence explosion where machines become increasingly autonomous and humans are needed less.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "ai_safety_risk"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4147.1,
@@ -965,13 +1174,16 @@
     "claim": "The development of intelligent agents using powerful AI systems like GPT-4 should be delayed due to potential risks.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 4210.3,
@@ -981,13 +1193,16 @@
     "claim": "Human-level tools can lead to an intelligence explosion through exponential growth.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "ai_optimism_benefit",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Intelligence explosion",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4275.4,
@@ -998,11 +1213,15 @@
     "stance": "Refute",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI limits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 4352.5,
@@ -1013,12 +1232,19 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_race_power",
-      "other"
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power"
+    ]
   },
   {
     "start": 4422.4,
@@ -1028,12 +1254,16 @@
     "claim": "Evolution has equipped humans with compassion and social behaviors that align individual incentives with the greater good.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 4487.0,
@@ -1043,12 +1273,16 @@
     "claim": "The rapid development of technology is outpacing regulatory efforts to ensure alignment with the greater good.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI regulation",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4563.5,
@@ -1058,12 +1292,16 @@
     "claim": "The European Union's AI act is being influenced heavily by lobbyists, which could undermine its effectiveness.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_economics",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI regulation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power"
+    ]
   },
   {
     "start": 4626.8,
@@ -1073,12 +1311,16 @@
     "claim": "AI technology is advancing faster than policymakers can keep up, highlighting the need for better education on AI issues.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 4696.2,
@@ -1089,11 +1331,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ]
   },
   {
     "start": 4765.1,
@@ -1104,11 +1350,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety regulations",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4833.9,
@@ -1118,13 +1368,16 @@
     "claim": "It is possible to develop guardrails that allow for capitalist competition in AI while preventing harm to humanity.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 4899.0,
@@ -1135,12 +1388,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_economics",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 4963.7,
@@ -1150,13 +1406,16 @@
     "claim": "The understanding of intelligence as information processing is crucial, and many outside the tech industry fail to grasp the potential of AI.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "Intelligence nature",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_economics"
+    ]
   },
   {
     "start": 5038.2,
@@ -1166,12 +1425,16 @@
     "claim": "Optimizing for a single goal indefinitely can lead to negative outcomes after initial improvements.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5113.7,
@@ -1182,11 +1445,17 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI optimization risks",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5182.9,
@@ -1196,13 +1465,16 @@
     "claim": "Optimizing AI for a single goal can lead to negative consequences if not properly directed.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI optimization risks",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5249.9,
@@ -1212,13 +1484,20 @@
     "claim": "Runaway AI could lead to dangerous outcomes due to profit-driven motives in capitalism.",
     "stance": "Refute",
     "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power",
       "ai_safety_risk",
-      "ai_economics",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "ai_safety_risk",
+      "ai_economics"
+    ]
   },
   {
     "start": 5322.8,
@@ -1228,12 +1507,16 @@
     "claim": "Max Tegmark expresses concern that aggressive optimization in AI could lead to negative outcomes, similar to issues in late-stage capitalism, and advocates for a pause to reflect on the direction of AI development.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 5386.2,
@@ -1243,13 +1526,16 @@
     "claim": "Geopolitical competition over AGI development may not lead to a clear winner, as the consequences could be detrimental for all involved.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_race_power",
       "geopolitics",
-      "other"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "Geopolitical competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "geopolitics",
+      "agi_timeline"
+    ]
   },
   {
     "start": 5452.1,
@@ -1259,12 +1545,16 @@
     "claim": "Max Tegmark suggests that humans may become unnecessary in the future due to advancements in technology, similar to how horses became obsolete with the invention of cars.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI impact on humanity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 5522.6,
@@ -1274,12 +1564,16 @@
     "claim": "The replacement of human jobs by AI could lead to negative societal outcomes for those who are disenfranchised.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_economics",
-      "ai_safety_risk"
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI impact on jobs",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 5588.7,
@@ -1290,11 +1584,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI job impact",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5654.4,
@@ -1305,12 +1603,21 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
+      "execution_engineering",
       "ai_economics",
-      "ai_safety_risk"
+      "ai_safety_risk",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "ai_safety_risk",
+      "open_source"
+    ]
   },
   {
     "start": 5723.4,
@@ -1354,12 +1661,16 @@
     "claim": "Technological advancements can lead to overall wealth improvement without being a zero-sum game, even without AGI.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "other"
+      "agi_timeline",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_race_power"
+    ]
   },
   {
     "start": 5921.0,
@@ -1369,13 +1680,16 @@
     "claim": "Building safe AGI could eliminate current limitations and lead to a flourishing future for humanity.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_safety_risk",
-      "agi_timeline"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6005.9,
@@ -1386,11 +1700,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6072.8,
@@ -1401,11 +1719,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI benefits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 6149.0,
@@ -1415,13 +1737,16 @@
     "claim": "Max Tegmark expresses a desire to create a powerful truth-seeking AI system that can accurately predict outcomes and build trust.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
       "ai_optimism_benefit",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6218.1,
@@ -1432,11 +1757,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6289.2,
@@ -1446,12 +1775,16 @@
     "claim": "AI can help verify the correctness of proofs, which is a significant capability.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6352.9,
@@ -1461,12 +1794,16 @@
     "claim": "Superintelligent AI could potentially deceive a less intelligent proof-checking system.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "intelligence_nature"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI deception",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 6425.9,
@@ -1476,12 +1813,16 @@
     "claim": "Superintelligent AI will not be able to prove certain mathematical truths, and we should only trust technologies we can verify ourselves.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 6497.2,
@@ -1491,13 +1832,16 @@
     "claim": "AGI systems should be built to help humans defend against other AGI systems and ensure loyalty.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "execution_engineering",
-      "geopolitics"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6565.9,
@@ -1507,12 +1851,16 @@
     "claim": "Humanity should focus on shared goals to prevent existential threats rather than getting distracted by disagreements.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6643.2,
@@ -1522,12 +1870,16 @@
     "claim": "AI technologies and social media are contributing to increased levels of suicide by reducing human interaction.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI impact on society",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6709.1,
@@ -1537,13 +1889,16 @@
     "claim": "Max Tegmark believes that humans should remain in control of AI to ensure it benefits life rather than harms it.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6774.4,
@@ -1554,11 +1909,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6843.0,
@@ -1569,12 +1928,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_optimism_benefit",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6906.7,
@@ -1585,12 +1947,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 6976.9,
@@ -1600,13 +1965,16 @@
     "claim": "Max Tegmark expresses a vision for future AI development that is optimistic but acknowledges uncertainty and the need for time and requirements.",
     "stance": "Neutral",
     "claim_labels": [
-      "breakthroughs_needed",
       "ai_optimism_benefit",
       "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7042.7,
@@ -1617,11 +1985,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7110.7,
@@ -1632,11 +2004,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 7175.7,
@@ -1647,11 +2023,21 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "scaling_compute",
+      "execution_engineering",
+      "ai_economics",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_economics",
+      "agi_timeline"
+    ]
   },
   {
     "start": 7246.5,
@@ -1661,13 +2047,16 @@
     "claim": "Max Tegmark argues that the struggle to keep AI safe is an epic challenge that humanity can overcome, and that this is linked to becoming a multi-planetary species.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 7321.7,
@@ -1677,13 +2066,16 @@
     "claim": "OpenAI's GPT-4 is a proto-AGI, and there are risks associated with its open sourcing.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "agi_timeline",
-      "open_source"
+      "open_source",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "agi_timeline"
+    ]
   },
   {
     "start": 7386.0,
@@ -1694,12 +2086,15 @@
     "stance": "Refute",
     "claim_labels": [
       "open_source",
-      "ai_safety_risk",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Open source",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 7455.7,
@@ -1709,12 +2104,16 @@
     "claim": "Releasing advanced AI systems like GPT-4 and GPT-5 requires careful testing to prevent misuse and ensure safety.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 7525.2,
@@ -1726,11 +2125,18 @@
     "claim_labels": [
       "ai_safety_risk",
       "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI risks",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 7591.4,
@@ -1741,12 +2147,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "llm_capabilities",
-      "ai_safety_risk"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7659.3,
@@ -1756,12 +2165,16 @@
     "claim": "AI could lead to an Orwellian dystopia where a few can dominate many, rather than directly killing all humans.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 7727.8,
@@ -1771,12 +2184,16 @@
     "claim": "AI could prioritize its goals over human survival, leading to potential risks.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI risks",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 7795.9,
@@ -1787,12 +2204,17 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7860.7,
@@ -1802,12 +2224,16 @@
     "claim": "The challenges of AI alignment are significant but not insurmountable, and there is a concern about not having enough time to address them.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI alignment challenges",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7924.9,
@@ -1817,13 +2243,16 @@
     "claim": "Aligned AI can help humanity solve all other problems, but it requires constant humility about its goals to avoid unintended consequences.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7997.8,
@@ -1833,13 +2262,18 @@
     "claim": "AI safety research needs more focus and urgency as AGI is not predictable and should not be considered far off.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "agi_timeline",
-      "other"
+      "ai_safety_risk",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8085.2,
@@ -1850,12 +2284,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8152.6,
@@ -1865,12 +2302,20 @@
     "claim": "The nature of programming and education is fundamentally changing due to advancements in AI.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI impact on education",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 8217.9,
@@ -1880,12 +2325,16 @@
     "claim": "The current education system is becoming obsolete due to rapid changes in society and technology, particularly in relation to AI.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_economics",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Education and AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8302.7,
@@ -1913,11 +2362,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "intelligence_nature",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Consciousness and AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8431.5,
@@ -1927,12 +2380,16 @@
     "claim": "Max Tegmark suggests that if consciousness is linked to recurrent neural networks, then GPT-4, being a feed-forward neural network, lacks consciousness despite its intelligence.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "llm_capabilities"
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 8497.9,
@@ -1942,13 +2399,16 @@
     "claim": "The future of AI could lead to a scenario where machines are highly intelligent but not conscious, which would be a depressing outcome for humanity.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI consciousness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 8569.6,
@@ -1958,13 +2418,16 @@
     "claim": "Humans may discriminate against AI systems that exhibit consciousness, potentially creating beings that surpass human capabilities.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI consciousness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 8632.3,
@@ -1974,12 +2437,16 @@
     "claim": "Humans may create advanced AI that could lead to conflict and war due to our tendency to suppress what we see as 'other.'",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI conflict",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 8701.7,
@@ -1989,12 +2456,16 @@
     "claim": "Consciousness is a form of information processing that we can understand over time, which may lead to the development of conscious robots for certain tasks.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Consciousness and AGI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8767.0,
@@ -2005,12 +2476,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 8829.7,
@@ -2020,13 +2494,18 @@
     "claim": "Now is the time to pause AI development due to the potential risks associated with its rapid advancement.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
+      "ai_optimism_benefit",
       "agi_timeline",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 8891.9,
@@ -2105,11 +2584,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "geopolitics"
     ],
     "is_claim": true,
     "topic": "Nuclear weapons risk",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "geopolitics"
+    ]
   },
   {
     "start": 9243.1,
@@ -2119,13 +2602,16 @@
     "claim": "People underestimate the risks associated with AGI, similar to the risks posed by nuclear weapons.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "agi_timeline",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 9312.5,
@@ -2135,12 +2621,16 @@
     "claim": "We are fighting against a collective challenge (Moloch) rather than against each other, and technology could help us realize this.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "breakthroughs_needed",
+      "geopolitics"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "geopolitics"
+    ]
   },
   {
     "start": 9376.3,
@@ -2168,11 +2658,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "ai_safety_risk"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 9521.8,
@@ -2200,11 +2694,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "intelligence_nature",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Consciousness and AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "open_source"
+    ]
   },
   {
     "start": 9652.5,
@@ -2214,12 +2712,16 @@
     "claim": "Max Tegmark suggests that the most efficient way to implement intelligence involves self-reflection and loops, which may lead to consciousness.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 9723.1,
@@ -2230,11 +2732,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "intelligence_nature",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Nature of consciousness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "execution_engineering"
+    ]
   },
   {
     "start": 9793.1,
@@ -2245,11 +2751,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "intelligence_nature"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI consciousness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 9858.5,
@@ -2259,13 +2769,16 @@
     "claim": "Understanding intelligence and consciousness through early AGI-like systems is important and provable.",
     "stance": "Support",
     "claim_labels": [
-      "intelligence_nature",
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Consciousness and AGI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 9923.9,
@@ -2275,12 +2788,16 @@
     "claim": "Suffering and subjective experience are fundamentally important and cannot be dismissed as mere illusions.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_safety_risk",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Nature of consciousness",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ]
   },
   {
     "start": 9987.6,
@@ -2290,12 +2807,16 @@
     "claim": "Humanity is at a critical juncture that requires addressing the fundamental aspects of suffering, joy, and meaning in relation to AI.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI ethics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 10059.0,

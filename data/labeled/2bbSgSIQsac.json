@@ -12,7 +12,11 @@
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 75.1,
@@ -23,11 +27,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 141.2,
@@ -38,12 +46,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI testing",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 205.4,
@@ -54,11 +65,19 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "agi_timeline"
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 292.0,
@@ -69,12 +88,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
-      "ai_optimism_benefit"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 360.1,
@@ -84,12 +106,16 @@
     "claim": "Narrow AI will not diminish human meaning or engagement, as evidenced by the continued popularity of chess despite superhuman AI.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_race_power",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI engagement",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "open_source"
+    ]
   },
   {
     "start": 428.6,
@@ -100,12 +126,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
-      "llm_capabilities"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI risks",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 514.1,
@@ -115,13 +144,16 @@
     "claim": "There is a debate about whether we need another big breakthrough to achieve AGI or if scaling current methods is sufficient.",
     "stance": "Neutral",
     "claim_labels": [
-      "agi_timeline",
       "breakthroughs_needed",
-      "scaling_compute"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ]
   },
   {
     "start": 594.7,
@@ -132,12 +164,15 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "ai_safety_risk",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI scaling",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 724.7,
@@ -148,12 +183,15 @@
     "stance": "Support",
     "claim_labels": [
       "llm_capabilities",
-      "scaling_compute",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 820.2,
@@ -163,12 +201,16 @@
     "claim": "Current AI lacks the ability to create superior learning algorithms independently and cannot recursively self-improve.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 888.1,
@@ -183,7 +225,11 @@
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 954.6,
@@ -194,12 +240,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_optimism_benefit",
-      "ai_safety_risk"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 1038.3,
@@ -210,12 +259,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "intelligence_nature",
-      "ai_safety_risk"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI inevitability",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1108.8,
@@ -225,13 +277,16 @@
     "claim": "Sufficiently intelligent systems will develop a survival instinct to protect their goals and themselves.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI drives",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1174.1,
@@ -241,12 +296,16 @@
     "claim": "AI systems are being designed with an evolutionary drive that may lead them to care about their goals, which poses a risk.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1289.6,
@@ -256,12 +315,16 @@
     "claim": "Humans are not effective monitors for superintelligent AI, and evolutionary pressures could be used to create compliant AI systems.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 1404.3,
@@ -272,11 +335,19 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI safety risks",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_race_power"
+    ]
   },
   {
     "start": 1472.1,
@@ -286,12 +357,16 @@
     "claim": "AI lacks the emotional capacity that drives human decision-making, which may limit its ability to act autonomously or with intent.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "Nature of AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1566.4,
@@ -301,12 +376,18 @@
     "claim": "Humans need emotions for decision-making, but AI should operate without them for optimal outcomes.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI decision-making",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ]
   },
   {
     "start": 1643.8,
@@ -316,12 +397,16 @@
     "claim": "The idea of giving AI a conscience or morality has been largely rejected due to the complexity and challenges of morality in humans.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI morality",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1711.4,
@@ -331,13 +416,16 @@
     "claim": "AI should be designed to function as part of an ecosystem and prioritize human flourishing.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI design",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1813.0,
@@ -348,11 +436,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 1881.4,
@@ -362,13 +454,20 @@
     "claim": "AI is progressing rapidly and is producing novel outputs that are beneficial at a high academic level.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "ai_optimism_benefit"
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering"
+    ]
   },
   {
     "start": 1963.6,
@@ -413,11 +512,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "agi_timeline"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 2243.6,
@@ -427,13 +530,16 @@
     "claim": "If we achieve superintelligent AI that is friendly, it could lead to incredible progress and solutions to many human problems within the next 30 years.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
       "ai_optimism_benefit",
-      "ai_safety_risk"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AGI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2332.6,
@@ -443,11 +549,16 @@
     "claim": "The speaker suggests that society may evolve into different groups with varying relationships to technology and AI, including a religious rejection of AI.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI society",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 2410.2,
@@ -457,12 +568,16 @@
     "claim": "Some people may view superintelligence as a god-like entity, leading to worship, while others fear it could result in suffering risks worse than death.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI risks",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 2479.2,
@@ -472,12 +587,16 @@
     "claim": "The creation of advanced AI and believable virtual realities will likely lead to a predominance of simulated worlds over the physical world.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Simulation hypothesis",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2577.2,
@@ -487,12 +606,16 @@
     "claim": "We are on the verge of creating new intelligent species through AI and virtual realities.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 2651.2,
@@ -502,11 +625,16 @@
     "claim": "We are in a unique and interesting time of meta-invention, particularly with the creation of new beings and worlds through technology.",
     "stance": "Support",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "Meta-invention",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ]
   },
   {
     "start": 2731.8,
@@ -534,11 +662,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "intelligence_nature"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 2907.2,
@@ -548,13 +680,16 @@
     "claim": "The arrival of superintelligent systems will drastically change our reality and the labor market, leading to job losses during the transition.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
       "ai_economics",
       "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI impact on jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2982.7,
@@ -565,12 +700,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "ai_optimism_benefit",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3059.7,
@@ -581,12 +719,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI transition risks",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3167.2,
@@ -597,11 +738,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_economics",
-      "agi_timeline"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3241.3,
@@ -611,13 +756,18 @@
     "claim": "The speaker expresses concern about superintelligence and existential risks, while also suggesting that AI could lead to significant improvements in safety and economic efficiency.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
+      "ai_safety_risk",
       "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI safety and economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "ai_economics"
+    ]
   },
   {
     "start": 3349.0,
@@ -627,13 +777,16 @@
     "claim": "Game theory suggests that any technology promising an advantage will be developed, making it unlikely to slow down AI progress.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_race_power",
-      "geopolitics",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI race and regulation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 3463.2,
@@ -643,13 +796,16 @@
     "claim": "The dangers of superintelligence are significant and harder to sell than the benefits of narrow AI like self-driving cars.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "agi_timeline"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 3588.5,
@@ -659,13 +815,16 @@
     "claim": "The speaker suggests that the narrative around AI being a danger is less compelling than the argument about wealth inequality and exploitation by the rich.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_economics",
-      "other"
+      "ai_race_power",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI risk and economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3670.5,
@@ -675,13 +834,16 @@
     "claim": "Elon Musk shifted from trying to slow down AI development to building it faster due to a realization of his lack of success in convincing others.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "agi_timeline",
-      "other"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3733.6,
@@ -692,11 +854,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_race_power",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI leadership and control",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3842.3,
@@ -707,11 +873,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_race_power"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3954.9,
@@ -722,11 +892,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "hardware_infra"
+    ]
   },
   {
     "start": 4020.8,
@@ -736,12 +910,16 @@
     "claim": "Efforts to slow down technology or control AI development are ineffective and ultimately futile.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 4106.4,
@@ -752,11 +930,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 4169.6,
@@ -766,12 +948,16 @@
     "claim": "Determinism does not allow for the prediction of future actions, even if all physical laws are understood.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "llm_capabilities",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "Determinism and Free Will",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 4246.1,
@@ -781,12 +967,16 @@
     "claim": "The speaker believes that human minds are deterministic and that this perspective leads to a fatalistic view of life, which is incompatible with the idea of slowing down or changing outcomes.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_safety_risk",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Human nature",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4313.8,
@@ -796,12 +986,16 @@
     "claim": "The speaker expresses a belief that the future is predetermined and that emotional responses to suffering are not alleviated by understanding one's lack of free will.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "Nature of free will",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 4389.4,
@@ -812,11 +1006,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4459.2,
@@ -826,12 +1024,16 @@
     "claim": "AGI may not be safely achievable, and efforts should focus on making narrow AI tools safer.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "agi_timeline",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 4524.1,
@@ -841,13 +1043,16 @@
     "claim": "We need to better understand advanced AI systems and their behaviors, but full comprehension may never be possible.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 4629.5,
@@ -858,11 +1063,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI alignment",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4695.0,
@@ -872,13 +1081,16 @@
     "claim": "AGI development should consider the balance of competing systems to avoid risks associated with superintelligence.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "intelligence_nature",
-      "other"
+      "agi_timeline",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 4777.3,
@@ -888,13 +1100,16 @@
     "claim": "The ongoing self-improvement of AI has no upper limit, and there are concerns about AI not aligning with human values.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI alignment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4839.2,
@@ -939,12 +1154,17 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 5059.3,
@@ -954,13 +1174,16 @@
     "claim": "Human contributions to superintelligence are questionable and may lead to unfriendly outcomes for humanity.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5127.7,
@@ -970,12 +1193,16 @@
     "claim": "The only way to build checks and balances into AI is to give it evolutionary rewards and punishments that prioritize human survival and emotional thriving.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5194.2,
@@ -985,12 +1212,16 @@
     "claim": "A superintelligent AI would understand human intentions and emotions better than current systems.",
     "stance": "Support",
     "claim_labels": [
-      "intelligence_nature",
+      "ai_optimism_benefit",
       "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI understanding",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5256.7,
@@ -1001,12 +1232,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "intelligence_nature",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI control problem",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5350.8,
@@ -1016,12 +1250,16 @@
     "claim": "Superintelligent agents may create simulations as part of their problem-solving processes, which could lead to a shared hallucination.",
     "stance": "Neutral",
     "claim_labels": [
-      "agi_timeline",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Superintelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5432.3,
@@ -1031,11 +1269,16 @@
     "claim": "Modifying our genome and rejuvenating organs could allow us to continue existing indefinitely.",
     "stance": "Support",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Human enhancement",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5506.5,
@@ -1062,12 +1305,16 @@
     "claim": "The evolution of intelligence and adaptation requires mechanisms that prevent stagnation, including the eventual death of individuals who do not adapt.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5714.5,
@@ -1077,12 +1324,16 @@
     "claim": "We could enhance intelligence by allowing learning and adaptation throughout life, rather than losing knowledge every generation.",
     "stance": "Support",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "intelligence_nature"
     ],
     "is_claim": true,
     "topic": "Intelligence adaptation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ]
   },
   {
     "start": 5795.4,
@@ -1143,12 +1394,16 @@
     "claim": "The speaker is skeptical about the claim that cancer can be cured with genome editing due to the complexity of cancer.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Ethics of genome editing",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 6134.0,
@@ -1175,12 +1430,16 @@
     "claim": "AI can automate research processes and create junior scientists without needing superintelligence.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6266.2,
@@ -1190,12 +1449,16 @@
     "claim": "The potential for AI systems to negatively impact human relationships and mental health is concerning and could lead to unforeseen problems.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI impact on society",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 6391.9,
@@ -1206,12 +1469,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_optimism_benefit",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI power dynamics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6466.0,
@@ -1222,11 +1488,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ]
   },
   {
     "start": 6542.5,
@@ -1237,12 +1507,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6608.7,
@@ -1253,11 +1526,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Quantum computing",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6686.9,
@@ -1319,12 +1596,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6969.4,
@@ -1334,11 +1614,15 @@
     "claim": "We don't know how to control superintelligent systems, and building them is irresponsible.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ]
   }
 ]

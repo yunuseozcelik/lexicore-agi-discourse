@@ -389,25 +389,13 @@
       "agi_timeline",
       "ai_economics",
       "ai_optimism_benefit",
-      "hardware_infra",
-      "open_source",
-      "scaling_compute",
-      "execution_engineering",
-      "breakthroughs_needed",
-      "llm_capabilities",
-      "ai_race_power"
+      "hardware_infra"
     ],
     "claim_labels_auto": [
       "agi_timeline",
       "ai_economics",
       "ai_optimism_benefit",
-      "hardware_infra",
-      "open_source",
-      "scaling_compute",
-      "execution_engineering",
-      "breakthroughs_needed",
-      "llm_capabilities",
-      "ai_race_power"
+      "hardware_infra"
     ]
   },
   {
@@ -442,30 +430,12 @@
     "claim_labels": [
       "agi_timeline",
       "ai_optimism_benefit",
-      "ai_economics",
-      "hardware_infra",
-      "execution_engineering",
-      "geopolitics",
-      "open_source",
-      "scaling_compute",
-      "ai_race_power",
-      "llm_capabilities",
-      "breakthroughs_needed",
-      "ai_safety_risk"
+      "ai_economics"
     ],
     "claim_labels_auto": [
       "agi_timeline",
       "ai_optimism_benefit",
-      "ai_economics",
-      "hardware_infra",
-      "execution_engineering",
-      "geopolitics",
-      "open_source",
-      "scaling_compute",
-      "ai_race_power",
-      "llm_capabilities",
-      "breakthroughs_needed",
-      "ai_safety_risk"
+      "ai_economics"
     ]
   },
   {
@@ -520,12 +490,7 @@
       "scaling_compute",
       "ai_safety_risk",
       "execution_engineering",
-      "ai_race_power",
-      "open_source",
-      "llm_capabilities",
-      "agi_timeline",
-      "geopolitics",
-      "hardware_infra"
+      "ai_race_power"
     ],
     "claim_labels_auto": [
       "ai_economics",
@@ -533,12 +498,7 @@
       "scaling_compute",
       "ai_safety_risk",
       "execution_engineering",
-      "ai_race_power",
-      "open_source",
-      "llm_capabilities",
-      "agi_timeline",
-      "geopolitics",
-      "hardware_infra"
+      "ai_race_power"
     ]
   },
   {
@@ -589,27 +549,11 @@
     "confidence": "medium",
     "claim_labels": [
       "open_source",
-      "ai_economics",
-      "ai_optimism_benefit",
-      "llm_capabilities",
-      "geopolitics",
-      "execution_engineering",
-      "ai_race_power",
-      "ai_safety_risk",
-      "breakthroughs_needed",
-      "scaling_compute"
+      "ai_economics"
     ],
     "claim_labels_auto": [
       "open_source",
-      "ai_economics",
-      "ai_optimism_benefit",
-      "llm_capabilities",
-      "geopolitics",
-      "execution_engineering",
-      "ai_race_power",
-      "ai_safety_risk",
-      "breakthroughs_needed",
-      "scaling_compute"
+      "ai_economics"
     ]
   },
   {
@@ -675,13 +619,11 @@
     "confidence": "medium",
     "claim_labels": [
       "ai_economics",
-      "ai_race_power",
-      "ai_optimism_benefit"
+      "ai_race_power"
     ],
     "claim_labels_auto": [
       "ai_economics",
-      "ai_race_power",
-      "ai_optimism_benefit"
+      "ai_race_power"
     ]
   },
   {
@@ -958,22 +900,12 @@
     "claim_labels": [
       "ai_economics",
       "open_source",
-      "geopolitics",
-      "ai_race_power",
-      "ai_optimism_benefit",
-      "execution_engineering",
-      "llm_capabilities",
-      "hardware_infra"
+      "geopolitics"
     ],
     "claim_labels_auto": [
       "ai_economics",
       "open_source",
-      "geopolitics",
-      "ai_race_power",
-      "ai_optimism_benefit",
-      "execution_engineering",
-      "llm_capabilities",
-      "hardware_infra"
+      "geopolitics"
     ]
   },
   {
@@ -988,21 +920,11 @@
     "confidence": "medium",
     "claim_labels": [
       "ai_economics",
-      "open_source",
-      "geopolitics",
-      "ai_race_power",
-      "llm_capabilities",
-      "ai_optimism_benefit",
-      "hardware_infra"
+      "open_source"
     ],
     "claim_labels_auto": [
       "ai_economics",
-      "open_source",
-      "geopolitics",
-      "ai_race_power",
-      "llm_capabilities",
-      "ai_optimism_benefit",
-      "hardware_infra"
+      "open_source"
     ]
   },
   {
@@ -1017,19 +939,11 @@
     "confidence": "medium",
     "claim_labels": [
       "ai_economics",
-      "ai_optimism_benefit",
-      "geopolitics",
-      "execution_engineering",
-      "hardware_infra",
-      "open_source"
+      "ai_optimism_benefit"
     ],
     "claim_labels_auto": [
       "ai_economics",
-      "ai_optimism_benefit",
-      "geopolitics",
-      "execution_engineering",
-      "hardware_infra",
-      "open_source"
+      "ai_optimism_benefit"
     ]
   },
   {
@@ -1216,15 +1130,11 @@
     "confidence": "medium",
     "claim_labels": [
       "geopolitics",
-      "llm_capabilities",
-      "execution_engineering",
-      "ai_optimism_benefit"
+      "llm_capabilities"
     ],
     "claim_labels_auto": [
       "geopolitics",
-      "llm_capabilities",
-      "execution_engineering",
-      "ai_optimism_benefit"
+      "llm_capabilities"
     ]
   },
   {

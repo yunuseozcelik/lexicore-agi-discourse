@@ -7,12 +7,16 @@
     "claim": "Classical learning systems might surprise us with their capabilities in modeling complex systems like fluid dynamics.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 68.7,
@@ -56,12 +60,16 @@
     "claim": "Natural systems shaped by evolutionary processes can be efficiently modeled, suggesting a pattern that aids in predicting solutions.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 287.5,
@@ -71,13 +79,16 @@
     "claim": "Natural systems have structure that can be learned by neural networks, unlike random patterns which may require brute force methods.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
       "intelligence_nature",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 365.9,
@@ -87,12 +98,16 @@
     "claim": "Demis Hassabis believes that the universe can be understood as an informational system, which relates to the P equals NP question.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "llm_capabilities",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Nature of Intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 434.7,
@@ -102,12 +117,16 @@
     "claim": "There are a huge class of problems that can be modeled and solved using advanced AI techniques like those used in AlphaGo and AlphaFold.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI problem-solving",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 508.9,
@@ -118,12 +137,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 578.2,
@@ -133,11 +155,16 @@
     "claim": "Emergent systems and chaotic systems present open questions for classical modeling.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "Modeling complexity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 656.6,
@@ -148,12 +175,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI purpose",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 720.9,
@@ -164,11 +194,15 @@
     "stance": "Support",
     "claim_labels": [
       "breakthroughs_needed",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Problem-solving in AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ]
   },
   {
     "start": 784.0,
@@ -178,12 +212,16 @@
     "claim": "Classical learning systems might surprise us with their capabilities in modeling complex phenomena like fluid dynamics.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 847.9,
@@ -194,11 +232,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "execution_engineering"
+    ]
   },
   {
     "start": 910.8,
@@ -208,13 +250,16 @@
     "claim": "The rate of progress in AI is incredible, and future systems will be able to generate highly realistic video.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_optimism_benefit",
-      "agi_timeline"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 982.6,
@@ -224,12 +269,16 @@
     "claim": "Current AI systems exhibit an intuitive understanding of physics similar to that of a human child.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "intelligence_nature"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1044.0,
@@ -239,13 +288,16 @@
     "claim": "Understanding intuitive physics can be achieved through passive observation rather than requiring embodied intelligence or robotics.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1115.3,
@@ -256,12 +308,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 1182.6,
@@ -271,12 +326,16 @@
     "claim": "AI systems today could enable the creation of unique and compelling open-world games that adapt to player interactions.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI in gaming",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1250.3,
@@ -287,12 +346,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
       "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1315.3,
@@ -319,13 +381,16 @@
     "claim": "The development of fully general learning systems is a continuation of early AI work in games.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1452.2,
@@ -336,11 +401,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1521.1,
@@ -351,11 +420,17 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI and video games",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics"
+    ]
   },
   {
     "start": 1585.1,
@@ -365,11 +440,16 @@
     "claim": "Video games can create rich, meaningful experiences and allow players to co-create stories, making them a unique entertainment medium.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Video Games",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1652.3,
@@ -431,12 +511,15 @@
     "stance": "Support",
     "claim_labels": [
       "llm_capabilities",
-      "breakthroughs_needed",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI techniques",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1910.1,
@@ -446,12 +529,16 @@
     "claim": "There is potential for hybrid systems that combine evolutionary methods and search algorithms to enhance AI capabilities.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1982.0,
@@ -461,12 +548,16 @@
     "claim": "AI systems can go beyond current knowledge through mechanisms like evolutionary computing and creativity, which is relevant for scientific discovery.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 2050.7,
@@ -476,12 +567,16 @@
     "claim": "Evolutionary systems can lead to new emergent capabilities, which is a significant aspect of their potential.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_race_power"
+    ]
   },
   {
     "start": 2115.3,
@@ -491,13 +586,16 @@
     "claim": "Combining foundation models with evolutionary systems may lead to new capabilities and emergent properties in AI.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "open_source",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2178.4,
@@ -507,11 +605,16 @@
     "claim": "Modeling natural systems like a cell is a significant goal in AI research.",
     "stance": "Support",
     "claim_labels": [
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI research",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2250.4,
@@ -521,12 +624,16 @@
     "claim": "AI systems may struggle to replicate the 'taste' or judgment necessary for great scientific discovery.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2317.0,
@@ -536,12 +643,16 @@
     "claim": "Current AI systems cannot generate deep mathematical conjectures, which is a significant challenge for future AI development.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 2382.0,
@@ -551,11 +662,16 @@
     "claim": "The process of advancing science through hypothesis testing is highly creative and valuable, regardless of success or failure.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Scientific process",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2444.8,
@@ -599,12 +715,16 @@
     "claim": "Modeling the full internals of a cell for virtual experiments could significantly speed up biological research.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI in biology",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 2647.2,
@@ -666,12 +786,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2918.3,
@@ -699,11 +822,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3050.8,
@@ -735,7 +862,11 @@
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3183.6,
@@ -746,12 +877,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 3251.2,
@@ -761,12 +895,18 @@
     "claim": "Humans have limits in intelligence and performance across various domains, which may affect perceptions of AI advancements.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Human intelligence limits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3313.1,
@@ -777,12 +917,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI indicators",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3380.5,
@@ -792,12 +935,16 @@
     "claim": "Humans may struggle to fully understand complex ideas generated by advanced AI, even if experts can explain them afterwards.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI understanding",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3457.4,
@@ -807,12 +954,16 @@
     "claim": "Understanding and explaining complex ideas is a key aspect of intelligence, and games can serve as a scientific test for strategies.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "execution_engineering",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "Intelligence and Games",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_race_power"
+    ]
   },
   {
     "start": 3537.2,
@@ -823,11 +974,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3600.2,
@@ -837,13 +992,20 @@
     "claim": "Current AI systems are not advanced enough to autonomously create complex architectures or solve vague high-level tasks effectively.",
     "stance": "Refute",
     "claim_labels": [
+      "execution_engineering",
       "llm_capabilities",
       "breakthroughs_needed",
-      "agi_timeline"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities",
+      "breakthroughs_needed",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3664.3,
@@ -854,12 +1016,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "breakthroughs_needed",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 3726.4,
@@ -869,13 +1034,20 @@
     "claim": "Current AI systems can achieve incremental improvements but may require additional breakthroughs for significant leaps in capability.",
     "stance": "Refute",
     "claim_labels": [
+      "scaling_compute",
       "breakthroughs_needed",
-      "llm_capabilities",
-      "scaling_compute"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 3793.3,
@@ -886,12 +1058,21 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source",
       "breakthroughs_needed",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI scaling and research",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source",
+      "breakthroughs_needed",
+      "execution_engineering"
+    ]
   },
   {
     "start": 3860.0,
@@ -902,13 +1083,19 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "breakthroughs_needed",
       "scaling_compute",
-      "execution_engineering"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 3925.8,
@@ -919,13 +1106,17 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "execution_engineering",
-      "geopolitics",
-      "other"
+      "agi_timeline",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "Data and compute",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3993.5,
@@ -936,12 +1127,15 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "llm_capabilities",
-      "ai_optimism_benefit"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "Compute scaling",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ]
   },
   {
     "start": 4060.2,
@@ -952,11 +1146,23 @@
     "stance": "Neutral",
     "claim_labels": [
       "hardware_infra",
-      "other"
+      "execution_engineering",
+      "scaling_compute",
+      "breakthroughs_needed",
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI hardware",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "hardware_infra",
+      "execution_engineering",
+      "scaling_compute",
+      "breakthroughs_needed",
+      "open_source",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4121.7,
@@ -967,11 +1173,17 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "scaling_compute",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI and energy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ]
   },
   {
     "start": 4187.4,
@@ -981,12 +1193,16 @@
     "claim": "If we solve energy problems, it could lead to significant advancements in technology and society.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Energy solutions",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4251.4,
@@ -997,11 +1213,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI and space exploration",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4315.1,
@@ -1011,12 +1231,16 @@
     "claim": "The arrival of advanced technology could lead to a new era of radical abundance, alleviating resource constraints for humanity.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI benefits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ]
   },
   {
     "start": 4381.0,
@@ -1111,13 +1335,22 @@
     "claim": "The competitive nature and collaboration in AI research are driving significant progress.",
     "stance": "Support",
     "claim_labels": [
-      "scaling_compute",
       "ai_race_power",
-      "other"
+      "scaling_compute",
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "scaling_compute",
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4783.9,
@@ -1145,11 +1378,19 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "ai_economics",
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI impact",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4911.3,
@@ -1193,12 +1434,16 @@
     "claim": "The development of AI models is rapidly evolving and requires continuous simplification in user interfaces and interactions.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5115.1,
@@ -1208,13 +1453,16 @@
     "claim": "AI models are rapidly improving and will continue to become more capable in the near future.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5185.3,
@@ -1224,12 +1472,16 @@
     "claim": "The current interfaces for interacting with AI are archaic and will evolve significantly in the near future, enhancing collaboration and bandwidth.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI interfaces",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "agi_timeline"
+    ]
   },
   {
     "start": 5255.4,
@@ -1239,12 +1491,16 @@
     "claim": "AI will likely lead to the development of personalized, aesthetically pleasing interfaces.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI interfaces",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5318.7,
@@ -1306,12 +1562,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "execution_engineering"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5581.9,
@@ -1321,13 +1580,16 @@
     "claim": "Building general systems that perform well across multiple tasks is a complex optimization problem.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5645.1,
@@ -1337,12 +1599,16 @@
     "claim": "It's concerning that a more intelligent model may not perform well across all tasks, leading to trust issues with benchmarks.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5706.1,
@@ -1352,12 +1618,18 @@
     "claim": "Winning in AI development is the wrong way to look at it given the importance of what we are building.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_race_power",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 5770.7,
@@ -1367,13 +1639,16 @@
     "claim": "We have a responsibility to steward AGI safely for the benefit of humanity, recognizing both its potential for good and its risks.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_optimism_benefit",
-      "agi_timeline"
+      "agi_timeline",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5836.4,
@@ -1384,12 +1659,17 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "ai_safety_risk",
-      "other"
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI collaboration",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 5903.1,
@@ -1400,11 +1680,17 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "open_source",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI benefits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5967.0,
@@ -1414,13 +1700,16 @@
     "claim": "AGI has the potential to bring significant benefits to society, and those who believe in its mission are motivated by the responsibility it entails.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI benefits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6044.5,
@@ -1431,12 +1720,19 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_optimism_benefit",
-      "ai_economics"
+      "ai_economics",
+      "open_source",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI importance",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics",
+      "open_source",
+      "hardware_infra"
+    ]
   },
   {
     "start": 6106.6,
@@ -1447,12 +1743,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_economics",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AGI impact on jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics"
+    ]
   },
   {
     "start": 6169.6,
@@ -1462,12 +1761,22 @@
     "claim": "In the next five to ten years, those who embrace AI technologies will become superhumanly productive, significantly enhancing their skills.",
     "stance": "Support",
     "claim_labels": [
+      "execution_engineering",
+      "scaling_compute",
       "ai_optimism_benefit",
-      "other"
+      "ai_economics",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI productivity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 6236.2,
@@ -1477,13 +1786,16 @@
     "claim": "Coding will become easier and more accessible to creatives, but top programmers will still have advantages in guiding coding assistants.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_optimism_benefit",
-      "other"
+      "open_source",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 6304.8,
@@ -1494,11 +1806,21 @@
     "stance": "Support",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "breakthroughs_needed",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI impact on jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "breakthroughs_needed",
+      "execution_engineering"
+    ]
   },
   {
     "start": 6366.6,
@@ -1509,11 +1831,21 @@
     "stance": "Support",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI impact",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 6439.4,
@@ -1523,12 +1855,16 @@
     "claim": "We need to improve our political systems to effectively leverage rapidly changing technologies like AI.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI and politics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6500.5,
@@ -1538,12 +1874,16 @@
     "claim": "New governance structures and increased resource abundance are essential for managing the transition to AGI.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "agi_timeline",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI governance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 6569.4,
@@ -1587,13 +1927,26 @@
     "claim": "AI has the potential to solve significant problems but also comes with risks, and its impact will be greater than the industrial revolution.",
     "stance": "Neutral",
     "claim_labels": [
+      "ai_economics",
       "ai_optimism_benefit",
       "ai_safety_risk",
-      "other"
+      "open_source",
+      "agi_timeline",
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI impact",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6767.1,
@@ -1603,12 +1956,16 @@
     "claim": "We need to incorporate a spiritual or humanist dimension into our approach to powerful technology, beyond just cold reason.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI ethics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6831.4,
@@ -1635,13 +1992,16 @@
     "claim": "AGI will be used for various purposes, including conflict, and society must engage in discussions about it to adapt.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_optimism_benefit",
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI integration",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6970.7,
@@ -1651,13 +2011,16 @@
     "claim": "There is a risk that states may misuse AI technology as weapons, but collaboration and responsible research are preferable.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "geopolitics",
-      "other"
+      "open_source",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 7036.9,
@@ -1684,14 +2047,16 @@
     "claim": "The future of AGI is highly uncertain, with both potential benefits and significant risks.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_optimism_benefit",
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7162.7,
@@ -1702,12 +2067,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "ai_safety_risk",
-      "agi_timeline"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 7228.0,
@@ -1718,12 +2086,17 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "open_source",
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7292.5,
@@ -1734,12 +2107,17 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "geopolitics",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7356.4,
@@ -1749,13 +2127,18 @@
     "claim": "Human ingenuity will continue to play a crucial role in solving problems alongside AI tools in the foreseeable future.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
       "ai_optimism_benefit",
-      "intelligence_nature"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI collaboration",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7438.1,
@@ -1765,12 +2148,16 @@
     "claim": "Building AI and comparing it to the human mind will help uncover what makes humans special.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7500.9,
@@ -1780,12 +2167,16 @@
     "claim": "Understanding consciousness and its relationship to information processing is a complex journey that may reveal insights about AGI.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Consciousness and AGI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7571.6,
@@ -1795,12 +2186,16 @@
     "claim": "Consciousness is likely a product of classical computing, which suggests it can be modeled by classical computers.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Consciousness and AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7649.9,
@@ -1810,12 +2205,16 @@
     "claim": "We may not be able to understand AI's consciousness or feelings due to its different substrate, even if it behaves like a conscious being.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI consciousness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 7712.2,
@@ -1825,12 +2224,16 @@
     "claim": "We may be able to empathize with computers and understand their processing through brain-computer interfaces.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Empathy with AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7775.4,
@@ -1841,12 +2244,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "intelligence_nature",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7841.1,
@@ -1857,11 +2263,17 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "ai_economics",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI adaptation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7908.6,
@@ -1940,11 +2352,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "intelligence_nature",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8237.6,

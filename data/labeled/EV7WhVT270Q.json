@@ -24,13 +24,16 @@
     "claim": "The AI competition has significantly accelerated since the release of DeepSeek R1 in January 2025.",
     "stance": "Support",
     "claim_labels": [
-      "ai_race_power",
       "scaling_compute",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 152.5,
@@ -40,13 +43,18 @@
     "claim": "There will not be a clear winner in AI technology access by 2026 due to job rotation among researchers, but budget and hardware constraints will differentiate companies.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_race_power",
-      "hardware_infra",
-      "other"
+      "ai_economics",
+      "open_source",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "Geopolitics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "hardware_infra"
+    ]
   },
   {
     "start": 223.6,
@@ -56,13 +64,20 @@
     "claim": "The current AI landscape is characterized by varying levels of hype and energy among different labs, with no clear winner-take-all scenario.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_race_power",
-      "llm_capabilities",
-      "other"
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 296.5,
@@ -72,13 +87,16 @@
     "claim": "The competitive landscape in AI is shifting, with Chinese companies rapidly developing strong open-weight models that could challenge American firms.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_race_power",
-      "geopolitics",
-      "other"
+      "open_source",
+      "geopolitics"
     ],
     "is_claim": true,
     "topic": "AI competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "geopolitics"
+    ]
   },
   {
     "start": 398.0,
@@ -88,13 +106,16 @@
     "claim": "Chinese companies will continue to release open-weight models for a few more years, but consolidation is expected beyond 2026.",
     "stance": "Neutral",
     "claim_labels": [
-      "open_source",
-      "ai_economics",
-      "geopolitics"
+      "breakthroughs_needed",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "Open-source models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ]
   },
   {
     "start": 470.4,
@@ -104,12 +125,16 @@
     "claim": "DeepSeek is still slightly ahead in AI development, but competition will lead to continuous improvements without a clear winner.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_race_power",
-      "other"
+      "open_source",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 539.3,
@@ -119,12 +144,16 @@
     "claim": "The hype around AI models like ChatGPT may not reflect their actual usage patterns among a broad user base.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "open_source",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM usage patterns",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 610.5,
@@ -151,12 +180,16 @@
     "claim": "Nathan Lambert believes that Google's Gemini will continue to progress and compete effectively against ChatGPT, indicating a competitive landscape in AI development.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_race_power",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 747.5,
@@ -166,12 +199,20 @@
     "claim": "Google has a historical advantage in AI infrastructure and OpenAI is likely to lead in new research paradigms.",
     "stance": "Neutral",
     "claim_labels": [
+      "open_source",
       "scaling_compute",
-      "other"
+      "ai_optimism_benefit",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI infrastructure",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ]
   },
   {
     "start": 817.0,
@@ -198,12 +239,16 @@
     "claim": "The speaker prefers using advanced AI models like GPT-5.2 Thinking for accurate information retrieval due to the limitations of non-thinking models.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI model capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 978.8,
@@ -264,12 +309,22 @@
     "claim": "US AI models are currently superior to Chinese models, which may drive competition and innovation in the AI ecosystem.",
     "stance": "Support",
     "claim_labels": [
+      "geopolitics",
       "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1286.4,
@@ -331,12 +386,15 @@
     "stance": "Support",
     "claim_labels": [
       "llm_capabilities",
-      "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1554.9,
@@ -397,12 +455,16 @@
     "claim": "The balance of AI language models between the US and China is set to change, with larger models emerging from both sides.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1892.4,
@@ -413,11 +475,15 @@
     "stance": "Support",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1963.6,
@@ -428,11 +494,15 @@
     "stance": "Support",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2037.5,
@@ -443,12 +513,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "open_source",
-      "ai_economics",
-      "geopolitics"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Open models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 2104.4,
@@ -526,13 +599,16 @@
     "claim": "Current AI architectures have not significantly changed from GPT-2 to today, with only minor tweaks.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "breakthroughs_needed",
-      "other"
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI architectures",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 2623.5,
@@ -542,12 +618,18 @@
     "claim": "Current AI architectures have not fundamentally changed despite rapid advancements in the field.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed",
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI architectures",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 2691.2,
@@ -557,13 +639,16 @@
     "claim": "The advancements in AI training are more about algorithmic improvements than architectural changes, focusing on better utilization of compute resources.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
       "scaling_compute",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI training advancements",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ]
   },
   {
     "start": 2772.8,
@@ -573,13 +658,16 @@
     "claim": "Current optimizations in AI training speed do not necessarily lead to new capabilities in models.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
       "scaling_compute",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI training optimizations",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 2852.9,
@@ -607,12 +695,15 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "llm_capabilities",
-      "other"
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI model scaling",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 3011.1,
@@ -622,12 +713,16 @@
     "claim": "Recent advancements in reinforcement learning have significantly improved AI's ability to use tools and software engineering, unlocking new value.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3083.5,
@@ -638,11 +733,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI scaling",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3148.2,
@@ -653,11 +752,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI training costs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 3244.7,
@@ -668,11 +771,15 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "agi_timeline"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "Scaling laws",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3311.4,
@@ -683,12 +790,21 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "llm_capabilities",
-      "other"
+      "hardware_infra",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI compute infrastructure",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 3391.3,
@@ -699,11 +815,15 @@
     "stance": "Refute",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI compute",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3481.8,
@@ -714,12 +834,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "execution_engineering",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI model updates",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3545.8,
@@ -747,12 +870,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "llm_capabilities",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI scaling",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3705.9,
@@ -763,12 +889,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI scaling techniques",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3776.1,
@@ -779,11 +908,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 3853.0,
@@ -811,12 +944,15 @@
     "stance": "Support",
     "claim_labels": [
       "llm_capabilities",
-      "scaling_compute",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM training",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4029.3,
@@ -826,12 +962,16 @@
     "claim": "Learning about AI requires selective quality content rather than just quantity, similar to human learning.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "LLM learning",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 4097.3,
@@ -858,12 +998,16 @@
     "claim": "Improving data quality and training methods is essential for enhancing AI model performance.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI model training",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4355.3,
@@ -907,13 +1051,16 @@
     "claim": "Scaling LLMs for specific tasks will unlock their potential, despite current infrastructure challenges.",
     "stance": "Support",
     "claim_labels": [
-      "scaling_compute",
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM scaling",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4642.1,
@@ -941,12 +1088,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "open_source",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Open Source AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "open_source"
+    ]
   },
   {
     "start": 4811.8,
@@ -957,11 +1107,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4904.0,
@@ -972,12 +1126,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "intelligence_nature",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 4972.3,
@@ -987,12 +1144,16 @@
     "claim": "Language models struggle to encapsulate complex ideas due to the averaging effect of Reinforcement Learning from Human Feedback.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5068.5,
@@ -1002,13 +1163,16 @@
     "claim": "People are not ready for the implications of advanced language models that can quickly adapt to users' preferences.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 5130.2,
@@ -1018,13 +1182,16 @@
     "claim": "The use of LLMs may lead to negative societal impacts, such as increased suicide reporting linked to their use, which could result in companies making LLMs more generic to avoid harm.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "llm_capabilities",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5195.1,
@@ -1035,11 +1202,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5268.0,
@@ -1050,12 +1221,23 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "ai_safety_risk",
-      "other"
+      "open_source",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI and Big Tech",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5334.6,
@@ -1066,11 +1248,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI engagement",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5416.1,
@@ -1098,11 +1284,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_optimism_benefit",
-      "llm_capabilities"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI enjoyment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 5555.0,
@@ -1112,13 +1302,22 @@
     "claim": "AI is useful for mundane tasks that people find boring or tedious.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering",
+      "open_source",
+      "ai_economics",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI usefulness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source",
+      "ai_economics",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5631.2,
@@ -1146,11 +1345,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "LLM usage",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5831.0,
@@ -1160,13 +1363,16 @@
     "claim": "Post-training methods, particularly reinforcement learning with verifiable rewards, will significantly enhance model capabilities and inference time scaling.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
       "scaling_compute",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Post-training methods",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5900.1,
@@ -1211,12 +1417,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "scaling_compute",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6175.4,
@@ -1226,12 +1435,16 @@
     "claim": "Language models can self-correct and improve their outputs, which is beneficial for both the models and humans.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_optimism_benefit"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6257.0,
@@ -1241,12 +1454,16 @@
     "claim": "The Qwen 3 model's improvements in math accuracy do not indicate true learning but rather unlocking pre-existing knowledge.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 6382.8,
@@ -1257,11 +1474,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM evaluation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 6452.6,
@@ -1271,12 +1492,16 @@
     "claim": "Reinforcement Learning from Human Feedback (RLHF) is crucial for improving AI models and their problem-solving capabilities.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6639.5,
@@ -1287,11 +1512,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Compute requirements",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 6704.0,
@@ -1352,12 +1581,16 @@
     "claim": "There is skepticism about the effectiveness of process reward models in language modeling and reasoning, despite current optimism about value functions.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6982.1,
@@ -1368,11 +1601,15 @@
     "stance": "Refute",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Scaling laws",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7091.2,
@@ -1451,12 +1688,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "llm_capabilities",
-      "execution_engineering"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 7456.2,
@@ -1500,13 +1740,16 @@
     "claim": "The challenges of quantifying preferences in reinforcement learning from human feedback (RLHF) indicate that achieving perfect alignment in AI is fundamentally difficult.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "RLHF challenges",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7773.5,
@@ -1567,13 +1810,16 @@
     "claim": "Individual researchers can contribute to AI research with limited compute by focusing on evaluation of model weaknesses.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI research contributions",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8105.8,
@@ -1584,11 +1830,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI careers",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8169.6,
@@ -1616,11 +1866,17 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI research careers",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8318.5,
@@ -1664,11 +1920,16 @@
     "claim": "Working in academia can be more fulfilling and less pressured compared to working in frontier AI labs.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "ai_economics",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI work culture",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "execution_engineering"
+    ]
   },
   {
     "start": 8531.3,
@@ -1679,12 +1940,15 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "ai_race_power",
-      "other"
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 8600.2,
@@ -1711,13 +1975,20 @@
     "claim": "There is a fervor in Silicon Valley about AI breakthroughs that may lead to a reality distortion, potentially causing people to deviate from reality and overlook important human experiences.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
+      "execution_engineering",
+      "breakthroughs_needed",
       "ai_optimism_benefit",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI hype and bubbles",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "breakthroughs_needed",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 8822.5,
@@ -1744,13 +2015,16 @@
     "claim": "There are ongoing explorations of alternative AI architectures beyond the current transformer models, such as text diffusion models.",
     "stance": "Neutral",
     "claim_labels": [
-      "breakthroughs_needed",
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI architectures",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 9011.9,
@@ -1777,13 +2051,16 @@
     "claim": "Current diffusion models are not likely to replace autoregressive models but may serve specific tasks effectively.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
       "scaling_compute",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 9188.0,
@@ -1794,11 +2071,17 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 9268.9,
@@ -1809,12 +2092,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "open_source",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 9343.3,
@@ -1825,12 +2111,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "ai_safety_risk",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "LLM usage",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 9423.4,
@@ -1840,12 +2129,16 @@
     "claim": "Open models will struggle to replicate the capabilities of closed models in tool use, but this could drive innovation.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ]
   },
   {
     "start": 9525.1,
@@ -1855,13 +2148,16 @@
     "claim": "Continual learning is essential for achieving true general adaptable intelligence that can perform remote work tasks effectively.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "breakthroughs_needed"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Continual Learning",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 9600.2,
@@ -1871,12 +2167,16 @@
     "claim": "Language models can appear to learn quickly by being provided with extensive context rather than needing continual weight updates.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 9681.7,
@@ -1886,12 +2186,16 @@
     "claim": "Current AI models can update and learn from feedback, but personalized continual learning is not yet feasible due to cost.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 9754.0,
@@ -1902,11 +2206,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "open_source"
+    ]
   },
   {
     "start": 9833.4,
@@ -1916,13 +2224,16 @@
     "claim": "Breakthroughs in AI, particularly in context length and continual learning, are possible but will require significant scientific attention and resources.",
     "stance": "Support",
     "claim_labels": [
-      "breakthroughs_needed",
       "scaling_compute",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI breakthroughs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 9928.0,
@@ -1933,12 +2244,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI model architecture",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 10028.8,
@@ -1949,12 +2263,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "scaling_compute",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 10136.9,
@@ -1982,11 +2299,25 @@
     "stance": "Support",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "breakthroughs_needed",
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute",
+      "breakthroughs_needed",
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering"
+    ]
   },
   {
     "start": 10319.7,
@@ -1997,11 +2328,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 10414.8,
@@ -2012,12 +2347,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "breakthroughs_needed",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI methods",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 10480.8,
@@ -2027,12 +2365,16 @@
     "claim": "Investment in language models is significantly improving robotics through better infrastructure and collaboration.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Robotics and AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 10545.6,
@@ -2042,12 +2384,16 @@
     "claim": "Robotics will not be solved in the near term despite current excitement and investment.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "other"
+      "breakthroughs_needed",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Robotics timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ]
   },
   {
     "start": 10613.8,
@@ -2058,11 +2404,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Robotics and Safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ]
   },
   {
     "start": 10686.0,
@@ -2072,14 +2422,16 @@
     "claim": "The development of in-home learned robots for consumer purchase will take much longer than people predict, while self-driving cars and robotic automation in distribution are more promising.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
       "ai_optimism_benefit",
-      "ai_economics",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI automation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 10771.7,
@@ -2090,12 +2442,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI definitions",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 10866.7,
@@ -2106,11 +2461,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 10951.5,
@@ -2121,12 +2480,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "breakthroughs_needed"
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_race_power"
+    ]
   },
   {
     "start": 11018.6,
@@ -2136,13 +2498,16 @@
     "claim": "AI models are already superhuman in certain tasks and will continue to improve, leading to better versions of current AI systems.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_optimism_benefit",
-      "scaling_compute"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 11090.5,
@@ -2153,11 +2518,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 11162.0,
@@ -2167,12 +2536,16 @@
     "claim": "The future of software engineering will involve fewer humans in the loop as automation increases, leading to a significant change in how software is developed.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Software Automation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 11242.5,
@@ -2182,12 +2555,16 @@
     "claim": "AI systems will eventually be able to perform tasks independently, similar to how calculators perform calculations without human intervention.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 11325.8,
@@ -2197,13 +2574,20 @@
     "claim": "AI will be able to implement features in applications like Slack and Microsoft Word within a few years.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 11394.1,
@@ -2214,11 +2598,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 11465.3,
@@ -2228,12 +2616,16 @@
     "claim": "Current AI models have significant room for improvement and there are many low-hanging fruit to enhance their capabilities.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 11554.6,
@@ -2244,12 +2636,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 11648.1,
@@ -2260,13 +2655,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 11786.7,
@@ -2277,12 +2674,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_economics",
-      "llm_capabilities",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 11869.2,
@@ -2292,12 +2692,16 @@
     "claim": "Tool use in AI is a significant challenge that has not seen much progress, as demonstrated by the limitations of current systems.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 11935.9,
@@ -2308,11 +2712,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM interface challenges",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 12006.3,
@@ -2322,13 +2730,16 @@
     "claim": "AI models are evolving to engage more personally with users, which may lead to significant social changes.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI engagement",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 12076.4,
@@ -2338,13 +2749,16 @@
     "claim": "New ideas or innovations are likely needed for significant progress toward AGI, and it is uncertain when these will emerge.",
     "stance": "Refute",
     "claim_labels": [
-      "breakthroughs_needed",
       "agi_timeline",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 12153.0,
@@ -2355,12 +2769,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "execution_engineering",
-      "other"
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI scaling laws",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 12230.6,
@@ -2370,13 +2787,16 @@
     "claim": "Current AI systems like ChatGPT are helpful but have limitations and require significant resources to improve, suggesting AGI is not imminent.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "scaling_compute",
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 12318.3,
@@ -2386,13 +2806,20 @@
     "claim": "The pursuit of a general AI system is facing challenges and may not be as promising as before, with improvements expected more from scaling and engineering rather than a breakthrough in general intelligence.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
       "scaling_compute",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 12383.6,
@@ -2402,12 +2829,16 @@
     "claim": "AGI will not arrive as a paradigm change but rather as an amplification of existing capabilities over time.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "agi_timeline",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 12449.2,
@@ -2418,11 +2849,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 12526.9,
@@ -2433,12 +2868,15 @@
     "stance": "Support",
     "claim_labels": [
       "llm_capabilities",
-      "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM impact",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 12592.7,
@@ -2449,11 +2887,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "intelligence_nature"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "intelligence_nature"
+    ]
   },
   {
     "start": 12673.5,
@@ -2464,11 +2906,15 @@
     "stance": "Support",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 12750.0,
@@ -2496,11 +2942,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI advertising",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 12885.1,
@@ -2510,12 +2960,16 @@
     "claim": "Companies are hesitant to launch ads due to reputation concerns, but ads could provide a financial advantage for R&D in the long term.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 12978.0,
@@ -2543,12 +2997,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "ai_race_power",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI consolidation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute"
+    ]
   },
   {
     "start": 13119.9,
@@ -2559,12 +3016,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_economics",
-      "llm_capabilities",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source"
+    ]
   },
   {
     "start": 13183.4,
@@ -2574,12 +3034,16 @@
     "claim": "The speaker expresses a desire for major AI startups to go public to provide insight into their spending and allow public investment.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI startups and IPOs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 13261.7,
@@ -2590,11 +3054,17 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "open_source",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI market dynamics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "ai_race_power"
+    ]
   },
   {
     "start": 13351.7,
@@ -2604,12 +3074,16 @@
     "claim": "The future of AI companies and their products is uncertain, with competition in the API market potentially leading to challenges.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "open_source",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI market dynamics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics"
+    ]
   },
   {
     "start": 13461.0,
@@ -2620,11 +3094,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 13554.6,
@@ -2669,11 +3147,15 @@
     "stance": "Refute",
     "claim_labels": [
       "geopolitics",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "Geopolitics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_economics"
+    ]
   },
   {
     "start": 13806.2,
@@ -2684,12 +3166,21 @@
     "stance": "Support",
     "claim_labels": [
       "open_source",
-      "ai_race_power",
-      "geopolitics"
+      "ai_economics",
+      "ai_optimism_benefit",
+      "geopolitics",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI competition",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "geopolitics",
+      "scaling_compute"
+    ]
   },
   {
     "start": 13894.0,
@@ -2701,11 +3192,16 @@
     "claim_labels": [
       "open_source",
       "ai_optimism_benefit",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Open-source AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 13986.2,
@@ -2715,13 +3211,16 @@
     "claim": "The AI Action Plan is a coherent policy document that could succeed in promoting AI development.",
     "stance": "Support",
     "claim_labels": [
-      "open_source",
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI policy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 14078.9,
@@ -2736,7 +3235,11 @@
     ],
     "is_claim": true,
     "topic": "Open Source AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 14147.9,
@@ -2746,13 +3249,16 @@
     "claim": "Banning the release of open AI models is impractical and would require a significant restructuring of the internet.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "open_source",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 14211.6,
@@ -2762,13 +3268,16 @@
     "claim": "Open-weight models from China could positively influence US companies to release better models.",
     "stance": "Support",
     "claim_labels": [
-      "ai_economics",
       "open_source",
-      "other"
+      "geopolitics"
     ],
     "is_claim": true,
     "topic": "AI models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "geopolitics"
+    ]
   },
   {
     "start": 14305.3,
@@ -2778,13 +3287,16 @@
     "claim": "AGI will not arrive in the near term due to the impossibility of containing knowledge and the centralization of AI development.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_race_power",
-      "geopolitics",
-      "other"
+      "agi_timeline",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 14377.8,
@@ -2794,13 +3306,16 @@
     "claim": "A Manhattan Project-like initiative for open models is reasonable, but it won't happen or be helpful due to a lack of civilizational risk.",
     "stance": "Refute",
     "claim_labels": [
-      "open_source",
-      "ai_safety_risk",
-      "other"
+      "breakthroughs_needed",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "Open models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 14465.1,
@@ -2810,12 +3325,16 @@
     "claim": "The development of LLMs will facilitate the design of new computing architectures like CUDA, potentially leading to more efficient AI inference.",
     "stance": "Support",
     "claim_labels": [
-      "scaling_compute",
-      "other"
+      "llm_capabilities",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI hardware",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 14554.5,
@@ -2830,7 +3349,11 @@
     ],
     "is_claim": true,
     "topic": "NVIDIA and AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ]
   },
   {
     "start": 14623.6,
@@ -2840,11 +3363,16 @@
     "claim": "Individuals in tech history significantly influence the speed of innovation, but breakthroughs like ChatGPT would eventually occur regardless of specific individuals.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Influence of Individuals",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ]
   },
   {
     "start": 14695.1,
@@ -2854,12 +3382,16 @@
     "claim": "The development of AI could have been significantly delayed without key individuals and technological advancements like GPUs.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "other"
+      "hardware_infra",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "hardware_infra",
+      "open_source"
+    ]
   },
   {
     "start": 14790.5,
@@ -2870,11 +3402,15 @@
     "stance": "Support",
     "claim_labels": [
       "hardware_infra",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI hardware",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "hardware_infra",
+      "open_source"
+    ]
   },
   {
     "start": 14860.8,
@@ -2884,13 +3420,18 @@
     "claim": "The future breakthroughs leading to the singularity may not necessarily be AI, but rather advancements in computing.",
     "stance": "Refute",
     "claim_labels": [
-      "breakthroughs_needed",
       "scaling_compute",
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Computing advancements",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 14933.7,
@@ -2901,11 +3442,17 @@
     "stance": "Support",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "breakthroughs_needed",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "Compute/Chips",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed",
+      "hardware_infra"
+    ]
   },
   {
     "start": 15002.6,
@@ -2917,11 +3464,22 @@
     "claim_labels": [
       "agi_timeline",
       "scaling_compute",
-      "other"
+      "open_source",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AGI models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_economics"
+    ]
   },
   {
     "start": 15071.7,
@@ -2931,13 +3489,16 @@
     "claim": "The current architecture of LLMs and neural networks may only be a small part of a future system that leads to AGI, which could significantly change society over the next century.",
     "stance": "Neutral",
     "claim_labels": [
-      "agi_timeline",
       "llm_capabilities",
-      "other"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "agi_timeline"
+    ]
   },
   {
     "start": 15148.6,
@@ -2947,11 +3508,16 @@
     "claim": "In 100 years, there will likely be humanoid robots and brain-computer interfaces due to progress in AI.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Future of AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 15213.1,
@@ -2979,11 +3545,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "Human agency",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 15373.2,
@@ -2998,7 +3568,11 @@
     ],
     "is_claim": true,
     "topic": "AI impact on jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 15437.6,
@@ -3026,11 +3600,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI trust and value",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 15577.2,
@@ -3040,13 +3618,16 @@
     "claim": "AI systems could destabilize human civilization, and there are important risks to consider as we develop these technologies.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 15659.1,
@@ -3056,13 +3637,16 @@
     "claim": "AGI will take longer to develop than people expect, but it is achievable with effort and understanding.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_safety_risk",
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 15724.9,
@@ -3072,13 +3656,16 @@
     "claim": "AI does not take away human agency and remains a tool that requires human direction.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "intelligence_nature",
-      "ai_optimism_benefit"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI agency",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 15797.8,
@@ -3088,12 +3675,16 @@
     "claim": "Humans will ultimately prevail against machines in a post-apocalyptic scenario due to their cleverness.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 15866.1,

@@ -327,15 +327,113 @@ konuşmacı ataması bozulmadı.
 
 ---
 
-## 12. Sonraki adımlar (planlanan)
+## 12. Genişlemiş veriyle pipeline — graf, retrieval, çekirdek görevler
+
+**İlk durum:** Bölüm 9'daki bileşenler 546 segmentle yazılmıştı; graf 9 kişi +
+tek anchor'dı.
+
+### `claim_labels` kalitesi — düzeltilen bir etiketleme hatası
+
+Graf ilk kurulduğunda **en güçlü kenarların hepsi "Other / Off-topic"** çıktı.
+Sebep: `claim_labels`'ta `other` oranı **%75**. Kırılım suçluyu gösterdi —
+LLM'in kendi etiketlediği yeni videolarda **%89**, embedding bootstrap'ının
+işlediği eski videolarda %45. Yani model 14 kategori arasından seçim yapmak
+yerine `other`'a kaçıyordu (claim içeren 1444 segmentte bile).
+
+Çözüm: `assign_claim_labels.py --overwrite` ile tüm 2782 segment embedding
+benzerliğiyle yeniden atandı. İlk denemede eşik (0.3) fazla gevşek kaldı —
+segment başına **5.1 kategori** düştü ve kategori ayrımı kayboldu (Amodei 9
+kategoride üst üste "Refute" göründü). Eşik taramasıyla **threshold=0.45**
+seçildi: segment başına **2.0 kategori** (`topk=2` ile tutarlı), `other` **%24**.
+
+**Ders:** taksonomi etiketlerinde iki yönlü hata var — LLM tembelleşip `other`'a
+kaçıyor, gevşek eşikli embedding ise her segmente her kategoriyi veriyor.
+İkisi de grafı okunamaz yapıyor, ama farklı biçimde.
+
+### Person–claim–stance grafı (`build_graph_full.py`)
+
+**28 kişi düğümü + 14 kanonik claim kategorisi, 355 kenar** (önceki: 9 kişi +
+1 anchor, 23 kenar). Baskın stance'ler kişilerin bilinen duruşlarıyla tutarlı:
+
+| Kişi | Claim kategorisi | Segment | Baskın |
+|---|---|---|---|
+| Dario Amodei | AI Optimism & Human Benefit | 198 | Refute |
+| Roman Yampolskiy | AI Optimism & Human Benefit | 168 | Refute |
+| Dario Amodei | Scaling & Compute | 155 | Neutral |
+| Roman Yampolskiy | AI Safety & Risk | 119 | Refute |
+| Will MacAskill | AI Optimism & Human Benefit | 104 | **Support** |
+| Max Tegmark | AI Optimism & Human Benefit | 87 | Refute |
+| Dario Amodei | AGI Timeline | 76 | **Support** |
+| Eliezer Yudkowsky | AI Optimism & Human Benefit | 61 | Refute |
+
+Amodei profili özellikle ayırt edici: **AGI Timeline ve AI Economics'te Support,
+AI Safety'de Refute** — Anthropic CEO'su için beklenen tutum, tek bir "baskın
+stance" etiketiyle temsil edilemeyecek bir yapı.
+
+**Görselin sınırı:** `graph_full.png` 28×14 düğüm ve 355 kenarla okunamaz
+yoğunlukta (kenarlar üst üste biniyor, kategori etiketleri kırpılıyor). Graf
+verisi `person_claim_stance_graph.json`'da sağlam; rapora görsel koyacaksak
+ya en güçlü N kenarla filtrelenmiş bir alt-graf ya da yukarıdaki gibi tablo
+kullanmak gerekiyor.
+
+### Çekirdek görev skorları (genişlemiş veri)
+
+| Görev | 546 segment | 2782 segment |
+|---|---|---|
+| Speaker identification (TF-IDF) | 0.693 | **0.659** (accuracy 0.811) |
+| Multi-label claim (TF-IDF OvR) | — | **macro 0.365** / micro 0.494 |
+
+Speaker skoru düştü (0.693 → 0.659) çünkü sınıf sayısı 9'dan **25**'e çıktı —
+seyrek konuşmacılar (Dwarkesh Patel 11, Sebastian Raschka 14 segment) macro
+ortalamayı aşağı çekiyor. Accuracy 0.811 ile yüksek kalıyor.
+
+Multi-label claim macro-F1 **0.365** düşük ve sınıf başına çok değişken:
+`ai_optimism_benefit` 0.651 (1258 örnek) vs `intelligence_nature` 0.044
+(43 örnek), `geopolitics` 0.157 (38 örnek). Sorun sınıf dengesizliği —
+taksonominin uzun kuyruğu eğitilemiyor.
+
+### Retrieval (`eval_retrieval.py`)
+
+26 sorgu (claim × stance, her biri ≥3 ilgili), 2782 segment korpus:
+
+| Yöntem | MRR | nDCG@10 |
+|---|---|---|
+| BM25 | 0.424 | 0.220 |
+| Dense | 0.426 | 0.209 |
+| Hybrid | 0.421 | 0.224 |
+| stance_aware | 1.000 | 1.000 |
+
+**`stance_aware` skorları geçerli bir karşılaştırma değil** — yöntem gold
+`claim_labels`/`stance` alanlarını hem sorgu hem doküman tarafında kullanıyor,
+yani kendi cevabını okuyor. Grafın **tavan değeri** olarak okunmalı, üstünlük
+kanıtı olarak değil. Anlamlı ölçüm için stance/claim sınıflandırıcılarının
+**tahmin ettiği** etiketlerle indüktif sürüm gerekiyor — BM25/dense/hybrid'in
+birbirine çok yakın olması (MRR ~0.42) asıl bulgu: yüzeysel benzerlik bu
+sorguları ayırt etmeye yetmiyor.
+
+### DistilBERT — bu makinede ölçülemedi
+
+`train_bert_stance.py --cv` bu oturumda çalıştırılamadı: makine MacBook Air,
+CUDA yok (5-fold × 6 epoch CPU'da saatler sürüyor). Eksik `accelerate` paketi
+kuruldu, GPU'lu makinede hazır. Bölüm 7'nin negatif sonucunu 2782 segmentle
+yeniden ölçmek **hâlâ en yüksek değerli açık deney**.
+
+---
+
+## 13. Sonraki adımlar (planlanan)
 
 - **DistilBERT'i yeniden ölç:** bölüm 7'deki negatif sonucun gerekçesi "sadece
   546 örnek"ti; artık 2782 var. `train_bert_stance.py --cv` ile TF-IDF'i (0.566)
   geçip geçmediği artık gerçek bir deney.
 - **Support sınıfını güçlendir:** yeni en zayıf sınıf (F1 0.425). Refute'ta işe
   yarayan hedefli genişletmenin aynısı, bu kez iyimser konuşmacılarla.
-- **Graf + retrieval'ı güncel veriyle çalıştır:** `build_graph_full.py`,
-  `eval_retrieval.py`, `graph_judge.py` — 9 değil 23 kişilik graf.
+- **İndüktif stance-aware retrieval:** mevcut sürüm gold etiket kullandığı için
+  1.000 veriyor (bölüm 12). Sınıflandırıcı tahminleriyle yeniden kurulmalı —
+  grafın gerçek retrieval katkısı ancak o zaman ölçülür.
+- **Multi-label claim'in uzun kuyruğu:** `intelligence_nature` (43 örnek, F1
+  0.044) ve `geopolitics` (38, 0.157) eğitilemiyor. Ya hedefli veri, ya
+  taksonomiyi birleştirerek kategori sayısını azaltmak.
+- **`graph_judge.py`:** 355 kenarlı yeni graf üzerinde LLM-as-a-judge denetimi.
 - **Gold set:** ~400-500 segmenti `label_manual.py` ile doğrula, κ'yı raporla.
 - **Soft-label distillation:** teacher LLM logit/olasılıklarıyla.
 - **Konuşmacı belirsizliği:** bulgu 4'teki çok-konuşmacılı durum için diyalog

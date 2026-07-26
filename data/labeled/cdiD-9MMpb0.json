@@ -8,12 +8,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_optimism_benefit",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI potential",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 183.1,
@@ -23,12 +26,16 @@
     "claim": "Neural networks exhibit emergent behavior and can solve complex problems through optimization, despite their mathematical simplicity.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "Neural Networks",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ]
   },
   {
     "start": 367.7,
@@ -38,12 +45,16 @@
     "claim": "Artificial neural networks are fundamentally different from biological neural networks due to their distinct optimization processes.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "open_source",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Nature of Intelligence",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 474.0,
@@ -54,11 +65,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "intelligence_nature",
-      "other"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "Nature of intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "agi_timeline"
+    ]
   },
   {
     "start": 658.4,
@@ -68,12 +83,16 @@
     "claim": "The emergence of life and technological societies in the universe may be more common than previously thought.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "breakthroughs_needed",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "Origin of Life",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ]
   },
   {
     "start": 840.5,
@@ -83,11 +102,16 @@
     "claim": "Interstellar travel is extremely hard and our ability to measure extraterrestrial life is limited.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "Extraterrestrial life",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 1025.5,
@@ -114,12 +138,16 @@
     "claim": "The emergence of complex life and consciousness on Earth seems inevitable given the right conditions.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "Nature of life",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 1391.3,
@@ -129,13 +157,16 @@
     "claim": "Synthetic intelligences represent the next stage of development and may uncover the universe's puzzles.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1576.7,
@@ -145,12 +176,16 @@
     "claim": "The universe may have exploitable flaws that intelligent beings could discover and utilize.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "intelligence_nature"
     ],
     "is_claim": true,
     "topic": "Simulation theory",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ]
   },
   {
     "start": 1759.9,
@@ -161,12 +196,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI nature",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1942.1,
@@ -176,12 +214,16 @@
     "claim": "The Transformer architecture is a significant advancement in AI that allows for a general-purpose, efficient processing of various data types.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI architecture",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ]
   },
   {
     "start": 2125.7,
@@ -191,13 +233,16 @@
     "claim": "The Transformer architecture is a powerful and efficient general-purpose differentiable computer that excels in both expressiveness and optimization.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering",
-      "other"
+      "breakthroughs_needed",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "Transformer architecture",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ]
   },
   {
     "start": 2309.0,
@@ -207,12 +252,16 @@
     "claim": "Transformers are a resilient architecture that can solve a wide range of problems and may lead to further discoveries in AI.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Transformer architecture",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2492.8,
@@ -222,13 +271,16 @@
     "claim": "Language models have existed for a long time and have evolved significantly with the introduction of neural networks and Transformers, leading to emergent properties when scaled up.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
       "scaling_compute",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 2676.0,
@@ -239,12 +291,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 2860.0,
@@ -254,13 +309,16 @@
     "claim": "Reinforcement learning is an inefficient way of training neural networks, especially for practical applications.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "breakthroughs_needed",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Reinforcement Learning",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3042.7,
@@ -270,12 +328,16 @@
     "claim": "We are moving towards a world where we share the digital space with AI systems.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI interaction",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3226.0,
@@ -285,13 +347,16 @@
     "claim": "The emergence of AI capable of mimicking humans is a challenge, but solutions for proof of personhood are possible and not intractable.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3408.8,
@@ -301,13 +366,16 @@
     "claim": "Language models will increasingly create the illusion of sentience and emotional connection, making it harder to distinguish them from humans.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
       "ai_optimism_benefit",
-      "other"
+      "intelligence_nature"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ]
   },
   {
     "start": 3592.4,
@@ -317,14 +385,16 @@
     "claim": "AI systems today are not goal-seeking agents and can lead to negative social dynamics.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 3774.5,
@@ -334,12 +404,16 @@
     "claim": "Current AI models are evolving to become more effective search engines and knowledge distillers, potentially surpassing traditional search engines like Google.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3959.0,
@@ -349,12 +423,16 @@
     "claim": "Neural networks are fundamentally changing how we program computers, moving away from traditional coding methods.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Neural Networks",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 4141.1,
@@ -364,13 +442,16 @@
     "claim": "We are in the early stages of developing software 2.0 systems, which involve new programming paradigms focused on data and neural networks.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Software 2.0",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 4324.5,
@@ -380,12 +461,16 @@
     "claim": "The future of AI development relies heavily on supervised learning and the quality of data sets.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 4506.2,
@@ -412,12 +497,16 @@
     "claim": "The strengths of cameras as sensors for driving tasks are significant, providing high bandwidth and a wealth of information, which is crucial for understanding the world.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4875.1,
@@ -461,11 +550,16 @@
     "claim": "Relying solely on vision for perception in Tesla's systems may simplify the process and reduce distractions from additional sensors.",
     "stance": "Support",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI perception",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5424.8,
@@ -475,11 +569,16 @@
     "claim": "The debate about using lidar as a sensor in AI systems is misguided; having a fleet for data collection is more important than the specific sensors used.",
     "stance": "Refute",
     "claim_labels": [
-      "other"
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI sensors",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5608.6,
@@ -489,11 +588,16 @@
     "claim": "The reliance on centimeter-accurate maps for autonomous systems is a massive dependency that may not be necessary.",
     "stance": "Refute",
     "claim_labels": [
-      "other"
+      "llm_capabilities",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Autonomy and Mapping",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5794.0,
@@ -503,13 +607,16 @@
     "claim": "Setting ambitious goals in AI can lead to innovative problem-solving approaches that may not align with conventional wisdom.",
     "stance": "Support",
     "claim_labels": [
-      "breakthroughs_needed",
       "execution_engineering",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI goals and problem-solving",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5976.1,
@@ -520,11 +627,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "Self-driving cars",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 6159.5,
@@ -534,13 +645,16 @@
     "claim": "There has been significant progress in autonomous driving technology over the past five years, particularly at Tesla.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Autonomous Driving Progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 6341.9,
@@ -551,12 +665,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_optimism_benefit",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI optimism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6527.8,
@@ -566,12 +683,16 @@
     "claim": "Building humanoid robots at scale is a very hard project that will take time, but it is a worthwhile investment due to the design of the world for humanoid form factors.",
     "stance": "Neutral",
     "claim_labels": [
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Humanoid Robots",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 6712.6,
@@ -581,12 +702,16 @@
     "claim": "Tesla's approach to building humanoid robots is fundamentally different and potentially more scalable than that of companies like Boston Dynamics.",
     "stance": "Support",
     "claim_labels": [
-      "execution_engineering",
-      "other"
+      "open_source",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "robotics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6898.2,
@@ -597,12 +722,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_economics",
-      "execution_engineering"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 7080.7,
@@ -612,12 +740,16 @@
     "claim": "The academic research community should move past outdated benchmarks like ImageNet and focus on more relevant real-world applications.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed",
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI benchmarks",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ]
   },
   {
     "start": 7264.0,
@@ -627,12 +759,16 @@
     "claim": "Humans and computers will find simulators useful for learning and development.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Simulation in AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7446.7,
@@ -642,12 +778,16 @@
     "claim": "Neural networks will become more data efficient at learning new tasks over time, but initially require massive datasets for pre-training.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 7629.1,
@@ -657,13 +797,16 @@
     "claim": "Neural networks may require additional architectures to effectively incorporate long-term memory similar to human learning.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "intelligence_nature",
-      "other"
+      "scaling_compute",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Neural networks and memory",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 7814.0,
@@ -673,13 +816,20 @@
     "claim": "The development of AI systems like Gato represents an early stage in the evolution towards more integrated and generalized AI capabilities.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 7997.5,
@@ -757,14 +907,16 @@
     "claim": "Future AI systems will become more autonomous in programming, but human supervision will still be necessary to prevent bugs.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI programming",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 8914.9,
@@ -774,12 +926,18 @@
     "claim": "AGI will not replace human programmers in the near term, and the future of programming will involve more interaction with AI systems.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "agi_timeline",
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI programming",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 9097.1,
@@ -806,11 +964,16 @@
     "claim": "Spending 10,000 hours on a skill can lead to expertise, emphasizing the importance of dedication over specific tasks.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Expertise development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 9466.6,
@@ -837,11 +1000,24 @@
     "claim": "AI is evolving in a way that requires more strategic approaches to research, similar to the evolution seen in physics.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI research strategy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "open_source"
+    ]
   },
   {
     "start": 9832.1,
@@ -852,11 +1028,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 10016.4,
@@ -867,12 +1047,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 10200.0,
@@ -882,13 +1065,16 @@
     "claim": "Consciousness in AI will emerge, leading to ethical questions about the rights of conscious entities.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI consciousness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 10382.8,
@@ -899,12 +1085,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 10565.0,
@@ -915,12 +1104,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI nature",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 10750.3,
@@ -930,13 +1122,16 @@
     "claim": "The development of AGI poses significant risks, and while it may happen slowly, there are concerns about alignment and safety.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "agi_timeline",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 10934.0,
@@ -946,14 +1141,16 @@
     "claim": "AGI poses significant risks, and while there may be positive outcomes, the potential for catastrophic failure is a serious concern.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "agi_timeline",
-      "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 11118.6,
@@ -963,12 +1160,16 @@
     "claim": "The future will see a diversification of human experiences, with people living in various realities including Mars and virtual environments.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Virtual Reality",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 11302.0,
@@ -1031,11 +1232,18 @@
     "claim_labels": [
       "agi_timeline",
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI potential",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 12039.6,
@@ -1046,11 +1254,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI content creation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 12222.5,
@@ -1060,12 +1272,16 @@
     "claim": "Humans are malleable and could potentially extend their lifetimes or the lifetime of civilization, which may change perceptions of death.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "Meaning of life",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 12406.8,

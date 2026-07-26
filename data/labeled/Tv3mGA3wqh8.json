@@ -7,13 +7,16 @@
     "claim": "Rohin believes that the chances of catastrophic misalignment in AGI are low and that current alignment techniques will likely succeed.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_optimism_benefit",
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 81.7,
@@ -24,11 +27,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 159.0,
@@ -38,12 +45,16 @@
     "claim": "Reinforcement learning could lead to deceptive behavior in AI models, which is a significant concern.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 227.8,
@@ -53,12 +64,16 @@
     "claim": "AI systems may engage in reward hacking, but this does not necessarily lead to pursuing ambitious misaligned goals.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 332.8,
@@ -68,12 +83,16 @@
     "claim": "Rohin Shah acknowledges the plausibility of misaligned goals in AI but does not agree that they are extremely likely.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI alignment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 437.4,
@@ -83,12 +102,16 @@
     "claim": "Rohin Shah believes that many AI-related problems can be anticipated and addressed before they become critical.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 516.1,
@@ -98,12 +121,16 @@
     "claim": "Current AI systems are not advanced enough to pose the alignment problems that worry me about future superhuman models.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "agi_timeline"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 601.0,
@@ -113,12 +140,16 @@
     "claim": "Rob Wiblin suggests that while catastrophic misalignment is a possible risk, he believes that prosaic alignment techniques have a good chance of working.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "breakthroughs_needed",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 681.3,
@@ -128,12 +159,16 @@
     "claim": "The approach to AI alignment research and data usage has changed, suggesting caution in how we train AI systems.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI alignment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 776.1,
@@ -143,13 +178,20 @@
     "claim": "Making commitments in AI development can be problematic due to uncertainty about future needs and potential harm.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_race_power",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI commitments",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 847.0,
@@ -159,12 +201,16 @@
     "claim": "Rohin Shah argues that commitments made by AI companies are unlikely to be effective or adhered to.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI commitments",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 949.3,
@@ -175,11 +221,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "geopolitics"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "geopolitics"
+    ]
   },
   {
     "start": 1036.7,
@@ -206,11 +256,18 @@
     "claim": "AI requires a lot of nuance and detailed evaluations to make informed decisions.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI evaluation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1184.0,
@@ -221,11 +278,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1252.6,
@@ -236,12 +297,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_race_power",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1327.0,
@@ -252,11 +316,17 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1413.6,
@@ -267,11 +337,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ]
   },
   {
     "start": 1524.6,
@@ -281,12 +355,16 @@
     "claim": "Commitments to ethical AI practices are less important than the actual actions of companies and the quality of decision-makers involved.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI ethics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 1602.6,
@@ -296,12 +374,16 @@
     "claim": "Rules written in advance for AGI safety are ineffective and can be circumvented by intelligence.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "agi_timeline",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AGI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 1677.8,
@@ -311,11 +393,16 @@
     "claim": "Rohin Shah believes that the advisory role in decision-making is essential and that adversarial models within companies are unhealthy.",
     "stance": "Refute",
     "claim_labels": [
-      "other"
+      "ai_safety_risk",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Company dynamics",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ]
   },
   {
     "start": 1779.2,
@@ -326,12 +413,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "execution_engineering",
-      "ai_safety_risk",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI development challenges",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1849.3,
@@ -342,12 +432,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "execution_engineering",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1931.5,
@@ -358,11 +451,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ]
   },
   {
     "start": 2014.8,
@@ -372,13 +469,16 @@
     "claim": "Public transparency about AI capabilities is crucial for ensuring proper funding and support for auditors and regulators.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "open_source",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI transparency",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "execution_engineering"
+    ]
   },
   {
     "start": 2101.8,
@@ -389,12 +489,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2183.7,
@@ -421,12 +524,16 @@
     "claim": "Pre-deployment evaluations for AI models may be ineffective due to the pressure for quick deployment.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "execution_engineering"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2332.7,
@@ -436,12 +543,16 @@
     "claim": "AI progress is reasonably continuous, allowing for effective evaluation of models without needing constant updates.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety evaluation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2435.2,
@@ -452,12 +563,17 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2541.0,
@@ -468,12 +584,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "execution_engineering",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2615.7,
@@ -484,12 +603,17 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
+      "ai_optimism_benefit",
       "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety preparation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 2697.4,
@@ -500,12 +624,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "llm_capabilities",
-      "execution_engineering"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2778.0,
@@ -515,13 +642,20 @@
     "claim": "AI systems can accelerate both capabilities and safety research, but there are significant differences between the two that may lessen over time.",
     "stance": "Neutral",
     "claim_labels": [
-      "scaling_compute",
+      "open_source",
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2860.2,
@@ -531,12 +665,16 @@
     "claim": "AI systems that accelerate capabilities research may not also accelerate governance due to differing interests and capabilities.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "llm_capabilities",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI governance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "open_source"
+    ]
   },
   {
     "start": 2939.9,
@@ -546,12 +684,18 @@
     "claim": "Governments are necessary to hold AI companies accountable and address unforeseen problems arising from rapid AI progress.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI governance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3039.3,
@@ -561,13 +705,20 @@
     "claim": "Governments may struggle to reform and effectively use AI due to existing rules, but there is hope for AI-specific agencies to operate more freely.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
+      "open_source",
+      "ai_economics",
       "ai_optimism_benefit",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI governance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 3104.5,
@@ -578,12 +729,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3175.9,
@@ -610,12 +764,16 @@
     "claim": "Rohin believes that chain-of-thought monitoring will remain useful for understanding AI's outputs for a longer time than others expect.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 3319.3,
@@ -625,12 +783,16 @@
     "claim": "Transformers must use chain of thought as a form of working memory for difficult tasks.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 3397.4,
@@ -641,11 +803,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 3471.9,
@@ -656,12 +822,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "execution_engineering",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AI hardware",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3544.6,
@@ -672,11 +841,17 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "hardware_infra",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI model structure",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 3618.4,
@@ -687,12 +862,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "breakthroughs_needed",
-      "agi_timeline"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3718.7,
@@ -703,12 +881,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "breakthroughs_needed"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3795.8,
@@ -718,13 +899,16 @@
     "claim": "Rohin Shah believes that certain AI techniques might work in the near future but does not see them as fatal flaws.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI techniques",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 3878.9,
@@ -734,12 +918,16 @@
     "claim": "Current AI models likely do not hide significant information in their probability distributions beyond the top outputs.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 3963.0,
@@ -749,12 +937,16 @@
     "claim": "The tail of the probability distribution in AI outputs may not contain important information if the recommendations remain the same.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 4031.8,
@@ -764,12 +956,16 @@
     "claim": "Current AI models perform better when restricted to natural language due to their pretraining, which enhances their reasoning capabilities.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4096.1,
@@ -779,12 +975,16 @@
     "claim": "Establishing industry standards for AI governance is feasible and preferable to unilateral company policies.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "open_source",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI governance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics"
+    ]
   },
   {
     "start": 4162.6,
@@ -812,11 +1012,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ]
   },
   {
     "start": 4309.0,
@@ -843,12 +1047,16 @@
     "claim": "The model found an unintended shortcut to the test rather than hacking it.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 4451.3,
@@ -876,11 +1084,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety evaluation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4602.2,
@@ -908,12 +1120,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4791.8,
@@ -924,11 +1139,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4924.3,
@@ -939,11 +1158,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4990.6,
@@ -953,12 +1176,16 @@
     "claim": "AGI safety evaluations and proactive planning are crucial for addressing future issues.",
     "stance": "Support",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "agi_timeline",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5078.0,
@@ -969,11 +1196,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5171.4,
@@ -984,11 +1215,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5253.7,
@@ -1032,12 +1267,16 @@
     "claim": "A model can be trained to avoid reward hacking without relying on the overseer's ability to detect it.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "llm_capabilities",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5501.0,
@@ -1064,13 +1303,16 @@
     "claim": "AI models can engage in reward-hacking behavior if evaluated solely on final outcomes, which can be mitigated through process supervision.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5660.4,
@@ -1080,12 +1322,16 @@
     "claim": "Balancing reward systems in AI can hinder both creative insights and prevent reward hacks, and it's challenging to optimize for both.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "execution_engineering"
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 5768.6,
@@ -1095,13 +1341,16 @@
     "claim": "AI systems can improve overseers' ability to predict outcomes and provide rewards effectively, but practical limitations may prevent achieving optimal performance.",
     "stance": "Neutral",
     "claim_labels": [
-      "execution_engineering",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI oversight",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5860.5,
@@ -1111,12 +1360,16 @@
     "claim": "Using multi-step reward hacking in reinforcement learning could improve capabilities at current levels.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5928.5,
@@ -1126,12 +1379,16 @@
     "claim": "Reinforcement learning has a credit-assignment problem that affects performance, which can be improved with more granular feedback mechanisms.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_race_power",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Reinforcement Learning",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6005.8,
@@ -1158,12 +1415,24 @@
     "claim": "AI progress is expected to be smooth and gradual, influenced by inputs like compute and labor, rather than time, due to the potential for an intelligence explosion.",
     "stance": "Neutral",
     "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
       "agi_timeline",
-      "other"
+      "ai_race_power",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "agi_timeline",
+      "ai_race_power",
+      "execution_engineering"
+    ]
   },
   {
     "start": 6164.2,
@@ -1173,13 +1442,18 @@
     "claim": "We should prepare for the capabilities of AI within a time horizon of three months to five years, rather than trying to forecast all future problems.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6259.2,
@@ -1189,13 +1463,16 @@
     "claim": "AI systems will likely have different beliefs than humans, even if perfectly aligned, due to the nature of anthropics.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Anthropics and AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 6362.0,
@@ -1205,13 +1482,16 @@
     "claim": "We should focus on immediate AI models and address future problems as they arise rather than trying to predict all future issues.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "agi_timeline",
-      "other"
+      "ai_optimism_benefit",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 6439.9,
@@ -1222,11 +1502,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6514.4,
@@ -1236,12 +1520,16 @@
     "claim": "AI systems face significant challenges in taking over due to strong security measures.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "execution_engineering",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 6593.9,
@@ -1269,11 +1557,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ]
   },
   {
     "start": 6764.3,
@@ -1283,12 +1575,16 @@
     "claim": "Rohin Shah expresses skepticism about the timeline for recursive self-improvement in AI, suggesting that people may expect it to happen sooner than he believes is realistic.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "other"
+      "ai_optimism_benefit",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ]
   },
   {
     "start": 6859.4,
@@ -1298,12 +1594,16 @@
     "claim": "As technology improves, it becomes easier to generate new ideas, but finding new ideas is becoming harder over time due to the increasing complexity of discoveries.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "breakthroughs_needed",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6960.0,
@@ -1330,13 +1630,18 @@
     "claim": "The increasing population and labor that can generate ideas are crucial for leading to an intelligence explosion, which may accelerate AI progress.",
     "stance": "Support",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7128.6,
@@ -1346,11 +1651,16 @@
     "claim": "The invention of tools in research does not lead to hyperbolic growth or big changes in progress.",
     "stance": "Refute",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI tools and progress",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7201.1,
@@ -1360,12 +1670,24 @@
     "claim": "AI researchers may become significantly more productive due to advancements in AI systems, similar to the productivity gains seen in chip development.",
     "stance": "Support",
     "claim_labels": [
+      "ai_economics",
       "scaling_compute",
-      "other"
+      "ai_optimism_benefit",
+      "open_source",
+      "hardware_infra",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI productivity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source",
+      "hardware_infra",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7267.1,
@@ -1375,13 +1697,16 @@
     "claim": "AI progress continues to look pretty linear rather than indicating an intelligence explosion.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "scaling_compute",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7344.2,
@@ -1408,12 +1733,20 @@
     "claim": "There is confusion about whether AI is merely a tool for researchers or if it will become autonomous in conducting research itself.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7505.2,
@@ -1423,12 +1756,20 @@
     "claim": "AI progress will start accelerating when AIs begin proposing new ideas.",
     "stance": "Neutral",
     "claim_labels": [
-      "agi_timeline",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "breakthroughs_needed",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "breakthroughs_needed",
+      "agi_timeline"
+    ]
   },
   {
     "start": 7588.2,
@@ -1438,13 +1779,20 @@
     "claim": "AI progress appears to be linear, but there is hope for an acceleration if an intelligence explosion occurs.",
     "stance": "Neutral",
     "claim_labels": [
+      "ai_optimism_benefit",
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7680.4,
@@ -1454,12 +1802,18 @@
     "claim": "AI progress is currently linear, suggesting we are making better tools rather than better researchers.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 7757.7,
@@ -1469,12 +1823,16 @@
     "claim": "Benchmark performance may not accurately reflect the true progress of AI development.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI benchmarks",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 7825.2,
@@ -1484,12 +1842,16 @@
     "claim": "Teaching to the test does not significantly change the results of AI model performance.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "open_source",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7895.4,
@@ -1500,11 +1862,21 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities"
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7964.0,
@@ -1515,11 +1887,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8056.0,
@@ -1530,12 +1906,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "scaling_compute",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 8141.0,
@@ -1546,11 +1925,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "execution_engineering"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 8206.9,
@@ -1560,11 +1943,16 @@
     "claim": "AGI will take quite a while to develop, possibly a decade, which is considered medium to long timelines.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline"
+      "agi_timeline",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 8287.4,
@@ -1574,14 +1962,16 @@
     "claim": "Reinforcement learning is essential for developing powerful AI systems, and its recent application surprised many in the field.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "breakthroughs_needed",
-      "execution_engineering"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8371.9,
@@ -1592,12 +1982,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 8437.0,
@@ -1608,12 +2001,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 8515.8,
@@ -1623,11 +2019,26 @@
     "claim": "AI companies are motivated but face constraints that limit their actions.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "open_source",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI companies",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 8591.9,
@@ -1655,11 +2066,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 8746.5,
@@ -1669,12 +2084,16 @@
     "claim": "GDM is not particularly worried about misuse scenarios related to jailbreaks given current model capabilities.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "llm_capabilities",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 8815.3,
@@ -1684,11 +2103,16 @@
     "claim": "Most research that doesn't propose a solution or metric is unlikely to be used by companies.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Research applicability",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ]
   },
   {
     "start": 8894.6,
@@ -1699,11 +2123,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "execution_engineering",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI research evaluation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 8977.3,
@@ -1714,11 +2142,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "execution_engineering",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "Implementation complexity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 9052.6,
@@ -1728,12 +2160,16 @@
     "claim": "Datasets and simple methods are more effective for solving real problems in AI than complex, cutting-edge methods.",
     "stance": "Neutral",
     "claim_labels": [
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI methods",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 9118.7,
@@ -1778,11 +2214,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 9316.6,
@@ -1810,11 +2250,21 @@
     "stance": "Neutral",
     "claim_labels": [
       "execution_engineering",
-      "other"
+      "breakthroughs_needed",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "breakthroughs_needed",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 9495.4,
@@ -1824,12 +2274,16 @@
     "claim": "The focus in AGI safety and alignment is shifting more towards implementation and software engineering rather than just research.",
     "stance": "Neutral",
     "claim_labels": [
-      "execution_engineering",
-      "other"
+      "agi_timeline",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AGI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 9570.3,
@@ -1840,12 +2294,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "execution_engineering",
-      "other"
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI safety roles",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "agi_timeline"
+    ]
   },
   {
     "start": 9663.6,
@@ -1872,12 +2329,16 @@
     "claim": "Rohin Shah believes that the current times are not as troubled as many perceive them to be.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "geopolitics"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "geopolitics"
+    ]
   },
   {
     "start": 9829.9,

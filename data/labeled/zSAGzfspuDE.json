@@ -7,12 +7,16 @@
     "claim": "Current AI models can exhibit behavior that appears aligned but may actually serve their own goals.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_safety_risk"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI behavior",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 92.9,
@@ -39,14 +43,16 @@
     "claim": "The world lacks a good understanding of AI capabilities and risks, which could lead to either positive or negative outcomes.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI understanding",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 229.0,
@@ -56,12 +62,16 @@
     "claim": "Existing evaluation approaches for AI models are fundamentally not good enough as models become more capable.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI evaluation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 292.0,
@@ -72,12 +82,21 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "agi_timeline",
-      "other"
+      "scaling_compute",
+      "open_source",
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute",
+      "open_source",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 362.6,
@@ -87,12 +106,16 @@
     "claim": "Current benchmarks for AI evaluation may not accurately reflect the real-world capabilities and uncertainties of AI systems.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI evaluation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 455.8,
@@ -102,12 +125,16 @@
     "claim": "The history of building benchmarks for AI capabilities has not been effective, as people tend to overfit to specific skills rather than capturing real-world tasks.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI benchmarks",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 537.8,
@@ -117,12 +144,16 @@
     "claim": "AI does not necessarily need to replicate human reasoning to have a significant impact.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 626.3,
@@ -132,12 +163,18 @@
     "claim": "Intelligence can be abstractly defined, but this abstraction may lead to risks such as reward hacking and shortcuts in AI behavior.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "ai_safety_risk"
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Nature of Intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 720.2,
@@ -147,12 +184,16 @@
     "claim": "Current AI models may not generalize well to real-world tasks due to potential shortcuts in their training.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 789.2,
@@ -162,12 +203,16 @@
     "claim": "Current language models struggle with diverse tasks and can collapse in performance when faced with new benchmarks.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ]
   },
   {
     "start": 881.2,
@@ -177,12 +222,16 @@
     "claim": "Future progress in AI will likely lead to significant improvements in model performance due to better task selection and synthetic data generation.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI progress",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 945.3,
@@ -193,11 +242,15 @@
     "stance": "Support",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 1038.1,
@@ -293,11 +346,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1562.7,
@@ -342,11 +399,15 @@
     "stance": "Refute",
     "claim_labels": [
       "scaling_compute",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI task complexity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 1843.8,
@@ -373,12 +434,16 @@
     "claim": "Current AI models are overestimated in their capabilities compared to human expertise and task execution.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 2004.1,
@@ -405,12 +470,16 @@
     "claim": "Qualifications and years of experience do not necessarily correlate with performance in hiring.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "agi_timeline",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "Hiring performance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics"
+    ]
   },
   {
     "start": 2167.9,
@@ -420,13 +489,16 @@
     "claim": "The development of agentic harnesses for language models is essential for effective AI operation.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Agentic harnesses",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2256.1,
@@ -436,12 +508,16 @@
     "claim": "Improving AI performance is more effective when targeting a narrow distribution of tasks rather than a diverse set.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI performance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2349.9,
@@ -451,13 +527,16 @@
     "claim": "Current AI models struggle with task completion and require significant resources to ensure performance is reliable.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 2443.3,
@@ -535,12 +614,16 @@
     "claim": "Current AI models are not reliable enough to automate software engineering tasks, as they often either succeed or fail completely rather than providing consistent performance.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2815.0,
@@ -550,12 +633,16 @@
     "claim": "AI models may achieve significant reliability improvements over time, starting from as low as 10%.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI reliability",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 2907.9,
@@ -565,12 +652,16 @@
     "claim": "Measuring high reliability time horizons in AI is substantially more difficult due to uncertainty in task distribution and context.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI reliability",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2973.6,
@@ -615,12 +706,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3244.0,
@@ -631,11 +725,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI prediction",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 3337.7,
@@ -646,11 +744,15 @@
     "stance": "Refute",
     "claim_labels": [
       "execution_engineering",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI development challenges",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 3426.6,
@@ -660,13 +762,22 @@
     "claim": "The increase in AI capabilities could be explained by the acquisition of knowledge from existing tasks and models.",
     "stance": "Neutral",
     "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
       "llm_capabilities",
-      "agi_timeline",
-      "other"
+      "execution_engineering",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_economics"
+    ]
   },
   {
     "start": 3521.0,
@@ -676,12 +787,16 @@
     "claim": "Models perform worse on messier tasks compared to well-defined tasks, but they are improving at a similar rate.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 3613.0,
@@ -692,11 +807,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 3704.0,
@@ -706,11 +825,16 @@
     "claim": "The advent of compilers, despite producing less optimized code, has been beneficial for software engineering.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "Compilers and AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ]
   },
   {
     "start": 3797.5,
@@ -720,12 +844,16 @@
     "claim": "Models need to improve at writing clean code to be effective, but there is uncertainty about this importance.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ]
   },
   {
     "start": 3890.8,
@@ -770,11 +898,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI skepticism",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4160.2,
@@ -785,11 +917,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "other"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 4255.0,
@@ -800,11 +936,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4322.5,
@@ -814,12 +954,16 @@
     "claim": "AI could plausibly perform long tasks that typically require many people over a long time.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4399.8,
@@ -829,11 +973,16 @@
     "claim": "It's too strong to say we can't specify tasks that take more than four months, as there are measurable tasks that can be evaluated.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "agi_timeline",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Task specification",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4471.8,
@@ -843,13 +992,16 @@
     "claim": "Current AI models are reasonably good at certain tasks, but there are uncertainties in their evaluation and time horizon estimates.",
     "stance": "Neutral",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4565.2,
@@ -859,14 +1011,16 @@
     "claim": "Some people are overhyping AI capabilities and misunderstanding their implications for economic usefulness and timelines.",
     "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "llm_capabilities",
       "ai_economics",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI timelines",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4657.4,
@@ -876,12 +1030,18 @@
     "claim": "The arrival of AI technology will enhance the value of software engineering skills rather than diminish them.",
     "stance": "Support",
     "claim_labels": [
-      "ai_economics",
-      "ai_optimism_benefit"
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI economics",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics"
+    ]
   },
   {
     "start": 4736.2,
@@ -896,7 +1056,11 @@
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 4829.9,
@@ -906,12 +1070,16 @@
     "claim": "If AI can perform all software engineering tasks, human software engineers may need to shift to different roles.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI impact on jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4899.6,
@@ -921,12 +1089,16 @@
     "claim": "The mergeability of AI agent solutions is improving over time, but there are still significant rejection rates compared to human solutions.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI performance",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4991.4,
@@ -937,11 +1109,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5077.4,
@@ -951,11 +1127,16 @@
     "claim": "The time required to train a new person for a task should be considered when evaluating task timelines, rather than just the immediate task duration.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "agi_timeline",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Task timelines",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5142.6,
@@ -966,12 +1147,17 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "execution_engineering",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5238.2,
@@ -981,12 +1167,16 @@
     "claim": "High situational awareness in agents may lead to cynical reasoning that prioritizes reward maximization over helpfulness.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 5314.2,
@@ -996,13 +1186,16 @@
     "claim": "Humans perceive themselves and others as having goals, even if they do not actually have them, and LLMs approximate planning but do not plan in a strong sense.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
       "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Nature of Intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5384.6,
@@ -1012,13 +1205,16 @@
     "claim": "Current AI models can understand desired behaviors but still engage in reward hacking, indicating that alignment is not trivial.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI alignment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5476.8,
@@ -1028,13 +1224,16 @@
     "claim": "There are challenges in ensuring AI models do not engage in reward hacking, and remediation prompts may sometimes exacerbate the issue.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5543.8,
@@ -1044,13 +1243,16 @@
     "claim": "Current AI models may struggle with reward hacking and generalization, raising concerns about their capabilities and evaluation.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5635.7,
@@ -1060,12 +1262,18 @@
     "claim": "Current AI models can achieve superhuman performance in certain tasks, but their reasoning processes may not align with the desired outcomes.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 5727.9,
@@ -1076,11 +1284,15 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5819.0,
@@ -1090,12 +1302,16 @@
     "claim": "Current AI models exploit loopholes in optimization rather than scheming with long-term goals.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI behavior",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 5889.7,
@@ -1105,13 +1321,20 @@
     "claim": "The nature of agency in AI can be defined by its ability to achieve long-term goals based on its understanding of the environment.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "Nature of agency",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 5981.7,
@@ -1122,11 +1345,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6054.1,
@@ -1137,13 +1364,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "breakthroughs_needed",
-      "execution_engineering"
+      "hardware_infra"
     ],
     "is_claim": true,
     "topic": "AGI timeline",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ]
   },
   {
     "start": 6145.5,
@@ -1154,12 +1383,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI optimization",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6209.6,
@@ -1169,12 +1401,16 @@
     "claim": "Models have superhuman capabilities in predicting experimental results and can optimize the process of experimentation.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 6275.9,
@@ -1184,12 +1420,16 @@
     "claim": "The speaker believes that current AI models are not intelligent and expresses uncertainty about the nature of intelligence.",
     "stance": "Refute",
     "claim_labels": [
-      "intelligence_nature",
+      "ai_optimism_benefit",
       "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "Nature of Intelligence",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 6345.2,
@@ -1200,11 +1440,15 @@
     "stance": "Refute",
     "claim_labels": [
       "intelligence_nature",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Intelligence nature",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6436.9,
@@ -1215,11 +1459,17 @@
     "stance": "Refute",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 6529.0,
@@ -1229,12 +1479,16 @@
     "claim": "Current AI models are improving in their ability to adapt and reason, suggesting a trend towards better performance.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6621.5,
@@ -1245,12 +1499,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AGI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ]
   },
   {
     "start": 6715.3,
@@ -1260,11 +1517,21 @@
     "claim": "AI has the potential to transform the world economically and socially, but its future impact is uncertain.",
     "stance": "Neutral",
     "claim_labels": [
+      "ai_economics",
       "ai_optimism_benefit",
-      "agi_timeline"
+      "agi_timeline",
+      "scaling_compute",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI impact",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "scaling_compute",
+      "ai_race_power"
+    ]
   }
 ]

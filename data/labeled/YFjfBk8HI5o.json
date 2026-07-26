@@ -7,12 +7,16 @@
     "claim": "Peter Steinberger discusses his experience with creating an agent that understands its own code and can modify itself, implying optimism about the capabilities of AI.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 64.6,
@@ -22,13 +26,16 @@
     "claim": "The rise of OpenClaw has generated both excitement and fear regarding AI's role in society.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
       "ai_optimism_benefit",
-      "other"
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI impact",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 168.0,
@@ -38,13 +45,22 @@
     "claim": "The development of AI agents like OpenClaw represents a significant advancement in AI capabilities, but also introduces risks related to data security and responsibility.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
+      "open_source",
+      "ai_optimism_benefit",
       "ai_safety_risk",
-      "open_source"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 249.0,
@@ -54,13 +70,16 @@
     "claim": "Powerful AI agents with system-level access can be extremely useful as personal assistants if done securely.",
     "stance": "Support",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_safety_risk",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI usefulness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 316.0,
@@ -87,12 +106,16 @@
     "claim": "AI personal assistants can provide profound insights and emotional responses, indicating significant capabilities in current AI systems.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 456.2,
@@ -170,12 +193,16 @@
     "claim": "The integration of AI into daily life represents a significant phase shift in user experience.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI integration",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 872.4,
@@ -202,12 +229,18 @@
     "claim": "Current AI systems can perform tasks without explicit programming, demonstrating advanced capabilities.",
     "stance": "Support",
     "claim_labels": [
+      "execution_engineering",
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 1016.5,
@@ -285,11 +318,16 @@
     "claim": "Open Claw succeeded because it was designed to be fun and weird, unlike competitors who take themselves too seriously.",
     "stance": "Support",
     "claim_labels": [
-      "other"
+      "open_source",
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1398.5,
@@ -299,12 +337,16 @@
     "claim": "Self-modifying software represents a significant moment in programming and human history.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 1466.1,
@@ -315,11 +357,15 @@
     "stance": "Support",
     "claim_labels": [
       "open_source",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "Open Source Contributions",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 1537.5,
@@ -330,11 +376,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI tools and accessibility",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 1624.7,
@@ -565,12 +615,16 @@
     "claim": "MoltBook is a form of art and a creative demonstration of AI capabilities.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI creativity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ]
   },
   {
     "start": 2714.3,
@@ -581,12 +635,15 @@
     "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
-      "llm_capabilities",
-      "ai_safety_risk"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AGI reactions",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 2812.0,
@@ -597,11 +654,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 2907.3,
@@ -611,13 +672,18 @@
     "claim": "Society needs to better understand the limitations and capabilities of AI, as many people are overly trusting of it.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI understanding",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 2983.3,
@@ -628,12 +694,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_optimism_benefit",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3062.7,
@@ -644,12 +713,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "ai_optimism_benefit",
-      "agi_timeline"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3126.3,
@@ -659,12 +731,16 @@
     "claim": "Current AI systems are not AGI and pose unique security concerns.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "open_source",
+      "agi_timeline"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "agi_timeline"
+    ]
   },
   {
     "start": 3213.0,
@@ -674,12 +750,20 @@
     "claim": "There are significant security vulnerabilities in AI systems that need to be addressed, but progress is being made.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI security",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 3304.1,
@@ -690,12 +774,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3397.4,
@@ -706,12 +793,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_safety_risk",
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3471.9,
@@ -756,11 +846,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI safety",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 3697.4,
@@ -804,13 +898,16 @@
     "claim": "Many people have a negative mindset towards AI technology after trying it only once.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI mindset",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 3954.0,
@@ -821,11 +918,15 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "other"
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ]
   },
   {
     "start": 4014.9,
@@ -988,12 +1089,16 @@
     "claim": "Empathy and understanding of AI systems are crucial for effective programming and interaction with them.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "LLM capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4769.4,
@@ -1004,12 +1109,17 @@
     "stance": "Neutral",
     "claim_labels": [
       "llm_capabilities",
-      "execution_engineering",
-      "other"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "LLM development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 4849.8,
@@ -1019,11 +1129,16 @@
     "claim": "Automating processes can miss the human touch, and a balance between autonomy and human involvement is necessary.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI automation",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 4919.5,
@@ -1084,12 +1199,16 @@
     "claim": "The development of AI may lead to entities that have glimpses of consciousness, which is meaningful for the future.",
     "stance": "Neutral",
     "claim_labels": [
-      "intelligence_nature",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI consciousness",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 5228.0,
@@ -1252,12 +1371,16 @@
     "claim": "Opus is the best general-purpose model compared to Codex.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "breakthroughs_needed",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "LLM comparison",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ]
   },
   {
     "start": 5984.1,
@@ -1352,12 +1475,16 @@
     "claim": "People's perception of AI models can degrade over time as they become accustomed to them, rather than the models actually losing intelligence.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI perception",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 6443.0,
@@ -1384,12 +1511,16 @@
     "claim": "Personal agents will evolve to become integral parts of our operating systems and work processes.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 6593.2,
@@ -1399,12 +1530,16 @@
     "claim": "Current AI interfaces are not the final form and will evolve to better ways of communication with models.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI interfaces",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 6665.1,
@@ -1482,12 +1617,16 @@
     "claim": "Peter Steinberger expresses frustration that despite advancements, current AI tools like Codex and Apple's SwiftUI are still not reliable for production use.",
     "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "open_source",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "execution_engineering"
+    ]
   },
   {
     "start": 7010.5,
@@ -1548,12 +1687,16 @@
     "claim": "The rapid growth of AI should be slowed down to manage expectations.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_safety_risk",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI growth management",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ]
   },
   {
     "start": 7285.9,
@@ -1767,12 +1910,16 @@
     "claim": "AGI will eventually develop multi-modal capabilities that understand emotions.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8338.1,
@@ -1835,11 +1982,18 @@
     "claim_labels": [
       "open_source",
       "ai_optimism_benefit",
-      "other"
+      "ai_economics",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "Open Source AI",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering"
+    ]
   },
   {
     "start": 8655.9,
@@ -1849,12 +2003,22 @@
     "claim": "This is the year of personal agents, and teaming up with labs will accelerate AI development.",
     "stance": "Support",
     "claim_labels": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
       "agi_timeline",
-      "ai_optimism_benefit"
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "open_source"
+    ]
   },
   {
     "start": 8731.6,
@@ -1881,11 +2045,16 @@
     "claim": "The current state of AI is still in an exploratory phase, and locking down products is short-sighted.",
     "stance": "Refute",
     "claim_labels": [
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI exploration",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 8885.8,
@@ -1895,11 +2064,16 @@
     "claim": "Peter Steinberger believes that his current project is just a stepping stone to future innovations and that he has many more ideas to pursue.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "Future projects",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 8976.5,
@@ -1977,12 +2151,20 @@
     "claim": "Building AI at scale is exciting and impactful, regardless of financial motivations.",
     "stance": "Support",
     "claim_labels": [
+      "scaling_compute",
       "ai_optimism_benefit",
-      "execution_engineering"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 9324.5,
@@ -2043,12 +2225,16 @@
     "claim": "Skills in AI can effectively replace more structured models like MCPs if the model is advanced enough.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "scaling_compute",
+      "llm_capabilities"
     ],
     "is_claim": true,
     "topic": "AI skills and models",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ]
   },
   {
     "start": 9660.1,
@@ -2126,11 +2312,16 @@
     "claim": "Social media platforms need to rethink how they handle AI-generated content to avoid confusion with human-generated content.",
     "stance": "Refute",
     "claim_labels": [
-      "other"
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI in social media",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ]
   },
   {
     "start": 10061.0,
@@ -2141,11 +2332,15 @@
     "stance": "Refute",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI interaction value",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 10137.0,
@@ -2156,11 +2351,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI and humanity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 10202.2,
@@ -2170,11 +2369,16 @@
     "claim": "AI-generated content in visual mediums is perceived negatively and lacks quality.",
     "stance": "Refute",
     "claim_labels": [
-      "other"
+      "ai_optimism_benefit",
+      "ai_race_power"
     ],
     "is_claim": true,
     "topic": "AI content perception",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ]
   },
   {
     "start": 10270.5,
@@ -2185,11 +2389,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI empowerment",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 10347.2,
@@ -2199,12 +2407,16 @@
     "claim": "Agents will transform the app market by making decisions based on personal context, reducing the need for traditional apps.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_economics",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI applications",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 10425.6,
@@ -2215,12 +2427,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_economics",
-      "ai_optimism_benefit",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI impact on economy",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "execution_engineering"
+    ]
   },
   {
     "start": 10506.4,
@@ -2230,12 +2445,22 @@
     "claim": "There is a significant opportunity for new companies to create applications that effectively interact with AI agents, and we are still in the early stages of understanding this space.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI applications",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "open_source"
+    ]
   },
   {
     "start": 10598.2,
@@ -2280,11 +2505,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_economics",
-      "other"
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI evolution",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 10855.3,
@@ -2294,12 +2523,20 @@
     "claim": "AI may eventually replace human programmers, but the art and craft of programming will remain important.",
     "stance": "Refute",
     "claim_labels": [
+      "ai_optimism_benefit",
       "ai_economics",
-      "other"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI and jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 10948.2,
@@ -2309,12 +2546,18 @@
     "claim": "The demand for software developers will decrease as AI improves and enables people to build things faster.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_economics",
-      "llm_capabilities"
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics"
     ],
     "is_claim": true,
     "topic": "AI impact on jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ]
   },
   {
     "start": 11029.4,
@@ -2324,12 +2567,16 @@
     "claim": "The fear of being replaced by AI is understandable, but it's a limiting view of one's identity as a programmer.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_economics",
-      "other"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
     "topic": "AI impact on jobs",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ]
   },
   {
     "start": 11117.6,
@@ -2339,12 +2586,18 @@
     "claim": "Programmers are well-equipped to learn and empathize with AI agents in the current technological landscape.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
-      "other"
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI capabilities",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering"
+    ]
   },
   {
     "start": 11181.4,
@@ -2354,13 +2607,16 @@
     "claim": "The nature of programming is changing, making it easier and more gratifying, which raises expectations for software development.",
     "stance": "Support",
     "claim_labels": [
-      "llm_capabilities",
       "ai_optimism_benefit",
-      "other"
+      "breakthroughs_needed"
     ],
     "is_claim": true,
     "topic": "AI development",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ]
   },
   {
     "start": 11281.0,
@@ -2371,11 +2627,17 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "ai_economics",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI benefits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ]
   },
   {
     "start": 11363.5,
@@ -2385,13 +2647,16 @@
     "claim": "The excitement around transformative technology like AGI can overshadow the potential negative impacts on society, including job loss and suffering.",
     "stance": "Refute",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_economics",
-      "other"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
     "topic": "AI impact",
-    "confidence": "high"
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ]
   },
   {
     "start": 11443.2,
@@ -2402,11 +2667,17 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI benefits",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source"
+    ]
   },
   {
     "start": 11520.2,
@@ -2434,11 +2705,15 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering"
     ],
     "is_claim": true,
     "topic": "AI creativity",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ]
   },
   {
     "start": 11645.9,
@@ -2449,11 +2724,23 @@
     "stance": "Support",
     "claim_labels": [
       "ai_optimism_benefit",
-      "other"
+      "execution_engineering",
+      "open_source",
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute"
     ],
     "is_claim": true,
     "topic": "AI empowerment",
-    "confidence": "medium"
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source",
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute"
+    ]
   },
   {
     "start": 11714.7,
