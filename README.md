@@ -20,10 +20,14 @@ zero-shot LLM baselines.
 3. **Labeling** — speaker + claim + stance via zero-shot LLM (silver labels). → `src/label_segments.py`
 3b. **Gold labeling** — human review of the silver labels (Streamlit tool) + LLM-vs-human agreement (Cohen's κ). → `src/label_manual.py`, `src/compute_agreement.py`
 4. **Baseline classifiers** — TF-IDF + Logistic Regression: stance (Macro-F1 0.562) and claim detection (Macro-F1 0.782). → `src/train_baseline.py`, `src/train_claim_baseline.py`
-5. **Graph construction** — person–stance knowledge graph (weighted stance edges + plot). → `src/build_graph.py`
+5. **Core ML tasks** — the three graph-populating classifiers, each with a baseline + a distilled encoder:
+   - **Speaker identification** (TF-IDF Macro-F1 0.693 on 5 videos, + DistilBERT). → `src/train_speaker.py`
+   - **Multi-label canonical claim classification** over a 14-category taxonomy. → `src/claim_taxonomy.py`, `src/assign_claim_labels.py`, `src/train_claim_multilabel.py`
+   - **NLI-style stance detection** (TF-IDF Macro-F1 0.562, DistilBERT 0.518). → `src/train_bert_stance.py`
 6. **Canonical claim clustering** — group raw claims into canonical claims, two methods (TF-IDF+KMeans vs. sentence embeddings). → `src/cluster_claims.py`, `src/cluster_claims_embed.py`
-7. **BERT stance model** — fine-tune DistilBERT on the LLM silver labels (student distillation), compared to the TF-IDF baseline. → `src/train_bert_stance.py`
-8. **Retrieval evaluation** — MRR / nDCG@10 for graph-supported retrieval vs. BM25 & zero-shot LLM. *(planned)*
+7. **Graph construction** — mini person–stance graph and the unified **person–claim–stance** graph over canonical claim categories. → `src/build_graph.py`, `src/build_graph_full.py`
+8. **Stance-aware retrieval evaluation** — MRR / nDCG@10 for BM25 vs. dense vs. graph/stance-aware retrieval. → `src/eval_retrieval.py`
+9. **Graph validation** — LLM-as-a-judge structural-integrity audit of graph edges. → `src/graph_judge.py`
 
 See `PROGRESS.md` for the step-by-step sprint log, ablations, and current results.
 
@@ -65,9 +69,26 @@ python src/compute_agreement.py       # LLM-vs-human Cohen's kappa
 python src/train_baseline.py
 ```
 
+5. Run the three core ML tasks (each has a `--baseline` and a BERT mode; add `--cv` for 5-fold):
+
+```bash
+python src/train_speaker.py --baseline            # task 1: speaker id
+python src/assign_claim_labels.py                 # bootstrap silver claim_labels
+python src/train_claim_multilabel.py --baseline   # task 2: multi-label claim
+python src/train_bert_stance.py --cv              # task 3: stance (DistilBERT)
+```
+
+6. Build the graph, evaluate retrieval, and audit the graph:
+
+```bash
+python src/build_graph_full.py                    # person–claim–stance graph
+python src/eval_retrieval.py                      # MRR / nDCG@10 (BM25 vs dense vs stance-aware)
+export OPENAI_API_KEY="..." && python src/graph_judge.py --sample 20
+```
+
 ## Repo layout
 
 ```
 src/    pipeline code
-data/   raw transcripts, baseline segments, and labeled segments
+data/   raw transcripts, segments, labeled (silver) + gold segments, graph artifacts
 ```

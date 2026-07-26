@@ -203,7 +203,38 @@ raporlayacak.
 
 ---
 
-## 9. Sonraki adımlar (planlanan)
+## 9. Şartname hizalaması — 3 çekirdek görev + graf + retrieval
+
+**İlk durum:** Resmi proje tanımına (Project ID 1) göre eksikler vardı: claim
+görevi binary'di (multi-label değil), speaker/graf/retrieval değerlendirmesi
+yoktu. Her yeni özellik **ayrı feature branch**'te geliştirilip main'e merge edildi.
+
+**Ne yaptık:**
+- **Görev 1 — Speaker identification** (`train_speaker.py`): TF-IDF baseline +
+  class-weighted DistilBERT. 5 videoda **TF-IDF 5-fold Macro-F1 = 0.693**
+  (accuracy 0.847; Unknown ve seyrek konuşmacılar hariç).
+- **Görev 2 — Multi-label canonical claim classification**: 20 embedding
+  kümesinden **14 kategorilik kanonik taksonomi** (`claim_taxonomy.py`) türetildi;
+  `label_segments.py` artık her segmente multi-label `claim_labels` üretiyor;
+  `label_manual.py`'ye çoklu-seçim eklendi; `assign_claim_labels.py` embedding ile
+  silver multi-label bootstrap yapıyor; model `train_claim_multilabel.py`
+  (DistilBERT sigmoid+BCE ve TF-IDF OvR baseline).
+- **Görev 5 — Person–claim–stance grafı** (`build_graph_full.py`): tek anchor
+  yerine kanonik claim kategorileri düğüm; person→claim kenarları stance dağılımı
+  taşıyor.
+- **Görev 6-8 — Stance-aware retrieval** (`eval_retrieval.py`): labels'tan
+  (claim × stance) sorgu seti + qrels; **BM25 / dense / hybrid / stance-aware**
+  karşılaştırması, **MRR ve nDCG@10**.
+- **Görev 9 — Graf doğrulama** (`graph_judge.py`): LLM-as-a-judge kenar denetimi
+  (yapısal bütünlük oranı).
+
+**Not:** Multi-label claim, retrieval ve full-graf, `claim_labels` alanının dolu
+olmasını ister — `assign_claim_labels.py` (bootstrap) veya güncellenmiş
+`label_segments.py` çalıştırıldıktan sonra sonuç üretirler.
+
+---
+
+## 10. Sonraki adımlar (planlanan)
 
 - **Veri genişletme:** 20 video ekle (`SEED_VIDEOS` + `VIDEO_META`), silver
   etiketle; BERT'in TF-IDF'i geçebilmesi için transformer'a daha çok veri.
@@ -233,4 +264,11 @@ raporlayacak.
 | `src/train_bert_stance.py` | BERT stance student (DistilBERT, weighted CE, 5-fold CV) |
 | `src/label_manual.py` | Elle gold etiketleme aracı (Streamlit; silver'ı düzeltip data/gold/) |
 | `src/compute_agreement.py` | LLM silver vs insan gold uyumu (Cohen's κ) |
+| `src/claim_taxonomy.py` | 14 kategorilik kanonik claim taksonomisi |
+| `src/assign_claim_labels.py` | Embedding ile silver multi-label claim bootstrap |
+| `src/train_claim_multilabel.py` | Multi-label claim modeli (DistilBERT BCE + TF-IDF OvR) |
+| `src/train_speaker.py` | Speaker identification (TF-IDF + DistilBERT) |
+| `src/build_graph_full.py` | Person–claim–stance grafı (kanonik claim düğümleri) |
+| `src/eval_retrieval.py` | Stance-aware retrieval eval (BM25/dense/hybrid, MRR/nDCG@10) |
+| `src/graph_judge.py` | LLM-as-a-judge graf doğrulama |
 | `run_labeling.sh` | Etiketleme + graf yeniden kurma yardımcı script'i |
