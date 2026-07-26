@@ -411,6 +411,49 @@ kanıtı olarak değil. Anlamlı ölçüm için stance/claim sınıflandırıcı
 birbirine çok yakın olması (MRR ~0.42) asıl bulgu: yüzeysel benzerlik bu
 sorguları ayırt etmeye yetmiyor.
 
+### Graf doğrulama (`graph_judge.py`) — 307 kenarın tamamı
+
+LLM-as-a-judge her kenarı, o kişinin o kategorideki gerçek alıntılarıyla
+karşılaştırdı (maliyet ~$0.02, örneklem almaya gerek kalmadı):
+
+| Verdict | Sayı |
+|---|---|
+| valid | 64 |
+| **unclear** | **239** |
+| invalid | 4 |
+
+**Yapısal geçerlilik %20.8** — ama bu rakamı "graf %79 hatalı" diye okumak
+yanlış olur. Kritik ayrım: **invalid sadece 4**. Yani hakem stance'in
+alıntılarla *çeliştiğini* neredeyse hiç söylemiyor; 239 kenarda "karar
+veremiyorum" diyor. Gerekçeler sebebi açıkça gösteriyor — örnek:
+
+> *Ege Erdil / open_source / Refute:* "The quotes discuss the complexity of AI
+> research and the relationship between compute and progress, but do not
+> explicitly state a clear stance on whether AI development should rely on
+> open-source or proprietary platforms."
+
+Yani sorun stance etiketinde değil, **segment ↔ claim kategorisi
+eşleşmesinde**: embedding benzerliği segmenti bir kategoriye atıyor, ama
+segment o konudan bahsetmiyor. Kategori bazlı kırılım bunu doğruluyor:
+
+| Kategori | Geçerlilik |
+|---|---|
+| ai_safety_risk | %55 |
+| agi_timeline | %46 |
+| llm_capabilities | %33 |
+| … | … |
+| open_source | %8 |
+| intelligence_nature | %0 |
+| other | %0 |
+
+Ayırt edici kelime dağarcığı olan kategoriler (%46-55) ile soyut/geniş
+kategoriler (%0-8) arasında keskin fark var. **Bulgu:** `claim_labels`'ın
+embedding-tabanlı bootstrap'ı ayırt edici kategorilerde iş görüyor, soyut
+olanlarda görmüyor — ve bu doğrudan grafın kalitesine yansıyor. Bölüm 12'nin
+başındaki eşik ayarı `other` şişmesini çözdü ama atama *isabetini* çözmedi.
+Gerçek çözüm LLM'e taksonomiyi zorunlu kılan bir yeniden etiketleme
+(`other`'ı son çare yapan prompt) veya kategori sayısını azaltmak.
+
 ### DistilBERT — bu makinede ölçülemedi
 
 `train_bert_stance.py --cv` bu oturumda çalıştırılamadı: makine MacBook Air,
@@ -430,10 +473,13 @@ yeniden ölçmek **hâlâ en yüksek değerli açık deney**.
 - **İndüktif stance-aware retrieval:** mevcut sürüm gold etiket kullandığı için
   1.000 veriyor (bölüm 12). Sınıflandırıcı tahminleriyle yeniden kurulmalı —
   grafın gerçek retrieval katkısı ancak o zaman ölçülür.
-- **Multi-label claim'in uzun kuyruğu:** `intelligence_nature` (43 örnek, F1
-  0.044) ve `geopolitics` (38, 0.157) eğitilemiyor. Ya hedefli veri, ya
-  taksonomiyi birleştirerek kategori sayısını azaltmak.
-- **`graph_judge.py`:** 355 kenarlı yeni graf üzerinde LLM-as-a-judge denetimi.
+- **`claim_labels` isabetini düzelt (en yüksek öncelik):** graf denetimi
+  kenarların %78'inde "unclear" veriyor ve sebep segment↔kategori eşleşmesi
+  (bölüm 12). İki yol: (a) `other`'ı son çare yapan prompt'la LLM yeniden
+  etiketleme (~$0.45, ölçülü), (b) soyut kategorileri birleştirip taksonomiyi
+  14'ten ~8'e indirmek. (b) aynı zamanda multi-label modelin uzun-kuyruk
+  sorununu da çözer (`intelligence_nature` F1 0.044 / 43 örnek,
+  `geopolitics` 0.157 / 38 örnek).
 - **Gold set:** ~400-500 segmenti `label_manual.py` ile doğrula, κ'yı raporla.
 - **Soft-label distillation:** teacher LLM logit/olasılıklarıyla.
 - **Konuşmacı belirsizliği:** bulgu 4'teki çok-konuşmacılı durum için diyalog
