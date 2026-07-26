@@ -49,6 +49,28 @@ SEED_VIDEOS = [
     "WLBsUarvWTw",
     "F_7M4Hc-usM",
     "5t1vTLU7s40",  # Lex Fridman × Yann LeCun (AGI skeptic; strengthens Refute)
+    # --- "AGI DISCOURSE" playlist expansion (19 videos, ~52h) ---
+    # Kept additive: the playlist does not contain WLBsUarvWTw / b1TeeIG6Uaw /
+    # F_7M4Hc-usM, so replacing the list would have dropped ~245 segments.
+    "YFjfBk8HI5o",
+    "cdiD-9MMpb0",
+    "2bbSgSIQsac",
+    "VcVfceTsD0A",
+    "ugvHCXCOmm4",
+    "-HzgcbRXUK8",
+    "EV7WhVT270Q",
+    "srwTa8R5Sho",
+    "hns1g4dm0Qo",
+    "SjSl2re_Fm8",
+    "Wo95ob_s_NI",
+    "Nlkk3glap_U",
+    "n1E9IZfvGMA",
+    "Tv3mGA3wqh8",
+    "AaTRHFaaPG8",
+    "NNr6gPelJ3E",
+    "G1ARvwQntAU",
+    "kMLKbhY0ji0",
+    "zSAGzfspuDE",
 ]
 
 # People we care about (used later for speaker identification + the graph).

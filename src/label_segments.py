@@ -58,6 +58,13 @@ ANCHOR_CLAIM = (
 TRACKED_PEOPLE = [
     "Jensen Huang", "Demis Hassabis", "Yann LeCun", "Jeff Dean",
     "Mustafa Suleyman", "Lex Fridman", "Dwarkesh Patel",
+    "Peter Steinberger", "Andrej Karpathy",
+    # AGI-discourse playlist additions
+    "Max Tegmark", "Dario Amodei", "Eliezer Yudkowsky", "Roman Yampolskiy",
+    "Connor Leahy", "Yoshua Bengio", "John Schulman", "Will MacAskill",
+    "Rohin Shah", "Robert Miles", "Beth Barnes", "David Rein",
+    "Nathan Lambert", "Sebastian Raschka",
+    "Rob Wiblin",  # 80,000 Hours host — modelin kendi tespiti, roster'da yoktu
 ]
 
 # ---------------------------------------------------------------------------
@@ -79,6 +86,70 @@ VIDEO_META = {
                     "source": "Stanford (How to Start a Startup)"},
     "5t1vTLU7s40": {"host": "Lex Fridman",    "guests": ["Yann LeCun"],
                     "source": "Lex Fridman Podcast"},
+    # --- "AGI DISCOURSE" playlist expansion ---
+    "YFjfBk8HI5o": {"host": "Lex Fridman",    "guests": ["Peter Steinberger"],
+                    "source": "Lex Fridman Podcast #491 (OpenClaw)"},
+    "cdiD-9MMpb0": {"host": "Lex Fridman",    "guests": ["Andrej Karpathy"],
+                    "source": "Lex Fridman Podcast #333 (Tesla AI, AGI)"},
+    # Lex Fridman Podcast — host/guest pairs are explicit in the episode titles.
+    "VcVfceTsD0A": {"host": "Lex Fridman",    "guests": ["Max Tegmark"],
+                    "source": "Lex Fridman Podcast #371 (Halting AI Development)"},
+    "ugvHCXCOmm4": {"host": "Lex Fridman",    "guests": ["Dario Amodei"],
+                    "source": "Lex Fridman Podcast #452 (Anthropic, Claude, AGI)"},
+    "-HzgcbRXUK8": {"host": "Lex Fridman",    "guests": ["Demis Hassabis"],
+                    "source": "Lex Fridman Podcast #475 (Future of AI)"},
+    "AaTRHFaaPG8": {"host": "Lex Fridman",    "guests": ["Eliezer Yudkowsky"],
+                    "source": "Lex Fridman Podcast #368 (Dangers of AI)"},
+    "NNr6gPelJ3E": {"host": "Lex Fridman",    "guests": ["Roman Yampolskiy"],
+                    "source": "Lex Fridman Podcast #431 (Superintelligent AI)"},
+    # Three-way panel: no single guest, both panelists are tracked speakers.
+    "EV7WhVT270Q": {"host": "Lex Fridman",
+                    "guests": ["Nathan Lambert", "Sebastian Raschka"],
+                    "source": "Lex Fridman Podcast #490 (State of AI in 2026)"},
+
+    # Dwarkesh Patel — interview format, host named in the channel.
+    "Wo95ob_s_NI": {"host": "Dwarkesh Patel", "guests": ["John Schulman"],
+                    "source": "Dwarkesh Patel (Reasoning, RLHF, 2027 AGI)"},
+    "Nlkk3glap_U": {"host": "Dwarkesh Patel", "guests": ["Dario Amodei"],
+                    "source": "Dwarkesh Patel (hidden pattern behind AI breakthroughs)"},
+    "n1E9IZfvGMA": {"host": "Dwarkesh Patel", "guests": ["Dario Amodei"],
+                    "source": "Dwarkesh Patel (near the end of the exponential)"},
+
+    # Single-speaker talks / essays: no interviewer, so the speaker is the host.
+    # Tek konuşmacı sanılmıştı; model sunucuyu (Rob Wiblin, 80,000 Hours)
+    # bağlamdan kendisi tespit etti — roster geriye dönük düzeltildi.
+    "SjSl2re_Fm8": {"host": "Rob Wiblin",      "guests": ["Will MacAskill"],
+                    "source": "80,000 Hours (intelligence explosion too fast)"},
+    # MacAskill bölümü gibi bu da bir 80,000 Hours röportajı: sunucu Rob Wiblin
+    # yine bağlamdan tespit edildi.
+    "Tv3mGA3wqh8": {"host": "Rob Wiblin",      "guests": ["Rohin Shah"],
+                    "source": "80,000 Hours (AGI safety at Google DeepMind)"},
+    "kMLKbhY0ji0": {"host": "Robert Miles",    "guests": [],
+                    "source": "Robert Miles (there is a good chance this kills everyone)"},
+
+    # Interviews where the channel host is not named in the title — the guest
+    # carries the claims, so the roster is guest-only plus a generic host.
+    "hns1g4dm0Qo": {"host": "Roman Yampolskiy", "guests": [],
+                    "source": "AI Safety Expert (Humanity's Last Invention)"},
+    # Kanal/sunucu adı hiçbir kaynakta geçmiyor ve altyazıda konuşmacı değişimi
+    # yalnızca ">>" ile işaretli (isim yok). "Interviewer" placeholder'ı ile
+    # denendi: 86 segmentin 67'si Unknown çıktı. Roster'ı konuk-tek bırakmak,
+    # modeli isimsiz sunucu yerine gerçek konuşmacıya yönlendiriyor.
+    "srwTa8R5Sho": {"host": "Connor Leahy",    "guests": [],
+                    "source": "Connor Leahy (AI is accelerating, real danger)"},
+    "G1ARvwQntAU": {"host": "Tim Scarfe",      "guests": ["Yoshua Bengio"],
+                    "source": "MLST (Might the Robots Take Over?)"},
+    # Üç konuşmacı ve ASR altyazı: geçişler yalnızca ">>" ile işaretli, isim
+    # geçmiyor (Beth 4, David 1 kez). Konuşmacı ayrımı bu yüzden yapılamıyor —
+    # 81 segmentin ~%80'i Unknown. Segmentler stance/claim modelleri için
+    # tutuluyor, grafa katkı vermiyorlar.
+    "zSAGzfspuDE": {"host": None,
+                    "guests": ["Beth Barnes", "David Rein"],
+                    "source": "METR (The AI Progress Chart Everyone Is Misreading)"},
+    # Konuk transcript intro'sundan tespit edildi ("My guest today, Dr. Roman
+    # Yampolskiy"); sunucunun adı geçmiyor, o yüzden roster konuk-tek.
+    "2bbSgSIQsac": {"host": "Roman Yampolskiy", "guests": [],
+                    "source": "Why 99.999% of Us Won't Survive ASI (Yampolskiy)"},
 }
 
 
@@ -160,7 +231,22 @@ SEGMENT (t={start}s-{end}s):
 # ---------------------------------------------------------------------------
 # Provider clients
 # ---------------------------------------------------------------------------
+def load_dotenv():
+    """Read KEY=value lines from a local .env into os.environ (never committed),
+    so the API key does not have to be exported in every new shell."""
+    env_path = Path(__file__).resolve().parent.parent / ".env"
+    if not env_path.exists():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, v = line.split("=", 1)
+        os.environ.setdefault(k.strip(), v.strip().strip("'\""))
+
+
 def build_client(provider):
+    load_dotenv()
     if provider == "openai":
         try:
             from openai import OpenAI
