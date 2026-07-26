@@ -7,3 +7,4 @@ transformers
 torch
 hf_xet
 streamlit
+rank-bm25
