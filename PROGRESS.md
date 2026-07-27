@@ -461,6 +461,12 @@ CUDA yok (5-fold × 6 epoch CPU'da saatler sürüyor). Eksik `accelerate` paketi
 kuruldu, GPU'lu makinede hazır. Bölüm 7'nin negatif sonucunu 2782 segmentle
 yeniden ölçmek **hâlâ en yüksek değerli açık deney**.
 
+GPU'lu makinede üç encoder'ı (speaker + claim + stance) tek seferde eğitmek için
+kök dizindeki **`run_gpu.sh`** hazır: `bash run_gpu.sh` — sonuçları
+`gpu_results/`'a yazar. Bu, projede GPU'nun tek kullanım yeri; labeling ve
+LLM-as-a-judge (tek paralı/API adımlar) zaten tamamlanmış durumda, tekrar
+gerekmez.
+
 ---
 
 ## 13. Sonraki adımlar (planlanan)
