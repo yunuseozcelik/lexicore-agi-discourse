@@ -3,6 +3,8 @@ docs/
 
 # Model training outputs / checkpoints (large, regenerable)
 data/bert_out/
+bert_out/
+gpu_results/
 
 # Python
 __pycache__/
