@@ -65,6 +65,19 @@ def report(y_true, y_pred):
                                 digits=3, zero_division=0))
 
 
+def tune_thresholds(P, Y):
+    """Per-label threshold that maximizes that label's F1 on the OOF probs."""
+    th = np.full(P.shape[1], 0.5, dtype=np.float32)
+    for c in range(P.shape[1]):
+        best_f, best_t = -1.0, 0.5
+        for t in np.arange(0.05, 0.96, 0.05):
+            f = f1_score(Y[:, c], (P[:, c] >= t).astype(np.float32), zero_division=0)
+            if f > best_f:
+                best_f, best_t = f, t
+        th[c] = best_t
+    return th
+
+
 # ---------------------------------------------------------------------------
 # TF-IDF + One-vs-Rest Logistic Regression baseline
 # ---------------------------------------------------------------------------
@@ -119,17 +132,33 @@ def train_bert_fold(model_name, tokenizer, X_tr, Y_tr, X_te, Y_te,
         model_name, num_labels=C, problem_type="multi_label_classification",
         id2label={i: c for i, c in enumerate(CLAIM_IDS)},
         label2id=ID2COL)
+
+    # pos_weight = neg/pos per label (capped) so rare categories actually get
+    # gradient signal under BCE — without it the tail labels never fire.
+    pos = Y_tr.sum(axis=0)
+    neg = len(Y_tr) - pos
+    pos_weight = torch.tensor(np.clip(neg / np.maximum(pos, 1.0), 1.0, 10.0),
+                              dtype=torch.float)
+
+    class MultiLabelTrainer(Trainer):
+        def compute_loss(self, model, inputs, return_outputs=False, **kw):
+            labels = inputs.pop("labels")
+            outputs = model(**inputs)
+            loss_fct = torch.nn.BCEWithLogitsLoss(
+                pos_weight=pos_weight.to(outputs.logits.device))
+            loss = loss_fct(outputs.logits, labels.float())
+            return (loss, outputs) if return_outputs else loss
+
     args = TrainingArguments(
         output_dir=out_dir, num_train_epochs=epochs,
         per_device_train_batch_size=batch, per_device_eval_batch_size=batch,
         learning_rate=2e-5, weight_decay=0.01, warmup_ratio=0.1,
         logging_strategy="no", save_strategy="no", report_to="none",
         seed=SEED, fp16=torch.cuda.is_available())
-    trainer = Trainer(model=model, args=args, train_dataset=ds_tr)
+    trainer = MultiLabelTrainer(model=model, args=args, train_dataset=ds_tr)
     trainer.train()
     logits = trainer.predict(ds_te).predictions
-    probs = 1 / (1 + np.exp(-logits))          # sigmoid
-    return (probs >= 0.5).astype(np.float32)
+    return 1 / (1 + np.exp(-logits))          # sigmoid probabilities (not thresholded)
 
 
 def run_bert(texts, Y, args):
@@ -143,20 +172,24 @@ def run_bert(texts, Y, args):
 
     if args.cv:
         kf = KFold(n_splits=5, shuffle=True, random_state=SEED)
-        y_pred = np.zeros_like(Y)
+        P = np.zeros_like(Y)                      # out-of-fold probabilities
         for k, (tr, te) in enumerate(kf.split(X), 1):
             print(f"--- fold {k}/5 (train={len(tr)}, test={len(te)}) ---")
-            y_pred[te] = train_bert_fold(args.model, tokenizer, X[tr], Y[tr],
-                                         X[te], Y[te], args.epochs, args.batch,
-                                         args.max_len, out_dir)
-        print("=== DistilBERT multi-label (5-fold CV) ===")
-        report(Y, y_pred)
+            P[te] = train_bert_fold(args.model, tokenizer, X[tr], Y[tr],
+                                    X[te], Y[te], args.epochs, args.batch,
+                                    args.max_len, out_dir)
+        print("=== DistilBERT multi-label (5-fold CV) — threshold 0.5 ===")
+        report(Y, (P >= 0.5).astype(np.float32))
+        th = tune_thresholds(P, Y)
+        print("=== DistilBERT multi-label (5-fold CV) — per-label tuned thresholds ===")
+        print("thresholds:", {CLAIM_IDS[i]: round(float(th[i]), 2) for i in range(C)})
+        report(Y, (P >= th).astype(np.float32))
     else:
         tr, te = train_test_split(np.arange(len(X)), test_size=0.2, random_state=SEED)
-        y_pred = train_bert_fold(args.model, tokenizer, X[tr], Y[tr], X[te], Y[te],
-                                 args.epochs, args.batch, args.max_len, out_dir)
-        print("=== DistilBERT multi-label (80/20 split) ===")
-        report(Y[te], y_pred)
+        P = train_bert_fold(args.model, tokenizer, X[tr], Y[tr], X[te], Y[te],
+                            args.epochs, args.batch, args.max_len, out_dir)
+        print("=== DistilBERT multi-label (80/20 split) — threshold 0.5 ===")
+        report(Y[te], (P >= 0.5).astype(np.float32))
 
 
 def main():
