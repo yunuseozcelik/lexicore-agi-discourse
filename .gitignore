@@ -6,6 +6,9 @@ data/bert_out/
 bert_out/
 gpu_results/
 
+# OOF prediction dumps (regenerable via predict_labels_oof.py)
+data/predicted/
+
 # Python
 __pycache__/
 *.pyc
