@@ -30,7 +30,7 @@ set -euo pipefail
 MODEL="${MODEL:-distilbert-base-uncased}"
 BATCH="${BATCH:-16}"                   # 16 is deliberate: 64 underfits speaker/claim
 MAXLEN="${MAXLEN:-256}"
-OUT="gpu_results"
+OUT="${OUT:-gpu_results}"              # override to keep an ablation's results separate
 ENV_PREFIX="${ENV_PREFIX:-$HOME/envs/lexicore}"
 
 # Slurm starts us in the submission directory, but be explicit about it.
