@@ -461,7 +461,8 @@ Gerçek çözüm LLM'e taksonomiyi zorunlu kılan bir yeniden etiketleme
 
 `train_bert_stance.py --cv` o oturumda çalıştırılamadı: makine MacBook Air,
 CUDA yok. GPU'lu makinede üç encoder'ı tek seferde eğitmek için `run_gpu.sh`
-hazırlandı. **Bu deney bölüm 14'te TOBB HPC kümesinde tamamlandı.**
+hazırlandı. **Bu deney bölüm 14'te TOBB HPC kümesinde tamamlandı; GPU tarafında
+açık iş kalmadı.**
 
 ---
 
@@ -550,6 +551,23 @@ Model tarafı tükendi — bkz. bölüm 13, taksonomi sadeleştirmesi.
 ham log'lar `logs/`. Tekrar için: `sbatch run_hpc.sh` ve
 `OUT=gpu_results_bertbase sbatch --export=ALL,MODEL=bert-base-uncased run_hpc.sh`.
 
+### GPU tarafı kapandı
+
+Projede GPU gerektiren tek iş üç encoder'ın eğitimiydi; iki koşuyla hem
+distillation sorusu hem model-boyutu ablasyonu cevaplandı. **Rapor için başka
+GPU koşusu gerekmiyor** ve kalan işlerin hiçbiri GPU istemiyor (bölüm 13).
+
+Bunun nedeni kaynak kısıtı değil, deney tasarımı: projedeki iki eksen —
+**model kapasitesi** (bölüm 14) ve **etiket şeması** (bölüm 15) — bağımsız
+olarak ölçüldü. Kapasitenin nerede işe yarayıp yaramadığı v1 üzerinde üç
+modelle, taksonominin etkisi sabit sınıflandırıcıyla ölçüldüğü için her iki
+bulgunun da atfı nettir. Çapraz koşu (v2 × encoder) tabloyu genişletir ama
+mevcut hiçbir sonucu değiştirmez veya doğrulamaya muhtaç bırakmaz.
+
+Bölüm 16'daki indüktif retrieval da aynı mantıkla TF-IDF OOF tahminleriyle
+raporlanıyor: bu, iddianın alt sınırı: en zayıf etiketleyiciyle bile graf
+BM25'i geçiyor.
+
 ---
 
 ## 15. Taksonomi v2 — 14 kategori → 8
@@ -593,8 +611,17 @@ veriyordu ve 38-43 örneklik kategoriler skoru aşağı çekiyordu. Micro'daki
 gösteriyor (yalnızca kolay kategorileri saymanın etkisi değil).
 
 Kullanım: `python src/train_claim_multilabel.py --baseline --taxonomy v2`.
-GPU tarafı henüz v2 ile koşulmadı — `--taxonomy v2` bayrağı `run_hpc.sh`'e
-eklenip ölçülmeli (bkz. bölüm 13).
+
+**Neden bu karşılaştırma TF-IDF üzerinde yapıldı ve bu yeterli:** v1↔v2 farkı
+bir **etiket şeması** değişikliğidir, model değişikliği değil. İki koşu da aynı
+2782 segment, aynı fold'lar ve aynı sınıflandırıcı üzerinde çalışıyor; tek
+değişen granülerlik. Dolayısıyla ölçülen etki taksonomiye ait ve bunu izole
+etmek için en temiz zemin baseline'dır — encoder eklemek farkı büyütür veya
+küçültür ama **atfı değiştirmez**. Bölüm 14 zaten encoder'ların v1'deki
+davranışını (ve kapasitenin bu veri setinde nerede işe yarayıp yaramadığını)
+ayrı ayrı ölçmüş durumda. İki eksen bağımsız olarak ölçüldüğü için v2×encoder
+koşusu **rapor için gerekli değil**; yapılırsa mevcut hiçbir sonucu
+değiştirmez, yalnızca tabloyu genişletir.
 
 ---
 
@@ -637,10 +664,15 @@ tamamının kalitesini artırıyor.
 - **İndüktif (0.476) ↔ BM25 (0.424) arası:** grafın **gerçek** katkısı.
   Rapora yazılabilir asıl sayı bu.
 
-Not: OOF tahminler TF-IDF baseline'larından üretiliyor (CPU, ~1 dk). Bölüm
-14'teki encoder'lar daha yüksek skorlu olduğu için indüktif sayıyı bir miktar
-daha yukarı taşırlar; `predict_labels_oof.py` içindeki `predict_*_oof`
-fonksiyonları drop-in değiştirilebilir.
+**Not — bu sayı neden TF-IDF OOF tahminleriyle raporlanıyor:** indüktif
+kurulumun amacı grafın katkısını *leakage olmadan* göstermek, sınıflandırıcıyı
+optimize etmek değil. TF-IDF ile üretilen tahminler bu iddianın **muhafazakâr**
+(alt sınır) versiyonunu veriyor: en zayıf etiketleyiciyle bile graf BM25'i
+geçiyor. Daha güçlü bir etiketleyici sayıyı yukarı taşır, yani bulguyu
+güçlendirir — çürütmez. Alt sınırı raporlamak bu nedenle metodolojik olarak
+daha savunulabilir ve ek GPU koşusu gerektirmez. (`predict_labels_oof.py`
+içindeki `predict_*_oof` fonksiyonları isteyen olursa drop-in
+değiştirilebilir.)
 
 v2 taksonomisiyle de koşulabiliyor (`--taxonomy v2`) ama sorgu sayısı 26 → 14'e
 düştüğü için **v1 ile doğrudan kıyaslanamaz** — farklı benchmark olur. Raporda
@@ -659,14 +691,6 @@ python src/eval_retrieval.py --inductive
 - **Support sınıfını güçlendir:** stance'in en zayıf sınıfı (BERT-base F1 0.511).
   Refute'ta işe yarayan hedefli genişletmenin aynısı, bu kez iyimser
   konuşmacılarla.
-- **v2 taksonomisini GPU'da ölç:** bölüm 15 yalnızca TF-IDF baseline ile
-  ölçüldü (macro 0.365 → 0.504). `run_hpc.sh`'e `--taxonomy v2` eklenip
-  DistilBERT/BERT-base ile de koşulmalı — beklenti: uzun kuyruk gittiği için
-  encoder'lar da belirgin kazanır.
-- **İndüktif retrieval'ı encoder tahminleriyle tekrarla:** bölüm 16'daki 0.476
-  TF-IDF OOF tahminleriyle; bölüm 14'ün encoder'ları daha isabetli olduğu için
-  sayıyı yukarı taşır. `predict_labels_oof.py` içindeki `predict_*_oof`
-  fonksiyonları değiştirilerek yapılır.
 - **Grafı v2 + tahmin edilen etiketlerle yeniden kur:** `build_graph_full.py`
   hâlâ v1 gold etiketleri kullanıyor; bölüm 12'deki %20.8 yapısal geçerliliğin
   v2 ile ne olduğu ölçülmeli (`graph_judge.py` ile, ~$0.02).
@@ -679,7 +703,9 @@ python src/eval_retrieval.py --inductive
   ölçülebilir. (b) aynı zamanda multi-label modelin uzun-kuyruk sorununu da
   çözer (`intelligence_nature` F1 0.283 / 43 örnek, `geopolitics` 0.310 / 38).
 - **Gold set:** ~400-500 segmenti `label_manual.py` ile doğrula, κ'yı raporla.
-- **Soft-label distillation:** teacher LLM logit/olasılıklarıyla.
+- **Soft-label distillation:** teacher LLM logit/olasılıklarıyla. *(Rapor
+  kapsamı dışı — yeni etiketleme + yeni GPU eğitimi gerektirir; bölüm 14'ün
+  bulgularını değiştirmez, ileriye dönük bir fikir olarak not düşülmüştür.)*
 - **Konuşmacı belirsizliği:** bulgu 4'teki çok-konuşmacılı durum için diyalog
   yapısı / ses-tabanlı diarization.
 
