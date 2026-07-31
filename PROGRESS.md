@@ -425,7 +425,10 @@ karşılaştırdı (maliyet ~$0.02, örneklem almaya gerek kalmadı):
 | **unclear** | **239** |
 | invalid | 4 |
 
-**Yapısal geçerlilik %20.8** — ama bu rakamı "graf %79 hatalı" diye okumak
+**Yapısal geçerlilik %20.8** — ⚠️ *bu rakam bölüm 17'de geçersiz kılındı:
+ölçümün kendisi bozuktu (denetim prompt'unda sabit anchor hatası). Aynı graf
+düzeltilmiş prompt'la ölçüldüğünde geçerlilik **%61.8**. Aşağıdaki yorum
+tarihsel kayıttır.* — ama bu rakamı "graf %79 hatalı" diye okumak
 yanlış olur. Kritik ayrım: **invalid sadece 4**. Yani hakem stance'in
 alıntılarla *çeliştiğini* neredeyse hiç söylemiyor; 239 kenarda "karar
 veremiyorum" diyor. Gerekçeler sebebi açıkça gösteriyor — örnek:
@@ -686,22 +689,179 @@ python src/eval_retrieval.py --inductive
 
 ---
 
+## 17. Graf denetimi — taksonomi v2, filtre, ve ölçüm aracının kendisi
+
+> **Özet:** Graf geçerliliği %20.8'den **%61.8**'e çıktı. Bu kazancın küçük
+> kısmı grafı düzeltmekten, büyük kısmı **ölçüm aracını düzeltmekten** geldi.
+> Aşağıdaki sıralama bunu ayrıştırıyor.
+
+### Ölçüm geçmişi
+
+| # | Graf | Denetim prompt'u | Geçerlilik | invalid |
+|---|---|---|---|---|
+| 1 | v1 (307 kenar) | sabit anchor | %20.8 | 4 |
+| 2 | v2 (197 kenar) | sabit anchor | %21.8 | 4 |
+| 3 | v2 + stance-only (171) | sabit anchor | %26.3 | 5 |
+| 4 | v2 + stance-only (171) | kategori-göreli | %44.4 | **20** |
+| 5 | **v2 + claims-only (173)** | **kategori-göreli + stance tanımı** | **%61.8** | **3** |
+
+Satır 1→2→3 graf tarafındaki müdahaleler, 3→4→5 ölçüm aracındaki düzeltmeler.
+
+### Bulgu 1 — taksonomi sadeleştirmesi grafı düzeltmedi (negatif sonuç)
+
+Bölüm 15'teki 14→8 birleştirme sınıflandırıcıya belirgin fayda sağlamıştı
+(macro-F1 0.365 → 0.504). Grafa **yansımadı**: %20.8 → %21.8, ki bu n=197'de
+gürültü (±%3).
+
+**Sınıflandırıcı performansı ile graf geçerliliği aynı şey değil.** Birleştirme
+uzun kuyruğu çözdü (az örnekli kategoriler kalmadı, model öğrenebiliyor) ama
+atama isabetini çözmedi (segment hâlâ konuşmadığı kategoriye atanabiliyor).
+Rapora değer metodolojik bir ayrım.
+
+### Bulgu 2 — asıl kusur etiketleme şemasındaydı
+
+`invalid` üç ölçümde de 4-5'te sabit kaldı, `unclear` ~%76'da. Hakem "bu yanlış"
+demiyor, "sinyal yok" diyordu. Veri sebebi gösterdi:
+
+- 2782 segmentin **661'i `is_claim=False`** (iddia değil).
+- Bunların grafa giren **439'unun tamamı `Neutral`** — etiketleyicide "stance
+  yok" seçeneği olmadığı için iddia olmayan segmentler Neutral'a akıtılmış ve
+  oradan kenara dönüşmüş.
+
+`build_graph_full.py --claims-only` bu artefaktı çıkarıyor: `is_claim=False`
+segmentler ve `other` kategorisi düşüyor. **Neutral duruşlar korunuyor** —
+Support/Neutral/Refute projenin stance şeması ve "bu kişi bu konuda taraf
+tutmuyor" grafın temsil etmesi gereken bir bulgu. (Ara bir sürüm Neutral
+kenarları tamamen atmıştı; bu ~1500 segment-bahsini siliyor ve her kenarı
+taşımadığı bir ikiliye zorluyordu — geri alındı.)
+
+### Bulgu 3 — ölçüm aracının kendisi iki kez bozuktu
+
+Kategori bazlı skorlar tuhaf davranınca `reason` metinleri okundu ve prompt'ta
+iki ayrı kusur bulundu. **İkisi de ölçümü sistematik olarak bozuyordu.**
+
+**(a) Sabit anchor.** Prompt stance'i tek bir çıpaya göre tanımlıyordu — *"AGI
+is near-term / something to be optimistic about"* — ama sonra *"bu **kategori**
+hakkında ne söylüyor"* diye soruyordu. Hakem çelişkiyi anchor lehine çözdü:
+
+> *Dario Amodei / Scaling / Support:* "The quotes suggest a positive view on the
+> progress of models but do not explicitly state a clear stance on **the
+> near-term optimism for AGI**."
+
+Yani `Scaling` kenarı, alıntıların AGI zaman çizelgesinden bahsedip
+bahsetmediğine göre notlandırılıyordu. Betimleyici kategorileri en çok vurdu
+(Scaling %11.5). Düzeltme: stance kategoriye göre değerlendiriliyor.
+
+**(b) `Refute` belirsizliği.** Kategori-göreli prompt `invalid`'i 5'ten 20'ye
+çıkardı — ama incelenince çoğu **hakem hatasıydı**:
+
+> *Will MacAskill / AI Safety & Risk / Refute:* "...acknowledges significant
+> risks... suggesting he **does not refute the importance** of AI safety."
+
+Hakem `Refute`'u "konunun önemini reddetmek" diye okumuştu. Şemamızda `Refute`
+= kaygılı/karamsar taraf; riskin ciddi olduğunu söyleyen biri tam olarak
+Refute'tur. 20 invalid'in 15'i bu kalıptaydı. Düzeltme: prompt'a stance'in
+**bakış açısı** olduğu (konunun önemi değil) ve bu örneğin açık uyarısı eklendi.
+
+Sonuç: invalid 20 → **3**, ve kalan 3'ü gerçek hata (ör. Lex Fridman ve Sam
+Altman'a `ai_safety_risk / Support` atanmış ama alıntıları endişe ifade ediyor).
+173 kenarda 3 hata = **%1.7**.
+
+**Rapora değer ders:** LLM-as-a-judge'da ölçülen şey kadar ölçüm prompt'u da
+doğrulanmalı. Aynı graf, aynı veri, üç farklı prompt → %26.3 / %44.4 / %61.8.
+Prompt doğrulanmadan raporlanan bir "yapısal geçerlilik" sayısı anlamsızdır.
+
+### Son durum (ölçüm 5)
+
+**Geçerlilik %61.8** (107 valid / 3 invalid / 63 unclear, 173 kenar).
+
+| Kategori | Geçerlilik |
+|---|---|
+| Capabilities, Limits & What's Missing | %72.0 |
+| AI Safety & Risk | %68.2 |
+| AGI Timeline | %66.7 |
+| Industry, Economics & Execution | %65.4 |
+| Race, Power & Geopolitics | %58.3 |
+| Scaling, Compute & Hardware | %57.7 |
+| AI Optimism & Human Benefit | %46.2 |
+
+Dağılım artık düz (%46-72); v1'deki %0-55 uçurumu kapandı.
+
+Stance bazında:
+
+| Stance | Kenar | Geçerlilik |
+|---|---|---|
+| Refute | 73 | **%82.2** |
+| Support | 68 | %47.1 |
+| Neutral | 32 | %46.9 |
+
+Refute'un belirgin şekilde yüksek olması tutarlı: karamsar/kaygılı ifadeler
+metinde daha açık işaretleniyor. Support ve Neutral'ın birbirine yakın olması
+ise kalan `unclear`'ların kaynağını gösteriyor — iyimserlik ile tarafsızlık
+arasındaki sınır bu veri setinde gerçekten bulanık. Kalan iyileştirme alanı bu.
+
+### Görselleştirme yeniden yazıldı
+
+Eski bipartite çizim 28 kişi × 8 kategori ile okunamıyordu (~200 kenar tek
+koridordan). İki figür üretiliyor, ikisi de üç stance'i de gösteriyor:
+
+- **`graph_heatmap*.png`** (ana figür) — kişi × kategori matrisi; hücre rengi
+  baskın stance, koyuluk kanıt hacmi, sayı segment adedi. Kesişme yok.
+- **`graph_full*.png`** (ikincil) — ağ görünümü; filtreli (≥25 segment, en aktif
+  8 konuşmacı), kenarlar yay çizerek ayrıştırılmış, etiketler sütun dışında.
+
+Her iki figürün altyazısı neyin dışarıda bırakıldığını açıkça yazıyor.
+
+Tekrar için:
+```bash
+python src/build_graph_full.py --taxonomy v2 --claims-only
+python src/graph_judge.py --taxonomy v2 --claims-only --sample 173 --tag _v3   # ~$0.015
+```
+
+---
+
+## 17-EK. Ara ölçümlerin ayrıntısı (arşiv)
+
+Bölüm 17'deki tablonun 1-4. satırları burada saklanıyor. Bu sayılar **bozuk
+prompt'larla** ölçüldüğü için mutlak değer olarak raporlanamaz; yalnızca
+aralarındaki göreli farklar anlamlıdır (hepsi aynı hatalı ölçütle ölçüldü).
+
+**Ölçüm 1-3 (sabit anchor prompt'u).** v1 %20.8 (64 valid / 4 invalid / 239
+unclear, 307 kenar) → v2 %21.8 (43/4/150, 197 kenar) → v2+stance-only %26.3
+(45/5/121, 171 kenar). Kategori dağılımı bu üçünde çok uçtu (AI Safety %54.5 ↔
+Other %4.2, Scaling %11.5); bunun anchor artefaktı olduğu bölüm 17 bulgu 3(a)'da
+gösterildi.
+
+**Ölçüm 4 (kategori-göreli prompt, `Refute` tanımı eksik).** %44.4 (76 valid /
+**20 invalid** / 75 unclear). invalid'deki sıçrama gerçek kenar hatası değil,
+prompt kusuruydu — bkz. bulgu 3(b).
+
+**Ara bir graf sürümü (`--stance-only`)** Neutral kenarları tamamen atıyordu
+(171 kenar, baskın-Neutral 0). Support/Neutral/Refute projenin stance şeması
+olduğu için bu geri alındı; yerine `--claims-only` geldi (173 kenar, 32
+baskın-Neutral kenar korunuyor).
+
+Raporlar `data/graph/` altında yan yana duruyor:
+`graph_judge_report.json` (v1), `_v2.json`, `_v2_stance.json`,
+`_v2_stance_fixedprompt.json`, **`_v2_claims_v3.json` (geçerli sonuç)**.
+
+---
+
 ## 13. Sonraki adımlar (planlanan)
 
 - **Support sınıfını güçlendir:** stance'in en zayıf sınıfı (BERT-base F1 0.511).
   Refute'ta işe yarayan hedefli genişletmenin aynısı, bu kez iyimser
   konuşmacılarla.
-- **Grafı v2 + tahmin edilen etiketlerle yeniden kur:** `build_graph_full.py`
-  hâlâ v1 gold etiketleri kullanıyor; bölüm 12'deki %20.8 yapısal geçerliliğin
-  v2 ile ne olduğu ölçülmeli (`graph_judge.py` ile, ~$0.02).
-- **`claim_labels` isabetini düzelt (kısmen yapıldı → bölüm 15):** graf denetimi
-  kenarların %78'inde "unclear" veriyor ve sebep segment↔kategori eşleşmesi
-  (bölüm 12) — bölüm 14 bulgu 4 bunu bağımsız olarak doğruladı. İki yol:
-  (a) `other`'ı son çare yapan prompt'la LLM yeniden etiketleme (~$0.45,
-  ölçülü), (b) soyut kategorileri birleştirip taksonomiyi 14'ten **8**'e
-  indirmek — `src/claim_taxonomy_v2.py` ile hazır, `--taxonomy v2` ile
-  ölçülebilir. (b) aynı zamanda multi-label modelin uzun-kuyruk sorununu da
-  çözer (`intelligence_nature` F1 0.283 / 43 örnek, `geopolitics` 0.310 / 38).
+- **Support ile Neutral'ı ayırt et (grafın kalan en zayıf yeri):** bölüm 17'de
+  Refute %82.2 geçerlilik alırken Support %47.1, Neutral %46.9'da kaldı ve
+  kalan 63 `unclear`'ın çoğu bu ikisinde. İyimserlik ile tarafsızlık arasındaki
+  sınır hem etiketleyici hem sınıflandırıcı için bulanık — stance şemasında
+  Support'un tanımını keskinleştirmek (ör. "açıkça olumlu bir iddia" şartı)
+  doğrudan graf kalitesine yansır.
+- **Etiketleyiciye "stance yok" seçeneği ekle:** bölüm 17 bulgu 2'nin kök
+  nedeni. `label_segments.py` iddia olmayan segmentleri Neutral'a akıtıyor;
+  `stance: null` eklenirse `--claims-only` filtresine gerek kalmaz ve Neutral
+  yalnızca *gerçek* tarafsızlığı ifade eder. Yeniden etiketleme (~$0.45).
 - **Gold set:** ~400-500 segmenti `label_manual.py` ile doğrula, κ'yı raporla.
 - **Soft-label distillation:** teacher LLM logit/olasılıklarıyla. *(Rapor
   kapsamı dışı — yeni etiketleme + yeni GPU eğitimi gerektirir; bölüm 14'ün
@@ -731,8 +891,8 @@ python src/eval_retrieval.py --inductive
 | `src/assign_claim_labels.py` | Embedding ile silver multi-label claim bootstrap |
 | `src/train_claim_multilabel.py` | Multi-label claim modeli (DistilBERT BCE + TF-IDF OvR) |
 | `src/train_speaker.py` | Speaker identification (TF-IDF + DistilBERT) |
-| `src/build_graph_full.py` | Person–claim–stance grafı (kanonik claim düğümleri) |
+| `src/build_graph_full.py` | Person–claim–stance grafı (+ `--taxonomy v2`, `--claims-only`, heatmap) |
 | `src/eval_retrieval.py` | Stance-aware retrieval eval (BM25/dense/hybrid, MRR/nDCG@10) |
-| `src/graph_judge.py` | LLM-as-a-judge graf doğrulama |
+| `src/graph_judge.py` | LLM-as-a-judge graf doğrulama (+ `--taxonomy`, `--claims-only`, `--tag`) |
 | `run_labeling.sh` | Etiketleme + graf yeniden kurma yardımcı script'i |
 | `add_video.sh` | Tek video ekleme (çek → segmentle → etiketle; ASR tespiti, idempotent) |
