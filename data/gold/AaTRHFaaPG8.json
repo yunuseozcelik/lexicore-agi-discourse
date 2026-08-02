@@ -1,0 +1,544 @@
+[
+  {
+    "start": 466.4,
+    "end": 562.6,
+    "text": "about the the architecture of human thinking then we know about what goes on inside GPT despite having like vastly better ability to read GPT do you think it's possible do you think that's just a matter of time do you think it's possible to investigate and study the way neuroscientists study the brain which is look into the darkness The Mystery of the human brain by just desperately trying to figure out something and to form models and then over a long period of time actually start to figure out what regions of the brain do certain things with different kinds of neurons when they fire what that means how plastic the brain is all that kind of stuff you slowly start to figure out different properties of the system do you think we can do the same thing with language models uh sure I think that if you know like half of today's physicists stop wasting their lives on string theory or whatever and go off and study um what goes on inside Transformer networks um then in you know like 30 40 years uh we'd probably have a pretty good idea do you think these large language models can reason they can play chess how are they doing that without reasoning so you're somebody that spearheaded the movement of rationality so reason is important to you is so is that as a powerful important word or is it like how difficult is the threshold of being able to reason to you and how impressive is it I mean in my writings on rationality I have not gone making a big deal out of something called reason I have made more of a big",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Understanding the architecture of human thinking and language models will take time and effort, similar to how neuroscientists study the brain.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "Language models",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Understanding the architecture of human thinking and language models will take time and effort, similar to how neuroscientists study the brain.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Language models",
+    "reviewed": false
+  },
+  {
+    "start": 1218.4,
+    "end": 1312.2,
+    "text": "is to be like oh well machines can never do that you're just credulous it's just imitating it's just fooling you and like they would say that right up until the end of the world and possibly even be right because you know they are being trained on an imitative paradigm and you don't necessarily need any of these actual qualities in order to kill everyone so have you observed yourself working through skepticism cynicism and optimism about the power of neural networks what is that trajectory been like for you it looks like neural networks before 2006 forming part of an indistinguishable to me other people might have had better Distinction on it indistinguishable blob of different AI methodologies all of which are promising to achieve intelligence without us having to know how intelligence works you have the people who said that if you just like manually program lots and lots of knowledge into the system line by line at some point all the knowledge will start interacting it will know enough and it will wake up um you've got people saying that if you just use evolutionary computation if you try to like mutate lots and lots of organisms that are competing together that's that's the same way that human intelligence was produced in nature so we'll do this and it will wake up without having the idea of how AI works and you've got people saying well we",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Skepticism about the ability of machines to achieve true intelligence without understanding how intelligence works is prevalent, but machines can still be dangerous.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI skepticism",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Skepticism about the ability of machines to achieve true intelligence without understanding how intelligence works is prevalent, but machines can still be dangerous.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI skepticism",
+    "reviewed": false
+  },
+  {
+    "start": 1402.9,
+    "end": 1496.7,
+    "text": "it do you think AGI could be achieved with a neural network as we understand them today yes just flatly last yes the question is whether the current architecture of stacking more Transformer layers which for all we know gpt4 is no longer doing because they're not telling us the architecture which is a correct decision oh correct decision I had a conversation with Sam Altman will return to this topic a few times he turned the question to me of how open should open AI be about gpt4 would you open source the code he asked me because I provided as criticism saying that while I do appreciate transparency open AI could be more open and he says we struggle with this question what would you do change their name to closed AI and like sell gpt4 to business backend applications that don't expose it to Consumers and Venture capitalists and create a ton of hype and like pour a bunch of new funding into the area but too late now but don't you think others would do it eventually you shouldn't do it first like if if you already have giant nuclear stockpiles don't build more if some other country starts building a larger nuclear stockpile than sure build then you know even then maybe just have enough nukes you know there's a these things are not quite like nuclear weapons they spit out",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "AGI could potentially be achieved with current neural network architectures, but there are concerns about transparency in AI development.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "AGI could potentially be achieved with current neural network architectures, but there are concerns about transparency in AI development.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 1779.4,
+    "end": 1870.8,
+    "text": "sea of possible presentations of your perspective and steel Manning is doing your best to do the best one in that sea of different perspectives do you believe it don't believe in what like these things that you would be presenting as like the strongest version of my perspective do you believe what you would be presenting do you think it's true I I'm a big proponent of empathy when I see the perspective of a person there is a part of me that believes it if I understand it and you have especially in political discourse in geopolitics I've been hearing a lot of different perspectives on the world and I hold my own opinions but I also speak to a lot of people that have a very different life experience and a very different set of beliefs and I think there has to be epistemic humility in in stating what is true so when I empathize with another person's perspective there is a sense in which I believe it is true I I think probabilistically I would say in the way you think do you bet money on it and do you bet money on their beliefs when you believe them are we allowed to do probability sure you can State a probability that yes there's there's a loose there's a probability there's a there's a probability and I I think empathy is allocating a non-zero probability to believe",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Empathy and Belief",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Empathy and Belief",
+    "reviewed": false
+  },
+  {
+    "start": 1965.7,
+    "end": 2059.6,
+    "text": "then I think I have to give non-zero out of your humility yeah but like three I think I would uh it would be irresponsible for me to give a number because the The Listener the way the human mind works we're not good at hearing the probabilities right you hear three what is what is three exactly right they're going to hear they're going to like well there's only three probabilities I feel like zero fifty percent and a hundred percent in the human mind or something like this right well zero forty percent and 100 is a bit closer to it based on what happens to chat GPT after RL H effort to speak humanies this is brilliant uh yeah this is that's really interesting I didn't I didn't know those negative side effects of rohf that's fascinating but uh just to uh return to the open AI close there also like quick disclaimer I'm doing all this for memory I'm not pulling out my phone to look it up it is entirely possible that the things I'm saying are wrong so thank you for that disclaimer so uh uh and thank you for what being willing to be wrong that's beautiful to hear I think being willing to be wrong is a sign of a person who's done a lot of thinking about this world and has been humbled by the mystery and the complexity of this world and I think a lot of us are resistant to admitting we're wrong because it hurts it hurts",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI discussion",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI discussion",
+    "reviewed": false
+  },
+  {
+    "start": 2434.5,
+    "end": 2529.7,
+    "text": "clear-cut case we can go to the Moon there's a sense in which we were on a sufficiently deep level optimized to do things like going to the Moon because if you generalize sufficiently far and sufficiently deeply chipping Flint hand axes and outwitting your fellow humans is you know basically the same problem is going to the moon and you optimize hard enough for chipping Flint hand axes and throwing Spears and above all outwitting your fellow humans in tribal politics uh you know the the the the the skills you entrain that way if they run deep enough let you go to the Moon even though none of your ancestors like tried repeatedly to fly to the moon and like got further each time and the ones who got further each time had more kids no it's not an ancestral problem it's just that the ancestral problems generalize far enough so this is Humanity's significantly more generally applicable intelligence is there a way to measure general intelligence I mean I could ask that question a million ways but basically is will you know it when you see it it being in an AGI system if you boil a frog gradually enough if you zoom in far enough it's always hard to tell around the edges gpt4 people are saying right now like this looks to us like a spark of general intelligence it",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Humanity's intelligence is significantly more generally applicable, suggesting that AGI could emerge from our existing capabilities.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI nature",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Humanity's intelligence is significantly more generally applicable, suggesting that AGI could emerge from our existing capabilities.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI nature",
+    "reviewed": false
+  },
+  {
+    "start": 2623.0,
+    "end": 2718.1,
+    "text": "of Transformers where you would stack them up and there would be like a final Discovery and then you would like get something that was like more clearly general intelligence so the the way that you are like taking what is probably basically the same architecture is in gpt3 and throwing 20 times as much computed probably and getting out gbt4 and then it's like maybe just barely a general intelligence or like a narrow general intelligence or you know something we don't really have the words for um yeah that is uh that's not quite how I expected it to play out but this middle what appears to be this Middle Ground could nevertheless be actually a big leap from gpt3 it's definitely a big leap from gpt3 and then maybe we're another one big leap away from something that's that's a phase shift and also something that uh Sam Altman said and you've written about this it's just fascinating which is the thing that happened with gpt4 that I guess they don't describe in papers is that they have like hundreds if not thousands of little hacks that improve the system you've written about railue versus sigmoid for example a function inside neural networks it's like this silly little function difference that makes a big difference I mean we do actually understand why the relatives make a big difference compared to sigminds but yes they're probably using like g4789 Ellis or you know whatever the acronyms are up to now rather than relus um yeah that's that's just part yeah",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Current advancements in AI, like GPT-4, suggest we may be close to achieving a form of general intelligence, but it's not exactly as expected.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI advancements",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Current advancements in AI, like GPT-4, suggest we may be close to achieving a form of general intelligence, but it's not exactly as expected.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI advancements",
+    "reviewed": false
+  },
+  {
+    "start": 3183.4,
+    "end": 3280.0,
+    "text": "aligning something much smarter than you are you die and you do not get to try again and if we if every time we built a poorly aligned superintelligence and it killed us all we got to observe how it had killed us and you know not immediately know why but like come up with theories and come up with the theory of how you do it differently and try it again and build another Super intelligence than have that kill everyone and then like oh well I guess that didn't work either and try again and become grizzled cynics and tell the young guide research researchers that it's not that easy then in 20 years or 50 years I think we would eventually crack it in other words I do not think that alignment is fundamentally harder than artificial intelligence was in the first place but if we needed to get artificial intelligence correct on the first try or die we would all definitely now be dead that is a more difficult more lethal form of the problem like if those people in 1956 had needed to correctly guess how hard AI was and like correctly theorize how to do it on the first try or everybody dies and nobody gets to do any more signs and everybody would be dead and we wouldn't get to do any more signs that's the difficulty you've you've talked about this that we have to get alignment right on the first quote critical try why is that the case what is this critical how do you think about the critical trial and why do I have to get it right it is something sufficiently smarter than you that everyone will die if it's not a lot I mean there's you can like sort of zoom in closer and be like well the actual critical moment",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Alignment of superintelligence is a critical challenge that must be solved correctly on the first attempt to avoid catastrophic outcomes.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Alignment of superintelligence is a critical challenge that must be solved correctly on the first attempt to avoid catastrophic outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI alignment",
+    "reviewed": false
+  },
+  {
+    "start": 3372.4,
+    "end": 3469.9,
+    "text": "a less controlled GPU cluster with it faking the books on what's actually running on that GPU cluster and start improving itself without humans watching it and then it gets smart enough to kill everyone from there but it wasn't smart enough to kill everyone at the critical moment when you like screwed up when you needed to have done better by that point where everybody dies I think implicit but maybe explicit idea in your discussion of this point is that we can't learn much about the alignment problem before this critical try is that is that is that what you believe do you think and if so why do you think that's true we can't do research on alignment before we reach this critical point so the problem is is that what you can learn on the weak systems may not generalize to the very strong systems because the strong systems are going to be important in different and are going to be different in important ways um Chris ola's team has been working on inter mechanistic interpretability understanding what is going on inside the giant inscrutable matrices of floating Point numbers by taking a telescope to them and figuring out what is going on in there have they made progress yes have they made enough progress well you can try to quantify this in different ways one of the ways I've tried to quantify It Is by putting up a",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Research on AI alignment may not be effective until we reach a critical point with strong AI systems.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Research on AI alignment may not be effective until we reach a critical point with strong AI systems.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI alignment",
+    "reviewed": false
+  },
+  {
+    "start": 3465.5,
+    "end": 3562.2,
+    "text": "prediction Market on whether in 2026 we will have understood anything that goes on inside a Giant Transformer net that was not known to us in 2006. like we have now understood induction heads in these systems by didn't of much research and great sweat and Triumph which is like if you like a thing where if you go like a b a b a b it'll be like oh I bet that continues a b um and a bit more complicated than that but the point is like we knew about regular expressions in 2006 and these are like pretty simple as regular Expressions go so this is a case where like by dint of great sweat we understood what is going on inside a Transformer but it's not like the thing that makes Transformers smart it's a kind of thing that we could have done by built by hand decades earlier your intuition that a strong AGI versus weak AGI type systems could be fundamentally different can you unpack that intuition a little bit Yeah I think there's multiple thresholds an example is the point at which a system has sufficient intelligence and situational awareness and understanding",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Understanding of AI systems will not significantly advance by 2026 compared to what was known in 2006.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI understanding",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Understanding of AI systems will not significantly advance by 2026 compared to what was known in 2006.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI understanding",
+    "reviewed": false
+  },
+  {
+    "start": 4202.4,
+    "end": 4298.4,
+    "text": "spectrum and even it's what and to whatever extent this alien actress I'm not sure that there's like a whole person alien actress with like different goals from predicting the next step being manipulative or anything like that but yeah that might be gpt5 or gpt6 even but that's the strong AGI you're concerned about as an example you're providing why we can't do research on AI alignment effectively on gpt4 that would apply to gpd6 it's it's one of a bunch of things that change at different points I'm trying to get out ahead of the curve here but you know if you imagine what the textbook from the future would say if we'd actually been able to study this for 50 years without killing ourselves and without transcending and you like just imagine like a wormhole opens and a textbook from that impossible World falls out yes the textbook is not going to say there is a single sharp threshold where everything changes it's going to be like of course we know that like best practices for aligning these systems must like take into account the following like seven major thresholds of importance which are passed at the following suffer in different points yeah is what the textbook is going to say I asked this question of Sam Allman which if GPT is the thing that unlocks AGI which version of GPT will be in the textbooks as the fundamental leap and he said a similar thing that it just seems to be a very linear thing I don't think anyone it we won't know for a long time",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Research on AI alignment cannot effectively apply to future versions of AI like GPT-6 based on current models like GPT-4.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Research on AI alignment cannot effectively apply to future versions of AI like GPT-6 based on current models like GPT-4.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI alignment",
+    "reviewed": false
+  },
+  {
+    "start": 4483.4,
+    "end": 4578.5,
+    "text": "a whole team of developers there um that uh also gets credit um as it happens I did like pioneer the like thing that appears when you hover over it so I actually do get some credit for user user experience there so incredible user experience you don't realize how pleasant that is I think Wikipedia like actually picked it up from a like prototype that was developed of like a different system that I was like putting forth or maybe they developed it independently but like for everybody out there who was like no no they just like got the hover thing off of Wikipedia it's possible for Ryan all I know that Wikipedia got the hover thing off of orbital which is like a prototype then and anyways it was incredibly done and the team behind it well thank you whoever you are thank you so much and thank you for uh for putting together anyway there's a response to that blog post by Paul Cristiano there's many responses but he he makes a few different points he summarizes the set of agreements he has with you instead of disagreements one of the disagreements was that in a form of a question uh can AI make Big Technical contributions and in general expand human knowledge and understanding and wisdom as it gets stronger and stronger so AI in our pursuit of understanding how to solve the alignment problem as we March towards strong AGI can can not AI also help us in solving the alignment problem so expand our ability to reason about how to solve the alignment problem okay",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "AI can help expand human knowledge and understanding as it becomes stronger, particularly in solving the alignment problem.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI contributions",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "AI can help expand human knowledge and understanding as it becomes stronger, particularly in solving the alignment problem.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI contributions",
+    "reviewed": false
+  },
+  {
+    "start": 6479.0,
+    "end": 6576.4,
+    "text": "yeah now I think that there's a sense in which you could redefine the word magic to refer to this sort of thing and what do I mean by this new technical definition of the word magic I mean that if you send a schematic for the air conditioner back in time they can see exactly what you're telling them to do but having built this thing they do not understand how it output cold air because the air conditioner design uses the relation between temperature and pressure and this is not a law of reality that they know about they do not know that when you compress something when you can when you compress air or like coolant it gets hotter and you can then like transfer heat from it to room temperature air and then expand it again and now it's colder and then you can like transfer heat to that and generate cold air to block they don't know about any of that they're looking at a design and they don't see how the design outputs cold air it uses aspects of reality that they have not learned so magic in the sense is I can tell you exactly what I'm going to do and even knowing exactly what I'm going to do you can't see how I got the results that I got that's a really nice example but is it possible to linger on this defense is it possible to have AGI systems that help you make sense of that schematic weaker AGI systems do you trust them fundamental part of building up AGI is this question can you trust the output of a system can",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "AGI systems may produce results that are not easily understandable or trustworthy, similar to how magic can produce results without revealing the underlying principles.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AGI understanding",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "AGI systems may produce results that are not easily understandable or trustworthy, similar to how magic can produce results without revealing the underlying principles.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI understanding",
+    "reviewed": false
+  },
+  {
+    "start": 7412.2,
+    "end": 7506.7,
+    "text": "and there are like basic obstacles where you've got the the weak version of the system that doesn't know enough to deceive you and the strong version of the system that could deceive you if it wanted to do that it feels already like sufficiently unaligned to want to deceive you there's the question of like how on the current Paradigm you train honesty when the humans can no longer tell if the system is being honest you don't think these are research questions that could be answered I think they could be answered at 50 years with unlimited retries the way things usually work in science I just disagree with that you're making it 50 years I think with the kind of attention this guest with the kind of funding I guess it could be answered uh not in whole but in incrementally within within months and within a small number of years if it's a if it's at scale receives attention and research so if you start studying large language models I think there was an intuition like two years ago even that something like gpt4 the current capabilities of even Chad GPT with GPT 3.5 is not is gonna we're still far away from that I think a lot of people are surprised by the capabilities of gpt4 right so now people are waking up okay we need to study these language models I think there's going to be a lot of interesting AI Safety Research are the are Earth's billionaires going to put up like the the giant prizes that would maybe incentivize young hot shot people who just got their physics degrees to not go",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "AGI-related research questions could be answered incrementally within a few years with sufficient funding and attention.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AI safety research",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "AGI-related research questions could be answered incrementally within a few years with sufficient funding and attention.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety research",
+    "reviewed": false
+  },
+  {
+    "start": 9162.5,
+    "end": 9258.0,
+    "text": "which is these these populations restraining their own breeding so that groups of them would stay in harmony with the resources available and mostly the math never works out for that but if you actually apply the weird strange conditions to get group selection that beats individual selection what you get is female and infanticide if you're like reading on restrained populations and so that's like the sort of so this is not a smart optimization process natural selection is like so incredibly stupid and simple that we can actually quantify how stupid it is if you like read the textbooks with the math nonetheless this is the sort of basic thing of you look at this alien optimization process and there's the thing that you hope it will produce and you have to learn to clear that out of your mind and just think about the underlying Dynamics and where it finds the maximum from its standpoint that it's looking for rather than how it finds that thing that left into your mind as the beautiful aesthetic solution that you hope it finds and this is something that was has been fought out historically as the field of Pop of biology was coming to terms with evolutionary biology and uh and you can like look at them fighting it out as they get to terms with this very alien inhuman pot in human optimization process and indeed something smarter than us would be also be much like smarter than natural selection so it doesn't just like automatically carry over but there's a there's a lesson there there's a warning the D natural selection",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Natural selection is a simple and often inefficient optimization process, which suggests that a smarter intelligence may not follow the same patterns as natural selection.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Nature of intelligence",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Natural selection is a simple and often inefficient optimization process, which suggests that a smarter intelligence may not follow the same patterns as natural selection.",
+    "claim_labels_silver": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Nature of intelligence",
+    "reviewed": false
+  },
+  {
+    "start": 10363.9,
+    "end": 10458.4,
+    "text": "timeline for AGI when do you think we'll have AGI I posted it this morning on Twitter it was interesting to see like in in five years in 10 years and in 50 years or Beyond and most people like 70 percent something like this think it'll be in less than 10 years so uh either in five years or in 10 years so that's kind of the state the people have a sense that there's a kind of I mean they're really impressed by the rapid developments of child GPT and gpt4 so there's a sense that there's uh well we are we are sure on track to enter into this like gradually with people fighting about whether or not we have AGI I think there's a definite point where everybody falls over dead because you got something that was like sufficiently smarter than everybody and like that's like a definite point of time but like when do we have AGI like when are people fighting over whether or not we have AGI well some people are starting to fight over it as of gpt4 but don't you think there's uh going to be potentially definitive moments when we say that this is a sentient being this is a being that is like we would go to the Supreme Court and say that this this is essentially being that deserves human rights for example you could make yeah like if you prompted being the right way could go argue for its own Consciousness in front of the Supreme Court right now I don't think you can do that successfully right now because the Supreme Court wouldn't believe it well what makes you think it would then you could put an actual I think you could put an iq80 human into a computer and ask it to argue for its own Consciousness ask him to argue for his own Consciousness before The Supreme",
+    "speaker": "Unknown",
+    "claim": "Many people believe AGI will arrive within the next 10 years, influenced by rapid developments in AI like GPT-4.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Many people believe AGI will arrive within the next 10 years, influenced by rapid developments in AI like GPT-4.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 11107.3,
+    "end": 11187.0,
+    "text": "one practice daily meaning in your daily communication so it's daily practice of thinking without influence from I would say find prediction markets that matter to you and been in the prediction markets that way you find out if you're a right or not and you really there's Stakes manifold product or even manifold markets where the stakes are a bit lower but the important thing is to like get the the record and you know I didn't build up skills hereby prediction markets I built them up you know like well how did the film debate resolve and earn my own take on as to how it resolved um and yeah like the the more you are able to notice yourself not being dramatically wrong but like having been a little off your reasoning was a little off you didn't get that quite right each of those is a opportunity to make like a small update so the more you can like say oops softly routinely not as a big deal the more chances you get to be like I see where that reasoning went to stray I see what how I should have reasoned differently this is how you build up skill over time",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 11187.7,
+    "end": 11282.9,
+    "text": "what advice could you give to young people in high school and college given the highest of stakes thing things you've been thinking about if somebody's listening to this and they're young and trying to figure out what to do with their career what what to do with their life what advice would you give them don't expect it to be a long life don't don't put your happiness into the future the future is probably not that long at this point but none know the hour nor the day but is there something if they want to have hope to fight for a longer future is there something is there a fight worth fighting I intend to go down fighting um I don't know I I admit that although I do try to think painful thoughts the what what to say to the children at this point is a pretty painful thought as thoughts go they they they want to fight I I hired I hardly know how to fight myself at this point I I'm trying to be ready for being wrong about something being preparing for my being wrong in a way that that creates a bit of hope and being ready to react to that and and going looking for it and then that is that is hard and complicated and somebody in high school um I don't know like you have presented a picture of the future that is not quite how I expect it to go where there is public outcry and that outcris is put into a remotely useful",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "The future is uncertain and potentially short, which complicates the advice for young people about their careers and life.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "Advice for youth",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "The future is uncertain and potentially short, which complicates the advice for young people about their careers and life.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Advice for youth",
+    "reviewed": false
+  },
+  {
+    "start": 11468.9,
+    "end": 11532.2,
+    "text": "future it probably doesn't exist but it's beautiful that you're looking for ways that you're wrong and it's also beautiful that you're open to being surprised by that same young physicist with some breakthrough it feels like a very very basic competence that you are praising me for and you know like okay cool um I I don't think it's good that that we're in a world where that is something that that I deserve to be complimented on but I've never had I've never had much luck in accepting compliments gracefully and maybe I should just accept that one gracefully but sure well thank you very much you've painted with some probability a dark future are you yourself just when you when you think when you Ponder your life and you Ponder your mortality are you afraid of death think so yeah does it make any sense to you that we die like what",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "philosophy of life",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "philosophy of life",
+    "reviewed": false
+  }
+]

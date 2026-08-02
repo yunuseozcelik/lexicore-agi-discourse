@@ -1,0 +1,597 @@
+[
+  {
+    "start": 208.0,
+    "end": 273.3,
+    "text": "I'm in the minority. I estimate that we are the only life in this spherical volume that has invented internet, the radio, has gotten\nto our level of tech. And if that's true, then it puts a lot of responsibility on us to not mess this one up. Because if it's true, it means that life is quite rare. And we are stewards of this one spark of advanced consciousness, which if we nurture it and help it grow, eventually life can spread from here, out into much of our universe, and we can have this just amazing future. Whereas, if we instead are reckless with the technology we build and just snuff it out due to stupidity or in-fighting, then, maybe the rest of cosmic\nhistory in our universe is just gonna be playing\nfor empty benches. But I do think that we are actually very likely to get visited by aliens, alien intelligence quite soon.",
+    "speaker": "Max Tegmark",
+    "claim": "Humanity has a responsibility to nurture advanced consciousness to ensure a positive future for life in the universe.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI optimism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Humanity has a responsibility to nurture advanced consciousness to ensure a positive future for life in the universe.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI optimism",
+    "reviewed": false
+  },
+  {
+    "start": 1351.2,
+    "end": 1420.4,
+    "text": "You should stop doing this kind of stuff.\" I sent it to my dad. Do you know what he said? - [Lex] (laughs) What he say? - He replied with a quote from Dante. (Lex laughing) (Max speaking in Italian) \"Follow your own path\nand let the people talk.\" (Both laughing) Go dad! - [Lex] Yeah. - This is the kind of thing, you know, he's dead, but that attitude is not. - How did losing them as a man, as a human being change you? How did it expand your\nthinking about the world? How did it expand your thinking about, you know, this thing we're talking about, which is humans creating another living, sentient perhaps, being? - I think it, mainly do two things. One of them just going\nthrough all their stuff after they had passed away and so on, just drove home to me how\nimportant it is to ask ourselves, why are we doing this things we do? Because it's inevitable\nthat you look at some things they spent an enormous time on and you ask in hindsight, would they really have\nspent so much time on this?",
+    "speaker": "Max Tegmark",
+    "claim": "Reflecting on the loss of loved ones emphasizes the importance of questioning the purpose behind our actions, especially in the context of creating sentient beings.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "Human experience",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Reflecting on the loss of loved ones emphasizes the importance of questioning the purpose behind our actions, especially in the context of creating sentient beings.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Human experience",
+    "reviewed": false
+  },
+  {
+    "start": 1420.4,
+    "end": 1482.5,
+    "text": "Would they have done something that was more meaningful? So I've been looking more\nin my life now and asking, you know, why am I doing what I'm doing? And I feel, it should either be something\nI really enjoy doing, or it should be something that I find really, really meaningful\nbecause it helps humanity, and if it's in none of\nthose two categories, maybe I should spend less\ntime on it, you know. The other thing is, dealing with death up in person like this, it's actually made me less afraid of, even less afraid of\nother people telling me that I'm an idiot, you know, which happens regularly, and just live my life,\ndo my thing, you know? And it's made it a\nlittle bit easier for me to focus on what I feel\nis really important. - What about fear of your own death?",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "personal reflection",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "personal reflection",
+    "reviewed": false
+  },
+  {
+    "start": 1483.5,
+    "end": 1545.8,
+    "text": "Has it made it more real that this is something that happens? - Yeah, it's made it extremely real, and you know, I'm next in line in our family now, right? It's me and my younger brother, but, they both handled it with such dignity, that was a true inspiration also. They never complained about things, and you know, when you're old and your body starts falling apart, it's more and more to complain about, they looked at what could they\nstill do that was meaningful, and they focused on that rather than wasting time talking about, or even thinking much about things they were disappointed in. I think anyone can make\nthemselves depressed if they start their morning by\nmaking a list of grievances. Whereas if you start your day\nwhen the little meditation and just the things you're grateful for, you basically choose to be a happy person. - Because you only have\na finite number of days, we should spend them, - [Max] Make it count. - Being grateful.",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Gratitude and Meaning",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Gratitude and Meaning",
+    "reviewed": false
+  },
+  {
+    "start": 2207.6,
+    "end": 2279.2,
+    "text": "I think of it also as\nartificial neuroscience, (Lex laughs)\n'Cause that's exactly - I love it.\n- what neuroscientists do with actual brains. But here you have the\nadvantage that you can, you don't have to worry\nabout measurement errors. You can see what every\nneuron is doing all the time, and a recurrent thing\nwe see again and again, there's been a number of beautiful papers quite recently by a lot of researchers, and some of 'em are\nhere even in this area, is where when they figure\nout how something is done, you can say, \"Oh man, that's\nsuch a dumb way of doing it.\" And you read immediately\nsee how it can be improved. Like for example, there was this beautiful paper recently where they figured out how a large language model\nstores certain facts, like Eiffel Tower is in Paris, and they figured out\nexactly how it's stored and the proof of that they understood it was they could edit it. They changed some synapses in it, and then they asked it,\nWhere's the Eiffel Tower?\" And it said, \"It's in Rome.\" And then they asked,\n\"How do you get there? Oh, how do you get there from Germany?\" \"Oh, you take this train, the Roma Termini train station, and this and that,\" \"And what might you see\nif you're in front of it?\" \"Oh, you might see the Colosseum.\" So they had edited, - So they literally moved it to Rome.",
+    "speaker": "Max Tegmark",
+    "claim": "Understanding how large language models store information reveals their limitations and potential for improvement.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Understanding how large language models store information reveals their limitations and potential for improvement.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 2835.7,
+    "end": 2905.4,
+    "text": "And in China undoubtedly, they also get told, \"We can't\nslow down because the West,\" because both sides think\nthey're the good guy. - [Lex] Yeah. - But look at human cloning, you know? Did China forge ahead with human cloning? There's been exactly one human cloning that's actually been done that I know of. It was done by a Chinese guy. Do you know where he is now? - [Lex] Where? - In jail. And you know who put him there? - [Lex] Who? - Chinese government. Not because Westerners said, \"China look, this is...\" No the Chinese government put him there 'cause they also felt, they like control, the Chinese government. If anything, maybe they're\neven more concerned about having control than Western governments, have no incentive of just losing control over where everything is going, and you can also see the Ernie Bot that was released by, I believe, Baidu recently, they got a lot of pushback\nfrom the government and had to rein it in,\nyou know, in a big way. I think once this basic message comes out that this isn't an arms\nrace, it's a suicide race, where everybody loses if anybody's AI goes out of control, it really changes the whole dynamic.",
+    "speaker": "Max Tegmark",
+    "claim": "The development of AI is a competitive race that could lead to disastrous outcomes if not controlled properly.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_economics"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AI is a competitive race that could lead to disastrous outcomes if not controlled properly.",
+    "claim_labels_silver": [
+      "ai_race_power",
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 3039.0,
+    "end": 3111.4,
+    "text": "So we make it safe, make sure it does the\nthings that humans want, and create a condition\nwhere everybody wins. The technology has shown us that, you know, geopolitics\nand politics in general is not a zero sum game at all. - So there is some rate of\ndevelopment that will lead us as a human species to\nlose control of this thing. And the hope you have is that there's some\nlower level of development which will not allow us to lose control. This is an interesting thought you have about losing control, so if you have somebody, if you are somebody like Sundar Pichai or Sam Altman at the head\nof a company like this, you're saying if they develop an AGI, they too will lose control of it. So no one person can maintain control, no group of individuals\ncan maintain control. - If it's created very, very soon and is a big black box\nthat we don't understand like the large language models, yeah. Then I'm very confident\nthey're gonna lose control. But this isn't just me\nsaying it, you know, Sam Altman and Demis Hassabis have both said, they themselves acknowledge that, you know, there's really\ngreat risks for this and they want slow down once\nthey feel it gets scary.",
+    "speaker": "Max Tegmark",
+    "claim": "AGI could lead to a loss of control if developed too quickly without understanding.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "AGI could lead to a loss of control if developed too quickly without understanding.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 3112.7,
+    "end": 3180.3,
+    "text": "But it's clear that they're stuck in this, again, Moloch is forcing\nthem to go a little faster than they're comfortable with because of pressure from, just commercial pressures, right? To get a bit optimistic here, of course, this is a problem\nthat can be ultimately solved. To win this wisdom race, it's clear that what we\nhope that was gonna happen hasn't happened. The capability progress has gone faster than a lot of people thought, and the progress in the public sphere of policy making and so on, has gone slower than we thought. Even the technical AI\nsafety has gone slower. A lot of the technical safety research was kind of banking on\nthat large language models and other poorly understood systems couldn't get us all the way. That you had to build more\nof a kind of intelligence that you could understand. Maybe it could prove itself safe, you know, things like this, and I'm quite confident\nthat this can be done so we can reap all the benefits, but we cannot do it as quickly as this out of control\nexpress train we are on now is gonna get to AGI.",
+    "speaker": "Max Tegmark",
+    "claim": "AGI will arrive faster than expected, but safety and policy progress is lagging behind.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will arrive faster than expected, but safety and policy progress is lagging behind.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 3316.3,
+    "end": 3387.9,
+    "text": "Yeah, you can teach it\nall it needs to know about how to cure cancer\nand stuff like that. But don't let it read\nDaniel Kahneman's book about cognitive biases and all that. And then oops, \"LOL, you know, let's invent social media recommender algorithms\nwhich do exactly that.\" They get so good at knowing\nus and pressing our buttons that we are starting to create a world now where we just have ever more hatred, 'cause they've figured\nout that these algorithms, not for out of evil, but just to make money on advertising, that the best way to get more engagement, the euphemism, get people glued to their\nlittle rectangles, right? Is just to make them pissed off. - Well that's really interesting that a large AI system that's\ndoing the recommender system kind of task on social media, is basically just studying human beings because it's a bunch of\nus rats giving it signal, nonstop signal. It'll show a thing and\nthen we give signal, and whether we spread that\nthing, we like that thing, that thing increases our engagement, gets us to return to the platform, and it has that on the scale of hundreds of millions\nof people constantly.",
+    "speaker": "Unknown",
+    "claim": "Large AI systems studying human behavior through social media algorithms can lead to negative societal outcomes.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI impact on society",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Large AI systems studying human behavior through social media algorithms can lead to negative societal outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI impact on society",
+    "reviewed": false
+  },
+  {
+    "start": 3944.8,
+    "end": 4013.8,
+    "text": "That's one of the things that Elon Musk recently sort of tweeted as a case why everyone\nneeds to pay $7 or whatever for Twitter, - [Max] To make sure they're real. - Make sure they're real, we're now going to be living in a world where the bots are getting smarter, and smarter, and smarter\nto a degree where, you can't tell the difference between a human and a bot. - [Max] That's right. - And now you can have\nbots outnumber humans by 1 million to one. Which is why he's making a\ncase why you have to pay. To prove you're human, which is one of the only\nmechanisms to prove, which is depressing. - And yeah, I feel we have to remember, as individuals, we\nshould from time to time, ask ourselves why are we\ndoing what we're doing, right? And as a species, we need to do that too. So if we're building, as you say, machines that are outnumbering us, and more and more outsmarting us, and replacing us on the job market, not just for the dangerous\nand and boring tasks, but also for writing poems and doing art, and things that a lot of\npeople find really meaningful, we gotta ask ourselves, why?",
+    "speaker": "Max Tegmark",
+    "claim": "We need to question the implications of machines outsmarting and outnumbering humans in various aspects of life.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI implications",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "We need to question the implications of machines outsmarting and outnumbering humans in various aspects of life.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI implications",
+    "reviewed": false
+  },
+  {
+    "start": 4082.6,
+    "end": 4147.1,
+    "text": "So this is exactly the sort of beginning of an intelligence explosion. There can be humans in the\nloop a lot in the early stages, and then eventually humans\nare needed less and less and the machines can\nmore kind of go alone. But what you said there\nis just an exact example of these sort of things. Another thing which, I was kind of lying on my\npsychiatrist imagining, I'm on a psychiatrist couch here saying, \"Well what are my fears\nthat people would do with AI systems?\" So I mentioned three\nthat I had fears about many years ago, that they would do, namely teach it to code, connect it to the internet, and teach it to manipulate humans. A fourth one is building an API, (Lex chuckles) where code can control this\nsuper powerful thing, right? That's very unfortunate because one thing that systems like GPT-4\nhave going for them is that they are an oracle in the sense that they just answer questions. There's no robot connected to GPT-4.",
+    "speaker": "Max Tegmark",
+    "claim": "The development of AI could lead to an intelligence explosion where machines become increasingly autonomous and humans are needed less.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AI could lead to an intelligence explosion where machines become increasingly autonomous and humans are needed less.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": false
+  },
+  {
+    "start": 5654.4,
+    "end": 5723.4,
+    "text": "You know, if you said you\ncan code five times faster, you know, then you need five\ntimes fewer programmers, maybe there will be more output also, but then you'll still end up using fewer, needing fewer programmers than today. And I love coding, you know, I think it's super cool. So we need to stop and ask ourselves why again are we doing\nthis as humans, right? I feel that AI should be built\nby humanity for humanity, and let's not forget that. It shouldn't be by Moloch for Moloch, or what it really is now is\nkind of by humanity for Moloch, which doesn't make any sense. It's for us that we're doing it. And it would make a lot more sense if we build, develop,\nfigure out gradually, safely how to make all this tech, and then we think about\nwhat are the kind of jobs that people really don't want to have, you know, automate them all away. And then we ask what are the jobs that people really find meaning in, like maybe taking care of\nchildren in the daycare center, maybe doing art, et cetera, et cetera.",
+    "speaker": "Max Tegmark",
+    "claim": "AI should be developed safely and for the benefit of humanity, focusing on meaningful jobs.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "AI should be developed safely and for the benefit of humanity, focusing on meaningful jobs.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics",
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": false
+  },
+  {
+    "start": 6289.2,
+    "end": 6352.9,
+    "text": "They're forgetting that AI can help us prove that things work, right? - [Lex] Yeah. - And there's this very\nfundamental fact that in math, it's much harder to come up with a proof than it is to verify that\nthe proof is correct. You can actually write a\nlittle proof-checking code, it's quite short, but you can as a human, understand, and then it can check the\nmost monstrously long proof ever generated even by your computer, and say, \"Yeah, this is valid.\" So right now, we have, this approach with virus-checking software that it looks to see if there's something, and if you should not trust it, and if it can prove to itself that you should not trust that\ncode, it warns you, right? What if you flip this around, and this is an idea I should give credit to Steve Omohundro for, so that it will only run\nthe code if it can prove, instead of not running it if it can prove that it's not trustworthy, it will only run it if it can prove that it's trustworthy.",
+    "speaker": "Max Tegmark",
+    "claim": "AI can help verify the correctness of proofs, which is a significant capability.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "AI can help verify the correctness of proofs, which is a significant capability.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 6497.2,
+    "end": 6565.9,
+    "text": "This is exactly the sort of\nvery boring and tedious task that is perfect to outsource to an AI. And this is a way in which less powerful and less intelligent agents like us can actually continue to control and trust more powerful ones. - So build AGI systems that help us defend against other AGI systems. - Well for starters, begin with a simple\nproblem of just making sure that the system that you own or that's supposed to be loyal to you has to prove to itself\nthat it's always gonna do the things that you actually\nwant it to do, right? And if it can't prove it, maybe it's still gonna do it, but you won't run it. So you just forfeit some aspects of all the cool things AI can do. I bet your dollars to donuts, it can still do some\nincredibly cool stuff for you. - [Lex] Yeah. - There are other things too, that we shouldn't sweep under the rug. Like not every human agrees on exactly what direction we should\ngo with humanity, right? - Yes. - And you've talked a lot\nabout geopolitical things on your podcast to this effect, you know, but, I think that shouldn't\ndistract us from the fact that there are actually a lot of things that everybody in the\nworld virtually agrees on.",
+    "speaker": "Max Tegmark",
+    "claim": "AGI systems should be built to help humans defend against other AGI systems and ensure loyalty.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "AGI systems should be built to help humans defend against other AGI systems and ensure loyalty.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 6565.9,
+    "end": 6643.2,
+    "text": "That \"Hey, you know, like having a no humans on\nthe planet in a near future, nah, let's not do that\" right? You looked at something like the United Nations\nSustainable Development Goals. Some of 'em were quite a ambitious, and basically all the countries agree, US, China, Russia,\nUkraine, they all agree. So instead of quibbling\nabout the little things that we don't agree on, let's start with the things we do agree on and get them done. Instead of being so distracted by all these things we disagree on, that Moloch wins because frankly, Moloch going wild now, it feels like a war on life playing out in front of our eyes, if you just look at it\nfrom space, you know, we're on this planet, beautiful, vibrant ecosystem, now we start chopping\ndown big parts of it, even though nobody, most people thought that was a bad idea. Oh, we start doing ocean acidification, wiping out all sorts of species, oh, now we have all these close calls, we almost had a nuclear war, and we're replacing more\nand more of the biosphere with non-living things.",
+    "speaker": "Max Tegmark",
+    "claim": "Humanity should focus on shared goals to prevent existential threats rather than getting distracted by disagreements.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Humanity should focus on shared goals to prevent existential threats rather than getting distracted by disagreements.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 6709.1,
+    "end": 6774.4,
+    "text": "And then we are giving\never more power to things which are not alive. These large corporations are\nnot living things, right? They're just maximizing profit. I wanna win the war on life. I think we humans, together with all our fellow\nliving things on this planet will be better off if\nwe can remain in control over the non-living things and make sure that they work for us. I really think it can be done. - Can you just linger\non this maybe high level of philosophical disagreement\nwith Eliezer Yudkowsky, in the hope you're stating. So he is very sure, he puts a very high probability, very close to one, depending on the day he puts it at one, that AI is going to kill humans. That there's just, he does not see a trajectory, which it doesn't end up\nwith that conclusion. What trajectory do you see\nthat doesn't end up there?",
+    "speaker": "Max Tegmark",
+    "claim": "Max Tegmark believes that humans should remain in control of AI to ensure it benefits life rather than harms it.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Max Tegmark believes that humans should remain in control of AI to ensure it benefits life rather than harms it.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 6976.9,
+    "end": 7042.7,
+    "text": "We then do a second round of AI where we use automated systems to extract out the knowledge,\nand see what is it, what are the insights it's had, okay? And then we put that knowledge into a completely different\nkind of architecture, or programming language or whatever, that's made in a way that it\ncan be both really efficient, and also is more amenable\nto very formal verification. That's my vision. I'm not sitting here saying, I'm confident 100% sure that\nit's gonna work, you know. But I don't think it's a chance, it's certainly not zero either, and it will certainly be possible to do for a lot of really cool AI applications that we're not using now. So we can have a lot of the\nfun that we're excited about if we do this. We are gonna need a little bit of time. And that's why it's good to pause and put in place requirements. One more thing also, I think, you know, someone might think, \"Well, 0% chance we're gonna survive, let's just give up,\" right?",
+    "speaker": "Max Tegmark",
+    "claim": "Max Tegmark expresses a vision for future AI development that is optimistic but acknowledges uncertainty and the need for time and requirements.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Max Tegmark expresses a vision for future AI development that is optimistic but acknowledges uncertainty and the need for time and requirements.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI development",
+    "reviewed": false
+  },
+  {
+    "start": 8152.6,
+    "end": 8217.9,
+    "text": "- You know what's\ninteresting is, you know, MIT, that's computer science, but in general, but let's just even say\ncomputer science curriculum. How does the computer science\ncurriculum change now? You mentioned programming. - [Max] Yeah. - Like why would you be, when I was coming up, programming as a prestigious position. Like why would you be\ndedicating crazy amounts of time to become an excellent programmer? Like the nature of programming\nis fundamentally changing. - The nature of our\nentire education system is completely turned on its head. - Has anyone been able\nto like, load that in, and like think, because\nit's really turning, - I mean some English professors, some English teachers are\nbeginning to really freak out now. Right? Like they give an essay assignment and they get back all\nthis fantastic prose, like this is style of Hemmingway, and then they realize they\nhave to completely rethink and even, you know, just\nlike we stopped teaching, writing a script, is that what you say in English?",
+    "speaker": "Max Tegmark",
+    "claim": "The nature of programming and education is fundamentally changing due to advancements in AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI impact on education",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "The nature of programming and education is fundamentally changing due to advancements in AI.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI impact on education",
+    "reviewed": false
+  },
+  {
+    "start": 9858.5,
+    "end": 9922.8,
+    "text": "- Yes, so that's a happy thought for me 'cause the zombie apocalypse really, is my worst nightmare of all. It would be like adding insult to injury, not only did we get replaced, but we frigging replaced\nourselves by zombies, like, how dumb can we be? - That's such a beautiful vision, and that's actually a provable one. That's one that we humans\ncan intuitively prove that those two things are correlated, as we start to understand what\nit means to be intelligent, and what it means to be conscious, which these systems, early AGI-like systems\nwill help us understand. And I just wanna say one more thing, which is super important. Most of my colleagues, when I started going\non about consciousness tell me that it's all bullshit and I should stop talking about it. I hear a little inner voice from my father and from my mom saying, \"Keep talking about it,\"\n'cause I think they're wrong. And the main way to\nconvince people like that, that they're wrong if they\nsay that consciousness is just equal to intelligence, is to ask them what's wrong with torture? Or why are you against torture?",
+    "speaker": "Max Tegmark",
+    "claim": "Understanding intelligence and consciousness through early AGI-like systems is important and provable.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Consciousness and AGI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Understanding intelligence and consciousness through early AGI-like systems is important and provable.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Consciousness and AGI",
+    "reviewed": false
+  },
+  {
+    "start": 10059.0,
+    "end": 10083.5,
+    "text": "And let's turn in the correct direction. - Thanks for listening\nto this conversation with Max Tegmark. To support this podcast. Please check out our\nsponsors in the description. And now let me leave you with some words from Frank Herbert. \"History is a constant race between invention and catastrophe.\" Thank you for listening, and hope to see you next time.",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  }
+]

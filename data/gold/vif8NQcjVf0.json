@@ -1,0 +1,617 @@
+[
+  {
+    "start": 0.1,
+    "end": 70.5,
+    "text": "- The following is a conversation\nwith Jensen Huang, CEO of NVIDIA, one of the most\nimportant and influential companies in the history\nof human civilization. NVIDIA is the engine powering\nthe AI revolution, and a lot of its success can be directly\nattributed to Jensen's sheer force of will and his many brilliant bets and decisions\nas a leader, engineer, and innovator. This is Lex Fridman Podcast. And now\ndear friends, here's Jensen Huang. You've propelled NVIDIA into a new era in AI, moving beyond its focus on chip\nscale design to now rack scale design. And I think it's fair to\nsay that winning for NVIDIA for a long time used to be about building\nthe best GPU possible, and you still do, but now you've expanded\nthat to extreme co-design of GPU, CPU memory, networking,\nstorage, power cooling, software, the rack itself, the pod\nthat you've announced, and even the data center. So let's talk about\nextreme co-design. What is the hardest part of co-designing\nsystem with that many complex components and design variables?",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 1288.0,
+    "end": 1369.5,
+    "text": "We've been late... I've been talking about\nthe stepping stones for two and a half years. You just go back and go, \"Oh my gosh,\nthey've been talking about it for two and a half years.\" And so I've been laying\nthe foundation step by step by step, so when the time comes you announce it, everybody's\nsaying, \"You know, what took you so long?\" - But it's not just inside the company. You're\nshaping the landscape, the broader global landscape of innovation. Like, putting those ideas\nout there, you really are manifesting reality. - We don't build computers. We actually\ndon't build clouds. We don't... As it turns out, we're a computing\nplatform company. And so nobody can buy anything from us. That's the\nweird thing. You know, we vertically design, vertically integrate to\ndesign and optimize, but then we open up the entire platform\nat every single layer to be integrated into other\ncompanies' products and services and clouds and supercomputers\nand OEM computers and so the amazing thing\nis, I can't do what I do without having convinced\nthem first. And so most of GTC is about manifesting\na future that by the time that we... My product is ready,\nthey're going, \"What took you so long?\" - Yeah. So one of the things you've\nbeen a believer for a long time is scaling laws,\nbroadly defined. So are you still a believer in the scaling laws?",
+    "speaker": "Jensen Huang",
+    "claim": "Jensen Huang believes that the foundation for AGI is being laid and that the future of innovation is being shaped, suggesting optimism about AGI's arrival.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "Jensen Huang believes that the foundation for AGI is being laid and that the future of innovation is being shaped, suggesting optimism about AGI's arrival.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": false
+  },
+  {
+    "start": 1369.7,
+    "end": 1458.4,
+    "text": "- Yeah, yeah. Yeah, we have\nmore scaling laws now. - So I think you've outlined four of them\nwith pre-training, post-training, test time, and agentic scaling. What do you\nthink, when you think about the future, deep future and the near-term\nfuture, what are the blockers that you're most concerned about that keep\nyou up at night that you have to overcome in order to keep scaling? - Well, we can go back and reflect on\nwhat people thought were blockers. So in the beginning, we were the\nfirst... The pre-training scaling law. You know, people\nthought well rightfully so, that the amount of data that\nwe have, high-quality data that we have will limit the intelligence that\nwe achieve. And that scaling law was an important, very important\nscaling law. The larger the model, the correspondingly more data\nresults in a better... With a results in a smarter AI. And\nso that was pre-training. And Ilya Sutskever, Ilya said, \"We're out of data,\"\nor something like that. \"Pre-training is over,\" or something like\nthat. The industry panicked, you know, that this is the end of AI.\nAnd of course, of course that, that's obviously not true. We're gonna keep\non scaling the amount of data that we have to, to train with. A lot of that\ndata is probably gonna be synthetic, and that also confused people,\nyou know? And what people don't realize is they've kind of\nforgotten that most of the data that, that we are training that\nwe teach each other with, inform each other with, is\nsynthetic. You know, I...",
+    "speaker": "Jensen Huang",
+    "claim": "There are misconceptions about data limitations in AI development, and scaling will continue despite concerns.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "There are misconceptions about data limitations in AI development, and scaling will continue despite concerns.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 1459.5,
+    "end": 1559.5,
+    "text": "It's synthetic because it\ndidn't come out of nature. You created it. I'm consuming\nit. I modify it, augment it, I regenerate it, somebody\nelse consumes it. And so, so we've now reached a level where AI is able\nto take ground truth, augment it...... Enhance it, synthetically\ngenerate an enormous amount of data. And that part of post-training continues to scale, and so the\namount of data that we could use that is human generated will be\nsmaller, and smaller, and smaller. The amount of data that\nwe use to train model, is going to continue to scale to the\npoint where we're no longer limited... Training is no longer limited by...\nData is now limited by compute. And the reason for that is most of the data\nis synthetic. Then the next phase is test time, and I still remember people telling me\nthat, \"Inference? Oh, yeah, that's easy. Pre-training, that's hard.\" These\nare giant systems that people are talking about. Inference must be easy. And so\ninference chips are gonna be little tiny chips, and ... you know, they're not, they're not like\nNVIDIA's chips. Oh, those are gonna be complicated and expensive, and, you\nknow, we could make... And this is- in the future, inference is gonna be the\nbiggest market, and it's gonna be easy, and we're gonna commoditize it. You know,\neverybody can build their own chips. And, and that was always illogical to\nme because inference is thinking, and I think thinking is hard.\nThinking is way harder than reading.",
+    "speaker": "Jensen Huang",
+    "claim": "Inference in AI is more complex than people think, and the future of AI will rely heavily on synthetic data and compute rather than human-generated data.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "Inference in AI is more complex than people think, and the future of AI will rely heavily on synthetic data and compute rather than human-generated data.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 1559.5,
+    "end": 1625.4,
+    "text": "You know, pre-training is just memorization and generalization, you know,\nand looking for patterns in relationships. You're reading and reading, versus thinking,\nreasoning, solving problems, taking unexplored experiences,\nnew experiences, and breaking it down into...\nDecomposing it into, you know, solvable pieces that we\nthen go off, either through first principle reasoning, or, you\nknow, through previous examples, prior experiences. You know, or just uh, exploration and search and,\nyou know, trying different things. And that whole process\nof, of test time scaling, Inference, is really about\nthinking. And it's about reasoning, it's about planning, it's about\nsearch, it's about... And so how could that possibly be compute light? And\nwe were absolutely right about that. You know, so test time scaling\nis intensely compute intensive. Then the question is, okay, now we're at inference\nand we're at test time scaling, what's beyond that?",
+    "speaker": "Lex Fridman",
+    "claim": "Test time scaling and inference in AI require significant computational resources and cannot be compute light.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "Test time scaling and inference in AI require significant computational resources and cannot be compute light.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 2162.6,
+    "end": 2240.1,
+    "text": "- Yeah, it's a really special moment.\nI'm not exactly sure why it captured so much of the\nworld's attention, but it did, more than Claude Code and Codex and so on. - Because consumers could reach it. - Sure, yeah. But there's also\nso much of this is vibes. And Peter, I had a\npodcast with him, he's a wonderful human being. So part of it is\nalso the humans that represent the thing. - Yeah, no doubt. - Part of it is memes and the— 'Cause\nwe're all trying to figure it out. There's really serious and\ncomplicated security concerns about when you have such powerful\ntechnology, how do you hand over your data so they can do useful stuff? But then\nthere's scary things associated with that. And we, as a civilization, as individual\npeople and as a civilization, figuring out how to find that right balance. - Yeah, we jumped on it right away and we\nsent a bunch of security experts this way. And we did this thing called\nOpenShell. It's already been integrated into, into OpenClaw. - And NVIDIA put forward NemoClaw. - Yep, exactly. - They install super easy. It\nmakes sure that it's secure. - We give you two out of three\nrights. Agentic systems can access sensitive information, it can\nexecute code, and it can communicate externally. We could keep things safe\nif we gave you two out of those three capabilities at any\ntime, but not all three.",
+    "speaker": "Lex Fridman",
+    "claim": "There are serious security concerns with powerful technology and finding the right balance is crucial.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "There are serious security concerns with powerful technology and finding the right balance is crucial.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 2241.2,
+    "end": 2344.0,
+    "text": "And out of those two out of three\ncapabilities, we also give you access control based on whatever rights that\nyou're given by enterprise. And then we connect it to a policy engine\nthat all these enterprises already have. And so we're going to try to do our best\nto help OpenClaw become a better claw. - So you eloquently explained\nhow we have a long history of blockers that we thought were going to be blockers,\nand we overcame them. But now looking into the future, what do you think might be the\nblockers now that it's clear that agents will be everywhere? So obviously we're going to need\ncompute. So what is going to be the blocker for that scaling? - Power is a concern, but it's not the\nonly concern. But that's the reason why we're pushing so hard on extreme co-design,\nso that we can improve the tokens per second per watt orders of magnitude every single year. And so in\nthe last 10 years, Moore's Law would have progressed computing\nabout 100 times in the last 10 years. We progressed\nand scaled up computing by a million times in the last 10 years.\nAnd so we're gonna keep on doing that through extreme co-design. So\nenergy efficiency, perf per watt, completely affects the\nrevenues of a company. It affects the revenues of a\nfactory. And we're just going to push that to the limit so that we\ncan keep on driving token costs down as fast as we can. You know, the our computer price is going\nup, but our token generation effectiveness is going up so\nmuch faster that token cost is coming down. It's just coming down\nan order of magnitude every year.",
+    "speaker": "Jensen Huang",
+    "claim": "Energy efficiency and compute scaling are critical for the future of AI agents.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "Energy efficiency and compute scaling are critical for the future of AI agents.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 2344.6,
+    "end": 2431.7,
+    "text": "- So power, that's an interesting\none. So the way to try to get around the power blocker\nis to try to, with the tokens per second per watt, try to make\nit more and more efficient. Of course, there's the question\nof how do we get more power. - We should also get more power. - That's a really complicated one. You've talked\nabout small modular nuclear power plants. There's all kinds of ideas for\nenergy. How much does it keep you up at night? The bottlenecks\nin the supply chain of AI, like ASML with EUV lithography\nmachines, TSMC with advanced packaging like CoWoS, and SK Hynix\nwith the high bandwidth memory? - All the time, and we're working on it\nall the time. No company in history has ever grown at a scale\nthat we're growing while accelerating that growth. It's incredible. And it's hard for people\nto even understand this. In the overall world of AI\ncomputing, we're increasing share. And so supply chain, upstream and\ndownstream, are really important to us. I spend a lot of time informing all the CEOs that I work with, what are the\ndynamics that's going to cause, The growth to continue or even\naccelerate? It's part of the reasons why to the entire right-hand\nside of me were CEOs of practically the entire IT industry\nupstream and practically the entire infrastructure industry downstream.",
+    "speaker": "Jensen Huang",
+    "claim": "The growth of AI computing is accelerating and requires addressing supply chain bottlenecks.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "hardware_infra",
+      "scaling_compute",
+      "ai_economics",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "hardware_infra",
+      "scaling_compute",
+      "ai_economics",
+      "open_source"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "The growth of AI computing is accelerating and requires addressing supply chain bottlenecks.",
+    "claim_labels_silver": [
+      "hardware_infra",
+      "scaling_compute",
+      "ai_economics",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 2523.3,
+    "end": 2598.3,
+    "text": "And we wanted them to adapt them\nfor supercomputers in the data center. And they go, \"Cell phone\nmemory for supercomputers?\" And I explained to them why.\nWell, look at these two memories, LPDDR5, HBM4. The volumes are so incredible. All three of them had\nrecord years in history, and these are, these are 45-year companies. And so, you know, I... That's part of my job, is\nto inform and shape, inspire, you know. - So you're not just manifesting\nthe future and maybe inspiring NVIDIA, the different\nengineers of the company, you're, you're manifesting the supply chain of the\nfuture. So you're having conversations with TSMC, with ASML. - Upstream, downstream. - Upstream, downstream. So that's the thing. - GEV, Caterpillar. Yeah, that's downstream\nfrom us. Yeah, yeah, there you go. - Yeah, the whole thing. I\nmean, but that's so... There's so much incredibly\ndifficult engineering that happens in the entire semiconductor\nindustry, and it just feels scary how intricate the supply chain\nis, how many components there are, but it works somehow.",
+    "speaker": "Jensen Huang",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 3149.2,
+    "end": 3218.4,
+    "text": "And so if utilities also offered more\nsegments of power delivery promises, then I think everybody will\nfigure out what to do with it. Yeah, but there's just way too much waste in\nthe grid right now. We should go after it. - Uh, you've highly lauded Elon and xAI's accomplishment in Memphis, in\nbuilding Colossus supercomputer, probably in record time in just\nfour months. It's now at 200,000 GPUs and growing very quickly. Is\nthere something that you could speak to the understand about his approach\nthat's instructive to, broadly to all the data center creators that's that enabled that kind of accomplishment? His\napproach to engineering, his approach to the whole management of\nconstruction, everything? - First of all, Elon is deep in\nso many different topics. Um, Yet he's also a really\ngood systems thinker. And so he's able to think through\nmultiple disciplines, and, and he obviously pushes things, questions everything, where they're,\nnumber one, is it necessary?",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 3670.5,
+    "end": 3742.7,
+    "text": "- It is the most complex computer\nthe world has ever made. - Yeah, the engineering teams, I mean- ... I don't, it's not a competition, but I\ndon't know. If it was like an Olympics of engineering teams, I mean, TSMC does\nincredible engineering. Like I said, ASML at every scale, but NVIDIA is\ngonna give them a run for their money. Just incredible, incredible teams. - Well, it's gold medalists in every\nsingle, in every single sport, all assembled right here. - And have to work together. And report directly to you. This is\nwonderful. You recently traveled to China. so it's interesting to ask\nyou China's been incredibly successful in building up its\ntechnology sector. What do you understand about how\nChina's able to, over the past 10 years, build so many\nincredible world-class companies, world-class engineering teams, and\njust this technology ecosystem- ... that produces so many\nincredible products? - A whole bunch of reasons for, well, first\nof all, let's start with some facts. 50% of the world's AI researchers\nare Chinese, plus or minus, and they're mostly in China still. We have many of them here, but\nthere's amazing researchers still in China.",
+    "speaker": "Jensen Huang",
+    "claim": "China has a significant number of AI researchers contributing to its technology sector.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI research",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "China has a significant number of AI researchers contributing to its technology sector.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI research",
+    "reviewed": false
+  },
+  {
+    "start": 4057.1,
+    "end": 4130.0,
+    "text": "And if everything is proprietary,\nit's hard to do research and it's hard to innovate\non top of, around, with. And so...Open source is fundamentally\nnecessary for many industries to join the AI revolution. NVIDIA has the\nscale and we have the motives to not only skills, scale, and\nmotivation to build and continue to build these AI models for\nas long as we shall live. And so therefore, we ought to\ndo that. We can open up, we can activate every industry, every researcher, you know, every country to be\nable to join the AI revolution. There's the third reason,\nwhich is from that, to recognizing that AI is not just language.\nThese AIs will likely use tools and models and sub-agents that were trained on other modalities\nof information. Maybe it's biology or chemistry or you know, laws of physics, or you know,\nfluids and thermodynamics, and not all of it is in language structure.",
+    "speaker": "Jensen Huang",
+    "claim": "Open source is necessary for innovation in AI and can enable broader participation in the AI revolution.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI innovation",
+    "confidence": "medium",
+    "claim_labels": [
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "Open source is necessary for innovation in AI and can enable broader participation in the AI revolution.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI innovation",
+    "reviewed": false
+  },
+  {
+    "start": 5532.8,
+    "end": 5596.2,
+    "text": "You know? And so I think\nthat that's one of the challenges.... for the world\nis, is the imagination of the future. But I got plenty of time, and I'll\nkeep reasoning about it, and I'll keep talking about it, and every single GTC\nwill become more and more real. You know, and then more and more people will\ntalk about it, and one of these days, you know, we'll get there. But\nI'm 100% we'll get there. - Yeah, this view of you know, token\nfactories essentially, this token per second per watt, and every\ntoken having value. Like it's an actual thing that brings value,\nand it brings different kinds of value, different amounts of value to different people\nwith value. That's the actual product, is really could be loosely thought of as the token.\nAnd so you have a bunch of token factories. And then it's very easy, first principles,\nto imagine a future, given all the potential things that AI can\nsolve, that you're going to need an exponential number more\nof token factories. - And what's really interesting, the reason\nwhy I was so excited about it, the iPhone of tokens arrived. - What do you call it? Wait, are you saying\nOpenClaw's iPhone? That's interesting. - Agents.",
+    "speaker": "Jensen Huang",
+    "claim": "Jensen Huang believes that AGI will eventually be achieved and that the future of AI is promising.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "Jensen Huang believes that AGI will eventually be achieved and that the future of AI is promising.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": false
+  },
+  {
+    "start": 6020.9,
+    "end": 6088.3,
+    "text": "But part of it is just, just\nforgetting. You know, like, a lot of it is you gotta be tough on\nyourself. You know, just come on, stop crying about it. Let's get going. You know?\nAnd, and then you get out of bed. And then the other part is, is you,\nyou're attracted to the next shiny light, the next future,\nyou know, the next opportunity, the next, \"Okay, that's behind\nus. Let— what's next?\" It's a lot, I think, you know, you\nwatch this with great athletes. They, they just worry about the next point. The last point is behind them. The\nembarrassment, the, you know— the setback. You know, and, and then, and because\nI do so much of my job publicly, you know? Lex, you do a fair amount of your\njob publicly too. And so, so I do a lot of my job publicly. And so you\nknow, I say a lot of things that, that seem sensible\nat the time or funny at the time, mostly it's just because it's funny to\nme at the time. And then, you know, you reflect on it, it's\nless funny, but, but... - Yeah. No, trust me, I know. But\nyou basically allow yourself to be pulled by the light of the future.\nForget the past and just keep- - That's right.",
+    "speaker": "Jensen Huang",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 6888.6,
+    "end": 6953.9,
+    "text": "- Uh, we created this thing called\nRTX Mod. Yeah, it's a modding tool. - Awesome. - It allows the community to inject the\nlatest technology into an old game. - Of course, like what makes a great video game\nis not just graphics, it's also story and character development, but- - That's right - ... beautiful graphics\ncan add to the immersion. The feeling like it's another\nplace you're transported to. Ah, what you said, I think\naccurately, that the AGI timeline question rests on your definition of AGI. So, let me ask you about\npossible timelines here. Let's, this ridiculous definition\nperhaps of what AGI is, but an AI system that's able to\nessentially do your job. So, run, no, start, grow, and run a successful\ntechnology company that's worth- - A good one or a one?",
+    "speaker": "Lex Fridman",
+    "claim": "The timeline for AGI depends on how one defines AGI.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "The timeline for AGI depends on how one defines AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 7040.7,
+    "end": 7107.1,
+    "text": "- Interesting. Achieve virality\nand monetize that virality. - Yeah. It's just that I don't know what it\nis, but I couldn't have predicted any of those companies at the time\neither, you know? And - - You're gonna get a lot of people\nexcited with that statement. It's like, what do you mean? I can- I\ncan just, uh - ... launch an agent and make a lot of money. - Well, by the way, it's happening right now,\nright? You know that when, when you go to China you're gonna see, you're gonna\nsee a whole bunch of people teaching their, getting their Claws to try\nto go out and look for jobs and, you know, do work, make money. And I'm not, I'm not actually...\nI wouldn't be surprised if some social thing happened or\nsomebody created a, a digital influencer, super, super cute or some social application that,\nyou know, feeds your little Tamagotchi or something like that,\nand, and it become an out of the blue an instant success.\nA lot of people use it for a couple of months and it kind\nof dies away. Now, the odds of, you know, 100,000 of those agents,\nBuilding NVIDIA is zero percent.",
+    "speaker": "Jensen Huang",
+    "claim": "The emergence of digital agents and applications could lead to unexpected successes, but the likelihood of many such agents being built is very low.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "jobs",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "The emergence of digital agents and applications could lead to unexpected successes, but the likelihood of many such agents being built is very low.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "jobs",
+    "reviewed": false
+  },
+  {
+    "start": 7179.2,
+    "end": 7262.5,
+    "text": "Okay? And so it's been a long time since\ncomputer vision has been superhuman. And so the prediction was radiologists\nwould go away because studying radiology scans was a thing of\nthe past. AI will do that. Well, they were absolutely right. Computer vision is completely\nsuperhuman. Every radiology platform and package\ntoday is driven by AI, and yet the number of\nradiologists grew. And so the question is why? And we now have a\nshortage of radiologists in the world. And so, one, the alarmist warning went\ntoo far and it scared people from doing this profession that\nis so important to society. And so it did harm. Now, why was it\nwrong? The reason why is because the purpose of a radiologist, the\npurpose is to diagnose disease and help patients and\ndoctors diagnose disease. And because we're able to\nstudy scans at so much faster now, you could study more scans, you\ncould diagnose better, you could, you could inpatient faster, you can see people more. The hospitals\nare making more money. You have more patients in the hospital. You\nneed more radiologists. I mean, the amazing thing is, it's so\nobvious this was gonna happen.",
+    "speaker": "Jensen Huang",
+    "claim": "The prediction that AI would replace radiologists was wrong, as AI has instead increased the demand for radiologists.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "jobs",
+    "confidence": "high",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "The prediction that AI would replace radiologists was wrong, as AI has instead increased the demand for radiologists.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "jobs",
+    "reviewed": false
+  },
+  {
+    "start": 7811.9,
+    "end": 7877.3,
+    "text": "I can literally ask\nabout any single thing, \"What are the first steps I need to take?\" - That's right. - And that handholding that it\ndoes, removing the friction of all the experiences that\nthe world offers is... You know, like I mentioned to you offline,\nyou mentioned, \"I'm going to China and Taiwan.\" - So awesome. - Just ask, \"Where do I-\" - So excited for you. - \"Where do I—what do—\" \"You know, where do\nI go? How do I...\" All of those questions— ... immediately answered,\nand it's beautiful. - Well, when you, when you go to\nTaiwan, just ask AI- ... \"What are Jensen's favorite restaurants\nin Taiwan?\" And it'll actually- - You don't know? - Oh, yeah. - Is it accurate? Okay. - Yeah. - All right. - It's all over Taiwan. - Well, you're a rockstar over\nthere. And like we also mentioned offline, maybe our paths will cross, which\nwould be really wonderful in computing. - COMPUTEX. NVIDIA GTC Taiwan. - Uh, do you think there's some things about\nhuman nature, about human consciousness that is fundamentally non-computational?\nMaybe something a chip, no matter how powerful, can never replicate?",
+    "speaker": "Lex Fridman",
+    "claim": "There may be aspects of human nature and consciousness that are non-computational and cannot be replicated by a chip.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "human consciousness",
+    "confidence": "medium",
+    "claim_labels": [
+      "hardware_infra",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "hardware_infra",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "There may be aspects of human nature and consciousness that are non-computational and cannot be replicated by a chip.",
+    "claim_labels_silver": [
+      "hardware_infra",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "human consciousness",
+    "reviewed": false
+  },
+  {
+    "start": 7954.4,
+    "end": 8026.3,
+    "text": "- Yeah, the subjective... Boy, there's something truly special\nabout the subjective experience that we humans feel. Like I mentioned to\nyou, I was pretty nervous talking to you. Like I mentioned to you, that,\nthe hope, the fear, the anxiety, and just life itself, the richness of\nlife. How amazing everything is. How deeply we fall in love, how\ndeeply our hearts get broken, how afraid we are of death and\nhow much pain we feel when our loved ones pass away. All of that, the\nwhole thing. I know it's very hard to- ... think AI being able to... A\ncomputational device being able to do that. But there's so many mysteries about\nthis whole thing that we're yet to uncover, that I am open to be surprised.\nI've been surprised a lot over the past- ... few months and few years.\nScaling can create some incredible miracles in the\nspace of intelligence. Has been truly marvelous to\nwatch, so I'm open to surprise. - And it's just really important\nto break down what is intelligence. You know, the word,\nthat word we use all the time, it's not a mysterious word. Intelligence\nhas a meaning, you know?",
+    "speaker": "Lex Fridman",
+    "claim": "Lex Fridman expresses openness to the potential of AI surprising us in terms of intelligence and capabilities.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI potential",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "Lex Fridman expresses openness to the potential of AI surprising us in terms of intelligence and capabilities.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI potential",
+    "reviewed": false
+  },
+  {
+    "start": 8026.7,
+    "end": 8095.2,
+    "text": "And it's a system that... You\nknow, it's something that we do that includes perception\nand understanding and reasoning and the ability to do\nplan. And, you know, that, that loop, that loop, is the...\nFundamentally what intelligence is. Intelligence is not one word that\nis exactly equal to humanity. And that's, I think it's really important\nto separate the two. We have two words for that. I'm not... I don't\nover-fantasize about, and I don't over-romanticize about\nintelligence. Intelligence is... And people have heard me\nsay it before, I actually think intelligence is a commodity. I'm\nsurrounded by intelligent people. And I'm surrounded by intelligent people more\nintelligent than I am in each one of the spaces that they're in. And yet, I have a role in that circle. It's\nactually kind of interesting. They're more educated than I am. They\nwent to better schools than I did. They're deeper than, in any of the\nfields that they're in. All of 'em.",
+    "speaker": "Jensen Huang",
+    "claim": "Intelligence should not be romanticized and is more of a commodity than a unique human trait.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AGI perspective",
+    "confidence": "medium",
+    "claim_labels": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "Intelligence should not be romanticized and is more of a commodity than a unique human trait.",
+    "claim_labels_silver": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI perspective",
+    "reviewed": false
+  },
+  {
+    "start": 8169.1,
+    "end": 8238.9,
+    "text": "Because we've spoken about it, the most\nimportant thing is your education. The most... Now, even, even when they said\nthe most important thing is your education, when you went to school, there's more\nthan just knowledge that you gained. And so, but unfortunately, our society\nhas put everything into one single word, and life is more than one word. And I'm\njust telling you, my life would suggest that being lower on the intelligence\ncurve than everybody around me doesn't change the fact I'm the\nmost successful. And so, and I think, I think that kind of is I'm\ntrying to hopefully inspire everybody else that don't let\nthis democratization of intelligence, this\ncommoditization of intelligence, you know, cause you anxiety.\nYou should be inspired by that. - Yeah. I think AI will help us\ncelebrate humans more. And certainly humanity and human first, and I, I think\nwhat makes this world incredible is humans forever will be so, and just AI is\nthis incredible tool that makes us- - That's exactly right.",
+    "speaker": "Unknown",
+    "claim": "AI will help us celebrate humanity and is an incredible tool for humans.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI impact on humanity",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AI will help us celebrate humanity and is an incredible tool for humans.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI impact on humanity",
+    "reviewed": false
+  }
+]
