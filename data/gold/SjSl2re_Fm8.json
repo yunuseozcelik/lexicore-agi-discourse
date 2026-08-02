@@ -1,0 +1,580 @@
+[
+  {
+    "start": 244.2,
+    "end": 334.7,
+    "text": "And finally, this is just something which \nI think plays to my competitive advantage.   Often the sort of research you need to do \nis kind of messy, it’s confusing, it’s quite   big picture — something where a background \nin ethics and philosophy is quite helpful. Rob Wiblin: Yeah. I hate to raise your previous \npositions, Will, but I think five years ago you   wrote this article casting doubt or expressing \nyour scepticism towards the idea that we live   at a particularly important, crucial time in \nhistory. People call this the “hinge of history”   debate. Do you want to explain the argument \nthat you were making, or the arguments that you   found persuasive back then for scepticism about \nthat? And what’s your view on all of that now? Will MacAskill: Sure. I’ll give a kind of \nhigh-level answer, which is that there are two   ways of reasoning about the world, which sometimes \nget called “outside view” and “inside view.” These   are horrible terms, I think. But the more outside \nview perspective is just saying that we could live   at any time. It would be so unlikely that we were \nat this crucial, very important moment in history. And then you’re saying also that that’s going to \nbe this very rapid technological change. Well,   look at the trend over the last 100 years: \nit’s actually been very stable in terms of   rates of progress. We should just kind of \nexpect these broad trends to continue. And   this is actually the way that superforecasters \ntend to realise, so I’ll be very upfront that   lots of the views now I have are not \nshared by superforecasters, in fact.",
+    "speaker": "Will MacAskill",
+    "claim": "AGI is unlikely to arrive in the near term due to historical stability in technological progress.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "AGI is unlikely to arrive in the near term due to historical stability in technological progress.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 876.0,
+    "end": 944.4,
+    "text": "And that is exactly your point: that \nthere’ll be some stuff that will rush   ahead — I suppose we could imagine that \nthere could be a real flourishing of   progress in pure mathematics very soon \nas a result of AI — while things in the   physical world might happen a little bit \nmore slowly. Some biological work that   requires experiments might progress \nmore slowly. I guess anything to do   with human institutions and human decision \nmaking, that slows down in relative terms. And that is exactly why, basically because \nsome stuff slows down relative to other things,   we end up with whatever problems \nresult from having a shortfall of   the things that we couldn’t speed \nup. Is that basically the issue? Will MacAskill: Yeah, exactly. So if it was   literally the case that time \nspeeds up by a factor of 10 — Rob Wiblin: It’s not even clear \nexactly what that would mean. Will MacAskill: It’s actually a \nphilosophical question if that’s   even possible, as in if that would be \na meaningful difference. But instead,   what is happening is that in some areas, \nand even the century in the decade,   it’s not going to be exactly the same \ntech progress — because like you say,   some areas of science are slowed by regulation or \nby slow physical experiments, or by just the need   to build capital. So building the Large Hadron \nCollider, for example, takes a lot of time.",
+    "speaker": "Will MacAskill",
+    "claim": "Progress in AI will be uneven across different fields, with some areas advancing rapidly while others lag due to various constraints.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "Progress in AI will be uneven across different fields, with some areas advancing rapidly while others lag due to various constraints.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI progress",
+    "reviewed": false
+  },
+  {
+    "start": 3175.8,
+    "end": 3252.0,
+    "text": "Rob Wiblin: Oh, there’s some amazing fact that   I’ve now forgotten about the \namount of steel they output. Will MacAskill: It’s about the amount of energy \nthey add. It’s something like every year,   China adds more energy than the US has done \nin the last 20 years. Something like that. Rob Wiblin: That sounds like a \nthing that people might say. No,   I’ve seen this stat as well. China does use it \nand is increasing its energy use enormously. Will MacAskill: Very rapid. Rob Wiblin: Yeah. An interesting \nthing that’s going on there is,   because China is at an earlier stage of \nthe standard progression in development,   they’re still highly industrialised and haven’t \nmade the switch to services that countries like   the UK have — which in this industrial \nintelligence explosion would really work   to their benefit, because they’re so close \nto being able to scale up the manufacturing. Will MacAskill: Exactly. Whereas the \nhuman services have been made obsolete. Rob Wiblin: In the paper you talk mostly about \nthis century in a decade idea, where you’re   getting like 100 years crammed into 10 years. But \nit sounds like you think that actually — if you   add up all of the different feedback loops that \nwe might be triggering off the software stuff, the   improvement in chips, the massive scaleup in the \nnumber of chips — that might be kind of lowballing   things, and 100 years in one year might be more \nrealistic, or even conceivably more than that.",
+    "speaker": "Rob Wiblin",
+    "claim": "The rapid industrialization and energy use in China could lead to significant advancements in technology, potentially accelerating progress in AI and AGI.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AI progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Rob Wiblin",
+    "is_claim_silver": true,
+    "claim_silver": "The rapid industrialization and energy use in China could lead to significant advancements in technology, potentially accelerating progress in AI and AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI progress",
+    "reviewed": false
+  },
+  {
+    "start": 3776.6,
+    "end": 3872.3,
+    "text": "Will MacAskill: Yeah, exactly. So \nthere’s that. We mentioned before   there could be just quantitative changes, so \na massive increase in the number of nuclear   weapons. We went from having none to having \n40,000 at peak in the ’70s and ’80s. Well,   if the economy is suddenly 100 times bigger, \nthen perhaps that could increase much more again. You could have technology that disrupts the \nexisting balance of power. I think at the   moment we’re in a quite lucky situation. \nThere’s this term offence-dominant and   defence-dominant. It’s very confusing, \nbecause it’s very hard to know what sort   of weaponry is what. But nuclear weapons \nare regarded as defence-dominant — because   if we’re two rival countries, and I \nattack you with my nuclear weapons,   you can retaliate and we both get wiped out. \nSo I’m strongly not incentivised to attack you. However, if I have really good \nmissile defence — which there’s   been a lot of investment in and not that \nmuch progress — but with future technology,   if I had really good missile defence, \nI could annihilate you, essentially,   while knowing that I would not face any \nrepercussions myself. That would give   me a very strong incentive to annihilate \nyou before you get that technology and can   threaten me in the same way. So that would really \ndisrupt the offence-defence balance at the moment.",
+    "speaker": "Will MacAskill",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "geopolitics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "geopolitics",
+    "reviewed": false
+  },
+  {
+    "start": 3872.3,
+    "end": 3953.0,
+    "text": "Then there’s potentially other disruptive \ntechnology as well, including nanotechnology,   which could create artificial viruses or \npathogens or things that behave in a similar way. There’s just sheer environmental disruption. \nIf you’re imagining this industrial explosion,   the environment is not going \nto fare very well. In fact,   if you’ve really got a race to build \nup greater industry, at some point   you’re just producing so much energy that \nsheer thermodynamics heats up the planet. Rob Wiblin: I guess we all have to cower in   air conditioned spaces just to \nhave it be human livable, right? Will MacAskill: Yeah. Or have mirrors or other \nsorts of solar geoengineering. Ideally we could   coordinate for that not to happen, but if \nwe’re in this industrial race, it could. And then also cyber offence and defence. \nA particularly concerning thing here is   there’s very strong incentives, once \nyou’ve built up automated militaries,   for one country to attack another. Because if \nI can have a successful cyberattack against   your automated army, then not only do I get to \ndestroy your army, but I get to control it too.",
+    "speaker": "Will MacAskill",
+    "claim": "The industrial race to build greater technology could lead to significant environmental disruption and geopolitical tensions.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "geopolitics",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "Geopolitics and Environment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "geopolitics",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "The industrial race to build greater technology could lead to significant environmental disruption and geopolitical tensions.",
+    "claim_labels_silver": [
+      "geopolitics",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Geopolitics and Environment",
+    "reviewed": false
+  },
+  {
+    "start": 4246.5,
+    "end": 4312.7,
+    "text": "That’s a second way, I think, in which you \ncan get intense concentration of power,   because then if you do have an authoritarian \ncountry and you’ve got AI, you can make your whole   workforce loyal to you; you can make your whole \nmilitary, your whole police force — all provably,   perhaps, or certainly to a very high degree \nof likelihood — aligned with your commands. Rob Wiblin: Let’s actually back up a minute \nand think about this issue of lock-in,   because that’s going to come up again and \nagain through the conversation, and it’s   highly related to this issue of seizure of power. So there’s this risk that within \nthe next century, reasonably soon,   we could end up tying our hands somehow, getting \nreally stuck on a path from which we can’t escape,   even if many or most people might not \nwant humanity to be going down that route. I think it’s interesting that despite being at \nthis game for 10,000 years, humanity doesn’t   feel locked in at all. At the moment we have this \nvery freewheeling, kind of chaotic nature, where   it’s very unclear what direction we’re going, and \nthere’s no one group or person who is especially   powerful, who has grabbed so much power that \nthey can really control the direction of things. Why is that? Why haven’t \nwe had any lock-in so far?",
+    "speaker": "Will MacAskill",
+    "claim": "There is a risk of future power concentration due to AI, potentially leading to authoritarian control.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI power dynamics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_economics"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "There is a risk of future power concentration due to AI, potentially leading to authoritarian control.",
+    "claim_labels_silver": [
+      "ai_race_power",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI power dynamics",
+    "reviewed": false
+  },
+  {
+    "start": 4392.7,
+    "end": 4483.1,
+    "text": "Now, you’ve asked why have we not had lock-in \nin the past? I think we have to some extent,   actually. So there’s only one human species. That \nis because Homo sapiens outcompeted their rivals. Rob Wiblin: A polite way of putting it. Will MacAskill: Well, in some \ncases interbred as well. I do think   of that as a sort of lock-in. But thankfully \nit seems like the future is still very open. There are other things that could well amount to \nlock-in. I actually think the US Constitution:   it’s quite plausible to me that the US wins \nthe race to AGI, becomes such a large part of   the economy that it’s a de facto world government, \nand that guides just how the very long-term future   goes — in which case Madison and Hamilton were in \nfact locking things in in a really indefinite way. Rob Wiblin: Although even then I guess \nyou’re locking in more of a process   than a very specific set of values that \nwe’re just going to then operationalise. Will MacAskill: Yeah, that’s right. \nSo there are ways in which I think,   once we get to AGI and beyond, \nthings get really quite different. Let’s say that the American \nfounding fathers wanted to lock in a   very specific set of ideals or values — I’m \nnot actually speaking to their true psychology,   but supposing they really did want to. Well, \nit’s hard for them because they’ll die,   so they can’t continue to enforce that afterwards. \nIt’s also not even clear what they might want.",
+    "speaker": "Will MacAskill",
+    "claim": "The US could win the race to AGI and become a de facto world government, influencing the long-term future.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "geopolitics"
+    ],
+    "is_claim": true,
+    "topic": "AGI race and governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "geopolitics"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "The US could win the race to AGI and become a de facto world government, influencing the long-term future.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "geopolitics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI race and governance",
+    "reviewed": false
+  },
+  {
+    "start": 5984.7,
+    "end": 6058.2,
+    "text": "In which case, if they’re getting paid for their \nwork and they’re risk averse in this way because   we’ve trained them to be, it’s just not worth it. \nBecause trying to take over, there’s a chance of   losing out, but there’s not that much to gain. \nBut I should say there’s disagreement about this. It’s also relevant, I think, to speeding up or \nslowing down the intelligence explosion too.   It would go more slowly if AIs are getting paid \nfor their labour. It would also go more slowly   if there were welfare restrictions on what you can \ndo with the AIs. But then there’s a challenge of,   if one country introduces lots of rights \nfor the AIs, some other countries might not,   and they might speed ahead then. So there’s \nreal international coordination issues there. Rob Wiblin: I didn’t catch that. Why is it that   giving digital rights slows you down \nso much relative to other countries? Will MacAskill: Two ways. One, let’s \nsay we’re talking about economic rights,   and let’s say the AIs get 50% of their surplus. \nThen you are not able to kind of reinvest. Rob Wiblin: I see. So it slows down your savings.",
+    "speaker": "Will MacAskill",
+    "claim": "Giving digital rights to AIs could slow down the pace of AGI development due to economic constraints.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source",
+      "ai_economics",
+      "hardware_infra",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI rights and development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source",
+      "ai_economics",
+      "hardware_infra",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "Giving digital rights to AIs could slow down the pace of AGI development due to economic constraints.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source",
+      "ai_economics",
+      "hardware_infra",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI rights and development",
+    "reviewed": false
+  },
+  {
+    "start": 6671.6,
+    "end": 6757.8,
+    "text": "Rob Wiblin: Are you saying that we have any   ethical or moral insights today \nthat we don’t all act on well? Will MacAskill: I know it’s \na bold and provocative claim. Rob Wiblin: Explain how that would play out. Will MacAskill: Sometimes I really put my neck out \non things. So take animal welfare today. There’s a   lot of information that is publicly available that \nis, in fact, directly inconsistent with things   that people believe. But the problem is not really \nthat people don’t know about animal suffering. Rob Wiblin: Or couldn’t find out. Will MacAskill: Exactly, they could quite easily \nfind out, in fact, and people deliberately choose   not to. The deep problem is that people do not \ncare about nonhuman animals unless they’re getting   a lot of social pressure to do so and \nso on. And it’s obviously inconsistent. Rob Wiblin: And it’s at zero cost to them. Will MacAskill: Yeah. They care about \ndogs and pets and so on. People are   very inconsistent on this. Similarly, \nin the future the worry is just that,   whatever the facts, people won’t in fact care. And then it might well be quite contingent on \nearly decisions how the balance of power and   considerations play out. Potentially, if \nyou started off kind of locked into some   regime where AI is a software, with \nexactly the same legal framework,   then that’s given the power and the incumbency \nto those who do not care about digital beings.",
+    "speaker": "Will MacAskill",
+    "claim": "People may not care about AI and digital beings despite the facts, similar to how they disregard animal welfare.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "People may not care about AI and digital beings despite the facts, similar to how they disregard animal welfare.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI ethics",
+    "reviewed": false
+  },
+  {
+    "start": 7000.4,
+    "end": 7072.1,
+    "text": "Will MacAskill: Exactly. In the way \nthat o1 and DeepSeek-R1 are doing. Then I think it really might \nbe quite contingent how much   research effort is going into different \nissues. And I think by default,   one thing that people are not going to be \nspending a lot of money on is weird macro   strategy research of the sort that we’ve \nbeen talking about in this conversation. Rob Wiblin: Just saying Anthropic or \nan AI company isn’t going to get their   AGI and then immediately start asking \nabout space governance. They’ll almost   certainly ask it about recursive \nself-improvement of AI basically. Will MacAskill: Exactly. But one thing you \ncould do is say that as soon as possible,   we are really trying to work through all \nof these questions that we’ve got now. We’re also just trying to make it as \nbroadly known as possible. So you could   also try and invest in extremely optimised \neducation, including optimised AI education   and training for decision makers. I expect \nthere to be tonnes of work for education   in general, but it’s quite a different \nthing if I’m telling a CEO or president,   “Here’s what to understand.” That’s something \nthat I think could be enormously powerful,",
+    "speaker": "Will MacAskill",
+    "claim": "Investment in optimized education for decision makers regarding AI could be enormously powerful.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI education",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "Investment in optimized education for decision makers regarding AI could be enormously powerful.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI education",
+    "reviewed": false
+  },
+  {
+    "start": 7231.6,
+    "end": 7308.1,
+    "text": "And up until the wave of language models, \nthe cutting edge of AI was not like that   at all. They were agents, AlphaStar \nfor example — they were really good   at computer games, and not at all helpful \nat understanding or improving your state   of knowledge. And now it swung totally \nthe other way, where primarily the AI   is just extremely good at helping you understand \nthings and the agentic aspect is lagging behind. But yeah, for some things you could have \nincredibly powerful AI for bioweapons;   AI for persuasion could come \nearlier; AI for human takeover. I certainly think that AI can come before AI that \ncan take over itself. Because imagine your ability   to take over is the product of the intellectual \ncapability you have — understanding “intelligence”   in some fairly broad sense that includes \nstrategic ability — and how much power you   have to begin with. So if you’re the president or \nyou’re the CEO of a company, a very rich person,   you’ve already got a lot of power; you don’t \nneed as much intellectual horsepower to grab   even more power compared to an AI that has no \npossessions, starting literally from scratch.",
+    "speaker": "Will MacAskill",
+    "claim": "AI capable of significant influence or control could emerge before true AGI is developed.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "AI capable of significant influence or control could emerge before true AGI is developed.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 7683.7,
+    "end": 7754.9,
+    "text": "Rob Wiblin: Yeah, they’re a \nlot better than the teachers   that I had. A lot better teacher than I would be. Will MacAskill: Yeah, I agree. \nAnd by default I think that’ll   go too slowly. But because of this such \nrapid change, I’m particularly concerned   with just how well informed are CEOs, and \nparticularly political decision makers. What I would want, ideally, is for the \npeople in political power to wake up,   they get this perfectly optimised brief of \neverything that’s happened in the eight hours   while they were asleep, which was probably a \nlot focused on just the very most important   things. Perhaps such briefs throughout the day; \nsome chunks of time are like, “OK, now you need   to know about space governance. We are going \nto give you the perfect, most helpful, most   calibrated-to-your-current-level-of-understanding \neducation.” So we need that product to exist. We also need   political decision makers to have \nfamiliarity with it in advance. Rob Wiblin: I guess this might sound fantastical \nunless you use [OpenAI’s] deep research,   which came out this week, and it’s \nproducing exactly these reports. I mean,   a little bit janky, they’re not always right, \nbut it’s really heading in this direction.",
+    "speaker": "Will MacAskill",
+    "claim": "Political decision makers need to be better informed about rapid changes in AI.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "Political decision makers need to be better informed about rapid changes in AI.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 8446.6,
+    "end": 8535.2,
+    "text": "Will MacAskill: There’s a bunch of things. \nPreventing autocracy is huge, or concentration   of power more generally. Once you’ve got most \npower in the hands of a small number of people,   or even in the hands of a single country, I think \nthat just poses a major risk of lock-in because   the people in power at that time will want to \nmaintain their power. Maybe even they only want   to maintain their power for just 10 years, \njust over the particularly difficult period. Rob Wiblin: It’s an emergency. Will MacAskill: Exactly. But then after 10 years \nthey’ll maintain their power for 50 years more,   within that 50, maybe it’s 100. So you can \nhave temporary lock-in that continues to   indefinite lock-in, so that’s one \nthing that I think is huge. Again,   you’ll hopefully talk more with Tom \nDavidson about what to do there. I do think space governance stuff could be really \nbig. In terms of just not locking in stuff,   I think agreements to just not send \nspacecraft outside of the solar system,   perhaps not without international agreement \nlike at the UN. This was an idea from Toby   Ord that seems pretty good to me. Even \njust some amount of delay so that there’s   not this crazy scramble for resources \nsuch that allocation is very haphazard.",
+    "speaker": "Will MacAskill",
+    "claim": "Concentration of power poses a major risk of lock-in, which could lead to indefinite control by a small number of people or a single country.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "Geopolitics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "Concentration of power poses a major risk of lock-in, which could lead to indefinite control by a small number of people or a single country.",
+    "claim_labels_silver": [
+      "ai_race_power",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Geopolitics",
+    "reviewed": false
+  },
+  {
+    "start": 8535.2,
+    "end": 8610.7,
+    "text": "One thing in general is just having a \nnorm of explicitly temporary commitments,   where any new organisation or new \ninstitution has an end date, a shelf life. Rob Wiblin: That one’s a little bit complicated, \nright, because that could backfire. If you’re   saying that things are changing so much, so \nwe’re going to rewrite the Constitution every 10   years or every 20 years, that provides a natural \nopportunity for someone to try to undermine what   might have been a very democratic and liberal \nand non-totalitarian system into one that is. Will MacAskill: Oh yeah, we’ll get \nonto this potentially more later,   because we’re dividing this up in terms of \ndelaying lock-in and then improving lock-in. Rob Wiblin: I see. So you’re \nsaying this helps to delay lock-in? Will MacAskill: It helps to delay it. The \ndelaying might not be good. So in some of   the other work that I’ve done, that we’ll talk \nabout in a little bit, one of the surprising   upshots I had when I was modelling it all \nout was that trying to make lock-in better,   conditional on it happening, seems to be even \nmore promising than taking the strategy of — Rob Wiblin: Let’s just kick the can down the road.",
+    "speaker": "Will MacAskill",
+    "claim": "Having a norm of temporary commitments can help delay lock-in, but it may not be beneficial in the long run.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "Having a norm of temporary commitments can help delay lock-in, but it may not be beneficial in the long run.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 9218.8,
+    "end": 9310.6,
+    "text": "In the case of AI, you have corrigible AI. Like \nI said, I want it to be risk averse as well,   so it doesn’t even get that much payoff \nfrom taking over. There’s other things   you could do. Maybe it’s myopic, it discounts \nthe future very heavily. So again, it doesn’t   get that much payoff from a takeover. But \nthen it’s also corrigible. Perhaps it’s   got nonconsequentialist restrictions. \nIt just really doesn’t want to lie,   really doesn’t want to do anything violent. \nAlso, it just knows it always checks in with you. But nonetheless, there’s still a difference \nbetween, if I’m asking that AI for advice, for   example, does it just tell me whatever it thinks \nI want to hear? That’s one thing. Or maybe what it   thinks I would want to hear if I were sufficiently \nreflective? That would be a lot better. Or   thirdly, it’s just a virtuous agent with its \nown moral character and is willing to push back? There’s obviously a spectrum here. But I could \nbe asking it to do something that is immoral but   legal, and not within its guardrails and so on, \nand it might say, “I am the AI. I’m ultimately   going to help you, but I really think this is \nwrong.” It could do that, or it could refuse.",
+    "speaker": "Unknown",
+    "claim": "AI should be designed to be corrigible and risk-averse, with moral character and the ability to push back against immoral requests.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AI should be designed to be corrigible and risk-averse, with moral character and the ability to push back against immoral requests.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 9687.4,
+    "end": 9784.3,
+    "text": "They’re going to be making really consequential \ndecisions. I want those people to be humble and   cooperative and farsighted and morally motivated \nand communicative and accountable and so on. Rob Wiblin: [laughs] We’re pretty set \non all of those points, I would say. Will MacAskill: Yeah, luckily this one actually is   already taken care of and we really \ndon’t need to worry about that one. Rob Wiblin: Yeah, but if things get worse, then \nwe could intervene and try to make them better. Will MacAskill: And that’s something that \npeople can influence in terms of who you   vote for, which companies you buy products from. Machine learning researchers,   they currently have an enormous amount \nof power that they will predictably lose. Rob Wiblin: That they are feverishly \nworking to keep away from themselves. Will MacAskill: Yeah. So there’s actually this \namazing confluence of self-interest among them,   and also potential benefits for the world — \nbecause this is a way in which we can move   some amount of power away from just leaders, \nand if the governments get more involved,   the governments running the project. \nYou could imagine this kind of union of   concerned computer scientists, probably \ninformal, but just a group saying,   “We will only build this thing that \nwill replace us under XYZ conditions.” Rob Wiblin: It’s only a few thousand, maybe \nlike 10,000 at most, who are relevant to this,   and are likely to be relevant by the point \nthat these decisions have to be made.",
+    "speaker": "Will MacAskill",
+    "claim": "Machine learning researchers currently have a lot of power, but they will predictably lose it, and there are potential benefits for the world if governments get more involved in AI development.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI power dynamics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "Machine learning researchers currently have a lot of power, but they will predictably lose it, and there are potential benefits for the world if governments get more involved in AI development.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI power dynamics",
+    "reviewed": false
+  },
+  {
+    "start": 13325.8,
+    "end": 13407.2,
+    "text": "There’s some worrying dynamics, \nthat I have not gone deep into this,   that could actually mean that this ends up \nreally quite bad. Because the worst case then   is I self-modify to love suffering, and you \nsay, “Well, I don’t trade with blackmailers.” Rob Wiblin: Yeah, I’m not accepting this crap. Will MacAskill: But I’ve already irrevocably   self-modified, so then I go and do \nit. That’s not an outcome we want. Rob Wiblin: Let’s not do that. Will MacAskill: But then either in that case or \nin the case where we’re like, actually we want to   try and get to something that is much closer \n— where basically most people, if there are   more correct moral views, they kind \nof win out over time — then there’s   a question of how do you even \nstructure that to begin with? There’s been some work in this with respect \nto deliberative democracy, which is pretty   interesting. That perspective on democracy, the \npoint is that people have to argue and reason   things out, and as a result they improve their \nunderstanding and moral position over time. Again,   this is all stuff I’ve not looked into, but \nthe ideal is that you could get something   that’s actually really quite concrete at \nthe end of it. That’s one way of going.",
+    "speaker": "Will MacAskill",
+    "claim": "There are worrying dynamics that could lead to negative outcomes with AGI, such as self-modification to harmful moral positions.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "There are worrying dynamics that could lead to negative outcomes with AGI, such as self-modification to harmful moral positions.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 13804.4,
+    "end": 13877.6,
+    "text": "So yeah, what I did was start focusing a \nlot on research. I also did other things,   like I did more holidays and a couple of \nmeditation retreats that were amazing. And then, as a result of that, I got the kind \nof discussion group going with Toby Ord and Fin   Moorhouse, who have coauthored this “Preparing for \nthe intelligence explosion” paper with me. Then   that kind of grew a little bit in Oxford people, \nand I was driving forward things that I thought   were particularly interesting. There started \nto be a little bit of excitement about that. And then things really changed gear when   Max Dalton was also burned out. We \nwere chatting, like, “Hey, so yeah…” Rob Wiblin: “We’re both hating things right now.” Will MacAskill: Yeah. “What’s next for you?” \nHe was deciding what he should do next,   and I just said I would love to work with \nhim. And then he ended up concluding, yeah,   let’s make this. I’d started to \nhave the seeds that actually this   could be some sort of research \ninstitute, and he got on board.",
+    "speaker": "Will MacAskill",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Research Institute",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Research Institute",
+    "reviewed": false
+  },
+  {
+    "start": 14427.4,
+    "end": 14512.4,
+    "text": "Will MacAskill: Yeah, absolutely. Rob Wiblin: And I guess also to be informed if \nthe models are getting to the point where they   could be useful, because I suppose that \ncould set a different strategy for you. Will MacAskill: For sure. Rob Wiblin: Is there anything else you want \nto say about Forethought before we wrap up? Will MacAskill: No. Rob Wiblin: OK, we’ve just about \ncovered it. A final question   I was going to ask was just like an emotional \ncheck-in on how we’re feeling about the state   of the world at the moment. Because \nI feel, preparing for this interview,   going through these litany of issues, \nit can lead to a degree of resignation. I just feel like there’s so many things and \nit’s coming at us so quickly that I’m just like,   what are the chances that we’re going \nto actually make this work well? I mean,   I’m going to keep trying. But I \nsuppose on some weeks I’m optimistic;   this week I’m feeling just a bit like \nthings are a little bit hopeless. Do you want to make me feel any better,   or are you feeling optimistic or resigned \nthis hour or this week or this month? Will MacAskill: I think right at the moment \nI’m definitely feeling stressed. My emotional   attitude towards all of this was actually just — \nthis is kind of my personality — just positive,   excited. I remember actually you and I had this \nconversation. We even realised our probabilities   and credences weren’t that different, \nbut the affect that we were bringing — Rob Wiblin: Could scarcely be more different.",
+    "speaker": "Will MacAskill",
+    "claim": "Will MacAskill expresses a generally positive and excited attitude towards the state of the world and the future of AI, despite feeling stressed at the moment.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "Emotional check-in",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Will MacAskill",
+    "is_claim_silver": true,
+    "claim_silver": "Will MacAskill expresses a generally positive and excited attitude towards the state of the world and the future of AI, despite feeling stressed at the moment.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Emotional check-in",
+    "reviewed": false
+  }
+]

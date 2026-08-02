@@ -1,0 +1,524 @@
+[
+  {
+    "start": 68.0,
+    "end": 132.4,
+    "text": "He argues that there's almost 100% chance that AGI will eventually\ndestroy human civilization. As an aside, lemme say\nthat I will have many, often technical conversations\non the topic of AI, often with engineers building the state-of-the-art AI systems. I would say those folks\nput the infamous P doom or the probability of\nAGI killing all humans at around one to 20%. But it's also important\nto talk to folks who put that value at 70, 80, 90 and this in the case of Roman at 99.99 and many more nines percent. I'm personally excited for the future and believe it will be a good one in part because of the amazing\ntechnological innovation we humans create. But we must absolutely not\ndo so with blinders on, ignoring the possible risks, including existential risks\nof those technologies. That's what this conversation is about. This is the Lex Fridman podcast.",
+    "speaker": "Lex Fridman",
+    "claim": "AGI poses significant risks to humanity, but there is also optimism about technological innovation.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI risks and optimism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "AGI poses significant risks to humanity, but there is also optimism about technological innovation.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI risks and optimism",
+    "reviewed": false
+  },
+  {
+    "start": 587.8,
+    "end": 651.9,
+    "text": "It's not a slow process where\nwe get to kinda figure out how to live that new lifestyle. But it's pretty quick - In that world, can't humans just do what humans currently do with chess, play each other, have tournaments, even though AI systems are far\nsuperior this time in chess. So we just create artificial games. Or for us they're real like the Olympics and we do all kinds of\ndifferent competitions and have fun. Maximize the fun and let the\nAI focus on the productivity. - It's an option. I have a paper where I try to solve the value alignment\nproblem for multiple agents and the solution to avoid compromise is to give everyone a\npersonal virtual universe. You can do whatever\nyou want in that world. You could be king, you could be slave, you decide what happens. So it's basically a glorified\nvideo game where you get to enjoy yourself and someone\nelse takes care of your needs. And the substrate alignment is the only thing we need to solve.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Humans can create artificial games and competitions to maximize fun while AI handles productivity, and the value alignment problem can be solved by giving individuals personal virtual universes.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI and human interaction",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Humans can create artificial games and competitions to maximize fun while AI handles productivity, and the value alignment problem can be solved by giving individuals personal virtual universes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI and human interaction",
+    "reviewed": false
+  },
+  {
+    "start": 1183.3,
+    "end": 1247.0,
+    "text": "- Right, we can definitely\nkeep up for a while. I'm saying you cannot do it indefinitely. At some point the\ncognitive gap is too big. The surface you have\nto defend is infinite. But attackers only need\nto find one exploit. - So to you eventually this\nis we're heading off a cliff. - If we create general\nsuper intelligences, I don't see a good outcome\nlong term for humanity. The only way to win this\ngame is not to play it. - Okay, well, we'll talk\nabout possible solutions and what not playing it means, but what are the possible\ntimelines here to you? What are we talking about? We're talking about a set of\nyears, decades, centuries. What do you think?\n- I don't know for sure. The prediction markets right\nnow are saying 2026 for AGI. I heard the same thing from\nCEO of Anthropic, DeepMind. So maybe we are two years\naway, which seems very soon given we don't have a working\nsafety mechanism in place or even a prototype for one.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Creating general superintelligences could lead to a bad long-term outcome for humanity.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Creating general superintelligences could lead to a bad long-term outcome for humanity.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 1775.2,
+    "end": 1849.7,
+    "text": "We remove the gender bias.\nWe are removing race bias. Why is this pro-human bias?\nWe are polluting the planet. We are, as you said, you\nknow, fight a lot of war, kind of violent, maybe it's better if\nit's super intelligent, perfect society comes and replaces us. It's normal stage in the\nevolution of our species. - Yeah, so somebody says,\nlet's develop an AI system that removes the violent\nhumans from the world. And then it turns out that all\nhumans have violence in them or the capacity for violence and therefore all humans are removed. Yeah, yeah, yeah. Let me ask about Yann LeCun, he's somebody who we've\nhad a few exchanges with and he's somebody who actively pushes back against this view that AI is going to lead to destruction\nof human civilization, also known as AI doomism. So in one example that he tweeted, he said, \"I do acknowledge risks, but,\" two points, \"One, open\nresearch and open source are the best ways to understand\nand mitigate the risks.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI could potentially replace humans and create a perfect society, which is a normal stage in human evolution.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI optimism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI could potentially replace humans and create a perfect society, which is a normal stage in human evolution.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI optimism",
+    "reviewed": false
+  },
+  {
+    "start": 1914.0,
+    "end": 1984.0,
+    "text": "And it takes years to figure\nout, even for existing models, if it's trained for six months, it'll take you two,\nthree years to figure out basic capabilities of that system. We still discover new\ncapabilities in systems which are already out there. So that's not the case. - So just to linger on that,\nto you, the difference there that there is some level\nof emergent intelligence that happens in our current approaches? So stuff that we don't hardcode in. - Absolutely. That's what\nmakes it so successful. When we had to painstakingly\nhardcode in everything, we didn't have much progress. Now just spend more money and more compute and\nit's a lot more capable. - And then the question is, when there is emergent\nintelligent phenomena, what is the ceiling of that? For you, there's no ceiling. For Yann LeCun, I think\nthere's a kind of ceiling that happens that we\nhave full control over. Even if we don't understand\nthe internals of the emergence, how the emergence happens, there's a sense that we have control and an understanding of the approximate ceiling of capability, the limits of the capability.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "There is emergent intelligence in current AI systems, but opinions differ on whether there is a ceiling to their capabilities.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "There is emergent intelligence in current AI systems, but opinions differ on whether there is a ceiling to their capabilities.",
+    "claim_labels_silver": [
+      "open_source",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 1984.0,
+    "end": 2052.6,
+    "text": "- Let's say there is a\nceiling, it's not guaranteed to be at the level which\nis competitive with us. It may be greatly superior to ours. - So what about his\nstatement about open research and open source are the\nbest ways to understand and mitigate the risks? - Historically, he's completely right. Open source software is wonderful, it's tested by the\ncommunity, it's debugged. But we're switching from tools to agents. Now you're giving open source\nweapons to psychopaths. Do we wanna open source nuclear\nweapons, biological weapons? It's not safe to give\ntechnology so powerful to those who may misalign it. Even if you are successful\nat somehow getting it to work in a first place in a friendly manner. - But the difference with nuclear weapons, current AI systems are not\nakin to nuclear weapons. So the idea there is you're\nopen sourcing at this stage that you can understand it better. Large number of people can\nexplore the limitation, the capabilities, explore the\npossible ways to keep it safe, to keep it's secure,\nall that kind of stuff while it's not at the\nstage of nuclear weapons.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Open sourcing powerful AI technologies poses risks similar to giving weapons to misaligned individuals.",
+    "stance": "Refute",
+    "claim_labels": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Open sourcing powerful AI technologies poses risks similar to giving weapons to misaligned individuals.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 2052.6,
+    "end": 2119.4,
+    "text": "So nuclear weapons,\nthere's a no nuclear weapon and then there's a nuclear weapon. With AI systems, there's a\ngradual improvement of capability and you get to perform that\nimprovement incrementally. And so open source allows you\nto study how things go wrong. Study the very process of emergence, study AI safety on those systems when there's not a high level of danger, all that kind of stuff. - It also sets a very wrong precedence. So we open sourced model\none, model two, model three. Nothing ever bad happened, so obviously we're gonna\ndo it with model four. It's just gradual improvement. - I don't think it always\nworks with the precedent. Like you're not stuck doing\nit the way you always did. It sets the precedent of open research and open development such\nthat we get to learn together. And then the first time\nthere's a sign of danger, some dramatic thing happened, not a thing that destroys\nhuman civilization, but some dramatic\ndemonstration of capability that can legitimately\nlead to a lot of damage.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Open sourcing AI models allows for incremental improvement and learning about AI safety, but it can also set a dangerous precedent.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Open sourcing AI models allows for incremental improvement and learning about AI safety, but it can also set a dangerous precedent.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 2255.7,
+    "end": 2317.4,
+    "text": "And I think we need to\nsee illustrations of that in a very small scale, to start to understand that this is really\ndamaging versus Clippy, versus a tool that's really\nuseful to a lot of people to do learning, to do\nsummarization of texts, to do question and answer,\nall that kind of stuff. To generate videos. A tool, fundamentally\na tool versus an agent that can do a huge amount of damage. - So you bring up example of cars. - [Lex] Yes.\n- Cars were slowly developed and integrated. If we had no cars and somebody came around and said, \"I invented this thing, it's called cars, it's awesome, it kills like 100,000\nAmericans every year. Let's deploy it.\" Would we deploy that? - There'd been fear mongering about cars for a long time. The transition from horses to cars, there's a really nice channel that I recommend people\ncheck out Pessimist Archive that documents all the fear\nmongering about technology that's happened throughout history.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The development of powerful AI tools poses significant risks, similar to the historical fears surrounding the introduction of cars.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI risks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The development of powerful AI tools poses significant risks, similar to the historical fears surrounding the introduction of cars.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI risks",
+    "reviewed": false
+  },
+  {
+    "start": 3116.2,
+    "end": 3185.4,
+    "text": "It doesn't feel like we're close to that, a system that has the kind of agency where it can make its own decisions and deceive everybody about them. The current architecture\nwe have in machine learning and how we train the systems,\nhow to deploy the systems and all that, it just doesn't seem to support that kind of agency. - I really hope you are right. I think the scaling hypothesis is correct. We haven't seen diminishing returns. It used to be we asked\nhow long before AGI, now we should ask how much until AGI. It's trillion dollars today, it's a billion dollars next year, it's a million dollars in a few years. - Don't you think it's\npossible to basically run out of trillions? So is this constrained by compute? - Compute gets cheaper\nevery day exponentially. - But then that becomes a\nquestion of decades versus years. - If the only disagreement\nis that it'll take decades, not years for everything\nI'm saying to materialize, then I can go with that. - But if it takes decades,\nthen the development of tools for AI safety becomes\nmore and more realistic.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AGI is not close due to current machine learning architectures lacking the necessary agency.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI is not close due to current machine learning architectures lacking the necessary agency.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 3720.5,
+    "end": 3789.2,
+    "text": "- There's a refrigerator\nmaking a buzzing noise. - Very menacing. Very menacing. So every time I'm about\nto talk about this topic, things start to happen. My flight yesterday was canceled without possibility to rebook. I was giving a talk at Google in Israel and three cars, which\nwere supposed to take me to the talk could not, I'm just saying, - I like AIs. I for one, welcome our overloads. - Well, there's a degree\nto which we, I mean, it is very obvious as we already have. We've increasingly given our\nlife over to software systems. And then it seems obvious\ngiven the capabilities of AI that are coming that we'll give\nour lives over increasingly to AI systems. Cars will drive themselves, refrigerator eventually will\noptimize what I get to eat. And as more and more out\nof our lives are controlled or managed by AI assistance, it is very possible that there's a drift.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "As AI systems become more capable, we will increasingly rely on them to manage our lives.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI reliance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "As AI systems become more capable, we will increasingly rely on them to manage our lives.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI reliance",
+    "reviewed": false
+  },
+  {
+    "start": 4253.2,
+    "end": 4315.8,
+    "text": "Yeah, I can verify that\ndeterministic algorithm follows certain properties. That can be done. Some people argue that maybe just maybe two plus two is not four. I'm not that extreme. But once you have sufficiently large proof over sufficiently complex\nenvironment, the probability that it has zero bugs in\nit is greatly reduced. If you keep deploying this a lot, eventually you're gonna\nhave a bug anyways. - There's always a bug.\n- There is always a bug. And the fundamental difference\nis what I mentioned. We're not dealing with cybersecurity, we're not gonna get a new\ncredit card, new humanity. - So this paper's really interesting. You said 2011, \"Artificial\nIntelligence Safety Engineering:\" Why Machine Ethics is a Wrong Approach.\" \"The grand challenge,\" you\nwrite, \"of AI safety engineering, we propose the problem of\ndeveloping safety mechanisms for self-improving systems.\" Self-improving systems, by the way, that's an interesting term for the thing that we're talking about.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "There will always be bugs in complex systems, including AI, which poses a challenge for AI safety.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "There will always be bugs in complex systems, including AI, which poses a challenge for AI safety.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 4530.0,
+    "end": 4593.3,
+    "text": "What about a thing which\nI actually have is a voice that is constantly extremely critical. So like engineer into the system, a constant uncertainty about\nself, a constant doubt. - Well any smart system would have doubt about everything, right? You not sure if what information\nyou are given is true if you are subject to manipulation. You have this safety and security mindset. - But I mean you have\ndoubt about yourself. So the AI systems that has a doubt about whether the thing is doing is causing harm, is the\nright thing to be doing. So just a constant doubt\nabout what it's doing because it's hard to be\na dictator full of doubt. - I may be wrong, but I\nthink Stuart Russell's ideas are all about machines\nwhich are uncertain about what humans want and trying\nto learn better and better what we want. The problem of course is\nwe don't know what we want and we don't agree on it.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI systems should have a constant doubt about their actions and the information they receive.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems should have a constant doubt about their actions and the information they receive.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 6224.6,
+    "end": 6288.1,
+    "text": "- I mean Genghis Khan was nicer. He offered the choice of join or die. - But join implies you have\nsomething to contribute. What are you contributing\nto super intelligence? - Well in the zoo, we're\nentertaining to watch. - To our humans. - You know, I just spent\nsome time in the Amazon. I watched ants for a long time and ants are kind of fascinating to watch. I could watch them for a long time. I'm sure there's a lot of\nvalue in watching humans. The interesting thing about humans, you know like when you have a video game that's really well balanced. Because of the whole evolutionary process, we've created this society\nis pretty well balanced. Like our limitations as humans and our capabilities are a balance from a video game perspective. So we have wars, we have conflicts, we have cooperation. Like in a game theoretical way, it's an interesting system to watch. In the same way that an ant colony is an interesting system to watch. So like if I was an alien civilization, I wouldn't wanna disturb\nit, I'd just watch it. Would be interesting.",
+    "speaker": "Roman Yampolskiy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "intelligence_nature",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "intelligence_nature",
+    "reviewed": false
+  },
+  {
+    "start": 6903.6,
+    "end": 6982.0,
+    "text": "So we don't know how to\ndo it. And that's unique. That's what creates meaning. It would be kinda as Bostrom calls it Disneyland without\nchildren, if that was gone. - Do you think consciousness\ncan be engineered in artificial systems? Here, let me go to 2011 paper that you wrote, \"Robot Rights.\" \"Lastly, we would like to address a sub branch of machine ethics, which on the surface has\nlittle to do with safety, but which is claimed to play\na role in decision-making by ethical machines,\" \"Robot Rights.\" So do you think it's possible to engineer consciousness in the machines? And thereby the question\nextends to our legal system, do you think at that point\nrobots should have rights? - Yeah, I think we can. I think it's possible to create\nconsciousness in machines. I tried designing a test\nfor it, which makes success. That paper talked about\nproblems with giving civil rights to AI, which\ncan reproduce quickly and outvote humans essentially taking over a government system by simply voting for their\ncontrolled candidates.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "It is possible to engineer consciousness in machines.",
+    "stance": "Support",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Consciousness in AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "It is possible to engineer consciousness in machines.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Consciousness in AI",
+    "reviewed": false
+  },
+  {
+    "start": 7043.7,
+    "end": 7107.1,
+    "text": "If they pass it time after time\nwith probability increasing for every multiple choice,\nthen you have no choice. But do either accept that they have access to a conscious model or\nthey have themselves. - So the reason illusions\nare interesting is, I guess because it's a\nreally weird experience and if you both share\nthat weird experience that's not there in the\nbland physical description of the raw data, that means that puts more emphasis on the actual experience. - And we know animals can\nexperience some optical illusions. So we know they have certain\ntypes of consciousness as a result, I would say. - Yeah, well that just goes\nto my sense that the flaws and the bugs is what makes humans special. Makes living forms special,\nso you're saying like... - It's a feature, not a bug.\n- It's a feature. The bug is the feature. Whoa, okay. That's a cool test for consciousness. And you think that can be engineered in? - So they have to be novel illusions. If it can just google\nthe answer, it's useless.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Consciousness and the experience of illusions are important indicators of intelligence and may be engineered into AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "Consciousness and AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Consciousness and the experience of illusions are important indicators of intelligence and may be engineered into AI.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Consciousness and AI",
+    "reviewed": false
+  },
+  {
+    "start": 7172.6,
+    "end": 7241.3,
+    "text": "- There are simulators for torture games where the avatar screams\nin pain, begs to stop. I mean those are a part of kind of standard\npsychology research. - You say it so calmly,\nit sounds pretty dark. - Welcome to humanity.\n(Lex laughing) - Yeah, it's like a\n\"Hitchhiker's Guide\" summary. Mostly harmless, I would love to get a good summary when\nall this is said and done. When earth is no longer a thing, whatever, a million, a\nbillion years from now. Like what's a good summary\nof what happened here? It's interesting, I think AI will play a big part of that summary\nand hopefully humans will too. What do you think about\nthe merger of the two? So one of the things that\nElon and Neuralink talk about is one of the ways for\nus to achieve AI safety is to ride the wave of AGI. So by merging. - Incredible technology in a narrow sense to help the disabled, just amazing support it 100%.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI will play a significant role in the future of humanity, and merging humans with AI could be a way to achieve AI safety.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI will play a significant role in the future of humanity, and merging humans with AI could be a way to achieve AI safety.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 7503.9,
+    "end": 7567.5,
+    "text": "You can't predict what's\ngonna happen in the universe. You have to create a new\nuniverse and run the thing. Big bang, the whole thing. - But running it may be\nconsequential as well. - It might destroy humans. And to you, there's no chance that AI somehow carry the\nflame of consciousness, the flame of specialness and\nawesomeness that is humans. - It may somehow, but I still feel kind of bad\nthat it killed all of us. I would prefer that doesn't happen. I can be happy for others,\nbut to a certain degree. - It would be nice if we\nstuck around for a long time. At least give us a\nplanet, the human planet. It'd be nice for it to be earth. And then they can go elsewhere. Since they're so smart\nthey can colonize Mars. Do you think they could\nhelp convert us to, you know, type one, type two, type three. Let's just stick to type two civilization on the Kardashev scale.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Running AI simulations could have catastrophic consequences for humanity, and while AI might carry some form of consciousness, it is concerning if it leads to human extinction.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI consequences",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Running AI simulations could have catastrophic consequences for humanity, and while AI might carry some form of consciousness, it is concerning if it leads to human extinction.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI consequences",
+    "reviewed": false
+  },
+  {
+    "start": 8089.4,
+    "end": 8129.9,
+    "text": "Thanks for listening to this conversation with Roman Yampolskiy. To support this podcast, please check out our\nsponsors in the description. And now let me leave you with some words from\nFrank Herbert in \"Dune\". \"I must not fear. Fear is the mind killer. Fear is the little death that\nbrings total obliteration. I will face fear, I will permit it to pass over me and through me. And when it has gone past,\nI will turn the inner eye to see its path. Where the fear has gone\nthere will be nothing, only I will remain.\" Thank you for listening and\nhope to see you next time.",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  }
+]

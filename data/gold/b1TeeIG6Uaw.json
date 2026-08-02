@@ -1,0 +1,475 @@
+[
+  {
+    "start": 1021.9,
+    "end": 1096.6,
+    "text": "And it’s very hard on him. Before all these meetings,\nthere’s a briefing. Someone gives him a briefing book\nand says, \"Okay, this is what we’re going to talk about. Here are the\npolicy options. Which one do you want?\" He has to make up his mind. Sometimes I’m sure he\nconsults with other people. But he has to be really engaged with\na large number of policy areas on a day-to-day basis, because the decisions\nhe makes basically become law, basically. It's stupendous to think about. You can tell someone how big China\nis—the population, the size of the economy, etc.—but visiting gives you\na tangible sense of just how big. You have provinces, each of which\nhas as many people as a normal nation-state, provinces with\nhundreds of millions of people, 40 million, and so forth. One person will say something at\nthe end of a meeting that determines policy for basically the population of\nNorth and South America or something. Does he say things at the end of\nmeetings, during speeches, that indicate he actually has a good understanding\nof these different policy areas?",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 1164.7,
+    "end": 1230.9,
+    "text": "If you go to China, you can read\nsome of these, which I have. He has a really good political nose. He knows what it takes to control the\nParty apparatus, to control the military. Especially on economic issues, it seems\nlike some advisor gives him some talking points, and he talks through them. There's some sense of that. On technology issues I think he cares\na lot, but only from the perspective that competition with the United\nStates is a very important objective for the Chinese Communist Party. It’s for him personally, a\nvery important objective. So he wants to win. But precisely the extent to\nwhich he understands all the intricacies... it's unclear to me. I don’t think he necessarily does. But then, comparing him to American\nleaders, especially today, I think he’s probably better prepared.",
+    "speaker": "Victor Shih",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 1231.2,
+    "end": 1317.1,
+    "text": "Just because in China, the experts talk\nto the top leadership all the time. Yeah. The advantage of the American\nsystem, of course, is that, at least in theory, it can survive\na leader who is not up to snuff. Okay, let’s go back to Ding Xuexiang.",
+    "speaker": "Victor Shih",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 1524.6,
+    "end": 1590.4,
+    "text": "Now he’s a Vice Premier in\ncharge of cybersecurity. So clearly, this guy is trusted. His preferences for AI, AGI... I tweeted this Davos\nspeech, which you also looked at. I think it’s very revealing. What he said was, “We need to invest\nin AI, but we can’t go all out in investing in it without knowing\nwhat the brakes are. We have to develop the brakes at the same time.” I think that’s extremely revealing. It’s very different from\nthe American approach. In America, it’s all driven\nby the private sector. Except for one or two companies,\neveryone just invests and invests and tries to reach AGI as soon as possible. For the Chinese government, they’re\nvery afraid that some actor—outside, but even inside the Party—is going to use\nit as a tool to usurp the Party’s power. So they want to know that they have a way\nof stopping everything if it comes to it.",
+    "speaker": "Victor Shih",
+    "claim": "The Chinese government is cautious about AGI and wants to develop safety measures alongside investment.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels": [
+      "ai_safety_risk",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "The Chinese government is cautious about AGI and wants to develop safety measures alongside investment.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "agi_timeline"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 1591.1,
+    "end": 1655.0,
+    "text": "For them, developing the brakes is just\nas important as developing the AI itself. What are the different organizational\nmilestones we should be watching for, to understand how they’re thinking about\nAI, and when things have escalated? To add more color to this question,\nwhat I expect to happen, let's say next year, in terms of raw AI capabilities is\nthat we might have computer-use agents. Not just a chatbot, but something that\ncan actually do real work for you. You set it loose on your computer,\nand it goes through your email, compiles your taxes, etc. In five years, I expect it to\nbe able to do all white-collar work, or most white-collar work. That’s 40% of the economy, potentially. Eventually, we’ll have full\nAGI, even robotics and so forth. As this is happening, how should\nwe be tracking how the Party is thinking about what’s happening,\nhow seriously they take it, and what they think they should do about it? I think a couple weeks ago there\nwas a Politburo study session on AI. I don’t know if it was AGI AI, or\nwhat kind of AI they were discussing.",
+    "speaker": "Victor Shih",
+    "claim": "In five years, we can expect to have full AGI and significant advancements in AI capabilities that will impact the economy.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "In five years, we can expect to have full AGI and significant advancements in AI capabilities that will impact the economy.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 1655.8,
+    "end": 1719.4,
+    "text": "Should we be looking for a leading\ngroup on AGI in particular? Should we be trying to\njust read more speeches? What should we be paying attention to? Thus far, it seems like it’s under\nthe cybersecurity leading group. So Ding Xuexiang would be in charge of it. There won’t be a new group? I don’t think so. Because for the Party, it’s the security\naspect of it that’s the most important. There’s one aspect where it’d be great\nto automate all industrial production. China is already doing\na good job with that. I don’t think they need additional\ngoverning infrastructure to allow them to do that. But when it comes to applying AGI\nor AI to governance, even to service sectors—generating video content for\npeople, doing travel agency stuff—the Party is very paranoid that some hostile\nactor, outside of China—certainly they believe that very strongly—or inside\nChina, is going to do something and the AGI is going to take off, and it’s going\nto undermine the Party’s authority. So",
+    "speaker": "Victor Shih",
+    "claim": "The Chinese government is concerned that AGI could undermine its authority and is cautious about its application in governance.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "The Chinese government is concerned that AGI could undermine its authority and is cautious about its application in governance.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 1721.9,
+    "end": 1785.6,
+    "text": "what we’re going to see in terms of\ninstitutional development is not at the top end, but at the lower end. They will want to designate human beings\nin all the government agencies, in all the commercial entities that are using AI or AGI, to put their foot on\nthe brake if it comes to it. But so far, after DeepSeek became a big\ndeal, the immediate reaction in China… Very enthusiastic. All the different big tech\ncompanies—WeChat, Tencent—everybody was encouraged to adopt it. And they did. They adopted it as fast as possible. Xi himself met with Liang Wenfeng\nand did a whole meeting where all the industrial heads were there. Xi said that they have to\naccelerate technology in China, etc. So it seems like so far the response has\nbeen that the greater the capabilities of AI, the more they’re excited\nabout it, the more they think this is the beginning of Chinese greatness. But you think that changes at some point? No, they want to develop it of course.",
+    "speaker": "Victor Shih",
+    "claim": "China is enthusiastic about adopting AI and AGI technologies, viewing them as a path to national greatness.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI adoption",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "China is enthusiastic about adopting AI and AGI technologies, viewing them as a path to national greatness.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI adoption",
+    "reviewed": false
+  },
+  {
+    "start": 1915.9,
+    "end": 1979.6,
+    "text": "I think they’re just using the\nexisting command structure. There is potentially a\nforeign aspect to this. You build up all this cloud computing\ncapacity in the Gulf States. Who’s going to be the customer? Who’s willing to pay billions\nof dollars to use it? China, right? So then the foreign policy apparatus will\nhave to coordinate that, and so forth. Belt and Road v2. Exactly. Does it have any end implication for\nthe progression of AI—who actually ends up controlling these leading\ngroups, whose purview it ends up under? Or is that basically a detail? In terms of what happens with\nAI in China, does it actually have that big an implication? I think it does matter. You have some decision-makers who have\nshown themselves to be not very good—even politically not very good—but nonetheless,\nfor some reason, they’re trusted. Maybe precisely because\nthey’re not very good.",
+    "speaker": "Victor Shih",
+    "claim": "The control and decision-making in AI development, particularly in China, will significantly impact its progression.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI control and geopolitics",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "The control and decision-making in AI development, particularly in China, will significantly impact its progression.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI control and geopolitics",
+    "reviewed": false
+  },
+  {
+    "start": 2043.5,
+    "end": 2112.0,
+    "text": "This happened five times. If you were to drive through\nthis would take you a while. But it’s new, not historical, right? Oh no yeah, it’s new. By the way, there was nobody else there. It was me, three white\nguys, and nobody else. I asked the head monk, “How did you guys\nfinance this?” And he said, “We’ve got a lot of supporters, a lot of donations.” I don’t think so, yeah. So then it really depends\nwho’s in charge of AGI. Ding Xuexiang really is a mystery. I think he has great political acumen. He must, in order to\ngain Xi Jinping’s trust. He has some technical background,\nbut it’s in metallurgical forging. But he’s worked in Shanghai for decades,\nso he knows how private corporations run. He knows a lot about\ninternational trade, FDI. If you look at the people in the Politburo\nand the Politburo Standing Committee, I’d say he’s definitely in the top quartile\nof people you’d want to be in charge of AI, if not the top two or three people.",
+    "speaker": "Victor Shih",
+    "claim": "The leadership and political acumen of individuals in charge of AGI, like Ding Xuexiang, are crucial for its development and governance.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI leadership",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "The leadership and political acumen of individuals in charge of AGI, like Ding Xuexiang, are crucial for its development and governance.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI leadership",
+    "reviewed": false
+  },
+  {
+    "start": 2179.6,
+    "end": 2266.3,
+    "text": "Even if that were the case—even if\nyou train something that you think is pretty good—they will still want\na human being checking everything. As somebody who is trying to observe\nwhat the Party’s doing, have you found that using LLMs has been helpful? If so, which model gives you the best\ninsight into what the CCP is thinking? Yeah, I’ve been using AI quite a bit. Both to code data—it used to be text\nhand-coded stuff and now a lot of it can be automated— but in terms of finding\nout what the Chinese government is doing, some of the American models are okay. Grok is okay. But the most helpful has been DeepSeek. To me, it’s quite clear that\nDeepSeek—which, of course, was first developed by a hedge fund to trade in\nthe Chinese market—part of what they really trained the model for was to\ndetect important policy documents and meetings within the Chinese government. Because when you enter the right\nprompts—even not especially sophisticated prompts like, “What is the Chinese\ngovernment doing when it comes to AI?”—it comes out with a bunch of\nvery high-quality links, which is very useful for my research. Immediately,\nyou get a sense of what are the latest policies, what are the latest statements\nby high-level officials. It seems that DeepSeek puts some higher weighting,\nlet’s say, on this kind of content.",
+    "speaker": "Victor Shih",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI applications",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI applications",
+    "reviewed": false
+  },
+  {
+    "start": 3434.8,
+    "end": 3496.6,
+    "text": "A lot of migrant workers\nare barely getting by. Homelessness is increasingly a problem\nin China, especially with the labor market being so fickle these days. Elderly care is pretty abysmal, very\nbasic level for a lot of people. It’s not the case for everyone. Some people get very good elderly\ncare if they worked for the government or an SOE previously. So you see a lot of problems the\nChinese government has overlooked. This is why I say that they have\na goal of making all Chinese people happy and fulfilled. One part of that is the “fulfilled”\npart, the technology part. But the part about truly helping people\nlive a good life, they’re not making as much progress as they should. Just to close the loop on this,\nsometimes we get impressed when we see things like Made in China 2025. The NDRC and MIIT have these very specific\ntargets, like “LIDAR needs to get to this level,” or",
+    "speaker": "Victor Shih",
+    "claim": "The Chinese government is not making sufficient progress in truly helping people live a good life despite technological advancements.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "China's social issues",
+    "confidence": "medium",
+    "claim_labels": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "The Chinese government is not making sufficient progress in truly helping people live a good life despite technological advancements.",
+    "claim_labels_silver": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "China's social issues",
+    "reviewed": false
+  },
+  {
+    "start": 3499.4,
+    "end": 3563.1,
+    "text": "“We need EUV machines by\nthis year,” and so forth. But your claim is that that part of\nthe system is actually dysfunctional and in fact, the part that works\nis the 5% that’s totally private? No, the private sector\nstuff works a lot better. You have occasional successes\nfrom the state-financed system. I wouldn’t say there are no success cases. But I would say for every success\ncase you see, there are maybe even over a dozen failed cases. Of course, you have failed cases\neverywhere in VC, but the amount of money being wasted in the state\nfinancial system is much larger. Going back to the local government\ndebt burden, there’s a world where AI isn’t a big deal and there’s\na world where AI is a big deal. If we live in the world where AI truly\ncauses huge uplift to economic growth, is it possible that this problem\ndoesn’t meaningfully harm China’s ability to compete at the frontier?",
+    "speaker": "Victor Shih",
+    "claim": "The effectiveness of state-financed AI systems is questionable compared to private sector successes, which may impact China's competitiveness in AI.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI effectiveness",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "open_source",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "geopolitics"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "The effectiveness of state-financed AI systems is questionable compared to private sector successes, which may impact China's competitiveness in AI.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "open_source",
+      "geopolitics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI effectiveness",
+    "reviewed": false
+  },
+  {
+    "start": 3629.9,
+    "end": 3695.0,
+    "text": "But because they started from a pretty\nwealthy place, they can still service the debt without too much difficulty. Actually, the trade war is going to\nmake it worse for Zhejiang Province, because a lot of the manufacturing\nand export firms are also in Zhejiang. Nonetheless, the case of China is that\nthe financial system is geared toward fulfilling the priorities of the Party,\ni.e. the priorities of Xi Jinping. So, even if they can’t do anything\nelse, they will do the things that Xi Jinping wants them to do. And AI, apparently, is one of the\nhigher priorities for Xi Jinping. He’s held multiple study sessions,\nhad different Politburo meetings, and Ding Xuexiang—one of his most\ntrusted lieutenants—is in charge of it. So I do expect a fair amount of\nresources to be devoted to it, regardless of the local debt situation. In fact, at the local\nlevel, things are so bad. But they just don’t care. There are civil servants,\nteachers, who are not paid four or five months out of the year.",
+    "speaker": "Victor Shih",
+    "claim": "China's financial system prioritizes AI development under Xi Jinping despite local debt issues.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "China's financial system prioritizes AI development under Xi Jinping despite local debt issues.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": false
+  },
+  {
+    "start": 3695.8,
+    "end": 3762.0,
+    "text": "You’d think, “How can you\nrun a government like that? Wouldn’t it just collapse?” But then you have to look\nat the outside options. If you’re a teacher, a very low-level\nbureaucrat, what option do you have? Do you want to go back to\ndelivering food to people? Or would you rather at least take six\nor seven months of civil service salary? At least you have healthcare. At least you get a free lunch at\nthe workplace cafeteria every day. People still choose to work\nfor the Chinese government, even if that’s the case. A lot of the previously very\ngenerous fringe benefits and so forth, that’s all been cut down\nbecause of the local debt issue. Still, they’re pouring a lot of\nresources into national defense, into AI, into technology. What would a solution\nat this point look like? If you’ve already spent all this\nmoney… First of all, why is it the case that these investments\nactually aren’t productive? It’s not like it’s entitlement\nspending where you’re doing it for old people and at the end of the day\nyou’re not getting any return for it. Theoretically, you’re building real\nbridges, you’re building real airports.",
+    "speaker": "Victor Shih",
+    "claim": "Investments in AI and technology by the Chinese government may not be productive despite significant spending.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI investment",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "geopolitics"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "Investments in AI and technology by the Chinese government may not be productive despite significant spending.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "geopolitics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI investment",
+    "reviewed": false
+  },
+  {
+    "start": 4048.7,
+    "end": 4111.8,
+    "text": "He’s the boss of most of the\nregulators at the local level. So if he wants to do something, he\ncan cut through all of it, as long as he can benefit himself somehow. So I would say that’s the difference. Okay and what would a solution\nto this problem look like? Because if the debt is already\nover 100% of GDP, that’s tough. Of course the Chinese government\nwill never, ever in a million years do this in its current form, but it\nwould be to reduce a lot of the other unnecessary spending: national defense,\nmany of the industrial policies. And then to use the savings to\nbolster domestic demand with welfare policies and gradually decrease the\namount of local government debt. That, I think, would\nbe economically sound. China already has the\nlargest navy in the world. Why does it need a navy that's even\nbigger than the largest navy in the world? It doesn't need that.",
+    "speaker": "Victor Shih",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 5174.0,
+    "end": 5235.4,
+    "text": "3x?\n4x? 1x? I think it’s 1x or 1.2x the US economy. Even PPP? Yeah. I don’t quite believe in\nthese PPP calculations. Oh really?\nInteresting. How come? Just because the quality\nis very different. In some cases, China’s\nquality is still worse. In other cases, it’s increasingly\nbetter than the US quality. So I’m not an expert, but even\ncontrolling for inflation—so real income—I think the overall size of\nthe economy will be similar to the US, maybe slightly larger by 2040. But it’s already 1.1x or 1.2x, right? No, not as far as I know. If it’s not PPP and it’s just real income,\nI think it’s around 70% of the US economy. This is quite a bearish forecast. Usually people expect China\nto be quite dominant by 2040. Growth rates were slowing down anyway. Now you have trade pressure and so forth. It’s going to slow down.",
+    "speaker": "Victor Shih",
+    "claim": "China's economy will not surpass the US economy by 2040 and may even slow down due to various pressures.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "economy",
+    "confidence": "high",
+    "claim_labels": [
+      "geopolitics",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_economics"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "China's economy will not surpass the US economy by 2040 and may even slow down due to various pressures.",
+    "claim_labels_silver": [
+      "geopolitics",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "economy",
+    "reviewed": false
+  }
+]

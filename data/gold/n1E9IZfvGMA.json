@@ -1,0 +1,600 @@
+[
+  {
+    "start": 95.3,
+    "end": 177.5,
+    "text": "At least from the public's point of view, three \nyears ago there were well-known public trends   across many orders of magnitude of compute \nwhere you could see how the loss improves.  Now we have RL scaling and there's \nno publicly known scaling law for it.  It's not even clear what the story is.\nIs this supposed to be teaching the model skills?  Is it supposed to be teaching meta-learning?\nWhat is the scaling hypothesis at this point?  I actually have the same hypothesis \nI had even all the way back in 2017.  I think I talked about it last time, but I wrote \na doc called \"The Big Blob of Compute Hypothesis\".  It wasn't about the scaling of \nlanguage models in particular.  When I wrote it GPT-1 had just come out.\nThat was one among many things.  Back in those days there was robotics.\nPeople tried to work on reasoning as   a separate thing from language models, \nand there was scaling of the kind of RL   that happened in AlphaGo and in Dota at OpenAI.\nPeople remember StarCraft at DeepMind, AlphaStar.  It was written as a more general document.\nRich Sutton put out \"The Bitter   Lesson\" a couple years later.\nThe hypothesis is basically the same.",
+    "speaker": "Dario Amodei",
+    "claim": "The scaling hypothesis for reinforcement learning is unclear and has not been established publicly.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "Scaling Hypothesis",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The scaling hypothesis for reinforcement learning is unclear and has not been established publicly.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Scaling Hypothesis",
+    "reviewed": false
+  },
+  {
+    "start": 177.5,
+    "end": 250.9,
+    "text": "What it says is that all the cleverness, all the \ntechniques, all the \"we need a new method to do   something\", that doesn't matter very much.\nThere are only a few things that matter.  I think I listed seven of them.\nOne is how much raw compute you have.  The second is the quantity of data.\nThe third is the quality and distribution of data.  It needs to be a broad distribution.\nThe fourth is how long you train for.  The fifth is that you need an objective \nfunction that can scale to the moon.  The pre-training objective function \nis one such objective function.  Another is the RL objective \nfunction that says you have a goal,   you're going to go out and reach the goal.\nWithin that, there's objective rewards like   you see in math and coding, and there's \nmore subjective rewards like you see in   RLHF or higher-order versions of that.\nThen the sixth and seventh were things   around normalization or conditioning, \njust getting the numerical stability   so that the big blob of compute flows in this \nlaminar way instead of running into problems.",
+    "speaker": "Dario Amodei",
+    "claim": "The key factors for AI progress are raw compute, data quantity and quality, training duration, and effective objective functions, rather than new methods.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI progress factors",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The key factors for AI progress are raw compute, data quantity and quality, training duration, and effective objective functions, rather than new methods.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI progress factors",
+    "reviewed": false
+  },
+  {
+    "start": 1220.4,
+    "end": 1298.0,
+    "text": "Maybe that should dilute our estimation \nof the \"country of geniuses\".  I simultaneously agree with you that it's a \nreason why these things don't happen instantly,   but at the same time, I think \nthe effect is gonna be very fast.  You could have these two poles.\nOne is that AI is not going to make   progress. It's slow. It's going to take \nforever to diffuse within the economy.  Economic diffusion has become one of \nthese buzzwords that's a reason why   we're not going to make AI progress, \nor why AI progress doesn't matter.  The other axis is that we'll get recursive \nself-improvement, the whole thing.  Can't you just draw an \nexponential line on the curve?  We're going to have Dyson spheres around the \nsun so many nanoseconds after we get recursive.  I'm completely caricaturing the view \nhere, but there are these two extremes.  But what we've seen from the beginning, at least \nif you look within Anthropic, there's this bizarre   10x per year growth in revenue that we've seen.\nSo in 2023, it was zero to $100 million.",
+    "speaker": "Dario Amodei",
+    "claim": "AI progress could happen very quickly due to recursive self-improvement, despite some skepticism about slow economic diffusion.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI progress could happen very quickly due to recursive self-improvement, despite some skepticism about slow economic diffusion.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_race_power",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 1406.2,
+    "end": 1474.9,
+    "text": "Not instant, not slow, much faster than any \nprevious technology, but it has its limits.  When I look inside Anthropic, when I look at our \ncustomers: fast adoption, but not infinitely fast.  Can I try a hot take on you?\nYeah.  I feel like diffusion is cope that people say.\nWhen the model isn't able to do something,   they're like, \"oh, but it's a diffusion issue.\"\nBut then you should use the comparison to humans.  You would think that the inherent advantages \nthat AIs have would make diffusion a much easier   problem for new AIs getting onboarded \nthan new humans getting onboarded.  An AI can read your entire \nSlack and your drive in minutes.  They can share all the knowledge that the \nother copies of the same instance have.  You don't have this adverse selection \nproblem when you're hiring AI, so you   can just hire copies of a vetted AI model.\nHiring a human is so much more of a hassle.  People hire humans all the time.\nWe pay humans upwards of $50 trillion   in wages because they're useful, even though in \nprinciple it would be much easier to integrate   AIs into the economy than it is to hire \nhumans. The diffusion doesn't really explain.",
+    "speaker": "Dario Amodei",
+    "claim": "The diffusion of AI technology is not as straightforward as some suggest, and integrating AIs into the economy should be easier than hiring humans.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI integration",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The diffusion of AI technology is not as straightforward as some suggest, and integrating AIs into the economy should be easier than hiring humans.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI integration",
+    "reviewed": false
+  },
+  {
+    "start": 2116.1,
+    "end": 2189.8,
+    "text": "I'm sure you saw last year, there was a major \nstudy where they had experienced developers try   to close pull requests in repositories that they \nwere familiar with. Those developers reported an   uplift. They reported that they felt more \nproductive with the use of these models.  But in fact, if you look at their output \nand how much was actually merged back in,   there was a 20% downlift.\nThey were less productive   as a result of using these models.\nSo I'm trying to square the qualitative   feeling that people feel with these \nmodels versus, 1) in a macro level,   where is this renaissance of software?\nAnd then 2) when people do these independent   evaluations, why are we not seeing the \nproductivity benefits we would expect?  Within Anthropic, this is just really unambiguous.\nWe're under an incredible amount of commercial   pressure and make it even harder for ourselves \nbecause we have all this safety stuff we do that   I think we do more than other companies.\nThe pressure to survive economically   while also keeping our values is just incredible.\nWe're trying to keep this 10x revenue curve going.  There is zero time for bullshit.\nThere is zero time for feeling   like we're productive when we're not.\nThese tools make us a lot more productive.",
+    "speaker": "Dario Amodei",
+    "claim": "Current AI models may not be improving productivity as expected despite developers feeling more productive.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI productivity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models may not be improving productivity as expected despite developers feeling more productive.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI productivity",
+    "reviewed": false
+  },
+  {
+    "start": 2332.0,
+    "end": 2400.2,
+    "text": "Again, my theme in all of this is all of this \nis soft takeoff, soft, smooth exponentials,   although the exponentials are relatively steep.\nSo we're seeing this snowball gather momentum   where it's like 10%, 20%, 25%, 40%.\nAs you go, Amdahl's law, you have   to get all the things that are preventing \nyou from closing the loop out of the way.  But this is one of the biggest \npriorities within Anthropic.  Stepping back, before in the stack we were talking \nabout when do we get this on-the-job learning?  It seems like the point you were making \non the coding thing is that we actually   don't need on-the-job learning.\nYou can have tremendous productivity   improvements, you can have potentially trillions \nof dollars of revenue for AI companies, without   this basic human ability to learn on the job.\nMaybe that's not your claim, you should clarify.  But in most domains of economic activity, people \nsay, \"I hired somebody, they weren't that useful   for the first few months, and then over time \nthey built up the context, understanding.\"  It's actually hard to define \nwhat we're talking about here.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI development may not require on-the-job learning to achieve significant productivity improvements and economic impact.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI development may not require on-the-job learning to achieve significant productivity improvements and economic impact.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": false
+  },
+  {
+    "start": 2544.3,
+    "end": 2611.5,
+    "text": "I think we're working on that too.\nThere's a good chance that in the next   year or two, we also solve that.\nAgain, I think you get most   of the way there without it.\nThe trillions of dollars a year market,   maybe all of the national security implications \nand the safety implications that I wrote about in   \"Adolescence of Technology\" can happen without it.\nBut we, and I imagine others, are working on it.  There's a good chance that we will \nget there within the next year or two.  There are a bunch of ideas.\nI won't go into all of them in detail, but   one is just to make the context longer.\nThere's nothing preventing   longer contexts from working.\nYou just have to train at longer contexts   and then learn to serve them at inference.\nBoth of those are engineering problems that   we are working on and I would assume \nothers are working on them as well.  This context length increase, it seemed \nlike there was a period from 2020 to 2023   where from GPT-3 to GPT-4 Turbo, there was an \nincrease from 2000 context lengths to 128K.",
+    "speaker": "Dario Amodei",
+    "claim": "There is a good chance that significant advancements in AI will occur within the next year or two.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "There is a good chance that significant advancements in AI will occur within the next year or two.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 2921.7,
+    "end": 2991.1,
+    "text": "We know it's coming, but with the way you buy \nthese data centers, if you're off by a couple   years, that can be ruinous.\nIt is just like how I   wrote in \"Machines of Loving Grace\".\nI said I think we might get this powerful AI,   this \"country of genius in the data center\".\nThat description you gave comes   from \"Machines of Loving Grace\".\nI said we'll get that in 2026, maybe 2027. Again,   that is my hunch. I wouldn't be surprised if \nI'm off by a year or two, but that is my hunch.   Let's say that happens. That's the starting gun. \nHow long does it take to cure all the diseases?  That's one of the ways that drives a huge amount \nof economic value. You cure every disease. There's   a question of how much of that goes to the \npharmaceutical company or the AI company,   but there's an enormous consumer surplus because \n—assuming we can get access for everyone,   which I care about greatly—we cure all of \nthese diseases. How long does it take? You   have to do the biological discovery, \nyou have to manufacture the new drug,   you have to go through the regulatory process.\nWe saw this with vaccines and COVID.  We got the vaccine out to everyone, \nbut it took a year and a half.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI might arrive around 2026 or 2027, which could lead to significant economic benefits, including curing diseases.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI might arrive around 2026 or 2027, which could lead to significant economic benefits, including curing diseases.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 3344.6,
+    "end": 3418.4,
+    "text": "There isn't that much in the world.\nBut second, what if the country of   geniuses comes, but it comes in mid-2028 \ninstead of mid-2027? You go bankrupt.  So if your projection is one to three \nyears, it seems like you should want   $10 trillion of compute by 2029 at the latest?\nEven in the longest version of the timelines   you state, the compute you are ramping \nup to build doesn't seem in accordance.  What makes you think that?\nHuman wages, let's say,   are on the order of $50 trillion a year—\nSo I won't talk about Anthropic in particular,   but if you talk about the industry, the amount \nof compute the industry is building this year is   probably, call it, 10-15 gigawatts.\nIt goes up by roughly 3x a year.  So next year's 30-40 gigawatts. 2028 might be \n100 gigawatts. 2029 might be like 300 gigawatts.",
+    "speaker": "Unknown",
+    "claim": "The compute ramp-up for AI development is insufficient for the projected timelines of AGI.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The compute ramp-up for AI development is insufficient for the projected timelines of AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 4824.1,
+    "end": 4902.6,
+    "text": "So why not think there will be \nmore things like this, where   we've found more pieces of human intelligence?\nWell, to be clear, I think continual learning, as   I've said before, might not be a barrier at all.\nI think we may just get there by pre-training   generalization and RL generalization.\nI think there just   might not be such a thing at all.\nIn fact, I would point to the history   in ML of people coming up with things \nthat are barriers that end up kind of   dissolving within the big blob of compute.\nPeople talked about, \"How do your models   keep track of nouns and verbs?\" \n\"They can understand syntactically,   but they can't understand semantically?\nIt's only statistical correlations.\"   \"You can understand a paragraph, \nyou can’t understand a word.  There's reasoning, you can't do reasoning.\"\nBut then suddenly it turns out you can   do code and math very well.\nSo I think there's actually a   stronger history of some of these things seeming \nlike a big deal and then kind of dissolving. Some   of them are real. The need for data is real, \nmaybe continual learning is a real thing.",
+    "speaker": "Dario Amodei",
+    "claim": "Continual learning may not be a barrier to achieving AGI, as past perceived barriers in ML have dissolved with increased compute.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Continual learning may not be a barrier to achieving AGI, as past perceived barriers in ML have dissolved with increased compute.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 4968.9,
+    "end": 5037.7,
+    "text": "I'm sure there's some feeling of, \n\"Okay, so a podcaster wrote an essay,   and every interview I get asked about it.\"\nThe truth of the matter is that we're all   trying to figure this out together.\nThere are some ways in which I'm   able to see things that others aren't.\nThese days that probably has more to do   with seeing a bunch of stuff within Anthropic and \nhaving to make a bunch of decisions than I have   any great research insight that others don't.\nI'm running a 2,500 person company.  It's actually pretty hard for me to have concrete \nresearch insight, much harder than it would have   been 10 years ago or even two or three years ago.\nAs we go towards a world of a full drop-in   remote worker replacement, does an API \npricing model still make the most sense?  If not, what is the correct \nway to price AGI, or serve AGI?  I think there's going to be a bunch of \ndifferent business models here, all at once,   that are going to be experimented with.\nI actually do think that the API",
+    "speaker": "Dario Amodei",
+    "claim": "The future of AGI will involve various business models that need to be experimented with.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AGI business models",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The future of AGI will involve various business models that need to be experimented with.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI business models",
+    "reviewed": false
+  },
+  {
+    "start": 5664.8,
+    "end": 5736.3,
+    "text": "So I think just as anything else, it's a \nnew security landscape with a new set of   tools and a new set of vulnerabilities.\nMy worry is, if we had 100 years for this   to happen all very slowly, we'd get used to it.\nWe've gotten used to the presence of explosives   in society or the presence of various new \nweapons or the presence of video cameras.  We would get used to it over 100 years and \nwe’d develop governance mechanisms. We'd   make our mistakes. My worry is just \nthat this is happening all so fast.  So maybe we need to do our thinking faster about \nhow to make these governance mechanisms work.  It seems like in an offense-dominant world, over \nthe course of the next century—the idea is that AI   is making the progress that would happen over the \nnext century happen in some period of five to ten   years—we would still need the same mechanisms, or \nbalance of power would be similarly intractable,   even if humans were the only game in town.\nI guess we have the advice of AI.",
+    "speaker": "Dario Amodei",
+    "claim": "The rapid development of AI poses governance challenges that need to be addressed quickly.",
+    "stance": "Refute",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The rapid development of AI poses governance challenges that need to be addressed quickly.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI governance",
+    "reviewed": false
+  },
+  {
+    "start": 5736.3,
+    "end": 5808.9,
+    "text": "But it fundamentally doesn't seem like \na totally different ball game here.  If checks and balances were going to \nwork, they would work with humans as well.  If they aren't going to work, they \nwouldn't work with AIs as well.  So maybe this just dooms human \nchecks and balances as well.  Again, I think there's some \nway to make this happen.  The governments of the world may have \nto work together to make it happen.  We may have to talk to AIs about building \nsocietal structures in such a way that these   defenses are possible. I don't know. I don’t \nwant to say this is so far ahead in time,   but it’s so far ahead in technological ability \nthat may happen over a short period of time,   that it's hard for us to anticipate it in advance.\nSpeaking of governments getting involved,   on December 26, the Tennessee legislature \nintroduced a bill which said, \"It would   be an offense for a person to knowingly \ntrain artificial intelligence to provide   emotional support, including through \nopen-ended conversations with a user.\"  Of course, one of the things that Claude attempts \nto do is be a thoughtful, knowledgeable friend.",
+    "speaker": "Dario Amodei",
+    "claim": "Human checks and balances may not work with AIs, and technological advancements could happen quickly, making it hard to anticipate future developments.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Human checks and balances may not work with AIs, and technological advancements could happen quickly, making it hard to anticipate future developments.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 6104.6,
+    "end": 6191.2,
+    "text": "The people implementing it may be \nlike, \"Oh my God, this is stupid.  It would mean shutting off everything \nthat's ever been built in Tennessee.\"  Very often, laws are interpreted in a way \nthat makes them not as dangerous or harmful.  On the same side, of course, you have to worry \nif you're passing a law to stop a bad thing;   you have this problem as well.\nMy basic view is that if we could   decide what laws were passed and how things \nwere done—and we’re only one small input   into that—I would deregulate a lot of the \nstuff around the health benefits of AI.  I don't worry as much about the chatbot laws.\nI actually worry more about the drug approval   process, where I think AI models are going to \ngreatly accelerate the rate at which we discover   drugs, and the pipeline will get jammed up.\nThe pipeline will not be prepared to process   all the stuff that's going through it.\nI think reform of the regulatory process   should bias more towards the fact that we have \na lot of things coming where the safety and   efficacy is actually going to be really crisp and \nclear, a beautiful thing, and really effective.",
+    "speaker": "Dario Amodei",
+    "claim": "AI will greatly accelerate drug discovery, and regulatory processes need reform to keep up with this advancement.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI will greatly accelerate drug discovery, and regulatory processes need reform to keep up with this advancement.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI regulation",
+    "reviewed": false
+  },
+  {
+    "start": 6418.2,
+    "end": 6493.4,
+    "text": "I worry more that those \nfolks will get left behind.  And I worry that even if the cures are \ndeveloped, maybe there's someone in rural   Mississippi who doesn't get it as well.\nThat's a smaller version of the concern   we have in the developing world.\nSo the things we've been doing   are working with philanthropists.\nWe work with folks who deliver medicine and   health interventions to the developing world, \nto sub-Saharan Africa, India, Latin America,   and other developing parts of the world.\nThat's the thing I think that   won't happen on its own.\nYou mentioned export controls.   Why shouldn't the US and China both have \na \"country of geniuses in a data center\"?  Why won’t it happen or why shouldn't it happen?\nWhy shouldn't it happen.  If this does happen, we \ncould have a few situations.  If we have an offense-dominant \nsituation, we could have a situation   like nuclear weapons, but more dangerous.\nEither side could easily destroy everything.",
+    "speaker": "Dario Amodei",
+    "claim": "The development of AI could lead to dangerous situations similar to nuclear weapons if not managed properly.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AI could lead to dangerous situations similar to nuclear weapons if not managed properly.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 6716.1,
+    "end": 6820.9,
+    "text": "There's a question of getting diminishing \nreturns on their value in the world.  How much does it matter after \nyou've already solved human biology?  At some point you can do harder, more abstruse \nmath problems, but nothing after that matters.  Putting that aside, I do think the exponential \nwill continue, but there will be certain   distinguished points on the exponential.\nCompanies, individuals, and countries   will reach those points at different times.\nIn \"The Adolescence of Technology\" I talk about:   Is a nuclear deterrent still \nstable in the world of AI?  I don't know, but that's an example \nof one thing we've taken for granted.  The technology could reach such a level \nthat we can no longer be certain of it.   Think of others. There are points where if you \nreach a certain level, maybe you have offensive   cyber dominance, and every computer system \nis transparent to you after that unless the   other side has an equivalent defense.\nI don't know what the critical moment   is or if there's a single critical moment.\nBut I think there will be either a critical   moment, a small number of critical moments, \nor some critical window where AI confers   some large advantage from the perspective \nof national security, and one country or   coalition has reached it before others.\nI'm not advocating that they just say,   \"Okay, we're in charge now.\"\nThat's not how I think about it.",
+    "speaker": "Unknown",
+    "claim": "AI will reach critical moments that confer large advantages in national security, but the timing and nature of these moments are uncertain.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI and national security",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AI will reach critical moments that confer large advantages in national security, but the timing and nature of these moments are uncertain.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI and national security",
+    "reviewed": false
+  },
+  {
+    "start": 7295.0,
+    "end": 7366.4,
+    "text": "But maybe there's a middle world where there's \nan equilibrium where, if they want to hold on   to power, the authoritarians can't deny \nindividualized access to the technology.  But I actually do have a hope \nfor the more radical version.  Is it possible that the technology \nmight inherently have properties—or   that by building on it in certain ways \nwe could create properties—that have this   dissolving effect on authoritarian structures?\nNow, we hoped originally—think back to the   beginning of the Obama administration—that \nsocial media and the internet would have   that property, and it turns out not to.\nBut what if we could try again with the   knowledge of how many things could go wrong, \nand that this is a different technology?  I don't know if it would \nwork, but it's worth a try.  It's just very unpredictable. There \nare first principles reasons why   authoritarianism might be privileged.\nIt's all very unpredictable. We just   have to recognize the problem and come \nup with 10 things we can try, try those,   and then assess which ones are working, if any.\nThen try new ones if the old ones aren't working.",
+    "speaker": "Unknown",
+    "claim": "There is hope that new technology could dissolve authoritarian structures, but its effects are unpredictable.",
+    "stance": "Support",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI and authoritarianism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "There is hope that new technology could dissolve authoritarian structures, but its effects are unpredictable.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI and authoritarianism",
+    "reviewed": false
+  },
+  {
+    "start": 7651.1,
+    "end": 7731.3,
+    "text": "So just from a practical perspective, that turns \nout to be a more effective way to train the model.  That's the rules versus principles trade-off.\nThen there's another thing you're talking about,   which is the corrigibility versus \nintrinsic motivation trade-off.  How much should the model be a kind \nof \"skin suit\" where it just directly   follows the instructions given to it by \nwhoever is giving those instructions,   versus how much should the model have an inherent \nset of values and go off and do things on its own?  There I would actually say everything about \nthe model is closer to the direction that   it should mostly do what people want. \nIt should mostly follow instructions.   We're not trying to build something that \ngoes off and runs the world on its own.  We're actually pretty far on the corrigible side.\nNow, what we do say is there are certain   things that the model won't do.\nI think we say it in various ways in the   constitution, that under normal circumstances, if \nsomeone asks the model to do a task, it should do   that task. That should be the default. But if \nyou've asked it to do something dangerous, or",
+    "speaker": "Dario Amodei",
+    "claim": "The model should primarily follow human instructions rather than operate independently.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI model behavior",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The model should primarily follow human instructions rather than operate independently.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI model behavior",
+    "reviewed": false
+  },
+  {
+    "start": 7734.3,
+    "end": 7805.6,
+    "text": "to harm someone else, then the \nmodel is unwilling to do that.  So I actually think of it as a mostly \ncorrigible model that has some limits,   but those limits are based on principles.\nThen the fundamental question is,   how are those principles determined?\nThis is not a special question for Anthropic.  This would be a question for any AI company.\nBut because you have been the ones to actually   write down the principles, I \nget to ask you this question.  Normally, a constitution is written down, \nset in stone, and there's a process of   updating it and changing it and so forth.\nIn this case, it seems like a document   that people at Anthropic write, \nthat can be changed at any time,   that guides the behavior of systems that are going \nto be the basis of a lot of economic activity.  How do you think about how \nthose principles should be set?  I think there are maybe three sizes \nof loop here, three ways to iterate.  One is we iterate within Anthropic.\nWe train the model, we're not happy with it,   and we change the constitution.\nI think that's good to do.",
+    "speaker": "Dario Amodei",
+    "claim": "The principles guiding AI behavior should be adaptable and subject to change based on iterative feedback.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI principles",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The principles guiding AI behavior should be adaptable and subject to change based on iterative feedback.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI principles",
+    "reviewed": false
+  },
+  {
+    "start": 8261.1,
+    "end": 8324.4,
+    "text": "I try as much as possible, but one thing that's \nvery leveraged is making sure Anthropic is a good   place to work, people like working there, everyone \nthinks of themselves as team members, and everyone   works together instead of against each other.\nWe've seen as some of the other AI companies   have grown—without naming any names—we're starting \nto see decoherence and people fighting each other.  I would argue there was even a lot of that \nfrom the beginning, but it's gotten worse.  I think we've done an extraordinarily good \njob, even if not perfect, of holding the   company together, making everyone feel the \nmission, that we're sincere about the mission,   and that everyone has faith that everyone \nelse there is working for the right reason.  That we're a team, that people aren't trying \nto get ahead at each other's expense or   backstab each other, which again, I think \nhappens a lot at some of the other places.  How do you make that the case? \nIt's a lot of things. It's me,   it's Daniela, who runs the company \nday to day, it's the co-founders,   it's the other people we hire, it's \nthe environment we try to create.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Company Culture",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Company Culture",
+    "reviewed": false
+  }
+]

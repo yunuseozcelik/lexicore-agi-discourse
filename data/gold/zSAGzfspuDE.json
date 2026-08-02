@@ -1,0 +1,597 @@
+[
+  {
+    "start": 720.2,
+    "end": 791.8,
+    "text": "how well they're generalizing. >> You know operationalizing what do we care about in a definition of intelligence is that it like you know allows us to predict like how will the moles affect the world and what you know you know predict what will happen and know how to how to handle them well and things. Um, and so like if you just do the blackbox thing, uh, you you know, maybe that will give you something that doesn't have good generalization because you like thought that it was a measure of some type of ability, but it's actually being hacked or shortcut in in some way. So I think ideally what you'd want is like generalizing to your benchmark is like the same distance as generalizing to the real world from the training data. Um, and like that's sort of thing we thought about like when we're doing elicitation on a subset of uh the benchmark, we want that, you know, the sort of gap between that subset and the rest of the benchmark to be similar to the gap between that the rest of the benchmark and the real world. Um, and I think we're like clearly the training data is more similar to the, [sighs] you know, like time horizon um, suite than than they both are to uh, sort of randomly selected economically relevant tasks in the real world. Uh so I think we're not um you know that's a way in which we expect it to not be predictive.",
+    "speaker": "Unknown",
+    "claim": "Current AI models may not generalize well to real-world tasks due to potential shortcuts in their training.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models may not generalize well to real-world tasks due to potential shortcuts in their training.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 881.2,
+    "end": 947.8,
+    "text": "badly on it. Uh which means you you know you can't use a lot of expensive human labor. So it has to be something that's either automatically checkable or that you can like create with kind of cheap human labor. And then but once you've selected on like those things and on models being bad at it, this is now you know there's like regression to the mean type thing where it is much more likely that future progress then gives you a like big surge upwards on on that both because like you know now labs will create a bunch of bunch of synthetic data targeting your benchmark but also just because you selected this weird example where it's like easy for humans or it's automatically generatable or checkable but somehow like models aren't good at it yet or you know labs haven't started training on it yet. So I think that's part of what we were trying to do with time horizon was not do that like not adversarially select against what models can currently do because we think that will not give you a nice trend. Uh whereas if you can sort of define a distribution of tasks in some more first principles way you would be more likely to get a steady um progress because you're not getting this sort of regression to the mean effect.",
+    "speaker": "Unknown",
+    "claim": "Future progress in AI will likely lead to significant improvements in model performance due to better task selection and synthetic data generation.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Future progress in AI will likely lead to significant improvements in model performance due to better task selection and synthetic data generation.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI progress",
+    "reviewed": false
+  },
+  {
+    "start": 945.3,
+    "end": 1039.6,
+    "text": ">> Yeah. Frantois has this idea that there is a kind of there's a gap between the kind of intelligence for one of a better word that that AIs have and that humans have and we can adversarily select a bunch of tasks to kind of you know to to highlight that gap but we should talk about the timeline stuff. I think we'll come back to intelligence later. So um Dan cockatel he said that the timelines report that that you folks have created is probably the single most important piece of evidence about timelines right now. So it it should be um front and center in in policy discussions and and so on. And for listeners who have only kind of seen the chart but you know they've not really read the paper, they don't understand it. Can you just go through it from a high level? I mean it's been revised over time uh you know how did you do the task selection? You know how did you do the the human baselines? How do you do the agent harness? Like all of that kind of stuff. I guess the yeah the the place to start um for us um in terms of the motivation um for the time horizon's work um uh is to have kind of a a unified axis um that we can measure AI progress on over a very long period of time. So you know when when when we started doing the work you know we we we had this like very strong you know uh kind of uh you know belief that GPT2 is fundamentally uh you know in some really important sense like much much worse uh you know as as an AI um than uh I guess yeah at the time it was maybe summit 3.5 I think was um was was the best model out then the standard",
+    "speaker": "Unknown",
+    "claim": "The timelines report is considered the most important evidence regarding AGI timelines and should be central in policy discussions.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The timelines report is considered the most important evidence regarding AGI timelines and should be central in policy discussions.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 1749.4,
+    "end": 1846.9,
+    "text": "steps it's it's going to be harder obviously tasks that are you know strictly like compositions of like first you have to do this task, then you have to do another task. You know, it's like well that clearly is harder than just doing one of them. Um so that you know there's some sort of basic reason to expect that's reasonable and then yeah just we we see the empirical regularity but there's a bunch of degrees of freedom to fudge things. you know, I I like I think I'm worried that, you know, we could fool ourselves by changing some other parameters of of the tasks as we scale up the human time because you you can't just totally, you know, vary the human time freely like you have to change some characteristics of the task. And we tried to make the very easy tasks sort of be from roughly the same distribution and kind of sub parts of the the harder tasks like oh you know you sort of need to do this one step on the command line that you might need to do in the middle of doing some kind of software engineering or some kind of you know other other task um but you [clears throat] can't do that perfectly and it's like yeah you could have experimental bias where we sort of made them easier in other ways about the right amount such that the line would be straight um I think that is like somewhat addressed by the fact that we saw like you know that our predictions [snorts] were reasonably good for models that we hadn't seen before. There's definitely lots of room for things being being weird and of course sort of like is it a",
+    "speaker": "David Rein",
+    "claim": "Scaling up tasks in AI will introduce complexities that could lead to misleading results.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI task complexity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "Scaling up tasks in AI will introduce complexities that could lead to misleading results.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI task complexity",
+    "reviewed": false
+  },
+  {
+    "start": 1912.0,
+    "end": 2006.7,
+    "text": "So like it's always a bit of a fine line between which mode are they in. >> Yeah. So I think the reason why we chose this the the measurement being um a human who has the background expertise but is new to like this specific job or this specific task. It's like that's roughly the sort of level of knowledge we expect models to have. So that you know they sort of like know you know we basically don't expect them to be bottlenecked on expertise that is available on the public internet or you know things that people could learn in university sort of thing. So like you know they're they're coming in with probably the level of at least the level of knowledge of someone who's sort of an expert in the right discipline but they won't know that company's specific software or the you know sort of this exact problem before. So that's like hopefully it's sort of roughly the right analogy. >> You know I do think that like to the extent people like interpret the uh you know the the the kind of takeaway numbers as like oh yeah you know uh you know Opus 4.6 six can like do anything that I do in my job uh you know that takes me 12 hours or or whatever you know to the extent that people have that takeaway like I think that is you know like almost definitely um you know kind of an overestimate uh for for example because of um because of this issue um where uh yeah you know when you're doing a 12-hour task in your job you could not easily delegate that to to to a human contractor you know it would take them you know maybe like weeks or something you know to to to do a task like that >> and and just quickly where did you kind",
+    "speaker": "Unknown",
+    "claim": "Current AI models are overestimated in their capabilities compared to human expertise and task execution.",
+    "stance": "Refute",
+    "claim_labels": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are overestimated in their capabilities compared to human expertise and task execution.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 2167.9,
+    "end": 2258.2,
+    "text": ">> The other thing is we should talk about the agentic harness. So almost everyone now I'm sure everyone in the audience has like a claude code subscription. Uh we can talk about the leak maybe later as well. That's quite fun but it leaked yesterday the source code but you know or codecsex and and and that is an agentic harness right. So you know a language model just gives you the tokens but we we need to have an agentic harness so we can like you know give it a plan and you can call these tools and you've got this environment you've got a security context container. So um now you folks have been doing this for years now. So you were doing this long before claude code and codeex came out. So, and you've actually over over time evolved your agent harnesses. So, tell me about that. Yeah. So I remember uh text Dainci something the the like GB3 instruct models like copying and pasting code into the terminal for them and you know being the agent harness uh myself and and then gradually like automating this and it and it was kind of interesting to see them going from like you know GD3 sort of has the idea of like if you tell it it can run commands in a terminal sometimes it can suggest you know kind of relevant commands but it's not really you know if you just put it in a full agent scaffold just falls over then like I remember that the first time we saw uh a model like look at what processes were running and then be like oh that one's me uh was like oh that's cool they they like really failed on that one before they they used to like you know like kill their own process while they were doing other other things or something.",
+    "speaker": "Unknown",
+    "claim": "The development of agentic harnesses for language models is essential for effective AI operation.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Agentic harnesses",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The development of agentic harnesses for language models is essential for effective AI operation.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Agentic harnesses",
+    "reviewed": false
+  },
+  {
+    "start": 2349.9,
+    "end": 2445.3,
+    "text": "for example can't complete uh you know a task um given given a basic agent scaffold. Um we generally think about like needing to spend uh you know on the order of of at least like uh you know hundreds or or like you know low thousands of dollars um uh in order to be confident that it actually you know really is plateauing um and and it isn't just the case that you know it didn't it didn't have enough time to um to to complete the task. and and just just on the scaffolding stuff in a in a bit more detail. Um I suppose first of all there's the credit assignment problem, right? because you you can put all of these different bells and whistles in the scaffold like you mentioned compactation that that that's a relatively recent innovation and and and I think recently when you changed some of the um the scaffold you you kind of said okay well now the performance has actually changed across this suite of um you know model task pairs you know how how much of a difference does it make and and also what kind of failure modes do you see and what have you tried >> a lot of a lot of the things we I think we've tried are like you know related to giving the model kind of like more information or like more direct access to to to tools, I guess. Yeah. One one one thing that uh I think has been important for us um is actually just telling the agent um how much time uh it spent uh and how many tokens uh it's used out of its token budget. Um so without without that agents you know will will often just uh you know they'll they'll either like submit you know their their solution way too early um or they're just kind of not calibrated on um uh you know how how long should they",
+    "speaker": "Unknown",
+    "claim": "Current AI models struggle with task completion and require significant resources to ensure performance is reliable.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models struggle with task completion and require significant resources to ensure performance is reliable.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 2575.3,
+    "end": 2656.8,
+    "text": "Um, in general I am have a policy of be you like be very wary of complicated statistics if you can't see the thing that you're interested in on a graph like you really should if you you should be able to plot it and look at it and be like oh yeah it's about that and like you know that sort of sound it's it's it's like hard to go too far wrong when you sort of have that as a principle. So again, I'm like, yeah, I think that there are various arcane things you can do to to like fit this um pan in different ways, but the I'm like, yeah, I don't trust anything that much more than eyeballing the graph and being like, oh, well, you know, it you know, up up to here, yeah, it's basically doing all of the tasks and then at this point, you know, after here, it's really not doing very many of them, so it's somewhere [laughter] here. Um, but yeah, it it does. I mean it like looks like logistic and yeah this is what you would do uh for the like having you know having humans complete questions on an exam or something like that. The specific thing that we messed up was um having a regularization term penalizing the slope of the logistic um which didn't have an effect in the regime where it there was more data but uh as we like are starting to saturate the regularization was just like making it a bit shallower than it should have been and therefore pushing the 50%. Um so you know always look look at your data on a graph. Good good good practice.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "data visualization",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "data visualization",
+    "reviewed": false
+  },
+  {
+    "start": 2721.3,
+    "end": 2816.7,
+    "text": ">> The other million dollar question is why report 50% as the headline number because if if you think about it um if I want to write some code because like the the elephant in the room here that that we'll get to is this is being used as as an argument to say that software engineers might be unemployable soon because we can automate what they're doing. But 50% reliability isn't isn't really in the ballpark is it? I think it would need to be what like 80 90%. >> So I think we should distinguish here between um like reliability on a particular task like what you know if you attempt repeatedly attempt this task what fraction of times you succeed versus um like probability of success on a task like given that you know the the human time like you know of that distribution of tasks like can you do this particular task. So when we when we look at it actually for almost all the tasks models either succeed every time or fail every time. Um there's there's some tasks for which they're they're unreliable but it's mostly a case of like is this you know what fraction of tasks at this human time level are in the like models basic you know or this particular model basically always succeeds or basically always fails. Um and that may be more predictable in any specific case than uh just you know you have more information about the task than just uh just knowing how roughly how long it it it takes humans. So I think it's like not there's not necessarily a great translation between the you know time horizon percent number and like if you are trying to get models to do a task of roughly that length you",
+    "speaker": "Unknown",
+    "claim": "Current AI models are not reliable enough to automate software engineering tasks, as they often either succeed or fail completely rather than providing consistent performance.",
+    "stance": "Refute",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are not reliable enough to automate software engineering tasks, as they often either succeed or fail completely rather than providing consistent performance.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 3426.6,
+    "end": 3522.9,
+    "text": "So if if you're putting a task in there which is essentially a head query. So I'm using like information retrieval um language here. So you know like a headquery is it something that's you know in the mode of the distribution it's used all the time. So it's a common task. Claude code will give you the specification because it's already been stolen from other people. Not stolen but you know taken from other people and and then um if if you give it like something on the longtail then you as the developer have to give it the specification in the prompt and then again it's an automation problem. So automation is is really easy. So is is that's what's h is is that what's happening? Like do you think that the increase um in in the timelines could just be explained by the acquisition of all of this kind of knowledge from other people doing similar tasks? >> Yeah. Yeah. I mean I think I think it's a super uh a super central question for uh kind of interpreting um interpreting where where we're at. F first thing I'll say um uh uh it's it's hard to know. It's a big question. Um uh and so uh I think we we uh you know we want to kind of have a decent amount of uncertainty or or you know we want to kind of take each each individual piece of uh of of evidence that we've collected you know um as uh you know some some evidence. We do see uh models performing better on you know tasks that have uh you know uh really clear feedback signals uh that are like extremely well specified um uh uh you know that are in uh you know these these kinds of uh you know yeah domains uh like like in software engineering where um uh you know if you have written out a spec um uh you can",
+    "speaker": "David Rein",
+    "claim": "The increase in AI capabilities could be explained by the acquisition of knowledge from existing tasks and models.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "The increase in AI capabilities could be explained by the acquisition of knowledge from existing tasks and models.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 3521.0,
+    "end": 3614.0,
+    "text": "you can kind of iterate uh and and and and grind against that. We do also see models performing uh much better um on you know mess so-called like messier tasks um where we haven't already um provided uh this like really clean spec. Um so one one kind of approach we we we've we've taken for for creating tasks uh re recently um is um uh in particular yeah to kind of try and create um yeah like like messier tasks that are less well specified is um basically like uh relaxing this kind of automatic scoring constraint. Um so we don't need to like write uh you know a really clear um you know well- definfined scoring function. um uh and just you know writing a couple sentences uh to to to a model you know hey like you know build this like large piece of of software I'm not going to tell you exactly what I'm looking for um but I'm going to say uh you know it it needs to be it needs to be good you know um and so and so the model needs to kind of figure out like what actually should I build at least me me personally I think we don't we don't have um these results aren't like kind of um collected and and like um like we don't have kind of as as systematic uh results as we do compared to like uh like time horizon partially because you know scoring is is is is qualitative now um for for these tasks. But my my impression is that you know models are are worse on these types of tasks than they are you know when you give them a clean spec but they they have been improving at at maybe something like a kind of similar rate. I",
+    "speaker": "Unknown",
+    "claim": "Models perform worse on messier tasks compared to well-defined tasks, but they are improving at a similar rate.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Models perform worse on messier tasks compared to well-defined tasks, but they are improving at a similar rate.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 3797.5,
+    "end": 3893.0,
+    "text": "means that it'll be bad for AIs to read and use and and and and build on. I mean, I think I think there are definitely uh you know, kind of principles um that you know, you you like will also transfer or like you know, will be useful for models. you know, obviously, you know, there's there's some kind of horrendous spaghetti code that uh you know, you you you can imagine writing that not even models would be able to um to to read. You know, I've I've written some of that before. But um [laughter] I think there's um uh there may this gets again at kind of this um uh what what what it it seems like maybe um uh you know somewhat different different perspective uh between us around kind of um you know do you know is the important thing that models are kind of solving problems in the way that people are solving them or is the important thing that they're kind of solving solving them at all and I think I you know I do think it is I I'm not I I don't want to make a I I don't want to overclaim or like yeah I I do feel like you know it might be really important for models to get way better at like writing clean you know good code that that that that seems pretty pretty plausible to me but um it doesn't seem uh uh I'm not certain of that at the very least >> um I've got several friends who are not technical who are experimenting with vibe coding and they they show me their application and it's this kind of more with more things. So there's this big dashboard and there's a million different buttons and you know implement implemented the same thing doing multiple things and you know that there's no database on there yet and so on. So at at some point you know this there is a phenomenon that um when a level seven engineer from meta does vibe",
+    "speaker": "Unknown",
+    "claim": "Models need to improve at writing clean code to be effective, but there is uncertainty about this importance.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Models need to improve at writing clean code to be effective, but there is uncertainty about this importance.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 4160.2,
+    "end": 4257.4,
+    "text": "it's like it's 1% chance that you have this you know terminal illness or something you're still like oh Um, so I yeah, I think we're interested in like the whole distribution of like what things can we rule in and what things can we rule out and what things are we like oh actually you know there's a kind of reasonable story for this. It seems like probably you know pretty unlikely but like maybe this is now in the realm of like we should consider it. You probably saw the uh the Carlini paper for is anthropic now and they got um a swarm of agents to create a compiler and uh in a sense I mean Jeremy Howard when I spoke to him he said it's basically a style transfer problem because the specification is online and and the tests are online and the code is online and it could just iteratively just do the thing and until it worked and then it could run Doom and all this kind of stuff. But that that is an example of um an extremely complicated piece of software cuz I often joke to people that you know the the best mark of um AGI is when it could build something like the Linux operating system. And I I guess just like in line of what we were saying before, we have this specification problem, right? So it gets to the point where no human could understand or create the specification for the Linux operating system. So what happens is over time we've we've just kind of incrementally built this thing because you know our brains are limited. We we take one step you know reality pushes back. We take one step and and we just keep going and and we build the the specification. But what would it mean to as a human specify a task that could take 4 months because the whole reason",
+    "speaker": "Unknown",
+    "claim": "AGI may be possible but is currently unlikely and requires complex specifications.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AGI may be possible but is currently unlikely and requires complex specifications.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 4322.5,
+    "end": 4401.2,
+    "text": "And so you know there's there's at least kind of uh this is to some extent like uh you know um you know uh you know we do have examples of people being able to kind of specify um you know some some task and then uh be able to judge you know whether um you know um uh you know this this very large you know task that may may take like you know hundreds uh or or thousands of person years uh to to actually complete because it requires like many people working over over a long time you know and you and and they can judge whether it uh you know they've they've succeeded or failed. So that's maybe like one kind of like motivating intuition um where like it's it's um you know lang like language uh you know has built in or or like you know we do we do have like kind of uh you know um you know and there there is kind of enough meaning or or expressivity or something um to be able to kind of have some some kind of reasonable um understanding. Um, obviously there are like uh you know there like tons of edge cases and um uh you know you know often you know CEOs aren't able to get you know their companies to do what they what they want. Um uh uh but yeah, I guess that's one one one thing I think about and and so that's why I think it's at least plausible that AIs could um could could could do these kinds of long tasks.",
+    "speaker": "David Rein",
+    "claim": "AI could plausibly perform long tasks that typically require many people over a long time.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "AI could plausibly perform long tasks that typically require many people over a long time.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 4657.4,
+    "end": 4738.6,
+    "text": "about like what if you know what if that's true what happens if that's true um you know and it's also plausible that it it doesn't and you know these these things are going to like uh diverge you know I I am pretty sort of like Beijian or pragmatic or whatever I'm like well we want to make a some prediction and you know want to have some kind of distribution over what we think the future is going to be like so that we can plan. Um so you know it being like yeah what if this kind of trend holds and this is roughly characterizing what will happen overall is it seems pretty reasonable and you should also think like yeah what if it doesn't >> so some people are saying that software engineering is going to be automated and software engineers if you talk to them they they love AI um they they say this is a golden era I mean I can attest to this personally it it's never been well it's fun and stressful at the same time it's like a slot machine I've never being more burned out, but I'm having a lot of fun in the process. But um you know, it's just possible to build incredible things, but the narrative is that labor market disruption um having expertise in software engineering will be penalized. You know, software engineers will no longer be paid such ridiculous salaries. And and I think the complete opposite is true. I I think that this technology um actually broadens the gap. So the more competence you have with software engineering, the more stuff you can get done. It's it's like a golden era and and all of this.",
+    "speaker": "David Rein",
+    "claim": "The arrival of AI technology will enhance the value of software engineering skills rather than diminish them.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "The arrival of AI technology will enhance the value of software engineering skills rather than diminish them.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI economics",
+    "reviewed": false
+  },
+  {
+    "start": 4736.2,
+    "end": 4831.0,
+    "text": "And um there's also this interesting um note that you published I think last month on SWE um bench you know that said that roughly half of the testing PRs from recent agents wouldn't be merged by maintainers. So like how do we make sense of this? So you know on the one hand you know the the best software engineers are having a great time on on the other hand the code it's producing is is is fractionated and and bad. I mean how do we understand this? >> Yeah. So I mean one one thing to say um off the bat is um uh you know whether you know an entire like field is automated um or or like in order for software engineering to be uh you know automated um uh you know AI systems need to be able would need to be able to do um uh you know an ex you know a really really large fraction of the tasks basically like a 100% of of the tasks uh that are involved in software engineering. Um and uh you know seems like pretty clear that like right now uh AI systems cannot do close to 100% of the tasks that that software engineers do broadly right um you know you know I could throw out numbers but it's like it's way way lower um you know it might be it might be very low or something you know there there is kind there there are kind of like standard results in in in economics where um you know if you make um you know as as you if you automate like a small fraction of uh some uh some labor market then it can be the case that um that actually uh yeah it becomes more profitable to um to to to work in",
+    "speaker": "David Rein",
+    "claim": "AI systems currently cannot automate a significant portion of software engineering tasks, indicating AGI is far off.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems currently cannot automate a significant portion of software engineering tasks, indicating AGI is far off.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 5889.7,
+    "end": 5983.7,
+    "text": ">> Yeah, I guess I'm I'm trying to understand the distinction. So so you're saying like there are examples you know like the boat going around and and that's obviously degenerate behavior. So you you wouldn't interpret that with an aential stance. you would just say that's degeneracy and when the when the sophistication increases we might adopt an agential stance and say oh it's in service of of some bigger goal but like I guess the problem I have is is it is it always just an interpretation like could could we have a mechanistic or like a strong definition of when something is like being an agent >> like for the specific question that we're discussing the the test is like what does it actually do in some circum circumstance where it has the opportunity to to achieve this this long run goal. So like you you can we might not be able to actually observe this but you can talk about like what observations would would make it one or the other. So so you know like will this agent in practice when it has some opportunity to you make the reward go up will it do that? Will it will it only do that? You know, if the agent is more sort of like the RL algorithm, it'll be like, oh, it will do that once it's like explored it by chance and gotten a reward and, you know, that that's been reinforced. If it's like an agent that, you know, can reason about the world and planning, it'll be like, okay, it will do that once it like, you know, learns the learns about the facts about the environment that let it sort of infer that. Um and then or you know if it's we're talking about some like long run goal it's like it would you know do it",
+    "speaker": "Unknown",
+    "claim": "The nature of agency in AI can be defined by its ability to achieve long-term goals based on its understanding of the environment.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Nature of agency",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The nature of agency in AI can be defined by its ability to achieve long-term goals based on its understanding of the environment.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Nature of agency",
+    "reviewed": false
+  },
+  {
+    "start": 6209.6,
+    "end": 6277.8,
+    "text": "Um, and then you're, you know, maybe some other piece would be like, oh yeah, models are kind of superhuman at predicting the results of experiments because they've read so many papers and predicting experiments and sort of synthesizing things from different fields. And again, maybe this is something like, you know, it's possible that we're not seeing that good performance here just because we haven't quite elicited the models to do it. and it's like not a thing that they've seen humans do, but they actually sort of have the capability in there. Um uh yeah, so maybe you can make much faster progress if you can you can do a bunch of iteration. You don't actually have to run the experiments then, you know, models are much better at predicting what will and won't work. And then you can when you do run experiments, you can sort of uh run a bunch more of them because you can optimize the code with your like, you know, very fast coding models. Um, you know, and then you sort of like as you do a few mount more rounds of this, you get to a point where train on a bunch more things that are good high quality task proxies for what you want and you get enough generalization to the things that you can't um directly train against.",
+    "speaker": "Unknown",
+    "claim": "Models have superhuman capabilities in predicting experimental results and can optimize the process of experimentation.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Models have superhuman capabilities in predicting experimental results and can optimize the process of experimentation.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 6275.9,
+    "end": 6347.2,
+    "text": ">> I I think intelligence is is not capability. I think it's the capability to acquire capabilities. I mean, we are in different parts of the phlogenetic tree, I guess, in in in that in that respect. But what what do you what do you think is the kind of the the the gap in in my interpretation, you know, because I'm I'm not I'm personally not worried about I I don't think the models today are intelligent at all. I mean, obviously your your position is difficult for for me to grasp, but I don't know what what's what's the difference, do you think? Maybe at least some of it is just this like probabilistic thinking about the world where like I'm not that you know I'm like uncertain about what intelligence is and I have enough probability on like you know models have it to to be thinking about like what would happen if you know if that's true. Um but you you know it seems like you clearly think it's more likely than than I do so that that you know we could just talk about that difference. Um yeah, like moles have this jagged frontier. There are things that they are much worse at than humans, you know, some kind of like generalization and and uh sample efficiency.",
+    "speaker": "Unknown",
+    "claim": "The speaker believes that current AI models are not intelligent and expresses uncertainty about the nature of intelligence.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Nature of Intelligence",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The speaker believes that current AI models are not intelligent and expresses uncertainty about the nature of intelligence.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Nature of Intelligence",
+    "reviewed": false
+  },
+  {
+    "start": 6529.0,
+    "end": 6622.9,
+    "text": "know that's sort of not fundamentally that hard or or something like I agree that if you had you know current models and you sort of give them one system prompt you you then can't plug them into being a a call center worker and dealing with the sort of like all of the the edge cases that come up. I think may maybe there's some difference in like how much you've you think that this has improved between like GBD2 and where we are now where I would say sort of in you know the amount of adapting to new things that are happening that models could do now does seem like it's much higher and you know they're much better at like editing their own scaffolding or or you know sort of reasoning about their like you know their sort of embodiment like this thing of like knowing not to kill your own process or know like um you know stuff stuff like that where it's like there is like yes they are limited but there's also uh some some trend of improvement and yes it's I think just also having some probability on there is kind of elicitation gap on on particular things and that maybe a lot of taste is basically just like being able to predict the results of experiments you know you think think about all of the things that you would try and then you can quickly be like oh that wouldn't work for this reason that wouldn't work for that reason that wouldn't work for that reason oh actually you know someone in some some literature in some different field also tried that and that you know so we already know that won't work like in some sense models like should be quite good at that so it's plausible to me that that again I'm like",
+    "speaker": "Unknown",
+    "claim": "Current AI models are improving in their ability to adapt and reason, suggesting a trend towards better performance.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are improving in their ability to adapt and reason, suggesting a trend towards better performance.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  }
+]

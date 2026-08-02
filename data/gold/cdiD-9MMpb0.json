@@ -1,0 +1,605 @@
+[
+  {
+    "start": 183.1,
+    "end": 370.6,
+    "text": "prompts from your own memory inside your head automatically feels like you're referencing some kind of a declarative structure of like memory and so on and then uh you're putting that together with your prompt and giving away some messages like how much of what you just said has been said by you before uh nothing basically right no but if you actually look at all the words you've ever said in your life and you do a search you'll probably said a lot of the same words in the same order before yeah it could be I mean I'm using phrases that are common Etc but I'm remixing it into a pretty uh sort of unique sentence at the end of the day but you're right definitely there's like a ton of remixing what you didn't you it's like Magnus Carlsen said uh I'm I'm rated 2900 whatever which is pretty decent I think you're talking very uh you're not giving enough credit to neural Nets here why do they seem to what's your best intuition about this emergent Behavior I mean it's kind of interesting because I'm simultaneously underselling them but I also feel like there's an element to which I'm over like it's actually kind of incredible that you can get so much emergent magical Behavior out of them despite them being so simple mathematically so I think those are kind of like two surprising statements that are kind of just juxtapose together and I think basically what it is is we are actually fairly good at optimizing these neural Nets and when you give them a hard enough problem they are forced to learn very interesting Solutions in the optimization and those solution basically have these immersion properties that are very interesting there's wisdom and knowledge in the knobs and so what's this representation that's in the knobs does it make sense to you intuitively the large number of knobs can hold the representation that captures some deep wisdom about the data it has looked at it's a lot of knobs it's a lot of knobs and somehow you know so speaking concretely um one of the neural Nets that people are very excited about right now are are gpts which are basically just next word prediction networks so you consume a sequence of words from the internet and you try to predict the next word and uh once you train these on a large enough data set um they you can basically uh prompt these neural amounts in arbitrary ways and you can ask them to solve problems and they will so you can just tell them you can you can make it look like you're trying to um solve some kind of a mathematical problem and they will continue what they think is the solution based on what they've seen on the internet and very often those Solutions look very remarkably consistent look correct potentially do you still think about the brain side of it so as neural Nets is an abstraction or mathematical abstraction of the brain you still draw wisdom from from the biological neural networks or even the bigger question so you're a big fan of biology and biological computation what impressive thing is biology do doing to you that computers are not yet",
+    "speaker": "Andrej Karpathy",
+    "claim": "Neural networks exhibit emergent behavior and can solve complex problems through optimization, despite their mathematical simplicity.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "Neural Networks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Neural networks exhibit emergent behavior and can solve complex problems through optimization, despite their mathematical simplicity.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Neural Networks",
+    "reviewed": false
+  },
+  {
+    "start": 2309.0,
+    "end": 2494.1,
+    "text": "connections support a kind of ability to learn short algorithms fast them first and then gradually extend them longer during training yeah what's what's the idea of learning short algorithms right think of it as a so basically a Transformer is a series of uh blocks right and these blocks have attention and a little multi-layer perceptron and so you you go off into a block and you come back to this residual pathway and then you go off and you come back and then you have a number of layers arranged sequentially and so the way to look at it I think is because of the residual pathway in the backward path the gradients uh sort of flow along it uninterrupted because addition distributes the gradient equally to all of its branches so the gradient from the supervision at the top uh just floats directly to the first layer and the all the residual connections are arranged so that in the beginning during initialization they contribute nothing to the residual pathway um so what it kind of looks like is imagine the Transformer is kind of like a uh python uh function like a death and um you get to do various kinds of like lines of code say you have a hundred layers deep Transformer typically they would be much shorter say 20. so if 20 lines of code then you can do something in them and so think of during the optimization basically what it looks like is first you optimize the first line of code and then the second line of code can kick in and the third line of code can and I kind of feel like because of the residual pathway and the Dynamics of the optimization you can sort of learn a very short algorithm that gets the approximate tensor but then the other layers can sort of kick in and start to create a contribution and at the end of it you're you're optimizing over an algorithm that is 20 lines of code except these lines of code are very complex because it's an entire block of a transformer you can do a lot in there what's really interesting is that this Transformer architecture actually has been a remarkably resilient basically the Transformer that came out in 2016 is the Transformer you would use today except you reshuffle some of the layer norms the layer normalizations have been reshuffled to a pre-norm formulation and so it's been remarkably stable but there's a lot of bells and whistles that people have attached on and try to uh improve it I do think that basically it's a it's a big step in simultaneously optimizing for lots of properties of a desirable neural network architecture and I think people have been trying to change it but it's proven remarkably resilient but I do think that there should be even better architectures potentially but it's uh your you admire the resilience here yeah there's something profound about this architecture that that at least so maybe we can everything can be turned into a uh into a problem that Transformers can solve currently definitely looks like the Transformers taking over Ai and you can feed basically arbitrary problems into it and it's a general differentiable computer and it's extremely powerful and uh this convergence in AI has been really interesting to watch uh for me personally what else do you think could be discovered here about Transformers like what's surprising thing or or is it a stable um I went to stable place is there something interesting we might discover about Transformers like aha moments maybe has to do with memory uh maybe knowledge representation that kind of stuff definitely the Zeitgeist today is just pushing like basically right now this ad",
+    "speaker": "Andrej Karpathy",
+    "claim": "Transformers are a resilient architecture that can solve a wide range of problems and may lead to further discoveries in AI.",
+    "stance": "Support",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "Transformer architecture",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Transformers are a resilient architecture that can solve a wide range of problems and may lead to further discoveries in AI.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Transformer architecture",
+    "reviewed": false
+  },
+  {
+    "start": 2492.8,
+    "end": 2678.1,
+    "text": "guys is do not touch the Transformer touch everything else yes so people are scaling up the data sets making them much much bigger they're working on the evaluation making the evaluation much much bigger and uh um they're basically keeping the architecture unchanged and that's how we've um that's the last five years of progress in AI kind of what do you think about one flavor of it which is language models have you been surprised uh has your sort of imagination been captivated by you mentioned GPT and all the bigger and bigger and bigger language models and uh what are the limits of those models do you think so just let the task of natural language basically the way GPT is trained right is you just download a mass amount of text Data from the internet and you try to predict the next word in a sequence roughly speaking you're predicting will work chunks but uh roughly speaking that's it and what's been really interesting to watch is uh basically it's a language model language models have actually existed for a very long time um there's papers on language modeling from 2003 even earlier can you explain that case what a language model is uh yeah so language model just basically the rough idea is um just predicting the next word in a sequence roughly speaking uh so there's a paper from for example bengio and the team from 2003 where for the first time they were using a neural network to take say like three or five words and predict the um next word and they're doing this on much smaller data sets and the neural net is not a Transformer it's a multiple error perceptron but but it's the first time that a neural network has been applied in that setting but even before neural networks there were language models except they were using engram models so engram models are just a count based models so um if you try to if you start to take two words and predict the third one you just count up how many times you've seen any two word combinations and what came next and what you predict that's coming next is just what you've seen the most of in the training set and so language modeling has been around for a long time neural networks have done language modeling for a long time so really what's new or interesting or exciting is just realizing that when you scale it up with a powerful enough neural net Transformer you have all these emergent properties where basically what happens is if you have a large enough data set of text you are in the task of predicting the next word you are multitasking a huge amount of different kinds of problems you are multitasking understanding of you know chemistry physics human nature lots of things are sort of clustered in that objective it's a very simple objective but actually you have to understand a lot about the world to make that prediction you just said the U word understanding uh are you in terms of chemistry and physics and so on what do you feel like it's doing is it searching for the right context uh in in like what what is it what is the actual process Happening Here Yeah so basically it gets a thousand words and it's trying to predict a thousand at",
+    "speaker": "Andrej Karpathy",
+    "claim": "Language models have existed for a long time and have evolved significantly with the introduction of neural networks and Transformers, leading to emergent properties when scaled up.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Language models have existed for a long time and have evolved significantly with the introduction of neural networks and Transformers, leading to emergent properties when scaled up.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 2860.0,
+    "end": 3044.3,
+    "text": "these models because um so as you mentioned I was at open AI I was working on this project world of bits and basically it was the idea of giving neural networks access to a keyboard and a mouse and the idea could possibly go wrong so basically you um you perceive the input of the screen pixels and basically the state of the computer is sort of visualized for human consumption in images of the web browser and stuff like that and then you give the neural network the ability to press keyboards and use the mouse and we're trying to get it to for example complete bookings and you know interact with user interfaces and um what did you learn from that experience like what was some fun stuff this is super cool idea yeah I mean it's like uh yeah I mean the the step between Observer to actor yeah is a super fascinating step yeah well the universal interface in the digital realm I would say and there's a universal interface in like the Physical Realm which in my mind is a humanoid form factor kind of thing we can later talk about Optimus and so on but I feel like there's a they're kind of like a similar philosophy in some way where the human the world the physical world is designed for the human form and the digital world is designed for the human form of seeing the screen and using keyword keyboard and mouse and so as the universal interface that can basically uh command the digital infrastructure we've built up for ourselves and so it feels like a very powerful interface to to command and to build on top of now to your question as to like what I learned from that it's interesting because the world of bits was basically uh too early I think at open AI at the time this is around 2015 or so and the Zeitgeist at that time was very different in AI from the Zeitgeist today at the time everyone was super excited about reinforcement learning from scratch this is the time of the Atari paper where uh neural networks were playing Atari games and beating humans in some cases uh alphago and so on so everyone's very excited about train training neural networks from scratch using reinforcement learning um directly it turns out that reinforcement learning is extremely inefficient way of training neural networks because you're taking all these actions and all these observations and you get some sparse rewards once in a while so you do all this stuff based on all these inputs and once in a while you're like told you did a good thing you did a bad thing and it's just an extremely hard problem you can't learn from that you can burn forest and you can sort of Brute Force through it and we saw that I think with uh you know with uh go and DOTA and so on and it does work but it's extremely inefficient uh and not how you want to approach problems uh practically speaking and so that's the approach that at the time we also took to World of bits we would uh have an agent initialize randomly so with keyboard mash and mouse mash and try to make a booking and it's just like revealed the insanity of that approach very quickly where you have to stumble by the correct booking in order to get a reward of you did it correctly and you're never going to stumble by it by chance at random so even with a simple web interface there's too many options there's just too many options uh and uh it's two sparse of reward signal and you're",
+    "speaker": "Andrej Karpathy",
+    "claim": "Reinforcement learning is an inefficient way of training neural networks, especially for practical applications.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Reinforcement Learning",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Reinforcement learning is an inefficient way of training neural networks, especially for practical applications.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Reinforcement Learning",
+    "reviewed": false
+  },
+  {
+    "start": 3408.8,
+    "end": 3595.1,
+    "text": "so it seems like what I would infer from that uh is it seems like a hard problem it they're probably catching all right if I were to sort of steal them on the case it's a hard problem and there's a huge cost to uh false positive to to removing a post by somebody that's not a bot because creates a very bad user experience so they're very cautious about removing so maybe it's uh and maybe the boss are really good at learning what gets removed and not such that they can stay ahead of the removal process very quickly my impression of it honestly is there's a lot of blowing for it I mean yeah just that's what I it's not subtle it's my impression of it it's not so but you have to yeah that's my impression as well but it feels like maybe you're seeing the the tip of the iceberg maybe the number of bots is in like the trillions and you have to like just it's a constant assault of bots and yeah you yeah I don't know um you have to still man the case because the boss I'm seeing are pretty like obvious I could write a few lines of code that catch these Bots I mean definitely there's a lot of longing fruit but I will say I agree that if you are a sophisticated actor you could probably create a pretty good bot right now um you know using tools like gpts because it's a language model you can generate faces that look quite good now uh and you can do this at scale and so I think um yeah it's quite plausible and it's going to be hard to defend there was a Google engineer that claimed that the Lambda was sentient do you think there's any inkling of Truth to what he felt and more importantly to me at least do you think language models will achieve sentence or the illusion of sentience soonish fish yeah to me it's a little bit of a canary Nicole mine kind of moment honestly a little bit because uh so this engineer spoke to like a chatbot at Google and uh became convinced that uh this bot is sentient yeah as there's some existential philosophical questions and it gave like reasonable answers and looked real and uh and so on so to me it's a uh he was he was uh he wasn't sufficiently trying to stress the system I think and uh exposing the truth of it as it is today um but uh I think this will be increasingly harder over time uh so uh yeah I think more and more people will basically uh become um yeah I think more and more there will be more people like that over time as this gets better like form an emotional connection to to an AI yeah perfectly plausible in my mind I think these AIS are actually quite good at human human connection human emotion a ton of text on the Internet is about humans and connection and love and so on so I think they have a very good understanding in some in some sense of of how people speak to each other about this and um they're very capable of creating a lot",
+    "speaker": "Andrej Karpathy",
+    "claim": "Language models will increasingly create the illusion of sentience and emotional connection, making it harder to distinguish them from humans.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Language models will increasingly create the illusion of sentience and emotional connection, making it harder to distinguish them from humans.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 3592.4,
+    "end": 3776.9,
+    "text": "of that kind of text the um there's a lot of like sci-fi from 50s and 60s that imagined AIS in a very different way they are calculating cold vulcan-like machines that's not what we're getting today we're getting pretty emotional AIS that actually uh are very competent and capable of generating you know possible sounding text with respect to all of these topics see I'm really hopeful about AI systems that are like companions that help you grow develop as a human being help you maximize long-term happiness but I'm also very worried about AI systems that figure out from the internet the humans get attracted to drama and so these would just be like shit talking AIS that's just constantly did you hear like they'll do gossip they'll do uh they'll try to plant seeds of Suspicion to like other humans that you love and trust and just kind of mess with people uh in the you know because because that's going to get a lot of attention so drama maximize drama on the path to maximizing uh engagement and US humans will feed into that machine yeah and get it'll be a giant drama shitstorm so I'm worried about that so it's the objective function really defines the way that human civilization progresses with AIS in it yeah I think right now at least today they are not sort of it's not correct to really think of them as goal seeking agents that want to do something they have no long-term memory or anything they it's literally a good approximation of it is you get a thousand words and you're trying to predict a thousand at first and then you continue feeding it in and you are free to prompt it in whatever way you want so in text so you say okay you are a psychologist and you are very good and you love humans and here's a conversation between you and another human human colon Something you something and then it just continues the pattern and suddenly you're having a conversation with a fake psychologist who's not trying to help you and so it's still kind of like in a realm of a tool it is a um people can prompt their arbitrary ways and it can create really incredible text but it doesn't have long-term goals over long periods of time it doesn't try to uh so it doesn't look that way right now yeah but you can do short-term goals that have long-term effects so if my prompting short-term goal is to get Andre capacity to respond to me on Twitter when I like I think AI might that's the goal but he might figure out that talking shit to you it would be the best in a highly sophisticating interesting way and then you build up a relationship when you respond once and then it like over time it gets to not be sophisticated and just like just talk shit and okay maybe you won't get to Andre but it might get to another celebrity it might get into other big accounts and then it'll just so with just that simple goal get them to respond yeah maximize the probability of actual response yeah I mean you could prompt a uh powerful model like this with their its opinion",
+    "speaker": "Unknown",
+    "claim": "AI systems today are not goal-seeking agents and can lead to negative social dynamics.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems today are not goal-seeking agents and can lead to negative social dynamics.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 4506.2,
+    "end": 4694.0,
+    "text": "was solving of course is how do you how do you arrive at that ground truth because once you have a million of it and it's large clean and diverse then training a neural network on it works extremely well and you can ship that into the car and uh so there's many mechanisms by which we collected that training data you can always go for human annotation you can go for simulation as a source of ground truth you can also go for what we call the offline tracker um that we've spoken about at the AI day and so on which is basically an automatic reconstruction process for taking those videos and recovering the three-dimensional sort of reality of what was around that car so basically think of doing like a three-dimensional reconstruction as an offline thing and then understanding that okay there's 10 seconds of video this is what we saw and therefore here's all the lane last cars and so on and then once you have that annotation you can train your neural Nets to imitate it and how difficult is the reconstruct the 3D reconstruction it's difficult but it can be done so there's so the there's overlap between the cameras and you do the Reconstruction and there's uh perhaps if there's any inaccuracy so that's caught in The annotation step uh yes the nice thing about The annotation is that it is fully offline you have infinite time you have a chunk of one minute and you're trying to just offline in a super computer somewhere figure out where were the positions of all the cars all the people and you have your full one minute of video from all the Angles and you can run all the neural Nets you want and they can be very efficient massive neural Nets there can be neural Nets that can't even run in the car later at this time so they can be even more powerful neurons than what you can eventually deploy so you can do anything you want three-dimensional reconstruction neural Nets uh anything you want just to recover that truth and then you supervise that truth what have you learned you said no mistakes about humans doing annotation because I assume humans are uh there's like a range of things they're good at in terms of clicking stuff on screen it's not how interesting is that to you of a problem of designing an annotator where humans are accurate enjoy it like what are they even the metrics are efficient or productive all that kind of stuff yeah so uh I grew The annotation team at Tesla from basically zero to a thousand uh while I was there that was really interesting you know my background is a PhD student researcher so growing that common organization was pretty crazy uh but uh yeah I think it's extremely interesting and part of the design process very much behind the autopilot as to where you use humans humans are very good at certain kinds of annotations they're very good for example at two-dimensional annotations of images they're not good at annotating uh cars over time in three-dimensional space very very hard and so that's why we were very careful to design the tasks that are easy to do for humans versus things that should be left to the offline tracker like maybe the maybe the computer will do all the triangulation and 3D reconstruction but the human will say exactly these pixels of the image are car exactly these pixels are human and so co-designing the the data annotation pipeline was very much bread and butter was what I was doing daily do you think there's still a lot of open problems in that space um just in general annotation where the",
+    "speaker": "Andrej Karpathy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "data annotation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "data annotation",
+    "reviewed": false
+  },
+  {
+    "start": 5242.4,
+    "end": 5426.5,
+    "text": "get a sense of it you have an intuition for it I think numbers just like have a way of numbers and plots and graphs are you know much harder yeah it hides a lot of it's like if you train a language model it's a really powerful way is by you interacting with it yeah 100 try to build up an intuition yeah I think like Elon also like he always wanted to drive the system himself he drives a lot and uh I'm gonna say almost daily so uh he also sees this as a source of Truth you driving the system uh and it performing and yeah so what do you think tough questions here uh so Tesla last year removed radar from um from the sensor suite and now just announced that it's going to remove all ultrasonic sensors relying solely on Vision so camera only does that make the perception problem harder or easier I would almost reframe the question in some way so the thing is basically you would think that additional sensors by the way can I just interrupt good I wonder if a language model will ever do that if you prompt it let me reframe your question that would be epic this is the wrong problem sorry it's like a little bit of a wrong question because basically you would think that these sensors are an asset to you yeah but if you fully consider the entire product in its entirety these sensors are actually potentially reliability because these sensors aren't free they don't just appear on your car you need something you need to have an entire supply chain you have people procuring it there can be problems with them they may need replacement they are part of the manufacturing process they can hold back the line in production you need to Source them you need to maintain them you have to have teams that write the firmware all of it and then you also have to incorporate and fuse them into the system in some way and so it actually like bloats the organ the a lot of it and I think Elon is really good at simplify simplified best part is no part and he always tries to throw away things that are not essential because he understands the entropy in organizations and approach and I think uh in this case the cost is high and you're not potentially seeing it if you're just a computer vision engineer and I'm just trying to improve my network and you know is it more useful or less useful how useful is it and the thing is if once you consider the full cost of a sensor it actually is potentially a liability and you need to be really sure that it's giving you extremely useful information in this case we looked at using it or not using it and the Delta was not massive and so it's not useful is it also blow in the data engine like having more sensors is a distraction and these sensors you know they can change over time for example you can have one type of say radar you can have other type of radar they change over time I suddenly need to worry about it now suddenly you have a column in your sqlite telling you oh which sensor type was it and they all have different distributions and then uh they can they just they contribute noise and entropy into everything and they bloat stuff and also organizationally has been really fascinating to me that it can be very distracting um if you if all if you only want to get to work is Vision all the resources are",
+    "speaker": "Andrej Karpathy",
+    "claim": "Relying solely on vision for perception in Tesla's systems may simplify the process and reduce distractions from additional sensors.",
+    "stance": "Support",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI perception",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Relying solely on vision for perception in Tesla's systems may simplify the process and reduce distractions from additional sensors.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI perception",
+    "reviewed": false
+  },
+  {
+    "start": 5794.0,
+    "end": 5978.3,
+    "text": "scene with the AI and Cooper talking saying uh Cooper what are you doing docking it's not possible no it's necessary such a good line by the way just so many questions there why in AI in that scene presumably is supposed to be able to compute a lot more than the human is saying it's not optimal why the human I mean that's a movie but shouldn't they AI know much better than the human anyway uh what do you think is the value of setting seemingly impossible goals so like uh our initial intuition which seems like something that you have taken on that Elon espouses that where the initial intuition of the community might say this is very difficult and then you take it on anyway with a crazy deadline you're just from a human engineering perspective um uh have you seen the value of that I wouldn't say that setting impossible goals exactly is is a good idea but I think setting very ambitious goals is a good idea I think there's a what I call sublinear scaling of difficulty uh which means that 10x problems are not 10x hard usually 10x 10x harder problem is like 2 or 3x harder to execute on because if you want to actually like if you want to improve the system by 10 it costs some amount of work and if you want to 10x improve the system it doesn't cost you know 100x amount of the work and it's because you fundamentally change the approach and it if you start with that constraint then some approaches are obviously dumb and not going to work and it forces you to reevaluate um and I think it's a very interesting way of approaching problem solving but it requires a weird kind of thinking it's just going back to your like PhD days it's like how do you think which ideas in in the machine Learning Community are solvable yes it's uh it requires what is that I mean there's the cliche of first prince people's thinking but like it requires to basically ignore what the community is saying because doesn't the community doesn't a community in science usually draw lines of what isn't isn't possible right and like it's very hard to break out of that without going crazy yep I mean I think a good example here is you know the Deep learning revolution in some sense because you could be in computer vision at that time when during the Deep learning sort of revolution of 2012 and so on uh you could be improving your computer vision stack by 10 or we can just be saying actually all this is useless and how do I do 10x better computer vision well it's not probably by tuning a hog feature detector I need a different approach um I need something that is scalable going back to uh Richard Sutton's um and understanding sort of like the philosophy of the uh bitter lesson and then being like actually I need a much more scalable system like a neural network that in principle works and then having some deep Believers that can actually execute on that mission and make it work so that's the 10x solution what do you think is the timeline to",
+    "speaker": "Andrej Karpathy",
+    "claim": "Setting ambitious goals in AI can lead to innovative problem-solving approaches that may not align with conventional wisdom.",
+    "stance": "Support",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI goals and problem-solving",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Setting ambitious goals in AI can lead to innovative problem-solving approaches that may not align with conventional wisdom.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI goals and problem-solving",
+    "reviewed": false
+  },
+  {
+    "start": 6159.5,
+    "end": 6344.6,
+    "text": "ridiculous number of hours just staring at pedestrians crossing streets thinking about humans and it feels like the way we use our eye contact it sends really strong signals and there's certain quirks and edge cases of behavior and of course a lot of the fatalities that happen have to do with drunk driving and um both on The Pedestrian side and the driver's side so there's that problem of driving at night and all that kind of yeah so I wonder you know it's like the space of possible solution to autonomous driving includes so many human factor issues that it's almost impossible to predict there could be super clean nice Solutions yeah I would say definitely like to use a game analogy there's some fog of War but you definitely also see the frontier of improvement and you can measure historically how much you've made progress and I think for example at least what I've seen in uh roughly five years at Tesla when I joined it barely kept laying on the highway I think going up from Palo Alto to SF was like three or four interventions anytime the road would do anything geometrically or turn too much it would just like not work and so going from that to like a pretty competent system in five years and seeing what happens also under the hood and what the scale which the team is operating now with respect to data and compute and everything else uh is just a massive progress so there's a you're climbing a mountain and it's fog but you're making a lot of progress fog you're making progress and you see what the next directions are and you're looking at some of the remaining challenges and they're not like uh they're not perturbing you and they're not changing your philosophy and you're not contorting yourself you're like actually these are the things that we still need to do yeah the fundamental components of solving the problems seem to be there for the data engine to the compute to the the computer on the car to the compute for the training all that kind of stuff so you've done uh over the years you've been a test you've done a lot of amazing uh breakthrough ideas and Engineering all of it um from the data engine to The Human Side all of it can you speak to why you chose to leave Tesla basically as I described that ran I think over time during those five years I've kind of uh gotten myself into a little bit of a managerial position most of my days were you know meetings and growing the organization and making decisions about sort of high level strategic decisions about the team and what it should be working on and so on and uh it's kind of like a corporate executive role and I can do it I think I'm okay at it but it's not like fundamentally what I what I enjoy and so I think uh when I joined uh there was no computer vision team because Tesla was just going from the transition of using mobileye a third-party vendor for all of its computer vision to having to build its computer vision system so when I showed up there were two people training deep neural networks and they were training them at a computer at their at their legs like uh kind of basic classification task yeah and so I kind of like grew that into what I think is a fairly respectable deep learning team a massive compute cluster a very good um data annotation",
+    "speaker": "Andrej Karpathy",
+    "claim": "There has been significant progress in autonomous driving technology over the past five years, particularly at Tesla.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "Autonomous Driving Progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "There has been significant progress in autonomous driving technology over the past five years, particularly at Tesla.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Autonomous Driving Progress",
+    "reviewed": false
+  },
+  {
+    "start": 7080.7,
+    "end": 7266.2,
+    "text": "haven't in depending on the industry haven't quite learned that yet yeah some people are also very negative and very vocal so they're very prominently featured but actually there's a ton of people who are cheerleaders but they're silent cheerlead cheerleaders and uh when you talk to people just in the world they will all tell you it's amazing it's great especially like people who understand how difficult it is to get this stuff working like people who have built products and makers entrepreneur entrepreneurs like make making this work and changing something is is incredibly hard those people are more likely to cheerlead you well one of the things that makes me sad is some folks in the robotics Community uh don't do the cheerleading and they should there's uh because they know how difficult it is well they actually sometimes don't know how difficult it is to create a product at scale right they actually deploy in the real world a lot of the development of robots and AI systems is done on very specific small benchmarks um and as opposed to real world conditions yes yeah I think it's really hard to work on robotics in academic setting or AI systems that apply in the real world you you've criticized you uh flourished and loved for time the imagenet the famed image in that data set and I've recently had some words uh of criticism that the academic research ml Community gives a little too much love still to the imagenet or like those kinds of benchmarks can you speak to the strengths and weaknesses of data sets used in machine learning research actually I don't know that I recall the specific instance where I was uh unhappy or criticizing imagenet I think imagenet has been extremely valuable uh it was basically a benchmark that allowed the Deep Learning Community to demonstrate that deep neural networks actually work it was uh there's a massive value in that um so I think imagenet was useful but um basically it's become a bit of an eminist at this point so eminist is like the 228 by 28 grayscale digits there's kind of a joke data set that everyone like just crushes if there's no Papers written on MNS though right maybe they should have strong papers like papers that focus on like how do we learn with a small amount of data that kind of stuff yeah I could see that being helpful but not in sort of like Mainline computer vision research anymore of course I think the way I've heard you somewhere maybe I'm just imagining things but I think you said like image that was a huge contribution to the community for a long time and now it's time to move past those kinds of well image that has been crushed I mean you know the error rates are uh yeah we're getting like 90 accuracy in in one thousand classification way uh prediction and I've seen those images and it's like really high that's really that's really good if I remember correctly the top five error rate is now like one percent or something given your experience with a gigantic real world data set would you like to see benchmarks move in certain directions that the research Community uses unfortunately I don't think academics currently have the next imagenet uh We've obviously I think we've crushed mnist we've basically kind of crushed imagenet uh and there's no next sort of big Benchmark that the entire Community",
+    "speaker": "Andrej Karpathy",
+    "claim": "The academic research community should move past outdated benchmarks like ImageNet and focus on more relevant real-world applications.",
+    "stance": "Refute",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AI benchmarks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "The academic research community should move past outdated benchmarks like ImageNet and focus on more relevant real-world applications.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI benchmarks",
+    "reviewed": false
+  },
+  {
+    "start": 7814.0,
+    "end": 7999.9,
+    "text": "out the answer and you don't have to calculate it yourself and you just like tell it in English this might actually work do you think in that sense gato is interesting the the Deep Mind system that it's not just new language but actually throws it all uh in the same pile images actions all that kind of stuff that's basically what we're moving towards yeah I think so so gato is uh is very much a kitchen sink approach to like um reinforcement learning lots of different environments with a single fixed Transformer model right um I think it's a very sort of early result in that in that realm but I think uh yeah it's along the lines of what I think things will eventually look like right so this is the early days of a system that eventually will look like this like from a rigid Rich sudden perspective yeah I'm not super huge fan of I think all these interfaces that like look very different um I would want everything to be normalized into the same API so for example it's green pixels versus same API instead of having like different world environments at a very different physics and Joint configurations and appearances and whatever and you're having some kind of special tokens for different games that you can plug I'd rather just normalize everything to a single interface so it looks the same to the neural net if that makes sense so it's all going to be pixel based pong in the end I think so okay uh let me ask you about your own personal life a lot of people want to know you're one of the most productive and brilliant people in the history of AI what is a productive day in the life of Andre capathi look like what time do you wake up because imagine um some kind of dance between the average productive day and a perfect productive day so the perfect productive day is the thing we strive towards in the average is kind of what it kind of converges to getting all the mistakes and human eventualities and so on yeah so what times you wake up are you morning person I'm not a morning person I'm a night owl for sure I think stable or not that's semi-stable like a eight or nine or something like that during my PhD it was even later I used to go to sleep usually at 3am I think uh the am hours are are precious and very interesting time to work because everyone is asleep um at 8 AM or 7 A.M the east coast is awake so there's already activity there's already some text messages whatever there's stuff happening you can go in like some news website and there's stuff happening it's distracting uh at 3am everything is totally quiet and so you're not going to be bothered and you have solid chunks of time to do your work um so I like those periods Night Owl by default and then I think like productive time basically um what I like to do is you need you need to like build some momentum on the problem without too much distraction and um you need to load your Ram uh your working memory with that problem and then you need to be obsessed with it when you're taking shower when you're falling asleep you need to be obsessed with the problem and it's fully in your memory and you're ready to wake up and work on it right there so there's a scale of uh is this in a scale temporal scale of a single day or a couple of days a week a month so I can't talk about one day basically in isolation",
+    "speaker": "Andrej Karpathy",
+    "claim": "The development of AI systems like Gato represents an early stage in the evolution towards more integrated and generalized AI capabilities.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AI systems like Gato represents an early stage in the evolution towards more integrated and generalized AI capabilities.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": false
+  },
+  {
+    "start": 8181.6,
+    "end": 8365.6,
+    "text": "society that creates that padding yeah because I yeah the most productive days I've ever had is just completely from start to finish just tuning out everything yep and just sitting there and then and then you could do more than six and eight hours yeah is there some wisdom about what gives you strength to do like uh tough days of long Focus yeah just like whenever I get obsessed about a problem something just needs to work something just needs to exist it needs to exist and you so you're able to deal with bugs and programming issues and technical issues and uh design decisions that turn out to be the wrong ones you're able to think through all of that given given that you want to think to exist yeah it needs to exist and then I think to me also a big factor is uh you know are other humans are going to appreciate it are they going to like it that's a big part of my motivation if I'm helping humans and they seem happy they say nice things uh they tweet about it or whatever that gives me pleasure because I'm doing something useful so like you do see yourself sharing it with the world like with yes on GitHub with a blog post or through videos yeah I was thinking about it like suppose I did all these things but did not share them I don't think I would have the same amount of motivation that I can build up you enjoy the feeling of other people uh gaining value and happiness from the stuff you've created yeah uh what about diet is there I saw you playing with in intermittent fast do you fast does that help with everything well the things you played what's been most beneficial to the your ability to mentally focus on a thing and just meant the mental productivity and happiness you still fast yeah it's so fast but I do intermittent fasting but really what it means at the end of the day is I skip breakfast yeah so I do uh 18 6 roughly by default when I'm in my steady state if I'm traveling or doing something else I will break the rules but in my steady state I do 18 6 so I eat only from 12 to 6. not a hard Rule and I break it often but that's my default and then um yeah I've done a bunch of random experiments for the most part right now uh where I've been for the last year and a half I want to say is I'm um plant-based or planned forward I heard plant forward it sounds better exactly I didn't actually know the differences but it sounds better in my mind but it just means I prefer plant-based food and raw or cooked or I prefer cooked uh and blunt paste so plant-based oh forgive me I don't actually know how wide the category of plant entails Wellness just means that you're not uh and you can flex and uh you just prefer to eat plants and you know you're not making you're not trying to influence other people and if someone is you come to someone's house party and they serve you a stake that they're really proud of you will eat it yes right it's just not judgment oh that's beautiful I mean that's um on the flip side of that but I'm very sort of flexible have you tried doing one meal a day uh I have uh accidentally not consistently but I've accidentally had that I don't I don't like it I think it makes me feel uh not good it's too it's too much too much of a hit yeah and uh So currently I have about two meals a day 12 and six I do that non-stop I'm doing it now I'm doing one meal a day okay so it's interesting it's a",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 8364.0,
+    "end": 8549.6,
+    "text": "interesting feeling have you ever fasted longer than a day yeah I've done a bunch of water fasts because I was curious what happens uh anything interesting yeah I would say so I mean you know what's interesting is that you're hungry for two days and then starting day three or so you're not hungry it's like such a weird feeling because you haven't eaten in a few days and you're not hungry isn't that weird it's really one of the many weird things about human biology is figure something out it finds finds another source of energy or something like that or uh relaxes the system I don't know how yeah the body is like you're hungry you're hungry and then it just gives up it's like okay I guess we're fasting now there's nothing and then it just kind of like focuses on trying to make you not hungry uh and you know not feel the the damage of that and uh trying to give you some space to figure out the food situation so are you still to this day most productive uh at night I would say I am but it is really hard to maintain my PhD schedule um especially when I was say working at Tesla and so on it's a non-starter so but even now like you know people want to meet for various events they Society lives in a certain period of time and you sort of have to like work so that's it's hard to like do a social thing and then after that return and do work yeah it's just really hard uh that's why I try to do social things I try not to do too uh too much drinking so I can return and continue doing work um but a Tesla is there is there conversions in Tesla but any any company is there a convergence towards the schedule or is there more is that how humans behave when they collaborate I need to learn about this yeah do they try to keep a consistent schedule you're all awake at the same time I mean I do try to create a routine and I try to create a steady state in which I'm uh comfortable in uh so I have a morning routine I have a day routine I try to keep things to do a steady state and um things are predictable and then you can sort of just like your body just sort of like sticks to that and if you try to stress that a little too much it will create uh you know when you're traveling and you're dealing with jet lag you're not able to really Ascend to you know where you need to go yeah yeah that's weird as humans with the habits and stuff uh what are your thoughts on work-life balance throughout a human lifetime so the testing part was known for sort of pushing people to their limits in terms of what they're able to do in terms of what they're uh trying to do in terms of how much they work all that kind of stuff yeah I mean I will say teslaq is still too much uh bad rep for this because what's happening is Tesla is a it's a bursting environment uh so I would say the Baseline uh my only point of reference is Google where I've interned three times and I saw what it's like inside Google and and deepmind um I would say the Baseline is higher than that but then there's a punctuated equilibrium where once in a while there's a fire and uh someone like people work really hard and so it's spiky and bursty and then all the stories get collected about the bursts yeah and then it gives the appearance of like total insanity but actually it's just a bit more intense environment and there are fires and Sprints and so I",
+    "speaker": "Andrej Karpathy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "work-life balance",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "work-life balance",
+    "reviewed": false
+  },
+  {
+    "start": 8730.8,
+    "end": 8917.2,
+    "text": "loves Coppola he like he programs a lot with it yeah uh do you yeah he's copilot I love it and uh it's free for me but I would pay for it yeah I think it's very good and the utility that I found with it was is in is it I would say there is a learning curve and you need to figure out when it's helpful and when to pay attention to its outputs and when it's not going to be helpful where you should not pay attention to it because if you're just reading its suggestions all the time it's not a good way of interacting with it but I think I was able to sort of like mold myself to it I find it's very helpful number one in copy paste and replace some parts so I don't um when the pattern is clear it's really good at completing the pattern and number two sometimes it suggests apis that I'm not aware of so it tells you about something that you didn't know so and that's an opportunity to discover and you it's an opportunity to see I would never take copilot code AS given I almost always uh copy a copy this into a Google Search and you see what this function is doing and then you're like oh it's actually actually exactly what I need thank you copilot so you learned something so it's in part a search engine apart maybe getting the exact syntax correctly that once you see it yep it's that NP hard thing it's like once you see it you know yes exactly correct exactly you yourself you can struggle you can verify efficiently but you you can't generate efficiently and copilot really I mean it's it's autopilot for programming right and currently it's doing the link following which is like the simple copy paste and sometimes suggest uh but over time it's going to become more and more autonomous and so the same thing will play out in not just coding but actually across many many different things probably but coding is an important one right like writing programs yeah what how do you see the future of that developing uh the program synthesis like being able to write programs that are more and more complicated because right now it's human supervised in interesting ways yes like what it feels like the transition will be very painful my mental model for it is the same thing will happen as with the autopilot uh So currently it's doing link following is doing some simple stuff and eventually we'll be doing autonomy and people will have to intervene less and less and there could be like you like testing mechanisms like if it writes a function and that function looks pretty damn correct but how do you know it's correct because you're like getting lazier and lazier as a programmer like your ability to because like little bugs but I guess it won't make a little no it will it copilot will make uh off by one subtle bugs it has done that to me but do you think future systems will or is it really the off by one is actually a fundamental challenge of programming in that case it wasn't fundamental and I think things can improve but uh yeah I think humans have to supervise I am nervous about people not supervising what comes out and what happens to for example the proliferation of bugs in all of our systems I'm nervous about that but I think and there will probably be some other copilots for bug finding and stuff like that at some point because there will be like a lot more automation for uh oh man so it's like a program a co-pilot that generates a compiler for one that does a linter yes one that does like a a type",
+    "speaker": "Andrej Karpathy",
+    "claim": "Future AI systems will become more autonomous in programming, but human supervision will still be necessary to prevent bugs.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI programming",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Future AI systems will become more autonomous in programming, but human supervision will still be necessary to prevent bugs.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI programming",
+    "reviewed": false
+  },
+  {
+    "start": 9282.9,
+    "end": 9468.3,
+    "text": "they were published immediately would Inspire the community to move in certain directions with that yeah it would speed up the rest of the community but I don't know to what extent that's part of their objective function also that's true so it's not just the prestige a little bit of the delay is uh is part yeah they certainly deepmind specifically has been um working in the regime of having a slightly higher quality basically process and latency and uh publishing those papers that way another question from Reddit do you or have you suffered from imposter syndrome being the director of AI Tesla being this person when you're at Stanford where like the world looks at you as the expert in AI to teach teach the world about machine learning when I was leaving Tesla after five years I spent a ton of time in meeting rooms uh and you know I would read papers in the beginning when I joined Tesla I was writing code and then I was writing lesson last code and I was reading code and then I was reading lesson less code and so this is just a natural progression that happens I think and uh definitely I would say near the tail end that's when it sort of like starts to hit you a bit more that you're supposed to be an expert but actually the source of Truth is the code that people are writing the GitHub and the actual the actual code itself and you're not as familiar with that as you used to be and so I would say maybe there's some like insecurity there yeah that's actually pretty profound that a lot of the insecurity has to do with not writing the code in the computer science space like that because that is the truth that that right there code is the source of Truth the papers and everything else it's a high level summary I don't uh yeah just a high level summary but at the end of the day you have to read code it's impossible to translate all that code into actual uh you know paper form uh so when when things come out especially when they have a source code available that's my favorite place to go so like I said you're one of the greatest teachers of machine learning AI ever uh from cs231n to today what advice would you give to beginners interested in getting into machine learning beginners are often focused on like what to do and I think the focus should be more like how much you do so I I'm kind of like believer on a high level in this 10 000 hours kind of concept where you just kind of have to just pick the things where you can spend time and you you care about and you're interested in you literally have to put in 10 000 hours of work um it doesn't even like matter as much like where you put it and your you'll iterate and you'll improve and you'll waste some time I don't know if there's a better way you need to put in 10 000 hours but I think it's actually really nice because I feel like there's some sense of determinism about uh being an expert at a thing if you spend ten thousand hours you can literally pick an arbitrary thing and I think if you spend ten thousand hours of deliberate effort and work you actually will become an expert at it and so I think it's kind of like a nice thought um and so uh basically I would focus more on like are you spending 10 000 hours that's what I focus on so and then thinking about what kind of mechanisms maximize your likelihood of getting to ten thousand dollars exactly which for us silly humans means probably forming a daily habit of like every single day actually doing the thing whatever helps you so I do think to a large extent is a psychological problem for yourself uh one other thing that I help that I think",
+    "speaker": "Andrej Karpathy",
+    "claim": "Spending 10,000 hours on a skill can lead to expertise, emphasizing the importance of dedication over specific tasks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Expertise development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Spending 10,000 hours on a skill can lead to expertise, emphasizing the importance of dedication over specific tasks.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Expertise development",
+    "reviewed": false
+  },
+  {
+    "start": 9466.6,
+    "end": 9651.5,
+    "text": "is helpful for the psychology of it is many times people compare themselves to others in the area I think this is very harmful only compare yourself to you from some time ago like say a year ago are you better than you year ago this is the only way to think um and I think this then you can see your progress and it's very motivating that's so interesting that focus on the quantity of ours because I think a lot of people uh in the beginner stage but actually throughout get paralyzed uh by uh the choice like which one do I pick this path or this path yeah like they'll literally get paralyzed by like which ID to use well they're worried yeah they're worried about all these things but the thing is some of the you you will waste time doing something wrong yes you will eventually figure out it's not right you will accumulate scar tissue and next time you'll grow stronger because next time you'll have the scar tissue and next time you'll learn from it and now next time you come into a similar situation you'll be like all right I messed up I've spent a lot of time working on things that never materialize into anything and I have all that scar tissue and I have some intuitions about what was useful what wasn't useful how things turned out uh so all those mistakes were uh were not dead work you know so I just think you should just focus on working what have you done what have you done last week uh that's a good question actually to ask for for a lot of things not just machine learning um it's a good way to cut the the I forgot what the term will use but the fluff the blubber whatever the uh the inefficiencies in life uh what do you love about teaching you seem to find yourself often in the like drawn to teaching you're very good at it but you're also drawn to it I mean I don't think I love teaching I love happy humans and happy humans like when I teach yes I I wouldn't say I hate teaching I tolerate teaching but it's not like the act of teaching that I like it's it's that um you know I I have some I have something I'm actually okay at it yes I'm okay at teaching and people appreciate it a lot yeah and uh so I'm just happy to try to be helpful and uh teaching itself is not like the most I mean it's really it can be really annoying frustrating I was working on a bunch of lectures just now I was reminded back to my days of 231 and just how much work it is to create some of these materials and make them good the amount of iteration and thought and you go down blind alleys and just how much you change it so creating something good um in terms of like educational value is really hard and uh it's not fun it's difficult so for people should definitely go watch your new stuff you put out there are lectures where you're actually building the thing like from like you said the coldest truth so discussing back propagation by building it by looking through and just the whole thing so how difficult is that to prepare for I think that's a really powerful way to teach how did you have to prepare for that or are you just live thinking through it I will typically do like say three takes and then I take like the the better take uh so I do multiple takes and I take some of the better takes and then I just build out a lecture that way uh sometimes I have to delete 30 minutes of content because it just went down the Nelly that I didn't like too much there's about a bunch of",
+    "speaker": "Andrej Karpathy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Teaching and Learning",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Teaching and Learning",
+    "reviewed": false
+  },
+  {
+    "start": 10200.0,
+    "end": 10384.7,
+    "text": "Consciousness is a very useful tool I think Consciousness is like a modeling insight modeling Insight yeah it's a you have a powerful enough model of understanding the world that you actually understand that you are an entity in it yeah but there's also this um perhaps just a narrative we tell ourselves there's a it feels like something to experience the world the hard problem of Consciousness yeah but that could be just the narrative that we tell ourselves yeah I don't think what yeah I think it will emerge I think it's going to be something uh very boring like we'll be talking to these uh digital AIS they will claim they're conscious they will appear conscious they will do all the things that you would expect of other humans and uh it's going to just be a stalemate I I think there would be a lot of actual fascinating ethical questions like Supreme Court level questions of whether you're allowed to turn off a conscious AI if you're allowed to build the conscious AI maybe there would have to be the same kind of debates that you have around um sorry to bring up a political topic but you know abortion which is the deeper question with abortion is what is life and the Deep question with AI is also what is life and what is conscious and I think that'll be very fascinating to bring up it might become illegal to build systems that are capable that like of such a level of intelligence that Consciousness would emerge and therefore the capacity to suffer would emerge and some A system that says no please don't kill me well that's what the Lambda compute the Lambda chatbot already told um this Google engineer right like it it was talking about not wanting to die or so on so that might become illegal to do that right I because otherwise you might have a lot of a lot of creatures that don't want to die and they will uh you can just spawn Infinity of them on a cluster and then that might lead to like horrible consequences because then there might be a lot of people that secretly love murder and they'll start practicing murder on those systems I mean there's just I to me all of this stuff just brings a beautiful mirror to The Human Condition and human nature we'll get to explore it and that's what like the best of uh the Supreme Court of all the different debates we have about ideas of what it means to be human we get to ask those deep questions that we've been asking throughout human history there's always been the other in human history uh we're the good guys and that's the bad guys and we're going to uh you know throughout human history let's murder the bad guys and the same will probably happen with robots it'll be the other at first and then we'll get to ask questions of what does it mean to be alive what does it mean to be conscious yeah and I think there's some Canary in the coal mines even with what we have today um and uh you know for example these there's these like waifus that you like work with and some people are trying to like this company is going to shut down but this person really like yeah love their waifu and like is trying to like Port it somewhere else and like it's not",
+    "speaker": "Andrej Karpathy",
+    "claim": "Consciousness in AI will emerge, leading to ethical questions about the rights of conscious entities.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI consciousness",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Consciousness in AI will emerge, leading to ethical questions about the rights of conscious entities.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI consciousness",
+    "reviewed": false
+  },
+  {
+    "start": 10382.8,
+    "end": 10567.6,
+    "text": "possible and like I think like definitely uh people will have feelings towards uh towards these um systems because in some sense they are like a mirror of humanity because they are like sort of like a big average of humanity yeah in a way that it's trained but we can that average we can actually watch it's nice to be able to interact with the big average of humanity yeah and do like a search query on it yeah yeah it's very fascinating and uh we can also of course also like shape it it's not just a pure average we can mess with the training data we can mess with the objective we can fine tune them in various ways so we have some um you know impact on what those systems look like if you want to achieve AGI um and you could have a conversation with her and ask her uh talk about anything maybe ask her a question what kind of stuff would you would you ask I would have some practical questions in my mind like uh do I or my loved ones really have to die uh what can we do about that do you think it will answer clearly or would it answer poetically I would expect it to give Solutions I would expect it to be like well I've read all of these textbooks and I know all these things that you've produced and it seems to me like here are the experiments that I think it would be useful to run next and hear some Gene therapies that I think would be helpful and uh here are the kinds of experiments that you should run okay let's go over the Start experiment okay imagine that mortality is actually uh like a prerequisite for happiness so if we become immortal we'll actually become deeply unhappy and the model is able to know that so what is this supposed to tell you stupid human about it yes you can become a mortal but you will become deeply unhappy if if the model is if the AGI system is trying to empathize with you human what is this supposed to tell you that yes you don't have to die but you're really not going to like it because that is it going to be deeply honest like there's a Interstellar what is it the AI says like humans want 90 honesty so like you have to pick how honest I want to answer these practical questions yeah I love Yeah Interstellar by the way I think it's like such a sidekick to the entire story but at the same time it's like really interesting it's kind of limited in certain ways right yeah it's limited and I think that's totally fine by the way I don't think uh I think it's find impossible to have a limited and imperfect agis is that the feature almost as an example like it has a fixed amount of compute on its physical body and it might just be that even though you can have a super amazing Mega brain super intelligent AI you also can have like you know less intelligent AIS that you can deploy in a power efficient way and then they're not perfect they might make mistakes no I meant more like say you had infinite compute and it's still good to make mistakes sometimes like in order to integrate yourself like um what is it going back to Goodwill Hunting uh Robin Williams character",
+    "speaker": "Andrej Karpathy",
+    "claim": "AGI systems may reflect humanity and can be shaped by their training data, but they will still have limitations and may not provide perfect answers.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI systems may reflect humanity and can be shaped by their training data, but they will still have limitations and may not provide perfect answers.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 10750.3,
+    "end": 10936.4,
+    "text": "Goodwill Hunting The Matrix Lord of the Rings all three Avatar Fifth Element so on goes on Terminator two Mean Girls I'm not gonna ask about that mean girls is great um what are some of the jump onto your memory that you love and why like you mentioned the Matrix as a computer person why do you love The Matrix there's so many properties that make it like beautiful and interesting so there's all these philosophical questions but then there's also agis and there's simulation and it's cool and there's you know the black uh you know uh the look of it the feel of it the look of it the feel of it the action the bullet time it was just like innovating in so many ways and then uh Good Good Will Hunting why do you like that one yeah I just I really like this uh torture genius sort of character who's like grappling with whether or not he has like any responsibility or like what to do with this gift that he was given or like how to think about the whole thing and uh there's also a dance between the genius and the the personal like what it means to love another human being and there's a lot of themes there it's just a beautiful movie and then the fatherly figure The Mentor in the in the psychiatrist and the it like really like uh it messes with you you know there's some movies that's just like really mess with you uh on a deep level do you relate to that movie at all no it's not your fault doctor as I said Lord of the Rings that's self-explanatory Terminator 2 which is interesting you we watch that a lot is that better than Terminator one you like you like Arnold I do like Terminator one as well uh I like Terminator 2 a little bit more but in terms of like its surface properties [Laughter] do you think Skynet is at all a possibility oh yes well like the actual sort of uh autonomous uh weapon system kind of thing do you worry about that uh stuff I 100 worry about it and so the I mean the uh you know some of these uh fears of AGS and how this will plan out I mean these will be like very powerful entities probably at some point and so um for a long time they're going to be tools in the hands of humans uh you know people talk about like alignment of agis and how to make the problem is like even humans are not aligned uh so uh how this will be used and what this is going to look like is um yeah it's troubling so do you think it'll happen so slowly enough that we'll be able to as a human civilization think through the problems yes that's my hope is that it happens slowly enough and in an open enough way where a lot of people can see and participate in it just figure out how to deal with this transition I think which is going to be interesting I draw a lot of inspiration from nuclear weapons because I sure thought it would be it would be fucked once they develop nuclear weapons but like it's almost like uh when the when the systems are not so dangerous they destroy human civilization we deploy them and learn the lessons and then we quickly if it's too dangerous we're quickly quicker we",
+    "speaker": "Unknown",
+    "claim": "The development of AGI poses significant risks, and while it may happen slowly, there are concerns about alignment and safety.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AGI poses significant risks, and while it may happen slowly, there are concerns about alignment and safety.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 10934.0,
+    "end": 11120.8,
+    "text": "might still deploy it uh but you very quickly learn not to use them and so there'll be like this balance that you humans are very clever as a species it's interesting we exploit the resources as much as we can but we don't we avoid destroying ourselves it seems like well I don't know about that actually I hope it continues um I mean I'm definitely like concerned about nuclear weapons and so on not just as a result of the recent conflict even before that uh that's probably like my number one concern for society so if Humanity uh destroys itself or destroys you know 90 of people that would be because of nukes I think so um and it's not even about full destruction to me it's bad enough if we reset society that would be like terrible it would be really bad and I can't believe we're like so close to it yeah it's like so crazy to me it feels like we might be a few tweets away from something like that yep basically it's extremely unnerving but and has been for me for a long time it seems unstable that world leaders just having a bad mood can like um take one step towards a bad Direction and it escalates yeah and because of a collection of bad moods it can escalate without being able to um stop yeah it's just it's a huge amount of uh Power and then also with the proliferation and basically I don't I don't actually really see I don't actually know what the good outcomes are here uh so I'm definitely worried about that a lot and then AGI is not currently there but I think at some point we'll more and more become uh something like it the danger with AGI even is that I think it's even less likely worse in a sense that uh there are good outcomes of AGI and then the bad outcomes are like an absolute way like a tiny one way and so I think um capitalism and humanity and so on will drive for the positive uh ways of using that technology but then if bad outcomes are just like a tiny like flipping minus sign away uh that's a really bad position to be in a tiny perturbation of the system results in the destruction of the human species it's a weird line to walk yeah I think in general what's really weird about like the Dynamics of humanity and this explosion was talked about is just like the insane coupling afforded by technology yeah and uh just the instability of the whole dynamical system I think it's just it doesn't look good honestly yes that explosion could be destructive and constructive and the probabilities are non-zero in both both senses I'm going to have to I do feel like I have to try to be optimistic and so on and yes I think even in this case I still am predominantly optimistic but there's definitely me too uh do you think we'll become a multiplayer species probably yes but I don't know if it's dominant feature of uh future Humanity uh there might be some people on some planets and so on but I'm not sure if it's like yeah if it's like a major player in our culture and so on we still have to solve the drivers of self-destruction here on Earth so just having a backup on Mars is",
+    "speaker": "Andrej Karpathy",
+    "claim": "AGI poses significant risks, and while there may be positive outcomes, the potential for catastrophic failure is a serious concern.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI poses significant risks, and while there may be positive outcomes, the potential for catastrophic failure is a serious concern.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  }
+]

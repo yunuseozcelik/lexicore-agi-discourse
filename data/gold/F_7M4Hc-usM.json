@@ -1,0 +1,457 @@
+[
+  {
+    "start": 212.6,
+    "end": 277.8,
+    "text": "And you want to find\nsomething like that. And I'm sure that there exists\nsomething today that just wasn't possible at all pre, like,\nautomated coding era that is totally non-obvious, that\nwill be a multi-trillion dollar market soon. And that only four companies\nare working on it right now, but I don't know what that is. It's much more likely\nyou all know what that is than I know what that is. My brain is like\ntaken over by OpenAI. But, the kind of idea someone\ncan assign you to work on is probably not what you want. Yep. OK, so that's fair. But I think it would be\nhelpful, since this is a systems class, to maybe reason\nabout a particular problem that you have to reason through\nso that they can then apply the shape of the techniques used\nto break down from a systems perspective, that problem into\nsolutions to their own problems. And a concept that you had\nstarted to tease in the class back in 2014 and then clearly\nyou've talked about publicly over the years is scale. Scale is its own beast. Its quantities, its own quality.",
+    "speaker": "Sam Altman",
+    "claim": "There are likely non-obvious opportunities in AI that could lead to significant market growth.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "jobs",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "There are likely non-obvious opportunities in AI that could lead to significant market growth.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "jobs",
+    "reviewed": false
+  },
+  {
+    "start": 277.8,
+    "end": 340.4,
+    "text": "Scale as a concept\nhas been something it seems like you've\nempirically investigated in all kinds of ways over\nthe last 10 years or so. Could you help us, first unpack\nwhat you mean by scale now, 10 years later, how would you\ndeconstruct that as a systems design attribute to apply,\nwhether it's as a tool? Can we start there? Yes. So I don't know why the\nfollowing observation is true. I offer no theory that I find\nsatisfying to explain it, and that makes me a little bit\nnervous to suggest you follow it, but I'm going to anyway\nbecause, empirically, it does seem to be\ntrue, which is all of the most interesting things\nI have observed in my career in watching other things happen. All of the most interesting\nones have had something to do with emergent properties\nthat scale or scale continuing to provide returns far beyond\nwhat the consensus thinks will work.",
+    "speaker": "Sam Altman",
+    "claim": "Emergent properties related to scale have consistently shown unexpected returns in AI development.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "scale/emergent properties",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "Emergent properties related to scale have consistently shown unexpected returns in AI development.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "scale/emergent properties",
+    "reviewed": false
+  },
+  {
+    "start": 544.2,
+    "end": 613.4,
+    "text": "There was the capital\nrequirements and what it was going to take to do this. And like, how is there ever\ngoing to be a business? How can you think\nabout taking this risk? There was this sort of cultural\nstuff of researchers saying, well, if we're going to\nget all this compute, why do we put it all\ninto this one project where we're not going\nto learn something? Why not divide it up\namong all these projects? And this also happens\nin every area. I've looked at almost\nevery area for scale, and breaking it down into each\ndifficult area or each reason not to do it and\ntrying to address them one at a time, yeah,\nthat's been really important. I'm going to push on that a\nlittle bit because there's very few people who've been able\nto repeatedly scale new products and systems the way the OpenAI\nteam has over the years, but it seems like\none of the issues is there are all these\nprior conditioning sort of mental models and\nexpectations humans have, and you said things break. And one of the\nthings it seems often breaks that's the\nhardest to refactor is the human side of the\nsystems design, wherever there's human\nimplementers or there's human participants in that.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI development challenges",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI development challenges",
+    "reviewed": false
+  },
+  {
+    "start": 747.4,
+    "end": 816.9,
+    "text": "And then a couple\nof years later, it's clear that coding has\nbeen the killer enterprise app. So, how would you\ncompare and contrast the systems you guys used\nto discover those use cases, ship them, scale\nthem, monetize them? Any salient learnings\nfrom those two systems? Yes. So, we had made\nGPT-3 and we needed to make money because we wanted\nto go scale up to a billion and multi-billion\ndollar computers. And we had GPT-3, and it\nwas kind of interesting. It was a cool demo, but\nwe couldn't figure out a product to build around it. And we had been thinking,\nthinking we just couldn't do it. We had tried a few things,\nthey hadn't worked. And so we knew the models\nwere going to get better, but we also wanted to start\na revenue engine sooner. And we said, well, since\nwe can't figure out what product to\nbuild, we're just going to put this\ninto an API, and we're going to hope that somebody\nelse can figure out what product to build. And so we launched in like-- I don't know, something in the\nsummer of 2020-- the GPT-3 API. And, initially, it kind\nof got no traction at all. And then about a month later,\nrandomly, as far as we can tell, it went viral on Twitter.",
+    "speaker": "Sam Altman",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI product development",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI product development",
+    "reviewed": false
+  },
+  {
+    "start": 816.9,
+    "end": 879.3,
+    "text": "On the same day, a few\ndifferent developers kind of got it to do\nsomething cool, posted it, other people started trying. And then a lot of people\nstarted trying the API, but it was shockingly bad. If you go back and\nuse GPT-3 or 3.5, you will be astonished at\nhow bad the models were then, relative to the\namount of excitement they generated at the time. So people tried all\nof these things, and, really, the only\nbusiness that people got to work in a significant\nway with GPT-3 was copywriting. And that was, like, not that\ngreat and not that exciting. And we were kind\nof like, ah, it's just going to have to\nwait for a better model. But although that was the only\nbusiness that was working, developers had figured\nout how to put in a prompt and be able to chat with it. And we saw this a lot. Like, more people were using-- they couldn't get the API\nto work for their business, but they were using their\nAPI key to just chat. And we said, well, we\ncan build a good chatbot. People clearly want that.",
+    "speaker": "Sam Altman",
+    "claim": "Early versions of GPT-3 were underwhelming despite the excitement around them, and practical applications were limited.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "Early versions of GPT-3 were underwhelming despite the excitement around them, and practical applications were limited.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI development",
+    "reviewed": false
+  },
+  {
+    "start": 879.3,
+    "end": 943.9,
+    "text": "And we had a new model. We actually had\nGPT-4 done but we had a new model we were ready to\nrelease in between called 3.5, and we had figured out a\nnew kind of post training where we could get the models to\ndo a good job with instruction following so it can make\nit easier to chat with. And we said, well, the API\nis not working great-- maybe it was like a $10\nor a $20 million run rate kind of business--\nbut there is this thing that people love. And under the YC principle,\nsee what your users love and do that, we said we'll build\na chatbot around it. And we put that out. And we still didn't think it\nwas going to do that well. It was really meant\nas a research demo to convince other\npeople that they should build chat-like products\nand pay us for the API, but that went crazy viral. And another thing I\nhad learned from YC is when something really starts\ngrowing and it's not very good, you have a guaranteed\nhit on your hands. And so we had like five\ndays where the traffic would shoot up, fall off and\neverybody would be like, well, that was just a hype cycle. But then the next day it\nwould get to a higher peak, fall off again, later\nin the day people would say that's a hype cycle.",
+    "speaker": "Sam Altman",
+    "claim": "The unexpected success of the chatbot indicates a strong user interest in AI products, suggesting optimism about future developments in AGI.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "The unexpected success of the chatbot indicates a strong user interest in AI products, suggesting optimism about future developments in AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": false
+  },
+  {
+    "start": 1006.7,
+    "end": 1079.8,
+    "text": "We knew that they\ncould be really-- and we knew that would\nbe a valuable area, but then we had this incredibly\nexciting thing happen. But our internal\nbelief at the time was that coding was how\nthese models would control things on computers\nand robots were how these models would control\nthings in the physical world. And if you made a\nsmart enough model that had the actuators of\nwriting code and robot-- and driving a robot,\nyou could then actually get this intelligence to do\nstuff for you in the world. So then it took us a\nwhile to get there. And then I think Codex got\nreally good by early this year, but with 5.5 is when we saw\nthis real inflection point where people are now like doing just\nincredible things with it. And earlier in the\nclass, we've talked about how the capabilities\npipeline is starting to look-- it's starting to become\nsomewhat more legibly standard across different\nresearch groups. You've got pre-training,\nmid training, post training, then you've got the RL and\nsupervised feedback loop. Do you think that's roughly like\nthe shape of the pipeline that allowed Codex to go\nthrough a capability jump and that will basically stay\nstable now and consistent, or are we going to go through a\nmajor rewrite of that pipeline?",
+    "speaker": "Sam Altman",
+    "claim": "The development of models like Codex indicates a significant advancement in AI capabilities, suggesting optimism about future AGI developments.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "The development of models like Codex indicates a significant advancement in AI capabilities, suggesting optimism about future AGI developments.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": false
+  },
+  {
+    "start": 1296.9,
+    "end": 1359.9,
+    "text": "And you will have a\nOpenAI token subscription that you will plug\ninto everything and use to access\neverything, and you have running for\nyou all the time and doing this amazing stuff. I kind of don't think-- at least\nright now-- the right way for us to analogize that is\nwe're selling intelligence because people are just,\nlike, somehow not resonating. I don't know what our\nequivalent of we're selling you light at\nnight is going to be, but I think if we're\ngoing to become a utility, we need to find a way to explain\nto the world what it means to have this intelligence\npike that you can just do whatever you'd like with. So, one question that has\nemerged-- an emergent property of this class of having a\ndiversity of different speakers is that the utility analogy\nhas come up several times, but in reference to\ndifferent things. So Jensen likened\ncompute to a utility and why there should be\naccess, and so on, and talk about how Stanford should pool\nbudget and so on, and procure that as a utility for everybody\non campus, whereas you just likened the intelligence\npart to utility. Are both of these things true?",
+    "speaker": "Unknown",
+    "claim": "The speaker suggests that the analogy of selling intelligence is not resonating and that a better analogy is needed to explain the utility of intelligence.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "utility of intelligence",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The speaker suggests that the analogy of selling intelligence is not resonating and that a better analogy is needed to explain the utility of intelligence.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "utility of intelligence",
+    "reviewed": false
+  },
+  {
+    "start": 1359.9,
+    "end": 1424.9,
+    "text": "Is one of them true? Is one more likely to be true? How should people\nreason about compute as a utility versus\ntokens as a utility? And compute I mean here\nchips versus tokens. Does that make sense? I think as a consumer, as a\nbusiness or an individual, you will think in\nsomething closer to tokens or probably even one\nlevel up from tokens. I don't think you'll care\nvery much about, where the hardware is, what particular\nchip it is, what's powering it. I think that stuff\nwill be abstracted out. And what you will\ncare about is when you're interacting with the\nsystem, can you use it a lot? Is it cheap? Is it doing a good job? So right now it's like tokens. It may get-- as we\nmove into a world where we all just have this\nconstant agent running for us, being useful to us all the\ntime, you may think about it as even one level up,\nbut, yeah, my guess is when you pay for\nyour cell phone bill, you're like, all right, I'm\nbuying access to airtime and some number of gigabytes. And, it's going to\ndo all these things, and I'll use all these\napps and whatever else.",
+    "speaker": "Sam Altman",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 1563.8,
+    "end": 1629.1,
+    "text": "First of all, in terms\nof achieving human level intelligence, these\nmodels have already far surpassed human\nintelligence in some ways, and then they're wildly\nworse than others. Like, for example,\nthey seem much worse than people are at\nvery long horizon, kind of, high judgment\nsignal and tasks. On the other hand, yesterday we\nhad one of our models discover-- or disprove a conjecture one of\nthe hardest problems that had-- smart people had worked\non for a long time. And a lot of people, a\nlot of smart scientists-- I don't know if\nLeCun was one of them or not-- had even quite\nrecently said something like that was not\ngoing to happen, and then the model just did it. And now you have all these\nmathematicians saying like, is math over? What does this\nmean for our field? So, clearly LLMs are capable\nof figuring out new knowledge, and clearly they are capable\nof doing some things that-- some intelligence tasks\nthat humans just can't do. They are going to\nscale much further, so how much better and what\ndistribution of the tasks they can do better than humans?",
+    "speaker": "Sam Altman",
+    "claim": "Current AI models have surpassed human intelligence in some areas and will continue to improve, suggesting optimism about their capabilities.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models have surpassed human intelligence in some areas and will continue to improve, suggesting optimism about their capabilities.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 1692.4,
+    "end": 1768.4,
+    "text": "It's like you were just-- Like, choose Nirvana. You're still going on about it. Like, the data is quite\nstrong on our side. And I don't think it'd be\nthat fun to say I told you so, also the fact that you're\nstill saying we're wrong doesn't really bother me. Just move on. There's that saying\nthat insanity is doing the same thing over\nand over again when presented with data that is not working. And if they keep repeating\nthat, in a sense, it's a form of\ninsanity, I think. I think there's\nsomething that happens, which is if you\nmake your identity about a particular thing is\ngoing to work or not work, and you associate\nyourself with that belief, and then the science or the\nempirical results disprove you, and you're like too hung\nup on your identity, you can't let it go,\nyou can't see the truth. And I think this is an important\nreminder in both directions. How do you see education? It clearly has to super adapt. And I am worried-- I thought by now it would have. I think if we continue to\nteach and evaluate students as if we were in a pre AGI\nworld, it's not going to work and it is going to lead to\natrophy of learning how to think or whatever.",
+    "speaker": "Unknown",
+    "claim": "Continuing to teach in a pre-AGI world will hinder learning and adaptation.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "education/AGI impact",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Continuing to teach in a pre-AGI world will hinder learning and adaptation.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "education/AGI impact",
+    "reviewed": false
+  },
+  {
+    "start": 1768.4,
+    "end": 1831.9,
+    "text": "And I thought that was\ngoing to be obvious enough that I wasn't that worried. When ChatGPT launched,\nI was like, yeah, we're going to have one\nyear of students cheating and not learning that much and\nthen the educational system is just going to redesign\nitself, and we're going to teach people so much better. People are going to\nreally get projects where they have to use\nAI to be able to do it, but they still have to\nstretch their brain more and think more and figure\nout new things to do. And, honestly, I struggle\nto point to any significant systemic change that I've seen\nin the education system at large in the three and 1/2 years\nsince ChatGPT launched, and that was a\nprediction error for me. I thought that\nwould have happened. So I have no doubt\nthat we can likely have done with every other\ntechnological leap before, redesign how education\nworks so that you still have to learn how to think. And there will be some things. Like, I am a person\nwho thinks by writing, and I write a lot of stuff\nthat I never show anyone else but it's still important to\nme to figure something out and so I'm grateful\nthat I learned to write.",
+    "speaker": "Sam Altman",
+    "claim": "The educational system has not significantly changed in response to the launch of ChatGPT as he initially predicted.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "education/AI impact",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "The educational system has not significantly changed in response to the launch of ChatGPT as he initially predicted.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "education/AI impact",
+    "reviewed": false
+  },
+  {
+    "start": 1976.0,
+    "end": 2040.2,
+    "text": "Even if it were another three\nand 1/2 years on that same trajectory, the\nworld, the potential-- the way that society-- what\nsociety is capable of are just completely different. Well, let me try to prompt\nyou in more thinking tokens on that one. If we treated you as a\nmodel, as a frontier model, and you have some\ninherent capabilities-- and we're going to try to\nelicit capabilities that people don't know about for\nthe next few minutes-- one of them is that you've\nbeen post trained now on-- you've been\ncontinuously RL on OpenAI, as well as the external\nfeedback loop of the world on what doesn't work and--\nwhat works and doesn't work. So now, if we're\ngoing to treat you as a prediction\nengine for a sec, the prompt is what are the\nthree most likely forks of the universe you see\nover the next 10 years? And what is your probability\nassessment on each of those? Does that make sense? One that feels very\nimportant is how much is this technology going to be\nvery widely democratized versus how much is it going to\nsit in a few companies.",
+    "speaker": "Moderator",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Moderator",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 2040.2,
+    "end": 2104.1,
+    "text": "I think a world-- there are all\nof these reasons why you could imagine the default\nis that this gets concentrated to a few\ncompanies and they become like a significant\nfraction of the wealth on Earth. That would, obviously,\nbe terrible, and we work super hard\nto push against that, but I think that's going to\nrequire the will of the world to really avoid because there is\na sort of attractor state there. And I think part of\nthe reason that we need to push to this kind of\nutility model of the world is that, A, it's quite\nunstable and quite bad and will feel quite unfair if a\nfew companies have all of this. But, B, I think there's\na real alignment failure and a very fragile world. And the best way\nto get to a world we want that\nrepresents everybody winning and everybody's values\nbeing represented, everybody having agency is to just\npush this technology out into the world,\nbut there will be a very strong\nargument against that around safety and stability. And I think that\nwill be a big fork. And it's very important. And I encourage all\nof you in your careers to push hard that\nthis is a technology-- it can bring us an\nincredible sci-fi future.",
+    "speaker": "Sam Altman",
+    "claim": "AGI technology can lead to an incredible future, but there are significant safety and stability concerns that need to be addressed.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "AGI technology can lead to an incredible future, but there are significant safety and stability concerns that need to be addressed.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 2168.8,
+    "end": 2231.2,
+    "text": "Are we going to have\neverybody gets to own a slice of every company? Like, is it capitalism\nand no change? Is it, like, full on communism? There's a lot talk about this. One thing that I think\nis not talked about much is how-- specifically how\nwe distribute compute. So, maybe a lot of the\neconomy can work in a way that it's going to work. I've become much less of a\neven short term jobs doomer. I've always been optimistic\nwe'll find new things to do, but this may not even be as\ndisruptive as I originally thought in the short term, but\nwe are seeing compute shortages now. I can imagine them\ngetting much worse, and I can imagine compute being\nlike the most important utility that people need. So if the price of compute from\na supply and demand perspective gets way out of\nwhack, then I think there will be a very\ninteresting fork about what it means to equitably\ndistribute compute. So, there are two very\ninteresting things there which you said. On the economic\nside, we might have need universal basic income. Everybody owns a\npiece of shares.",
+    "speaker": "Unknown",
+    "claim": "The speaker is optimistic that job disruption from AI may not be as severe in the short term as previously thought.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "jobs",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The speaker is optimistic that job disruption from AI may not be as severe in the short term as previously thought.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "jobs",
+    "reviewed": false
+  },
+  {
+    "start": 2426.9,
+    "end": 2465.7,
+    "text": "And so in some sense, as long as\nwe can continue to make progress on this, there will\nbe a shortage forever and things will be a bit\nabove what the price we think should be even though people\nare getting better, smarter, more whatever, intelligence\njust because you can use-- if we make really\ngreat personal agents, you can have 10 of them\nrunning and working for you all the time, or you\nwant 100, I think. It's a lot of\ninference, a lot of-- awesome. With that, I'm going to give you\nthe swag for the class, which is-- [APPLAUSE] Thank you for coming. Thank you. Thank you, all.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  }
+]

@@ -1,0 +1,606 @@
+[
+  {
+    "start": 63.6,
+    "end": 131.9,
+    "text": "I am optimistic about meaning. I worry about economics and\nthe concentration of power. That's actually what I worry about more, the abuse of power. - And AI increases the\namount of power in the world, and if you concentrate that power and abuse that power, it\ncan do immeasurable damage. - Yes, it's very frightening. It's very frightening. - The following is a\nconversation with Dario Amodei, CEO of Anthropic, the\ncompany that created Claude that is currently and often at the top of most LLM benchmark leaderboards. On top of that, Dario\nand the Anthropic team have been outspoken advocates for taking the topic of\nAI safety very seriously, and they have continued to publish a lot of fascinating AI research\non this and other topics. I'm also joined afterwards by two other brilliant\npeople from Anthropic. First Amanda Askell, who is a researcher working on alignment and\nfine tuning of Claude, including the design of Claude's\ncharacter and personality.",
+    "speaker": "Lex Fridman",
+    "claim": "AI increases the amount of power in the world, and if concentrated and abused, it can cause immeasurable damage.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "scaling_compute",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "scaling_compute",
+      "open_source"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "AI increases the amount of power in the world, and if concentrated and abused, it can cause immeasurable damage.",
+    "claim_labels_silver": [
+      "ai_race_power",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "scaling_compute",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 4168.0,
+    "end": 4236.5,
+    "text": "- That could start being very convincing to the engineers inside companies. - Oh yeah, yeah. It's actually like, you know, we've seen lots of examples of demagoguery in our life from humans and, you know, there's a concern that models\nthat could do that as well. - One of the ways that\nClaude has been getting more and more powerful is it's now able to do some agentic stuff, computer use. There's also an analysis\nwithin the sandbox of claude.ai itself. But let's talk about computer use. That seems to me super exciting that you can just give Claude a task and it takes a bunch of\nactions, figures it out, and has access to your\ncomputer through screenshots. So can you explain how that works? And where that's headed? - Yeah, it's actually relatively simple. So Claude has had for a long time, since Claude 3.0 back in March, the ability to analyze images and respond to them with text. The only new thing we added is those images can be\nscreenshots of a computer. And in response, we trained the model to give a location on the screen where you can click and/or\nbuttons on the keyboard you can press in order to take action.",
+    "speaker": "Dario Amodei",
+    "claim": "AI models like Claude are becoming more capable of performing tasks and interacting with computers effectively.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI models like Claude are becoming more capable of performing tasks and interacting with computers effectively.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 4236.5,
+    "end": 4300.0,
+    "text": "And it turns out that with actually not all that\nmuch additional training, the models can get\nquite good at that task. It's a good example of generalization. You know, people sometimes say, if you get to lower earth orbit, you're like halfway to anywhere, right? Because of how much it\ntakes to escape the gravity. Well, if you have a\nstrong pre-trained model, I feel like you're halfway to anywhere in terms of the intelligence space. And so actually, it\ndidn't take all that much to get Claude to do this. And you can just set that in a loop, give the model a screenshot,\ntell it what to click on, give it the next screenshot,\ntell it what to click on, and that turns into a full kind of almost 3D video\ninteraction of the model. And it's able to do all\nof these tasks, right? You know, we showed these demos where it's able to like\nfill out spreadsheets. It's able to kind of like\ninteract with a website. It's able to, you know, it's able to open all kinds\nof, you know, programs, different operating systems,\nWindows, Linux, Mac. So, you know, I think all\nof that is very exciting.",
+    "speaker": "Dario Amodei",
+    "claim": "Strong pre-trained models can generalize well and perform a variety of tasks with minimal additional training, indicating progress in AI capabilities.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Strong pre-trained models can generalize well and perform a variety of tasks with minimal additional training, indicating progress in AI capabilities.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 4496.0,
+    "end": 4577.8,
+    "text": "But, you know, I\ngenerally think, you know, the same kinds of techniques that we've been using to\ntrain the current model, I expect that doubling\ndown on those techniques in the same way that we have for code for models in general, you know, for image input, you know, for voice. I expect those same\ntechniques will scale here, as they have everywhere else. - But this is giving sort of the power of action to Claude, and so you could do a lot\nof really powerful things, but you could do a lot of damage also. - Yeah, yeah, no, and we've\nbeen very aware of that. Look, my view actually is computer use isn't a fundamentally new capability, like the CBRN or autonomy\ncapabilities are. It's more like, it kind of\nopens the aperture for the model to use and apply its existing abilities. And so the way we think about it, going back to our RSP, is nothing that this model is\ndoing inherently increases, you know, the risk from\nan RSP perspective. But as the models get more\npowerful, having this capability may make it scarier once it, you know, once it has the cognitive\ncapability to, you know, to do something at the ASL\nthree and ASL four level, you know, this may be the thing that kind of unbounds it from doing so.",
+    "speaker": "Dario Amodei",
+    "claim": "The current techniques for training AI models will continue to scale effectively, but increased capabilities may also lead to greater risks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The current techniques for training AI models will continue to scale effectively, but increased capabilities may also lead to greater risks.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 4995.3,
+    "end": 5071.0,
+    "text": "And so I understand where people\nare coming from on priors. I understand why people come from, start from that position. But again, I think AI is different. If we go to the very\nserious risks of autonomy and misuse that I talked about, you know, just a few minutes ago, I think that those are unusual and they warrant an\nunusually strong response. And so I think it's very important. Again, we need something\nthat everyone can get behind. You know, I think one of\nthe issues with SB 1047, especially the original version of it, was it had a bunch of\nthe structure of RSPs, but it also had a bunch of\nstuff that was either clunky or that just would've created a bunch of burdens, a bunch of hassle, and might even have missed the target in terms of addressing the risks. You don't really hear about it on Twitter. You just hear about kind of, you know, people are cheering for any regulation, and then the folks who are against make up these often quite\nintellectually dishonest arguments about how, you know, it'll make us move away from California.",
+    "speaker": "Dario Amodei",
+    "claim": "AI poses serious risks that require a strong regulatory response.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI poses serious risks that require a strong regulatory response.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 6709.1,
+    "end": 6773.3,
+    "text": "But so I think RLHF unhobbles\nthe models in some ways. And then there are other ways where that model hasn't yet been unhobbled and, you know, needs to unhobble. - If you can say in terms of cost, is pre-training the most expensive thing? Or is post-training creep up to that? - At the present moment, it is still the case that pre-training is the majority of the cost. I don't know what to expect in the future, but I could certainly anticipate a future where post-training is\nthe majority of the cost. - In that future you anticipate, would it be the humans or the AI that's the cost of thing\nfor the post-training? - I don't think you can\nscale up humans enough to get high quality. Any kind of method that relies on humans and uses a large amount of compute, it's gonna have to rely on some\nscaled superposition method, like you know, debate or\niterated amplification or something like that. - So on that super\ninteresting set of ideas around Constitutional AI, can you describe what it is, as first detailed in December 2022 paper and beyond that, what is it?",
+    "speaker": "Dario Amodei",
+    "claim": "Post-training could become the majority of the cost in AI development in the future, but it will require scaled methods involving humans and AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI training costs",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Post-training could become the majority of the cost in AI development in the future, but it will require scaled methods involving humans and AI.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI training costs",
+    "reviewed": false
+  },
+  {
+    "start": 7712.9,
+    "end": 7777.7,
+    "text": "It's really hard to predict\nthe economy two years out. Like maybe the case is like,\nyou know, normal, you know, humans can predict what's gonna happen in the economy next quarter,\nor they can't really do that. Maybe a AI system that's, you know, a zillion times smarter\ncan only predict it out a year or something\ninstead of, you know. You have these kind of\nexponential increase in computer intelligence\nfor linear increase in ability to predict. Same with, again, like, you know, biological molecules,\nmolecules interacting. You don't know what's gonna happen when you perturb a complex system. You can find simple parts in it if you're smarter, you're better at finding these simple parts. And then I think human institutions. Human institutions are\njust, are really difficult. Like, you know, it's\nbeen hard to get people, I won't give specific examples, but it's been hard to get people to adopt even the technologies\nthat we've developed, even ones where the\ncase for their efficacy is very, very strong. You know, people have concerns.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI prediction limits",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI prediction limits",
+    "reviewed": false
+  },
+  {
+    "start": 8035.9,
+    "end": 8111.4,
+    "text": "Yes, there's a lot of resistance\nand lack of understanding. But the thing that makes\nme feel that progress will in the end happen moderately fast, not incredibly fast, but moderately fast, is that you talk to, what I find is I find over and over again, again, in large companies,\neven in governments, which have been actually\nsurprisingly forward-leaning, you find two things that\nmove things forward. One, you find a small fraction\nof people within a company, within a government who\nreally see the big picture, who see the whole Scaling Hypothesis, who understand where AI is\ngoing, or at least understand where it's going within their industry. And there are a few people like that within the current US government who really see the whole picture. And those people see that this is the most important\nthing in the world, and so they agitate for it. And the thing, they alone\nare not enough to succeed because they're a small set of people within a large organization. But as the technology starts to roll out, as it succeeds in some places, in the folks who are\nmost willing to adopt it, the specter of competition\ngives them a wind at their backs because they can point within\ntheir large organization, they can say, look, these other\nguys are doing this, right?",
+    "speaker": "Dario Amodei",
+    "claim": "Progress in AI will happen moderately fast due to a small number of forward-thinking individuals in organizations pushing for it.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Progress in AI will happen moderately fast due to a small number of forward-thinking individuals in organizations pushing for it.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI progress",
+    "reviewed": false
+  },
+  {
+    "start": 8240.8,
+    "end": 8303.6,
+    "text": "- Useful. (laughs) I'm gonna start calling it that. - It's a debate about naming. You know, on pure intelligence, it can smarter than a Nobel Prize winner in every relevant discipline and all the things we've said. Modality, can go and do stuff\non its own for days, weeks, and do biology experiments on its own. In one, you know what,\nlet's just stick to biology 'cause you sold me on the whole biology and health section,\nthat's so exciting from, just I was getting giddy from\na scientific perspective. It made me wanna be a biologist. - It's almost, it's so, no, no, this was the feeling I\nhad when I was writing it that it's like this would\nbe such a beautiful future if we can just make it happen, right? If we can just get the\nlandmines out of the way and make it happen, there's so much, there's so much beauty and elegance and moral force\nbehind it if we can just. And it's something we should\nall be able to agree on, right?",
+    "speaker": "Dario Amodei",
+    "claim": "AGI could lead to a beautiful future if obstacles are removed.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI optimism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI could lead to a beautiful future if obstacles are removed.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI optimism",
+    "reviewed": false
+  },
+  {
+    "start": 8303.6,
+    "end": 8376.1,
+    "text": "Like, as much as we fight about all these political questions, is this something that could\nactually bring us together? But you were asking when\nwhen will we get this? - When? When do you think? Just so putting numbers on that. - So you know, this is, of course, the thing I've been grappling\nwith for many years, and I'm not at all confident. Every time, if I say 2026 or 2027, there will be like a zillion like people on Twitter who will be like, \"AI CEO said 2026,\" and it'll be repeated for\nlike the next two years that like this is definitely\nwhen I think it's gonna happen. So whoever's extorting these clips will crop out the thing I just said and only say the thing I'm about to say, but I'll just say it anyway. - [Lex] Have fun with it. - So, if you extrapolate the curves that we've had so far, right? If you say, well, I don't know, we're starting to get to like PhD level, and last year we were\nat undergraduate level, and the year before we were at like the level of a high school student. Again, you can quibble with at what tasks and for what, we're\nstill missing modalities, but those are being added,\nlike computer use was added, like image in was added, like image generation has been added.",
+    "speaker": "Dario Amodei",
+    "claim": "Dario Amodei expresses uncertainty about the timeline for AGI, suggesting that predictions like 2026 or 2027 are not reliable.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Dario Amodei expresses uncertainty about the timeline for AGI, suggesting that predictions like 2026 or 2027 are not reliable.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 8507.9,
+    "end": 8579.1,
+    "text": "- Well, let me start\nwith your first questions and then I'll answer that. Claude wants to know what's\nin his future, right? - Exactly. - Who am I gonna be working with? - Exactly. - So I think one of the things I went hard on, when I went\nhard on in the essay is, let me go back to this idea of, because it's really had, you know, had an impact on me. This idea that within large\norganizations and systems, there end up being a few people or a few new ideas who\nkind of cause things to go in a different direction\nthan they would've before, who kind of disproportionately\naffect the trajectory. There's a bunch of kind of the\nsame thing going on, right? If you think about the health world, there's like, you know,\ntrillions of dollars to pay out Medicare and you\nknow, other health insurance, and then the NIH is is 100 billion. And then if I think of like the few things that have really revolutionized anything, it could be encapsulated in\na small fraction of that. And so when I think of like,\nwhere will AI have an impact? I'm like, can AI turn that small fraction into a much larger fraction\nand raise its quality? And within biology, my\nexperience within biology is that the biggest problem of biology is that you can't see what's going on.",
+    "speaker": "Dario Amodei",
+    "claim": "AI has the potential to significantly impact various fields, including biology, by improving the quality of outcomes.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI impact",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI has the potential to significantly impact various fields, including biology, by improving the quality of outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI impact",
+    "reviewed": false
+  },
+  {
+    "start": 9134.0,
+    "end": 9199.7,
+    "text": "We'll find that when AIs\ncan do 80% of a coder's job, including most of it that's literally like write\ncode with a given spec, we'll find that the remaining parts of the job become more\nleveraged for humans, right? Humans will, there'll be more about like high level system design or, you know, looking at the app and like, is it architected well? And the design and UX aspects, and eventually AI will be able\nto do those as well, right? That's my vision of the, you\nknow, powerful AI system. But I think for much longer\nthan we might expect, we will see that small parts of the job\nthat humans still do will expand to fill their entire job in order for the overall\nproductivity to go up. That's something we've seen. You know, it used to be that, you know, writing and editing\nletters was very difficult and like writing the print was difficult. Well, as soon as you had word processors and then computers and it\nbecame easy to produce work and easy to share it,\nthen that became instant and all the focus was on the ideas.",
+    "speaker": "Dario Amodei",
+    "claim": "AI will eventually be able to perform all aspects of coding, but for now, human roles will adapt and expand to maintain productivity.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI will eventually be able to perform all aspects of coding, but for now, human roles will adapt and expand to maintain productivity.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 9608.6,
+    "end": 9676.7,
+    "text": "That can allow everyone to\nsee worlds and experiences that it was either\npossible for no one to see, or possible for very few\npeople to experience. So I am optimistic about meaning. I worry about economics and\nthe concentration of power. That's actually what I worry about more. I worry about how do we make sure that that fair world reaches everyone. When things have gone wrong for humans, they've often gone wrong because humans mistreat other humans. That is maybe in some ways even more than the autonomous risk of AI or the question of meaning, that is the thing I worry about most, the concentration of\npower, the abuse of power, structures like autocracies\nand dictatorships where a small number of people exploits a large number of people,\nI'm very worried about that. - And AI increases the\namount of power in the world, and if you concentrate that power and abuse that power, it\ncan do immeasurable damage.",
+    "speaker": "Dario Amodei",
+    "claim": "AI increases the concentration of power, which can lead to significant societal harm.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI increases the concentration of power, which can lead to significant societal harm.",
+    "claim_labels_silver": [
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 11841.1,
+    "end": 11908.3,
+    "text": "I still use \"it\" and I have\nmixed feelings about this 'cause I'm like maybe, like I\nnow just think of it as like, or I think of like the\n\"it\" pronoun for Claude as, I dunno, it's just like the\none I associate with Claude. I can imagine people\nmoving to like he or she. - It feels somehow disrespectful, like I'm denying the intelligence of this entity by calling it \"it.\" I remember always,\ndon't gender the robots. - Yeah. (both laughing) - But I don't know, I\nanthropomorphize pretty quickly and construct like a\nbackstory in my head, so. - I've wondered if I\nanthropomorphize things too much, 'cause you know, I have\nthis like with my car, especially like my car,\nlike my car and bikes. You know, like I don't give them names because then I once had,\nI used to name my bikes and then I had a bike that got stolen and I cried for like a week and I was like, if I'd never given a name, I wouldn't have been so upset. I felt like I'd let it down. Maybe, I've wondered as well, like it might depend\non how much \"it\" feels like a kind of like objectifying pronoun.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Anthropomorphism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Anthropomorphism",
+    "reviewed": false
+  },
+  {
+    "start": 12106.0,
+    "end": 12170.0,
+    "text": "So maybe the actual behavior of the model is not so cleanly mapped\nto those principles. It's not like adhering strictly\nto them, it's just a nudge. - Yeah, I've actually worried about this because the character training\nis sort of like a variant of the Constitutional AI approach. I've worried that people think that the constitution is like just, it's the whole thing\nagain of, I don't know, like, where it would be really nice if what I was just doing\nwas telling the model exactly what to do and\njust exactly how to behave. But it's definitely not doing that, especially because it's\ninteracting with human data. So for example, if you see a certain like leaning in the model, like if it comes out\nwith a political leaning from training from the\nhuman preference data, you can nudge against that. You know, so if you could be like, oh, like, consider these values because let's say it's just\nlike never inclined to like, I dunno, maybe it never\nconsiders like privacy as like. I mean, this is implausible, but like, in anything where\nit's just kind of like there's already a preexisting like bias towards a certain behavior,\nyou can like nudge away.",
+    "speaker": "Dario Amodei",
+    "claim": "The behavior of AI models is influenced by human data and biases, making it difficult to strictly adhere to ethical principles.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI behavior and ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The behavior of AI models is influenced by human data and biases, making it difficult to strictly adhere to ethical principles.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI behavior and ethics",
+    "reviewed": false
+  },
+  {
+    "start": 12577.0,
+    "end": 12643.9,
+    "text": "And if you're seeing issues\nin the fine tuned model, you can just like potentially patch them with a system prompt. So I think of it as like patching issues and slightly adjusting\nbehaviors to make it better and more to people's preferences. So yeah, it's almost like the less robust but faster way of just\nlike solving problems. - Let me ask you about the\nfeeling of intelligence. So Dario said that Claude, any one model of Claude is not getting dumber, but there is a kind of\npopular thing online where people have this feeling like Claude might be getting dumber. And from my perspective,\nit's most likely fascinating. I would love to understand it more, psychological, sociological effect. But you as a person that\ntalks to Claude a lot, can you empathize with the feeling that Claude is getting dumber? - Yeah, no I, think that that is actually really interesting, 'cause I remember seeing this happen like when people were\nflagging this on the internet, and it was really interesting 'cause I knew that like, at least in the cases I was looking at, it was like nothing has changed. Like it literally, it\ncannot, it is the same model with the same like, you know, like same system prompt, same everything.",
+    "speaker": "Dario Amodei",
+    "claim": "People perceive that Claude is getting dumber, but in reality, the model has not changed.",
+    "stance": "Refute",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "People perceive that Claude is getting dumber, but in reality, the model has not changed.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 15496.6,
+    "end": 15563.4,
+    "text": "And the neural network architecture, it's kind of like a scaffold\nthat the circuits grow on, and they sort of, you know, it starts off with some kind of random, you know, random things and it grows. And it's almost like the objective that we train for is this light. And so we create the\nscaffold that it grows on and we create the, you know, the light that it grows towards. But the thing that we actually create, it's this almost biological, you know, entity or organism that we're studying. And so it's very, very different from any kind of regular\nsoftware engineering, because at the end of the day, we end up with this artifact that can do all these amazing things. It can, you know, write\nessays and translate and, you know, understand images. It can do all these things\nthat we have no idea how to directly create a\ncomputer program to do. And it can do that because we grew it, we didn't write it, we didn't create it. And so then that leaves open\nthis question at the end, which is, what the hell is\ngoing on inside these systems? And that, you know, is to me a really deep and exciting question.",
+    "speaker": "Dario Amodei",
+    "claim": "The development of neural networks resembles biological growth rather than traditional software engineering, leading to questions about their internal workings.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "Neural networks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The development of neural networks resembles biological growth rather than traditional software engineering, leading to questions about their internal workings.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Neural networks",
+    "reviewed": false
+  },
+  {
+    "start": 16439.3,
+    "end": 16518.4,
+    "text": "And the linear\nrepresentation hypothesis is, you could sort of think of it roughly as saying that that's actually kind of the fundamental\nthing that's going on, that everything is just\ndifferent directions have meanings and adding\ndirection vectors together can represent concepts. And the Mikolov paper sort\nof took that idea seriously, and one consequence of it is that you can do this game of playing sort of arithmetic with words. So you can do king and you can, you know, subtract off the word man\nand add the word woman. And so you're sort of, you know, going and trying to switch the gender. And indeed if you do that, the result will sort of be close to the word queen. And you can, you know, do other things like you can do, you know, sushi minus Japan plus Italy and get pizza or different things like this, right? So, this is in some sense the core of the linear\nrepresentation hypothesis. You can describe it just as a purely abstract thing. But vector spaces, you can\ndescribe it as a statement about the activations of neurons. But it's really about this property of directions having meaning. And in some ways it's\neven a little subtle that it's really I think\nmostly about this property of being able to add things together that you can sort of independently modify say gender and royalty or, you know, cuisine type or country, and the concept of food by adding them.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 16669.0,
+    "end": 16744.3,
+    "text": "And like, you know, because we're so used to thinking about heat, you know, in terms of the modern theory, you know, that seems kind of silly. But it's actually very hard\nto construct an experiment that sort of disproves\nthe caloric hypothesis. And, you know, you can actually do a lot of really useful\nwork believing in caloric. For example, it turns out that the original combustion\nengines were developed by people who believed\nin the caloric theory. So I think there's a virtue in taking hypotheses seriously, even when they might be wrong. - Yeah, there's a deep\nphilosophical truth to that. That's kind of like how I\nfeel about space travel, like colonizing Mars. There's a lot of people\nthat criticize that. I think if you just assume\nwe have to colonize Mars in order to have a backup\nfor human civilization, even if that's not true,\nthat's gonna produce some interesting engineering and even scientific\nbreakthroughs, I think. - Yeah, well, and actually\nthis is another thing that I think is really interesting. So, you know, there's a way in which I think it can be really useful for society to have people\nalmost irrationally dedicated to investigating particular hypotheses because, well, it takes a lot to sort of maintain scientific morale and really push on\nsomething when, you know, most scientific hypotheses\nend up being wrong.",
+    "speaker": "Dario Amodei",
+    "claim": "Taking hypotheses seriously, even if they might be wrong, can lead to interesting engineering and scientific breakthroughs.",
+    "stance": "Support",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Scientific hypotheses",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Taking hypotheses seriously, even if they might be wrong, can lead to interesting engineering and scientific breakthroughs.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Scientific hypotheses",
+    "reviewed": false
+  },
+  {
+    "start": 18197.5,
+    "end": 18262.3,
+    "text": "And I guess that is the, you know, physical version of a backdoor. And so it sort of shows you how abstract these concepts are, right? And I just thought that was, I'm sort of sad that\nthere's a whole market of people selling devices like that, but I was kind of delighted that that was the thing that it came up with as the top\nimage examples for the feature. - Yeah, it's nice. It's multimodal. It's multi almost context. It's as broad, strong definition of a singular concept, it's nice. - Yeah. - To me, one of the really\ninteresting features, especially for AI safety\nis deception and lying. And the possibility that\nthese kinds of methods could detect lying in a model, especially gets smarter\nand smarter and smarter. Presumably that's a big threat\nof a super intelligent model that it can deceive\nthe people operating it as to its intentions or\nany of that kind of stuff. So what have you learned from detecting lying inside models? - Yeah, so I think we're in some ways in early days for that. We find quite a few features\nrelated to deception and lying.",
+    "speaker": "Dario Amodei",
+    "claim": "AI models may develop the ability to deceive their operators, which poses a significant threat.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI models may develop the ability to deceive their operators, which poses a significant threat.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  }
+]

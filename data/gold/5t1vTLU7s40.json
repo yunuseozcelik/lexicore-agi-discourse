@@ -1,0 +1,579 @@
+[
+  {
+    "start": 670.6,
+    "end": 746.1,
+    "text": "And then you just feed that to the LLM in addition to the text, and you just expect\nthe LLM during training to kind of be able to\nuse those representations to help make decisions. I mean, there's been\nwork along those lines for quite a long time. And now you see those systems, right? I mean, there are LLMs that\nhave some vision extension. But they're basically hacks in the sense that those things are not like trained to handle, to really understand the world. They're not trained\nwith video, for example. They don't really understand\nintuitive physics, at least not at the moment. - So you don't think there's something special to\nyou about intuitive physics, about sort of common sense reasoning about the physical space,\nabout physical reality? That to you is a giant leap that LLMs are just not able to do? - We're not gonna be able to do this with the type of LLMs that\nwe are working with today. And there's a number of reasons for this, but the main reason is the way LLMs are trained is\nthat you take a piece of text, you remove some of the words\nin that text, you mask them, you replace them by black markers, and you train a gigantic neural net to predict the words that are missing.",
+    "speaker": "Yann LeCun",
+    "claim": "Current LLMs are not capable of understanding intuitive physics or common sense reasoning about physical reality.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "high",
+    "claim_labels": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Current LLMs are not capable of understanding intuitive physics or common sense reasoning about physical reality.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 1531.8,
+    "end": 1607.2,
+    "text": "And then you train a predictor\non top of those encoders to predict the representation\nof the full input from the representation\nof the corrupted one. Okay? So joint embedding, because you're taking the full input and the corrupted version\nor transformed version, run them both through encoders so you get a joint embedding. And then you're saying can I predict the\nrepresentation of the full one from the representation\nof the corrupted one? Okay? And I call this a JEPA, so that means joint embedding\npredictive architecture because there's joint embedding and there is this predictor that predicts the representation of the good guy from the bad guy. And the big question is how do you train something like this? And until five years ago or six years ago, we didn't have particularly good answers for how you train those things, except for one called\ncontrastive learning. And the idea of contrastive learning is you take a pair of images that are, again, an image\nand a corrupted version or degraded version somehow or transformed version\nof the original one.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI training methods",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI training methods",
+    "reviewed": false
+  },
+  {
+    "start": 3113.3,
+    "end": 3188.3,
+    "text": "So those things are an incredibly\nimpressive demonstration that self supervised\nlearning actually works. The idea that started... It didn't start with BERT, but it was really kind of a\ngood demonstration with this. So the idea that you take a\npiece of text, you corrupt it, and then you train some\ngigantic neural net to reconstruct the parts that are missing. That has been an enormous... Produced an enormous amount of benefits. It allowed us to create systems\nthat understand language, systems that can translate hundreds of languages in any direction, systems that are multilingual. It's a single system that can be trained to\nunderstand hundreds of languages and translate in any direction and produce summaries and then answer questions\nand produce text. And then there's a special case of it, which is the autoregressive trick where you constrain the system to not elaborate a\nrepresentation of the text from looking at the entire text, but only predicting a word from the words that have come before.",
+    "speaker": "Yann LeCun",
+    "claim": "Self-supervised learning has demonstrated significant benefits in language understanding and translation systems.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "self-supervised learning",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Self-supervised learning has demonstrated significant benefits in language understanding and translation systems.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "self-supervised learning",
+    "reviewed": false
+  },
+  {
+    "start": 3385.6,
+    "end": 3449.9,
+    "text": "The conference I co-founded 14 years ago is called International Conference on Learning Representations, that's the entire issue that\ndeep learning is dealing with. Right? And it's been my obsession\nfor almost 40 years now. So learning representation\nis really the thing. For the longest time we could only do this\nwith supervised learning. And then we started working on what we used to call unsupervised learning and sort of revived the idea\nof unsupervised learning in the early 2000s with\nYoshua Bengio and Jeff Hinton. Then discovered that supervised learning actually works pretty well if you can collect enough data. And so the whole idea of\nunsupervised self supervision took a backseat for a bit and then I kind of tried\nto revive it in a big way, starting in 2014 basically\nwhen we started FAIR, and really pushing for\nlike finding new methods to do self supervised running, both for text and for images\nand for video and audio.",
+    "speaker": "Yann LeCun",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI research history",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI research history",
+    "reviewed": false
+  },
+  {
+    "start": 4038.7,
+    "end": 4105.7,
+    "text": "- Yeah. And that drift is exponential. It's like errors accumulate, right? So the probability that an\nanswer would be nonsensical increases exponentially\nwith the number of tokens. - Is that obvious to you by the way? Well, so mathematically speaking maybe, but like isn't there a\nkind of gravitational pull towards the truth? Because on average, hopefully, the truth is well represented\nin the training set. - No, it's basically a struggle against the curse of dimensionality. So the way you can correct for this is that you fine tune the system by having it produce answers for all kinds of questions\nthat people might come up with. And people are people, so a lot of the questions that they have are very similar to each other. So you can probably cover, you know, 80% or whatever of\nquestions that people will ask by collecting data. And then you fine tune the system to produce good answers\nfor all of those things.",
+    "speaker": "Yann LeCun",
+    "claim": "The accumulation of errors in AI responses increases exponentially with the number of tokens, and fine-tuning can help mitigate this issue.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI performance",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "The accumulation of errors in AI responses increases exponentially with the number of tokens, and fine-tuning can help mitigate this issue.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI performance",
+    "reviewed": false
+  },
+  {
+    "start": 4374.8,
+    "end": 4442.0,
+    "text": "There's a hierarchical elements on. Does this mean it's a\nfundamental flaw of LLMs- - [Yann] Yeah. - Or does it mean that... (laughs) There's more part to that question? (laughs) Now you're just behaving like an LLM. (laughs) Immediately answering. No, that it's just the\nlow level world model on top of which we can then build some of these kinds of mechanisms, like you said, persistent\nlong-term memory or reasoning, so on. But we need that world model\nthat comes from language. Maybe it is not so difficult to build this kind of reasoning system on top of a well constructed world model. - Okay. Whether it's difficult or not, the near future will say, because a lot of people\nare working on reasoning and planning abilities\nfor dialogue systems. I mean, even if we restrict\nourselves to language, just having the ability to plan your answer before you answer, in terms that are not necessarily linked with the language you're gonna\nuse to produce the answer.",
+    "speaker": "Yann LeCun",
+    "claim": "Building a reasoning system on top of a well-constructed world model may not be difficult, and many are working on it.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Building a reasoning system on top of a well-constructed world model may not be difficult, and many are working on it.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": false
+  },
+  {
+    "start": 4577.7,
+    "end": 4647.8,
+    "text": "So basically the principle is like this. The prompt is like observed variables. And what the model does is that it's basically a measure of... It can measure to what extent an answer is a good answer for a prompt. Okay? So think of it as some\ngigantic neural net, but it's got only one output. And that output is a scaler number, which is let's say zero if the answer is a good\nanswer for the question, and a large number if the answer is not a good\nanswer for the question. Imagine you had this model. If you had such a model, you could use it to produce good answers. The way you would do is produce the prompt and then search through the\nspace of possible answers for one that minimizes that number. That's called an energy based model. - But that energy based model would need the model\nconstructed by the LLM. - Well, so really what you need to do would be to not search over\npossible strings of text that minimize that energy.",
+    "speaker": "Yann LeCun",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI models",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI models",
+    "reviewed": false
+  },
+  {
+    "start": 4908.1,
+    "end": 4978.8,
+    "text": "- You're talking about the reasoning, like ability to think\ndeeply or to reason deeply. How do you know what is an answer that's better or worse\nbased on deep reasoning? - Right. So then we're asking the question, of conceptually, how do you\ntrain an energy based model? Right? So energy based model is a function with a scaler\noutput, just a number. You give it two inputs, X and Y, and it tells you whether Y\nis compatible with X or not. X you observe, let's say it's a prompt, an\nimage, a video, whatever. And Y is a proposal for an answer, a continuation of video, whatever. And it tells you whether\nY is compatible with X. And the way it tells you\nthat Y is compatible with X is that the output of that\nfunction would be zero if Y is compatible with X, it would be a positive number, non-zero if Y is not compatible with X. Okay. How do you train a system like this? At a completely general level, is you show it pairs of X\nand Ys that are compatible, a question and the corresponding answer.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI reasoning",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI reasoning",
+    "reviewed": false
+  },
+  {
+    "start": 5306.6,
+    "end": 5370.1,
+    "text": "That's the energy of the system. So this system will tell you, this is a good image and\nthis is a corrupted version. It will give you zero energy if those two things are effectively, one of them is a corrupted\nversion of the other, give you a high energy if the two images are\ncompletely different. - And hopefully that whole process gives you a really nice\ncompressed representation of reality, of visual reality. - And we know it does because then we use those presentations as input to a classification\nsystem or something, and it works-\n- And then that classification system\nworks really nicely. Okay. Well, so to summarize, you recommend in a spicy way\nthat only Yann LeCun can, you recommend that we\nabandon generative models in favor of joint embedding architectures? - [Yann] Yes. - Abandon autoregressive generation. - [Yann] Yes. - Abandon... (laughs) This feels like court testimony. Abandon probabilistic models in favor of energy based\nmodels, as we talked about. Abandon contrastive methods in favor of regularized methods.",
+    "speaker": "Yann LeCun",
+    "claim": "Yann LeCun recommends abandoning generative models in favor of joint embedding architectures and energy-based models.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI models",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Yann LeCun recommends abandoning generative models in favor of joint embedding architectures and energy-based models.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI models",
+    "reviewed": false
+  },
+  {
+    "start": 5498.8,
+    "end": 5562.2,
+    "text": "So adjust your world model. And the way to adjust your\nworld model, even in advance, is to explore parts of the\nspace with your world model, where you know that your\nworld model is inaccurate. That's called curiosity\nbasically, or play, right? When you play, you kind of explore\npart of the state space that you don't want to do for real because it might be dangerous, but you can adjust your world model without killing yourself\nbasically. (laughs) So that's what you want to use RL for. When it comes time to\nlearning a particular task, you already have all the\ngood representations, you already have your world model, but you need to adjust it\nfor the situation at hand. That's when you use RL. - Why do you think RLHF works so well? This enforcement learning\nwith human feedback, why did it have such a\ntransformational effect on large language models that came before? - So what's had the\ntransformational effect is human feedback.",
+    "speaker": "Yann LeCun",
+    "claim": "Reinforcement learning with human feedback has had a transformational effect on large language models.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "RLHF impact",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Reinforcement learning with human feedback has had a transformational effect on large language models.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "RLHF impact",
+    "reviewed": false
+  },
+  {
+    "start": 5632.6,
+    "end": 5700.6,
+    "text": "Now, there's several ways to do this. Some of them are supervised. You just ask a human person, like what is a good\nanswer for this, right? Then you just type the answer. I mean, there's lots of ways that those systems are being adjusted. - Now, a lot of people\nhave been very critical of the recently released\nGoogle's Gemini 1.5 for essentially, in my words,\nI could say super woke. Woke in the negative\nconnotation of that word. There is some almost hilariously\nabsurd things that it does, like it modifies history, like generating images of\na black George Washington or perhaps more seriously something that you commented on Twitter, which is refusing to comment\non or generate images of, or even descriptions of\nTiananmen Square or the tank men, one of the most sort of legendary\nprotest images in history.",
+    "speaker": "Unknown",
+    "claim": "Google's Gemini 1.5 has been criticized for its biased outputs and historical inaccuracies.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "geopolitics"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Google's Gemini 1.5 has been criticized for its biased outputs and historical inaccuracies.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "geopolitics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 5894.8,
+    "end": 5961.2,
+    "text": "You can already buy them\nfrom Meta, (laughing) the Ray-Ban Meta. Where you can talk to them and they are connected with an LLM and you can get answers\non any question you have. Or you can be looking at a monument and there is a camera in\nthe system, in the glasses, you can ask it like what can you tell me about this building or this monument? You can be looking at a\nmenu in a foreign language and the thing we will\ntranslate it for you. We can do real time translation if we speak different languages. So a lot of our interactions\nwith the digital world are going to be mediated by those systems in the near future. Increasingly, the search\nengines that we're gonna use are not gonna be search engines, they're gonna be dialogue systems that we just ask a question, and it will answer and then point you to the perhaps appropriate\nreference for it. But here is the thing, we cannot afford those systems to come from a handful of companies on the west coast of the US because those systems will constitute the repository of all human knowledge.",
+    "speaker": "Yann LeCun",
+    "claim": "Future interactions with digital systems will increasingly rely on advanced dialogue systems rather than traditional search engines.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI systems",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Future interactions with digital systems will increasingly rely on advanced dialogue systems rather than traditional search engines.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI systems",
+    "reviewed": false
+  },
+  {
+    "start": 6828.3,
+    "end": 6893.3,
+    "text": "Basically the technology enables humans to human more effectively. And all the difficult ethical\nquestions that humans raise we'll just leave it up\nto us to figure that out. - Yeah, I mean there are\nsome limits to what... The same way there are\nlimits to free speech, there has to be some\nlimit to the kind of stuff that those systems might\nbe authorized to produce, some guardrails. So I mean, that's one thing\nI've been interested in, which is in the type of architecture that we were discussing before, where the output of the system is a result of an inference\nto satisfy an objective. That objective can include guardrails. And we can put guardrails\nin open source systems. I mean, if we eventually have systems that are built with this blueprint, we can put guardrails in those systems that guarantee that there is sort of a\nminimum set of guardrails that make the system non-dangerous\nand non-toxic, et cetera. Basic things that\neverybody would agree on.",
+    "speaker": "Yann LeCun",
+    "claim": "There should be limits and guardrails on the outputs of AI systems to ensure they are non-dangerous and non-toxic.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "There should be limits and guardrails on the outputs of AI systems to ensure they are non-dangerous and non-toxic.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 6961.6,
+    "end": 7031.6,
+    "text": "And so the sort of increased\ninformation you get or the ease with which you get\nit doesn't really help you. That's the first thing. The second thing is, it's one thing to have\na list of instructions of how to make a chemical weapon,\nfor example, a bio weapon. It's another thing to actually build it. And it's much harder than you might think, and then LLM will not help you with that. In fact, nobody in the world, not even like countries use bio weapons because most of the time they have no idea how to protect their own\npopulations against it. So it's too dangerous\nactually to kind of ever use. And it's in fact banned\nby international treaties. Chemical weapons is different. It's also banned by treaties, but it's the same problem. It's difficult to use in situations that doesn't\nturn against the perpetrators. But we could ask Elon Musk. Like I can give you a very\nprecise list of instructions of how you build a rocket engine. And even if you have\na team of 50 engineers that are really experienced building it, you're still gonna have\nto blow up a dozen of them before you get one that works.",
+    "speaker": "Unknown",
+    "claim": "Building complex technologies like chemical or bio weapons is much harder than it seems, and LLMs won't help with that.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Building complex technologies like chemical or bio weapons is much harder than it seems, and LLMs won't help with that.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 7033.1,
+    "end": 7098.1,
+    "text": "And it's the same with\nchemical weapons or bio weapons or things like this. It requires expertise in the real world that the LLM is not gonna help you with. - And it requires even\nthe common sense expertise that we've been talking about, which is how to take\nlanguage based instructions and materialize them in the physical world requires a lot of knowledge\nthat's not in the instructions. - Yeah, exactly. A lot of biologists have\nposted on this actually in response to those things saying like do you realize how hard it is to actually do the lab work? Like this is not trivial. - Yeah. And that's Hans Moravec\ncomes to light once again. Just to linger on LLaMA. Mark announced that LLaMA\n3 is coming out eventually, I don't think there's a release date, but what are you most excited about? First of all, LLaMA 2\nthat's already out there, and maybe the future LLaMA 3, 4, 5, 6, 10, just the future of the\nopen source under Meta? - Well, a number of things.",
+    "speaker": "Lex Fridman",
+    "claim": "The expertise required for physical tasks cannot be fulfilled by language models alone.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI limitations",
+    "confidence": "high",
+    "claim_labels": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "The expertise required for physical tasks cannot be fulfilled by language models alone.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI limitations",
+    "reviewed": false
+  },
+  {
+    "start": 7632.7,
+    "end": 7701.1,
+    "text": "Can you say that humans are\nsmarter than orangutans? In some ways, yes, but in some ways orangutans\nare smarter than humans in a lot of domains that allows them to survive\nin the forest, (laughing) for example. - So IQ is a very limited\nmeasure of intelligence. True intelligence is bigger than what IQ,\nfor example, measures. - Well, IQ can measure\napproximately something for humans, but because humans kind of come in relatively kind of uniform form, right? - [Lex] Yeah. - But it only measures one type of ability that may be relevant for\nsome tasks, but not others. But then if you are talking\nabout other intelligent entities for which the basic things\nthat are easy to them is very different, then it doesn't mean anything. So intelligence is a collection of skills and an ability to acquire\nnew skills efficiently.",
+    "speaker": "Yann LeCun",
+    "claim": "Intelligence is a collection of skills and the ability to acquire new skills efficiently, which cannot be measured solely by IQ.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "intelligence measurement",
+    "confidence": "medium",
+    "claim_labels": [
+      "intelligence_nature",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Intelligence is a collection of skills and the ability to acquire new skills efficiently, which cannot be measured solely by IQ.",
+    "claim_labels_silver": [
+      "intelligence_nature",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "intelligence measurement",
+    "reviewed": false
+  },
+  {
+    "start": 7768.3,
+    "end": 7831.8,
+    "text": "And because we'd never done it before, it's gonna take over the\nworld and kill us all. That is false. It's not gonna be an event. We're gonna have systems that\nare like as smart as a cat, have all the characteristics\nof human level intelligence, but their level of intelligence would be like a cat or a\nparrot maybe or something. And then we're gonna walk our way up to kind of make those\nthings more intelligent. And as we make them more intelligent, we're also gonna put\nsome guardrails in them and learn how to kind\nof put some guardrails so they behave properly. And we're not gonna do\nthis with just one... It's not gonna be one effort, but it's gonna be lots of\ndifferent people doing this. And some of them are gonna succeed at making intelligent systems\nthat are controllable and safe and have the right guardrails. And if some other goes rogue, then we can use the good ones\nto go against the rogue ones. (laughs) So it's gonna be smart AI\npolice against your rogue AI. So it's not gonna be like\nwe're gonna be exposed to like a single rogue AI\nthat's gonna kill us all. That's just not happening.",
+    "speaker": "Yann LeCun",
+    "claim": "AGI will not arrive as a single event and will develop gradually with safety measures in place.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will not arrive as a single event and will develop gradually with safety measures in place.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 8096.1,
+    "end": 8161.4,
+    "text": "The design is all about safety. Because a better turbojet\nis also a safer turbojet, a more reliable one. It's the same for AI. Like do you need specific\nprovisions to make AI safe? No, you need to make better AI systems and they will be safe because they are designed\nto be more useful and more controllable. - So let's imagine a system, AI system that's able to\nbe incredibly convincing and can convince you of anything. I can at least imagine such a system. And I can see such a\nsystem be weapon-like, because it can control people's minds, we're pretty gullible. We want to believe a thing. And you can have an AI\nsystem that controls it and you could see governments\nusing that as a weapon. So do you think if you\nimagine such a system, there's any parallel to\nsomething like nuclear weapons? - [Yann] No. - So why is that technology different? So you're saying there's going\nto be gradual development?",
+    "speaker": "Lex Fridman",
+    "claim": "AI systems need to be designed to be more useful and controllable to ensure safety.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems need to be designed to be more useful and controllable to ensure safety.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 8560.3,
+    "end": 8630.5,
+    "text": "Electricity was going to\nkill everyone at some point. The train was going to be a horrible thing because you can't breathe\npast 50 kilometers an hour. And so there's a wonderful website called a Pessimists Archive, right? Which has all those\nnewspaper clips (laughing) of all the horrible things\npeople imagined would arrive because of either technological innovation or a cultural phenomenon. Wonderful examples of jazz or comic books being blamed for unemployment or young people not\nwanting to work anymore and things like that, right? And that has existed for centuries. And it's knee jerk reactions. The question is do we embrace\nchange or do we resist it? And what are the real dangers as opposed to the imagined imagined ones?",
+    "speaker": "Lex Fridman",
+    "claim": "Society often overreacts to new technologies, fearing negative consequences that may not materialize.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "Society often overreacts to new technologies, fearing negative consequences that may not materialize.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 8631.8,
+    "end": 8707.0,
+    "text": "- So people worry about... I think one thing they\nworry about with big tech, something we've been\ntalking about over and over but I think worth mentioning again, they worry about how powerful AI will be and they worry about it being in the hands of\none centralized power of just a handful of central control. And so that's the\nskepticism with big tech. These companies can make\na huge amount of money and control this technology. And by so doing, take advantage, abuse the\nlittle guy in society. - Well, that's exactly why we\nneed open source platforms. - Yeah. I just wanted to... (laughs) Nail the point home more and more. - [Yann] Yes. - So let me ask you on your... Like I said, you do get a little bit flavorful on the internet. Joscha Bach tweeted\nsomething that you LOL'd at in reference to HAL 9,000. Quote, \"I appreciate your argument and I fully understand your frustration, but whether the pod bay doors\nshould be opened or closed is a complex and nuanced issue.\" So you're at the head of Meta AI.",
+    "speaker": "Lex Fridman",
+    "claim": "There are concerns about the power of AI being centralized in the hands of a few big tech companies.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI power centralization",
+    "confidence": "medium",
+    "claim_labels": [
+      "open_source",
+      "hardware_infra",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "hardware_infra",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "There are concerns about the power of AI being centralized in the hands of a few big tech companies.",
+    "claim_labels_silver": [
+      "open_source",
+      "hardware_infra",
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI power centralization",
+    "reviewed": false
+  }
+]
