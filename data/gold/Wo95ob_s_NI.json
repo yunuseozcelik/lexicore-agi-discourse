@@ -32,7 +32,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Temelde açılım, uzun süre boyunca birden fazla kod dosyası yazacak şekilde tutarlı bir şekilde hareket edebilmesidir. Şimdi ile o zaman arasında ne değişti? Bunu, bu tür daha zor görevleri yerine getirmek için modelleri eğitmekten kaynaklanacağını söyleyebilirim. Çoğu eğitim verisi, daha çok tek adım atma gibi. Modelleri bu daha uzun projeleri gerçekleştirmeye yönelik daha fazla eğitim yapmamızı bekliyorum. Bu, bu görevleri nasıl yapacaklarını öğrenmek için RL gibi herhangi bir tür eğitim içindir. Sonuçları denetleyip denetlememeniz fark etmez; bu uzun projeleri gerçekleştirmek için herhangi bir tür eğitim, modelleri çok daha iyi hale getirecektir. Tüm alan oldukça yeni olduğu için, bu tür bir eğitimde çok sayıda kolay kazanım olduğunu söyleyebilirim. Bu bir şey. Modeller geliştikçe, hatalardan kurtulma veya kenar durumlarıyla başa çıkma konusunda daha iyi hale geleceklerini de bekliyorum. Bir şeyler ters gittiğinde, nasıl kurtulacaklarını bilecekler."
   },
   {
     "start": 324.4,
@@ -61,7 +62,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Modeller daha örnek verimli olacak. Onları doğru yola geri döndürmek için tonlarca veri toplamanıza gerek kalmayacak. Sadece biraz veri veya diğer yeteneklerden genel bir çıkarım, onları doğru yola geri döndürmeye yetecek. Mevcut modeller sadece takılıp kaybolabilir. Genel çıkarımın doğru yola geri dönmenize nasıl yardımcı olduğunu özel olarak anlamak istiyorum. Bu konuda daha fazla şey söyleyebilir misiniz? Bu iki kavramın neden bağlantılı olduğunu pek anlayamıyorum. Doğru, doğrudan bağlantılı değiller. Genellikle her şeyi yapan biraz veri alırsınız. Çeşitli bir veri seti toplarsanız, içinde her şeyden biraz alırsınız. Eğer gerçekten iyi genelleştiren modellere sahipseniz—sadece doğru yola geri dönme ile ilgili birkaç örnekten veya ön eğitim verilerinde bir modelin doğru yola geri döndüğü birkaç örnekten—model, gördüğü diğer şeylerden mevcut duruma genelleme yapabilecektir."
   },
   {
     "start": 393.7,
@@ -90,7 +92,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Eğer daha zayıf modellere sahipseniz, yeterince veri ile neredeyse her şeyi yapmalarını sağlayabilirsiniz. Ama belirli bir alan veya beceri üzerinde çok fazla çaba harcamanız gerekebilir. Oysa daha güçlü bir model için, herhangi bir eğitim verisi veya çaba olmadan doğru şeyi yapabilir. Şu anda bu modeller beş dakika boyunca tutarlı bir şekilde çalışabiliyor. Onların, bir insanın bir saatte yapacağı görevleri, sonra bir haftada, sonra bir ayda ve daha fazlasında yapabilmelerini istiyoruz. Bu her bir bu eşik için, her birinin 10 kat daha fazla hesaplama gerektirip gerektirmeyeceği, mevcut ön eğitim için ölçekleme yasalarına benzer mi? Yoksa, zaten daha örnek verimli hale geldiğiniz ve doğrudan görevleri yerine getirme yıllarına geçebileceğiniz çok daha akıcı bir süreç mi olacak? Yüksek seviyede, daha uzun vadeli görevlerin iyi bir şekilde yerine getirilmesi için daha fazla model zekası gerektireceğine katılıyorum. Bunlar eğitmek için daha pahalı olacak. Gerçekten temiz bir ölçekleme yasası beklemiyorum, eğer bunu çok dikkatli bir şekilde kurmazsanız veya deneyi belirli bir şekilde tasarlamazsanız. Belirli bir seviyeye ulaştığınızda, çok daha uzun görevlerle başa çıkabileceğiniz bazı aşama geçişleri olabilir."
   },
   {
     "start": 818.1,
@@ -119,7 +122,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu genelleme ve transfer için gördüğünüz en güçlü kanıt nedir? Gelecekteki yetenek modelleri için büyük soru, ne kadar genellemenin gerçekleştiği gibi görünüyor. Sizi gerçekten etkileyen bir şey var mı? Genelleme yoluyla öğrenmesini beklemeyeceğiniz bir şeyi öğrenen bir model gördünüz mü? Kesinlikle, post-eğitimde bazı ilginç genelleme örnekleri oldu. İyi bilinen bir fenomen, tüm ince ayarınızı İngilizce verilerle yaparsanız, modelin diğer dillerde otomatik olarak iyi davranmasıdır. Yani, asistanı İngilizce verilerle eğitirseniz, İspanyolca'da da makul bir şey yapacaktır. Bazen, İngilizce veya İspanyolca yanıt verip vermediği konusunda yanlış davranış alabilirsiniz. Genellikle orada doğru davranışı alırsınız, yani İspanyolca sorgulara İspanyolca yanıt vermesini sağlarsınız. Bu, modelin doğru, yardımcı kişiliğe yapıştığı ve ardından farklı dillerde doğru şeyi otomatik olarak yaptığı ilginç bir genelleme örneğidir."
   },
   {
     "start": 1111.6,
@@ -148,7 +152,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "doğru bir şekilde sandbox'lanmış ve her şey. Belki de bu, onu ölçeklendirmemek veya hangi ölçekle dağıtım yapacağınız konusunda dikkatli olmak anlamına geliyor. Hadi bir senaryo ile oynayalım. AGI gelecek yıl gerçekleşiyor. Daha akıllı bir sistemi eğitmiyorsunuz ama onu bir ölçüde ölçülü bir şekilde dağıtıyorsunuz. Geliştirmenin OpenAI'ye özgü olmayacağı varsayılıyor. AGI, beklediğimizden çok daha kolay ortaya çıkıyor ve bu yüzden oldu. Biraz dağıtım yapmayı bekliyorsunuz. Şimdi diğer şirketler benzer yetenek seviyelerine sahip. Sonra ne oluyor? Dağıtım yapmayı beklerken, neyi bekliyorsunuz? Bu senaryoda her şirket ne yapıyor? Oyun teorisi biraz zor düşünülüyor. Öncelikle, bunun gelecek yıl olacağını düşünmüyorum ama bu konuşmayı yapmak yine de faydalı. Belki iki veya üç yıl sürebilir."
   },
   {
     "start": 1622.4,
@@ -177,7 +182,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunu şu anda korkulacak bir şey olarak görmüyorum çünkü şu an modellerin tutarlı bir şeyler yapması zor. Eğer gerçekten iyi hale gelirlerse, bu soruları ciddiye almak isteyeceğiz. Modellerin uyumunu test eden birçok değerlendirme yapmak isteyeceğiz. Onların bize karşı dönmeyeceklerinden emin olmak isteyeceğiz. Yeteneklerde kesintili sıçramalar aramak isteyebilirsiniz. Modellerin yetenekleri için birçok değerlendirme yapmak isteyeceksiniz. Eğittiğiniz şeyin, modelin size karşı dönmesine neden olacak bir şey içermediğinden emin olmalısınız. Bu, yapılması zor bir şey gibi görünmüyor. Onları RLHF ile eğitme şeklimiz oldukça güvenli hissettiriyor, oysa modeller gerçekten çok akıllı."
   },
   {
     "start": 2072.9,
@@ -206,7 +212,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunun bir uzmanlaşma olup olmadığından bile emin değilim. Daha çok “Bu kısmı anlamıyorum, o yüzden daha derinlemesine inceleyeyim. Bunu zaten anlıyorum.” gibi. Sanırım mevcut bilgi tabanınıza uzmanlaşmakla ilgili. Anladım. Yani, sadece ilgili birçok kaynağa eğitim vermek ve belirli bir alanda ince ayar yapmakla ilgili değil. Aynı zamanda kendi akıl yürütmenizle bazı bilgileri geliştirmek ve ne öğrenmesi gerektiğini anlamak için bir tür iç gözlem veya öz bilgi kullanmakla da ilgili mi? Evet. Bu, günümüz sistemlerinde eksik olan bir şey gibi görünüyor. İnsanlar, büyük ölçekli eğitim ile dağıtımda her şeyi yapması beklenen tek bir anlık görüntü modeli ürettiğiniz bu orta alan üzerinde çok fazla zorlamadılar ve diğer tarafta bağlam içinde öğrenme var. Bunun bir kısmı, bağlam uzunluğunu o kadar artırdık ki bunun için bir teşvik olmadı. Eğer yüz bin veya bir milyon bağlama gidebiliyorsanız, bu aslında oldukça fazla. Birçok durumda bu gerçekten bir darboğaz değil. Muhtemelen bunu bir tür ince ayar ile desteklemek isteyeceksiniz. İnce ayar ve bağlam içinde öğrenmeden elde ettiğiniz yetenekler muhtemelen bir şekilde tamamlayıcıdır. Online öğrenme yapan ve kendi bilgileri üzerinde iç gözlem yapabilen, yeni bilgileri arayan sistemler inşa etmek isteyeceğimizi düşünüyorum."
   },
   {
     "start": 2569.5,
@@ -235,7 +242,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "İlk versiyonu yaptıktan sonra, bir sonraki versiyonun konuşma odaklı olması gerektiği açıktı. Bu yüzden konuşma odaklı sohbet asistanı üzerinde çalışmaya başladık. Bu, 2022'nin başında eğitimi tamamlanan GPT-3.5'in üzerine inşa edildi. O model dil ve kod konusunda oldukça iyiydi. Kodlama yardımı konusunda gerçekten iyi olduğunu hızlıca fark ettik. Bu, bizi heyecanlandıran şeylerden biriydi. Bunun üzerinde yılın çoğunu çalıştık. İçinde başka bir özellik olarak tarayıcı da vardı, ancak modelin iç bilgisi o kadar iyi olduğu için bunu daha sonra önemsiz hale getirdik. Tarayıcı, onun en ilginç yanı değildi. Bir süreliğine arkadaşlarımıza ve ailemize sunduk ve kamuya açık bir sürüm yapmayı düşünüyorduk. Aslında, GPT-4 o yılın Ağustos ayında eğitimini tamamladı. OpenAI'deki öncelikli RL çabası, üretime dağıtılan modeller olduğu için talimatları takip etme çabasıydı. GPT-4'ün ilk ince ayarları bu tüm yığınları kullandı. Bu modeller gerçekten iyiydi ve herkes, talimat ince ayar GPT-4'leri gördükten sonra çok heyecanlandı. Gerçekten iyiydiler. Ara sıra harika çıktılar veriyorlardı, ancak modelin aynı zamanda oldukça güvenilmez olduğu da açıktı. Bazen çok fazla hayal gücüyle yanıt veriyordu. Bazen oldukça dengesiz çıktılar veriyordu. Yani, kesinlikle prime time için hazır değildi, ama çok iyi olduğu da açıktı."
   },
   {
     "start": 2689.4,
@@ -264,7 +272,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "İnsanlar bir süreliğine sohbeti unuttular, bu alternatif dalga. Bunu daha da ileri götürdük ve tüm veri setlerini, talimat ve sohbet verilerini bir araya getirerek her iki dünyanın en iyisini elde etmeye çalıştık. Sohbet modelleri açıkça daha kolay kullanılıyordu. Modelin kendi sınırlamalarını bilmesi açısından çok daha mantıklı bir davranış sergiliyordu. Bu, geliştirme sürecinde beni heyecanlandıran şeylerden biriydi. İnsanların dil modellerinde kusur olarak düşündükleri birçok şeyin, açıkça hayal gücü gibi, tamamen düzeltilemeyecek şeyler değil, oldukça basit yöntemlerle büyük ilerleme kaydedilebilecek şeyler olduğunu fark ettim. Sohbetle ilgili diğer bir şey, bu talimat modellerine sahip olduğumuzda, “bu metni tamamla, ama güzel veya yardımcı bir şekilde” görevinin oldukça kötü tanımlanmış bir görev olmasıydı. Bu görev, hem model için hem de veri etiketleme yapması gereken insan için kafa karıştırıcıydı. Oysa sohbet için, insanların yardımcı bir robotun nasıl olması gerektiğine dair sezgisel bir anlayışları vardı. Bu nedenle, modelin ne yapması gerektiğini anlamak insanların çok daha kolayına geliyordu."
   },
   {
     "start": 2965.2,
@@ -293,7 +302,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Burada bu dil modeli şeyleriyle ne yapabileceğimize bakalım. Ama GPT-2'den sonra, henüz emin değildim. Diyelim ki, daha akıllı modellerle RL ile daha önce konuştuğumuz şeyler daha iyi çalışmaya başlıyor. Ön eğitim ile son eğitim arasında harcanan hesaplama oranı gelecekte son eğitimin lehine önemli ölçüde değişir mi? Bunun için bazı argümanlar var. Şu anda oldukça dengesiz bir oran var. Modelin ürettiği çıktının, internetteki çoğu şeyden daha yüksek kalitede olduğunu savunabilirsiniz. Bu nedenle, modelin sadece internetteki şeyleri taklit etmek yerine kendi başına düşünmesi daha mantıklı. Bu konuda ilk prensipler açısından bir argüman olduğunu düşünüyorum. Son eğitimle birçok kazanç elde ettik. Bu metodolojiyi zorlamaya devam edeceğimizi ve muhtemelen buna koyduğumuz hesaplama miktarını artıracağımızı bekliyorum."
   },
   {
     "start": 3376.6,
@@ -322,7 +332,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Model scaling",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Doğru, eğer transfer GPT-2 boyutunda başarısız olursa, o zaman daha yüksek ölçeklerde de başarısız olacağını kesin olarak söyleyemezsiniz. Daha büyük modeller için, daha iyi paylaşılan temsiller öğreniyor olabilirsiniz, oysa daha küçük modeller çok fazla ezberlemeye dayanmak zorunda kalıyor. Daha büyük modeller doğru hesaplamayı yapmayı öğrenebilir. Bunun bir dereceye kadar doğru olmasını bekliyorum. Bu çok basit bir cevabı olabilir. Aynı miktarda veri ile daha büyük modeller eğitiyorsunuz ve daha akıllı hale geliyorlar. Ya da aynı zeka seviyesine ulaşmak için daha az veri ile eğitmeniz yeterli. Bunun nedeni nedir? Daha fazla parametreye sahip, daha az şey görmüş ve şimdi eşit derecede akıllı. Bunun nedeni nedir? Kimsenin parametre sayısı ile ölçek yasası için iyi bir açıklaması olduğunu düşünmüyorum. Bunun için en iyi zihinsel modelin ne olduğunu bile bilmiyorum. Açıkça, daha büyük bir modele sahip olduğunuzda daha fazla kapasiteye sahipsiniz. Bu nedenle, sonunda daha düşük kayıp elde edebilmelisiniz. Neden daha büyük modeller daha örnek verimli?"
   },
   {
     "start": 3637.8,
@@ -357,7 +368,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bir noktada uzun vadeli RL'yi açıyorsunuz, ama dediğiniz gibi, potansiyel olarak başka darboğazlar var. Neler oluyor? Bu modeller ne kadar iyi? Nasıl dağıtılıyorlar? Hangi diğer modlar bunların bir parçası ve bunlar hangi aşamada açılıyor? Önümüzdeki birkaç yılın genel resmini anlamak istiyorum. Zamanla veya oldukça yakında yeni modların eklenmesini bekliyorum. Ön eğitim ve son eğitim kombinasyonu ile yeteneklerin genel olarak daha iyi hale gelmeye devam etmesini bekliyorum ve bu yeni kullanım durumlarını açacak. Şu anda, yapay zeka hala ekonominin büyük bir parçası değil. Bununla yardımcı olabileceği işlerin oldukça küçük bir kısmı var. Zamanla bunun daha yüksek olmasını bekliyorum, sadece modellerin gelişmesinden değil, aynı zamanda insanların bunları farklı süreçlere entegre etmeyi öğrenmesinden de. Bu nedenle, modelleri mevcut durumlarında dondursak bile, nasıl kullanıldıklarında hala büyük bir büyüme göreceksiniz."
   },
   {
     "start": 3853.1,
@@ -389,7 +401,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Açıkça bir noktada, ne yapmak istediklerinde herkesin önünde daha iyi olacaklar. Bu süreç nasıl görünecek? Şu anda, açıkça sadece size yardımcı oluyorlar. Bir noktada, sizin için sadece şeyler yapabilecekler ve belki de sizin için tüm firmaları yönetebilecekler. Bu süreç düzgün bir süreç mi olacak? O noktada, umudumuz, kullanıcı ile uyumlu sistemlerimiz olduğu ve firmanın bekledikleri şekilde yönetileceğinden emin olabilecekleri. Hemen tüm firmaları AI'ların yönetmesini istemeyebiliriz. Bu önemli kararları denetleyen insanların olmasını isteyebiliriz ve bu, modellerin kendileri başarılı bir iş yürütmek için yeterince iyi olsa bile. Bir dereceye kadar, burada bazı seçimler olabilir. İnsanların hala AI'larını yönlendirmek istedikleri ilginç uğraşlar için farklı çıkarları ve fikirleri olacağını düşünüyorum. AI'nın, sisteme koymadığımız sürece, herhangi bir içsel arzusu yoktur. Bu nedenle, AI'lar son derece yetenekli hale gelse bile, insanların AI'ların ne yapacağı konusunda hala yönlendirici olmasını umuyorum."
   },
   {
     "start": 4069.7,
@@ -418,7 +431,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI regulation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu soru mantıklı mı? Bu durumda, her bir firmayı nasıl izleyip insanın devrede olduğundan emin olacağız? Ve eğer Çin bunu yapmamaya karar verirse ne olur? Her ülkenin bu düzenleyici rejime katılmasını sağlamanız ya da model altyapısının veya model sağlayıcılarının bu tür bir gerekliliğe katılmasını sağlamanız gerekecek. Bu kesinlikle basit olmayacak. Bu, geleceğe yönelik bir bakış açısı, bu nedenle böyle bir dünyayı görmekten önce hayal etmek biraz zor. Örneğin, AI tarafından yönetilen şirketlerin her açıdan daha iyi olduğuna gerçekten güveniyor muyuz? Çoğu zaman daha iyi olduklarını mı düşünüyoruz, ama bazen AI'lar hala belirli şekillerde daha az örnek verimli oldukları için arızalanıyorlar mı? Çok tuhaf durumlarla başa çıkmaları gerektiğinde bunu düşünün."
   },
   {
     "start": 4141.7,
@@ -453,7 +467,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "AI tarafından yönetilen firmalar aslında daha yüksek kuyruk riski taşıyabilir çünkü büyük bir şekilde arızalanma olasılıkları daha yüksektir. Bu, olayların nasıl gelişeceğini belirleyecek bazı pratik sorular olabilir. Belki de insanları çeşitli sorumluluklar için hesap verebilir kılmayı gerektirirseniz, bu da teşvikleri biraz değiştirebilir. Diyelim ki AI'ların her şeyi yönetmede daha iyi olduğu ve tamamen iyi niyetli oldukları ortaya çıktı. Diyelim ki uyum sorununu tamamen çözdük ve insanlara hesap verme konusunda insanlardan daha iyi oldukları ortaya çıktı. O zaman belki de AI'ların firmaları yönetmesi sorun olmaz. Ama bu oldukça uzak bir ihtimal. Kısa vadede daha iyi göründükleri bir durumda olma olasılığımız daha yüksek, ama hala bazı ciddi sorunları var. Aslında, pratik hususlar, en azından yakın gelecekte, insanları devrede tutma yönünde daha fazla itici güç oluşturuyor. Bu, bugün RLHF ile başa çıkmamız gereken bir sorun. Farklı insanlardan gelen tercihleri bir araya getirmeniz gerekiyor. Bu, belki de gelecekte daha güçlü sistemlerle daha belirgin hale gelecektir. Ama bu firmaların bir parçası olarak insanları tamamen değiştirecek nihai AI sistemlerini istediğimizde, bu ne anlama geliyor?"
   },
   {
     "start": 4227.2,
@@ -482,7 +497,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Kullanıcının istediği şeyleri temelde yapmaları mı anlamına geliyor? Bu, OpenAI'deki paydaşlar olarak mutlu olduğumuz bir tür küresel sonuçla mı sonuçlanması gerektiği anlamına geliyor? Somut olarak, bu ne anlama geliyor? Eğer modeller bu daha yüksek riskli kullanım durumları için kullanılıyorsa, o zaman RLHF'yi şu anda olduğundan çok farklı bir şekilde düşünmemiz gerekecek. Bunun için henüz hazır değiliz ya da mevcut yöntemler tamamen yeterli olmayabilir. İlgili farklı paydaşların ihtiyaçları arasında uzlaşmalar yapmamız gerekecek. Yayınlayacağımız bir belge var, Model Spesifikasyonu adını taşıyor. Modellerimizin API'de ve ChatGPT'de nasıl davranmasını istediğimizle ilgili. Farklı paydaşların dahil olduğu bu sorunu ele almaya çalışıyoruz ve bazen ne istediklerinde çatışmalar olabiliyor. Bizim durumumuzda, paydaşları son kullanıcı (ChatGPT veya başka bir uygulamanın önünde oturan biri), geliştirici (API'yi kullanan ve diğer son kullanıcılara hizmet eden biri), platform (OpenAI, modellerin bizi yasal risklere maruz bırakmasını istemiyoruz) ve insanlığın geri kalanı (kullanıcılar veya müşteriler dışında kalan insanlar) olarak düşünüyorduk. Açıkça, kullanıcı modelden, diğer insanlara aktif olarak zarar verebileceğini düşündüğümüz bir şey yapmasını isteyebilir. Bunu reddetmek zorunda kalabiliriz. Bu arada, bu mutlaka öncelik sırası değil. Bunlar sadece dört veya daha fazla paydaş sınıfı. Aslında, belki de gelecekte modelin kendisi de olabilir. Henüz orada değiliz."
   },
   {
     "start": 5035.7,
@@ -511,7 +527,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI alignment",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bir umut, ona istemediğimiz, basit ve açık olmayan şeylerin bir listesini verebilirsiniz, Birleşmiş Milletler İnsan Hakları Bildirgesi gibi. Öte yandan, birçok tercihimizin ve değerimizin çok ince olduğunu, bu nedenle en iyi şekilde çift yönlü tercihlerle temsil edilebileceğini duydum. GPT-6 veya GPT-7 seviyesindeki bir model düşündüğünüzde, ona daha fazla yazılı talimat mı veriyoruz yoksa hala bu tür subliminal tercihler mi yapıyoruz? Bu iyi bir soru. Bu tercih modelleri, insanların neyi tercih ettiğine dair birçok inceliği öğreniyor ki bunları bir talimat kılavuzunda ifade etmek zor. Açıkça, birçok karşılaştırma örneği içeren bir talimat kılavuzu yazabilirsiniz. Model Spesifikasyonu da budur. Birçok örnek ve bazı açıklamalar içerir. Tercihleri tanımlamak için en iyi formatın ne olduğu net değil. Büyük bir veri setinden elde edebileceğiniz her şeyi, esasen fikirleri yakalayan daha kısa bir belgeye damıtabileceğinizi tahmin ediyorum. Daha büyük modeller, insanların neyi faydalı ve yardımcı bulabileceğine dair birçok kavramı otomatik olarak öğreniyor. Bazı karmaşık ahlaki teorilere sahip olacaklar. Elbette, farklı bir tarz veya farklı bir ahlak anlayışına yönelmek için hala çok fazla alan var. Bu nedenle, bir belge yazarsak, bu modelleri uyumlu hale getirmek için yaptığımız şey, belirli bir tarzı, belirli bir ahlak anlayışını yakalamaktır. Tam olarak ne istediğinizi yakalamak için yine de makul bir uzunlukta bir belgeye ihtiyacınız var."
   },
   {
     "start": 5540.1,
@@ -540,7 +557,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Muhtemelen, bu şeyler ekranların nasıl göründüğünü anlıyor ve onlarla çok daha tutarlı bir şekilde etkileşimde bulunabilecekler. Ayrıca uzun vadeli RL yapacaksınız, bu nedenle sistemlerde ajanlar olarak hareket edebilecekler ve iş akışınıza çok daha entegre bir şekilde katılabilecekler. Bunun nasıl görüneceğini bekliyorsunuz? Oradan sonraki adımlar ne olacak? Diyelim ki yılın sonuna veya gelecek yıla kadar, sizinle ekranınızda çalışabilen bir asistanınız var. Bu mantıklı bir şey gibi mi görünüyor? Oradan nereye gidiyor? Bu yönde bir hareket olmasını kesinlikle bekliyorum. En iyi form faktörünün ne olacağı belirsiz. Bilgisayarınızdaki Clippy gibi bir şey olabilir ya da bulutta yardımcı bir meslektaş gibi olabilir. Hangi form faktörlerinin en iyi çalıştığını göreceğiz. Yardımcı bir asistan veya yardımcı bir meslektaş zihinsel modelinin daha gerçek hale gelmesini bekliyorum. Bu, günlük işlerinizi daha fazla paylaşabileceğiniz bir şey olacak. Sadece tek seferlik sorgular vermek yerine, üzerinde çalıştığınız bir proje olacak ve o proje üzerinde şimdiye kadar yaptığınız her şeyi bilecek."
   },
   {
     "start": 5629.4,
@@ -569,6 +587,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Hatta proaktif olarak önerilerde bile bulunabilir. Belki de ona bunu hatırlamasını söyleyebilirsin, böylece bu konuda bana sorar ve ilerleme kaydedip etmediğimi öğrenir. Proaktivite, eksik olan bir şey. Tek seferlik sorgulardan uzaklaşmayı, modeli bir arama motoru gibi kullanmaktan çok, onunla işbirliği içinde yürüttüğüm bir projeye doğru ilerlemeyi görmek isterim. Yani, yaptığım her şeyi bildiği bir şey. Proaktif olarak denemem için önerilerde bulunuyor ya da arka planda çalışıyor. \n\nBu gerçekten ilginç. Bu son soru. İşinizi ne zaman değiştireceğine dair ortalama zaman diliminiz nedir? \nOh, işimi mi değiştiriyor? Belki beş yıl içinde. \n\nOldukça yakında. İlginç. John, bu gerçekten çok ilginçti. Zaman ayırdığın için çok teşekkürler. Bu, AI sürecinin çok önemli bir parçası gibi görünüyor ve insanların bunun hakkında çok fazla şey anlamadığını düşünüyorum. İçine dalmak ve bu konudaki düşüncelerini almak gerçekten çok ilginçti."
   }
 ]

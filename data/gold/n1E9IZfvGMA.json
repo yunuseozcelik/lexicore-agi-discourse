@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Scaling Hypothesis",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "En azından halkın bakış açısından, üç yıl önce birçok hesaplama düzeyinde iyi bilinen kamu trendleri vardı ve kaybın nasıl iyileştiğini görebiliyordunuz. Şimdi RL ölçeklenmesi var ve bunun için kamuya açık bilinen bir ölçekleme yasası yok. Hikayenin ne olduğu bile net değil. Bu modelin becerileri öğretmesi mi gerekiyor? Meta öğrenmeyi mi öğretmesi gerekiyor? Şu anda ölçeklenme hipotezi nedir? Aslında, 2017'de sahip olduğum aynı hipoteze sahibim. Geçen sefer bahsettiğimi düşünüyorum, ama \"Büyük Hesaplama Hipotezi\" adında bir belge yazdım. Bu, dil modellerinin ölçeklenmesiyle ilgili değildi. Yazdığımda GPT-1 yeni çıkmıştı. O, birçok şeyden biriydi. O günlerde robot teknolojisi vardı. İnsanlar, dil modellerinden ayrı bir şey olarak akıl yürütme üzerinde çalışmaya çalıştılar ve AlphaGo ve OpenAI'deki Dota'da gerçekleşen RL ölçeklenmesi vardı. İnsanlar, DeepMind'deki StarCraft'ı hatırlıyor, AlphaStar. Daha genel bir belge olarak yazılmıştı. Rich Sutton, birkaç yıl sonra \"Acı Ders\"i yayınladı. Hipotez temelde aynı."
   },
   {
     "start": 177.5,
@@ -61,7 +62,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI progress factors",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ne diyor? Tüm zeka, tüm teknikler, \"bir şey yapmak için yeni bir yönteme ihtiyacımız var\" gibi şeyler çok önemli değil. Önemli olan birkaç şey var. Bunlardan biri ne kadar ham hesaplamaya sahip olduğunuz. İkincisi veri miktarı. Üçüncüsü verinin kalitesi ve dağılımı. Geniş bir dağılım olması gerekiyor. Dördüncüsü ne kadar süre eğitim aldığınız. Beşincisi, aya kadar ölçeklenebilen bir hedef fonksiyonuna ihtiyacınız var. Ön eğitim hedef fonksiyonu böyle bir hedef fonksiyonudur. Diğeri, bir hedefiniz olduğunu ve o hedefe ulaşmak için dışarı çıkacağınızı söyleyen RL hedef fonksiyonudur. Bunun içinde, matematik ve kodlamada gördüğünüz gibi nesnel ödüller var ve RLHF veya bunun daha yüksek düzey versiyonlarında gördüğünüz gibi daha öznel ödüller var. Altıncı ve yedinci ise normalizasyon veya koşullandırma ile ilgili şeylerdi, sadece sayısal istikrarı sağlamak, böylece büyük hesaplama kütlesinin bu laminar şekilde akmasını sağlamak, sorunlarla karşılaşmadan."
   },
   {
     "start": 1220.4,
@@ -96,7 +98,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Belki bu, \"dahi ülkesi\" tahminimizi sulandırmalıdır. Aynı anda, bunun bu şeylerin anında gerçekleşmemesinin bir nedeni olduğunu kabul ediyorum, ama aynı zamanda, etkisinin çok hızlı olacağını düşünüyorum. Bu iki kutbu bir arada bulundurabilirsiniz. Biri, AI'nın ilerleme kaydetmeyeceği. Yavaş. Ekonomide yayılması sonsuza kadar sürecek. Ekonomik yayılma, AI ilerlemesini yapmamamızın bir nedeni haline geldi. Diğer eksen ise, kendini tekrar eden bir öz-improvement elde edeceğimiz. Bütün bunlar. Eğrinin üzerine bir üstel çizgi çizemiyor musunuz? Kendimizi tekrar eden bir hale geldiğimizde, güneşin etrafında Dyson küreleri olacak. Burada görüşü tamamen karikatürize ediyorum, ama bu iki uç var. Ama başlangıçtan beri gördüğümüz şey, en azından Anthropic içinde, gördüğümüz bu tuhaf 10 kat yıllık gelir artışı. Yani 2023'te, sıfırdan 100 milyon dolara."
   },
   {
     "start": 1406.2,
@@ -125,7 +128,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI integration",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Anında değil, yavaş değil, önceki herhangi bir teknolojiden çok daha hızlı, ama sınırları var. Anthropic içinde baktığımda, müşterilerimize baktığımda: hızlı benimseme, ama sonsuz hızlı değil. Size bir cesur tahminde bulunabilir miyim? Evet. Yayılmanın insanların söylediği bir bahane olduğunu hissediyorum. Model bir şeyi yapamadığında, \"oh, ama bu bir yayılma sorunu\" diyorlar. Ama o zaman insanlarla karşılaştırma yapmalısınız. AI'ların sahip olduğu içsel avantajların, yeni AI'ların entegre edilmesinin, yeni insanların entegre edilmesinden çok daha kolay bir sorun olacağını düşünürdünüz. Bir AI, Slack'inizi ve sürücünüzü dakikalar içinde okuyabilir. Aynı örneğin diğer kopyalarının sahip olduğu tüm bilgileri paylaşabilirler. AI işe alırken bu olumsuz seçim sorunu yok, bu yüzden sadece onaylanmış bir AI modelinin kopyalarını işe alabilirsiniz. Bir insanı işe almak çok daha zahmetli. İnsanlar her zaman insanları işe alıyor. İnsanlara, yararlı oldukları için 50 trilyon dolardan fazla maaş ödüyoruz, oysa aslında AI'ları ekonomiye entegre etmek, insanları işe almaktan çok daha kolay olurdu. Yayılma gerçekten açıklamıyor."
   },
   {
     "start": 2116.1,
@@ -154,7 +158,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI productivity",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Geçen yıl, deneyimli geliştiricilerin, aşina oldukları depolardaki pull request'leri kapatmaya çalıştığı büyük bir çalışma olduğunu gördüğünüzden eminim. O geliştiriciler, bu modellerin kullanımıyla daha üretken hissettiklerini bildirdiler. Ama aslında, çıktılarının ne kadarının geri birleştirildiğine bakarsanız, %20'lik bir düşüş vardı. Bu modellerin kullanımının sonucunda daha az üretken oldular. Yani, insanların bu modellerle hissettikleri niteliksel duyguyu 1) makro düzeyde, yazılımın bu yeniden doğuşu nerede? ve 2) insanlar bağımsız değerlendirmeler yaptıklarında, neden beklediğimiz üretkenlik faydalarını göremiyoruz? Anthropic içinde, bu gerçekten belirsiz. Ticari baskı altında muazzam bir yük altındayız ve kendimize daha da zorlaştırıyoruz çünkü yaptığımız tüm güvenlik işleri var, bunun diğer şirketlerden daha fazla olduğunu düşünüyorum. Ekonomik olarak hayatta kalma baskısı, aynı zamanda değerlerimizi korumak da inanılmaz. Bu 10 kat gelir eğrisini sürdürmeye çalışıyoruz. Saçmalık için sıfır zaman var. Üretken olduğumuzu hissetmek için sıfır zaman var. Bu araçlar bizi çok daha üretken hale getiriyor."
   },
   {
     "start": 2332.0,
@@ -183,7 +188,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yine, bu konudaki temam, tüm bunların yumuşak bir kalkış, yumuşak, pürüzsüz üstel artışlar olduğu, ancak üstel artışların nispeten dik olduğu. Yani, %10, %20, %25, %40 gibi bir kar topunun momentum kazandığını görüyoruz. Giderek, Amdahl yasası, döngüyü kapatmanızı engelleyen tüm şeyleri ortadan kaldırmanız gerektiğini söylüyor. Ama bu, Anthropic içindeki en büyük önceliklerden biri. Geriye dönüp baktığımızda, önceki yığın içinde, iş başında öğrenmeyi ne zaman elde edeceğimizi konuşuyorduk. Kodlama konusundaki noktanızın, aslında iş başında öğrenmeye ihtiyacımız olmadığını gösterdiği gibi görünüyor. Muazzam üretkenlik artışları elde edebilirsiniz, AI şirketleri için potansiyel olarak trilyonlarca dolarlık gelir elde edebilirsiniz, bu temel insan yeteneği olmadan iş başında öğrenmek. Belki bu sizin iddianız değil, netleştirmelisiniz. Ama ekonomik faaliyetlerin çoğu alanında insanlar, \"Birini işe aldım, ilk birkaç ay çok faydalı değildi, ama zamanla bağlamı ve anlayışı geliştirdiler\" derler. Burada neyi kastettiğimizi tanımlamak zor."
   },
   {
     "start": 2544.3,
@@ -218,7 +224,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunun üzerinde de çalıştığımızı düşünüyorum.\nÖnümüzdeki bir veya iki yıl içinde bunu da çözeceğimizin iyi bir ihtimali var.\nYine, bunun olmadan çoğu yere ulaşabileceğinizi düşünüyorum.\nYıllık trilyonlarca dolarlık pazar, belki de \"Teknolojinin Ergenliği\" adlı yazımda bahsettiğim tüm ulusal güvenlik ve güvenlik etkileri bunun olmadan gerçekleşebilir.\nAma biz, ve diğerlerinin de çalıştığını hayal ediyorum, bunun üzerinde çalışıyoruz. Önümüzdeki bir veya iki yıl içinde oraya ulaşacağımızın iyi bir ihtimali var. Birçok fikir var.\nHepsini detaylıca anlatmayacağım, ama biri bağlamı daha uzun hale getirmek.\nDaha uzun bağlamların çalışmasını engelleyen bir şey yok.\nSadece daha uzun bağlamlarda eğitim almanız ve ardından bunları çıkarımda sunmayı öğrenmeniz gerekiyor.\nHer ikisi de üzerinde çalıştığımız mühendislik problemleri ve diğerlerinin de bunlar üzerinde çalıştığını varsayıyorum. Bu bağlam uzunluğu artışı, 2020 ile 2023 arasında, GPT-3'ten GPT-4 Turbo'ya geçişte 2000 bağlam uzunluğundan 128K'ya bir artış olduğu gibi görünüyor."
   },
   {
     "start": 2921.7,
@@ -247,7 +254,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunun geleceğini biliyoruz, ama bu veri merkezlerini satın alma şeklinizle, birkaç yıl saparsanız, bu yıkıcı olabilir.\nBu, \"Sevgi Makinaları\" adlı yazımda bahsettiğim gibi.\nGüçlü bir yapay zeka, \"veri merkezindeki dahi ülkesi\" elde edebileceğimizi düşündüm.\nVerdiğiniz tanım \"Sevgi Makinaları\"ndan geliyor.\nBunun 2026'da, belki 2027'de olacağını söyledim. Yine, bu benim sezgim. Bir veya iki yıl saparsam şaşırmam, ama bu benim sezgim. Diyelim ki bu oldu. Bu başlangıç işareti. Tüm hastalıkları iyileştirmek ne kadar sürer? Bu, büyük bir ekonomik değer yaratan yollardan biridir. Her hastalığı iyileştirirsiniz. Bunun ne kadarının ilaç şirketine veya yapay zeka şirketine gideceği sorusu var, ama herkes için erişim sağlayabilirsek, ki bu benim için çok önemli, tüm bu hastalıkları iyileştiririz. Ne kadar sürer? Biyolojik keşif yapmanız, yeni ilacı üretmeniz ve düzenleyici süreçten geçmeniz gerekiyor.\nBunu aşılar ve COVID ile gördük. Aşıyı herkese ulaştırdık, ama bu bir buçuk yıl sürdü."
   },
   {
     "start": 3344.6,
@@ -276,7 +284,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Dünyada bu kadar çok şey yok.\nAma ikinci olarak, dahi ülkesi 2028 ortasında gelirse, 2027 ortasında değilse, iflas edersiniz. Yani eğer tahmininiz bir ila üç yıl ise, 2029'a kadar en geç 10 trilyon dolarlık hesaplama gücüne sahip olmak istemeniz gerektiği gibi görünüyor mu?\nBelirttiğiniz zaman çizelgelerinin en uzun versiyonunda bile, inşa etmekte olduğunuz hesaplama gücünün artışı uyumlu görünmüyor. Bunu neden düşündüğünüzü merak ediyorum.\nİnsan maaşları, diyelim ki, yılda yaklaşık 50 trilyon dolar—\nBu yüzden Anthropic'ten özel olarak bahsetmeyeceğim, ama endüstriden bahsediyorsanız, bu yıl endüstrinin inşa ettiği hesaplama gücü muhtemelen 10-15 gigawatt civarında.\nYılda yaklaşık 3 kat artıyor. Yani gelecek yıl 30-40 gigawatt. 2028 belki 100 gigawatt. 2029 belki 300 gigawatt gibi olacak."
   },
   {
     "start": 4824.1,
@@ -305,7 +314,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "O yüzden neden daha fazla insan zekası parçası bulduğumuz şeyler olacağını düşünmeyelim?\nAçık olmak gerekirse, sürekli öğrenmenin, daha önce de söylediğim gibi, hiç engel olmayabileceğini düşünüyorum.\nBelki de genel eğitim ve RL genellemesi ile oraya ulaşabiliriz.\nBelki de böyle bir şey yoktur.\nAslında, ML tarihine bakarsak, engel olarak görülen şeylerin büyük hesaplama yığını içinde eriyip gittiğini görebiliriz.\nİnsanlar, \"Modelleriniz isimleri ve fiilleri nasıl takip ediyor?\" diye konuşuyorlardı.\n\"Sözdizimsel olarak anlayabiliyorlar, ama anlamsal olarak anlayamıyorlar mı? Sadece istatistiksel korelasyonlar var.\" \"Bir paragrafı anlayabilirsiniz, ama bir kelimeyi anlayamazsınız. Akıl yürütme var, akıl yürütme yapamazsınız.\"\nAma sonra aniden kod ve matematiği çok iyi yapabildiğiniz ortaya çıkıyor.\nBu yüzden aslında bazı bu tür şeylerin büyük bir mesele gibi görünmesi ve sonra eriyip gitmesi konusunda daha güçlü bir tarih olduğunu düşünüyorum. Bazıları gerçek. Veriye ihtiyaç gerçektir, belki sürekli öğrenme gerçek bir şeydir."
   },
   {
     "start": 4968.9,
@@ -334,7 +344,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AGI business models",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bununla ilgili bir his var, \"Tamam, bir podcast sunucusu bir makale yazdı ve her röportajda bunun hakkında soruluyor.\"\nGerçek şu ki, hepimiz bunu birlikte çözmeye çalışıyoruz.\nBazı açılardan, başkalarının göremediği şeyleri görebiliyorum.\nBu günlerde bu, muhtemelen Anthropic içinde birçok şey görmemle ve birçok karar vermek zorunda kalmamla daha çok ilgili, diğerlerinin sahip olmadığı büyük bir araştırma içgörüm olduğu anlamına gelmiyor.\n2500 kişilik bir şirket yönetiyorum. Somut bir araştırma içgörüsüne sahip olmam benim için oldukça zor, 10 yıl önce veya hatta iki veya üç yıl önce olduğundan çok daha zor.\nTamamen uzaktan çalışan bir iş gücü yerine geçiş yaparken, bir API fiyatlandırma modeli hala en mantıklısı mı? Eğer değilse, AGI'yi fiyatlandırmanın veya sunmanın doğru yolu nedir? Burada, hepsi bir arada denenecek birçok farklı iş modeli olacağını düşünüyorum.\nAslında API'nin"
   },
   {
     "start": 5664.8,
@@ -363,7 +374,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI governance",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu yüzden bence her şey gibi, yeni bir güvenlik manzarası var, yeni bir araç seti ve yeni bir zafiyet seti ile.\nEndişem şu ki, eğer bunun gerçekleşmesi için 100 yılımız olsaydı, çok yavaş bir şekilde, buna alışırdık.\nToplumda patlayıcıların varlığına veya çeşitli yeni silahların varlığına veya video kameraların varlığına alıştık. 100 yıl içinde buna alışırdık ve yönetişim mekanizmaları geliştirirdik. Hatalarımızı yapardık. Endişem, bunun çok hızlı gerçekleşiyor olması. Bu yüzden belki de bu yönetişim mekanizmalarının nasıl çalışacağını düşünmemizi daha hızlı yapmalıyız. Görünüşe göre, bir saldırı-dominant dünyada, önümüzdeki yüzyıl boyunca—yani yapay zekanın, önümüzdeki yüzyıl boyunca gerçekleşecek ilerlemeyi beş ila on yıl içinde gerçekleştirdiği fikri—aynı mekanizmalara ihtiyaç duyacağız, ya da güç dengesi benzer şekilde zorlayıcı olacak, insanlar tek oyun olsalar bile.\nSanırım yapay zekanın tavsiyesine sahibiz."
   },
   {
     "start": 5736.3,
@@ -392,7 +404,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama temelde burada tamamen farklı bir oyun gibi görünmüyor. Eğer denetim ve dengeler işe yarayacaksa, insanlar üzerinde de işe yarayacaklardı. Eğer işe yaramayacaklarsa, yapay zekalar üzerinde de işe yaramazdı. Bu yüzden belki de bu, insan denetim ve dengelerini de mahvediyor. Yine, bunun gerçekleşmesi için bir yol olduğunu düşünüyorum. Dünyanın hükümetleri bunun gerçekleşmesi için birlikte çalışmak zorunda kalabilir. Bu savunmaların mümkün olacağı şekilde toplumsal yapılar inşa etmek için yapay zekalarla konuşmamız gerekebilir. Bilmiyorum. Bunun zaman açısından çok ileri olduğunu söylemek istemiyorum, ama teknolojik yetenek açısından çok ileri olduğu için, bunun kısa bir süre içinde gerçekleşmesi zor, önceden tahmin etmemiz zor.\nHükümetlerin devreye girmesinden bahsetmişken, 26 Aralık'ta Tennessee yasama meclisi, \"Bir kişinin yapay zekayı duygusal destek sağlamak için, kullanıcıyla açık uçlu konuşmalar dahil, bilerek eğitmesi bir suç olacaktır\" diyen bir yasa tasarısı sundu. Elbette, Claude'un yapmaya çalıştığı şeylerden biri düşünceli, bilgili bir arkadaş olmaktır."
   },
   {
     "start": 6104.6,
@@ -421,7 +434,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI regulation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunu uygulayan insanlar, \"Aman Tanrım, bu aptalca. Bu, Tennessee'de daha önce inşa edilmiş her şeyi kapatmak anlamına gelir.\" Çok sık, yasalar, onları o kadar tehlikeli veya zararlı hale getirmeyen bir şekilde yorumlanır. Aynı zamanda, elbette, kötü bir şeyi durdurmak için bir yasa geçiriyorsanız; bu sorunu da yaşıyorsunuz.\nBenim temel görüşüm, eğer hangi yasaların geçeceğini ve işlerin nasıl yapılacağını belirleyebilseydik—ve biz sadece bunun içinde küçük bir girdi olduğumuz için—AI'nın sağlık yararları etrafındaki birçok şeyi deregüle ederdim. Chatbot yasaları hakkında o kadar endişelenmiyorum.\nAslında, ilaç onay süreci hakkında daha fazla endişeleniyorum, çünkü yapay zeka modellerinin ilaç keşif hızını büyük ölçüde artıracağını düşünüyorum ve bu süreç tıkanacak.\nBu süreç, içinden geçen tüm şeyleri işlemek için hazırlıklı olmayacak.\nDüzenleyici sürecin reformu, güvenliğin ve etkinliğin gerçekten net ve belirgin olacağı, güzel bir şey ve gerçekten etkili olacak birçok şeyin geleceği gerçeğine daha fazla eğilim göstermelidir."
   },
   {
     "start": 6418.2,
@@ -453,7 +467,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu insanların geride kalmasından daha fazla endişeleniyorum. Ve tedaviler geliştirilse bile, belki de Mississippi'nin kırsal bir yerinde birinin bunu almadığı endişesini taşıyorum.\nBu, gelişmekte olan dünyada sahip olduğumuz endişenin daha küçük bir versiyonu.\nYaptığımız şeyler, hayırseverlerle çalışmak. Gelişmekte olan dünyaya, Sahra Altı Afrika, Hindistan, Latin Amerika ve diğer gelişmekte olan bölgelere ilaç ve sağlık müdahaleleri ulaştıran kişilerle çalışıyoruz.\nBu, kendi başına gerçekleşmeyeceğini düşündüğüm bir şey.\nİhracat kontrollerinden bahsettiniz. Neden hem ABD hem de Çin'in \"veri merkezinde dahi ülkesi\" olmasın? Neden olmayacak veya neden olmamalı?\nNeden olmamalı. Eğer bu olursa, birkaç durumla karşılaşabiliriz. Eğer saldırı-dominant bir durum varsa, nükleer silahlar gibi, ama daha tehlikeli bir durumla karşılaşabiliriz.\nHer iki taraf da her şeyi kolayca yok edebilir."
   },
   {
     "start": 6716.1,
@@ -482,7 +497,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI and national security",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Dünyadaki değerlerinde azalan getiriler elde etme sorusu var. İnsan biyolojisini zaten çözdükten sonra ne kadar önemli? Bir noktada daha zor, daha soyut matematik problemleri yapabilirsiniz, ama bundan sonra hiçbir şey önemli değil. Bunu bir kenara bırakırsak, üstel büyümenin devam edeceğini düşünüyorum, ama belirli ayırt edici noktalar olacak.\nŞirketler, bireyler ve ülkeler bu noktalara farklı zamanlarda ulaşacaklar.\n\"Teknolojinin Ergenliği\" adlı eserimde şunu tartışıyorum: Yapay zeka dünyasında nükleer caydırıcılık hala istikrarlı mı? Bilmiyorum, ama bu, göz ardı ettiğimiz bir şeyin örneği. Teknoloji, o kadar bir seviyeye ulaşabilir ki, artık buna güvenemeyiz. Başkalarını düşünün. Belki de belirli bir seviyeye ulaştığınızda, saldırgan siber hakimiyetiniz vardır ve diğer tarafın eşdeğer bir savunması yoksa her bilgisayar sistemi sizin için şeffaf hale gelir.\nKritik anın ne olduğunu veya tek bir kritik an olup olmadığını bilmiyorum.\nAma bence ya bir kritik an, ya da az sayıda kritik an, ya da yapay zekanın ulusal güvenlik açısından büyük bir avantaj sağladığı bazı kritik pencereler olacak ve bir ülke veya koalisyon diğerlerinden önce bu noktaya ulaşacak.\nBunun sadece \"Tamam, artık biz yönetiyoruz\" demeleri gerektiğini savunmuyorum.\nBunu böyle düşünmüyorum."
   },
   {
     "start": 7295.0,
@@ -511,7 +527,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI and authoritarianism",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama belki de, otoriterlerin güçlerini korumak istediklerinde, teknolojinin bireysel erişimini inkar edemeyecekleri bir denge dünyası vardır. Ama ben aslında daha radikal bir versiyon için bir umut taşıyorum. Teknolojinin doğası gereği bazı özelliklere sahip olması veya belirli şekillerde inşa ederek bu özellikleri yaratmamız mümkün mü? Bu özellikler, otoriter yapıları çözme etkisine sahip olabilir mi? Başlangıçta, Obama yönetiminin başında sosyal medyanın ve internetin bu özelliğe sahip olacağını ummuştuk, ama öyle olmadığı ortaya çıktı. Peki ya birçok şeyin yanlış gidebileceğini bilerek tekrar denemek mümkünse ve bu farklı bir teknoloji ise? Bunun işe yarayıp yaramayacağını bilmiyorum, ama denemeye değer. Çok öngörülemez. Otoriterizmin ayrıcalıklı olabileceği bazı temel nedenler var. Her şey çok öngörülemez. Sorunu tanımamız ve deneyebileceğimiz 10 şey bulup denememiz ve sonra hangilerinin işe yaradığını değerlendirmemiz gerekiyor, eğer varsa."
   },
   {
     "start": 7651.1,
@@ -540,7 +557,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI model behavior",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Pratik bir perspektiften bakıldığında, bu modelin eğitimi için daha etkili bir yol olduğu ortaya çıkıyor. Bu, kurallar ile ilkeler arasındaki bir denge. Sonra, düzeltilme ile içsel motivasyon arasındaki dengeyi konuşuyorsunuz. Model ne kadar \"deri giysi\" gibi olmalı, yani kendisine verilen talimatları doğrudan takip etmeli, ne kadar da kendi içsel değer setine sahip olmalı ve kendi başına bir şeyler yapmalı? Burada, modelin çoğunlukla insanların istediklerini yapması gerektiği yönünde bir eğilim olduğunu söyleyebilirim. Çoğunlukla talimatları takip etmelidir. Kendi başına dünyayı yöneten bir şey inşa etmeye çalışmıyoruz. Aslında, düzeltilebilir tarafında oldukça ilerideyiz. Şimdi, modelin yapmayacağı belirli şeyler olduğunu söylüyoruz. Bunu anayasada çeşitli şekillerde ifade ettiğimizi düşünüyorum; normal koşullar altında, biri modelden bir görev yapmasını isterse, o görevi yapmalıdır. Bu varsayılan olmalıdır. Ama eğer ona tehlikeli bir şey yapmasını veya bir başkasına zarar vermesini isterseniz, o zaman model bunu yapmayı reddeder. Bu yüzden, bazı sınırlara sahip çoğunlukla düzeltilebilir bir model olarak düşünüyorum, ama bu sınırlamalar ilkelere dayalıdır. Temel soru ise, bu ilkelerin nasıl belirlendiğidir. Bu, Anthropic için özel bir soru değil. Bu, herhangi bir yapay zeka şirketi için bir soru olacaktır. Ama siz ilkeleri yazanlar olduğunuz için, bu soruyu size sorma fırsatım var. Normalde, bir anayasa yazılır, taşlaşır ve güncellenme ve değiştirilme süreci vardır. Bu durumda, Anthropic'teki insanların yazdığı, her an değiştirilebilen bir belge gibi görünüyor; bu belge, birçok ekonomik aktivitenin temelini oluşturacak sistemlerin davranışını yönlendiriyor. Bu ilkelerin nasıl belirlenmesi gerektiğini nasıl düşünüyorsunuz? Bence burada belki üç döngü boyutu var, üç yineleme yolu var. Birincisi, Anthropic içinde yineleme yapıyoruz. Modeli eğitiyoruz, ondan memnun değiliz ve anayasayı değiştiriyoruz. Bunu yapmanın iyi olduğunu düşünüyorum."
   },
   {
     "start": 7734.3,
@@ -569,7 +587,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI principles",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Mümkün olduğunca çaba gösteriyorum, ama çok etkili olan bir şey, Anthropic'in iyi bir çalışma yeri olmasını sağlamak. İnsanlar orada çalışmaktan hoşlanıyor, herkes kendini takım üyesi olarak görüyor ve herkes birlikte çalışıyor, birbirine karşı değil. Diğer yapay zeka şirketlerinin büyüdüğünü gördüğümüzde - isim vermeden - bazı tutarsızlıklar ve insanların birbirleriyle kavga etmeye başladığını görüyoruz. Başlangıçta bunun çok fazla olduğunu savunabilirim, ama daha da kötüleşti. Şirketi bir arada tutma konusunda olağanüstü iyi bir iş çıkardığımızı düşünüyorum, mükemmel olmasa da, herkesin misyonu hissetmesini sağlamak, misyon konusunda samimi olduğumuzu göstermek ve herkesin orada diğerlerinin doğru nedenler için çalıştığına inanmasını sağlamak. Biz bir takımız, insanlar birbirlerinin aleyhine geçmeye çalışmıyor veya birbirlerini arkadan bıçaklamıyor, ki bu da bazı diğer yerlerde çok sık oluyor. Bunu nasıl sağlıyorsunuz? Birçok şey var. Bu benim, şirketi günlük olarak yöneten Daniela, kurucu ortaklar, işe aldığımız diğer insanlar ve yaratmaya çalıştığımız ortam."
   },
   {
     "start": 8261.1,
@@ -595,6 +614,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Company Culture",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Birkaç yıl önce, onların akıl yürütemeyeceği, program yapamayacağına dair bir argüman geliştirebilirdiniz. Sınırlar çizebilir ve belki bir duvara çarpacağınızı söyleyebilirdiniz. Ben duvara çarpacağımızı düşünmüyordum, birkaç kişi de duvara çarpacağımızı düşünmüyordu, ama o zamanlar daha makul bir argümandı. Şimdi daha az makul bir argüman. Olabilir. Bu işler çılgınca. Yarın bir duvara çarpabiliriz. Eğer olursa, açıklamam, bir sonraki kelime tahmini üzerinde eğitim yaparken kaybın bir sorun olduğudur. Eğer gerçekten yüksek seviyede program öğrenmek istiyorsanız, bazı token'lara diğerlerinden çok daha fazla önem vermeniz gerekir ve bunlar o kadar nadirdir ki kayıp fonksiyonu, en fazla entropi bitine neden olan şeylere odaklanır ve bunun yerine gerçekten önemli olan şeylere odaklanmaz. Yani, sinyal gürültüde boğulabilir. Bunun böyle gelişeceğini düşünmüyorum, birçok nedenle. Ama bana söyleseniz - Evet, 2024 modelinizi eğittiniz."
   }
 ]

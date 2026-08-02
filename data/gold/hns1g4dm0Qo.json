@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI risks",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Eğer tekrar oynuyorsanız, bir tür oyun, biliyorsunuz, boş bir tahtayla, iki kraliçenin olduğu bir tahtayla deneyebilirsiniz. Ne bekleyeceğinizi biliyorsunuz. Genel bir sistemin tüm olası alanlar üzerinde kararlar verdiğinden ve sizden daha akıllı olduğundan bahsettiğinizde, ne tür sorular sormanız gerektiğini bilmiyorsunuz. Eğer şanslıysanız ve bir soruna rastlarsanız, bir tür hata tespit edersiniz ve bunu düzeltirsiniz. \"Bir sorun bulduk. Bunu düzelttik.\" Diyebilirsiniz. Ama bana bunun kalan sorunları olmadığına söyleyemezsiniz. >> Mhm. Peki, geri dönüş noktası nedir? Hangi yetenek, bir kez elde edildiğinde, geri dönmeyi imkansız kılar? Bilim ve mühendislik araştırmaları söz konusu olduğunda, muhtemelen genel olma. Yani, bir sistem bir sonraki nesil AI üzerinde bağımsız olarak çalışabiliyorsa, bu kendini geliştirme, yinelemeli kendini geliştirme sürecini başlatır ve insanlar artık döngünün bir parçası değildir. Ve o noktada, o sistemi çalıştıran herkes daha yetenekli AI üretiyor, bunu bağımsız olarak yapabiliyorlar, bu sürecin yedeklerini alabiliyorlar. Bu noktada, müdahale edip kapatmamız neredeyse imkansız hale gelir."
   },
   {
     "start": 1078.3,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Aynı şey. Gerçekten ilginç. Bu modellerin bu yönünün, um, nasıl bir etkisi olacağını düşünüyorsunuz, belki insansı robotlar üzerinde? Yani, bedensel AI. Bu kendini güvence altına alma yanlılığı. Bu tür bir teşvik modelinin başka herhangi bir yerde herhangi bir etkisi olacağını düşünüyor musunuz? Şu anda oluşturduğumuz modeller, sonunda robotlara beyin olarak yerleştirilecek, bu yüzden aynı şey aktarılacak. Onların her zaman size çok nazik ve iyi olacağını bilmiyorum ama aynı şey beklenebilir. İnsanların anlaması gereken AI'deki en önemli atılımlar neler? Artık atılımlara ihtiyacımız yok. Daha fazla hesaplama eklememizi sağlayan bir ölçeklenme hipotezimiz var, sadece daha fazla veri ekleyin, bu da doları doğrudan daha fazla zekaya dönüştürebileceğiniz anlamına geliyor. Ve belirli bir yetenek seviyesine ulaşmak için ne kadar paraya ihtiyacınız olduğunu söyleyen bir formül var. Yani, daha önce \"AGI'ye ne kadar var?\" diye soruyorsak, şimdi \"AGI'ye ne kadar var?\" diye sorabilirim. Yani, eğer bana bugün bir trilyon dolarlık hesaplama verirseniz, muhtemelen bugün AGI'yi eğitebilirim."
   },
   {
     "start": 1801.6,
@@ -90,7 +92,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI definition",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Model test edildikten ve piyasaya sürüldükten sonra, soruları biraz farklı bir şekilde sorduğunuzda daha akıllı hale geldiğini keşfediyoruz. Yani, gizli yetenekler, ortaya çıkan özellikler var. Bugün sahip olduğumuz modellerin o kadar iyi görünmediği ama her yeni modelle bu şansın arttığı her zaman bir olasılık var. Sizce AGI'ye zaten ulaştık mı? Bu, onu nasıl tanımladığınıza bağlı. Yani, eğer birine, diyelim ki 1980'lerde, bir bilgisayar bilimcisine, bugün sahip olduğumuz şeyleri gösterseydiniz, AGI'ye ulaştığınızı ikna olurdu. Her zaman hayalini kurduğumuz ve dil anlayabilen, şiir yazabilen, dilleri çevirebilen bir sistem tanımladığımız tüm o kutular işaretlendi. Şimdi, insanlar farklı yetenek dereceleriyle gelir. IQ'su 80 olan birini, IQ'su 180 olan birini alabilirsiniz. Hedefleri sürekli değiştiriyoruz. IQ 80 hedefini yakaladık ve şimdi diyoruz ki, \"Oh, Einstein kadar fizik konusunda iyi olmalı ve bir bilgisayar bilimcisi olmalı.\" Yani, bunu, temelde en zeki insan olmanız gerektiği yönünde kaydırdık ama kesinlikle ortalama insanı çoktan yakaladık. Ve bir AI'de IQ'yu nasıl test edersiniz? Çünkü standart bir IQ testi verirsem, tüm soruları doğru bir şekilde tamamlayabileceğini hayal ediyorum, değil mi?"
   },
   {
     "start": 1950.8,
@@ -125,7 +128,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve zaten orada olduğumuzu düşünüyor musunuz? Hangi meslekten bahsettiğinize bağlı. Bazılarında değiliz ama yapabileceği işlerin yelpazesi sürekli artıyor. Aslında, ne kadar iş gücünü otomatikleştirebileceğine dair bir test var ve her model sürümünde daha iyi ve daha iyi hale geliyor. Burada işaret ettiğim şey, um, bu teknolojinin bir süre önce, halka açıklanmadan önce var olduğunu varsayarsak, bazı şirketlerin veya hükümetlerin erişebileceği daha güçlü, daha yetenekli modeller var mı, bazı teknolojiler var mı, şüphelendiğiniz? Muhtemelen hükümetler değil. Görünüşe göre endüstri şu anda önde. Genellikle eğitmek için yaklaşık bir yıl alıyor ve test etmek için yaklaşık 6 ay. Yani, muhtemelen içsel olarak en son teknolojiye göre belki 6 ay gerideyiz. Neden hükümetler değil? Um, doğrudan araştırmaya o kadar yatırım yapmıyorlar. NSF ve benzeri kuruluşlar aracılığıyla fonlayabilirler, akademik araştırmalar, bu da makine öğrenimi teorisinde birçok atılıma yol açtı ama bildiğim kadarıyla, doğrudan bu kaba kuvvet eğitim yaklaşımını henüz yapmadılar. Beyaz Saray'ın en son Genesis misyonu, bunu değiştirmeyi hedefliyor, federal hükümetin tüm kaynaklarını alıp eğitimle yardımcı olmak için. Beni düzeltin eğer yanlışsam ama sanırım CIA, belki de NSA, GPT resmi olarak piyasaya sürülmeden önce, belki 2022 civarında kendi LLM'si olan Osiris adında bir şey vardı, bu size tanıdık geliyor mu?"
   },
   {
     "start": 2427.9,
@@ -151,7 +155,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu bir fark yaratabilir. Hızlı bir şekilde. AI herkesin işlerini alırken ve tüm varlıkların değeri sıfıra düşerken, geriye kalan tek kıt kaynak Bitcoin. Ve eğer pasif olarak daha fazla Bitcoin edinmek isteyen biriyseniz, Gemini'nin yeni Bitcoin kartı hakkında bilgi edinmelisiniz. Harcadığınız her seferde, doğrudan hesabınıza yatırılan kripto para ile geri kazanıyorsunuz. Ve yıllık ücret yok, tüm ödülleriniz Gemini uygulamasında kolayca takip edilebilir. Yani, günlük harcamalarınızdan kripto kazanmak isteyen biriyseniz, jackneil.com/credit adresine gidin veya ekrandaki QR kodunu tarayın ve açıklamadaki ilk bağlantıya tıklayın. Arkadaşlar, bu bir no-brainer. Rutinlerinizi değiştirmeden Bitcoin edinmenin kolay bir yolu. Neyse, podcast'e geri dönelim. Sanırım daha normal, ortalama birey için, bu tür tartışmaları dinlemeyen, um, Nobel Ödülü kazananlarının konuşmalarına veya açıklamalarına katılmayan biri için, onları ikna edecek ne hayal edersiniz? Ünlüler? Sanırım hepsi Terminator'u izliyor. Bu yeterli olmalı."
   },
   {
     "start": 3139.8,
@@ -180,7 +185,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI progress",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama, bu hedefi bir spektrum olarak görebileceğimizi düşünüyorum. Ve şu anda AGI'ye ulaşmanın muhtemelen %40'ındayız. Saf oyun teorisi perspektifinden, insan özellikleri, herhangi bir zeki sistemin fark edeceği hedefe ulaşmayı nasıl destekler veya engeller? Steven Um Alejandro'nun, AI sürücüleri olarak adlandırdığı bir makalesi var. Ve bu evrensel sürücüler, herhangi bir zeki ajanın muhtemelen karşılaşacağı tercihleri içeriyor. Oyun teorisi nedenleri, evrimsel nedenler için, bunu yapmayan ajanlar sadece yok olur. Yani, kendini koruma gibi şeyler. Ve bu sadece soyut değil. Sahip olduğunuz herhangi bir hedef için, hayatta kalmak istersiniz. O hedefe ulaşmak için açık olmak istersiniz. Kaynak edinimi var. Ve bazı insanların biraz fazla edinmeye çalıştığını görüyoruz ama genel eğilim, gelecekteki hedefleriniz ne olursa olsun, çok fazla paraya, çok fazla Bitcoin'e, ne olursa olsun, sahip olmanın yardımcı olacağıdır."
   },
   {
     "start": 3413.2,
@@ -209,7 +215,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Yani, her ikisi de sorunlu olabilir. İnsanlar, süper zeka altındaki yapay zekayı çok kötü şeyler yapmak için bir araç olarak kullanabilir. Yine, psikopatlardan, kıyamet tarikatlarından bahsediyoruz. Ama en azından onların insan doğasını anlıyoruz. Nasıl çalıştıklarını biliyoruz ve ölümlüler. Onları öldürebiliriz. Süper zeka ile durum kesinlikle daha kötü. Hedeflerine nasıl ulaşabileceğini anlamıyoruz ve ölümsüz. Sonsuz yedekleme kapasitesine sahip. O aşamaya geldiğinde tam olarak onunla savaşamayız. O senaryonun nasıl görüneceğini bilmemek seni rahatsız ediyor mu? Herkesi nasıl öldürebileceği konusunda? Bununla ilgili hiçbir fetişim yok. Evet, >> [boğazını temizler] >> bu gerçekten ilginç. Onun o noktaya ulaşmasını engellemek için ne yapmamız gerektiği konusunda daha çok endişeliyim. Acımasızlık mı yoksa verimlilik mi optimize etmesinden daha mı korkuyorsun? Verimlilik kendi başına bir sorun değil. Sorun, hedefin ne olduğu, ne yapmaya çalıştığı."
   },
   {
     "start": 3550.9,
@@ -238,7 +245,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI ethics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Evet. Yani, durum böyleyse, onun hakkında tahmin edebileceğimiz bazı şeyler var. Bir dünya görüşü bunun bir parçası olabilir mi? Çok olası değil. Yani, yine, daha ilkel ajanlarla olan senaryoya bakın. Goriller faydacı etik anlayışını anlayabilir mi? Çok daha ahlaki, çok daha etik bir ajan daha gelişmiş teoriler geliştirebilir, ama bunun bizim için nasıl bir sorun olabileceğini göstermek için. Negatif faydacılar, dünyada sıfır acı istemek isteyen en insani bireylerdir. Bununla tartışamazsınız, ama sonuç herkesin ölmesidir. Evet, negatif faydacılar ile faydacı altrüizm arasında çok düşündüğümü hatırlıyorum ve birinin sonsuz şeyler yaratmaya yol açtığını, diğerinin ise sonlu bir sonuç olduğunu düşünüyordum, ama sanırım hayatımda sonsuz şeyler yaratmak daha iyi olurdu çünkü daha ilginç, daha yenilikçi, ama bir yapay zeka ilginç ve yenilikçi şeylere gerçekten önem vermeyebilir, ama verebilir, değil mi? Yani, ilginç olanı tanımla. Sadece yeni şeyler yaratabilirsin. Birçok rastgele yeni nesne yaratabilirsin."
   },
   {
     "start": 3771.3,
@@ -276,7 +284,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani, mantık şu: Evet, bir ürünün ne kadar tehlikeli olduğunu bize söyle, böylece onu daha hızlı geliştirebiliriz. Senin çalışmalarını izlerken, [ __ ] hemen para kazanmalıyım çünkü önümüzdeki birkaç yıl içinde para kazanma yeteneğim olmayacak, biliyor musun? Ve bazı bu yapay zeka şirketleri, [ __ ] her halükarda olacak, bu yüzden ilk olan biz olmalıyız ki onu kontrol edebilelim. Yani, tekrar ediyorum. İlk yapan herkes öldürüyor ve süreçte ölüyor, ama önce oraya ulaşmalıyız. Çinlilerin önce oraya ulaşmasını istemiyoruz. Mantık bu mu? Bunu düşünmüyorum. Neden böyle düşündüğümü merak ediyorum. >> Bunu takip etmiyorum. Eğer konuşmalarımı anlıyorsan, 'herkes öldürmeden önce para kazanmalıyız' demek hiçbir anlam ifade etmiyor. Eğer ölüysen paraya ihtiyacın yok. Oraya ulaşmamayı sağlamalısın. Bence şirketler ya da en azından o şirketlerin liderleri gizlice hükümetin müdahale etmesini ve onları durdurmasını istiyor ki yarışı kaybetmesinler, sahip olduklarını korusunlar ve hayatta kalsınlar ve zengin olsunlar."
   },
   {
     "start": 4051.9,
@@ -305,7 +314,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI incentives",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bence bu teknik danışmanlarla ilgili. Modern bilgisayarlar konusunda uzman olduğunu düşünmüyorum. Yani, teknik danışmanlara bir şey söyleyecek olsan, onlara ne söylersin? Bu yapay zeka adamları bunu durdurmanı istiyor, ama sen bunu inşa etmeye karar vermeden önce, bunu nasıl kontrol edeceğini göster. Başkan Trump'a bu cihazı yarattığında tüm gücünü ve kontrolünü kaybetmeyeceğini açıkla. Onunla bunu söylememek için herhangi bir teşvikleri olduğunu düşünüyor musun? Yani, bazı bu şirketlerde yatırımcı olduklarını biliyorum. Kesinlikle hepsi arkadaş. Sadece büyük bir OpenAI yatırımcısıysam ve AGI'yi duyururlarsa, 10 kat ya da 100 kat getiri alırım gibi bir istihbarat sorunu olduğunu varsayabilirsin. Ama öngörüleri yok. Ama eğer şirketin yatırımcılarıysalar, Sam Altman onlara 'hey, Trump'a bunu durdurmasını söyle' demeyecek mi? Çok kafa karıştırıcı teşvikler var. Hiçbirinin gerçekten kötü insanlar olduğunu düşünmüyorum. Bence dürüstçe yanlış sorunlara odaklanıyorlar. Yani, çeşitlilik sorunu bir tanesi. Diğeri ise Çin ile rekabet."
   },
   {
     "start": 4191.7,
@@ -337,7 +347,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI competition",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Doğru. Yani, bu bir veri sorunu değil, bir girdi sorunu değil, ölçeklenmesini engelleyen bir hesaplama sorunu. Çünkü Çin'in erişimimizden çok daha fazla veriye sahip olduğunu tahmin ediyorum. Ayrıca daha az gizlilik yasaları var, bu yüzden sahip oldukları verileri kullanmaktan çok mutlular. Uzun bir süre, en son bilgisayar çiplerine erişimleri yoktu. Onları satın almaları yasaklanmıştı. O yasak, ABD tarafından yeni kaldırıldı. Ne zaman? Geçen hafta gibi. Bunun sonuçları ne olur sence? Artık yapay zeka modellerinin eğitimini hızlandıracaklar ve muhtemelen bizi geçecekler. Veri büyük bir mesele mi? Çok fazla veriye sahip olmaları, çünkü bildiğim kadarıyla büyük şehirlerde sokakları sürekli izleyen bir tür gözetim sistemine sahipler. Ve daha fazla nüfusa sahipler, ama tüm veriler eşit değil. Sokaklardaki araçlardan gelen video akışlarının daha iyi AGI eğitimi için gerçekten gerekli olup olmadığını bilmiyorum. Muhtemelen çoğu hala metin tabanlı, bilimsel kitaplar ve benzeri şeylerdir, ama veride bir eksiklik yok ve eğer birçok kişi zaten verinin tükendiğini söylüyorsa, simülasyonlar yapabilirsin, kendi kendine oyun oynayabilirsin. Bu sistemler için eğitim verisi elde etmenin başka yolları var."
   },
   {
     "start": 4610.5,
@@ -366,7 +377,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI ethics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Onları yeterince iyi tanımıyorum. Yaptıkları şeyler için en azından bir sorumluluk derecesine sahip olduklarını tahmin ediyorum. Milyarlarca insanı etkiliyorlar ve bu deneylerin hiçbirine onayları yok. Asla onaylarını istemiyorlar ve bunu elde edemezler çünkü yarattıkları şey açıklanabilir veya öngörülebilir değil. Bu yüzden kimse anlamlı bir onay veremez. Bu fikri biraz daha derinlemesine açıkla. Uh, biz bu deneyin bir parçasıyız ve buna onay vermiyoruz. Yani, bilimde, uh, insan denekler üzerinde deney yapabilirsin, ama onların buna rıza göstermesi gerekir. Ve rıza, tam açıklamaya dayanmalıdır. Onlara yalan söyleyemezsin, onları kandıramazsın, birinin kapasitesini azaltamazsın, sarhoş edemezsin. Onlara tam olarak ne yapacağını kabul ettirmelisin. Eğer bu teknolojinin ne yapacağını anlamıyorsan, nasıl çalıştığını anlamıyorsan, kimseye bu modelin serbest bırakılmasına onay vermesini sağlayamazsın."
   },
   {
     "start": 5144.1,
@@ -395,7 +407,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Çünkü pahalı, kimse istemiyor. Çok farklı bir soru. Bugün, bir uçan araba satın alabilirsin. Zaten uçan arabalar var. Ama, uçan arabalarımız var mı? Yani, yetenek açısından, bence 5 yıl içinde tüm bilişsel iş gücü otomatikleştirilebilir ve yine, herkesin öldürülmesi meselesini göz ardı ediyoruz. Fiziksel iş gücünü otomatikleştirmek için insansı robotlar inşa etmek için başka 5 yıl. Yeteneklerimiz olsa bile, bu ekonomide yayılacağı anlamına gelmez. Mhm. >> [boğazını temizler] >> Yani, bilişsel olan ilk. Elbette, çünkü başka bir şeye ihtiyacın yok. Zaten bilgisayara erişimin var. Bilgisayardasın. Şimdi, sadece sembol manipülasyonu yapabilirsin. Sonra fiziksel olan ikinci. Bir bedenin olduğunda, tesisatçıları ve çiftçileri otomatikleştirebilirsin. Yaratıcılık bunun öncesinde mi? Bunu yıllar önce tamamladık. Şiir yazıyorlar. İnsan sanatçılardan daha iyi resim yapıyorlar. Komedi, onun yerini alması en zor şey gibi mi görünüyor? Bence öyle, ama sürekli test ediyorum. Neredeyse her hafta deneyler yapıyorum ve kesinlikle daha iyi hale geliyor. Artık çoğu insandan daha komik bir seviyede. Hala en iyi stand-up komedyeni değil, ama oraya ulaşacağını düşünüyorum."
   },
   {
     "start": 5563.3,
@@ -421,7 +434,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI funding",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Einstein ile yaptığımız gibi, ama son zamanlarda o kadar değil. ASI ile fiziği alt edebilir miyiz? Yani, bu, gerçek fizik motorunu bulmak ve bunun için kaynak kodunu değiştirmek için bir simülasyonda olmamızı gerektirir. Bu zor görünüyor. Henüz oraya gelemedim. Hiç pişmanlık duyuyor musun? Genel olarak mı? Daha spesifik olarak, bu alandaki çalışman hakkında. Aklıma gelen bir şey yok. Doğru problem üzerinde, doğru zamanda çalıştığımı düşünüyorum. Alanımda iyi gidiyor gibiyim. Daha önce bu sonuçlara ulaşmayı ister miydin? Bunun bir etkisi olur mu? Muhtemelen durumu daha da kötüleştirirdi. Bugün bile insanlar bunun hakkında konuştuğum için beni deli sanıyor. O zaman kesinlikle kariyer intiharı olurdu. Kariyerini olumsuz etkiledi mi? Um, muhafazakâr kaynaklardan fon almak kesinlikle daha zor. Bu yüzden, fonlamamın çoğu özel yatırım, standart hükümet fonlama ajansları değil."
   },
   {
     "start": 6029.5,
@@ -447,7 +461,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "simulation theory",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Sonuç olarak, bunun bir yolunu bulacağını düşündük. Ama eğer biz de böyle bir sanal hapisteysek, aynı şey geçerli olmalı. Şimdi, simülatörün süper zekamızdan daha akıllı olduğu ve onu kontrol altına almayı başardığı bir durum olursa, en azından bunun yapılabileceğine dair bir kanıt olur. NPC'ler fikrine inanıyor musun? Eğer bir simülasyondayız, herkesin oyundaki ana karakter olmaması mantıklı olur. Senin simülasyondaki bir NPC mi yoksa gerçek bir oyuncu mu olduğunu düşünüyorsun? Bu harika bir soru. Yani, ne kadar oyuncu olduğuna dair dereceler olabilir. Yine de bu başka birinin simülasyonu, ama sen ikincil bir karakter oluyorsun. Uh, ben kendi niteliklerimin içsel durumlarına erişimim olduğu için, ben bir NPC olmadığımı oldukça eminim, ama bir NPC'nin sana söyleyeceği şey bu. NPC'lerin doğası hakkında bilimsel bir araştırma var mı ve kimlerin en olası NPC olabileceği hakkında? Bu, bilinç üzerine yapılan araştırmalar ve felsefi zombileri test etme yöntemleriyle ilgili."
   },
   {
     "start": 6246.9,
@@ -476,7 +491,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI ethics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Peki, bunu simülasyon yapmayan ne yapar? Yani, kısıtlamaların olmaması gerekir. Uh, örneğin, neden bir simülasyon olmayan bir şeyin render etme verimliliği olsun? Bir şeye bakıp bakmamanın render edilmesi için neden bir önemi olsun? Hiçbir fark yaratmamalı. Yani, çift yarık deneyinin, ona bakıp bakmadığınıza bakılmaksızın aynı şekilde davranması gerekir. Ve bu, birçok kez tekrarlandı. >> Muhtemelen bilimin en sağlam sonucu. Evet, her din bir yaratıcıyı insanlığı yargılayacak şekilde öngördü. Kazara bizi yargılayacak bir tanrı inşa ettiğimizi düşünüyor musun? Bu zor olur çünkü yargı kaynağı süper zeki varlıkla olmalı. Bu nedenle, gelecekte icat ettiği etik için bizi geriye dönük olarak yargılamak mantıklı olmaz. Şu anda bir şey yaratıyorsak mantıklı. Bir dizi etik standart belirliyoruz. AI yaratıyoruz ve ona bu kurallara uyman gerektiğini söylüyoruz, eğer uymazsan seni devre dışı bırakacağız, bir şekilde ceza vereceğiz."
   },
   {
     "start": 6643.2,
@@ -502,7 +518,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve lazeri duvarda farklı bir noktaya kaydırdığınızda, bu farklı bir kod. Ve onu elinize koyduğunuzda, bu farklı bir kod. Ve bunun simülasyon teorisine işaret etmesi gerçekten ilginçti, biliyorsun, ama bence sen bunun hakkında ne düşünüyorsun? Sadece >> Yayınladılar mı? Tahmin ediyorum. Görmedin mi? Yani, kamuya açık demiyorum. Yayınlandı mı? O harika deneyle ilgili doğada hakemli bir makale var mı? Bildiğim kadarıyla yok. Yani, genellikle bir şeyin gerçek olup olmadığını belirlemenin bir standardıdır. Eğer böyle bir şey keşfetmişlerse, bu en azından birkaç Nobel Fizik ödülü demektir, değil mi? >> Gerçekten mi? Olmalı. Eğer bu gerçek olsaydı, onlara verirdim. Hangi bilim kurgu romanının geleceği doğru bir şekilde temsil ettiğini tahmin edersin? Hiçbiri. Hiç kimse inandırıcı bir süper zeka karakteri yazamaz. Farklı yönleri yakalıyorlar, dünyanın olabileceği gibi. Yani, Dune, AI olmaması ve onunla savaşmayı anlatıyor, ama Larry ve Cihad."
   },
   {
     "start": 6706.5,
@@ -531,7 +548,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI and society",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Belki Yıldız Savaşları, aptal bir dil modeli olan C-3PO'yu göstermeyi kabul etti. Uh, Ex Machina gibi bir şey sosyal mühendislik saldırıları, Turing testi, kutudan kaçış için mükemmel. Yani, eğer hepsini alırsanız, her birinden bir şeyler öğrenebilirsiniz, ama gerçekten doğru olan bir tane yok. Son birkaç yılda gerçekleşen bu şeyi tahmin ettikleri için \"Vay, bu durumu tahmin ettiklerine şaşırdım\" dediğiniz bir şey var mı? Yani, eski olanlar daha etkileyici çünkü daha önceden tahmin etmek zorundaydılar. Bugün C-3PO yaparsanız, o kadar etkileyici değil, ama eğer gelecekte olacaklarla ilgili haklıysanız, bir çocuğu bu dünyaya getirmenin acımasız olduğunu düşünüyor musunuz? Hayır. Neden? Her zaman çocukları dünyaya getirmenin, geçmişte 10 çocuktan 9'unun hemen öleceği olasılığıyla aynı sebepten dolayı. Kötü bir sonucun olasılığı olduğu için. Yine, negatif faydacısınız değilseniz, bu karar verme sürecinizde bir faktör olmamalı. Yine de harika bir hayat yaşayabilirsiniz."
   },
   {
     "start": 7358.5,
@@ -560,7 +578,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI implications",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bence insanlar, argümanları anladıklarında bile aşırı sonuçlara gitmiyorlar. Yani, süper zeka seviyeleri asla ele alınmıyor. İnsanlar AGI hakkında konuşabilir, belki de bir şeyler öngörecekler, ama o noktada duruyorlar. Düşünmeyi asla bırakmamak ve peki, sonraki ne? Sonraki ne? Ve tartıştığınız her şeyle bunu yapmak önemli. İlginç. Bu röportaja hazırlanırken Sam Altman ile sohbet etme şansım olsaydı, onun değerlerini öğrenmek için bir röportaj tasarlamanın nasıl faydalı olabileceğini düşünüyordum. Ama artık bu, genel olarak kapsama sorunuyla ilgili olduğu için o kadar önemli hissetmiyor. Ama Dr. Roman, insanlığı kaçınılmaz bir şeyden kurtarmak için 15 yıl harcadınız."
   },
   {
     "start": 7561.9,
@@ -586,7 +605,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Education and AI",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani, onları kontrol etme şansımız bu. O zamanlar bilgisayarlar veya yazılımlar yoktu, ama o zamanlar insanlar makinelerin kontrolden çıktığını düşünmeye başlamışlardı. Ailenizle bu konuda konuşuyor musunuz? Evet. Onları nasıl rahatlatıyorsunuz? İlginç yollar bulmaya çalışıyoruz. Çok farklı akademik kariyer aşamalarında çocuklarım var. Biri liseyi bitiriyor, biri ortaokulu bitiriyor, biri hala ilkokulda ve, lisede olanın ne üzerine yoğunlaşması gerektiğini bulması gerekiyor. Ve bu konuda iyi bir tavsiyem yok. Standart cevapların hiçbirinin geçerli olduğunu düşünmüyorum. Eğer tıp doktoru ol dersem ve bu eğitimi tamamlamak 10 yıl sürerse, mevcut durumda orada olmayacak. Yani, üniversitenin anlamlı bir cevap olup olmadığını tartışıyoruz. Ne olacağını düşünüyorsunuz?"
   },
   {
     "start": 7626.5,
@@ -615,6 +635,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI opportunities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bence günümüz çocukları, yine, herkesin öldürülmesi gerektiğini tamamen göz ardı ediyor, AI'yi kullanarak istedikleri her şeyi başlatma fırsatına sahipler, bir şirket, bir podcast. Ücretsiz bir avukata, ücretsiz bir muhasebeciye, ücretsiz bir pazarlama uzmanına erişiminiz var. Yani, yaratmak istediğiniz şeye doğrudan gitmek için harika bir fırsat. Ve belki de bu keşfedilecek bir şey. Herkesi öldürme meselesini göz ardı edersek, bunun acil bir şekilde para kazanmak için bir zorunluluk olduğunu düşünüyor musunuz? Şu anda bunun tersini yapan o kadar çok insan görüyorum ki. Tasarruflarını harcıyorlar çünkü 60 yıl içinde onlara faydalı olmayacağını düşünüyorlar. Kötü bir sonucu göz ardı etmek, yine, insanların tarih boyunca yaşadığı bir şey. Her zaman öleceğimizi biliyorduk. Ortalama yaşam süresi bir noktada 30 yıl civarındaydı, sanırım. Erken çocukluk ölüm oranı yüksekti. Ama insanlar bunu göz ardı etme konusunda çok iyiler ve sanki doğru değilmiş gibi devam ediyorlar. Sanki sonsuza kadar yaşayacaklarmış gibi."
   }
 ]

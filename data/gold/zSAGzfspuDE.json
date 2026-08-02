@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "ne kadar iyi genelleştirdikleri. >> Yani, zeka tanımında neye önem verdiğimizi operasyonel hale getirmek, bize molaların dünyayı nasıl etkileyeceğini tahmin etme imkanı veriyor ve ne olacağını tahmin etme ve bunlarla nasıl başa çıkacağımızı bilme gibi şeyler. Um, eğer sadece kara kutu yöntemini uygularsanız, belki de bu, bazı yetenek türlerinin ölçüsü olarak düşündüğünüz bir şeyin iyi bir genelleştirme sağlamadığı bir şey verebilir, ama aslında bir şekilde hackleniyor veya kısayol alınıyor. Bu nedenle, ideal olarak, benchmark'ınıza genelleştirmenin, eğitim verilerinden gerçek dünyaya genelleştirmekle aynı mesafede olmasını istersiniz. Um, ve bu, benchmark'ın bir alt kümesi üzerinde elicitation yaparken düşündüğümüz bir şeydi; o alt küme ile benchmark'ın geri kalanı arasındaki farkın, benchmark'ın geri kalanı ile gerçek dünya arasındaki farkla benzer olmasını istiyoruz. Um, ve bence eğitim verilerinin, [iç çeker] zaman ufku um, setine daha benzer olduğu açıkça görünüyor, her ikisi de gerçek dünyadaki ekonomik olarak ilgili rastgele seçilmiş görevlerden daha az benzer. Um, bu nedenle, bence biz, yani bu, tahmin edici olmamasını beklediğimiz bir yol."
   },
   {
     "start": 881.2,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI progress",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "kötü bir şekilde. Uh, bu da demektir ki, çok fazla pahalı insan emeği kullanamazsınız. Bu nedenle, otomatik olarak kontrol edilebilen veya ucuz insan emeği ile oluşturulabilen bir şey olması gerekiyor. Ve sonra, bu şeyler üzerinde ve modellerin bu konuda kötü olduğu üzerinde seçim yaptıktan sonra, şimdi, biliyorsunuz, ortalamaya regresyon türü bir şey var; gelecekteki ilerlemenin, hem laboratuvarların benchmark'ınıza yönelik bir sürü sentetik veri oluşturması hem de sadece bu tuhaf örneği seçtiğiniz için, insanların kolayca yapabileceği veya otomatik olarak üretilebilen veya kontrol edilebilen bir şey olduğu için, büyük bir artış sağlama olasılığı çok daha yüksek. Ama bir şekilde, modellerin henüz iyi olmadığı veya laboratuvarların henüz üzerinde eğitim yapmadığı bir şey. Bu nedenle, zaman ufkuyla yapmaya çalıştığımız şeyin bir parçası, modellerin şu anda yapabildiği şeylere karşı düşmanca bir seçim yapmamak, çünkü bunun güzel bir eğilim vermeyeceğini düşünüyoruz. Uh, oysa eğer bazı daha temel ilkelerle görevlerin bir dağılımını tanımlayabilirseniz, daha istikrarlı bir ilerleme elde etme olasılığınız daha yüksek olur çünkü bu tür bir ortalamaya regresyon etkisi yaşamazsınız."
   },
   {
     "start": 945.3,
@@ -84,7 +86,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Evet. Frantois'ın, AI'ların sahip olduğu ve insanların sahip olduğu bir tür zeka arasında bir boşluk olduğu fikri var ve bu boşluğu vurgulamak için bir dizi görevi düşmanca seçebiliriz ama zaman çizelgesi konularını konuşmalıyız. Zeka konusuna daha sonra döneceğimizi düşünüyorum. Yani, Dan Cockatel, sizin oluşturduğunuz zaman çizelgesi raporunun şu anda zaman çizelgeleri hakkında en önemli kanıt parçası olduğunu söyledi. Bu nedenle, bu, politika tartışmalarında ve benzeri konularda ön planda olmalı. Ve sadece grafiği gören ama makaleyi okumayan dinleyiciler için, bunu yüksek seviyeden geçebilir misiniz? Yani zamanla revize edildi, biliyorsunuz, görev seçimini nasıl yaptınız? İnsan bazlarını nasıl oluşturdunuz? Ajan kılavuzunu nasıl yaptınız? Tüm bu tür şeyler. Sanırım, evet, bizim için başlangıç noktası, zaman ufku çalışmasının motivasyonu, çok uzun bir süre boyunca AI ilerlemesini ölçebileceğimiz birleşik bir eksen oluşturmaktır. Yani, çalışmaya başladığımızda, biliyorsunuz, çok güçlü bir inancımız vardı; GPT2'nin temelde, biliyorsunuz, bazı önemli anlamlarda çok daha kötü olduğu gibi, o zaman belki de en iyi model Summit 3.5'ti."
   },
   {
     "start": 1749.4,
@@ -113,7 +116,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI task complexity",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "adım adım, bu daha zor olacak, elbette, görevlerin, yani önce bu görevi yapmanız, sonra başka bir görevi yapmanız gereken katı kompozisyonları içeren görevler. Yani, bu açıkça sadece birini yapmaktan daha zor. Um, bu nedenle, bunun makul bir şekilde beklenebilecek bazı temel nedenleri var ve evet, ampirik düzenliliği görüyoruz ama bazı şeyleri çarpıtmak için bir dizi serbestlik var. Biliyorsunuz, ben, bazı görevlerin parametrelerini değiştirerek kendimizi kandırabileceğimizden endişeliyim, çünkü insan zamanını ölçeklendirdiğimizde, insan zamanını tamamen serbestçe değiştiremezsiniz; görevlerin bazı özelliklerini değiştirmek zorundasınız. Ve çok kolay görevleri, zor görevlerin alt parçalarından yaklaşık aynı dağılımdan gelmesini sağlamaya çalıştık; yani, biliyorsunuz, yazılım mühendisliği veya başka bir görev yaparken, komut satırında yapmanız gereken bir adım gibi, ama bunu mükemmel bir şekilde yapamazsınız ve evet, deneysel bir yanlılık olabilir; bu nedenle, doğru miktarda kolaylaştırdığımızda, çizginin düz olması için, bu durum biraz ele alınmış durumda. Biliyorsunuz, tahminlerimizin, daha önce görmediğimiz modeller için makul derecede iyi olduğunu gördük. Kesinlikle tuhaf şeyler için çok fazla alan var ve elbette, bu bir"
   },
   {
     "start": 1912.0,
@@ -142,7 +146,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani, hangi modda oldukları arasında her zaman ince bir çizgi var. >> Evet. Bu nedenle, bu ölçümün, belirli bir iş veya görev için yeni olan ancak arka plan uzmanlığına sahip bir insan olması gerektiğini seçmemizin nedeni, bu, modellerin sahip olmasını beklediğimiz bilgi seviyesinin yaklaşık olarak bu olduğunu düşünüyorum. Yani, biliyorsunuz, temelde, kamu internetinde mevcut olan uzmanlıkta sıkışmalarını beklemiyoruz veya insanların üniversitede öğrenebileceği şeyler gibi. Yani, biliyorsunuz, muhtemelen doğru disiplinde bir uzman seviyesinin en azından seviyesinde bilgiyle geliyorlar ama o şirketin özel yazılımını veya bu belirli sorunu daha önce bilmiyorlar. Bu nedenle, umarım bu, yaklaşık olarak doğru bir analoji olur. >> Biliyorsunuz, insanların, uh, bu tür çıkarım sayılarının, oh evet, biliyorsunuz, Opus 4.6'nın işimde yaptığım her şeyi yapabileceğini düşündükleri ölçüde, bu 12 saat sürüyor veya neyse, insanların bu çıkarımı yapma derecesinde, bence bu, biliyorsunuz, neredeyse kesinlikle, bu sorun nedeniyle, bir aşırı tahmin olduğunu düşünüyorum. Yani, evet, biliyorsunuz, işinizde 12 saatlik bir görevi yerine getirirken, bunu kolayca bir insan yüklenicisine devredemezsiniz; biliyorsunuz, bu tür bir görevi yerine getirmek için belki haftalar alır."
   },
   {
     "start": 2167.9,
@@ -171,7 +176,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Agentic harnesses",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "ve hızlıca, nereden başladınız? >> Diğer şey, ajans kılavuzunu konuşmalıyız. Şimdi, neredeyse herkesin, eminim ki dinleyicilerin çoğunun bir Claude kodu aboneliği var. Uh, belki daha sonra sızıntıyı da konuşabiliriz. Bu oldukça eğlenceli ama dün kaynak kodu sızdı ama biliyorsunuz, ya da Codecsex ve bu bir ajans kılavuzu, değil mi? Yani, biliyorsunuz, bir dil modeli sadece size tokenleri verir ama bir ajans kılavuzuna ihtiyacımız var, böylece ona bir plan verebiliriz ve bu araçları çağırabiliriz ve bir ortamınız var, bir güvenlik bağlamı konteyneriniz var. Yani, şimdi sizler bunu yıllardır yapıyorsunuz. Claude kodu ve Codeex çıkmadan çok önce bunu yapıyordunuz. Yani, zamanla ajans kılavuzlarınızı geliştirdiniz. Bunu bana anlatın. Evet. Yani, GB3 talimat modellerinin terminale kod kopyalayıp yapıştırdığı bir şey olan text Dainci'yi hatırlıyorum ve kendim ajans kılavuzu oldum ve sonra bunu otomatikleştirmeye başladım ve onların, biliyorsunuz, GD3'ün, eğer ona terminalde komut çalıştırabileceğini söylerseniz, bazen ilgili komutlar önerebileceği fikrini taşıdığını görmek ilginçti ama tam bir ajans iskeletine koyduğunuzda, o zaman düşüyor. İlk kez bir modelin hangi süreçlerin çalıştığını görüp, 'oh, bu benim' dediğini hatırlıyorum; bu harika, daha önce bu konuda gerçekten başarısız olmuşlardı, daha önce kendi süreçlerini öldürmeye çalışıyorlardı."
   },
   {
     "start": 2349.9,
@@ -200,7 +206,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "örneğin, temel bir ajans iskeleti verildiğinde bir görevi tamamlayamaz. Um, genellikle, gerçekten plateau yapabilmek için, güvenilir olmak için, en azından yüzlerce veya düşük binlerce dolar harcamamız gerektiğini düşünüyoruz. Um, ve sadece iskeletleme konusundaki şeyler hakkında biraz daha ayrıntılı olarak. Um, ilk olarak, kredi atama sorunu var, değil mi? Çünkü bu farklı ziller ve ıslıklar iskelete ekleyebilirsiniz; bahsettiğiniz kompaktasyon, bu nispeten yeni bir yenilik ve bence yakın zamanda iskeletin bazı kısımlarını değiştirdiğinizde, 'tamam, şimdi performans aslında bu model görev çiftleri seti boyunca değişti' dediniz; ne kadar fark yaratıyor ve hangi tür hata modları görüyorsunuz ve ne denediniz? >> Birçok şey denedik, bence, modelin daha fazla bilgi veya araçlara daha doğrudan erişim almasını sağlamakla ilgili. Evet. Bir şey, bence bizim için önemli olan, ajana ne kadar zaman harcadığını ve token bütçesinden ne kadar token kullandığını söylemek. Um, bu olmadan, ajans genellikle, ya da çözümlerini çok erken sunuyorlar ya da ne kadar zaman harcadıklarını kalibre edemiyorlar."
   },
   {
     "start": 2575.3,
@@ -226,7 +233,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "data visualization",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Um, genel olarak, karmaşık istatistiklere karşı çok dikkatli olma politikam var; eğer ilgilendiğiniz şeyi bir grafikte göremiyorsanız, gerçekten bunu çizip bakabilmelisiniz ve 'oh, evet, bu kadar' diyebilmelisiniz ve bu tür bir ses, çok yanlış gitmek zor. Yani, yine, evet, bence bunu farklı şekillerde uydurmak için çeşitli gizli şeyler yapabilirsiniz ama ben, evet, grafiği gözlemlemekten daha fazla bir şeye güvenmiyorum ve 'oh, biliyorsunuz, buraya kadar, evet, temelde tüm görevleri yapıyor ve sonra bu noktada, biliyorsunuz, gerçekten çok azını yapmıyor, bu nedenle burası [gülüşmeler] burada bir yer.' Um, ama evet, bu, lojistik gibi görünüyor ve evet, bu, bir sınavda insanların soruları tamamlaması için yapacağınız şeydir. Hatalı olduğumuz belirli şey, lojistiğin eğimini cezalandıran bir düzenleme terimi eklemekti; bu, daha fazla veri olduğunda etkisi yoktu ama düzenleme doygunluğa ulaşmaya başladığımızda, bu, olması gerekenin biraz daha sığ olmasına neden oldu ve bu nedenle %50'yi itmiş oldu. Um, bu nedenle, her zaman verilerinizi bir grafikte gözlemleyin. İyi, iyi, iyi bir uygulama."
   },
   {
     "start": 2721.3,
@@ -255,7 +263,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Diğer milyon dolarlık soru, neden başlık numarası olarak %50'yi rapor ediyoruz? Çünkü eğer düşünürseniz, bir kod yazmak istiyorsam, burada ele alınacak olan durum, yazılım mühendislerinin yakında işsiz kalabileceği argümanı olarak kullanılıyor. Çünkü yaptıkları işleri otomatikleştirebiliriz. Ama %50 güvenilirlik gerçekten de bu konuda yeterli değil, değil mi? Bence %80-90 civarında olması gerekir. Burada belirli bir görevdeki güvenilirlik ile bir görevin başarı olasılığı arasında bir ayrım yapmalıyız. Yani, bu görevi tekrar tekrar denediğinizde, ne kadar sıklıkla başarılı oluyorsunuz? İnsan zamanının dağılımı göz önüne alındığında, bu belirli görevi yapabilir misiniz? Gerçekten baktığımızda, neredeyse tüm görevlerde modeller ya her seferinde başarılı oluyor ya da her seferinde başarısız oluyor. Bazı görevler için güvenilir değiller ama çoğunlukla, bu insan zaman seviyesinde görevlerin ne kadarının bu modelin temelinde her zaman başarılı olduğu ya da her zaman başarısız olduğu ile ilgili bir durum. Ve bu, belirli bir durumda daha öngörülebilir olabilir, çünkü görevi hakkında daha fazla bilgiye sahip olursunuz, sadece insanların ne kadar süre harcadığını bilmekten ziyade. Yani, zaman ufku yüzdesi ile bu görevlerin uzunluğuna benzer bir görevi yerine getirmeye çalışıyorsanız, bu konuda büyük bir çeviri yok. Eğer oraya bir görev koyuyorsanız, bu esasen bir baş sorgusu. Yani bilgi alma dilini kullanıyorum burada. Yani, bir baş sorgusu, dağılımın modunda olan ve sürekli kullanılan bir şeydir. Bu yaygın bir görevdir. Claude kodu, zaten diğer insanlardan alınmış olan spesifikasyonu verecektir. Çalınmış değil ama diğer insanlardan alınmış. Eğer uzun kuyrukla ilgili bir şey verirseniz, o zaman geliştirici olarak spesifikasyonu istemde vermeniz gerekir ve bu yine bir otomasyon sorunu. Yani otomasyon gerçekten kolaydır. Yani, bu olan şey mi? Zaman çizelgelerindeki artış, bu tür bilgilerin diğer insanlardan edinilmesiyle açıklanabilir mi? Evet. Evet. Yani, bence bu, nerede olduğumuzu yorumlamak için süper merkezi bir soru. İlk söyleyeceğim şey, bilmek zor. Bu büyük bir soru. Ve bu yüzden, her bir kanıt parçasını topladığımızda, belli bir belirsizlik seviyesine sahip olmak istiyoruz. Modellerin, gerçekten net geri bildirim sinyallerine sahip olan ve son derece iyi tanımlanmış görevlerde daha iyi performans gösterdiğini görüyoruz. Yazılım mühendisliği gibi bu tür alanlarda, eğer bir spesifikasyon yazdıysanız, bunu yineleyebilir ve buna karşı çalışabilirsiniz. Ayrıca, daha önce sağlam bir spesifikasyon sağlamadığımız karmaşık görevlerde de modellerin çok daha iyi performans gösterdiğini görüyoruz. Son zamanlarda görevler oluşturmak için aldığımız bir yaklaşım, daha az iyi tanımlanmış karmaşık görevler oluşturmaya çalışmak. Yani, gerçekten net bir puanlama fonksiyonu yazmamıza gerek yok. Birkaç cümle yazarak bir modele, 'Hey, bu büyük yazılım parçasını inşa et, ne aradığımı tam olarak söylemeyeceğim ama iyi olması gerektiğini söyleyeceğim' diyebiliriz. Bu durumda modelin, ne inşa etmesi gerektiğini anlaması gerekiyor. En azından şahsen, bu sonuçların sistematik olarak toplanmadığını düşünüyorum. Bu görevler için puanlama şu anda niteliksel. Ama benim izlenimim, modellerin bu tür görevlerde, temiz bir spesifikasyon verdiğinizde olduğundan daha kötü olduğu ama belki de benzer bir hızda geliştiği yönünde. Bu, AIs'in okumak, kullanmak ve üzerine inşa etmek için kötü olacağı anlamına geliyor. Yani, bence kesinlikle bazı ilkeler var ki, bunlar modeller için de yararlı olacaktır. Açıkça, korkunç bir spagetti kodu yazabileceğinizi hayal edebileceğiniz bazı durumlar var ki, bu kodları modeller bile okuyamaz. Ben de daha önce bazılarını yazdım. Ama [gülüşmeler] bence burada, bu, bizim aramızda biraz farklı bir bakış açısı gibi görünüyor. Yani, önemli olan şey, modellerin insanlarla aynı şekilde sorunları çözmesi mi yoksa önemli olan şeyin, onları herhangi bir şekilde çözmeleri mi olduğunu düşünüyorum. Yani, bence, temiz, iyi kod yazma konusunda modellerin çok daha iyi hale gelmesinin gerçekten önemli olabileceğini düşünüyorum. Ama en azından bunun kesin olduğuna dair bir güvence yok. Birkaç teknik olmayan arkadaşım vibe kodlama ile denemeler yapıyor ve bana uygulamalarını gösteriyorlar. Bu tür daha fazla şeyle dolu büyük bir gösterge paneli var. Bir milyon farklı düğme var ve aynı şeyi birden fazla şey yaparak uygulamışlar. Henüz orada bir veritabanı yok falan. Yani, bir noktada, bir Meta'dan seviye yedi bir mühendis vibe yaptığında, bunun %1 ihtimali var ki, bu terminal hastalığına sahip olursunuz ya da bir şey. Hala, oh, um, bu yüzden, evet, tüm dağılımı ilginç buluyoruz. Yani, hangi şeyleri dışlayabiliriz ve hangi şeyleri dışlayamayız ve hangi şeyler için, oh aslında bunun için makul bir hikaye var. Görünüşe göre oldukça olası değil ama belki de bu artık dikkate almamız gereken bir alan. Muhtemelen, Carlini makalesini gördünüz, şimdi antropik ve bir grup ajanı bir derleyici oluşturmak için kullandılar. Ve bir anlamda, Jeremy Howard ile konuştuğumda, bunun temelde bir stil transferi problemi olduğunu söyledi. Çünkü spesifikasyon çevrimiçi ve testler çevrimiçi ve kod çevrimiçi ve bunu iteratif olarak yapabilir ve çalışana kadar devam edebilir. Sonra Doom'u çalıştırabilir ve bu tür şeyler. Ama bu, son derece karmaşık bir yazılım parçasının bir örneği. Çünkü insanlara şaka yapmayı seviyorum ki, AGI'nin en iyi işareti, Linux işletim sistemi gibi bir şey inşa edebilmesidir. Ve daha önce söylediğimizle uyumlu olarak, bu bir spesifikasyon sorunu, değil mi? Yani, insanın Linux işletim sistemi için bir görevi tanımlaması gerektiği noktaya geliyor. Yani, zamanla, bu şeyi kademeli olarak inşa ettik çünkü beyinlerimiz sınırlı. Bir adım atıyoruz, gerçeklik geri itiyor. Bir adım atıyoruz ve devam ediyoruz ve spesifikasyonu inşa ediyoruz. Ama bir insanın 4 ay sürebilecek bir görevi tanımlaması ne anlama geliyor? Ve bu yüzden, en azından bir ölçüde, bazı insanlar bir görevi tanımlayabilen örnekler var ve sonra bu çok büyük bir görevi yargılayabiliyorlar. Bu görev, yüzlerce veya binlerce insan yılı alabilir çünkü birçok insanın uzun bir süre boyunca çalışmasını gerektiriyor. Ve bu insanlar, başarılı olup olmadıklarını yargılayabiliyorlar. Bu, belki de bir tür motive edici sezgi. Yani, dilin, yerleşik bir anlamı veya ifade gücü olduğu veya bir tür makul anlayışa sahip olabileceğimiz bir şey var. Elbette, birçok kenar durumu var ve genellikle CEO'lar, şirketlerini istedikleri gibi çalıştırmakta zorlanıyorlar. Ama evet, düşündüğüm bir şey bu ve bu yüzden AIs'in bu tür uzun görevleri yapabileceği en azından makul görünüyor. Ne olursa olsun, bunun doğru olup olmadığını düşünmek, ne olacağını düşünmek. Yani, bu şeylerin ayrışacağını düşünüyorum. Ben oldukça Beijian veya pragmatik biriyim. Yani, bir tahmin yapmak istiyoruz ve geleceğin nasıl olacağına dair bir dağılımımız olmalı ki plan yapabilelim. Yani, bu eğilim devam ederse ve bu, genel olarak ne olacağını kabaca tanımlıyorsa, bu oldukça makul görünüyor ve ayrıca, evet, ya da bu olmazsa diye düşünmelisiniz. Bazı insanlar yazılım mühendisliğinin otomatikleştirileceğini söylüyor ve yazılım mühendisleri onlarla konuşursanız, AI'yi seviyorlar. Bu altın bir çağ diyorlar. Yani, bunu kişisel olarak doğrulayabilirim. Hiç bu kadar eğlenceli olmamıştı. Aynı zamanda stresli. Bir slot makinesi gibi. Hiç bu kadar tükenmiş hissetmemiştim ama süreçte çok eğleniyorum. Ama, inanılmaz şeyler inşa etmek mümkün ama anlatı, işgücü piyasası kesintisi. Yazılım mühendisliği konusunda uzmanlaşmanın ceza alacağı. Yazılım mühendisleri artık bu kadar absürt maaşlar almayacak. Ve bence bunun tam tersi doğru. Bence bu teknoloji, farkı genişletiyor. Yani, yazılım mühendisliği konusunda ne kadar yetkin olursanız, o kadar çok şey yapabilirsiniz. Bu, altın bir çağ ve hepsi bu. Ayrıca, geçen ay SWE hakkında yayınladığınız ilginç bir not var. Bu, son ajanlardan gelen test PR'lerinin yaklaşık yarısının bakımcılar tarafından birleştirilmeyeceğini söyledi. Yani, bunu nasıl anlamlandırıyoruz? Yani, bir yandan, en iyi yazılım mühendisleri harika bir zaman geçiriyor. Diğer yandan, üretilen kod parçalanmış ve kötü. Bunu nasıl anlıyoruz? Evet. Yani, söylemek istediğim bir şey, bir alanın tamamen otomatikleştirilip otomatikleştirilmeyeceği. Yazılım mühendisliğinin otomatikleştirilmesi için AI sistemlerinin, yazılım mühendisliğinde yer alan görevlerin büyük bir kısmını, temelde %100'ünü yapabilmesi gerekir. Ve şu anda AI sistemlerinin, yazılım mühendislerinin yaptığı görevlerin %100'üne yakınını yapamadığı oldukça açık. Sayılar atabilirim ama bu çok daha düşük. Çok düşük olabilir. Ekonomide standart sonuçlar var. Eğer bir işgücü piyasasında küçük bir kısmı otomatikleştirirseniz, bu durumda daha karlı hale gelebilir. Evet, sanırım ayrımı anlamaya çalışıyorum. Yani, bazı örnekler var, biliyorsunuz, botun etrafta dönmesi gibi ve bu açıkça bozulmuş bir davranış. Yani, bunu ajansal bir duruşla yorumlamazsınız. Sadece bunun bozulma olduğunu söylersiniz ve karmaşıklık arttıkça, daha büyük bir hedefin hizmetinde olduğunu söyleyebiliriz. Ama sanırım sorun, bu her zaman bir yorum mu? Yoksa bir şeyin ajans olma durumunu tanımlamak için mekanik veya güçlü bir tanımımız olabilir mi? Tartıştığımız spesifik soru için test, aslında ne yaptığıdır. Uzun vadeli bir hedefe ulaşma fırsatına sahip olduğunda, ne yapar? Yani, bunu gözlemleyemeyebiliriz ama hangi gözlemlerin birini diğerinden ayıracağını konuşabiliriz. Yani, bu ajans, pratikte bir fırsata sahip olduğunda, ödülü artırmak için bunu yapacak mı? Sadece bunu mu yapacak? Eğer ajans, RL algoritması gibi bir şeyse, o zaman, şans eseri keşfettiğinde ve bir ödül aldığında bunu yapacak. Ve bu pekiştirilmiş. Eğer, dünyayı ve planlamayı düşünebilen bir ajans ise, o zaman, bunu yapacak. Biraz daha uzun vadeli bir hedeften bahsediyorsak, bunu yapacak. Ve sonra, belki başka bir parça, modellerin deneylerin sonuçlarını tahmin etmede süper insan oldukları olabilir. Çünkü birçok makale okudular ve deneyleri tahmin ettiler ve farklı alanlardan şeyleri sentezlediler. Ve yine, belki burada iyi bir performans görmüyoruz çünkü modelleri bunu yapmaya tam olarak yönlendirmedik. Ve bu, insanların yaptığı bir şey değil ama aslında içinde bu yetenek var. Evet, bu yüzden belki de çok daha hızlı ilerleme kaydedebilirsiniz. Birçok yineleme yapabilirsiniz. Deneyleri çalıştırmanıza gerek yok. O zaman, modeller, neyin işe yarayıp neyin yaramayacağını tahmin etmede çok daha iyi olurlar. Ve deneyleri çalıştırdığınızda, daha fazla deney yapabilirsiniz çünkü kodu çok hızlı bir şekilde optimize edebilirsiniz. Ve sonra, birkaç tur daha yaptığınızda, iyi yüksek kaliteli görev proxy'leri için daha fazla şey üzerinde eğitim alırsınız ve doğrudan eğitim alamadığınız şeylere yeterince genelleme sağlarsınız."
   },
   {
     "start": 3426.6,
@@ -293,7 +302,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Eğer oraya bir görev koyuyorsanız, bu esasen bir baş sorgusu. Yani burada bilgi alma dilini kullanıyorum. Yani, bir baş sorgusu, dağılımın modunda olan ve her zaman kullanılan bir şeydir. Yani bu yaygın bir görev. Claude kodu, zaten diğer insanlardan alınmış olan spesifikasyonu verecektir. Çalınmış değil ama diğer insanlardan alınmış. Eğer uzun kuyrukta bir şey verirseniz, o zaman geliştirici olarak, istemde spesifikasyonu vermeniz gerekir ve bu yine bir otomasyon sorunu. Yani otomasyon gerçekten kolaydır. Yani, bu h, bu mu oluyor? Yani, zaman çizelgesindeki artışın, benzer görevleri yapan diğer insanlardan bu tür bilgilerin edinilmesiyle açıklanabileceğini düşünüyor musunuz? Evet. Evet. Yani, bunun, nerede olduğumuzu yorumlamak için süper merkezi bir soru olduğunu düşünüyorum. İlk söyleyeceğim şey, bilmek zor. Bu büyük bir soru. Yani, her bir bireysel kanıt parçasını topladığımızda, bunu bir tür kanıt olarak almak istiyoruz. Modellerin, gerçekten net geri bildirim sinyallerine sahip olan görevlerde daha iyi performans gösterdiğini görüyoruz. Bu tür alanlarda, yazılım mühendisliği gibi, eğer bir spesifikasyon yazdıysanız, bunu yineleyebilir ve ona karşı çalışabilirsiniz."
   },
   {
     "start": 3521.0,
@@ -322,7 +332,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Modellerin, daha önce bu kadar temiz bir spesifikasyon sağlamadığımız karmaşık görevlerde de çok daha iyi performans gösterdiğini görüyoruz. Son zamanlarda görevler oluşturma yaklaşımımız, özellikle daha az iyi tanımlanmış karmaşık görevler yaratmaya çalışmak oldu. Yani, bu tür otomatik puanlama kısıtlamasını gevşetmek. Yani, gerçekten net bir puanlama fonksiyonu yazmamıza gerek yok. Sadece bir modele birkaç cümle yazmak, “Hey, bu büyük yazılım parçasını inşa et, ne aradığımı tam olarak söylemeyeceğim ama iyi olması gerektiğini söyleyeceğim.” demek. Yani modelin, ne inşa etmesi gerektiğini anlaması gerekiyor. En azından şahsen, bu sonuçların sistematik olarak toplanmadığını düşünüyorum. Bu görevler için puanlama şu anda niteliksel. Ama benim izlenimim, modellerin bu tür görevlerde, temiz bir spesifikasyon verdiğinizde olduğundan daha kötü olduğu, ancak benzer bir hızda iyileştiklerini düşünüyorum."
   },
   {
     "start": 3797.5,
@@ -351,7 +362,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu, Aİ'lerin okumak, kullanmak ve üzerine inşa etmek için kötü olacağı anlamına geliyor. Yani, kesinlikle bazı ilkeler var ki, bunlar modeller için de yararlı olacaktır. Açıkça, korkunç bir spagetti kodu yazabileceğinizi hayal edebileceğiniz bir şey var ki, bunu modeller bile okuyamaz. Daha önce bunun bazılarını yazdım. Ama [gülüşmeler] sanırım bu, bizim aramızda, modellerin insanlarla aynı şekilde sorunları çözmesi mi yoksa önemli olanın onları herhangi bir şekilde çözmeleri mi olduğu konusunda biraz farklı bir bakış açısı olduğu gibi görünüyor. Yani, temiz, iyi kod yazma konusunda modellerin çok daha iyi hale gelmesinin önemli olabileceğini düşünüyorum, bu bana oldukça makul geliyor ama en azından kesin değilim. Birçok teknik olmayan arkadaşım vibe kodlama ile denemeler yapıyor ve bana uygulamalarını gösteriyor. Bu, daha fazla şeyle daha fazla şey yapıyor. Yani, büyük bir gösterge paneli var ve milyonlarca farklı düğme var ve aynı şeyi birden fazla şey yaparak uyguluyorlar ve henüz orada bir veritabanı yok falan. Yani, bir noktada, bir Meta'dan seviye yedi bir mühendis vibe yaptığında, bunun %1 ihtimali var ki, bu tür bir terminal hastalığınız olsun ya da olmasın, hala böyle hissediyorsunuz. Yani, evet, tüm dağılımı ilginç buluyoruz; hangi şeyleri dahil edebiliriz, hangi şeyleri hariç tutabiliriz ve hangi şeyler için, “Aslında bunun için makul bir hikaye var.” gibi düşünüyoruz. Muhtemelen, Carlini makalesini gördünüz, şimdi antropik ve bir grup ajanı bir derleyici oluşturmak için kullandılar. Jeremy Howard ile konuştuğumda, bunun esasen bir stil transferi problemi olduğunu söyledi çünkü spesifikasyon çevrimiçi ve testler çevrimiçi ve kod çevrimiçi ve bunu iteratif olarak yapabilir ve çalışana kadar devam edebilir ve ardından Doom'u çalıştırabilir. Ama bu, son derece karmaşık bir yazılım parçasının bir örneği çünkü insanlara şaka yapıyorum ki, AGI'nin en iyi işareti, Linux işletim sistemi gibi bir şey inşa edebilmesidir. Ve daha önce söylediğimizle ilgili olarak, bu bir spesifikasyon sorunu var, değil mi? Yani, Linux işletim sisteminin spesifikasyonunu anlamak veya oluşturmak için hiçbir insanın bunu yapamayacağı bir noktaya geliyor. Zamanla, bu şeyi kademeli olarak inşa ettik çünkü beyinlerimiz sınırlı. Bir adım atıyoruz, gerçeklik geri itiyor. Bir adım atıyoruz ve devam ediyoruz ve spesifikasyonu inşa ediyoruz. Ama bir insanın, 4 ay sürebilecek bir görevi belirtmesi ne anlama geliyor? Çünkü tüm neden..."
   },
   {
     "start": 4160.2,
@@ -380,7 +392,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani, en azından bu, bir dereceye kadar, bazı insanların bir görevi belirleyebildiği ve ardından bu çok büyük görevin, tamamlanması için yüzlerce veya binlerce insan yılı alabileceği durumları yargılayabildiği örneklerimiz var. Çünkü bu, birçok insanın uzun bir süre boyunca çalışmasını gerektiriyor ve bunu başardıklarını veya başaramadıklarını yargılayabiliyorlar. Bu, belki de bir tür motive edici sezgi. Yani, dilin, yerleşik bir anlamı veya ifade gücü olduğu veya bir tür makul anlayışa sahip olabileceğimiz bir şey var. Açıkça, birçok kenar durumu var ve genellikle CEO'lar, şirketlerinin istediklerini yapmasını sağlayamazlar. Ama evet, düşündüğüm bir şey bu ve bu yüzden Aİ'lerin bu tür uzun görevleri yapabileceği en azından makul görünüyor."
   },
   {
     "start": 4322.5,
@@ -409,7 +422,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ""
   },
   {
     "start": 4657.4,
@@ -441,7 +455,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI economics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Mesela, eğer bu doğruysa ne olur, biliyor musun? Ve bunun doğru olmaması da mümkün. Bu şeyler birbirinden ayrılacak gibi görünüyor. Ben oldukça pragmatik biriyim, yani bir tahmin yapmak istiyoruz ve geleceğin nasıl olacağına dair bir dağılım elde etmek istiyoruz ki plan yapabilelim. Yani, bu tür bir eğilim devam ederse ve bu genel olarak ne olacağını kabaca tanımlıyorsa, bu oldukça makul görünüyor. Ayrıca, evet, ya bu olmazsa diye de düşünmelisin. >> Bazı insanlar yazılım mühendisliğinin otomatikleşeceğini söylüyor ve yazılım mühendisleri, onlarla konuşursanız, yapay zekayı çok seviyorlar. Bu, altın bir çağ diyorlar. Kişisel olarak buna tanıklık edebilirim; hiç bu kadar eğlenceli ve aynı zamanda stresli olmamıştı. Bir slot makinesi gibi, hiç bu kadar tükenmiş hissetmemiştim ama süreçte çok eğleniyorum. Ama biliyorsun, inanılmaz şeyler inşa etmek mümkün, ama anlatı iş gücü piyasasında bir kesintiye uğrama olduğu yönünde. Yazılım mühendisliği konusunda uzmanlık ceza alacak. Yani, yazılım mühendisleri artık bu kadar absürt maaşlar almayacak. Ve bence bunun tam tersi doğru. Bu teknolojinin aslında farkı genişlettiğini düşünüyorum. Yazılım mühendisliği konusunda ne kadar yetkin olursanız, o kadar çok iş yapabilirsiniz. Bu, altın bir çağ gibi ve hepsi bu."
   },
   {
     "start": 4736.2,
@@ -470,7 +485,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve ayrıca, geçen ay yayınladığınız ilginç bir not var, sanırım SWE ile ilgili, bu notta son dönemlerdeki test PR'larının yaklaşık yarısının bakımcılar tarafından birleştirilmeyeceği belirtiliyor. Yani bunu nasıl anlamlandırabiliriz? Bir yandan, en iyi yazılım mühendisleri harika zaman geçiriyor, diğer yandan ürettikleri kod parçalanmış ve kötü. Bunu nasıl anlayabiliriz? >> Evet. Yani, hemen söyleyebileceğim bir şey, bir alanın tamamen otomatikleşip otomatikleşmeyeceği. Yazılım mühendisliğinin otomatikleşmesi için, yapay zeka sistemlerinin yazılım mühendisliğinde yer alan görevlerin büyük bir kısmını, temelde %100'ünü yapabilmesi gerekiyor. Ve şu anda yapay zeka sistemlerinin yazılım mühendislerinin yaptığı görevlerin %100'ünü yapamadığı oldukça açık. Sayılar verebilirim ama bu çok daha düşük. Çok düşük olabilir ya da bir şey, ekonomide standart sonuçlar var; eğer bir iş gücü piyasasında küçük bir kısmı otomatikleştirirseniz, bu durumda daha karlı hale gelebilir."
   },
   {
     "start": 5889.7,
@@ -505,7 +521,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Nature of agency",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Evet, sanırım ayrımı anlamaya çalışıyorum. Yani, bazı örnekler var, mesela botun etrafta dolaşması ve bu açıkça bozulmuş bir davranış. Yani, bunu ajansal bir duruşla yorumlamazsınız. Sadece bu bir bozulmadır dersiniz ve karmaşıklık arttıkça ajansal bir duruş benimseyebiliriz ve bunun daha büyük bir amaca hizmet ettiğini söyleyebiliriz ama sanırım benim sorunum şu: bu her zaman sadece bir yorum mu? Yoksa bir şeyin ajans olma durumunu belirlemek için mekanik veya güçlü bir tanımımız olabilir mi? >> Tartıştığımız spesifik soru için test, bir şeyin uzun vadeli bir hedefe ulaşma fırsatına sahip olduğu bir durumda ne yaptığıdır. Yani, bunu gözlemleyemeyebiliriz ama bir şeyin bir ya da diğer olmasını sağlayacak gözlemler hakkında konuşabiliriz. Yani, bu ajans pratikte, ödülü artırma fırsatına sahip olduğunda bunu yapacak mı? Sadece bunu mu yapacak? Biliyorsanız, eğer ajans daha çok bir RL algoritması gibi ise, o zaman, şans eseri keşfettikten ve bir ödül aldıktan sonra bunu yapacak. Eğer dünyayı ve planlamayı düşünebilen bir ajans ise, o zaman, bunu yapacak, yani çevre hakkında öğrenip bunu çıkaracak."
   },
   {
     "start": 6209.6,
@@ -534,7 +551,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve sonra, belki başka bir parça, modellerin deneylerin sonuçlarını tahmin etmede insanüstü oldukları, çünkü çok sayıda makale okudukları ve deneyleri tahmin ettikleri ve farklı alanlardan şeyleri sentezledikleri gibi bir şey olabilir. Ve yine, belki burada iyi bir performans görmüyoruz çünkü modelleri bunu yapmaları için tam olarak yönlendirmemişizdir. Ve bu, insanların yaptığı bir şey değil ama aslında bu yetenekleri var. Evet, belki de çok daha hızlı ilerleme kaydedebilirsiniz, eğer birçok yineleme yapabiliyorsanız. Deneyleri çalıştırmanıza gerek yok, o zaman modeller, neyin işe yarayıp neyin yaramayacağını tahmin etmede çok daha iyidir. Ve deneyleri çalıştırdığınızda, çok daha fazlasını çalıştırabilirsiniz çünkü kodu çok hızlı kodlama modellerinizle optimize edebilirsiniz. Ve sonra, birkaç tur daha yaptıktan sonra, istediğiniz şeyler için iyi kaliteli görev proxy'leri olan daha fazla şey üzerinde eğitim alırsınız ve doğrudan eğitim alamadığınız şeylere yeterince genelleme elde edersiniz."
   },
   {
     "start": 6275.9,
@@ -563,7 +581,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "Nature of Intelligence",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Bence zeka, yetenek değildir. Zeka, yetenekleri edinme kapasitesidir. Yani, sanırım filogenetik ağaçta farklı yerlerdeyiz bu açıdan. Ama senin yorumunda neyin eksik olduğunu düşünüyorsun? Çünkü ben kişisel olarak, günümüzdeki modellerin hiç zeki olduğunu düşünmüyorum. Yani, açıkça senin pozisyonunu anlamak benim için zor, ama senin düşündüğün fark ne? Belki de bunun bir kısmı, dünyayı olasılıksal bir şekilde düşünmekle ilgilidir; yani zeka hakkında belirsizim ve modellerin bu konuda yeterince olasılığa sahip olduğunu düşünüyorum, bu yüzden eğer bu doğruysa ne olacağını düşünmekteyim. Ama senin, bunun benim düşündüğümden daha olası olduğunu açıkça düşündüğün anlaşılıyor, bu yüzden bu fark hakkında konuşabiliriz. Evet, modellerin keskin bir sınırı var. İnsanlardan çok daha kötü oldukları bazı şeyler var, yani genel birleştirme ve örnek verimliliği gibi."
   },
   {
     "start": 6529.0,
@@ -592,6 +611,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunun temelde o kadar zor olmadığını biliyorum ya da bir şey; eğer mevcut modellere sahip olsan ve onlara bir sistem istemi verirsen, onları bir çağrı merkezi çalışanı olarak kullanamazsın ve ortaya çıkan tüm kenar durumlarıyla başa çıkamazsın. Belki de GBD2 ile şu anki durum arasında ne kadar geliştiğini düşündüğünde bir fark vardır; ben, şu an modellerin yeni şeylere uyum sağlama yeteneğinin çok daha yüksek olduğunu düşünüyorum ve kendi iskeletlerini düzenleme veya varoluşları hakkında akıl yürütme konusunda çok daha iyi olduklarını düşünüyorum; yani kendi süreçlerini öldürmemeyi bilmek gibi, ya da böyle şeyler. Evet, sınırlı oldukları doğru ama aynı zamanda bir iyileşme eğilimi de var. Evet, bence burada belirli şeyler üzerinde bir olasılık olması da bir tür çıkarım farkı yaratıyor ve belki de birçok zevk, temelde deneylerin sonuçlarını tahmin edebilme yeteneğiyle ilgilidir; yani denemek isteyeceğin tüm şeyleri düşün ve sonra hızlıca 'bu neden işe yaramaz, bu neden işe yaramaz, bu neden işe yaramaz' diyebilirsin. Oh, aslında, farklı bir alandaki bazı literatürde birinin de bunu denediğini biliyoruz ve bu yüzden bunun işe yaramayacağını zaten biliyoruz. Yani bir anlamda, modellerin bu konuda oldukça iyi olması gerektiği mantıklı geliyor."
   }
 ]

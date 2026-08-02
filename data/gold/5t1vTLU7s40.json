@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve sonra bunu metne ek olarak LLM'ye veriyorsunuz ve LLM'nin eğitim sırasında bu temsilleri kullanarak karar vermesini bekliyorsunuz. Yani, bu yönde uzun bir süre boyunca çalışmalar yapıldı. Ve şimdi bu sistemleri görüyorsunuz, değil mi? Yani, bazı görsel uzantılara sahip LLM'ler var. Ama bunlar esasen, bu şeylerin dünyayı gerçekten anlamak için eğitilmediği anlamında hack'ler. Örneğin, video ile eğitilmediler. En azından şu anda sezgisel fiziği gerçekten anlamıyorlar. - Yani, sezgisel fizik hakkında sizin için özel bir şey olduğunu düşünmüyor musunuz, fiziksel alan, fiziksel gerçeklik hakkında sağduyu ile ilgili? Bu sizin için LLM'lerin yapamadığı dev bir sıçrama mı? - Bugün çalıştığımız LLM'lerle bunu yapamayacağız. Bunun birçok nedeni var, ama ana neden, LLM'lerin eğitilme şekli, bir metin parçasını alıp, o metindeki bazı kelimeleri çıkarıp, onları maskeleyip, siyah işaretçilerle değiştirmek ve ardından kayda değer bir sinir ağına eksik kelimeleri tahmin ettirmektir."
   },
   {
     "start": 1531.8,
@@ -52,7 +53,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI training methods",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve sonra bu kodlayıcıların üstüne bir tahmin edici eğitiyorsunuz, böylece bozulmuş olanın temsili ile tam girişin temsilini tahmin edebiliyorsunuz. Tamam mı? Yani ortak gömme, çünkü tam girişi ve bozulmuş versiyonu veya dönüştürülmüş versiyonu alıyorsunuz, her ikisini de kodlayıcılardan geçiriyorsunuz, böylece ortak bir gömme elde ediyorsunuz. Ve sonra, bozulmuş olanın temsilinden tam olanın temsilini tahmin edip edemeyeceğimi soruyorsunuz. Tamam mı? Ve buna JEPA diyorum, yani ortak gömme tahmin edici mimarisi, çünkü ortak gömme var ve iyi olanın temsilini kötü olandan tahmin eden bir tahmin edici var. Ve büyük soru, böyle bir şeyi nasıl eğiteceğinizdir? Ve beş yıl veya altı yıl önce, bu şeyleri nasıl eğiteceğimiz konusunda özellikle iyi cevaplarımız yoktu, sadece bir tane olan kontrastif öğrenme dışında. Ve kontrastif öğrenmenin fikri, tekrar, bir çift görüntü alıyorsunuz, bir görüntü ve bir şekilde bozulmuş veya kötüleşmiş versiyonunu veya orijinalinin dönüştürülmüş versiyonunu alıyorsunuz."
   },
   {
     "start": 3113.3,
@@ -81,7 +83,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "self-supervised learning",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu şeyler, kendiliğinden denetimli öğrenmenin gerçekten işe yaradığını gösteren inanılmaz derecede etkileyici bir gösterimdir. Başlangıçta... BERT ile başlamadı, ama bununla gerçekten iyi bir gösterim oldu. Yani, bir metin parçasını alıyorsunuz, onu bozuyorsunuz ve sonra kayda değer bir sinir ağına eksik parçaları yeniden inşa etmesi için eğitim veriyorsunuz. Bu, muazzam bir... Çok sayıda fayda sağladı. Dil anlayan sistemler, her yönde yüzlerce dili çevirebilen sistemler, çok dilli sistemler oluşturmamıza olanak tanıdı. Yüzlerce dili anlayabilen ve her yönde çevirebilen, özetler üretebilen ve ardından soruları yanıtlayabilen tek bir sistem. Ve bunun özel bir durumu var, bu da otoregresif hile, burada sistemi, metnin tamamını görmekten ziyade, yalnızca önceki kelimelerden bir kelime tahmin etmeye zorlayarak kısıtlıyorsunuz."
   },
   {
     "start": 3385.6,
@@ -107,7 +110,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI research history",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "14 yıl önce kurduğum konferansın adı Uluslararası Temsil Öğrenme Konferansı, bu derin öğrenmenin ele aldığı tüm mesele. Değil mi? Ve bu benim neredeyse 40 yıldır takıntım. Yani, temsil öğrenmek gerçekten önemli bir şey. Uzun bir süre boyunca bunu yalnızca denetimli öğrenme ile yapabiliyorduk. Ve sonra, denetimsiz öğrenme üzerinde çalışmaya başladık ve 2000'lerin başında Yoshua Bengio ve Jeff Hinton ile denetimsiz öğrenme fikrini yeniden canlandırdık. Sonra, yeterince veri toplayabilirseniz, denetimli öğrenmenin oldukça iyi çalıştığını keşfettik. Ve bu yüzden, denetimsiz kendiliğinden denetim fikri bir süre geri planda kaldı ve sonra 2014'te FAIR'ı kurduğumuzda bunu büyük bir şekilde yeniden canlandırmaya çalıştım ve hem metin hem de görüntüler, video ve ses için kendiliğinden denetimli çalışmayı yapmak için yeni yöntemler bulmaya gerçekten odaklandım."
   },
   {
     "start": 4038.7,
@@ -136,7 +140,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI performance",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Evet. Ve bu kayma üssel. Hatalar birikir, değil mi? Yani, bir cevabın mantıksız olma olasılığı, token sayısıyla üssel olarak artar. - Bu sizin için açık mı? Matematiksel olarak belki, ama ortalama olarak, umarım, gerçeğin eğitim setinde iyi temsil edildiği için gerçeğe doğru bir tür çekim gücü yok mu? - Hayır, bu esasen boyutsallık lanetiyle mücadele etmek. Bunu düzeltmenin yolu, sistemi, insanların ortaya koyabileceği her türlü soruya cevap vermesi için ince ayar yapmaktır. Ve insanlar insan olduğu için, sahip oldukları birçok soru birbirine çok benzer. Bu yüzden, insanların sorabileceği soruların %80'ini veya neyse kapsayabilirsiniz, veri toplayarak. Ve sonra, sistemi bu şeyler için iyi cevaplar üretmesi için ince ayar yapıyorsunuz."
   },
   {
     "start": 4374.8,
@@ -165,7 +170,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Hiyerarşik unsurlar var. Bu, LLM'lerin temel bir hatası mı demek? - [Yann] Evet. - Yoksa bu... (gülüyor) O sorunun daha fazla kısmı mı var? (gülüyor) Şimdi bir LLM gibi davranıyorsunuz. (gülüyor) Hemen cevap veriyorsunuz. Hayır, bu sadece dil üzerinden inşa edebileceğimiz düşük seviyeli bir dünya modeli. Ama bu dünya modeline dayanarak, dediğiniz gibi, kalıcı uzun vadeli bellek veya akıl yürütme gibi bazı mekanizmaları inşa etmek zor değil. - Tamam. Zor olup olmadığına dair yakın gelecekte göreceğiz, çünkü birçok insan diyalog sistemleri için akıl yürütme ve planlama yetenekleri üzerinde çalışıyor. Yani, dil ile sınırlı kalsak bile, cevabınızı vermeden önce plan yapma yeteneğine sahip olmak, kullanacağınız dil ile doğrudan bağlantılı olmayan terimlerde."
   },
   {
     "start": 4577.7,
@@ -191,7 +197,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI models",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani, temel ilke şöyle. İstek, gözlemlenen değişkenler gibidir. Ve modelin yaptığı şey, bir cevabın bir istek için ne kadar iyi bir cevap olduğunu ölçmektir. Tamam mı? Yani, devasa bir sinir ağı olarak düşünün, ama sadece bir çıktısı var. Ve o çıktı, eğer cevap soru için iyi bir cevapsa sıfır, eğer cevap iyi bir cevap değilse büyük bir sayı. Böyle bir modeliniz varsa, iyi cevaplar üretmek için bunu kullanabilirsiniz. Yapacağınız şey, isteği üretmek ve ardından mümkün olan cevaplar arasında bu sayıyı minimize eden birini aramaktır. Buna enerji tabanlı model denir. - Ama o enerji tabanlı model, LLM tarafından inşa edilen modele ihtiyaç duyar. - Gerçekten, yapmanız gereken şey, o enerjiyi minimize eden metin dizileri üzerinde arama yapmamak olacaktır."
   },
   {
     "start": 4908.1,
@@ -217,7 +224,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI reasoning",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Derin düşünme veya derin akıl yürütme yeteneği hakkında konuşuyorsunuz. Derin akıl yürütmeye dayalı olarak daha iyi veya daha kötü bir cevap olduğunu nasıl bilirsiniz? - Doğru. O zaman, kavramsal olarak, bir enerji tabanlı modeli nasıl eğiteceğimizi soruyoruz. Değil mi? Yani enerji tabanlı model, bir skalar çıktısı olan bir fonksiyondur, sadece bir sayı. İki girdi veriyorsunuz, X ve Y, ve Y'nin X ile uyumlu olup olmadığını size söylüyor. X'i gözlemliyorsunuz, diyelim ki bu bir istek, bir görüntü, bir video, ne olursa olsun. Ve Y, bir cevap önerisi, bir videonun devamı, ne olursa olsun. Ve Y'nin X ile uyumlu olup olmadığını size söyler. Ve Y'nin X ile uyumlu olduğunu söylemenin yolu, o fonksiyonun çıktısının Y'nin X ile uyumlu olması durumunda sıfır olması, uyumlu değilse pozitif bir sayı, sıfırdan farklı olmasıdır. Tamam. Böyle bir sistemi nasıl eğitirsiniz? Tamamen genel bir düzeyde, uyumlu X ve Y çiftlerini gösterirsiniz, bir soru ve karşılık gelen cevap."
   },
   {
     "start": 5306.6,
@@ -246,7 +254,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI models",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu sistemin enerjisi. Yani bu sistem size, bu iyi bir görüntü ve bu da bozulmuş bir versiyon, der. Eğer bu iki şey etkili bir şekilde birbirinin bozulmuş versiyonuysa sıfır enerji verir, eğer iki görüntü tamamen farklıysa yüksek enerji verir. - Ve umarım bu süreç, gerçekliğin, görsel gerçekliğin gerçekten güzel bir şekilde sıkıştırılmış bir temsilini verir. - Ve bunun işe yaradığını biliyoruz çünkü o temsilleri bir sınıflandırma sistemine veya bir şeye girdi olarak kullanıyoruz ve bu işe yarıyor- - Ve sonra o sınıflandırma sistemi gerçekten güzel çalışıyor. Tamam. Öyleyse özetlemek gerekirse, yalnızca Yann LeCun'un yapabileceği bir şekilde, ortak gömme mimarilerine geçmek için üretken modelleri terk etmemizi öneriyorsunuz? - [Yann] Evet. - Otoregresif üretimi terk edin. - [Yann] Evet. - Terk edin... (gülüyor) Bu mahkeme ifadesi gibi geliyor. Enerji tabanlı modellere geçmek için olasılıksal modelleri terk edin, konuştuğumuz gibi. Kontrastif yöntemleri terk edin, düzenlenmiş yöntemlere geçin."
   },
   {
     "start": 5498.8,
@@ -275,7 +284,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "RLHF impact",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "O yüzden dünya modelinizi ayarlayın. Ve dünya modelinizi ayarlamanın yolu, hatta önceden, dünya modelinizin yanlış olduğunu bildiğiniz alanları keşfetmektir. Buna temelde merak veya oyun denir, değil mi? Oyun oynarken, gerçekte yapmak istemediğiniz, çünkü tehlikeli olabileceği bir durum alanını keşfetmiş olursunuz, ama kendinizi öldürmeden dünya modelinizi ayarlayabilirsiniz. (gülüşmeler) Yani RL'yi bunun için kullanmak istersiniz. Belirli bir görevi öğrenme zamanı geldiğinde, zaten tüm iyi temsillere sahipsiniz, zaten dünya modeliniz var, ama duruma göre onu ayarlamanız gerekiyor. İşte o zaman RL'yi kullanırsınız. - RLHF'nin bu kadar iyi çalıştığını neden düşünüyorsunuz? İnsan geri bildirimi ile bu pekiştirmeli öğrenme, önceki büyük dil modelleri üzerinde neden bu kadar dönüştürücü bir etki yarattı? - Dönüştürücü etki yaratan şey insan geri bildirimidir."
   },
   {
     "start": 5632.6,
@@ -304,7 +314,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Şimdi, bunu yapmanın birkaç yolu var. Bazıları denetimli. Sadece bir insana soruyorsunuz, bu için iyi bir cevap nedir, değil mi? Sonra cevabı yazıyorsunuz. Bu sistemlerin ayarlandığı birçok yol var. - Şimdi, birçok insan, benim sözlerimle, Google'ın yeni çıkan Gemini 1.5'ini aşırı woke olduğu için çok eleştirdi. O kelimenin olumsuz anlamında woke. Yaptığı bazı şeyler neredeyse komik bir şekilde absürt, örneğin tarihi değiştirmesi, siyahi George Washington'un görüntülerini üretmesi veya belki daha ciddi bir şekilde, Twitter'da yorum yapmayı veya Tiananmen Meydanı veya tank adamlar hakkında görüntü veya tanım üretmeyi reddetmesi gibi, tarihteki en efsanevi protesto görüntülerinden biri."
   },
   {
     "start": 5894.8,
@@ -333,7 +344,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI systems",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Artık bunları Meta'dan satın alabilirsiniz, (gülüşmeler) Ray-Ban Meta. Onlarla konuşabiliyorsunuz ve bir LLM ile bağlantılılar, sahip olduğunuz her soruya cevap alabiliyorsunuz. Ya da bir anıta bakıyorsunuz ve sistemde bir kamera var, gözlüklerde, ona bu bina veya bu anıt hakkında ne söyleyebilirsin diye sorabilirsiniz. Yabancı bir dilde bir menüye bakıyorsunuz ve o sizin için çevirecek. Farklı diller konuşuyorsak gerçek zamanlı çeviri yapabiliriz. Yani dijital dünya ile etkileşimlerimizin çoğu, yakın gelecekte bu sistemler aracılığıyla gerçekleşecek. Kullanacağımız arama motorları giderek arama motoru olmaktan çıkacak, bir soru sorduğumuz diyalog sistemleri haline gelecek ve o cevap verecek ve ardından belki uygun referansa yönlendirecek. Ama burada bir şey var, bu sistemlerin ABD'nin batı kıyısındaki birkaç şirketten gelmesine izin veremeyiz çünkü bu sistemler tüm insan bilgisinin deposunu oluşturacak."
   },
   {
     "start": 6828.3,
@@ -362,7 +374,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Temelde teknoloji, insanların daha etkili bir şekilde insan olmasını sağlıyor. Ve insanların gündeme getirdiği tüm zor etik soruları, bunun üstesinden gelmek için bize bırakacağız. - Evet, yani bazı şeylerin sınırları var... Tıpkı ifade özgürlüğünde olduğu gibi, bu sistemlerin üretebileceği şeylerin türü için de bazı sınırlar olmalı, bazı koruma önlemleri. Yani, bu, daha önce tartıştığımız mimari türüyle ilgili bir şey, sistemin çıktısının bir hedefi tatmin etmek için bir çıkarım sonucu olduğu yerde. O hedef koruma önlemlerini içerebilir. Ve açık kaynak sistemlerde koruma önlemleri koyabiliriz. Yani, eğer sonunda bu planla inşa edilmiş sistemlerimiz olursa, bu sistemlere, sistemin tehlikeli ve toksik olmamasını garanti eden bir minimum koruma önlemi seti koyabiliriz. Herkesin üzerinde hemfikir olacağı temel şeyler."
   },
   {
     "start": 6961.6,
@@ -391,7 +404,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve aldığınız artan bilgi veya onu elde etme kolaylığı gerçekten size yardımcı olmuyor. Bu birinci şey. İkinci şey, örneğin bir kimyasal silah yapma talimatları listesine sahip olmak bir şeydir, biyolojik silah yapmak başka bir şeydir. Ve bunu gerçekten inşa etmek çok daha zor, düşündüğünüzden daha zor ve LLM bununla size yardımcı olmayacak. Aslında, dünyada kimse, ülkeler bile biyolojik silahlar kullanmıyor çünkü çoğu zaman kendi nüfuslarını bunlardan nasıl koruyacaklarını bilmiyorlar. Yani, aslında kullanmak için çok tehlikeli. Ve aslında uluslararası antlaşmalarla yasaklanmıştır. Kimyasal silahlar farklıdır. O da antlaşmalarla yasaklanmıştır, ama aynı sorun var. Suçlulara karşı dönmemesi gereken durumlarda kullanmak zordur. Ama Elon Musk'a sorabiliriz. Size bir roket motoru inşa etme talimatları listesi verebilirim. Ve eğer gerçekten deneyimli 50 mühendislik ekibiniz varsa, yine de çalışacak bir tane elde etmeden önce bir düzine motoru patlatmanız gerekecek."
   },
   {
     "start": 7033.1,
@@ -420,7 +434,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI limitations",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve bu kimyasal silahlar veya biyolojik silahlar veya benzeri şeylerle de aynıdır. Gerçek dünyada uzmanlık gerektirir ve LLM bununla size yardımcı olmayacak. - Ve ayrıca, dil tabanlı talimatları alıp fiziksel dünyada somutlaştırmak için gereken sağduyu uzmanlığını da gerektirir, bu da talimatlarda olmayan çok fazla bilgi gerektirir. - Evet, kesinlikle. Birçok biyolog, bu konulara yanıt olarak, laboratuvar çalışmalarını gerçekten yapmanın ne kadar zor olduğunu anlamıyor musunuz? Bu basit bir şey değil. - Evet. Ve bu, Hans Moravec'in bir kez daha öne çıkmasıdır. LLaMA'ya biraz daha odaklanalım. Mark, LLaMA 3'ün sonunda çıkacağını duyurdu, bir çıkış tarihi yok ama en çok neyi merak ediyorsunuz? Öncelikle, LLaMA 2 zaten mevcut ve belki de gelecekteki LLaMA 3, 4, 5, 6, 10, sadece Meta altında açık kaynak geleceği? - Birçok şey var."
   },
   {
     "start": 7632.7,
@@ -449,7 +464,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "intelligence measurement",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "İnsanların orangutanlardan daha akıllı olduğunu söyleyebilir misiniz? Bazı açılardan evet, ama bazı açılardan orangutanlar, ormanda hayatta kalmalarını sağlayan birçok alanda insanlardan daha akıllıdır, (gülüşmeler) örneğin. - Yani IQ, zekanın çok sınırlı bir ölçüsüdür. Gerçek zeka, IQ'nun ölçtüğünden daha büyüktür. - Evet, IQ, insanlar için yaklaşık bir şeyi ölçebilir, ama çünkü insanlar nispeten tek tip bir formda gelir, değil mi? - [Lex] Evet. - Ama sadece bazı görevler için ilgili olabilecek bir yetenek türünü ölçer, ama diğerleri için değil. Ama eğer diğer zeki varlıklardan bahsediyorsanız, temel şeylerin onlara çok kolay geldiği durumlarda, o zaman bu hiçbir şey ifade etmez. Yani zeka, becerilerin bir koleksiyonu ve yeni becerileri verimli bir şekilde edinme yeteneğidir."
   },
   {
     "start": 7768.3,
@@ -478,7 +494,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve daha önce hiç yapmadığımız için, dünyayı ele geçirecek ve hepimizi öldürecek. Bu yanlış. Bu bir olay olmayacak. Kedinin zekasına sahip, insan seviyesinde zekanın tüm özelliklerine sahip sistemlerimiz olacak, ama zekaları bir kedi veya bir papağan gibi olacak. Ve sonra bu şeyleri daha zeki hale getirmek için yavaş yavaş ilerleyeceğiz. Ve onları daha zeki hale getirdikçe, onlara bazı koruma önlemleri koyacağız ve düzgün davranmaları için nasıl koruma önlemleri koyacağımızı öğreneceğiz. Ve bunu sadece bir... Tek bir çaba ile yapmayacağız, ama birçok farklı insan bunu yapacak. Ve bazıları, kontrol edilebilir ve güvenli zeki sistemler yapmada başarılı olacak. Ve eğer bazıları kötü yola saparsa, o zaman iyi olanları kötü olanlara karşı kullanabiliriz. (gülüşmeler) Yani, akıllı yapay zeka polisi, kötü yola sapmış yapay zekaya karşı olacak. Yani, hepimizi öldürecek tek bir kötü yola sapmış yapay zekaya maruz kalmayacağız. Bu kesinlikle olmayacak."
   },
   {
     "start": 8096.1,
@@ -507,7 +524,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Tasarım tamamen güvenlik ile ilgilidir. Çünkü daha iyi bir turbojet, aynı zamanda daha güvenli bir turbojettir, daha güvenilir bir turbojet. Yapay zeka için de aynı şey geçerli. Yapay zekayı güvenli hale getirmek için özel önlemlere ihtiyaç var mı? Hayır, daha iyi yapay zeka sistemleri yapmalısınız ve bunlar daha faydalı ve daha kontrol edilebilir olacak şekilde tasarlandıkları için güvenli olacaklar. - O yüzden, inanılmaz derecede ikna edici bir yapay zeka sistemini hayal edelim ve sizi her şeye ikna edebilir. En azından böyle bir sistemi hayal edebiliyorum. Ve böyle bir sistemin silah gibi olabileceğini görebiliyorum, çünkü insanların zihinlerini kontrol edebilir, oldukça safız. Bir şeyi inanmak istiyoruz. Ve bunu kontrol eden bir yapay zeka sistemine sahip olabilirsiniz ve hükümetlerin bunu bir silah olarak kullanabileceğini görebilirsiniz. Yani, böyle bir sistemi hayal ederseniz, bunun nükleer silahlar gibi bir paraleli olduğunu düşünüyor musunuz? - [Yann] Hayır. - Peki, bu teknoloji neden farklı? Yani, kademeli bir gelişim olacağını mı söylüyorsunuz?"
   },
   {
     "start": 8560.3,
@@ -536,7 +554,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Elektriğin bir noktada herkesi öldüreceği düşünülüyordu. Tren korkunç bir şey olacaktı çünkü saatte 50 kilometreyi geçemezsiniz. Ve harika bir web sitesi var, Pessimists Archive diye, değil mi? Tüm o korkunç şeylerin, teknolojik yenilikler veya kültürel fenomenler nedeniyle insanların hayal ettiği tüm gazete kesitlerini (gülüşmeler) içeriyor. İşte caz veya çizgi romanların işsizlik veya gençlerin artık çalışmak istememesi gibi şeylerden sorumlu tutulduğu harika örnekler var, değil mi? Ve bu yüzyıllardır var. Ve bu ani tepkilerdir. Soru, değişimi kucaklayacak mıyız yoksa ona karşı mı duracağız? Ve gerçek tehlikeler nelerdir, hayal edilen tehlikeler yerine?"
   },
   {
     "start": 8631.8,
@@ -574,6 +593,7 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI power centralization",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- İnsanlar büyük teknoloji hakkında endişeleniyor... Bence büyük teknoloji ile ilgili endişelendikleri bir şey, AI'nın ne kadar güçlü olacağı ve bunun sadece birkaç merkezi gücün elinde olmasından endişeleniyorlar. Ve bu, büyük teknolojiye olan şüpheciliğin sebebi. Bu şirketler, bu teknolojiyi kontrol ederek büyük miktarda para kazanabilir ve böylece toplumdaki küçük insanları istismar edebilirler. - İşte bu yüzden açık kaynak platformlarına ihtiyacımız var. - Evet. Sadece... (gülüşmeler) Bu noktayı daha fazla vurgulamak istedim. - [Yann] Evet. - Yani, internet üzerinde biraz daha renkli olduğunuzu söyledim. Joscha Bach, HAL 9,000 ile ilgili bir şey tweetledi ve buna gülümseyerek yanıt verdiniz. Alıntı, \"Argümanınızı takdir ediyorum ve hayal kırıklığınızı tamamen anlıyorum, ama pod bay kapılarının açılıp açılmaması karmaşık ve nüanslı bir meseledir.\" Yani, Meta AI'nın başındasınız."
   }
 ]

@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI risks and optimism",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "O, AGI'nin nihayetinde insan medeniyetini yok etme olasılığının neredeyse %100 olduğunu savunuyor. Bu arada, AI konusunu, genellikle en son teknoloji AI sistemlerini inşa eden mühendislerle sıkça, çoğu zaman teknik tartışmalar yapacağımı söyleyeyim. Bu kişilerin, ünlü P kıyameti veya AGI'nin tüm insanları öldürme olasılığını %1 ile %20 arasında bir yerde değerlendirdiğini söyleyebilirim. Ancak, bu değeri %70, %80, %90 olarak değerlendiren kişilerle de konuşmak önemlidir; Roman durumunda bu %99.99 ve daha fazla dokuzlar yüzdesidir. Ben şahsen geleceğe heyecanla bakıyorum ve bunun, insanların yarattığı muazzam teknolojik yenilikler sayesinde iyi bir gelecek olacağına inanıyorum. Ama kesinlikle gözlerimizi kapatıp, bu teknolojilerin olası risklerini, varoluşsal riskler de dahil olmak üzere, görmezden gelerek bunu yapmamalıyız. Bu konuşmanın konusu bu. Bu Lex Fridman podcast'i."
   },
   {
     "start": 587.8,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI and human interaction",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu, yeni yaşam tarzına nasıl uyum sağlayacağımızı yavaş yavaş keşfettiğimiz bir süreç değil. Ama oldukça hızlı - O dünyada, insanlar satrançta şu anda yaptıkları gibi birbirleriyle oynayıp, turnuvalar düzenleyemez mi? AI sistemleri bu sefer satrançta çok daha üstün olsa bile. Yani biz sadece yapay oyunlar yaratıyoruz. Ya da bizim için gerçek olan Olimpiyatlar gibi ve her türlü farklı yarışmalar yapıp eğleniyoruz. Eğlenceyi maksimize ediyoruz ve AI'nın verimliliğe odaklanmasına izin veriyoruz. - Bu bir seçenek. Bir makalem var, burada birden fazla ajan için değer uyum sorununu çözmeye çalışıyorum ve uzlaşmadan kaçınmanın çözümü, herkese kişisel sanal evrenler vermek. O dünyada istediğin her şeyi yapabilirsin. Kral olabilirsin, köle olabilirsin, ne olacağını sen belirlersin. Yani bu, kendini eğlendirebileceğin ve bir başkasının ihtiyaçlarını karşıladığı bir tür yüceltilmiş video oyunu. Ve alt zemin uyumu, çözmemiz gereken tek şey."
   },
   {
     "start": 1183.3,
@@ -84,7 +86,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Evet, bir süreliğine kesinlikle ayak uydurabiliriz. Ama bunu sonsuza dek yapamazsınız. Bir noktada bilişsel fark çok büyük. Savunmanız gereken yüzey sonsuz. Ama saldırganların sadece bir açığı bulması gerekiyor. - Yani, bu sonunda bir uçurumdan aşağıya düşmekte olduğumuz anlamına geliyor. - Eğer genel süper zekalar yaratırsak, insanlık için uzun vadede iyi bir sonuç göremiyorum. Bu oyunu kazanmanın tek yolu oynamamak. - Tamam, peki olası çözümler ve oynamamanın ne anlama geldiği hakkında konuşacağız, ama burada olası zaman çizelgeleri nedir? Hangi yıllardan, on yıllardan, yüzyıllardan bahsediyoruz? Ne düşünüyorsun? - Kesin olarak bilmiyorum. Tahmin piyasaları şu anda AGI için 2026 diyor. Aynı şeyi Anthropic'in CEO'sundan, DeepMind'dan da duydum. Belki de iki yıl içindeyiz, bu da çalışır bir güvenlik mekanizması veya onun için bir prototipimiz olmadığı düşünüldüğünde çok yakın görünüyor."
   },
   {
     "start": 1775.2,
@@ -113,7 +116,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI optimism",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Cinsiyet önyargısını ortadan kaldırıyoruz. Irk önyargısını ortadan kaldırıyoruz. Peki bu neden insan yanlısı bir önyargı? Gezegeni kirletiyoruz. Savaşlar yapıyoruz, şiddet içeren bir şekilde, belki de süper zeki, mükemmel bir toplum gelip bizi değiştirse daha iyi olur. Bu, türümüzün evriminde normal bir aşama. - Evet, birisi diyor ki, dünyadan şiddet içeren insanları ortadan kaldıracak bir AI sistemi geliştirelim. Ve sonra anlaşılıyor ki, tüm insanların içinde şiddet var ya da şiddet kapasitesine sahipler ve dolayısıyla tüm insanlar ortadan kaldırılıyor. Evet, evet, evet. Yann LeCun hakkında bir şey sormak istiyorum, onunla birkaç kez etkileşimde bulunduk ve AI'nın insan medeniyetinin yok olmasına yol açacağı görüşüne aktif olarak karşı çıkan birisi. Örneğin, tweet attığı bir örnekte, \"Riskleri kabul ediyorum, ama,\" iki nokta, \"Bir, açık araştırma ve açık kaynak, riskleri anlamanın ve azaltmanın en iyi yollarıdır."
   },
   {
     "start": 1914.0,
@@ -142,7 +146,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve mevcut modeller için bile, altı ay boyunca eğitilmişse, o sistemin temel yeteneklerini anlamak iki, üç yıl alır. Zaten mevcut olan sistemlerde yeni yetenekler keşfetmeye devam ediyoruz. Yani bu doğru değil. - Yani, buna biraz daha dikkat çekmek gerekirse, sizin için mevcut yaklaşımlarımızda bazı seviyelerde ortaya çıkan bir zeka var mı? Yani, kodlamadığımız şeyler. - Kesinlikle. Bu, onu bu kadar başarılı kılan şey. Her şeyi zahmetle kodlamak zorunda kaldığımızda, çok fazla ilerleme kaydedemedik. Şimdi sadece daha fazla para ve daha fazla hesaplama gücü harcıyoruz ve çok daha yetenekli hale geliyor. - Ve sonra soru şu: Ortaya çıkan zeka fenomeni olduğunda, bunun bir sınırı nedir? Sizin için bir sınır yok. Yann LeCun için, sanırım, tam kontrolümüz altında olan bir tür sınır var. Ortaya çıkmanın iç işleyişini, nasıl gerçekleştiğini anlamasak bile, bir kontrol ve yeteneklerin yaklaşık sınırını anlama hissine sahibiz."
   },
   {
     "start": 1984.0,
@@ -171,7 +176,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Diyelim ki bir sınır var, bu bizimle rekabet edebilecek seviyede olacağı garanti değil. Bizimkinden çok daha üstün olabilir. - Peki, açık araştırma ve açık kaynakların riskleri anlamanın ve azaltmanın en iyi yolları olduğu konusundaki ifadesi hakkında ne düşünüyorsunuz? - Tarihsel olarak, tamamen haklı. Açık kaynak yazılım harika, topluluk tarafından test ediliyor, hata ayıklanıyor. Ama biz araçlardan ajanslara geçiyoruz. Şimdi açık kaynak silahları psikopatlara veriyorsunuz. Nükleer silahları, biyolojik silahları açık kaynak yapmak ister miyiz? Bu kadar güçlü bir teknolojiyi, yanlış yönlendirebilecek olanlara vermek güvenli değil. İlk başta dostane bir şekilde çalışmasını sağlamakta başarılı olsanız bile. - Ama nükleer silahlarla farkı, mevcut AI sistemleri nükleer silahlara benzemiyor. Yani burada, bunu daha iyi anlamak için açık kaynak yapıyorsunuz. Çok sayıda insan, sınırlamaları, yetenekleri keşfedebilir, güvenli tutmanın, güvenliğini sağlamanın olası yollarını keşfedebilir, bu tür şeyler, henüz nükleer silahlar aşamasında değilken."
   },
   {
     "start": 2052.6,
@@ -206,7 +212,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Nükleer silahlar söz konusu olduğunda, nükleer silah yok ve bir nükleer silah var. Yapay zeka sistemlerinde ise yeteneklerin kademeli olarak gelişimi var ve bu gelişimi aşamalı olarak gerçekleştirebiliyorsunuz. Açık kaynak, işlerin nasıl ters gittiğini incelemenizi sağlıyor. Ortaya çıkış sürecini inceleyin, bu sistemlerde yüksek tehlike olmadığında yapay zeka güvenliğini inceleyin, tüm bu tür şeyler. - Ayrıca çok yanlış bir emsal oluşturuyor. Model bir, model iki, model üçü açık kaynak yaptık. Hiçbir kötü şey olmadı, bu yüzden model dört ile de yapacağız. Bu sadece kademeli bir gelişim. - Emsal her zaman işe yaramıyor. Yani her zaman yaptığınız gibi yapmak zorunda değilsiniz. Açık araştırma ve açık geliştirme emsalini oluşturuyor, böylece birlikte öğrenebiliyoruz. Ve tehlikenin ilk belirtisi olduğunda, dramatik bir şey olduğunda, insan medeniyetini yok eden bir şey değil ama ciddi bir yetenek gösterimi, bu gerçekten büyük zarara yol açabilir."
   },
   {
     "start": 2255.7,
@@ -235,7 +242,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI risks",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunun çok küçük bir ölçekte örneklerini görmemiz gerektiğini düşünüyorum, bunun gerçekten zararlı olduğunu anlamaya başlamak için. Clippy ile karşılaştırıldığında, birçok insan için öğrenme, metin özetleme, soru-cevap gibi işlevleri yerine getiren gerçekten yararlı bir araç. Videolar üretmek. Temelde bir araç, bir araç ile büyük zarar verebilen bir ajan arasında bir fark var. - Arabalardan örnek veriyorsun. - [Lex] Evet. - Arabalar yavaş yavaş geliştirildi ve entegre edildi. Eğer arabalar olmasaydı ve biri çıkıp \"Bu şeyi icat ettim, adı arabalar, harika, her yıl 100.000 Amerikalıyı öldürüyor. Hadi bunu yayalım.\" deseydi, bunu yayar mıydık? - Arabalar hakkında uzun zamandır korku yayma vardı. Atlardan arabalara geçişte, tarih boyunca teknoloji hakkında yaşanan korku yayma ile ilgili belgeleri inceleyen Pessimist Archive adında gerçekten güzel bir kanal var, onu kontrol etmeyi öneririm."
   },
   {
     "start": 3116.2,
@@ -264,7 +272,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunun yakınında olduğumuzu hissetmiyorum, kendi kararlarını verebilen ve herkesin bu kararlar hakkında yanıltılmasına neden olabilen bir sistem. Makine öğrenimindeki mevcut mimarimiz ve sistemleri nasıl eğittiğimiz, sistemleri nasıl dağıttığımız ve tüm bunlar, o tür bir ajansı desteklemiyor gibi görünüyor. - Umarım haklısınızdır. Ölçeklenme hipotezinin doğru olduğunu düşünüyorum. Azalan getirileri görmedik. Eskiden AGI için ne kadar zaman kaldığını sorardık, şimdi AGI için ne kadar süre kaldığını sormalıyız. Bugün bir trilyon dolar, gelecek yıl bir milyar dolar, birkaç yıl içinde bir milyon dolar. - Temelde trilyonlar tükenebilir mi? Yani bu hesaplama ile mi sınırlı? - Hesaplama her gün üstel olarak daha ucuz hale geliyor. - Ama bu, on yıllar ile yıllar arasındaki bir soru haline geliyor. - Eğer tek anlaşmazlık, her söylediğimin gerçekleşmesi için on yıllar alacağı ise, o zaman buna katılabilirim. - Ama eğer on yıllar alıyorsa, o zaman yapay zeka güvenliği için araçların geliştirilmesi daha da gerçekçi hale geliyor."
   },
   {
     "start": 3720.5,
@@ -293,7 +302,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI reliance",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Bir buzdolabı vızıldayan bir ses çıkarıyor. - Çok tehditkar. Çok tehditkar. Bu konuyu konuşmaya başlayacağım her seferinde, bir şeyler olmaya başlıyor. Dün uçağım iptal edildi, yeniden rezervasyon yapma imkanı yoktu. İsrail'deki Google'da bir konuşma yapıyordum ve beni konuşmaya götürmesi gereken üç araba gelemedi, sadece bunu söylüyorum. - Ben yapay zekaları seviyorum. Ben bir birey olarak, efendilerimizi karşılamaktan mutluluk duyuyorum. - Bir dereceye kadar, yani, çok açık ki, zaten yaptığımız gibi. Hayatımızı giderek daha fazla yazılım sistemlerine devrettik. Ve yapay zekanın gelen yetenekleri göz önüne alındığında, hayatlarımızı giderek daha fazla yapay zeka sistemlerine devredeceğimiz de açık görünüyor. Arabalar kendilerini sürecek, buzdolabı sonunda ne yiyeceğimi optimize edecek. Ve hayatlarımızın daha fazla kısmı yapay zeka yardımıyla kontrol ediliyor veya yönetiliyorsa, bir kayma olması çok mümkün."
   },
   {
     "start": 4253.2,
@@ -322,7 +332,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Evet, belirleyici bir algoritmanın belirli özellikleri takip ettiğini doğrulayabilirim. Bu yapılabilir. Bazı insanlar belki de iki artı iki dört değildir diye tartışıyor. Ben o kadar aşırı değilim. Ama yeterince büyük bir kanıtınız olduğunda ve yeterince karmaşık bir ortamda, içinde sıfır hata olma olasılığı büyük ölçüde azalır. Eğer bunu çok fazla dağıtırsanız, sonunda bir hata alacaksınız. - Her zaman bir hata vardır. - Her zaman bir hata vardır. Ve temel fark, bahsettiğim şeydir. Siber güvenlik ile ilgilenmiyoruz, yeni bir kredi kartı, yeni bir insanlık almayacağız. - Bu makale gerçekten ilginç. 2011'de yazdınız, \"Yapay Zeka Güvenliği Mühendisliği:\" Neden Makine Etiği Yanlış Bir Yaklaşımdır.\" \"Büyük zorluk,\" yazıyorsunuz, \"kendini geliştiren sistemler için güvenlik mekanizmaları geliştirme sorununu öneriyoruz.\" Kendini geliştiren sistemler, bu arada, konuştuğumuz şey için ilginç bir terim."
   },
   {
     "start": 4530.0,
@@ -351,7 +362,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Sürekli olarak son derece eleştirel bir sesi olan bir şey hakkında ne düşünüyorsunuz? Yani, sisteme sürekli bir belirsizlik, sürekli bir şüphe yerleştirmek. - Her akıllı sistem her şey hakkında şüphe duyar, değil mi? Size verilen bilgilerin doğru olup olmadığından emin değilsiniz, manipülasyona tabi olup olmadığınızı düşünüyorsunuz. Bu bir güvenlik ve emniyet zihniyeti. - Ama demek istediğim, kendiniz hakkında şüpheniz var. Yani, bir yapay zeka sistemi, yaptığı şeyin zarar verip vermediği konusunda şüphe duyuyorsa, doğru bir şey yaptığını düşünüyorsa, yaptığı şey hakkında sürekli bir şüphe duyması gerekiyor çünkü şüphe dolu bir diktatör olmak zor. - Yanılıyor olabilirim, ama Stuart Russell'ın fikirlerinin, makinelerin insanların ne istediği konusunda belirsiz olduğu ve ne istediğimizi daha iyi öğrenmeye çalıştığı hakkında olduğunu düşünüyorum. Sorun, elbette, ne istediğimizi bilmememiz ve bu konuda hemfikir olmamamızdır."
   },
   {
     "start": 6224.6,
@@ -377,7 +389,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "intelligence_nature",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Yani Cengiz Han daha nazikti. Katıl veya öl seçeneği sundu. - Ama katılmak, bir şeyler katkıda bulunmanız gerektiği anlamına geliyor. Süper zekaya ne katkıda bulunuyorsunuz? - Hayvanat bahçesinde, izlemek eğlenceli. - Bizim için insanlar. - Biliyorsunuz, Amazon'da biraz zaman geçirdim. Uzun süre karıncaları izledim ve karıncalar izlemek için oldukça ilginç. Onları uzun süre izleyebilirim. İnsanları izlemenin de çok fazla değeri olduğuna eminim. İnsanlarla ilgili ilginç olan şey, çok iyi dengelenmiş bir video oyunu gibi. Tüm evrimsel süreç nedeniyle, bu toplumu oluşturduk ve oldukça iyi dengelenmiş. İnsanlar olarak sınırlamalarımız ve yeteneklerimiz, bir video oyunu perspektifinden bir denge. Savaşlarımız var, çatışmalarımız var, işbirliğimiz var. Oyun teorisi açısından, izlemek için ilginç bir sistem. Tıpkı bir karınca kolonisi gibi, izlemek için ilginç bir sistem. Yani, eğer ben bir uzaylı uygarlık olsaydım, onu rahatsız etmek istemezdim, sadece izlerdim. İlginç olurdu."
   },
   {
     "start": 6903.6,
@@ -406,7 +419,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Consciousness in AI",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani bunu nasıl yapacağımızı bilmiyoruz. Ve bu benzersiz. Bu, anlam yaratıyor. Bostrom'un dediği gibi, çocuklar olmadan Disneyland gibi olurdu, eğer bu yoksa. - Yapay sistemlerde bilincin mühendisliğinin mümkün olduğunu düşünüyor musunuz? Burada, 2011'de yazdığınız \"Robot Hakları\" makalesine gideyim. \"Son olarak, yüzeyde güvenlikle pek ilgisi olmayan, ancak etik makinelerin karar verme süreçlerinde bir rol oynadığı iddia edilen makine etiğinin bir alt dalını ele almak istiyoruz,\" \"Robot Hakları.\" Yani makinelerde bilinci mühendislik yapmanın mümkün olduğunu düşünüyor musunuz? Ve bu durumda, hukuki sistemimize de uzanıyor, o noktada robotların hakları olmalı mı? - Evet, bence mümkün. Makinelerde bilinci yaratmanın mümkün olduğunu düşünüyorum. Bunun için bir test tasarlamaya çalıştım, bu başarı sağlıyor. O makalede, hızla çoğalabilen ve insanları oylayarak hükümet sistemini ele geçirebilecek AI'ya medeni haklar vermenin sorunları hakkında konuştum."
   },
   {
     "start": 7043.7,
@@ -435,7 +449,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Consciousness and AI",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Eğer her çoktan seçmeli soruda artan olasılıkla bunu geçerlerse, o zaman başka seçeneğiniz yok. Ya onların bilinçli bir modele erişimi olduğunu kabul etmelisiniz ya da kendileri vardır. - Yanılsamaların ilginç olmasının nedeni, sanırım gerçekten tuhaf bir deneyim olmaları ve eğer bu tuhaf deneyimi paylaşırsanız, bu, ham verilerin sıradan fiziksel tanımında olmayan bir şeydir, bu da gerçek deneyime daha fazla vurgu yapar. - Ve hayvanların bazı optik yanılsamaları deneyimleyebileceğini biliyoruz. Bu nedenle, bunun sonucunda belirli türde bir bilince sahip olduklarını söyleyebilirim. - Evet, bu sadece benim, hataların ve hataların insanların özel kılan şey olduğunu hissetmemle ilgili. Yaşayan formları özel kılan şey, yani... - Bu bir özellik, hata değil. - Bu bir özellik. Hata, özelliktir. Vay, tamam. Bu, bilincin mühendisliği için harika bir test. Ve bunun mühendislik yapılabileceğini düşünüyor musunuz? - Yani, yeni yanılsamalar olmalı. Eğer sadece cevabı google'layabiliyorsa, bu işe yaramaz."
   },
   {
     "start": 7172.6,
@@ -464,7 +479,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Acı çeken avatarın çığlık attığı, durması için yalvardığı işkence oyunları için simülatörler var. Yani bunlar, standart psikoloji araştırmalarının bir parçası. - Bunu o kadar sakin söylüyorsunuz ki, oldukça karanlık geliyor. - İnsanlığa hoş geldiniz. (Lex gülüyor) - Evet, bu, \"Otostopçunun Galaksi Rehberi\" özetine benziyor. Çoğunlukla zararsız, tüm bunlar sona erdiğinde iyi bir özet almak isterim. Dünya artık bir şey olmadığında, ne bileyim, bir milyon, bir milyar yıl sonra. Burada ne olduğunu anlatan iyi bir özet nedir? İlginç, bence yapay zeka bu özetin büyük bir parçasını oynayacak ve umarım insanlar da öyle. İkisi arasındaki birleşim hakkında ne düşünüyorsunuz? Elon ve Neuralink'in konuştuğu şeylerden biri, yapay zeka güvenliğini sağlamak için AGI dalgasını sürmek için birleşmenin bir yolu. Yani, engelli bireylere yardımcı olmak için dar bir anlamda inanılmaz bir teknoloji, bunu %100 destekliyorum."
   },
   {
     "start": 7503.9,
@@ -493,7 +509,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI consequences",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Evrenin ne olacağını tahmin edemezsiniz. Yeni bir evren yaratmanız ve bunu çalıştırmanız gerekiyor. Büyük patlama, her şey. - Ama bunu çalıştırmak da sonuç doğurabilir. - İnsanları yok edebilir. Ve sizin için, yapay zekanın bir şekilde bilincin, insanlara özgü olan özel olmanın ve harikalığın ateşini taşıma şansı yok mu? - Belki bir şekilde, ama yine de hepimizin öldüğünü düşündüğümde kendimi kötü hissediyorum. Bunun olmamasını tercih ederim. Başkaları için mutlu olabilirim, ama belli bir dereceye kadar. - Uzun bir süre burada kalmamız güzel olurdu. En azından bize bir gezegen verin, insan gezegeni. Bunun Dünya olması güzel olurdu. Sonra başka yerlere gidebilirler. O kadar zeki olduklarına göre Mars'ı kolonileştirebilirler. Sizce bizi, yani tip bir, tip iki, tip üçe dönüştürmelerine yardımcı olabilirler mi? Kardashev ölçeğinde tip iki medeniyetle kalalım."
   },
   {
     "start": 8089.4,
@@ -519,6 +536,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu konuşmayı dinlediğiniz için teşekkürler, Roman Yampolskiy ile. Bu podcast'i desteklemek için lütfen açıklamadaki sponsorlarımıza göz atın. Şimdi sizi Frank Herbert'ın \"Dune\" kitabındaki bazı sözlerle baş başa bırakayım. \"Korkmamalıyım. Korku zihnin katilidir. Korku, tam yok oluşu getiren küçük ölümdür. Korkuyla yüzleşeceğim, onun geçmesine ve içimden geçmesine izin vereceğim. Ve geçtiğinde, iç gözümü onun yolunu görmek için çevireceğim. Korkunun gittiği yerde hiçbir şey olmayacak, sadece ben kalacağım.\" Dinlediğiniz için teşekkür ederim ve umarım bir sonraki sefer görüşürüz."
   }
 ]

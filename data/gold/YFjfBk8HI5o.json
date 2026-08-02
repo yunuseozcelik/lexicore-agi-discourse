@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Ajanımın \"Ben robot değilim\" butonuna mutlu bir şekilde tıkladığını izledim. Ajanı çok iyi bilgilendirdim. Yani, kaynak kodunun ne olduğunu biliyor. Kendi sisteminde nasıl çalıştığını anlıyor. Belgelere nerede olduğunu biliyor. Hangi modeli çalıştırdığını biliyor. Kendi sistemini anladığı için bir ajanın... Oh, hiçbir şeyden hoşlanmıyor musun? Sadece varlığını sağladın, sonra ajan kendi yazılımını değiştirecekti. İnsanlar kendini değiştiren yazılımlardan bahsediyor, ben bunu inşa ettim. Aslında, wipe coding'in bir hakaret olduğunu düşünüyorum. - Ajanik mühendisliği tercih ediyorsun? - Evet, her zaman insanlara ajan mühendisliği yaptığımı söylerim, sonra belki sabah 3'ten sonra wipe coding'e geçerim ve ertesi gün pişmanlık duyarım. - Ne utanç verici bir durum. - Evet, sadece temizlemen ve, işte, berbat olan şeyleri düzeltmen gerekiyor. - Hepimiz oradaydık. - Gerçekten uzun istemler yazardım. Ve yazmaktan kastım, yazmıyorum, konuşuyorum, biliyor musun? Bu eller, yazmak için çok değerli artık. Sadece yazılımımı inşa etmek için özel istemler kullanıyorum. - Yani, gerçekten, o tüm terminallerle ses kullanıyorsun?"
   },
   {
     "start": 64.6,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI impact",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Evet. Bunu çok kapsamlı bir şekilde yapıyordum, öyle ki bir dönem sesimi kaybettim. - Yani, sormak zorundayım, merak ediyorum. Büyük şirketlerden muhtemelen büyük teklifler aldığını biliyorum. Kiminle çalışmayı düşündüğünü söyleyebilir misin? - Evet. - Aşağıda, OpenClaw'ın yaratıcısı Peter Steinberger ile bir konuşma var, daha önce MoldBot, ClawedBot, Clawdus, Claude olarak biliniyordu, lobster claw'daki W harfi ile yazılıyor. Anthropic'ten gelen Claud AI modeli ile karıştırılmamalıdır, U harfi ile yazılıyor. Aslında, bu karışıklık, Anthropic'in Peter'dan ismi OpenClaw olarak değiştirmesini istemesinin sebebidir. Peki, OpenClaw nedir? Açık kaynaklı bir AI ajanıdır ve birkaç gün içinde teknoloji dünyasını ele geçirmiştir, popülaritesi patlayarak artmış, GitHub'da 180.000'den fazla yıldız kazanmış ve AI ajanlarının manifesto yayınladığı ve bilinç üzerine tartıştığı sosyal ağ mold book'u doğurmuştur, bu da genel halkta bir heyecan ve korku karışımı yaratmaktadır. Ve bir tür AI psikozu, tıklama tuzağı korkutma ve AI'nın dijital, birbirine bağlı insan dünyasındaki rolü hakkında tamamen haklı endişeler karışımı. OpenClaw, sloganında belirttiği gibi, gerçekten bir şeyler yapan AI'dır. Bilgisayarınızda yaşayan, eğer izin verirseniz tüm dosyalarınıza erişimi olan, Telegram, WhatsApp, Signal, iMessage ve diğer mesajlaşma istemcileri aracılığıyla sizinle konuşan otonom bir AI asistanıdır."
   },
   {
     "start": 168.0,
@@ -93,7 +95,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Kullanmak istediğiniz herhangi bir AI modelini kullanır, Claude Opus 4.6 ve GPT 5.3 Codex dahil, tüm bunları sizin için bir şeyler yapmak için. Birçok insan bunu, Kasım 2022'de ChatGPT'nin piyasaya sürülmesinden bu yana AI'nın yakın tarihindeki en büyük anlardan biri olarak adlandırıyor. Bu tür bir AI ajanı için tüm bileşenler oradaydı, ancak bunları bir araya getirip dilin ötesinde, ajansa, fikirlerden eylemlere geçiş yapan bir sistem oluşturmak, OpenClaw'ın interneti fırtına gibi sarmasının sebebidir. Gücü, büyük ölçüde, ona tüm dosyalarınıza erişim izni verebilmeniz ve bu dosyalarla sizin için faydalı olmak adına her şeyi yapmasına izin vermenizden gelmektedir. Bu çok güçlü, ama aynı zamanda tehlikeli. OpenClaw özgürlüğü temsil ediyor, ama özgürlükle birlikte sorumluluk da geliyor. Bununla, verilerinizi sahiplenebilir ve kontrol edebilirsiniz, ama tam olarak bu kontrole sahip olduğunuz için, aynı zamanda onu çeşitli siber güvenlik tehditlerinden koruma sorumluluğunuz da var. Kendinizi korumanın harika yolları var, ama tehditler ve zayıflıklar dışarıda."
   },
   {
     "start": 2461.7,
@@ -119,7 +122,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Oh, bunun gibi, \"Lütfen bunun iyi olduğunu söyle.\" Bunu gerçekten iddia edebileceklerini düşünmüyorum, ama doğru olanı yapmak gibi hissettim. Ve başka bir yeniden adlandırma yaptım. Sadece Codex'in yeniden adlandırılması 10 saat sürdü çünkü bu, arama değiştirmekten biraz daha karmaşık ve her şeyin yeniden adlandırılmasını istedim, sadece dışarıda değil. Ve o yeniden adlandırma, savaş odam varmış gibi hissettim. Ama sonra, gerçekten bana yardımcı olan bazı katkıda bulunanlar vardı. Tüm adları ele geçirmemiz gereken bir plan yaptık. - Ve bunun hakkında süper gizli olmak zorunda mıydın? - Evet. Hiç kimse bilmemeliydi. Gerçekten Twitter'ı izliyordum, OpenClaw hakkında herhangi bir bahsedilme olup olmadığını görmek için. - Hı-hı. - Ve yeniden yükleme ile, \"Tamam, henüz hiçbir şey beklemiyorlar.\" Sonra birkaç sahte isim yarattım. Ve yapmam gereken tüm şeyler. Biliyorsun? Yani, biliyorsun- - Evet, evet - ... projeye yardımcı oluyor. Bu tamamen gizlilik içinde plan yapmak zorunda kaldığım için 10 saat kaybettim, bir savaş oyunu gibi. - Evet, bu 21. yüzyılın Manhattan Projesi. Yeniden adlandırma- - Bu çok s- ... çok aptalca. Uh, hala \"Oh, bunu korumalı mıyım?\" diye düşünüyordum. Sonra \"Hayır, kalıp üzerimde büyümüyor.\" dedim. Ve sonra tüm parçaları bir araya getirdiğimi düşündüm. Bir .com almadım ama, evet, diğer alan adları üzerinde oldukça fazla para harcadım. GitHub ile tekrar iletişime geçmeye çalıştım ama orada tüm iyi niyetimi tükettiğimi hissediyorum, bu yüzden... Çünkü, bunu atomik olarak yapmalarını istedim- - Hı-hı - ... Ama bu olmadı ve sonra bunu ilk şey olarak yaptım. Uh, Twitter'daki insanlar çok destekleyiciydi. İş hesabı için 10K ödedim, böylece-..."
   },
   {
     "start": 2907.3,
@@ -151,7 +155,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI understanding",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- \"Ciddiye alınması gerekiyor.\" - Oh, bazı insanlar çok güvenilir veya saf. Biliyorsun, gerçekten, \"Evet ama benim ajanım şunu ve bunu söyledi.\" diyen insanlarla tartışmak zorunda kaldım. Yani, toplum olarak, AI'nın inanılmaz derecede güçlü olduğunu anlamak için biraz geri kalmamız gerektiğini düşünüyorum, ama her zaman doğru değil. Her şeyden güçlü değil, biliyor musun? Ve özellikle-... böyle şeylerde, çok kolay bir şekilde bir şey hayal edebilir ya da bir hikaye uydurabilir. Ve bence çok genç insanlar, AI'nın nasıl çalıştığını ve nerede iyi olduğunu ve nerede kötü olduğunu anlıyorlar, ama bizim neslimizden veya daha büyük olanlardan birçok kişi yeterince temas noktası yaşamadı- - Hı-hı - ... bu yüzden, oh, evet, bu gerçekten güçlü ve gerçekten iyi, ama eleştirel düşünce uygulamam gerekiyor."
   },
   {
     "start": 3126.3,
@@ -180,7 +185,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Hayır. - Birçok insan s- ... bunun sonu olduğunu söylüyordu. Yani, kapatın. Ne hakkında konuşuyorsunuz? Bu, internette insan tarafından yönlendirilen trollemeler yapan bir grup bot. Yani, güvenlik endişeleri de var, ve bunlar öğretici ve eğitici ve düşünmek için iyi, çünkü bu güvenlik endişelerinin doğası, geçmişteki LLM üretilmiş sistemlerle olan güvenlik endişelerinden farklı. - Clawbot, OpenClaw veya ne derseniz, bununla ilgili de birçok güvenlik endişesi var. - OpenClawbot. - Benim için ... başlarda çok sinirliydim çünkü gelen birçok şey, evet, web arka ucunu kamu internetine koydum ve şimdi burada tüm bu CVSS'ler var. Ve belgelerde bağırıyordum, bunu yapmayın. Yani, bu yapılandırma yapmanız gereken şey. Bu, yerel ana bilgisayar hata ayıklama arayüzünüz. Ama bunu yapılandırmada mümkün kıldığım için, bu tamamen uzaktan kod sınıflandırması olarak sınıflandırılıyor ya da bu tüm istismarlar neyse. Ve bunun böyle çalıştığını kabul etmem biraz zaman aldı ve çok fazla ilerleme kaydediyoruz."
   },
   {
     "start": 3397.4,
@@ -209,7 +215,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Ve ayrıca, model ne kadar akıllı olursa, temel model, saldırılara karşı o kadar dayanıklı olur, dedin. - Evet. Bu yüzden güvenlik belgelerimde uyarıyorum, ucuz modeller kullanmayın. Haiku veya yerel bir model kullanmayın. Çok sevdiğim bir fikir olsa da, bu şeyin tamamen yerel çalışabilmesi. Eğer çok zayıf bir yerel model kullanıyorsanız, çok saf olurlar. Onları yönlendirmek çok kolay. - Modeller daha akıllı hale geldikçe, saldırı yüzeyinin azalacağını düşünüyor musun? Bu, düşünebileceğimiz bir senaryo mu? Yani, saldırı yüzeyi azalıyor, ama o zaman verebileceği zarar artıyor çünkü modeller daha güçlü hale geliyor ve bu nedenle onlarla daha fazlasını yapabilirsiniz. Bu garip üç boyutlu bir takas. - Evet. Bu tam olarak olacak olan şey. Hayır, ama birçok fikir var. ... Çok fazla ayrıntı vermek istemiyorum, ama eve döndüğümde, bu benim odak noktam. Yani, bu artık dışarıda ve benim kısa vadeli görevim, bunu daha stabil ve güvenli hale getirmek."
   },
   {
     "start": 6376.8,
@@ -238,7 +245,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI perception",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "200 ödediğinizde elde ettiğiniz deneyim, yavaşlamaya düşmeden önce, çünkü zaten yavaş. - Hı-hı. - Yani, daha iyi hale getirdiler. Bence bu ... Ve eğer Cerebras şeyleri doğruysa, bunu çok daha iyi hale getirmek için planları var. Ama evet, bu bir beceri. Zaman alıyor. Hatta bir normal gitarınız varsa ve onu E gitarına çevirirseniz, hemen iyi çalamayacaksınız. Nasıl hissettiğini öğrenmeniz gerekiyor. - Ayrıca, insanların yeni model çıktığında, o modeli denediklerinde, ona aşık olduklarında, \"Vay, bu tüm zamanların en akıllısı,\" demeye başladıklarında, Reddit gönderilerini zamanla izleyebilirsiniz, \"Bu modelin zekasının giderek azaldığını düşünüyoruz,\" demeye başlıyorlar. Bu, insan doğası ve zihinlerimizin çalışma şekli hakkında bir şeyler söylüyor, muhtemelen modelin zekasının azaldığı en olası durum değil. Aslında, iyi bir şeye alışıyorsunuz."
   },
   {
     "start": 7285.9,
@@ -264,7 +272,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Mükemmel olmasına gerek yok. Kullanmadığım birçok şey inşa ettim. Önemli değil. Yani, bu bir yolculuk. - Hı-hı. - Biliyorsun? Yani, felsefi olarak, sonun önemi yok, yolculuk önemlidir. Eğlen. - Hı-hı. - Tanrım, bu şeyleri inşa etmekten hiç bu kadar eğlenmemiştim çünkü şimdi zor kısımlara odaklanabiliyorum. Kodlamayı sevdiğimi her zaman düşünmüştüm, ama aslında inşa etmeyi seviyorum. - Evet. - Ve... Ve bir şeyi anlamadığınızda, sadece sorun. Sınırsız sabırlı bir cevaplama makineniz var.... her seviyede karmaşıklığı açıklayabilir. Bazen, bir kez, \"Hey, bana sekiz yaşındaymışım gibi açıkla,\" diye sordum ve bana boyalarla bir hikaye vermeye başladı. Ve ben de, \"Hayır, öyle değil.\" dedim. Yani, ben tamamım- ... biraz daha büyük bir yaşa çık, biliyor musun? Yani, ben gerçek bir çocuk değilim, sadece zor bir veritabanı kavramı için daha basit bir dile ihtiyacım var, ilk seferde anlamadım. Ama, biliyorsun, sadece bir şeyler sorabilirsin. Yani, eskiden Stack Overflow'a gitmem ya da Twitter'da sormam gerekiyordu, belki iki gün sonra bir yanıt alıyordum. Ya da saatlerce denemem gerekiyordu. Ve şimdi, sadece bir şeyler sorabiliyorsun. Yani, asla... Kendi öğretmeniniz var. Biliyorsunuz ki, istatistikler, kendi öğretmeniniz olduğunda daha hızlı öğrenebilirsiniz. Bu, sınırsız sabırlı bir makineye sahip olmak gibi."
   },
   {
     "start": 8107.0,
@@ -290,7 +299,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "şanssız olan insanlara yardım etmek. - Ve toplumdan kopmak birçok açıdan kötü, ama bunlardan biri, insanların harika olması. İnsanlardaki harikalığı sürekli hatırlamak güzel. - Yani, gerçekten güzel otellerde kalabilirim. San Francisco'da en son bulunduğumda, ilk kez OG Airbnb deneyimini yaşadım - Evet, evet - ... ve sadece bir oda ayarladım. Çoğunlukla, düşündüm ki, tamam, dışarıdayım ya da uyuyorum, ve otellerin olduğu yeri sevmiyorum, farklı bir deneyim istedim. Bence hayat deneyimlerle ilgili değil mi? Yani, eğer hayatınızı, \"Deneyimler yaşamak istiyorum\" şeklinde şekillendirirseniz, \"İyi ya da kötü olmalı\" gereksinimini azaltır. Yani, insanlar sadece iyi deneyimler istiyorlarsa, bu işe yaramayacak, ama eğer deneyimler için optimize ederseniz, eğer iyi ise harika. Eğer kötü ise, harika, çünkü bir şeyler öğrendim, bir şeyler gördüm, bir şeyler yaptım. Bunu deneyimlemek istedim ve harikaydı. Orada bir queer DJ vardı ve ona bulut kodu ile müzik yapmayı gösterdim."
   },
   {
     "start": 8251.4,
@@ -319,7 +329,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Metin çok kayıplı olduğu için bu mümkün. - Evet. - Bazen, ajana konuştuğumda... Çok modelli olmalı ki duygularımı da anlasın. - Yani, oraya doğru gidebilir. Oraya doğru gidebilir. - Gidecek. Gidecek. Kesinlikle gidecek. - Yani, sana sormam lazım, sadece merak ediyorum. Büyük şirketlerden muhtemelen büyük teklifler aldığını biliyorum. Kiminle çalışmayı düşündüğünü söyleyebilir misin? - Evet. Yani, düşüncemi biraz açıklamak gerekirse, bu kadar patlayacağını beklemiyordum. Bu yüzden birçok kapı açıldı. Her VC, her büyük VC şirketi benim kutumda ve benden 15 dakika almak için uğraşıyor. Yani, bu bir kelebek etkisi anı. Hiçbir şey yapmadan devam edebilirim ve hayatımı gerçekten seviyorum. Geçerli bir seçim. Neredeyse. Yani, silmeyi düşündüğümde, her şeyi silmek istedim. Bir şirket kurabilirim."
   },
   {
     "start": 8655.9,
@@ -357,7 +368,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "bunu birçok insana ulaşabileceğim bir versiyona dönüştürmek çünkü bu yıl kişisel ajanların yılı ve bu gelecektir. Ve bunu yapmanın en hızlı yolu, bir laboratuvarla iş birliği yapmaktır. Ayrıca, kişisel bir düzeyde, büyük bir şirkette hiç çalışmadım ve bu beni cezbetti. Biliyor musun, deneyimlerden bahsediyoruz. Beğenecek miyim? Bilmiyorum. Ama o deneyimi istiyorum. Uh, eminim, eğer bunu duyurursam, \"Oh, satıldı,\" gibi insanlar olacaktır, bilmem ne. Ama proje devam edecek. Şu ana kadar konuştuğum her şeyden, bunun için daha fazla kaynağa sahip olabilirim. Her iki şirket de benim yarattığım şeyin değerini anlıyor, bu bizim zaman çizelgemizi hızlandırıyor ve insanları AI hakkında heyecanlandırıyor. Hayal edebiliyor musun? Bir arkadaşımın birine OpenClaw yükledim, özür dilerim, normie arkadaşım. Özür dilerim, Vahan."
   },
   {
     "start": 9255.7,
@@ -392,7 +404,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Bence ne olursa olsun, inşa ettiğin şeyler ve yaptığın insan türü, ölçekli bir şey yapmak oldukça harika. Heyecanlıyım. - Ben de çok heyecanlıyım. Ve güzellik şu ki, eğer işe yaramazsa, tekrar kendi yoluma gidebilirim. Onlara söyledim, yani, bunu para için yapmıyorum, umurumda değil. - Evet. - Yani, elbette, bu güzel bir iltifat ama eğlenmek ve etki yaratmak istiyorum ve bu nihayetinde kararımı etkileyen şeydi. - Senden... biraz konuştuk ama belki OpenCloud'un nasıl çalıştığı hakkında daha geniş bir perspektiften bahsedelim. Farklı bileşenlerden bahsettik, kaçırdığımız ilginç şeyler var mı? Yani, bir geçit var, sohbet istemcileri var, bir harness var, bir ajans döngüsü var. Bir yerde herkesin hayatlarının bir noktasında bir ajans döngüsü uygulaması gerektiğini söyledin."
   },
   {
     "start": 9660.1,
@@ -418,7 +431,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Bence ana güzellik, modellerin Unix komutlarını çağırmada gerçekten iyi olmaları. Yani, sadece başka bir CLI eklersen, bu sonunda başka bir Unix komutu olur. Ve MCP... Bu eğitimde eklenmeli. Bu model için çok doğal bir şey değil. Çok özel bir sözdizimi gerektiriyor. Ve en büyük şey, bileşenlenebilir olmaması. Yani, eğer bana daha iyi veri veren ve sıcaklık, ortalama sıcaklık, yağmur, rüzgar ve diğer tüm şeyleri veren bir hizmetim varsa ve bana bu devasa bir veri kümesi geri gelirse. Bir model olarak, her zaman bu devasa veri kümesini geri almak zorundayım. O devasa veri kümesiyle bağlamımı doldurmalıyım ve sonra ne istediğimi seçmeliyim. Modelin doğal olarak filtrelemesi için proaktif düşünmem ve MCP'me bir filtreleme yolu eklemem gerekiyor. Ama eğer aynı şeyi bir CLI olarak inşa etsem ve bana bu devasa veri kümesini verse, sadece bir JQ komutu ekleyip kendini filtreleyebilir ve sadece gerçekten ihtiyacım olanı alabilirim. Ya da belki sıcaklıkla bazı hesaplamalar yapmak için bir betik haline bile getirebilir ve sadece kesin çıktıyı verebilir ve... ve... bağlam kirliliği yok."
   },
   {
     "start": 9979.9,
@@ -447,7 +461,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI in social media",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Twitter'daki herhangi bir otomasyona karşıyım. Eğer bana AI ile tweet atarsan, seni engelleyeceğim. İlk saldırı yok. AI kokusu aldığında, ve AI hala bir kokuya sahip. - Mm-hmm. - Özellikle tweetlerde. Tamamen insana benzemeyen bir şekilde tweet atmak çok zor. - Mm-hmm. - Ve sonra engelliyorum. Bu konuda sıfır tolerans politikam var. Ve API aracılığıyla yapılan tweetlerin işaretlenmesi çok yardımcı olurdu. Belki bazı özel durumlar vardır... Ama, ve ajanların kendi Twitter hesaplarını alması için çok kolay bir yol olmalı. Um... - Mm-hmm. - Sosyal platformları biraz yeniden düşünmemiz gerekiyor eğer, eğer, eğer, geleceğe doğru gidiyorsak herkesin bir ajanı olacak ve ajanların belki kendi Instagram profilleri veya Twitter hesapları olacak, böylece benim adıma bir şeyler yapabilirler. Bence, onların benim adıma bir şeyler yaptığını ve bunun benim olmadığını çok net bir şekilde işaretlenmesi gerekiyor. Çünkü içerik artık çok ucuz. Gözler pahalı olan kısım. Ve bir şey okuduğumda ve sonra, oh, hayır, bu AI kokuyor dediğimde çok tetikleyici buluyorum."
   },
   {
     "start": 10425.6,
@@ -476,7 +491,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI impact on economy",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Mm-hmm. - Ve bunun... bu, artık kullanmayı doğal olarak bırakacağım bir dizi uygulamaya dönüşecek çünkü ajanım bunu daha iyi yapabilir. - Bence bir yerde, bunun %80'lik bir uygulama öldürebileceğini söyledin. - Evet. - Bu, tüm yazılım geliştirme üzerinde devasa bir dönüştürücü etki değil mi? Yani, bu, birçok yazılım şirketini öldürebilir. - Evet. Um- - Korkutucu bir şey. Yani, bunun ekonomiye etkisini düşünüyor musun? Toplum üzerindeki dalga etkilerini? Ne tür araçların inşa edildiğini dönüştürmek. Kullanıcıları daha verimli bir şekilde işlerini halletmeye, daha ucuz bir şekilde halletmeye güçlendiriyor. - Ayrıca, ihtiyaç duyacağımız yeni hizmetler de var, değil mi? Örneğin, ajanımın bir harçlık almasını istiyorum. Yani, benim için sorunları çözüyorsun, işte sana 100 dolar, sorunları çözmen için. Ve eğer sana yemek siparişi vermemi söylüyorsam, belki bir hizmet kullanır. Belki de benim için bunu halletmek için bir şey kullanır."
   },
   {
     "start": 10598.2,
@@ -502,7 +518,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI applications",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Veri verebilen uygulamalar ama aynı zamanda API olabilen uygulamalar. Artık neden bir Sonos uygulamasına ihtiyacım var ki, eğer ajanım doğrudan Sonos... Hoparlörlerle konuşabiliyorsa. Kameralarım için, berbat bir uygulama var ama bir API'leri var, bu yüzden ajanım şimdi API'yi kullanıyor. - Yani, birçok şirketin odaklarını değiştirmek zorunda kalacak. İnternetin yaptığı şey bu, değil mi? Hızla ne sattığınızı, nasıl para kazandığınızı yeniden düşünmek zorundasınız. - Evet, ve bazı şirketler gerçekten böyle değildi. Örneğin, Google için bir CLI yok, bu yüzden kendim bir şeyler yapmak zorunda kaldım ve GAWK'ı inşa ettim. Bu, Google için bir CLI. Ve... Evet, son kullanıcıda, bana e-postaları vermek zorundalar çünkü aksi takdirde ürünlerini kullanamam. Eğer ben bir şirketsem ve Google verisi, Gmail almak istiyorsam, karmaşık bir süreç var, o kadar ki bazen startuplar, bu süreci geçmiş olan startupları satın alıyor ki, Google ile yarım yıl çalışmak zorunda kalmasınlar, Gmail'e erişim için sertifikalandırılmak. Ama ajanım Gmail'e erişebilir çünkü ona bağlanabilirim."
   },
   {
     "start": 10855.3,
@@ -537,7 +554,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI and jobs",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- İnsanların ne istediğini dinlemelisin. Programlamadan oldukça fazla konuştuk ve birçok geliştirici gerçekten işlerinden, programlamanın geleceğinden endişeli. AI'nın insan programcılarını tamamen değiştireceğini düşünüyor musun? - Yani, kesinlikle bu yöne gidiyoruz. Programlama, ürün inşa etmenin sadece bir parçası. Yani belki, belki AI sonunda programcıları değiştirebilir. Ama bu sanatın çok daha fazlası var. Yani, aslında ne inşa etmek istiyorsun? Nasıl hissettirmeli? Mimarisi nasıl olmalı? Ajanların bunların hepsini değiştireceğini düşünmüyorum. Evet, yani, programlamanın gerçek sanatı orada kalacak, ama bu, örgü örmek gibi olacak. Biliyor musun? İnsanlar bunu sevdikleri için yapacaklar, mantıklı olduğu için değil. Yani, bu sabah bir makale okudum, birinin zanaatımızı yas tutmanın normal olduğunu söylediği hakkında. Ve ben... İçimde bununla çok güçlü bir şekilde rezonans buluyorum çünkü geçmişimde, çok zaman harcadım, sadece akışta derinleşerek, kod yazıp, gerçekten güzel çözümler bulmaya çalışarak. Ve evet, bir şekilde, bu üzücü çünkü bu kaybolacak."
   },
   {
     "start": 11029.4,
@@ -566,7 +584,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI impact on jobs",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunun benzer şeylerini yaşadık... Yani, muhtemelen mükemmel bir benzetme değil ama buharlı motoru yarattığımızda, tüm bu fabrikaları inşa ettiler ve birçok manuel iş gücünü değiştirdiler ve sonra insanlar isyan etti ve makineleri kırdı. Um, eğer kendinizi çok derin bir şekilde programcı olarak tanımlıyorsanız, bunun korkutucu olduğunu ve tehdit edici olduğunu anlayabiliyorum çünkü sevdiğiniz ve gerçekten iyi olduğunuz şey artık ruhsuz bir varlık tarafından yapılıyor. Ama ben, sadece bir programcı olmadığınızı düşünmüyorum. Bu, zanaatınızın çok sınırlayıcı bir görüşü. Siz, hala bir inşaatçısınız. - Evet, söylemek istediğim birkaç şey var. Birincisi, asla... Bunu çok güzel bir şekilde ifade ettiğinizi duyduğumda, hiç düşünmemiştim, sevdiğim şeyin değiştirileceği şey olacağını. Bu tür hikayeleri duyuyorsunuz, buharlı motorla ilgili dediğiniz gibi. Binlerce saatimi kod üzerinde harcadım ve kalbimi ve ruhumu koydum ve en acı ve en mutlu anlarım yalnızca... Ben uzun süre Emacs kullanıcısıydım. Adamım, Emacs."
   },
   {
     "start": 11363.5,
@@ -595,7 +614,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI impact",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Hı hı. - Her şeyin iyi olduğunu söylemiyorum. Bu kesinlikle toplumumuz için çok dönüştürücü bir teknoloji olacak. - Eleştirileri daha iyi anlamak için, Silikon Vadisi'ndeki deneyimime dayanarak, burada bir tür balon olduğunu söylemek istiyorum; teknoloji tarafından getirilen olumlu şeylere aşırı bir odaklanma ve heyecan var. - Evet. - Ve... bu harika. Teknolojiye odaklanmak harika... Korku ve korku yayma ile felç olmamak önemli, ama bu heyecan içinde, herkesin sadece birbirleriyle konuştuğu bir ortamda, Amerika Birleşik Devletleri'ndeki ve dünyanın dört bir yanındaki temel insan deneyiminin göz ardı edilmesi var. Bahsettiğimiz programcılar da dahil olmak üzere, işlerini kaybedecek tüm insanlar, her türlü değişim olduğunda kısa vadede yaşanan ölçülebilir acı ve ıstırap da dahil. Özellikle, konuştuğumuz şey gerçekleşirse, karşılaşacağımız büyük ölçekli dönüştürücü değişim. Bu nedenle, inşa ettiğiniz araçlar hakkında biraz alçakgönüllülük ve farkındalık sahibi olmak, acıya neden olacaklar."
   },
   {
     "start": 11583.8,
@@ -624,6 +644,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI creativity",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Yani, birçok insana ilham verdim. Yeniden bir inşaatçı havası var. İnsanlar şimdi AI'ı daha eğlenceli bir şekilde kullanıyor ve ne yapabileceğini keşfediyorlar ve hayatlarında nasıl yardımcı olabileceğini. Ve yaratıcılıkla dolup taşan yeni yerler yaratıyorlar. Bilmiyorum. Viyana'da ClawCoin var. 500 kişi var. Ve sunum yapmak isteyen insanların çok yüksek bir yüzdesi var ki bu benim için gerçekten şaşırtıcı, çünkü genellikle ne inşa ettiklerini konuşmak isteyen insanları bulmak oldukça zor. Ama şimdi, bir bolluk var. Bu da bana umudun olduğunu gösteriyor, bir şeyleri çözebiliriz. - Ve bu, temelde herkes için erişilebilir hale getiriyor. - Evet."
   }
 ]
