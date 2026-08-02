@@ -41,6 +41,16 @@ STANCES = ["Support", "Refute", "Neutral"]
 MODEL_NAME = "all-MiniLM-L6-v2"
 
 
+def _load_taxonomy_v2():
+    """Swap the module-level taxonomy for the collapsed 8-category v2."""
+    from claim_taxonomy_v2 import CLAIM_IDS_V2, ID2NAME_V2, ID2DESC_V2, collapse_labels
+    return {"CLAIM_IDS": list(CLAIM_IDS_V2), "ID2NAME": ID2NAME_V2,
+            "ID2DESC": ID2DESC_V2, "_COLLAPSE": collapse_labels}
+
+
+_COLLAPSE = None
+
+
 def load_corpus(source):
     src = GOLD_DIR if source == "gold" else LABELED_DIR
     docs = []
@@ -49,10 +59,13 @@ def load_corpus(source):
             txt = (s.get("text") or "").strip()
             if not txt:
                 continue
+            labels = s.get("claim_labels") or []
+            if _COLLAPSE is not None:
+                labels = _COLLAPSE(labels)
             docs.append({
                 "text": txt,
                 "stance": s.get("stance"),
-                "claim_labels": s.get("claim_labels") or [],
+                "claim_labels": labels,
             })
     return docs
 
@@ -100,14 +113,45 @@ def _minmax(m):
     return (m - lo) / (hi - lo + 1e-9)
 
 
-def stance_boost(docs, queries):
-    """Structural signal: +1 if a doc matches the query's claim+stance, else 0."""
+def stance_boost(docs, queries, field_claim="claim_labels", field_stance="stance"):
+    """Structural signal: +1 if a doc matches the query's claim+stance, else 0.
+
+    With the default (gold) fields this is an ORACLE boost: the qrels in
+    build_queries() are defined from those same fields, so the boost reproduces
+    the answer key and the metrics saturate at 1.000. Pass the predicted fields
+    (`pred_claim_labels` / `pred_stance`) for the honest, inductive version.
+    """
     B = np.zeros((len(queries), len(docs)))
     for qi, q in enumerate(queries):
         for di, d in enumerate(docs):
-            if q["claim"] in d["claim_labels"] and d["stance"] == q["stance"]:
+            if q["claim"] in (d.get(field_claim) or []) and d.get(field_stance) == q["stance"]:
                 B[qi, di] = 1.0
     return B
+
+
+def attach_predictions(docs, taxonomy):
+    """Merge OOF predicted labels (predict_labels_oof.py) onto the corpus.
+
+    Matches on segment text, which is what both loaders key off. Returns the
+    number of docs that received predictions.
+    """
+    path = DATA_DIR / "predicted" / f"oof_labels_{taxonomy}.json"
+    if not path.exists():
+        raise SystemExit(
+            f"Missing {path}.\nRun first:  python src/predict_labels_oof.py"
+            f"{' --taxonomy v2' if taxonomy == 'v2' else ''}")
+    by_text = {s["text"]: s for s in json.loads(path.read_text(encoding="utf-8"))}
+    n = 0
+    for d in docs:
+        p = by_text.get(d["text"])
+        if p is not None:
+            d["pred_claim_labels"] = p.get("pred_claim_labels") or []
+            d["pred_stance"] = p.get("pred_stance")
+            n += 1
+        else:
+            d["pred_claim_labels"] = []
+            d["pred_stance"] = None
+    return n
 
 
 def evaluate(scores, queries, n_docs, k=10):
@@ -135,7 +179,14 @@ def main():
     ap.add_argument("--min-rel", type=int, default=3,
                     help="min relevant docs for a (claim, stance) to become a query")
     ap.add_argument("--k", type=int, default=10)
+    ap.add_argument("--taxonomy", choices=["v1", "v2"], default="v1")
+    ap.add_argument("--inductive", action="store_true",
+                    help="add stance_aware_inductive, re-ranked with OOF PREDICTED "
+                         "labels instead of gold (the honest version)")
     args = ap.parse_args()
+
+    if args.taxonomy == "v2":
+        globals().update(_load_taxonomy_v2())
 
     docs = load_corpus(args.source)
     if not docs:
@@ -158,20 +209,39 @@ def main():
         dense = score_dense(model, texts, [q["text"] for q in queries])
         results["dense"] = dense
         results["hybrid"] = _minmax(bm) + _minmax(dense)
-        # stance-aware: dense + strong structural boost from the graph
-        results["stance_aware"] = _minmax(dense) + 2.0 * stance_boost(docs, queries)
+        # stance_aware (ORACLE): boost comes from the same gold fields that
+        # define the qrels -> saturates at 1.000. Kept as the graph's ceiling.
+        results["stance_aware_oracle"] = _minmax(dense) + 2.0 * stance_boost(docs, queries)
+
+        if args.inductive:
+            n = attach_predictions(docs, args.taxonomy)
+            print(f"[inductive] OOF predictions attached to {n}/{len(docs)} segments\n")
+            results["stance_aware_inductive"] = _minmax(dense) + 2.0 * stance_boost(
+                docs, queries, "pred_claim_labels", "pred_stance")
     except ImportError:
         print("[warn] sentence-transformers not installed — only BM25 evaluated.\n")
 
-    print(f"{'Method':14} {'MRR':>8} {'nDCG@'+str(args.k):>9}")
-    print("-" * 33)
+    print(f"{'Method':26} {'MRR':>8} {'nDCG@'+str(args.k):>9}")
+    print("-" * 45)
     for name, sc in results.items():
         mrr, ndcg = evaluate(sc, queries, len(docs), k=args.k)
-        print(f"{name:14} {mrr:>8.3f} {ndcg:>9.3f}")
+        print(f"{name:26} {mrr:>8.3f} {ndcg:>9.3f}")
 
-    print("\nNote: 'stance_aware' uses the labeled person-claim-stance structure as "
-          "the stance signal (upper bound of the graph's value); a fully inductive "
-          "version would use the fine-tuned classifiers' predicted labels.")
+    print("\nNotes:")
+    print(" * stance_aware_oracle is NOT a valid comparison: the qrels are defined")
+    print("   from the gold claim/stance fields and the boost reads those same")
+    print("   fields, so it reproduces the answer key. Read it as the graph's")
+    print("   CEILING — what stance-aware re-ranking would be worth if the")
+    print("   classifiers were perfect.")
+    if args.inductive:
+        print(" * stance_aware_inductive is the honest number: the same re-ranking")
+        print("   driven by 5-fold out-of-fold PREDICTED labels, so no segment is")
+        print("   scored by a model that saw it. The gap to the oracle is the cost")
+        print("   of classifier error; the gap to BM25/dense is the graph's real")
+        print("   contribution.")
+    else:
+        print(" * Add --inductive for the leakage-free version (needs")
+        print("   predict_labels_oof.py to have been run).")
 
 
 if __name__ == "__main__":

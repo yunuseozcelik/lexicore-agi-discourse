@@ -1,0 +1,1447 @@
+{
+  "taxonomy": "v2",
+  "audited": 173,
+  "counts": {
+    "valid": 107,
+    "unclear": 63,
+    "invalid": 3
+  },
+  "validity_rate": 0.6184971098265896,
+  "per_category": {
+    "llm_capabilities": {
+      "n": 25,
+      "valid": 18,
+      "invalid": 0,
+      "unclear": 7,
+      "rate": 0.72
+    },
+    "ai_safety_risk": {
+      "n": 22,
+      "valid": 15,
+      "invalid": 2,
+      "unclear": 5,
+      "rate": 0.6818181818181818
+    },
+    "agi_timeline": {
+      "n": 24,
+      "valid": 16,
+      "invalid": 0,
+      "unclear": 8,
+      "rate": 0.6666666666666666
+    },
+    "industry_and_economics": {
+      "n": 26,
+      "valid": 17,
+      "invalid": 0,
+      "unclear": 9,
+      "rate": 0.6538461538461539
+    },
+    "race_and_geopolitics": {
+      "n": 24,
+      "valid": 14,
+      "invalid": 0,
+      "unclear": 10,
+      "rate": 0.5833333333333334
+    },
+    "scaling_and_hardware": {
+      "n": 26,
+      "valid": 15,
+      "invalid": 0,
+      "unclear": 11,
+      "rate": 0.5769230769230769
+    },
+    "ai_optimism_benefit": {
+      "n": 26,
+      "valid": 12,
+      "invalid": 1,
+      "unclear": 13,
+      "rate": 0.46153846153846156
+    }
+  },
+  "edges": [
+    {
+      "speaker": "Connor Leahy",
+      "claim": "ai_optimism_benefit",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism and concern about AI's impact on society, indicating a pessimistic outlook on the potential benefits of AI for humanity.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not explicitly address the timeline for AGI or the speaker's optimism or skepticism about its arrival, making it difficult to determine a clear stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Dwarkesh Patel's stance on the scaling of models, data, and compute, as they focus more on specific comparisons and timelines without affirming or refuting the overall progress in this category.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about the limitations of current AI systems, the risks associated with their development, and the need for caution, which aligns with a skeptical stance on the capabilities and future of AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes reflect a pessimistic view on AI capabilities and the potential risks associated with chaos, supporting the stance of 'Refute' in the context of capabilities, limits, and what's missing in current AI systems.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about the risks and problems associated with AI systems, indicating a skeptical outlook on AI safety and risk.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance on the competitive dynamics and concentration of power between AI actors, making it difficult to determine if the speaker is neutral, supportive, or refuting.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "ai_optimism_benefit",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the predictability and safety of AI, indicating a pessimistic outlook on the potential benefits of AI for humanity.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Beth Barnes",
+      "claim": "ai_optimism_benefit",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The provided quote does not express a clear stance on AI optimism or human benefit, making it difficult to determine if the speaker is refuting or supporting the claim.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Jensen Huang's stance on the specific topic of scaling models, data, and compute, as they focus more on strategic decisions and research processes without expressing optimism or skepticism.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes indicate Rob Wiblin's concern about the risks associated with rapid changes in the environment and the uncertainty of commitments in AI alignment, which aligns with a skeptical stance on AI safety and risk.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "llm_capabilities",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a belief in the potential for progress in AI capabilities through scaling and collaboration, aligning with a supportive stance on the topic.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the need for safety measures ('brakes') in AI development, indicating a skeptical outlook on the risks associated with AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the capabilities of AI systems to handle complex tasks, indicating a concern about their limitations.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate excitement and optimism about advancements in AI, suggesting that progress is happening and the positive case holds.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect a positive outlook on the potential of AI to enhance understanding and creativity, aligning with the stance of support for AI optimism and human benefit.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a belief in the potential for significant economic growth and innovation through automation and AGI, aligning with a supportive stance on the economic and practical realities of AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance on the economic and practical reality of AI; they focus more on technical aspects and abstraction without indicating a positive or negative outlook.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not directly address the topic of scaling models, data, and compute, making it difficult to determine the speaker's stance on this specific category.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not clearly express a definitive stance on the timeline for AGI; they discuss challenges and the need for resources without indicating whether the speaker believes AGI is near-term or far off.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about the unpredictability and risks associated with general AI, indicating a skeptical outlook on the competitive dynamics and concentration of power between AI actors.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes reflect skepticism about the capabilities and understanding of neural networks, indicating a pessimistic outlook on the timeline for achieving AGI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a neutral discussion of AI capabilities and limitations without expressing a clear positive or negative stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the risks of open sourcing AI, indicating a skeptical outlook on the competitive dynamics and concentration of power between AI actors.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the imminent arrival of AGI, emphasizing that current developments are not as significant as some claim, which aligns with a refuting stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the current capabilities of AI systems, highlighting their limitations and the challenges that remain, which aligns with a 'Refute' stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes indicate a nuanced and detailed approach to discussing the economic and practical realities of AI, without expressing a clear optimism or pessimism, thus supporting a neutral stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided focus on the nature of learning and interaction rather than expressing a clear stance on AI optimism or its potential benefits to humanity.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a neutral discussion of the economic aspects of AI without expressing strong optimism or pessimism.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes express an optimistic view on the economic and practical potential of AI, highlighting new opportunities and capabilities that were previously impossible.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes do not clearly express a definitive stance of optimism or pessimism regarding AI's potential to benefit humanity; they discuss various aspects of technology and progress without leaning towards a positive or negative outlook.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "llm_capabilities",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect an optimistic view on the capabilities of AI, emphasizing the precision of coding and suggesting practical solutions to current limitations, which aligns with a supportive stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "ai_optimism_benefit",
+      "stance": "Refute",
+      "verdict": "invalid",
+      "reason": "The quotes indicate a recognition of the potential benefits and capabilities of AI, suggesting a more optimistic outlook rather than a refutation of the idea that AI will amplify humanity and solve problems.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes discuss constraints on deployment without clearly indicating a supportive or refutative stance on AI safety and risk.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate that Dwarkesh Patel believes in significant progress towards AGI by 2035, which aligns with an optimistic stance on the AGI timeline.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "industry_and_economics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism and concern about the control and perception of AI, indicating a pessimistic outlook on the economic and practical realities of AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes express an optimistic outlook on the progress towards AGI, suggesting that advancements are expected to lead to significant capabilities by 2030 and a potential intelligence explosion.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "scaling_and_hardware",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the effectiveness and scalability of AI systems, indicating concerns about the limitations and potential issues in scaling models and compute.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Andrej Karpathy's stance on AI optimism and human benefit, as they focus more on the complexity of AI and challenges rather than expressing a definitive optimistic or pessimistic outlook.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "industry_and_economics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the effectiveness and progress of AI development, indicating concerns about the risks and challenges faced by major developers.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the risks associated with AI, indicating skepticism about its safety and the potential catastrophic consequences, which aligns with a 'Refute' stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance on the competitive dynamics and concentration of power between AI actors, making it difficult to determine if the speaker is refuting or supporting the claim.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes indicate skepticism about the inevitability of AGI, suggesting that the speaker does not believe there is a compelling argument for its imminent arrival, which aligns with a 'Refute' stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a belief in the potential for AI to enhance productivity and collaboration, suggesting an optimistic outlook on the economic and practical reality of AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a balanced discussion of scaling models and compute without expressing strong optimism or skepticism, indicating a neutral stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the risks of advanced AI, indicating a skeptical outlook on AI safety and risk, which aligns with the asserted stance of 'Refute'.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes discuss advancements in AI technology and capabilities but do not explicitly address the timeline for AGI or the speaker's optimism or skepticism about its arrival.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Andrej Karpathy's outlook on the economic and practical reality of AI, as they focus more on technical aspects and personal interests without expressing a definitive stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "scaling_and_hardware",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the effectiveness of current approaches in scaling models and the limitations of existing systems, indicating a refuting stance on the claim category.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The quote reflects a recognition of progress in AI capabilities but does not clearly express a stance of skepticism or concern about the limits and missing elements of current AI systems.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "ai_optimism_benefit",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the current state and implications of AI, indicating concerns and doubts rather than optimism about AI amplifying humanity and solving problems.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "ai_safety_risk",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear stance on AI Safety & Risk, as they discuss uncertainty and considerations without leaning towards optimism or pessimism.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a belief in the rapid advancement of AI and its potential to significantly impact jobs and productivity, aligning with a supportive stance on the economic and practical reality of AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quote discusses the potential for AI to advance research but does not clearly express an optimistic or supportive stance on the overall benefit of AI to humanity.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the current understanding and capabilities of AI systems, indicating concerns about their limitations and the lack of clear understanding, which aligns with a 'Refute' stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect an optimistic view on the capabilities and potential of AI to enhance productivity and innovation, aligning with the stance of support for AI optimism and human benefit.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "scaling_and_hardware",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the effectiveness and understanding of scaling models and reinforcement learning, indicating a refuting stance on the claim category.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes reflect Will MacAskill's skepticism about the rapid development and integration of AGI, emphasizing the need for ethical considerations and the potential for slower adoption, which aligns with a refuting stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "race_and_geopolitics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect an optimistic view on the progress and impact of AI tools and projects, suggesting a positive outlook on the competitive dynamics and concentration of power among AI actors.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "llm_capabilities",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Peter Steinberger's stance on the capabilities, limits, and missing elements of current AI systems, as they focus more on specific interactions and experiences rather than a broader outlook.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a belief in progress towards superintelligence and a general optimism about advancements in AI, which aligns with the asserted stance of support for scaling models, data, and compute.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "industry_and_economics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about the risks and limitations of AI systems, indicating a skeptical outlook on the economic and practical realities of AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "race_and_geopolitics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect an optimistic view on the potential for innovation and market opportunities in the competitive dynamics of AI, suggesting a supportive stance on the concentration of power among AI actors.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes express a positive outlook on the potential benefits of AI and its ability to solve problems, aligning with the stance of support for AI optimism and human benefit.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not clearly express a supportive or refutative stance on the topic of scaling models, data, and compute; they discuss related concepts without indicating optimism or skepticism.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the timeline for AGI, emphasizing the need for caution and coordination, which aligns with a refuting stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of the speaker's stance on the competitive dynamics and concentration of power between AI actors, as they focus more on the importance of navigating AI and the uncertainty surrounding it.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The quotes do not directly address the timeline for AGI or express a clear stance on whether it is near-term or far off.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes discuss the potential for AI automation and progress but do not clearly express a definitive optimistic or pessimistic stance on the overall benefit of AI to humanity.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Rohin Shah's stance on the capabilities, limits, and missing elements of current AI systems, making it difficult to determine if he is neutral, supportive, or refuting.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes discuss the complexity of problems and the challenges of predictions in scaling and compute but do not clearly express an optimistic or supportive stance on the progress in scaling models, data, and compute.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance on the economic and practical reality of AI; they focus more on personal observations and technical aspects without leaning towards optimism or pessimism.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the capabilities of current AI systems, emphasizing their limitations in understanding and executing tasks that require real-world experience and common sense.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a belief in the potential of classical systems and models to contribute to AGI, suggesting an optimistic outlook on the timeline for achieving AGI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "race_and_geopolitics",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes discuss constraints and perspectives on growth and competition without clearly indicating an optimistic or supportive stance on the competitive dynamics and concentration of power between AI actors.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes discuss various aspects of intelligence and the limitations of AI without clearly indicating a positive or negative outlook on the economic and practical realities of AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly indicate whether the speaker is optimistic or pessimistic about the economic and practical realities of AI; they discuss potential outcomes without a definitive stance.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance on AI Safety & Risk, as they focus on the technical aspects of continual learning in LLMs without addressing concerns or optimism about risks or safety.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "llm_capabilities",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes express an optimistic view on the rapid technological advancements driven by AI, indicating support for the capabilities and potential of current AI systems.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Beth Barnes",
+      "claim": "scaling_and_hardware",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The provided quote does not address the topic of scaling models, data, and compute, nor does it indicate a clear stance on the category.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance on the topic of scaling models, data, and compute; they discuss various aspects of intelligence and architecture without indicating a positive or negative outlook.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes indicate skepticism about the predictability and timeline of AGI development, aligning with a refuting stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "ai_optimism_benefit",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes reflect Rob Wiblin's concerns about the implications of rapid changes in AI and the lack of rights for digital beings, indicating a skeptical outlook on the optimistic view of AI's benefits.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "industry_and_economics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the effectiveness of existing systems and highlight concerns about the economic viability and functionality of AI-related infrastructure, aligning with a refuting stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the risks associated with powerful technologies, indicating a skeptical outlook on AI safety and risk.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about risks and potential dangers associated with AI, indicating a skeptical outlook on AI safety and risk.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the unregulated investment in AI and emphasize the need for caution and control, aligning with a refuting stance on the AGI timeline.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the current capabilities of AI in achieving human-level tasks, indicating a pessimistic outlook on the timeline for AGI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes indicate skepticism about the capabilities of current AI systems, emphasizing their limitations in reasoning, planning, and understanding, which aligns with a 'Refute' stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a focus on the progress and capabilities of AI models, suggesting an optimistic outlook on the practical reality of AI in the industry.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "race_and_geopolitics",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance on the competitive dynamics and concentration of power between AI actors, as they focus more on technical aspects of AI and personal reflections rather than the geopolitical implications.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes express uncertainty and caution regarding the future of AGI without clearly affirming or denying a positive outlook on the timeline for its arrival.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "llm_capabilities",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Andrej Karpathy's stance on the capabilities, limits, and missing elements of current AI systems, making it difficult to determine if he supports or refutes the category.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate an optimistic outlook on the progress of AI development, suggesting that advancements are imminent and that efforts should be focused on improving algorithms, which aligns with a supportive stance on the AGI timeline.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide clear evidence of Peter Steinberger's stance on the specific topic of scaling models, data, and compute, making it difficult to determine his position.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance of skepticism or concern regarding the competitive dynamics and concentration of power between AI actors; they focus more on technical aspects and examples without indicating a positive or negative outlook.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a discussion of the complexities and engineering challenges in AI without expressing a clear positive or negative outlook, indicating a neutral stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about the need for coordination and monitoring to ensure safety and alignment in AI deployment, indicating a skeptical outlook on the risks associated with AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the lack of control over AI systems and highlight the emerging threats posed by advanced AI, indicating a skeptical outlook on AI safety and risk.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about control and understanding in the competitive dynamics of AI, indicating a pessimistic outlook on the power concentration among AI actors.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a belief in the potential for progress through rethinking training methods and leveraging compute, aligning with a supportive stance on scaling models and infrastructure.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the potential dangers of AI and the misuse of technology by humans, indicating a skeptical outlook on AI safety and risk.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "scaling_and_hardware",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes reflect skepticism about the current state and future potential of scaling models and compute in achieving significant progress, indicating a refuting stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a discussion of model efficiency and capabilities without expressing a clear positive or negative outlook on the scaling of models, data, and compute.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quote indicates skepticism about the concept of an intelligence explosion, which aligns with a refuting stance on the capabilities and limits of current AI systems.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a balanced discussion of the dynamics between AI actors without leaning towards optimism or pessimism, indicating a neutral stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a belief in the potential for AI to improve and evolve, suggesting an optimistic outlook on AI's ability to benefit humanity.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a discussion of the complexities and uncertainties surrounding AI without expressing a clear positive or negative outlook, aligning with a neutral stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about the risks and potential malfunctions of AI-run firms, indicating a skeptical outlook on the competitive dynamics and concentration of power between AI actors.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "llm_capabilities",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not clearly express a supportive or refutative stance on the capabilities and limits of current AI systems; they mention challenges and questions without a definitive outlook.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about the control and risks associated with AI development in China, indicating a skeptical outlook on the competitive dynamics and concentration of power between AI actors.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a balanced discussion of progress in various fields without leaning towards optimism or pessimism, indicating a neutral stance on the competitive dynamics and concentration of power between AI actors.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the concentration of power in proprietary AI systems and warn against the risks associated with restricting AI access, aligning with a refuting stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect an optimistic outlook on AI's potential to drive significant technological progress and improve the future.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Victor Shih's stance on the scaling of models, data, and compute; they focus more on the importance of developing safety measures alongside AI capabilities.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not address the competitive dynamics and concentration of power between AI actors, making it impossible to determine the speaker's stance on this specific category.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate an optimistic view on the progress of software intelligence and the demand for AI models, supporting the stance of 'Support' in the context of scaling models, data, and compute.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "industry_and_economics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the safety and alignment of AI, indicating concerns about the risks and problems associated with AI development, which aligns with a 'Refute' stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance on the economic and practical reality of AI; they focus more on personal experiences and interactions with AI rather than on its broader implications for markets, jobs, or productivity.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a discussion of the complexities and uncertainties surrounding AI development without expressing a clear positive or negative outlook, aligning with a neutral stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Rob Wiblin's outlook on the economic and practical reality of AI; they discuss various aspects without expressing a definitive supportive or skeptical stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the potential catastrophic outcomes and the challenges of controlling powerful AI, indicating a skeptical outlook on AI safety and risk.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not clearly express a definitive stance of support or refute regarding the economic and practical reality of AI; they discuss various aspects without leaning towards optimism or skepticism.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "race_and_geopolitics",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Jensen Huang's stance on the competitive dynamics and concentration of power between AI actors, as they focus more on technical decisions and power efficiency without expressing optimism or skepticism.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes indicate a concern about the risks associated with AI and other technologies, reflecting a skeptical outlook on the safety and alignment of AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Amanda",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Amanda's stance on the scaling, compute, and hardware category; they focus more on the capabilities of AI without explicitly affirming or refuting the progress in scaling models and infrastructure.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a discussion of the complexities and limitations of current AI systems without expressing a clear positive or negative outlook, aligning with a neutral stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the timelines for achieving autonomy and AGI, indicating a belief that significant challenges remain, which aligns with a 'Refute' stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "scaling_and_hardware",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear stance on the topic of scaling models, data, and compute, as they focus more on the challenges and dynamics of AI development without explicitly addressing the effectiveness or viability of scaling as a path to progress.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the motivations behind AI models and the potential dangers of AI capabilities, indicating a pessimistic outlook on the competitive dynamics and concentration of power in AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the risks of advanced AI and advocate for caution, indicating a skeptical outlook on the timeline for achieving AGI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect an optimistic outlook on the economic and practical realities of AI, discussing advancements and potential future benefits.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes reflect Yann LeCun's concerns about biases in AI systems and the challenges faced by large companies, indicating a skeptical outlook on the competitive dynamics and concentration of power in AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear stance on the AGI timeline, as they discuss various topics without directly addressing the optimism or skepticism regarding the arrival of AGI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes reflect skepticism about the predictability and control of AI systems, indicating a concern about their capabilities and limits.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a discussion of the complexities and challenges in AI development without expressing a clear positive or negative outlook, indicating a neutral stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "ai_optimism_benefit",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a stance of optimism or pessimism regarding AI's potential to benefit humanity; they focus on technical aspects without indicating a positive or negative outlook.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The provided quote does not clearly express a stance on the capabilities, limits, or missing elements of current AI systems, making it difficult to determine if the speaker is refuting or supporting the claim category.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "invalid",
+      "reason": "The quotes express concern about AI safety and the potential risks associated with AI, indicating a skeptical outlook rather than support.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not explicitly address AI safety and risk, focusing instead on AI model evolution and a positive mindset towards new experiences.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate that Will MacAskill sees positive trends in scaling compute and algorithmic efficiency, suggesting an optimistic outlook on progress in this area.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear stance on the AGI timeline, as they focus on performance and issues in software engineering without directly addressing the arrival of AGI.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a balanced discussion of AI capabilities and limitations without leaning towards optimism or pessimism, indicating a neutral stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly indicate whether the speaker is optimistic, pessimistic, or neutral about the capabilities and limits of current AI systems; they focus more on specific examples and implications without a definitive stance.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not provide a clear indication of Demis Hassabis's stance on the economic and practical reality of AI, as they focus more on theoretical questions and philosophical notions rather than expressing optimism or skepticism about the industry and execution aspects.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes indicate a neutral exploration of scaling, acknowledging its effectiveness while expressing uncertainty about the extent of future scaling needs.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the capabilities of current AI systems, highlighting limitations and concerns about their effectiveness, which aligns with a 'Refute' stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes indicate skepticism about the overreaction to AI risks and emphasize the need for critical thinking, aligning with a refuting stance on AI safety and risk.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the risks and challenges associated with competitive dynamics in AI, indicating a skeptical outlook on the topic.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a definitive stance of optimism or pessimism regarding AI's potential benefits; instead, they reflect uncertainty and a lack of strong opinion.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "invalid",
+      "reason": "The quote expresses concern about the concentration of wealth and the potential negative consequences, indicating a pessimistic outlook rather than support.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "llm_capabilities",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect an optimistic view on the capabilities of classical learning systems to tackle complex problems, suggesting that progress is possible and affirming the potential of AI.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a bullish outlook on AGI and automation, suggesting optimism about progress and potential economic benefits.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Amanda",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect Amanda's belief in the capabilities of AI to produce high-quality outputs, suggesting an optimistic outlook on the economic and practical reality of AI.",
+      "n_quotes": 1
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly indicate a stance of support, refute, or neutrality regarding the competitive dynamics and concentration of power between AI actors.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes discuss the importance of safety measures and institutional responses to AI development without clearly expressing an optimistic or supportive stance on the benefits of AI for humanity.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not clearly express a definitive optimistic or pessimistic stance on AI's potential to benefit humanity; they focus more on the process and reasoning behind decision-making rather than explicitly supporting or refuting the claim category.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "ai_optimism_benefit",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about catastrophic outcomes and the loss of control over AI, indicating a pessimistic outlook on the potential benefits of AI for humanity.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes reflect a sense of excitement and positivity about the capabilities of AI, suggesting an optimistic outlook on how AI can enhance human experiences and solve problems.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not directly address the competitive dynamics and concentration of power between AI actors, making it difficult to determine a clear stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "ai_optimism_benefit",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concerns about the implications of AI on humanity, indicating skepticism about the optimistic view that AI will solely benefit humanity.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate a positive outlook on scaling and its implications for progress, suggesting that scaling models and resources is a viable path forward.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes discuss AI development and its implications but do not clearly express a stance on the timeline for AGI.",
+      "n_quotes": 2
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a definitive stance of optimism or pessimism regarding AI's potential to benefit humanity; instead, they focus on the need for nuance and detail in the discussion.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes express a confident outlook on the progress towards AGI, indicating that the speaker believes it will eventually be achieved.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "race_and_geopolitics",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express skepticism about the causal relationship between compute and AI progress, indicating a concern about the competitive dynamics and concentration of power among AI actors.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes reflect Max Tegmark's concerns about the risks associated with AI, indicating a skeptical outlook on AI safety and risk.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "valid",
+      "reason": "The quotes indicate an optimistic view on the potential for progress in scaling models, data, and compute, suggesting that improvements are possible and that the challenges can ultimately be overcome.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "unclear",
+      "reason": "The quotes provided do not clearly express a positive or negative outlook on AI's potential to benefit humanity; they focus more on technical aspects and uncertainties.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid",
+      "reason": "The quotes reflect a nuanced discussion about the complexities and constraints in scaling AI, indicating a neutral stance without strong optimism or skepticism.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "valid",
+      "reason": "The quotes express concern about the potential dangers of AI, indicating skepticism about safety and emphasizing the need for caution, which aligns with a 'Refute' stance.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear",
+      "reason": "The quotes do not clearly express a supportive or pessimistic stance on AI optimism and human benefit; they focus more on technical aspects and observations without indicating an overall outlook.",
+      "n_quotes": 3
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "ai_safety_risk",
+      "stance": "Refute",
+      "verdict": "unclear",
+      "reason": "The quotes discuss the effectiveness of AI in relation to developers but do not clearly express a stance on AI safety or risk.",
+      "n_quotes": 1
+    }
+  ]
+}

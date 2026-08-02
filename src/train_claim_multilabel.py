@@ -33,9 +33,30 @@ from claim_taxonomy import CLAIM_IDS
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 LABELED_DIR = DATA_DIR / "labeled"
 GOLD_DIR = DATA_DIR / "gold"
+SEED = 42
+
+# Active taxonomy. `--taxonomy v2` swaps these for the collapsed 8-category
+# version (claim_taxonomy_v2.py) and projects the stored v1 labels onto it, so
+# both settings run on identical data and are directly comparable.
+CLAIM_IDS = list(CLAIM_IDS)
 C = len(CLAIM_IDS)
 ID2COL = {cid: i for i, cid in enumerate(CLAIM_IDS)}
-SEED = 42
+_COLLAPSE = None
+
+
+def use_taxonomy(version):
+    """Switch the module to taxonomy `v1` or `v2`."""
+    global CLAIM_IDS, C, ID2COL, _COLLAPSE
+    if version == "v2":
+        from claim_taxonomy_v2 import CLAIM_IDS_V2, collapse_labels
+        CLAIM_IDS = list(CLAIM_IDS_V2)
+        _COLLAPSE = collapse_labels
+    else:
+        from claim_taxonomy import CLAIM_IDS as V1
+        CLAIM_IDS = list(V1)
+        _COLLAPSE = None
+    C = len(CLAIM_IDS)
+    ID2COL = {cid: i for i, cid in enumerate(CLAIM_IDS)}
 
 
 def load_data(source="labeled"):
@@ -48,6 +69,8 @@ def load_data(source="labeled"):
             txt = (seg.get("text") or "").strip()
             if labels is None or not txt:
                 continue
+            if _COLLAPSE is not None:
+                labels = _COLLAPSE(labels)
             vec = np.zeros(C, dtype=np.float32)
             for lab in labels:
                 if lab in ID2COL:
@@ -201,7 +224,12 @@ def main():
     ap.add_argument("--cv", action="store_true", help="5-fold CV (BERT)")
     ap.add_argument("--baseline", action="store_true", help="TF-IDF OvR baseline instead of BERT")
     ap.add_argument("--source", choices=["labeled", "gold"], default="labeled")
+    ap.add_argument("--taxonomy", choices=["v1", "v2"], default="v1",
+                    help="v1 = 14 categories, v2 = collapsed 8 (claim_taxonomy_v2.py)")
     args = ap.parse_args()
+
+    use_taxonomy(args.taxonomy)
+    print(f"Taxonomy: {args.taxonomy} ({C} categories)")
 
     texts, Y = load_data(args.source)
     if len(texts) == 0:

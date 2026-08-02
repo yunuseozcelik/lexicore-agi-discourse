@@ -1,0 +1,150 @@
+[
+  {
+    "id": "agi_timeline",
+    "name": "AGI Timeline",
+    "description": "When AGI / human-level AI will arrive — whether it is near-term or far off.",
+    "keywords": [
+      "AGI",
+      "timeline",
+      "near-term",
+      "decades",
+      "imminent",
+      "soon",
+      "arrive",
+      "human-level"
+    ]
+  },
+  {
+    "id": "llm_capabilities",
+    "name": "Capabilities, Limits & What's Missing",
+    "description": "What current AI systems can and cannot do — reasoning, planning, world models, the nature of machine vs. human intelligence, and whether fundamentally new ideas are still needed.",
+    "keywords": [
+      "LLM",
+      "reasoning",
+      "planning",
+      "cannot",
+      "limitation",
+      "world model",
+      "agency",
+      "breakthrough",
+      "new architecture",
+      "paradigm",
+      "missing piece",
+      "beyond transformers",
+      "intelligence",
+      "learning",
+      "cognition",
+      "brain"
+    ]
+  },
+  {
+    "id": "scaling_and_hardware",
+    "name": "Scaling, Compute & Hardware",
+    "description": "Whether scaling models, data, and compute is the main path to progress — including the chips, GPUs, and infrastructure that make it possible.",
+    "keywords": [
+      "scaling",
+      "scale",
+      "compute",
+      "emergent",
+      "bigger models",
+      "training",
+      "data",
+      "hardware",
+      "chip",
+      "GPU",
+      "NVIDIA",
+      "infrastructure",
+      "datacenter",
+      "semiconductor"
+    ]
+  },
+  {
+    "id": "ai_safety_risk",
+    "name": "AI Safety & Risk",
+    "description": "AI risk, safety, alignment, danger, or society over/under-reacting to it.",
+    "keywords": [
+      "safety",
+      "risk",
+      "danger",
+      "alignment",
+      "control",
+      "overreact",
+      "fear",
+      "existential"
+    ]
+  },
+  {
+    "id": "ai_optimism_benefit",
+    "name": "AI Optimism & Human Benefit",
+    "description": "Optimism that AI will amplify humanity, solve problems, and improve the future.",
+    "keywords": [
+      "optimism",
+      "benefit",
+      "amplify",
+      "hope",
+      "solve problems",
+      "positive",
+      "abundance"
+    ]
+  },
+  {
+    "id": "industry_and_economics",
+    "name": "Industry, Economics & Execution",
+    "description": "The economic and practical reality of AI — markets, jobs, productivity, and the engineering work needed to actually build and ship systems.",
+    "keywords": [
+      "economy",
+      "economic",
+      "jobs",
+      "labor",
+      "market",
+      "industry",
+      "productivity",
+      "GDP",
+      "execution",
+      "engineering",
+      "practical",
+      "hard work",
+      "build",
+      "product",
+      "ship"
+    ]
+  },
+  {
+    "id": "race_and_geopolitics",
+    "name": "Race, Power & Geopolitics",
+    "description": "Competitive dynamics and concentration of power between AI actors — companies, open vs. proprietary platforms, and nations such as the US and China.",
+    "keywords": [
+      "race",
+      "competition",
+      "dominate",
+      "power",
+      "concentration",
+      "monopoly",
+      "China",
+      "US",
+      "geopolitics",
+      "national",
+      "export",
+      "chips ban",
+      "government",
+      "open source",
+      "open-source",
+      "proprietary",
+      "closed",
+      "weights"
+    ]
+  },
+  {
+    "id": "other",
+    "name": "Other / Off-topic",
+    "description": "No substantive AGI-related claim, off-topic, or small talk.",
+    "keywords": [
+      "off-topic",
+      "intro",
+      "welcome",
+      "small talk",
+      "question",
+      "filler"
+    ]
+  }
+]
