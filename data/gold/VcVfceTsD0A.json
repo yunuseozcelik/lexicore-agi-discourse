@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI optimism",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ben azınlıktayım. İnternet, radyo icat eden ve teknolojik seviyemize ulaşan tek yaşam formu olduğumuzu tahmin ediyorum. Eğer bu doğruysa, bu durumu berbat etmemek için üzerimizde büyük bir sorumluluk var demektir. Çünkü eğer bu doğruysa, yaşam oldukça nadir demektir. Ve biz, bu gelişmiş bilinç kıvılcımının koruyucularıyız; eğer bunu besler ve büyümesine yardımcı olursak, sonunda yaşam buradan evrenimizin büyük bir kısmına yayılabilir ve harika bir geleceğe sahip olabiliriz. Oysa, eğer inşa ettiğimiz teknolojiyle dikkatsiz davranır ve aptallık ya da iç çatışmalar yüzünden bunu söndürürsek, belki de evrenimizdeki kozmik tarihin geri kalanı boş sıralar için oynanacak. Ama bence uzaylılar tarafından ziyaret edilme olasılığımız oldukça yüksek."
   },
   {
     "start": 1351.2,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Human experience",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunu yapmayı bırakmalısın.\" Bunu babama gönderdim. Ne dedi biliyor musun? - [Lex] (gülerek) Ne dedi? - Dante'den bir alıntıyla yanıtladı. (Lex gülüyor) (Max İtalyanca konuşuyor) \"Kendi yolunu takip et ve insanların konuşmasına izin ver.\" (İkisi de gülüyor) Aferin baba! - [Lex] Evet. - Bu tür şeyler, biliyorsun, o öldü ama bu tutum hayatta. - Onları bir insan olarak kaybetmek seni nasıl değiştirdi? Dünyaya bakış açını nasıl genişletti? İnsanların başka bir yaşam, belki de bilinçli bir varlık yaratması hakkında konuştuğumuz bu şey hakkında düşünceni nasıl genişletti? - Bence, esasen iki şey yaptı. Onların vefatından sonra eşyalarını incelemek, neden bu şeyleri yaptığımızı kendimize sormanın ne kadar önemli olduğunu bana hatırlattı. Çünkü bazı şeylere harcadıkları muazzam zamanı görünce, geriye dönüp baktığınızda, gerçekten bu kadar zaman harcarlar mıydı diye soruyorsunuz."
   },
   {
     "start": 1420.4,
@@ -81,7 +83,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "personal reflection",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Daha anlamlı bir şey yapar mıydılar? Şimdi hayatımda daha fazla bakıyorum ve neden yaptığımı soruyorum. Ve hissediyorum ki, ya gerçekten keyif aldığım bir şey olmalı ya da insanlığa yardımcı olan, gerçekten çok anlamlı bir şey olmalı; eğer bu iki kategoriden hiçbiri değilse, belki de buna daha az zaman harcamalıyım, biliyor musun. Diğer şey ise, bu şekilde ölümle yüzleşmek, aslında beni diğer insanların bana aptal dediğinden daha az korkar hale getirdi, biliyor musun, bu sık sık oluyor ve sadece hayatımı yaşamak, kendi işimi yapmak, biliyor musun? Ve bu, benim için gerçekten önemli olan şeylere odaklanmayı biraz daha kolaylaştırdı. - Peki ya kendi ölüm korkusu?"
   },
   {
     "start": 1483.5,
@@ -107,7 +110,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Gratitude and Meaning",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu, bunun bir şey olduğunu daha gerçek kıldı mı? - Evet, bunu son derece gerçek kıldı ve biliyorsun, şimdi ailemizde sıradaki benim, değil mi? Ben ve küçük kardeşim, ama ikisi de bunu öyle bir onurla karşıladı ki, bu da gerçek bir ilham kaynağı oldu. Hiçbir şeyden şikayet etmediler ve biliyorsun, yaşlı olduğunda ve bedenin bozulmaya başladığında, şikayet edilecek daha çok şey olur, ne yapabileceklerine odaklandılar ve zamanlarını, hayal kırıklığına uğradıkları şeyler hakkında konuşmakla ya da düşünmekle boşa harcamadılar. Bence, sabahlarına şikayet listesi yaparak başlayan herkes kendini depresyona sokabilir. Oysa gününü küçük bir meditasyonla ve minnettar olduğun şeylerle başlarsan, temelde mutlu bir insan olmayı seçiyorsun. - Çünkü sınırlı sayıda günün var, bunları harcamalıyız, - [Max] Değerli kıl. - Minnettar olarak."
   },
   {
     "start": 2207.6,
@@ -136,7 +140,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunu yapay sinirbilim olarak da düşünüyorum, (Lex gülüyor) çünkü bu tam olarak - Bayılıyorum. - sinirbilimcilerin gerçek beyinlerle yaptığı şey. Ama burada avantajın, ölçüm hataları hakkında endişelenmene gerek olmaması. Her bir nöronun ne yaptığını her zaman görebiliyorsun ve tekrar eden bir şey var ki, birçok araştırmacı tarafından son zamanlarda yapılmış güzel makaleler var ve bazıları burada bile, bir şeyin nasıl yapıldığını anladıklarında, \"Aman Tanrım, bu ne kadar aptalca bir yol!\" diyebiliyorsun. Ve hemen bunun nasıl geliştirilebileceğini görebiliyorsun. Örneğin, yakın zamanda, büyük bir dil modelinin belirli gerçekleri nasıl depoladığını anladıkları güzel bir makale vardı, örneğin Eyfel Kulesi Paris'te ve bunun tam olarak nasıl depolandığını anladılar ve bunu anladıklarının kanıtı, onu düzenleyebilmeleriydi. Bazı sinapsları değiştirdiler ve sonra ona, \"Eyfel Kulesi nerede?\" diye sordular. O da, \"Roma'da.\" dedi. Sonra, \"Oraya nasıl gidebilirim? Almanya'dan oraya nasıl gidebilirim?\" diye sordular. \"Oh, bu treni alırsın, Roma Termini tren istasyonu, şunu ve bunu,\" \"Ve önünde ne görebilirsin?\" \"Oh, Kolezyum'u görebilirsin.\" Yani, onu gerçekten Roma'ya taşıdılar."
   },
   {
     "start": 2835.7,
@@ -174,7 +179,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve Çin'de kesinlikle, \"Batı yüzünden yavaşlayamayız\" deniliyor, çünkü her iki taraf da kendilerini iyi adam olarak düşünüyor. - [Lex] Evet. - Ama insan klonlamasına bak, biliyor musun? Çin insan klonlamasında ilerledi mi? Bildiğim kadarıyla sadece bir insan klonlaması yapıldı. Bu bir Çinli tarafından yapıldı. Şimdi nerede olduğunu biliyor musun? - [Lex] Nerede? - Hapiste. Ve onu oraya kim koydu? - [Lex] Kim? - Çin hükümeti. Batılılar \"Çin, bak, bu...\" dediği için değil. Hayır, Çin hükümeti onu oraya koydu çünkü kontrolü seviyorlar, Çin hükümeti. Eğer bir şey varsa, belki de kontrol kaybetme konusunda Batılı hükümetlerden daha fazla endişeliler, her şeyin nereye gittiği konusunda kontrol kaybetme teşviki yok. Ayrıca, sanırım, Baidu tarafından yakın zamanda piyasaya sürülen Ernie Bot'tan gelen büyük bir geri dönüş aldılar ve bunu büyük ölçüde geri çekmek zorunda kaldılar, biliyor musun? Bence bu temel mesaj ortaya çıktığında, bu bir silahlanma yarışı değil, herkesin kaybettiği bir intihar yarışı olduğu, eğer herhangi birinin yapay zekası kontrolden çıkarsa, bu tüm dinamiği gerçekten değiştiriyor."
   },
   {
     "start": 3039.0,
@@ -203,7 +209,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu yüzden güvenli hale getiriyoruz, insanların istediği şeyleri yaptırıyoruz ve herkesin kazandığı bir koşul yaratıyoruz. Teknoloji bize gösterdi ki, biliyorsun, jeopolitik ve genel olarak politika sıfır toplamlı bir oyun değil. - Yani, bu şeyin kontrolünü kaybetmemize yol açacak bir gelişim hızı var. Ve umudun, kontrolü kaybetmemizi engelleyecek daha düşük bir gelişim seviyesinin olması. Kontrol kaybetme düşünceniz ilginç, eğer birisi, eğer Sundar Pichai veya Sam Altman gibi birisi bu tür bir şirketin başındaysa, eğer AGI geliştirirlerse, onların da kontrolü kaybedeceklerini söylüyorsun. Yani tek bir kişi kontrolü sürdüremez, hiçbir grup kontrolü sürdüremez. - Eğer çok, çok yakında yaratılırsa ve büyük bir kara kutu olursa ve büyük dil modelleri gibi anlamıyorsak, evet. O zaman kontrolü kaybedeceklerinden oldukça eminim. Ama bu sadece benim söylemem değil, biliyorsun, Sam Altman ve Demis Hassabis de bunu söylediler, kendileri bunun büyük riskler taşıdığını kabul ediyorlar ve korkutucu hale geldiğinde yavaşlamak istiyorlar."
   },
   {
     "start": 3112.7,
@@ -232,7 +239,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama açık ki, yine Moloch onları, rahat hissettiklerinden biraz daha hızlı gitmeye zorlayarak sıkıştırıyor, sadece ticari baskılardan dolayı, değil mi? Biraz iyimser olmak gerekirse, elbette bu nihayetinde çözülebilecek bir sorun. Bu bilgelik yarışını kazanmak için, umduğumuz şeyin gerçekleşmediği açık. Yetenek ilerlemesi, birçok insanın düşündüğünden daha hızlı gitti ve kamu politikası ve benzeri alanlardaki ilerleme düşündüğümüzden daha yavaş gitti. Hatta teknik yapay zeka güvenliği de daha yavaş gitti. Teknik güvenlik araştırmalarının çoğu, büyük dil modellerinin ve diğer kötü anlaşılan sistemlerin bizi tamamen götüremeyeceği üzerine kuruluydu. Daha iyi anlayabileceğimiz bir tür zeka inşa etmeniz gerektiğini düşündüler. Belki kendini güvenli kanıtlayabilir, biliyorsun, böyle şeyler ve bunun yapılabileceğinden oldukça eminim, böylece tüm faydaları toplayabiliriz, ama bunu şu anki kontrolden çıkmış hızlı trenin AGI'ye ulaşacağı kadar hızlı yapamayız."
   },
   {
     "start": 3316.3,
@@ -261,7 +269,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI impact on society",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Evet, ona kanseri nasıl iyileştireceği hakkında bilmesi gereken her şeyi öğretebilirsin. Ama Daniel Kahneman'ın bilişsel önyargılar hakkında kitabını okumasına izin verme. Ve sonra, aman, \"LOL, biliyorsun, sosyal medya öneri algoritmaları icat edelim ki tam olarak bunu yapsınlar.\" Bizi tanıma ve düğmelerimize basma konusunda o kadar iyi hale geliyorlar ki, şimdi daha fazla nefret yaratan bir dünya yaratmaya başlıyoruz, çünkü bu algoritmaların, kötü niyetle değil, sadece reklamdan para kazanmak için, daha fazla etkileşim elde etmenin en iyi yolunun insanları kızdırmak olduğunu keşfettik. - Bu gerçekten ilginç ki, sosyal medyada öneri sistemi gibi bir görevi yerine getiren büyük bir yapay zeka sistemi, temelde insanları inceliyor çünkü sürekli sinyal veren bir grup fareyiz. Bir şeyi gösteriyor ve sonra biz sinyal veriyoruz ve o şeyi yaymamız, o şeyi beğenmemiz, o şeyin etkileşimimizi artırması, platforma geri dönmemizi sağlaması ve bunu yüz milyonlarca insan ölçeğinde sürekli yapması var."
   },
   {
     "start": 3944.8,
@@ -290,7 +299,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI implications",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu, Elon Musk'ın yakın zamanda neden herkesin Twitter için 7 dolar veya neyse ödemesi gerektiğine dair bir tweet attığı şeylerden biri, - [Max] Gerçek olduklarından emin olmak için. - Gerçek olduklarından emin olmak için, artık botların daha akıllı hale geldiği ve insanlarla botlar arasında farkı ayırt edemeyeceğimiz bir dünyada yaşıyoruz. - [Max] Doğru. - Ve şimdi botlar, insanlardan 1 milyona 1 oranında daha fazla olabilir. Bu yüzden, insan olduğunuzu kanıtlamak için ödemeniz gerektiğini savunuyor. Bu, kanıtlamak için tek mekanizmalardan biri ki bu da üzücü. - Evet, bireyler olarak, ne yaptığımızı neden yaptığımızı kendimize zaman zaman sormamız gerektiğini hatırlamalıyız, değil mi? Ve bir tür olarak, bunu da yapmalıyız. Yani, eğer inşa ediyorsak, dediğin gibi, bizi sayıca aşan makineler ve giderek daha fazla akıllanan ve iş gücünde yerimizi alan makineler, sadece tehlikeli ve sıkıcı görevler için değil, aynı zamanda şiir yazmak ve sanat yapmak gibi birçok insanın gerçekten anlamlı bulduğu şeyler için, kendimize sormalıyız, neden?"
   },
   {
     "start": 4082.6,
@@ -319,7 +329,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu tam olarak bir zeka patlamasının başlangıcı. İlk aşamalarda insanların süreçte çokça yer alması mümkün, ve sonunda insanlar giderek daha az gerekli hale geliyor ve makineler daha bağımsız bir şekilde hareket edebiliyor. Ama senin burada söylediklerin, bu tür şeylerin tam bir örneği. Diğer bir şey ise, ben psikiyatristimle yatarak hayal kurarken, burada bir psikiyatristin kanepesinde oturmuşum gibi düşünüyorum, \"AI sistemleriyle insanların ne yapabileceğinden korkuyorum?\" diye kendime soruyorum. Yıllar önce korktuğum üç şeyden bahsettim, yani kod yazmayı öğretmek, internetle bağlamak ve insanları manipüle etmeyi öğretmek. Dördüncüsü ise bir API oluşturmak, (Lex gülüyor) burada kodun bu süper güçlü şeyi kontrol edebilmesi, değil mi? Bu çok talihsiz çünkü GPT-4 gibi sistemlerin avantajlarından biri, sadece soruları yanıtlayan bir oracle olmaları. GPT-4'e bağlı bir robot yok."
   },
   {
     "start": 5654.4,
@@ -357,7 +368,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Biliyorsun, eğer beş kat daha hızlı kod yazabiliyorsan, o zaman beş kat daha az programcıya ihtiyacın var demektir, belki daha fazla çıktı da elde edilecektir, ama yine de bugünküden daha az programcıya ihtiyaç duyacaksın. Ve ben kod yazmayı seviyorum, biliyorsun, bence bu süper havalı. O yüzden durup kendimize tekrar sormalıyız, neden bunu yapıyoruz insan olarak, değil mi? AI'nın insanlık tarafından, insanlık için inşa edilmesi gerektiğini düşünüyorum ve bunu unutmamalıyız. Moloch için değil, ya da şu anda olduğu gibi insanlık için Moloch için olmamalı, bu mantıksız. Bunu bizim için yapıyoruz. Ve bu teknolojiyi nasıl inşa edeceğimizi, geliştireceğimizi, aşamalı ve güvenli bir şekilde bulursak, insanların gerçekten istemediği işlerin neler olduğunu düşünmemiz çok daha mantıklı olur, biliyorsun, hepsini otomatikleştirelim. Ve sonra insanların gerçekten anlam bulduğu işler neler, belki çocuklara bakmak, belki sanat yapmak, vb. gibi."
   },
   {
     "start": 6289.2,
@@ -386,7 +398,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "AI'nın bize şeylerin çalıştığını kanıtlamada yardımcı olabileceğini unuttuk, değil mi? - [Lex] Evet. - Matematikte, bir kanıt bulmanın, o kanıtın doğru olduğunu doğrulamaktan çok daha zor olduğu çok temel bir gerçek var. Aslında kısa bir kanıt kontrol kodu yazabilirsin, oldukça kısa, ama bir insan olarak anlayabilirsin ve ardından bilgisayarın tarafından üretilen en uzun kanıtı kontrol edebilir ve \"Evet, bu geçerli.\" diyebilir. Şu anda, virüs kontrol yazılımıyla bu yaklaşım var, bir şey olup olmadığını kontrol ediyor ve ona güvenmemeniz gerektiğini kanıtlayabiliyorsa, sizi uyarıyor, değil mi? Peki ya bunu tersine çevirirsek, bu fikir için Steve Omohundro'ya kredi vermeliyim, o zaman yalnızca kodu çalıştıracak, eğer güvenilir olduğunu kanıtlayabiliyorsa, güvenilir olmadığını kanıtlayabiliyorsa çalıştırmayacak."
   },
   {
     "start": 6497.2,
@@ -415,7 +428,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu tam olarak AI'ya devretmek için mükemmel olan çok sıkıcı ve zahmetli bir görev. Ve bu, daha az güçlü ve daha az zeki olan bizlerin, daha güçlü olanları kontrol etmeye ve onlara güvenmeye devam edebileceği bir yol. - Yani, diğer AGI sistemlerine karşı savunmamıza yardımcı olan AGI sistemleri inşa et. - Öncelikle, sahip olduğun veya sana sadık olması gereken sistemin, her zaman senin gerçekten istediğin şeyleri yapacağını kendisine kanıtlaması gerektiği basit bir sorunla başla, değil mi? Ve bunu kanıtlayamazsa, belki yine de yapacak ama sen onu çalıştırmayacaksın. Yani AI'nın yapabileceği tüm harika şeylerin bazı yönlerini kaybetmiş oluyorsun. Bahse girerim, hala senin için inanılmaz havalı şeyler yapabilir. - [Lex] Evet. - Ayrıca, göz ardı etmememiz gereken başka şeyler de var. Her insanın insanlıkla ilgili tam olarak hangi yönde gitmemiz gerektiği konusunda hemfikir olmadığını unutmamalıyız, değil mi? - Evet. - Podcast'inde bu konuda çok şey konuştun, ama bence bu, dünyadaki herkesin neredeyse hemfikir olduğu birçok şeyin olduğunu göz ardı etmemeliyiz."
   },
   {
     "start": 6565.9,
@@ -444,7 +458,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani, \"Hey, biliyorsun, yakın gelecekte gezegende insan olmaması, hayır, bunu yapmayalım\" değil mi? Birleşmiş Milletler Sürdürülebilir Kalkınma Hedefleri gibi bir şeye baktın. Bazıları oldukça iddialıydı ve esasen tüm ülkeler, ABD, Çin, Rusya, Ukrayna, hepsi hemfikir. Yani, hemfikir olmadığımız küçük şeyler üzerinde tartışmak yerine, hemfikir olduğumuz şeylerle başlayalım ve bunları gerçekleştirelim. Hemfikir olmadığımız tüm bu şeylerle o kadar dikkatimizin dağılmasına neden olmayalım ki Moloch kazansın çünkü açıkçası, Moloch şimdi kontrolden çıkmış durumda, bu, gözlerimizin önünde hayatla bir savaş gibi görünüyor, eğer uzaydan bakarsan, biliyorsun, bu gezegendeyiz, güzel, canlı bir ekosistem, şimdi bunun büyük kısımlarını kesmeye başlıyoruz, oysa kimse, çoğu insan bunun kötü bir fikir olduğunu düşündü. Oh, okyanus asidifikasyonuna başlıyoruz, her türlü türü yok ediyoruz, oh, şimdi tüm bu yakın tehlikeler var, nükleer bir savaşın eşiğindeydik ve biyosferin daha fazla kısmını cansız şeylerle değiştiriyoruz."
   },
   {
     "start": 6709.1,
@@ -473,7 +488,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve sonra, cansız şeylere daha fazla güç veriyoruz. Bu büyük şirketler canlı varlıklar değil, değil mi? Sadece karı maksimize ediyorlar. Hayat savaşını kazanmak istiyorum. Bence biz insanlar, bu gezegendeki tüm diğer canlı varlıklarla birlikte, cansız şeyler üzerinde kontrolü elinde tutabilirsek daha iyi durumda olacağız ve onların bizim için çalışmasını sağlayabiliriz. Bunun yapılabileceğine gerçekten inanıyorum. - Belki Eliezer Yudkowsky ile bu yüksek düzeyde felsefi anlaşmazlık üzerinde biraz durabilir misin, umarım ifade ediyorsundur. O, AI'nın insanları öldüreceğinden çok emin, çok yüksek bir olasılık koyuyor, gününe bağlı olarak bunu bir olarak koyuyor, AI'nın insanları öldüreceğini düşünüyor. O, bunun sonuçlanmadığı bir yol görmüyor. Senin gördüğün, oraya varmayacak bir yol nedir?"
   },
   {
     "start": 6976.9,
@@ -502,7 +518,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "O zaman ikinci bir AI turu yapıyoruz, bilgiyi çıkarmak için otomatik sistemler kullanıyoruz ve ne olduğunu, hangi içgörülere sahip olduğunu görüyoruz, tamam mı? Ve sonra o bilgiyi tamamen farklı bir mimariye, programlama diline veya neyse, hem gerçekten verimli olabilecek hem de çok resmi doğrulamaya daha uygun bir şekilde yerleştiriyoruz. Bu benim vizyonum. Burada oturup, bunun işe yarayacağından %100 eminim demiyorum, biliyorsun. Ama bunun bir şansı olduğunu düşünmüyorum, kesinlikle sıfır değil ve şu anda kullanmadığımız birçok gerçekten havalı AI uygulaması için kesinlikle mümkün olacaktır. Yani, bunu yaparsak, heyecanlandığımız birçok eğlenceli şey elde edebiliriz. Biraz zamana ihtiyacımız olacak. Ve bu yüzden durup gereksinimleri yerine koymak iyi. Bir şey daha, biliyorsun, biri düşünebilir, \"Hayır, hayatta kalma şansımız %0, hadi pes edelim,\" değil mi?"
   },
   {
     "start": 8152.6,
@@ -537,7 +554,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI impact on education",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Biliyorsun, ilginç olan, MIT, bu bilgisayar bilimi ama genel olarak, ama bilgisayar bilimi müfredatını bile alalım. Bilgisayar bilimi müfredatı şimdi nasıl değişiyor? Programlamadan bahsettin. - [Max] Evet. - Benim zamanımda, programlama prestijli bir pozisyondu. Neden mükemmel bir programcı olmak için deli gibi zaman harcıyorsun? Programlamanın doğası temelde değişiyor. - Tüm eğitim sistemimizin doğası tamamen tersine döndü. - Bunu yükleyip düşünen biri oldu mu, çünkü gerçekten dönüyor, - Yani bazı İngilizce profesörleri, bazı İngilizce öğretmenleri şimdi gerçekten panik yapmaya başlıyor. Değil mi? Bir deneme ödevi veriyorlar ve geri gelen tüm bu harika yazıları görüyorlar, bu Hemingway tarzı ve sonra bunun tamamen yeniden düşünülmesi gerektiğini anlıyorlar ve hatta, biliyorsun, senaryoyu yazmayı öğretmeyi bıraktığımız gibi, İngilizce'de bunu mı söylüyorsun?"
   },
   {
     "start": 9858.5,
@@ -566,7 +584,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Consciousness and AGI",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Evet, bu benim için mutlu bir düşünce çünkü zombi kıyameti gerçekten en kötü kâbusum. Sadece yerimizi almakla kalmayıp, kendimizi zombilerle değiştirmek, ne kadar aptal olabiliriz? - Bu gerçekten güzel bir vizyon ve aslında kanıtlanabilir bir vizyon. Bu, insanların sezgisel olarak bu iki şeyin ilişkili olduğunu kanıtlayabileceği bir şey, zeki olmanın ne anlama geldiğini ve bilinçli olmanın ne anlama geldiğini anlamaya başladıkça, bu sistemler, erken AGI benzeri sistemler bize bunu anlamamızda yardımcı olacak. Ve bir şey daha söylemek istiyorum, bu çok önemli. Çoğu meslektaşım, bilinçten bahsetmeye başladığımda, bunun tamamen saçmalık olduğunu ve bu konuda konuşmayı bırakmam gerektiğini söylüyor. İçimdeki bir ses, babamdan ve annemden, \"Devam et, bu konuda konuş,\" diyor çünkü onların yanlış olduğunu düşünüyorum. Ve bu tür insanları, bilinç ile zekanın eşit olduğunu söylediklerinde, yanlış olduklarını ikna etmenin ana yolu, onlara işkencenin neden yanlış olduğunu sormak veya işkenceye neden karşı olduğunuzu sormaktır."
   },
   {
     "start": 10059.0,
@@ -592,6 +611,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve doğru yöne dönelim. - Max Tegmark ile bu konuşmayı dinlediğiniz için teşekkürler. Bu podcast'i desteklemek için lütfen açıklamadaki sponsorlarımıza göz atın. Ve şimdi sizi Frank Herbert'tan bazı sözlerle baş başa bırakayım. \"Tarih, icat ile felaket arasında sürekli bir yarıştır.\" Dinlediğiniz için teşekkür ederim ve umarım bir sonraki sefer görüşürüz."
   }
 ]

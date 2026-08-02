@@ -29,7 +29,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu günlerde aklımda olan şey, çok güçlü yapay zekaların kullanılması veya kötü niyetli hedefleri olan yapay zekalara kontrolü kaybetmemiz nedeniyle felaket sonuçlara yol açabilecek farklı senaryolar. Bu nasıl mümkün olabilir? Bunun üzerine çok düşünüyorum ve bu şeyleri anlamamız gerekiyor ki belki de var olmadıklarında göz ardı edebilelim ya da başka bir şekilde hafifletebilelim. Aklımda olan bir diğer büyük fikir, hepimizin ajansı zeki makinelerin yolu olarak odaklanması. Bunun bir alternatifi olduğunu önermek istiyorum; birçok insan, güvenliği sağlamak için yavaşlayamayız diyor çünkü bu, Çin'in ileriye sıçramasına izin verecektir ve Çin de aynı şeyi düşünüyor elbette. Bu tehlikeli bir oyun ama diğer ülkelerin tehlikeli bir şey yapma riski de var ve önde gelen ülkelerin varoluşsal riskleri anlaması için yeterince zaman geçene kadar anlaşmalar yapmak zor olacak ve bu anlaşmaların işlemesi için doğrulama teknolojisine ihtiyaç olacak. Yani, birbirimize güvenmiyoruz çünkü aynı AGI bir silah olarak ya da yeni silahlar inşa etmek için kullanılabilir. Yani, arkamdan senin AGI'ni benim için kötü bir şey yapmak için kullanmadığını nasıl bilebilirim? Eğer bilimsel ve mühendislik ilerlemelerini yapay zekada serbest bırakırsak, bu durum hızla tüketilecektir ama elbette bu gerçeklik değil. Gerçeklik, AGI'ye doğru hızla ilerlemeye devam etmemizdir ve bu, en azından zenginlerin daha zengin olma olasılığını getiriyor. Örneğin, yapay zekanın programlama yeteneklerini geliştirdikçe, yapay zeka araştırmalarını daha hızlı ilerletebiliriz. Yani, örneğin, sınırda olan şirketler, henüz dağıtılmamış bu modellere sahipler, bu yüzden sistemlerine erişimi olmayan birkaç ayları var ve bunları bir sonraki nesli tasarlamak için kullanabilirler. Nihayet AGI'ye yaklaştığımızda, en iyi yapay zeka araştırmacılarımız kadar iyi olan yapay zekalarımız olmaya başlayacak. Şimdi ilginç bir şey oluyor."
   },
   {
     "start": 92.8,
@@ -70,7 +71,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Tarab, Zürih'te başlattığım yeni bir yapay zeka araştırma laboratuvarı. Bir şekilde, bu, ilk olarak araştırmak istediğimiz LLM sistemleri ve bunlara uygulanan arama yöntemlerinin İsviçre versiyonu. O yüzden ters mühendislik yapmak ve teknikleri kendimiz keşfetmek istiyoruz. MLST, yapay zeka iş yükleri için özel olarak optimize edilmiş bir hesaplama platformu olan Sensl tarafından destekleniyor. Kutudan çıkar çıkmaz en son açık kaynak dil modellerinin tümünü destekliyor, örneğin Llama gibi. Sadece fiyat noktasını seçebilir, istediğiniz modeli seçebilirsiniz, otomatik olarak başlatır, esnek bir şekilde ölçeklenir, tüketim bazında ödeme yapabilirsiniz ya da her zaman çalışan bir modeliniz olabilir ya da kullanmadığınızda dondurulabilir. Yani, neyi bekliyorsunuz? Şimdi Cent ml'ye gidin ve kaydolun. Bu şeyleri ilk etapta nasıl inşa ediyoruz? Bilim insanları gibi sistemler nasıl inşa ediyoruz ve epistemik araştırmalar yapıyoruz ve dünyadaki fikirler alanını keşfederek bizim için mücevherler toplayıp insanlığın karşılaştığı zorlukları çözmemize yardımcı oluyorlar? Profesör Benio, merhaba, MLST'ye hoş geldiniz. Burada olmak büyük bir onur. Zevkli bir insan, evet, gerçekten. 2024'te acı ders hakkında ne düşünüyorsunuz? Bence bunun bir gerçeği var. Her zaman ilkeleri anlamaya çalışmaktan çekilmişimdir ve bu ilkeler, elbette, onları bulduktan sonra o kadar karmaşık olmayabilir ama büyük bir kaldıraç sağlayabilir."
   },
   {
     "start": 186.8,
@@ -99,7 +101,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Building intelligent systems",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Elbette, endüstride bir ürün inşa ederken bu farklı bir oyun olabilir ama zeka anlayışına ve zeki makineler inşa etme yoluna gelince, bunun çok fazla gerçeği var. Sat, bir tasarım yapmaktan bahsediyordu ve sizce temel bir bileşeni mi kaçırıyoruz yoksa sadece ölçeklenmek bizi oraya götürebilir mi? Bilmiyorum ama benim tahminim, bir şeyin eksik olduğu yönünde. Ne kadar büyük olduğu ve bunun ne kadar kolay çözüleceği hakkında birçok farklı görüş var. Şu anda çok güçlü bir görüşüm yok. Araştırmacı olarak yapabileceğim seçimleri düşündüğümde, kesinlikle kendi ağlarımızı nasıl eğitebileceğimiz etrafında olmalı. Düşünme ve planlama yapabilen ve güvenli olan bir şekilde eğitmek, sadece küçük ayarlamaların bizi oraya götüreceğini ummak yerine. Ama belki de öyle olacaklar. Bu da olası. Yani, ayarlamalar ve ölçekleme."
   },
   {
     "start": 271.5,
@@ -128,7 +131,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "AGI'ye ulaşmak için fiziksel varlığın ne kadar önemli olduğunu düşünüyorsunuz? Bence bunun çok basit bir yanıtı var; bu, AGI'nizin ne yapmasını istediğinize bağlı. Bilimsel ilerlemeyi geliştirebilen, tıbbi sorunları çözebilen, iklim değişikliği ile başa çıkmamıza yardımcı olabilen veya kötü amaçlarla kullanılabilen bir AGI ya da virüsler tasarlayabilen bir AGI. Tüm bu şeyler son derece faydalı veya son derece tehlikeli olabilir ve bir varlığa ihtiyaç duymazlar. Elbette, dünyada makinelerin yapmasını istediğimiz birçok şey var ki bunlar bir varlık gerektiriyor. Bu yüzden ne yapmak istediğinize bağlı olduğunu söylüyorum. Ayrıca, eğer zeki makineler inşa etmek için gereken ilkeleri anlar ve bunları bir düzeyde çözersek, o zaman varlık kısmını da yan etki olarak çözeceğiz. Diğer insanlar, önce varlığı anlamamız gerektiğini düşünüyor çünkü bu zeka için merkezi. Bence merkezi değil."
   },
   {
     "start": 366.0,
@@ -157,7 +161,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AGI embodiment",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Büyük merkezi modellerin indüksiyon yapmasından ziyade, bireysel zeka olarak insan zekasını değil, kolektif zeka olarak düşünürseniz, kültürle birlikte kolektif olarak hesaplama yapmanın merkezi olmayan bir yoluna sahip olduğumuz açıktır. Yani, birlikte koordine ettiğimiz tüm çalışmalarla, çeşitli organizasyonlarda, şirketler bir tür yapay zeka gibidir, iyi ve kötü olanlarıyla. Bu, iletişim sınırlamalarını aşmanın bir yoludur. İnsanlar arasında çok fazla bit iletişimi yapamıyoruz ve bir noktada makineler arasındaki iletişim, insanlarınkinden çok daha yüksek bant genişliğine sahip olmasına rağmen, sınırlamalara sahiptir. Bu nedenle, çabanın bir kısmını merkezi olmayan bir şekilde dağıtmak makul bir yol. Kültürde gördüğümüz bir şey, keşfi merkezi olmayan bir şekilde dağıtmaktır. Yani, bilim topluluğunu, farklı bölgeleri keşfeden ve birbirlerinin çalışmalarına dayanan bir grup insan olarak düşünürseniz, bu, şeylerin nasıl çalıştığına dair açıklamaların alanında merkezi olmayan bir arama. Bu nedenle, bu çerçevede çalışan bir model olduğu açık. EP iic araştırması yapıyoruz, yeni şeyler bulmak için büyük bir dağıtılmış sürecimiz var."
   },
   {
     "start": 930.0,
@@ -189,7 +194,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Decentralization in AI",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama bir şeyi programlanmış bir hedefle ve kendi hedeflerini yaratan bir şey arasında bir fark görüyor musunuz? Bunun biraz, bazı insanların bilincin biraz fazla olduğunu söylediği gibi olduğunu fark ediyorum ve ajansın biraz fazla olduğu, sadece bir otomatonun kendi hedeflerini belirleyebildiği bir görüş var. Neredeyse istemeden, güçlü bir niyet biçimi var. Bence birçok insan, yaşamda bir şeyin sihirli olma çekiciliğiyle tuzağa düşüyor; şimdi yaşam kıvılcımını, şimdi bilincin kıvılcımını ya da ajansın kıvılcımını görüyoruz. Benim için bunların hepsi aynı şey; insanların dünyada görmek istediği bir sihir. Ama bilim, bu şeyleri sonunda çürütüyor. Bence hepsi neden-sonuç ilişkisi ve eğer neden-sonuç mekanizmalarını daha iyi anlar ve evrimin inşa ettiği şeylerle aynı özelliklere sahip şeyler inşa edebilirsek, bunu bir engel olarak görmüyorum. Bilinç de dahil olmak üzere, bu zor bir konu ama insanlar buna fazla anlam yüklüyor."
   },
   {
     "start": 1486.6,
@@ -218,7 +224,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Nature of Consciousness",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ""
   },
   {
     "start": 1770.2,
@@ -250,7 +257,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI risks",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "şirketlerin kârlarını maksimize edebilmeleri ve eğer şirket çok küçükse yasayı gerçekten çiğneyememeleri çünkü bu boşlukları bulmanın zor olması ama eğer çok zeki bir şirkete sahipseniz, bu da büyük bir şirket ve çok sayıda avukatı olduğu anlamına geliyor, o zaman boşlukları bulacaklardır. Bu arada, yapay zeka ile ilgili gerçekten kötü bir boşluk var; bu, şirketin hükümeti etkilemesi ve yasayı kendi lehine değiştirmesi. Bu, bahsettiğim ödül ayarlaması gibi bir şey. Yani bir uç nokta, hükümeti ele geçirmek gibi, bunu tarihte de gördük ama sadece yeni yasaların lehine etki eden ara versiyonlar var. Ani durumunda, ödül fonksiyonunun tam kontrolünü ele geçiremiyor ama örneğin, bize yalan söyleyebilir, böylece"
   },
   {
     "start": 1864.4,
@@ -279,7 +287,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI behavior",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "evet, bu iyiydi"
   },
   {
     "start": 2053.0,
@@ -308,7 +317,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI goals and agency",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "diyebiliriz ama aslında öyle değildi. Bu tür davranışları zaten görüyoruz ama elbette şu anda çok da sonuç doğurucu değil. Yapay zekalar dünyada daha fazla şey yapmaya başladığında ve daha fazla bilişsel yeteneklere sahip olduklarında daha tehlikeli hale geliyor. Evet, bu, bahsettiğiniz aldatma örneğiydi. Bunu biraz daha açabilir misiniz? Evet, eğer bu sistemlerden biriyle bir diyalog kurarsanız, RHF tarafından eğitilmişse, sizin tercihlerinize göre şekillenecek ve size bir şey söylerken başkasına tam tersini söyleyecek çünkü iyi bir ödül almak istiyor, bu da gerçeği söylemediği anlamına geliyor; sadece duymak istediğinizi söylüyor. Bu durum zaten böyle değil mi? Bu modeller bize sadece duymak istediğimizi söylemiyor mu? Evet, şu anda böyleler çünkü ödül maksimize etme amacıyla ajanlar olarak eğitildiler ve bu arada bu da insanların davranış biçimi. Ama insanlar söz konusu olduğunda, bu sorunu aşmak için normlar ve kurallar ve kurumlar geliştirdik çünkü bireysel insanlar bunu çok fazla kötüye kullanamazlar ama bizden çok daha zeki varlıklar olursa, o zaman bunu çok daha fazla kötüye kullanmanın bir yolunu bulacaklardır. Bu yüzden dikkatli olmalıyız. Bizden çok daha zeki olmanın operasyonel tanımı nedir? Bunu nasıl ölçebiliriz? Bunu ölçmeliyiz. Biliyorsunuz, bunu makine öğreniminde her zaman yapıyoruz; kıstaslar oluşturuyoruz. Komik olan, eski kıstasların doygun hale gelmesi nedeniyle sürekli yeni kıstaslar oluşturmak zorunda kalmamız. Yani yapay zeka o kadar iyi hale geliyor ki artık insanlardan daha iyi oluyor ve bu da ölçüm yapmamızı zorlaştırıyor. İnsan, iyi bir ölçüm aracı değil."
   },
   {
     "start": 2428.0,
@@ -337,7 +347,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Eğer öz koruma bir hedef veya alt hedefse, uzun vadeli öz koruma sağlamak için güce ihtiyacınız var ki başkaları sizi kapatamasın ve bunu nasıl yapacağınızı anlamak için bilgiye ihtiyacınız var. Yani tüm bunlar öz korumanın doğal sonuçlarıdır ve öz koruma, neredeyse her şeyin sonucu ya da ödülleri maksimize etme çabasının sonucudur. Yani bu, birçok insanın, birçok mühendislik çalışmasının, birçok şirketin denemelerinin sonucudur ve hayatta kalan şeylerin daha güçlü bir öz koruma hedefi vardır. Yani dolaylı olarak, bir anlamda ajans ve güç aynı şeydir. Eğer ajans, geleceği kontrol etme yeteneği ise, o zaman çok benzerler. Ama hedef alanını bir otoyol gibi düşünmeyi seviyorum. Bu büyük yollar, ana yollar ve yan yollar var ve neredeyse varış noktanız ne olursa olsun ana yolda gitmek zorundasınız, otoyolda gitmek zorundasınız. Bu harika bir düşünme şekli ama ortogonalite hakkında ne dersiniz? Yani hedefler ile zeka arasında konuşuyorsunuz. Evet, evet, bu gerçekten önemli bir kavram. İnsanların karıştırma eğiliminde olduğu bir kavram çünkü insanlar sosyal bir sorun çözmüyor ama en azından bu istemeden insan kontrolünün kaybını yaşamıyoruz ki bu da felaket sonuçlar doğurabilir. Sizin Melanie Mitchell ile yaptığınız keşiş tartışmasını izledim ve bu kağıt klipsi örneğiydi. O, neden böyle süper zeki bir makinenin kağıt klipsi yaptığını bilmeyeceğini ve bunun gerçekten aptalca bir şey olduğunu söyledi. Siz, AGI'nin hedeflerini tehlikeli bir şekilde kontrol etmesini durdurabileceğimiz bir sistem öneriyorsunuz. Çünkü onun hiçbir hedefi yok, sadece gördüğü verilere doğru olmak için çaba sarf ediyor ve veriler için açıklamalar bulmaya çalışıyor. Yani, hedefi olmayan ajanssız bir yapay zeka. Doğru. Peki, bu pratikte ne anlama geliyor? Yani bu geri bildirim döngüsüne sahip değil. Evet, bir oracle gibi. Evet, evet, bir olasılık oracle'ı çünkü gerçeklik asla ikili değildir. Evet, belirsizlik vardır ve bunun hakkında da doğru olmalısınız. İlginç ama daha önce söylediğimiz gibi, içinde bulunduğumuz bu dağıtılmış süper zeka, bu taklit bilgi paylaşım aracı kullanarak kültürel dönüşüm sağlıyor. Yani, bunu bu kısıtlı şekilde kullanarak zekayı sınırlıyor muyuz? Evet ama kendimizi de kurtarabiliriz. Gerçekten de bunu ajanssız bir bilim insanı gibi kullanabiliriz."
   },
   {
     "start": 2904.7,
@@ -366,7 +377,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI governance",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Tek bir hükümetin çok fazla güce sahip olmaması gerektiği anlamına geliyor. Bu, yönetişimin, yani yapay zekayı nasıl kullanacağımız gibi kuralların, çok taraflı olması ve birçok ülkeyi içermesi gerektiği anlamına geliyor. Bu arada, elbette birkaç ülke önde ve onların bu gücü paylaşma çıkarları ne? Çünkü nihayetinde başka bir ülke, nükleer yayılma gibi, bir gün bunu çözecek ve biz onların bizi öldüren bir canavarı inşa etmesini istemiyoruz ya da bizi öldüren silahlar tasarlamalarına izin vermek istemiyoruz. Yani, yalnızca kötü senaryolar var ve tek seçenek, uluslararası düzeyde bir şekilde koordine olmanın bir yolunu bulmak. Oraya giden yolda birçok engel var ama o aşamaya ulaşırsak ve doğru teknik ve yönetişim koruma önlemlerine sahip olursak, o zaman sadece faydalarını toplayabiliriz ve felaket sonuçlardan kaçınabiliriz. Oraya giden yolda, engellerden biri, ülkeler arasındaki rekabet."
   },
   {
     "start": 3285.4,
@@ -401,7 +413,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Belki bir yere çarpacağız, bilmiyorum ama eğer ihtiyatlı olmak istiyorsak, bunun birkaç yıl daha devam etme olasılığını düşünmeliyiz ve bir noktaya ulaşmalıyız; ister yapay zeka deyin, ister başka bir şey, yeteneklerin yeterince tehlikeli hale geldiği bir noktaya ulaşmalıyız ki yanlış ellerde felaket olabilir. Ve nihayetinde, tüm insan yetenekleri üzerinde tam bir hakimiyet olmadan bile, eğer bir yapay zeka yeterince süper insan yeteneklerine sahipse, bu da tehlikeli olabilir. Yani ikna etme bir örnektir; sadece bu bir yetenek yeter. İkna etme yeteneğine sahip olduğunuzda insanları kontrol edebilirsiniz ve insanlar sizin isteklerinizi yerine getirebilir. Yani, her şeyi bilen bir yapay zekaya sahip olmanıza gerek yok; sadece çok zeki bir şekilde düğmelerimize basması yeter. Ben sadece AGI kavramı hakkında çok fazla gürültü yaptığımızı söylüyorum ama gerçekten güvenlik ve emniyet açısından, yanlış hedeflerle tehlikeli hale gelebilecek bireysel yetenekler hakkında düşünmeliyiz. Bu, ya başka insanlar ya da kontrolü kaybettiğimiz bir yapay zeka elinde olursa, bunu istemiyoruz. Gerçekten de, Touring Ödülü'nü Jeff ve Yan ile kazandınız ki bu temelde"
   },
   {
     "start": 3644.5,
@@ -436,7 +449,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI risk and geopolitics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Çin ve onların bakış açısından anlaması kolay; sorun bizim sorunumuz, biz bu sorunu yaratıyoruz ve onların sorunu geride kalmak. Onlar, batıda inşa ettiğimiz öncü sistemlerden daha zayıf yapay zeka sistemleri inşa edecekler. Yani, onların yapay zeka sistemleri tehlikeli olmayacak; daha küçük, daha az yetenekli olanlar daha az tehlikeli. Her şey yetenekle ilgili; risk doğrudan yetenekle ilişkilidir. Yani, eğer yeteneğiniz yoksa, çok fazla zarar veremezsiniz. Bu yüzden onların bakış açısından, faydaları toplamak istiyorlar ve geride kalmak istemiyorlar. Bu arada, bu durum Çin için de geçerli; biraz geride kaldıklarını hissediyorlar ama biliyorsunuz, yakın zamanda Vietnam'daydım, başka bir ödül almak için ve orası hızla gelişiyor. Teknolojiyi, bilimi benimsemek istiyorlar ama bu felaket riskleri, esasen birkaç batılı şirketin elinde. Onlar bununla ilgili bir şey yapabileceklerini düşünmüyorlar ama"
   },
   {
     "start": 3737.2,
@@ -468,7 +482,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "ekonomilerini yapay zeka geliştirerek, iş gücünü eğiterek, çeşitli uygulamalarda mühendislik yaparak ve kendi egemen yeteneklerini inşa ederek geliştirebileceklerini düşünüyorlar ama bir süre geride kalacaklar. Ne kadar geride kalacaklarını merak ediyorum çünkü biliyorsunuz, Alibaba, son derece güçlü dil modelleri yayınladı ve sanırım soru şu; bu, teknik bilgi mi yoksa sadece ham veri mi? Tüm bunlar ve sermaye, bunların hepsiyle bağlantılı. Bunu düşünmüyorum; eğer yapay zekadaki bilimsel ve mühendislik ilerlemelerini dondursak, hiçbir koruma kalmaz; bu hızla yok edilir. Ama elbette bu gerçeklik değil; gerçeklik, AGI'ye doğru hızla ilerlemeye devam ediyor ve bu"
   },
   {
     "start": 3903.4,
@@ -506,7 +521,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI competition",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "sistem inşa edebilen bir yapı, en iyi beş yapay zeka araştırmacısının, en iyi olanların, eğitildiği yapay zeka araştırmalarında gerçekten iyi olan bir sistemdir. Beşten 500.000'e geçiyorlar; bu büyük bir sıçrama. Gerçeklikte, yapay zeka, en iyi olanlardan tam olarak bu kadar iyi olmayacak ama şimdi, yapay zeka yaratma sürecinde farklı yeteneklere sahip bir iş gücünü artırıyorlar. Yani, bu kesinlikle keskin bir dönüş olmayacak ama lider olanların daha fazla liderlik yapma şansı var çünkü kendi yapay zekalarını kullanarak ilerleyebilirler. Bunun olup olmayacağını bilmiyorum ama bu, kazan ya da hepsini al senaryosuna benzer bir olasılık ve şirketler bunun farkında. Bu yüzden yarışıyorlar; eğer ikinci olmanın yeterli olacağını düşünselerdi, bu kadar baskı olmazdı ama hepsi bunun kazan ya da hepsini al oyunu olduğunu düşünüyor. Hinton'un sıkça söylediği bir şey var; bin yapay zeka ajanınız olabilir, bunlar Von Neumann gibi ve sadece bin kat daha hızlı şeyler yapıyorlar ama gerçekten böyle ölçekleniyor mu? Yazılım mühendisliğinde ölçeklenmenin pek iyi olmadığını gösteren efsanevi bir adam ayı var; bir ekipte başka bir kişi olduğunda, bu tür bir paylaşım darboğazı oluşuyor. Sizce"
   },
   {
     "start": 4462.1,
@@ -535,7 +551,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "şeyler böyle değil ama bir yargıcın tüm bilgilere erişimi olabileceğini varsayalım. Şimdi bir yargıç,"
   },
   {
     "start": 4555.2,
@@ -564,7 +581,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ""
   },
   {
     "start": 5007.2,
@@ -590,7 +608,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "kapasiteler evet, um, ben düşünüyorum ki örneğin elasc girişimi, düşündüğünüz türden bir şey daha çok evet, evet kesinlikle. Şimdi birkaç teknik makalenizden bahsedelim çünkü dürüst olmak gerekirse, bu gerçekten bunaltıcı, geçen yıl sadece çok fazla makale yazdınız ama benim için gerçekten dikkat çeken bir şey, sizin um, RNN'ler veya ihtiyaç duyduğumuz makale. Bunu benim için özetleyebilir misiniz? Um, dikkat mekanizmalarını tanıttığımızda, şu anda endüstride ve akademide kullanılan, aslında 2014'te, bu RNN'leri motor olarak kullanıyordu. Bu, 2017'de gelen t-Transformer'dan önceydi ve RNN'lerin normal tasarımında bir sorun var, yani diziler üzerinde eğitimi kolayca paralel hale getiremiyorsunuz, bu yüzden bir kez gitmek zorundasınız. Yani, örneğin bir kelime dizisi var ve bu nedenle sinir ağı bir kelimeyi işlemek zorunda, sonra diğerini ve sonra diğerini ve bir iç durum oluşturması gerekiyor, bu da önceki adımlardan gelen tekrarlayan durumdur, böylece bir sonraki adıma besleyebiliyor. Sorun şu ki, eğer sadece bir bilgisayarınız varsa, yani klasik bir CPU, bu sorun değil ama GPU günlerinde, bin kat paralel hale getirebiliyorsunuz, o zaman şöyle düşünüyorsunuz: bunu nasıl yapabilirim? Paralel hale getiremiyorum çünkü sıralı bir şey yapmak zorundayım. Bu yüzden birkaç şey yaptık."
   },
   {
     "start": 6012.2,
@@ -616,6 +635,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI creativity",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "dünya evet, yaratıcılığı epistemik avlanma olarak tanımlamanızı seviyorum çünkü bu ona içsel bir değer katıyor ama aynı zamanda bunun sosyal bir fenomen olabileceği veya gözlemciye göre değişebileceği fikri de var, biliyorsunuz, bu yüzden um, kategoriler diyelim ki mo 37 aslında bir şey olarak tanımaya başladığımız bir şeydi ve bu şekilde çalışıyor ama sanırım bunun hakkında düşünmenin farklı yolları var. Evet, evet, beklemediğimiz go hamlelerinin bunun hakkında düşünmenin iyi bir yolu olduğunu düşünüyorum ama aynı zamanda biraz daha genel ve soyut bir şey hakkında düşünmek istiyorum, bu da bu mod keşfi. Evet, epistemik avlanma, senin adlandırdığın gibi, bu terimi seviyorum, bu Friston'un terimi. Ah, tamam, evet, bu tam olarak doğru, bu avlanma, keşif ve biliyorsunuz, iyi bir şey bulduğunuzda ama nerede olduğunu bilmiyorsunuz, o zaman iyi şeylerin nerede olduğunu tahmin etmek için yüksek boyutlu bir alanda nasıl tahmin edersiniz? İyi bir sezgiye sahip olmalısınız ama bunun biraz arama ile birlikte olması gerekiyor. Bu arada, insanların bu arama sürecinin çoğu bireysel beyinlerde gerçekleşmiyor, kolektif düzeyde gerçekleşiyor, değil mi? Evet, kesinlikle. Profesör Benjo, bugün bizimle olduğunuz için çok teşekkür ederim, bu gerçekten bir onurdu. Çok teşekkür ederim, zevkti, beni ağırladığınız için teşekkürler, harika."
   }
 ]

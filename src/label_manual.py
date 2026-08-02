@@ -75,22 +75,46 @@ def first_unreviewed(segs):
 
 
 # ---------------------------------------------------------------------------
-# App
+# App  (arayüz Türkçe — etiketler İngilizce değerlerle saklanır)
 # ---------------------------------------------------------------------------
-st.set_page_config(page_title="LexiCore — Gold Labeling", layout="wide")
-st.title("🏷️ LexiCore — Manual Gold Labeling")
+# Duruş değerleri veri setinde İngilizce saklanır; ekranda Türkçe gösteririz.
+STANCE_TR = {
+    "Support": "✅ Destekliyor / iyimser",
+    "Refute":  "❌ Karşı çıkıyor / endişeli",
+    "Neutral": "➖ Tarafsız / net duruş yok",
+}
+
+st.set_page_config(page_title="LexiCore — Altın Etiketleme", layout="wide")
+st.title("🏷️ LexiCore — Elle Altın Etiketleme")
 
 videos = list_videos()
 if not videos:
-    st.error("No silver-labeled files in data/labeled/. Run label_segments.py first.")
+    st.error("data/labeled/ içinde etiketli dosya yok. Önce label_segments.py çalıştır.")
     st.stop()
 
-# --- sidebar: pick video, show progress ---
+# --- kısa kullanım kılavuzu (her zaman görünür) ---
+with st.expander("ℹ️ Nasıl yapılır? (bir kez oku, 30 saniye)", expanded=False):
+    st.markdown("""
+**Amaç:** LLM'in otomatik tahminlerini (silver) insan gözüyle **onaylamak veya düzeltmek**.
+Alanlar zaten dolu gelir — çoğu doğrudur, çoğunlukla sadece **Kaydet ve Sonraki**'ye basarsın.
+
+- **Konuşmacı:** Bu metni kim söylüyor? (yanlışsa düzelt, bilinmiyorsa boş bırak)
+- **İddia içeriyor mu?:** Bir görüş/sav var mı, yoksa sadece sohbet/soru mu?
+- **Duruş:** Konuşmacı AGI'a karşı ne hissediyor?
+  - **Destekliyor** = iyimser, olumlu, "yakında/iyi olacak"
+  - **Karşı çıkıyor** = endişeli, kötümser, "riskli/tehlikeli"
+  - **Tarafsız** = net taraf yok, betimleyici konuşuyor
+- **Konu / İddia özeti / Kategoriler:** yanlışsa düzelt, değilse dokunma.
+
+Bitince yeni terminalde `python src/compute_agreement.py` çalıştır → uyum skoru (κ).
+""")
+
+# --- kenar çubuğu: video seç, ilerlemeyi göster ---
 with st.sidebar:
     st.header("Video")
-    video_id = st.selectbox("Video ID", videos, key="video_select")
+    video_id = st.selectbox("Video seç", videos, key="video_select")
 
-# (re)load segments when the selected video changes
+# (yeniden) yükle: seçilen video değişince
 if st.session_state.get("_loaded_video") != video_id:
     st.session_state.segs = load_segments(video_id)
     st.session_state.idx = first_unreviewed(st.session_state.segs)
@@ -102,50 +126,60 @@ idx = st.session_state.idx
 reviewed = sum(1 for s in segs if s.get("reviewed"))
 
 with st.sidebar:
-    st.metric("Reviewed", f"{reviewed} / {n}")
+    st.metric("İncelenen", f"{reviewed} / {n}")
     st.progress(reviewed / n if n else 0.0)
-    jump = st.number_input("Jump to segment #", 1, n, idx + 1)
-    if st.button("Go"):
+    jump = st.number_input("Segmente atla (no)", 1, n, idx + 1)
+    if st.button("Git"):
         st.session_state.idx = int(jump) - 1
         st.rerun()
-    st.caption("Silver = LLM label (pre-filled). Fix it, then Save & Next.")
+    st.caption("🤖 = LLM'in tahmini (dolu gelir). Yanlışsa düzelt, sonra Kaydet ve Sonraki.")
 
-# --- main: current segment ---
+# --- ana ekran: mevcut segment ---
 seg = segs[idx]
-st.subheader(f"Segment {idx + 1} / {n}   ·   t={seg.get('start')}s–{seg.get('end')}s"
-             f"   {'✅ reviewed' if seg.get('reviewed') else '⬜ not reviewed'}")
+durum = "✅ incelendi" if seg.get("reviewed") else "⬜ henüz incelenmedi"
+st.subheader(f"Segment {idx + 1} / {n}   ·   t={seg.get('start')}s–{seg.get('end')}s   {durum}")
 
-st.text_area("Transcript", seg.get("text", ""), height=220, disabled=True,
-             key=f"txt_{video_id}_{idx}")
+text_tr = (seg.get("text_tr") or "").strip()
+if text_tr:
+    st.text_area("📝 Konuşma metni (Türkçe çeviri)", text_tr,
+                 height=200, disabled=True, key=f"txttr_{video_id}_{idx}")
+    with st.expander("🇬🇧 İngilizce orijinali göster"):
+        st.write(seg.get("text", ""))
+else:
+    st.text_area("📝 Konuşma metni (İngilizce — kaynak video)", seg.get("text", ""),
+                 height=220, disabled=True, key=f"txt_{video_id}_{idx}")
+    st.caption("💡 Türkçe çeviri için: python src/translate_gold.py çalıştır.")
 
 col1, col2 = st.columns(2)
 with col1:
-    speaker = st.text_input("Speaker", seg.get("speaker") or "",
+    speaker = st.text_input("👤 Konuşmacı", seg.get("speaker") or "",
                             key=f"sp_{video_id}_{idx}")
-    is_claim = st.checkbox("Contains a claim (is_claim)",
+    is_claim = st.checkbox("💬 Bir iddia/görüş içeriyor mu?",
                            value=bool(seg.get("is_claim")),
                            key=f"ic_{video_id}_{idx}")
-    topic = st.text_input("Topic", seg.get("topic") or "",
+    topic = st.text_input("🏷️ Konu", seg.get("topic") or "",
                           key=f"tp_{video_id}_{idx}")
 with col2:
     cur_stance = seg.get("stance") if seg.get("stance") in STANCES else "Neutral"
-    stance = st.radio("Stance (toward the anchor claim)", STANCES,
+    stance = st.radio("⚖️ Duruş (AGI iddiasına karşı)", STANCES,
                       index=STANCES.index(cur_stance),
-                      key=f"st_{video_id}_{idx}", horizontal=True)
-    claim = st.text_area("Claim (one-sentence paraphrase)", seg.get("claim") or "",
+                      format_func=lambda s: STANCE_TR.get(s, s),
+                      key=f"st_{video_id}_{idx}")
+    claim = st.text_area("✍️ İddia özeti (tek cümle)", seg.get("claim") or "",
                          height=100, key=f"cl_{video_id}_{idx}")
 
-# multi-label canonical claim categories (full width, easier to scan)
+# çoklu-etiket kanonik iddia kategorileri (tam genişlik)
 cur_labels = [c for c in (seg.get("claim_labels") or []) if c in CLAIM_IDS]
 claim_labels = st.multiselect(
-    "Canonical claim categories (multi-label)", options=CLAIM_IDS,
+    "📚 Kanonik iddia kategorileri (birden çok seçilebilir)", options=CLAIM_IDS,
     default=cur_labels, format_func=lambda i: f"{ID2NAME[i]} ({i})",
     key=f"cll_{video_id}_{idx}")
 
-# show what the LLM originally said, so the annotator sees the correction
-silver_bits = " · ".join(
-    f"{f}={seg.get(f'{f}_silver')}" for f in ["speaker", "stance", "is_claim"])
-st.caption(f"🤖 silver: {silver_bits}")
+# LLM'in ilk tahminini göster ki düzeltme farkı görünsün
+sp_s = seg.get("speaker_silver")
+st_s = STANCE_TR.get(seg.get("stance_silver"), seg.get("stance_silver"))
+ic_s = "evet" if seg.get("is_claim_silver") else "hayır"
+st.caption(f"🤖 LLM tahmini →  Konuşmacı: {sp_s}  ·  Duruş: {st_s}  ·  İddia mı: {ic_s}")
 
 
 def apply_edits():
@@ -158,18 +192,18 @@ def apply_edits():
     seg["reviewed"] = True
 
 
-nav1, nav2, nav3, _ = st.columns([1, 1, 1, 3])
+nav1, nav2, nav3, _ = st.columns([1, 1.4, 1, 3])
 with nav1:
-    if st.button("⬅ Prev", use_container_width=True):
+    if st.button("⬅ Önceki", use_container_width=True):
         st.session_state.idx = max(0, idx - 1)
         st.rerun()
 with nav2:
-    if st.button("💾 Save & Next", type="primary", use_container_width=True):
+    if st.button("💾 Kaydet ve Sonraki", type="primary", use_container_width=True):
         apply_edits()
         save_segments(video_id, segs)
         st.session_state.idx = min(n - 1, idx + 1)
         st.rerun()
 with nav3:
-    if st.button("Next ➡ (no save)", use_container_width=True):
+    if st.button("Atla ➡ (kaydetme)", use_container_width=True):
         st.session_state.idx = min(n - 1, idx + 1)
         st.rerun()

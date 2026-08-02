@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bugün, Tamay Besiroğlu ve Ege Erdil ile sohbet ediyorum. Daha önce Epoch AI'yi yönetiyorlardı ve şimdi tüm işleri otomatikleştirmeye adanmış bir şirket olan Mechanize'i başlatıyorlar. Son zamanlarda yaptığınız ilginç noktalardan biri, zeka patlaması fikrinin yanlış veya yanıltıcı olduğudur. Orada ne demek istediğinizi açıklar mısınız? Evet, bunun çok faydalı bir kavram olduğunu düşünmüyorum. Sanayi Devrimi'ni bir beygir gücü patlaması olarak adlandırmak gibi. Elbette, Sanayi Devrimi sırasında, ham fiziksel güçte büyük bir hızlanma gördük, ama Sanayi Devrimi sırasında gördüğümüz büyüme ve teknolojik değişimin hızlanmasını açıklamak için belki de eşit derecede önemli olan birçok başka şey vardı. Beygir gücü perspektifinin Sanayi Devrimi hakkında kaçıracağı daha geniş bir şeyler setini nasıl tanımlarsınız? Sanayi Devrimi durumunda, ekonomide birçok farklı sektörde bir dizi tamamlayıcı değişiklik vardı. Yani tarım, ulaşım, hukuk ve finans, kentleşme ve kırsal alanlardan şehirlere geçiş gibi şeyler vardı."
   },
   {
     "start": 103.2,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Birçok farklı yenilik aynı anda gerçekleşti ve bu, toplumumuzu ekonomik olarak organize etme şeklimizde bu değişimi doğurdu. Sadece daha fazla beygir gücüne sahip olmamız değildi. Yani bu bir parçasıydı, ama Sanayi Devrimi'ni düşünürken odaklanılması gereken merkezi şey bu değil. Ve bence benzer şekilde, yapay zekanın gelişimi için, elbette çok akıllı yapay zeka sistemleri elde edeceğiz, ama bu, bu geçişi ve bu hızlanmayı ve büyümeyi ve teknolojik değişimi açıklayan birçok farklı hareketli parçadan sadece bir parça olacak. Bu daha geniş dönüşümü nasıl düşündüğünüzü daha iyi anlamak istiyorum. Bunu yapmadan önce, dünya görüşünüzün diğer gerçekten ilginç kısmı, AGI'ye ulaşmak için çoğu San Francisco'daki AI düşünen insanlardan daha uzun zaman dilimlerine sahip olmanız. Uzaktan çalışanların yerini alması için ne zaman bir düşüş bekliyorsunuz? Belki benim için bu 2045 civarında olur. Vay."
   },
   {
     "start": 775.7,
@@ -93,7 +95,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve benim iddiam şöyle bir şey olacak; bence ajans kısmı benzer bir şekilde kolay olabilir, beş yıl veya üç yıl içinde ajansı açan şeylere bakacağız ve bu oldukça basit görünecek. Ama modelin yetkin bir ajan olmayı öğrenebilmesi için gereken bu tamamlayıcı yenilikler açısından yapılacak çok iş var, bu da çok zor olabilir ve yıllarca süren yenilikler ve donanımda ve ölçeklemede birçok iyileştirme gerektirebilir. Evet, 2015 ile şimdi arasındaki farkın ne olduğunu hissediyorum... 2015'te akıl yürütmeyi çözmeye çalışıyorsanız, başlamak için bir temel yoktu. Belki resmi kanıt yöntemlerini denediniz ama ayakta duracak bir şey yoktu, şimdi ise aslında şeye sahipsiniz - önceden eğitilmiş temel model, bu iskeleleme, son eğitim, RL tekniklerine sahipsiniz. Ve bu yüzden, sanki siz"
   },
   {
     "start": 1316.1,
@@ -122,7 +125,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI value and impact",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani güncelleme, eğer gerçekten 500 milyar dolarlık bir gelir varsa gelirse. Ama o zaman kesinlikle oldukça fazla güncelleme yaparım. Ama yüz milyar, bu bana oldukça olası görünüyor. Belki buna %40 ihtimal atfederim veya bir şey. Eğer bir sistem, üretici fazlası terimleriyle, yüz milyar dolara değerliyse. Ve bunun AlphaZero ile arasındaki fark, AlphaZero'nun asla pazarda yüz milyar dolar kazanamayacak olması. Peki, zeka nedir? Hedeflerini veya sizin hedeflerinizi faydalı bir şekilde başarma yeteneği. Eğer insanlar bunun için yüz milyar dolar ödemeye istekliyse, bu oldukça iyi bir kanıt ki bu bazı hedefleri başarıyor. Yani insanlar yüz milyar doları her türlü şey için ödüyor. Bu, onun dönüştürücü olacağına dair çok güçlü bir kanıt değil, bence. İnsanlar petrol için trilyonlarca dolar ödüyor. Bilmiyorum, bu çok temel bir nokta gibi görünüyor. Ama insanların bir şeye çok para ödemesi, onun dünya ekonomisini dönüştüreceği anlamına gelmiyor, sadece onu serbest bırakmayı başarabilirsek."
   },
   {
     "start": 1802.3,
@@ -151,7 +155,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve model, insanın nasıl yaklaşacağına kıyasla sorunlara temelde farklı bir şekilde yaklaşıyor. Bir insanın bilgisi çok daha sınırlı olurdu ve genellikle sorunları çözmekte çok daha yaratıcı olmak zorunda kalırdı çünkü bilgi eksikliği var, oysa model çok şey biliyor. Ama ona 1850'den belirli bir teoremi gerektiren bazı belirsiz bir matematik sorusu sorsanız, o zaman büyük bir modelse bunu bilecektir. Bu, zorluk profilini çok farklı hale getiriyor. Ve eğer sorunlara yaklaşım şekillerine bakarsanız, akıl yürütme modelleri genellikle yaratıcı değildir. Sahip oldukları bilgiyi son derece etkili bir şekilde kullanabilirler, bu da onları birçok yönden çok etkili kılar. Ama belki de soruyu sormak gerekir, bir akıl yürütme modeli, insan matematikçiye bile biraz ilginç görünen bir matematik kavramı ortaya çıkardı mı? Ve ben bunu hiç görmedim. Yani, altı aydır ortadalar, bu uzun bir süre. Bir matematikçi o süre zarfında birçok iş yapabilirdi ve onlar matematikte çok daha az token üretmişlerdir."
   },
   {
     "start": 3949.4,
@@ -177,7 +182,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Tamam, o zaman bunu sormak istiyorum: Yani"
   },
   {
     "start": 4023.7,
@@ -206,7 +212,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "economic growth",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "sahneyi izleyiciler için ayarlamak gerekirse, bu patlayıcı ekonomik büyüme ve %30'dan fazla ekonomik büyüme oranları olasılığını konuşacağız. Bu yüzden, “belki de bunun yeterince agresif olmadığını önermek” perspektifinden ikinizi de zorlamak istiyorum, çünkü belki de çok geniş”, ve sonra “hey, bu gerçekten çılgınca” daha normal bir perspektiften zorlayacağım. İkinizin de ikinci şeyi yapmanın zor olacağını hayal ediyorum. Hayır, yani, bence bu çılgınca olabilir, bakalım. Bu geniş otomasyon hakkında büyük sorum, Sanayi Devrimi hakkında söylediklerinizi anlıyorum, ama bu durumda, bu zekayı elde ettiğinizde, sonraki adım olarak çölde robot fabrikaları inşa edip, daha fazla robot fabrikası inşa eden bu Shenzhen'i inşa edersiniz, eğer deneyler yapmanız gerekiyorsa biyolablar ve kimya laboratuvarları inşa edersiniz ve ne olursa olsun. Ya da çölde Shenzhen inşa edebilirsiniz."
   },
   {
     "start": 4698.6,
@@ -232,7 +239,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "historical context",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Gerçekten zor. Çünkü belirli şeylerin belirli zamanlarda neden olduğunu anlamak için, o zamanın ekonomik koşulları hakkında çok şey anlamanız gerekiyor. Örneğin, Edison, ampul için farklı filamentlerle denemeler yapmak için çok zaman harcadı. Temel fikir çok basit. Bir şeyi ısıtıyorsunuz ve parlıyor, ama o zaman hangi filament gerçekten iyi çalışıyor? Ne dayanıklı? Işık çıkışı ile ısı oranı en yüksek olan hangisi, böylece daha az atık olur, daha verimli olur. Ve ürününüzü elde ettikten sonra, o zaman karşılaştığınız sorun, 1880 veya bir şeydir ve ABD evlerinde elektrik yoktur, bu yüzden kimse bunu kullanamaz. Şimdi elektrik santralleri inşa etmeniz ve evlere elektrik hatları çekmeniz gerekiyor ki insanlar yarattığınız bu yeni ampulü kullanabilsinler. Bunu yaptı, ama insanlar bunu “tamam, o sadece fikri buldu” gibi sunuyorlar, “bu bir ampul”."
   },
   {
     "start": 4891.9,
@@ -258,7 +266,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "economy/innovation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ya da keşfedilmesi gereken bir şey var. Belirli şeyleri ölçeklendirerek keşfetme, yaparak öğrenme, bu öğrenme eğrisi var. Ve bunun ayrı bir yönü var, diyelim ki daha zengin hale geliyorsunuz, o zaman bu artan zenginliği, daha fazla sermaye biriktirmek için kullanıyorsunuz, ama aynı zamanda bunu AR-GE'ye ve diğer yollarla yatırıyorsunuz. Einstein'ı patent ofisinden çıkarmanız gerekiyor. Bunun mantıklı olması için belirli bir miktar kaynağa ihtiyacınız var. Ve ekonominin belirli bir ölçeğe sahip olması gerekiyor. Ayrıca, inşa ettiğiniz ürün için talebe de ihtiyacınız var. Yani, fikri bulabilirsiniz, ama eğer ekonomi çok küçükse, sizin için özelleşip yarı iletken üretmek mantıklı olmaz, çünkü bunun için yeterli talep yoksa, o zaman mantıklı olmaz. Çok daha büyük bir ekonomi ölçeği, tamamlayıcı yeniliklerin ve keşiflerin serendipite yoluyla gerçekleşmesinde birçok yönden faydalıdır, üretim yapar, sabit maliyetlerinizi geri kazanmanız için yeterince ödeyecek tüketicilerin olmasını sağlar."
   },
   {
     "start": 5445.0,
@@ -284,7 +293,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI impact on industries",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani ulaşımda, gıda konusunda. Sağlık hizmetleri çok önemli bir konu ve antibiyotikler. Başka bir soru, çünkü öğrenmenin yaparak öğrenme ile açık Ar-Ge'yi nasıl tanımladığınızı tam olarak anladığımdan emin değilim, çünkü şirketlerin Ar-Ge dedikleri şeyler için vergi yolları var. Ama sonra Ar-Ge'nin sezgisel bir anlayışı var. Yani yapay zekanın toplam faktör verimliliğini nasıl artırdığına bakarsanız, şu anda TSMC süreç mühendislerini yapay zekalarla değiştirmiş olsanız ve bu süreçleri geliştirmek ve verimliliği artırmak, verim oranını artırmak için farklı yollar bulsalar, bunu Ar-Ge olarak adlandırırdım. Öte yandan, TFP'nin daha iyi yönetim gibi diğer yönlerini vurguluyorsunuz. Yaparak öğrenme, olabilir- Ama ne kadar “güç” elde edeceksiniz… Yani daha iyi yönetimle Dyson Küresi'ne ulaşacak mısınız? Ama bu argüman değil, değil mi? Nokta şu ki, bunların hepsi farklı şeyler, bazıları belki diğerlerinden daha tamamlayıcı."
   },
   {
     "start": 5841.5,
@@ -319,7 +329,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI integration",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Peki, ABD neden Guatemala'yı işgal etmiyor? Neden bunu yapmıyorlar? Kolayca yapabilecekleri gibi görünüyor. Çünkü ABD için bunun değeri… o kadar yüksek değil, değil mi? Evet. Yani bu yapay zekalar için doğru olabilir, çünkü çoğu şey uzayda. Ve Mars'ta ve güneşin yüzeyinde sermaye derinleştirmesi yapmak istiyorsunuz, New York City yerine. Bence bu daha derin bir mesele. Yani bu daha derin. Ayrıca, yapay zekaların ekonomimize entegre edileceği gerçeği var… Yani temelde, ekonomimizin veya iş gücümüzün küçük bir parçası olarak başlıyorlar ve zamanla büyüyorlar ve zamanla ekonomideki gerçek iş gücünün büyük çoğunluğunu oluşturuyorlar. Ama mevcut normlar ve kurallar çerçevesinde büyüyorlar ve bu şeyleri zayıflatmanın bir maliyeti var. Yani, insanları daha önce olduğundan daha zengin ve daha rahat hale getiren şeyleri elde etmek, evet, bunu onlardan alabilirseniz muhtemelen daha iyi olursunuz."
   },
   {
     "start": 6272.0,
@@ -354,7 +365,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama daha barışçıl olduğu sürece, o zaman bununla endişelenmek çok daha az bir şey. Bence bu eğilim olabilir, gerçekten yapay zekanın dünya ekonomisinde çok daha önemli hale geldiği ve dünyada ne olacağını belirlediği kademeli bir süreçteyiz. Ama bu, insanlara faydalı olabilir; bu geniş, çok daha büyük bir ekonomiye ve çok daha gelişmiş bir teknolojik stokuna erişim sağlıyoruz. Evet. Yani, gerçekten endişelendiğiniz şeyin ne olduğunu netleştirmenin önemli olduğunu düşünüyorum. Çünkü bazı insanlar sadece “ah, insanlar geleceği kontrolü kaybedecek, önemli kararları veren biz olmayacağız. Ancak biz, kabul ediyoruz”, bu da biraz belirsiz. Ama bu endişe edilecek bir şey mi? Eğer sadece biyolojik insanların tüm önemli kararları sonsuza dek kontrol etmesi gerektiğini düşünüyorsanız, o zaman katılıyorum, yapay zekanın gelişimi bunun için bir sorun gibi görünüyor."
   },
   {
     "start": 6739.6,
@@ -383,7 +395,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani bu, 1500'lerde olumlu bir etki yaratmak için ne yapabileceklerini düşünen birinin durumundan daha kötü bir durum. Yani, bence bu oldukça umutsuz. Lock-in sonrası işleri daha iyi hale getirecek herhangi bir eylem seti bulabileceğimizi sanmıyorum. Yani, lock-in'in olacağı varsayımıyla, bu kesin değil… 1700'lerde bir grup Britanyalı kölelik karşıtı, köleliğe karşı argümanlar sunuyordu. Ve bence bugüne kadar köleci bir toplum olmamamız için herhangi bir ilkesel neden yok. Ya da dünyanın daha fazla köleliğe sahip olmaması için. Bence olan şey, Britanyalıların köleliğin yanlış olduğuna ikna edilmesiydi, Britanya İmparatorluğu köleliği ortadan kaldırmak ve bunu bir norm haline getirmek için tüm gücünü kullandı. Bence başka bir örnek de Hristiyanlık ve İsa'nın bu idealleri, bu idealleri konuşabilirsiniz. Bence dünya daha Hristiyan bir yer. Daha Hristiyan bir yer, kesinlikle."
   },
   {
     "start": 7769.4,
@@ -409,7 +422,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve insanlar ayrıca, yerel düzeydeki insanların, itfaiyeciler gibi, şehirde dolaşıp yapılar üzerine düşen bombalardan çıkan yangınları söndürebileceği ölçüyü de küçümsediler. Ekonomik zararın ne kadar olacağını abarttılar. Ekonomik olarak ne kadar maliyetli olacağını küçümsediler; temelde bu uçakları gönderiyorsunuz ve sonra düşürülüyorlar, oysa bir uçak çok pahalı. Yani sonuç olarak, müttefikler Almanya'yı bombalamaya başladığında, Almanya'da yok ettikleri her bir dolar için, gönderilen uçaklar, yakıt ve pilotların eğitimi gibi şeyler için dört ila beş dolar harcıyorlardı ve kayıp oranı çok yüksekti, bu daha sonra hükümet tarafından örtbas edildi çünkü insanların endişelenmesini istemiyorlardı, biliyorsunuz… Yani bu, önceden yapacağınız tüm planlamanın, hava bombardımanının “nükleer silah hafif” olacağı varsayımına dayandığı bir durumdur, temelde son derece yıkıcıdır, bunun bazı yönleri olacaktır… Yani öyleydi, değil mi?"
   },
   {
     "start": 8062.4,
@@ -438,7 +452,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Muhtemelen 1800 ile bugünkü farktan daha fazla olacaktır. Yani bu farkı hayal ederseniz, bu devasa bir fark. Ve sonra iki kat, üç kat, neyse. Bunun karşısındaki standart argüman, oraya ulaşma hızının neden bu kadar önemli olduğudur? Özellikle hızın, bu geçişin insanların yararına başarılı bir şekilde gerçekleştirilme olasılığına karşı bir takas olduğu durumlarda? Yani, bunun başarılı bir şekilde gerçekleştirilme olasılığına karşı bir takas olup olmadığı belirsiz. Belki bir uyum vergisi vardır. Yani, belki. Ayrıca, mevcut insanlar için bir yıl gecikmenin maliyetinin ne kadar olduğunu hesaplayabilirsiniz. Bu, insanların keyif alabileceği devasa bir fayda miktarıdır ve bu bir yıl ileri veya geri alınırsa, bir yıl geciktirirseniz. Bunun ne kadar değeri var? Yani, insanların fayda fonksiyonlarının ne kadar konkav olduğunu gösteren basit modellere bakabilir ve bazı hesaplamalar yapabilirsiniz ve belki bu, yıllık tüketimde on trilyonlarca dolara denk gelir."
   },
   {
     "start": 8260.3,
@@ -467,7 +482,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI urgency",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bence ikinciyi söyleyebilirim. Ama bunun değerini anlamak önemlidir. Tamamen ekonomik terimlerle düşünürsek, her yıl gecikmenin belki 100 milyon insanı- belki daha fazla, belki 150, 200 milyon insanı- bugün hayatta olan insanların ölmelerine neden olabileceğini hayal edin. Yani tamamen ekonomik terimlerle, istatistiksel bir hayatın değeri oldukça büyüktür, özellikle Batı ülkelerinde. Bazen insanlar tek bir hayat için 10 milyon dolara kadar rakamlar kullanıyorlar. Yani 10 milyon doları 100 milyon insanla çarptığınızı hayal edin. Bu devasa bir rakam, değil mi? O kadar büyük ki, bir şeyleri hızlandırmanın kötü bir fikir olduğunu düşünmeniz için önce uzun vadeli bir bakış açısına sahip olmanız gerekir; bugünkü eylemlerinizin uzun vadeli geleceğin yönünü öngörülebilir bir şekilde etkileyebilecek kadar yüksek bir kaldıraç etkisi olduğunu düşünmelisiniz."
   },
   {
     "start": 8459.5,
@@ -496,7 +512,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI impact on economy",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bence zeka, teknolojik ilerlemeyi veya ekonomik büyümeyi engelleyen bir darboğaz değil. Bu, birçok başka şey gibi. Ve bu, genel ekonominizi ölçeklendirmenin, sermaye biriktirmenin, insan sermayesini biriktirmenin, tüm bu faktörlerin ölçeklenmesinin görüşümüzle çok tutarlıdır… Aslında, daha önce belirttiğim gibi, “iyi yönetim ve iyi politikalar, toplam faktör verimliliğine katkıda bulunur ve bunlar darboğazlar olabilir” demekle de tutarlıdır. Şu anda, daha iyi yönetimimizi Sahra Altı Afrika'ya entegre edebiliriz. Hayır, edemeyiz. Zor. Bunu yapabileceğimizi düşünmüyorum. Tamam, belki teorik olarak entegre edebileceğimizi hayal etmeliydim… Katılıyorum. Birçok şeyi hayal edebilirim. Ama bunu o kadar kolay yapamayız çünkü… nedenini ifade etmek zor ve sadece sermaye veya iş gücü ile yapmak bu kadar kolay olmayacak. Neden diğer dünyanın, yapay zekanın mümkün kılacağı ilerlemelerle ilgili olarak bu pozisyonda olacağını düşünmeyelim?"
   },
   {
     "start": 9618.6,
@@ -525,7 +542,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "jobs",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ayrıca, ekonominin bir kısmını otomatikleştirdiğinizi hayal edebilirsiniz. Yani, birçok insan bu işlerde çalışıyordu. Şimdi, artık bunu yapmalarına gerek yok çünkü bunlar otomatikleştirildi. Yani, henüz otomatikleştirilmemiş işlerde çalışabilirler. Daha önce verdiğim örnekte olduğu gibi, uzaktan çalışma görevlerinin önce otomatikleştirildiği ve ardından duyusal-motor becerilerin geride kaldığı bir dünya hayal edebilirsiniz. Yani, yazılım mühendislerinin fiziksel işçiler haline geldiği bir dünya olabilir. Elbette, o dünyada fiziksel işçilerin maaşları, bugünkü maaşlarından çok daha yüksek olacaktır. Yani bu yeniden tahsis de, maksimum düzeyde darboğazlar olsa bile, ekstra bir büyüme üretir; ekonomideki tüm görevleri göz önünde bulundurursanız ve gerçekten verimlilik artışı için en kötü olanı alırsanız, bu yeniden tahsis nedeniyle hala çok fazla çıktı artışı elde edersiniz. Yani, bence belirtmek istediğim bir nokta; ekonomistler ile bu konuda konuşma deneyimimiz, onların daha niteliksel hususları gündeme getireceği, oysa bizim yaptığımız argümanların büyüme oranları hakkında belirli niceliksel tahminler yaptığıdır."
   },
   {
     "start": 9880.9,
@@ -557,7 +575,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI regulation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yapay zeka dünyasında birçok insan sıfır veya hatta eksi olabilir… Katılıyorum. Neden bu… bunu çarpma işlemine koymuyorsunuz? Ama neden insanlar burada devrede olsun? Hem siz, insanların çıktıya olumsuz katkıda bulunacağını söylüyorsunuz. Ama sonra da onları… Tamam, adil adil adil. Ana itiraz genellikle düzenlemelerdir. Ve bunu farklı noktalarda dolaylı olarak ele aldığımızı düşünüyorum, ama neden düzenlemeler bunu durdurmasın? Evet. Yani, ne olursa olsun, patlayıcı büyüme için tüm argümanları gözden geçirdiğimiz bir makalemiz var. Ve düzenleme, ‘karşı’ olarak en güçlü görünen argüman. Bunun güçlü görünmesinin nedeni, uluslararası rekabet ve yargı alanları arasındaki politika çeşitliliği ve bu teknolojiyi benimsemek için ekonomik ve ulusal güvenlik nedenleriyle güçlü teşvikler olduğuna dair daha önce yaptığımız argümanlardır. Yani bunlar bir araya geldiğinde oldukça ikna edici görünüyor ama yine de, dünya belirli teknolojileri takip etmemek konusunda şaşırtıcı bir koordinasyon yeteneğine sahip."
   },
   {
     "start": 10217.0,
@@ -586,7 +605,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI evolution",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Elon Musk'ı bile kopyalayabilirsiniz ve o, SpaceX ekibindeki her bir mühendis olabilir. Ve bu, verimli bir yol değilse... Onların AI eşdeğeri. Ve Elon Musk'ı almak en iyi yol değilse, ilgili ekibi veya neyse onu kopyalayabilirsiniz. İnsan firmalarıyla ilgili bu sorunu yaşıyoruz; çok etkili ekipler veya gruplar olabilir, ama zamanla kültürleri sulanır, ya da insanlar ayrılır, ya da ölür, ya da yaşlanır. Ve bu, bu dijital firmalarla çözülebilecek birçok sorundan biri. Şu anda firmalar, evrim için üç ilgili kriterin ikisine sahip; seçim yapma ve varyasyon, ama yüksek kaliteli çoğaltma yok. Ve bu son parça yerine oturduğunda, firmalar için çok daha hızlı ve yoğun bir evrim süreci hayal edebilirsiniz. Bu, şu anda tam işçi olarak işe alınacak kadar akıllı olmadıkları onboarding meselesiyle ilgili, ama bir kez olduklarında, işe almak için çabaladığım şeylerin türlerini hayal ediyorum, bu gerçekten büyük bir açılım olur."
   },
   {
     "start": 10291.3,
@@ -621,6 +641,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI society",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Maaşlar tamamen ikincil. “Bu benim ihtiyacım olan beceri” veya ihtiyaç duyduğum beceriler seti. Eğer talep elastikiyeti yüksek bir şey varsa, paralel olarak binlerce işçiye sahip olabilirim. Bence bu, dönüştürücü AI ile birlikte, gelecekteki AI toplumunun nasıl görüneceğini anlamak için en az anlaşılan somut şeylerden biri. Bence bu çok makroekonomik bir resimle ilgili ilk nokta; tüm ilgili girdilerin büyük ölçekte artmasını bekliyorsunuz. Bence bu birinci dereceden bir şey. Ama sonra “tamam, bu dünya gerçekten nasıl görünüyor? Daha fazla insan, daha fazla sermaye ve daha fazlasının olduğu bir dünyadan nasıl farklı?” gibi daha mikro sorularınız olabilir. Çünkü farklı olmalı. Ve sonra bu hususlar önemli hale geliyor. Bir diğer önemli şey de AI'ların uyumlu olabileceğidir. AI sistemlerinizin tercihlerini kontrol edebilirsiniz, oysa işçilerinizin tercihlerini gerçekten kontrol edemezsiniz."
   }
 ]

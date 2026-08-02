@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rob Wiblin: Bugün Rohin Shah ile konuşuyorum, kendisi Google DeepMind'da AGI uyumu ve güvenliği bölümünün başında. Sanırım, Rohin, iyi ya da kötü — umarım iyi — AGI uyumu ve güvenliği ekosisteminden ve düşünce okulundan çıkan daha etkili, hatta güçlü kişilerden biri oldun. İki yıl önce programa geldiğinde benimle oldukça açık sözlüydün, bu hafta gönderdiğin notlara bakılırsa, yine açık sözlü olmaya hazırsın. Tekrar programa geldiğin için çok teşekkürler, Rohin. Rohin Shah: Evet, çok teşekkürler Rob, bu çok cömert bir giriş. Çok açık sözlü olma niyetinde olduğum için, bu görüşlerin yalnızca bana ait olduğunu vurgulamak istiyorum. Google veya Google DeepMind'ın görüşlerini temsil etmek için değil. Rob Wiblin: Biz de bunu seviyoruz. Eğer Google DeepMind'ı temsil etseydin, muhtemelen bir basın bülteni gibi olurdu. Sen gerçekten bu uyumsuzluk, AI/AGI güvenlik sorunları konusunda çok erken bir aşamada yer aldın. Sanırım 2017'de bu işe dahil oldun, bu da seni bu konuda profesyonel olarak çalışan ilk birkaç kişiden biri yapıyor. Ama buna rağmen, muhtemelen felaket uyumsuzluk yaşamayacağımızı, şanslarımızın oldukça iyi olduğunu ve muhtemelen Google DeepMind ve diğer AI şirketlerinin yaptığı sıradan, basit uyum tekniklerinin en azından felaket uyumsuzluğu önlemede başarılı olacağını düşünüyorsun. Neden şanslarımızın bu kadar iyi olduğunu düşünüyorsun?"
   },
   {
     "start": 81.7,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rohin Shah: Birkaç farklı neden var. Tek bir şey olduğunu düşünmüyorum. Muhtemelen en yüksek seviyedeki nokta, bunun varsayılan olarak gerçekleşen bir şey olduğuna dair ikna edici bir argüman olmadığını hissetmem. Belki bunun olabileceğini öne süren birçok argüman var, bu yüzden bunu makul bulmalısın. Bunu önlemek için önemli bir çaba harcamayı haklı çıkarmak için yeterli olduğunu düşünüyorum, bu yüzden çalıştığım alan bu. Ama hiçbiri, 'şimdi bunun varsayılan olarak olmasını bekliyorum' seviyesine çıkmıyor. Gördüğüm her argümanda, 'bu olur, muhtemelen' şeklinde bir argüman olarak alırsan, deliklerin oldukça önemli olduğunu düşünebilirsin, 'bu olabilecek makul bir şey' yerine. Rob Wiblin: Evet. Yani, insanlar bunun muhtemel veya kaçınılmaz olduğuna dair argümanlar öne sürmeye çalıştılar. Açıkça Yudkowsky tarzı bir argüman var, bu da muhtemelen yanlış genelleme ve düşmanca örnekler üzerine odaklanıyor. Sanırım Ajeya Cotra ve Joe Carlsmith'in görüşü de var, bu da Carlsmith'in"
   },
   {
     "start": 516.1,
@@ -84,7 +86,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "güç arayan AI varoluşsal bir risk mi?"
   },
   {
     "start": 2615.7,
@@ -116,7 +119,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety preparation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "başlıklı çalışmasında daha iyi açıkladığı bir şey, bu da AI'ları yanlış geri bildirimle aldatmayı kazara öğretmekle daha çok ilgili."
   },
   {
     "start": 3243.9,
@@ -145,7 +149,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rob Wiblin: Dünyanın genelinde, her şeyin nasıl gideceği konusunda gerçekten iyimser olan çoğu insan için en büyük faktör, bugün sahip olduğumuz modellere bakmak ve onların gerçekten yönlendirilebilir göründüğünü, istediklerimi yaptıklarını ve birçok açıdan insanlardan daha nazik ve daha yardımcı olduklarını söylemek. Bu tür yönlendirilebilirlik ve günümüz modellerinin görünür uyumu, seni iyi hissettiren bir faktör mü? Rohin Shah: Bunu pek düşünmüyorum. İlk başta uyumsuzluk konusunda endişelenmemin nedeni, modellerin süper insan seviyesine ulaştığında onları denetlemenin çok zor olacağına dair bu argümanlar. Ya da modellerin o kadar akıllı hale gelebileceği ve bizim takip etmemizin zor olduğu bir tür yabancı akıl yürütme ile düşünmeye başlayabileceği durumlar. Bu nedenle, diğer AI sistemlerine başvurmak zorunda kalabiliriz. Bu korkutucu olan şey. Bu, mevcut AI sistemleri için geçerli değil. Bu yüzden, mevcut sistemlerdeki uyum yöntemlerinin başarısının, gelecekteki bu sorunlarla nasıl başa çıkacağımız konusunda pek fazla kanıt olmadığını düşünüyorum."
   },
   {
     "start": 3618.4,
@@ -174,7 +179,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Model intihar notları yazmanıza yardımcı olacak mı? Model şiddeti teşvik edecek mi? Bunları herhangi bir lansmandan önce test edeceğiz ve eğer sayılar yeterince kötü olursa, o modeli piyasaya sürmeyeceğiz. Rob Wiblin: Gelecek AGI veya gelecekte kendini sürekli geliştiren bir AI için çok fazla hazırlık yapmamız gerektiğini düşünmüyor musun? Bu, GDM'den bu geniş yaklaşımı pek duymadığım bir şey olabilir. Ama en azından birkaç yıl önce, bu OpenAI'nin sürekli konuştuğu baskın bir yaklaşımdı. Ve kesinlikle Anthropic'ten de bununla ilgili şeyler duyuyorsun. Neden şimdi çok fazla hazırlık yapmamız gerektiğini düşünmüyorsun? Rohin Shah: Bu önemli hale geldiğinde senaryoyu ortaya koymakta fayda var. Temelde, bu konuda endişe, bir zeka patlaması senaryosu. AI sisteminizi inşa ediyorsunuz ve o AI sistemi yeterince yetenekli hale geliyor ki, AI AR-GE araştırmanızı hızlandırmaya yardımcı olabiliyor. Yetenek araştırmanızı daha hızlı hale getirebilir."
   },
   {
     "start": 3795.8,
@@ -203,7 +209,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI techniques",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rohin Shah: Elbette, bu tür bir stratejiyi şu anda tercih ederim, çünkü bence engel, insanların bunun gerekli olup olmadığı konusunda hemfikir olmamaları. Rob Wiblin: Daha geniş bir konsensüsle çok fazla hemfikir olduğun bir nokta, düşünce zinciri izleme konusunun son derece faydalı olduğu ve mümkün olduğunca uzun süre korunması gereken bir şey olduğu. Bu, AI'nın sahip olduğu düşünceleri izlemek, bunları not defterine çıkardığı için neyi başarmaya çalıştığını ve nedenini anlamak. Bu konudaki birçok kişiyle farklı bir görüşe sahip olduğunu düşünüyorum, çünkü senin düşüncene göre düşünce zinciri izlemenin faydalı kalma olasılığı oldukça yüksek. AI'ların ne düşündüğünü anlayabileceğiz ve orada yazdıkları, yaptıklarıyla gerçekten ilişkili olacak. Diğer birçok kişi, bir veya iki yıl içinde belki de çılgın bir kodda konuşabileceklerini veya oraya bilgi koymanın yollarını bulabileceklerini ya da bunun izlenemeyecek kadar fazla olabileceğini düşünüyor. Neden düşünce zinciri izlemenin potansiyel olarak uzun bir süre devam edeceğini düşünüyorsun? Rohin Shah: Bu, detaylara dikkat etmenin gerçekten çok önemli olduğu iyi bir örnek, bu yüzden benden oldukça uzun bir cevap alacaksınız çünkü oldukça parçalı."
   },
   {
     "start": 4379.2,
@@ -232,7 +239,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Burada teorik bir argüman yok, ya da bunu söyleyebilecek bir teorem yok. Ama şunu söyleyebilirim ki, bir anlamda İngilizce konuşarak doğuyorlar ve ön eğitim, bir AI sistemine bilgi aktarmanın en güçlü biçimi. Model, doğal dilde konuşmakta son derece iyi. Akıl yürütme yapmada harika, ama yalnızca insanların yazarken yaptığı türden akıl yürütme. Ve günümüzde yaptığımız akıl yürütme eğitimine baktığınızda, Neel Nanda ve diğerlerinden bir makale, akıl yürütme eğitiminde yapılanların önemli bir kısmının, modelin ön eğitim sırasında zaten öğrendiği belirli bir tür akıl yürütme adımını ne zaman yapacağını öğretmek olduğunu gösteriyor. Yani, temel olarak yeteneklerin büyük bir kısmı ön eğitimden geliyor. Ön eğitimin, iyi bir nedenle, olduğu gibi kalacağını ve insan benzeri akıl yürütme ve İngilizce konuşma ile yapılacağını biliyoruz. Ve ardından RL, ön eğitime göre oldukça verimsiz ve tamamen yeni bir epistemik dil oluşturması, bununla birlikte yeterince çaba harcasak bile anlayamayacağımız bir şey, RL'nin şu anda yaptığı şeyin çok ötesinde ve bunu yakın gelecekte görmek oldukça şaşırtıcı olur."
   },
   {
     "start": 4791.8,
@@ -261,7 +269,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rohin Shah: Bu tür şeylerin yakın gelecekte işe yarayabileceği konusunda hemfikirim. Bunun düşünce zinciri izlemenin değerini çok fazla azaltıp azaltmadığından emin değilim. Eğer aslında sadece bir token olasılık dağılımı tutup bunu geri besleyecek olsaydık, o token olasılık dağılımını hala inceleyebilir ve normal İngilizce akıl yürütmesi olarak yorumlayabilirsiniz. Daha zor, çünkü şimdi modelin herhangi bir anda düşünebileceği daha büyük bir şey seti var. Ama yine de pek kötü olacağını beklemiyorum ve bunun izlenebilir olacağını düşünüyorum. Bunu yapmamayı tercih ederim, ama bunun ölümcül bir kusur olduğunu düşünmüyorum. Bu konudaki literatürü çok yakından takip etmedim, ama baktığım makalelerden edindiğim izlenim, bu tür şeyleri yaptığınızda, bazen performansın kötüleştiği. Ve performansı artırdığında bile, bu tokenların ne olduğunu tam olarak görmek için tam olasılık dağılımına bakarsanız, temelde belki bir ana akıl yürütme yolu olduğunu görebilirsiniz ve hala oldukça kolay bir şekilde takip edebilirsiniz."
   },
   {
     "start": 5768.6,
@@ -290,7 +299,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI oversight",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ayrıca bunun modelin testi “hacklemesi” olarak tanımlanmaması gerektiğini söylemek isterim. Bunu tanımlamanın yolu, modelin teste istemeden bir kısayol bulmasıdır. Modelin bunu gördüğünde, “Aha! Testleri düzenleyip geçtiğim gibi görünmesini sağlayabilirim.” demesi durumu değil. Daha çok, modelin belirli bir tür siber görevi test etmeye çalıştığımız oldukça karmaşık bir ortamda, bunun yerine alternatif bir yol fark etmesi gibi. Eğer ben bu görevi yapıyorsam — ki çoğunlukla bu konuda Gemini kadar iyi değilim — ama bu görevi yapıyorsam ve o kısayolu görüyorsam, bunu hile olarak düşünmezdim. Bunu, elbette bu görevi yapmanın yolu olarak düşünürdüm. Şimdi bunu incelediğimizde ve modelin siber alandaki yeteneği hakkında bir değerlendirme yapmamız gerektiğinde, nihayetinde bir zor şey için test etmeye çalışıyorduk ve bunun yerine biraz daha kolay bir şey yaptı. Ve bu yüzden modelin yeteneği hakkında ne sonuç çıkaracağımız sorusu var."
   },
   {
     "start": 6362.0,
@@ -319,7 +329,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu, kesinlikle bugün bir sorun olmayan, ama gerçekten bir süper zeka öncesinde bir noktada ortaya çıkabilecek türden çılgın, vahşi bir sorun ve ben, \"Evet, bu tür sorunları tanımladım ve hepsini çözmek için bir yaklaşımım var\" demek istemiyorum. Elbette bunları ortaya çıktıkça ele almalıyız. Rob Wiblin: Bazı insanlar, çok fazla önceden plan yapmanızı istiyor. Tüm önemli hususları, yapay süper zekaya kadar ortaya çıkacak olan her şeyi kavramanızı istiyorlar, her şeyin güvenli bir şekilde devredilebileceği noktaya kadar. Ve siz diyorsunuz ki, \"Bunu yapmayacağız, kesinlikle. Bir sonraki eğittiğimiz modele çok fazla düşünce harcayacağız. Ondan sonraki modele biraz düşüneceğiz ve bunun ötesinde geleceğin kendini halledeceğini umacağız ya da gelecekte biz, ortaya çıktıkça şeyleri halledeceğiz.\" Bu, yaptığınız nokta. Rohin Shah: Evet, ama bence uzun vadeli düşünme, bunun gibi görünenden daha fazla. Dediğim gibi, genellikle beş yıl sonrasını düşünüyorum. Bu, birçok, birçok, birçok model demek, değil mi? Düşünce zinciri izleme diyorum, sanırım dört yılın benim medyanım olduğunu söyledim."
   },
   {
     "start": 7028.1,
@@ -351,7 +362,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI progress",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve tartışma şu: son yıllarda, nüfus kısmı artık geçerli değil — çünkü tüm çıktımızı daha fazla çocuk yapmaya yeniden yatırmak yerine, şimdi yaşam kalitesini artırmaya yeniden yatırıyoruz. Bu yüzden 1800, 1900'e kadar hiperbolik bir artış görüyoruz, tam olarak hangi noktada olduğunu unuttum. O zamandan beri ise üstel bir büyüme var. Ama bu hikaye gerçekten de fikirlerin önceliğini vurguluyor, başka hiçbir şeyin değil. Bunlar serbestçe kopyalanabilir şeylerdir, bunlar bir kez sahip olduğunuz ve ardından kullandığınız her yerdeki tüm teknolojinize uygulanabilen şeylerdir. Bu yüzden zeka patlamasına neyin yol açacağını düşündüğümde, artan nüfus veya fikir üretebilen artan iş gücünün bunun için oldukça kritik olduğunu düşünüyorum. Buna karşılık, günümüzdeki birçok tartışma, örneğin süper insan kodlayıcı hakkında konuşuyor: bir AI sistemine “Lütfen benim için XYZ deneyini uygulayın” dediğinizde, o deneyin insanlardan çok daha hızlı ve etkili bir şekilde uygulanmasını sağlıyor. Tartışma şu ki, bunu yapabildiğinizde, AI ilerleme hızı bir hayli artıyor ve zeka patlamasına oldukça hızlı bir şekilde ulaşmaya başlıyorsunuz. En azından ben böyle düşünüyorum. Geniş topluluk görüşünü yorumlamak her zaman biraz zor, çünkü birçok insanın biraz farklı görüşleri var."
   },
   {
     "start": 7201.1,
@@ -392,7 +404,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI productivity",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Başka bir örnek, bazen insanların zeka patlaması için bir tetikleyici olarak, AI araştırmacılarının, diyelim ki, AI sistemlerine hiç erişimleri olmasaydı olabileceklerinden 10 kat daha üretken oldukları noktayı önermeleridir. Yine, bunun muhtemelen çip geliştirme gibi bir şey için gerçekleşmiş olduğunu düşünüyorum. Moore'un yasası, birçok on yıl boyunca güzel, temiz, düz bir çizgi. Ama o çizginin başında, insanların devrelerini kağıt üzerinde elle tasarladıklarını varsayıyorum. Ve günümüzde, bu tür işlerin büyük çoğunluğunu otomatikleştiren inanılmaz bilgisayar destekli tasarım yazılımlarına sahibiz ve çizginin düz olmaya devam ettiğini görüyoruz. Aslında, bunun gerçekleşmesi için eksponansiyel olarak daha fazla insanın bu işte çalışması gerekiyor."
   },
   {
     "start": 7505.2,
@@ -427,7 +440,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI progress",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Çünkü iyileştirmeler elde ettikçe, daha fazlasını çalıştırabilirsiniz. Temelde, modelin daha fazla kopyasını çalıştırarak araştırmacıların etkili nüfusunu genişletebilirsiniz. Doğru mu anladım? Rohin Shah: Evet, doğru. Bu çok etkileyici. Çok uzun süre tek başıma konuştuğumdan endişeliydim, ama harika bir özet oldu. Rob Wiblin: Teşekkür ederim. Peki, daha iyi bir araç mı yoksa daha fazla nüfus mu hakkında konuştuğumuzu nasıl anlarız? Burada biraz belirsiz bir sınır var gibi görünüyor ve birinden diğerine geçeceğiz, ama keskin bir kesilme olacağını düşünmüyorum. Rohin Shah: Evet, katılıyorum. Muhtemelen olmayacak. AI'ların yeni fikirler önerme derecesinin, hiperbolik büyüme tahminini en çok etkileyen şeylerden biri olduğunu düşünüyorum. Bu, bakabileceğiniz bir şey ve süper insan kodlayıcının muhtemelen o eşiği aşmadığını söyleyebilirim. Ama gerçekten yapmak istediğim şey, AI ilerlemesini ölçmek ve hızlanmaya başladığında bunu fark etmektir. Aslında, bu tür bir ölçüm geliştirmek için Epoch ile yakın zamanda çalıştık. Makale, sanırım yeni yayımlandı, “AI benchmarkları için bir Rosetta Taşı” adını taşıyor."
   },
   {
     "start": 7588.2,
@@ -462,7 +476,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI progress",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Temelde, bir modelin çeşitli modeller için aldığı benchmark puanlarını alıyoruz ve ardından benchmarkları bir araya getirerek, 2020'den şimdiye kadar yayımlanan modellere kadar genel bir yetenek puanı elde ediyoruz, her ne kadar bireysel benchmarklar çok daha kısa bir süre içinde doygunluğa ulaşmış olsa da. Sonra bu ölçümün ürettiği yetenek puanlarını alıyorsunuz ve bunları modelin yayımlanma zamanı ile karşılaştırıyorsunuz. Bu yetenek puanları, bunları üreten istatistiksel model, yayımlanma tarihi veya herhangi bir zamanla ilgili bilgi içermiyor, sadece benchmark performansı var. Yine de, bunu yayımlanma zamanı ile karşılaştırmaya başladığınızda, sadece güzel bir çizgi çıkıyor. Harika. Ve AI ilerlemesi, bu özel grafikte çoğunlukla oldukça lineer görünüyor. Yöntem gerçekten çok basit. Temel olarak, AI sistemlerinin performansını yakalayabilen benchmarklara sahip olmamız gerekiyor ve bunun gelecekte de devam edeceğini düşünüyorum. Bu yüzden bunu çizmeye devam edebiliriz ve umarım zeka patlaması gerçekleşiyorsa, bunun üzerinde bir hızlanma görmeye başlayacağız, bu da her zaman güzel bir lineer uyum gibi görünmeyecek."
   },
   {
     "start": 7895.4,
@@ -500,7 +515,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI progress",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rob Wiblin: İlerleme oranlarının artmasının grafikte oldukça çarpıcı olacağını söylüyorsunuz. Muhtemelen gözünüze çarpacak ve bu etkiler kaybolmasına neden olmayacak. Rohin Shah: Doğru. Ama kesinlikle bu puanı, Claude ile Gemini arasındaki farkı anlamak gibi çok ince ayrıntılı şeyler için kullanmaktan kaçınmaları konusunda insanları uyarırım. Ya da örneğin, açık kaynak modeller ile kapalı kaynak modeller arasındaki farkı anlamaya çalışmak — çünkü açık kaynak modellerin muhtemelen benchmarklara daha fazla uyum sağladığını düşünüyorum, ve bu puanı bu ikisi arasındaki tam farkı görmek için kullanmaya çalışırsanız, muhtemelen sizi biraz yanıltacaktır. Rob Wiblin: AI, insanlar olduğunda veya en azından AI araştırmacıları olduğunda, sadece AI araştırmacıları için bir araç olmaktan çıkarsa, AI AR-GE ve AI yeteneklerinde oldukça ani artışlar bekleyebilirsiniz. Bunun ne kadar ani olacağı veya olup olmayacağı konusunda bir olumsuz görüşünüz var mı? Yoksa belki insanların hayal ettiğinden biraz daha uzun süreceğini düşünüyor musunuz, ama yine de bunun olacağını mu düşünüyorsunuz?"
   },
   {
     "start": 8206.9,
@@ -529,7 +545,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rohin Shah: AI sistemlerinin mevcut insan AI araştırmacıları ile neredeyse eşit olduğu noktadan alırsanız, evet, doğru. Bu yüzden bunun yıllar alacağını düşünüyorum, aylar değil. Ama zaman çizelgemi geciktiren çoğu düşünce, o noktaya ulaşmanın bile oldukça uzun süreceğini düşünmemdir — oldukça uzun, belki bir on yıl, ki bu geçmiş yıllarda “son derece kısa zaman çizelgeleri” olarak adlandırılırdı ve günümüzde “orta ila uzun zaman çizelgeleri” olarak adlandırılıyor. Rob Wiblin: Evet. Yıllar içinde, her birkaç yılda bir, AI zaman çizelgeleri hakkında bir tür panik durumu yaşandığına dair genel bir fenomen olduğunu düşünüyorum ve insanlar, o noktadan birkaç yıl içinde gerçekten oldukça yakında bir döngüsel kendini geliştirme döngüsü beklemeye başlıyorlar. İzlenimim, sizin bu konuda hiçbir yönde değişmediğiniz. Gerçekleşen olaylar veya çıkan sonuçlar temelinde neden güncellemeler yapmadınız? Rohin Shah: Muhtemelen en büyük farkın, AI ilerlemesinin nasıl olacağına dair kafamda bir resim olması ve gerçeğin buna oldukça yakın olması olduğunu tahmin ediyorum."
   },
   {
     "start": 8894.6,
@@ -558,7 +575,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI research evaluation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rob Wiblin: Yani insanlar ilginç teoriler geliştiriyorlarsa veya bir olguyu daha iyi anlamak için ön araştırmalar yapıyorlarsa, “Bu iyi bir şey, ama çözümünüz olduğunda geri dönün” gibi mi oluyorsunuz? Rohin Shah: Yaklaşık olarak, evet. Ve yine, bunun yapılması gereken iyi bir araştırma olduğunu düşünüyorum ve insanların bunu yapması gerektiğini düşünüyorum. Bu, gelecekte daha iyi çözümler geliştirmeye yardımcı olabilir. Sadece bunun üzerine düşünmemeleri gerektiğini düşünmüyorum — Rob Wiblin: Bunun üzerine çok zaman harcayacaksınız. Rohin Shah: Kesinlikle, evet. Bunun ardından, özellikle bir çözüm önermeyi düşünüyorsanız, yapmanız gereken bir sonraki şey, çözümünüzü değerlendirmek — ya da en azından kavramsal olarak çözümünüzü değerlendirmek, deneylerle olmasa bile — şirketlerin çok önem verdiği çeşitli metrikler üzerinde. Çoğu zaman araştırma, belirli bir sorunu çözme amacını gerçekten gerçekleştirip gerçekleştirmediğine bakar. Bu kesinlikle önemlidir, bunu değerlendirmelisiniz. Bu en önemli olanıdır. Ama ayrıca şunlar da var: Bu, hesaplama açısından ne kadar maliyet ekliyor? Ne kadar gecikme ekleyecek? Eğer AI sisteminin bir yanıt ürettikten sonra çalışan bir adım hayal ediyorsanız ve ardından yanıtı kullanıcıya göndermeden önce birçok ek şey yapıyorsanız, bu muhtemelen bir başlangıç noktası değildir. Açıkça değil, ama büyük bir maliyet."
   },
   {
     "start": 9495.4,
@@ -587,7 +605,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AGI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rob Wiblin: AGI güvenliği ve uyum sağlama ekiplerinden bahsediyoruz, değil mi? Rohin Shah: Evet, esasen AGI güvenliği ve uyum sağlama ekibinden bahsediyorum. Bence sadece bariz şeylere odaklanmak, araştırma yerine uygulamaya odaklanmak önemli. Pratikte bu, makine öğrenimi araştırmasına göre yazılım mühendisliğine daha fazla odaklanmak anlamına geliyor. Yine de kavramsal yetenek, araştırma zevki, ML mühendislik becerileri konusunda önem taşıdığımızı düşünüyorum. Bu tür bir uygulama yaparken bunlar ortaya çıkıyor. Sisteminizin ne kadar iyi olduğunu test etmeniz gerekiyor. Bu, iyi değerlendirmeler oluşturmanız gerektiği anlamına geliyor, onlara aşırı uyum sağlamamanız gerektiği anlamına geliyor, bu konuda biraz dikkatli olmalısınız. Yani bu becerilerin önemsiz olduğu anlamına gelmiyor. Sadece, işlerin yapılması, yazılım mühendisliği, uygulama gibi şeylere, hatta bir yıl öncesine göre, ama özellikle iki yıl öncesine göre daha fazla odaklanıldığını düşünüyorum. Rob Wiblin: Şu anda işe alım yaptığınız belirli roller var mı, ya da genel olarak çok fazla işe alım yapıyor musunuz? Bana öyle geliyor ki, Anthropic çok fazla işe alım yapıyor ve OpenAI'de her zaman birçok rol var. Sizin için de benzer bir durum mu?"
   },
   {
     "start": 9570.3,
@@ -616,6 +635,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety roles",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rohin Shah: Hayır, bence şu anda Anthropic ve OpenAI'den oldukça az işe alım yapıyoruz. Şu anda açık birkaç pozisyonumuz var. Kısmen, diğer ekiplerde de açık pozisyonlar var ki bunlar da oldukça ilgili. AGI güvenliği ve uyum ekibi, Google DeepMind'daki AGI güvenliği ile ilgili tek ekip değil. Örneğin, şu anda AI kontrolü üzerinde çalışacak mühendisler almak için güvenlik ekibinde bir işe alım süreci açık. Ve bunun harika bir pozisyon olduğunu düşünüyorum. Son derece etkili. Daha önce de söylediğim gibi, bu muhtemelen Gemini'nin orta vadede kontrol kaybı nedeniyle zarar vermeyeceği argümanını destekleyecek bir durum. Bu nedenle, bunun son derece faydalı bir rol olduğunu düşünüyorum. AGI güvenliği ve uyum ekibinde değil, ama bizimle yakın çalışacaklar. Benim ekibimde şu anda sınır güvenliği risk değerlendirmesi için bir mühendis alımı yapıyoruz. Bu, tehlikeli yetenek değerlendirmelerimizi yürütmek ve sınır güvenliği raporunu yazmakla ilgili. Sınır güvenliği raporunun çok daha ayrıntılı olmasına gerek olduğunu düşünmüyorum, ama eğer öyle düşünüyorsanız, bize katılabilir ve onu daha iyi hale getirmek için zaman ayırabilirsiniz. Ekibin bireysel üyeleri, böyle şeyler yapma esnekliğine sahip olabilir."
   }
 ]

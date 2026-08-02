@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Ama süper zeka henüz mevcut değil. Yani temelde süper zekaya doğru bizi yönlendirebilecek bir noktadayız. Oraya ulaşacağımıza ne kadar güveniyorsun ve oraya ne zaman ulaşacağımızı düşünüyorsun? Bu konuda düşündüğüm iki yol var. Bir yandan, şu anda açık kaynak kodu düşünürken, bilgisayarlarımızla konuşamadığımız zamanları hatırlıyorum. Artık bilgisayarıma doğal dilde konuşabiliyorum ve ona bir şey yapmasını söyleyebiliyorum ve temelde bunu yapıyor. Biliyor musun, bunu benim için uygulamak üzere çağırıyorlar ve 45 dakika boyunca uzaklaşıp geri döndüğümde, 'Bunu yaptım. İşte burada.' diyor. Ve genellikle işe yarıyor. Tabii ki. Mükemmel mi? Hayır. Daha önce bir junior mühendis işe aldın mı? >> Yani >> onlar da mükemmel değil. >> Onlar da mükemmel değil. Şu anda junior bir mühendis işe almak için neredeyse hiç neden yok. Yani, bir junior insan mühendisinin yapabileceği bir görevi bulamıyorum, bulamıyorum. Hala bir kıdemli mühendis tarafından daha iyi yapılabilecek bazı şeyler var, yazılım mimarisi gibi ama gerçekçi olalım. Bir yıl önce bunların hiçbiri mümkün değildi ve bir yıl önce bu şeyler tamamen bağımsız bir şekilde kod yazamazdı. Bir yıl içinde ne olacağını düşünüyorsun? Yani, bu alanda yıllardır bulunuyorum ve ilk kez süper zekanın geleceğini gördüğüm zaman GPT2'ydi >> tamam >> küçük versiyonu 100 milyon parametre, yani iki cümleyi bir araya getirecek kadar bile zorlanıyordu ama onu gördüğümde, 'Oh [__] bu işteyiz' dedim çünkü yapabildiği şey genel amaçlı kalıpları öğrenebilmesiydi, daha fazla hesaplama gücü eklediğinizde daha fazla kalıp ekliyorsunuz ve daha fazla şey öğreniyor, önce yazım ve dil bilgisi öğreniyor, sonra paragrafları öğreniyor, daha karmaşık şeyler öğreniyor, vb. vb. Yani çalınabilir bir şeydi. Ve o zamandan beri, her yıl bu şey oluyor ve kendimi bir tür 'Groundhog Day' gibi hissediyorum, sanki deli oluyorum, değil mi? Her yıl insanlar diyor ki, 'AI asla çok güçlü olmayacak, değil mi? Bakalım ne olacak.' Ve bir yıl sonra, çok daha güçlü hale geliyor ve yapamayacaklarını söyledikleri her şeyi yapabiliyorlar. Ve sonra aynı şeyi söylüyorlar, biliyorsun, aynı şeyi söylüyorlar. 'Tamam ama henüz süper zeka değil.' Ve sonra bir yıl sonra, süper zekaya yakınlaşıyoruz."
   },
   {
     "start": 889.4,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Um, bir yıl olabilir. Bilmiyorum. Um, bu konuda tek başıma düşünmüyorum. Um, alandaki birçok insanla, uzmanlar, etik şirketler, akademi vb. ile konuşuyorsun. 10 yıldan daha uzun süreceğini düşünen tek bir kişi bulmak zor ve çoğu insan bunun iki ila dört yıl içinde olacağını düşünüyor. >> Ve AGI noktasına ulaştıktan sonra, ASI'ye giden yol nedir? Bu bir zeka patlaması gibi. >> Bu benim beklediğim şey. AGI'den ASI'ye geçişin çok kısa olmasını bekliyorum. Ne kadar kısa olduğunu bilmiyorum, belki iki ay, belki iki hafta, belki iki saat. >> Oh wow. >> Bilmiyorum. >> Bu çok kısa. >> Bence şu andan AGI'ye kadar olan süreden daha kısa olacak çünkü bir AI AGI'sine sahip olduğunuzda, bunu milyonlarca kopya halinde ölçeklendirebilirsiniz. Milyonlarca kopya, biliyorsun, insan hızının bin katı hızda çalışıyor. Asla yorulmazlar, asla sıkılmazlar. Ve tabii ki, AGI oldukları için AI araştırması yapabilirler. Yani daha iyi AIs geliştirebilirler. Daha iyi sistemler geliştirebilirler. Daha iyi algoritmalar geliştirebilirler. Daha iyi orkestrasyon, daha iyi veri, her neyse. Değil mi? Yani, bilim insanlarımızın hayal etmesini istediği şey, yarın bir milyon açık AI'nin aynı anda araştırma yapması. Bu, işleri çok hızlandırır, bence insanın anlayabileceğinden daha fazla. İnsanlık tarihinde hiçbir zaman bir milyon birinci sınıf araştırma kuruluşu aynı anda herhangi bir sorun üzerinde çalışmadı."
   },
   {
     "start": 965.0,
@@ -84,7 +86,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu daha önce hiç olmadı. Hiçbir zaman bir milyon birinci sınıf araştırma kuruluşu herhangi bir sorunu çözmedi. Ve bu, bir gecede AGI'ye sahip olabileceğimiz anlamına gelebilir, bir bash komutu çalıştırıyorsunuz ve şimdi bir milyon birinci sınıf araştırma kuruluşu daha iyi AIs inşa etmek için çalışıyor ve sonra daha iyi bir AI sistemi geliştirdiklerinde, tüm bir milyon kuruluşunuzu daha iyi AI'yi çalıştıracak şekilde güncelliyorsunuz. Onlar daha iyi bir AI yapıyor, tüm sanal kuruluşlarınızı daha iyi bir AI'yi çalıştıracak şekilde güncelliyorsunuz. >> Bu anlık. >> Ve bu çok hızlı gidebilir. Ne kadar hızlı olacağını bilmiyorum. Yani, saatler olacağına dair bir belirti yok. Değil mi? Yani, haftalar olabilir, aylar olabilir. Yıllar olursa şaşırırım. >> Tamam. Şimdi AI'nın ne olduğu, nereye gittiği ve yolun ne olduğu hakkında çok iyi bir tanımımız var ama sorun ne? Yani, neden bizden daha akıllı bir şey inşa etmenin kötü bir şekilde sonuçlanması gerektiğini düşünüyoruz? Neden bunun aslında kontrol edebileceğimiz bir şey olamayacağını düşünemiyoruz? Çünkü bunun bizimle karşıt bir şekilde hareket etmesi için farklı hedeflere, farklı misyonlara sahip olması gerektiğini varsayıyorum. Bilmiyorum, sanırım tüm hedefleme problemi, bunun kendi hedefleri ve amaçları olmasıdır ama kendi hedefleri olması mı gerekiyor yoksa belki de bizim bağımlı olacağımız çok güçlü bir araç yaratabilir miyiz? >> Ama kimse bunun nasıl yapılacağını bilmiyor. Temelde, AI'nın günümüzde genellikle bir spesifik tekniği, sinir ağlarını ifade ettiğini anlamak önemlidir ve sinir ağları normal programlamadan, normal yazılımdan çok farklıdır. Normal yazılımda kodu satır satır yazarsınız, bir insan bilgisayarın ne yapması gerektiğini yazar."
   },
   {
     "start": 1634.2,
@@ -113,7 +116,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu durumun çalışıyor olması bile çılgınca. Bu gerçekten çılgınca. Ve bu devam ederse, evet, bu HGI'ye doğru gidecek. Ve o zamandan beri bunun birçok örneğini gördük. 2020'de, 'Oh [__] bu dünyanın en büyük şeyi. Oluyor. Bu şeylerin güvenliği üzerinde kimse çalışmıyor.' diyordum. O zamanlar, AI güvenliği topluluğu LMS'lere önem vermiyordu. AI güvenliği topluluğu yoktu ve güvenlik topluluğu da yoktu. O zamanlar, akademide ve yazılım güvenliği topluluğunda hala oldukça fazla umudum vardı. Bu, büyüdüğüm yerlerdi. Açık kaynaklı hacker dünyasında büyüdüm. Bu tür gruplara hala çok saygım vardı. Şimdi bu grupların çoğundan çok yorgunum. Bu yüzden açık kaynak harika ve açık kaynak, daha güvenli yazılımlar yapmanıza olanak tanır diye bir inancım vardı ama açık hale getirerek daha fazla insan yazılıma bakabilir, güvenli hale getirmek için nasıl çalıştıklarını inceleyebilir, tüketiciler için daha iyi hale getirebilirler, vb. vb. Ve AI için de benzer bir inancım vardı."
   },
   {
     "start": 1696.8,
@@ -142,7 +146,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Open-source AI",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu yüzden düşüncem, açık kaynak LN sistemleri geliştirebilirsem, bilim insanları ve hackerlar vb. bunları inceleyebilir. Böylece bu sistemler etrafında bir güvenlik alanı inşa edebiliriz çünkü bunun AGI'ye en olası yol olduğunu düşündüm. Bu sistemleri incelemeye başlamalıyız. Ve bu yüzden bunu yaptık. İlk açık kaynak modellerimizden bazılarını inşa ettik. Gerçek açık kaynak modeller, sadece açık ağırlık değil. Günümüzde birçok model açık kaynak olarak adlandırılıyor ama aslında açık ağırlık olarak adlandırılıyor. >> Tamam. >> Yani modelin ağırlıklarına sahipsiniz ama nasıl eğitildiğine sahip değilsiniz. >> Tamam. >> Bu yüzden, yalnızca eğitim verilerine, tüm eğitim kurulumuna, yol boyunca tüm kontrol noktalarına sahip olduğumuz modelleri inşa eden tek kişilerden bazılarıyız. Yani, bilimsel bir şey olmasını istedik. Ve temelde çok hızlı bir şekilde öğrendiğim şey, kimsenin umursamadığıydı. Herkes sadece, 'Oh, harika. Ücretsiz modeller. Onları nasıl daha hızlı yapabiliriz? Onları nasıl daha büyük yapabiliriz? Onları nasıl daha fazla kötüye kullanabiliriz?' diyordu. Güvenlik konusunda umursayan bazı insanlar vardı ve Tanrı onlara yardım etsin. Ama umursayan çok az insan vardı."
   },
   {
     "start": 1865.9,
@@ -171,7 +176,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "Open Source Accountability",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Çok anarşist. >> Çok anarşist, çok libertaryen. Bu böyle ve üzgünüm ama dünya böyle çalışmıyor. Bir şeyin ücretsiz olması, onun iyi olduğu anlamına gelmez. >> Evet, >> bazen öyle. Linux'in harika olduğunu düşünüyorum. Açık kaynak yazılımın birçok açıdan çok iyi olduğunu düşünüyorum. Her türlü şey için açık kaynak yazılım kullanıyorum ve bunun çok iyi bir şey olduğunu düşünüyorum. Ama dünya bu kadar kolay değil. Nükleer silah uçakları açık kaynak olmalı mı? F-35 avcı uçaklarının planları açık kaynak olmalı mı? Bu daha iyi bir dünya mı yaratır? Bir keresinde Luther AI ile birisiyle eğlenceli bir konuşma yaptım, yakın zamanda bir podcast'te, geliştiricilerin dünyaya neyi saldıkları ve kime zarar verdikleri konusunda dikkatli ve sorumlu olmaları gerektiğini düşündüğümü söyledim. Bu kişi beni eleştirdi, 'Ama sen daha önce açık kaynak yaptın. Hesap verebilir olmak ister misin?' dedi. Ben de, 'Evet, evet. Başkalarına zarar verdiğimde hesap verebilir olduğum bir dünyada yaşamak isterim.' dedim. Bu kişi o kadar şaşırmıştı ki. O kadar şaşırmıştı ki. 'Ama ama ama ama bunu nasıl belirleyeceksin? Bu imkansız. Zarar verenin kim olduğunu asla bilemezsin.' dedi. Sonra bir arkadaşım, 'Mahkemeler?' dedi."
   },
   {
     "start": 1999.9,
@@ -200,7 +206,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI regulation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Gerçekten kötü düzenlemelerimiz var ama çoğu, biliyorsun, bankalar için yasaların olması iyi. Bunu yapmazsak, her birkaç yılda bir korkunç finansal krizler yaşarız. İlaçların saflığı konusunda düzenlemelerimizin olması iyi. Biliyorsun, eğer bunlar olmasaydı, birçok kirli, biliyorsun, tıbbi malzeme olurdu. Yani, bunların mükemmel olduğunu söylemiyorum. Değiller. Biliyor musun, FDA hakkında bana soruyorsun. Bu şeylerde iyileştirilebilecek birçok şey var. Ama temelde, bir medeniyetin nasıl çalıştığı, bazı nerdlerin istedikleri her şeyi inşa etmelerine izin vermek ve sonra bunu internete atmak ve bunun iyi olması değil. Bu, dünyanın böyle çalıştığı bir şey değil. Ve benim için, AI bu kategoride. Yani, eğer bir oyun yapıyorsanız, küçük bir oyuncak yapıyorsanız ve bunu açık kaynak yapıyorsanız, elbette, neden olmasın? Bu güzel, biliyorsun ama bunun gibi olmayan şeyler var. Her şey aynı değil. Her şey farklı. Yazılım önemlidir ve farklı yazılımlar farklıdır. Eğer bir video oyunu yapıyorsanız veya bir ofis yazılımı parçası yapıyorsanız ve bunu açık kaynak yapmak istiyorsanız, yani, kendinize bir iyilik yapın. Bu harika. Teşekkür ederim. Bu gerçekten güzel. Eğer silah platformları veya jeopolitik düzeni temelden alt üst edebilecek sistemler üzerinde çalışıyorsanız, AGI gibi, o zaman evet, bu gerçekten büyük bir şey ve böyle sistemlerin nasıl yayılacağı hakkında çok düşünmeliyiz. Eğer AI'yı ciddiye alıyorsak, AGI'nin mümkün olduğunu, ASI'nin mümkün olduğunu ve bunun açık kaynak şeylerden gelişebileceğini düşünüyorsak, bu, nükleer silahlar veya biyolojik silahlar geliştirmekle eşdeğerdir ve bunları herkesin kullanması için serbest bırakmakla eşdeğerdir. Bu bir yayılma sorunu. Bu çok, bu zor bir karar. Burada her olası cevap için mükemmel bir çözümüm olduğunu söylemiyorum ama bu büyük bir karar ve bu kararın herhangi bir nerd tarafından verilmemesi gerektiğini söylüyorum. Bu karar, biliyorsun, demokratik olarak seçilmiş hükümetler tarafından verilmelidir. Biliyorsun, demokratik olarak seçilmiş hükümet bu veya şu silah bilgisi parçasını serbest bırakmanın iyi bir fikir olduğunu düşünüyorsa, buna açığım, değil mi? Ama eğer Loheed Martin'deki bir adam, 'Nükleer silah planlarını yayınlayacağım' diyorsa, o zaman tüm resmi kararın sahibi kim? Bu kararı kimin vermesi gerektiğini düşünmüyorum ve bunun özel, hesap verilebilir olmayan aktörler tarafından verilmemesi gerektiğini düşünüyorum. >> Çünkü diğer taraf, özel aktörlerin bunu yapması ama açık kaynak yapmaması. Ama o zaman en azından, belirli bir kontrol var. Bir hükümetin, Sam Alman Musk ve birkaç kişi gibi insanları kontrol etmesinin daha kolay olduğunu düşünüyorum, aslında bilgisayarı olan herkesin kontrol edilmesinden daha zor. >> Evet, bu yayılma sorunu. Nükleer silah inşa etmek isteyen herkesin nükleer silah inşa etmesine izin vermektense, nükleer silahları inşa etme lisansına sahip birkaç şirketi kontrol etmek çok daha kolay. Ve bu zaten nasıl yaptığımız. Nükleer silahlar büyük ölçüde, biliyorsun, yüklenici firmalar tarafından inşa ediliyor, biliyorsun, çeşitli ekipmanları ve makineleri inşa eden, uranyumu ve plütonyumu rafine eden yüklenici nükleer şirketler var. Ve biliyorsun, bazıları devlet laboratuvarları, bazıları özel yükleniciler ve bu çok daha kolay kontrol edilebilir. Yani, kimseye bunu yapmasına izin vermiyoruz ve sonra hükümete nükleer silah satmasına izin vermiyoruz. Bu çılgınca olurdu. Ve burada benzer bir durum olduğunu düşünüyorum, elbette bir spektrum var. Yani, Linux çekirdeği üzerinde ihracat kontrollerü olmalı mı?"
   },
   {
     "start": 2262.3,
@@ -229,7 +236,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI control",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Birçok görev için faydalıdır, değil mi? Um, sorun, onların değer sağlama veya faydalı olma sorusu değil. Sorun, geri dönmeyi ne kadar zorlaştırdığımız. Ve bunun büyük bir maliyet olduğunu düşünüyorum ve bu kararın yine özel şirketler tarafından verilmemesi gerektiğini düşünüyorum. Temelde, burada sorun, biliyorsun, Meta'nın bu seçimi yapması değil. Sorun, Meta'nın bu seçimi yapmasına izin verilmesidir. Özel aktörlerin bu büyüklükteki seçimleri yapmalarına izin verilmemelidir. Şimdi, aslında Llama'nın AGI'den çok uzakta olduğu ve muaf olması gerektiği konusunda tartışabiliriz. Bu argümana açığım. Yani, bence kısıtlamaların ne zaman devreye gireceği konusunda bir argüman yapılabilir, değil mi? Ve biliyorsun, belki Llama sınırın üzerinde. Belki de bence bu iyi bir tartışma. Bu tartışmayı yapmıyoruz. Yani, bu olan biten değil. Kimse sınırın nerede olduğunu bile konuşmuyor. Sadece hiç sınır yok gibi. Avrupa'daki AI yasasıyla ilgili olarak, başlangıçta flops miktarı ve benzeri şeyler hakkında konuşuyorlardı ve bazı sınırlamalar vardı ama onaylandığında, temel sistemle zaten bunun altındaydık. Yani bu da mantıklı değildi çünkü bir AI eğitmenin gücü, ne kadar tehlikeli olduğu ile doğrudan ilişkili değil çünkü günümüzde çok basit bir AI ile bir robot yapabilir ve sokakta insanları vurabilir. Yani, gerçekten büyük olması gerektiği anlamına gelmiyor. Yani, evet, bu, düzenlemelerle ilgili gördüğüm ana sorun. Ne hakkında konuştuklarını bilmiyorlar. Yani, günün sonunda, senin gibi insanların bu karar komitelerine katıldığını ve uzmanlıkları olduğunu düşünsem, ama gerçek şu ki, elimizde bir grup politikacı var."
   },
   {
     "start": 2591.4,
@@ -258,7 +266,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI regulation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Onlar birçok görev için faydalı, değil mi? Sorun, onların değer sağlayıp sağlamadığı ya da faydalı olup olmadığı sorusu değil. Sorun, geri dönmeyi ne kadar zorlaştırdığımız. Ve bunun büyük bir maliyet olduğunu düşünüyorum ve bu kararın özel şirketler tarafından verilmemesi gerektiğini düşünüyorum. Temelde, burada sorun, Meta'nın bu seçimi yapmasına izin verilmesi. Özel aktörlerin bu büyüklükteki seçimleri yapmalarına izin verilmemeli. Şimdi, aslında Llama'nın AGI'den o kadar uzakta olduğu ve muaf olması gerektiği konusunda tartışabiliriz. Bu argümanı kabul etmeye açığım. Yani, kısıtlamaların ne zaman devreye gireceği konusunda bir argüman yapılabileceğini düşünüyorum, değil mi? Ve belki de Llama sınırın üzerinde. Belki de bu iyi bir tartışma. Ama bu tartışmayı yapmıyoruz. Bu, olan şey değil. Hiç kimse sınırın nerede olduğunu bile konuşmuyor. Sanki hiç sınır yok. Avrupa'daki AI yasasıyla ilgili olarak, başlangıçta flops miktarı ve benzeri şeyler hakkında konuşuyorlardı ve bazı sınırlamalar vardı, ama onaylandığında, temel sistemle zaten onun üzerinde olduk. Yani bu da mantıklı değildi çünkü bir AI eğitmenin gücü, ne kadar tehlikeli olduğu ile doğrudan ilişkili değil çünkü günümüzde çok basit bir AI ile sokakta insanları vurabilen bir robot yapabilirsiniz. Yani tehlikeli olması için gerçekten büyük olması gerektiği anlamına gelmiyor. Yani, evet, bu, düzenlemeyle ilgili gördüğüm ana sorun. Ne hakkında konuştuklarını bilmiyorlar. Yani, günün sonunda, sizin gibi insanların bu karar komitelerinde yer alması ve uzmanlıklarının olması gerekirdi ama gerçek şu ki, elimizde bir grup politikacı var."
   },
   {
     "start": 2694.4,
@@ -287,7 +296,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI governance",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Sadece yeniden seçilmek için çabalıyorlar ve kararları, kendilerine söylenenlere dayanarak alıyorlar. Bunu dünyanın her yerinde görüyoruz ve Mark Zuckerberg'in karar vermesinin daha iyi olup olmadığını bilmiyorum. Mark Zuckerberg, Ursula Bonder veya diğerleri kadar bilgiye sahip değil. Sonuçta, hükümetin tepki vermesi ve ne yapacağına karar vermesi gerektiğini anlıyorum. Özel şirketlere gittiğinizde, onları yönetmek daha kolay çünkü onlara güvenebilirsiniz ve aksi takdirde dava açabilirsiniz. Ama sonuçta, sorun yönetişimde. Karar verme şeklimizde bir sorun var. Neden yapay zeka güvenliği hakkında, nükleer enerji konusunda olduğu gibi bir komitemiz yok? Bilim insanlarının kararlar almasına izin verildiği bir komite. Peki, sizce bu neden böyle? Ekonomik bir çıkar mı var? >> Yani, burada konuşmak istediğim üç şey var ve politikacılara tam olarak dalmadan önce biraz bahsetmek istiyorum çünkü bu gerçekten önemli bir konu."
   },
   {
     "start": 3235.3,
@@ -316,7 +326,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI economics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Bu çılgınca. >> Ama bir adım geri atalım. Bu gerçekten çılgınca. Bu insanlar en yüksek maaşları almalı >> çünkü en iyi oyuncuları istiyoruz. >> Dünyadaki en iyi kişinin benim başkanım olmasını istiyorum. Şaka mı yapıyorsun? Ya da başbakan, neyse, en yüksek maaşı almalı. Elbette almalı, bu kadar önemli insanlar, bu işi en iyi şekilde yapacak insanlara ihtiyacımız var. Bunun bir örneği, Singapur'dur. Singapur'da hükümet işleri özel sektöre göre belirleniyor. Bu yapılacak en mantıklı şeylerden biri. Eğer hükümette çalışıyorsanız, en iyi özel sektör pozisyonunda çalıştığınız kadar para kazanabilirsiniz >> bu da sizi orada çalışmaya teşvik eder, özel sektörde değil. >> Kesinlikle. Singapur'da, hükümetteki herkesle konuştuğumda, hepsi çok yetkin. Bu inanılmaz. Singapur hükümetiyle herhangi bir toplantıya gittiğimde, odadaki herkesin Cambridge, Oxford veya MIT eğitimi var ve hepsi süper yetkin, not alıyor, hemen harekete geçiyor ve işler yapılıyor. Bunu ilk gördüğümde çok şaşırmıştım çünkü batıda buna alışkın değildik. Politika yapıcılarımızın düşük maaşlı, niteliksiz olmasına alışkındık. Ama bu böyle olmak zorunda değil. Bu şekilde olmak zorunda değildi. 1950'lerde Amerika'da, çok yetkin insanların hükümete girmesi çok yaygındı. Hatta ünlü bilim insanlarının hükümette bir süre çalışması normal bir şeydi. Toplumunuza katkıda bulunmak isterseniz, en iyi bilim insanı olarak bir süre ofis için aday olurdunuz çünkü bilginizi toplumunuza katkıda bulunmak için kullanmak istersiniz. Sorun çok daha derin. Bireysel insanlara parmakla göstermek çok cazip."
   },
   {
     "start": 3975.7,
@@ -345,7 +356,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu politikacı bir aptal, bu adamı sevmiyorum"
   },
   {
     "start": 4802.4,
@@ -371,7 +383,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI ethics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "belki de öyledir, birçokları aptaldır. Ama birçokları da son derece kötü bir durumda en iyi şekilde yapmaya çalışıyor. Bu durumlarda iyi yetenek bulmak çok zor. Özel şirketler ve teknoloji şirketleri, diğer her şeyden yetenekleri çekmek için optimize oldu. Meta'da çalışan bu insanlar, hükümette çalışmalı. Eğer iyi bir medeniyet olsaydık, Meta'da yıllık 10 milyon dolar kazanan insanların yarısı, Amerika Birleşik Devletleri'ni daha iyi bir yer haline getirmek için hükümette 10 milyon dolar kazanmalıydı."
   },
   {
     "start": 4867.0,
@@ -400,7 +413,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI governance",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ">> Planlar yapması gerekiyor. İnsanları ödemesi gerekiyor. Deneyler yapması gerekiyor. Yani, yeterince akıllı ve güçlü bir yapay zeka, bir ütopya inşa etmek istiyorsa, bir şeyler yapması gerekiyor. >> Yetki sahibi olması gerekiyor. >> Yetki sahibi olması gerekiyor. Diğer bir şey de, herkes onlara bir şeyler vermeye çalışıyor. Bu, herkesin yaptığı şey. Şimdi bunu görüyoruz. Küçük bir örnek ama eğer cloud koduna bir şey uygulamasını söylersem, seçimler yapıyor, nasıl uygulayacağına karar veriyor. Sizin ona ne yapmasını söylediğiniz bağlamında seçimler yapıyor. Ama aslında, >> ama yine de çoğu zaman ne demek istediğimi yorumlaması gerekiyor. Bazen,"
   },
   {
     "start": 5898.1,
@@ -435,7 +449,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ah, kullanıcı muhtemelen bunu kastetti"
   },
   {
     "start": 6310.9,
@@ -464,7 +479,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI safety impact",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "diye düşünüyor ve sonra farklı bir şey yapmaya karar veriyor. Bazen doğru, bazen yanlış. Biliyor musun, daha önce Claude'a ne yapmasını istediğimi yanlış yazdığımda, yine de doğru yaptı çünkü"
   },
   {
     "start": 6929.2,
@@ -490,7 +506,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Civic action",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ah, kesinlikle kullanıcı bağlamı istemiyor, yazdıklarının harfi harfine değil."
   },
   {
     "start": 7081.2,
@@ -516,7 +533,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI risk engagement",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Tam olarak. Bu anlamda bu kelime sihirli geliyor. Bu, özel bir özellik gibi geliyor. >> Bilinç >> Bilinç, sihir gibi. Eğer insanlar sihirli özelliklere sahipse, bunun yapay zeka için geçerli olduğunu düşünmüyorum. Önemli olan, eylemde bulunma yeteneği, karar verme yeteneği, planları uygulama yeteneği. Yapay zekaların sihirli iç deneyimleri var mı? Bilmiyorum ve umursamıyorum. Bu, onların tehlikeli olup olmadığını belirlemek için alakasız. Karar vermek sihirli bir şey değil. Sadece eylemler alırsınız, bir algoritmayı uygularsınız."
   },
   {
     "start": 7146.2,
@@ -542,6 +560,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI engagement",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Şimdi batı ve demokrasi ve özgürlük dediğimiz şeyler, filozofların, idealistlerin ve devrimcilerin kafasında yer alan fikirlerdi ve bu fikirler dünyayı daha iyi bir yer haline getirdi. İnsan hakları fikri, birbirimize iyi davranma fikri, barış. Bunlar, önemli sosyal kültürel teknolojiler, koordinasyon teknolojileriydi. Kurucu babalar Amerika Birleşik Devletleri'ni kurduklarında, insanlık tarihindeki en çılgın deneylerden biriydi. Gerçekten oturup,"
   }
 ]

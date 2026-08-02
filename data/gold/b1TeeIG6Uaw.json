@@ -23,7 +23,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve bu onun için çok zor. Tüm bu toplantılardan önce bir brifing var. Birisi ona bir brifing kitabı veriyor ve diyor ki, \"Tamam, bu konuşacağımız şey. İşte politika seçenekleri. Hangisini istiyorsun?\" Karar vermesi gerekiyor. Bazen diğer insanlarla danıştığını biliyorum. Ama günlük olarak çok sayıda politika alanıyla gerçekten ilgilenmesi gerekiyor, çünkü aldığı kararlar esasen yasalaşıyor. Düşünmesi bile şaşırtıcı. Birine Çin'in ne kadar büyük olduğunu söyleyebilirsiniz—nüfusu, ekonominin büyüklüğü vb.—ama ziyaret etmek, ne kadar büyük olduğunu somut bir şekilde hissettiriyor. Her biri normal bir ulus-devlet kadar insan barındıran eyaletler var, yüz milyonlarca insanın yaşadığı eyaletler, 40 milyon ve benzeri. Bir kişi, bir toplantının sonunda, Kuzey ve Güney Amerika'nın nüfusunu belirleyen bir şey söyleyebilir. Toplantıların sonunda, konuşmalar sırasında, bu farklı politika alanlarını gerçekten iyi anladığını gösteren şeyler mi söylüyor?"
   },
   {
     "start": 1164.7,
@@ -49,7 +50,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Eğer Çin'e giderseniz, benim de okuduğum bazılarını okuyabilirsiniz. Onun gerçekten iyi bir siyasi sezgisi var. Parti bürokrasisini kontrol etmek, askeri kontrol etmek için nelerin gerektiğini biliyor. Özellikle ekonomik konularda, sanki bir danışman ona bazı konuşma noktaları veriyormuş gibi görünüyor ve o da bunları konuşuyor. Bu konuda bir his var. Teknoloji konularında ise bence çok ilgili, ama sadece Çin Komünist Partisi için Amerika Birleşik Devletleri ile rekabetin çok önemli bir hedef olduğu perspektifinden. Bu onun için kişisel olarak çok önemli bir hedef. Bu yüzden kazanmak istiyor. Ama tam olarak tüm karmaşıklıkları ne ölçüde anladığı... benim için belirsiz. Bunu mutlaka yaptığını düşünmüyorum. Ama onu özellikle bugün Amerikan liderleriyle karşılaştırdığımda, muhtemelen daha iyi hazırlanmış olduğunu düşünüyorum."
   },
   {
     "start": 1231.2,
@@ -75,7 +77,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Çin'de uzmanlar sürekli üst düzey liderlikle konuşuyorlar. Evet. Amerikan sisteminin avantajı, en azından teorik olarak, yeterli olmayan bir lideri hayatta tutabilmesidir. Tamam, şimdi Ding Xuexiang'a geri dönelim."
   },
   {
     "start": 1524.6,
@@ -104,7 +107,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Şimdi siber güvenlikten sorumlu bir Başbakan Yardımcısı. Bu yüzden bu adamın güvenilir olduğu açık. AI, AGI konusundaki tercihleri... Bu Davos konuşmasını tweetledim, sen de baktın. Bence bu çok açıklayıcı. Dediği şey, “AI'ye yatırım yapmalıyız, ama frenlerin ne olduğunu bilmeden tamamen yatırım yapamayız. Frenleri aynı anda geliştirmeliyiz.” Bence bu son derece açıklayıcı. Amerikan yaklaşımından çok farklı. Amerika'da her şey özel sektör tarafından yönlendiriliyor. Bir veya iki şirket dışında herkes sadece yatırım yapıyor ve AGI'ye mümkün olan en kısa sürede ulaşmaya çalışıyor. Çin hükümeti için, dışarıdan ama hatta Parti içinde bile bazı aktörlerin bunu Parti'nin gücünü ele geçirmek için bir araç olarak kullanacağından çok korkuyorlar. Bu yüzden, her şeyin durdurulabileceği bir yolun olduğundan emin olmak istiyorlar."
   },
   {
     "start": 1591.1,
@@ -139,7 +143,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Onlar için frenleri geliştirmek, AI'nın kendisini geliştirmek kadar önemlidir. AI hakkında nasıl düşündüklerini ve ne zaman olayların tırmandığını anlamak için hangi farklı organizasyonel kilometre taşlarını izlemeliyiz? Bu soruya daha fazla renk katmak için, gelecek yıl ham AI yetenekleri açısından ne olmasını bekliyorum, bilgisayar kullanan ajanlar olabilir. Sadece bir sohbet robotu değil, gerçekten sizin için gerçek işler yapabilen bir şey. Onu bilgisayarınıza salıyorsunuz ve e-postalarınızı tarıyor, vergilerinizi derliyor, vb. Beş yıl içinde, tüm beyaz yakalı işleri veya çoğu beyaz yakalı işleri yapabilmesini bekliyorum. Bu, ekonominin potansiyel olarak %40'ı. Sonunda, tam AGI'ye, hatta robotik ve benzeri şeylere sahip olacağız. Bu olurken, Parti'nin olan biteni nasıl düşündüğünü, bunu ne kadar ciddiye aldıklarını ve bununla ilgili ne yapmaları gerektiğini nasıl takip etmeliyiz? Bence birkaç hafta önce AI üzerine bir Politbüro çalışma oturumu vardı. Bunun AGI AI mı yoksa hangi tür AI hakkında konuştuklarını bilmiyorum."
   },
   {
     "start": 1655.8,
@@ -168,7 +173,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Özellikle AGI üzerine bir öncü grup aramalı mıyız? Sadece daha fazla konuşma okumaya mı çalışmalıyız? Neye dikkat etmeliyiz? Şu ana kadar, bunun siber güvenlik liderlik grubunun altında olduğu görünüyor. Yani Ding Xuexiang bununla ilgilenecek. Yeni bir grup olmayacak mı? Bunu sanmıyorum. Çünkü Parti için en önemli olan güvenlik yönü. Tüm endüstriyel üretimi otomatikleştirmek harika olurdu. Çin bu konuda zaten iyi bir iş çıkarıyor. Bunu yapabilmeleri için ek bir yönetim altyapısına ihtiyaçları olduğunu düşünmüyorum. Ama AGI veya AI'nın yönetime uygulanması, hatta hizmet sektörlerine—insanlar için video içeriği üretmek, seyahat acentesi işleri yapmak—gelince, Parti, Çin dışındaki bazı düşman aktörlerin—bunu çok güçlü bir şekilde düşünüyorlar—ya da Çin içinde birinin bir şey yapacağından ve AGI'nin patlayacağından ve Parti'nin otoritesini zayıflatacağından çok paranoid."
   },
   {
     "start": 1721.9,
@@ -200,7 +206,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI adoption",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Gördüğümüz kurumsal gelişim, üst düzeyde değil, alt düzeyde olacak. Tüm hükümet ajanslarında, AI veya AGI kullanan tüm ticari kuruluşlarda insanları belirlemek isteyecekler, eğer gerekirse frene basmak için. Ama şimdiye kadar, DeepSeek büyük bir mesele haline geldikten sonra, Çin'deki hemen tepkiler... Çok hevesli. Tüm büyük teknoloji şirketleri—WeChat, Tencent—herkesin bunu benimsemesi teşvik edildi. Ve bunu mümkün olan en hızlı şekilde benimsediler. Xi kendisi Liang Wenfeng ile bir araya geldi ve tüm sanayi liderlerinin bulunduğu bir toplantı yaptı. Xi, Çin'deki teknolojiyi hızlandırmaları gerektiğini söyledi, vb. Bu yüzden şimdiye kadar yanıtın, AI'nın yetenekleri arttıkça, bununla daha fazla heyecanlandıkları, bunun Çin'in büyüklüğünün başlangıcı olduğunu düşündükleri gibi görünüyor. Ama sen bunun bir noktada değişeceğini düşünüyor musun? Hayır, elbette bunu geliştirmek istiyorlar."
   },
   {
     "start": 1915.9,
@@ -241,7 +248,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI control and geopolitics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bence mevcut komut yapısını kullanıyorlar. Bunun potansiyel olarak bir yabancı yönü var. Körfez Ülkeleri'nde tüm bu bulut bilişim kapasitesini inşa ediyorsunuz. Müşteri kim olacak? Bunu kullanmak için milyarlarca dolar ödemeye istekli kim var? Çin, değil mi? O zaman dış politika aparatı bunu koordine etmek zorunda kalacak, vb. Kuşak ve Yol v2. Kesinlikle. AI'nın ilerlemesi için herhangi bir son etkisi var mı—bu öncü grupları kimin kontrol ettiği, kimin yetki alanına girdiği? Yoksa bu temelde bir detay mı? Çin'deki AI ile ilgili olan şeyler ne olursa olsun, bunun gerçekten bu kadar büyük bir etkisi var mı? Bence önemli. Bazı karar vericiler, kendilerini pek iyi göstermemişler—politika açısından pek iyi değil—ama yine de bir sebepten dolayı güveniliyor. Belki de tam olarak bu yüzden pek iyi değiller."
   },
   {
     "start": 2043.5,
@@ -270,7 +278,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AGI leadership",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu beş kez oldu. Eğer buradan geçmeye çalışırsanız, bu bir süre alır. Ama bu yeni, tarihi değil, değil mi? Oh hayır, evet, bu yeni. Bu arada, orada başka kimse yoktu. Ben, üç beyaz adam ve başka kimse yoktu. Başrahipe sordum, “Bunu nasıl finanse ettiniz?” Ve o da, “Birçok destekçimiz var, birçok bağış var.” Bunu düşünmüyorum, evet. O zaman gerçekten AGI'den kimin sorumlu olduğuna bağlı. Ding Xuexiang gerçekten bir muamma. Bence onun büyük bir siyasi sezgisi var. Xi Jinping'in güvenini kazanmak için bunu yapması gerekiyor. Biraz teknik geçmişi var, ama bu metalurjik döküm alanında. Ama on yıllardır Şanghay'da çalışıyor, bu yüzden özel şirketlerin nasıl çalıştığını biliyor. Uluslararası ticaret, doğrudan yabancı yatırım hakkında çok şey biliyor. Politbüro ve Politbüro Daimi Komitesi'ndeki insanlara bakarsanız, bence AI'dan sorumlu olmak için istediğiniz insanların kesinlikle en üst çeyreğinde, belki de en üst iki veya üç kişisinde."
   },
   {
     "start": 2179.6,
@@ -296,7 +305,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI applications",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu böyle olsa bile—eğer düşündüğünüz kadar iyi bir şey eğitirseniz—yine de her şeyi kontrol eden bir insan istemek isteyecekler. Parti'nin ne yaptığını gözlemlemeye çalışan biri olarak, LLM'leri kullanmanın faydalı olduğunu buldunuz mu? Eğer öyleyse, hangi model size CCP'nin ne düşündüğü hakkında en iyi içgörü veriyor? Evet, AI'yi oldukça fazla kullanıyorum. Hem veri kodlamak için—eskiden metin elle kodlanıyordu ve şimdi bunun çoğu otomatikleştirilebiliyor—ama Çin hükümetinin ne yaptığını bulmak açısından, bazı Amerikan modelleri fena değil. Grok fena değil. Ama en faydalı olanı DeepSeek oldu. Bana göre, DeepSeek—ki bu, elbette, Çin pazarında ticaret yapmak için ilk olarak bir hedge fonu tarafından geliştirildi—modelin önemli politika belgelerini ve Çin hükümeti içindeki toplantıları tespit etmek için gerçekten eğitildiği oldukça açık. Çünkü doğru istemleri girdiğinizde—özellikle karmaşık olmayan istemler gibi, “Çin hükümeti AI ile ilgili ne yapıyor?”—bir sürü çok kaliteli bağlantı çıkıyor, bu da araştırmam için çok faydalı. Hemen, en son politikaların, yüksek düzeydeki yetkililerin en son açıklamalarının ne olduğunu anlıyorsunuz. Görünüşe göre DeepSeek, bu tür içeriklere biraz daha fazla ağırlık veriyor."
   },
   {
     "start": 3434.8,
@@ -325,7 +335,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "China's social issues",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Birçok göçmen işçi zar zor geçiniyor. Evsizlik, özellikle işgücü piyasası bu kadar değişkenken, Çin'de giderek artan bir sorun. Yaşlı bakım hizmetleri oldukça kötü, birçok insan için çok temel bir seviyede. Herkes için böyle değil. Bazı insanlar, daha önce hükümette veya bir SOE'de çalıştıysa, çok iyi yaşlı bakım hizmetleri alıyor. Bu yüzden, Çin hükümetinin göz ardı ettiği birçok sorunu görüyorsunuz. Bu yüzden, tüm Çin halkını mutlu ve tatmin olmuş hale getirme hedefleri olduğunu söylüyorum. Bunun bir kısmı “tatmin olmuş” kısmı, teknoloji kısmı. Ama insanların iyi bir yaşam sürmelerine gerçekten yardımcı olma kısmında, gereken ilerlemeyi kaydedemiyorlar. Bu konuyu kapatmak için, bazen Made in China 2025 gibi şeyleri gördüğümüzde etkileniyoruz. NDRC ve MIIT'in “LIDAR bu seviyeye ulaşmalı” gibi çok spesifik hedefleri var, ya da"
   },
   {
     "start": 3499.4,
@@ -357,7 +368,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI effectiveness",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "\"Bu yıl EUV makinelerine ihtiyacımız var,\" ve benzeri. Ama senin iddian, sistemin o kısmının aslında işlevsiz olduğu ve aslında çalışan kısmın tamamen özel olan %5'lik kısım olduğu mu? Hayır, özel sektör işleri çok daha iyi çalışıyor. Devlet finansmanlı sistemden ara sıra başarılar çıkıyor. Başarı hikayesi yok demem. Ama her başarı hikayesinin yanında belki de bir düzine başarısızlık hikayesi var. Elbette, VC'de her yerde başarısızlık hikayeleri var, ama devlet finansman sisteminde israf edilen para çok daha fazla. Yerel hükümet borç yüküne geri dönersek, AI'nın büyük bir mesele olmadığı bir dünya var ve AI'nın büyük bir mesele olduğu bir dünya var. Eğer AI gerçekten ekonomik büyümeye büyük bir katkı sağlıyorsa, bu sorunun Çin'in rekabet etme yeteneğini anlamlı bir şekilde etkilememesi mümkün mü?"
   },
   {
     "start": 3629.9,
@@ -386,7 +398,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama çünkü oldukça zengin bir yerden başladılar, borcu çok fazla zorluk çekmeden ödeyebiliyorlar. Aslında, ticaret savaşı Zhejiang Eyaleti için durumu daha da kötüleştirecek, çünkü birçok üretim ve ihracat firması da Zhejiang'da. Yine de, Çin'in durumu, finansal sistemin Parti'nin önceliklerini yerine getirmeye yönelik olduğu, yani Xi Jinping'in önceliklerine yönelik olduğu. Yani, başka bir şey yapamasalar bile, Xi Jinping'in yapmak istediği şeyleri yapacaklar. Ve AI, görünüşe göre, Xi Jinping için daha yüksek önceliklerden biri. Birçok çalışma oturumu düzenledi, farklı Politbüro toplantıları yaptı ve en güvendiği yardımcılarından biri olan Ding Xuexiang bununla ilgileniyor. Bu nedenle, yerel borç durumuna bakılmaksızın buna önemli miktarda kaynak ayrılmasını bekliyorum. Aslında, yerel düzeyde işler o kadar kötü ki. Ama umursamıyorlar. Dört veya beş ay boyunca maaş almayan memurlar, öğretmenler var."
   },
   {
     "start": 3695.8,
@@ -415,7 +428,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI investment",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Düşünürsünüz ki, \"Böyle bir hükümeti nasıl yönetebilirsiniz? Çökmez mi?\" Ama dış seçeneklere bakmanız gerekiyor. Eğer bir öğretmenseniz, çok düşük seviyeli bir bürokratsanız, ne seçeneğiniz var? İnsanlara yemek dağıtmayı mı tercih edersiniz? Yoksa en azından altı veya yedi ay kamu hizmeti maaşı almayı mı? En azından sağlık hizmetiniz var. En azından her gün iş yerindeki kafeteryada ücretsiz öğle yemeği alıyorsunuz. İnsanlar hâlâ Çin hükümetinde çalışmayı seçiyor, durum böyle olsa bile. Daha önce çok cömert olan yan haklar ve benzeri, yerel borç sorunu nedeniyle kesildi. Yine de, ulusal savunmaya, AI'ya, teknolojiye çok fazla kaynak akıtıyorlar. Bu noktada bir çözüm neye benzer? Zaten bu kadar para harcadıysanız... Öncelikle, bu yatırımların neden verimli olmadığını neden? Bu, yaşlı insanlar için yaptığınız bir hak harcaması gibi değil ve sonunda bunun için herhangi bir geri dönüş almıyorsunuz. Teorik olarak, gerçek köprüler inşa ediyorsunuz, gerçek havaalanları inşa ediyorsunuz."
   },
   {
     "start": 4048.7,
@@ -441,7 +455,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "O, yerel düzeydeki çoğu düzenleyicinin patronu. Yani bir şey yapmak isterse, kendisine bir şekilde fayda sağladığı sürece her şeyin üstesinden gelebilir. Bu yüzden bunun farkı bu. Peki, bu sorunun çözümü neye benzer? Çünkü borç zaten GSYİH'nın %100'ünden fazla, bu zor. Elbette Çin hükümeti, mevcut haliyle bunu asla yapmayacak, ama gereksiz harcamaların çoğunu azaltmak: ulusal savunma, birçok sanayi politikası. Ve sonra tasarrufları sosyal yardım politikalarıyla iç talebi artırmak için kullanmak ve yerel hükümet borcunu kademeli olarak azaltmak. Bence bu ekonomik olarak mantıklı olur. Çin zaten dünyanın en büyük donanmasına sahip. Neden dünyanın en büyük donanmasından daha büyük bir donanmaya ihtiyaç duysun? Buna ihtiyacı yok."
   },
   {
     "start": 5174.0,
@@ -470,6 +485,7 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "economy",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "3x? 4x? 1x? Bence 1x veya 1.2x ABD ekonomisi. Hatta PPP ile mi? Evet. Bu PPP hesaplamalarına pek inanmıyorum. Gerçekten mi? İlginç. Neden? Çünkü kalite çok farklı. Bazı durumlarda, Çin'in kalitesi hâlâ daha kötü. Diğer durumlarda ise, ABD kalitesinden giderek daha iyi. Yani ben bir uzman değilim, ama enflasyonu kontrol ettiğinizde—yani reel gelir—bence ekonominin genel büyüklüğü ABD ile benzer olacak, belki 2040'a kadar biraz daha büyük. Ama zaten 1.1x veya 1.2x, değil mi? Hayır, bildiğim kadarıyla değil. Eğer PPP değilse ve sadece reel gelirse, bence ABD ekonomisinin yaklaşık %70'i kadar. Bu oldukça karamsar bir tahmin. Genellikle insanlar, Çin'in 2040'a kadar oldukça baskın olmasını bekliyor. Büyüme oranları zaten yavaşlıyordu. Şimdi ticaret baskısı ve benzeri var. Yavaşlayacak."
   }
 ]

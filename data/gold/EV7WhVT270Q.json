@@ -23,7 +23,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- %100. Kendimi düzeltmek istiyorum: LLM'leri kullanmamayı önermiyorum. Bunu birden fazla geçişte yapmayı öneriyorum. Bir geçiş sadece çevrimdışı, odaklanma modu ve sonra... Yani, notlar alıyorum ama hemen bir şeyleri araştırma isteğine karşı koymaya çalışıyorum. İkinci bir geçiş yapıyorum. Bu şekilde daha yapılandırılmış oluyor. Bazen bölümlerde cevaplar veriliyor ama bazen de sadece düşünmek ve sindirmek için zaman tanımak yardımcı oluyor. Diğer insanların farklı tercihleri var. Kitap okurken LLM'leri kullanmayı şiddetle tavsiye ediyorum. Benim için bu ilk şey değil; ikinci geçiş. - Benim önerim tam tersi. LLM'yi başta kullanmayı seviyorum, çünkü bu dünyaya adım attığımda tam bağlamı ortaya koyuyor. Ama LLM'den Twitter ve bloglar dünyasına geçmekten kaçınmaya çalışıyorum çünkü o zaman bir tavşan deliğine düşüyorsun. Birinin görüşünü okuyorsun. Belirli bir konu hakkında bir tartışma çıkıyor ve birden internetin ve Reddit'in dünyasına giriyorsun. Ama eğer LLM'nin sana bu konunun neden önemli olduğunu, büyük resim fikirlerini vermesine izin verirsen... Bazen kitaplar bunu iyi yapar ama her zaman değil."
   },
   {
     "start": 1483.1,
@@ -52,7 +53,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Sermaye gereksinimleri ve bunu yapmanın ne gerektireceği hakkında. Ve bunun bir iş olmasının nasıl mümkün olacağı hakkında. Bu riski almayı nasıl düşünebilirsin? Araştırmacıların, eğer tüm bu hesaplamaları alacaksak, neden bunu öğrenmeyeceğimiz bir projeye koyduğumuzu söyleyen kültürel bir durumu vardı. Neden bunu tüm bu projelere bölmeyelim? Bu her alanda oluyor. Ölçek için neredeyse her alanı inceledim ve her zorlu alanı veya bunu yapmama nedenini parçalara ayırıp bunları birer birer ele almaya çalışmak gerçekten önemli oldu. Bunu biraz zorlayacağım çünkü OpenAI ekibinin yıllar içinde yeni ürünleri ve sistemleri sürekli ölçeklendirebilen çok az insan var ama görünüşe göre sorun, insanların sahip olduğu tüm bu ön koşullandırma türü zihinsel modeller ve beklentiler. Ve senin de dediğin gibi, bazı şeyler kırılıyor. Ve genellikle en zor yeniden yapılandırılan şey, sistem tasarımının insan tarafı, insan uygulayıcılar veya insan katılımcılar varsa oluyor."
   },
   {
     "start": 1554.9,
@@ -78,7 +80,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM usage",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": ""
   },
   {
     "start": 1892.4,
@@ -107,7 +110,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Öncelikle, bu kadar çok ismi sayabildiğin için büyük takdir. LLaMA'yı gerçekten sen mi adlandırdın? - Hayır. - Bunu hissettim... - RIP. - Bu kasıtlı değildi. - RIP LLaMA. Tamam. Öne çıkan bazı ilginç modellerden bahsedebilir misin? Qwen 3'ün kesinlikle öne çıktığını söyledin. - Yani, yılın neredeyse hem DeepSeek V3 hem de R1 ile kapandığını söyleyebilirim. Diğer taraftan, Aralık'ta DeepSeek-V3.2 var. Çünkü bu modellerde hoşuma giden şey, her zaman diğerlerinde olmayan ilginç bir mimari değişikliği olmaları. Ama başka bir şey istiyorsan, tanıdık ama gerçekten iyi performans gösteren Qwen 3 ve Nathan'ın da dediği gibi gpt-oss-120b'yi tercih edebilirsin. Bunun ilginç olan yanı, aslında alet kullanımı düşünülerek gerçekten eğitilmiş ilk kamuya açık veya açık ağırlık model olması. Bu, ekosistemin tam olarak buna hazır olmadığı bir paradigma değişikliği olduğunu düşünüyorum. Alet kullanımı derken, LLM'nin web araması yapabilmesi veya bir Python yorumlayıcısını çağırabilmesi anlamında. Ve bunun öne çıktığını düşünüyorum çünkü bu büyük bir kilidi açıyor. Çünkü LLM'lerle ilgili en yaygın şikayetlerden biri, örneğin, halüsinasyonlar, değil mi?"
   },
   {
     "start": 3148.2,
@@ -136,7 +140,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI training costs",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu modellerin eğitim maliyeti, yüz milyonlarca kullanıcıya hizmet etme maliyetine göre gerçekten düşük. DeepSeek'in ön eğitim için bulut pazar oranlarında yaklaşık beş milyon dolarlık ünlü bir rakamı vardı. OLMo 3'te, makalede, eğitim için GPU kümelerinin ne kadar süre beklediğini detaylandırdık; bu mühendislik sorunları, birden fazla tohum içeriyor ve model eğitiminin tüm sıkıntılarıyla başa çıkmak için kümeyi kiralamanın maliyeti yaklaşık iki milyon dolardı. Yani bu modeller oldukça... birçok insan bir model eğitmek için bir ila on milyon dolar bulabilir, ama milyonlarca kullanıcıya hizmet etmenin sürekli maliyetleri gerçekten milyarlarca dolarlık hesaplama gerektiriyor. Binlerce GPU kiralamak için günde 100 bin dolar ödeyebilirsin. Ve bu şirketlerin milyonlarca GPU'su olabilir. Bu şeylerin ne kadar maliyetli olduğunu görebilirsin. Yani bu büyük bir mesele ve eğer ölçeklenme gerçekten daha iyi bir model veriyorsa, finansal olarak buna değer mi? Ve bence AI daha ilgi çekici görevleri çözdükçe bunu yavaş yavaş yayacağız, yani Claude Opus 4.5 gibi, Claude Code'un bir şeyler için çalışmasını sağlamak gibi. Ben, Temmuz'da Amerikan Gerçekten Açık Modelleri (ATOM) adında bir proje başlattım ve bu gerçekten bir vibe kodlu web sitesi gibiydi ve grafikler yapma işim vardı. Son birkaç haftada bunu yenilemek için geri döndüm ve Claude Opus 4.5 ile o zamanki herhangi bir model arasında, Haziran ve Temmuz'da yaşadığı tüm sorunları aşarak, daha büyük bir model olabilir. Bu konuda birçok şey var ama hala ilerleme kaydediliyor."
   },
   {
     "start": 4097.3,
@@ -162,7 +167,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Şu an için oyuncak örnekler. - Oyuncak örnekler, değil mi? Ama genellemek gerekirse, RL sonrası eğitim daha çok beceri kilidini açma gibi, ön eğitim ise bilgi edinme gibi. - Yardımcı olabilecek birkaç şey. Birçok insan sentetik veriyi modelleri eğitmek için kötü olarak düşünüyor. DeepSeek'in neredeyse... OCR, yani Optik Karakter Tanıma ile nasıl başardığını söyledin. Birçok laboratuvar bunu yaptı. Ai2 bir tane yaptı, Meta'nın birden fazla vardı. Her bir laboratuvarın bunu yapmasının nedeni, internette metinle kolayca kodlanmamış çok sayıda PDF ve diğer dijital belgelerin bulunması. Bu nedenle, bu Almost-OCR, DeepSeek OCR veya bizim adlandırdığımız Almost-OCR'yi kullanarak ön eğitim için aday verilerin trilyonlarca tokenını çıkardık. Ön eğitim veri seti boyutu trilyonlarca tokenla ölçülüyor. Araştırmacılardan gelen daha küçük modeller beş ila on trilyon kadar olabilir. Qwen'in 50 trilyona kadar çıktığı belgelenmiştir ve bu kapalı laboratuvarların 100 trilyon tokena kadar gidebileceğine dair söylentiler var. Bu potansiyel veriyi elde etmek için çok büyük bir hunileri var ve aslında eğittiğiniz veri, bunun küçük bir yüzdesidir. Bu karakter tanıma verisi, bir laboratuvar için ön eğitimde sentetik veri olarak tanımlanır. Ayrıca, ChatGPT'nin şimdi harika cevaplar vermesi ve bu en iyi cevaplar üzerinde eğitim yapabilmeniz de sentetik veridir. Bu, erken ChatGPT'nin birçok halüsinasyon verisiyle çok farklıdır."
   },
   {
     "start": 5334.6,
@@ -191,7 +197,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI engagement",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Büyük Teknoloji'yi sevmeyen ve AI'yi bunun bir devamı olarak gören daha fazla insanla konuşmak benim için iyi olurdu. - Ve önerdiğin şeylerden biri, bahsettiğin antidotlardan biri, bu sistemde bir ajans bulmak. AI'nin hızla interneti ele geçirmesi karşısında güçsüz bir şekilde geri çekilmek yerine. AI'yi kullanarak bir şeyler inşa ederek, uygulamalar geliştirmek, inşa etmek... Birincisi, bu gerçekten sezgiyi geliştirmenize yardımcı olur, ama ikincisi, nasıl çalıştığını, zayıf noktalarının neler olduğunu anlamanızı sağladığı için güçlendiricidir. Bu, sesinize, \"Bu teknolojinin kötü bir kullanımıdır, bu da iyi bir kullanımıdır\" deme gücü verir. Ve o zaman sisteme daha bağlı olursun, böylece onu daha iyi anlayabilir ve tüketici olarak daha iyi yönlendirebilirsin. - Ajans hakkında getirdiğin bu noktanın iyi bir nokta olduğunu düşünüyorum. Bunu görmezden gelmek ve \"Tamam, bunu kullanmayacağım\" demek yerine, bence uzun vadede daha sağlıklı olanı \"Tamam, bu dışarıda. Geri alamam.\" demek. Nasıl en iyi şekilde kullanabilirim ve bu bana nasıl yardımcı olur? Ama burada endişelendiğim bir şey var, eğer sadece sevdiğin bir şey için tam olarak kullanırsan, sevdiğin şey artık orada olmayabilir. Bu da potansiyel olarak, bence, tükenmişliğe yol açabilir."
   },
   {
     "start": 6452.6,
@@ -220,7 +227,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Belki de bunu biraz açmalıyız. RLHF'nin hala önemli bir bileşeni var. Son eğitimde başka hangi fikirler var? - Bunu sırayla alabilirsin. O1'i mümkün kılan şeyin ne olduğunu veya en son modelin ne olacağını görebilirsin. Ve aslında... Bu, ortada benzer müdahalelere sahip olacaksın, burada orta eğitimle başlıyorsun ve O1 ve benzeri modelleri mümkün kılan şey, gerçekten dikkatli veri kürasyonu. Burada, modelin bir problemi ara adımlara ayırarak çözmeye çalıştığı bir ileri süreçte kelimeler üretmesiyle, yani akıl yürütme izleri olarak adlandırılan geniş bir set sağlıyorsun. Yani orta eğitimde, bunu yapmak için benzer verilere sahip olmalısın ki, son eğitim aşamasına geçtiğinde, esasen bu doğrulanabilir ödüllerle öğrenebilsin. Ve bugün olan şey, modele hangi problemleri vereceğini ve ne kadar süre eğitebileceğini ve bu doğrulanabilir problemleri çözerken modelin ne kadar çıkarım yapmasına izin vereceğini belirlemektir. Modeller geliştikçe, belirli problemler artık... Model bunları %100 oranında çözecek ve bu nedenle bu tür algoritmalarda çok az sinyal var. GRPO denklemini incelediğimizde, bu, temelde ajana verilen ödülün, belirli bir eylemin - bir eylem bir tamamlamadır - o aynı problem için diğer cevaplara göre ne kadar iyi olduğuna dayandığı için ünlüdür. Yani tüm problemler aynı cevabı alırsa, bu tür algoritmalarda sinyal yoktur. Bu nedenle, daha zor problemler buluyorlar, bu yüzden bilimsel alanlar gibi şeyler hakkında duyuyorsunuz, çünkü doğru bir şey elde etmek çok zor. Eğer bir laboratuvarınız varsa, sadece çok fazla token üretiyor veya çok daha zor yazılım problemleri. Yani sınır modelleri, daha fazla problem üzerinde eğitim yapabildiklerinde bu daha zor alanlara doğru itiliyor ve model bir seferde daha fazla beceri öğreniyor. RLHF ile bağlantısı, RLHF'nin modeller üzerinde hala bir tür son dokunuş gibi olmasıdır; bu, modelleri daha kullanışlı hale getirir, organizasyonunu veya stilini veya tonunu geliştirir. Farklı kitlelerle rezonansa giren farklı şeyler vardır; bazı insanlar gerçekten tuhaf bir modeli sever ve RLHF bu kişiliği etkinleştirmede iyi olabilir, bazı insanlar ise modellerin yaptığı bu madde işaretli liste şeyini sevmez, ama bu aslında bilgiyi hızlı bir şekilde ayrıştırmak için gerçekten iyidir. RLHF'deki bu insan geri bildirim aşaması, günün sonunda bunu modele koymak için gerçekten harika. Bu, ChatGPT'yi insanlar için bu kadar büyülü kılan şeydir. Ve bu kullanım aslında oldukça istikrarlı kalmıştır. Bu biçimlendirme, örneğin, modellerin matematik problemlerinde daha iyi hale gelmesine de yardımcı olabilir. Yani, stil ve biçimlendirme ile bir problemi yanıtlama yöntemi arasında çok yakın bir bağlantı vardır; bu nedenle RLHF, bir modeli matematikte daha iyi hale getirebilir, ancak bu doğrulanabilir alanlar, bunu yapmanın çok daha doğrudan bir sürecidir çünkü problemle daha anlamlıdır."
   },
   {
     "start": 6639.5,
@@ -249,7 +257,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Compute requirements",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "formülasyonu, bu nedenle hepsi bir araya gelir. Ama özetlemek gerekirse, orta eğitim, modele öğrenmesi için ihtiyaç duyduğu becerileri vermektir. Doğrulanabilir ödüllerle RL, modele birçok kez deneme yapma imkanı verir, bu nedenle zor problemler üzerinde deneme-yanılma öğrenimi için çok fazla hesaplama yapar. Ve sonra RLHF, modeli bitirmek, kullanımı kolay hale getirmek ve modeli yuvarlamak gibidir. - RLVR için gereken hesaplama miktarı hakkında yorum yapabilir misin? - Sadece artmaya devam etti. Ilya Sutskever, ön eğitim ve son eğitim için benzer bir hesaplama miktarı kullandıklarını söyleyerek ünlü oldu. Ölçeklenme tartışmasına dönersek, ölçeklenme için çok farklı donanımlar içeriyorlar. Ön eğitim, çok hesaplama gerektiren bir süreçtir; bu, bir seferde ne kadar matris çarpımı yapabileceğinizle ilgili olan FLOPs tartışması gibidir. Ve RL ile yanıtlar ürettiğinizde, modeli gerçek dünya ortamlarında deniyorsunuz, bu nedenle uzun diziler ürettiğiniz için bellek açısından çok daha fazla gereksinim duyuyor. Dikkat mekanizmalarının bu davranışı, daha uzun dizilere geçtikçe bellek artışında kare bir artışa neden olur. Bu nedenle hesaplama çok farklı hale geliyor."
   },
   {
     "start": 9600.2,
@@ -278,7 +287,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ben kişisel olarak dil modellerinin onlara çok iyi bir bağlam sağlama yeteneğine daha fazla güveniyorum. Belki de çevrimdışı olarak, modellere \"Bende bu kadar bilgi var. Şu ana kadar yazdığım tüm blog yazıları burada. Bu tür bir yazmayı seviyorum. Sesim buna dayanıyor.\" diyerek kapsamlı belgeler yazabileceğinizi söylediniz. Ama birçok insan bunu modellere sağlamıyor ve modeller, daha önce bu kadar çok bağlam alacak şekilde tasarlanmamıştı. Ajanik modeller yeni başlıyor. Yani bu bir tür denge: Bu sürekli öğrenme şeyini kullanarak bu modelin ağırlıklarını güncellemeli miyiz, yoksa karşıt argüman, onlara daha fazla bağlam ve bilgi sağlamalıyız ve bu, çok fazla bağlam ve zeki görünerek hızlı öğrenme izlenimi verecektir. - Burada terminolojiyi belirtmeliyiz. Sürekli öğrenme, modelin yeni gelen bilgilere dayanarak sürekli, hızlı ve sık bir şekilde uyum sağlaması ve ayarlaması için ağırlıkları sürekli olarak değiştirmek anlamına gelir. Ve ardından, diğer tarafta bahsettiğiniz şey genellikle bağlam içinde öğrenme olarak adlandırılacaktır. Öğrenirken, büyük bir bağlam penceresi vardır. Sistemi her uyarımda ekstra bilgiyle yüklemeye devam edebilirsiniz; bu da bence her ikisi de meşru bir şekilde öğrenme olarak görülebilir."
   },
   {
     "start": 9681.7,
@@ -307,7 +317,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu, öğrenmenin yapıldığı farklı bir yer. - Size dürüst olmak gerekirse, sürekli öğrenme - ağırlıkları güncelleme - zaten farklı tatlarda mevcut. Eğer nasıl olduğunu düşünürseniz... Bence buradaki ayrım şu: bunu her kişi için kişiselleştirilmiş özel bir modelde mi yapıyorsunuz, yoksa bunu küresel bir model ölçeğinde mi yapıyorsunuz? Bunu zaten GPT-5'ten 5.1 ve 5.2'ye geçerken görüyoruz. Belki de hemen değil, ama bu, yapılamayan şeyler hakkında geri bildirim olan hızlı bir küratör güncellemesidir; topluluk tarafından geri bildirim alındı, ağırlıkları güncellediler, bir sonraki model ve devamı. Yani bu, bunun bir çeşididir. Daha ince bir örnek, RLVR; bunu çalıştırıyorsunuz, güncelleniyor. Sorun şu ki, bunu her kişi için yapamazsınız çünkü her kişi için ağırlıkları güncellemek çok maliyetli olur ve bence sorun bu. OpenAI ölçeğinde bile, veri merkezleri inşa etmek çok maliyetli olur. Bence bu, tüketicinin maliyetinin olduğu bir cihazda bir şeyler elde ettiğinizde ancak mümkün hale gelir. Apple'ın Apple Temel Modelleri ile telefonlarda bunu yapmaya çalıştığı gibi, deneyimden öğrenirler."
   },
   {
     "start": 10866.7,
@@ -336,7 +347,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Ve uzaktan çalışanların iyi bir tanım olup olmadığını bile bilmiyorum çünkü bu tam olarak nedir? Aslında, AI27 raporunun orijinal başlığını seviyorum. Kod ve araştırma zevkine daha fazla odaklanıyorlar, bu nedenle hedef süper insan kodlayıcı. Birkaç kilometre taşı sistemi var: Süper insan kodlayıcılar, süper insan AI araştırmacısı, ardından süper zeki AI araştırmacısı ve ardından tam ASI, yapay süper zeka. Ama süper insan kodlayıcıyı geliştirdikten sonra, diğer her şey hızla takip ediyor. Orada, araştırma yapmak için gereken her türlü kodlama tamamen otomatikleştirilmiş. Ve buradan, insanlar o sistemle birlikte AI araştırması yapacak ve hızlı bir şekilde sizin için araştırma yapabilen bir sistem geliştirebilecekler. Fikir bu. Ve başlangıçta tahminleri 2027, 2028'di, şimdi bunu 2031'e (ortalama tahmin) üç ila dört yıl geri çektiler. Muhtemelen benim tahminim 2031'den daha ileri, ama en azından, yazılımı tamamen otomatikleştirmenin ne kadar zor olduğunu somut bir şekilde düşünebilirsiniz."
   },
   {
     "start": 11090.5,
@@ -365,7 +377,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Nereye gittiğini tahmin etmenin zor olduğunu düşünüyorum, ama o geleceğin parlak netliği, dünyanın en güçlü insanlarının buna bu kadar çok para yatırmasının nedenidir. Ve bence, ChatGPT'nin daha iyi bir versiyonunun ne olduğunu gerçekten bilmiyoruz, ama aynı zamanda, AI araştırmasını otomatikleştirip otomatikleştiremeyeceği de belirsiz. Bunu bu zaman diliminde yapabileceğini sanmıyorum. Büyük teknoloji, otomatik bir AI araştırmacısını mümkün kılacak bir AI araştırma tekilliği elde etmeden çok daha hızlı 100 milyar dolar harcayacak. - Yani tahminin, bu, yararlı bir kilometre taşıysa veya 10 yıldan daha fazla bir süre içinde mi? - Yazılım tarafında bunun daha az olduğunu söyleyebilirim, ama araştırma gibi şeylerde daha uzun süreceğini düşünüyorum. - Eğlence için, tüm yazılım yazımının tamamen otomatikleştirildiği bir dünyayı hayal etmeye çalışalım. O dünyayı hayal edebiliyor musun? - Bu yılın sonuna kadar otomatikleştirilecek yazılım miktarı o kadar yüksek olacak ki. Ama bu, RL ile bir modeli eğitmeye çalışmak gibi olacak ve birden fazla GPU grubunun birbirleriyle iletişim kurması gerekecek. Bu hala zor olacak, ama çok daha kolay olacak."
   },
   {
     "start": 11325.8,
@@ -400,7 +413,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Bence daha ara bir örnek olarak Slack veya Microsoft Word gibi bir şeyi ele alabiliriz. Eğer organizasyonlar buna izin verirse, yapay zeka çok kolay bir şekilde uçtan uca özellikler uygulayabilir ve denemek istediğiniz şeyler için oldukça iyi bir iş çıkarabilir. Slack'te kullanmak istediğiniz yeni bir sekme eklemek istiyorsanız, bence yapay zeka bunu oldukça iyi bir şekilde yapabilecektir. - Aslında bu gerçekten harika bir örnek. Buna ne kadar yakınız? - Bu yıl. - Görüyorsunuz, bilmiyorum. Bilmiyorum. - Üretim kod tabanlarının ne kadar kötü olduğunu bilmiyorum ama bence birkaç yıl içinde birçok insan daha çok bir tasarımcı ve ürün yöneticisi olmaya itilecek. Bu, sizin için şeyleri deneyebilen birden fazla ajanın olduğu bir durum olacak ve bir özelliği uygulamak veya bir hatayı düzeltmeye çalışmak bir ila iki gün sürebilir. Ve bu panolar var, bence Slack aslında iyi bir pano, burada ajanlar sizinle konuşacak ve siz de geri bildirim vereceksiniz. Ama mesela, bir web sitesi yaparsam, \"Geçerli bir logo ister misiniz?\" gibi şeyler, bu uyumlu tasarım unsurları ve stil, modeller için çok zor olacak ve bir sonraki sefer ne ekleyeceğinizi belirlemek de öyle."
   },
   {
     "start": 12449.2,
@@ -429,7 +443,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "LLM capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Bir Llama 5 olduğunu mu düşünüyorsun? - Açık ağı olan bir tane değil. - İlginç. Bence Llama, açık ağı olan modelin öncüsüydü. Llama 1, 2 ve 3 ile çok fazla sevgi vardı. Ama sonra, varsayımlarda veya spekülasyonlarda bulunursak, Meta'daki liderlerin, üst düzey yöneticilerin, Llama'nın toplulukta ne kadar popüler olduğunu gördüklerinde çok heyecanlandıklarını düşünüyorum. Ve sonra sorun, açık kaynakları paraya dönüştürmeye çalışmak ya da açık kaynakları paraya dönüştürmemek değil, ama daha büyük bir etki yaratmak için kullanmak oldu. Bu, benchmarkların üstünde olmak için çok büyük Llama 4 modelleri geliştirmek gibi zoraki bir his veriyordu. Ama bence Llama modellerinin amacı, benchmarkların üstünde olmak değil, insanların kullanabileceği, güvenebileceği, değiştirebileceği ve anlayabileceği bir model olmaktı. Bu da daha küçük modelleri içermeyi gerektiriyor. En iyi modeller olmak zorunda değiller. Ve olan şu ki, bu modeller elbette... benchmarklar, belirli tercihler üzerine eğitilmiş modeller olduğu için daha iyi olduklarını öne sürdü, böylece benchmarklarda iyi performans gösterdiler. Bu, en iyi olmak için zorlamak gibi bir aşırı uyum durumu. Ama aynı zamanda, insanların kullanabileceği küçük modelleri yapmadılar. Ve bence kimse bu büyük modelleri çalıştırmadı. Sonra da garip bir durum oldu. Bence bu, insanların başlıkların sınırları zorlaması konusunda çok heyecanlanmasından kaynaklanıyor. Bence mesele bu."
   },
   {
     "start": 13461.0,
@@ -458,7 +473,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "LLM development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Ama yine de, açık ağı olan herhangi bir modelin değerli bir model olduğunu söyleyebilirim. - Evet. Ve benim argümanım, lider bir konumda olmamız gerektiği. Ama bunu söylemek önemli çünkü AI ekosisteminde açık modellerin serbest bırakılmasını yasaklamayı düşünmemiz gerektiğini söyleyen sesler var. Ve eklemek gerekir ki, bu etkili bir şekilde, ABD'nin kendi büyük güvenlik duvarını yapmadan imkansızdır ki bu da çok iyi çalışmadığı biliniyor çünkü bu modellerin eğitimi için gereken maliyet, bir ila yüz milyon dolar arasında değişiyor ve bu, dünyada etki sahibi olmak isteyen birçok insan için ulaşılabilir. Bu nedenle, bu modeller dünyanın dört bir yanında eğitilecek. Ve özellikle güvenlik endişeleri olsa da, bu bilgilerin ve araçların dünya genelinde ve ABD'ye serbestçe akmasını istiyoruz, böylece insanlar bunları kullanabilir ve öğrenebilir. Bunu durdurmak, internetimizin yeniden yapılandırılması anlamına gelir ki bu imkansız görünüyor."
   },
   {
     "start": 14147.9,
@@ -487,7 +503,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Jensen'den bahsettiğin için, tarih ve tarihteki tekil figürler hakkında çok şey okudum. Sizce tarih açısından tek bir adam/kadın bakış açısı ne kadar önemli? Bireyler, teknoloji sektöründeki tarih yönünü belirlemede ne kadar önemli? Yani, NVIDIA Jensen olmadan ne? Steve Jobs'u bahsettiniz. Apple, Steve Jobs olmadan ne? xAI, Elon olmadan ne? Ya da DeepMind, Demis olmadan ne? - İnsanlar işleri daha önce ve daha hızlı yapar, oysa bilimsel olarak birçok büyük bilim insanı, doğru zamanda doğru yerde olmanın ve yine de yenilik yapmanın önemini vurgular; sonunda başka biri de aynı fikri bulacaktır. Bu açıdan, Jensen'in bu GPU devrimini çok daha hızlı ve daha odaklı bir şekilde gerçekleştirmesine yardımcı olduğunu düşünüyorum. Ama yine de, ChatGPT gibi bir şeyin bir gün olacağını düşünüyorum ve böyle bir gelişim olacaktı ama muhtemelen bu kadar hızlı olmayacaktı. Bence bu, uygulanan bir tat gibi."
   },
   {
     "start": 14623.6,
@@ -516,7 +533,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Influence of Individuals",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Temelde bir Moore Yasası tartışması. CUDA ve GPU'ların detayları bile hatırlanmayacak, ne de olsa tüm bu yazılım karmaşası da. Sadece, açıkça, hesaplama olacak. - Genel olarak katılıyorum ama internetin bağlantısı ve hesaplama birleştirilebilir mi? Yoksa her ikisi de mi? - Bence internet muhtemelen iletişimle ilgili olacak. Bu bir telefon, internet veya uydu olabilir. Hesaplama ise daha çok ölçeklenme yönüyle ilgili. - İnternetin tamamen unutulması mümkün - internetin telefon ağlarına, yani iletişim ağlarına dahil edilmesi gibi. Bu sadece bunun başka bir tezahürü ve gerçek atılım, artan hesaplamadan ya da geniş anlamda Moore Yasası'ndan geliyor. - Bence insanların bağlantısı buna çok temel bir katkı sağlıyor. Yani, istediğiniz bir konuda dünyadaki en iyi kişiyi bulmak istiyorsanız, o kişi dünyanın bir yerinde. Ve bu bilgi akışının sağlanabilmesi - AIs de buna dayanacak."
   },
   {
     "start": 14933.7,
@@ -548,7 +566,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Compute/Chips",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bir merkezi modelin öldüğünü söylediğimde takıntılı hale geldim. Gelişen şey, insanların farklı görevler için birçok ajana sahip olması. İnsanlar zaten bunu farklı bulutlarla yapmaya başladılar. Bu, veri merkezinde her birinin yönetildiği ve birbirleriyle konuştuğu birçok AGI olarak tanımlanıyor. Ve bu, ağ bağlantısına ve bilgi akışına dayanıyor. Hesaplamanın üstünde. Ama ağ bağlantısı, özellikle GPU'larla, hesaplamanın ölçeklenmesinin bir parçasıdır. GPU'lar ve veri merkezleri birbirleriyle konuşmak zorundadır. - Sinir ağları hakkında hatırlanacak bir şey var mı? Yani, sinir ağlarının bir atılım olarak görüldüğü, insan zihnini çok kaba bir şekilde taklit ettiğiniz gerçeğiyle ilgili çok özel ve tekil bir şey olduğunu düşünüyor musunuz? İnsan beyninin yapısı, insan zihni? - Bence insan zihni olmadan muhtemelen sinir ağları olmazdı çünkü bu, bunun için bir ilham kaynağıydı. Ama diğer taraftan, bence bu çok, çok farklı. Yani, dijital ile biyolojik arasında, bunun muhtemelen bir algoritma olarak daha çok gruplandırılacağını düşünüyorum."
   },
   {
     "start": 15002.6,
@@ -589,6 +608,7 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI models",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve böyle bir şey bulmak istiyorsunuz. Ve eminim ki, bugün var olan ama otomatik kodlama döneminden önce hiç mümkün olmayan, tamamen bariz olmayan bir şey vardır ki bu, yakında çok trilyon dolarlık bir pazar olacak. Ve şu anda sadece dört şirket bunun üzerinde çalışıyor ama bunun ne olduğunu bilmiyorum. Bunun ne olduğunu bilmeniz çok daha olasıdır, benim bilmemden. Beynim OpenAI tarafından ele geçirilmiş gibi. Ama, birinin size çalışmanız için atayabileceği türde bir fikir muhtemelen istediğiniz şey değildir. Evet. Tamam, bu adil. Ama bence bu bir sistemler dersi olduğu için, belki de bir problemi düşünmek faydalı olacaktır ki bu, daha sonra sistemler perspektifinden o problemi çözüme dönüştürmek için kullanılan tekniklerin şeklinin uygulanmasını sağlayabilir. Ve 2014'te derste başlatmaya başladığınız bir kavram var ve yıllar içinde kamuya açık olarak konuştuğunuz, ölçek. Ölçek kendi canavarıdır. Miktarları, kendi kalitesidir."
   }
 ]

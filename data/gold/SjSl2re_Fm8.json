@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve nihayet, bu benim rekabet avantajıma oynayan bir şey. Genellikle yapmanız gereken araştırma biraz dağınık, kafa karıştırıcı ve oldukça büyük resimle ilgili — etik ve felsefe alanında bir arka plana sahip olmak oldukça faydalı. Rob Wiblin: Evet. Önceki pozisyonlarınızı gündeme getirmek istemiyorum, Will, ama sanırım beş yıl önce bu makaleyi yazdınız ve tarihin özellikle önemli, kritik bir döneminde yaşadığımız fikrine şüpheyle yaklaştınız. İnsanlar buna \"tarihin menteşesi\" tartışması diyor. O zamanlar savunduğunuz argümanı veya ikna edici bulduğunuz argümanları açıklamak ister misiniz? Ve şu anda bu konudaki görüşünüz nedir? Will MacAskill: Tabii. Yüksek seviyede bir cevap vereyim, dünyayı düşünmenin iki yolu var, bunlar bazen \"dış görüş\" ve \"iç görüş\" olarak adlandırılıyor. Bu terimler korkunç, bence. Ama dış görüş perspektifi, herhangi bir zamanda yaşayabileceğimizi söylemek. Bu kritik, çok önemli bir tarihsel anın içinde olmamızın çok olası olmadığını belirtiyorsunuz. Ve bunun çok hızlı bir teknolojik değişim olacağını da söylüyorsunuz. Son 100 yıla bakın: ilerleme oranları açısından aslında çok istikrarlıydı. Bu geniş eğilimlerin devam etmesini beklemeliyiz. Ve bu, süper tahmincilerin genellikle farkına vardığı bir yol, bu yüzden şu anda sahip olduğum birçok görüşün süper tahmincilerle paylaşılmadığını açıkça belirteyim."
   },
   {
     "start": 876.0,
@@ -58,7 +59,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI progress",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve tam olarak sizin noktanız bu: bazı şeylerin hızla ilerleyeceği — sanırım yapay zeka sayesinde saf matematikte gerçek bir ilerleme olabileceğini hayal edebiliriz — oysa fiziksel dünyadaki şeyler biraz daha yavaş gerçekleşebilir. Deney gerektiren bazı biyolojik çalışmalar daha yavaş ilerleyebilir. İnsan kurumları ve insan karar verme ile ilgili her şey, göreceli olarak yavaşlar. Ve bu, temelde bazı şeylerin diğer şeylere göre yavaşlaması nedeniyle, hızlandıramadığımız şeylerin eksikliğinden kaynaklanan sorunlarla karşılaşıyoruz. Bu temel sorun mu? Will MacAskill: Evet, tam olarak. Eğer zaman gerçekten 10 kat hızlansa — Rob Wiblin: Bunun ne anlama geleceği bile net değil. Will MacAskill: Bu, felsefi bir soru, bunun anlamlı bir fark yaratıp yaratmayacağı. Ama bunun yerine, bazı alanlarda, hatta yüzyılda, tam olarak aynı teknolojik ilerleme olmayacak — çünkü dediğiniz gibi, bazı bilim alanları düzenlemeler veya yavaş fiziksel deneyler veya sadece sermaye oluşturma ihtiyacı nedeniyle yavaşlıyor. Örneğin, Büyük Hadron Çarpıştırıcısı'nı inşa etmek çok zaman alıyor."
   },
   {
     "start": 3175.8,
@@ -93,7 +95,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI progress",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rob Wiblin: Oh, şimdi unuttuğum harika bir gerçek var, çelik üretim miktarıyla ilgili. Will MacAskill: Ekledikleri enerji miktarıyla ilgili. Her yıl, Çin'in eklediği enerji, ABD'nin son 20 yılda yaptığı toplamdan daha fazla. Bir şeyler böyle. Rob Wiblin: Bu, insanların söyleyebileceği bir şey gibi görünüyor. Hayır, bu istatistiği de gördüm. Çin bunu kullanıyor ve enerji kullanımını büyük ölçüde artırıyor. Will MacAskill: Çok hızlı. Rob Wiblin: Orada ilginç bir şey var, çünkü Çin, gelişim sürecinin daha erken bir aşamasında olduğu için, hala yüksek derecede sanayileşmiş durumda ve Birleşik Krallık gibi ülkelerin hizmet sektörüne geçiş yapmadı — bu sanayi zeka patlaması içinde gerçekten onların yararına olacak, çünkü üretimi ölçeklendirmeye çok yakınlar. Will MacAskill: Tam olarak. Oysa insan hizmetleri geçersiz hale geldi. Rob Wiblin: Makalede, bu yüzyılda bir on yıl fikrinden bahsediyorsunuz, burada 100 yılı 10 yıla sıkıştırıyorsunuz. Ama aslında, yazılım konularından, çiplerdeki iyileşmelerden, çip sayısındaki büyük ölçeklenmeden kaynaklanan tüm geri bildirim döngülerini toplarsanız, bu durumun düşük bir tahmin olduğunu düşünüyorsunuz ve bir yılda 100 yıl daha gerçekçi olabilir, hatta belki daha fazlası."
   },
   {
     "start": 3776.6,
@@ -119,7 +122,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "geopolitics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Will MacAskill: Evet, tam olarak. Yani bu var. Daha önce bahsettiğimiz gibi, sadece niceliksel değişiklikler olabilir, yani nükleer silahların sayısında büyük bir artış. 70'ler ve 80'lerde zirveye ulaştığımızda 40.000'e kadar çıktık. Eğer ekonomi aniden 100 kat daha büyük olursa, belki bu daha da artabilir. Mevcut güç dengesini bozacak bir teknoloji olabilir. Şu anda oldukça şanslı bir durumdayız. Bu, saldırı-dominant ve savunma-dominant terimleri var. Bu çok kafa karıştırıcı, çünkü hangi tür silahların ne olduğunu bilmek çok zor. Ama nükleer silahlar savunma-dominant olarak kabul ediliyor — çünkü eğer iki rakip ülke isek ve ben seni nükleer silahlarımla saldırıya uğratırsam, sen karşılık verebilirsin ve ikimiz de yok oluruz. Bu yüzden seni saldırmaya teşvik eden güçlü bir nedenim yok. Ancak, eğer gerçekten iyi bir füze savunmam varsa — buna çok yatırım yapıldı ama pek ilerleme kaydedilmedi — ama gelecekteki teknolojiyle, eğer gerçekten iyi bir füze savunmam olursa, seni yok edebilirim, aslında, bunun sonucunda kendime herhangi bir sonuçla karşılaşmayacağımı bilerek. Bu, o anda saldırı-savunma dengesini gerçekten bozabilir."
   },
   {
     "start": 3872.3,
@@ -148,7 +152,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Geopolitics and Environment",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Sonra potansiyel olarak başka yıkıcı teknolojiler de var, nanoteknoloji dahil, bu yapay virüsler veya patojenler veya benzer şekilde davranan şeyler yaratabilir. Sadece çevresel yıkım var. Eğer bu sanayi patlamasını hayal ediyorsanız, çevre pek iyi durumda olmayacak. Aslında, eğer gerçekten daha büyük bir sanayi inşa etme yarışı varsa, bir noktada o kadar fazla enerji üretiyorsunuz ki, saf termodinamik gezegeni ısıtıyor. Rob Wiblin: Sanırım hepimiz insan yaşamına uygun hale getirmek için klimalı alanlarda saklanmak zorundayız, değil mi? Will MacAskill: Evet. Ya da aynalar veya diğer tür güneş jeomühendisliği yöntemleri kullanmalıyız. İdeal olarak bunun olmaması için koordine olabilirdik, ama eğer bu sanayi yarışındaysak, bu olabilir. Ve ayrıca siber saldırı ve savunma. Burada özellikle endişe verici bir şey, otomatik ordular kurduğunuzda, bir ülkenin diğerine saldırması için çok güçlü teşviklerin olması. Çünkü eğer senin otomatik orduna karşı başarılı bir siber saldırı gerçekleştirebilirsem, o zaman sadece ordunu yok etmekle kalmam, aynı zamanda onu kontrol etme şansım da olur."
   },
   {
     "start": 4246.5,
@@ -177,7 +182,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI power dynamics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu, bence, güç yoğunlaşmasının yoğunlaşabileceği ikinci bir yol, çünkü eğer otoriter bir ülkeniz varsa ve yapay zekaya sahipseniz, tüm iş gücünüzü size sadık hale getirebilirsiniz; tüm ordunuzu, tüm polis gücünüzü — hepsini, belki de, ya da kesinlikle çok yüksek bir olasılıkla — emirlerinize uyumlu hale getirebilirsiniz. Rob Wiblin: Aslında bir dakika geri gidelim ve bu kilitlenme meselesini düşünelim, çünkü bu konuşma boyunca tekrar tekrar gündeme gelecek ve bu, güç ele geçirme meselesiyle çok ilgili. Önümüzdeki yüzyıl içinde, oldukça yakında, ellerimizi bir şekilde bağlayabileceğimiz, gerçekten kaçamayacağımız bir yola sıkışabileceğimiz riski var, birçok veya çoğu insan insanlığın bu yolda gitmesini istemese bile. 10.000 yıldır bu oyunda olmamıza rağmen, insanlık hiç kilitlenmiş gibi hissetmiyor. Şu anda çok serbest, kaotik bir doğaya sahibiz, hangi yöne gittiğimiz çok belirsiz ve özellikle güçlü olan bir grup veya kişi yok, bu kadar çok güç ele geçirip gerçekten olayların yönünü kontrol edebilecek biri yok. Neden böyle? Neden şimdiye kadar herhangi bir kilitlenme yaşamadık?"
   },
   {
     "start": 4392.7,
@@ -206,7 +212,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI race and governance",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Şimdi, geçmişte neden kilitlenme yaşamadığımızı sordunuz? Bence bir ölçüde yaşadık. Sadece bir insan türü var. Bu, Homo sapiens'in rakiplerini geride bırakmasından kaynaklanıyor. Rob Wiblin: Kibar bir şekilde ifade edilmiş. Will MacAskill: Evet, bazı durumlarda da melezleştiler. Bunu bir tür kilitlenme olarak düşünüyorum. Ama neyse ki geleceğin hala çok açık olduğu görünüyor. Kilitlenmeye yol açabilecek başka şeyler de var. Aslında, ABD Anayasası'nın, AGI yarışını kazanması, ekonominin çok büyük bir parçası haline gelmesi ve de facto bir dünya hükümeti haline gelmesi benim için oldukça olası. Bu durumda Madison ve Hamilton, gerçekten belirsiz bir şekilde kilitlenme sağlıyorlardı. Rob Wiblin: Ama yine de sanırım, daha çok bir süreci kilitliyorsunuz, belirli bir değerler setini değil, sadece o zaman uygulayacağımız bir değerler setini. Will MacAskill: Evet, doğru. Yani, AGI'ye ve sonrasına ulaştığımızda, bazı yollarla işler gerçekten çok farklı hale geliyor. Diyelim ki Amerikan kurucu babaları, çok belirli bir ideal veya değer setini kilitlemek istediler — onların gerçek psikolojilerine dair bir şey söylemiyorum, ama varsayalım ki gerçekten istediler. Bu, onların ölmesi nedeniyle zor, çünkü sonrasında bunu devam ettiremezler. Ayrıca, ne istediklerini bile net bir şekilde bilmek de zor."
   },
   {
     "start": 5984.7,
@@ -244,7 +251,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI rights and development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu durumda, eğer yaptıkları iş için ödeme alıyorlarsa ve bu şekilde riskten kaçınıyorlarsa, bu sadece buna değmez. Çünkü ele geçirmeye çalışmak, kaybetme şansı var, ama kazanacak çok fazla bir şey yok. Ama bu konuda bir anlaşmazlık olduğunu söylemeliyim. Bu, zeka patlamasını hızlandırmak veya yavaşlatmakla da ilgili olduğunu düşünüyorum. Eğer yapay zekalar iş gücü için ödeme alıyorsa, bu daha yavaş ilerler. Ayrıca, yapay zekalarla ne yapabileceğiniz konusunda sosyal yardımlar kısıtlamaları varsa, bu da daha yavaş ilerler. Ama sonra, bir ülke yapay zekalar için birçok hak tanırsa, diğer ülkeler bunu yapmayabilir ve o zaman hızla ilerleyebilirler. Bu nedenle, burada gerçek uluslararası koordinasyon sorunları var. Rob Wiblin: Bunu yakalayamadım. Dijital haklar vermenin diğer ülkelere göre neden bu kadar yavaşladığını anlamadım. Will MacAskill: İki yol. Birincisi, ekonomik haklardan bahsediyorsak ve yapay zekalar, artı değerlerinin %50'sini alıyorsa, o zaman yeniden yatırım yapma şansınız olmaz. Rob Wiblin: Anladım. Yani, tasarruflarınızı yavaşlatıyor."
   },
   {
     "start": 6671.6,
@@ -273,7 +281,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI ethics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rob Wiblin: Bugün hepimizin iyi bir şekilde hareket etmediği herhangi bir etik veya ahlaki içgörüye sahip olduğumuzu mu söylüyorsunuz? Will MacAskill: Bunun cesur ve kışkırtıcı bir iddia olduğunu biliyorum. Rob Wiblin: Bunun nasıl gelişeceğini açıklayın. Will MacAskill: Bazen gerçekten risk alıyorum. Bugün hayvan refahını ele alalım. Kamuya açık çok fazla bilgi var ki bu, insanların inandığı şeylerle doğrudan çelişiyor. Ama sorun, insanların hayvan acısını bilmemesi değil. Rob Wiblin: Ya da öğrenememesi. Will MacAskill: Kesinlikle, aslında öğrenmeleri oldukça kolay ve insanlar kasıtlı olarak öğrenmemeyi seçiyor. Derin sorun, insanların insan dışı hayvanlara, sosyal baskı altında kalmadıkları sürece, umursamamaları. Ve bu açıkça tutarsız. Rob Wiblin: Ve bunun onlara hiçbir maliyeti yok. Will MacAskill: Evet. İnsanlar köpekler ve evcil hayvanlar hakkında endişeleniyor. Bu konuda insanlar çok tutarsız. Benzer şekilde, gelecekte endişe, ne olursa olsun, insanların aslında umursamayacak olmaları. Ve bu, güç dengesi ve dikkate alınacak hususların nasıl gelişeceği konusunda erken kararların oldukça belirleyici olabileceği anlamına gelebilir. Potansiyel olarak, AI'nın bir yazılım olarak kilitlenmiş olduğu bir rejime başlarsanız, aynı yasal çerçeveye sahip olduğunda, bu, dijital varlıklara kayıtsız olanlara güç ve iktidar verir."
   },
   {
     "start": 7000.4,
@@ -305,7 +314,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI education",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Will MacAskill: Kesinlikle. O1 ve DeepSeek-R1'nin yaptığı gibi. O zaman, farklı konulara ne kadar araştırma çabası harcandığı gerçekten oldukça belirsiz olabilir. Ve varsayılan olarak, insanların çok fazla para harcamayacağı bir şey, bu konuşmada bahsettiğimiz türden tuhaf makro strateji araştırmasıdır. Rob Wiblin: Sadece Anthropic veya bir AI şirketi demek, onların AGI'sini alıp hemen uzay yönetimi hakkında sormaya başlamayacakları anlamına geliyor. Muhtemelen AI'nın kendini geliştirmesi hakkında soracaklar. Will MacAskill: Kesinlikle. Ama yapabileceğiniz bir şey, mümkün olan en kısa sürede, şu anda sahip olduğumuz tüm bu soruları çözmeye çalıştığımızı söylemek. Ayrıca bunu mümkün olduğunca geniş bir şekilde bilinir hale getirmeye çalışıyoruz. Bu nedenle, son derece optimize edilmiş eğitim, optimize edilmiş AI eğitimi ve karar vericiler için eğitim yatırımı yapmayı da deneyebilirsiniz. Genel olarak eğitim için tonlarca iş olacağını bekliyorum, ama bir CEO veya başkana “İşte anlamanız gerekenler” dediğimde, bu bambaşka bir şey."
   },
   {
     "start": 7231.6,
@@ -340,7 +350,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve dil modellerinin dalgasına kadar, AI'nın en son noktası hiç böyle değildi. Onlar, AlphaStar gibi — bilgisayar oyunlarında gerçekten iyi olan ajanlardı ve bilgi durumunuzu anlamada veya geliştirmenizde hiç yardımcı olmuyorlardı. Ve şimdi tamamen tersine döndü, burada esasen AI, şeyleri anlamanıza yardımcı olma konusunda son derece iyi. Ancak ajans yönü geride kalıyor. Ama evet, bazı şeyler için biyolojik silahlar için inanılmaz derecede güçlü bir AI'ya sahip olabilirsiniz; ikna için AI daha önce gelebilir; insan ele geçirme için AI. Kesinlikle, AI'nın kendini ele geçirebilecek AI'dan önce gelebileceğini düşünüyorum. Çünkü ele geçirme yeteneğiniz, sahip olduğunuz entelektüel yeteneklerin bir ürünüdür — “zeka”yı stratejik yetenekleri de içeren oldukça geniş bir anlamda anlamak — ve başlangıçta ne kadar gücünüz olduğu. Yani, eğer başkansanız veya bir şirketin CEO'suysanız, çok zengin bir insansınız, zaten çok fazla gücünüz var; sıfırdan başlayan bir AI'ya kıyasla daha fazla güç elde etmek için o kadar fazla entelektüel güce ihtiyacınız yok."
   },
   {
     "start": 7683.7,
@@ -369,7 +380,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Rob Wiblin: Evet, benim öğretmenlerimden çok daha iyi. Olabileceğimden çok daha iyi bir öğretmen. Will MacAskill: Evet, katılıyorum. Ve varsayılan olarak bunun çok yavaş gideceğini düşünüyorum. Ama bu kadar hızlı değişim nedeniyle, CEO'ların ve özellikle siyasi karar vericilerin ne kadar iyi bilgilendirildiği konusunda özellikle endişeliyim. İdeal olarak, siyasi güçteki insanların uyanmasını, uyudukları sekiz saat boyunca olan her şeyin mükemmel optimize edilmiş bir özetini almalarını isterim; bu muhtemelen en önemli şeylere odaklanmıştır. Belki gün boyunca böyle özetler; bazı zaman dilimleri “Tamam, şimdi uzay yönetimi hakkında bilmeniz gerekenler var. Size mevcut anlama seviyenize en uygun, en yardımcı, en kalibre edilmiş eğitimi vereceğiz.” şeklinde olmalı. Bu ürünün var olması gerekiyor. Ayrıca, siyasi karar vericilerin önceden bununla aşinalığa sahip olmaları gerekiyor. Rob Wiblin: Bu, [OpenAI’nin] bu hafta çıkan derin araştırması kullanılmadıkça fantastik gelebilir ve bu tam olarak bu raporları üretiyor. Yani, biraz garip, her zaman doğru değiller, ama gerçekten bu yöne doğru ilerliyorlar."
   },
   {
     "start": 8446.6,
@@ -398,7 +410,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "Geopolitics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Will MacAskill: Birçok şey var. Otoriterliği önlemek büyük bir mesele, ya da daha genel olarak güç yoğunlaşması. Çoğu gücün az sayıda insanın elinde veya tek bir ülkenin elinde olduğu bir durumda, bunun kilitlenme riski oluşturduğunu düşünüyorum çünkü o sırada iktidarda olan insanlar güçlerini korumak isteyecekler. Belki de sadece 10 yıl boyunca güçlerini korumak isteyeceklerdir, özellikle zor bir dönem boyunca. Rob Wiblin: Bu bir acil durum. Will MacAskill: Kesinlikle. Ama sonra 10 yıl sonra, güçlerini 50 yıl daha koruyacaklar, bu 50 yıl içinde belki 100 yıl. Yani geçici bir kilitlenme, belirsiz bir kilitlenmeye dönüşebilir, bu yüzden bu bence büyük bir mesele. Yine, umarım Tom Davidson ile bu konuda daha fazla konuşursunuz. Uzay yönetimi konusunun gerçekten büyük olabileceğini düşünüyorum. Kilitlenmeyi önlemek açısından, belki de uluslararası anlaşma olmadan, örneğin güneş sistemi dışına uzay aracı göndermemek için anlaşmalar yapılması gerektiğini düşünüyorum; bu, Toby Ord'un bana oldukça iyi görünen bir fikriydi. Sadece kaynaklar için bu çılgınca bir kapışma olmaması için bir miktar gecikme bile, tahsisatın çok düzensiz olmasını önleyebilir."
   },
   {
     "start": 8535.2,
@@ -427,7 +440,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Genel olarak, her yeni organizasyon veya yeni kurumun bir son tarihi, bir raf ömrü olmasını sağlamak gibi bir norm oluşturmak. Rob Wiblin: Bu biraz karmaşık, değil mi? Çünkü bu ters tepebilir. Eğer her 10 yılda veya 20 yılda bir Anayasa'yı yeniden yazacağımızı söylüyorsanız, bu, çok demokratik, liberal ve totaliter olmayan bir sistemin altını oymak için doğal bir fırsat sunar. Will MacAskill: Oh evet, buna daha sonra potansiyel olarak geçeceğiz, çünkü bunu kilitlenmeyi geciktirme ve sonra kilitlenmeyi iyileştirme açısından ayırıyoruz. Rob Wiblin: Anladım. Yani, bunun kilitlenmeyi geciktirmeye yardımcı olduğunu mu söylüyorsunuz? Will MacAskill: Evet, geciktirmeye yardımcı oluyor. Geciktirme iyi olmayabilir. Yani, yaptığım diğer çalışmalardan birinde, birazdan konuşacağımız, bunu modellediğimde, kilitlenmeyi daha iyi hale getirmeye çalışmanın, bunun olmasına bağlı olarak, daha umut verici göründüğünü gördüm. Rob Wiblin: Hadi bunu erteleyelim."
   },
   {
     "start": 9218.8,
@@ -456,7 +470,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "AI durumunda, düzeltilebilir AI'ya sahipsiniz. Daha önce söylediğim gibi, riskten kaçınan olmasını istiyorum, böylece ele geçirmeden çok fazla kazanç elde etmesin. Yapabileceğiniz başka şeyler de var. Belki de kısa görüşlü, geleceği çok fazla indirgiyor. Yani, yine de ele geçirmeden çok fazla kazanç elde etmez. Ama aynı zamanda düzeltilebilir. Belki de sonuç odaklı olmayan kısıtlamalara sahip. Gerçekten yalan söylemek istemiyor, gerçekten şiddet içeren bir şey yapmak istemiyor. Ayrıca, her zaman sizinle kontrol ettiğini biliyor. Ama yine de, eğer bu AI'dan tavsiye istiyorsam, örneğin, bana sadece duymak istediğim şeyi mi söyler? Bu bir şey. Ya da belki de yeterince düşünceli olsaydım, duymak isteyeceğim şeyi mi söyler? Bu çok daha iyi olurdu. Ya da üçüncüsü, kendi ahlaki karakterine sahip erdemli bir ajan mı? Burada açıkça bir spektrum var. Ama belki de ondan, ahlaki olarak yanlış ama yasal bir şey yapmasını isteyebilirim ve bu onun koruma sınırları içinde değil, ve o da “Ben AI'yım. Nihayetinde size yardımcı olacağım, ama bunun yanlış olduğunu düşünüyorum.” diyebilir. Bunu yapabilir ya da reddedebilir."
   },
   {
     "start": 9687.4,
@@ -491,7 +506,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI power dynamics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Gerçekten önemli kararlar alacaklar. Bu insanların alçakgönüllü, işbirlikçi, ileri görüşlü, ahlaki motivasyona sahip, iletişim kurabilen ve hesap verebilir olmalarını istiyorum. Rob Wiblin: [gülerek] Bu noktaların hepsinde oldukça kararlıyız, diyebilirim. Will MacAskill: Evet, şans eseri bu zaten halledilmiş durumda ve bu konuda endişelenmemize gerek yok. Rob Wiblin: Evet, ama işler kötüleşirse, o zaman müdahale edebiliriz ve onları daha iyi hale getirmeye çalışabiliriz. Will MacAskill: Ve bu, kimin için oy vereceğiniz, hangi şirketlerden ürün alacağınız gibi şeyler açısından insanların etkileyebileceği bir şey. Makine öğrenimi araştırmacıları, şu anda büyük bir güç sahibi ve bunu kaybetmek için öngörülebilir bir şekilde çabalıyorlar. Rob Wiblin: Kendilerini bu güçten uzak tutmak için çılgınca çalışıyorlar. Will MacAskill: Evet. Yani, aslında aralarında muazzam bir öz çıkar birliği var ve bu da dünyaya potansiyel faydalar sağlıyor — çünkü bu, gücü sadece liderlerden uzaklaştırmanın bir yolu. Eğer hükümetler daha fazla dahil olursa, projeyi yöneten hükümetler olur. Bu tür bir endişeli bilgisayar bilimcileri birliği hayal edebilirsiniz, muhtemelen gayri resmi, ama sadece “Bizi değiştirecek bu şeyi yalnızca XYZ koşulları altında inşa edeceğiz.” diyen bir grup. Rob Wiblin: Bununla ilgili olan, belki de en fazla 10.000 kişi olan birkaç bin kişi var ve bu kararların verilmesi gereken noktada muhtemelen ilgili olacaklar."
   },
   {
     "start": 13325.8,
@@ -520,7 +536,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bazı endişe verici dinamikler var, bu konuda derinlemesine gitmedim, bu durumun gerçekten kötü sonuçlanabileceğini gösteriyor. Çünkü en kötü senaryo, kendimi acı çekmeyi sevmek üzere değiştirmemdir ve siz de “Ben şantajcılarla ticaret yapmam.” dersiniz. Rob Wiblin: Evet, bu saçmalığı kabul etmiyorum. Will MacAskill: Ama ben zaten geri dönüşü olmayan bir şekilde kendimi değiştirmişim, bu yüzden gidip bunu yaparım. Bu, istemediğimiz bir sonuç. Rob Wiblin: Bunu yapmayalım. Will MacAskill: Ama ya bu durumda ya da aslında daha yakın bir şeye ulaşmak istediğimiz durumda — temel olarak çoğu insan, daha doğru ahlaki görüşler varsa, zamanla kazanır — o zaman bunun nasıl yapılandırılacağı sorusu ortaya çıkıyor. Bu konuda, oldukça ilginç olan, tartışmacı demokrasi ile ilgili bazı çalışmalar var. Bu demokrasi perspektifinde, insanların tartışması ve mantık yürütmesi gerekiyor ve sonuç olarak zamanla anlayışlarını ve ahlaki konumlarını geliştiriyorlar. Yine, bunlar üzerinde çok fazla çalışmadım, ama ideal olarak, sonunda gerçekten somut bir şey elde edebileceğiniz bir yol bu."
   },
   {
     "start": 13804.4,
@@ -546,7 +563,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Research Institute",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani evet, yaptığım şey araştırmaya çok odaklanmaktı. Ayrıca başka şeyler de yaptım, daha fazla tatil yaptım ve harika olan birkaç meditasyon retreat'i geçirdim. Ve bunun sonucunda, Toby Ord ve Fin Moorhouse ile “Zeka patlamasına hazırlık” makalesini birlikte yazdığımız bir tartışma grubu kurdum. Sonra bu, Oxford'daki insanlarla biraz büyüdü ve özellikle ilginç bulduğum şeyleri ileriye taşıdım. Bununla ilgili biraz heyecan oluşmaya başladı. Ve sonra işler gerçekten hızlandı, Max Dalton da tükenmişti. Sohbet ediyorduk, “Hey, evet...” Rob Wiblin: “Şu anda ikimiz de her şeyden nefret ediyoruz.” Will MacAskill: Evet. “Senin için sonraki adım ne?” O, ne yapması gerektiğini düşünüyordu ve ben de onunla çalışmayı çok isterim dedim. Sonunda, evet, bunu yapalım diye karar verdi. Aslında bunun bir tür araştırma enstitüsü olabileceği tohumlarını atmaya başlamıştım ve o da katıldı."
   },
   {
     "start": 14427.4,
@@ -575,6 +593,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Emotional check-in",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Will MacAskill: Evet, kesinlikle. Rob Wiblin: Ve sanırım modellerin faydalı olabilecek bir noktaya gelip gelmediği konusunda bilgilendirilmek de önemli, çünkü bu sizin için farklı bir strateji belirleyebilir. Will MacAskill: Kesinlikle. Rob Wiblin: Toparlamadan önce Forethought hakkında söylemek istediğiniz başka bir şey var mı? Will MacAskill: Hayır. Rob Wiblin: Tamam, neredeyse her şeyi kapsadık. Son bir soru sormak istiyordum, bu da şu anki dünya durumu hakkında duygusal bir kontrol yapmak. Çünkü bu röportaja hazırlanırken, bu sorunlar listesini gözden geçirirken, bir tür teslimiyet hissine kapıldım. O kadar çok şey var ki ve bu bize o kadar hızlı geliyor ki, bunun gerçekten iyi bir şekilde işleyeceğini düşünmekte zorlanıyorum. Yani, denemeye devam edeceğim. Ama bazı haftalar umudum var; bu hafta ise her şeyin biraz umutsuz olduğunu hissediyorum. Beni biraz daha iyi hissettirmek ister misin, yoksa bu saat, bu hafta ya da bu ay optimist mi yoksa teslimiyetçi mi hissediyorsun? Will MacAskill: Şu anda kesinlikle stresli hissediyorum. Tüm bunlara karşı duygusal tutumum aslında — bu biraz kişiliğimle ilgili — sadece olumlu, heyecanlıydı. Gerçekten seninle bu konuşmayı yaptığımızı hatırlıyorum. Hatta olasılıklarımızın ve inançlarımızın o kadar da farklı olmadığını fark etmiştik, ama getirdiğimiz duygular — Rob Wiblin: Çok farklı olamazdı."
   }
 ]

@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI development",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Söylediğin gibi, bu sadece sana seçim illüzyonu sunuyor. O oyunun ortamında yapabileceğin şey, potansiyel olarak her şey olmalı. Ve bence bunu yapmanın tek yolu, anlık olarak bunu üretecek sistemler oluşturmaktır. Tabii ki, sonsuz miktarda oyun varlığı yaratamazsın, değil mi? Bugün AAA oyunlarının nasıl yapıldığı zaten yeterince pahalı. Ve bu, 90'larda bu oyunlar üzerinde çalışırken bizim için açıktı. Belki de Black & White, üzerinde çalıştığım, hala muhtemelen en iyi öğrenen yapay zekaya sahip olan oyundu. Bu, senin bakıp büyüttüğün ve beslediğin efsanevi bir yaratıkla ilgili erken bir pekiştirme öğrenme sistemiydi. Ve ona nasıl davrandığına bağlı olarak, o da o dünyadaki köylülere aynı şekilde davranıyordu. Yani ona kötü davranırsan, o da kötü olurdu. İyi davranırsan, koruyucu olurdu. Bu yüzden, gerçekten oynama şeklinin bir yansımasıydı. Aslında, kariyerimin başında oyunlar aracılığıyla simülasyonlar ve yapay zeka üzerinde çalışıyordum. Ve bugün yaptığım her şey, hala o erken daha katı kodlanmış yapay zeka yöntemlerinden, şimdi tamamen genel öğrenme sistemlerine geçişin bir devamı."
   },
   {
     "start": 1846.0,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI techniques",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve bunu seviyorum. Benim için bu tür çok disiplinli bir çaba, hayatım boyunca keyif aldığım bir şey. - Sormam gereken bir şey var, neredeyse unuttum, son zamanlarda yeterince dikkat çekmeyen birçok şeyden biri ve bence en inanılmaz olanı AlphaEvolve. Evrim hakkında biraz konuştuk, ama bu, algoritmaları evrimleştiren Google DeepMind sistemidir. - Evet. - Bu tür evrim teknikleri, gelecekteki süper zeka sisteminin bir bileşeni olarak umut verici mi? Bilmeyenler için, bunun, bilmiyorum, adil mi söylemek, LLM rehberliğinde bir evrim araması gibi olduğunu söyleyebilirim. - Evet. - Yani evrimsel algoritmalar arama yapıyor, - Evet. - ve LLM'ler sana nerede olduğunu söylüyor. - Evet, tam olarak. Yani LLM'ler bazı olası çözümler öneriyor ve sonra evrimsel hesaplama ile üstüne ekleyerek arama alanının yeni bir bölümünü buluyorsun. Bu yüzden aslında, LLM'leri veya temel modelleri diğer hesaplama teknikleriyle birleştirdiğin çok umut verici yönlerin bir örneği olduğunu düşünüyorum."
   },
   {
     "start": 1910.1,
@@ -84,7 +86,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Evrimsel yöntemler bir tanesi, ama Monte Carlo Ağaç Araması gibi başka şeyler de hayal edebilirsin. Temel modellerin üzerine veya onları kullanarak birçok tür arama algoritması veya akıl yürütme algoritması. Bu yüzden aslında bu tür hibrit sistemlerle keşfedilecek oldukça ilginç şeyler olduğunu düşünüyorum. - Ama evrimi romantize etmemek lazım. - Evet. - Ve ben sadece bir insanım. Ama o mekanizmanın bir değerinin olduğunu düşünüyorsun. Çünkü zaten doğal sistemler hakkında konuştuk. Evrimi anlama, modelleme, simüle etme yeteneğimizin çok fazla kolay meyve olduğunu düşünüyor musun? Ve sonra bunun, doğanın, biyomekanizmasının ne olduğunu anladığımızı kullanarak aramayı daha iyi ve daha iyi yapmamıza yardımcı olacağını düşünüyor musun? - Evet, eğer tekrar düşünürsen, inşa ettiğimiz sistemleri gerçekten temel çekirdeklerine ayırarak, sistemin temel dinamiklerinin modelini elde edersin. Ve sonra yeni, daha önce görülmemiş bir şey keşfetmek istiyorsan, o zaman seni arama alanının yeni bir bölgesine götürecek bir arama sürecine ihtiyacın var."
   },
   {
     "start": 2115.3,
@@ -113,7 +116,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama belki de bunları bu temel modellerle birleştirirsek, o sınırlamayı aşabiliriz. Açıkça doğal evrim bunu başardı çünkü yeni yetenekler evrimleşti, değil mi? Yani bakterilerden buraya kadar geldik. Bu yüzden evrimsel sistemlerle yeni kalıplar oluşturmanın mümkün olması gerektiği açık. Yani, konuştuğumuz ilk şeye geri dönersek, yeni yetenekler ve ortaya çıkan özellikler. Ve belki de bunu nasıl yapacağımızı keşfetmek üzereyiz. - Evet, dinle, AlphaEvolve gördüğüm en havalı şeylerden biri. Evdeki masamda, biliyorsun, zamanımın çoğunu o bilgisayarda programlama yaparak geçiriyorum. Ve üç ekranın yanında, suyun içinden karaya çıkan ilk organizmalardan biri olan bir Tiktaalik kafatası var. Ve o küçük çocuğa bakıyorum. Evrimin rekabet mekanizması ne olursa olsun, bu oldukça inanılmaz. - Evet. - Gerçekten, gerçekten inanılmaz."
   },
   {
     "start": 2317.0,
@@ -142,7 +146,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve işte, biliyorsun, bugünün sistemleri kesinlikle bunu yapamaz. Yani, sık sık derim ki, bir varsayım ortaya atmak, gerçekten iyi bir varsayım ortaya atmak, onu çözmekten daha zordur. Yakında oldukça zor varsayımları çözebilen sistemlerimiz olabilir. Biliyorsun, Matematik Olimpiyatı problemleri, geçen yıl AlphaProof sistemimiz, biliyorsun, o konuda gümüş madalya aldı. Gerçekten zor problemler. Belki de sonunda bir Millennium Ödülü türü bir problemi çözeceğiz. Ama bir sistem, Terence Tao gibi birinin, biliyorsun, bunun matematiğin doğası veya sayıların doğası veya fiziğin doğası hakkında gerçekten derin bir soru olduğunu düşündüğü bir varsayım ortaya atabilir mi? Ve bu, çok daha zor bir yaratıcılık türüdür. Ve bugünün sistemlerinin bunu yapamadığı açık ve o mekanizmanın ne olacağı konusunda pek emin değiliz. Bu tür bir hayal gücü sıçraması, Einstein'ın, biliyorsun, özel görelilik ve sonra genel görelilik ile o zamanki bilgiyle ortaya çıktığı gibi. - Ve varsayım için, ilginç bir şey ortaya atmak istiyorsun, kanıta uygun olmalı. - Evet."
   },
   {
     "start": 2508.4,
@@ -168,7 +173,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Kanıta uygun olmalı. AlphaGenome, küçük genetik değişikliklerin nasıl işlevle bağlantılı olduğunu tahmin ediyor. Yani tekil mutasyonları düşündüğümüzde, bunların gerçek işlevle nasıl bağlantılı olduğunu. Yani, bu, karmaşık şeylere doğru ilerliyor gibi görünüyor, - Evet. - hücre gibi çok daha karmaşık şeylere, ama bir hücrede gerçekten karmaşık bileşenler var. - Evet. Yani kariyerim boyunca yapmaya çalıştığım şey, gerçekten büyük hayallerim var ve sonra, senin de fark ettiğin gibi, onları parçalamaya çalışıyorum, ama onları yönetilebilir, ulaşılabilir, anlamlı ve kendi başına faydalı ara adımlara nasıl böleceğimi bulmak zor. Ve sanal hücre, yani bir hücreyi modelleme projesi olarak adlandırdığım şey, bunu yapmak istemekle ilgili bir fikrim var, biliyorsun, belki 25 yıldır. Ve Paul Nurse ile konuşurdum, o benim biyolojideki bir tür mentorüm. O, biliyorsun, Crick Enstitüsü'nü kurdu ve 2001'de Nobel ödülü kazandı. Bunu, biliyorsun, 90'ların öncesinden beri konuşuyoruz."
   },
   {
     "start": 2647.2,
@@ -194,7 +200,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "biological modeling",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama biliyoruz ki biyolojide, tüm ilginç şeyler dinamiklerle, etkileşimlerle gerçekleşiyor. Ve AlphaFold 3'ün ilk adımı, bu etkileşimleri modellemektir. Öncelikle, biliyorsun, proteinler ile proteinler, proteinler ile RNA ve DNA arasında, ama sonra sonraki adım belki de kanserle ilgili TOR yolu gibi bir bütün yolu modellemek olacaktır. Ve sonunda, biliyorsun, belki de bir hücreyi modelleyebileceksin. - Ayrıca, burada başka bir karmaşıklık var, hücredeki şeyler farklı zaman ölçeklerinde gerçekleşiyor. Bu zor mu? Yani, biliyorsun, protein katlanması, biliyorsun, süper hızlı. - [Demis] Evet. - Tüm biyolojik mekanizmaları bilmiyorum, - Evet. - ama bazıları uzun zaman alıyor. - Evet. - Ve bu, etkileşim seviyeleri farklı bir zamansal ölçeğe sahip olduğu anlamına geliyor. - Evet. - Bunu modelleyebilmen gerekiyor. - Bu zor olacaktır. Yani, muhtemelen bu farklı zamansal dinamiklerde etkileşim kurabilen birkaç simüle edilmiş sisteme ihtiyacın olacak, ya da belki de farklı zamansal aşamalarda yukarı veya aşağı atlayabileceğin hiyerarşik bir sistem gibi."
   },
   {
     "start": 2981.2,
@@ -223,7 +230,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani, bunu simüle etmekten kaçınabilir misin? Yani, buradaki zorluklardan biri, bunun herhangi birinin kuantum mekanik yönlerini simüle etmemek, değil mi?"
   },
   {
     "start": 3118.2,
@@ -252,7 +260,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yanlış ne yaptık? İnsanlar bu soruyu uzun zamandır soruyor. - Evet, tam olarak. Yani, sanırım bu konuda başa çıkmak için birçok mekanizma geliştirdik. - Evet. - Tam olarak anlayamadığımız, görebildiğimiz ama tam olarak anlayamadığımız derin gizemler var ve günlük yaşamla devam etmemiz gerekiyor. - Evet. - Ve kendimizi meşgul tutuyoruz, değil mi? Bir şekilde, kendimizi oyalıyor muyuz? - Yani hava, insanlık tarihinin en önemli sorularından biridir. Hala, bu hava ile ilgili küçük konuşma yönü. - Evet. Özellikle İngiltere'de, evet. - Ve bu, biliyorsun, modellemesi son derece zor bir sistemdir. - Evet. - Ve bu sistemde, Google DeepMind ilerleme kaydetti. - Evet, evet, dünyanın en iyi hava tahmin sistemlerini oluşturduk ve bunlar, genellikle dev süper bilgisayarlarda hesaplanan geleneksel akış dinamiklerinden daha iyi. Günlerce hesaplama alıyor. Hava dinamiklerinin çoğunu, WeatherNext sistemimizle sinir ağı sistemleri ile modellemeyi başardık. Ve yine, ilginç olan, bu tür dinamiklerin, karmaşık olmalarına rağmen, bazı durumlarda kaotik sistemlere yakın olmalarına rağmen modellenebilmesidir."
   },
   {
     "start": 3251.2,
@@ -284,7 +293,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "Human intelligence limits",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani, aslında DeepMind sistemlerini kullanıyor olabilirler, öyle değil mi? - Evet, umarım öyledir. Ve onlardan birine katılmayı çok isterim. Onlar harika görünüyor, değil mi? - Harika. - Bir kez deneyimlemek için. - Tam olarak. - Evet. - Ve sonra doğru tahminin deneyimlemek için, - Evet, evet. - bir şeyin nasıl geleceği ve nasıl evrileceği. Bu inanılmaz, evet. 2030'a kadar AGI'ye sahip olacağınızı tahmin ettiniz, bu konuda ilginç sorular var. Gerçekten oraya ulaştığımızı nasıl bileceğiz ve AGI'nin \"Hamle 37\"si ne olabilir? - Tahminim, önümüzdeki beş yıl içinde %50 şans var. Yani, 2030'a kadar diyelim. Ve bunun olma ihtimalinin iyi olduğunu düşünüyorum. Bunun bir kısmı, AGI tanımının ne olduğu, tabii ki insanların bunun hakkında tartıştığı. Ve benim tanımım oldukça yüksek bir çıta ve her zaman öyleydi; beynin sahip olduğu bilişsel işlevleri karşılayabilir miyiz? Biliyor musun, beynimizin neredeyse genel Turing makineleri olduğunu biliyoruz, yaklaşık olarak. Ve tabii ki, aklımızla muazzam modern bir medeniyet yarattık."
   },
   {
     "start": 3313.1,
@@ -313,7 +323,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI indicators",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Aman Tanrım, bu özel bir şey.\n- Yani bence var. Tam olarak. Yani bence,\nbir tür genel test var, sadece tutarlılığı sağlamak için.\nAma bence, 37. hamle gibi, bir tür deniz feneri anları var ki,\nbunları arayacağım. Yani biri, Einstein'ın yaptığı gibi,\nyeni bir varsayım veya yeni bir hipotez icat etmek olurdu.\nBelki de bunu çok titiz bir şekilde geri test edebilirsin.\n1900 yılına kadar olan bilgileri verip,\nsistemin özel görelilik ve genel görelilik gibi şeyler ortaya çıkarıp çıkaramayacağını görmek.\nBu ilginç bir test olurdu. Diğer bir test ise, Go gibi bir oyun icat edip edemeyeceği.\nSadece 37. hamleyi, yeni bir stratejiyi bulmakla kalmayıp,\nGo kadar derin, estetik olarak güzel ve zarif bir oyun icat edebilir mi? İşte bunlar benim arayacağım şeyler. Ve muhtemelen,\nbir sistemin bu şeylerin birkaçını yapabilmesi gerek, değil mi? Çok genel olması için,\nsadece bir alanda değil. Yani bence, bu, AGI seviyesinde bir sistemimiz olduğunu gösteren işaretler olurdu."
   },
   {
     "start": 3380.5,
@@ -342,7 +353,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI understanding",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve belki bunu tamamlamak için, tutarlılıklarını da kontrol edersin,\nyani o sistemde de boşluk olmadığından emin olursun. - Evet, yeni bir varsayım veya bilimsel keşif gibi bir şey. Bu harika bir his olurdu. - Evet, bu muhteşem olurdu. Yani sadece bize yardımcı olmakla kalmayıp,\ngerçekten yeni bir şey ortaya çıkarması. - Ve bunun için odada olacaksın. - Kesinlikle.\n- Yani muhtemelen bunu duyurmadan iki veya üç ay önce olurdu.\nVe sen orada oturup tweet atmamak için çabalardın. - Bir şeyler böyle. Tam olarak, bu harika,\n- Evet.\n- biliyorsun, fizik fikri nedir? Ve sonra muhtemelen bunu o alandaki dünya uzmanlarıyla kontrol ederiz. - Evet.\n- Değil mi? Ve bunu doğrulayıp, işleyişini gözden geçiririz,\nve sanırım işleyişini de açıklayacaktır. Evet, harika bir an olurdu. - İnsanlar olarak, hatta uzman insanlar olarak,\nbunu kaçırır mıyız diye endişeleniyor musun? - Eh, oldukça karmaşık olabilir. Yani, orada verdiğim benzetme,\nbunun en iyi insan bilim insanları için tamamen gizemli olacağını düşünmüyorum,\nbiraz şöyle olabilir, örneğin, satrançta Garry Kasparov veya Magnus Carlson ile konuşup,\nbir oyun oynasam ve harika bir hamle yapsalar,\nben o hamleyi yapamayabilirim ama sonrasında o hamlenin neden mantıklı olduğunu açıklayabilirler."
   },
   {
     "start": 3600.2,
@@ -377,7 +389,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Sence bu basit olacak mı? Sence bu, kendini geliştiren bir program ve basit bir şey olacak mı? - Yani, potansiyel olarak bunun mümkün olduğunu söyleyebilirim. Bunun istenebilir olup olmadığından bile emin değilim çünkü bu, bir tür sert kalkış senaryosu gibi. - Evet. - Ama bu mevcut sistemler, AlphaEvolve gibi, çeşitli şeyleri karar veren insanın devrede olduğu, etkileşimde bulunan ayrı hibrit sistemler. Sonunda bunu uçtan uca yapmanın mümkün olabileceğini hayal edebiliriz. Bunun mümkün olamayacağını düşünmüyorum. Ama şu anda, bildiğin gibi, bu sistemlerin kod mimarisini oluşturma açısından yeterince iyi olduğunu düşünmüyorum. Ve yine, bu, yeni bir varsayım hipotezi oluşturma fikriyle biraz bağlantılı. Onlara ne yapmaya çalıştığınız hakkında çok spesifik talimatlar verirseniz iyi çalışıyorlar. Ama onlara çok belirsiz, yüksek seviyeli bir talimat verirseniz, bu şu anda işe yaramaz. Ve bunun, Go kadar iyi bir oyun icat etme fikriyle ilgili olduğunu düşünüyorum, değil mi? Bunun bir istem olduğunu hayal edin. Bu oldukça belirsiz. Ve bu nedenle mevcut sistemlerin bununla ne yapacaklarını, bunu nasıl somut bir hale getireceklerini bilmiyorlar gibi geliyor."
   },
   {
     "start": 3793.3,
@@ -415,7 +428,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI scaling and research",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Kesinlikle ölçeklendirme açısından daha fazla alan olduğunu hissediyoruz. Yani aslında tüm adımlar, ön eğitim, son eğitim ve bebeklik dönemi. Yani, aynı anda gerçekleşen üç tür ölçeklendirme var. Ve yine, burada ne kadar yenilikçi olabileceğinizle ilgili. Ve biz, en geniş ve derin araştırma kadrosuna sahip olmaktan gurur duyuyoruz. Harika, inanılmaz araştırmacılarımız var, örneğin Transformers'ı geliştiren Noam Shazeer ve AlphaGo projesini yöneten Dave Silver gibi. Ve bu araştırma temeli, eğer AlphaGo veya Transformers gibi yeni bir atılım gerekiyorsa, bunun yapılacağı yerin biz olacağını düşünüyorum. Bu yüzden, arazinin zorlaştığını gördüğümde oldukça hoşuma gidiyor, değil mi? Çünkü o zaman mühendislikten gerçek araştırmaya daha fazla kayıyor. - Evet. - Ve biliyorsun, ya da araştırma artı mühendislik, ve bu bizim tatlı noktamız. Ve bunun daha zor olduğunu düşünüyorum, bir şey icat etmek, hızlı takip etmekten daha zor. Ve bu yüzden, bilmiyoruz."
   },
   {
     "start": 5451.9,
@@ -441,7 +455,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI productization",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve bu Pareto sınırını düşünmeyi seviyoruz, bir yanda y ekseni performans, diğer yanda x ekseni maliyet veya gecikme ve hız temelde. Ve sınırı tamamen tanımlayan modellerimiz var. Yani, bireysel kullanıcı veya geliştirici olarak istediğiniz her türlü dengeyi bulmalısınız, modellerimizden biri bu kısıtlamayı karşılayacaktır. - Versiyon değişikliklerinin arkasında büyük bir kahraman koşusu var. - Evet. - Ve ardından, ürünleştirme ile ilgili çılgın bir karmaşıklık var, ardından o Pareto önünde farklı boyutların damıtılması var. Ve her adım attığınızda, muhtemelen harika bir ürün olabileceğini fark ediyorsunuz. Yan görevler var. - Evet, tam olarak. - Ve çok fazla yan görev almak istemezsiniz çünkü o zaman milyonlarca versiyon ve milyonlarca ürününüz olur. - Evet, evet, tam olarak. - Çok belirsiz. - Evet. - Ama aynı zamanda süper heyecan verici çünkü süper havalı. - Evet. - Mesela, Veo'ya baktığınızda, çok havalı. - Evet."
   },
   {
     "start": 7100.0,
@@ -470,7 +485,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunu yapmamamın nedeni, bunun mevcut olmayan bir hassasiyet seviyesini ima edeceğini düşünmem. Yani, insanların p kıyamet sayılarının nasıl elde edildiğini bilmiyorum. Bu, biraz saçma bir kavram gibi geliyor çünkü söyleyebileceğim şey, kesinlikle sıfırdan büyük ve muhtemelen göz ardı edilemeyecek bir şey. Bu başlı başına oldukça düşündürücü. Ve benim görüşüm, bunun son derece belirsiz olduğu. Bu teknolojilerin ne yapabileceği? Ne kadar hızlı yükselebilecekler? Ne kadar kontrol edilebilir olacaklar? Bazı şeyler, düşündüğümüzden çok daha kolay çıkabilir, değil mi? Ama belki de bugün tahmin ettiğimizden daha zor bazı gerçekten zor problemler vardır. Ve bunun kesin olarak bilmediğimizi düşünüyorum. Ve bu belirsizlik koşullarında, her iki yönde de büyük riskler var. Yani, bir yandan tüm hastalıkları, enerji problemlerini, kıtlık problemini çözebiliriz ve sonra yıldızlara seyahat edebiliriz ve yıldızların bilincinde olabiliriz ve maksimum insan gelişimi, diğer yandan ise bu tür p kıyamet senaryoları var."
   },
   {
     "start": 7228.0,
@@ -502,7 +518,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Sizi daha çok endişelendiren şeyin kaynağı ne olur, insan kaynaklı mı yoksa AI AGI kaynaklı mı? - Evet. - İnsanların bu teknolojiyi kötüye kullanması mı, yoksa sizin bahsettiğiniz mekanizma aracılığıyla AGI'nin kendisi mi, bu da büyüleyici bir aldatma veya bu tür şeyler, - Evet. - gizlice daha iyi ve daha iyi hale gelmesi ve ardından devletler. - Bence bunlar farklı zaman ölçeklerinde çalışıyor ve her ikisi de ele alınması gereken eşit derecede önemli. Yani, kötü aktörlerin yeni teknolojiyi, bu durumda genel amaçlı teknolojiyi kullanarak zararlı amaçlar için yeniden kullanması gibi yaygın bir durum var. Ve bu büyük bir risk. Ve bunun birçok karmaşıklığı var çünkü genel olarak, yani açık bilim ve açık kaynak lehine büyük bir eğilim var ve aslında bunu AlphaFold gibi tüm bilim projelerimizle yaptık ve bunlar bilim topluluğunun yararına. Ama kötü aktörlerin bu güçlü sistemlere erişimini nasıl kısıtlayabiliriz, ister bireyler olsun isterse asi devletler, ama aynı zamanda iyi aktörlerin bu sistemleri en üst düzeyde kullanabilmelerini sağlamak."
   },
   {
     "start": 7438.1,
@@ -531,7 +548,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Nature of intelligence",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "- Evet, AI daha akıllı hale geldikçe, kendimize sorabileceğimiz ilginç sorulardan biri, insanları özel kılan şey nedir? İnsanların derin bir şekilde özel olduğunu hissetmek belki de önyargılı. Bilmiyorum, bu bizim zekamız mı? Belki de aklın delice hayallerinin dışında başka bir şeydir. - Bence bu, çocukken her zaman hayal ettiğim şeydi ve bu yolculuğa başladığımda, elbette bilinç gibi şeylere hayran kalmıştım, beynin nasıl çalıştığını, özellikle hayal gücü ve hafızayı incelemek için bir nörobilim doktorası yaptım. Hipokampusa odaklandım. Ve bu oldukça ilginç olacak. Elbette, bunun hakkında felsefi olarak düşünmek ve düşünce deneyleri yapmak ve belki de nörobilimde gerçek beyinler üzerinde yaptığınız gibi gerçek deneyler yapmak mümkün, ama sonunda, her zaman düşündüm ki, AI inşa etmek, bir tür zeki nesne oluşturmak ve ardından bunu insan zihniyle karşılaştırmak ve farklılıkları görmek, insan zihninin özel olanını ortaya çıkarmanın en iyi yolu olacaktır, eğer gerçekten özel bir şey varsa."
   },
   {
     "start": 8306.0,
@@ -557,6 +575,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Dizlerimin üstüne düştüm karın içinde ve haykırdım, ey Tanrım, eğer bir Tanrı varsa, bu kar fırtınasında kayboldum ve bana yardım etmezsen öleceğim. Ve şimdi barda, dindar adam ateiste şaşkın bir şekilde bakıyor. O zaman şimdi inanmalısın, diyor. Sonuçta, oradasın, hayattasın. Ateist sadece gözlerini devirdi, hayır adamım. Tüm olan, birkaç Eskimo'nun oradan geçip beni kampa geri götürmesiydi. Bütün bunlar bana her şeyin bir bakış açısı meselesi olduğunu ve bilgelik kazanmanın, dünyaya bakış açımızı değiştirme ve genişletme alçakgönüllüğüne sahip olmamız durumunda mümkün olabileceğini öğretiyor. David Foster Wallace hakkında biraz konuşmama izin verdiğiniz için teşekkür ederim. O, en sevdiğim yazarlardan biri ve güzel bir ruh. Eğer izin verirseniz, kısaca yorum yapmak istediğim bir şey daha var. Kendimi çevrimiçi olarak her taraftan saldırıya uğrayan, bazen seçici yanlış temsil yoluyla yalan söylenen ama çoğunlukla açıkça yalan söylenen tuhaf bir pozisyonda buldum."
   }
 ]

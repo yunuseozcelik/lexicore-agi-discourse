@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Language models",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "İnsan düşüncesinin mimarisi hakkında, GPT'nin içindeki şeyleri bildiğimizde, GPT'yi okumak için çok daha iyi bir yeteneğe sahip olmamıza rağmen, bunun mümkün olduğunu düşünüyor musunuz? Bu sadece bir zaman meselesi mi, yoksa dil modellerinin incelenmesi ve araştırılması, nörobilimcilerin beyni incelemesi gibi, karanlığa bakarak insan beyninin gizemini çözmeye çalışmak ve modeller oluşturmak ve uzun bir süre boyunca, belirli bölgelerin ne yaptığını, farklı türdeki nöronların ateşlendiğinde ne anlama geldiğini, beynin ne kadar plastisiteye sahip olduğunu yavaş yavaş anlamaya başlamak mümkün mü? Dil modelleri ile aynı şeyi yapabileceğimizi düşünüyor musunuz? - Elbette, eğer bugünün fizikçilerinin yarısı ip teorisi veya başka bir şeyle hayatlarını boşa harcamayı bırakıp, Transformer ağlarının içindeki şeyleri incelemeye başlarsa, o zaman 30-40 yıl içinde oldukça iyi bir fikrimiz olur. Bu büyük dil modelleri akıl yürütebilir mi? Satranç oynayabilirler, bunu akıl yürütmeden nasıl yapıyorlar? Siz, rasyonellik hareketinin öncüsü olan birisiniz, bu yüzden akıl yürütme sizin için önemlidir. Bu güçlü ve önemli bir kelime mi, yoksa akıl yürütme yeteneği için eşik ne kadar zor? Ve bu ne kadar etkileyici? Yani, rasyonellik üzerine yazılarımda, akıl yürütme adı verilen bir şeyin üzerine fazla gitmedim, daha çok büyük bir şey olarak değil."
   },
   {
     "start": 1218.4,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI skepticism",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Oh, makineler asla bunu yapamaz, sen sadece saf birine benziyorsun, bu sadece taklit ediyor, seni kandırıyor derlerdi ve bunu dünyanın sonuna kadar söylemeye devam ederlerdi ve belki de haklı olurlardı çünkü biliyorsun, bunlar taklitçi bir paradigma üzerinde eğitiliyor ve herkesin öldürülmesi için bu gerçek niteliklerin hiçbiri gerekli değil. Peki, sinir ağlarının gücü hakkında şüphecilik, alaycılık ve iyimserlik ile nasıl başa çıktığını gözlemledin mi? Bu süreç senin için nasıl bir yolculuk oldu? 2006'dan önceki sinir ağları, benim için ayırt edilemez olan, diğer insanların daha iyi ayırt edebileceği farklı yapay zeka metodolojilerinin ayırt edilemez bir kütlesini oluşturuyordu; hepsi, zeka nasıl çalıştığını bilmemize gerek kalmadan zeka elde etmeyi vaat ediyordu. Sisteme çok fazla bilgi manuel olarak programlarsanız, bir noktada tüm bilgiler etkileşime geçmeye başlayacak, yeterince bilecek ve uyanacak diyen insanlar vardı. Evrimsel hesaplama kullanırsanız, çok sayıda organizmayı bir arada mutasyona uğratmaya çalışırsanız, bu, insan zekasının doğada nasıl üretildiğiyle aynı yoldur, bu yüzden bunu yapacağız ve AI'nın nasıl çalıştığını bilmeden uyanacak diyen insanlar vardı."
   },
   {
     "start": 1402.9,
@@ -87,7 +89,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "AGI'nin, bugün anladığımız sinir ağlarıyla elde edilebileceğini düşünüyor musun? Evet, düz bir şekilde evet. Soru, mevcut mimarinin daha fazla Transformer katmanı yığmak olup olmadığı; gpt4'ün artık bunu yapmadığına dair bir bilgi yok çünkü mimarilerini açıklamıyorlar, bu da doğru bir karar. Sam Altman ile bu konuyu birkaç kez ele aldık, bana gpt4 hakkında OpenAI'nin ne kadar açık olması gerektiğini sordu. Kodun açık kaynak olmasını ister misin? Çünkü ben şeffaflığı takdir ettiğimi belirttim, OpenAI daha açık olabilir dedim. O da bu soruyla mücadele ettiklerini söyledi. Onların adını kapalı AI olarak değiştirmeyi ve gpt4'ü tüketicilere açmadan iş arka uç uygulamalarına satmayı düşünür müsün? Girişim sermayedarlarıyla büyük bir heyecan yaratıp bu alana yeni fonlar dökmek ama artık çok geç. Ama başkalarının bunu yapacağını düşünmüyor musun? Önce sen yapmamalısın; eğer zaten devasa nükleer stokların varsa, daha fazla inşa etme. Eğer başka bir ülke daha büyük bir nükleer stok inşa etmeye başlarsa, o zaman yapabilirsin. Yine de belki de sadece yeterince nükleere sahip olmalısın. Bu şeyler nükleer silahlara pek benzemiyor; senin bakış açının olasılık denizinde en iyi olanı yapmaya çalışmak ve steel manning yapmak."
   },
   {
     "start": 1779.4,
@@ -113,7 +116,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Empathy and Belief",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "bu şeylere inanıyor musun? Hangi şeylere? En güçlü versiyonunu sunacağın şeylere inanıyor musun? Sunacağın şeyin doğru olduğunu düşünüyor musun? Ben empatiyi büyük bir savunucusuyum; bir kişinin bakış açısını gördüğümde, onu anladığımda, içimde bir parça ona inanıyor. Özellikle siyasi tartışmalarda ve jeopolitik alanda, dünyaya dair birçok farklı bakış açısı duyuyorum ve kendi görüşlerimi tutuyorum ama çok farklı yaşam deneyimlerine ve inanç setlerine sahip birçok insanla da konuşuyorum. Gerçek olanı ifade ederken epistemik bir alçakgönüllülük olmalı. Bu yüzden başka bir kişinin bakış açısına empati yaptığımda, onun doğru olduğuna dair bir his var. Olasılıksal olarak, senin düşündüğün şekilde, buna para yatırır mısın? Onların inançlarına para yatırır mısın? Onlara inandığında, olasılıkları ifade edebilir miyiz? Evet, bir olasılık belirtebilirsin; evet, bir olasılık var, bir olasılık var ve ben empatiyi, inanmak için sıfırdan büyük bir olasılık ayırmak olarak görüyorum."
   },
   {
     "start": 1965.7,
@@ -139,7 +143,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI discussion",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "o zaman sıfırdan büyük bir olasılık vermem gerektiğini düşünüyorum. Evet ama üç, bir sayı vermemin sorumsuzca olacağını düşünüyorum çünkü dinleyici, insan zihninin çalışma şekliyle, olasılıkları duymakta pek iyi değil. Üçü duyduğunda, üç tam olarak nedir? Sadece üç olasılık duyacaklar; sıfır, yüzde elli ve yüzde yüz gibi hissedecekler. İnsan zihninde böyle bir şey var. Sıfır, yüzde kırk ve yüz biraz daha yakın; chat GPT'den sonra RL H çabasıyla insan gibi konuşmaya çalışmak, bu harika. Evet, bu gerçekten ilginç. ROHF'nin olumsuz yan etkilerini bilmiyordum, bu büyüleyici ama OpenAI'ye dönecek olursak, hızlı bir açıklama yapmalıyım; bunları hafızam için yapıyorum, telefonumu çıkarıp bakmıyorum. Söylediklerimin yanlış olma ihtimali tamamen mümkün. Bu açıklama için teşekkür ederim. Yanlış olma isteğin için de teşekkür ederim; bunu duymak güzel. Yanlış olma isteği, bu dünyada çok düşünmüş bir kişinin işareti ve bu dünyanın gizemi ve karmaşıklığı tarafından alçakgönüllü hale gelmiş birinin işareti. Birçoğumuz, yanlış olduğumuzu kabul etmeye dirençliyiz çünkü bu acı veriyor."
   },
   {
     "start": 2434.5,
@@ -168,7 +173,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI nature",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "kesin bir durum var; aya gidebiliriz. Yeterince derin bir seviyede, aya gitmek gibi şeyleri yapmak için optimize edilmişiz çünkü yeterince uzaktan ve derinlemesine genelleştirirsen, çakmaktaşı el aletleri yapmak ve diğer insanları alt etmek, aya gitmekle temelde aynı problem. Çakmaktaşı el aletleri yapmak ve mızrak fırlatmak için yeterince optimize edersen ve en önemlisi, kabile siyaseti içinde diğer insanları alt etmek için yeterince optimize edersen, bu beceriler derinlemesine yerleşirse, seni aya götürür. Hiçbir atanın aya uçmayı denemediği gerçeğiyle, her seferinde daha da ileri gittiği ve her seferinde daha fazla çocuğu olduğu gerçeğiyle değil. Bu, atalarla ilgili bir sorun değil; sadece atalarla ilgili sorunlar yeterince genelleşiyor. Bu, insanlığın daha genel olarak uygulanabilir zekasıdır. Genel zekayı ölçmenin bir yolu var mı? Yani bu soruyu milyonlarca şekilde sorabilirim ama temel olarak, AGI sisteminde gördüğünde bunu bilecek misin? Eğer bir kurbağayı yeterince yavaş kaynatırsan, kenarlarında her zaman zor olur. Şu anda insanlar gpt4'ün genel zekanın bir kıvılcımı gibi göründüğünü söylüyor."
   },
   {
     "start": 2623.0,
@@ -197,7 +203,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI advancements",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Transformers'ın üst üste yığıldığı ve nihayetinde daha belirgin bir genel zeka elde edileceği bir keşif olacağını düşündüğün bir durum var. Yani, muhtemelen gpt3'teki mimarinin temelde aynı olduğu ve 20 kat daha fazla hesaplama gücü kullanarak gbt4'ü elde ettiğin ve bunun belki de sadece zar zor bir genel zeka ya da dar bir genel zeka olduğu ya da gerçekten kelimelerle tanımlayamadığımız bir şey olduğu gibi bir durum var. Evet, bu, beklediğim gibi gelişmedi ama bu orta zemin, gpt3'ten gerçekten büyük bir sıçrama olabilir. Kesinlikle gpt3'ten büyük bir sıçrama ve belki de bir şeyin faz değişimi için bir büyük sıçrama daha uzak. Ayrıca Sam Altman'ın söylediği ve senin de yazdığın, gpt4 ile ilgili olan şey, sanırım belgelerde tanımlamadıkları, sistemin iyileştirilmesine yardımcı olan yüzlerce, belki de binlerce küçük hileye sahip olmaları. Örneğin, sinir ağları içindeki bir fonksiyon olan railue ile sigmoid arasındaki farkı yazdın; bu, büyük bir fark yaratan bu saçma küçük fonksiyon farkı. Yani, aslında, ilişkilerin neden büyük bir fark yarattığını anlıyoruz ama evet, muhtemelen g4789 Ellis veya şu ana kadar olan kısaltmaları kullanıyorlar, relus yerine. Evet, bu sadece bir parça."
   },
   {
     "start": 3183.4,
@@ -226,7 +233,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI alignment",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "senden daha akıllı bir şeyi hizalamak, ölmek demektir ve bir daha deneme şansın yoktur. Eğer her seferinde kötü hizalanmış bir süper zekâ inşa etseydik ve bu bizi öldürseydi, nasıl öldüğümüzü gözlemleme şansımız olurdu ve hemen nedenini bilmesek de teoriler geliştirebilir ve bunu farklı şekilde yapmanın teorisini oluşturup tekrar deneyebilirdik. Başka bir süper zeka inşa edip, onun da herkesi öldürmesine neden olabilirdik ve sonra, 'oh, bu da işe yaramadı' diyebilirdik ve tekrar deneyip, yaşlı alaycılar haline gelip, genç araştırmacılara bunun o kadar kolay olmadığını söyleyebilirdik. 20 veya 50 yıl içinde, sonunda bunu çözebileceğimizi düşünüyorum. Başka bir deyişle, hizalamanın, yapay zekanın ilk başta olduğu kadar zor olduğunu düşünmüyorum ama eğer yapay zekayı ilk denemede doğru yapmamız gerekseydi, hepimiz şimdi ölmüş olurduk. Bu, problemin daha zor ve daha ölümcül bir biçimidir. 1956'daki o insanlar, yapay zekanın ne kadar zor olduğunu doğru tahmin etmek zorunda kalsalardı ve bunu ilk denemede doğru bir şekilde teorize etselerdi, herkes ölürdü ve daha fazla bilim yapma şansımız olmazdı ve hepimiz ölmüş olurduk. Bu zorluk, bu kritik denemeyi ilk seferde doğru yapmamız gerektiği konusunu ele aldın. Neden bu durum böyle? Bu kritik anı nasıl düşünüyorsun ve neden doğru yapmamız gerekiyor? Bu, senden çok daha akıllı bir şey olduğu için herkes ölecek."
   },
   {
     "start": 3372.4,
@@ -255,7 +263,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI alignment",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "daha az kontrol edilen bir GPU kümesiyle, neyin gerçekten o GPU kümesinde çalıştığını sahte bir şekilde göstererek kendini geliştirmeye başlayabilir ve insanlar izlemiyorken akıllanabilir ve oradan herkesi öldürecek kadar akıllı hale gelebilir ama kritik anda, daha iyi yapman gereken noktada akıllı değildi. Herkesin öldüğü bir noktada, bu kritik anı geçerken, bu noktada daha iyi yapman gerekiyordu. Bu noktada, bu kritik denemeden önce hizalama problemi hakkında çok fazla şey öğrenemeyeceğimiz fikrinin, belki de açık bir şekilde tartıştığın bir fikir olduğunu düşünüyorum. Bu doğru mu? Eğer öyleyse, bunun doğru olduğunu neden düşünüyorsun? Zayıf sistemler üzerinde öğrendiklerin, çok güçlü sistemlere genelleşmeyebilir çünkü güçlü sistemler, önemli ve farklı şekillerde farklı olacaklar. Chris Ola'nın ekibi, devasa anlaşılmaz kayan nokta matrislerinin içinde neler olduğunu anlamak için mekanistik yorumlama üzerinde çalışıyor. İlerleme kaydettiler mi? Evet, kaydettiler. Yeterince ilerleme kaydettiler mi? Bunu farklı şekillerde nicelleştirmeye çalışabilirsin. Bunu nicelleştirmenin yollarından biri, 2026'da dev bir Transformer ağının içinde neler olduğunu anlayıp anlamayacağımız üzerine bir tahmin pazarı kurmaktı. 2006'da bilmediğimiz şeyleri anlamış olacağız. Şu anda bu sistemlerde indüksiyon başlıklarını anladık ama bu, büyük bir araştırma ve büyük bir çaba ile oldu. Yani, 2006'da düzenli ifadeleri biliyorduk ve bunlar, düzenli ifadeler açısından oldukça basit. Bu, bir Transformer'ın içinde neler olduğunu anlamak için büyük bir çaba ile elde ettiğimiz bir durum ama bu, Transformer'ları akıllı yapan şey değil; bu, on yıllar önce elle inşa edebileceğimiz bir şey. Güçlü AGI ile zayıf AGI tür sistemleri arasında temel bir fark olabileceği içgörünü biraz açar mısın? Evet, bence birden fazla eşik var. Bir örnek, bir sistemin yeterli zekaya, durum farkındalığına ve anlayışa sahip olduğu noktadır."
   },
   {
     "start": 3465.5,
@@ -284,7 +293,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI understanding",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "spektrum ve hatta bu uzaylı aktrisin ne kadar uzakta olduğu konusunda emin değilim; farklı hedefleri olan bir uzaylı aktris var mı, yoksa sadece bir sonraki adımı tahmin etmekle mi manipüle ediyor? Ama evet, bu belki de gpt5 veya gpt6 bile olabilir ama bu, endişelendiğin güçlü AGI örneği. Neden gpt4 üzerinde AI hizalaması araştırması yapamayacağımızı sağlıyorsun? Bu, farklı noktalarda değişen birçok şeyden biri. Burada eğrinin önünde olmaya çalışıyorum ama gelecekteki bir ders kitabının ne söyleyeceğini hayal et; eğer kendimizi öldürmeden ve aşmadan 50 yıl boyunca bunu inceleyebilseydik ve hayal et ki bir solucan deliği açılıyor ve o imkansız dünyadan bir ders kitabı düşüyor. Evet, ders kitabı, her şeyin değiştiği tek bir keskin eşik olduğunu söylemeyecek. Elbette, bu sistemleri hizalamak için en iyi uygulamaların, aşağıdaki yedi önemli eşiği dikkate alması gerektiğini biliyoruz ve bunlar farklı noktalarda geçiliyor. Evet, ders kitabının söyleyeceği şey bu. Bu soruyu Sam Altman'a sordum; eğer GPT, AGI'yi açan şeyse, hangi GPT versiyonu ders kitaplarında temel sıçrama olarak yer alacak? O da benzer bir şey söyledi; bu, çok lineer bir şey gibi görünüyor. Bunu bilmeyeceğiz, uzun bir süre."
   },
   {
     "start": 4202.4,
@@ -313,7 +323,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI alignment",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "bir geliştirici ekibi var; bu da kredi alıyor. Bu arada, üzerine geldiğin şeyin üzerine gelmek için, aslında üzerine geldiğim şey, üzerine geldiğinde ortaya çıkan şeydir. Bu yüzden kullanıcı deneyimi açısından biraz kredi alıyorum. Harika bir kullanıcı deneyimi; bunun ne kadar hoş olduğunu anlamıyorsun. Wikipedia'nın, benim sunduğum farklı bir sistemin prototipinden bu özelliği almış olabileceğini düşünüyorum ya da belki de bağımsız olarak geliştirmişlerdir ama herkes için, 'hayır, hayır, sadece Wikipedia'dan aldılar' diyenler için, belki de Wikipedia'nın bu özelliği Orbital'den almış olması mümkün. Her neyse, harika bir işti ve arkasındaki ekibe teşekkür ederim. Teşekkür ederim, kimseniz bilmiyorum ama çok teşekkür ederim. Paul Cristiano'nun o blog yazısına bir yanıtı var; birçok yanıt var ama birkaç farklı nokta özetliyor. Seninle olan anlaşmalarını ve anlaşmazlıklarını özetliyor. Anlaşmazlıklardan biri, AI'nın büyük teknik katkılar yapıp yapamayacağı ve genel olarak insan bilgisini ve anlayışını genişletip genişletmeyeceği şeklinde bir soru. Yani, AI, güçlü AGI'ye doğru ilerlerken hizalama problemini çözme arayışımızda bize yardımcı olabilir mi? Yani, hizalama problemini çözme yeteneğimizi genişletebilir mi?"
   },
   {
     "start": 4483.4,
@@ -342,7 +353,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI contributions",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Evet, şimdi bence bu tür şeyleri tanımlamak için kelime sihirini yeniden tanımlayabileceğimiz bir anlam var. Ne demek istiyorum? Eğer bir hava koşullandırıcısının şemasını geçmişe gönderirseniz, onlara tam olarak ne yapmaları gerektiğini gösterebilirsiniz ama bu şeyi inşa ettikten sonra, soğuk hava çıkarmanın nasıl olduğunu anlamazlar çünkü hava koşullandırıcı tasarımı, sıcaklık ve basınç arasındaki ilişkiyi kullanır ve bu, onların bilmediği bir gerçeklik yasasıdır. Bir şeyi sıkıştırdıklarında, havayı veya soğutucuyu sıkıştırdıklarında, daha sıcak hale geldiğini ve ardından o sıcaklığı oda sıcaklığındaki havaya aktarabileceğini ve sonra tekrar genişlettiğinde daha soğuk hale geldiğini bilmezler. Bu, soğuk hava üretmek için ısıyı aktarabileceğiniz bir şeydir; bununla ilgili hiçbir şey bilmezler. Bir tasarıma bakıyorlar ve tasarımın nasıl soğuk hava ürettiğini göremiyorlar. Yani sihir, tam olarak ne yapacağımı söyleyebilirim ve ne yapacağımı bilseniz bile, elde ettiğim sonuçları nasıl elde ettiğimi göremezsiniz. Bu gerçekten güzel bir örnek ama bu savunmayı sürdürmek mümkün mü? Zayıf AGI sistemlerinin, o şemayı anlamanıza yardımcı olabilecek AGI sistemleri olması mümkün mü? AGI inşa etmenin temel bir parçası, bir sistemin çıktısına güvenip güvenmeyeceğiniz sorusudur."
   },
   {
     "start": 6479.0,
@@ -371,7 +383,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI understanding",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Evet, şimdi düşünüyorum ki, bu tür şeylere atıfta bulunmak için\nbüyü kelimesini yeniden tanımlayabileceğimiz bir anlam var ve bu yeni teknik tanımda\nbüyü demek istiyorum ki, eğer bir hava koşullandırıcısının şemasını geçmişe gönderirsen,\nne yapmalarını söylediğini tam olarak görebilirler ama bu şeyi inşa ettiklerinde,\ncold air nasıl çıktığını anlamazlar çünkü hava koşullandırıcısının tasarımı,\ntemperatür ve basınç arasındaki ilişkiyi kullanır ve bu, onların bildiği bir gerçeklik yasası değildir.\nSıkıştırdığında, bir şeyi sıkıştırdığında, havayı veya soğutucuyu sıkıştırdığında,\nısınır ve sonra o ısıyı oda sıcaklığındaki havaya aktarabilirsin ve sonra tekrar genişletip,\nşimdi daha soğuk hale getirebilirsin ve sonra o ısıyı aktararak soğuk hava üretebilirsin.\nBunların hiçbiri hakkında bir şey bilmiyorlar, bir tasarıma bakıyorlar ve tasarımın nasıl soğuk hava ürettiğini göremiyorlar.\nBu, onların öğrenmediği gerçeklik unsurlarını kullanıyor, bu yüzden büyü anlamında,\nne yapacağımı tam olarak söyleyebilirim ve ne yapacağımı tam olarak bilseniz bile,\nbenim elde ettiğim sonuçları nasıl elde ettiğimi göremezsiniz. Bu gerçekten güzel bir örnek ama bu savunmada durmak mümkün mü,\nAGI sistemlerinin o şemayı anlamana yardımcı olması mümkün mü? Zayıf AGI sistemlerine güveniyor musun? AGI inşa etmenin temel bir parçası,\nbu sorudur, bir sistemin çıktısına güvenebilir misin?"
   },
   {
     "start": 7412.2,
@@ -400,7 +413,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety research",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve temel engeller var, zayıf versiyonun seni kandıracak kadar bilgiye sahip olmadığı ve\nistediği takdirde seni kandırabilecek güçlü versiyonun olduğu bir durum var.\nZaten seni kandırmak istemek için yeterince uyumsuz gibi hissediyor.\nŞu anki Paradigma'da, sistemin dürüstlüğünü nasıl eğiteceğin sorusu var,\nhumans artık sistemin dürüst olup olmadığını söyleyemediğinde. Bunların araştırma soruları olduğunu düşünmüyor musun? Bence bunlar, sınırsız denemelerle 50 yıl içinde cevaplanabilir.\nBilim genellikle böyle çalışır, buna katılmıyorum, 50 yıl alıyorsun.\nBence bu tür bir dikkatle, bu tür bir finansmanla, bunun cevaplanabileceğini düşünüyorum,\nhemen hemen değil ama kademeli olarak, birkaç ay içinde ve birkaç yıl içinde,\neğer ölçekli bir şekilde dikkat ve araştırma alırsa. Eğer büyük dil modellerini incelemeye başlarsan,\niki yıl önce, gpt4 gibi bir şeyin mevcut yeteneklerinin,\neven Chad GPT ile GPT 3.5'in, bunun çok uzakta olduğunu düşünüyordum.\nBence birçok insan gpt4'ün yeteneklerinden şaşırdı, değil mi? Şimdi insanlar uyanıyor, tamam, bu dil modellerini incelememiz gerekiyor.\nBence çok ilginç AI Güvenlik Araştırmaları olacak. Dünyanın milyarderleri, genç yetenekleri,\nbu fizik diplomalarını almış olanları teşvik etmek için devasa ödüller koyacak mı?"
   },
   {
     "start": 9162.5,
@@ -429,7 +443,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Nature of intelligence",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bu, bu popülasyonların kendi üremelerini kısıtlamasıdır,\nböylece gruplar, mevcut kaynaklarla uyum içinde kalır.\nVe genellikle matematik bunun için çalışmaz ama eğer gerçekten grup seçimini\nbireysel seçimden daha iyi hale getirecek tuhaf koşulları uygularsan,\nsonuç olarak kadın ve bebek cinayeti elde edersin. Eğer kısıtlı popülasyonlar hakkında okuyorsan,\nbu tür bir şeydir, bu akıllı bir optimizasyon süreci değildir.\nDoğal seçilim, o kadar inanılmaz derecede aptal ve basit ki,\nbunu gerçekten ne kadar aptal olduğunu nicel olarak ölçebiliriz.\nEğer matematik kitaplarını okursan, yine de bu, temel bir şeydir,\nbu uzaylı optimizasyon sürecine bakıyorsun ve umduğun şeyin üretilmesini bekliyorsun\nve bunu aklından temizlemeyi öğrenmelisin ve sadece temel dinamikleri düşünmelisin\nve onun bakış açısından aradığı maksimumu bulmasını sağlamalısın,\numarayı bulmak yerine, aklında umduğun güzel estetik çözüm olarak.\nBu, evrimsel biyoloji ile başa çıkmaya çalışan popülasyon biyolojisi alanında\ntarihsel olarak savaşılmış bir şeydir ve bunu, bu çok uzaylı, insana ait olmayan\noptimizasyon süreci ile başa çıkmaya çalışanların savaştığını görebilirsin.\nVe gerçekten bizden daha akıllı bir şey, doğal seçilimden de çok daha akıllı olacaktır,\nyani bu otomatik olarak geçmez ama burada bir ders var, bir uyarı var,\ndoğal seçilim."
   },
   {
     "start": 10363.9,
@@ -458,7 +473,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "AGI için zaman çizelgesi, AGI'yi ne zaman elde edeceğimizi düşünüyorsun? Bugün sabah Twitter'da bunu paylaştım,\nbeş yıl, on yıl ve elli yıl veya daha uzun bir süre içinde ilginçti.\nÇoğu insan, %70 gibi bir oranla, bunun 10 yıldan daha kısa bir sürede olacağını düşünüyor,\nyani beş yıl veya on yıl içinde. Yani bu, insanların bir tür\nşeyin olduğunu hissettiği bir durum, yani çocuk GPT ve gpt4'ün hızlı gelişimlerinden gerçekten etkilendiler.\nYani, bir tür, tamam, bu yolda ilerliyoruz, AGI'ye girmek üzereyiz.\nBence herkesin bir noktada düşüp bayılacağı kesin bir nokta var,\nçünkü herkesin çok daha akıllı bir şey var ve bu, kesin bir zaman noktasıdır.\nAma AGI'yi ne zaman elde edeceğiz? İnsanlar AGI'nin olup olmadığı konusunda ne zaman tartışacaklar?\nBence bazı insanlar gpt4 ile bunun üzerine tartışmaya başlıyor ama bunun,\nbu bir varlık olduğuna dair kesin anlar olacağını düşünmüyor musun? Bu, bir varlık ki,\nüst mahkemeye gidebiliriz ve bu varlığın insan haklarına sahip olması gerektiğini söyleyebiliriz.\nÖrneğin, doğru şekilde yönlendirildiğinde,\nkendi bilincini üst mahkemede savunabilir. Şu anda bunu başarıyla yapabileceğini düşünmüyorum,\nçünkü üst mahkeme buna inanmazdı. Peki, neden bunun olacağını düşünüyorsun? Gerçekten bir IQ 80 olan bir insanı bir bilgisayara koyup,\nkendi bilincini savunmasını istemek mümkün mü?"
   },
   {
     "start": 11107.3,
@@ -484,7 +500,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Günlük iletişiminde pratik yap, yani etkilerden bağımsız düşünme pratiği yap.\nSenin için önemli olan tahmin pazarlarını bul ve o tahmin pazarlarında yer al.\nBu şekilde, doğru olup olmadığını öğrenirsin ve gerçekten, stakes manifold ürün veya hatta manifold pazarlar,\nstakes biraz daha düşük olan yerler var ama önemli olan, kaydı almak ve biliyorsun,\nben bu tahmin pazarlarıyla becerilerimi geliştirmedim, onları geliştirdim,\nyani filmin tartışması nasıl çözüldü ve bunun nasıl çözüldüğüne dair kendi görüşümü oluşturdum.\nVe evet, kendini dramatik bir şekilde yanlış bulmadığın her durumda,\namaçların biraz yanlış olduğu, bunu tam olarak doğru yapmadığın her durumda,\nbunların her biri, küçük bir güncelleme yapma fırsatıdır.\nYani, ne kadar çok \"oops\" diyebilirsen, yumuşak bir şekilde, rutin olarak,\nbu büyük bir mesele olmadan, o kadar çok şansın olur ki,\nnerede yanlış düşündüğünü görebilirsin, nasıl farklı düşünmeliydin, zamanla beceri geliştirmek budur."
   },
   {
     "start": 11187.7,
@@ -513,7 +530,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Advice for youth",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Lise ve üniversitedeki gençlere ne tavsiye edebilirsin,\nçok önemli şeyler düşündüğün göz önüne alındığında? Eğer biri bunu dinliyorsa ve gençse,\nne yapacağına karar vermeye çalışıyorsa, hayatında ne yapacağına dair ne tavsiye edersin? Uzun bir yaşam beklememelerini söyle. Geleceğe mutluluklarını koymasınlar,\nçünkü geleceğin bu noktada muhtemelen o kadar uzun olmayacak ama kimse saatini veya günü bilmiyor.\nAma eğer daha uzun bir gelecek için savaşmak istiyorlarsa,\nbir savaş var mı? Savaşmaya niyetim var.\nBilmiyorum, acı veren düşünceler düşünmeye çalışsam da,\nçocuklara bu noktada ne söyleyeceğim, oldukça acı veren bir düşünce.\nSavaşmak istiyorlar, kendim savaşmayı pek bilmiyorum bu noktada.\nYanlış olabileceğime hazırlıklı olmaya çalışıyorum,\nyanlış olmaya hazırlıklı olmak, biraz umut yaratıyor ve buna tepki vermeye hazır olmak,\nbunu aramak zor ve karmaşık ve bir lisede biri,\nbilmiyorum, geleceği sunan bir resim verdin ki,\nbu benim beklediğim gibi gitmiyor, kamu tepkisi var ve o tepki,\nuzaktan yararlı bir şeye dönüştürülüyor."
   },
   {
     "start": 11468.9,
@@ -539,6 +557,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "philosophy of life",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Gelecek muhtemelen yok ama yanlış olabileceğin yolları aradığın için güzel ve aynı zamanda,\naynı genç fizikçi ile bazı atılımlar yapıyorsun, bu çok temel bir yeterlilik gibi görünüyor ki,\nbunun için beni övüyorsun ve biliyorsun, tamam, güzel.\nBunun, övülmeyi hak ettiğim bir dünya olduğunu düşünmüyorum ama,\nhiçbir zaman övgüleri zarif bir şekilde kabul etme şansım olmadı ve belki de bunu zarifçe kabul etmeliyim ama,\nçok teşekkür ederim, bazı olasılıklarla karanlık bir gelecek çizdiniz.\nKendinize gelince, hayatınızı düşündüğünüzde ve ölümü düşündüğünüzde,\nölümden korkuyor musunuz? Bunu düşünüyorum, evet, bu mantıklı mı?"
   }
 ]

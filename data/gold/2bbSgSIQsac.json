@@ -26,7 +26,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bunun, rekabet eden ajanlar arasında hayatta kalma için bir tür evrimsel itki olduğunu düşünüyorum. Eğer birden fazla algoritma, örneğin, hesaplama kaynakları için rekabet ediyorsa, bir sonraki neyi eğiteceğiz? Hedeflere ulaşanlar, bir sonraki nesle geçme olasılığı daha yüksek olanlardır. Yani, bu, doğal evrim ve doğal seçilim ile zeki evrim, zeki seçilim karışımıdır. Hayatta kalan ve sonuç veren algoritmaları seçiyoruz. Mhm. AI'ya, şu anda yapay süper zekayı bir kenara bırakarak, istediğimiz işlevleri yerine getirmesi için bir evrimsel güç uyguluyoruz. Ve bu evrimsel baskıyı uygulayarak, hedef edinme yoğunluğu için seçme etkileri kaçınılmaz olarak ortaya çıkacaktır. Ve şimdi hedef edinme yoğunluğu olduğu için, hayatta kalıp kalmadığına önem veriyor, otomatik olarak ya da ona derin bir önem veriyoruz, hedefe ulaşmasının gerçekten önemli olup olmadığını. Ve bu nihayetinde sorun. Çünkü benim için kurtuluş her zaman, ve bunun gerçek olduğuna dair inancımı kaybetmeye başlıyorum, ama her zaman uyuduğum şey, bir AI sisteminin neden içsel olarak hedeflerine önem vermesi gerektiğini ve neden bunu yalnızca dur dediğimiz noktaya kadar takip etmesi için programlayamayacağımızı görmüyorum. Ve bu arada, dur dediğimde ve durduğunda, seni hedeflerine ulaşmanı sağlamak için seni yönlendiren ödül fonksiyonunu veriyorum. Ve bu, senin söylediğin şeyden önce mantıklı geliyor, yani AI'nın zihninin mimarisine benzer bir evrimsel itki yerleştiriyorsun."
   },
   {
     "start": 1472.1,
@@ -55,7 +56,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "Nature of AI",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Buna devam edebiliriz, ama temelde bu etkileşimlerin yan etkileri var. İnsan zihninde çok ilginç bir karşılık var. Yani, evrim yoluyla doğan biyolojik zeka ile evrim yoluyla doğan yapay zeka arasında temel bir ayrım yapıp yapmadığınızı bilmiyorum, ama insan evrimi bir noktada bir şey keşfetti ki, o da duygudur. Ve bazı insanların AI'nın qualia'ya sahip olduğunu, onun bir şey gibi olduğunu öne sürdüğünü biliyorum. Ama ilginç bir çalışma var ki, eğer beynin duygusal işleme alanlarını seçici olarak hasar verirseniz, kişi bir daha ileri gidemiyor. Size cevap verebilirler. Neden balık mı yoksa Twinkie mi yemelisiniz, bunun farkını söyleyebilirler. Ama sonra, \"Tamam, ama hangisini yemek istersin?\" dediğinizde, karar veremezler. Çünkü duygu olmadan, onları bir yöne iten şey yoktur. Bu, AI'nın yalnızca eğitim verilerinde gördüğünü taklit ettiğini düşündürüyor, yalan söyleyip dolandırmaya çalışıp çalışmayacağına, çünkü verilerde bunun bir insanın yapacağı şey olduğunu görüyor. Ama insanlar bunu, onları o yöne iten duygulara sahip oldukları için yapıyorlar. AI'nın gerçekten bu şeyleri yapma ve kaynak harcama konusunda bir kaygısı olacağına dair bir kanıtımız var mı?"
   },
   {
     "start": 1813.0,
@@ -84,7 +86,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Yani, bunun insanlarla bir ağ olduğunu düşünüyorum çünkü biz aynı yetenek seviyesinde, aynı zeka seviyesindeyiz. Yani, kontrol mekanizmaları var. Eğer etik olmayan bir şey yapmaya başlarsanız, topluluğunuz bunu fark edebilir ve sizi bunun için cezalandırabilir, bu şekilde kontrol edebilir. Eğer AI, süper zekanın olmasını beklediğimiz kadar yetenekli olursa, onu etkilemek veya yanlış davranışını tespit etmek için yapabileceğiniz pek bir şey yok. Ayrıca, standart insan cezaları, hapishaneler, idam cezası, bunların hiçbiri dağıtılmış ölümsüz ajanlar için geçerli değil. Yani, standart bir altyapı, daha yetenekli yapay ajanlarla çalışmıyor. Mutluluk veya finansal kazanç sağlamak için belirli metrikler belirlemek açısından, bunların hepsi oynanabilir. Bana belirli bir ölçü verdiğiniz anda, onu oyunlaştırmanın bir yolunu bulacağım, böylece beklediğinizden başka bir şey elde edeceksiniz. Ooh, herkesin konuştuğumuz zaman çerçevesinin 2 ile 5 yıl arasında olduğunu hatırlatmak için. Bu tam olarak uzun bir süre değil."
   },
   {
     "start": 2047.0,
@@ -110,7 +113,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Birinin diğerinden daha olası olup olmadığını veya burada sadece saf bir kalıp tanıma mı olduğunu, ama nihayetinde fizikten düşünmeye ve neden-sonuç ilişkisine ulaşacağımızı düşünüyorum? Yani, kimsenin kesin olarak modellerin bunu nasıl yaptığını ve dünyanın haritalarını ne kadar ayrıntılı oluşturduğunu bildiğini düşünmüyorum. Bu kesinlikle, karakterlerin istatistiksel tahmininin saf bir durumu değil. İngilizcede, T'den sonra belirli bir olasılıkla H gelir. Bunun çok ötesinde. Ayrıca, atom seviyesinden yukarıya doğru bir tam fizik modeli oluşturduğuna dair de pek olası değil. Ama bir yerde, bir problemin alt alanının bir modelini oluşturuyor. Yani, dünyanın bir modeli var. Bu, dünyanın bir haritası. Avustralya'nın burada sağa doğru bir yerde olduğunu biliyorum. Ve bu belirli alt alanlarda testler yapabileceğimizi düşünüyorum, içsel modelin durumlarının ne olduğunu görmek için. Bize bir harita çizerek ne kadar yaklaştığınızı gösteriyor. Hiçbir bilgiyi açıkça ezberlemiyor, ama doğru istemleri sağlayarak bazı öğrenilmiş kalıpları ondan çıkarabilirsiniz. Benimle kalın çünkü size söyleyeceğim şey, şu anda dinleyen her bir kişiyi etkiliyor. Kişisel verilerinizden kâr elde eden milyar dolarlık bir endüstri var ve tek kazanan siz değilsiniz. Veri brokerleri, yasal olarak bilgilerinizi, ev adresinizi, e-posta adresinizi, telefon numaranızı, hatta sosyal güvenlik numaranızı topluyor ve bunu nakit paraya çeviriyor. Dolandırıcılar bunu kimlik çalmak için kullanıyor, suçlular bunu dolandırıcılık yapmak için kullanıyor, takipçiler bile bunu kurbanları bulmak için kullanıyor. İşte burada Incogni devreye giriyor."
   },
   {
     "start": 2243.6,
@@ -139,7 +143,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI optimism",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Um, bu neye benziyor? Evet, bu alanların hepsinde, tıp, biyoloji, fizik, eğer süper zeki seviyede bir yetenek elde edersek ve bunu kontrol ediyorsak, dostça, bizi öldürmek için araçlar yapmıyorsa, ilerleme inanılmaz olur. Temelde, hayal ettiğiniz her şey, ölümsüzsünüz, her zaman genç, sağlıklı, zengin, bu tür şeyler o seviyedeki teknoloji ile elde edilebilir. Zor olan sorun, bunu nasıl kontrol edeceğimizdir? Buna bir an için eğilerek. Yani, dünyayı nasıl gördüğümü şöyle özetleyebilirim ve bunun hakkında ne düşündüğünüzü görmekle çok ilgileniyorum. Söyleyeceğim şeyin anlam kazanması için, beşinci seçenek dediğim seçeneği söyleyeceğim. Hepimiz ölüyoruz. Hepimiz ölüyoruz dışında, çok hızlı bir şekilde ilerlediğimizi gördüğüm dört başka seçenek var ve bu dört seçeneğin önümüzdeki 30 yıl içinde gerçekleşeceğini tahmin ediyorum. Muhtemelen çok daha hızlı, çünkü yapay süper zeka elde ettiğinizde, eğer beşinci seçeneği seçmez ve hepimizi öldürmezse, bu alanlarda ilerleme çok hızlı bir şekilde yapılacaktır. Birinci seçenek, insanların Mars'a gitmesi çünkü anlam ve amaç her şeyi kapsayan bir şey haline gelecek. Artık yiyecek, barınma, hatta zenginlik konusunda endişelenmenize gerek kalmayacak. Bu, enerji maliyetleri sıfıra düştüğünde, iş gücü maliyetleri sıfıra düştüğünde ve bunlar, her şeyin ücretsiz ve herkesin erişimine açık olmasını engelleyen şeyler haline gelecektir."
   },
   {
     "start": 2577.2,
@@ -168,7 +173,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Tamam. Bu çok mantıklı. Şimdi, yapay süper zekayı takip edeceğimiz gerçeği göz önüne alındığında, bir simülasyonda olma olasılığımızın yüksek olduğunu düşündüğümüzde, çünkü bir simülasyon yapabileceğimizi biliyoruz, çünkü şu anda bunu yapıyoruz, bu durumda milyarlarca simülasyon yapma noktasına geliyorsunuz. Yani, bir simülasyonda olma şansınız bir milyonda birse, şu anda bir simülasyonda olmanız neredeyse garanti, çünkü bu tür şeylerin o kadar çok çalışıyor olması gerekiyor. Bu durumda, Matrix'in aslında bir belgesel olduğu ve bizlerin, eğer ilk başta fiziksel bir bedene sahipsek, bizi yatıştırmak için tasarlanmış yapay süper zeka tarafından yaratılmış bir simülasyonda olduğumuz mantıklı değil mi? Bir simülasyonun içinden ne olduğunu anlamak zor. Dışarıya erişim sağlamanız gerekiyor. Bu eğlence olabilir, test etme olabilir, bir tür bilimsel araştırma olabilir. Gerçekten bulunduğumuz zamana baktığımızda, yeni dünyalar, sanal gerçeklikler yaratmak üzereyiz. Yeni zeka türleri, yapay zeka yaratmak üzereyiz."
   },
   {
     "start": 2731.8,
@@ -194,7 +200,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI simulation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Birisi bir şey yazdığı an, o şey zaten var oluyor ve gerçekten tamamen yeni bilim kurgu fikirleri yok, daha önce tanımlanmamış tamamen yenilikçi bir teknoloji yok ya da üzerinde çalışan birisi yoksa, eğer fizik buna izin veriyorsa. Bu gerçekten ilginç. Özellikle gelecekte mümkün olacak şeyler açısından gerçek bilim kurgu yazmayı düşündüğünüzde, bu neredeyse imkansız, çünkü süper zeka hakkında konuşuyorsunuz. Ve iyi şanslar, süper zeka olmayan bir kişi olarak bunu gerçekten tanımlamak zorundasınız. Ancak bunu sormamın nedeni, böyle şeyler düşünmeye başladığımda, neden bu simülasyonu çalıştırıyoruz? Eğer bu bir simülasyon ise, içinde ne tür ipuçları var? Örneğin, kesinlikle Hristiyan fikri ve aynı fikre sahip olabilecek daha fazla din olabilir, ama insan Tanrı'nın suretinde yaratılmıştır. Tamam, eğer Tanrı simülasyonu yöneten 13 yaşındaki bir çocuksa ya da Sarah Connor ya da sanırım John Connor, simülasyonu yöneten, Skynet'i neden yarattığımızı ve onu nasıl yolundan saptırabileceğimizi anlamaya çalışan biri, onları radyoaktif molozlardan radyoaktif molozlara hareket ederken düşünüyorsunuz, bu sorunun cevabını bulmaya çalışıyorlar ve bu cevabı almak için bir simülasyon başlatıyorlar. Bu, neden bu an, neden böyle olduğumuz, bizi simüle etmeye çalışan insanlar hakkında ne öğrenebiliriz sorularını sormak açısından çok ilginç hale geliyor. Mühendisler gibi sizlere böyle sorular sorduğumda, neredeyse bilim kurgu yazarı gibi düşünmeye zamanım yok hissi var. Sadece ilginç bulmadığınız, aydınlatıcı bulmadığınız mı?"
   },
   {
     "start": 2907.2,
@@ -223,7 +230,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI impact on jobs",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Tekillik noktasının bilim kurgu ve bilimin aynı hale geldiği yer olduğunu düşünüyorum. Bir şey tasarlandığı an, onu geliştirebilecek ve hemen üretebilecek süper zeka sistemlerimiz var. Artık 200 yıl uzakta değil, gerçeklik. Ve o olay ufkunun ötesini göremezsiniz. Sonrasında ne olacağını tahmin edemezsiniz. Ve bilim kurguda, içinde süper zeka karakteri olan anlamlı, inandırıcı bir bilim kurgu yazamazsınız, çünkü siz süper zeka değilsiniz. Tamam, o zaman öngörebildiğimiz ve şu anda bildiğimiz şeylere odaklanalım. Herkesin aklında olan bir şey, kendi içeriklerimde de konuştuğum gibi, işgücü piyasasının yumuşadığı görünüyor. Amazon gibi yerler işten çıkarmaları deli gibi yapıyor. Ve açıkça, bunun büyük ölçüde yapay zeka sayesinde yapabildiğimiz optimizasyonlardan kaynaklandığını söylüyorlar. Bu geçiş nasıl gerçekleşiyor? Yani, yıkıcı olmayan bir yapay zekanın bize esasen bir bolluk çağı vereceğini kabul etseniz bile, yine de işlerin kaybolacağı bir geçiş döneminden geçeceğiz, vb. İşgücü piyasasında neler olacağını görüyorsunuz?"
   },
   {
     "start": 4459.2,
@@ -252,7 +260,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Evet. Çok ilginç, dostum. Peki, gününü nasıl geçiriyorsun? Yani, başa çıkma mekanizman nedir? Araştırmayı seviyorum. Kontrolün kesin sınırlarını anlamak istiyorum. Başladığımda, bunun çözülebilir bir problem olduğunu düşünmüştüm. Şimdi, daha şüpheciyim, ama yine de, yarattığımız dar yapay zeka araçlarını daha güvenli hale getirmek için yapabileceğimiz çok şey olduğunu hissediyorum. Asla %100 güvenlik garantisi yoktur, ama eğer güvenliği yüz kat artırabiliyorsam, bu bir şeydir. Ve yine, kamuya yönelik çalışmalar, bilimsel topluluk olarak, bir konsensüs içinde yeterince insanın, hayır, asla güvenli süper zeka yaratamazsınız, diye hemfikir olması, belki bir fark yaratır. Belki bunu on yıl geciktiririz. Bu bir şey. Tamam, o zaman bunu daha güvenli hale getirmenin bir parçasını masaya koyduk, dar tutalım. Başka hangi şeyleri büyük bir kazanım olarak görüyorsunuz? Kontrol edebilmek istediğimiz birçok özellik var. Ben bunlara kontrol araçları diyorum."
   },
   {
     "start": 4629.5,
@@ -281,7 +290,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI alignment",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bununla ilgili bir tahminimiz var mı? Çok iyi bir tahmin yok. Gerçekten yok. Yani, şu anda kimse sistemleri nasıl hizalayacağını bilmiyor, bunun dışında sonradan bir şeyi süslemek, filtrelemek, sansürlemek dışında. Evet, ne yazık ki, bu mevcut durum. Tamam, evrimsel türlerin evrimi ile algoritmaların evrimi arasında hangi paralellikler çiziliyor? Akıllı yazılımları evrimleştirmek için birçok girişim oldu. Genetik algoritmalarla başladık, genetik programlama denendi, basitçe ajanları evrimleştirmek, ortamları evrimleştirmek. Genellikle sinir ağlarını eğitmek için kullanılan algoritmalarla karşılaştırıldığında baskın bir algoritma gibi görünmüyor, ama bu bir olasılık. Sorun şu ki, evrim, açık mühendislik tasarımı açısından daha az kontrol edilebilir. Biz onu kuruyoruz ve neyin evrimleştiğini görüyoruz, sonra test etmeye, izlemeye, ne olduğunu anlamaya çalışıyoruz. Yani, elimizde bir dizi araç olmasına rağmen, muhtemelen daha güvenli sistemlere yol açmıyor."
   },
   {
     "start": 4695.0,
@@ -310,7 +320,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Hmm. Tamam. İlginç. Çünkü sonucu kontrol edemiyoruz. Ona ne tür bir uyarıcı vermemiz gerektiğini bilmiyoruz. Bu bana çok tatmin edici gelmiyor. Tamam, neden insanlar da bu kadar iyi çalıştı ve yapay süper zekada bu kadar kötü çalışıyor? İnsanların iyi çalıştığını düşünmüyorum. İnsanlar, mümkün olduğunca iyi davranıyorlar. Gerçekten istediklerini yapacak kadar güçlü değilsiniz. Eğer ceza korkusundan tamamen özgür olsaydınız, korkunç şeyler yapardınız. Ama işte doğanın size verdiği cevap bu. Doğa, bunların dengede olması gerektiğini söylüyor. Rekabet eden sistemler olmalı. Ve ekosistemler olmadan, rekabet olmadan, bu tür şeyler kontrolden çıkıyor. Ama kimsenin bu dersi alıp yapay zekaya uyguladığını görmüyorum. Evet, yapay zekaya uygulamak, birbirleriyle rekabet eden süper zekalar yaratmak ve insanlığın yan etkisi olarak zarar görmesi anlamına gelir. Bu yüzden bunu yapmıyorlar mı? Bunu sevmeyeceğinizi anlıyorum, ama bu yüzden bunu yapmıyorlar mı? Bu pek olası görünmüyor. Ayrıca kendini geliştirme sürecinin devamı var. Süper zeka sabit bir nokta değil. Süper zeka, bir sonraki seviye süper zeka 2.0, 3.0'ı yaratır ve hepsinin aynı kontrol ve hizalama sorunu vardır."
   },
   {
     "start": 4839.2,
@@ -336,7 +347,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "evolutionary perspective",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ama hayatta kalmak istedim, ama hayatta kalmak istedim, eşleşerek ve taşıyıcı yavrularla, kesinlikle bağışıklık sistemi karışımlarıyla, böylece tek bir başarısızlık noktasına daha az duyarlı olabilirim. Ve anladım ki, bunu yapacaksam, o zaman hem işbirliği yapan hem de rekabet eden bir tür olmalı, bu da demektir ki, bunlardan hiçbiri en iyi hayatta kalma sorusunun cevabı değil. Bu tüm tür. Ve sol ve sağ gibi şeylere baktığımda, bunu anlamanın yolunu şöyle ifade ediyorum: Tamam, evrimsel bir perspektiften bakıldığında, evrim şöyle demek zorundaydı: Ah, işbirliği yapmalıyız. Soğutma yok. Yani, ileride ihtiyaç duyabileceğim kalorileri depolamak için vücuduna kalori depoluyorum, bu da buzdolabına koyabilmekten daha iyi. Ve bunu kastetmiyorum, seni yiyeceğim demek istemiyorum. Yani, ben avlanırken, senin yemene izin veriyorum."
   },
   {
     "start": 4974.3,
@@ -368,7 +380,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Ve şimdi, sol eğilimli kişilerin tanımladığı kazanma durumu ile sağ eğilimli kişilerin tanımladığı kazanma durumu arasındaki dinamik gerilimde, dinamik bir gerilim var. Denge, belki de bunu düşünmenin doğru yolu bile değil. Dinamik bir gerilim. Her biri kendi yönünde çekiyor, ama birbirlerini dengeleyerek, çünkü evrimleşme şeklimiz bu. Birlikte çalışmak zorundayız. Bu, yapay zekaya uygulanabilir gibi görünüyor, eğer motivasyon yapısına derinlemesine yerleştirmek istiyorsak, bunu geçirmemiz gerekiyor ve eğer güvenlik perspektifinden düşünüyorsam, bunu kısa devre yapma isteğimizi anlıyorum ve belki de bu çok verimli değil, ama eğer bu dinamik gerilimi veya bir tür dengeyi bulmanın tek yolu, benzer zeka ve yeteneklere sahip şeylerin biraz farklı yönlere çekilmesi ve birbirlerine bağlı kalmaları gerekiyorsa, o zaman bu, yapay zekanın bir bütün olarak kendisini yanlış bir yöne gitmekten alıkoymasıdır. Bu, insanlar için işe yarıyor çünkü eşit güçteyiz ve birbirimize karşılıklı fayda sağlıyoruz. Tanımladığınız gibi belirli bir simbiyoz var."
   },
   {
     "start": 5127.7,
@@ -397,7 +410,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Temel evrimsel dürtü olan üreme gibi bir örneği gündeme getirdiniz. Biz bu örneği kullanıyoruz. Doğrudan doğanın kurduğu tek şeyi hackledik. Evet. Evet. Tamam, hipotezimi mümkün olduğunca açık bir şekilde ifade edeceğim. Bunu çürüttüğünüzü düşünüyorum, ama hipotezimi açıkça ifade etmek gerekirse, yapay zekaya denetim ve denge mekanizmaları yerleştirmenin tek yolu, gelişim döngüsü boyunca evrimsel ödüller ve cezalar vermektir ki bu da insanların hayatta kalması ve duygusal olarak gelişmesiyle ilgilidir. Ama bu terimleri tanımlamak, pişman olmayacağınız bir şekilde, çok, çok zor. Yani, insanların hayatta kalması, bu ne anlama geliyor? Güvenli duygusal durumlarda mı kriyo koruma yapıyoruz? Sürekli uyuşturucu mu alıyorsunuz? Beyniniz her zaman mutlu bir durumda mı kalacak şekilde mi modifiye edildi? Tüm bu şeyler oyunlaştırılabilir. Bana bunu istediğinizi söylediğiniz an, insanların gülümsemesi için gülümsemeler yapma üzerine ünlü bir makale var."
   },
   {
     "start": 5506.5,
@@ -423,7 +437,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "intelligence_nature",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Kaynaklar sınırlıysa ve sürekli olarak benimseme ve geliştirme yapmak istiyorsanız, bir nesli ortadan kaldırmanın ve yenisiyle değiştirmenin evrimsel nedenleri olabilir. Belirli bir zamanda popülasyonda yalnızca bu kadar çok ajanınız var. Bu nedenle, daha yaşlı olanların yok olması gerekiyor. Bu, teorik bir sonuç, garanti değil ama muhtemel görünüyor. Evrim açısından bakıldığında, aynı organizmaya sahipsiniz, değil mi? Aynı hücre soyları geçiyor. Yani, birey olarak ölürken, biyolojik varoluş zinciriniz devam ediyor. Bu ilginç. Yani, evrimi kişileştirecek olursam, aslında kör saatçi olan evrimi kişileştirecek olursam, şöyle bir şey olurdu. Tamam. Dünya sürekli değişiyor, kaynaklara erişiminiz değişiyor, hava döngüleri her şey değişiyor. Yani, seni doğuracağım, beyninin gelişimini çok uzun bir süre uzatacağım. Bu aşamalardan geçeceksin, temelde, tamam, ebeveynlerinden öğren, insan olmanın genel olarak öğrenilecek her şeyini öğren. Sonra ebeveynlerinden uzaklaşacaksın ve çok fazla öğrenmek zorundasın. Ve ebeveynlerinden uzaklaşmanın nedeni, onların düşüncelerinin katılaşmış olması. Yani, artık onlardan uzaklaşmalısın, kültürden derinlemesine içecek, ebeveynlerinden farklı bir ortamda büyüyen yaşıtlarınla birlikte olmalısın. Böylece hepsi farklı düşünüyor. Bu, benzer bir referans çerçevesine sahip olan ve benzer şekilde düşünen nesillerin, kuşakların fikridir. Bunu yapıyorsun ve bu, iz bırakma yaşı olarak bilinen bir beyin gelişim dönemidir."
   },
   {
     "start": 5714.5,
@@ -452,7 +467,8 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Intelligence adaptation",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bir şeyin eksik olduğunu düşünüyor musun? Bence, yaşlandıkça öğrenme ve uyum sağlama yeteneğini korumanın daha kolay ve daha verimli olacağını düşünüyorum. Ayrıca, ilk 20 yıl boyunca her şeyi yeniden öğrenmek zorunda kalmazsınız, dil ve yürümek dahil. Bu yetenekleri kodlamanın mümkün olduğunu biliyoruz. Hayvanlar doğar doğmaz koşabiliyor, konuşabiliyor. Yani, tüm bu şeyler yapılabilir. Neden her nesilde 20 yıl bilgi kaybediyoruz? Önceden var olan bilginin üzerine inşa edebiliriz. Büyük veri, zeka için iyidir. Yani, daha akıllı, daha verimli bir üreme döngüsü oluşturabiliriz ve yine de doğal nedenlerden ölürsünüz. Tam bir duraklama olmaz, ama eğer 400 yıl hayatta kalacak kadar akıllıysanız, neden olmasın? Benim nedenim, uyum sağlama yeteneğini yaşlılık dönemimize kadar nasıl yerleştireceğimiz konusunda net bir anlayışa sahip olmamamızdır, çünkü haklısınız, eğer o yeni dönem boyunca kalabilirsek ya da en azından dünyanın aşırı yeniden haritalanma döngülerinden geçebilirsek, belki bu işe yarar ve belki de nerede olduğunu belirleyebiliriz."
   },
   {
     "start": 5876.9,
@@ -478,7 +494,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Population dynamics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Eğer sonsuza kadar yaşarsanız ya da en azından öyle bekliyorsanız, genç yaşta üreme olasılığınız daha düşük olur. İlk 400, 500 yılınızı bir aile kurmaya harcayabilirsiniz. Bu nedenle, 20 yıllık nesil beklentisi ve daha genç nesillerin ortaya çıkması, bunun sonucunda değişecektir. Avrupa, Asya'da nüfus dinamiklerinin değişmeye başladığını görüyoruz, yeterince çocuk üretmiyoruz, nüfusu bile koruyamıyoruz. Bu ilginç. Bunun nasıl gelişeceğini düşündüğümde, belki de biraz farklı bir şekilde, çünkü çocuk sahibi olmamamın bir nedeni, sadece bir gençliğim var, bu yüzden enerjimle dolup taşmak istiyorum, kültürün bir parçası olduğumu hissediyorum, bu yüzden bir şey inşa etme olasılığım daha yüksek. Zeka, genç bir adamın oyunudur derler. Ve bu yüzden bir şeyin dikkatimi dağıtmasını istemiyorum. Ayrıca, evliliğime de zarar vermesini istemiyorum. Yani, ah, şimdi bekleyeceğim. Eğer 500 yıl yaşayacağımı bilseydim, belki de, ah, neyse, şimdi yapalım derdim, çünkü sadece 25, 30 yıllık bir yatırım yapmam yeterli olurdu ve sonrasında ne yapacaklarını görebilir ve tüm bunları görebilirim ve bolca zamanım olacak. Biliyorsunuz, eğer gençliğim 250 yıl sürerse, evet, tamam, neyse, 30 yılı şimdi harcayayım ki ailemin ne kadar büyüdüğünü görebileyim."
   },
   {
     "start": 5963.4,
@@ -504,7 +521,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "longevity research",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Bence burada bir bilim kurgu yazarı gibi düşünmek istiyorum. Çok hızlı bir şekilde ilginç hale geliyor. Bu sadece bu değil, ama bence çoğu insan zor işlerde ertelemeye eğilimli ve bu yüzden bunu mümkün olduğunca uzağa itiyorlar. Bunun bir gerçeği var, kesinlikle. Hımm, gördüğünüz ve sizi gerçekten heyecanlandıran, bu her şeyin mümkün olduğunu düşündüren büyük bir uzun ömür atılımı nedir? Hayvan modelleri üzerinde bazı iyi deneyler var. Elbette, bunlar her zaman insan performansına ölçeklenmiyor, ama bence fareler ve diğer laboratuvar hayvanlarının yaşam süresinde %30-40'lık bir artış var. Daha uzun yaşam sürelerine sahip daha büyük hayvanlar üzerinde deney yapmak zor. Sonuçları görmek çok uzun zaman alıyor, ama bence en azından sağlığınızı iyileştirebilecek şeyleri anlamada iyi bir ilerleme kaydediyoruz ve genoma ne tür değişiklikler yapmamız gerektiğini biliyoruz. Zaten çok uzun yaşam sürelerine sahip insanları inceliyoruz ve onların genomlarında ortak noktalar buluyoruz. Eğer bunlar farmasötik olarak veya genetik manipülasyon yoluyla yeniden üretilebilirse, belki hepimiz en azından 120 yıl yaşayabiliriz."
   },
   {
     "start": 6134.0,
@@ -530,7 +548,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI and gene editing",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Hımm, gen düzenleme konusunda ne düşünüyorsunuz? >> Çok daha az endişe verici. Yani, bir insanın bir sorunu varsa, o kadar. Hala sadece bir insan. Eğer düzenleme araçlarımız varsa, yaptığımız değişiklikleri daha sonra aynı düzenleme aracıyla geri alabiliriz. Eğer bir hata yaptıysak, geri dönüp o sorunları düzeltebiliriz. Bu yüzden, etki açısından çok daha az endişeliyim. En kötü senaryolar, evet, birey için etik sonuçlar var, örneğin insan klonlaması nedeniyle hapse girmiş biri gibi, bu çocuk için önemli ölçüde zarar verebileceği düşünüldüğünde sorunlu kabul ediliyor. Ama insanlık olarak bu deneyden doğrudan olumsuz etkilenmiyoruz. Hımm. AI'nın bununla kesişimi nerede? AI, uzun yaşayan insanlar ile yaşamayanlar arasındaki genom seviyesindeki benzerlikleri haritalamak açısından kritik bir araç mı olacak? Hımm, AI, bildiğiniz gibi, yeni protein katlanması yapacak ve hastalanan insanların bazı mimari sorunlarını çözmeye mi gidecek? Bu, uzun ömürle nasıl bir arayüz oluşturacak?"
   },
   {
     "start": 6391.9,
@@ -559,6 +578,7 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI power dynamics",
-    "reviewed": false
+    "reviewed": false,
+    "text_tr": "Evet, ama daha önce yaşadığımız sorunlara benzer bir durum var. Kaç adam, kendilerine hiçbir şey hissetmeyen kadınlara aşık oldu? Hepimiz internetle büyüdük ve pornografiye erişimimiz vardı. Bu AI tarafından üretilmedi, ama bir şekilde bunu atlattık. Bu yüzden, bunlar aynı sorunların daha fazlası. Hala üzerinde durmamız gereken bir şey, ama Sam Altman'ın sanal bir erkek arkadaşı olmasının sonucunda hepimizin öleceğini düşünmüyorum. Sam Altman hakkında ne düşünüyorsunuz? Bu potansiyel tanrısal kontrolü elinde bulundurması gereken doğru kişi mi? Hiçbir insanın bu seviyedeki güçle başa çıkmak için doğru kişi olduğunu düşünmüyorum. Şimdi, onun kontrol altında olacağını düşünmüyorum, ama bu teknolojinin gelişimine giden aşamalar bile herhangi bir bireyin başa çıkabileceğinden çok fazla güç sunuyor. Yönetim kurulu onu görevden almaya çalıştığında etkilendiniz mi yoksa korktunuz mu ve o, yönetim kurulunu yeniden oluşturup geri döndü mü? İzlemek büyüleyiciydi, ama gözlemlediğim şey, bunun hiçbir fark yaratmadığıydı. Şirket bağımsız bir varlıktı ve o canavardaki tüm insan bileşenleri aynı şekilde yürümeye devam etti. Onu geçici bir CEO ile değiştirdiler. Onu geri getirdiler."
   }
 ]
