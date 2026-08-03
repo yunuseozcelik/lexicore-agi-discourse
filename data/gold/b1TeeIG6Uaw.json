@@ -23,7 +23,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "off-topic",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Eğer Çin'e giderseniz, benim de okuduğum bazılarını okuyabilirsiniz. Onun gerçekten iyi bir siyasi sezgisi var. Parti bürokrasisini kontrol etmek, askeri kontrol etmek için nelerin gerektiğini biliyor. Özellikle ekonomik konularda, sanki bir danışman ona bazı konuşma noktaları veriyormuş gibi görünüyor ve o da bunları konuşuyor. Bu konuda bir his var. Teknoloji konularında ise bence çok ilgili, ama sadece Çin Komünist Partisi için Amerika Birleşik Devletleri ile rekabetin çok önemli bir hedef olduğu perspektifinden. Bu onun için kişisel olarak çok önemli bir hedef. Bu yüzden kazanmak istiyor. Ama tam olarak tüm karmaşıklıkları ne ölçüde anladığı... benim için belirsiz. Bunu mutlaka yaptığını düşünmüyorum. Ama onu özellikle bugün Amerikan liderleriyle karşılaştırdığımda, muhtemelen daha iyi hazırlanmış olduğunu düşünüyorum."
   },
   {
@@ -32,7 +32,7 @@
     "text": "what we’re going to see in terms of\ninstitutional development is not at the top end, but at the lower end. They will want to designate human beings\nin all the government agencies, in all the commercial entities that are using AI or AGI, to put their foot on\nthe brake if it comes to it. But so far, after DeepSeek became a big\ndeal, the immediate reaction in China… Very enthusiastic. All the different big tech\ncompanies—WeChat, Tencent—everybody was encouraged to adopt it. And they did. They adopted it as fast as possible. Xi himself met with Liang Wenfeng\nand did a whole meeting where all the industrial heads were there. Xi said that they have to\naccelerate technology in China, etc. So it seems like so far the response has\nbeen that the greater the capabilities of AI, the more they’re excited\nabout it, the more they think this is the beginning of Chinese greatness. But you think that changes at some point? No, they want to develop it of course.",
     "speaker": "Victor Shih",
     "claim": "China is enthusiastic about adopting AI and AGI technologies, viewing them as a path to national greatness.",
-    "stance": "Support",
+    "stance": "Neutral",
     "is_claim": true,
     "topic": "AI adoption",
     "confidence": "medium",
@@ -56,38 +56,107 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI adoption",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Gördüğümüz kurumsal gelişim, üst düzeyde değil, alt düzeyde olacak. Tüm hükümet ajanslarında, AI veya AGI kullanan tüm ticari kuruluşlarda insanları belirlemek isteyecekler, eğer gerekirse frene basmak için. Ama şimdiye kadar, DeepSeek büyük bir mesele haline geldikten sonra, Çin'deki hemen tepkiler... Çok hevesli. Tüm büyük teknoloji şirketleri—WeChat, Tencent—herkesin bunu benimsemesi teşvik edildi. Ve bunu mümkün olan en hızlı şekilde benimsediler. Xi kendisi Liang Wenfeng ile bir araya geldi ve tüm sanayi liderlerinin bulunduğu bir toplantı yaptı. Xi, Çin'deki teknolojiyi hızlandırmaları gerektiğini söyledi, vb. Bu yüzden şimdiye kadar yanıtın, AI'nın yetenekleri arttıkça, bununla daha fazla heyecanlandıkları, bunun Çin'in büyüklüğünün başlangıcı olduğunu düşündükleri gibi görünüyor. Ama sen bunun bir noktada değişeceğini düşünüyor musun? Hayır, elbette bunu geliştirmek istiyorlar."
   },
   {
-    "start": 3695.8,
-    "end": 3762.0,
-    "text": "You’d think, “How can you\nrun a government like that? Wouldn’t it just collapse?” But then you have to look\nat the outside options. If you’re a teacher, a very low-level\nbureaucrat, what option do you have? Do you want to go back to\ndelivering food to people? Or would you rather at least take six\nor seven months of civil service salary? At least you have healthcare. At least you get a free lunch at\nthe workplace cafeteria every day. People still choose to work\nfor the Chinese government, even if that’s the case. A lot of the previously very\ngenerous fringe benefits and so forth, that’s all been cut down\nbecause of the local debt issue. Still, they’re pouring a lot of\nresources into national defense, into AI, into technology. What would a solution\nat this point look like? If you’ve already spent all this\nmoney… First of all, why is it the case that these investments\nactually aren’t productive? It’s not like it’s entitlement\nspending where you’re doing it for old people and at the end of the day\nyou’re not getting any return for it. Theoretically, you’re building real\nbridges, you’re building real airports.",
+    "start": 3499.4,
+    "end": 3563.1,
+    "text": "“We need EUV machines by\nthis year,” and so forth. But your claim is that that part of\nthe system is actually dysfunctional and in fact, the part that works\nis the 5% that’s totally private? No, the private sector\nstuff works a lot better. You have occasional successes\nfrom the state-financed system. I wouldn’t say there are no success cases. But I would say for every success\ncase you see, there are maybe even over a dozen failed cases. Of course, you have failed cases\neverywhere in VC, but the amount of money being wasted in the state\nfinancial system is much larger. Going back to the local government\ndebt burden, there’s a world where AI isn’t a big deal and there’s\na world where AI is a big deal. If we live in the world where AI truly\ncauses huge uplift to economic growth, is it possible that this problem\ndoesn’t meaningfully harm China’s ability to compete at the frontier?",
     "speaker": "Victor Shih",
-    "claim": "Investments in AI and technology by the Chinese government may not be productive despite significant spending.",
-    "stance": "Refute",
+    "claim": "The effectiveness of state-financed AI systems is questionable compared to private sector successes, which may impact China's competitiveness in AI.",
+    "stance": "Neutral",
     "is_claim": true,
-    "topic": "AI investment",
+    "topic": "AI effectiveness",
     "confidence": "medium",
     "claim_labels": [
       "ai_economics",
+      "open_source",
       "geopolitics"
     ],
     "claim_labels_auto": [
       "ai_economics",
+      "open_source",
       "geopolitics"
     ],
     "speaker_silver": "Victor Shih",
     "is_claim_silver": true,
-    "claim_silver": "Investments in AI and technology by the Chinese government may not be productive despite significant spending.",
+    "claim_silver": "The effectiveness of state-financed AI systems is questionable compared to private sector successes, which may impact China's competitiveness in AI.",
     "claim_labels_silver": [
       "ai_economics",
+      "open_source",
       "geopolitics"
     ],
     "stance_silver": "Refute",
-    "topic_silver": "AI investment",
-    "reviewed": false,
-    "text_tr": "Düşünürsünüz ki, \"Böyle bir hükümeti nasıl yönetebilirsiniz? Çökmez mi?\" Ama dış seçeneklere bakmanız gerekiyor. Eğer bir öğretmenseniz, çok düşük seviyeli bir bürokratsanız, ne seçeneğiniz var? İnsanlara yemek dağıtmayı mı tercih edersiniz? Yoksa en azından altı veya yedi ay kamu hizmeti maaşı almayı mı? En azından sağlık hizmetiniz var. En azından her gün iş yerindeki kafeteryada ücretsiz öğle yemeği alıyorsunuz. İnsanlar hâlâ Çin hükümetinde çalışmayı seçiyor, durum böyle olsa bile. Daha önce çok cömert olan yan haklar ve benzeri, yerel borç sorunu nedeniyle kesildi. Yine de, ulusal savunmaya, AI'ya, teknolojiye çok fazla kaynak akıtıyorlar. Bu noktada bir çözüm neye benzer? Zaten bu kadar para harcadıysanız... Öncelikle, bu yatırımların neden verimli olmadığını neden? Bu, yaşlı insanlar için yaptığınız bir hak harcaması gibi değil ve sonunda bunun için herhangi bir geri dönüş almıyorsunuz. Teorik olarak, gerçek köprüler inşa ediyorsunuz, gerçek havaalanları inşa ediyorsunuz."
+    "topic_silver": "AI effectiveness",
+    "reviewed": true,
+    "text_tr": "\"Bu yıl EUV makinelerine ihtiyacımız var,\" ve benzeri. Ama senin iddian, sistemin o kısmının aslında işlevsiz olduğu ve aslında çalışan kısmın tamamen özel olan %5'lik kısım olduğu mu? Hayır, özel sektör işleri çok daha iyi çalışıyor. Devlet finansmanlı sistemden ara sıra başarılar çıkıyor. Başarı hikayesi yok demem. Ama her başarı hikayesinin yanında belki de bir düzine başarısızlık hikayesi var. Elbette, VC'de her yerde başarısızlık hikayeleri var, ama devlet finansman sisteminde israf edilen para çok daha fazla. Yerel hükümet borç yüküne geri dönersek, AI'nın büyük bir mesele olmadığı bir dünya var ve AI'nın büyük bir mesele olduğu bir dünya var. Eğer AI gerçekten ekonomik büyümeye büyük bir katkı sağlıyorsa, bu sorunun Çin'in rekabet etme yeteneğini anlamlı bir şekilde etkilememesi mümkün mü?"
+  },
+  {
+    "start": 3629.9,
+    "end": 3695.0,
+    "text": "But because they started from a pretty\nwealthy place, they can still service the debt without too much difficulty. Actually, the trade war is going to\nmake it worse for Zhejiang Province, because a lot of the manufacturing\nand export firms are also in Zhejiang. Nonetheless, the case of China is that\nthe financial system is geared toward fulfilling the priorities of the Party,\ni.e. the priorities of Xi Jinping. So, even if they can’t do anything\nelse, they will do the things that Xi Jinping wants them to do. And AI, apparently, is one of the\nhigher priorities for Xi Jinping. He’s held multiple study sessions,\nhad different Politburo meetings, and Ding Xuexiang—one of his most\ntrusted lieutenants—is in charge of it. So I do expect a fair amount of\nresources to be devoted to it, regardless of the local debt situation. In fact, at the local\nlevel, things are so bad. But they just don’t care. There are civil servants,\nteachers, who are not paid four or five months out of the year.",
+    "speaker": "Victor Shih",
+    "claim": "China's financial system prioritizes AI development under Xi Jinping despite local debt issues.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "China's financial system prioritizes AI development under Xi Jinping despite local debt issues.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": true,
+    "text_tr": "Ama çünkü oldukça zengin bir yerden başladılar, borcu çok fazla zorluk çekmeden ödeyebiliyorlar. Aslında, ticaret savaşı Zhejiang Eyaleti için durumu daha da kötüleştirecek, çünkü birçok üretim ve ihracat firması da Zhejiang'da. Yine de, Çin'in durumu, finansal sistemin Parti'nin önceliklerini yerine getirmeye yönelik olduğu, yani Xi Jinping'in önceliklerine yönelik olduğu. Yani, başka bir şey yapamasalar bile, Xi Jinping'in yapmak istediği şeyleri yapacaklar. Ve AI, görünüşe göre, Xi Jinping için daha yüksek önceliklerden biri. Birçok çalışma oturumu düzenledi, farklı Politbüro toplantıları yaptı ve en güvendiği yardımcılarından biri olan Ding Xuexiang bununla ilgileniyor. Bu nedenle, yerel borç durumuna bakılmaksızın buna önemli miktarda kaynak ayrılmasını bekliyorum. Aslında, yerel düzeyde işler o kadar kötü ki. Ama umursamıyorlar. Dört veya beş ay boyunca maaş almayan memurlar, öğretmenler var."
+  },
+  {
+    "start": 1591.1,
+    "end": 1655.0,
+    "text": "For them, developing the brakes is just\nas important as developing the AI itself. What are the different organizational\nmilestones we should be watching for, to understand how they’re thinking about\nAI, and when things have escalated? To add more color to this question,\nwhat I expect to happen, let's say next year, in terms of raw AI capabilities is\nthat we might have computer-use agents. Not just a chatbot, but something that\ncan actually do real work for you. You set it loose on your computer,\nand it goes through your email, compiles your taxes, etc. In five years, I expect it to\nbe able to do all white-collar work, or most white-collar work. That’s 40% of the economy, potentially. Eventually, we’ll have full\nAGI, even robotics and so forth. As this is happening, how should\nwe be tracking how the Party is thinking about what’s happening,\nhow seriously they take it, and what they think they should do about it? I think a couple weeks ago there\nwas a Politburo study session on AI. I don’t know if it was AGI AI, or\nwhat kind of AI they were discussing.",
+    "speaker": "Victor Shih",
+    "claim": "In five years, we can expect to have full AGI and significant advancements in AI capabilities that will impact the economy.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "In five years, we can expect to have full AGI and significant advancements in AI capabilities that will impact the economy.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "text_tr": "Onlar için frenleri geliştirmek, AI'nın kendisini geliştirmek kadar önemlidir. AI hakkında nasıl düşündüklerini ve ne zaman olayların tırmandığını anlamak için hangi farklı organizasyonel kilometre taşlarını izlemeliyiz? Bu soruya daha fazla renk katmak için, gelecek yıl ham AI yetenekleri açısından ne olmasını bekliyorum, bilgisayar kullanan ajanlar olabilir. Sadece bir sohbet robotu değil, gerçekten sizin için gerçek işler yapabilen bir şey. Onu bilgisayarınıza salıyorsunuz ve e-postalarınızı tarıyor, vergilerinizi derliyor, vb. Beş yıl içinde, tüm beyaz yakalı işleri veya çoğu beyaz yakalı işleri yapabilmesini bekliyorum. Bu, ekonominin potansiyel olarak %40'ı. Sonunda, tam AGI'ye, hatta robotik ve benzeri şeylere sahip olacağız. Bu olurken, Parti'nin olan biteni nasıl düşündüğünü, bunu ne kadar ciddiye aldıklarını ve bununla ilgili ne yapmaları gerektiğini nasıl takip etmeliyiz? Bence birkaç hafta önce AI üzerine bir Politbüro çalışma oturumu vardı. Bunun AGI AI mı yoksa hangi tür AI hakkında konuştuklarını bilmiyorum."
   },
   {
     "start": 5174.0,
@@ -95,7 +164,7 @@
     "text": "3x?\n4x? 1x? I think it’s 1x or 1.2x the US economy. Even PPP? Yeah. I don’t quite believe in\nthese PPP calculations. Oh really?\nInteresting. How come? Just because the quality\nis very different. In some cases, China’s\nquality is still worse. In other cases, it’s increasingly\nbetter than the US quality. So I’m not an expert, but even\ncontrolling for inflation—so real income—I think the overall size of\nthe economy will be similar to the US, maybe slightly larger by 2040. But it’s already 1.1x or 1.2x, right? No, not as far as I know. If it’s not PPP and it’s just real income,\nI think it’s around 70% of the US economy. This is quite a bearish forecast. Usually people expect China\nto be quite dominant by 2040. Growth rates were slowing down anyway. Now you have trade pressure and so forth. It’s going to slow down.",
     "speaker": "Victor Shih",
     "claim": "China's economy will not surpass the US economy by 2040 and may even slow down due to various pressures.",
-    "stance": "Refute",
+    "stance": "Neutral",
     "is_claim": true,
     "topic": "economy",
     "confidence": "high",
@@ -116,7 +185,61 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "economy",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "3x? 4x? 1x? Bence 1x veya 1.2x ABD ekonomisi. Hatta PPP ile mi? Evet. Bu PPP hesaplamalarına pek inanmıyorum. Gerçekten mi? İlginç. Neden? Çünkü kalite çok farklı. Bazı durumlarda, Çin'in kalitesi hâlâ daha kötü. Diğer durumlarda ise, ABD kalitesinden giderek daha iyi. Yani ben bir uzman değilim, ama enflasyonu kontrol ettiğinizde—yani reel gelir—bence ekonominin genel büyüklüğü ABD ile benzer olacak, belki 2040'a kadar biraz daha büyük. Ama zaten 1.1x veya 1.2x, değil mi? Hayır, bildiğim kadarıyla değil. Eğer PPP değilse ve sadece reel gelirse, bence ABD ekonomisinin yaklaşık %70'i kadar. Bu oldukça karamsar bir tahmin. Genellikle insanlar, Çin'in 2040'a kadar oldukça baskın olmasını bekliyor. Büyüme oranları zaten yavaşlıyordu. Şimdi ticaret baskısı ve benzeri var. Yavaşlayacak."
+  },
+  {
+    "start": 1231.2,
+    "end": 1317.1,
+    "text": "Just because in China, the experts talk\nto the top leadership all the time. Yeah. The advantage of the American\nsystem, of course, is that, at least in theory, it can survive\na leader who is not up to snuff. Okay, let’s go back to Ding Xuexiang.",
+    "speaker": "Victor Shih",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "text_tr": "Çin'de uzmanlar sürekli üst düzey liderlikle konuşuyorlar. Evet. Amerikan sisteminin avantajı, en azından teorik olarak, yeterli olmayan bir lideri hayatta tutabilmesidir. Tamam, şimdi Ding Xuexiang'a geri dönelim."
+  },
+  {
+    "start": 1021.9,
+    "end": 1096.6,
+    "text": "And it’s very hard on him. Before all these meetings,\nthere’s a briefing. Someone gives him a briefing book\nand says, \"Okay, this is what we’re going to talk about. Here are the\npolicy options. Which one do you want?\" He has to make up his mind. Sometimes I’m sure he\nconsults with other people. But he has to be really engaged with\na large number of policy areas on a day-to-day basis, because the decisions\nhe makes basically become law, basically. It's stupendous to think about. You can tell someone how big China\nis—the population, the size of the economy, etc.—but visiting gives you\na tangible sense of just how big. You have provinces, each of which\nhas as many people as a normal nation-state, provinces with\nhundreds of millions of people, 40 million, and so forth. One person will say something at\nthe end of a meeting that determines policy for basically the population of\nNorth and South America or something. Does he say things at the end of\nmeetings, during speeches, that indicate he actually has a good understanding\nof these different policy areas?",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "text_tr": "Ve bu onun için çok zor. Tüm bu toplantılardan önce bir brifing var. Birisi ona bir brifing kitabı veriyor ve diyor ki, \"Tamam, bu konuşacağımız şey. İşte politika seçenekleri. Hangisini istiyorsun?\" Karar vermesi gerekiyor. Bazen diğer insanlarla danıştığını biliyorum. Ama günlük olarak çok sayıda politika alanıyla gerçekten ilgilenmesi gerekiyor, çünkü aldığı kararlar esasen yasalaşıyor. Düşünmesi bile şaşırtıcı. Birine Çin'in ne kadar büyük olduğunu söyleyebilirsiniz—nüfusu, ekonominin büyüklüğü vb.—ama ziyaret etmek, ne kadar büyük olduğunu somut bir şekilde hissettiriyor. Her biri normal bir ulus-devlet kadar insan barındıran eyaletler var, yüz milyonlarca insanın yaşadığı eyaletler, 40 milyon ve benzeri. Bir kişi, bir toplantının sonunda, Kuzey ve Güney Amerika'nın nüfusunu belirleyen bir şey söyleyebilir. Toplantıların sonunda, konuşmalar sırasında, bu farklı politika alanlarını gerçekten iyi anladığını gösteren şeyler mi söylüyor?"
   }
 ]

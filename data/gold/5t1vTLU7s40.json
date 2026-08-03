@@ -5,7 +5,7 @@
     "text": "Now, there's several ways to do this. Some of them are supervised. You just ask a human person, like what is a good\nanswer for this, right? Then you just type the answer. I mean, there's lots of ways that those systems are being adjusted. - Now, a lot of people\nhave been very critical of the recently released\nGoogle's Gemini 1.5 for essentially, in my words,\nI could say super woke. Woke in the negative\nconnotation of that word. There is some almost hilariously\nabsurd things that it does, like it modifies history, like generating images of\na black George Washington or perhaps more seriously something that you commented on Twitter, which is refusing to comment\non or generate images of, or even descriptions of\nTiananmen Square or the tank men, one of the most sort of legendary\nprotest images in history.",
     "speaker": "Unknown",
     "claim": "Google's Gemini 1.5 has been criticized for its biased outputs and historical inaccuracies.",
-    "stance": "Refute",
+    "stance": "Neutral",
     "is_claim": true,
     "topic": "AI safety",
     "confidence": "medium",
@@ -26,68 +26,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Şimdi, bunu yapmanın birkaç yolu var. Bazıları denetimli. Sadece bir insana soruyorsunuz, bu için iyi bir cevap nedir, değil mi? Sonra cevabı yazıyorsunuz. Bu sistemlerin ayarlandığı birçok yol var. - Şimdi, birçok insan, benim sözlerimle, Google'ın yeni çıkan Gemini 1.5'ini aşırı woke olduğu için çok eleştirdi. O kelimenin olumsuz anlamında woke. Yaptığı bazı şeyler neredeyse komik bir şekilde absürt, örneğin tarihi değiştirmesi, siyahi George Washington'un görüntülerini üretmesi veya belki daha ciddi bir şekilde, Twitter'da yorum yapmayı veya Tiananmen Meydanı veya tank adamlar hakkında görüntü veya tanım üretmeyi reddetmesi gibi, tarihteki en efsanevi protesto görüntülerinden biri."
-  },
-  {
-    "start": 7033.1,
-    "end": 7098.1,
-    "text": "And it's the same with\nchemical weapons or bio weapons or things like this. It requires expertise in the real world that the LLM is not gonna help you with. - And it requires even\nthe common sense expertise that we've been talking about, which is how to take\nlanguage based instructions and materialize them in the physical world requires a lot of knowledge\nthat's not in the instructions. - Yeah, exactly. A lot of biologists have\nposted on this actually in response to those things saying like do you realize how hard it is to actually do the lab work? Like this is not trivial. - Yeah. And that's Hans Moravec\ncomes to light once again. Just to linger on LLaMA. Mark announced that LLaMA\n3 is coming out eventually, I don't think there's a release date, but what are you most excited about? First of all, LLaMA 2\nthat's already out there, and maybe the future LLaMA 3, 4, 5, 6, 10, just the future of the\nopen source under Meta? - Well, a number of things.",
-    "speaker": "Lex Fridman",
-    "claim": "The expertise required for physical tasks cannot be fulfilled by language models alone.",
-    "stance": "Refute",
-    "is_claim": true,
-    "topic": "AI limitations",
-    "confidence": "high",
-    "claim_labels": [
-      "llm_capabilities",
-      "execution_engineering"
-    ],
-    "claim_labels_auto": [
-      "llm_capabilities",
-      "execution_engineering"
-    ],
-    "speaker_silver": "Lex Fridman",
-    "is_claim_silver": true,
-    "claim_silver": "The expertise required for physical tasks cannot be fulfilled by language models alone.",
-    "claim_labels_silver": [
-      "llm_capabilities",
-      "execution_engineering"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI limitations",
-    "reviewed": false,
-    "text_tr": "Ve bu kimyasal silahlar veya biyolojik silahlar veya benzeri şeylerle de aynıdır. Gerçek dünyada uzmanlık gerektirir ve LLM bununla size yardımcı olmayacak. - Ve ayrıca, dil tabanlı talimatları alıp fiziksel dünyada somutlaştırmak için gereken sağduyu uzmanlığını da gerektirir, bu da talimatlarda olmayan çok fazla bilgi gerektirir. - Evet, kesinlikle. Birçok biyolog, bu konulara yanıt olarak, laboratuvar çalışmalarını gerçekten yapmanın ne kadar zor olduğunu anlamıyor musunuz? Bu basit bir şey değil. - Evet. Ve bu, Hans Moravec'in bir kez daha öne çıkmasıdır. LLaMA'ya biraz daha odaklanalım. Mark, LLaMA 3'ün sonunda çıkacağını duyurdu, bir çıkış tarihi yok ama en çok neyi merak ediyorsunuz? Öncelikle, LLaMA 2 zaten mevcut ve belki de gelecekteki LLaMA 3, 4, 5, 6, 10, sadece Meta altında açık kaynak geleceği? - Birçok şey var."
-  },
-  {
-    "start": 7632.7,
-    "end": 7701.1,
-    "text": "Can you say that humans are\nsmarter than orangutans? In some ways, yes, but in some ways orangutans\nare smarter than humans in a lot of domains that allows them to survive\nin the forest, (laughing) for example. - So IQ is a very limited\nmeasure of intelligence. True intelligence is bigger than what IQ,\nfor example, measures. - Well, IQ can measure\napproximately something for humans, but because humans kind of come in relatively kind of uniform form, right? - [Lex] Yeah. - But it only measures one type of ability that may be relevant for\nsome tasks, but not others. But then if you are talking\nabout other intelligent entities for which the basic things\nthat are easy to them is very different, then it doesn't mean anything. So intelligence is a collection of skills and an ability to acquire\nnew skills efficiently.",
-    "speaker": "Yann LeCun",
-    "claim": "Intelligence is a collection of skills and the ability to acquire new skills efficiently, which cannot be measured solely by IQ.",
-    "stance": "Neutral",
-    "is_claim": true,
-    "topic": "intelligence measurement",
-    "confidence": "medium",
-    "claim_labels": [
-      "intelligence_nature",
-      "execution_engineering"
-    ],
-    "claim_labels_auto": [
-      "intelligence_nature",
-      "execution_engineering"
-    ],
-    "speaker_silver": "Yann LeCun",
-    "is_claim_silver": true,
-    "claim_silver": "Intelligence is a collection of skills and the ability to acquire new skills efficiently, which cannot be measured solely by IQ.",
-    "claim_labels_silver": [
-      "intelligence_nature",
-      "execution_engineering"
-    ],
-    "stance_silver": "Neutral",
-    "topic_silver": "intelligence measurement",
-    "reviewed": false,
-    "text_tr": "İnsanların orangutanlardan daha akıllı olduğunu söyleyebilir misiniz? Bazı açılardan evet, ama bazı açılardan orangutanlar, ormanda hayatta kalmalarını sağlayan birçok alanda insanlardan daha akıllıdır, (gülüşmeler) örneğin. - Yani IQ, zekanın çok sınırlı bir ölçüsüdür. Gerçek zeka, IQ'nun ölçtüğünden daha büyüktür. - Evet, IQ, insanlar için yaklaşık bir şeyi ölçebilir, ama çünkü insanlar nispeten tek tip bir formda gelir, değil mi? - [Lex] Evet. - Ama sadece bazı görevler için ilgili olabilecek bir yetenek türünü ölçer, ama diğerleri için değil. Ama eğer diğer zeki varlıklardan bahsediyorsanız, temel şeylerin onlara çok kolay geldiği durumlarda, o zaman bu hiçbir şey ifade etmez. Yani zeka, becerilerin bir koleksiyonu ve yeni becerileri verimli bir şekilde edinme yeteneğidir."
   },
   {
     "start": 8096.1,
@@ -116,7 +56,184 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI safety",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Tasarım tamamen güvenlik ile ilgilidir. Çünkü daha iyi bir turbojet, aynı zamanda daha güvenli bir turbojettir, daha güvenilir bir turbojet. Yapay zeka için de aynı şey geçerli. Yapay zekayı güvenli hale getirmek için özel önlemlere ihtiyaç var mı? Hayır, daha iyi yapay zeka sistemleri yapmalısınız ve bunlar daha faydalı ve daha kontrol edilebilir olacak şekilde tasarlandıkları için güvenli olacaklar. - O yüzden, inanılmaz derecede ikna edici bir yapay zeka sistemini hayal edelim ve sizi her şeye ikna edebilir. En azından böyle bir sistemi hayal edebiliyorum. Ve böyle bir sistemin silah gibi olabileceğini görebiliyorum, çünkü insanların zihinlerini kontrol edebilir, oldukça safız. Bir şeyi inanmak istiyoruz. Ve bunu kontrol eden bir yapay zeka sistemine sahip olabilirsiniz ve hükümetlerin bunu bir silah olarak kullanabileceğini görebilirsiniz. Yani, böyle bir sistemi hayal ederseniz, bunun nükleer silahlar gibi bir paraleli olduğunu düşünüyor musunuz? - [Yann] Hayır. - Peki, bu teknoloji neden farklı? Yani, kademeli bir gelişim olacağını mı söylüyorsunuz?"
+  },
+  {
+    "start": 5498.8,
+    "end": 5562.2,
+    "text": "So adjust your world model. And the way to adjust your\nworld model, even in advance, is to explore parts of the\nspace with your world model, where you know that your\nworld model is inaccurate. That's called curiosity\nbasically, or play, right? When you play, you kind of explore\npart of the state space that you don't want to do for real because it might be dangerous, but you can adjust your world model without killing yourself\nbasically. (laughs) So that's what you want to use RL for. When it comes time to\nlearning a particular task, you already have all the\ngood representations, you already have your world model, but you need to adjust it\nfor the situation at hand. That's when you use RL. - Why do you think RLHF works so well? This enforcement learning\nwith human feedback, why did it have such a\ntransformational effect on large language models that came before? - So what's had the\ntransformational effect is human feedback.",
+    "speaker": "Yann LeCun",
+    "claim": "Reinforcement learning with human feedback has had a transformational effect on large language models.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "RLHF impact",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Reinforcement learning with human feedback has had a transformational effect on large language models.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "RLHF impact",
+    "reviewed": true,
+    "text_tr": "O yüzden dünya modelinizi ayarlayın. Ve dünya modelinizi ayarlamanın yolu, hatta önceden, dünya modelinizin yanlış olduğunu bildiğiniz alanları keşfetmektir. Buna temelde merak veya oyun denir, değil mi? Oyun oynarken, gerçekte yapmak istemediğiniz, çünkü tehlikeli olabileceği bir durum alanını keşfetmiş olursunuz, ama kendinizi öldürmeden dünya modelinizi ayarlayabilirsiniz. (gülüşmeler) Yani RL'yi bunun için kullanmak istersiniz. Belirli bir görevi öğrenme zamanı geldiğinde, zaten tüm iyi temsillere sahipsiniz, zaten dünya modeliniz var, ama duruma göre onu ayarlamanız gerekiyor. İşte o zaman RL'yi kullanırsınız. - RLHF'nin bu kadar iyi çalıştığını neden düşünüyorsunuz? İnsan geri bildirimi ile bu pekiştirmeli öğrenme, önceki büyük dil modelleri üzerinde neden bu kadar dönüştürücü bir etki yarattı? - Dönüştürücü etki yaratan şey insan geri bildirimidir."
+  },
+  {
+    "start": 7768.3,
+    "end": 7831.8,
+    "text": "And because we'd never done it before, it's gonna take over the\nworld and kill us all. That is false. It's not gonna be an event. We're gonna have systems that\nare like as smart as a cat, have all the characteristics\nof human level intelligence, but their level of intelligence would be like a cat or a\nparrot maybe or something. And then we're gonna walk our way up to kind of make those\nthings more intelligent. And as we make them more intelligent, we're also gonna put\nsome guardrails in them and learn how to kind\nof put some guardrails so they behave properly. And we're not gonna do\nthis with just one... It's not gonna be one effort, but it's gonna be lots of\ndifferent people doing this. And some of them are gonna succeed at making intelligent systems\nthat are controllable and safe and have the right guardrails. And if some other goes rogue, then we can use the good ones\nto go against the rogue ones. (laughs) So it's gonna be smart AI\npolice against your rogue AI. So it's not gonna be like\nwe're gonna be exposed to like a single rogue AI\nthat's gonna kill us all. That's just not happening.",
+    "speaker": "Yann LeCun",
+    "claim": "AGI will not arrive as a single event and will develop gradually with safety measures in place.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will not arrive as a single event and will develop gradually with safety measures in place.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "text_tr": "Ve daha önce hiç yapmadığımız için, dünyayı ele geçirecek ve hepimizi öldürecek. Bu yanlış. Bu bir olay olmayacak. Kedinin zekasına sahip, insan seviyesinde zekanın tüm özelliklerine sahip sistemlerimiz olacak, ama zekaları bir kedi veya bir papağan gibi olacak. Ve sonra bu şeyleri daha zeki hale getirmek için yavaş yavaş ilerleyeceğiz. Ve onları daha zeki hale getirdikçe, onlara bazı koruma önlemleri koyacağız ve düzgün davranmaları için nasıl koruma önlemleri koyacağımızı öğreneceğiz. Ve bunu sadece bir... Tek bir çaba ile yapmayacağız, ama birçok farklı insan bunu yapacak. Ve bazıları, kontrol edilebilir ve güvenli zeki sistemler yapmada başarılı olacak. Ve eğer bazıları kötü yola saparsa, o zaman iyi olanları kötü olanlara karşı kullanabiliriz. (gülüşmeler) Yani, akıllı yapay zeka polisi, kötü yola sapmış yapay zekaya karşı olacak. Yani, hepimizi öldürecek tek bir kötü yola sapmış yapay zekaya maruz kalmayacağız. Bu kesinlikle olmayacak."
+  },
+  {
+    "start": 3113.3,
+    "end": 3188.3,
+    "text": "So those things are an incredibly\nimpressive demonstration that self supervised\nlearning actually works. The idea that started... It didn't start with BERT, but it was really kind of a\ngood demonstration with this. So the idea that you take a\npiece of text, you corrupt it, and then you train some\ngigantic neural net to reconstruct the parts that are missing. That has been an enormous... Produced an enormous amount of benefits. It allowed us to create systems\nthat understand language, systems that can translate hundreds of languages in any direction, systems that are multilingual. It's a single system that can be trained to\nunderstand hundreds of languages and translate in any direction and produce summaries and then answer questions\nand produce text. And then there's a special case of it, which is the autoregressive trick where you constrain the system to not elaborate a\nrepresentation of the text from looking at the entire text, but only predicting a word from the words that have come before.",
+    "speaker": "Yann LeCun",
+    "claim": "Self-supervised learning has demonstrated significant benefits in language understanding and translation systems.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "self-supervised learning",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Self-supervised learning has demonstrated significant benefits in language understanding and translation systems.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "self-supervised learning",
+    "reviewed": true,
+    "text_tr": "Bu şeyler, kendiliğinden denetimli öğrenmenin gerçekten işe yaradığını gösteren inanılmaz derecede etkileyici bir gösterimdir. Başlangıçta... BERT ile başlamadı, ama bununla gerçekten iyi bir gösterim oldu. Yani, bir metin parçasını alıyorsunuz, onu bozuyorsunuz ve sonra kayda değer bir sinir ağına eksik parçaları yeniden inşa etmesi için eğitim veriyorsunuz. Bu, muazzam bir... Çok sayıda fayda sağladı. Dil anlayan sistemler, her yönde yüzlerce dili çevirebilen sistemler, çok dilli sistemler oluşturmamıza olanak tanıdı. Yüzlerce dili anlayabilen ve her yönde çevirebilen, özetler üretebilen ve ardından soruları yanıtlayabilen tek bir sistem. Ve bunun özel bir durumu var, bu da otoregresif hile, burada sistemi, metnin tamamını görmekten ziyade, yalnızca önceki kelimelerden bir kelime tahmin etmeye zorlayarak kısıtlıyorsunuz."
+  },
+  {
+    "start": 4374.8,
+    "end": 4442.0,
+    "text": "There's a hierarchical elements on. Does this mean it's a\nfundamental flaw of LLMs- - [Yann] Yeah. - Or does it mean that... (laughs) There's more part to that question? (laughs) Now you're just behaving like an LLM. (laughs) Immediately answering. No, that it's just the\nlow level world model on top of which we can then build some of these kinds of mechanisms, like you said, persistent\nlong-term memory or reasoning, so on. But we need that world model\nthat comes from language. Maybe it is not so difficult to build this kind of reasoning system on top of a well constructed world model. - Okay. Whether it's difficult or not, the near future will say, because a lot of people\nare working on reasoning and planning abilities\nfor dialogue systems. I mean, even if we restrict\nourselves to language, just having the ability to plan your answer before you answer, in terms that are not necessarily linked with the language you're gonna\nuse to produce the answer.",
+    "speaker": "Yann LeCun",
+    "claim": "Building a reasoning system on top of a well-constructed world model may not be difficult, and many are working on it.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Building a reasoning system on top of a well-constructed world model may not be difficult, and many are working on it.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": true,
+    "text_tr": "Hiyerarşik unsurlar var. Bu, LLM'lerin temel bir hatası mı demek? - [Yann] Evet. - Yoksa bu... (gülüyor) O sorunun daha fazla kısmı mı var? (gülüyor) Şimdi bir LLM gibi davranıyorsunuz. (gülüyor) Hemen cevap veriyorsunuz. Hayır, bu sadece dil üzerinden inşa edebileceğimiz düşük seviyeli bir dünya modeli. Ama bu dünya modeline dayanarak, dediğiniz gibi, kalıcı uzun vadeli bellek veya akıl yürütme gibi bazı mekanizmaları inşa etmek zor değil. - Tamam. Zor olup olmadığına dair yakın gelecekte göreceğiz, çünkü birçok insan diyalog sistemleri için akıl yürütme ve planlama yetenekleri üzerinde çalışıyor. Yani, dil ile sınırlı kalsak bile, cevabınızı vermeden önce plan yapma yeteneğine sahip olmak, kullanacağınız dil ile doğrudan bağlantılı olmayan terimlerde."
+  },
+  {
+    "start": 670.6,
+    "end": 746.1,
+    "text": "And then you just feed that to the LLM in addition to the text, and you just expect\nthe LLM during training to kind of be able to\nuse those representations to help make decisions. I mean, there's been\nwork along those lines for quite a long time. And now you see those systems, right? I mean, there are LLMs that\nhave some vision extension. But they're basically hacks in the sense that those things are not like trained to handle, to really understand the world. They're not trained\nwith video, for example. They don't really understand\nintuitive physics, at least not at the moment. - So you don't think there's something special to\nyou about intuitive physics, about sort of common sense reasoning about the physical space,\nabout physical reality? That to you is a giant leap that LLMs are just not able to do? - We're not gonna be able to do this with the type of LLMs that\nwe are working with today. And there's a number of reasons for this, but the main reason is the way LLMs are trained is\nthat you take a piece of text, you remove some of the words\nin that text, you mask them, you replace them by black markers, and you train a gigantic neural net to predict the words that are missing.",
+    "speaker": "Yann LeCun",
+    "claim": "Current LLMs are not capable of understanding intuitive physics or common sense reasoning about physical reality.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "high",
+    "claim_labels": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Current LLMs are not capable of understanding intuitive physics or common sense reasoning about physical reality.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI capabilities",
+    "reviewed": true,
+    "text_tr": "Ve sonra bunu metne ek olarak LLM'ye veriyorsunuz ve LLM'nin eğitim sırasında bu temsilleri kullanarak karar vermesini bekliyorsunuz. Yani, bu yönde uzun bir süre boyunca çalışmalar yapıldı. Ve şimdi bu sistemleri görüyorsunuz, değil mi? Yani, bazı görsel uzantılara sahip LLM'ler var. Ama bunlar esasen, bu şeylerin dünyayı gerçekten anlamak için eğitilmediği anlamında hack'ler. Örneğin, video ile eğitilmediler. En azından şu anda sezgisel fiziği gerçekten anlamıyorlar. - Yani, sezgisel fizik hakkında sizin için özel bir şey olduğunu düşünmüyor musunuz, fiziksel alan, fiziksel gerçeklik hakkında sağduyu ile ilgili? Bu sizin için LLM'lerin yapamadığı dev bir sıçrama mı? - Bugün çalıştığımız LLM'lerle bunu yapamayacağız. Bunun birçok nedeni var, ama ana neden, LLM'lerin eğitilme şekli, bir metin parçasını alıp, o metindeki bazı kelimeleri çıkarıp, onları maskeleyip, siyah işaretçilerle değiştirmek ve ardından kayda değer bir sinir ağına eksik kelimeleri tahmin ettirmektir."
+  },
+  {
+    "start": 4577.7,
+    "end": 4647.8,
+    "text": "So basically the principle is like this. The prompt is like observed variables. And what the model does is that it's basically a measure of... It can measure to what extent an answer is a good answer for a prompt. Okay? So think of it as some\ngigantic neural net, but it's got only one output. And that output is a scaler number, which is let's say zero if the answer is a good\nanswer for the question, and a large number if the answer is not a good\nanswer for the question. Imagine you had this model. If you had such a model, you could use it to produce good answers. The way you would do is produce the prompt and then search through the\nspace of possible answers for one that minimizes that number. That's called an energy based model. - But that energy based model would need the model\nconstructed by the LLM. - Well, so really what you need to do would be to not search over\npossible strings of text that minimize that energy.",
+    "speaker": "Yann LeCun",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI models",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI models",
+    "reviewed": true,
+    "text_tr": "Yani, temel ilke şöyle. İstek, gözlemlenen değişkenler gibidir. Ve modelin yaptığı şey, bir cevabın bir istek için ne kadar iyi bir cevap olduğunu ölçmektir. Tamam mı? Yani, devasa bir sinir ağı olarak düşünün, ama sadece bir çıktısı var. Ve o çıktı, eğer cevap soru için iyi bir cevapsa sıfır, eğer cevap iyi bir cevap değilse büyük bir sayı. Böyle bir modeliniz varsa, iyi cevaplar üretmek için bunu kullanabilirsiniz. Yapacağınız şey, isteği üretmek ve ardından mümkün olan cevaplar arasında bu sayıyı minimize eden birini aramaktır. Buna enerji tabanlı model denir. - Ama o enerji tabanlı model, LLM tarafından inşa edilen modele ihtiyaç duyar. - Gerçekten, yapmanız gereken şey, o enerjiyi minimize eden metin dizileri üzerinde arama yapmamak olacaktır."
   }
 ]

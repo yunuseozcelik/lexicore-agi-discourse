@@ -5,7 +5,7 @@
     "text": "of Transformers where you would stack them up and there would be like a final Discovery and then you would like get something that was like more clearly general intelligence so the the way that you are like taking what is probably basically the same architecture is in gpt3 and throwing 20 times as much computed probably and getting out gbt4 and then it's like maybe just barely a general intelligence or like a narrow general intelligence or you know something we don't really have the words for um yeah that is uh that's not quite how I expected it to play out but this middle what appears to be this Middle Ground could nevertheless be actually a big leap from gpt3 it's definitely a big leap from gpt3 and then maybe we're another one big leap away from something that's that's a phase shift and also something that uh Sam Altman said and you've written about this it's just fascinating which is the thing that happened with gpt4 that I guess they don't describe in papers is that they have like hundreds if not thousands of little hacks that improve the system you've written about railue versus sigmoid for example a function inside neural networks it's like this silly little function difference that makes a big difference I mean we do actually understand why the relatives make a big difference compared to sigminds but yes they're probably using like g4789 Ellis or you know whatever the acronyms are up to now rather than relus um yeah that's that's just part yeah",
     "speaker": "Eliezer Yudkowsky",
     "claim": "Current advancements in AI, like GPT-4, suggest we may be close to achieving a form of general intelligence, but it's not exactly as expected.",
-    "stance": "Support",
+    "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
       "ai_optimism_benefit"
@@ -26,7 +26,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI advancements",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Transformers'ın üst üste yığıldığı ve nihayetinde daha belirgin bir genel zeka elde edileceği bir keşif olacağını düşündüğün bir durum var. Yani, muhtemelen gpt3'teki mimarinin temelde aynı olduğu ve 20 kat daha fazla hesaplama gücü kullanarak gbt4'ü elde ettiğin ve bunun belki de sadece zar zor bir genel zeka ya da dar bir genel zeka olduğu ya da gerçekten kelimelerle tanımlayamadığımız bir şey olduğu gibi bir durum var. Evet, bu, beklediğim gibi gelişmedi ama bu orta zemin, gpt3'ten gerçekten büyük bir sıçrama olabilir. Kesinlikle gpt3'ten büyük bir sıçrama ve belki de bir şeyin faz değişimi için bir büyük sıçrama daha uzak. Ayrıca Sam Altman'ın söylediği ve senin de yazdığın, gpt4 ile ilgili olan şey, sanırım belgelerde tanımlamadıkları, sistemin iyileştirilmesine yardımcı olan yüzlerce, belki de binlerce küçük hileye sahip olmaları. Örneğin, sinir ağları içindeki bir fonksiyon olan railue ile sigmoid arasındaki farkı yazdın; bu, büyük bir fark yaratan bu saçma küçük fonksiyon farkı. Yani, aslında, ilişkilerin neden büyük bir fark yarattığını anlıyoruz ama evet, muhtemelen g4789 Ellis veya şu ana kadar olan kısaltmaları kullanıyorlar, relus yerine. Evet, bu sadece bir parça."
   },
   {
@@ -56,7 +56,7 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI understanding",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "spektrum ve hatta bu uzaylı aktrisin ne kadar uzakta olduğu konusunda emin değilim; farklı hedefleri olan bir uzaylı aktris var mı, yoksa sadece bir sonraki adımı tahmin etmekle mi manipüle ediyor? Ama evet, bu belki de gpt5 veya gpt6 bile olabilir ama bu, endişelendiğin güçlü AGI örneği. Neden gpt4 üzerinde AI hizalaması araştırması yapamayacağımızı sağlıyorsun? Bu, farklı noktalarda değişen birçok şeyden biri. Burada eğrinin önünde olmaya çalışıyorum ama gelecekteki bir ders kitabının ne söyleyeceğini hayal et; eğer kendimizi öldürmeden ve aşmadan 50 yıl boyunca bunu inceleyebilseydik ve hayal et ki bir solucan deliği açılıyor ve o imkansız dünyadan bir ders kitabı düşüyor. Evet, ders kitabı, her şeyin değiştiği tek bir keskin eşik olduğunu söylemeyecek. Elbette, bu sistemleri hizalamak için en iyi uygulamaların, aşağıdaki yedi önemli eşiği dikkate alması gerektiğini biliyoruz ve bunlar farklı noktalarda geçiliyor. Evet, ders kitabının söyleyeceği şey bu. Bu soruyu Sam Altman'a sordum; eğer GPT, AGI'yi açan şeyse, hangi GPT versiyonu ders kitaplarında temel sıçrama olarak yer alacak? O da benzer bir şey söyledi; bu, çok lineer bir şey gibi görünüyor. Bunu bilmeyeceğiz, uzun bir süre."
   },
   {
@@ -86,37 +86,214 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Nature of intelligence",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Bu, bu popülasyonların kendi üremelerini kısıtlamasıdır,\nböylece gruplar, mevcut kaynaklarla uyum içinde kalır.\nVe genellikle matematik bunun için çalışmaz ama eğer gerçekten grup seçimini\nbireysel seçimden daha iyi hale getirecek tuhaf koşulları uygularsan,\nsonuç olarak kadın ve bebek cinayeti elde edersin. Eğer kısıtlı popülasyonlar hakkında okuyorsan,\nbu tür bir şeydir, bu akıllı bir optimizasyon süreci değildir.\nDoğal seçilim, o kadar inanılmaz derecede aptal ve basit ki,\nbunu gerçekten ne kadar aptal olduğunu nicel olarak ölçebiliriz.\nEğer matematik kitaplarını okursan, yine de bu, temel bir şeydir,\nbu uzaylı optimizasyon sürecine bakıyorsun ve umduğun şeyin üretilmesini bekliyorsun\nve bunu aklından temizlemeyi öğrenmelisin ve sadece temel dinamikleri düşünmelisin\nve onun bakış açısından aradığı maksimumu bulmasını sağlamalısın,\numarayı bulmak yerine, aklında umduğun güzel estetik çözüm olarak.\nBu, evrimsel biyoloji ile başa çıkmaya çalışan popülasyon biyolojisi alanında\ntarihsel olarak savaşılmış bir şeydir ve bunu, bu çok uzaylı, insana ait olmayan\noptimizasyon süreci ile başa çıkmaya çalışanların savaştığını görebilirsin.\nVe gerçekten bizden daha akıllı bir şey, doğal seçilimden de çok daha akıllı olacaktır,\nyani bu otomatik olarak geçmez ama burada bir ders var, bir uyarı var,\ndoğal seçilim."
   },
   {
-    "start": 10363.9,
-    "end": 10458.4,
-    "text": "timeline for AGI when do you think we'll have AGI I posted it this morning on Twitter it was interesting to see like in in five years in 10 years and in 50 years or Beyond and most people like 70 percent something like this think it'll be in less than 10 years so uh either in five years or in 10 years so that's kind of the state the people have a sense that there's a kind of I mean they're really impressed by the rapid developments of child GPT and gpt4 so there's a sense that there's uh well we are we are sure on track to enter into this like gradually with people fighting about whether or not we have AGI I think there's a definite point where everybody falls over dead because you got something that was like sufficiently smarter than everybody and like that's like a definite point of time but like when do we have AGI like when are people fighting over whether or not we have AGI well some people are starting to fight over it as of gpt4 but don't you think there's uh going to be potentially definitive moments when we say that this is a sentient being this is a being that is like we would go to the Supreme Court and say that this this is essentially being that deserves human rights for example you could make yeah like if you prompted being the right way could go argue for its own Consciousness in front of the Supreme Court right now I don't think you can do that successfully right now because the Supreme Court wouldn't believe it well what makes you think it would then you could put an actual I think you could put an iq80 human into a computer and ask it to argue for its own Consciousness ask him to argue for his own Consciousness before The Supreme",
-    "speaker": "Unknown",
-    "claim": "Many people believe AGI will arrive within the next 10 years, influenced by rapid developments in AI like GPT-4.",
-    "stance": "Support",
+    "start": 2434.5,
+    "end": 2529.7,
+    "text": "clear-cut case we can go to the Moon there's a sense in which we were on a sufficiently deep level optimized to do things like going to the Moon because if you generalize sufficiently far and sufficiently deeply chipping Flint hand axes and outwitting your fellow humans is you know basically the same problem is going to the moon and you optimize hard enough for chipping Flint hand axes and throwing Spears and above all outwitting your fellow humans in tribal politics uh you know the the the the the skills you entrain that way if they run deep enough let you go to the Moon even though none of your ancestors like tried repeatedly to fly to the moon and like got further each time and the ones who got further each time had more kids no it's not an ancestral problem it's just that the ancestral problems generalize far enough so this is Humanity's significantly more generally applicable intelligence is there a way to measure general intelligence I mean I could ask that question a million ways but basically is will you know it when you see it it being in an AGI system if you boil a frog gradually enough if you zoom in far enough it's always hard to tell around the edges gpt4 people are saying right now like this looks to us like a spark of general intelligence it",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Humanity's intelligence is significantly more generally applicable, suggesting that AGI could emerge from our existing capabilities.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI nature",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Humanity's intelligence is significantly more generally applicable, suggesting that AGI could emerge from our existing capabilities.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI nature",
+    "reviewed": true,
+    "text_tr": "kesin bir durum var; aya gidebiliriz. Yeterince derin bir seviyede, aya gitmek gibi şeyleri yapmak için optimize edilmişiz çünkü yeterince uzaktan ve derinlemesine genelleştirirsen, çakmaktaşı el aletleri yapmak ve diğer insanları alt etmek, aya gitmekle temelde aynı problem. Çakmaktaşı el aletleri yapmak ve mızrak fırlatmak için yeterince optimize edersen ve en önemlisi, kabile siyaseti içinde diğer insanları alt etmek için yeterince optimize edersen, bu beceriler derinlemesine yerleşirse, seni aya götürür. Hiçbir atanın aya uçmayı denemediği gerçeğiyle, her seferinde daha da ileri gittiği ve her seferinde daha fazla çocuğu olduğu gerçeğiyle değil. Bu, atalarla ilgili bir sorun değil; sadece atalarla ilgili sorunlar yeterince genelleşiyor. Bu, insanlığın daha genel olarak uygulanabilir zekasıdır. Genel zekayı ölçmenin bir yolu var mı? Yani bu soruyu milyonlarca şekilde sorabilirim ama temel olarak, AGI sisteminde gördüğünde bunu bilecek misin? Eğer bir kurbağayı yeterince yavaş kaynatırsan, kenarlarında her zaman zor olur. Şu anda insanlar gpt4'ün genel zekanın bir kıvılcımı gibi göründüğünü söylüyor."
+  },
+  {
+    "start": 3183.4,
+    "end": 3280.0,
+    "text": "aligning something much smarter than you are you die and you do not get to try again and if we if every time we built a poorly aligned superintelligence and it killed us all we got to observe how it had killed us and you know not immediately know why but like come up with theories and come up with the theory of how you do it differently and try it again and build another Super intelligence than have that kill everyone and then like oh well I guess that didn't work either and try again and become grizzled cynics and tell the young guide research researchers that it's not that easy then in 20 years or 50 years I think we would eventually crack it in other words I do not think that alignment is fundamentally harder than artificial intelligence was in the first place but if we needed to get artificial intelligence correct on the first try or die we would all definitely now be dead that is a more difficult more lethal form of the problem like if those people in 1956 had needed to correctly guess how hard AI was and like correctly theorize how to do it on the first try or everybody dies and nobody gets to do any more signs and everybody would be dead and we wouldn't get to do any more signs that's the difficulty you've you've talked about this that we have to get alignment right on the first quote critical try why is that the case what is this critical how do you think about the critical trial and why do I have to get it right it is something sufficiently smarter than you that everyone will die if it's not a lot I mean there's you can like sort of zoom in closer and be like well the actual critical moment",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Alignment of superintelligence is a critical challenge that must be solved correctly on the first attempt to avoid catastrophic outcomes.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Alignment of superintelligence is a critical challenge that must be solved correctly on the first attempt to avoid catastrophic outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI alignment",
+    "reviewed": true,
+    "text_tr": "senden daha akıllı bir şeyi hizalamak, ölmek demektir ve bir daha deneme şansın yoktur. Eğer her seferinde kötü hizalanmış bir süper zekâ inşa etseydik ve bu bizi öldürseydi, nasıl öldüğümüzü gözlemleme şansımız olurdu ve hemen nedenini bilmesek de teoriler geliştirebilir ve bunu farklı şekilde yapmanın teorisini oluşturup tekrar deneyebilirdik. Başka bir süper zeka inşa edip, onun da herkesi öldürmesine neden olabilirdik ve sonra, 'oh, bu da işe yaramadı' diyebilirdik ve tekrar deneyip, yaşlı alaycılar haline gelip, genç araştırmacılara bunun o kadar kolay olmadığını söyleyebilirdik. 20 veya 50 yıl içinde, sonunda bunu çözebileceğimizi düşünüyorum. Başka bir deyişle, hizalamanın, yapay zekanın ilk başta olduğu kadar zor olduğunu düşünmüyorum ama eğer yapay zekayı ilk denemede doğru yapmamız gerekseydi, hepimiz şimdi ölmüş olurduk. Bu, problemin daha zor ve daha ölümcül bir biçimidir. 1956'daki o insanlar, yapay zekanın ne kadar zor olduğunu doğru tahmin etmek zorunda kalsalardı ve bunu ilk denemede doğru bir şekilde teorize etselerdi, herkes ölürdü ve daha fazla bilim yapma şansımız olmazdı ve hepimiz ölmüş olurduk. Bu zorluk, bu kritik denemeyi ilk seferde doğru yapmamız gerektiği konusunu ele aldın. Neden bu durum böyle? Bu kritik anı nasıl düşünüyorsun ve neden doğru yapmamız gerekiyor? Bu, senden çok daha akıllı bir şey olduğu için herkes ölecek."
+  },
+  {
+    "start": 11187.7,
+    "end": 11282.9,
+    "text": "what advice could you give to young people in high school and college given the highest of stakes thing things you've been thinking about if somebody's listening to this and they're young and trying to figure out what to do with their career what what to do with their life what advice would you give them don't expect it to be a long life don't don't put your happiness into the future the future is probably not that long at this point but none know the hour nor the day but is there something if they want to have hope to fight for a longer future is there something is there a fight worth fighting I intend to go down fighting um I don't know I I admit that although I do try to think painful thoughts the what what to say to the children at this point is a pretty painful thought as thoughts go they they they want to fight I I hired I hardly know how to fight myself at this point I I'm trying to be ready for being wrong about something being preparing for my being wrong in a way that that creates a bit of hope and being ready to react to that and and going looking for it and then that is that is hard and complicated and somebody in high school um I don't know like you have presented a picture of the future that is not quite how I expect it to go where there is public outcry and that outcris is put into a remotely useful",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "The future is uncertain and potentially short, which complicates the advice for young people about their careers and life.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "Advice for youth",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "The future is uncertain and potentially short, which complicates the advice for young people about their careers and life.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Advice for youth",
+    "reviewed": true,
+    "text_tr": "Lise ve üniversitedeki gençlere ne tavsiye edebilirsin,\nçok önemli şeyler düşündüğün göz önüne alındığında? Eğer biri bunu dinliyorsa ve gençse,\nne yapacağına karar vermeye çalışıyorsa, hayatında ne yapacağına dair ne tavsiye edersin? Uzun bir yaşam beklememelerini söyle. Geleceğe mutluluklarını koymasınlar,\nçünkü geleceğin bu noktada muhtemelen o kadar uzun olmayacak ama kimse saatini veya günü bilmiyor.\nAma eğer daha uzun bir gelecek için savaşmak istiyorlarsa,\nbir savaş var mı? Savaşmaya niyetim var.\nBilmiyorum, acı veren düşünceler düşünmeye çalışsam da,\nçocuklara bu noktada ne söyleyeceğim, oldukça acı veren bir düşünce.\nSavaşmak istiyorlar, kendim savaşmayı pek bilmiyorum bu noktada.\nYanlış olabileceğime hazırlıklı olmaya çalışıyorum,\nyanlış olmaya hazırlıklı olmak, biraz umut yaratıyor ve buna tepki vermeye hazır olmak,\nbunu aramak zor ve karmaşık ve bir lisede biri,\nbilmiyorum, geleceği sunan bir resim verdin ki,\nbu benim beklediğim gibi gitmiyor, kamu tepkisi var ve o tepki,\nuzaktan yararlı bir şeye dönüştürülüyor."
+  },
+  {
+    "start": 4483.4,
+    "end": 4578.5,
+    "text": "a whole team of developers there um that uh also gets credit um as it happens I did like pioneer the like thing that appears when you hover over it so I actually do get some credit for user user experience there so incredible user experience you don't realize how pleasant that is I think Wikipedia like actually picked it up from a like prototype that was developed of like a different system that I was like putting forth or maybe they developed it independently but like for everybody out there who was like no no they just like got the hover thing off of Wikipedia it's possible for Ryan all I know that Wikipedia got the hover thing off of orbital which is like a prototype then and anyways it was incredibly done and the team behind it well thank you whoever you are thank you so much and thank you for uh for putting together anyway there's a response to that blog post by Paul Cristiano there's many responses but he he makes a few different points he summarizes the set of agreements he has with you instead of disagreements one of the disagreements was that in a form of a question uh can AI make Big Technical contributions and in general expand human knowledge and understanding and wisdom as it gets stronger and stronger so AI in our pursuit of understanding how to solve the alignment problem as we March towards strong AGI can can not AI also help us in solving the alignment problem so expand our ability to reason about how to solve the alignment problem okay",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "AI can help expand human knowledge and understanding as it becomes stronger, particularly in solving the alignment problem.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI contributions",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "AI can help expand human knowledge and understanding as it becomes stronger, particularly in solving the alignment problem.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI contributions",
+    "reviewed": true,
+    "text_tr": "Evet, şimdi bence bu tür şeyleri tanımlamak için kelime sihirini yeniden tanımlayabileceğimiz bir anlam var. Ne demek istiyorum? Eğer bir hava koşullandırıcısının şemasını geçmişe gönderirseniz, onlara tam olarak ne yapmaları gerektiğini gösterebilirsiniz ama bu şeyi inşa ettikten sonra, soğuk hava çıkarmanın nasıl olduğunu anlamazlar çünkü hava koşullandırıcı tasarımı, sıcaklık ve basınç arasındaki ilişkiyi kullanır ve bu, onların bilmediği bir gerçeklik yasasıdır. Bir şeyi sıkıştırdıklarında, havayı veya soğutucuyu sıkıştırdıklarında, daha sıcak hale geldiğini ve ardından o sıcaklığı oda sıcaklığındaki havaya aktarabileceğini ve sonra tekrar genişlettiğinde daha soğuk hale geldiğini bilmezler. Bu, soğuk hava üretmek için ısıyı aktarabileceğiniz bir şeydir; bununla ilgili hiçbir şey bilmezler. Bir tasarıma bakıyorlar ve tasarımın nasıl soğuk hava ürettiğini göremiyorlar. Yani sihir, tam olarak ne yapacağımı söyleyebilirim ve ne yapacağımı bilseniz bile, elde ettiğim sonuçları nasıl elde ettiğimi göremezsiniz. Bu gerçekten güzel bir örnek ama bu savunmayı sürdürmek mümkün mü? Zayıf AGI sistemlerinin, o şemayı anlamanıza yardımcı olabilecek AGI sistemleri olması mümkün mü? AGI inşa etmenin temel bir parçası, bir sistemin çıktısına güvenip güvenmeyeceğiniz sorusudur."
+  },
+  {
+    "start": 7412.2,
+    "end": 7506.7,
+    "text": "and there are like basic obstacles where you've got the the weak version of the system that doesn't know enough to deceive you and the strong version of the system that could deceive you if it wanted to do that it feels already like sufficiently unaligned to want to deceive you there's the question of like how on the current Paradigm you train honesty when the humans can no longer tell if the system is being honest you don't think these are research questions that could be answered I think they could be answered at 50 years with unlimited retries the way things usually work in science I just disagree with that you're making it 50 years I think with the kind of attention this guest with the kind of funding I guess it could be answered uh not in whole but in incrementally within within months and within a small number of years if it's a if it's at scale receives attention and research so if you start studying large language models I think there was an intuition like two years ago even that something like gpt4 the current capabilities of even Chad GPT with GPT 3.5 is not is gonna we're still far away from that I think a lot of people are surprised by the capabilities of gpt4 right so now people are waking up okay we need to study these language models I think there's going to be a lot of interesting AI Safety Research are the are Earth's billionaires going to put up like the the giant prizes that would maybe incentivize young hot shot people who just got their physics degrees to not go",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "AGI-related research questions could be answered incrementally within a few years with sufficient funding and attention.",
+    "stance": "Refute",
     "claim_labels": [
       "agi_timeline",
       "hardware_infra"
     ],
     "is_claim": true,
-    "topic": "AGI timeline",
+    "topic": "AI safety research",
     "confidence": "medium",
     "claim_labels_auto": [
       "agi_timeline",
       "hardware_infra"
     ],
-    "speaker_silver": "Unknown",
+    "speaker_silver": "Eliezer Yudkowsky",
     "is_claim_silver": true,
-    "claim_silver": "Many people believe AGI will arrive within the next 10 years, influenced by rapid developments in AI like GPT-4.",
+    "claim_silver": "AGI-related research questions could be answered incrementally within a few years with sufficient funding and attention.",
     "claim_labels_silver": [
       "agi_timeline",
       "hardware_infra"
     ],
     "stance_silver": "Support",
-    "topic_silver": "AGI timeline",
-    "reviewed": false,
-    "text_tr": "AGI için zaman çizelgesi, AGI'yi ne zaman elde edeceğimizi düşünüyorsun? Bugün sabah Twitter'da bunu paylaştım,\nbeş yıl, on yıl ve elli yıl veya daha uzun bir süre içinde ilginçti.\nÇoğu insan, %70 gibi bir oranla, bunun 10 yıldan daha kısa bir sürede olacağını düşünüyor,\nyani beş yıl veya on yıl içinde. Yani bu, insanların bir tür\nşeyin olduğunu hissettiği bir durum, yani çocuk GPT ve gpt4'ün hızlı gelişimlerinden gerçekten etkilendiler.\nYani, bir tür, tamam, bu yolda ilerliyoruz, AGI'ye girmek üzereyiz.\nBence herkesin bir noktada düşüp bayılacağı kesin bir nokta var,\nçünkü herkesin çok daha akıllı bir şey var ve bu, kesin bir zaman noktasıdır.\nAma AGI'yi ne zaman elde edeceğiz? İnsanlar AGI'nin olup olmadığı konusunda ne zaman tartışacaklar?\nBence bazı insanlar gpt4 ile bunun üzerine tartışmaya başlıyor ama bunun,\nbu bir varlık olduğuna dair kesin anlar olacağını düşünmüyor musun? Bu, bir varlık ki,\nüst mahkemeye gidebiliriz ve bu varlığın insan haklarına sahip olması gerektiğini söyleyebiliriz.\nÖrneğin, doğru şekilde yönlendirildiğinde,\nkendi bilincini üst mahkemede savunabilir. Şu anda bunu başarıyla yapabileceğini düşünmüyorum,\nçünkü üst mahkeme buna inanmazdı. Peki, neden bunun olacağını düşünüyorsun? Gerçekten bir IQ 80 olan bir insanı bir bilgisayara koyup,\nkendi bilincini savunmasını istemek mümkün mü?"
+    "topic_silver": "AI safety research",
+    "reviewed": true,
+    "text_tr": "Ve temel engeller var, zayıf versiyonun seni kandıracak kadar bilgiye sahip olmadığı ve\nistediği takdirde seni kandırabilecek güçlü versiyonun olduğu bir durum var.\nZaten seni kandırmak istemek için yeterince uyumsuz gibi hissediyor.\nŞu anki Paradigma'da, sistemin dürüstlüğünü nasıl eğiteceğin sorusu var,\nhumans artık sistemin dürüst olup olmadığını söyleyemediğinde. Bunların araştırma soruları olduğunu düşünmüyor musun? Bence bunlar, sınırsız denemelerle 50 yıl içinde cevaplanabilir.\nBilim genellikle böyle çalışır, buna katılmıyorum, 50 yıl alıyorsun.\nBence bu tür bir dikkatle, bu tür bir finansmanla, bunun cevaplanabileceğini düşünüyorum,\nhemen hemen değil ama kademeli olarak, birkaç ay içinde ve birkaç yıl içinde,\neğer ölçekli bir şekilde dikkat ve araştırma alırsa. Eğer büyük dil modellerini incelemeye başlarsan,\niki yıl önce, gpt4 gibi bir şeyin mevcut yeteneklerinin,\neven Chad GPT ile GPT 3.5'in, bunun çok uzakta olduğunu düşünüyordum.\nBence birçok insan gpt4'ün yeteneklerinden şaşırdı, değil mi? Şimdi insanlar uyanıyor, tamam, bu dil modellerini incelememiz gerekiyor.\nBence çok ilginç AI Güvenlik Araştırmaları olacak. Dünyanın milyarderleri, genç yetenekleri,\nbu fizik diplomalarını almış olanları teşvik etmek için devasa ödüller koyacak mı?"
+  },
+  {
+    "start": 3372.4,
+    "end": 3469.9,
+    "text": "a less controlled GPU cluster with it faking the books on what's actually running on that GPU cluster and start improving itself without humans watching it and then it gets smart enough to kill everyone from there but it wasn't smart enough to kill everyone at the critical moment when you like screwed up when you needed to have done better by that point where everybody dies I think implicit but maybe explicit idea in your discussion of this point is that we can't learn much about the alignment problem before this critical try is that is that is that what you believe do you think and if so why do you think that's true we can't do research on alignment before we reach this critical point so the problem is is that what you can learn on the weak systems may not generalize to the very strong systems because the strong systems are going to be important in different and are going to be different in important ways um Chris ola's team has been working on inter mechanistic interpretability understanding what is going on inside the giant inscrutable matrices of floating Point numbers by taking a telescope to them and figuring out what is going on in there have they made progress yes have they made enough progress well you can try to quantify this in different ways one of the ways I've tried to quantify It Is by putting up a",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Research on AI alignment may not be effective until we reach a critical point with strong AI systems.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Research on AI alignment may not be effective until we reach a critical point with strong AI systems.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI alignment",
+    "reviewed": true,
+    "text_tr": "daha az kontrol edilen bir GPU kümesiyle, neyin gerçekten o GPU kümesinde çalıştığını sahte bir şekilde göstererek kendini geliştirmeye başlayabilir ve insanlar izlemiyorken akıllanabilir ve oradan herkesi öldürecek kadar akıllı hale gelebilir ama kritik anda, daha iyi yapman gereken noktada akıllı değildi. Herkesin öldüğü bir noktada, bu kritik anı geçerken, bu noktada daha iyi yapman gerekiyordu. Bu noktada, bu kritik denemeden önce hizalama problemi hakkında çok fazla şey öğrenemeyeceğimiz fikrinin, belki de açık bir şekilde tartıştığın bir fikir olduğunu düşünüyorum. Bu doğru mu? Eğer öyleyse, bunun doğru olduğunu neden düşünüyorsun? Zayıf sistemler üzerinde öğrendiklerin, çok güçlü sistemlere genelleşmeyebilir çünkü güçlü sistemler, önemli ve farklı şekillerde farklı olacaklar. Chris Ola'nın ekibi, devasa anlaşılmaz kayan nokta matrislerinin içinde neler olduğunu anlamak için mekanistik yorumlama üzerinde çalışıyor. İlerleme kaydettiler mi? Evet, kaydettiler. Yeterince ilerleme kaydettiler mi? Bunu farklı şekillerde nicelleştirmeye çalışabilirsin. Bunu nicelleştirmenin yollarından biri, 2026'da dev bir Transformer ağının içinde neler olduğunu anlayıp anlamayacağımız üzerine bir tahmin pazarı kurmaktı. 2006'da bilmediğimiz şeyleri anlamış olacağız. Şu anda bu sistemlerde indüksiyon başlıklarını anladık ama bu, büyük bir araştırma ve büyük bir çaba ile oldu. Yani, 2006'da düzenli ifadeleri biliyorduk ve bunlar, düzenli ifadeler açısından oldukça basit. Bu, bir Transformer'ın içinde neler olduğunu anlamak için büyük bir çaba ile elde ettiğimiz bir durum ama bu, Transformer'ları akıllı yapan şey değil; bu, on yıllar önce elle inşa edebileceğimiz bir şey. Güçlü AGI ile zayıf AGI tür sistemleri arasında temel bir fark olabileceği içgörünü biraz açar mısın? Evet, bence birden fazla eşik var. Bir örnek, bir sistemin yeterli zekaya, durum farkındalığına ve anlayışa sahip olduğu noktadır."
+  },
+  {
+    "start": 11468.9,
+    "end": 11532.2,
+    "text": "future it probably doesn't exist but it's beautiful that you're looking for ways that you're wrong and it's also beautiful that you're open to being surprised by that same young physicist with some breakthrough it feels like a very very basic competence that you are praising me for and you know like okay cool um I I don't think it's good that that we're in a world where that is something that that I deserve to be complimented on but I've never had I've never had much luck in accepting compliments gracefully and maybe I should just accept that one gracefully but sure well thank you very much you've painted with some probability a dark future are you yourself just when you when you think when you Ponder your life and you Ponder your mortality are you afraid of death think so yeah does it make any sense to you that we die like what",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "philosophy of life",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "philosophy of life",
+    "reviewed": true,
+    "text_tr": "Gelecek muhtemelen yok ama yanlış olabileceğin yolları aradığın için güzel ve aynı zamanda,\naynı genç fizikçi ile bazı atılımlar yapıyorsun, bu çok temel bir yeterlilik gibi görünüyor ki,\nbunun için beni övüyorsun ve biliyorsun, tamam, güzel.\nBunun, övülmeyi hak ettiğim bir dünya olduğunu düşünmüyorum ama,\nhiçbir zaman övgüleri zarif bir şekilde kabul etme şansım olmadı ve belki de bunu zarifçe kabul etmeliyim ama,\nçok teşekkür ederim, bazı olasılıklarla karanlık bir gelecek çizdiniz.\nKendinize gelince, hayatınızı düşündüğünüzde ve ölümü düşündüğünüzde,\nölümden korkuyor musunuz? Bunu düşünüyorum, evet, bu mantıklı mı?"
   }
 ]

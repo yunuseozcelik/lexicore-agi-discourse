@@ -1,41 +1,11 @@
 [
   {
-    "start": 2332.0,
-    "end": 2400.2,
-    "text": "Again, my theme in all of this is all of this \nis soft takeoff, soft, smooth exponentials,   although the exponentials are relatively steep.\nSo we're seeing this snowball gather momentum   where it's like 10%, 20%, 25%, 40%.\nAs you go, Amdahl's law, you have   to get all the things that are preventing \nyou from closing the loop out of the way.  But this is one of the biggest \npriorities within Anthropic.  Stepping back, before in the stack we were talking \nabout when do we get this on-the-job learning?  It seems like the point you were making \non the coding thing is that we actually   don't need on-the-job learning.\nYou can have tremendous productivity   improvements, you can have potentially trillions \nof dollars of revenue for AI companies, without   this basic human ability to learn on the job.\nMaybe that's not your claim, you should clarify.  But in most domains of economic activity, people \nsay, \"I hired somebody, they weren't that useful   for the first few months, and then over time \nthey built up the context, understanding.\"  It's actually hard to define \nwhat we're talking about here.",
-    "speaker": "Dario Amodei",
-    "claim": "AGI development may not require on-the-job learning to achieve significant productivity improvements and economic impact.",
-    "stance": "Support",
-    "claim_labels": [
-      "agi_timeline",
-      "ai_economics"
-    ],
-    "is_claim": true,
-    "topic": "AGI development",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "agi_timeline",
-      "ai_economics"
-    ],
-    "speaker_silver": "Dario Amodei",
-    "is_claim_silver": true,
-    "claim_silver": "AGI development may not require on-the-job learning to achieve significant productivity improvements and economic impact.",
-    "claim_labels_silver": [
-      "agi_timeline",
-      "ai_economics"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AGI development",
-    "reviewed": false,
-    "text_tr": "Yine, bu konudaki temam, tüm bunların yumuşak bir kalkış, yumuşak, pürüzsüz üstel artışlar olduğu, ancak üstel artışların nispeten dik olduğu. Yani, %10, %20, %25, %40 gibi bir kar topunun momentum kazandığını görüyoruz. Giderek, Amdahl yasası, döngüyü kapatmanızı engelleyen tüm şeyleri ortadan kaldırmanız gerektiğini söylüyor. Ama bu, Anthropic içindeki en büyük önceliklerden biri. Geriye dönüp baktığımızda, önceki yığın içinde, iş başında öğrenmeyi ne zaman elde edeceğimizi konuşuyorduk. Kodlama konusundaki noktanızın, aslında iş başında öğrenmeye ihtiyacımız olmadığını gösterdiği gibi görünüyor. Muazzam üretkenlik artışları elde edebilirsiniz, AI şirketleri için potansiyel olarak trilyonlarca dolarlık gelir elde edebilirsiniz, bu temel insan yeteneği olmadan iş başında öğrenmek. Belki bu sizin iddianız değil, netleştirmelisiniz. Ama ekonomik faaliyetlerin çoğu alanında insanlar, \"Birini işe aldım, ilk birkaç ay çok faydalı değildi, ama zamanla bağlamı ve anlayışı geliştirdiler\" derler. Burada neyi kastettiğimizi tanımlamak zor."
-  },
-  {
     "start": 3344.6,
     "end": 3418.4,
     "text": "There isn't that much in the world.\nBut second, what if the country of   geniuses comes, but it comes in mid-2028 \ninstead of mid-2027? You go bankrupt.  So if your projection is one to three \nyears, it seems like you should want   $10 trillion of compute by 2029 at the latest?\nEven in the longest version of the timelines   you state, the compute you are ramping \nup to build doesn't seem in accordance.  What makes you think that?\nHuman wages, let's say,   are on the order of $50 trillion a year—\nSo I won't talk about Anthropic in particular,   but if you talk about the industry, the amount \nof compute the industry is building this year is   probably, call it, 10-15 gigawatts.\nIt goes up by roughly 3x a year.  So next year's 30-40 gigawatts. 2028 might be \n100 gigawatts. 2029 might be like 300 gigawatts.",
     "speaker": "Unknown",
     "claim": "The compute ramp-up for AI development is insufficient for the projected timelines of AGI.",
-    "stance": "Refute",
+    "stance": "Neutral",
     "claim_labels": [
       "agi_timeline",
       "scaling_compute"
@@ -56,98 +26,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Dünyada bu kadar çok şey yok.\nAma ikinci olarak, dahi ülkesi 2028 ortasında gelirse, 2027 ortasında değilse, iflas edersiniz. Yani eğer tahmininiz bir ila üç yıl ise, 2029'a kadar en geç 10 trilyon dolarlık hesaplama gücüne sahip olmak istemeniz gerektiği gibi görünüyor mu?\nBelirttiğiniz zaman çizelgelerinin en uzun versiyonunda bile, inşa etmekte olduğunuz hesaplama gücünün artışı uyumlu görünmüyor. Bunu neden düşündüğünüzü merak ediyorum.\nİnsan maaşları, diyelim ki, yılda yaklaşık 50 trilyon dolar—\nBu yüzden Anthropic'ten özel olarak bahsetmeyeceğim, ama endüstriden bahsediyorsanız, bu yıl endüstrinin inşa ettiği hesaplama gücü muhtemelen 10-15 gigawatt civarında.\nYılda yaklaşık 3 kat artıyor. Yani gelecek yıl 30-40 gigawatt. 2028 belki 100 gigawatt. 2029 belki 300 gigawatt gibi olacak."
-  },
-  {
-    "start": 5664.8,
-    "end": 5736.3,
-    "text": "So I think just as anything else, it's a \nnew security landscape with a new set of   tools and a new set of vulnerabilities.\nMy worry is, if we had 100 years for this   to happen all very slowly, we'd get used to it.\nWe've gotten used to the presence of explosives   in society or the presence of various new \nweapons or the presence of video cameras.  We would get used to it over 100 years and \nwe’d develop governance mechanisms. We'd   make our mistakes. My worry is just \nthat this is happening all so fast.  So maybe we need to do our thinking faster about \nhow to make these governance mechanisms work.  It seems like in an offense-dominant world, over \nthe course of the next century—the idea is that AI   is making the progress that would happen over the \nnext century happen in some period of five to ten   years—we would still need the same mechanisms, or \nbalance of power would be similarly intractable,   even if humans were the only game in town.\nI guess we have the advice of AI.",
-    "speaker": "Dario Amodei",
-    "claim": "The rapid development of AI poses governance challenges that need to be addressed quickly.",
-    "stance": "Refute",
-    "claim_labels": [
-      "execution_engineering",
-      "ai_optimism_benefit"
-    ],
-    "is_claim": true,
-    "topic": "AI governance",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "execution_engineering",
-      "ai_optimism_benefit"
-    ],
-    "speaker_silver": "Dario Amodei",
-    "is_claim_silver": true,
-    "claim_silver": "The rapid development of AI poses governance challenges that need to be addressed quickly.",
-    "claim_labels_silver": [
-      "execution_engineering",
-      "ai_optimism_benefit"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI governance",
-    "reviewed": false,
-    "text_tr": "Bu yüzden bence her şey gibi, yeni bir güvenlik manzarası var, yeni bir araç seti ve yeni bir zafiyet seti ile.\nEndişem şu ki, eğer bunun gerçekleşmesi için 100 yılımız olsaydı, çok yavaş bir şekilde, buna alışırdık.\nToplumda patlayıcıların varlığına veya çeşitli yeni silahların varlığına veya video kameraların varlığına alıştık. 100 yıl içinde buna alışırdık ve yönetişim mekanizmaları geliştirirdik. Hatalarımızı yapardık. Endişem, bunun çok hızlı gerçekleşiyor olması. Bu yüzden belki de bu yönetişim mekanizmalarının nasıl çalışacağını düşünmemizi daha hızlı yapmalıyız. Görünüşe göre, bir saldırı-dominant dünyada, önümüzdeki yüzyıl boyunca—yani yapay zekanın, önümüzdeki yüzyıl boyunca gerçekleşecek ilerlemeyi beş ila on yıl içinde gerçekleştirdiği fikri—aynı mekanizmalara ihtiyaç duyacağız, ya da güç dengesi benzer şekilde zorlayıcı olacak, insanlar tek oyun olsalar bile.\nSanırım yapay zekanın tavsiyesine sahibiz."
-  },
-  {
-    "start": 5736.3,
-    "end": 5808.9,
-    "text": "But it fundamentally doesn't seem like \na totally different ball game here.  If checks and balances were going to \nwork, they would work with humans as well.  If they aren't going to work, they \nwouldn't work with AIs as well.  So maybe this just dooms human \nchecks and balances as well.  Again, I think there's some \nway to make this happen.  The governments of the world may have \nto work together to make it happen.  We may have to talk to AIs about building \nsocietal structures in such a way that these   defenses are possible. I don't know. I don’t \nwant to say this is so far ahead in time,   but it’s so far ahead in technological ability \nthat may happen over a short period of time,   that it's hard for us to anticipate it in advance.\nSpeaking of governments getting involved,   on December 26, the Tennessee legislature \nintroduced a bill which said, \"It would   be an offense for a person to knowingly \ntrain artificial intelligence to provide   emotional support, including through \nopen-ended conversations with a user.\"  Of course, one of the things that Claude attempts \nto do is be a thoughtful, knowledgeable friend.",
-    "speaker": "Dario Amodei",
-    "claim": "Human checks and balances may not work with AIs, and technological advancements could happen quickly, making it hard to anticipate future developments.",
-    "stance": "Neutral",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "open_source"
-    ],
-    "is_claim": true,
-    "topic": "AI safety",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "open_source"
-    ],
-    "speaker_silver": "Dario Amodei",
-    "is_claim_silver": true,
-    "claim_silver": "Human checks and balances may not work with AIs, and technological advancements could happen quickly, making it hard to anticipate future developments.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "open_source"
-    ],
-    "stance_silver": "Neutral",
-    "topic_silver": "AI safety",
-    "reviewed": false,
-    "text_tr": "Ama temelde burada tamamen farklı bir oyun gibi görünmüyor. Eğer denetim ve dengeler işe yarayacaksa, insanlar üzerinde de işe yarayacaklardı. Eğer işe yaramayacaklarsa, yapay zekalar üzerinde de işe yaramazdı. Bu yüzden belki de bu, insan denetim ve dengelerini de mahvediyor. Yine, bunun gerçekleşmesi için bir yol olduğunu düşünüyorum. Dünyanın hükümetleri bunun gerçekleşmesi için birlikte çalışmak zorunda kalabilir. Bu savunmaların mümkün olacağı şekilde toplumsal yapılar inşa etmek için yapay zekalarla konuşmamız gerekebilir. Bilmiyorum. Bunun zaman açısından çok ileri olduğunu söylemek istemiyorum, ama teknolojik yetenek açısından çok ileri olduğu için, bunun kısa bir süre içinde gerçekleşmesi zor, önceden tahmin etmemiz zor.\nHükümetlerin devreye girmesinden bahsetmişken, 26 Aralık'ta Tennessee yasama meclisi, \"Bir kişinin yapay zekayı duygusal destek sağlamak için, kullanıcıyla açık uçlu konuşmalar dahil, bilerek eğitmesi bir suç olacaktır\" diyen bir yasa tasarısı sundu. Elbette, Claude'un yapmaya çalıştığı şeylerden biri düşünceli, bilgili bir arkadaş olmaktır."
-  },
-  {
-    "start": 7295.0,
-    "end": 7366.4,
-    "text": "But maybe there's a middle world where there's \nan equilibrium where, if they want to hold on   to power, the authoritarians can't deny \nindividualized access to the technology.  But I actually do have a hope \nfor the more radical version.  Is it possible that the technology \nmight inherently have properties—or   that by building on it in certain ways \nwe could create properties—that have this   dissolving effect on authoritarian structures?\nNow, we hoped originally—think back to the   beginning of the Obama administration—that \nsocial media and the internet would have   that property, and it turns out not to.\nBut what if we could try again with the   knowledge of how many things could go wrong, \nand that this is a different technology?  I don't know if it would \nwork, but it's worth a try.  It's just very unpredictable. There \nare first principles reasons why   authoritarianism might be privileged.\nIt's all very unpredictable. We just   have to recognize the problem and come \nup with 10 things we can try, try those,   and then assess which ones are working, if any.\nThen try new ones if the old ones aren't working.",
-    "speaker": "Unknown",
-    "claim": "There is hope that new technology could dissolve authoritarian structures, but its effects are unpredictable.",
-    "stance": "Support",
-    "claim_labels": [
-      "breakthroughs_needed",
-      "ai_optimism_benefit"
-    ],
-    "is_claim": true,
-    "topic": "AI and authoritarianism",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "breakthroughs_needed",
-      "ai_optimism_benefit"
-    ],
-    "speaker_silver": "Unknown",
-    "is_claim_silver": true,
-    "claim_silver": "There is hope that new technology could dissolve authoritarian structures, but its effects are unpredictable.",
-    "claim_labels_silver": [
-      "breakthroughs_needed",
-      "ai_optimism_benefit"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AI and authoritarianism",
-    "reviewed": false,
-    "text_tr": "Ama belki de, otoriterlerin güçlerini korumak istediklerinde, teknolojinin bireysel erişimini inkar edemeyecekleri bir denge dünyası vardır. Ama ben aslında daha radikal bir versiyon için bir umut taşıyorum. Teknolojinin doğası gereği bazı özelliklere sahip olması veya belirli şekillerde inşa ederek bu özellikleri yaratmamız mümkün mü? Bu özellikler, otoriter yapıları çözme etkisine sahip olabilir mi? Başlangıçta, Obama yönetiminin başında sosyal medyanın ve internetin bu özelliğe sahip olacağını ummuştuk, ama öyle olmadığı ortaya çıktı. Peki ya birçok şeyin yanlış gidebileceğini bilerek tekrar denemek mümkünse ve bu farklı bir teknoloji ise? Bunun işe yarayıp yaramayacağını bilmiyorum, ama denemeye değer. Çok öngörülemez. Otoriterizmin ayrıcalıklı olabileceği bazı temel nedenler var. Her şey çok öngörülemez. Sorunu tanımamız ve deneyebileceğimiz 10 şey bulup denememiz ve sonra hangilerinin işe yaradığını değerlendirmemiz gerekiyor, eğer varsa."
   },
   {
     "start": 7734.3,
@@ -176,7 +56,223 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI principles",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Mümkün olduğunca çaba gösteriyorum, ama çok etkili olan bir şey, Anthropic'in iyi bir çalışma yeri olmasını sağlamak. İnsanlar orada çalışmaktan hoşlanıyor, herkes kendini takım üyesi olarak görüyor ve herkes birlikte çalışıyor, birbirine karşı değil. Diğer yapay zeka şirketlerinin büyüdüğünü gördüğümüzde - isim vermeden - bazı tutarsızlıklar ve insanların birbirleriyle kavga etmeye başladığını görüyoruz. Başlangıçta bunun çok fazla olduğunu savunabilirim, ama daha da kötüleşti. Şirketi bir arada tutma konusunda olağanüstü iyi bir iş çıkardığımızı düşünüyorum, mükemmel olmasa da, herkesin misyonu hissetmesini sağlamak, misyon konusunda samimi olduğumuzu göstermek ve herkesin orada diğerlerinin doğru nedenler için çalıştığına inanmasını sağlamak. Biz bir takımız, insanlar birbirlerinin aleyhine geçmeye çalışmıyor veya birbirlerini arkadan bıçaklamıyor, ki bu da bazı diğer yerlerde çok sık oluyor. Bunu nasıl sağlıyorsunuz? Birçok şey var. Bu benim, şirketi günlük olarak yöneten Daniela, kurucu ortaklar, işe aldığımız diğer insanlar ve yaratmaya çalıştığımız ortam."
+  },
+  {
+    "start": 2544.3,
+    "end": 2611.5,
+    "text": "I think we're working on that too.\nThere's a good chance that in the next   year or two, we also solve that.\nAgain, I think you get most   of the way there without it.\nThe trillions of dollars a year market,   maybe all of the national security implications \nand the safety implications that I wrote about in   \"Adolescence of Technology\" can happen without it.\nBut we, and I imagine others, are working on it.  There's a good chance that we will \nget there within the next year or two.  There are a bunch of ideas.\nI won't go into all of them in detail, but   one is just to make the context longer.\nThere's nothing preventing   longer contexts from working.\nYou just have to train at longer contexts   and then learn to serve them at inference.\nBoth of those are engineering problems that   we are working on and I would assume \nothers are working on them as well.  This context length increase, it seemed \nlike there was a period from 2020 to 2023   where from GPT-3 to GPT-4 Turbo, there was an \nincrease from 2000 context lengths to 128K.",
+    "speaker": "Dario Amodei",
+    "claim": "There is a good chance that significant advancements in AI will occur within the next year or two.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "There is a good chance that significant advancements in AI will occur within the next year or two.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "text_tr": "Bunun üzerinde de çalıştığımızı düşünüyorum.\nÖnümüzdeki bir veya iki yıl içinde bunu da çözeceğimizin iyi bir ihtimali var.\nYine, bunun olmadan çoğu yere ulaşabileceğinizi düşünüyorum.\nYıllık trilyonlarca dolarlık pazar, belki de \"Teknolojinin Ergenliği\" adlı yazımda bahsettiğim tüm ulusal güvenlik ve güvenlik etkileri bunun olmadan gerçekleşebilir.\nAma biz, ve diğerlerinin de çalıştığını hayal ediyorum, bunun üzerinde çalışıyoruz. Önümüzdeki bir veya iki yıl içinde oraya ulaşacağımızın iyi bir ihtimali var. Birçok fikir var.\nHepsini detaylıca anlatmayacağım, ama biri bağlamı daha uzun hale getirmek.\nDaha uzun bağlamların çalışmasını engelleyen bir şey yok.\nSadece daha uzun bağlamlarda eğitim almanız ve ardından bunları çıkarımda sunmayı öğrenmeniz gerekiyor.\nHer ikisi de üzerinde çalıştığımız mühendislik problemleri ve diğerlerinin de bunlar üzerinde çalıştığını varsayıyorum. Bu bağlam uzunluğu artışı, 2020 ile 2023 arasında, GPT-3'ten GPT-4 Turbo'ya geçişte 2000 bağlam uzunluğundan 128K'ya bir artış olduğu gibi görünüyor."
+  },
+  {
+    "start": 4824.1,
+    "end": 4902.6,
+    "text": "So why not think there will be \nmore things like this, where   we've found more pieces of human intelligence?\nWell, to be clear, I think continual learning, as   I've said before, might not be a barrier at all.\nI think we may just get there by pre-training   generalization and RL generalization.\nI think there just   might not be such a thing at all.\nIn fact, I would point to the history   in ML of people coming up with things \nthat are barriers that end up kind of   dissolving within the big blob of compute.\nPeople talked about, \"How do your models   keep track of nouns and verbs?\" \n\"They can understand syntactically,   but they can't understand semantically?\nIt's only statistical correlations.\"   \"You can understand a paragraph, \nyou can’t understand a word.  There's reasoning, you can't do reasoning.\"\nBut then suddenly it turns out you can   do code and math very well.\nSo I think there's actually a   stronger history of some of these things seeming \nlike a big deal and then kind of dissolving. Some   of them are real. The need for data is real, \nmaybe continual learning is a real thing.",
+    "speaker": "Dario Amodei",
+    "claim": "Continual learning may not be a barrier to achieving AGI, as past perceived barriers in ML have dissolved with increased compute.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Continual learning may not be a barrier to achieving AGI, as past perceived barriers in ML have dissolved with increased compute.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "text_tr": "O yüzden neden daha fazla insan zekası parçası bulduğumuz şeyler olacağını düşünmeyelim?\nAçık olmak gerekirse, sürekli öğrenmenin, daha önce de söylediğim gibi, hiç engel olmayabileceğini düşünüyorum.\nBelki de genel eğitim ve RL genellemesi ile oraya ulaşabiliriz.\nBelki de böyle bir şey yoktur.\nAslında, ML tarihine bakarsak, engel olarak görülen şeylerin büyük hesaplama yığını içinde eriyip gittiğini görebiliriz.\nİnsanlar, \"Modelleriniz isimleri ve fiilleri nasıl takip ediyor?\" diye konuşuyorlardı.\n\"Sözdizimsel olarak anlayabiliyorlar, ama anlamsal olarak anlayamıyorlar mı? Sadece istatistiksel korelasyonlar var.\" \"Bir paragrafı anlayabilirsiniz, ama bir kelimeyi anlayamazsınız. Akıl yürütme var, akıl yürütme yapamazsınız.\"\nAma sonra aniden kod ve matematiği çok iyi yapabildiğiniz ortaya çıkıyor.\nBu yüzden aslında bazı bu tür şeylerin büyük bir mesele gibi görünmesi ve sonra eriyip gitmesi konusunda daha güçlü bir tarih olduğunu düşünüyorum. Bazıları gerçek. Veriye ihtiyaç gerçektir, belki sürekli öğrenme gerçek bir şeydir."
+  },
+  {
+    "start": 2332.0,
+    "end": 2400.2,
+    "text": "Again, my theme in all of this is all of this \nis soft takeoff, soft, smooth exponentials,   although the exponentials are relatively steep.\nSo we're seeing this snowball gather momentum   where it's like 10%, 20%, 25%, 40%.\nAs you go, Amdahl's law, you have   to get all the things that are preventing \nyou from closing the loop out of the way.  But this is one of the biggest \npriorities within Anthropic.  Stepping back, before in the stack we were talking \nabout when do we get this on-the-job learning?  It seems like the point you were making \non the coding thing is that we actually   don't need on-the-job learning.\nYou can have tremendous productivity   improvements, you can have potentially trillions \nof dollars of revenue for AI companies, without   this basic human ability to learn on the job.\nMaybe that's not your claim, you should clarify.  But in most domains of economic activity, people \nsay, \"I hired somebody, they weren't that useful   for the first few months, and then over time \nthey built up the context, understanding.\"  It's actually hard to define \nwhat we're talking about here.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI development may not require on-the-job learning to achieve significant productivity improvements and economic impact.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI development may not require on-the-job learning to achieve significant productivity improvements and economic impact.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": true,
+    "text_tr": "Yine, bu konudaki temam, tüm bunların yumuşak bir kalkış, yumuşak, pürüzsüz üstel artışlar olduğu, ancak üstel artışların nispeten dik olduğu. Yani, %10, %20, %25, %40 gibi bir kar topunun momentum kazandığını görüyoruz. Giderek, Amdahl yasası, döngüyü kapatmanızı engelleyen tüm şeyleri ortadan kaldırmanız gerektiğini söylüyor. Ama bu, Anthropic içindeki en büyük önceliklerden biri. Geriye dönüp baktığımızda, önceki yığın içinde, iş başında öğrenmeyi ne zaman elde edeceğimizi konuşuyorduk. Kodlama konusundaki noktanızın, aslında iş başında öğrenmeye ihtiyacımız olmadığını gösterdiği gibi görünüyor. Muazzam üretkenlik artışları elde edebilirsiniz, AI şirketleri için potansiyel olarak trilyonlarca dolarlık gelir elde edebilirsiniz, bu temel insan yeteneği olmadan iş başında öğrenmek. Belki bu sizin iddianız değil, netleştirmelisiniz. Ama ekonomik faaliyetlerin çoğu alanında insanlar, \"Birini işe aldım, ilk birkaç ay çok faydalı değildi, ama zamanla bağlamı ve anlayışı geliştirdiler\" derler. Burada neyi kastettiğimizi tanımlamak zor."
+  },
+  {
+    "start": 1406.2,
+    "end": 1474.9,
+    "text": "Not instant, not slow, much faster than any \nprevious technology, but it has its limits.  When I look inside Anthropic, when I look at our \ncustomers: fast adoption, but not infinitely fast.  Can I try a hot take on you?\nYeah.  I feel like diffusion is cope that people say.\nWhen the model isn't able to do something,   they're like, \"oh, but it's a diffusion issue.\"\nBut then you should use the comparison to humans.  You would think that the inherent advantages \nthat AIs have would make diffusion a much easier   problem for new AIs getting onboarded \nthan new humans getting onboarded.  An AI can read your entire \nSlack and your drive in minutes.  They can share all the knowledge that the \nother copies of the same instance have.  You don't have this adverse selection \nproblem when you're hiring AI, so you   can just hire copies of a vetted AI model.\nHiring a human is so much more of a hassle.  People hire humans all the time.\nWe pay humans upwards of $50 trillion   in wages because they're useful, even though in \nprinciple it would be much easier to integrate   AIs into the economy than it is to hire \nhumans. The diffusion doesn't really explain.",
+    "speaker": "Dario Amodei",
+    "claim": "The diffusion of AI technology is not as straightforward as some suggest, and integrating AIs into the economy should be easier than hiring humans.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI integration",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The diffusion of AI technology is not as straightforward as some suggest, and integrating AIs into the economy should be easier than hiring humans.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI integration",
+    "reviewed": true,
+    "text_tr": "Anında değil, yavaş değil, önceki herhangi bir teknolojiden çok daha hızlı, ama sınırları var. Anthropic içinde baktığımda, müşterilerimize baktığımda: hızlı benimseme, ama sonsuz hızlı değil. Size bir cesur tahminde bulunabilir miyim? Evet. Yayılmanın insanların söylediği bir bahane olduğunu hissediyorum. Model bir şeyi yapamadığında, \"oh, ama bu bir yayılma sorunu\" diyorlar. Ama o zaman insanlarla karşılaştırma yapmalısınız. AI'ların sahip olduğu içsel avantajların, yeni AI'ların entegre edilmesinin, yeni insanların entegre edilmesinden çok daha kolay bir sorun olacağını düşünürdünüz. Bir AI, Slack'inizi ve sürücünüzü dakikalar içinde okuyabilir. Aynı örneğin diğer kopyalarının sahip olduğu tüm bilgileri paylaşabilirler. AI işe alırken bu olumsuz seçim sorunu yok, bu yüzden sadece onaylanmış bir AI modelinin kopyalarını işe alabilirsiniz. Bir insanı işe almak çok daha zahmetli. İnsanlar her zaman insanları işe alıyor. İnsanlara, yararlı oldukları için 50 trilyon dolardan fazla maaş ödüyoruz, oysa aslında AI'ları ekonomiye entegre etmek, insanları işe almaktan çok daha kolay olurdu. Yayılma gerçekten açıklamıyor."
+  },
+  {
+    "start": 5664.8,
+    "end": 5736.3,
+    "text": "So I think just as anything else, it's a \nnew security landscape with a new set of   tools and a new set of vulnerabilities.\nMy worry is, if we had 100 years for this   to happen all very slowly, we'd get used to it.\nWe've gotten used to the presence of explosives   in society or the presence of various new \nweapons or the presence of video cameras.  We would get used to it over 100 years and \nwe’d develop governance mechanisms. We'd   make our mistakes. My worry is just \nthat this is happening all so fast.  So maybe we need to do our thinking faster about \nhow to make these governance mechanisms work.  It seems like in an offense-dominant world, over \nthe course of the next century—the idea is that AI   is making the progress that would happen over the \nnext century happen in some period of five to ten   years—we would still need the same mechanisms, or \nbalance of power would be similarly intractable,   even if humans were the only game in town.\nI guess we have the advice of AI.",
+    "speaker": "Dario Amodei",
+    "claim": "The rapid development of AI poses governance challenges that need to be addressed quickly.",
+    "stance": "Refute",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The rapid development of AI poses governance challenges that need to be addressed quickly.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI governance",
+    "reviewed": true,
+    "text_tr": "Bu yüzden bence her şey gibi, yeni bir güvenlik manzarası var, yeni bir araç seti ve yeni bir zafiyet seti ile.\nEndişem şu ki, eğer bunun gerçekleşmesi için 100 yılımız olsaydı, çok yavaş bir şekilde, buna alışırdık.\nToplumda patlayıcıların varlığına veya çeşitli yeni silahların varlığına veya video kameraların varlığına alıştık. 100 yıl içinde buna alışırdık ve yönetişim mekanizmaları geliştirirdik. Hatalarımızı yapardık. Endişem, bunun çok hızlı gerçekleşiyor olması. Bu yüzden belki de bu yönetişim mekanizmalarının nasıl çalışacağını düşünmemizi daha hızlı yapmalıyız. Görünüşe göre, bir saldırı-dominant dünyada, önümüzdeki yüzyıl boyunca—yani yapay zekanın, önümüzdeki yüzyıl boyunca gerçekleşecek ilerlemeyi beş ila on yıl içinde gerçekleştirdiği fikri—aynı mekanizmalara ihtiyaç duyacağız, ya da güç dengesi benzer şekilde zorlayıcı olacak, insanlar tek oyun olsalar bile.\nSanırım yapay zekanın tavsiyesine sahibiz."
+  },
+  {
+    "start": 95.3,
+    "end": 177.5,
+    "text": "At least from the public's point of view, three \nyears ago there were well-known public trends   across many orders of magnitude of compute \nwhere you could see how the loss improves.  Now we have RL scaling and there's \nno publicly known scaling law for it.  It's not even clear what the story is.\nIs this supposed to be teaching the model skills?  Is it supposed to be teaching meta-learning?\nWhat is the scaling hypothesis at this point?  I actually have the same hypothesis \nI had even all the way back in 2017.  I think I talked about it last time, but I wrote \na doc called \"The Big Blob of Compute Hypothesis\".  It wasn't about the scaling of \nlanguage models in particular.  When I wrote it GPT-1 had just come out.\nThat was one among many things.  Back in those days there was robotics.\nPeople tried to work on reasoning as   a separate thing from language models, \nand there was scaling of the kind of RL   that happened in AlphaGo and in Dota at OpenAI.\nPeople remember StarCraft at DeepMind, AlphaStar.  It was written as a more general document.\nRich Sutton put out \"The Bitter   Lesson\" a couple years later.\nThe hypothesis is basically the same.",
+    "speaker": "Dario Amodei",
+    "claim": "The scaling hypothesis for reinforcement learning is unclear and has not been established publicly.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "Scaling Hypothesis",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The scaling hypothesis for reinforcement learning is unclear and has not been established publicly.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Scaling Hypothesis",
+    "reviewed": true,
+    "text_tr": "En azından halkın bakış açısından, üç yıl önce birçok hesaplama düzeyinde iyi bilinen kamu trendleri vardı ve kaybın nasıl iyileştiğini görebiliyordunuz. Şimdi RL ölçeklenmesi var ve bunun için kamuya açık bilinen bir ölçekleme yasası yok. Hikayenin ne olduğu bile net değil. Bu modelin becerileri öğretmesi mi gerekiyor? Meta öğrenmeyi mi öğretmesi gerekiyor? Şu anda ölçeklenme hipotezi nedir? Aslında, 2017'de sahip olduğum aynı hipoteze sahibim. Geçen sefer bahsettiğimi düşünüyorum, ama \"Büyük Hesaplama Hipotezi\" adında bir belge yazdım. Bu, dil modellerinin ölçeklenmesiyle ilgili değildi. Yazdığımda GPT-1 yeni çıkmıştı. O, birçok şeyden biriydi. O günlerde robot teknolojisi vardı. İnsanlar, dil modellerinden ayrı bir şey olarak akıl yürütme üzerinde çalışmaya çalıştılar ve AlphaGo ve OpenAI'deki Dota'da gerçekleşen RL ölçeklenmesi vardı. İnsanlar, DeepMind'deki StarCraft'ı hatırlıyor, AlphaStar. Daha genel bir belge olarak yazılmıştı. Rich Sutton, birkaç yıl sonra \"Acı Ders\"i yayınladı. Hipotez temelde aynı."
+  },
+  {
+    "start": 4968.9,
+    "end": 5037.7,
+    "text": "I'm sure there's some feeling of, \n\"Okay, so a podcaster wrote an essay,   and every interview I get asked about it.\"\nThe truth of the matter is that we're all   trying to figure this out together.\nThere are some ways in which I'm   able to see things that others aren't.\nThese days that probably has more to do   with seeing a bunch of stuff within Anthropic and \nhaving to make a bunch of decisions than I have   any great research insight that others don't.\nI'm running a 2,500 person company.  It's actually pretty hard for me to have concrete \nresearch insight, much harder than it would have   been 10 years ago or even two or three years ago.\nAs we go towards a world of a full drop-in   remote worker replacement, does an API \npricing model still make the most sense?  If not, what is the correct \nway to price AGI, or serve AGI?  I think there's going to be a bunch of \ndifferent business models here, all at once,   that are going to be experimented with.\nI actually do think that the API",
+    "speaker": "Dario Amodei",
+    "claim": "The future of AGI will involve various business models that need to be experimented with.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AGI business models",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The future of AGI will involve various business models that need to be experimented with.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI business models",
+    "reviewed": true,
+    "text_tr": "Bununla ilgili bir his var, \"Tamam, bir podcast sunucusu bir makale yazdı ve her röportajda bunun hakkında soruluyor.\"\nGerçek şu ki, hepimiz bunu birlikte çözmeye çalışıyoruz.\nBazı açılardan, başkalarının göremediği şeyleri görebiliyorum.\nBu günlerde bu, muhtemelen Anthropic içinde birçok şey görmemle ve birçok karar vermek zorunda kalmamla daha çok ilgili, diğerlerinin sahip olmadığı büyük bir araştırma içgörüm olduğu anlamına gelmiyor.\n2500 kişilik bir şirket yönetiyorum. Somut bir araştırma içgörüsüne sahip olmam benim için oldukça zor, 10 yıl önce veya hatta iki veya üç yıl önce olduğundan çok daha zor.\nTamamen uzaktan çalışan bir iş gücü yerine geçiş yaparken, bir API fiyatlandırma modeli hala en mantıklısı mı? Eğer değilse, AGI'yi fiyatlandırmanın veya sunmanın doğru yolu nedir? Burada, hepsi bir arada denenecek birçok farklı iş modeli olacağını düşünüyorum.\nAslında API'nin"
   }
 ]
