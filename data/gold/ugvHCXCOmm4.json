@@ -274,5 +274,293 @@
     "topic_silver": "AI training costs",
     "reviewed": true,
     "text_tr": "Ama bu nedenle RLHF, modelleri bazı açılardan serbest bırakıyor. Ve sonra, o modelin henüz serbest bırakılmadığı ve serbest bırakılması gereken başka yollar var. - Maliyet açısından söyleyebilir misiniz, ön eğitim en pahalı şey mi? Yoksa son eğitim buna yaklaşır mı? - Şu anda, ön eğitimin maliyetin çoğunluğunu oluşturduğu hala geçerli. Gelecekte ne bekleyeceğimi bilmiyorum, ama kesinlikle son eğitimin maliyetin çoğunluğunu oluşturduğu bir geleceği öngörebilirim. - O gelecekte, post-eğitim için maliyet insanlardan mı yoksa yapay zekadan mı kaynaklanacak? - İnsanları yeterince ölçeklendiremezsiniz, bu nedenle yüksek kaliteli sonuçlar elde edemezsiniz. İnsanlara dayanan ve büyük miktarda hesaplama kullanan herhangi bir yöntem, bazı ölçeklenmiş süperpozisyon yöntemlerine dayanmak zorunda kalacak, biliyorsunuz, tartışma veya yinelemeli amplifikasyon gibi bir şey. - Bu nedenle, Anayasal Yapay Zeka etrafındaki bu süper ilginç fikirler hakkında, ne olduğunu, Aralık 2022'deki makalede ilk detaylandırıldığı gibi ve bunun ötesinde, ne olduğunu tarif edebilir misiniz?"
+  },
+  {
+    "start": 3619.7,
+    "end": 3688.5,
+    "text": "You need an early warning system. And so every time we have a new model, we test it for its capability to do these CBRN tasks, as well as testing it for, you know, how capable it is of doing\ntasks autonomously on its own. And in the latest version of our RSP, which we released in\nthe last month or two, the way we test autonomy\nrisks is the model, the AI model's ability to do\naspects of AI research itself, which when the AI models\ncan do AI research, they become kind of truly autonomous. And you know, that threshold is important for a bunch of other ways. And so what do we then\ndo with these tasks? The RSP basically develops what we've called an if then structure, which is if the models\npass a certain capability, then we impose a certain set of safety and security requirements on them. So today's models are\nwhat's called ASL two. Models that were, ASL\none is for systems that manifestly don't pose any\nrisk of autonomy or misuse.",
+    "speaker": "Dario Amodei",
+    "claim": "AI models becoming capable of conducting AI research themselves indicates a significant threshold of autonomy that requires safety measures.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI autonomy",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI models becoming capable of conducting AI research themselves indicates a significant threshold of autonomy that requires safety measures.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI autonomy",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4577.8,
+    "end": 4641.9,
+    "text": "So, going forward, certainly\nthis modality of interaction is something we have tested for, and that we will continue to\ntest for in RSP going forward. I think it's probably better to have, to learn and explore this capability before the model is super,\nyou know, super capable. - Yeah, and there's a lot\nof interesting attacks, like prompt injection, because now you've widened the aperture, so you can prompt inject\nthrough stuff on screen. So if this becomes more and more useful, then there's more and more benefit to inject stuff into the model. If it goes to a certain webpage, it could be harmless\nstuff like advertisements or it could be like harmful stuff, right? - Yeah, I mean, we've\nthought a lot about things like spam, CAPTCHA, you know, mass camp. There's all, you know, every, like one secret I'll tell you, if you've invented a new technology, not necessarily the biggest misuse, but the first misuse you'll see, scams, just petty scams. Like you'll just, it's\nlike a thing as old, people scamming each other, it's this thing as old as time, and it's just every time\nyou gotta deal with it.",
+    "speaker": "Dario Amodei",
+    "claim": "Exploring new capabilities in AI should happen before the model becomes highly capable to mitigate risks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "scaling_compute",
+      "execution_engineering",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "scaling_compute",
+      "execution_engineering",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Exploring new capabilities in AI should happen before the model becomes highly capable to mitigate risks.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "scaling_compute",
+      "execution_engineering",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5653.4,
+    "end": 5715.1,
+    "text": "It's much more productive to go off and do a clean experiment\nand say, this is our vision, this is how we're gonna do things. Your choice is you can ignore us, you can reject what we're doing, or you can start to become more like us, and imitation is the\nsincerest form of flattery. And you know, that plays out\nin the behavior of customers, that plays out in the\nbehavior of the public, that plays out in the behavior of where people choose to work. And again, at the end, it's not about one company winning or another company winning. If we or another company are\nengaging in some practice that, you know, people find genuinely appealing, and I want it to be in substance, not just in appearance. And, you know, I think researchers are sophisticated and\nthey look at substance. And then other companies\nstart copying that practice and they win because they\ncopied that practice, that's great, that's success. That's like the race to the top.",
+    "speaker": "Dario Amodei",
+    "claim": "Companies should engage in practices that are genuinely appealing, leading to a competitive race to improve.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI competition",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Companies should engage in practices that are genuinely appealing, leading to a competitive race to improve.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI competition",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6841.1,
+    "end": 6905.2,
+    "text": "And it says, well, how\ngood did the AI model do? It's basically a form of self play. You're kind of training\nthe model against itself. And so the AI gives the response and then you feed that back into what's called the preference model, which in turn feeds the\nmodel to make it better. So you have this triangle of like the AI, the preference model, and the\nimprovement of the AI itself. - And we should say that\nin the constitution, the set of principles are\nlike human interpretable. They're like-\n- Yeah, yeah. It's something both the human\nand the AI system can read. So it has this nice kind of\ntranslatability or symmetry. You know, in practice we\nboth use a model constitution and we use RLHF and we use\nsome of these other methods. So it's turned into one tool in a toolkit that both reduces the need for RLHF and increases the value we get from using each data point of RLHF. It also interacts in interesting ways with kind of future\nreasoning type RL methods. So it's one tool in the toolkit, but I think it is a very important tool.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI training methods",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI training methods",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7040.5,
+    "end": 7105.2,
+    "text": "It's also a competitive advantage. Then others kind of, you know, discover that it has advantages and then start to do that thing. We then no longer have\nthe competitive advantage, but it's good from the perspective that now everyone has\nadopted a positive practice that others were not adopting. And so our response to that is, well, looks like we need a new\ncompetitive advantage in order to keep driving\nthis race upwards. So that's how I generally feel about that. I also think every implementation of these things is different. So, you know, there were some things in the model spec that were\nnot in Constitutional AI, and so, you know, we can\nalways adopt those things or, you know, at least learn from them. So again, I think this is an example of like the positive dynamic that I think we should all\nwant the field to have. - Let's talk about the incredible essay \"Machines of Loving Grace.\" I recommend everybody read it. It's a long one. - It is rather long.\n- Yeah. It's really refreshing\nto read concrete ideas about what a positive future looks like. And you took sort of a bold stance because like, it's very possible that you might be wrong on the dates or specific applications.\n- Oh, yeah.",
+    "speaker": "Dario Amodei",
+    "claim": "The competitive dynamics in AI development lead to positive practices being adopted across the field, which is beneficial for progress.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "open_source",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI competition",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "open_source",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The competitive dynamics in AI development lead to positive practices being adopted across the field, which is beneficial for progress.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_race_power",
+      "open_source",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI competition",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7842.9,
+    "end": 7906.9,
+    "text": "Like some people in comments responded to the essay saying the AI system can produce a lot of energy\nin smarter AI systems. That's missing the point. That kind of cycle doesn't\nsolve the key problems that I'm talking about here. So I think a bunch of people\nmissed the point there. But even if it were completely on the line and, you know, could get around all these human obstacles,\nit would have trouble. But again, if you want\nthis to be an AI system that doesn't take over the world, that doesn't destroy humanity, then basically, you know, it's gonna need to follow basic human laws, right? You know, if we want to\nhave an actually good world, like we're gonna have to have an AI system that interacts with humans, not one that kind of\ncreates its own legal system or disregards all the laws or all of that. So as inefficient as these\nprocesses are, you know, we're gonna have to deal with them because there needs to be some popular and democratic legitimacy in how these systems are rolled out. We can't have a small group of people who are developing these systems say this is what's best for everyone, right? I think it's wrong, and I think in practice,\nit's not gonna work anyway.",
+    "speaker": "Dario Amodei",
+    "claim": "AI systems need to follow human laws and have democratic legitimacy to avoid negative outcomes.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems need to follow human laws and have democratic legitimacy to avoid negative outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 14885.5,
+    "end": 14951.5,
+    "text": "It's like a case where\nit's basically like, if you imagine, like\nI really like the idea of the models like say knowing like roughly how they were trained, and I think Claude will often do this. I mean, for like, there are things like part of the traits training included like what Claude\nshould do if people, basically like explaining like the kind of limitations\nof the relationship between like an AI and a human that it like doesn't retain\nthings from the conversation. And so I think it will like\njust explain to you like, hey, I won't remember this conversation. Here's how I was trained. It's kind of unlikely that I can have like a certain kind of\nlike relationship with you, and it's important that you know that. It's important for like, you\nknow, your mental wellbeing that you don't think that\nI'm something that I'm not. And somehow I feel like\nthis is one of the things where I'm like, oh, it feels like a thing that I always want to be true. I kind of don't want models\nto be lying to people, 'cause if people are going to have like healthy relationships with anything, it's kind of important. Yeah, like I think that's easier if you always just like know exactly what the thing is\nthat you are relating to.",
+    "speaker": "Dario Amodei",
+    "claim": "AI models should be transparent about their limitations to foster healthy relationships with users.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI transparency",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI models should be transparent about their limitations to foster healthy relationships with users.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI transparency",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 16809.9,
+    "end": 16879.0,
+    "text": "We can be like, well, you\nknow, that didn't work and we know that somebody tried hard. Or going in and getting to something that it does teach us\nsomething about the world. - So another interesting hypothesis is the superposition hypothesis. Can you describe what superposition is? - Yeah, so earlier we were\ntalking about word defect, right? And we were talking about how, you know, maybe you have one direction\nthat corresponds to gender, and maybe another that\ncorresponds to royalty, and another one that corresponds to Italy, and another one that\ncorresponds to, you know, food and all of these things. Well, you know, oftentimes\nmaybe these word embedding, they might be 500\ndimensions, 1000 dimensions. And so if you believe that all of those directions were orthogonal, then you could only have,\nyou know, 500 concepts. And you know, I love pizza, but like, if I was gonna go and like give the like 500 most important concepts in, you know, the English language,\nprobably Italy wouldn't be, it's not obvious at least that Italy would be one of them, right? Because you have to have things like plural, and singular, and verb, and noun, and adjective, and, you know, there's a lot of things we have to get to before\nwe get to Italy, and Japan, and, you know, there's a lot\nof countries in the world.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 18678.2,
+    "end": 18740.0,
+    "text": "And so one thing I do\nsometimes think is like, gosh, like if it's this hard for us, it seems impossible under the constraints of neuroscience or, you\nknow, near impossible. I don't know, maybe part of me is like, I've got a few neuroscientists on my team. Maybe I'm sort sort of like, ah, you know, maybe the neuroscientists,\nmaybe some of them would like to have an easier\nproblem that's still very hard and they could come and\nwork on neural networks. And then after we figure out things in sort of the easy little pond of trying to understand neural networks,\nwhich is still very hard, then we could go back to\nbiological neuroscience. - I love what you've\nwritten about the goal of mech interp research as two goals, safety and beauty. So can you talk about the\nbeauty side of things? - Yeah, so, you know,\nthere's this funny thing where I think some people want, some people are kind of\ndisappointed by neural networks, I think, where they're like,\nah, you know, neural networks, it's these just these simple rules, and then you just like\ndo a bunch of engineering to scale it up and it works really well. And like, where's the like complex ideas? You know, this isn't like a very nice, beautiful scientific result.",
+    "speaker": "Dario Amodei",
+    "claim": "Understanding neural networks is a challenging problem that may be easier than biological neuroscience.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "intelligence_nature"
+    ],
+    "is_claim": true,
+    "topic": "Neural Networks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "intelligence_nature"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Understanding neural networks is a challenging problem that may be easier than biological neuroscience.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "intelligence_nature"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Neural Networks",
+    "reviewed": true,
+    "round": 2
   }
 ]

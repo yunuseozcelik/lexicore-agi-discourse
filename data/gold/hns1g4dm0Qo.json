@@ -232,5 +232,275 @@
     "topic_silver": "off-topic",
     "reviewed": true,
     "text_tr": "Bu bir fark yaratabilir. Hızlı bir şekilde. AI herkesin işlerini alırken ve tüm varlıkların değeri sıfıra düşerken, geriye kalan tek kıt kaynak Bitcoin. Ve eğer pasif olarak daha fazla Bitcoin edinmek isteyen biriyseniz, Gemini'nin yeni Bitcoin kartı hakkında bilgi edinmelisiniz. Harcadığınız her seferde, doğrudan hesabınıza yatırılan kripto para ile geri kazanıyorsunuz. Ve yıllık ücret yok, tüm ödülleriniz Gemini uygulamasında kolayca takip edilebilir. Yani, günlük harcamalarınızdan kripto kazanmak isteyen biriyseniz, jackneil.com/credit adresine gidin veya ekrandaki QR kodunu tarayın ve açıklamadaki ilk bağlantıya tıklayın. Arkadaşlar, bu bir no-brainer. Rutinlerinizi değiştirmeden Bitcoin edinmenin kolay bir yolu. Neyse, podcast'e geri dönelim. Sanırım daha normal, ortalama birey için, bu tür tartışmaları dinlemeyen, um, Nobel Ödülü kazananlarının konuşmalarına veya açıklamalarına katılmayan biri için, onları ikna edecek ne hayal edersiniz? Ünlüler? Sanırım hepsi Terminator'u izliyor. Bu yeterli olmalı."
+  },
+  {
+    "start": 2843.1,
+    "end": 2909.3,
+    "text": "Do you think AI would stop people from dating each other? Like not by banning dating, but just being an easier, safer substitute than real relationships. Will you stop? Probably not. Exactly. Yeah. Some people who cannot get a partner right now for whatever reason, disability, social issues, probably can benefit from having artificial options, companions. But, for most people, it's not an interesting choice. You can experiment, but at the end I think we all have preferences. Do you think AI will stop humanity from having children? Again, so we're completely ignoring it killing everyone very soon. And then it helps us. It helps us achieve immortality. If you live forever, you're very much less likely to have children earlier. You can postpone it as much as you want. I'll have it in a thousand years. So, I think population growth will be reduced significantly by creation of friendly superintelligence and consequently life extension.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The creation of friendly superintelligence and life extension will significantly reduce population growth.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI and relationships",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The creation of friendly superintelligence and life extension will significantly reduce population growth.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI and relationships",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3276.0,
+    "end": 3344.7,
+    "text": "Solar power is becoming very big. But, uh yeah, we just don't have good electrical grid. A lot of infrastructure is outdated. So, there is a huge effort to rebuild it. More recently, there is some effort to move the whole process into space even. And that will take another 5-10 years, but space is very cold, so it's great for chilling compute. It has direct access to solar. So, there are reasons to move it off the planet. How do you define like uh superintelligence essentially? It's an AI which we predict will be smarter than any human in every domain. So, no one would be competitive in any sense. And it keeps getting smarter. It is a general learner. It can learn any skill which can be learned. And most time when people think about those systems, they stop at that point. They go, \"Okay, we have narrow tools. We have AGI. We have superintelligence.\" But, the process continues. Superintelligence can create superintelligence 2.0, which is likewise smarter than the original one.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Superintelligence is an AI that will surpass human intelligence in every domain and can create even more advanced superintelligences.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "Superintelligence",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Superintelligence is an AI that will surpass human intelligence in every domain and can create even more advanced superintelligences.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Superintelligence",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3550.9,
+    "end": 3625.8,
+    "text": ">> Yes. So, if that's the case, so there are some things that we can predict about it. Like, would a worldview be one that we could? Very unlikely. So, it's again, look at the scenario with more primitive agents. Can gorillas understand utilitarian ethics? It could be a lot more moral, a lot more ethical agent developing more advanced theories, but just to illustrate how that could be a problem for us. Negative utilitarians are literally the most humane individuals who want zero suffering in the world. You can't argue with that, but the result is everyone dies. Yeah, I used to think a lot about negative uh utilitarians versus like utilitarianistic altruism and how one just led to creating infinite things and one was like a finite result, but I guess in my life like creating infinite things would be better because it's more interesting, more novel, but an AI wouldn't really care about things being interesting and novel necessarily, but it could, right? So, define interesting. You can just create novel things. You can create lots of random novel objects.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI may develop advanced theories but could lead to negative outcomes like suffering.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI may develop advanced theories but could lead to negative outcomes like suffering.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI ethics",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3696.4,
+    "end": 3774.0,
+    "text": "Human incompetence, airline industry is in horrible state of disrepair. You don't think anyone wants you to stop talking about this? >> No. I'm pretty sure. If someone with access to simulation source code wanted to shut me down, they have better ways of doing it. I'm curious why. Why? Why would Sam Altman, Elon, the people who short-term are incentivized uh to develop AGI, ASI. Like why do they not want you to stop? Makes no difference in their lives. In fact, they're all on record as saying exactly the same thing. Elon literally was fighting against AI for years, was funding AI safety, called the whole process of creating AI summoning a demon. Not sure I'm adding much. And I I mean this in a positive way as well. I'm not accusing you of anything here, but do you think the AI labs secretly want you to keep talking about this because the fearmongering actually and I don't mean genuine fearmongering, I mean the inducing of fear in people actually accelerates development through competitive panic.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI labs may secretly want fearmongering to accelerate AGI development through competitive panic.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI labs may secretly want fearmongering to accelerate AGI development through competitive panic.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3979.7,
+    "end": 4053.9,
+    "text": "The progress will continue. And if it continues, we'll get to that level of capability. But I guess like these guys like Sam Altman, they want the government to step in. Do you see the government stepping in eventually? Not the current US federal government. Why? Their policy is explicitly to accelerate and to remove all barriers, all guardrails. I think Didn't they have a beautiful bill like say something like that you couldn't uh pause the development till 2030? Something like that? They talked about uh state laws. States The recent executive order talks about states, all 50 states not being able to regulate AI. It has to be done at federal level and at federal level they're not really doing much. And I think the reason is this term AI safety can be misinterpreted by some to include things like algorithmic bias, not just existential risk, and Trump administration is very much against diversity and inclusion. So, to them that's what safety is about. Forcing algorithms to force diversity. So, they just package it together and they're fighting AI safety. So, do you see this as a Trump problem?",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The current US federal government is not taking significant action on AI safety and regulation, which could lead to risks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The current US federal government is not taking significant action on AI safety and regulation, which could lead to risks.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4191.7,
+    "end": 4265.9,
+    "text": "Right. So, so it's not a data issue like an input issue, it's like a compute issue that keeps it from scaling. Cuz I would guess that China would have a lot more data than we have access to. They also have less privacy laws, so they are very happy to enjoy the data they have. For a long time, they didn't have access to the latest computer chips. They were banned from purchasing them. That ban has just been removed by US as well. When was that? Like last week. What do you think are the implications of that? They will now accelerate training of AI models to possibly overtake us. Is the data a big deal? The fact that they have a lot of data because I know that they have like uh some type of surveillance where they constantly monitor the streets, at least in the big cities in China. Um and they have a lot more population, but Well, not not all data is equal. I don't know if video feeds from cars in the streets are necessarily what you need for training better AGI. Probably a lot of it is still text-based, scientific books, and things like that, but there is no shortage of data, and even if we do run out of data as many are saying we already have, you can do [snorts] simulations, you can do self-play. There are other ways to get training data for those systems.",
+    "speaker": "Unknown",
+    "claim": "China's access to data and compute resources may allow them to accelerate AI model training and potentially overtake the US in AI development.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_economics",
+      "geopolitics"
+    ],
+    "is_claim": true,
+    "topic": "AI competition",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_economics",
+      "geopolitics"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "China's access to data and compute resources may allow them to accelerate AI model training and potentially overtake the US in AI development.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_economics",
+      "geopolitics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI competition",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5495.3,
+    "end": 5566.5,
+    "text": "And [clears throat] a smarter one and faster one. Now it can decide what to do with that capability. And then just again, to recall, how do you define intelligence? So, Shane Legg has a very good paper where they surveyed many, many definitions of intelligence they could find. And the simplified version is basically your ability to win in any situation. Any environment, you're playing chess, you're going to win. You're investing, you're going to be the best investor. Whatever it is you're doing, you're going to dominate competition. I think people have this idea, or at least myself, that intelligence in AGI specifically, the ability to solve any problem intellectually on paper, but maybe not enact upon it. So, AGI specifically would be able to solve any problem physical or intellectual that a human could. And then ASI would be to solve problems past us, right? So, AGI, anything a human can do, and then super intelligence beyond that. So, novel physics would be included, creating new understanding of physics.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AGI will be able to solve any problem that a human can, both physically and intellectually.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will be able to solve any problem that a human can, both physically and intellectually.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6178.4,
+    "end": 6248.8,
+    "text": "Do you have any ideas on ways that you could break out, beat it? Uh other than creating superintelligent assistant, not really. I assume we need some sort of quantum physics experiments done by advanced AI. It's interesting. What do you think of deja vu? People argue that it's some sort of side effect of poorly programmed simulation, but I have no reason to think any of those things are related. Tell me more about that. Are there any like what are some of the weird examples that show we would be in a simulation that you think of? So look at video games and how we optimize graphics rendering, things of that nature. And then look at quantum physics and how similar it is. So we know there are observer effects. Things don't get rendered unless a player looks at them. There is discrete nature of physics, kind of like updates in a video game. There is fixed speed of light, which is again a processor speed of a computer. So there are papers mapping all those concepts showing that this is very likely a digital physics simulation.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Simulation theory",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Simulation theory",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6886.5,
+    "end": 6955.3,
+    "text": "But you don't conclude that it's a symptom of intelligence to have more likely depression. I mean, looking at the world and understanding the problems certainly can make you somewhat sad, but also you see all the possibilities for awesomeness. Is AI able to have emotion to your understanding? It's very hard to judge whatever the states it is experiencing are comparable to our emotions. Ours are based on chemicals in the physical body. So, you can probably have a simulation of that, but right now it seems unlikely. What we used to create was purely rational symbol manipulating AIs. They definitely had none. Because what we are creating now is based at least loosely on neural networks, it's possible they may have something similar, but again, it's kind of like internal states we cannot judge for sure. What's the darkest conversation you can have with AI to kind of prove all of this?",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI currently lacks true emotions and experiences that are comparable to human emotions.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI emotions",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI currently lacks true emotions and experiences that are comparable to human emotions.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI emotions",
+    "reviewed": true,
+    "round": 2
   }
 ]

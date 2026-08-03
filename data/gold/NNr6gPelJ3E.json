@@ -208,5 +208,287 @@
     "topic_silver": "Consciousness and AI",
     "reviewed": true,
     "text_tr": "Eğer her çoktan seçmeli soruda artan olasılıkla bunu geçerlerse, o zaman başka seçeneğiniz yok. Ya onların bilinçli bir modele erişimi olduğunu kabul etmelisiniz ya da kendileri vardır. - Yanılsamaların ilginç olmasının nedeni, sanırım gerçekten tuhaf bir deneyim olmaları ve eğer bu tuhaf deneyimi paylaşırsanız, bu, ham verilerin sıradan fiziksel tanımında olmayan bir şeydir, bu da gerçek deneyime daha fazla vurgu yapar. - Ve hayvanların bazı optik yanılsamaları deneyimleyebileceğini biliyoruz. Bu nedenle, bunun sonucunda belirli türde bir bilince sahip olduklarını söyleyebilirim. - Evet, bu sadece benim, hataların ve hataların insanların özel kılan şey olduğunu hissetmemle ilgili. Yaşayan formları özel kılan şey, yani... - Bu bir özellik, hata değil. - Bu bir özellik. Hata, özelliktir. Vay, tamam. Bu, bilincin mühendisliği için harika bir test. Ve bunun mühendislik yapılabileceğini düşünüyor musunuz? - Yani, yeni yanılsamalar olmalı. Eğer sadece cevabı google'layabiliyorsa, bu işe yaramaz."
+  },
+  {
+    "start": 2052.6,
+    "end": 2119.4,
+    "text": "So nuclear weapons,\nthere's a no nuclear weapon and then there's a nuclear weapon. With AI systems, there's a\ngradual improvement of capability and you get to perform that\nimprovement incrementally. And so open source allows you\nto study how things go wrong. Study the very process of emergence, study AI safety on those systems when there's not a high level of danger, all that kind of stuff. - It also sets a very wrong precedence. So we open sourced model\none, model two, model three. Nothing ever bad happened, so obviously we're gonna\ndo it with model four. It's just gradual improvement. - I don't think it always\nworks with the precedent. Like you're not stuck doing\nit the way you always did. It sets the precedent of open research and open development such\nthat we get to learn together. And then the first time\nthere's a sign of danger, some dramatic thing happened, not a thing that destroys\nhuman civilization, but some dramatic\ndemonstration of capability that can legitimately\nlead to a lot of damage.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Open sourcing AI models allows for incremental improvement and learning about AI safety, but it can also set a dangerous precedent.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Open sourcing AI models allows for incremental improvement and learning about AI safety, but it can also set a dangerous precedent.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2449.5,
+    "end": 2512.8,
+    "text": "How dangerous, I have no idea. But neither people training it. - At the training stage, but then there's a testing\nstage inside the company, they can start getting intuition about what the system is capable to do. You're saying that the somehow leap from GPT-4 to GPT-5 can happen. The kind of leap where\nGPT-4 was controllable and GPT-5 is no longer controllable and we get no insights from using GPT-4 about the fact that GPT-5\nwill be uncontrollable. Like that's the situation\nyou're concerned about. Where their leap from n to n plus one would be such that a uncontrollable system is created without any ability for\nus to anticipate that. - If we had capability of ahead of the run before the training\nrun to register exactly what capabilities that\nnext model will have at the end of the training run. And we accurately guessed all of them. I would say you are right, we can definitely go ahead with this run.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The leap from GPT-4 to GPT-5 could result in an uncontrollable system that we cannot anticipate based on GPT-4's capabilities.",
+    "stance": "Refute",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The leap from GPT-4 to GPT-5 could result in an uncontrollable system that we cannot anticipate based on GPT-4's capabilities.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5488.0,
+    "end": 5553.5,
+    "text": "And stop development? - Well either they have to prove that of course it's possible to indefinitely control godlike\nsuper intelligent machines by humans and ideally let us know how or agree that it's not possible and it's a very bad idea to do it, including for them\npersonally and their families and friends and capital. - So what do you think the actual meetings inside these companies look like? Don't you think they're all the engineers? Really it is the engineers\nthat make this happen. They're not like automatons.\nThey're human beings. They're brilliant human beings. So they're nonstop asking how do we make sure this is safe? - So again, I'm not inside. From outside, it seems like there is a certain filtering going on and restrictions and criticism\nand what they can say. And everyone who was\nworking in charge of safety and whose responsibility it was to protect us said, \"You know what? I'm going home.\" So that's not encouraging. - What do you think the discussion inside those companies look like?",
+    "speaker": "Roman Yampolskiy",
+    "claim": "There is skepticism about whether superintelligent machines can be safely controlled by humans, and concerns about the safety discussions within AI companies.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "There is skepticism about whether superintelligent machines can be safely controlled by humans, and concerns about the safety discussions within AI companies.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5693.6,
+    "end": 5759.2,
+    "text": "Stuart Russell speaks\nbeautifully about that. Let's look okay, maybe super\nintelligence is too futuristic. We can develop practical tools for it. Let's look at software today. What is the state of safety and security of our user software? Things we give to millions of\npeople. There is no liability. You click I Agree. What are you agreeing to?\nNobody knows, nobody reads. But you're basically\nsaying it'll spy on you, corrupt your data, kill\nyour firstborn and you agree and you're not gonna sue the company. That's the best they can\ndo for mundane software, word processor, tax software. No liability, no responsibility. Just as long as you agree not\nto sue us, you can use it. If this is a state of the art in systems which are narrow accountants,\nstable manipulators, why do we think we can do so much better with much more complex systems\nacross multiple domains in the environment with malevolent actors? With again, self-improvement\nwith capabilities exceeding those of\nhumans thinking about it.",
+    "speaker": "Unknown",
+    "claim": "Current software safety and liability issues raise skepticism about our ability to manage more complex AI systems.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current software safety and liability issues raise skepticism about our ability to manage more complex AI systems.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6029.1,
+    "end": 6092.5,
+    "text": "If the next model is as\nimproved as GPT-4 versus GPT-3, we may see something\nvery, very, very capable. - What do you feel about all this? I mean you've been\nthinking about AI safety for a long, long time. And at least for me the leaps, I mean it probably started with... AlphaZero was mind blowing for me and then the breakthroughs\nwith LLMs, even GPT-2, but like just the breakthroughs on LLMs, just mind blowing to me. What does it feel like to be\nliving in this day and age where all this talk about AGIs feels like it actually might happen and quite soon, meaning\nwithin our lifetime, what does it feel like? - So when I started working on this, it was pure science fiction. There was no funding, no\njournals, no conferences 'cause no one in academia would dare to touch anything with the\nword singularity in it. And I was pre-tenure at the\ntime, so I was pretty dumb.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AGI may happen within our lifetime due to recent breakthroughs in AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI may happen within our lifetime due to recent breakthroughs in AI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6903.6,
+    "end": 6982.0,
+    "text": "So we don't know how to\ndo it. And that's unique. That's what creates meaning. It would be kinda as Bostrom calls it Disneyland without\nchildren, if that was gone. - Do you think consciousness\ncan be engineered in artificial systems? Here, let me go to 2011 paper that you wrote, \"Robot Rights.\" \"Lastly, we would like to address a sub branch of machine ethics, which on the surface has\nlittle to do with safety, but which is claimed to play\na role in decision-making by ethical machines,\" \"Robot Rights.\" So do you think it's possible to engineer consciousness in the machines? And thereby the question\nextends to our legal system, do you think at that point\nrobots should have rights? - Yeah, I think we can. I think it's possible to create\nconsciousness in machines. I tried designing a test\nfor it, which makes success. That paper talked about\nproblems with giving civil rights to AI, which\ncan reproduce quickly and outvote humans essentially taking over a government system by simply voting for their\ncontrolled candidates.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "It is possible to engineer consciousness in machines.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Consciousness in AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "It is possible to engineer consciousness in machines.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Consciousness in AI",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7313.0,
+    "end": 7376.8,
+    "text": "But you said that, like how would that look like if you could engineer that in, in silken. - Consciousness?\n- [Lex] Consciousness? - I assume you are conscious,\nI have no idea how to test for it or how it impacts you in any way whatsoever right now. You can perfectly simulate all of it without making any different\nobservations for me. - But to do it in a computer,\nhow would you do that? 'Cause you kind of said that you think it's possible to do that. - So it may be an emergent phenomena. We seem to get it through\nevolutionary process. It's not obvious how it\nhelps us to survive better, but maybe it's an internal kind of gooey, which allows us to better\nmanipulate the world, simplifies a lot of control structures. That's one area where we have\nvery, very little progress. Lots of papers, lots of research, but consciousness is not a big, big area of successful discoveries so far.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Consciousness is not well understood and has not seen significant successful discoveries in research.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Consciousness",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Consciousness is not well understood and has not seen significant successful discoveries in research.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Consciousness",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7440.5,
+    "end": 7502.8,
+    "text": "100 years ago, the first\npapers were published on neural networks, we just didn't have enough\ncompute to make them work. I can give you a rule such as start printing progressively\nlarger strings. That's it. One sentence. It'll output everything,\nevery program, every DNA code, everything in that rule. You need intelligence to filter it out, obviously to make it useful. But simple generation\nis not that difficult and a lot of those systems end up being Turing complete systems. So they're universal and we expect that level\nof complexity from them. What I like about Wolfram's\nwork is that he talks about irreducibility, you have\nto run the simulation. You can predict what is\ngoing to do ahead of time. And I think that's very relevant\nto what we're talking about with those very complex systems. Until you live through it,\nyou cannot ahead of time tell me exactly what it's going to do. - Irreducibility means that for a sufficiently complex system, you have to run the thing.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Complex systems are irreducible and their behavior cannot be predicted without running them.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "Complex systems",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Complex systems are irreducible and their behavior cannot be predicted without running them.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_race_power"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Complex systems",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7893.8,
+    "end": 7956.9,
+    "text": "So we just don't have\nmore complex problems outside of mathematics\nfor it to be showing off. Like you can have IQ of 500\nif you're playing tic-tac-toe, it doesn't show, it doesn't matter. - So the idea there is\nthat the problems define your capacity, your cognitive capacity. So because the problems on earth are not sufficiently difficult,\nit's not going to be able to expand its cognitive capacity? - [Roman] Possible. - And wouldn't that be a good thing? - It still could be a lot smarter than us. And to dominate long term,\nyou just need some advantage. You have to be the smartest, you don't have to be a\nmillion times smarter. - So even five X might be enough. - It'd be impressive. What is it? IQ of a thousand? I mean, I know those\nunits don't mean anything at that scale, but still\nlike, as a comparison, the smartest human is like 200. - Well actually no, I didn't mean compared to an individual human. I meant compared to the\ncollective intelligent of the human species. If you're somehow five\nx smarter than that...",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AGI could potentially be much smarter than humans, even if the problems it faces are not complex enough to showcase that intelligence.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI intelligence",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI could potentially be much smarter than humans, even if the problems it faces are not complex enough to showcase that intelligence.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI intelligence",
+    "reviewed": true,
+    "round": 2
   }
 ]

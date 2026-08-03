@@ -301,5 +301,278 @@
     "topic_silver": "historical context",
     "reviewed": true,
     "text_tr": "Gerçekten zor. Çünkü belirli şeylerin belirli zamanlarda neden olduğunu anlamak için, o zamanın ekonomik koşulları hakkında çok şey anlamanız gerekiyor. Örneğin, Edison, ampul için farklı filamentlerle denemeler yapmak için çok zaman harcadı. Temel fikir çok basit. Bir şeyi ısıtıyorsunuz ve parlıyor, ama o zaman hangi filament gerçekten iyi çalışıyor? Ne dayanıklı? Işık çıkışı ile ısı oranı en yüksek olan hangisi, böylece daha az atık olur, daha verimli olur. Ve ürününüzü elde ettikten sonra, o zaman karşılaştığınız sorun, 1880 veya bir şeydir ve ABD evlerinde elektrik yoktur, bu yüzden kimse bunu kullanamaz. Şimdi elektrik santralleri inşa etmeniz ve evlere elektrik hatları çekmeniz gerekiyor ki insanlar yarattığınız bu yeni ampulü kullanabilsinler. Bunu yaptı, ama insanlar bunu “tamam, o sadece fikri buldu” gibi sunuyorlar, “bu bir ampul”."
+  },
+  {
+    "start": 34.9,
+    "end": 102.3,
+    "text": "Today, I'm chatting with\nTamay Besiroglu and Ege Erdil. They were previously running Epoch AI and\nare now launching Mechanize, which is a company dedicated to automating all work. One of the interesting points you\nmade recently, Tamay, is that the whole idea of the intelligence\nexplosion is mistaken or misleading. Why don't you explain what\nyou're talking about there? Yeah, I think it's not\na very useful concept. It's kind of like calling the Industrial\nRevolution a horsepower explosion. Sure, during the Industrial Revolution,\nwe saw this drastic acceleration in raw physical power, but there are many\nother things that were maybe equally important in explaining the acceleration\nof growth and technological change that we saw during the Industrial Revolution. What is a way to characterize the\nbroader set of things that the horsepower perspective would miss\nabout the Industrial Revolution? So I think in the case of the\nIndustrial Revolution, it was a bunch of these complementary changes to\nmany different sectors in the economy. So you had agriculture, you had\ntransportation, you had law and finance, you had urbanization and\nmoving from rural areas into cities.",
+    "speaker": "Tamay Besiroglu",
+    "claim": "The concept of an intelligence explosion is misleading and not very useful.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Tamay Besiroglu",
+    "is_claim_silver": true,
+    "claim_silver": "The concept of an intelligence explosion is misleading and not very useful.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2797.5,
+    "end": 2867.3,
+    "text": "One, you're increasing the population\nof AIs who are doing this research, so more of that in parallel can\nfind these different optimizations. And a subtle point that they'd often\nmake here is software R&D in AI is not just Ilya-type coming up with\nnew transformer-like architectures. To your point, it actually is a lot of- I mean, I'm not an AI researcher,\nbut I assume there's, from the lowest level libraries to the kernels, to\nmaking RL environments, to finding the best optimizer, to… there's just\nso much to do, and in parallel you can be doing all these things or\nfinding optimizations across them. And so you have two\neffects, going back to this. One is, if you look at the original GPT-4\ncompared to the current GPT-4o, I think it's, what, how much cheaper is it to run? It's like, maybe a hundred times for\nthe same capability or something. Right. So they're finding ways in which to\nrun more copies of them at a hundred X cheaper or something, which means that\nthe population of them is increasing and the higher populations are\nhelping you find more efficiencies.",
+    "speaker": "Ege Erdil",
+    "claim": "The increasing population of AIs and optimizations in AI research will lead to more efficiencies and capabilities.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI research/optimizations",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "The increasing population of AIs and optimizations in AI research will lead to more efficiencies and capabilities.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI research/optimizations",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3078.2,
+    "end": 3150.8,
+    "text": "That also suggests that having a\nlot of hardware is very important. If you look at specific innovations\nthat seem very important, the big innovations over the past five years,\nmany of them have some kind of scaling or hardware-related motivation. So you might look at how the\ntransformer itself was about how to harness more parallel compute. Things like flash attention was literally\nabout how to implement the attention mechanism more efficiently, or things\nlike the chinchilla scaling law. And so many of these big innovations\nwere just about how to harness your compute more effectively. That also tells you that\nactually the scaling of compute might be very important. And I think there's just many pieces\nof evidence that point towards this complementarity picture. So I would say that even if you assume\nthat experiments are not particularly important, the evidence we have, both\nfrom estimates of AI and other software- although the data is not great- suggests\nthat maybe you don't get this kind of hyperbolic, faster-than-exponential\nsuper-growth in the overall algorithmic efficiency of systems.",
+    "speaker": "Ege Erdil",
+    "claim": "The scaling of compute is crucial for advancements in AI, and evidence suggests that we may not see rapid super-growth in algorithmic efficiency.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "The scaling of compute is crucial for advancements in AI, and evidence suggests that we may not see rapid super-growth in algorithmic efficiency.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "compute/chips",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3280.2,
+    "end": 3349.3,
+    "text": "And then I was talking to an AI\nresearcher the other day, one of these cracked people, gets paid tens of\nmillions of dollars a year, probably. And we asked him, how much\ndoes the AI models help you in AI research? And he said, “in domains that I'm already\nquite familiar with, where it’s closer to autocomplete, it saves me four to\neight hours a week”. And then he said, “but in domains where I'm actually\nless familiar, where I need to drive new connections, I need to understand\nhow these different parts relate to each other, and so forth. It saves\nme close to 24 to 36 hours a week”. And that's the current models. And I'm just like, “he didn't get\nmore computed, but it still saved him like a shit ton more time”. Just draw that forward. That's a crazy implication\nor crazy trend, right? I mean, I'm skeptical of the claims that we\nhave actually seen that much of an acceleration in the process of R&D. These claims seem to me, like they're not\nborne out by the actual data I'm seeing.",
+    "speaker": "Ege Erdil",
+    "claim": "The speaker is skeptical about the claims of significant acceleration in AI research and development due to current AI models.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI research acceleration",
+    "confidence": "high",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "The speaker is skeptical about the claims of significant acceleration in AI research and development due to current AI models.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI research acceleration",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4151.3,
+    "end": 4222.4,
+    "text": "That industry depends on\ntons of inputs and materials. And it gets from probably tons\nof random places in the world. And creating that infrastructure,\ndoubling, or tripling, whatever, that infrastructure, the entire thing. That's very hard work. So probably you couldn't even\ndo it, even if you just have Shenzhen in a desert, that will\nbe even more expensive than that. And on top of that, so far, we have\nbeen drawing heavily on the fact that we have built up this huge\nstock of data, over the past 30 years or something, on the internet. Imagine you were trying to train a\nstate-of-the-art model, but you only have 100 billion tokens to train on. That would be very difficult. So in a certain sense, our entire\neconomy has produced this huge amount of data on the internet that we\nare now using to train the models. It's plausible that in the future, when\nyou need to get new competencies added to these systems, the most efficient way\nto do that will be to try to leverage similar kinds of modalities of data, which\nwill also require this... you would want to deploy the systems broadly because\nthat's going to give you more data.",
+    "speaker": "Ege Erdil",
+    "claim": "The future development of AI systems will depend on leveraging large amounts of data and broad deployment to gain new competencies.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "data and infrastructure",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "open_source",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "The future development of AI systems will depend on leveraging large amounts of data and broad deployment to gain new competencies.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "open_source",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "data and infrastructure",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4223.1,
+    "end": 4288.0,
+    "text": "And maybe you can get where you want\nto be without that, but it would just be less efficient if you're\nstarting from scratch compared to if you're collecting a lot of data. I think this is actually a motivation\nfor why labs want their LLMs to be deployed widely, because sometimes\nwhen you talk to ChatGPT, it's going to give you two responses and it's\ngoing to say, well, which one was good? Or it's going to give you one\nresponse and it's going to ask you, was this good or not? Well, why are they doing that, right? That's a way in which they are\ngetting user data through this extremely broad deployment. So I think you should just imagine\nthat thing to continue to be efficient and continue to increase in the\nfuture because it just makes sense. And then there's a separate question of,\nwell, suppose you didn't do any of that. Suppose you just tried to imagine the\nmost rudimentary, the narrowest possible kind of infrastructure build-out and\ndeployment that would be sufficient to get this positive feedback loop\nthat leads to much more efficient AIs. I agree that loop could, in principle,\nbe much smaller than the entire world.",
+    "speaker": "Ege Erdil",
+    "claim": "Widespread deployment of LLMs is motivated by the need for user data to improve efficiency.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI deployment",
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "Widespread deployment of LLMs is motivated by the need for user data to improve efficiency.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI deployment",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5106.3,
+    "end": 5172.2,
+    "text": "And I have the sense from talking to\npeople like you that, “oh, so much went into getting AI to the point where\nit is today”. Whereas when I talk to journalists about AI, they're like,\n“okay, who is a crucial person we need to cover?” And they're like, “should\nwe get in touch with Geoffrey Hinton? Should we get in touch with Ilya?”\nAnd I just have this like, “you're kind of missing the picture”. But then you should have that same\nattitude towards things you… Or maybe it's a similar phenomenon to Gell-Mann\namnesia, we should have a similar attitude towards other industries. Robin Hanson has this abstraction of seeing\nthings in near mode versus far mode. And I think if you don't know a\nlot about the topic, then you see it in far mode and you simplify\nthings, you see a lot more detail. In general, I think the thing I would\nsay, and the reason I also believe that abstract reasoning and deductive reasoning\nor even Bayesian reasoning by itself is not sufficient or is not as powerful as\nmany other people think, is because I think there's just this enormous amount\nof richness and detail in the real world that you just can't reason about it.",
+    "speaker": "Ege Erdil",
+    "claim": "Abstract reasoning alone is not sufficient for understanding the complexities of the real world.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI reasoning",
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "Abstract reasoning alone is not sufficient for understanding the complexities of the real world.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI reasoning",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 10579.1,
+    "end": 10643.2,
+    "text": "So you can have the sensors and\nnot do much processing, but just collect and then process centrally. And that processing centrally might\nmake sense for a bunch of reasons, and you might get economies of scale from\nhaving more GPUs that produce better models, and also be able to think\nmore deeply about what it's seeing. It's worth noting that certain\nthings already work like this, for example, Tesla FSD. It will benefit from the data\ncollected at the periphery from millions of miles of driving. And then the improvements which\nare made as a result of this. Centrally directed, it's coming\nfrom HQ being like, “we're going to push an update”. And so you do get some\nof this more centralized… And it can be a much more intelligent\nform than just whatever gradient averaging that they- I mean, I'm\nsure it's more sophisticated than that at Tesla- but it can be a much\nmore deliberate, intelligent update. So that's one reason to expect. And the other reason, I guess, is current leaders or CEOs don't have bigger\nbrains than the workers do.",
+    "speaker": "Ege Erdil",
+    "claim": "Centralized processing of data can lead to more intelligent updates and improvements in AI systems like Tesla's FSD.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI systems",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "Centralized processing of data can lead to more intelligent updates and improvements in AI systems like Tesla's FSD.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI systems",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 10972.8,
+    "end": 11039.6,
+    "text": "Which isn’t working on the front, that's\njust a more effective way of contributing. And to do that, you have\nto, well, let people know. That's right. That's right. And I think just coming to the\nBay Area is especially- for interest in AI in particular. Yeah, going to the Bay Area is nice. Just post, like just writing\nthings and like posting them where people can see them. Just aggressively reaching out to\npeople with interesting comments. Provided your thoughts\nare interesting and so on. I mean, they probably aren't. In many cases, I think it's like, my thoughts still might not be\ninteresting, but people will tolerate my cold emails and will\nstill collaborate with me and so forth. The other thing I've noticed- tell me\nif this is actually the wrong pattern. With people like you or with Carl Schulman\nor something, is that, as compared to a general person who's intellectually\ncurious or reading widely, you tend to focus much more on key pieces of\nliterature than say, “I'm going to go read the classics or just generally\nread”. It's like, “ I'm going to just put like a ton more credence\nin something like the Roamer paper”.",
+    "speaker": "Ege Erdil",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "round": 2
   }
 ]

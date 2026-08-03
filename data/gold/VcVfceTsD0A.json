@@ -235,5 +235,281 @@
     "topic_silver": "Gratitude and Meaning",
     "reviewed": true,
     "text_tr": "Bu, bunun bir şey olduğunu daha gerçek kıldı mı? - Evet, bunu son derece gerçek kıldı ve biliyorsun, şimdi ailemizde sıradaki benim, değil mi? Ben ve küçük kardeşim, ama ikisi de bunu öyle bir onurla karşıladı ki, bu da gerçek bir ilham kaynağı oldu. Hiçbir şeyden şikayet etmediler ve biliyorsun, yaşlı olduğunda ve bedenin bozulmaya başladığında, şikayet edilecek daha çok şey olur, ne yapabileceklerine odaklandılar ve zamanlarını, hayal kırıklığına uğradıkları şeyler hakkında konuşmakla ya da düşünmekle boşa harcamadılar. Bence, sabahlarına şikayet listesi yaparak başlayan herkes kendini depresyona sokabilir. Oysa gününü küçük bir meditasyonla ve minnettar olduğun şeylerle başlarsan, temelde mutlu bir insan olmayı seçiyorsun. - Çünkü sınırlı sayıda günün var, bunları harcamalıyız, - [Max] Değerli kıl. - Minnettar olarak."
+  },
+  {
+    "start": 138.9,
+    "end": 207.1,
+    "text": "That meant a lot. - And thanks to you for putting your heart and soul into this. I know when you delve\ninto controversial topics, it's inevitable to get hit by what Hamlet talks about \"The slings and arrows,\" and stuff. And I really admire this. It's in an era, you know, where YouTube videos are too long, and now it has to be\nlike a 20-minute TikTok, 20-second TikTok clip. It's just so refreshing to see you going exactly against all of the advice and doing these really long form things, and the people appreciate it, you know. Reality is nuanced, and thanks\nfor sharing it that way. - So let me ask you again, the first question I've\never asked on this podcast, episode number one, talking to you. Do you think there's intelligent life out there in the universe? Let's revisit that question. Do you have any updates? What's your view when you\nlook out to the stars? - So, when we look out to the stars, if you define our universe the\nway most astrophysicists do, not as all of space, but the spherical region of space that we can see with our telescopes from which light has the time to reach us, since our Big Bang.",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1351.2,
+    "end": 1420.4,
+    "text": "You should stop doing this kind of stuff.\" I sent it to my dad. Do you know what he said? - [Lex] (laughs) What he say? - He replied with a quote from Dante. (Lex laughing) (Max speaking in Italian) \"Follow your own path\nand let the people talk.\" (Both laughing) Go dad! - [Lex] Yeah. - This is the kind of thing, you know, he's dead, but that attitude is not. - How did losing them as a man, as a human being change you? How did it expand your\nthinking about the world? How did it expand your thinking about, you know, this thing we're talking about, which is humans creating another living, sentient perhaps, being? - I think it, mainly do two things. One of them just going\nthrough all their stuff after they had passed away and so on, just drove home to me how\nimportant it is to ask ourselves, why are we doing this things we do? Because it's inevitable\nthat you look at some things they spent an enormous time on and you ask in hindsight, would they really have\nspent so much time on this?",
+    "speaker": "Max Tegmark",
+    "claim": "Reflecting on the loss of loved ones emphasizes the importance of questioning the purpose behind our actions, especially in the context of creating sentient beings.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "Human experience",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Reflecting on the loss of loved ones emphasizes the importance of questioning the purpose behind our actions, especially in the context of creating sentient beings.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Human experience",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1545.8,
+    "end": 1612.5,
+    "text": "- [Max] Yeah. - Well you do happen to\nbe working on a thing which seems to have potentially, some of the greatest impact\non human civilization of anything humans have ever created, which is artificial intelligence. This is, on the both\ndetailed technical level, and on the high philosophical\nlevel you work on. So you've mentioned to me that there's an open letter\nthat you're working on. - It's actually going live in a few hours. (Lex laughing) So I've been having late\nnights and early mornings. It's been very exciting, actually. In short, have you seen, \"Don't Look Up,\" the film? - Yes, yes. - I don't want to be the movie spoiler for anyone watching\nthis who hasn't seen it. But if you're watching this, you haven't seen it, watch it, because we\nare actually acting out, it's life imitating art. Humanity is doing exactly that right now, except it's an asteroid that\nwe are building ourselves.",
+    "speaker": "Max Tegmark",
+    "claim": "Humanity is currently facing a significant threat similar to the asteroid scenario depicted in the film 'Don't Look Up', which relates to the impact of artificial intelligence.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI impact",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Humanity is currently facing a significant threat similar to the asteroid scenario depicted in the film 'Don't Look Up', which relates to the impact of artificial intelligence.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI impact",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6843.0,
+    "end": 6905.1,
+    "text": "but absolutely, I don't\nthink it's hopeless. I think there is, first of all a lot of momentum now for the first time actually, since the many, many\nyears that have passed since I and many others\nstarted warning about this, I feel most people are getting it now. I was just talking to this guy in the gas station near our house the other day. And he's like, \"I think\nwe're getting replaced, and then I think...\" So that's positive that they're finally, we're finally seeing this reaction, which is the first step\ntowards solving the problem. Second, I really think that this vision of only running AIs, if the stakes are really high, they can prove to us that they're safe. It's really just virus\nchecking in reverse again, I think it's scientifically doable. I don't think it's hopeless,",
+    "speaker": "Max Tegmark",
+    "claim": "There is momentum and public awareness about AI risks, which is a positive step towards addressing the problem.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "There is momentum and public awareness about AI risks, which is a positive step towards addressing the problem.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7175.7,
+    "end": 7246.5,
+    "text": "Well it's not, there's no law of physics\nsaying we had to die of that cancer or whatever. Of course, you can cure it. And there's so many other things that we, with our human intelligence\nhave also failed to solve on this planet, which AI could also very\nmuch help us with, right? So if we can get this right, and just be a little more chill, and slow down a little\nbit so we get it right. It's mind-blowing how awesome\nour future can be, right? We talked a lot about stuff on Earth, it can be great, but even if you really get ambitious and look up into the skies, right? There's no reason we have\nto be stuck on this planet for the rest of the remaining, for billions of years to come. We totally understand\nnow that laws of physics let life spread out into\nspace to other solar systems, to other galaxies, and flourish for billions\nand billions of years. And this to me is a\nvery, very hopeful vision that really motivates me to fight. And coming back to it in the end, it's something you talked about again, you know, the struggle, how the human struggle\nis one of the things that's also really gives\nmeaning to our lives.",
+    "speaker": "Max Tegmark",
+    "claim": "AI could help solve many of humanity's problems and enable life to spread beyond Earth, creating a hopeful future.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_economics",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI optimism",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_economics",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "AI could help solve many of humanity's problems and enable life to spread beyond Earth, creating a hopeful future.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_economics",
+      "agi_timeline"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI optimism",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 8431.5,
+    "end": 8497.9,
+    "text": "He postulates that the consciousness has to do with loops in\nthe information processing. So our brain has loops. Information can go round and round, in computer science nerd-speak, you call it a recurrent neural network where some of the output\ngets fed back in again. And with his mathematical formulism, if it's a feed-forward neural network where information only\ngoes in one direction, like from your eye retina\ninto the back of your brain for example, that's not conscious. So he would predict\nthat your retina itself isn't conscious of anything, or a video camera. Now the interesting thing about GPT-4 is it's also just a one-way\nflow of information. So if Tononi is right, then GPT-4 is a very intelligent zombie, that can do all this smart stuff but isn't experiencing anything. And this is both a relief if it's true, and that you don't have to feel guilty about turning off GPT-4\nand wiping its memory whenever a new user comes along.",
+    "speaker": "Max Tegmark",
+    "claim": "Max Tegmark suggests that if consciousness is linked to recurrent neural networks, then GPT-4, being a feed-forward neural network, lacks consciousness despite its intelligence.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "Nature of intelligence",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Max Tegmark suggests that if consciousness is linked to recurrent neural networks, then GPT-4, being a feed-forward neural network, lacks consciousness despite its intelligence.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Nature of intelligence",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 8767.0,
+    "end": 8829.7,
+    "text": "Depending on the day, I'm sure that changes for you, but when do you think there would be a really\nbig leap in intelligence where you would definitively\nsay we have built AGI? Do you think it's one year from now, five years from now, 10, 20, 50? What's your gut say? - Honestly, for the past decade, I've deliberately given\nvery long timelines because I didn't want to fuel some kind of stupid Moloch race. - [Lex] Yeah. - But I think that cat has\nreally left the bag now. I think we might be very, very close. I don't think the Microsoft\npaper is totally off when they say that there\nare some glimmers of AGI. It's not AGI yet, it's not an agent, there's a lot of things they can't do. But I wouldn't bet very strongly against it happening very soon, that's why we decided\nto do this open letter.",
+    "speaker": "Max Tegmark",
+    "claim": "Max Tegmark suggests that AGI might be very close to being achieved soon, despite having previously advocated for longer timelines.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Max Tegmark suggests that AGI might be very close to being achieved soon, despite having previously advocated for longer timelines.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 9243.1,
+    "end": 9312.5,
+    "text": "They don't think of it as something where, \"Yeah, just to within a percent or two, you know, we're all just\ngonna starve to death and- - And starving to death is, the worst way to die. As Holodomor, as all the\nfamines in history show the torture involved in that. - Probably brings out\nthe worst in people also. When people are desperate\nlike this, it's not, so some people, I've have heard some people say that if that's what's gonna happen, they'd rather be at ground zero and just get vaporized, you know? But I think people\nunderestimate the risk of this because they aren't afraid of Moloch. They think, \"Oh, it's just gonna be, 'cause humans don't want this, so it's not gonna happen.\" That's the whole point of Moloch. That things happen that nobody wanted. - And that applies to nuclear weapons, and that applies to AGI. - Exactly. And it applies\nto some of the things that people have gotten most upset with capitalism for also, right?",
+    "speaker": "Unknown",
+    "claim": "People underestimate the risks associated with AGI, similar to the risks posed by nuclear weapons.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "People underestimate the risks associated with AGI, similar to the risks posed by nuclear weapons.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 9589.3,
+    "end": 9651.5,
+    "text": "I think, given that I'm a\nreally, really curious person, that's really the\ndefining part of who I am, I'm so curious. I have some physics questions. (Lex laughing) I love to understand. I have some questions about consciousness, about the nature of reality, I would just really, really\nlove to understand also. I can tell you one for example, that I've been obsessing\nabout a lot recently. So I believe that, so suppose Tononi is right. and suppose there are some\ninformation processing systems that are conscious and some that are not. Suppose you can even make\nreasonably smart things like GPT-4 that are not conscious, but you can also make them conscious. Here is the question that\nkeeps me awake at night. Is it the case that the\nunconscious zombie systems that are really intelligent\nare also really efficient? Sorry, really inefficient?",
+    "speaker": "Max Tegmark",
+    "claim": "Max Tegmark questions whether intelligent but unconscious systems like GPT-4 are inefficient compared to conscious systems.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "intelligence_nature",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "Consciousness and AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "open_source"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Max Tegmark questions whether intelligent but unconscious systems like GPT-4 are inefficient compared to conscious systems.",
+    "claim_labels_silver": [
+      "intelligence_nature",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Consciousness and AI",
+    "reviewed": true,
+    "round": 2
   }
 ]

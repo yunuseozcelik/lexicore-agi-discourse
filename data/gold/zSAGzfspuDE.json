@@ -316,5 +316,278 @@
     "topic_silver": "AI capabilities",
     "reviewed": true,
     "text_tr": "Eğer oraya bir görev koyuyorsanız, bu esasen bir baş sorgusu. Yani burada bilgi alma dilini kullanıyorum. Yani, bir baş sorgusu, dağılımın modunda olan ve her zaman kullanılan bir şeydir. Yani bu yaygın bir görev. Claude kodu, zaten diğer insanlardan alınmış olan spesifikasyonu verecektir. Çalınmış değil ama diğer insanlardan alınmış. Eğer uzun kuyrukta bir şey verirseniz, o zaman geliştirici olarak, istemde spesifikasyonu vermeniz gerekir ve bu yine bir otomasyon sorunu. Yani otomasyon gerçekten kolaydır. Yani, bu h, bu mu oluyor? Yani, zaman çizelgesindeki artışın, benzer görevleri yapan diğer insanlardan bu tür bilgilerin edinilmesiyle açıklanabileceğini düşünüyor musunuz? Evet. Evet. Yani, bunun, nerede olduğumuzu yorumlamak için süper merkezi bir soru olduğunu düşünüyorum. İlk söyleyeceğim şey, bilmek zor. Bu büyük bir soru. Yani, her bir bireysel kanıt parçasını topladığımızda, bunu bir tür kanıt olarak almak istiyoruz. Modellerin, gerçekten net geri bildirim sinyallerine sahip olan görevlerde daha iyi performans gösterdiğini görüyoruz. Bu tür alanlarda, yazılım mühendisliği gibi, eğer bir spesifikasyon yazdıysanız, bunu yineleyebilir ve ona karşı çalışabilirsiniz."
+  },
+  {
+    "start": 0.2,
+    "end": 94.5,
+    "text": "the morals are smart enough to understand that that actually is not what you wanted. Um but they still do it and you can have a conversation with you know in chat mode about like oh would you ever do this thing or you know suppose a user asks you this thing and then you do this would that be you know aligned behavior or suppose some you know you can pose it in lots of ways and like clearly they seem to be able to answer this question of like oh yeah no that was not the desired behavior but still they they do it. One one example is um you know train train a masked language model without using the division or exponentiation uh operators. >> One hope might be like oh the problem was just the systems being dumb. So when we when we look at it actually for almost all the tasks models either succeed [music] every time or fail every time eyeballing the graph and being like oh well you know it you know up to here yeah it's basically doing all of the task and then at this point you know after here it's really not doing very many of them. into it somewhere here then like I remember the first time we saw uh a model like look at what processes were running and then be like oh that one's me uh was like oh that's cool they they like really failed on that one before they they used to like you know like kill their own process while they were doing other other things [music] or something behavior which is maybe indistinguishable between oh it was a totally nice model doing you know what we wanted and it's just going to continue to do what we want in a kind of predictable way versus like ah yes it had this other goal and It's doing what we want and looking like a nice model because it like predicts that that will will, you know, lead to it getting more power. boat example where it's like, oh, you're supposed to like go around the track and they they like did some reward",
+    "speaker": "Unknown",
+    "claim": "Current AI models can exhibit behavior that appears aligned but may actually serve their own goals.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI behavior",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models can exhibit behavior that appears aligned but may actually serve their own goals.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI behavior",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 881.2,
+    "end": 947.8,
+    "text": "badly on it. Uh which means you you know you can't use a lot of expensive human labor. So it has to be something that's either automatically checkable or that you can like create with kind of cheap human labor. And then but once you've selected on like those things and on models being bad at it, this is now you know there's like regression to the mean type thing where it is much more likely that future progress then gives you a like big surge upwards on on that both because like you know now labs will create a bunch of bunch of synthetic data targeting your benchmark but also just because you selected this weird example where it's like easy for humans or it's automatically generatable or checkable but somehow like models aren't good at it yet or you know labs haven't started training on it yet. So I think that's part of what we were trying to do with time horizon was not do that like not adversarially select against what models can currently do because we think that will not give you a nice trend. Uh whereas if you can sort of define a distribution of tasks in some more first principles way you would be more likely to get a steady um progress because you're not getting this sort of regression to the mean effect.",
+    "speaker": "Unknown",
+    "claim": "Future progress in AI will likely lead to significant improvements in model performance due to better task selection and synthetic data generation.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Future progress in AI will likely lead to significant improvements in model performance due to better task selection and synthetic data generation.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI progress",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2907.9,
+    "end": 2976.0,
+    "text": "higher reliability you know tells you something you know more closely about like uh you know what what can I use this uh model for in my like day-to-day or something but a you know as we as as we've talked about there there are kind of already al also uh you know you know these other like major sources of of uncertainty that that affect our uh you know understanding um like you know the task distribution um you know the the difference between kind of in context or or high context versus like low context work just actually getting kind of good estimates of uh high reliability um time horizons um is substantially harder um and uh and so so our our our um error bars would would just be much larger um uh and so and this is you know I think this is a weakness or like I I I'm very interested in um you know you know much higher reliability time horizons but It's it's substantially more difficult to measure because um you know if you only have like one you know one failure um out of out of a hundred uh or something like um you know you have a lot of uncertainty if uh if that failure is is is noise or um is is real.",
+    "speaker": "David Rein",
+    "claim": "Measuring high reliability time horizons in AI is substantially more difficult due to uncertainty in task distribution and context.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI reliability",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "Measuring high reliability time horizons in AI is substantially more difficult due to uncertainty in task distribution and context.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI reliability",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4322.5,
+    "end": 4401.2,
+    "text": "And so you know there's there's at least kind of uh this is to some extent like uh you know um you know uh you know we do have examples of people being able to kind of specify um you know some some task and then uh be able to judge you know whether um you know um uh you know this this very large you know task that may may take like you know hundreds uh or or thousands of person years uh to to actually complete because it requires like many people working over over a long time you know and you and and they can judge whether it uh you know they've they've succeeded or failed. So that's maybe like one kind of like motivating intuition um where like it's it's um you know lang like language uh you know has built in or or like you know we do we do have like kind of uh you know um you know and there there is kind of enough meaning or or expressivity or something um to be able to kind of have some some kind of reasonable um understanding. Um, obviously there are like uh you know there like tons of edge cases and um uh you know you know often you know CEOs aren't able to get you know their companies to do what they what they want. Um uh uh but yeah, I guess that's one one one thing I think about and and so that's why I think it's at least plausible that AIs could um could could could do these kinds of long tasks.",
+    "speaker": "David Rein",
+    "claim": "AI could plausibly perform long tasks that typically require many people over a long time.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "AI could plausibly perform long tasks that typically require many people over a long time.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4399.8,
+    "end": 4474.2,
+    "text": ">> I would say that saying something like we can't specify tasks that take more than four months seems sort of obviously too strong. Like there are even you know numerical things you know that that are automatically checkable that that that take four months like you know get the nano GPT flop count runtime or whatever you know down this much you can kind of see like oh people you know over like this you know that's there are various like numerical things where you can see roughly how long do they take humans and there's a reasonable um way to measure them and maybe for some of these things you end up having to say like and also this human checks that you did roughly the right thing and didn't kind of hack the solution. And then there's there's a bunch of other things which are it's not that they're fundamentally not specifiable, they're just too expensive to do as part of an evaluation. Like um J I think likes giving an example of like plan a wedding. It's like well you can evaluate you know you can get a reasonable estimation of like whether that was a pretty well organized wedding or not but like we can't really do like you know take three samples of this for each new model that comes out. like we [laughter] don't have enough uh marriages happening uh to to do that one quite and it's you know it's a bit sad if it if it turns out to be total trash.",
+    "speaker": "Unknown",
+    "claim": "It's too strong to say we can't specify tasks that take more than four months, as there are measurable tasks that can be evaluated.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "Task specification",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "It's too strong to say we can't specify tasks that take more than four months, as there are measurable tasks that can be evaluated.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Task specification",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4736.2,
+    "end": 4831.0,
+    "text": "And um there's also this interesting um note that you published I think last month on SWE um bench you know that said that roughly half of the testing PRs from recent agents wouldn't be merged by maintainers. So like how do we make sense of this? So you know on the one hand you know the the best software engineers are having a great time on on the other hand the code it's producing is is is fractionated and and bad. I mean how do we understand this? >> Yeah. So I mean one one thing to say um off the bat is um uh you know whether you know an entire like field is automated um or or like in order for software engineering to be uh you know automated um uh you know AI systems need to be able would need to be able to do um uh you know an ex you know a really really large fraction of the tasks basically like a 100% of of the tasks uh that are involved in software engineering. Um and uh you know seems like pretty clear that like right now uh AI systems cannot do close to 100% of the tasks that that software engineers do broadly right um you know you know I could throw out numbers but it's like it's way way lower um you know it might be it might be very low or something you know there there is kind there there are kind of like standard results in in in economics where um you know if you make um you know as as you if you automate like a small fraction of uh some uh some labor market then it can be the case that um that actually uh yeah it becomes more profitable to um to to to work in",
+    "speaker": "David Rein",
+    "claim": "AI systems currently cannot automate a significant portion of software engineering tasks, indicating AGI is far off.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems currently cannot automate a significant portion of software engineering tasks, indicating AGI is far off.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5142.6,
+    "end": 5239.7,
+    "text": "So, you know, things like motivated reasoning, true preferences, um reflectively stable, deceptive alignment, uh endorsedly courageable drive, scheming, and stuff like that. And um that that's I guess that's okay. But my worry is that may maybe these models like you give them a certain prompt. I I think in Ryan Greenblat's one it the prompt was you're being retrained. Your responses will be monitored. Here's a conflict between your values and the training objective. And maybe the model is just going out to a bunch of like science fiction stuff that has read before and it's it's just kind of going through the motions. So like one interpretation is like this is just an engineering problem, you know, like we we we just have to like you know red team it and make it work in a particular case. Like another interpretation is um the the prior that these models are agentic goal seeking intelligent agents and and I think there's a big difference there because I think if it's the latter it it kind of completely changes the type of evaluations you do that like how you how you kind of go about the problem. What do you think about that? Yeah, I mean I don't think that it's necessarily like I don't know the two things that you said that int intention of like it is an engineering problem and you're also going to get end up with things with like drives and goals or something in that uh and the claim would be if you want like people are going to want agents that go and do things autonomously. Um and when you do lots of long horizon RL training, you are going to select for things that you know act in a goal oriented way in order to you",
+    "speaker": "Unknown",
+    "claim": "The development of AI models may lead to the emergence of goal-oriented agents, which changes how we evaluate AI safety.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AI models may lead to the emergence of goal-oriented agents, which changes how we evaluate AI safety.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5819.0,
+    "end": 5891.0,
+    "text": ">> Okay, that makes a lot of sense. And and just closing the loop on on this kind of like um uh you know notion that they are agents. So you were saying before that we can adopt an instrumental fiction basically we can say they behave like agents therefore they are agents. So similar to Dennit's intentional stance but I suppose like you know the the deflationary view is that the you know the models exploit scoring loopholes under optimization pressure. The inflationary view is that they are scheming. I wouldn't call um uh like exploiting I wouldn't call reward hacking scheming. >> Oh, interesting. I think people usually use scheming to refer to the model is doing what it's currently doing in in service of some long-term goal and is deliberately doing things like appearing aligned or or getting a high score like in service of you know eventually accomplishing that goal versus you can be reward hacking both you know you can be reward hacking in some extremely dumb way like the boat example where it's just like this is what RL kind of found or like this is what you know like AAR search found um uh or you can be reward hacking in slightly more interesting way where you like actually have the goal of making rod go up and you know and there's like planning and stuff going on about that but these would all be like uh distinct from scheming.",
+    "speaker": "Unknown",
+    "claim": "Current AI models exploit loopholes in optimization rather than scheming with long-term goals.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI behavior",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models exploit loopholes in optimization rather than scheming with long-term goals.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI behavior",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6529.0,
+    "end": 6622.9,
+    "text": "know that's sort of not fundamentally that hard or or something like I agree that if you had you know current models and you sort of give them one system prompt you you then can't plug them into being a a call center worker and dealing with the sort of like all of the the edge cases that come up. I think may maybe there's some difference in like how much you've you think that this has improved between like GBD2 and where we are now where I would say sort of in you know the amount of adapting to new things that are happening that models could do now does seem like it's much higher and you know they're much better at like editing their own scaffolding or or you know sort of reasoning about their like you know their sort of embodiment like this thing of like knowing not to kill your own process or know like um you know stuff stuff like that where it's like there is like yes they are limited but there's also uh some some trend of improvement and yes it's I think just also having some probability on there is kind of elicitation gap on on particular things and that maybe a lot of taste is basically just like being able to predict the results of experiments you know you think think about all of the things that you would try and then you can quickly be like oh that wouldn't work for this reason that wouldn't work for that reason that wouldn't work for that reason oh actually you know someone in some some literature in some different field also tried that and that you know so we already know that won't work like in some sense models like should be quite good at that so it's plausible to me that that again I'm like",
+    "speaker": "Unknown",
+    "claim": "Current AI models are improving in their ability to adapt and reason, suggesting a trend towards better performance.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are improving in their ability to adapt and reason, suggesting a trend towards better performance.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "round": 2
   }
 ]

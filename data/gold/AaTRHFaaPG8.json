@@ -295,5 +295,269 @@
     "topic_silver": "philosophy of life",
     "reviewed": true,
     "text_tr": "Gelecek muhtemelen yok ama yanlış olabileceğin yolları aradığın için güzel ve aynı zamanda,\naynı genç fizikçi ile bazı atılımlar yapıyorsun, bu çok temel bir yeterlilik gibi görünüyor ki,\nbunun için beni övüyorsun ve biliyorsun, tamam, güzel.\nBunun, övülmeyi hak ettiğim bir dünya olduğunu düşünmüyorum ama,\nhiçbir zaman övgüleri zarif bir şekilde kabul etme şansım olmadı ve belki de bunu zarifçe kabul etmeliyim ama,\nçok teşekkür ederim, bazı olasılıklarla karanlık bir gelecek çizdiniz.\nKendinize gelince, hayatınızı düşündüğünüzde ve ölümü düşündüğünüzde,\nölümden korkuyor musunuz? Bunu düşünüyorum, evet, bu mantıklı mı?"
+  },
+  {
+    "start": 371.3,
+    "end": 470.4,
+    "text": "that I'm lonely and I missed you and I'm excited to see you all of that is communicated there's a communication skill versus the actual feeling that I experience so we need that training data as humans too that we may not be born with that how to communicate the internal State and that's in some sense if we remove that from GPT Force data set it might still be conscious but not be able to communicate it so I think you're going to have some difficulty removing all mention of emotions from gpt's data set I would be relatively surprised to find that it has developed exact analogs of human emotions and there I think that humans have well like have like emotions even if you don't tell them about those emotions when they're kids it's not quite exactly what various blanks blank slightests try to do with the new Soviet man and all that but you know if you try to raise people perfectly altruistic they still come out selfish you try to raise people's sexless they still develop sexual attraction um you know we have some notion in humans not in AIS of like where the brain structures are that implement this stuff and it is really remarkable thing I say in passing that despite having complete read access to every floating Point number in the GPT series we still know vastly more",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Humans have innate emotional responses that cannot be entirely removed or trained away, unlike AI systems.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI emotions",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Humans have innate emotional responses that cannot be entirely removed or trained away, unlike AI systems.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI emotions",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1124.0,
+    "end": 1222.1,
+    "text": "Twitter um rather than being examined in any systematic way so when you when you when you have some when you are boiling a frog like that or you're going to get like like first is going to come the the Blake lemoines like first you're going to like have and have like a thousand people looking at this and one out and the one person out of a thousand who is most credulous about the signs is going to be like that thing is sentient well 90 999 out of a thousand people think almost surely correctly though we don't actually know that he's mistaken and so the like first people to say like sentience look like idiots and Humanity learns the lesson that when something claims to be sentient and claims to care it's fake because it is fake because we have been trained them training them using imitative learning rather than and this is not spontaneous um and they keep getting smarter do you think we would oscillate between that kind of cynicism that AI systems can't possibly be sentient they can't possibly feel emotion they can't possibly this kind of um yeah cynicism about AI systems and then oscillate to a state where uh we empathize with the AI systems we give them a chance we see that they might need to have rights and respect and um similar role in society as humans you're going to have a whole group of people who can just like never be persuaded of that because to them like being wise being cynical being skeptical",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "There will be a societal oscillation between skepticism and empathy towards AI systems, affecting perceptions of their sentience and rights.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI perception",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "There will be a societal oscillation between skepticism and empathy towards AI systems, affecting perceptions of their sentience and rights.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI perception",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1590.8,
+    "end": 1687.2,
+    "text": "resource I do not believe in the practice of Steel Manning there's something to be said for trying to pass the ideological Turing test where you describe your opponent's position uh the disagree disagreeing person's position well enough that somebody cannot tell the difference between your description and their description but steel Manning no like okay well this is where you and I disagree here that's interesting why don't you believe in steel Manning I do not want okay so for one thing if somebody's trying to understand me I do not want them steel Manning my position I want them to describe to to like try to describe my position the way I would describe it not what they think is an improvement well I I think that is what the steel Manning is is the most charitable interpretation I I don't want to be interpreted charitably I want them to understand what I'm actually saying if they go off into the land of charitable interpretations they're like often their land of like the thing the stuff they're imagining and not trying to understand my own Viewpoint anymore well I'll put it differently then just to push on this point I would say it is restating what I think you understand under the empathetic assumption that Eliezer is brilliant and have honestly and rigorously thought about the point he has made right so if there's two possible interpretations of what I'm saying and one interpretation is really stupid and whack and doesn't",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Steel Manning",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Steel Manning",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1779.4,
+    "end": 1870.8,
+    "text": "sea of possible presentations of your perspective and steel Manning is doing your best to do the best one in that sea of different perspectives do you believe it don't believe in what like these things that you would be presenting as like the strongest version of my perspective do you believe what you would be presenting do you think it's true I I'm a big proponent of empathy when I see the perspective of a person there is a part of me that believes it if I understand it and you have especially in political discourse in geopolitics I've been hearing a lot of different perspectives on the world and I hold my own opinions but I also speak to a lot of people that have a very different life experience and a very different set of beliefs and I think there has to be epistemic humility in in stating what is true so when I empathize with another person's perspective there is a sense in which I believe it is true I I think probabilistically I would say in the way you think do you bet money on it and do you bet money on their beliefs when you believe them are we allowed to do probability sure you can State a probability that yes there's there's a loose there's a probability there's a there's a probability and I I think empathy is allocating a non-zero probability to believe",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Empathy and Belief",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Empathy and Belief",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2528.0,
+    "end": 2624.5,
+    "text": "is like able to do all these things it was not explicitly optimized for yeah other people are being like no it's too early it's like like 50 years off and you know if they say that they're kind of whack because how could they possibly know that even if it were true um but uh but you know not to straw man some of people may say like that's not general intelligence and not furthermore append it's 50 years off um or they may be like it's only a very tiny amount and you know the thing I would worry about is that if this is how things are scaling then jumping out ahead and trying not to be wrong in the same way that I've been wrong before maybe GPT 5 is more unambiguously a general intelligence and maybe that is getting to a point where it is like even harder to turn back not that it would be easy to turn back now but you know maybe if you let if you like start integrating gpt5 into the economy it is even harder to turn back past there isn't it possible that there's a you know with a frog metaphor you can kiss the Frog and it turns into a prince as you're boiling it could there be a phase shift in the Frog where unambiguously as you're saying I was expecting more of that I I was I am like the the fact that gpt4 is like kind of on the threshold in either here nor there like that itself is like not the sort of thing that not quite how I expected it to play out I was expecting there to be more of an issue uh more of a sense of like like different discoveries like the discovery",
+    "speaker": "Unknown",
+    "claim": "Some believe AGI is far off, but this perspective is questionable given the current advancements in AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Some believe AGI is far off, but this perspective is questionable given the current advancements in AI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2903.5,
+    "end": 2999.2,
+    "text": "perspective that yeah is not going to kill us I think that's a matter of probabilities maybe I was mistaken what what do you believe just just like forget like the the debate and and the like dualism and just like like what do you believe what would you actually believe what are the probabilities even I think this probably is a hard for me to think about really hard I kind of think in the in the number of trajectories I don't know what probability the scientist trajectory but I'm just looking at all possible trajectives that happen and I tend to think that there is more trajectors that lead to a a positive outcome than a negative one that said the negative ones at least some of the negative ones are that lead to the destruction of the human species and it's replacement by nothing interesting not worthwhile even from very Cosmopolitan perspective on what counts is worthwhile yes so both are interesting to me to investigate which is humans being replaced by interesting AI systems and not interesting ass systems both are a little bit terrifying but yes the worst one is the paper Club maximizer something totally boring but to me the positive and we can we can talk about trying to make the case of what the positive trajectories look like I just would love to hear your intuition of what the negative is so at the core",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "There are more trajectories leading to positive outcomes from AI than negative ones, despite some negative trajectories being catastrophic.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI outcomes",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "There are more trajectories leading to positive outcomes from AI than negative ones, despite some negative trajectories being catastrophic.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI outcomes",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3747.6,
+    "end": 3842.2,
+    "text": "it to behave in a psychotic fashion and it obligingly does so then you may be able to predict its responses by using the theory of psychosis but if you're just yeah like no like start over with yeah don't drag this psychology I I just disagree with that I mean it's a it's a beautiful idea to start over but I don't I think fundamentally the system is trained on human data on language from the internet and it's currently aligned with uh rlhf uh reinforcement learning with human feedback so humans are constantly in the loop of the training procedure so it feels like in some fundamental way it is training what it means to to think and speak like a human so that I mean there must be aspects of psychology that they're mappable just like you said with Consciousness it's part of the text so I I mean there's the question of to what extent it is thereby being made more human-like versus to what extent an alien actress is learning to play human characters I thought that's what I'm constantly trying to do when I interact with other humans is trying to fit in trying to play the a a robot trying to play human characters so I don't know how much of human interaction is trying to play a character versus being Who You Are I don't I don't really know what it means to be a social human I do think that the that those people who go through their whole lives wearing masks and never take it off because they don't know the internal mental motion for taking it off",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "The current AI systems are fundamentally trained on human data and are aligned with human-like behavior through reinforcement learning with human feedback.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI behavior",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "The current AI systems are fundamentally trained on human data and are aligned with human-like behavior through reinforcement learning with human feedback.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI behavior",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4669.1,
+    "end": 4766.5,
+    "text": "so the problem with the lottery ticket example is that when the AI says well what if next week's winning lottery numbers are dot dot dot dot you're like I don't know next week's Lottery hasn't happened yet to train a system to play to win a chess games you have to be able to tell whether a game has been won or lost and until you can tell whether it's been run or lost you can't update the system okay uh to push back on that you can in that's true but there's a difference between over the board chess in person and simulated games played by Alpha zero with itself yeah so is it possible to have simulated kinds of games if you can tell whether the game has been won or lost yes so can't you not have this kind of simulated exploration by weak AGI to help us humans human in the loop to help understand how to solve the alignment problem every incremental step you take along the way TPT four five six seven as it would take steps towards this year so the problem I see is that your typical human has a great deal of trouble telling whether I or Paul Cristiano is making more sense and that's with two humans both of whom I believe of Paul and claim of myself are sincerely trying to help neither of whom is trying to deceive you I believe if Paul and claim of myself",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Simulated games can help humans understand and solve the alignment problem in AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Simulated games can help humans understand and solve the alignment problem in AI.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI alignment",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7504.9,
+    "end": 7598.9,
+    "text": "to the hedge funds and instead put everything into interpretability in this like one small area where we can actually tell whether or not somebody has made a discovery or not I think so because uh well that's what these these conversations are about because they're going to wake up to the fact that gpt4 can be used to manipulate elections to influence geopolitics to influence the economy there's a lot of there's going to be a huge amount of incentive to like wait a minute we can't this has to be we have to put we have to make sure they're not doing damage we have to make sure we interpretability we have to make sure we don't understand how these systems function so that we can predict their effect on economy so that there's uh so there's a feudalism and a bunch of op-eds in the new York Times and nobody actually stepping forth and saying you know what instead of a mega yacht I'd rather put that billion dollars on prizes for young Hotshot physicists who make fundamental breakthroughs in interpretability the yacht versus the interpretability research the old uh the old trade-off uh I I just I think uh it's just I think there's going to be a huge amount of allocation of funds I hope that's I guess you want to bet me on that but you want to put a time scale on it say how much funds you think are going to be allocated in a direction that I would consider to be actually useful by what time I do think there will be a huge amount of funds",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "There will be a significant allocation of funds towards interpretability research in AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI funding",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "There will be a significant allocation of funds towards interpretability research in AI.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI funding",
+    "reviewed": true,
+    "round": 2
   }
 ]

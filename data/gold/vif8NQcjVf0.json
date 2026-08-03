@@ -334,5 +334,269 @@
     "topic_silver": "AI safety",
     "reviewed": true,
     "text_tr": "- Evet, gerçekten özel bir an. Neden bu kadar çok dünyanın dikkatini çektiğinden tam olarak emin değilim, ama çekti, Claude Code ve Codex'ten daha fazla. - Çünkü tüketiciler buna ulaşabiliyordu. - Elbette, evet. Ama bunun yanı sıra, bunun çok fazla hissiyatı var. Ve Peter ile bir podcast yaptım, o harika bir insan. Bu yüzden bunun bir kısmı, temsil eden insanlar. - Evet, şüphesiz. - Bir kısmı da memler ve... Çünkü hepimiz bunu anlamaya çalışıyoruz. Bu kadar güçlü bir teknolojiye sahip olduğunuzda, verilerinizi nasıl teslim edersiniz ki faydalı şeyler yapabilsinler? Ama bununla ilişkili korkutucu şeyler de var. Ve biz, bir medeniyet olarak, bireyler olarak ve bir medeniyet olarak, doğru dengeyi bulmaya çalışıyoruz. - Evet, hemen üzerine atladık ve bir grup güvenlik uzmanını bu tarafa gönderdik. Ve OpenShell adında bir şey yaptık. Zaten OpenClaw'a entegre edildi. - Ve NVIDIA, NemoClaw'ı sundu. - Evet, tam olarak. - Kurulumu süper kolay. Güvenli olmasını sağlıyor. - Size üç hak tanıyoruz. Ajans sistemleri hassas bilgilere erişebilir, kod çalıştırabilir ve dışarıyla iletişim kurabilir. Herhangi bir zamanda bu üç yetenekten ikisini size verirsek, her şeyi güvenli tutabiliriz, ama hepsini değil."
+  },
+  {
+    "start": 1068.2,
+    "end": 1136.2,
+    "text": "There's a lot of suffering in between, but\nyou've gotta believe what you believe. - So you envision the future- ... and you essentially, from a sort of\nengineering perspective, manifest it? - Yeah. And you, you reason about how\nto get there. You reason about why it, it must exist. And, you\nknow, I reason... We all reason it here. The management team would\nreason about it. All the people that I... We spend a lot of time reasoning about\nit. The thing, the thing that... The next part of it is probably a\nskill thing, which is, you know, oftentimes in\nleadership the leadership stays quiet or they learn about something,\nand then they do some manifesto, and it's a brand-new year, and somehow\nat the end of the year, next year, we're gonna have a brand-new plan.\nBig huge layoff this way, big huge organization change this way, new mission statement... brand new logos\nyou know, that kind of stuff. Um, we've just never, I never do things\nthat way. When I learn about something and it's starting to influence how\nI think, I'll make it very clear to everybody near me that, you\nknow, this, this is interesting.",
+    "speaker": "Jensen Huang",
+    "claim": "Leadership should communicate their evolving understanding and vision clearly rather than making abrupt changes.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "leadership communication",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "Leadership should communicate their evolving understanding and vision clearly rather than making abrupt changes.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "leadership communication",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3536.5,
+    "end": 3603.6,
+    "text": "And let's note, let's think about\nwhat's possible today. And if I were to build it completely from scratch,\nyou know, how long would it take?\" Oftentimes, you'd be surprised.\nIt might come to six days. Now, the rest of the six\ndays, the 74, could be very well-reasoned and\ncompromises, and, you know, cost reductions, and all kinds of different\nthings. But at least you know what they are. And then now that you know\nthat six days is possible, then the conversation from 74 to six,\nsurprisingly much more effective. - In such incredibly complex systems that\nyou're working with, is simplicity sometimes a good heuristic to reach\nfor? I mean, if I can just... I mean, the pod, the Vera Rubin pod\nthat you announced is just incredible. We're talking about seven chips,\nseven chip types, five purpose-built rack types, 40 racks, 1.2 quadrillion\ntransistors, nearly 20,000 NVIDIA dies, over 1,100 Rubin GPUs, 60 exaflops, 10\npetabytes per second of scale bandwidth. That's all just one...",
+    "speaker": "Jensen Huang",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "compute/chips",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4880.9,
+    "end": 4945.6,
+    "text": "We're in space. You know, little, little\nastronaut suit on one of our GPUs. But we've been in space. It's the\nright place to do a lot of imaging. You know, because those satellites have,\nhave really high resolution imaging systems, and they're sweeping the Earth,\nyou know, continuously now. And, um, you want, you know,\ncentimeter scale, imaging imaging that is done continuously\nfor the world, so that, you know, you'll basically\nhave real time telemetry of everything. You don't wanna beam that\nback down to earth. It's just, you know, petabytes and petabytes of data. You\ngotta just do AI right there at the edge, throw away everything you don't need, you've\nseen before, didn't change, and then just keep the stuff that, that you need.\nAnd so AI had to be done at the edge. Obviously we have, we have a 24/7 solar,\nif we put it at the polars. And uh, but, you know, there's no\nconduction, no convection. And so, you know, you're\npretty much just radiation.",
+    "speaker": "Jensen Huang",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI applications",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI applications",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5379.4,
+    "end": 5447.8,
+    "text": "And so when you look at it in that context and then you back into what\nis NVIDIA's, what does NVIDIA does NVIDIA do and how much of that new economics, new industry\nwould we have to benefit to address, I think we're\ngonna be a lot, lot bigger. And then the rest of it, to me, is is it possible for NVIDIA to be\na, you know, $3 trillion revenues company in the near future?\nThe answer is of course yes. And the reason for that is because it's not\nlimited by any physical limits. There's nothing that I see\nthat says, you know, gosh, $3 trillion is not possible. And as it turns out, NVIDIA's supply chain is,\nthe burden is shared by 200 companies. And the fact that we scale out on the backs\nwith the partnership of this ecosystem, the question is do we\nhave the energy to do so? And surely we will have the energy to do\nso. And so all of these things combined,",
+    "speaker": "Jensen Huang",
+    "claim": "NVIDIA has the potential to become a $3 trillion revenue company in the near future due to its scalable business model.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "hardware_infra",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "hardware_infra",
+      "ai_economics"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "NVIDIA has the potential to become a $3 trillion revenue company in the near future due to its scalable business model.",
+    "claim_labels_silver": [
+      "hardware_infra",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "compute/chips",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7040.7,
+    "end": 7107.1,
+    "text": "- Interesting. Achieve virality\nand monetize that virality. - Yeah. It's just that I don't know what it\nis, but I couldn't have predicted any of those companies at the time\neither, you know? And - - You're gonna get a lot of people\nexcited with that statement. It's like, what do you mean? I can- I\ncan just, uh - ... launch an agent and make a lot of money. - Well, by the way, it's happening right now,\nright? You know that when, when you go to China you're gonna see, you're gonna\nsee a whole bunch of people teaching their, getting their Claws to try\nto go out and look for jobs and, you know, do work, make money. And I'm not, I'm not actually...\nI wouldn't be surprised if some social thing happened or\nsomebody created a, a digital influencer, super, super cute or some social application that,\nyou know, feeds your little Tamagotchi or something like that,\nand, and it become an out of the blue an instant success.\nA lot of people use it for a couple of months and it kind\nof dies away. Now, the odds of, you know, 100,000 of those agents,\nBuilding NVIDIA is zero percent.",
+    "speaker": "Jensen Huang",
+    "claim": "The emergence of digital agents and applications could lead to unexpected successes, but the likelihood of many such agents being built is very low.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "jobs",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "The emergence of digital agents and applications could lead to unexpected successes, but the likelihood of many such agents being built is very low.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "jobs",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7179.2,
+    "end": 7262.5,
+    "text": "Okay? And so it's been a long time since\ncomputer vision has been superhuman. And so the prediction was radiologists\nwould go away because studying radiology scans was a thing of\nthe past. AI will do that. Well, they were absolutely right. Computer vision is completely\nsuperhuman. Every radiology platform and package\ntoday is driven by AI, and yet the number of\nradiologists grew. And so the question is why? And we now have a\nshortage of radiologists in the world. And so, one, the alarmist warning went\ntoo far and it scared people from doing this profession that\nis so important to society. And so it did harm. Now, why was it\nwrong? The reason why is because the purpose of a radiologist, the\npurpose is to diagnose disease and help patients and\ndoctors diagnose disease. And because we're able to\nstudy scans at so much faster now, you could study more scans, you\ncould diagnose better, you could, you could inpatient faster, you can see people more. The hospitals\nare making more money. You have more patients in the hospital. You\nneed more radiologists. I mean, the amazing thing is, it's so\nobvious this was gonna happen.",
+    "speaker": "Jensen Huang",
+    "claim": "The prediction that AI would replace radiologists was wrong, as AI has instead increased the demand for radiologists.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "jobs",
+    "confidence": "high",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "The prediction that AI would replace radiologists was wrong, as AI has instead increased the demand for radiologists.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "jobs",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7263.5,
+    "end": 7330.2,
+    "text": "The number of software engineers at\nNVIDIA is gonna grow, not decline. And the reason for that is because\nthe purpose of a software engineer and the task of a software engineer\ncoding are related, not the same. I wanted my software engineers to solve problems.\nI didn't care how many lines of code they wrote, you know? But their job, their\npurpose of their job didn't change. Solving problems, working as a team, diagnosing\nproblems, evaluating the result, looking for new problems to\nsolve, innovation, connecting dots. You know, none of that\nstuff is gonna go away. - Do you think it's possible that... Let's\neven take coding. Do you think the number of programmers in the world\nmight increase, not decrease? - Yes. And the reason for that is this.\nWhat is the definition of coding? I believe it is... The definition of\ncoding, as of today, is simply specifying, specification, and maybe if you want to be rather directive, you could even give\nit an architecture of the software that you wanted to write. So the question\nis, how many people could do that?",
+    "speaker": "Jensen Huang",
+    "claim": "The number of software engineers will grow because their role involves problem-solving beyond just coding.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "jobs",
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "The number of software engineers will grow because their role involves problem-solving beyond just coding.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "jobs",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 8026.7,
+    "end": 8095.2,
+    "text": "And it's a system that... You\nknow, it's something that we do that includes perception\nand understanding and reasoning and the ability to do\nplan. And, you know, that, that loop, that loop, is the...\nFundamentally what intelligence is. Intelligence is not one word that\nis exactly equal to humanity. And that's, I think it's really important\nto separate the two. We have two words for that. I'm not... I don't\nover-fantasize about, and I don't over-romanticize about\nintelligence. Intelligence is... And people have heard me\nsay it before, I actually think intelligence is a commodity. I'm\nsurrounded by intelligent people. And I'm surrounded by intelligent people more\nintelligent than I am in each one of the spaces that they're in. And yet, I have a role in that circle. It's\nactually kind of interesting. They're more educated than I am. They\nwent to better schools than I did. They're deeper than, in any of the\nfields that they're in. All of 'em.",
+    "speaker": "Jensen Huang",
+    "claim": "Intelligence should not be romanticized and is more of a commodity than a unique human trait.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI perspective",
+    "confidence": "medium",
+    "claim_labels": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "Intelligence should not be romanticized and is more of a commodity than a unique human trait.",
+    "claim_labels_silver": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI perspective",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 8485.6,
+    "end": 8559.9,
+    "text": "And, and I get taken advantage\nof, but it doesn't, it doesn't ever cause me not to.\nI start with, always, That people want to do good. People\nwant to, um help others. And, vastly, I am proven right.\nConstantly proven right. And, and often it exceeds my expectations. And, and so I have complete confidence\nin the human capacity. I think the, the thing that, the things\nthat give me incredible hope, Is what I see as, as I extrapolate, as\nI, what I see now is possible, and as I extrapolate, Based on the things that\nwe're doing, what will very likely happen. And, and that there's so many\nthings that we wanna solve. There's so many problems we\nwanna solve. There's so many things that we wanna build. There's\nso many good things that we wanna do that are now within our reach, and\nwithin the reach of my, my lifetime.",
+    "speaker": "Lex Fridman",
+    "claim": "Lex Fridman expresses optimism about the potential of human capacity and the positive developments in technology that could lead to solving many problems.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "optimism about AGI",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "Lex Fridman expresses optimism about the potential of human capacity and the positive developments in technology that could lead to solving many problems.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "optimism about AGI",
+    "reviewed": true,
+    "round": 2
   }
 ]
