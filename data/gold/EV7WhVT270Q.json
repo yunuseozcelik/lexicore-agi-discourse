@@ -27,6 +27,363 @@
     "text_tr": "- %100. Kendimi düzeltmek istiyorum: LLM'leri kullanmamayı önermiyorum. Bunu birden fazla geçişte yapmayı öneriyorum. Bir geçiş sadece çevrimdışı, odaklanma modu ve sonra... Yani, notlar alıyorum ama hemen bir şeyleri araştırma isteğine karşı koymaya çalışıyorum. İkinci bir geçiş yapıyorum. Bu şekilde daha yapılandırılmış oluyor. Bazen bölümlerde cevaplar veriliyor ama bazen de sadece düşünmek ve sindirmek için zaman tanımak yardımcı oluyor. Diğer insanların farklı tercihleri var. Kitap okurken LLM'leri kullanmayı şiddetle tavsiye ediyorum. Benim için bu ilk şey değil; ikinci geçiş. - Benim önerim tam tersi. LLM'yi başta kullanmayı seviyorum, çünkü bu dünyaya adım attığımda tam bağlamı ortaya koyuyor. Ama LLM'den Twitter ve bloglar dünyasına geçmekten kaçınmaya çalışıyorum çünkü o zaman bir tavşan deliğine düşüyorsun. Birinin görüşünü okuyorsun. Belirli bir konu hakkında bir tartışma çıkıyor ve birden internetin ve Reddit'in dünyasına giriyorsun. Ama eğer LLM'nin sana bu konunun neden önemli olduğunu, büyük resim fikirlerini vermesine izin verirsen... Bazen kitaplar bunu iyi yapar ama her zaman değil."
   },
   {
+    "start": 1483.1,
+    "end": 1554.5,
+    "text": "But if there is code, and the code works, you know it's correct. I mean,\nthere's no misunderstanding. It's precise. Otherwise, it wouldn't work. And I\nthink that's the beauty behind coding. It doesn't lie. It's math, basically. So, even though with math, I think you can have\nmistakes in a book you would never notice. Because you are not running the math when you\nare reading the book, you can't verify this. And with code, what's nice\nis you can verify it. - Yeah, I agree with you about the Build\nan LLM from Scratch book. It's nice to tune out everything else, the internet\nand so on, and just focus on the book. But, you know, I read several\nhistory books. It's just less lonely somehow. It's really more\nfun. Like for example, on the programming front, I think it's genuinely\nmore fun to program with an LLM. And I think it's genuinely\nmore fun to read with an LLM. But you're right. That\ndistraction should be minimized. So you use the LLM to basically enrich\nthe experience, maybe add more context. I just find the rate of aha moments\nfor me is really high with LLMs.",
+    "speaker": "Nathan Lambert",
+    "claim": "Using LLMs enriches the programming and reading experience, leading to more frequent moments of realization.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "Using LLMs enriches the programming and reading experience, leading to more frequent moments of realization.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Sermaye gereksinimleri ve bunu yapmanın ne gerektireceği hakkında. Ve bunun bir iş olmasının nasıl mümkün olacağı hakkında. Bu riski almayı nasıl düşünebilirsin? Araştırmacıların, eğer tüm bu hesaplamaları alacaksak, neden bunu öğrenmeyeceğimiz bir projeye koyduğumuzu söyleyen kültürel bir durumu vardı. Neden bunu tüm bu projelere bölmeyelim? Bu her alanda oluyor. Ölçek için neredeyse her alanı inceledim ve her zorlu alanı veya bunu yapmama nedenini parçalara ayırıp bunları birer birer ele almaya çalışmak gerçekten önemli oldu. Bunu biraz zorlayacağım çünkü OpenAI ekibinin yıllar içinde yeni ürünleri ve sistemleri sürekli ölçeklendirebilen çok az insan var ama görünüşe göre sorun, insanların sahip olduğu tüm bu ön koşullandırma türü zihinsel modeller ve beklentiler. Ve senin de dediğin gibi, bazı şeyler kırılıyor. Ve genellikle en zor yeniden yapılandırılan şey, sistem tasarımının insan tarafı, insan uygulayıcılar veya insan katılımcılar varsa oluyor."
+  },
+  {
+    "start": 1892.4,
+    "end": 1963.6,
+    "text": "- First of all, huge props for\nbeing able to name so many of these. Did you actually name LLaMA? - No. - I feel like ... - RIP. - This was not on purpose. - RIP LLaMA. All right. Can you mention some interesting\nmodels that stand out? You mentioned Qwen 3 is obviously a standout. - So I would say the year's almost\nbookended by both DeepSeek V3 and R1. And then on the other\nhand, in December, DeepSeek-V3.2. Because what I like about those is\nthey always have an interesting architecture tweak that others don't have. But\notherwise, if you want to go with the familiar but really good\nperformance, Qwen 3 and, like Nathan said, also gpt-oss-120b.\nAnd I think what's interesting about it is it's kind\nof like the first public or open weight model that was really trained\nwith tool use in mind, which I do think is kind of a paradigm shift\nwhere the ecosystem was not quite ready for it. By tool use, I mean\nthat the LLM is able to do a web search or to call a Python interpreter. And I do think it's a\nstandout because it's a huge unlock. Because one of the\nmost common complaints about LLMs are, for example,\nhallucinations, right?",
+    "speaker": "Nathan Lambert",
+    "claim": "The development of models like gpt-oss-120b represents a paradigm shift in LLM capabilities due to their ability to use tools effectively.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "The development of models like gpt-oss-120b represents a paradigm shift in LLM capabilities due to their ability to use tools effectively.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "- Öncelikle, bu kadar çok ismi sayabildiğin için büyük takdir. LLaMA'yı gerçekten sen mi adlandırdın? - Hayır. - Bunu hissettim... - RIP. - Bu kasıtlı değildi. - RIP LLaMA. Tamam. Öne çıkan bazı ilginç modellerden bahsedebilir misin? Qwen 3'ün kesinlikle öne çıktığını söyledin. - Yani, yılın neredeyse hem DeepSeek V3 hem de R1 ile kapandığını söyleyebilirim. Diğer taraftan, Aralık'ta DeepSeek-V3.2 var. Çünkü bu modellerde hoşuma giden şey, her zaman diğerlerinde olmayan ilginç bir mimari değişikliği olmaları. Ama başka bir şey istiyorsan, tanıdık ama gerçekten iyi performans gösteren Qwen 3 ve Nathan'ın da dediği gibi gpt-oss-120b'yi tercih edebilirsin. Bunun ilginç olan yanı, aslında alet kullanımı düşünülerek gerçekten eğitilmiş ilk kamuya açık veya açık ağırlık model olması. Bu, ekosistemin tam olarak buna hazır olmadığı bir paradigma değişikliği olduğunu düşünüyorum. Alet kullanımı derken, LLM'nin web araması yapabilmesi veya bir Python yorumlayıcısını çağırabilmesi anlamında. Ve bunun öne çıktığını düşünüyorum çünkü bu büyük bir kilidi açıyor. Çünkü LLM'lerle ilgili en yaygın şikayetlerden biri, örneğin, halüsinasyonlar, değil mi?"
+  },
+  {
+    "start": 1963.6,
+    "end": 2037.2,
+    "text": "And so, in my opinion, one of the best\nways to solve hallucinations is to not try to always remember\ninformation or make things up. For math, why not use a\ncalculator app or Python? If I ask the LLM, \"Who won\nthe soccer World Cup in 1998?\" instead of just trying\nto memorize, it could go do a search. I think mostly\nit's still a Google search. So ChatGPT and gpt-oss-120b,\nthey would do a tool call to Google, maybe find the FIFA\nwebsite. Find, okay, it was France. It would get you that information\nreliably instead of just trying to memorize it. So I think it's\na huge unlock which right now is not fully utilized yet by\nthe open-source, open-weight ecosystem. A lot of people\ndon't use tool call modes because I think, first, it's a trust thing.\nYou don't want to run this on your computer where it has access to tools, could wipe your\nhard drive or whatever. So you want to maybe containerize that. But\nI do think that is like a really important step for the\nupcoming years to have this ability. - So a few quick things.\nFirst of all, thank you for defining what you mean by tool use. I\nthink that's a great thing to do in general for the concepts we're talking\nabout. Even things as sort of well-established as MoEs.",
+    "speaker": "Nathan Lambert",
+    "claim": "Using external tools like calculators or search engines can significantly improve the reliability of information provided by LLMs.",
+    "stance": "Support",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "Using external tools like calculators or search engines can significantly improve the reliability of information provided by LLMs.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false,
+    "text_tr": "Ve bu yüzden, bence halüsinasyonları çözmenin en iyi yollarından biri, her zaman bilgiyi hatırlamaya veya bir şeyler uydurmaya çalışmamaktır. Matematik için neden bir hesap makinesi uygulaması veya Python kullanmayalım? Eğer LLM'ye \"1998 Dünya Kupası'nı kim kazandı?\" diye sorarsam, sadece ezberlemeye çalışmak yerine bir arama yapabilir. Sanırım çoğunlukla hala bir Google aramasıdır. Yani ChatGPT ve gpt-oss-120b, Google'a bir araç çağrısı yapacak, belki FIFA web sitesini bulacak. Bulacak, tamam, Fransa'ydı. Bu bilgiyi ezberlemeye çalışmak yerine size güvenilir bir şekilde getirecektir. Bu yüzden bence bu, şu anda açık kaynaklı, açık ağırlıklı ekosistem tarafından henüz tam olarak kullanılmayan büyük bir gelişme. Birçok kişi araç çağırma modlarını kullanmıyor çünkü bence, birincisi, bu bir güven meselesi. Bunu, araçlara erişimi olan, sabit diskinizi silebilecek veya her neyse, bilgisayarınızda çalıştırmak istemezsiniz. Bu yüzden belki onu kapsüllemek istersiniz. Ama bence bu, önümüzdeki yıllar için bu yeteneğe sahip olmak gerçekten önemli bir adım. - Birkaç hızlı şey. Öncelikle, araç kullanımından ne kastettiğinizi tanımladığınız için teşekkür ederim. Bence bu, konuştuğumuz kavramlar için genel olarak harika bir şey. MoE'ler gibi iyi yerleşmiş şeyler bile."
+  },
+  {
+    "start": 2691.2,
+    "end": 2772.8,
+    "text": "So where is all the turbulence, the\nturmoil of the advancement happening? Where are the gains to be had? - So there are different stages where\nyou develop the network or train the network. You have the pre-training.\nNow back in the day, it was just pre-training with GPT-2. Now you\nhave pre-training, mid-training, and post-training. So I think\nright now we are in the post-training focus stage.\nPre-training still gives you advantages if you scale it up with\nbetter, higher quality data. But then we have capability unlocks that\nwere not there with GPT-2, for For example, ChatGPT is basically a GPT-3 model. And GPT-3 is the same as\nGPT-2 in terms of architecture. What was new was adding\nsupervised fine-tuning and reinforcement learning with human feedback.\nSo it's more on the algorithmic side than the architecture. - I would say that the systems also change a\nlot. If you listen to NVIDIA's announcements, they talk about things like, \"You\nnow do FP8, you can now do FP4.\" What's happening is these labs are figuring\nout how to utilize more compute to put it into one model, which lets\nthem train faster and put more data in. And then you can find better\nconfigurations faster by doing this. So you can look at, essentially,\ntokens per second per GPU as a metric that you look at when\nyou're doing large-scale training.",
+    "speaker": "Nathan Lambert",
+    "claim": "The advancements in AI training are more about algorithmic improvements than architectural changes, focusing on better utilization of compute resources.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AI training advancements",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "The advancements in AI training are more about algorithmic improvements than architectural changes, focusing on better utilization of compute resources.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI training advancements",
+    "reviewed": false,
+    "text_tr": "Peki, tüm bu türbülans, ilerlemenin kargaşası nerede yaşanıyor? Kazançlar nerede elde edilecek? - Yani ağı geliştirdiğiniz veya eğittiğiniz farklı aşamalar var. Ön eğitim var. Eskiden sadece GPT-2 ile ön eğitim vardı. Şimdi ön eğitim, orta eğitim ve son eğitim var. Bu yüzden bence şu anda son eğitim odaklı aşamadayız. Ön eğitim, daha iyi, daha yüksek kaliteli verilerle ölçeklendirdiğinizde hala avantajlar sağlıyor. Ama sonra GPT-2'de olmayan yetenek açılımlarımız var. Örneğin, ChatGPT temelde bir GPT-3 modelidir. Ve GPT-3, mimari açısından GPT-2 ile aynıdır. Yeni olan şey, denetimli ince ayar ve insan geri bildirimi ile pekiştirmeli öğrenme eklemekti. Yani mimariden çok algoritmik tarafta. - Sistemlerin de çok değiştiğini söyleyebilirim. NVIDIA'nın duyurularını dinlerseniz, \"Artık FP8 yapıyorsunuz, artık FP4 yapıyorsunuz\" gibi şeylerden bahsediyorlar. Olan şey şu ki, bu laboratuvarlar daha fazla işlem gücünü tek bir modele nasıl kullanacaklarını buluyorlar, bu da onların daha hızlı eğitim yapmalarını ve daha fazla veri koymalarını sağlıyor. Ve sonra bunu yaparak daha iyi yapılandırmaları daha hızlı bulabilirsiniz. Yani büyük ölçekli eğitim yaparken baktığınız bir metrik olarak, esasen GPU başına saniye başına token'lara bakabilirsiniz."
+  },
+  {
+    "start": 4097.3,
+    "end": 4186.7,
+    "text": "- Toy examples for now. - Toy examples, right? But to generalize,\nRL post-training is more like the skill unlock, where pre-training\nis like soaking up the knowledge. - A few things that could be\nhelpful. A lot of people think of synthetic data as being bad\nfor training the models. You mentioned how DeepSeek got almost... OCR, which is Optical Character\nRecognition. A lot of labs did it. Ai2 had one, Meta had multiple. And the reason each of these labs\nhas these is because there are vast amounts of PDFs and other digital documents\non the web that aren't in formats that are encoded with text easily.\nSo you use these Almost-OCR, DeepSeek OCR, or what we called our\nAlmost-OCR, to extract trillions of tokens of candidate data for pre-training. Pre-training dataset size is\nmeasured in trillions of tokens. Smaller models from researchers can be\nsomething like five to 10 trillion. researchers can be something\nlike five to 10 trillion. Um, Qwen is documented going up to 50 trillion,\nand there are rumors that these closed labs can go to 100 trillion tokens.\nGetting this potential data to put in—they have a very big funnel, and\nthe data you actually train on is a small percentage of this.\nThis character recognition data would be described as synthetic data for\npre-training in a lab. And then there's also the fact that ChatGPT now\ngives wonderful answers, and you can train on those best answers, and that's\nsynthetic data. It's very different than early ChatGPT with lots\nof hallucination data.",
+    "speaker": "Nathan Lambert",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "- Şu an için oyuncak örnekler. - Oyuncak örnekler, değil mi? Ama genellemek gerekirse, RL sonrası eğitim daha çok beceri kilidini açma gibi, ön eğitim ise bilgi edinme gibi. - Yardımcı olabilecek birkaç şey. Birçok insan sentetik veriyi modelleri eğitmek için kötü olarak düşünüyor. DeepSeek'in neredeyse... OCR, yani Optik Karakter Tanıma ile nasıl başardığını söyledin. Birçok laboratuvar bunu yaptı. Ai2 bir tane yaptı, Meta'nın birden fazla vardı. Her bir laboratuvarın bunu yapmasının nedeni, internette metinle kolayca kodlanmamış çok sayıda PDF ve diğer dijital belgelerin bulunması. Bu nedenle, bu Almost-OCR, DeepSeek OCR veya bizim adlandırdığımız Almost-OCR'yi kullanarak ön eğitim için aday verilerin trilyonlarca tokenını çıkardık. Ön eğitim veri seti boyutu trilyonlarca tokenla ölçülüyor. Araştırmacılardan gelen daha küçük modeller beş ila on trilyon kadar olabilir. Qwen'in 50 trilyona kadar çıktığı belgelenmiştir ve bu kapalı laboratuvarların 100 trilyon tokena kadar gidebileceğine dair söylentiler var. Bu potansiyel veriyi elde etmek için çok büyük bir hunileri var ve aslında eğittiğiniz veri, bunun küçük bir yüzdesidir. Bu karakter tanıma verisi, bir laboratuvar için ön eğitimde sentetik veri olarak tanımlanır. Ayrıca, ChatGPT'nin şimdi harika cevaplar vermesi ve bu en iyi cevaplar üzerinde eğitim yapabilmeniz de sentetik veridir. Bu, erken ChatGPT'nin birçok halüsinasyon verisiyle çok farklıdır."
+  },
+  {
+    "start": 5486.1,
+    "end": 5555.0,
+    "text": "This is code they ship.\n25%—like, most of them use around 50% or more.\nAnd what's interesting is, for the category of over 50%\nof your code that you ship is AI-generated, senior\ndevelopers are much more likely to do so. But you don't want AI\nto take away the thing you love. I think this speaks to my experience,\nthese results I'm about to say. Together, about 80% of people\nfind it either somewhat more enjoyable or significantly more\nenjoyable to use AI as part of the work. - I think it depends on the task. From\nmy personal usage, for example, I have a website where I\nsometimes tweak things. I personally don't enjoy\nthis. So in that sense, if the AI can help me to implement\nsomething on my website, I'm all for it. It's great. But then, at the same\ntime, when I solve a complex problem— well, if there's a bug,\nand I hunt this bug, and I find it, it's the best feeling\nin the world. You feel great. But now, if you don't\neven think about the bug, you just go directly to the LLM, well, you\nnever have this kind of feeling, right?",
+    "speaker": "Unknown",
+    "claim": "AI can enhance work enjoyment but may diminish the satisfaction of problem-solving.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI enjoyment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AI can enhance work enjoyment but may diminish the satisfaction of problem-solving.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI enjoyment",
+    "reviewed": false,
+    "text_tr": "Bu, gönderdikleri kod. %25'i—çoğu %50 veya daha fazlasını kullanıyor. Ve ilginç olan şu ki, gönderdiğiniz kodun %50'sinden fazlasının yapay zeka tarafından üretildiği kategorisinde, kıdemli geliştiricilerin bunu yapma olasılığı çok daha yüksek. Ama yapay zekanın sevdiğiniz şeyi elinizden almasını istemezsiniz. Bence bu, benim deneyimime ve şimdi söyleyeceğim bu sonuçlara işaret ediyor. Toplamda, insanların yaklaşık %80'i, yapay zekayı işlerinin bir parçası olarak kullanmayı ya biraz daha keyifli ya da önemli ölçüde daha keyifli buluyor. - Bence bu göreve bağlı. Benim kişisel kullanımımda, örneğin, bazen bir şeyleri değiştirdiğim bir web sitem var. Ben şahsen bundan keyif almıyorum. Bu anlamda, eğer yapay zeka web sitemde bir şeyler uygulamama yardımcı olabiliyorsa, buna tamamen varım. Harika. Ama sonra, aynı zamanda, karmaşık bir sorunu çözdüğümde— yani, bir hata varsa ve bu hatayı avlayıp bulduğumda, bu dünyadaki en iyi histir. Harika hissedersiniz. Ama şimdi, hatayı hiç düşünmezseniz, doğrudan LLM'ye giderseniz, o zaman bu tür bir hissi asla yaşamazsınız, değil mi?"
+  },
+  {
+    "start": 6639.5,
+    "end": 6703.9,
+    "text": "formulation, which is why it ends up all\nforming together. But to summarize, it's like mid-training is give the model\nthe skills it needs to then learn. RL with verifiable\nrewards is letting the model try a lot of times, so put a lot of compute\ninto trial-and-error learning across hard problems. And then RLHF would be like\nfinishing the model, making it easy to use and kind of just\nrounding the model out. - Can you comment on the amount\nof compute required for RLVR? - It's only gone up and up.\nI think Ilya Sutskever was famous for saying they use a similar\namount of compute for pre-training and post-training. Back to the scaling\ndiscussion, they involve very different hardware for scaling. Pre-training\nis very compute-bound, which is like this FLOPs discussion, which is just how many matrix\nmultiplications can you get through at once. And because with RL you're generating\nthese answers, you're trying the model in real-world environments, it ends\nup being much more memory-bound because you're generating long sequences\nand the attention mechanisms have this behavior where you get a\nquadratic increase in memory as you're getting to longer sequences.\nSo the compute becomes very different.",
+    "speaker": "Nathan Lambert",
+    "claim": "The compute requirements for reinforcement learning vary significantly between pre-training and post-training phases.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "Compute requirements",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "The compute requirements for reinforcement learning vary significantly between pre-training and post-training phases.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Compute requirements",
+    "reviewed": true,
+    "text_tr": "formülasyonu, bu nedenle hepsi bir araya gelir. Ama özetlemek gerekirse, orta eğitim, modele öğrenmesi için ihtiyaç duyduğu becerileri vermektir. Doğrulanabilir ödüllerle RL, modele birçok kez deneme yapma imkanı verir, bu nedenle zor problemler üzerinde deneme-yanılma öğrenimi için çok fazla hesaplama yapar. Ve sonra RLHF, modeli bitirmek, kullanımı kolay hale getirmek ve modeli yuvarlamak gibidir. - RLVR için gereken hesaplama miktarı hakkında yorum yapabilir misin? - Sadece artmaya devam etti. Ilya Sutskever, ön eğitim ve son eğitim için benzer bir hesaplama miktarı kullandıklarını söyleyerek ünlü oldu. Ölçeklenme tartışmasına dönersek, ölçeklenme için çok farklı donanımlar içeriyorlar. Ön eğitim, çok hesaplama gerektiren bir süreçtir; bu, bir seferde ne kadar matris çarpımı yapabileceğinizle ilgili olan FLOPs tartışması gibidir. Ve RL ile yanıtlar ürettiğinizde, modeli gerçek dünya ortamlarında deniyorsunuz, bu nedenle uzun diziler ürettiğiniz için bellek açısından çok daha fazla gereksinim duyuyor. Dikkat mekanizmalarının bu davranışı, daha uzun dizilere geçtikçe bellek artışında kare bir artışa neden olur. Bu nedenle hesaplama çok farklı hale geliyor."
+  },
+  {
+    "start": 8531.3,
+    "end": 8600.2,
+    "text": "- Yeah, and I think at a startup,\nit's this pressure. It's like you have to make it. And it's really\nimportant that people put in the time, but it is really hard because you\nhave to deliver constantly, and I've been at a startup. I had a good\ntime, but I don't know if I could do it forever. It's an interesting pace and it's exactly like we talked about in the\nbeginning. These models are leapfrogging each other, and they are just\nconstantly trying to take the next step compared to their competitors.\nIt's just ruthless right now. - I think this leapfrogging nature and\nhaving multiple players is actually an underrated driver of language modeling\nprogress where competition is so deeply ingrained in people, and these companies have intentionally created\nvery strong cultures. Like, Anthropic is known to be so culturally, like, deeply committed and organized. I mean,\nwe hear so little from them, and everybody at Anthropic seems very\naligned. And it's like being in a culture that is super tight and having this competitive\ndynamic is a thing that's gonna make you work hard and create\nthings that are better.",
+    "speaker": "Unknown",
+    "claim": "The competitive dynamics among AI startups drive rapid progress in language modeling.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI competition",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The competitive dynamics among AI startups drive rapid progress in language modeling.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI competition",
+    "reviewed": false,
+    "text_tr": "- Evet, ve bence bir startup'ta bu bir baskı. Sanki başarmak zorundasınız. Ve insanların zaman ayırması gerçekten önemli, ama gerçekten zor çünkü sürekli teslimat yapmanız gerekiyor ve ben bir startup'ta çalıştım. İyi vakit geçirdim, ama sonsuza kadar yapabilir miydim bilmiyorum. İlginç bir tempo ve tam da başta konuştuğumuz gibi. Bu modeller birbirini geride bırakıyor ve rakiplerine kıyasla sürekli bir sonraki adımı atmaya çalışıyorlar. Şu anda acımasız bir durum. - Bence bu birbirini geride bırakma doğası ve birden fazla oyuncunun olması, aslında dil modelleme ilerlemesinin hafife alınan bir itici gücü; rekabet insanların içine o kadar derinlemesine işlemiş ki, ve bu şirketler kasıtlı olarak çok güçlü kültürler yaratmışlar. Mesela, Anthropic'in kültürel olarak çok bağlı ve düzenli olduğu biliniyor. Yani, onlardan çok az şey duyuyoruz ve Anthropic'teki herkes çok uyumlu görünüyor. Ve süper sıkı bir kültüre sahip olmak ve bu rekabetçi dinamiğe sahip olmak, sizi çok çalışmaya ve daha iyi şeyler yaratmaya itecek bir şey."
+  },
+  {
+    "start": 9600.2,
+    "end": 9681.7,
+    "text": "I'm personally more bullish on language\nmodels being able to just provide them with very good context.\nYou said, maybe offline, that you can write extensive documents\nto models where you say, \"I have all this information. Here are\nall the blog posts I've ever written. I like this type of writing. My voice is\nbased on this.\" But many people don't provide this to models, and the models\nweren't designed to take this amount of context previously. Agentic\nmodels are just starting. So it's this kind of trade-off: do we need\nto update the weights of this model with this continual learning thing\nto make them learn fast? Or the counterargument is we just need to provide\nthem with more context and information, and they will have the appearance of learning\nfast by having a lot of context and being smart. - So we should mention the terminology\nhere. Continual learning refers to changing the weights continuously so\nthat the model adapts and adjusts based on the new incoming information, doing so continually,\nrapidly, and frequently. And then the thing you mentioned\non the other side of it generally will be referred to\nas in-context learning. As you learn stuff, there's a\nhuge context window. You can just keep loading it with extra information\nevery time you prompt the system, which I think both legitimately\ncan be seen as learning.",
+    "speaker": "Nathan Lambert",
+    "claim": "Language models can appear to learn quickly by being provided with extensive context rather than needing continual weight updates.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "Language models can appear to learn quickly by being provided with extensive context rather than needing continual weight updates.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Ben kişisel olarak dil modellerinin onlara çok iyi bir bağlam sağlama yeteneğine daha fazla güveniyorum. Belki de çevrimdışı olarak, modellere \"Bende bu kadar bilgi var. Şu ana kadar yazdığım tüm blog yazıları burada. Bu tür bir yazmayı seviyorum. Sesim buna dayanıyor.\" diyerek kapsamlı belgeler yazabileceğinizi söylediniz. Ama birçok insan bunu modellere sağlamıyor ve modeller, daha önce bu kadar çok bağlam alacak şekilde tasarlanmamıştı. Ajanik modeller yeni başlıyor. Yani bu bir tür denge: Bu sürekli öğrenme şeyini kullanarak bu modelin ağırlıklarını güncellemeli miyiz, yoksa karşıt argüman, onlara daha fazla bağlam ve bilgi sağlamalıyız ve bu, çok fazla bağlam ve zeki görünerek hızlı öğrenme izlenimi verecektir. - Burada terminolojiyi belirtmeliyiz. Sürekli öğrenme, modelin yeni gelen bilgilere dayanarak sürekli, hızlı ve sık bir şekilde uyum sağlaması ve ayarlaması için ağırlıkları sürekli olarak değiştirmek anlamına gelir. Ve ardından, diğer tarafta bahsettiğiniz şey genellikle bağlam içinde öğrenme olarak adlandırılacaktır. Öğrenirken, büyük bir bağlam penceresi vardır. Sistemi her uyarımda ekstra bilgiyle yüklemeye devam edebilirsiniz; bu da bence her ikisi de meşru bir şekilde öğrenme olarak görülebilir."
+  },
+  {
+    "start": 9833.4,
+    "end": 9927.9,
+    "text": "It's like, there's no free lunch. If you\nwant to learn more, you need to use more weights, but it gets more expensive. And\nthen again, if you learn more, you forget more, and you have to find that\nGoldilocks zone basically. - We haven't really mentioned it much,\nbut implied in this discussion is context length also. Is there a lot\nof innovation that's possible there? - I think the colloquially accepted\nthing is that it's a compute and data problem where you can...\nand sometimes small architecture things like attention\nvariants. We talked about hybrid attention models, which\nis essentially if you have what looks like a state space model within\nyour transformer. And those are better suited because you have to\nspend less compute to model the furthest along token. I think that, those aren't free because they have to\nbe accompanied by a lot of compute or the right data. How many sequences\nof 100,000 tokens do you have in the world, and where do you get\nthese? It just ends up being pretty expensive to scale them. We've gotten\npretty quickly to a million tokens of input context length. I would\nexpect it to keep increasing and get to 2 million or 5 million this year,\nbut I don't expect it to go to 100 million. That would be like a true\nbreakthrough, and I think those breakthroughs are possible. I think of the continual\nlearning thing as a research problem where there could be a breakthrough that\njust makes transformers work way better at this and it's cheap. These things\ncould happen with so much scientific attention. But turning the crank, it'll\nbe consistent increases over time.",
+    "speaker": "Nathan Lambert",
+    "claim": "Breakthroughs in AI, particularly in context length and continual learning, are possible but will require significant scientific attention and resources.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AI breakthroughs",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "Breakthroughs in AI, particularly in context length and continual learning, are possible but will require significant scientific attention and resources.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI breakthroughs",
+    "reviewed": false,
+    "text_tr": "Şöyle ki, bedava öğle yemeği yok. Daha fazla öğrenmek istiyorsanız, daha fazla ağırlık kullanmanız gerekir, ama bu daha pahalı hale gelir. Ve yine, daha fazla öğrenirseniz, daha fazla unutursunuz ve temelde o Goldilocks bölgesini bulmanız gerekir. - Bundan pek bahsetmedik ama bu tartışmada bağlam uzunluğu da ima ediliyor. Orada çok fazla yenilik mümkün mü? - Sanırım genel kabul gören şey, bunun bir hesaplama ve veri sorunu olduğu, bazen de dikkat varyantları gibi küçük mimari şeyler olduğu. Transformatörünüzün içinde bir durum uzayı modeline benzeyen bir şeye sahip olmanız durumunda hibrit dikkat modellerinden bahsettik. Ve bunlar daha uygun çünkü en uzaktaki token'ı modellemek için daha az hesaplama harcamanız gerekiyor. Bence bunlar bedava değil çünkü çok fazla hesaplama veya doğru veri ile birlikte gelmeleri gerekiyor. Dünyada kaç tane 100.000 tokenlik diziniz var ve bunları nereden buluyorsunuz? Ölçeklendirmek oldukça pahalıya mal oluyor. Bir milyon tokenlik girdi bağlam uzunluğuna oldukça hızlı ulaştık. Bu yıl 2 milyon veya 5 milyona çıkmasını bekliyorum, ancak 100 milyona çıkmasını beklemiyorum. Bu gerçek bir çığır açma olurdu ve bence bu tür çığır açmalar mümkün. Sürekli öğrenme meselesini, transformatörlerin bu konuda çok daha iyi çalışmasını sağlayacak ve ucuz olacak bir araştırma problemi olarak görüyorum. Bu tür şeyler bu kadar çok bilimsel ilgiyle gerçekleşebilir. Ama çarkı çevirmek, zamanla tutarlı artışlar sağlayacaktır."
+  },
+  {
+    "start": 10686.0,
+    "end": 10770.5,
+    "text": "In the robotic space, in people's homes,\nacross millions of minutes and billions of interactions, you really\nare almost allowed to fail never. When you have\nembodied systems that are put out there in the real world,\nyou just have to solve so many problems you never thought you'd have to\nsolve when just thinking about the general robot learning problem. - I'm so bearish on in-home learned robots for consumer purchase. I'm very\nbullish on self-driving cars, and I'm very bullish for robotic automation,\ne.g., like Amazon distribution where Amazon has built whole new\ndistribution centers designed for robots first rather than humans. There's a\nlot of excitement in AI circles about AI enabling automation and mass-scale manufacturing, and I do think that\nthe path to robots doing that is more reasonable, where it's a thing that is designed and optimized to do a\nrepetitive task that a human could conceivably do but doesn't\nwant to. And then I'm much, but it's also going to take\na lot longer than people probably predict. I think the leap from AI singularity to we can now scale\nup mass manufacturing in the US because we have a massive\nAI advantage is one that is troubled by a lot of political\nand other challenging problems.",
+    "speaker": "Nathan Lambert",
+    "claim": "The development of in-home learned robots for consumer purchase will take much longer than people predict, while self-driving cars and robotic automation in distribution are more promising.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI automation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "The development of in-home learned robots for consumer purchase will take much longer than people predict, while self-driving cars and robotic automation in distribution are more promising.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI automation",
+    "reviewed": false,
+    "text_tr": "Robotik alanında, insanların evlerinde, milyonlarca dakika ve milyarlarca etkileşim boyunca, neredeyse hiç başarısız olmanıza izin verilmez. Gerçek dünyaya yerleştirilen somutlaştırılmış sistemleriniz olduğunda, genel robot öğrenme problemini düşünürken asla çözmek zorunda kalacağınızı düşünmediğiniz o kadar çok problemi çözmek zorundasınız ki. - Tüketici alımı için evde öğrenen robotlar konusunda çok karamsarım. Kendi kendine giden arabalar konusunda çok iyimserim ve robotik otomasyon konusunda da çok iyimserim, örneğin Amazon'un insanlardan ziyade robotlar için tasarlanmış tamamen yeni dağıtım merkezleri inşa ettiği Amazon dağıtımı gibi. Yapay zeka çevrelerinde, yapay zekanın otomasyonu ve büyük ölçekli üretimi mümkün kılması konusunda büyük bir heyecan var ve bence robotların bunu yapma yolu daha makul, yani bir insanın yapabileceği ama yapmak istemediği tekrarlayan bir görevi yapmak üzere tasarlanmış ve optimize edilmiş bir şey. Ve sonra, bu da insanların muhtemelen tahmin ettiğinden çok daha uzun sürecek. Yapay zeka tekilliğinden, büyük bir yapay zeka avantajımız olduğu için ABD'de seri üretimi artık ölçeklendirebiliriz sıçramasının, birçok politik ve diğer zorlu sorunlarla dolu olduğunu düşünüyorum."
+  },
+  {
+    "start": 10771.7,
+    "end": 10866.6,
+    "text": "- Let's talk about timelines,\nspecifically timelines to AGI or ASI. Is it fair, as a starting point,\nto say that nobody really agrees on the definitions of AGI and ASI? - I kind of think there's a\nlot of disagreement, but I've been getting pushback where a lot of people\nkind of say the same thing, which is like a thing that could reproduce\nmost digital economic work. So, the remote worker\nis a fairly reasonable example. And I think OpenAI's\ndefinition is somewhat related to that, which is like\nan AI that can do a lot of economically valuable tasks—which I don't\nreally love as a definition, but I think it could be a grounding point, because language models today,\nwhile immensely powerful, are not this remote worker\ndrop-in. And there are things that could be done by an AI that\nare way harder than remote work, which are like finding an unexpected scientific discovery that you couldn't even posit,\nwhich would be an example of something that somebody says is an artificial\nsuperintelligence problem. Or, taking in all medical records and\nfinding linkages across certain illnesses that people didn't know, or\nfiguring out that some common drug can treat some niche cancer. They would\nsay that that is a superintelligence thing. So these are kind of natural\ntiers. My problem with it is that it becomes deeply entwined with the quest\nfor meaning of AI and these religious aspects to it. So there's\ndifferent paths you can take it.",
+    "speaker": "Nathan Lambert",
+    "claim": "There is significant disagreement on the definitions of AGI and ASI, and current AI models are not capable of performing all economically valuable tasks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AGI definitions",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "There is significant disagreement on the definitions of AGI and ASI, and current AI models are not capable of performing all economically valuable tasks.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI definitions",
+    "reviewed": false,
+    "text_tr": "- Zaman çizelgelerinden, özellikle de AGI veya ASI'ye giden zaman çizelgelerinden bahsedelim. Başlangıç noktası olarak, AGI ve ASI tanımları üzerinde kimsenin gerçekten anlaşamadığını söylemek adil mi? - Ben bir sürü anlaşmazlık olduğunu düşünüyorum, ama birçok insanın aynı şeyi söylediği, yani çoğu dijital ekonomik işi yeniden üretebilecek bir şey olduğu yönünde geri bildirimler alıyorum. Yani, uzaktan çalışan oldukça makul bir örnek. Ve bence OpenAI'nin tanımı da bununla biraz ilgili, yani ekonomik olarak değerli birçok görevi yapabilen bir yapay zeka gibi – ki bu tanımı pek sevmiyorum, ama bence bir dayanak noktası olabilir, çünkü günümüzdeki dil modelleri, son derece güçlü olsalar da, bu uzaktan çalışan yerine geçme durumu değiller. Ve bir yapay zeka tarafından yapılabilecek, uzaktan çalışmaktan çok daha zor şeyler var; örneğin, tahmin bile edemeyeceğiniz beklenmedik bir bilimsel keşif bulmak gibi, ki bu birinin yapay süper zeka problemi dediği bir şeye örnek olurdu. Ya da tüm tıbbi kayıtları alıp insanların bilmediği belirli hastalıklar arasında bağlantılar bulmak veya bazı yaygın bir ilacın niş bir kanseri tedavi edebileceğini bulmak. Bunların süper zeka işi olduğunu söylerlerdi. Yani bunlar doğal katmanlar gibi. Benim sorunum, bunun yapay zekanın anlam arayışı ve dini yönleriyle derinden iç içe geçmesi. Bu yüzden farklı yollar izleyebilirsiniz."
+  },
+  {
     "start": 11090.5,
     "end": 11162.0,
     "text": "I think it's just hard to predict\nwhere that is going, but the bright clarity of that future is why some of\nthe most powerful people in the world are putting so much money into this.\nAnd I think it's just kind of small differences between like—we don't\nactually know what a better version of ChatGPT is, but also, can it automate AI\nresearch? I would say probably not, at least in this timeframe. Big tech\nis going to spend $100 billion much faster than we get an automated AI researcher\nthat enables an AI research singularity. - So you think your prediction\nwould be— if this is even a useful milestone or\nmore than 10 years out? - I would say less than that on the software\nside, but I think longer than that on things like research. - Well, let's just for fun try to imagine\na world where all software writing is fully automated. Can\nyou imagine that world? - By the end of this year, the amount of\nsoftware that'll be automated will be so high. But it'll be things like\ntrying to train a model with RL and you need to have\nmultiple bunches of GPUs communicating with each other. That'll\nstill be hard, but it'll be much easier.",
@@ -93,94 +450,34 @@
     "text_tr": "- Bence daha ara bir örnek olarak Slack veya Microsoft Word gibi bir şeyi ele alabiliriz. Eğer organizasyonlar buna izin verirse, yapay zeka çok kolay bir şekilde uçtan uca özellikler uygulayabilir ve denemek istediğiniz şeyler için oldukça iyi bir iş çıkarabilir. Slack'te kullanmak istediğiniz yeni bir sekme eklemek istiyorsanız, bence yapay zeka bunu oldukça iyi bir şekilde yapabilecektir. - Aslında bu gerçekten harika bir örnek. Buna ne kadar yakınız? - Bu yıl. - Görüyorsunuz, bilmiyorum. Bilmiyorum. - Üretim kod tabanlarının ne kadar kötü olduğunu bilmiyorum ama bence birkaç yıl içinde birçok insan daha çok bir tasarımcı ve ürün yöneticisi olmaya itilecek. Bu, sizin için şeyleri deneyebilen birden fazla ajanın olduğu bir durum olacak ve bir özelliği uygulamak veya bir hatayı düzeltmeye çalışmak bir ila iki gün sürebilir. Ve bu panolar var, bence Slack aslında iyi bir pano, burada ajanlar sizinle konuşacak ve siz de geri bildirim vereceksiniz. Ama mesela, bir web sitesi yaparsam, \"Geçerli bir logo ister misiniz?\" gibi şeyler, bu uyumlu tasarım unsurları ve stil, modeller için çok zor olacak ve bir sonraki sefer ne ekleyeceğinizi belirlemek de öyle."
   },
   {
-    "start": 1892.4,
-    "end": 1963.6,
-    "text": "- First of all, huge props for\nbeing able to name so many of these. Did you actually name LLaMA? - No. - I feel like ... - RIP. - This was not on purpose. - RIP LLaMA. All right. Can you mention some interesting\nmodels that stand out? You mentioned Qwen 3 is obviously a standout. - So I would say the year's almost\nbookended by both DeepSeek V3 and R1. And then on the other\nhand, in December, DeepSeek-V3.2. Because what I like about those is\nthey always have an interesting architecture tweak that others don't have. But\notherwise, if you want to go with the familiar but really good\nperformance, Qwen 3 and, like Nathan said, also gpt-oss-120b.\nAnd I think what's interesting about it is it's kind\nof like the first public or open weight model that was really trained\nwith tool use in mind, which I do think is kind of a paradigm shift\nwhere the ecosystem was not quite ready for it. By tool use, I mean\nthat the LLM is able to do a web search or to call a Python interpreter. And I do think it's a\nstandout because it's a huge unlock. Because one of the\nmost common complaints about LLMs are, for example,\nhallucinations, right?",
+    "start": 11786.7,
+    "end": 11869.1,
+    "text": "- Seeing the pace of progress, it does\nfeel like things are coming. I don't think the AGI and ASI thresholds\nare particularly useful. - I think the real question, and\nthis relates to the remote worker thing, is: when are we going to see a\nbig, obvious leap in economic impact? Because currently there's\nnot been an obvious leap in the economic impact of\nLLM models, for example. And that's, you know, aside\nfrom AGI or ASI, all that stuff, there's a real question of, \"When\nare we going to see a GDP...\" \"...jump?\" - Yeah, what is the GDP made up\nof? A lot of it is financial services, so I don't know what this is. - Right, GDP is a- - It's just hard for me to\nthink about the GDP bump, but I would say that software development\nbecomes valuable in a different way, when you no longer have\nto look at the code anymore. When Claude Code will make\nyou a small business. Which is essentially, Claude can set up your\nwebsite, your bank account, your email, and your whatever else. And you just have\nto express what you're trying to put into the world. That's not just an enterprise market, but it is hard. I don't\nknow how you get people to try doing that. I guess if ChatGPT can do\nit—people are trying ChatGPT.",
     "speaker": "Nathan Lambert",
-    "claim": "The development of models like gpt-oss-120b represents a paradigm shift in LLM capabilities due to their ability to use tools effectively.",
-    "stance": "Neutral",
+    "claim": "The economic impact of AI, particularly LLMs, has not yet been significant, and it's uncertain when a major leap will occur.",
+    "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "breakthroughs_needed"
-    ],
-    "is_claim": true,
-    "topic": "LLM capabilities",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "llm_capabilities",
-      "breakthroughs_needed"
-    ],
-    "speaker_silver": "Nathan Lambert",
-    "is_claim_silver": true,
-    "claim_silver": "The development of models like gpt-oss-120b represents a paradigm shift in LLM capabilities due to their ability to use tools effectively.",
-    "claim_labels_silver": [
-      "llm_capabilities",
-      "breakthroughs_needed"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "LLM capabilities",
-    "reviewed": true,
-    "text_tr": "- Öncelikle, bu kadar çok ismi sayabildiğin için büyük takdir. LLaMA'yı gerçekten sen mi adlandırdın? - Hayır. - Bunu hissettim... - RIP. - Bu kasıtlı değildi. - RIP LLaMA. Tamam. Öne çıkan bazı ilginç modellerden bahsedebilir misin? Qwen 3'ün kesinlikle öne çıktığını söyledin. - Yani, yılın neredeyse hem DeepSeek V3 hem de R1 ile kapandığını söyleyebilirim. Diğer taraftan, Aralık'ta DeepSeek-V3.2 var. Çünkü bu modellerde hoşuma giden şey, her zaman diğerlerinde olmayan ilginç bir mimari değişikliği olmaları. Ama başka bir şey istiyorsan, tanıdık ama gerçekten iyi performans gösteren Qwen 3 ve Nathan'ın da dediği gibi gpt-oss-120b'yi tercih edebilirsin. Bunun ilginç olan yanı, aslında alet kullanımı düşünülerek gerçekten eğitilmiş ilk kamuya açık veya açık ağırlık model olması. Bu, ekosistemin tam olarak buna hazır olmadığı bir paradigma değişikliği olduğunu düşünüyorum. Alet kullanımı derken, LLM'nin web araması yapabilmesi veya bir Python yorumlayıcısını çağırabilmesi anlamında. Ve bunun öne çıktığını düşünüyorum çünkü bu büyük bir kilidi açıyor. Çünkü LLM'lerle ilgili en yaygın şikayetlerden biri, örneğin, halüsinasyonlar, değil mi?"
-  },
-  {
-    "start": 9600.2,
-    "end": 9681.7,
-    "text": "I'm personally more bullish on language\nmodels being able to just provide them with very good context.\nYou said, maybe offline, that you can write extensive documents\nto models where you say, \"I have all this information. Here are\nall the blog posts I've ever written. I like this type of writing. My voice is\nbased on this.\" But many people don't provide this to models, and the models\nweren't designed to take this amount of context previously. Agentic\nmodels are just starting. So it's this kind of trade-off: do we need\nto update the weights of this model with this continual learning thing\nto make them learn fast? Or the counterargument is we just need to provide\nthem with more context and information, and they will have the appearance of learning\nfast by having a lot of context and being smart. - So we should mention the terminology\nhere. Continual learning refers to changing the weights continuously so\nthat the model adapts and adjusts based on the new incoming information, doing so continually,\nrapidly, and frequently. And then the thing you mentioned\non the other side of it generally will be referred to\nas in-context learning. As you learn stuff, there's a\nhuge context window. You can just keep loading it with extra information\nevery time you prompt the system, which I think both legitimately\ncan be seen as learning.",
-    "speaker": "Nathan Lambert",
-    "claim": "Language models can appear to learn quickly by being provided with extensive context rather than needing continual weight updates.",
-    "stance": "Neutral",
-    "claim_labels": [
-      "scaling_compute",
+      "ai_economics",
       "llm_capabilities"
     ],
     "is_claim": true,
-    "topic": "LLM capabilities",
+    "topic": "AI economics",
     "confidence": "medium",
     "claim_labels_auto": [
-      "scaling_compute",
+      "ai_economics",
       "llm_capabilities"
     ],
     "speaker_silver": "Nathan Lambert",
     "is_claim_silver": true,
-    "claim_silver": "Language models can appear to learn quickly by being provided with extensive context rather than needing continual weight updates.",
+    "claim_silver": "The economic impact of AI, particularly LLMs, has not yet been significant, and it's uncertain when a major leap will occur.",
     "claim_labels_silver": [
-      "scaling_compute",
+      "ai_economics",
       "llm_capabilities"
     ],
-    "stance_silver": "Support",
-    "topic_silver": "LLM capabilities",
-    "reviewed": true,
-    "text_tr": "Ben kişisel olarak dil modellerinin onlara çok iyi bir bağlam sağlama yeteneğine daha fazla güveniyorum. Belki de çevrimdışı olarak, modellere \"Bende bu kadar bilgi var. Şu ana kadar yazdığım tüm blog yazıları burada. Bu tür bir yazmayı seviyorum. Sesim buna dayanıyor.\" diyerek kapsamlı belgeler yazabileceğinizi söylediniz. Ama birçok insan bunu modellere sağlamıyor ve modeller, daha önce bu kadar çok bağlam alacak şekilde tasarlanmamıştı. Ajanik modeller yeni başlıyor. Yani bu bir tür denge: Bu sürekli öğrenme şeyini kullanarak bu modelin ağırlıklarını güncellemeli miyiz, yoksa karşıt argüman, onlara daha fazla bağlam ve bilgi sağlamalıyız ve bu, çok fazla bağlam ve zeki görünerek hızlı öğrenme izlenimi verecektir. - Burada terminolojiyi belirtmeliyiz. Sürekli öğrenme, modelin yeni gelen bilgilere dayanarak sürekli, hızlı ve sık bir şekilde uyum sağlaması ve ayarlaması için ağırlıkları sürekli olarak değiştirmek anlamına gelir. Ve ardından, diğer tarafta bahsettiğiniz şey genellikle bağlam içinde öğrenme olarak adlandırılacaktır. Öğrenirken, büyük bir bağlam penceresi vardır. Sistemi her uyarımda ekstra bilgiyle yüklemeye devam edebilirsiniz; bu da bence her ikisi de meşru bir şekilde öğrenme olarak görülebilir."
-  },
-  {
-    "start": 1483.1,
-    "end": 1554.5,
-    "text": "But if there is code, and the code works, you know it's correct. I mean,\nthere's no misunderstanding. It's precise. Otherwise, it wouldn't work. And I\nthink that's the beauty behind coding. It doesn't lie. It's math, basically. So, even though with math, I think you can have\nmistakes in a book you would never notice. Because you are not running the math when you\nare reading the book, you can't verify this. And with code, what's nice\nis you can verify it. - Yeah, I agree with you about the Build\nan LLM from Scratch book. It's nice to tune out everything else, the internet\nand so on, and just focus on the book. But, you know, I read several\nhistory books. It's just less lonely somehow. It's really more\nfun. Like for example, on the programming front, I think it's genuinely\nmore fun to program with an LLM. And I think it's genuinely\nmore fun to read with an LLM. But you're right. That\ndistraction should be minimized. So you use the LLM to basically enrich\nthe experience, maybe add more context. I just find the rate of aha moments\nfor me is really high with LLMs.",
-    "speaker": "Nathan Lambert",
-    "claim": "Using LLMs enriches the programming and reading experience, leading to more frequent moments of realization.",
-    "stance": "Neutral",
-    "claim_labels": [
-      "llm_capabilities",
-      "breakthroughs_needed"
-    ],
-    "is_claim": true,
-    "topic": "LLM capabilities",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "llm_capabilities",
-      "breakthroughs_needed"
-    ],
-    "speaker_silver": "Nathan Lambert",
-    "is_claim_silver": true,
-    "claim_silver": "Using LLMs enriches the programming and reading experience, leading to more frequent moments of realization.",
-    "claim_labels_silver": [
-      "llm_capabilities",
-      "breakthroughs_needed"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "LLM capabilities",
-    "reviewed": true,
-    "text_tr": "Sermaye gereksinimleri ve bunu yapmanın ne gerektireceği hakkında. Ve bunun bir iş olmasının nasıl mümkün olacağı hakkında. Bu riski almayı nasıl düşünebilirsin? Araştırmacıların, eğer tüm bu hesaplamaları alacaksak, neden bunu öğrenmeyeceğimiz bir projeye koyduğumuzu söyleyen kültürel bir durumu vardı. Neden bunu tüm bu projelere bölmeyelim? Bu her alanda oluyor. Ölçek için neredeyse her alanı inceledim ve her zorlu alanı veya bunu yapmama nedenini parçalara ayırıp bunları birer birer ele almaya çalışmak gerçekten önemli oldu. Bunu biraz zorlayacağım çünkü OpenAI ekibinin yıllar içinde yeni ürünleri ve sistemleri sürekli ölçeklendirebilen çok az insan var ama görünüşe göre sorun, insanların sahip olduğu tüm bu ön koşullandırma türü zihinsel modeller ve beklentiler. Ve senin de dediğin gibi, bazı şeyler kırılıyor. Ve genellikle en zor yeniden yapılandırılan şey, sistem tasarımının insan tarafı, insan uygulayıcılar veya insan katılımcılar varsa oluyor."
+    "stance_silver": "Refute",
+    "topic_silver": "AI economics",
+    "reviewed": false,
+    "text_tr": "- İlerleme hızını görünce, bir şeylerin geldiği hissediliyor. AGI ve ASI eşiklerinin özellikle faydalı olduğunu düşünmüyorum. - Bence asıl soru, ve bu uzaktan çalışan meselesiyle ilgili: ekonomik etkide ne zaman büyük, bariz bir sıçrama göreceğiz? Çünkü şu anda, örneğin LLM modellerinin ekonomik etkisinde bariz bir sıçrama olmadı. Ve bu, biliyorsunuz, AGI veya ASI'den, tüm bunlardan ayrı olarak, gerçek bir soru var: \"Ne zaman bir GSYİH...\" \"...sıçraması göreceğiz?\" - Evet, GSYİH neyden oluşuyor? Çoğu finansal hizmetler, bu yüzden bunun ne olduğunu bilmiyorum. - Doğru, GSYİH bir... - GSYİH artışını düşünmek benim için zor, ama yazılım geliştirmenin farklı bir şekilde değerli hale geldiğini söyleyebilirim, artık koda bakmak zorunda kalmadığınızda. Claude Code sizi küçük bir işletme yaptığında. Ki bu temelde, Claude web sitenizi, banka hesabınızı, e-postanızı ve diğer her şeyi kurabilir. Ve siz sadece dünyaya ne koymaya çalıştığınızı ifade etmek zorundasınız. Bu sadece bir kurumsal pazar değil, ama zor. İnsanları bunu denemeye nasıl ikna edeceğinizi bilmiyorum. Sanırım ChatGPT yapabiliyorsa – insanlar ChatGPT'yi deniyor."
   },
   {
     "start": 12449.2,
@@ -213,60 +510,33 @@
     "text_tr": "- Bir Llama 5 olduğunu mu düşünüyorsun? - Açık ağı olan bir tane değil. - İlginç. Bence Llama, açık ağı olan modelin öncüsüydü. Llama 1, 2 ve 3 ile çok fazla sevgi vardı. Ama sonra, varsayımlarda veya spekülasyonlarda bulunursak, Meta'daki liderlerin, üst düzey yöneticilerin, Llama'nın toplulukta ne kadar popüler olduğunu gördüklerinde çok heyecanlandıklarını düşünüyorum. Ve sonra sorun, açık kaynakları paraya dönüştürmeye çalışmak ya da açık kaynakları paraya dönüştürmemek değil, ama daha büyük bir etki yaratmak için kullanmak oldu. Bu, benchmarkların üstünde olmak için çok büyük Llama 4 modelleri geliştirmek gibi zoraki bir his veriyordu. Ama bence Llama modellerinin amacı, benchmarkların üstünde olmak değil, insanların kullanabileceği, güvenebileceği, değiştirebileceği ve anlayabileceği bir model olmaktı. Bu da daha küçük modelleri içermeyi gerektiriyor. En iyi modeller olmak zorunda değiller. Ve olan şu ki, bu modeller elbette... benchmarklar, belirli tercihler üzerine eğitilmiş modeller olduğu için daha iyi olduklarını öne sürdü, böylece benchmarklarda iyi performans gösterdiler. Bu, en iyi olmak için zorlamak gibi bir aşırı uyum durumu. Ama aynı zamanda, insanların kullanabileceği küçük modelleri yapmadılar. Ve bence kimse bu büyük modelleri çalıştırmadı. Sonra da garip bir durum oldu. Bence bu, insanların başlıkların sınırları zorlaması konusunda çok heyecanlanmasından kaynaklanıyor. Bence mesele bu."
   },
   {
-    "start": 4097.3,
-    "end": 4186.7,
-    "text": "- Toy examples for now. - Toy examples, right? But to generalize,\nRL post-training is more like the skill unlock, where pre-training\nis like soaking up the knowledge. - A few things that could be\nhelpful. A lot of people think of synthetic data as being bad\nfor training the models. You mentioned how DeepSeek got almost... OCR, which is Optical Character\nRecognition. A lot of labs did it. Ai2 had one, Meta had multiple. And the reason each of these labs\nhas these is because there are vast amounts of PDFs and other digital documents\non the web that aren't in formats that are encoded with text easily.\nSo you use these Almost-OCR, DeepSeek OCR, or what we called our\nAlmost-OCR, to extract trillions of tokens of candidate data for pre-training. Pre-training dataset size is\nmeasured in trillions of tokens. Smaller models from researchers can be\nsomething like five to 10 trillion. researchers can be something\nlike five to 10 trillion. Um, Qwen is documented going up to 50 trillion,\nand there are rumors that these closed labs can go to 100 trillion tokens.\nGetting this potential data to put in—they have a very big funnel, and\nthe data you actually train on is a small percentage of this.\nThis character recognition data would be described as synthetic data for\npre-training in a lab. And then there's also the fact that ChatGPT now\ngives wonderful answers, and you can train on those best answers, and that's\nsynthetic data. It's very different than early ChatGPT with lots\nof hallucination data.",
+    "start": 14377.8,
+    "end": 14465.1,
+    "text": "- On the Manhattan Project\nthing, I think that a Manhattan Project-like thing for open\nmodels would be pretty reasonable, because it wouldn't cost that much.\nBut I think that will come. It seems like culturally, the companies\nare changing. But I agree with Sebastian on all of that. I don't see it\nhappening nor being helpful. - Yeah. The motivating force\nbehind the Manhattan Project was civilizational risk. It's harder to\nmotivate that for open-source models. - There's no civilizational risk. - On the hardware side,\nwe mentioned NVIDIA a bunch of times. Do you think Jensen\nand NVIDIA will keep winning? - I think they have to iterate\nand manufacture a lot. And I think they probably...\nwhat they're doing, they do innovate, but I think there's always the chance that someone\ndoes something fundamentally different, gets very lucky, and\nthen does something. But the problem is adoption. The moat of NVIDIA is probably not just the GPU. It's\nmore like the CUDA ecosystem, and that has evolved over two decades.\nEven back when I was a grad student, I was in a lab\ndoing biophysical simulations, molecular dynamics, and we had a\nTesla GPU back then just for the computations. It was about\n15 years ago now. And they built this up for a long time,\nand that's the moat, I think.",
     "speaker": "Nathan Lambert",
-    "claim": null,
-    "stance": "Neutral",
+    "claim": "A Manhattan Project-like initiative for open models is reasonable, but it won't happen or be helpful due to a lack of civilizational risk.",
+    "stance": "Refute",
     "claim_labels": [
-      "other"
-    ],
-    "is_claim": false,
-    "topic": "LLM capabilities",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "other"
-    ],
-    "speaker_silver": "Nathan Lambert",
-    "is_claim_silver": false,
-    "claim_silver": null,
-    "claim_labels_silver": [
-      "other"
-    ],
-    "stance_silver": "Neutral",
-    "topic_silver": "LLM capabilities",
-    "reviewed": true,
-    "text_tr": "- Şu an için oyuncak örnekler. - Oyuncak örnekler, değil mi? Ama genellemek gerekirse, RL sonrası eğitim daha çok beceri kilidini açma gibi, ön eğitim ise bilgi edinme gibi. - Yardımcı olabilecek birkaç şey. Birçok insan sentetik veriyi modelleri eğitmek için kötü olarak düşünüyor. DeepSeek'in neredeyse... OCR, yani Optik Karakter Tanıma ile nasıl başardığını söyledin. Birçok laboratuvar bunu yaptı. Ai2 bir tane yaptı, Meta'nın birden fazla vardı. Her bir laboratuvarın bunu yapmasının nedeni, internette metinle kolayca kodlanmamış çok sayıda PDF ve diğer dijital belgelerin bulunması. Bu nedenle, bu Almost-OCR, DeepSeek OCR veya bizim adlandırdığımız Almost-OCR'yi kullanarak ön eğitim için aday verilerin trilyonlarca tokenını çıkardık. Ön eğitim veri seti boyutu trilyonlarca tokenla ölçülüyor. Araştırmacılardan gelen daha küçük modeller beş ila on trilyon kadar olabilir. Qwen'in 50 trilyona kadar çıktığı belgelenmiştir ve bu kapalı laboratuvarların 100 trilyon tokena kadar gidebileceğine dair söylentiler var. Bu potansiyel veriyi elde etmek için çok büyük bir hunileri var ve aslında eğittiğiniz veri, bunun küçük bir yüzdesidir. Bu karakter tanıma verisi, bir laboratuvar için ön eğitimde sentetik veri olarak tanımlanır. Ayrıca, ChatGPT'nin şimdi harika cevaplar vermesi ve bu en iyi cevaplar üzerinde eğitim yapabilmeniz de sentetik veridir. Bu, erken ChatGPT'nin birçok halüsinasyon verisiyle çok farklıdır."
-  },
-  {
-    "start": 6639.5,
-    "end": 6703.9,
-    "text": "formulation, which is why it ends up all\nforming together. But to summarize, it's like mid-training is give the model\nthe skills it needs to then learn. RL with verifiable\nrewards is letting the model try a lot of times, so put a lot of compute\ninto trial-and-error learning across hard problems. And then RLHF would be like\nfinishing the model, making it easy to use and kind of just\nrounding the model out. - Can you comment on the amount\nof compute required for RLVR? - It's only gone up and up.\nI think Ilya Sutskever was famous for saying they use a similar\namount of compute for pre-training and post-training. Back to the scaling\ndiscussion, they involve very different hardware for scaling. Pre-training\nis very compute-bound, which is like this FLOPs discussion, which is just how many matrix\nmultiplications can you get through at once. And because with RL you're generating\nthese answers, you're trying the model in real-world environments, it ends\nup being much more memory-bound because you're generating long sequences\nand the attention mechanisms have this behavior where you get a\nquadratic increase in memory as you're getting to longer sequences.\nSo the compute becomes very different.",
-    "speaker": "Nathan Lambert",
-    "claim": "The compute requirements for reinforcement learning vary significantly between pre-training and post-training phases.",
-    "stance": "Neutral",
-    "claim_labels": [
-      "scaling_compute",
-      "execution_engineering"
+      "breakthroughs_needed",
+      "llm_capabilities"
     ],
     "is_claim": true,
-    "topic": "Compute requirements",
+    "topic": "Open models",
     "confidence": "medium",
     "claim_labels_auto": [
-      "scaling_compute",
-      "execution_engineering"
+      "breakthroughs_needed",
+      "llm_capabilities"
     ],
     "speaker_silver": "Nathan Lambert",
     "is_claim_silver": true,
-    "claim_silver": "The compute requirements for reinforcement learning vary significantly between pre-training and post-training phases.",
+    "claim_silver": "A Manhattan Project-like initiative for open models is reasonable, but it won't happen or be helpful due to a lack of civilizational risk.",
     "claim_labels_silver": [
-      "scaling_compute",
-      "execution_engineering"
+      "breakthroughs_needed",
+      "llm_capabilities"
     ],
-    "stance_silver": "Neutral",
-    "topic_silver": "Compute requirements",
-    "reviewed": true,
-    "text_tr": "formülasyonu, bu nedenle hepsi bir araya gelir. Ama özetlemek gerekirse, orta eğitim, modele öğrenmesi için ihtiyaç duyduğu becerileri vermektir. Doğrulanabilir ödüllerle RL, modele birçok kez deneme yapma imkanı verir, bu nedenle zor problemler üzerinde deneme-yanılma öğrenimi için çok fazla hesaplama yapar. Ve sonra RLHF, modeli bitirmek, kullanımı kolay hale getirmek ve modeli yuvarlamak gibidir. - RLVR için gereken hesaplama miktarı hakkında yorum yapabilir misin? - Sadece artmaya devam etti. Ilya Sutskever, ön eğitim ve son eğitim için benzer bir hesaplama miktarı kullandıklarını söyleyerek ünlü oldu. Ölçeklenme tartışmasına dönersek, ölçeklenme için çok farklı donanımlar içeriyorlar. Ön eğitim, çok hesaplama gerektiren bir süreçtir; bu, bir seferde ne kadar matris çarpımı yapabileceğinizle ilgili olan FLOPs tartışması gibidir. Ve RL ile yanıtlar ürettiğinizde, modeli gerçek dünya ortamlarında deniyorsunuz, bu nedenle uzun diziler ürettiğiniz için bellek açısından çok daha fazla gereksinim duyuyor. Dikkat mekanizmalarının bu davranışı, daha uzun dizilere geçtikçe bellek artışında kare bir artışa neden olur. Bu nedenle hesaplama çok farklı hale geliyor."
+    "stance_silver": "Refute",
+    "topic_silver": "Open models",
+    "reviewed": false,
+    "text_tr": "- Manhattan Projesi meselesine gelince, açık modeller için Manhattan Projesi benzeri bir şeyin oldukça makul olacağını düşünüyorum, çünkü o kadar da pahalı olmazdı. Ama bence bu gelecek. Kültürel olarak şirketler değişiyor gibi görünüyor. Ama tüm bunlarda Sebastian'a katılıyorum. Bunun gerçekleşeceğini de faydalı olacağını da düşünmüyorum. - Evet. Manhattan Projesi'nin arkasındaki itici güç medeniyet riskiydi. Açık kaynak modeller için bunu motive etmek daha zor. - Medeniyet riski yok. - Donanım tarafında, NVIDIA'dan birkaç kez bahsettik. Jensen ve NVIDIA'nın kazanmaya devam edeceğini düşünüyor musunuz? - Bence çok fazla yineleme yapmaları ve üretim yapmaları gerekiyor. Ve bence muhtemelen... yaptıkları şey, yenilik yapıyorlar, ama her zaman birinin temelden farklı bir şey yapma, çok şanslı olma ve sonra bir şeyler yapma ihtimali var. Ama sorun benimseme. NVIDIA'nın kalesi muhtemelen sadece GPU değil. Daha çok CUDA ekosistemi gibi ve bu yirmi yıldan fazla süredir gelişti. Ben yüksek lisans öğrencisiyken bile, biyofiziksel simülasyonlar, moleküler dinamikler yapan bir laboratuvardaydım ve o zamanlar sadece hesaplamalar için bir Tesla GPU'muz vardı. Yaklaşık 15 yıl önceydi. Ve bunu uzun süre inşa ettiler ve bence kale bu."
   }
 ]

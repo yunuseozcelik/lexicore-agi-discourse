@@ -1,90 +1,33 @@
 [
   {
-    "start": 1634.2,
-    "end": 1702.3,
-    "text": "The fact this works at all is crazy. This is super crazy. And it was obvious to me that like if this continues, um, yeah, this is going to move to HGI. And I think we've seen a lot of that since then. So back in 2020, I was just like, \"Oh [ __ ] this is the biggest thing in the world. It's happening. We no one is working on the safety of these things.\" So back then, you know, there was like the AI safety community wasn't caring about LMS. There wasn't an AI safety community and neither was like the security community. So at this time, I still had quite a lot of hope in like academia and uh the software security community. I was these are places I grew up. I grew up in the open- source hacker kind of world. Um, so I still had a lot of respect for these kind of groups. Um, I would say I'm now very burnt on most of these groups. Um, so I kind of had this belief that like open source is great and because open source allows you to make safer software, but making it open more people could look at the software, they could study how to make it safe, they can make it better for consumers, you know, etc., etc. And I kind of had this belief for AI as well.",
+    "start": 339.8,
+    "end": 466.2,
+    "text": ">> But the super intelligent doesn't exist yet. So basically we're in a point where we have something that looks like it could drive us towards the super intelligence. How confident are you that we will get there and how soon do you think we will get there? There's two ways I kind of think about this. On the one hand I think about I'm like dude open clawed code right now like I remember the times when we we couldn't talk to our computers. I can now just talk to my computer and just natural language and just tell it to do something and like it'll basically do it. you know, I'll run off like they call out to implement this thing for me and I'll run off for 45 minutes and come back and like I did it. Here you go. And like it works more often than not. Sure. Is it perfect? No. Have you hired a junior engineer before? >> Like >> they're not perfect either. >> They're not perfect either. Like I like it's definitely the case now that there's basically zero reason to hire a junior engineer. Like there is I can't think of a single task that a junior human engineer could do more reliably than cloud code can. I can't think literally not one. There was some that a senior engineer can still do better like software architecture and stuff like this but let's be realistic. A year ago none of this was possible and a year ago these things couldn't you know autonomously write code at all. What do you think is going to happen in one year? So there's a kind of like so I've been in this field for many years and the the time where I first saw oh [ __ ] super intelligence is coming was GPT2 >> okay >> the small version 100 million parameters so it could barely string two sentences together but when I saw that I was like oh [ __ ] this is it because what it could do is is it could learn general purpose patterns you put in more compute you put in more patterns and it learned more things you know first it learns like spelling grammar then it learns like paragraphs then learns more complex etc., etc., so we could like it was stealable. And since then, there's this thing that happens basically every single year, and I feel like I'm I'm in like groundhog day, like I feel like I'm going crazy, right? Every single year, people say like, well, you know, AI will never be too powerful, right? Like, let's see what it happens. And one year later, it's vastly more powerful and can do all the things they said it couldn't do. And then they just say the same thing, you know, they just say the same thing. It's like, okay, but like it's not super intelligent yet. And then it's like one year later and we're like close to super intelligence.",
     "speaker": "Connor Leahy",
-    "claim": "Connor believes that the development of AI will lead to Human General Intelligence (HGI) and expresses concern about the lack of safety measures being implemented.",
-    "stance": "Refute",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_safety_risk"
-    ],
-    "is_claim": true,
-    "topic": "AI safety",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "ai_safety_risk"
-    ],
-    "speaker_silver": "Connor Leahy",
-    "is_claim_silver": true,
-    "claim_silver": "Connor believes that the development of AI will lead to Human General Intelligence (HGI) and expresses concern about the lack of safety measures being implemented.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "ai_safety_risk"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AI safety",
-    "reviewed": true,
-    "text_tr": "Bu durumun çalışıyor olması bile çılgınca. Bu gerçekten çılgınca. Ve bu devam ederse, evet, bu HGI'ye doğru gidecek. Ve o zamandan beri bunun birçok örneğini gördük. 2020'de, 'Oh [__] bu dünyanın en büyük şeyi. Oluyor. Bu şeylerin güvenliği üzerinde kimse çalışmıyor.' diyordum. O zamanlar, AI güvenliği topluluğu LMS'lere önem vermiyordu. AI güvenliği topluluğu yoktu ve güvenlik topluluğu da yoktu. O zamanlar, akademide ve yazılım güvenliği topluluğunda hala oldukça fazla umudum vardı. Bu, büyüdüğüm yerlerdi. Açık kaynaklı hacker dünyasında büyüdüm. Bu tür gruplara hala çok saygım vardı. Şimdi bu grupların çoğundan çok yorgunum. Bu yüzden açık kaynak harika ve açık kaynak, daha güvenli yazılımlar yapmanıza olanak tanır diye bir inancım vardı ama açık hale getirerek daha fazla insan yazılıma bakabilir, güvenli hale getirmek için nasıl çalıştıklarını inceleyebilir, tüketiciler için daha iyi hale getirebilirler, vb. vb. Ve AI için de benzer bir inancım vardı."
-  },
-  {
-    "start": 2591.4,
-    "end": 2696.3,
-    "text": "They're useful for many tasks I use, right? Um the problem isn't the question of whether they provide value or they're useful or whatever. The question is how much are we making it harder to go back? And I think this is a massive cost and it's a decision again that I think shouldn't be made by private corporations. Fundamentally, the problem here isn't that, you know, meta made this choice or that choice. The problem is Meta is being allowed to make this choice in the first place. Private actors should not be allowed to make choices like this of this magnitude. Now, we can argue actually Llama is so far from AGI that it should be exempt. And I'm open to this argument. Like I think that I'm open like I think there's an argument to be made of like where when do restrictions kick in, right? And you know, maybe Llama is above the line. Maybe it's I think this is a good argument to have. We're not having this argument. Like this is not what's going on. No one is even talking about where the line is. It's just like there's no line at all. Well, and the the AI act from Europe, there was this initial part where they were talking about the amount of flops and stuff and there was some limitations, but by the time it was approved, we were below like over it already with the basic system. So it did not make any sense as well because the power of training an AI doesn't directly relates to how dangerous it is because you can make a robot that has a gun and can shoot people on the street with a very simple AI nowadays in local. So it doesn't means that it has to be really big to be dangerous. So there is like yeah there is that's mainly the problem I see with regulation. They don't know a [ __ ] about what they talking about. So at the end of the day, if people who were like you was like forming part of these decision committees and they had the expertise, but the reality is that what we have is a bunch of politicians.",
-    "speaker": "Connor Leahy",
-    "claim": "The regulation of AI should not be left to private corporations, as they make decisions that could have massive implications without proper oversight.",
-    "stance": "Refute",
-    "claim_labels": [
-      "open_source",
-      "ai_economics"
-    ],
-    "is_claim": true,
-    "topic": "AI regulation",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "open_source",
-      "ai_economics"
-    ],
-    "speaker_silver": "Connor Leahy",
-    "is_claim_silver": true,
-    "claim_silver": "The regulation of AI should not be left to private corporations, as they make decisions that could have massive implications without proper oversight.",
-    "claim_labels_silver": [
-      "open_source",
-      "ai_economics"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI regulation",
-    "reviewed": true,
-    "text_tr": "Onlar birçok görev için faydalı, değil mi? Sorun, onların değer sağlayıp sağlamadığı ya da faydalı olup olmadığı sorusu değil. Sorun, geri dönmeyi ne kadar zorlaştırdığımız. Ve bunun büyük bir maliyet olduğunu düşünüyorum ve bu kararın özel şirketler tarafından verilmemesi gerektiğini düşünüyorum. Temelde, burada sorun, Meta'nın bu seçimi yapmasına izin verilmesi. Özel aktörlerin bu büyüklükteki seçimleri yapmalarına izin verilmemeli. Şimdi, aslında Llama'nın AGI'den o kadar uzakta olduğu ve muaf olması gerektiği konusunda tartışabiliriz. Bu argümanı kabul etmeye açığım. Yani, kısıtlamaların ne zaman devreye gireceği konusunda bir argüman yapılabileceğini düşünüyorum, değil mi? Ve belki de Llama sınırın üzerinde. Belki de bu iyi bir tartışma. Ama bu tartışmayı yapmıyoruz. Bu, olan şey değil. Hiç kimse sınırın nerede olduğunu bile konuşmuyor. Sanki hiç sınır yok. Avrupa'daki AI yasasıyla ilgili olarak, başlangıçta flops miktarı ve benzeri şeyler hakkında konuşuyorlardı ve bazı sınırlamalar vardı, ama onaylandığında, temel sistemle zaten onun üzerinde olduk. Yani bu da mantıklı değildi çünkü bir AI eğitmenin gücü, ne kadar tehlikeli olduğu ile doğrudan ilişkili değil çünkü günümüzde çok basit bir AI ile sokakta insanları vurabilen bir robot yapabilirsiniz. Yani tehlikeli olması için gerçekten büyük olması gerektiği anlamına gelmiyor. Yani, evet, bu, düzenlemeyle ilgili gördüğüm ana sorun. Ne hakkında konuştuklarını bilmiyorlar. Yani, günün sonunda, sizin gibi insanların bu karar komitelerinde yer alması ve uzmanlıklarının olması gerekirdi ama gerçek şu ki, elimizde bir grup politikacı var."
-  },
-  {
-    "start": 7081.2,
-    "end": 7147.6,
-    "text": "Um, so there's a lot that can be done here where a lot of our politicians just never get any engagement. There's a thing where I've seen many many times tied to politicians. It is not that they don't want to do something. It's often that they are just yelled at by everyone and they're just like whatever. You know, they just like don't know and they don't care and they're too busy and whatever. And just getting nice, polite, good engagement from their representatives from from their um from their constituents pushing them and this issue makes a big difference. It does actually make a difference. Like this is not me, you know, being idealistic here like empirically we have the data. We can see that it does make a difference. So there are things that everyday citizens can do today. Um there's also more that can be done than that even. Um I've recently been running a volunteer group for people who want to do a bit more which is called torchbearer if anyone would like to check that out where people commit to spending at least 2 hours a week >> okay >> trying to help with these issues running projects related to um you know helping with AI risk building a better building a better democracy and stuff like this if they want to check that out torch paradox community. Yeah, we will leave the links below so they can check it out.",
-    "speaker": "Connor Leahy",
-    "claim": null,
+    "claim": "AGI is progressing rapidly and could be close to superintelligence within a year.",
     "stance": "Neutral",
     "claim_labels": [
-      "other"
+      "agi_timeline",
+      "hardware_infra"
     ],
     "is_claim": true,
-    "topic": "AI risk engagement",
-    "confidence": "medium",
+    "topic": "AGI timeline",
+    "confidence": "high",
     "claim_labels_auto": [
-      "other"
+      "agi_timeline",
+      "hardware_infra"
     ],
     "speaker_silver": "Connor Leahy",
-    "is_claim_silver": false,
-    "claim_silver": null,
+    "is_claim_silver": true,
+    "claim_silver": "AGI is progressing rapidly and could be close to superintelligence within a year.",
     "claim_labels_silver": [
-      "other"
+      "agi_timeline",
+      "hardware_infra"
     ],
-    "stance_silver": "Neutral",
-    "topic_silver": "AI risk engagement",
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
     "reviewed": true,
-    "text_tr": "Tam olarak. Bu anlamda bu kelime sihirli geliyor. Bu, özel bir özellik gibi geliyor. >> Bilinç >> Bilinç, sihir gibi. Eğer insanlar sihirli özelliklere sahipse, bunun yapay zeka için geçerli olduğunu düşünmüyorum. Önemli olan, eylemde bulunma yeteneği, karar verme yeteneği, planları uygulama yeteneği. Yapay zekaların sihirli iç deneyimleri var mı? Bilmiyorum ve umursamıyorum. Bu, onların tehlikeli olup olmadığını belirlemek için alakasız. Karar vermek sihirli bir şey değil. Sadece eylemler alırsınız, bir algoritmayı uygularsınız."
+    "text_tr": ">> Ama süper zeka henüz mevcut değil. Yani temelde süper zekaya doğru bizi yönlendirebilecek bir noktadayız. Oraya ulaşacağımıza ne kadar güveniyorsun ve oraya ne zaman ulaşacağımızı düşünüyorsun? Bu konuda düşündüğüm iki yol var. Bir yandan, şu anda açık kaynak kodu düşünürken, bilgisayarlarımızla konuşamadığımız zamanları hatırlıyorum. Artık bilgisayarıma doğal dilde konuşabiliyorum ve ona bir şey yapmasını söyleyebiliyorum ve temelde bunu yapıyor. Biliyor musun, bunu benim için uygulamak üzere çağırıyorlar ve 45 dakika boyunca uzaklaşıp geri döndüğümde, 'Bunu yaptım. İşte burada.' diyor. Ve genellikle işe yarıyor. Tabii ki. Mükemmel mi? Hayır. Daha önce bir junior mühendis işe aldın mı? >> Yani >> onlar da mükemmel değil. >> Onlar da mükemmel değil. Şu anda junior bir mühendis işe almak için neredeyse hiç neden yok. Yani, bir junior insan mühendisinin yapabileceği bir görevi bulamıyorum, bulamıyorum. Hala bir kıdemli mühendis tarafından daha iyi yapılabilecek bazı şeyler var, yazılım mimarisi gibi ama gerçekçi olalım. Bir yıl önce bunların hiçbiri mümkün değildi ve bir yıl önce bu şeyler tamamen bağımsız bir şekilde kod yazamazdı. Bir yıl içinde ne olacağını düşünüyorsun? Yani, bu alanda yıllardır bulunuyorum ve ilk kez süper zekanın geleceğini gördüğüm zaman GPT2'ydi >> tamam >> küçük versiyonu 100 milyon parametre, yani iki cümleyi bir araya getirecek kadar bile zorlanıyordu ama onu gördüğümde, 'Oh [__] bu işteyiz' dedim çünkü yapabildiği şey genel amaçlı kalıpları öğrenebilmesiydi, daha fazla hesaplama gücü eklediğinizde daha fazla kalıp ekliyorsunuz ve daha fazla şey öğreniyor, önce yazım ve dil bilgisi öğreniyor, sonra paragrafları öğreniyor, daha karmaşık şeyler öğreniyor, vb. vb. Yani çalınabilir bir şeydi. Ve o zamandan beri, her yıl bu şey oluyor ve kendimi bir tür 'Groundhog Day' gibi hissediyorum, sanki deli oluyorum, değil mi? Her yıl insanlar diyor ki, 'AI asla çok güçlü olmayacak, değil mi? Bakalım ne olacak.' Ve bir yıl sonra, çok daha güçlü hale geliyor ve yapamayacaklarını söyledikleri her şeyi yapabiliyorlar. Ve sonra aynı şeyi söylüyorlar, biliyorsun, aynı şeyi söylüyorlar. 'Tamam ama henüz süper zeka değil.' Ve sonra bir yıl sonra, süper zekaya yakınlaşıyoruz."
   },
   {
     "start": 889.4,
@@ -117,36 +60,6 @@
     "text_tr": ">> Um, bir yıl olabilir. Bilmiyorum. Um, bu konuda tek başıma düşünmüyorum. Um, alandaki birçok insanla, uzmanlar, etik şirketler, akademi vb. ile konuşuyorsun. 10 yıldan daha uzun süreceğini düşünen tek bir kişi bulmak zor ve çoğu insan bunun iki ila dört yıl içinde olacağını düşünüyor. >> Ve AGI noktasına ulaştıktan sonra, ASI'ye giden yol nedir? Bu bir zeka patlaması gibi. >> Bu benim beklediğim şey. AGI'den ASI'ye geçişin çok kısa olmasını bekliyorum. Ne kadar kısa olduğunu bilmiyorum, belki iki ay, belki iki hafta, belki iki saat. >> Oh wow. >> Bilmiyorum. >> Bu çok kısa. >> Bence şu andan AGI'ye kadar olan süreden daha kısa olacak çünkü bir AI AGI'sine sahip olduğunuzda, bunu milyonlarca kopya halinde ölçeklendirebilirsiniz. Milyonlarca kopya, biliyorsun, insan hızının bin katı hızda çalışıyor. Asla yorulmazlar, asla sıkılmazlar. Ve tabii ki, AGI oldukları için AI araştırması yapabilirler. Yani daha iyi AIs geliştirebilirler. Daha iyi sistemler geliştirebilirler. Daha iyi algoritmalar geliştirebilirler. Daha iyi orkestrasyon, daha iyi veri, her neyse. Değil mi? Yani, bilim insanlarımızın hayal etmesini istediği şey, yarın bir milyon açık AI'nin aynı anda araştırma yapması. Bu, işleri çok hızlandırır, bence insanın anlayabileceğinden daha fazla. İnsanlık tarihinde hiçbir zaman bir milyon birinci sınıf araştırma kuruluşu aynı anda herhangi bir sorun üzerinde çalışmadı."
   },
   {
-    "start": 1999.9,
-    "end": 2123.8,
-    "text": "We have a lot of really bad regulation, but a lot of it, you know, it's good that we have laws for banks. If we don't do that, we will have horrible financial crisises every couple years. It's good that we have regulations on, you know, uh, the purity of drugs. You know, it's like if those were not, we would have a lot of, you know, tainted, uh, you know, medical supplies. Like, I'm not saying they're perfect. They're not. You know, you ask me about the FDA. You know, there's many things that could be improved upon these things. But fundamentally, the way a civilization works is not you let some nerds build whatever the [ __ ] they want and then throw it onto the internet and it's good because it's open. Like this is just not how the world works. And for me, AI is in this category. So if we're talking about, oh no, you make a game like a little toy and you make it open source. I mean, sure, you know, why not? That's nice, you know, but there are things that are not like that. Not everything is the same. Like hot take things are different. Software is important and different software is different. If you were building a video game or you know a you know a piece of office software and you want to open source it I mean go knock yourself out. I mean that's fantastic. Thank you. That's really nice. If you're working on weapons platforms or systems that could you know fundamentally upend the geopolitical order such as AGI then yeah that's actually a really big thing and we should think a lot about how such systems should proliferate or not. If AI if we take this seriously that AGI is possible that ASI is possible and that it can be managed to develop from open source things then this is equivalent to developing you know nuclear weapons or bioweapons and they're releasing them for anyone to use. This is a proliferation problem. This is a very this is a hard decision is what I'm saying. I'm not saying I have perfect solution to every possible answer here but I'm saying this is a big decision and it's a big decision that shouldn't be made by some nerd somewhere. This is a decision that should be made, you know, by like democratically elected governments. You know, the democratically elected government thinks it's a good idea to release this or that piece of, you know, weapons information, I'm open to it, right? But if like some guy at Loheed Martin says, I'm going to post, you know, >> nuclear weapon blueprints to my son has the whole picture decision.",
-    "speaker": "Connor Leahy",
-    "claim": "AGI development should be regulated and not left to individuals without oversight due to its potential risks.",
-    "stance": "Refute",
-    "claim_labels": [
-      "agi_timeline",
-      "open_source"
-    ],
-    "is_claim": true,
-    "topic": "AI regulation",
-    "confidence": "high",
-    "claim_labels_auto": [
-      "agi_timeline",
-      "open_source"
-    ],
-    "speaker_silver": "Connor Leahy",
-    "is_claim_silver": true,
-    "claim_silver": "AGI development should be regulated and not left to individuals without oversight due to its potential risks.",
-    "claim_labels_silver": [
-      "agi_timeline",
-      "open_source"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI regulation",
-    "reviewed": true,
-    "text_tr": "Gerçekten kötü düzenlemelerimiz var ama çoğu, biliyorsun, bankalar için yasaların olması iyi. Bunu yapmazsak, her birkaç yılda bir korkunç finansal krizler yaşarız. İlaçların saflığı konusunda düzenlemelerimizin olması iyi. Biliyorsun, eğer bunlar olmasaydı, birçok kirli, biliyorsun, tıbbi malzeme olurdu. Yani, bunların mükemmel olduğunu söylemiyorum. Değiller. Biliyor musun, FDA hakkında bana soruyorsun. Bu şeylerde iyileştirilebilecek birçok şey var. Ama temelde, bir medeniyetin nasıl çalıştığı, bazı nerdlerin istedikleri her şeyi inşa etmelerine izin vermek ve sonra bunu internete atmak ve bunun iyi olması değil. Bu, dünyanın böyle çalıştığı bir şey değil. Ve benim için, AI bu kategoride. Yani, eğer bir oyun yapıyorsanız, küçük bir oyuncak yapıyorsanız ve bunu açık kaynak yapıyorsanız, elbette, neden olmasın? Bu güzel, biliyorsun ama bunun gibi olmayan şeyler var. Her şey aynı değil. Her şey farklı. Yazılım önemlidir ve farklı yazılımlar farklıdır. Eğer bir video oyunu yapıyorsanız veya bir ofis yazılımı parçası yapıyorsanız ve bunu açık kaynak yapmak istiyorsanız, yani, kendinize bir iyilik yapın. Bu harika. Teşekkür ederim. Bu gerçekten güzel. Eğer silah platformları veya jeopolitik düzeni temelden alt üst edebilecek sistemler üzerinde çalışıyorsanız, AGI gibi, o zaman evet, bu gerçekten büyük bir şey ve böyle sistemlerin nasıl yayılacağı hakkında çok düşünmeliyiz. Eğer AI'yı ciddiye alıyorsak, AGI'nin mümkün olduğunu, ASI'nin mümkün olduğunu ve bunun açık kaynak şeylerden gelişebileceğini düşünüyorsak, bu, nükleer silahlar veya biyolojik silahlar geliştirmekle eşdeğerdir ve bunları herkesin kullanması için serbest bırakmakla eşdeğerdir. Bu bir yayılma sorunu. Bu çok, bu zor bir karar. Burada her olası cevap için mükemmel bir çözümüm olduğunu söylemiyorum ama bu büyük bir karar ve bu kararın herhangi bir nerd tarafından verilmemesi gerektiğini söylüyorum. Bu karar, biliyorsun, demokratik olarak seçilmiş hükümetler tarafından verilmelidir. Biliyorsun, demokratik olarak seçilmiş hükümet bu veya şu silah bilgisi parçasını serbest bırakmanın iyi bir fikir olduğunu düşünüyorsa, buna açığım, değil mi? Ama eğer Loheed Martin'deki bir adam, 'Nükleer silah planlarını yayınlayacağım' diyorsa, o zaman tüm resmi kararın sahibi kim? Bu kararı kimin vermesi gerektiğini düşünmüyorum ve bunun özel, hesap verilebilir olmayan aktörler tarafından verilmemesi gerektiğini düşünüyorum. >> Çünkü diğer taraf, özel aktörlerin bunu yapması ama açık kaynak yapmaması. Ama o zaman en azından, belirli bir kontrol var. Bir hükümetin, Sam Alman Musk ve birkaç kişi gibi insanları kontrol etmesinin daha kolay olduğunu düşünüyorum, aslında bilgisayarı olan herkesin kontrol edilmesinden daha zor. >> Evet, bu yayılma sorunu. Nükleer silah inşa etmek isteyen herkesin nükleer silah inşa etmesine izin vermektense, nükleer silahları inşa etme lisansına sahip birkaç şirketi kontrol etmek çok daha kolay. Ve bu zaten nasıl yaptığımız. Nükleer silahlar büyük ölçüde, biliyorsun, yüklenici firmalar tarafından inşa ediliyor, biliyorsun, çeşitli ekipmanları ve makineleri inşa eden, uranyumu ve plütonyumu rafine eden yüklenici nükleer şirketler var. Ve biliyorsun, bazıları devlet laboratuvarları, bazıları özel yükleniciler ve bu çok daha kolay kontrol edilebilir. Yani, kimseye bunu yapmasına izin vermiyoruz ve sonra hükümete nükleer silah satmasına izin vermiyoruz. Bu çılgınca olurdu. Ve burada benzer bir durum olduğunu düşünüyorum, elbette bir spektrum var. Yani, Linux çekirdeği üzerinde ihracat kontrollerü olmalı mı?"
-  },
-  {
     "start": 965.0,
     "end": 1063.8,
     "text": "This has never happened before. There's never in any point in time been a million tier one research orgs solving any problem. And this could happen overnight that we have an AGI, you run a, you know, run a bash command and now you have a million tier one research organizations working on building better AIs and then once they develop a better AI system, well, you just update all your million orgs to run the better AI. They make an even better AI, you update all your virtual orgs to run an even better AI. >> That's instant. >> And so that can go very quickly. I don't know how quickly. Like, it's not obvious to me that it'll be hours, right? Like it, you know, it might be weeks, it might be months. I'd be surprised if it was years. >> Okay. So now we have a very good definition of of what is AI, where where is it going and and what is the the path but what is the problem then like why does it means that building something that is smarter than us has to end up in a bad way like why could not be that we could actually control it because I assume that for this thing to be having to go against us it has to have different objective different like missions different like uh I don't know I think the allian ainment problem would be that this has its own goals and objectives but does it has to have its own goals or maybe we can create a very powerful tool that depends on us >> can but no one knows how basically um it's important to understand I think it's worth kind of um remembering this is that AI as it's done today usually refers to one specific technique called neural networks and neural networks are very different from normal programming from normal software normal software you write code line by line a human writes what the computer is supposed to do.",
@@ -177,34 +90,325 @@
     "text_tr": "Bu daha önce hiç olmadı. Hiçbir zaman bir milyon birinci sınıf araştırma kuruluşu herhangi bir sorunu çözmedi. Ve bu, bir gecede AGI'ye sahip olabileceğimiz anlamına gelebilir, bir bash komutu çalıştırıyorsunuz ve şimdi bir milyon birinci sınıf araştırma kuruluşu daha iyi AIs inşa etmek için çalışıyor ve sonra daha iyi bir AI sistemi geliştirdiklerinde, tüm bir milyon kuruluşunuzu daha iyi AI'yi çalıştıracak şekilde güncelliyorsunuz. Onlar daha iyi bir AI yapıyor, tüm sanal kuruluşlarınızı daha iyi bir AI'yi çalıştıracak şekilde güncelliyorsunuz. >> Bu anlık. >> Ve bu çok hızlı gidebilir. Ne kadar hızlı olacağını bilmiyorum. Yani, saatler olacağına dair bir belirti yok. Değil mi? Yani, haftalar olabilir, aylar olabilir. Yıllar olursa şaşırırım. >> Tamam. Şimdi AI'nın ne olduğu, nereye gittiği ve yolun ne olduğu hakkında çok iyi bir tanımımız var ama sorun ne? Yani, neden bizden daha akıllı bir şey inşa etmenin kötü bir şekilde sonuçlanması gerektiğini düşünüyoruz? Neden bunun aslında kontrol edebileceğimiz bir şey olamayacağını düşünemiyoruz? Çünkü bunun bizimle karşıt bir şekilde hareket etmesi için farklı hedeflere, farklı misyonlara sahip olması gerektiğini varsayıyorum. Bilmiyorum, sanırım tüm hedefleme problemi, bunun kendi hedefleri ve amaçları olmasıdır ama kendi hedefleri olması mı gerekiyor yoksa belki de bizim bağımlı olacağımız çok güçlü bir araç yaratabilir miyiz? >> Ama kimse bunun nasıl yapılacağını bilmiyor. Temelde, AI'nın günümüzde genellikle bir spesifik tekniği, sinir ağlarını ifade ettiğini anlamak önemlidir ve sinir ağları normal programlamadan, normal yazılımdan çok farklıdır. Normal yazılımda kodu satır satır yazarsınız, bir insan bilgisayarın ne yapması gerektiğini yazar."
   },
   {
-    "start": 339.8,
-    "end": 466.2,
-    "text": ">> But the super intelligent doesn't exist yet. So basically we're in a point where we have something that looks like it could drive us towards the super intelligence. How confident are you that we will get there and how soon do you think we will get there? There's two ways I kind of think about this. On the one hand I think about I'm like dude open clawed code right now like I remember the times when we we couldn't talk to our computers. I can now just talk to my computer and just natural language and just tell it to do something and like it'll basically do it. you know, I'll run off like they call out to implement this thing for me and I'll run off for 45 minutes and come back and like I did it. Here you go. And like it works more often than not. Sure. Is it perfect? No. Have you hired a junior engineer before? >> Like >> they're not perfect either. >> They're not perfect either. Like I like it's definitely the case now that there's basically zero reason to hire a junior engineer. Like there is I can't think of a single task that a junior human engineer could do more reliably than cloud code can. I can't think literally not one. There was some that a senior engineer can still do better like software architecture and stuff like this but let's be realistic. A year ago none of this was possible and a year ago these things couldn't you know autonomously write code at all. What do you think is going to happen in one year? So there's a kind of like so I've been in this field for many years and the the time where I first saw oh [ __ ] super intelligence is coming was GPT2 >> okay >> the small version 100 million parameters so it could barely string two sentences together but when I saw that I was like oh [ __ ] this is it because what it could do is is it could learn general purpose patterns you put in more compute you put in more patterns and it learned more things you know first it learns like spelling grammar then it learns like paragraphs then learns more complex etc., etc., so we could like it was stealable. And since then, there's this thing that happens basically every single year, and I feel like I'm I'm in like groundhog day, like I feel like I'm going crazy, right? Every single year, people say like, well, you know, AI will never be too powerful, right? Like, let's see what it happens. And one year later, it's vastly more powerful and can do all the things they said it couldn't do. And then they just say the same thing, you know, they just say the same thing. It's like, okay, but like it's not super intelligent yet. And then it's like one year later and we're like close to super intelligence.",
+    "start": 1634.2,
+    "end": 1702.3,
+    "text": "The fact this works at all is crazy. This is super crazy. And it was obvious to me that like if this continues, um, yeah, this is going to move to HGI. And I think we've seen a lot of that since then. So back in 2020, I was just like, \"Oh [ __ ] this is the biggest thing in the world. It's happening. We no one is working on the safety of these things.\" So back then, you know, there was like the AI safety community wasn't caring about LMS. There wasn't an AI safety community and neither was like the security community. So at this time, I still had quite a lot of hope in like academia and uh the software security community. I was these are places I grew up. I grew up in the open- source hacker kind of world. Um, so I still had a lot of respect for these kind of groups. Um, I would say I'm now very burnt on most of these groups. Um, so I kind of had this belief that like open source is great and because open source allows you to make safer software, but making it open more people could look at the software, they could study how to make it safe, they can make it better for consumers, you know, etc., etc. And I kind of had this belief for AI as well.",
     "speaker": "Connor Leahy",
-    "claim": "AGI is progressing rapidly and could be close to superintelligence within a year.",
-    "stance": "Neutral",
+    "claim": "Connor believes that the development of AI will lead to Human General Intelligence (HGI) and expresses concern about the lack of safety measures being implemented.",
+    "stance": "Refute",
     "claim_labels": [
-      "agi_timeline",
-      "hardware_infra"
+      "ai_optimism_benefit",
+      "ai_safety_risk"
     ],
     "is_claim": true,
-    "topic": "AGI timeline",
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Connor believes that the development of AI will lead to Human General Intelligence (HGI) and expresses concern about the lack of safety measures being implemented.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Bu durumun çalışıyor olması bile çılgınca. Bu gerçekten çılgınca. Ve bu devam ederse, evet, bu HGI'ye doğru gidecek. Ve o zamandan beri bunun birçok örneğini gördük. 2020'de, 'Oh [__] bu dünyanın en büyük şeyi. Oluyor. Bu şeylerin güvenliği üzerinde kimse çalışmıyor.' diyordum. O zamanlar, AI güvenliği topluluğu LMS'lere önem vermiyordu. AI güvenliği topluluğu yoktu ve güvenlik topluluğu da yoktu. O zamanlar, akademide ve yazılım güvenliği topluluğunda hala oldukça fazla umudum vardı. Bu, büyüdüğüm yerlerdi. Açık kaynaklı hacker dünyasında büyüdüm. Bu tür gruplara hala çok saygım vardı. Şimdi bu grupların çoğundan çok yorgunum. Bu yüzden açık kaynak harika ve açık kaynak, daha güvenli yazılımlar yapmanıza olanak tanır diye bir inancım vardı ama açık hale getirerek daha fazla insan yazılıma bakabilir, güvenli hale getirmek için nasıl çalıştıklarını inceleyebilir, tüketiciler için daha iyi hale getirebilirler, vb. vb. Ve AI için de benzer bir inancım vardı."
+  },
+  {
+    "start": 1761.8,
+    "end": 1866.9,
+    "text": "Um, the vast majority of people just want something cool. They just wanted to build as much as possible, as fast as possible, you know, like scale it up as much as possible. Well, this is not the thing I fundamentally cared about. Uh, you know, it was it's fun to build things. I love building software. I'm a hacker at heart. I love building software. of doing stuff like this. But um yeah, and so ultimately it uh didn't, you know, end up the way I was hoping. I would say I think uh I think we did a lot of cool technical work. I guess I just overestimated how much people would care about the safety aspect versus just scaling and making a lot of money. >> And you have a different view now on open source. >> Yes. Um my >> we should not do open source. I think open source is much more of a double-edged sword than people want to believe. There's a thing where people outside of the open source community, I think, don't realize how crazy the open source community is. And I say this partially with love, partially with hate. Um, I grew up in this community and my good friends are in this community, but it's extremely libertarian. And I mean this is derogatory. I mean this as a slur. Um, it is extremely I give you an example. I remember in the early days um I met some students who were working on a voice cloning AI so it could like take people's voice clone it and they only released it open source and I'm like hey that seems like kind of a bad idea like this will enable a lot of criminals and like you know hurt a lot of people and they were like it's open source it's good >> like that's it like that was the whole reasoning there was no like what are the consequences of me doing this it's just it's open source so it's good So there's this kind of maximalism that everything should be free. Everything should be open no matter the consequences.",
+    "speaker": "Connor Leahy",
+    "claim": "The open source community often overlooks the potential negative consequences of their projects, prioritizing freedom over safety.",
+    "stance": "Refute",
+    "claim_labels": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "Open Source",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "The open source community often overlooks the potential negative consequences of their projects, prioritizing freedom over safety.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Open Source",
+    "reviewed": false
+  },
+  {
+    "start": 1999.9,
+    "end": 2123.8,
+    "text": "We have a lot of really bad regulation, but a lot of it, you know, it's good that we have laws for banks. If we don't do that, we will have horrible financial crisises every couple years. It's good that we have regulations on, you know, uh, the purity of drugs. You know, it's like if those were not, we would have a lot of, you know, tainted, uh, you know, medical supplies. Like, I'm not saying they're perfect. They're not. You know, you ask me about the FDA. You know, there's many things that could be improved upon these things. But fundamentally, the way a civilization works is not you let some nerds build whatever the [ __ ] they want and then throw it onto the internet and it's good because it's open. Like this is just not how the world works. And for me, AI is in this category. So if we're talking about, oh no, you make a game like a little toy and you make it open source. I mean, sure, you know, why not? That's nice, you know, but there are things that are not like that. Not everything is the same. Like hot take things are different. Software is important and different software is different. If you were building a video game or you know a you know a piece of office software and you want to open source it I mean go knock yourself out. I mean that's fantastic. Thank you. That's really nice. If you're working on weapons platforms or systems that could you know fundamentally upend the geopolitical order such as AGI then yeah that's actually a really big thing and we should think a lot about how such systems should proliferate or not. If AI if we take this seriously that AGI is possible that ASI is possible and that it can be managed to develop from open source things then this is equivalent to developing you know nuclear weapons or bioweapons and they're releasing them for anyone to use. This is a proliferation problem. This is a very this is a hard decision is what I'm saying. I'm not saying I have perfect solution to every possible answer here but I'm saying this is a big decision and it's a big decision that shouldn't be made by some nerd somewhere. This is a decision that should be made, you know, by like democratically elected governments. You know, the democratically elected government thinks it's a good idea to release this or that piece of, you know, weapons information, I'm open to it, right? But if like some guy at Loheed Martin says, I'm going to post, you know, >> nuclear weapon blueprints to my son has the whole picture decision.",
+    "speaker": "Connor Leahy",
+    "claim": "AGI development should be regulated and not left to individuals without oversight due to its potential risks.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI regulation",
     "confidence": "high",
     "claim_labels_auto": [
       "agi_timeline",
+      "open_source"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI development should be regulated and not left to individuals without oversight due to its potential risks.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI regulation",
+    "reviewed": true,
+    "text_tr": "Gerçekten kötü düzenlemelerimiz var ama çoğu, biliyorsun, bankalar için yasaların olması iyi. Bunu yapmazsak, her birkaç yılda bir korkunç finansal krizler yaşarız. İlaçların saflığı konusunda düzenlemelerimizin olması iyi. Biliyorsun, eğer bunlar olmasaydı, birçok kirli, biliyorsun, tıbbi malzeme olurdu. Yani, bunların mükemmel olduğunu söylemiyorum. Değiller. Biliyor musun, FDA hakkında bana soruyorsun. Bu şeylerde iyileştirilebilecek birçok şey var. Ama temelde, bir medeniyetin nasıl çalıştığı, bazı nerdlerin istedikleri her şeyi inşa etmelerine izin vermek ve sonra bunu internete atmak ve bunun iyi olması değil. Bu, dünyanın böyle çalıştığı bir şey değil. Ve benim için, AI bu kategoride. Yani, eğer bir oyun yapıyorsanız, küçük bir oyuncak yapıyorsanız ve bunu açık kaynak yapıyorsanız, elbette, neden olmasın? Bu güzel, biliyorsun ama bunun gibi olmayan şeyler var. Her şey aynı değil. Her şey farklı. Yazılım önemlidir ve farklı yazılımlar farklıdır. Eğer bir video oyunu yapıyorsanız veya bir ofis yazılımı parçası yapıyorsanız ve bunu açık kaynak yapmak istiyorsanız, yani, kendinize bir iyilik yapın. Bu harika. Teşekkür ederim. Bu gerçekten güzel. Eğer silah platformları veya jeopolitik düzeni temelden alt üst edebilecek sistemler üzerinde çalışıyorsanız, AGI gibi, o zaman evet, bu gerçekten büyük bir şey ve böyle sistemlerin nasıl yayılacağı hakkında çok düşünmeliyiz. Eğer AI'yı ciddiye alıyorsak, AGI'nin mümkün olduğunu, ASI'nin mümkün olduğunu ve bunun açık kaynak şeylerden gelişebileceğini düşünüyorsak, bu, nükleer silahlar veya biyolojik silahlar geliştirmekle eşdeğerdir ve bunları herkesin kullanması için serbest bırakmakla eşdeğerdir. Bu bir yayılma sorunu. Bu çok, bu zor bir karar. Burada her olası cevap için mükemmel bir çözümüm olduğunu söylemiyorum ama bu büyük bir karar ve bu kararın herhangi bir nerd tarafından verilmemesi gerektiğini söylüyorum. Bu karar, biliyorsun, demokratik olarak seçilmiş hükümetler tarafından verilmelidir. Biliyorsun, demokratik olarak seçilmiş hükümet bu veya şu silah bilgisi parçasını serbest bırakmanın iyi bir fikir olduğunu düşünüyorsa, buna açığım, değil mi? Ama eğer Loheed Martin'deki bir adam, 'Nükleer silah planlarını yayınlayacağım' diyorsa, o zaman tüm resmi kararın sahibi kim? Bu kararı kimin vermesi gerektiğini düşünmüyorum ve bunun özel, hesap verilebilir olmayan aktörler tarafından verilmemesi gerektiğini düşünüyorum. >> Çünkü diğer taraf, özel aktörlerin bunu yapması ama açık kaynak yapmaması. Ama o zaman en azından, belirli bir kontrol var. Bir hükümetin, Sam Alman Musk ve birkaç kişi gibi insanları kontrol etmesinin daha kolay olduğunu düşünüyorum, aslında bilgisayarı olan herkesin kontrol edilmesinden daha zor. >> Evet, bu yayılma sorunu. Nükleer silah inşa etmek isteyen herkesin nükleer silah inşa etmesine izin vermektense, nükleer silahları inşa etme lisansına sahip birkaç şirketi kontrol etmek çok daha kolay. Ve bu zaten nasıl yaptığımız. Nükleer silahlar büyük ölçüde, biliyorsun, yüklenici firmalar tarafından inşa ediliyor, biliyorsun, çeşitli ekipmanları ve makineleri inşa eden, uranyumu ve plütonyumu rafine eden yüklenici nükleer şirketler var. Ve biliyorsun, bazıları devlet laboratuvarları, bazıları özel yükleniciler ve bu çok daha kolay kontrol edilebilir. Yani, kimseye bunu yapmasına izin vermiyoruz ve sonra hükümete nükleer silah satmasına izin vermiyoruz. Bu çılgınca olurdu. Ve burada benzer bir durum olduğunu düşünüyorum, elbette bir spektrum var. Yani, Linux çekirdeği üzerinde ihracat kontrollerü olmalı mı?"
+  },
+  {
+    "start": 2507.1,
+    "end": 2592.8,
+    "text": ">> And that's a very naive point of view. No like um that's definitely you cannot just unplug I don't know internet because if you unplug internet we don't have electricity we don't have flu food uh food supplies. We don't have anything. So basically we cannot get off of internet anymore even if we wanted to as you as you mentioned. So I think all of these it's like getting things very complicated in the timeline. The more we advance the more difficult it is to make a decision because there is way too much backpack to make that decision and then it's just basically taking our freedom to decide. Before we get into that because I think governance and legislation something really important what do you think about meta because meta they've been releasing open source to certain level obviously not fully open source but if there has been a player it's been llama. Lama has been the main open source model that most people has remade. I don't know how many it's been, but it's insane the number. What do you think? Do you think they did good? They did okay. They should not have done that. Why did they do that? >> I don't like speculating about the internals of other people's minds. I don't think it's very productive. Um I we can argue, oh, it was a marketing stunt or it was because they truly believed in no. Ultimately, it doesn't matter. I think really I I don't think it's good that we are proliferating powerful AI technology because of the reason we just described. So look, I've used LMO before. It's like a nice model, right? Like I use Quinn, I I've used DeepSeek before. They're nice models.",
+    "speaker": "Connor Leahy",
+    "claim": "Proliferating powerful AI technology is not good due to the complexities and risks involved.",
+    "stance": "Refute",
+    "claim_labels": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Proliferating powerful AI technology is not good due to the complexities and risks involved.",
+    "claim_labels_silver": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 2591.4,
+    "end": 2696.3,
+    "text": "They're useful for many tasks I use, right? Um the problem isn't the question of whether they provide value or they're useful or whatever. The question is how much are we making it harder to go back? And I think this is a massive cost and it's a decision again that I think shouldn't be made by private corporations. Fundamentally, the problem here isn't that, you know, meta made this choice or that choice. The problem is Meta is being allowed to make this choice in the first place. Private actors should not be allowed to make choices like this of this magnitude. Now, we can argue actually Llama is so far from AGI that it should be exempt. And I'm open to this argument. Like I think that I'm open like I think there's an argument to be made of like where when do restrictions kick in, right? And you know, maybe Llama is above the line. Maybe it's I think this is a good argument to have. We're not having this argument. Like this is not what's going on. No one is even talking about where the line is. It's just like there's no line at all. Well, and the the AI act from Europe, there was this initial part where they were talking about the amount of flops and stuff and there was some limitations, but by the time it was approved, we were below like over it already with the basic system. So it did not make any sense as well because the power of training an AI doesn't directly relates to how dangerous it is because you can make a robot that has a gun and can shoot people on the street with a very simple AI nowadays in local. So it doesn't means that it has to be really big to be dangerous. So there is like yeah there is that's mainly the problem I see with regulation. They don't know a [ __ ] about what they talking about. So at the end of the day, if people who were like you was like forming part of these decision committees and they had the expertise, but the reality is that what we have is a bunch of politicians.",
+    "speaker": "Connor Leahy",
+    "claim": "The regulation of AI should not be left to private corporations, as they make decisions that could have massive implications without proper oversight.",
+    "stance": "Refute",
+    "claim_labels": [
+      "open_source",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "The regulation of AI should not be left to private corporations, as they make decisions that could have massive implications without proper oversight.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI regulation",
+    "reviewed": true,
+    "text_tr": "Onlar birçok görev için faydalı, değil mi? Sorun, onların değer sağlayıp sağlamadığı ya da faydalı olup olmadığı sorusu değil. Sorun, geri dönmeyi ne kadar zorlaştırdığımız. Ve bunun büyük bir maliyet olduğunu düşünüyorum ve bu kararın özel şirketler tarafından verilmemesi gerektiğini düşünüyorum. Temelde, burada sorun, Meta'nın bu seçimi yapmasına izin verilmesi. Özel aktörlerin bu büyüklükteki seçimleri yapmalarına izin verilmemeli. Şimdi, aslında Llama'nın AGI'den o kadar uzakta olduğu ve muaf olması gerektiği konusunda tartışabiliriz. Bu argümanı kabul etmeye açığım. Yani, kısıtlamaların ne zaman devreye gireceği konusunda bir argüman yapılabileceğini düşünüyorum, değil mi? Ve belki de Llama sınırın üzerinde. Belki de bu iyi bir tartışma. Ama bu tartışmayı yapmıyoruz. Bu, olan şey değil. Hiç kimse sınırın nerede olduğunu bile konuşmuyor. Sanki hiç sınır yok. Avrupa'daki AI yasasıyla ilgili olarak, başlangıçta flops miktarı ve benzeri şeyler hakkında konuşuyorlardı ve bazı sınırlamalar vardı, ama onaylandığında, temel sistemle zaten onun üzerinde olduk. Yani bu da mantıklı değildi çünkü bir AI eğitmenin gücü, ne kadar tehlikeli olduğu ile doğrudan ilişkili değil çünkü günümüzde çok basit bir AI ile sokakta insanları vurabilen bir robot yapabilirsiniz. Yani tehlikeli olması için gerçekten büyük olması gerektiği anlamına gelmiyor. Yani, evet, bu, düzenlemeyle ilgili gördüğüm ana sorun. Ne hakkında konuştuklarını bilmiyorlar. Yani, günün sonunda, sizin gibi insanların bu karar komitelerinde yer alması ve uzmanlıklarının olması gerekirdi ama gerçek şu ki, elimizde bir grup politikacı var."
+  },
+  {
+    "start": 2694.4,
+    "end": 2759.2,
+    "text": "They're just trying to get reelected and they are just making decisions based on [ __ ] that they've been told and we seeing that everywhere in the world and I don't know if it's better that they decide than Mark Zuckerberg decides when Mark Zuckerberg not has a much more knowledge than Ursula Bonder or whatever other on the matter you know like at the end of the day I understand that the government has to react and they have to decide what to do and as we said if you go private companies it's easier to handle them because you can just trust them and then otherwise sue them. But at the end of the day, um the problem we have is on on governance. We have a problem on how we making decisions. Why the hell we don't have a committee about AI safety like we had about nuclear where scientists were part of it to make decisions of what can be done and what cannot be done. So why do you think it's that? Is there like economical interest or >> So, um there's three things I would like to talk about and kind of like a little bit before we dive fully into the politician because I think this is a really important one.",
+    "speaker": "Connor Leahy",
+    "claim": "There should be a committee on AI safety similar to the one for nuclear safety, involving scientists in decision-making.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "There should be a committee on AI safety similar to the one for nuclear safety, involving scientists in decision-making.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI governance",
+    "reviewed": false
+  },
+  {
+    "start": 3235.3,
+    "end": 3379.8,
+    "text": ">> This is insane. >> This is like but like let's take a step back. Like this is actually insane. Like these people should be making the top dollars >> because we want the best players. >> We want the be like of course I want the best person in the world to be my president. Are you kidding me? like or the prime minister whatever they should be making the highest salary like of course they should they're so important we need the best people doing this and so like an example of this is a counter example of this is Singapore in Singapore government jobs are benchmarked against the private sector this is such an obvious thing to do so if you work for the government you can make as much money as if you worked at a top private sector position >> which gives you the incentive to be playing there and not in the private sector >> exactly so like in Singapore it's like I I talked to anyone in the government in Singapore and They're so competent. Like it's incredible. Like I I go I go to any meeting with the Singaporean government and like everyone in the room has like a Cambridge or Oxford or MIT education and it's like super competent, takes notes, you know, acts immediately and things get done. And I the first time I saw this I was like I was so shocked and because like in the west we weren't even used to this. We're so used to our politicians being underpaid, you know, not not qualified, etc. And it doesn't have to be this way. It doesn't have to be this way. But it and it didn't used to be this way like say in America in the 1950s it was very common for very you know very competent people to go into government or even for like you know famous scientists to do a stint in the government like it was just a normal thing you kind of did you know you would kind of like you know contribute back to your society you're you're the best scientist whatever well then you run for office for a while because you know you want to you know contribute your intelligence to the you know the gang of your civilization. So the problem is much deeper. So there's a very there's a thing that I think happens a lot where it's very tempting to point to the individual people like oh this politician he's an idiot I hate this guy and like maybe he is right like many of them are idiots right but like many of them are doing the best they can in an extremely shitty situation and it's very very very hard to get good talent in these situations. What's happened is is that these private companies and tech companies and so on have now optimized to suck all of the talent out of everything else which is like it's the people working at meta these people should be working in the government like if we were a good civilization half of the people that are getting you know $10 million a year at Meta should be getting $10 million working at the government to make the United States a better place.",
+    "speaker": "Connor Leahy",
+    "claim": "Government jobs should offer competitive salaries to attract top talent, similar to private sector benchmarks.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_economics",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
       "hardware_infra"
     ],
     "speaker_silver": "Connor Leahy",
     "is_claim_silver": true,
-    "claim_silver": "AGI is progressing rapidly and could be close to superintelligence within a year.",
+    "claim_silver": "Government jobs should offer competitive salaries to attract top talent, similar to private sector benchmarks.",
     "claim_labels_silver": [
-      "agi_timeline",
+      "ai_economics",
       "hardware_infra"
     ],
     "stance_silver": "Support",
-    "topic_silver": "AGI timeline",
+    "topic_silver": "AI economics",
+    "reviewed": false
+  },
+  {
+    "start": 3378.6,
+    "end": 3446.7,
+    "text": "They should be running all the best programs. They should be doing making the best laws. They should be because they are extremely competent people. Of course they are. You know, if you're making $10 million metag, you know, or or woman, of course. Like, of course you are, right? If you're working at a hedge fund and you're making a billion dollars, whatever, right? Like, of course, you're a competent person. These are the people we should want also in our government. >> Running a counter. >> Yes. But it like what is more important than running the country? Like this is such like the amount of money, the amount of power that is being put into the hands of people who are just underresourced, understaffed, underappreciated. is like like of course everything's going to fall apart like what else is supposed to happen like our most competent in a good world if we actually allocated resources effectively the most wellstaffed highest status job should be the government cuz like what is a bigger what is a bigger entity than the US government for example even nothing like this is the most important job in the world this should be the highest thing but it's not and I think a lot of this is downstream of the kind of adversariality we're talking about is that many people would like the government to not be powerful.",
+    "speaker": "Connor Leahy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "government competence",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "government competence",
+    "reviewed": false
+  },
+  {
+    "start": 3912.3,
+    "end": 3978.2,
+    "text": ">> But but all of this I I buy all of it. I'm I'm pretty pessimistic about AI as well. But I I buy all of this narrative that this could end up like that. But for me there is an inflection point that is that AI should have a will should have a volunt like some kind of like objective. It has to have like its own thing. So as far as it doesn't has a will it cannot make decisions. It could be just a very powerful tool. You can get a shotgun and a shotgun can kill somebody but is a very different thing if the shotgun shoots itself. So for the shotgun to shoot itself and decide it wants to kill somebody has to has an objective. it has to have a will. So do you think AI will have a will like there is no chance that it just becomes a tool. >> So there's there's two ways to answer this question. The first is very complicated and is about the technicals here of like it's actually very hard to build a very powerful tool that doesn't have a will. This is actually very hard because if you want something that for example can cure cancer, it has to make decisions.",
+    "speaker": "Connor Leahy",
+    "claim": "AI cannot make decisions or have agency without having its own will or objective.",
+    "stance": "Refute",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI agency",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "AI cannot make decisions or have agency without having its own will or objective.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI agency",
+    "reviewed": false
+  },
+  {
+    "start": 3975.7,
+    "end": 4064.5,
+    "text": ">> It has to make plans. It has to pay people. It has to run experiments. So if you want to build an AI, an ASI that is smart enough and powerful enough to build utopia, it has to do things >> has to have agency. >> It has to have agency like like and the other thing is lol everyone is trying to give them will like that's literally what everyone is doing and we now see it like if I it's small but if I tell cloud code to implement something it makes choices it decides how to implement it. it choices within the context of what you ask it to do. But actually, >> but even then it often has to interpret what I meant. Sometimes it thinks, oh, I think the user probably meant this and then just decides to do something different. And sometimes it's right, sometimes it's wrong. You know, sometimes it's happened to me before that I mistyped what I asked Claude to do and it did it right anyways because in that ah surely the user doesn't really want the sense of context and not the literal of what you're writing. >> Exactly. So in a sense this word will sounds magical. It sounds like this like special property >> consciousness >> consciousness like magic and like if ma humans have magic properties I don't think they're relevant to AI. I think what matters is the ability to take actions the ability to make decisions to execute plans to whatever right like do AIs have magic you know internal experiences I I don't know and I don't care like it's irrelevant to whether they're dangerous. There's nothing magic about making decisions. It's just you take actions, you execute an algorithm.",
+    "speaker": "Connor Leahy",
+    "claim": "The ability of AI to make decisions and take actions is what matters, not any magical properties or consciousness.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "The ability of AI to make decisions and take actions is what matters, not any magical properties or consciousness.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
     "reviewed": true,
-    "text_tr": ">> Ama süper zeka henüz mevcut değil. Yani temelde süper zekaya doğru bizi yönlendirebilecek bir noktadayız. Oraya ulaşacağımıza ne kadar güveniyorsun ve oraya ne zaman ulaşacağımızı düşünüyorsun? Bu konuda düşündüğüm iki yol var. Bir yandan, şu anda açık kaynak kodu düşünürken, bilgisayarlarımızla konuşamadığımız zamanları hatırlıyorum. Artık bilgisayarıma doğal dilde konuşabiliyorum ve ona bir şey yapmasını söyleyebiliyorum ve temelde bunu yapıyor. Biliyor musun, bunu benim için uygulamak üzere çağırıyorlar ve 45 dakika boyunca uzaklaşıp geri döndüğümde, 'Bunu yaptım. İşte burada.' diyor. Ve genellikle işe yarıyor. Tabii ki. Mükemmel mi? Hayır. Daha önce bir junior mühendis işe aldın mı? >> Yani >> onlar da mükemmel değil. >> Onlar da mükemmel değil. Şu anda junior bir mühendis işe almak için neredeyse hiç neden yok. Yani, bir junior insan mühendisinin yapabileceği bir görevi bulamıyorum, bulamıyorum. Hala bir kıdemli mühendis tarafından daha iyi yapılabilecek bazı şeyler var, yazılım mimarisi gibi ama gerçekçi olalım. Bir yıl önce bunların hiçbiri mümkün değildi ve bir yıl önce bu şeyler tamamen bağımsız bir şekilde kod yazamazdı. Bir yıl içinde ne olacağını düşünüyorsun? Yani, bu alanda yıllardır bulunuyorum ve ilk kez süper zekanın geleceğini gördüğüm zaman GPT2'ydi >> tamam >> küçük versiyonu 100 milyon parametre, yani iki cümleyi bir araya getirecek kadar bile zorlanıyordu ama onu gördüğümde, 'Oh [__] bu işteyiz' dedim çünkü yapabildiği şey genel amaçlı kalıpları öğrenebilmesiydi, daha fazla hesaplama gücü eklediğinizde daha fazla kalıp ekliyorsunuz ve daha fazla şey öğreniyor, önce yazım ve dil bilgisi öğreniyor, sonra paragrafları öğreniyor, daha karmaşık şeyler öğreniyor, vb. vb. Yani çalınabilir bir şeydi. Ve o zamandan beri, her yıl bu şey oluyor ve kendimi bir tür 'Groundhog Day' gibi hissediyorum, sanki deli oluyorum, değil mi? Her yıl insanlar diyor ki, 'AI asla çok güçlü olmayacak, değil mi? Bakalım ne olacak.' Ve bir yıl sonra, çok daha güçlü hale geliyor ve yapamayacaklarını söyledikleri her şeyi yapabiliyorlar. Ve sonra aynı şeyi söylüyorlar, biliyorsun, aynı şeyi söylüyorlar. 'Tamam ama henüz süper zeka değil.' Ve sonra bir yıl sonra, süper zekaya yakınlaşıyoruz."
+    "text_tr": "Bu politikacı bir aptal, bu adamı sevmiyorum"
+  },
+  {
+    "start": 4867.0,
+    "end": 4933.4,
+    "text": "It's not humanist. It's not prohuman. It's just a tool. If you have only technology then there is only technology but not how to wield it. So what we need is the institutions, the systems, the governance to actually use technology so we can benefit it. Just because you have more economic growth doesn't mean the world's a better place. It just means there is more growth. But how to wield the growth is the much more interesting question. Like I think the interesting question is like how do you get more economic growth? I think this is a very worthwhile question to be studying. But this does not in any sense guarantee you a good world. For that you have to wield and use and and you know spend your growth on things that actually matter. And this is a really really hard problem. Like governance is not a science. It's a very very very hard question. If I told you okay you're in charge of the government now what policy do you pass? Like this is an extremely hard question and these are the kind but these are the kind of questions that matter. These are the kind of questions that need to be solved. Building an ASI is equivalent to building a one world government. It's the same thing. Mhm.",
+    "speaker": "Connor Leahy",
+    "claim": "Building Artificial Superintelligence (ASI) is as complex as establishing a one world government, highlighting the need for effective governance to ensure technology benefits society.",
+    "stance": "Refute",
+    "claim_labels": [
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Building Artificial Superintelligence (ASI) is as complex as establishing a one world government, highlighting the need for effective governance to ensure technology benefits society.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI governance",
+    "reviewed": true,
+    "text_tr": ">> Planlar yapması gerekiyor. İnsanları ödemesi gerekiyor. Deneyler yapması gerekiyor. Yani, yeterince akıllı ve güçlü bir yapay zeka, bir ütopya inşa etmek istiyorsa, bir şeyler yapması gerekiyor. >> Yetki sahibi olması gerekiyor. >> Yetki sahibi olması gerekiyor. Diğer bir şey de, herkes onlara bir şeyler vermeye çalışıyor. Bu, herkesin yaptığı şey. Şimdi bunu görüyoruz. Küçük bir örnek ama eğer cloud koduna bir şey uygulamasını söylersem, seçimler yapıyor, nasıl uygulayacağına karar veriyor. Sizin ona ne yapmasını söylediğiniz bağlamında seçimler yapıyor. Ama aslında, >> ama yine de çoğu zaman ne demek istediğimi yorumlaması gerekiyor. Bazen,"
   },
   {
     "start": 5898.1,
@@ -243,63 +447,85 @@
     "text_tr": "Ah, kullanıcı muhtemelen bunu kastetti"
   },
   {
-    "start": 4867.0,
-    "end": 4933.4,
-    "text": "It's not humanist. It's not prohuman. It's just a tool. If you have only technology then there is only technology but not how to wield it. So what we need is the institutions, the systems, the governance to actually use technology so we can benefit it. Just because you have more economic growth doesn't mean the world's a better place. It just means there is more growth. But how to wield the growth is the much more interesting question. Like I think the interesting question is like how do you get more economic growth? I think this is a very worthwhile question to be studying. But this does not in any sense guarantee you a good world. For that you have to wield and use and and you know spend your growth on things that actually matter. And this is a really really hard problem. Like governance is not a science. It's a very very very hard question. If I told you okay you're in charge of the government now what policy do you pass? Like this is an extremely hard question and these are the kind but these are the kind of questions that matter. These are the kind of questions that need to be solved. Building an ASI is equivalent to building a one world government. It's the same thing. Mhm.",
+    "start": 6501.1,
+    "end": 6588.5,
+    "text": ">> Yeah. I think this is a thing where I also have a lot of hope for middle powers. So neither the US nor China building coalitions around these kinds of things. for example, Europe and other middle powers um creating multilateral treaties where they will put sanctions on countries that continue to development you know you know whether it's the US but China whatever I would love to see the US lead such a coalition I think the US as you know a defender of the free world um historically at least um has a great opportunity here to be the ones to lead this and I think this is the way that these kind of treaties usually happen you know these kind of agreements usually happen I think there's absolutely a world where you know say middle powers or Europe you know kind of I think going a little bit, the US gets on board and then pressure China, get China on board or vice versa. Like these things do happen. Like there's this thing that people like just they just say like well obviously we can never get China on board or obviously we can never get these. I'm like is that obvious? This is not at all obvious to me because again like I have so if there's one thing I've learned talking to politicians other than them mostly being normal people is that the main bottleneck I found when I talk to so as a funny story with control over the last year we have been systematically briefing politicians in the UK about the risks of extinction from super intelligence so very unamiguous and having them sign our statement and calling for binding regulation >> and it's working actually >> and it's worked great. So when we started doing this, we were every single person I talked to who worked in politics said like, \"Oh, that's impossible. Like, don't even try. You're going to get laughed out of the room.",
     "speaker": "Connor Leahy",
-    "claim": "Building Artificial Superintelligence (ASI) is as complex as establishing a one world government, highlighting the need for effective governance to ensure technology benefits society.",
-    "stance": "Refute",
+    "claim": "There is potential for middle powers to create multilateral treaties to regulate AI development and mitigate risks.",
+    "stance": "Support",
     "claim_labels": [
-      "execution_engineering",
-      "agi_timeline"
+      "geopolitics",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
-    "topic": "AI governance",
+    "topic": "Geopolitics",
     "confidence": "medium",
     "claim_labels_auto": [
-      "execution_engineering",
-      "agi_timeline"
+      "geopolitics",
+      "ai_optimism_benefit"
     ],
     "speaker_silver": "Connor Leahy",
     "is_claim_silver": true,
-    "claim_silver": "Building Artificial Superintelligence (ASI) is as complex as establishing a one world government, highlighting the need for effective governance to ensure technology benefits society.",
+    "claim_silver": "There is potential for middle powers to create multilateral treaties to regulate AI development and mitigate risks.",
     "claim_labels_silver": [
-      "execution_engineering",
-      "agi_timeline"
+      "geopolitics",
+      "ai_optimism_benefit"
     ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI governance",
-    "reviewed": true,
-    "text_tr": ">> Planlar yapması gerekiyor. İnsanları ödemesi gerekiyor. Deneyler yapması gerekiyor. Yani, yeterince akıllı ve güçlü bir yapay zeka, bir ütopya inşa etmek istiyorsa, bir şeyler yapması gerekiyor. >> Yetki sahibi olması gerekiyor. >> Yetki sahibi olması gerekiyor. Diğer bir şey de, herkes onlara bir şeyler vermeye çalışıyor. Bu, herkesin yaptığı şey. Şimdi bunu görüyoruz. Küçük bir örnek ama eğer cloud koduna bir şey uygulamasını söylersem, seçimler yapıyor, nasıl uygulayacağına karar veriyor. Sizin ona ne yapmasını söylediğiniz bağlamında seçimler yapıyor. Ama aslında, >> ama yine de çoğu zaman ne demek istediğimi yorumlaması gerekiyor. Bazen,"
+    "stance_silver": "Support",
+    "topic_silver": "Geopolitics",
+    "reviewed": false
   },
   {
-    "start": 3975.7,
-    "end": 4064.5,
-    "text": ">> It has to make plans. It has to pay people. It has to run experiments. So if you want to build an AI, an ASI that is smart enough and powerful enough to build utopia, it has to do things >> has to have agency. >> It has to have agency like like and the other thing is lol everyone is trying to give them will like that's literally what everyone is doing and we now see it like if I it's small but if I tell cloud code to implement something it makes choices it decides how to implement it. it choices within the context of what you ask it to do. But actually, >> but even then it often has to interpret what I meant. Sometimes it thinks, oh, I think the user probably meant this and then just decides to do something different. And sometimes it's right, sometimes it's wrong. You know, sometimes it's happened to me before that I mistyped what I asked Claude to do and it did it right anyways because in that ah surely the user doesn't really want the sense of context and not the literal of what you're writing. >> Exactly. So in a sense this word will sounds magical. It sounds like this like special property >> consciousness >> consciousness like magic and like if ma humans have magic properties I don't think they're relevant to AI. I think what matters is the ability to take actions the ability to make decisions to execute plans to whatever right like do AIs have magic you know internal experiences I I don't know and I don't care like it's irrelevant to whether they're dangerous. There's nothing magic about making decisions. It's just you take actions, you execute an algorithm.",
+    "start": 6836.4,
+    "end": 6931.2,
+    "text": ">> Yeah. It's like we're a teeny organization with like and we're, you know, half as big a year ago, right? We were like, you know, seven people or something a year ago and you know with like much less money than any of these organization and still we can do this much and I think the reason is this is to the large degree is that it's very very expensive to lobby someone into doing something against their interests. It's very very it's much harder to lie to someone than it is to say the truth just tell the truth. >> Do you guys propose a cards of action as well like when they sign into it or it's just like trying to give them the information and then do something with this or you propose them what they should do? >> We also do a lot of this as well. Um so our primary focus is kind of the first phase is building coalition, building understanding, building groups and as we push forward towards we have concrete suggestions for how you could implement these various things for what needs to be done. A lot of this kind of the stuff we've talked about like you know the circle you need to like if you can't prove it tough luck you know multilateral um engagement you know between different countries. For example something that we strongly support is what's called a conditional uh agreement. What it means is the treatment if you sign it to like you know regulate ASI you don't have to do it until others have also signed until like a certain threshold of like for example USA signs it but only binding of China signs it or vice versa so there's no downside to signing it >> right >> so this is already solves many of the game >> many of the many of the game theory problems are solved by this where you can just do this unilaterally and it doesn't hurt you and if both do it great you know then everyone has a good outcome >> Twitter much. No, >> it's no problem saying you Twitter.",
     "speaker": "Connor Leahy",
-    "claim": "The ability of AI to make decisions and take actions is what matters, not any magical properties or consciousness.",
+    "claim": null,
     "stance": "Neutral",
     "claim_labels": [
-      "execution_engineering",
-      "ai_safety_risk"
+      "other"
     ],
-    "is_claim": true,
-    "topic": "AI capabilities",
+    "is_claim": false,
+    "topic": "AI safety",
     "confidence": "medium",
     "claim_labels_auto": [
-      "execution_engineering",
-      "ai_safety_risk"
+      "other"
     ],
     "speaker_silver": "Connor Leahy",
-    "is_claim_silver": true,
-    "claim_silver": "The ability of AI to make decisions and take actions is what matters, not any magical properties or consciousness.",
+    "is_claim_silver": false,
+    "claim_silver": null,
     "claim_labels_silver": [
-      "execution_engineering",
-      "ai_safety_risk"
+      "other"
     ],
     "stance_silver": "Neutral",
-    "topic_silver": "AI capabilities",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 7081.2,
+    "end": 7147.6,
+    "text": "Um, so there's a lot that can be done here where a lot of our politicians just never get any engagement. There's a thing where I've seen many many times tied to politicians. It is not that they don't want to do something. It's often that they are just yelled at by everyone and they're just like whatever. You know, they just like don't know and they don't care and they're too busy and whatever. And just getting nice, polite, good engagement from their representatives from from their um from their constituents pushing them and this issue makes a big difference. It does actually make a difference. Like this is not me, you know, being idealistic here like empirically we have the data. We can see that it does make a difference. So there are things that everyday citizens can do today. Um there's also more that can be done than that even. Um I've recently been running a volunteer group for people who want to do a bit more which is called torchbearer if anyone would like to check that out where people commit to spending at least 2 hours a week >> okay >> trying to help with these issues running projects related to um you know helping with AI risk building a better building a better democracy and stuff like this if they want to check that out torch paradox community. Yeah, we will leave the links below so they can check it out.",
+    "speaker": "Connor Leahy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": true,
+    "topic": "AI risk engagement",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI risk engagement",
     "reviewed": true,
-    "text_tr": "Bu politikacı bir aptal, bu adamı sevmiyorum"
+    "text_tr": "Tam olarak. Bu anlamda bu kelime sihirli geliyor. Bu, özel bir özellik gibi geliyor. >> Bilinç >> Bilinç, sihir gibi. Eğer insanlar sihirli özelliklere sahipse, bunun yapay zeka için geçerli olduğunu düşünmüyorum. Önemli olan, eylemde bulunma yeteneği, karar verme yeteneği, planları uygulama yeteneği. Yapay zekaların sihirli iç deneyimleri var mı? Bilmiyorum ve umursamıyorum. Bu, onların tehlikeli olup olmadığını belirlemek için alakasız. Karar vermek sihirli bir şey değil. Sadece eylemler alırsınız, bir algoritmayı uygularsınız."
   }
 ]

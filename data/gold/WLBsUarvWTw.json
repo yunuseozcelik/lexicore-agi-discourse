@@ -1,5 +1,65 @@
 [
   {
+    "start": 904.3,
+    "end": 977.2,
+    "text": "And then you're not going to- I'm sorry, you're saying by the end of\n2026, we will have agentic computer use. I think Ege said you'd be able to\nbook a flight, which is very different from having full agentic computer use. I mean, the other things you need\nto do on a computer are just made up of things like booking a flight. I mean, sure, but they are\nnot disconnected tasks. That's like saying everything you\ndo in the world is just like you just move parts of your body, and\nthen you move your mouth and your tongue, and then you roll your head. Yeah, individually those things\nare simple, but then how do you put them together, right? Yeah. Okay. So there's two pieces of evidence that\nyou can have that are quite dissimilar. One, the METR eval, which we've\nbeen talking about privately, which shows that the task length\nover certain kinds of tasks- I can already see you getting ready. AI's ability to do the kind of thing\nthat it takes a human 10 minutes to do, or an hour to do, or four\nhours to do, the length of time for corresponding human tasks, it seems\nlike these models seem to be doubling their task length every seven months.",
+    "speaker": "Ege Erdil",
+    "claim": "AI models are improving their task performance significantly, doubling their task length every seven months.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "AI models are improving their task performance significantly, doubling their task length every seven months.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Ve sonra yapmayacaksınız- Üzgünüm, 2026'nın sonuna kadar ajanslı bilgisayar kullanımına sahip olacağımızı söylüyorsunuz. Sanırım Ege, uçuş rezervasyonu yapabileceğimizi söyledi, ki bu tam ajanslı bilgisayar kullanımından çok farklı. Yani, bir bilgisayarda yapmanız gereken diğer şeyler de sadece uçuş rezervasyonu yapmak gibi şeylerden oluşuyor. Yani, evet, ama bunlar birbirinden kopuk görevler değil. Bu, dünyada yaptığınız her şeyin sadece vücudunuzun parçalarını hareket ettirmek, sonra ağzınızı ve dilinizi hareket ettirmek ve sonra başınızı çevirmek gibi olduğunu söylemek gibi. Evet, bireysel olarak bu şeyler basit, ama sonra onları nasıl bir araya getirirsiniz, değil mi? Evet. Tamam. Yani oldukça farklı iki kanıt parçası var. Birincisi, özel olarak konuştuğumuz METR değerlendirmesi, belirli türdeki görevlerdeki görev uzunluğunun - zaten hazırlandığınızı görüyorum. Yapay zekanın bir insanın 10 dakikada, veya bir saatte, veya dört saatte yaptığı türden bir şeyi yapma yeteneği, karşılık gelen insan görevleri için geçen süre, bu modellerin görev uzunluklarını her yedi ayda bir ikiye katladığı görülüyor."
+  },
+  {
+    "start": 1731.3,
+    "end": 1801.7,
+    "text": "So it's able to solve these problems\nthat you can kind of neatly excise out of some very messy context, and it's\nable to make a lot of progress there. But within some much messier context,\nit's not very good at figuring out what directions are especially useful for\nyou to build things or make incremental progress on that enables you to have a big\nkind of innovation later down the line. So thinking about both this larger\ncontext, as well as maybe much longer horizon, much fuzzier things that\nyou're optimizing for, I think it's much worse at those types of things. Right. So I think one interesting thing is if\nyou just look at these reasoning models, they know so much, especially the larger\nones, because they know in literal terms more than any human does in some sense. And we have unlocked these reasoning\ncapabilities on top of that knowledge, and I think that is actually what's enabling\nthem to solve a lot of these problems. But if you actually look at\nthe way they approach problems, the reason what they do looks\nimpressive to us is because we have so much less knowledge.",
+    "speaker": "Ege Erdil",
+    "claim": "Current AI models excel in solving specific problems but struggle with complex, messy contexts and long-term innovation.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models excel in solving specific problems but struggle with complex, messy contexts and long-term innovation.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "Yani, bazı çok karmaşık bağlamlardan düzgün bir şekilde çıkarabileceğiniz bu sorunları çözebiliyor ve orada çok ilerleme kaydedebiliyor. Ancak çok daha karmaşık bir bağlamda, bir şeyler inşa etmek veya daha sonra büyük bir yenilik yapmanızı sağlayacak kademeli ilerleme kaydetmek için hangi yönlerin özellikle yararlı olduğunu bulmakta pek iyi değil. Dolayısıyla, hem bu daha büyük bağlamı hem de belki çok daha uzun vadeli, çok daha belirsiz şeyleri optimize ettiğinizi düşündüğümüzde, bence bu tür şeylerde çok daha kötü. Doğru. Yani bence ilginç bir şey şu ki, bu akıl yürütme modellerine bakarsanız, özellikle daha büyük olanlar, o kadar çok şey biliyorlar ki, kelimenin tam anlamıyla bir anlamda herhangi bir insandan daha fazlasını biliyorlar. Ve biz bu bilginin üzerine bu akıl yürütme yeteneklerini açtık ve bence aslında birçok bu sorunu çözmelerini sağlayan şey bu. Ama sorunlara yaklaşımlarına bakarsanız, yaptıkları şeyin bize etkileyici gelmesinin nedeni, bizim çok daha az bilgiye sahip olmamızdır."
+  },
+  {
     "start": 1802.3,
     "end": 1869.2,
     "text": "And the model is approaching the\nproblems in a fundamentally different way compared to how a human would. A human would have much more limited\nknowledge, and they would usually have to be much more creative in solving\nproblems because they have this lack of knowledge, while the model knows so much. But you'd ask it some obscure\nmath question where you need some specific theorem from 1850 or\nsomething, and then it would just know that, if it's a large model. So that makes the difficulty\nprofile very different. And if you look at the way they\napproach problems, the reasoning models, they are usually not creative. They are very effectively able\nto leverage the knowledge they have, which is extremely vast. And that makes them very\neffective in a bunch of ways. But you might ask the question, has\na reasoning model ever come up with a math concept that even seems slightly\ninteresting to a human mathematician? And I've never seen that. I mean, they've been around\nfor all of six months, I mean, that's a long time. One mathematician might have been\nable to do a bunch of work over that time, and they have produced orders\nof magnitude fewer tokens on math.",
@@ -30,6 +90,33 @@
     "text_tr": "Ve model, insanın nasıl yaklaşacağına kıyasla sorunlara temelde farklı bir şekilde yaklaşıyor. Bir insanın bilgisi çok daha sınırlı olurdu ve genellikle sorunları çözmekte çok daha yaratıcı olmak zorunda kalırdı çünkü bilgi eksikliği var, oysa model çok şey biliyor. Ama ona 1850'den belirli bir teoremi gerektiren bazı belirsiz bir matematik sorusu sorsanız, o zaman büyük bir modelse bunu bilecektir. Bu, zorluk profilini çok farklı hale getiriyor. Ve eğer sorunlara yaklaşım şekillerine bakarsanız, akıl yürütme modelleri genellikle yaratıcı değildir. Sahip oldukları bilgiyi son derece etkili bir şekilde kullanabilirler, bu da onları birçok yönden çok etkili kılar. Ama belki de soruyu sormak gerekir, bir akıl yürütme modeli, insan matematikçiye bile biraz ilginç görünen bir matematik kavramı ortaya çıkardı mı? Ve ben bunu hiç görmedim. Yani, altı aydır ortadalar, bu uzun bir süre. Bir matematikçi o süre zarfında birçok iş yapabilirdi ve onlar matematikte çok daha az token üretmişlerdir."
   },
   {
+    "start": 3613.5,
+    "end": 3677.3,
+    "text": "Because I think if you're talking\nabout materials, then I think there's a lot of sense in which different\nmaterials can be substitutable for one another in different ways. You can use aluminum. I mean, aluminum is a great metal\nfor making aircraft because it's light and durable and so on. But you can imagine that you make aircraft\nwith worse metals and then it just takes more fuel and it's less efficient\nto fly.So there's a sense in which you can compensate and just cost more. I think it's much harder if you're talking\nabout something like complementarity between labor and capital, complementarity\nbetween remote work and in-person work or skilled or unskilled work. There are input pairs for which I would\nexpect it to be much more difficult. For example, you're looking\nat the complementarity between the quality of leadership of an\narmy and its number of soldiers. There is some effect there,\nbut if you just scale up, you have excellent leadership, but\nyour army only has 100 people. You're not going to get very far. King Leonidas and Thermopylae?",
+    "speaker": "Ege Erdil",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "jobs",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "jobs",
+    "reviewed": false,
+    "text_tr": "Çünkü bence malzemelerden bahsediyorsanız, farklı malzemelerin farklı şekillerde birbirinin yerine geçebileceği birçok anlam var. Alüminyum kullanabilirsiniz. Yani, alüminyum uçak yapmak için harika bir metal çünkü hafif ve dayanıklı vb. Ama uçakları daha kötü metallerle yaptığınızı ve sonra daha fazla yakıt tükettiğini ve uçmanın daha az verimli olduğunu hayal edebilirsiniz. Yani, telafi edebileceğiniz ve sadece daha pahalıya mal olabileceğiniz bir anlam var. Bence emek ve sermaye arasındaki tamamlayıcılık, uzaktan çalışma ile yüz yüze çalışma veya vasıflı veya vasıfsız çalışma arasındaki tamamlayıcılık gibi bir şeyden bahsediyorsanız çok daha zor. Çok daha zor olmasını beklediğim girdi çiftleri var. Örneğin, bir ordunun liderlik kalitesi ile asker sayısı arasındaki tamamlayıcılığa bakıyorsunuz. Orada bir etki var, ama sadece ölçeği büyütürseniz, mükemmel bir liderliğiniz var, ama ordunuzda sadece 100 kişi var. Çok ileri gidemezsiniz. Kral Leonidas ve Termopylae?"
+  },
+  {
     "start": 4023.7,
     "end": 4086.6,
     "text": "just to set the scene for the\naudience, we're going to talk about the possibility of this explosive\neconomic growth and greater than 30 percent economic growth rates. So I want to poke you both from a\nperspective of “maybe suggesting that this isn't aggressive enough in the\nright kind of way, because it's maybe it's too broad”, and then I'll poke\nyou from the more normal perspective that, “hey, this is fucking crazy”. I imagine it would be difficult\nfor you to do the second thing. No, I mean, I think it might\nbe fucking crazy, let's see. The big question I have about this broad\nautomation, I get what you're saying about the Industrial Revolution, but in this\ncase, we can just make this argument that you get this intelligence and then what\nyou do next is you go to the desert and you build this Shenzhen of robot factories\nwhich are building more robot factories, which are building… If you need to do\nexperiments then you build bio labs and you build chemistry labs and whatever. Or you can build Shenzhen in the desert.",
@@ -58,6 +145,60 @@
     "topic_silver": "economic growth",
     "reviewed": true,
     "text_tr": "sahneyi izleyiciler için ayarlamak gerekirse, bu patlayıcı ekonomik büyüme ve %30'dan fazla ekonomik büyüme oranları olasılığını konuşacağız. Bu yüzden, “belki de bunun yeterince agresif olmadığını önermek” perspektifinden ikinizi de zorlamak istiyorum, çünkü belki de çok geniş”, ve sonra “hey, bu gerçekten çılgınca” daha normal bir perspektiften zorlayacağım. İkinizin de ikinci şeyi yapmanın zor olacağını hayal ediyorum. Hayır, yani, bence bu çılgınca olabilir, bakalım. Bu geniş otomasyon hakkında büyük sorum, Sanayi Devrimi hakkında söylediklerinizi anlıyorum, ama bu durumda, bu zekayı elde ettiğinizde, sonraki adım olarak çölde robot fabrikaları inşa edip, daha fazla robot fabrikası inşa eden bu Shenzhen'i inşa edersiniz, eğer deneyler yapmanız gerekiyorsa biyolablar ve kimya laboratuvarları inşa edersiniz ve ne olursa olsun. Ya da çölde Shenzhen inşa edebilirsiniz."
+  },
+  {
+    "start": 4698.6,
+    "end": 4760.2,
+    "text": "It's just really hard. Because to understand why specific\nthings happen at specific times, you probably need to understand so much about\nthe economic conditions of the time. For example, Edison spent a ton of\ntime experimenting with different filaments to be using the light bulb. The basic idea is very simple. You make something hot\nand it glows, but then what filament actually works\nwell for that in a product? What is durable? What has the highest ratio\nof light output versus heat so that you have less\nwaste, it's more efficient. And even after you have the product, then\nyou're facing the problem, well, it's 1880 or something and US homes don't have\nelectricity, so then nobody can use it. So now you have to build power plants\nand build power lines to the houses so that people have electricity in their\nhomes so that they can actually use this new light bulb that you created. So he did that, but then people present\nit as if it's like, “okay, he just came up with the idea”, like “it's a light bulb”.",
+    "speaker": "Ege Erdil",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "historical context",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "historical context",
+    "reviewed": true,
+    "text_tr": "Gerçekten zor. Çünkü belirli şeylerin belirli zamanlarda neden olduğunu anlamak için, o zamanın ekonomik koşulları hakkında çok şey anlamanız gerekiyor. Örneğin, Edison, ampul için farklı filamentlerle denemeler yapmak için çok zaman harcadı. Temel fikir çok basit. Bir şeyi ısıtıyorsunuz ve parlıyor, ama o zaman hangi filament gerçekten iyi çalışıyor? Ne dayanıklı? Işık çıkışı ile ısı oranı en yüksek olan hangisi, böylece daha az atık olur, daha verimli olur. Ve ürününüzü elde ettikten sonra, o zaman karşılaştığınız sorun, 1880 veya bir şeydir ve ABD evlerinde elektrik yoktur, bu yüzden kimse bunu kullanamaz. Şimdi elektrik santralleri inşa etmeniz ve evlere elektrik hatları çekmeniz gerekiyor ki insanlar yarattığınız bu yeni ampulü kullanabilsinler. Bunu yaptı, ama insanlar bunu “tamam, o sadece fikri buldu” gibi sunuyorlar, “bu bir ampul”."
+  },
+  {
+    "start": 4891.9,
+    "end": 4959.9,
+    "text": "Or even to be discovered. There's an aspect of it where you discover\ncertain things by scaling up, learning by doing, that's the [?] learning curve. And there's this separate aspect where, suppose that you become wealthier,\nwell, you can invest that increased wealth in, you use it to accumulate\nmore capital, but you also can invest it in R&D and other ways. You get Einstein out of the patent office. You need some amount of\nresources for that to make sense. And you need the economy\nto be of a certain scale. You also need demand for\nthe product you're building. So, you could have the idea, but if the\neconomy is just too small that there isn't enough demand for you to be specializing\nand producing the semiconductor or whatever, because there isn't enough\ndemand for it, then it doesn't make sense. A much larger scale of an economy\nis useful in many ways in delivering complementary innovations and discoveries\nhappening through serendipity, producing, having there be consumers that would\nactually pay enough for you to recover your fixed costs of doing all the\nexperimentation and the invention.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "economy/innovation",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "economy/innovation",
+    "reviewed": true,
+    "text_tr": "Ya da keşfedilmesi gereken bir şey var. Belirli şeyleri ölçeklendirerek keşfetme, yaparak öğrenme, bu öğrenme eğrisi var. Ve bunun ayrı bir yönü var, diyelim ki daha zengin hale geliyorsunuz, o zaman bu artan zenginliği, daha fazla sermaye biriktirmek için kullanıyorsunuz, ama aynı zamanda bunu AR-GE'ye ve diğer yollarla yatırıyorsunuz. Einstein'ı patent ofisinden çıkarmanız gerekiyor. Bunun mantıklı olması için belirli bir miktar kaynağa ihtiyacınız var. Ve ekonominin belirli bir ölçeğe sahip olması gerekiyor. Ayrıca, inşa ettiğiniz ürün için talebe de ihtiyacınız var. Yani, fikri bulabilirsiniz, ama eğer ekonomi çok küçükse, sizin için özelleşip yarı iletken üretmek mantıklı olmaz, çünkü bunun için yeterli talep yoksa, o zaman mantıklı olmaz. Çok daha büyük bir ekonomi ölçeği, tamamlayıcı yeniliklerin ve keşiflerin serendipite yoluyla gerçekleşmesinde birçok yönden faydalıdır, üretim yapar, sabit maliyetlerinizi geri kazanmanız için yeterince ödeyecek tüketicilerin olmasını sağlar."
   },
   {
     "start": 5841.5,
@@ -96,6 +237,183 @@
     "text_tr": "Peki, ABD neden Guatemala'yı işgal etmiyor? Neden bunu yapmıyorlar? Kolayca yapabilecekleri gibi görünüyor. Çünkü ABD için bunun değeri… o kadar yüksek değil, değil mi? Evet. Yani bu yapay zekalar için doğru olabilir, çünkü çoğu şey uzayda. Ve Mars'ta ve güneşin yüzeyinde sermaye derinleştirmesi yapmak istiyorsunuz, New York City yerine. Bence bu daha derin bir mesele. Yani bu daha derin. Ayrıca, yapay zekaların ekonomimize entegre edileceği gerçeği var… Yani temelde, ekonomimizin veya iş gücümüzün küçük bir parçası olarak başlıyorlar ve zamanla büyüyorlar ve zamanla ekonomideki gerçek iş gücünün büyük çoğunluğunu oluşturuyorlar. Ama mevcut normlar ve kurallar çerçevesinde büyüyorlar ve bu şeyleri zayıflatmanın bir maliyeti var. Yani, insanları daha önce olduğundan daha zengin ve daha rahat hale getiren şeyleri elde etmek, evet, bunu onlardan alabilirseniz muhtemelen daha iyi olursunuz."
   },
   {
+    "start": 7769.4,
+    "end": 7833.4,
+    "text": "And then people also underestimated\nthe extent to which people on the ground like firefighters and so\non could just go around the city and that put out fires from bombs\nthat were falling on structures. They overestimated the amount of\neconomic damage that it would do. They underestimated how economically\ncostly it would be; basically you're sending these aircraft and then\nthey're getting shot down, while an aircraft is very expensive. So in the end how it turned out is,\nwhen the allies started bombing Germany, for each dollar of capital they were\ndestroying in Germany they were spending like four to five dollars on the\naircraft and fuel and training of the pilots and so on that they were sending\nin missions and the casualty rate was very high, which later got covered up\nby the government because they didn't want people to worry about, you know… So that is a kind of situation where\nall the planning that you would have done in advance predicated on this\nassumption of air bombing going to be this “nuclear weapons-lite”, basically\nit's extremely destructive there's going to be some aspect to which… I mean it was though, right?",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "text_tr": "Ve insanlar ayrıca, yerel düzeydeki insanların, itfaiyeciler gibi, şehirde dolaşıp yapılar üzerine düşen bombalardan çıkan yangınları söndürebileceği ölçüyü de küçümsediler. Ekonomik zararın ne kadar olacağını abarttılar. Ekonomik olarak ne kadar maliyetli olacağını küçümsediler; temelde bu uçakları gönderiyorsunuz ve sonra düşürülüyorlar, oysa bir uçak çok pahalı. Yani sonuç olarak, müttefikler Almanya'yı bombalamaya başladığında, Almanya'da yok ettikleri her bir dolar için, gönderilen uçaklar, yakıt ve pilotların eğitimi gibi şeyler için dört ila beş dolar harcıyorlardı ve kayıp oranı çok yüksekti, bu daha sonra hükümet tarafından örtbas edildi çünkü insanların endişelenmesini istemiyorlardı, biliyorsunuz… Yani bu, önceden yapacağınız tüm planlamanın, hava bombardımanının “nükleer silah hafif” olacağı varsayımına dayandığı bir durumdur, temelde son derece yıkıcıdır, bunun bazı yönleri olacaktır… Yani öyleydi, değil mi?"
+  },
+  {
+    "start": 7833.6,
+    "end": 7921.5,
+    "text": "84,000 people died in one night\nof firebombing in Tokyo, Germany, large fractions of their… But that was over the\nperiod of six years of war. Right, but there were\nsingle firebombing attacks. I mean it was a case that during the end\nof World War II when they were looking for the place to launch the atomic\nbombs, they just had to go through like a dozen cities because it just wouldn't\nbe worth nuking them because they're already destroyed by the firebombing. That's right, but if you look at the\nlevel of destruction that was expected within the space of a few weeks, and\nthen this level of destruction took many years, so there was like a two\norder of magnitude mismatch or something like that, which is pretty huge. So that affected the way\npeople think about it. An important underlying theme of much of\nwhat we have discussed is how powerful just reasoning about things is to making\nprogress about what specific plans you want to make to prepare and make this\ntransition to advanced AI go well. And our view is, well it's actually\nquite hard and you need to make contact with the actual world in order to inform\nmost of your beliefs about what actually happens and so it's somewhat futile to\ndo a lot of wargaming and figure out how AI might go, and what we can do today\nto make that go a lot better, because a lot of the policies you might come\nup with might just look fairly silly.",
+    "speaker": "Unknown",
+    "claim": "Making plans for the transition to advanced AI is challenging and requires real-world contact to inform beliefs.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Making plans for the transition to advanced AI is challenging and requires real-world contact to inform beliefs.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Tokyo'da, Almanya'da bir gecede 84.000 kişi yangın bombalamasında öldü, büyük bir kısmı... Ama bu altı yıllık savaş dönemi boyunca oldu. Doğru, ama tekli yangın bombalaması saldırıları vardı. Yani II. Dünya Savaşı'nın sonunda atom bombalarını fırlatacak yer ararken, bir düzine şehri elemek zorunda kaldılar çünkü zaten yangın bombalamasıyla yok edildikleri için nükleer saldırıya değmezdi. Bu doğru, ama birkaç hafta içinde beklenen yıkım düzeyine bakarsanız, ve sonra bu yıkım düzeyi yıllar sürdü, yani iki büyüklük mertebesinde bir uyumsuzluk veya benzeri bir şey vardı, ki bu oldukça büyük. Yani bu, insanların bunu düşünme şeklini etkiledi. Tartıştığımız şeylerin çoğunun önemli bir temel teması, gelişmiş yapay zekaya geçişi iyi hale getirmek için ne gibi belirli planlar yapmak istediğiniz konusunda ilerleme kaydetmek için sadece şeyler hakkında akıl yürütmenin ne kadar güçlü olduğudur. Ve bizim görüşümüz, aslında oldukça zor olduğu ve gerçekte ne olduğunu hakkındaki inançlarınızın çoğunu bilgilendirmek için gerçek dünyayla temas kurmanız gerektiği ve bu yüzden yapay zekanın nasıl gidebileceğini ve bunu çok daha iyi hale getirmek için bugün ne yapabileceğimizi anlamak için çok fazla savaş oyunu oynamanın biraz boşuna olduğudur, çünkü ortaya çıkarabileceğiniz politikaların çoğu oldukça saçma görünebilir."
+  },
+  {
+    "start": 8459.5,
+    "end": 8526.7,
+    "text": "I think intelligence isn't the bottleneck\nthat's holding back technological progress or economic growth. It's like many other things. And so this is very much consistent\nwith our view that scaling up your overall economy, accumulating\ncapital, accumulating human capital, having all these factors scale… In fact this is even consistent with\nwhat I was saying earlier that I was pointing out this “oh, good management and\ngood policies and those just contribute to TFP and they can be bottlenecks”. Like right now we could just\nplug-and-play our better management into Sub-Saharan Africa. No we can't. It's hard. I don't think we can. Okay so maybe I should have\nsaid, one could theoretically imagine plugging and playing… I agree. I can imagine many things. But we cannot so readily do it\nbecause of… it's hard to articulate why and it wouldn't be so easy\nto do in just capital or labor. Why not think that the rest of the world\nwill be in this position with regards to the advances that AI will make possible?",
+    "speaker": "Ege Erdil",
+    "claim": "Intelligence is not the main barrier to technological progress or economic growth, and AI advancements may not be easily implemented globally.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI impact on economy",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "Intelligence is not the main barrier to technological progress or economic growth, and AI advancements may not be easily implemented globally.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI impact on economy",
+    "reviewed": true,
+    "text_tr": "Bence zeka, teknolojik ilerlemeyi veya ekonomik büyümeyi engelleyen bir darboğaz değil. Bu, birçok başka şey gibi. Ve bu, genel ekonominizi ölçeklendirmenin, sermaye biriktirmenin, insan sermayesini biriktirmenin, tüm bu faktörlerin ölçeklenmesinin görüşümüzle çok tutarlıdır… Aslında, daha önce belirttiğim gibi, “iyi yönetim ve iyi politikalar, toplam faktör verimliliğine katkıda bulunur ve bunlar darboğazlar olabilir” demekle de tutarlıdır. Şu anda, daha iyi yönetimimizi Sahra Altı Afrika'ya entegre edebiliriz. Hayır, edemeyiz. Zor. Bunu yapabileceğimizi düşünmüyorum. Tamam, belki teorik olarak entegre edebileceğimizi hayal etmeliydim… Katılıyorum. Birçok şeyi hayal edebilirim. Ama bunu o kadar kolay yapamayız çünkü… nedenini ifade etmek zor ve sadece sermaye veya iş gücü ile yapmak bu kadar kolay olmayacak. Neden diğer dünyanın, yapay zekanın mümkün kılacağı ilerlemelerle ilgili olarak bu pozisyonda olacağını düşünmeyelim?"
+  },
+  {
+    "start": 8526.8,
+    "end": 8592.8,
+    "text": "I mean if the AI advances are like the\nkind of geniuses in a data center, then I agree that that might be bottlenecked\nby the rest of the economy not scaling up and being able to accumulate the relevant\ncapital to make those changes feasible. So I kind of agree with this picture\nand I think this is an objection to the “geniuses in a data center”\ntype view, and I buy basically this. And also the fact that it's also plausible\nyou're going to have the technology, but then some people are not going to want\nto deploy it, or some people are going to have norms and laws and cultural\nthings that are going to make it so that AI is not able to be widely deployed\nin their economy- or not as widely deployed as they otherwise might be. And that is going to make those\ncountries or societies just slower. That's like some countries will be\ngrowing faster just like Britain and the Netherlands were sort of the\nleaders in the Industrial Revolution, they were the first countries to\nstart experiencing rapid growth. And then other countries, even in\nEurope, had to come from behind. Well again I just think we expect\nthe same thing to be true for AI.",
+    "speaker": "Ege Erdil",
+    "claim": "The deployment of AI technology may be hindered by economic and cultural factors, leading to uneven progress across different societies.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI deployment",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "The deployment of AI technology may be hindered by economic and cultural factors, leading to uneven progress across different societies.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI deployment",
+    "reviewed": false,
+    "text_tr": "Yani eğer yapay zeka ilerlemeleri bir veri merkezindeki dahiler gibiyse, o zaman ekonominin geri kalanının ölçeklenememesi ve bu değişiklikleri mümkün kılmak için ilgili sermayeyi biriktirememesi nedeniyle bunun bir darboğaz olabileceği konusunda hemfikirim. Bu yüzden bu tabloya katılıyorum ve bence bu, \"veri merkezindeki dahiler\" türü görüşe bir itirazdır ve ben temelde bunu kabul ediyorum. Ve ayrıca teknolojinin elinizde olmasının da olası olduğu gerçeği, ancak bazı insanlar onu dağıtmak istemeyecek veya bazı insanlar yapay zekanın ekonomilerinde yaygın olarak dağıtılamamasını sağlayacak normlara, yasalara ve kültürel şeylere sahip olacaklar - veya aksi takdirde olabileceği kadar yaygın dağıtılamayacak. Ve bu, o ülkeleri veya toplumları sadece yavaşlatacak. Bu, bazı ülkelerin daha hızlı büyümesi gibi, tıpkı Britanya ve Hollanda'nın Sanayi Devrimi'nin liderleri olması gibi, hızlı büyümeyi deneyimlemeye başlayan ilk ülkelerdi. Ve sonra diğer ülkeler, Avrupa'da bile, geriden gelmek zorunda kaldılar. Yine, yapay zeka için de aynı şeyin geçerli olmasını beklediğimizi düşünüyorum."
+  },
+  {
+    "start": 9138.6,
+    "end": 9200.9,
+    "text": "I guess you could have no\nacceleration when you have an ASI that is better than humans\nat everything, but it's just very expensive or very slow or something. So I don't find that particularly\nmeaningful or useful. I just prefer thinking about the\noverall effects on the world and what AI systems are capable of\nproducing those types of effects. Yeah I mean one intuition pump here is:\ncompare John von Neumann versus a human plucked from the standard distribution. If you added a million John von Neumanns\nto the world what would the impact on growth be as compared to just adding a\nmillion people from normal distribution? Well I agree it would be much greater. Right. But then because of Moravec paradox-type\narguments that you made earlier that evolution has not necessarily optimized\nus for that long along the kind of spectrum on which John von Neumann is\ndistinguished from the average human. And given the fact that already\nwithin this deviation you have this much greater economic impact.",
+    "speaker": "Ege Erdil",
+    "claim": "The impact of adding highly intelligent individuals like John von Neumann to the world would be significantly greater than adding average humans, but evolution hasn't optimized humans for such intelligence.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AGI impact",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "The impact of adding highly intelligent individuals like John von Neumann to the world would be significantly greater than adding average humans, but evolution hasn't optimized humans for such intelligence.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI impact",
+    "reviewed": false,
+    "text_tr": "Sanırım her şeyde insanlardan daha iyi olan bir ASI'nız olduğunda hızlanma olmayabilir, ama bu sadece çok pahalı veya çok yavaş veya benzeri bir şeydir. Bu yüzden bunu özellikle anlamlı veya faydalı bulmuyorum. Ben sadece dünya üzerindeki genel etkileri ve yapay zeka sistemlerinin bu tür etkileri üretme yeteneğini düşünmeyi tercih ediyorum. Evet, yani burada bir sezgi pompası şudur: John von Neumann'ı standart dağılımdan alınmış bir insanla karşılaştırın. Dünyaya bir milyon John von Neumann ekleseydiniz, normal dağılımdan bir milyon insan eklemeye kıyasla büyüme üzerindeki etkisi ne olurdu? Evet, çok daha büyük olacağını kabul ediyorum. Doğru. Ama sonra daha önce yaptığınız Moravec paradoksu tipi argümanlar nedeniyle, evrim bizi John von Neumann'ın ortalama insandan ayrıldığı türden bir spektrum boyunca o kadar uzun süre optimize etmedi. Ve zaten bu sapma içinde bu kadar büyük bir ekonomik etkiye sahip olduğunuz gerçeği göz önüne alındığında."
+  },
+  {
+    "start": 9335.8,
+    "end": 9409.9,
+    "text": "Why do you need that to happen? I think it would be nice in some sense. But I think if you want to have a very\nsophisticated world where you have very advanced technology, those things\nwill just not be accessible to you. So you have this trade-off\nbetween accessibility and maybe how advanced the world is. And from my point of view I'd much rather\nlive in a world which has very advanced technology, has a lot of products that\nI'm able to enjoy, and a lot of inventions that I can improve my life with, if that\nmeans that I just don't understand them. I think this is a very simple trade\nthat I'm very willing to make. Okay so let's get back to\nobjections to explosive growth. We discussed a couple already. Here's another which is more a\nquestion than an objection: Where is all this extra output going? Who is consuming it? If the economy is 100X bigger in a matter\nof a decade or something, to what end? So first of all I think even if\nyou view that along what you might call the intensive margin in the\nsense that you just have more of the products you have today, I think there",
+    "speaker": "Ege Erdil",
+    "claim": "There is a trade-off between accessibility and advanced technology, and I prefer a world with advanced technology even if I don't understand it.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "There is a trade-off between accessibility and advanced technology, and I prefer a world with advanced technology even if I don't understand it.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": false,
+    "text_tr": "Bunun neden olmasını istiyorsunuz? Bence bir anlamda güzel olurdu. Ama bence çok gelişmiş teknolojiye sahip, çok sofistike bir dünya istiyorsanız, bu şeyler size erişilebilir olmayacaktır. Yani erişilebilirlik ile dünyanın ne kadar gelişmiş olduğu arasında bir denge var. Ve benim bakış açımdan, eğer bu, onları anlamadığım anlamına geliyorsa, çok gelişmiş teknolojiye sahip, keyif alabileceğim birçok ürünü olan ve hayatımı iyileştirebileceğim birçok icadı olan bir dünyada yaşamayı çok daha fazla tercih ederim. Bence bu, yapmaya çok istekli olduğum çok basit bir takas. Tamam, patlayıcı büyümeye yönelik itirazlara geri dönelim. Birkaçını zaten tartıştık. İşte itirazdan çok bir soru olan bir diğeri: Tüm bu ekstra çıktı nereye gidiyor? Kim tüketiyor? Ekonomi on yıl içinde veya benzeri bir sürede 100 kat büyürse, ne amaçla? Öncelikle, bence bunu, bugün sahip olduğunuz ürünlerden daha fazlasına sahip olmak anlamında, yoğun marj olarak adlandırabileceğiniz şekilde görseniz bile, bence orada"
+  },
+  {
     "start": 9618.6,
     "end": 9687.1,
     "text": "You can also imagine you\nautomate a bunch of the economy. Well, a lot of humans were\nworking on those jobs. So now, well they don't need to do that\nanymore because those got automated. So they could work on the jobs\nthat haven't yet been automated. So as I gave the example earlier, you\nmight imagine a world in which remote work tasks get automated first, and\nthen sensory-motor skills lag behind. So you might have a world in\nwhich software engineers become physical workers instead. Of course, in that world the wages\nof physical workers will be much higher than their wages are today. So that reallocation also produces a\nlot of extra growth, even if bottlenecks are maximally powerful, even if you\njust look at all the tasks in the economy and literally take the worst\none for productivity growth, you would still get a lot of increase in\noutput because of this reallocation. So I think one point that I think is\nuseful to make; our experience talking to economists about this is that they\nwill bring up these more qualitative considerations, whereas the arguments\nthat we make, make specific quantitative predictions about growth rates.",
@@ -126,31 +444,49 @@
     "text_tr": "Ayrıca, ekonominin bir kısmını otomatikleştirdiğinizi hayal edebilirsiniz. Yani, birçok insan bu işlerde çalışıyordu. Şimdi, artık bunu yapmalarına gerek yok çünkü bunlar otomatikleştirildi. Yani, henüz otomatikleştirilmemiş işlerde çalışabilirler. Daha önce verdiğim örnekte olduğu gibi, uzaktan çalışma görevlerinin önce otomatikleştirildiği ve ardından duyusal-motor becerilerin geride kaldığı bir dünya hayal edebilirsiniz. Yani, yazılım mühendislerinin fiziksel işçiler haline geldiği bir dünya olabilir. Elbette, o dünyada fiziksel işçilerin maaşları, bugünkü maaşlarından çok daha yüksek olacaktır. Yani bu yeniden tahsis de, maksimum düzeyde darboğazlar olsa bile, ekstra bir büyüme üretir; ekonomideki tüm görevleri göz önünde bulundurursanız ve gerçekten verimlilik artışı için en kötü olanı alırsanız, bu yeniden tahsis nedeniyle hala çok fazla çıktı artışı elde edersiniz. Yani, bence belirtmek istediğim bir nokta; ekonomistler ile bu konuda konuşma deneyimimiz, onların daha niteliksel hususları gündeme getireceği, oysa bizim yaptığımız argümanların büyüme oranları hakkında belirli niceliksel tahminler yaptığıdır."
   },
   {
-    "start": 7769.4,
-    "end": 7833.4,
-    "text": "And then people also underestimated\nthe extent to which people on the ground like firefighters and so\non could just go around the city and that put out fires from bombs\nthat were falling on structures. They overestimated the amount of\neconomic damage that it would do. They underestimated how economically\ncostly it would be; basically you're sending these aircraft and then\nthey're getting shot down, while an aircraft is very expensive. So in the end how it turned out is,\nwhen the allies started bombing Germany, for each dollar of capital they were\ndestroying in Germany they were spending like four to five dollars on the\naircraft and fuel and training of the pilots and so on that they were sending\nin missions and the casualty rate was very high, which later got covered up\nby the government because they didn't want people to worry about, you know… So that is a kind of situation where\nall the planning that you would have done in advance predicated on this\nassumption of air bombing going to be this “nuclear weapons-lite”, basically\nit's extremely destructive there's going to be some aspect to which… I mean it was though, right?",
-    "speaker": "Unknown",
-    "claim": null,
+    "start": 10150.7,
+    "end": 10215.8,
+    "text": "I think one way in which current AI\nsystems are being inhibited and the reason we're seeing the growth maybe be\nslower than you might otherwise expect, is because companies in the economy are not\nused to working with this new technology, they have to rearrange the way they\nwork in order to take advantage of it. But if AI systems were literally\nable to substitute for human workers then, well, the complementary\ninnovations might not be as necessary. Actually this is a good excuse to go\nto the final topic, which is AI firms. So this blog post we wrote together\nabout what it would be like to have a firm that is fully automated, and\nthe crucial point we were making was that people tend to overemphasize and\nthink of AI from the perspective of how smart individual copies will be. And if you actually want to understand\nthe ways in which they are superhuman, you want to focus on their collective\nadvantages which, because of biology, we are precluded from, which are\nthe fact that they can be copied with all their tacit knowledge. You can copy a Jeff Dean or Ilya\nSutskever or whatever the relevant person is, in a different domain.",
+    "speaker": "Ege Erdil",
+    "claim": "Current AI systems are growing slower due to companies needing to adapt to new technology, and the focus should be on the collective advantages of AI rather than individual capabilities.",
     "stance": "Neutral",
-    "is_claim": false,
-    "topic": "off-topic",
-    "confidence": "high",
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
     "claim_labels": [
-      "other"
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "hardware_infra",
+      "execution_engineering"
     ],
     "claim_labels_auto": [
-      "other"
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "hardware_infra",
+      "execution_engineering"
     ],
-    "speaker_silver": "Unknown",
-    "is_claim_silver": false,
-    "claim_silver": null,
+    "speaker_silver": "Ege Erdil",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems are growing slower due to companies needing to adapt to new technology, and the focus should be on the collective advantages of AI rather than individual capabilities.",
     "claim_labels_silver": [
-      "other"
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power",
+      "hardware_infra",
+      "execution_engineering"
     ],
     "stance_silver": "Neutral",
-    "topic_silver": "off-topic",
-    "reviewed": true,
-    "text_tr": "Ve insanlar ayrıca, yerel düzeydeki insanların, itfaiyeciler gibi, şehirde dolaşıp yapılar üzerine düşen bombalardan çıkan yangınları söndürebileceği ölçüyü de küçümsediler. Ekonomik zararın ne kadar olacağını abarttılar. Ekonomik olarak ne kadar maliyetli olacağını küçümsediler; temelde bu uçakları gönderiyorsunuz ve sonra düşürülüyorlar, oysa bir uçak çok pahalı. Yani sonuç olarak, müttefikler Almanya'yı bombalamaya başladığında, Almanya'da yok ettikleri her bir dolar için, gönderilen uçaklar, yakıt ve pilotların eğitimi gibi şeyler için dört ila beş dolar harcıyorlardı ve kayıp oranı çok yüksekti, bu daha sonra hükümet tarafından örtbas edildi çünkü insanların endişelenmesini istemiyorlardı, biliyorsunuz… Yani bu, önceden yapacağınız tüm planlamanın, hava bombardımanının “nükleer silah hafif” olacağı varsayımına dayandığı bir durumdur, temelde son derece yıkıcıdır, bunun bazı yönleri olacaktır… Yani öyleydi, değil mi?"
+    "topic_silver": "AI development",
+    "reviewed": false,
+    "text_tr": "Mevcut yapay zeka sistemlerinin engellendiği ve büyümenin belki de beklediğinizden daha yavaş olmasının bir nedeni, ekonomideki şirketlerin bu yeni teknolojiyle çalışmaya alışkın olmaması, ondan faydalanmak için çalışma şekillerini yeniden düzenlemek zorunda olmalarıdır. Ancak yapay zeka sistemleri kelimenin tam anlamıyla insan işçilerin yerini alabilseydi, o zaman tamamlayıcı yenilikler o kadar gerekli olmayabilirdi. Aslında bu, son konuya, yani yapay zeka firmalarına geçmek için iyi bir bahane. Birlikte yazdığımız bu blog yazısı, tamamen otomatikleştirilmiş bir firmaya sahip olmanın nasıl bir şey olacağı hakkındaydı ve vurguladığımız önemli nokta, insanların yapay zekayı bireysel kopyaların ne kadar akıllı olacağı perspektifinden aşırı vurgulama ve düşünme eğiliminde olmalarıydı. Ve eğer onların insanüstü olma yollarını gerçekten anlamak istiyorsanız, biyoloji nedeniyle bizim mahrum kaldığımız, tüm örtük bilgileriyle kopyalanabilmeleri gerçeği olan kolektif avantajlarına odaklanmak istersiniz. Farklı bir alanda bir Jeff Dean'i veya Ilya Sutskever'i veya ilgili kişi kimse onu kopyalayabilirsiniz."
   },
   {
     "start": 10217.0,
@@ -219,87 +555,33 @@
     "text_tr": "Maaşlar tamamen ikincil. “Bu benim ihtiyacım olan beceri” veya ihtiyaç duyduğum beceriler seti. Eğer talep elastikiyeti yüksek bir şey varsa, paralel olarak binlerce işçiye sahip olabilirim. Bence bu, dönüştürücü AI ile birlikte, gelecekteki AI toplumunun nasıl görüneceğini anlamak için en az anlaşılan somut şeylerden biri. Bence bu çok makroekonomik bir resimle ilgili ilk nokta; tüm ilgili girdilerin büyük ölçekte artmasını bekliyorsunuz. Bence bu birinci dereceden bir şey. Ama sonra “tamam, bu dünya gerçekten nasıl görünüyor? Daha fazla insan, daha fazla sermaye ve daha fazlasının olduğu bir dünyadan nasıl farklı?” gibi daha mikro sorularınız olabilir. Çünkü farklı olmalı. Ve sonra bu hususlar önemli hale geliyor. Bir diğer önemli şey de AI'ların uyumlu olabileceğidir. AI sistemlerinizin tercihlerini kontrol edebilirsiniz, oysa işçilerinizin tercihlerini gerçekten kontrol edemezsiniz."
   },
   {
-    "start": 8459.5,
-    "end": 8526.7,
-    "text": "I think intelligence isn't the bottleneck\nthat's holding back technological progress or economic growth. It's like many other things. And so this is very much consistent\nwith our view that scaling up your overall economy, accumulating\ncapital, accumulating human capital, having all these factors scale… In fact this is even consistent with\nwhat I was saying earlier that I was pointing out this “oh, good management and\ngood policies and those just contribute to TFP and they can be bottlenecks”. Like right now we could just\nplug-and-play our better management into Sub-Saharan Africa. No we can't. It's hard. I don't think we can. Okay so maybe I should have\nsaid, one could theoretically imagine plugging and playing… I agree. I can imagine many things. But we cannot so readily do it\nbecause of… it's hard to articulate why and it wouldn't be so easy\nto do in just capital or labor. Why not think that the rest of the world\nwill be in this position with regards to the advances that AI will make possible?",
+    "start": 10443.7,
+    "end": 10510.3,
+    "text": "mega-Jensen, whatever. Yeah, I agree that's a bigger deal. At the same time, I would point out that\npart of the reason why it's important to have a coherent vision and culture\nand so on in human companies might be that incentive problems exist otherwise. I wouldn't rule that out, but I agree\nthat, aside from the overall macroeconomic thing, I think the fact that they can be\nreplicated is probably the biggest deal. That also enables additional sources\nof economies of scale where if you have twice the number of GPUs, you\ncan run not only twice the number of copies of your old model, but then you\ncan train a model that's even better. So you double your training compute and\nyour inference compute, and that means you don't get just twice the number of workers\nyou would have had otherwise, you get more than that, because they are also smarter,\nbecause you spend more training compute. So that is an additional\nsource of economies of scale. And then there's this benefit that,\nfor humans, every human has to learn things from scratch, basically. They are born and then they have\na certain amount of lifetime learning that they have to do. So in human learning, there's a\nton of duplication, while for an AI system, it could just learn once.",
     "speaker": "Ege Erdil",
-    "claim": "Intelligence is not the main barrier to technological progress or economic growth, and AI advancements may not be easily implemented globally.",
-    "stance": "Neutral",
+    "claim": "AI systems can learn more efficiently than humans, leading to greater economies of scale in training and inference.",
+    "stance": "Support",
     "is_claim": true,
-    "topic": "AI impact on economy",
+    "topic": "compute/chips",
     "confidence": "medium",
     "claim_labels": [
-      "ai_economics",
-      "llm_capabilities"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "claim_labels_auto": [
-      "ai_economics",
-      "llm_capabilities"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "speaker_silver": "Ege Erdil",
     "is_claim_silver": true,
-    "claim_silver": "Intelligence is not the main barrier to technological progress or economic growth, and AI advancements may not be easily implemented globally.",
+    "claim_silver": "AI systems can learn more efficiently than humans, leading to greater economies of scale in training and inference.",
     "claim_labels_silver": [
-      "ai_economics",
-      "llm_capabilities"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI impact on economy",
-    "reviewed": true,
-    "text_tr": "Bence zeka, teknolojik ilerlemeyi veya ekonomik büyümeyi engelleyen bir darboğaz değil. Bu, birçok başka şey gibi. Ve bu, genel ekonominizi ölçeklendirmenin, sermaye biriktirmenin, insan sermayesini biriktirmenin, tüm bu faktörlerin ölçeklenmesinin görüşümüzle çok tutarlıdır… Aslında, daha önce belirttiğim gibi, “iyi yönetim ve iyi politikalar, toplam faktör verimliliğine katkıda bulunur ve bunlar darboğazlar olabilir” demekle de tutarlıdır. Şu anda, daha iyi yönetimimizi Sahra Altı Afrika'ya entegre edebiliriz. Hayır, edemeyiz. Zor. Bunu yapabileceğimizi düşünmüyorum. Tamam, belki teorik olarak entegre edebileceğimizi hayal etmeliydim… Katılıyorum. Birçok şeyi hayal edebilirim. Ama bunu o kadar kolay yapamayız çünkü… nedenini ifade etmek zor ve sadece sermaye veya iş gücü ile yapmak bu kadar kolay olmayacak. Neden diğer dünyanın, yapay zekanın mümkün kılacağı ilerlemelerle ilgili olarak bu pozisyonda olacağını düşünmeyelim?"
-  },
-  {
-    "start": 4891.9,
-    "end": 4959.9,
-    "text": "Or even to be discovered. There's an aspect of it where you discover\ncertain things by scaling up, learning by doing, that's the [?] learning curve. And there's this separate aspect where, suppose that you become wealthier,\nwell, you can invest that increased wealth in, you use it to accumulate\nmore capital, but you also can invest it in R&D and other ways. You get Einstein out of the patent office. You need some amount of\nresources for that to make sense. And you need the economy\nto be of a certain scale. You also need demand for\nthe product you're building. So, you could have the idea, but if the\neconomy is just too small that there isn't enough demand for you to be specializing\nand producing the semiconductor or whatever, because there isn't enough\ndemand for it, then it doesn't make sense. A much larger scale of an economy\nis useful in many ways in delivering complementary innovations and discoveries\nhappening through serendipity, producing, having there be consumers that would\nactually pay enough for you to recover your fixed costs of doing all the\nexperimentation and the invention.",
-    "speaker": "Unknown",
-    "claim": null,
-    "stance": "Neutral",
-    "is_claim": false,
-    "topic": "economy/innovation",
-    "confidence": "medium",
-    "claim_labels": [
-      "other"
-    ],
-    "claim_labels_auto": [
-      "other"
-    ],
-    "speaker_silver": "Unknown",
-    "is_claim_silver": false,
-    "claim_silver": null,
-    "claim_labels_silver": [
-      "other"
-    ],
-    "stance_silver": "Neutral",
-    "topic_silver": "economy/innovation",
-    "reviewed": true,
-    "text_tr": "Ya da keşfedilmesi gereken bir şey var. Belirli şeyleri ölçeklendirerek keşfetme, yaparak öğrenme, bu öğrenme eğrisi var. Ve bunun ayrı bir yönü var, diyelim ki daha zengin hale geliyorsunuz, o zaman bu artan zenginliği, daha fazla sermaye biriktirmek için kullanıyorsunuz, ama aynı zamanda bunu AR-GE'ye ve diğer yollarla yatırıyorsunuz. Einstein'ı patent ofisinden çıkarmanız gerekiyor. Bunun mantıklı olması için belirli bir miktar kaynağa ihtiyacınız var. Ve ekonominin belirli bir ölçeğe sahip olması gerekiyor. Ayrıca, inşa ettiğiniz ürün için talebe de ihtiyacınız var. Yani, fikri bulabilirsiniz, ama eğer ekonomi çok küçükse, sizin için özelleşip yarı iletken üretmek mantıklı olmaz, çünkü bunun için yeterli talep yoksa, o zaman mantıklı olmaz. Çok daha büyük bir ekonomi ölçeği, tamamlayıcı yeniliklerin ve keşiflerin serendipite yoluyla gerçekleşmesinde birçok yönden faydalıdır, üretim yapar, sabit maliyetlerinizi geri kazanmanız için yeterince ödeyecek tüketicilerin olmasını sağlar."
-  },
-  {
-    "start": 4698.6,
-    "end": 4760.2,
-    "text": "It's just really hard. Because to understand why specific\nthings happen at specific times, you probably need to understand so much about\nthe economic conditions of the time. For example, Edison spent a ton of\ntime experimenting with different filaments to be using the light bulb. The basic idea is very simple. You make something hot\nand it glows, but then what filament actually works\nwell for that in a product? What is durable? What has the highest ratio\nof light output versus heat so that you have less\nwaste, it's more efficient. And even after you have the product, then\nyou're facing the problem, well, it's 1880 or something and US homes don't have\nelectricity, so then nobody can use it. So now you have to build power plants\nand build power lines to the houses so that people have electricity in their\nhomes so that they can actually use this new light bulb that you created. So he did that, but then people present\nit as if it's like, “okay, he just came up with the idea”, like “it's a light bulb”.",
-    "speaker": "Ege Erdil",
-    "claim": null,
-    "stance": "Neutral",
-    "is_claim": false,
-    "topic": "historical context",
-    "confidence": "medium",
-    "claim_labels": [
-      "other"
-    ],
-    "claim_labels_auto": [
-      "other"
-    ],
-    "speaker_silver": "Ege Erdil",
-    "is_claim_silver": false,
-    "claim_silver": null,
-    "claim_labels_silver": [
-      "other"
-    ],
-    "stance_silver": "Neutral",
-    "topic_silver": "historical context",
-    "reviewed": true,
-    "text_tr": "Gerçekten zor. Çünkü belirli şeylerin belirli zamanlarda neden olduğunu anlamak için, o zamanın ekonomik koşulları hakkında çok şey anlamanız gerekiyor. Örneğin, Edison, ampul için farklı filamentlerle denemeler yapmak için çok zaman harcadı. Temel fikir çok basit. Bir şeyi ısıtıyorsunuz ve parlıyor, ama o zaman hangi filament gerçekten iyi çalışıyor? Ne dayanıklı? Işık çıkışı ile ısı oranı en yüksek olan hangisi, böylece daha az atık olur, daha verimli olur. Ve ürününüzü elde ettikten sonra, o zaman karşılaştığınız sorun, 1880 veya bir şeydir ve ABD evlerinde elektrik yoktur, bu yüzden kimse bunu kullanamaz. Şimdi elektrik santralleri inşa etmeniz ve evlere elektrik hatları çekmeniz gerekiyor ki insanlar yarattığınız bu yeni ampulü kullanabilsinler. Bunu yaptı, ama insanlar bunu “tamam, o sadece fikri buldu” gibi sunuyorlar, “bu bir ampul”."
+    "stance_silver": "Support",
+    "topic_silver": "compute/chips",
+    "reviewed": false,
+    "text_tr": "mega-Jensen, her neyse. Evet, bunun daha büyük bir mesele olduğuna katılıyorum. Aynı zamanda, insan şirketlerinde tutarlı bir vizyon ve kültüre sahip olmanın önemli olmasının bir nedeninin, aksi takdirde teşvik sorunlarının var olması olabileceğini belirtmek isterim. Bunu göz ardı etmem, ancak genel makroekonomik meselenin yanı sıra, kopyalanabilir olmaları gerçeğinin muhtemelen en büyük mesele olduğuna katılıyorum. Bu aynı zamanda ek ölçek ekonomisi kaynakları da sağlar; iki kat daha fazla GPU'nuz varsa, eski modelinizin sadece iki katı kopyasını çalıştırmakla kalmaz, aynı zamanda daha da iyi bir model eğitebilirsiniz. Böylece eğitim hesaplamanızı ve çıkarım hesaplamanızı ikiye katlarsınız ve bu, aksi takdirde sahip olacağınız işçi sayısının sadece iki katını değil, daha fazlasını elde etmeniz anlamına gelir, çünkü daha fazla eğitim hesaplaması harcadığınız için onlar da daha akıllıdır. Yani bu, ek bir ölçek ekonomisi kaynağıdır. Ve sonra şöyle bir fayda var ki, insanlar için her insan her şeyi sıfırdan öğrenmek zorundadır, temelde. Doğarlar ve sonra yapmaları gereken belirli bir ömür boyu öğrenme miktarı vardır. Yani insan öğreniminde tonlarca tekrarlama varken, bir yapay zeka sistemi için sadece bir kez öğrenebilir."
   }
 ]

@@ -1,183 +1,36 @@
 [
   {
-    "start": 5632.6,
-    "end": 5700.6,
-    "text": "Now, there's several ways to do this. Some of them are supervised. You just ask a human person, like what is a good\nanswer for this, right? Then you just type the answer. I mean, there's lots of ways that those systems are being adjusted. - Now, a lot of people\nhave been very critical of the recently released\nGoogle's Gemini 1.5 for essentially, in my words,\nI could say super woke. Woke in the negative\nconnotation of that word. There is some almost hilariously\nabsurd things that it does, like it modifies history, like generating images of\na black George Washington or perhaps more seriously something that you commented on Twitter, which is refusing to comment\non or generate images of, or even descriptions of\nTiananmen Square or the tank men, one of the most sort of legendary\nprotest images in history.",
-    "speaker": "Unknown",
-    "claim": "Google's Gemini 1.5 has been criticized for its biased outputs and historical inaccuracies.",
-    "stance": "Neutral",
-    "is_claim": true,
-    "topic": "AI safety",
-    "confidence": "medium",
-    "claim_labels": [
-      "breakthroughs_needed",
-      "geopolitics"
-    ],
-    "claim_labels_auto": [
-      "breakthroughs_needed",
-      "geopolitics"
-    ],
-    "speaker_silver": "Unknown",
-    "is_claim_silver": true,
-    "claim_silver": "Google's Gemini 1.5 has been criticized for its biased outputs and historical inaccuracies.",
-    "claim_labels_silver": [
-      "breakthroughs_needed",
-      "geopolitics"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI safety",
-    "reviewed": true,
-    "text_tr": "Şimdi, bunu yapmanın birkaç yolu var. Bazıları denetimli. Sadece bir insana soruyorsunuz, bu için iyi bir cevap nedir, değil mi? Sonra cevabı yazıyorsunuz. Bu sistemlerin ayarlandığı birçok yol var. - Şimdi, birçok insan, benim sözlerimle, Google'ın yeni çıkan Gemini 1.5'ini aşırı woke olduğu için çok eleştirdi. O kelimenin olumsuz anlamında woke. Yaptığı bazı şeyler neredeyse komik bir şekilde absürt, örneğin tarihi değiştirmesi, siyahi George Washington'un görüntülerini üretmesi veya belki daha ciddi bir şekilde, Twitter'da yorum yapmayı veya Tiananmen Meydanı veya tank adamlar hakkında görüntü veya tanım üretmeyi reddetmesi gibi, tarihteki en efsanevi protesto görüntülerinden biri."
-  },
-  {
-    "start": 8096.1,
-    "end": 8161.4,
-    "text": "The design is all about safety. Because a better turbojet\nis also a safer turbojet, a more reliable one. It's the same for AI. Like do you need specific\nprovisions to make AI safe? No, you need to make better AI systems and they will be safe because they are designed\nto be more useful and more controllable. - So let's imagine a system, AI system that's able to\nbe incredibly convincing and can convince you of anything. I can at least imagine such a system. And I can see such a\nsystem be weapon-like, because it can control people's minds, we're pretty gullible. We want to believe a thing. And you can have an AI\nsystem that controls it and you could see governments\nusing that as a weapon. So do you think if you\nimagine such a system, there's any parallel to\nsomething like nuclear weapons? - [Yann] No. - So why is that technology different? So you're saying there's going\nto be gradual development?",
-    "speaker": "Lex Fridman",
-    "claim": "AI systems need to be designed to be more useful and controllable to ensure safety.",
-    "stance": "Support",
-    "is_claim": true,
-    "topic": "AI safety",
-    "confidence": "medium",
-    "claim_labels": [
-      "ai_safety_risk",
-      "ai_optimism_benefit"
-    ],
-    "claim_labels_auto": [
-      "ai_safety_risk",
-      "ai_optimism_benefit"
-    ],
-    "speaker_silver": "Lex Fridman",
-    "is_claim_silver": true,
-    "claim_silver": "AI systems need to be designed to be more useful and controllable to ensure safety.",
-    "claim_labels_silver": [
-      "ai_safety_risk",
-      "ai_optimism_benefit"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AI safety",
-    "reviewed": true,
-    "text_tr": "Tasarım tamamen güvenlik ile ilgilidir. Çünkü daha iyi bir turbojet, aynı zamanda daha güvenli bir turbojettir, daha güvenilir bir turbojet. Yapay zeka için de aynı şey geçerli. Yapay zekayı güvenli hale getirmek için özel önlemlere ihtiyaç var mı? Hayır, daha iyi yapay zeka sistemleri yapmalısınız ve bunlar daha faydalı ve daha kontrol edilebilir olacak şekilde tasarlandıkları için güvenli olacaklar. - O yüzden, inanılmaz derecede ikna edici bir yapay zeka sistemini hayal edelim ve sizi her şeye ikna edebilir. En azından böyle bir sistemi hayal edebiliyorum. Ve böyle bir sistemin silah gibi olabileceğini görebiliyorum, çünkü insanların zihinlerini kontrol edebilir, oldukça safız. Bir şeyi inanmak istiyoruz. Ve bunu kontrol eden bir yapay zeka sistemine sahip olabilirsiniz ve hükümetlerin bunu bir silah olarak kullanabileceğini görebilirsiniz. Yani, böyle bir sistemi hayal ederseniz, bunun nükleer silahlar gibi bir paraleli olduğunu düşünüyor musunuz? - [Yann] Hayır. - Peki, bu teknoloji neden farklı? Yani, kademeli bir gelişim olacağını mı söylüyorsunuz?"
-  },
-  {
-    "start": 5498.8,
-    "end": 5562.2,
-    "text": "So adjust your world model. And the way to adjust your\nworld model, even in advance, is to explore parts of the\nspace with your world model, where you know that your\nworld model is inaccurate. That's called curiosity\nbasically, or play, right? When you play, you kind of explore\npart of the state space that you don't want to do for real because it might be dangerous, but you can adjust your world model without killing yourself\nbasically. (laughs) So that's what you want to use RL for. When it comes time to\nlearning a particular task, you already have all the\ngood representations, you already have your world model, but you need to adjust it\nfor the situation at hand. That's when you use RL. - Why do you think RLHF works so well? This enforcement learning\nwith human feedback, why did it have such a\ntransformational effect on large language models that came before? - So what's had the\ntransformational effect is human feedback.",
+    "start": 535.7,
+    "end": 600.9,
+    "text": "This is the old Moravec's paradox from the pioneer of\nrobotics, Hans Moravec, who said, how is it that with computers, it seems to be easy to do\nhigh level complex tasks like playing chess and solving integrals and doing things like that, whereas the thing we take for\ngranted that we do every day, like, I don't know,\nlearning to drive a car or grabbing an object, we can't do with computers. (laughs) And we have LLMs that\ncan pass the bar exam, so they must be smart. But then they can't\nlaunch a drive in 20 hours like any 17-year-old. They can't learn to clear\nout the dinner table and fill out the dishwasher like any 10-year-old\ncan learn in one shot. Why is that? Like what are we missing? What type of learning or reasoning architecture\nor whatever are we missing that basically prevent us from having level five self-driving cars and domestic robots?",
     "speaker": "Yann LeCun",
-    "claim": "Reinforcement learning with human feedback has had a transformational effect on large language models.",
-    "stance": "Neutral",
+    "claim": "Current AI systems struggle with everyday tasks despite excelling at complex ones, highlighting limitations in achieving AGI.",
+    "stance": "Refute",
     "is_claim": true,
-    "topic": "RLHF impact",
-    "confidence": "medium",
-    "claim_labels": [
-      "scaling_compute",
-      "ai_optimism_benefit"
-    ],
-    "claim_labels_auto": [
-      "scaling_compute",
-      "ai_optimism_benefit"
-    ],
-    "speaker_silver": "Yann LeCun",
-    "is_claim_silver": true,
-    "claim_silver": "Reinforcement learning with human feedback has had a transformational effect on large language models.",
-    "claim_labels_silver": [
-      "scaling_compute",
-      "ai_optimism_benefit"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "RLHF impact",
-    "reviewed": true,
-    "text_tr": "O yüzden dünya modelinizi ayarlayın. Ve dünya modelinizi ayarlamanın yolu, hatta önceden, dünya modelinizin yanlış olduğunu bildiğiniz alanları keşfetmektir. Buna temelde merak veya oyun denir, değil mi? Oyun oynarken, gerçekte yapmak istemediğiniz, çünkü tehlikeli olabileceği bir durum alanını keşfetmiş olursunuz, ama kendinizi öldürmeden dünya modelinizi ayarlayabilirsiniz. (gülüşmeler) Yani RL'yi bunun için kullanmak istersiniz. Belirli bir görevi öğrenme zamanı geldiğinde, zaten tüm iyi temsillere sahipsiniz, zaten dünya modeliniz var, ama duruma göre onu ayarlamanız gerekiyor. İşte o zaman RL'yi kullanırsınız. - RLHF'nin bu kadar iyi çalıştığını neden düşünüyorsunuz? İnsan geri bildirimi ile bu pekiştirmeli öğrenme, önceki büyük dil modelleri üzerinde neden bu kadar dönüştürücü bir etki yarattı? - Dönüştürücü etki yaratan şey insan geri bildirimidir."
-  },
-  {
-    "start": 7768.3,
-    "end": 7831.8,
-    "text": "And because we'd never done it before, it's gonna take over the\nworld and kill us all. That is false. It's not gonna be an event. We're gonna have systems that\nare like as smart as a cat, have all the characteristics\nof human level intelligence, but their level of intelligence would be like a cat or a\nparrot maybe or something. And then we're gonna walk our way up to kind of make those\nthings more intelligent. And as we make them more intelligent, we're also gonna put\nsome guardrails in them and learn how to kind\nof put some guardrails so they behave properly. And we're not gonna do\nthis with just one... It's not gonna be one effort, but it's gonna be lots of\ndifferent people doing this. And some of them are gonna succeed at making intelligent systems\nthat are controllable and safe and have the right guardrails. And if some other goes rogue, then we can use the good ones\nto go against the rogue ones. (laughs) So it's gonna be smart AI\npolice against your rogue AI. So it's not gonna be like\nwe're gonna be exposed to like a single rogue AI\nthat's gonna kill us all. That's just not happening.",
-    "speaker": "Yann LeCun",
-    "claim": "AGI will not arrive as a single event and will develop gradually with safety measures in place.",
-    "stance": "Support",
-    "is_claim": true,
-    "topic": "AGI timeline",
+    "topic": "AGI capabilities",
     "confidence": "high",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "claim_labels_auto": [
       "agi_timeline",
-      "ai_safety_risk"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "speaker_silver": "Yann LeCun",
     "is_claim_silver": true,
-    "claim_silver": "AGI will not arrive as a single event and will develop gradually with safety measures in place.",
+    "claim_silver": "Current AI systems struggle with everyday tasks despite excelling at complex ones, highlighting limitations in achieving AGI.",
     "claim_labels_silver": [
       "agi_timeline",
-      "ai_safety_risk"
+      "scaling_compute",
+      "execution_engineering"
     ],
     "stance_silver": "Refute",
-    "topic_silver": "AGI timeline",
-    "reviewed": true,
-    "text_tr": "Ve daha önce hiç yapmadığımız için, dünyayı ele geçirecek ve hepimizi öldürecek. Bu yanlış. Bu bir olay olmayacak. Kedinin zekasına sahip, insan seviyesinde zekanın tüm özelliklerine sahip sistemlerimiz olacak, ama zekaları bir kedi veya bir papağan gibi olacak. Ve sonra bu şeyleri daha zeki hale getirmek için yavaş yavaş ilerleyeceğiz. Ve onları daha zeki hale getirdikçe, onlara bazı koruma önlemleri koyacağız ve düzgün davranmaları için nasıl koruma önlemleri koyacağımızı öğreneceğiz. Ve bunu sadece bir... Tek bir çaba ile yapmayacağız, ama birçok farklı insan bunu yapacak. Ve bazıları, kontrol edilebilir ve güvenli zeki sistemler yapmada başarılı olacak. Ve eğer bazıları kötü yola saparsa, o zaman iyi olanları kötü olanlara karşı kullanabiliriz. (gülüşmeler) Yani, akıllı yapay zeka polisi, kötü yola sapmış yapay zekaya karşı olacak. Yani, hepimizi öldürecek tek bir kötü yola sapmış yapay zekaya maruz kalmayacağız. Bu kesinlikle olmayacak."
-  },
-  {
-    "start": 3113.3,
-    "end": 3188.3,
-    "text": "So those things are an incredibly\nimpressive demonstration that self supervised\nlearning actually works. The idea that started... It didn't start with BERT, but it was really kind of a\ngood demonstration with this. So the idea that you take a\npiece of text, you corrupt it, and then you train some\ngigantic neural net to reconstruct the parts that are missing. That has been an enormous... Produced an enormous amount of benefits. It allowed us to create systems\nthat understand language, systems that can translate hundreds of languages in any direction, systems that are multilingual. It's a single system that can be trained to\nunderstand hundreds of languages and translate in any direction and produce summaries and then answer questions\nand produce text. And then there's a special case of it, which is the autoregressive trick where you constrain the system to not elaborate a\nrepresentation of the text from looking at the entire text, but only predicting a word from the words that have come before.",
-    "speaker": "Yann LeCun",
-    "claim": "Self-supervised learning has demonstrated significant benefits in language understanding and translation systems.",
-    "stance": "Neutral",
-    "is_claim": true,
-    "topic": "self-supervised learning",
-    "confidence": "medium",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "speaker_silver": "Yann LeCun",
-    "is_claim_silver": true,
-    "claim_silver": "Self-supervised learning has demonstrated significant benefits in language understanding and translation systems.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "stance_silver": "Neutral",
-    "topic_silver": "self-supervised learning",
-    "reviewed": true,
-    "text_tr": "Bu şeyler, kendiliğinden denetimli öğrenmenin gerçekten işe yaradığını gösteren inanılmaz derecede etkileyici bir gösterimdir. Başlangıçta... BERT ile başlamadı, ama bununla gerçekten iyi bir gösterim oldu. Yani, bir metin parçasını alıyorsunuz, onu bozuyorsunuz ve sonra kayda değer bir sinir ağına eksik parçaları yeniden inşa etmesi için eğitim veriyorsunuz. Bu, muazzam bir... Çok sayıda fayda sağladı. Dil anlayan sistemler, her yönde yüzlerce dili çevirebilen sistemler, çok dilli sistemler oluşturmamıza olanak tanıdı. Yüzlerce dili anlayabilen ve her yönde çevirebilen, özetler üretebilen ve ardından soruları yanıtlayabilen tek bir sistem. Ve bunun özel bir durumu var, bu da otoregresif hile, burada sistemi, metnin tamamını görmekten ziyade, yalnızca önceki kelimelerden bir kelime tahmin etmeye zorlayarak kısıtlıyorsunuz."
-  },
-  {
-    "start": 4374.8,
-    "end": 4442.0,
-    "text": "There's a hierarchical elements on. Does this mean it's a\nfundamental flaw of LLMs- - [Yann] Yeah. - Or does it mean that... (laughs) There's more part to that question? (laughs) Now you're just behaving like an LLM. (laughs) Immediately answering. No, that it's just the\nlow level world model on top of which we can then build some of these kinds of mechanisms, like you said, persistent\nlong-term memory or reasoning, so on. But we need that world model\nthat comes from language. Maybe it is not so difficult to build this kind of reasoning system on top of a well constructed world model. - Okay. Whether it's difficult or not, the near future will say, because a lot of people\nare working on reasoning and planning abilities\nfor dialogue systems. I mean, even if we restrict\nourselves to language, just having the ability to plan your answer before you answer, in terms that are not necessarily linked with the language you're gonna\nuse to produce the answer.",
-    "speaker": "Yann LeCun",
-    "claim": "Building a reasoning system on top of a well-constructed world model may not be difficult, and many are working on it.",
-    "stance": "Neutral",
-    "is_claim": true,
-    "topic": "AGI development",
-    "confidence": "medium",
-    "claim_labels": [
-      "llm_capabilities",
-      "breakthroughs_needed"
-    ],
-    "claim_labels_auto": [
-      "llm_capabilities",
-      "breakthroughs_needed"
-    ],
-    "speaker_silver": "Yann LeCun",
-    "is_claim_silver": true,
-    "claim_silver": "Building a reasoning system on top of a well-constructed world model may not be difficult, and many are working on it.",
-    "claim_labels_silver": [
-      "llm_capabilities",
-      "breakthroughs_needed"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AGI development",
-    "reviewed": true,
-    "text_tr": "Hiyerarşik unsurlar var. Bu, LLM'lerin temel bir hatası mı demek? - [Yann] Evet. - Yoksa bu... (gülüyor) O sorunun daha fazla kısmı mı var? (gülüyor) Şimdi bir LLM gibi davranıyorsunuz. (gülüyor) Hemen cevap veriyorsunuz. Hayır, bu sadece dil üzerinden inşa edebileceğimiz düşük seviyeli bir dünya modeli. Ama bu dünya modeline dayanarak, dediğiniz gibi, kalıcı uzun vadeli bellek veya akıl yürütme gibi bazı mekanizmaları inşa etmek zor değil. - Tamam. Zor olup olmadığına dair yakın gelecekte göreceğiz, çünkü birçok insan diyalog sistemleri için akıl yürütme ve planlama yetenekleri üzerinde çalışıyor. Yani, dil ile sınırlı kalsak bile, cevabınızı vermeden önce plan yapma yeteneğine sahip olmak, kullanacağınız dil ile doğrudan bağlantılı olmayan terimlerde."
+    "topic_silver": "AGI capabilities",
+    "reviewed": false,
+    "text_tr": "Bu, robotik öncüsü Hans Moravec'in eski Moravec paradoksu. Moravec, bilgisayarlarla satranç oynamak, integral çözmek gibi yüksek seviyeli karmaşık görevleri yapmanın neden kolay göründüğünü, oysa her gün yaptığımız, örneğin araba kullanmayı öğrenmek veya bir nesneyi kavramak gibi doğal kabul ettiğimiz şeyleri bilgisayarlarla yapamadığımızı söylemişti. (gülüyor) Ve baro sınavını geçebilen büyük dil modellerimiz var, yani zeki olmalılar. Ama sonra herhangi bir 17 yaşındaki gibi 20 saatte araba kullanmayı öğrenemiyorlar. Herhangi bir 10 yaşındaki çocuğun tek seferde öğrenebileceği gibi yemek masasını temizlemeyi ve bulaşık makinesini doldurmayı öğrenemiyorlar. Bu neden böyle? Ne eksik bizde? Temelde seviye beş otonom araçlara ve ev robotlarına sahip olmamızı engelleyen ne tür bir öğrenme veya akıl yürütme mimarisi ya da her neyse, neyi kaçırıyoruz?"
   },
   {
     "start": 670.6,
@@ -210,6 +63,156 @@
     "text_tr": "Ve sonra bunu metne ek olarak LLM'ye veriyorsunuz ve LLM'nin eğitim sırasında bu temsilleri kullanarak karar vermesini bekliyorsunuz. Yani, bu yönde uzun bir süre boyunca çalışmalar yapıldı. Ve şimdi bu sistemleri görüyorsunuz, değil mi? Yani, bazı görsel uzantılara sahip LLM'ler var. Ama bunlar esasen, bu şeylerin dünyayı gerçekten anlamak için eğitilmediği anlamında hack'ler. Örneğin, video ile eğitilmediler. En azından şu anda sezgisel fiziği gerçekten anlamıyorlar. - Yani, sezgisel fizik hakkında sizin için özel bir şey olduğunu düşünmüyor musunuz, fiziksel alan, fiziksel gerçeklik hakkında sağduyu ile ilgili? Bu sizin için LLM'lerin yapamadığı dev bir sıçrama mı? - Bugün çalıştığımız LLM'lerle bunu yapamayacağız. Bunun birçok nedeni var, ama ana neden, LLM'lerin eğitilme şekli, bir metin parçasını alıp, o metindeki bazı kelimeleri çıkarıp, onları maskeleyip, siyah işaretçilerle değiştirmek ve ardından kayda değer bir sinir ağına eksik kelimeleri tahmin ettirmektir."
   },
   {
+    "start": 1927.1,
+    "end": 1992.0,
+    "text": "And so we can get away without\ndoing the joint embedding, without lifting the abstraction level and by directly predicting words. - So joint embedding. It's still generative, but it's generative in this\nabstract representation space. - [Yann] Yeah. - And you're saying language, we were lazy with language 'cause we already got the\nabstract representation for free and now we have to zoom out, actually think about\ngenerally intelligent systems, we have to deal with the full mess of physical of reality, of reality. And you do have to do this step of jumping from the full,\nrich, detailed reality to an abstract representation\nof that reality based on what you can then reason and all that kind of stuff. - Right. And the thing is those\nself supervised algorithms that learn by prediction, even in representation space, they learn more concept if the input data you feed\nthem is more redundant.",
+    "speaker": "Yann LeCun",
+    "claim": "Developing AGI requires moving from abstract representations to understanding the complexities of physical reality.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Developing AGI requires moving from abstract representations to understanding the complexities of physical reality.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI development",
+    "reviewed": false,
+    "text_tr": "Ve böylece ortak gömme yapmadan, soyutlama seviyesini yükseltmeden ve doğrudan kelimeleri tahmin ederek kurtulabiliriz. - Yani ortak gömme. Hala üretken, ama bu soyut temsil uzayında üretken. - [Yann] Evet. - Ve diyorsunuz ki dil konusunda tembel davrandık çünkü soyut temsili zaten bedavaya elde ettik ve şimdi geri çekilip genel zeki sistemleri düşünmemiz gerekiyor, gerçekliğin, fiziksel gerçekliğin tüm karmaşasıyla uğraşmamız gerekiyor. Ve tam, zengin, detaylı gerçeklikten, daha sonra akıl yürütebileceğiniz ve benzeri şeylere dayalı olarak o gerçekliğin soyut bir temsiline atlama adımını atmak zorundasınız. - Doğru. Ve mesele şu ki, tahmin yoluyla öğrenen bu kendi kendine denetimli algoritmalar, temsil uzayında bile, onlara beslediğiniz girdi verileri daha yedekli ise daha fazla kavram öğrenirler."
+  },
+  {
+    "start": 3113.3,
+    "end": 3188.3,
+    "text": "So those things are an incredibly\nimpressive demonstration that self supervised\nlearning actually works. The idea that started... It didn't start with BERT, but it was really kind of a\ngood demonstration with this. So the idea that you take a\npiece of text, you corrupt it, and then you train some\ngigantic neural net to reconstruct the parts that are missing. That has been an enormous... Produced an enormous amount of benefits. It allowed us to create systems\nthat understand language, systems that can translate hundreds of languages in any direction, systems that are multilingual. It's a single system that can be trained to\nunderstand hundreds of languages and translate in any direction and produce summaries and then answer questions\nand produce text. And then there's a special case of it, which is the autoregressive trick where you constrain the system to not elaborate a\nrepresentation of the text from looking at the entire text, but only predicting a word from the words that have come before.",
+    "speaker": "Yann LeCun",
+    "claim": "Self-supervised learning has demonstrated significant benefits in language understanding and translation systems.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "self-supervised learning",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Self-supervised learning has demonstrated significant benefits in language understanding and translation systems.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "self-supervised learning",
+    "reviewed": true,
+    "text_tr": "Bu şeyler, kendiliğinden denetimli öğrenmenin gerçekten işe yaradığını gösteren inanılmaz derecede etkileyici bir gösterimdir. Başlangıçta... BERT ile başlamadı, ama bununla gerçekten iyi bir gösterim oldu. Yani, bir metin parçasını alıyorsunuz, onu bozuyorsunuz ve sonra kayda değer bir sinir ağına eksik parçaları yeniden inşa etmesi için eğitim veriyorsunuz. Bu, muazzam bir... Çok sayıda fayda sağladı. Dil anlayan sistemler, her yönde yüzlerce dili çevirebilen sistemler, çok dilli sistemler oluşturmamıza olanak tanıdı. Yüzlerce dili anlayabilen ve her yönde çevirebilen, özetler üretebilen ve ardından soruları yanıtlayabilen tek bir sistem. Ve bunun özel bir durumu var, bu da otoregresif hile, burada sistemi, metnin tamamını görmekten ziyade, yalnızca önceki kelimelerden bir kelime tahmin etmeye zorlayarak kısıtlıyorsunuz."
+  },
+  {
+    "start": 3188.3,
+    "end": 3254.2,
+    "text": "Right? And you do this by constraining the\narchitecture of the network. And that's what you can build\nan autoregressive LLM from. So there was a surprise many years ago with what's called decoder only LLM. So systems of this type that are just trying to produce\nwords from the previous one. And the fact that when you scale them up, they tend to really kind of\nunderstand more about language. When you train them on lots of data, you make them really big. That was kind of a surprise. And that surprise occurred\nquite a while back. Like with work from Google,\nMeta, OpenAI, et cetera, going back to the GPT kind of general pre-trained transformers. - You mean like GPT-2? Like there's a certain place where you start to realize scaling might actually keep\ngiving us an emergent benefit. - Yeah, I mean there were\nwork from various places, but if you want to kind of\nplace it in the GPT timeline,",
+    "speaker": "Yann LeCun",
+    "claim": "Scaling up language models can lead to emergent benefits in understanding language.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Scaling up language models can lead to emergent benefits in understanding language.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "compute/chips",
+    "reviewed": false,
+    "text_tr": "Doğru mu? Ve bunu ağın mimarisini kısıtlayarak yapıyorsunuz. Otoregresif bir LLM'yi de bu şekilde inşa edebilirsiniz. Yani yıllar önce sadece kod çözücü (decoder only) LLM'ler denilen şeyle ilgili bir sürpriz yaşandı. Önceki kelimelerden yeni kelimeler üretmeye çalışan bu tür sistemler. Ve onları ölçeklendirdiğinizde, dili daha iyi anlamaya eğilimli olmaları. Onları çok fazla veriyle eğittiğinizde, onları gerçekten büyük hale getirdiğinizde. Bu bir tür sürprizdi. Ve bu sürpriz oldukça uzun zaman önce gerçekleşti. Google, Meta, OpenAI ve benzeri şirketlerin çalışmalarıyla, GPT türü genel önceden eğitilmiş transformatörlere kadar uzanıyor. - Yani GPT-2 gibi mi? Sanki ölçeklendirmenin bize aslında ortaya çıkan bir fayda sağlamaya devam edebileceğini fark etmeye başladığınız belirli bir nokta var gibi. - Evet, yani çeşitli yerlerden çalışmalar vardı, ama eğer bunu GPT zaman çizelgesine yerleştirmek isterseniz,"
+  },
+  {
+    "start": 3449.9,
+    "end": 3515.6,
+    "text": "And some of that work has\nbeen incredibly successful. I mean, the reason why we have multilingual translation system, things to do, content moderation on Meta,\nfor example, on Facebook that are multilingual, that understand whether piece of text is hate speech or not, or something is due to their progress using self supervised running for NLP, combining this with\ntransformer architectures and blah blah blah. But that's the big success\nof self supervised running. We had similar success\nin speech recognition, a system called Wav2Vec, which is also a joint embedding\narchitecture by the way, trained with contrastive learning. And that system also can produce speech recognition systems\nthat are multilingual with mostly unlabeled data and only need a few\nminutes of labeled data to actually do speech recognition. That's amazing. We have systems now based on\nthose combination of ideas that can do real time translation of hundreds of languages into each other, speech to speech. - Speech to speech, even including, which is fascinating, languages that don't have written forms- - That's right.\n- They're spoken only.",
+    "speaker": "Yann LeCun",
+    "claim": "Recent advancements in self-supervised learning have led to significant successes in multilingual translation and speech recognition.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI advancements",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Recent advancements in self-supervised learning have led to significant successes in multilingual translation and speech recognition.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI advancements",
+    "reviewed": false,
+    "text_tr": "Ve bu çalışmaların bazıları inanılmaz derecede başarılı oldu. Yani, çok dilli çeviri sistemlerine sahip olmamızın, Meta'da, örneğin Facebook'ta çok dilli olan, bir metin parçasının nefret söylemi olup olmadığını anlayan içerik denetimi gibi şeylerin nedeni, NLP için kendi kendine denetimli öğrenmeyi kullanmadaki ilerlemeleri, bunu transformatör mimarileriyle birleştirmeleri ve benzeri şeylerdir. Ama kendi kendine denetimli öğrenmenin büyük başarısı budur. Konuşma tanımada da benzer bir başarı elde ettik, Wav2Vec adlı bir sistem, bu arada o da karşılaştırmalı öğrenmeyle eğitilmiş ortak bir gömme mimarisidir. Ve bu sistem de çoğunlukla etiketlenmemiş verilerle çok dilli konuşma tanıma sistemleri üretebiliyor ve gerçek konuşma tanıma yapmak için sadece birkaç dakikalık etiketli veriye ihtiyaç duyuyor. Bu inanılmaz. Artık bu fikirlerin birleşimiyle, yüzlerce dili birbirine gerçek zamanlı olarak, konuşmadan konuşmaya çevirebilen sistemlerimiz var. - Konuşmadan konuşmaya, hatta yazılı biçimleri olmayan diller de dahil olmak üzere, ki bu büyüleyici. - Aynen öyle. - Sadece konuşulan diller."
+  },
+  {
+    "start": 4374.8,
+    "end": 4442.0,
+    "text": "There's a hierarchical elements on. Does this mean it's a\nfundamental flaw of LLMs- - [Yann] Yeah. - Or does it mean that... (laughs) There's more part to that question? (laughs) Now you're just behaving like an LLM. (laughs) Immediately answering. No, that it's just the\nlow level world model on top of which we can then build some of these kinds of mechanisms, like you said, persistent\nlong-term memory or reasoning, so on. But we need that world model\nthat comes from language. Maybe it is not so difficult to build this kind of reasoning system on top of a well constructed world model. - Okay. Whether it's difficult or not, the near future will say, because a lot of people\nare working on reasoning and planning abilities\nfor dialogue systems. I mean, even if we restrict\nourselves to language, just having the ability to plan your answer before you answer, in terms that are not necessarily linked with the language you're gonna\nuse to produce the answer.",
+    "speaker": "Yann LeCun",
+    "claim": "Building a reasoning system on top of a well-constructed world model may not be difficult, and many are working on it.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Building a reasoning system on top of a well-constructed world model may not be difficult, and many are working on it.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": true,
+    "text_tr": "Hiyerarşik unsurlar var. Bu, LLM'lerin temel bir hatası mı demek? - [Yann] Evet. - Yoksa bu... (gülüyor) O sorunun daha fazla kısmı mı var? (gülüyor) Şimdi bir LLM gibi davranıyorsunuz. (gülüyor) Hemen cevap veriyorsunuz. Hayır, bu sadece dil üzerinden inşa edebileceğimiz düşük seviyeli bir dünya modeli. Ama bu dünya modeline dayanarak, dediğiniz gibi, kalıcı uzun vadeli bellek veya akıl yürütme gibi bazı mekanizmaları inşa etmek zor değil. - Tamam. Zor olup olmadığına dair yakın gelecekte göreceğiz, çünkü birçok insan diyalog sistemleri için akıl yürütme ve planlama yetenekleri üzerinde çalışıyor. Yani, dil ile sınırlı kalsak bile, cevabınızı vermeden önce plan yapma yeteneğine sahip olmak, kullanacağınız dil ile doğrudan bağlantılı olmayan terimlerde."
+  },
+  {
     "start": 4577.7,
     "end": 4647.8,
     "text": "So basically the principle is like this. The prompt is like observed variables. And what the model does is that it's basically a measure of... It can measure to what extent an answer is a good answer for a prompt. Okay? So think of it as some\ngigantic neural net, but it's got only one output. And that output is a scaler number, which is let's say zero if the answer is a good\nanswer for the question, and a large number if the answer is not a good\nanswer for the question. Imagine you had this model. If you had such a model, you could use it to produce good answers. The way you would do is produce the prompt and then search through the\nspace of possible answers for one that minimizes that number. That's called an energy based model. - But that energy based model would need the model\nconstructed by the LLM. - Well, so really what you need to do would be to not search over\npossible strings of text that minimize that energy.",
@@ -235,5 +238,293 @@
     "topic_silver": "AI models",
     "reviewed": true,
     "text_tr": "Yani, temel ilke şöyle. İstek, gözlemlenen değişkenler gibidir. Ve modelin yaptığı şey, bir cevabın bir istek için ne kadar iyi bir cevap olduğunu ölçmektir. Tamam mı? Yani, devasa bir sinir ağı olarak düşünün, ama sadece bir çıktısı var. Ve o çıktı, eğer cevap soru için iyi bir cevapsa sıfır, eğer cevap iyi bir cevap değilse büyük bir sayı. Böyle bir modeliniz varsa, iyi cevaplar üretmek için bunu kullanabilirsiniz. Yapacağınız şey, isteği üretmek ve ardından mümkün olan cevaplar arasında bu sayıyı minimize eden birini aramaktır. Buna enerji tabanlı model denir. - Ama o enerji tabanlı model, LLM tarafından inşa edilen modele ihtiyaç duyar. - Gerçekten, yapmanız gereken şey, o enerjiyi minimize eden metin dizileri üzerinde arama yapmamak olacaktır."
+  },
+  {
+    "start": 5498.8,
+    "end": 5562.2,
+    "text": "So adjust your world model. And the way to adjust your\nworld model, even in advance, is to explore parts of the\nspace with your world model, where you know that your\nworld model is inaccurate. That's called curiosity\nbasically, or play, right? When you play, you kind of explore\npart of the state space that you don't want to do for real because it might be dangerous, but you can adjust your world model without killing yourself\nbasically. (laughs) So that's what you want to use RL for. When it comes time to\nlearning a particular task, you already have all the\ngood representations, you already have your world model, but you need to adjust it\nfor the situation at hand. That's when you use RL. - Why do you think RLHF works so well? This enforcement learning\nwith human feedback, why did it have such a\ntransformational effect on large language models that came before? - So what's had the\ntransformational effect is human feedback.",
+    "speaker": "Yann LeCun",
+    "claim": "Reinforcement learning with human feedback has had a transformational effect on large language models.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "RLHF impact",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Reinforcement learning with human feedback has had a transformational effect on large language models.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "RLHF impact",
+    "reviewed": true,
+    "text_tr": "O yüzden dünya modelinizi ayarlayın. Ve dünya modelinizi ayarlamanın yolu, hatta önceden, dünya modelinizin yanlış olduğunu bildiğiniz alanları keşfetmektir. Buna temelde merak veya oyun denir, değil mi? Oyun oynarken, gerçekte yapmak istemediğiniz, çünkü tehlikeli olabileceği bir durum alanını keşfetmiş olursunuz, ama kendinizi öldürmeden dünya modelinizi ayarlayabilirsiniz. (gülüşmeler) Yani RL'yi bunun için kullanmak istersiniz. Belirli bir görevi öğrenme zamanı geldiğinde, zaten tüm iyi temsillere sahipsiniz, zaten dünya modeliniz var, ama duruma göre onu ayarlamanız gerekiyor. İşte o zaman RL'yi kullanırsınız. - RLHF'nin bu kadar iyi çalıştığını neden düşünüyorsunuz? İnsan geri bildirimi ile bu pekiştirmeli öğrenme, önceki büyük dil modelleri üzerinde neden bu kadar dönüştürücü bir etki yarattı? - Dönüştürücü etki yaratan şey insan geri bildirimidir."
+  },
+  {
+    "start": 5632.6,
+    "end": 5700.6,
+    "text": "Now, there's several ways to do this. Some of them are supervised. You just ask a human person, like what is a good\nanswer for this, right? Then you just type the answer. I mean, there's lots of ways that those systems are being adjusted. - Now, a lot of people\nhave been very critical of the recently released\nGoogle's Gemini 1.5 for essentially, in my words,\nI could say super woke. Woke in the negative\nconnotation of that word. There is some almost hilariously\nabsurd things that it does, like it modifies history, like generating images of\na black George Washington or perhaps more seriously something that you commented on Twitter, which is refusing to comment\non or generate images of, or even descriptions of\nTiananmen Square or the tank men, one of the most sort of legendary\nprotest images in history.",
+    "speaker": "Unknown",
+    "claim": "Google's Gemini 1.5 has been criticized for its biased outputs and historical inaccuracies.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "geopolitics"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "geopolitics"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Google's Gemini 1.5 has been criticized for its biased outputs and historical inaccuracies.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "geopolitics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Şimdi, bunu yapmanın birkaç yolu var. Bazıları denetimli. Sadece bir insana soruyorsunuz, bu için iyi bir cevap nedir, değil mi? Sonra cevabı yazıyorsunuz. Bu sistemlerin ayarlandığı birçok yol var. - Şimdi, birçok insan, benim sözlerimle, Google'ın yeni çıkan Gemini 1.5'ini aşırı woke olduğu için çok eleştirdi. O kelimenin olumsuz anlamında woke. Yaptığı bazı şeyler neredeyse komik bir şekilde absürt, örneğin tarihi değiştirmesi, siyahi George Washington'un görüntülerini üretmesi veya belki daha ciddi bir şekilde, Twitter'da yorum yapmayı veya Tiananmen Meydanı veya tank adamlar hakkında görüntü veya tanım üretmeyi reddetmesi gibi, tarihteki en efsanevi protesto görüntülerinden biri."
+  },
+  {
+    "start": 7098.1,
+    "end": 7163.4,
+    "text": "So there's gonna be like\nvarious versions of LLaMA that are improvements of previous LLaMAs. Bigger, better, multimodal,\nthings like that. And then in future generations, systems that are capable of planning, that really understand\nhow the world works, maybe are trained from video\nso they have some world model. Maybe capable of the type\nof reasoning and planning I was talking about earlier. Like how long is that gonna take? Like when is the research that\nis going in that direction going to sort of feed into\nthe product line, if you want, of LLaMA? I don't know, I can't tell you. And there's a few breakthroughs that we have to basically go through before we can get there. But you'll be able to monitor our progress because we publish our research, right? So last week we published the V-JEPA work, which is sort of a first step towards training systems from video. And then the next step\nis gonna be world models based on kind of this type of idea, training from video.",
+    "speaker": "Yann LeCun",
+    "claim": "The development of advanced AI systems like LLaMA will take time and requires several breakthroughs before achieving capabilities like planning and reasoning.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "The development of advanced AI systems like LLaMA will take time and requires several breakthroughs before achieving capabilities like planning and reasoning.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Yani LLaMA'nın önceki LLaMA'ların iyileştirmeleri olan çeşitli versiyonları olacak. Daha büyük, daha iyi, çok modlu, bunun gibi şeyler. Ve sonra gelecek nesillerde, planlama yapabilen, dünyanın nasıl çalıştığını gerçekten anlayan, belki videodan eğitilmiş ve bu sayede bir dünya modeline sahip olan sistemler. Belki de daha önce bahsettiğim türden akıl yürütme ve planlama yeteneğine sahip. Bu ne kadar sürecek? Bu yönde ilerleyen araştırmalar, LLaMA'nın ürün hattına ne zaman dahil olacak, isterseniz? Bilmiyorum, size söyleyemem. Ve oraya ulaşmadan önce temel olarak geçmemiz gereken birkaç atılım var. Ama ilerlememizi takip edebileceksiniz çünkü araştırmalarımızı yayınlıyoruz, değil mi? Geçen hafta V-JEPA çalışmasını yayınladık, bu videodan sistemleri eğitmek için bir ilk adım. Ve sonraki adım, bu tür bir fikre dayalı dünya modelleri, videodan eğitim olacak."
+  },
+  {
+    "start": 7768.3,
+    "end": 7831.8,
+    "text": "And because we'd never done it before, it's gonna take over the\nworld and kill us all. That is false. It's not gonna be an event. We're gonna have systems that\nare like as smart as a cat, have all the characteristics\nof human level intelligence, but their level of intelligence would be like a cat or a\nparrot maybe or something. And then we're gonna walk our way up to kind of make those\nthings more intelligent. And as we make them more intelligent, we're also gonna put\nsome guardrails in them and learn how to kind\nof put some guardrails so they behave properly. And we're not gonna do\nthis with just one... It's not gonna be one effort, but it's gonna be lots of\ndifferent people doing this. And some of them are gonna succeed at making intelligent systems\nthat are controllable and safe and have the right guardrails. And if some other goes rogue, then we can use the good ones\nto go against the rogue ones. (laughs) So it's gonna be smart AI\npolice against your rogue AI. So it's not gonna be like\nwe're gonna be exposed to like a single rogue AI\nthat's gonna kill us all. That's just not happening.",
+    "speaker": "Yann LeCun",
+    "claim": "AGI will not arrive as a single event and will develop gradually with safety measures in place.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will not arrive as a single event and will develop gradually with safety measures in place.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "text_tr": "Ve daha önce hiç yapmadığımız için, dünyayı ele geçirecek ve hepimizi öldürecek. Bu yanlış. Bu bir olay olmayacak. Kedinin zekasına sahip, insan seviyesinde zekanın tüm özelliklerine sahip sistemlerimiz olacak, ama zekaları bir kedi veya bir papağan gibi olacak. Ve sonra bu şeyleri daha zeki hale getirmek için yavaş yavaş ilerleyeceğiz. Ve onları daha zeki hale getirdikçe, onlara bazı koruma önlemleri koyacağız ve düzgün davranmaları için nasıl koruma önlemleri koyacağımızı öğreneceğiz. Ve bunu sadece bir... Tek bir çaba ile yapmayacağız, ama birçok farklı insan bunu yapacak. Ve bazıları, kontrol edilebilir ve güvenli zeki sistemler yapmada başarılı olacak. Ve eğer bazıları kötü yola saparsa, o zaman iyi olanları kötü olanlara karşı kullanabiliriz. (gülüşmeler) Yani, akıllı yapay zeka polisi, kötü yola sapmış yapay zekaya karşı olacak. Yani, hepimizi öldürecek tek bir kötü yola sapmış yapay zekaya maruz kalmayacağız. Bu kesinlikle olmayacak."
+  },
+  {
+    "start": 8096.1,
+    "end": 8161.4,
+    "text": "The design is all about safety. Because a better turbojet\nis also a safer turbojet, a more reliable one. It's the same for AI. Like do you need specific\nprovisions to make AI safe? No, you need to make better AI systems and they will be safe because they are designed\nto be more useful and more controllable. - So let's imagine a system, AI system that's able to\nbe incredibly convincing and can convince you of anything. I can at least imagine such a system. And I can see such a\nsystem be weapon-like, because it can control people's minds, we're pretty gullible. We want to believe a thing. And you can have an AI\nsystem that controls it and you could see governments\nusing that as a weapon. So do you think if you\nimagine such a system, there's any parallel to\nsomething like nuclear weapons? - [Yann] No. - So why is that technology different? So you're saying there's going\nto be gradual development?",
+    "speaker": "Lex Fridman",
+    "claim": "AI systems need to be designed to be more useful and controllable to ensure safety.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems need to be designed to be more useful and controllable to ensure safety.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Tasarım tamamen güvenlik ile ilgilidir. Çünkü daha iyi bir turbojet, aynı zamanda daha güvenli bir turbojettir, daha güvenilir bir turbojet. Yapay zeka için de aynı şey geçerli. Yapay zekayı güvenli hale getirmek için özel önlemlere ihtiyaç var mı? Hayır, daha iyi yapay zeka sistemleri yapmalısınız ve bunlar daha faydalı ve daha kontrol edilebilir olacak şekilde tasarlandıkları için güvenli olacaklar. - O yüzden, inanılmaz derecede ikna edici bir yapay zeka sistemini hayal edelim ve sizi her şeye ikna edebilir. En azından böyle bir sistemi hayal edebiliyorum. Ve böyle bir sistemin silah gibi olabileceğini görebiliyorum, çünkü insanların zihinlerini kontrol edebilir, oldukça safız. Bir şeyi inanmak istiyoruz. Ve bunu kontrol eden bir yapay zeka sistemine sahip olabilirsiniz ve hükümetlerin bunu bir silah olarak kullanabileceğini görebilirsiniz. Yani, böyle bir sistemi hayal ederseniz, bunun nükleer silahlar gibi bir paraleli olduğunu düşünüyor musunuz? - [Yann] Hayır. - Peki, bu teknoloji neden farklı? Yani, kademeli bir gelişim olacağını mı söylüyorsunuz?"
+  },
+  {
+    "start": 8358.8,
+    "end": 8424.6,
+    "text": "This is an industry that's\nnot good at secrecy. (laughs) - But even if there is, just the fact that you know\nthat something is possible makes you like realize that it's worth investing\nthe time to actually do it. You may be the second person\nto do it but you'll do it. Say for all the innovations of self supervised running transformers, decoder only architectures, LLMs. I mean those things, you don't need to know exactly\nthe details of how they work to know that it's possible because it's deployed and\nthen it's getting reproduced. And then people who work\nfor those companies move. They go from one company to another. And the information disseminates. What makes the success\nof the US tech industry and Silicon Valley in\nparticular, is exactly that, is because information\ncirculates really, really quickly and disseminates very quickly. And so the whole region sort of is ahead because of that\ncirculation of information.",
+    "speaker": "Yann LeCun",
+    "claim": "The rapid circulation of information in the tech industry contributes to innovation and progress.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "innovation/tech industry",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "ai_economics"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_economics"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "The rapid circulation of information in the tech industry contributes to innovation and progress.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "innovation/tech industry",
+    "reviewed": false,
+    "text_tr": "Bu, gizlilik konusunda iyi olmayan bir endüstri. (gülüyor) - Ama olsa bile, bir şeyin mümkün olduğunu bilmek bile, onu gerçekten yapmak için zaman ayırmaya değer olduğunu fark etmenizi sağlar. Belki onu yapan ikinci kişi olursunuz ama yaparsınız. Kendi kendine denetimli öğrenen transformatörlerin, sadece kod çözücü mimarilerin, LLM'lerin tüm yenilikleri için. Yani bu şeyler, nasıl çalıştıklarının tam ayrıntılarını bilmenize gerek yok, çünkü mümkün olduğunu biliyorsunuz, çünkü dağıtılıyor ve sonra yeniden üretiliyor. Ve sonra bu şirketlerde çalışan insanlar yer değiştiriyor. Bir şirketten diğerine gidiyorlar. Ve bilgi yayılıyor. ABD teknoloji endüstrisinin ve özellikle Silikon Vadisi'nin başarısını sağlayan şey tam da budur, çünkü bilgi gerçekten çok hızlı dolaşır ve çok hızlı yayılır. Ve bu nedenle tüm bölge, bu bilgi dolaşımı sayesinde bir nevi öndedir."
+  },
+  {
+    "start": 8424.6,
+    "end": 8491.6,
+    "text": "- Maybe just to linger on\nthe psychology of AI doomers. You give in the classic Yann LeCun way, a pretty good example of just when a new technology comes to be, you say engineer says, \"I invented this new thing,\nI call it a ballpen.\" And then the TwitterSphere responds, \"OMG people could write\nhorrible things with it like misinformation,\npropaganda, hate speech. Ban it now!\" Then writing doomers come in, akin to the AI doomers, \"imagine if everyone can get a ballpen. This could destroy society. There should be a law against using ballpen\nto write hate speech, regulate ballpens now.\" And then the pencil industry mogul says, \"yeah, ballpens are very dangerous, unlike pencil writing which is erasable, ballpen writing stays forever. Government should require a\nlicense for a pen manufacturer.\" I mean, this does seem to\nbe part of human psychology when it comes up against new technology.",
+    "speaker": "Yann LeCun",
+    "claim": "The reaction to new technologies often includes fear and calls for regulation, similar to the response to AI.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "The reaction to new technologies often includes fear and calls for regulation, similar to the response to AI.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "- Belki de sadece yapay zeka kıyametçilerinin psikolojisi üzerinde biraz duralım. Klasik Yann LeCun tarzında, yeni bir teknoloji ortaya çıktığında, mühendisin 'Bu yeni şeyi icat ettim, ona tükenmez kalem diyorum' dediği oldukça iyi bir örnek veriyorsunuz. Ve sonra Twitter camiası 'Aman Tanrım, insanlar bununla dezenformasyon, propaganda, nefret söylemi gibi korkunç şeyler yazabilir. Hemen yasaklayın!' diye yanıt veriyor. Sonra yapay zeka kıyametçilerine benzer şekilde yazma kıyametçileri devreye giriyor, 'Herkes bir tükenmez kalem edinebilirse düşünün. Bu toplumu yok edebilir. Tükenmez kalemle nefret söylemi yazmaya karşı bir yasa olmalı, tükenmez kalemleri şimdi düzenleyin.' Ve sonra kurşun kalem endüstrisi patronu diyor ki, 'Evet, tükenmez kalemler çok tehlikeli, silinebilen kurşun kalem yazısının aksine, tükenmez kalem yazısı sonsuza kadar kalır. Hükümet bir kalem üreticisi için lisans talep etmeli.' Yani, bu yeni teknolojiyle karşılaşıldığında insan psikolojisinin bir parçası gibi görünüyor."
+  },
+  {
+    "start": 8774.9,
+    "end": 8846.2,
+    "text": "And the problem I'm seeing, which is why I've been so vocal and sometimes a little sardonic about it- - Never stop. Never stop, Yann. (both laugh) We love it.\n- Is because I see the danger of this concentration of power through proprietary AI systems as a much bigger danger\nthan everything else. That if we really want\ndiversity of opinion AI systems that in the future that we'll all be interacting\nthrough AI systems, we need those to be diverse for the preservation\nof a diversity of ideas and creeds and political\nopinions and whatever, and the preservation of democracy. And what works against this is people who think that\nfor reasons of security, we should keep AI systems\nunder lock and key because it's too dangerous to put it in the hands of everybody because it could be used\nby terrorists or something.",
+    "speaker": "Yann LeCun",
+    "claim": "The concentration of power in proprietary AI systems poses a greater danger than the potential of AGI.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels": [
+      "open_source",
+      "ai_race_power",
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "ai_race_power",
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "The concentration of power in proprietary AI systems poses a greater danger than the potential of AGI.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_race_power",
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Ve gördüğüm sorun, bu yüzden bu konuda bu kadar sesli ve bazen biraz alaycı oldum - - Asla durma. Asla durma, Yann. (ikisi de güler) Bayılıyoruz. - Çünkü tescilli yapay zeka sistemleri aracılığıyla bu güç yoğunlaşmasının tehlikesini diğer her şeyden çok daha büyük bir tehlike olarak görüyorum. Gelecekte hepimizin yapay zeka sistemleri aracılığıyla etkileşim kuracağı, fikir çeşitliliğine sahip yapay zeka sistemleri istiyorsak, fikirlerin, inançların, siyasi görüşlerin ve her ne olursa olsun çeşitliliğinin korunması ve demokrasinin korunması için bunların çeşitli olması gerekiyor. Ve buna karşı çıkan şey ise, güvenlik nedenleriyle yapay zeka sistemlerini kilit altında tutmamız gerektiğini düşünen insanlar, çünkü herkesin eline vermek çok tehlikeli, teröristler veya benzeri kişiler tarafından kullanılabilir."
+  },
+  {
+    "start": 9595.6,
+    "end": 9662.1,
+    "text": "I mean, all the mistakes\nthat humanity makes is because of lack of\nintelligence, really, or lack of knowledge, which is related. So making people smarter\nwhich can only be better. I mean, for the same reason that public education is a good thing and books are a good thing, and the internet is also a\ngood thing, intrinsically. And even social networks are a good thing if you run them properly. (laughs) It's difficult, but you can. Because it helps the communication of information and knowledge and the transmission of knowledge. So AI is gonna make humanity smarter. And the analogy I've been using is the fact that perhaps\nan equivalent event in the history of humanity to what might be provided by\ngeneralization of AI assistant is the invention of the printing press. It made everybody smarter. The fact that people could\nhave access to books.",
+    "speaker": "Yann LeCun",
+    "claim": "AI will enhance human intelligence and is comparable to the invention of the printing press.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AI impact on intelligence",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "AI will enhance human intelligence and is comparable to the invention of the printing press.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI impact on intelligence",
+    "reviewed": false,
+    "text_tr": "Yani, insanlığın yaptığı tüm hatalar aslında zeka eksikliğinden veya bununla ilişkili bilgi eksikliğinden kaynaklanıyor. Bu yüzden insanları daha akıllı hale getirmek ancak daha iyi olabilir. Yani, halk eğitiminin iyi bir şey olması, kitapların iyi bir şey olması ve internetin de doğası gereği iyi bir şey olmasıyla aynı nedenden dolayı. Ve hatta sosyal ağlar bile doğru işletilirse iyi bir şeydir. (gülüyor) Zor ama yapabilirsiniz. Çünkü bilginin ve bilginin iletişimine ve aktarımına yardımcı olur. Bu yüzden yapay zeka insanlığı daha akıllı hale getirecek. Ve kullandığım benzetme, belki de yapay zeka asistanının genelleşmesiyle sağlanabilecek şeye insanlık tarihinde eşdeğer bir olayın matbaanın icadı olmasıdır. Herkesi daha akıllı hale getirdi. İnsanların kitaplara erişebilmesi gerçeği."
   }
 ]

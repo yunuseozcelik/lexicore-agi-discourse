@@ -1,123 +1,69 @@
 [
   {
-    "start": 816.9,
-    "end": 879.3,
-    "text": "On the same day, a few\ndifferent developers kind of got it to do\nsomething cool, posted it, other people started trying. And then a lot of people\nstarted trying the API, but it was shockingly bad. If you go back and\nuse GPT-3 or 3.5, you will be astonished at\nhow bad the models were then, relative to the\namount of excitement they generated at the time. So people tried all\nof these things, and, really, the only\nbusiness that people got to work in a significant\nway with GPT-3 was copywriting. And that was, like, not that\ngreat and not that exciting. And we were kind\nof like, ah, it's just going to have to\nwait for a better model. But although that was the only\nbusiness that was working, developers had figured\nout how to put in a prompt and be able to chat with it. And we saw this a lot. Like, more people were using-- they couldn't get the API\nto work for their business, but they were using their\nAPI key to just chat. And we said, well, we\ncan build a good chatbot. People clearly want that.",
-    "speaker": "Sam Altman",
-    "claim": "Early versions of GPT-3 were underwhelming despite the excitement around them, and practical applications were limited.",
+    "start": 9.8,
+    "end": 73.2,
+    "text": "Please join me in\nwelcoming Sam Altman. [APPLAUSE] This class was designed\nas an inspiration from a set of\ndifferent experiences while I was a student here. One of them was Terry Winograd's\nintro seminar CS-47M, Computers and the Open Society. But a second one that was a\npretty formative experience for me, and a lot of\nmy friends and peers on campus at the time\nin 2014, was CS-183, How to Start a Startup by Sam. And so it's really\ncool to have you back. What's it like? How's it feeling\nfor you to be back? I was thinking as\nI was walking in, if I had just a\nlittle more time, I would do an\nupdate to that class because I think everything about\nstarting a startup has changed so much, and I have\nnot seen anyone do a good version of how you're\nsupposed to make a starter now. So I had that-- just\nwalking in here, I had that, oh, it'd be fun to do it again. So, timeline wise you\nthought that in '14. I think OpenAI was\nfounded in 2015?",
+    "speaker": "Moderator",
+    "claim": null,
     "stance": "Neutral",
-    "is_claim": true,
-    "topic": "AI development",
-    "confidence": "medium",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
     "claim_labels": [
-      "breakthroughs_needed",
-      "open_source"
+      "other"
     ],
     "claim_labels_auto": [
-      "breakthroughs_needed",
-      "open_source"
+      "other"
     ],
-    "speaker_silver": "Sam Altman",
-    "is_claim_silver": true,
-    "claim_silver": "Early versions of GPT-3 were underwhelming despite the excitement around them, and practical applications were limited.",
+    "speaker_silver": "Moderator",
+    "is_claim_silver": false,
+    "claim_silver": null,
     "claim_labels_silver": [
-      "breakthroughs_needed",
-      "open_source"
+      "other"
     ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI development",
-    "reviewed": true,
-    "text_tr": "Aynı gün, birkaç farklı geliştirici bununla harika bir şey yapmayı başardı, paylaştı, diğer insanlar denemeye başladı. Ve sonra birçok insan API'yi denemeye başladı ama bu şok edici derecede kötüydü. Eğer geri dönüp GPT-3 veya 3.5'i kullanırsanız, o zamanlar modellerin ne kadar kötü olduğunu göreceksiniz, o dönemde yarattıkları heyecanla kıyaslandığında. İnsanlar bu şeylerin hepsini denediler ve gerçekten, insanların GPT-3 ile önemli bir şekilde çalıştığı tek iş yazım oldu. Ve bu da pek iyi değildi ve çok heyecan verici değildi. Ve biz de, ah, bunun daha iyi bir model beklemesi gerekecek diye düşündük. Ama bu tek iş çalışıyordu, geliştiriciler bir istem girmeyi ve onunla sohbet etmeyi başarmışlardı. Bunu çok gördük. Daha fazla insan kullanıyordu - işlerine API'yi çalıştıramıyorlardı ama API anahtarlarını sadece sohbet etmek için kullanıyorlardı. Ve dedik ki, iyi bir sohbet botu yapabiliriz. İnsanlar açıkça bunu istiyor."
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false,
+    "text_tr": "Lütfen Sam Altman'ı aramızda karşılamaya katılın. [ALKIŞLAR] Bu ders, ben burada öğrenciyken yaşadığım farklı deneyimlerden ilham alınarak tasarlandı. Bunlardan biri Terry Winograd'ın giriş semineri CS-47M, Bilgisayarlar ve Açık Toplum'du. Ama benim ve 2014'te kampüsteki birçok arkadaşım ve akranım için oldukça şekillendirici bir deneyim olan ikincisi, Sam'in CS-183, Nasıl Bir Startup Kurulur dersiydi. Bu yüzden sizi tekrar aramızda görmek gerçekten harika. Nasıl bir duygu? Geri dönmek size nasıl hissettiriyor? İçeri girerken düşünüyordum, biraz daha zamanım olsaydı, o derse bir güncelleme yapardım çünkü bence bir startup kurmakla ilgili her şey o kadar çok değişti ki ve şimdi nasıl bir başlangıç yapmanız gerektiğinin iyi bir versiyonunu yapan kimseyi görmedim. Bu yüzden içeri girerken aklıma geldi, ah, bunu tekrar yapmak eğlenceli olurdu. Yani, zaman çizelgesi açısından bunu 2014'te düşündünüz. Sanırım OpenAI 2015'te kuruldu?"
   },
   {
-    "start": 2040.2,
-    "end": 2104.1,
-    "text": "I think a world-- there are all\nof these reasons why you could imagine the default\nis that this gets concentrated to a few\ncompanies and they become like a significant\nfraction of the wealth on Earth. That would, obviously,\nbe terrible, and we work super hard\nto push against that, but I think that's going to\nrequire the will of the world to really avoid because there is\na sort of attractor state there. And I think part of\nthe reason that we need to push to this kind of\nutility model of the world is that, A, it's quite\nunstable and quite bad and will feel quite unfair if a\nfew companies have all of this. But, B, I think there's\na real alignment failure and a very fragile world. And the best way\nto get to a world we want that\nrepresents everybody winning and everybody's values\nbeing represented, everybody having agency is to just\npush this technology out into the world,\nbut there will be a very strong\nargument against that around safety and stability. And I think that\nwill be a big fork. And it's very important. And I encourage all\nof you in your careers to push hard that\nthis is a technology-- it can bring us an\nincredible sci-fi future.",
+    "start": 145.1,
+    "end": 212.6,
+    "text": "And what would be\nthe biggest updates you'd make based on your data? With an affordable amount\nof spend on tokens, you can do what a 100-person,\nincredibly great engineering team would do as a startup. And that was just\ntotally impossible. That was not in the set\nof options for a startup, and now it is. So I think what you can take\non, the level of ambition you can have, the speed\nof which you can move, the amount of stuff\nyou can do at once, it's just totally different. And does that change the\nshape of the problems you feel like you assign at\nthe end of the class for people to attack at the\nend of that quarter if you were teaching it again? I don't think assigning\nproblems to attack ever works because if you like-- if I can think of\na problem-- if I can think of a really\ngreat startup idea, if it's, obvious,\nenough to me, then it's probably obvious\nto a lot of people. When we started\nOpenAI, we were one of maybe-- generously speaking--\nfour AGI efforts in the world.",
     "speaker": "Sam Altman",
-    "claim": "AGI technology can lead to an incredible future, but there are significant safety and stability concerns that need to be addressed.",
-    "stance": "Refute",
+    "claim": "The advancements in AI technology allow startups to achieve what previously required large engineering teams, indicating a shift in the landscape of AGI development.",
+    "stance": "Support",
     "is_claim": true,
-    "topic": "AI safety",
+    "topic": "AGI development",
     "confidence": "medium",
     "claim_labels": [
       "agi_timeline",
-      "ai_safety_risk"
+      "execution_engineering",
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "claim_labels_auto": [
       "agi_timeline",
-      "ai_safety_risk"
+      "execution_engineering",
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "speaker_silver": "Sam Altman",
     "is_claim_silver": true,
-    "claim_silver": "AGI technology can lead to an incredible future, but there are significant safety and stability concerns that need to be addressed.",
+    "claim_silver": "The advancements in AI technology allow startups to achieve what previously required large engineering teams, indicating a shift in the landscape of AGI development.",
     "claim_labels_silver": [
       "agi_timeline",
-      "ai_safety_risk"
+      "execution_engineering",
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit"
     ],
     "stance_silver": "Support",
-    "topic_silver": "AI safety",
-    "reviewed": true,
-    "text_tr": "Bence bir dünyada, bu durumun birkaç şirkette yoğunlaşabileceği ve bu şirketlerin dünyanın zenginliğinin önemli bir kısmını elinde bulundurabileceği birçok neden var. Bu, elbette ki korkunç olurdu ve buna karşı koymak için çok çalışıyoruz, ama bunun gerçekten önlenmesi için dünyanın iradesini gerektireceğini düşünüyorum çünkü orada bir tür çekim durumu var. Ve bence bu tür bir fayda modeli için çaba göstermemizin nedenlerinden biri, A, oldukça istikrarsız ve kötü olması ve birkaç şirketin her şeye sahip olması durumunda oldukça adaletsiz hissettirecek olması. Ama B, bence gerçek bir uyum eksikliği ve çok kırılgan bir dünya var. Ve istediğimiz, herkesin kazandığı ve herkesin değerlerinin temsil edildiği, herkesin iradesinin olduğu bir dünyaya ulaşmanın en iyi yolu, bu teknolojiyi dünyaya yaymak. Ancak bunun etrafında güvenlik ve istikrarla ilgili çok güçlü bir karşıt argüman olacak. Ve bunun büyük bir ayrım olacağını düşünüyorum. Bu çok önemli. Ve kariyerlerinizde bunun bir teknoloji olduğunu, bize inanılmaz bir bilim kurgu geleceği getirebileceğini savunmanızı teşvik ediyorum."
-  },
-  {
-    "start": 1692.4,
-    "end": 1768.4,
-    "text": "It's like you were just-- Like, choose Nirvana. You're still going on about it. Like, the data is quite\nstrong on our side. And I don't think it'd be\nthat fun to say I told you so, also the fact that you're\nstill saying we're wrong doesn't really bother me. Just move on. There's that saying\nthat insanity is doing the same thing over\nand over again when presented with data that is not working. And if they keep repeating\nthat, in a sense, it's a form of\ninsanity, I think. I think there's\nsomething that happens, which is if you\nmake your identity about a particular thing is\ngoing to work or not work, and you associate\nyourself with that belief, and then the science or the\nempirical results disprove you, and you're like too hung\nup on your identity, you can't let it go,\nyou can't see the truth. And I think this is an important\nreminder in both directions. How do you see education? It clearly has to super adapt. And I am worried-- I thought by now it would have. I think if we continue to\nteach and evaluate students as if we were in a pre AGI\nworld, it's not going to work and it is going to lead to\natrophy of learning how to think or whatever.",
-    "speaker": "Unknown",
-    "claim": "Continuing to teach in a pre-AGI world will hinder learning and adaptation.",
-    "stance": "Neutral",
-    "is_claim": true,
-    "topic": "education/AGI impact",
-    "confidence": "medium",
-    "claim_labels": [
-      "agi_timeline",
-      "ai_optimism_benefit"
-    ],
-    "claim_labels_auto": [
-      "agi_timeline",
-      "ai_optimism_benefit"
-    ],
-    "speaker_silver": "Unknown",
-    "is_claim_silver": true,
-    "claim_silver": "Continuing to teach in a pre-AGI world will hinder learning and adaptation.",
-    "claim_labels_silver": [
-      "agi_timeline",
-      "ai_optimism_benefit"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "education/AGI impact",
-    "reviewed": true,
-    "text_tr": "Sanki hala Nirvana'dan bahsediyormuşsunuz gibi. Veriler bizim tarafımızda oldukça güçlü. Ve 'sana söyledim' demek o kadar eğlenceli olmayacak, ayrıca hala yanlış olduğumuzu söylemeniz beni pek rahatsız etmiyor. Sadece devam edin. Deliliğin, işe yaramayan bir veriye karşı her seferinde aynı şeyi yapmaya devam etmek olduğunu söyleyen bir söz var. Eğer bunu tekrar ederlerse, bir anlamda bu bir delilik biçimidir, bence. Bence, bir şeyin kimliğinizi oluşturması durumunda, o şeyin işe yarayıp yaramayacağına dair bir inançla kendinizi ilişkilendiriyorsanız ve bilim veya ampirik sonuçlar sizi çürütüyorsa, kimliğinizle çok fazla bağlıysanız, bunu bırakamazsınız, gerçeği göremezsiniz. Ve bence bu her iki yönde de önemli bir hatırlatmadır. Eğitimi nasıl görüyorsunuz? Açıkça süper uyum sağlaması gerekiyor. Ve endişeliyim - şu ana kadar uyum sağlamış olacağını düşünmüştüm. Eğer öğrencileri AGI öncesi bir dünyadaymış gibi öğretmeye ve değerlendirmeye devam edersek, bu işe yaramayacak ve düşünmeyi öğrenme atrofisine yol açacak."
-  },
-  {
-    "start": 1563.8,
-    "end": 1629.1,
-    "text": "First of all, in terms\nof achieving human level intelligence, these\nmodels have already far surpassed human\nintelligence in some ways, and then they're wildly\nworse than others. Like, for example,\nthey seem much worse than people are at\nvery long horizon, kind of, high judgment\nsignal and tasks. On the other hand, yesterday we\nhad one of our models discover-- or disprove a conjecture one of\nthe hardest problems that had-- smart people had worked\non for a long time. And a lot of people, a\nlot of smart scientists-- I don't know if\nLeCun was one of them or not-- had even quite\nrecently said something like that was not\ngoing to happen, and then the model just did it. And now you have all these\nmathematicians saying like, is math over? What does this\nmean for our field? So, clearly LLMs are capable\nof figuring out new knowledge, and clearly they are capable\nof doing some things that-- some intelligence tasks\nthat humans just can't do. They are going to\nscale much further, so how much better and what\ndistribution of the tasks they can do better than humans?",
-    "speaker": "Sam Altman",
-    "claim": "Current AI models have surpassed human intelligence in some areas and will continue to improve, suggesting optimism about their capabilities.",
-    "stance": "Neutral",
-    "is_claim": true,
-    "topic": "AGI capabilities",
-    "confidence": "medium",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "speaker_silver": "Sam Altman",
-    "is_claim_silver": true,
-    "claim_silver": "Current AI models have surpassed human intelligence in some areas and will continue to improve, suggesting optimism about their capabilities.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AGI capabilities",
-    "reviewed": true,
-    "text_tr": "Öncelikle, insan seviyesinde zekaya ulaşma açısından, bu modeller bazı açılardan insan zekasını çoktan aşmış durumda ve bazı açılardan da oldukça kötü. Örneğin, çok uzun vadeli, yüksek yargı sinyali ve görevlerde insanlardan çok daha kötü görünüyorlar. Öte yandan, dün modellerimizden biri, akıllı insanların uzun süre çalıştığı en zor problemlerden birinin bir varsayımını keşfetti veya çürüttü. Ve birçok akıllı bilim insanı - LeCun'un bunlardan biri olup olmadığını bilmiyorum - yakın zamanda bunun olmayacağını söylemişti ve model bunu yaptı. Şimdi tüm bu matematikçiler, matematiğin sona erip ermediğini, bu durumun alanımız için ne anlama geldiğini soruyorlar. Yani, açıkça LLM'ler yeni bilgileri keşfetme yeteneğine sahip ve açıkça bazı şeyleri yapma yeteneğine sahipler ki, bazı zeka görevlerini insanlar yapamaz. Çok daha ileri ölçeklenecekler, peki ne kadar daha iyi olacaklar ve hangi görevleri insanlardan daha iyi yapacaklar?"
+    "topic_silver": "AGI development",
+    "reviewed": false,
+    "text_tr": "Peki, verilerinize dayanarak yapacağınız en büyük güncellemeler neler olurdu? Tokenlara uygun fiyatlı bir harcama ile, 100 kişilik, inanılmaz harika bir mühendislik ekibinin bir startup olarak yapacağı şeyi yapabilirsiniz. Ve bu tamamen imkansızdı. Bir startup için seçenekler kümesinde yoktu, şimdi ise var. Bu yüzden bence üstlenebileceğiniz şey, sahip olabileceğiniz hırs seviyesi, hareket edebileceğiniz hız, aynı anda yapabileceğiniz şey miktarı tamamen farklı. Ve bu, dersi tekrar öğretiyor olsaydınız, o çeyreğin sonunda insanların çözmesi için dersin sonunda atadığınız sorunların şeklini değiştirir mi? Bence çözülecek sorunlar atamak asla işe yaramaz çünkü eğer ben bir sorun düşünebiliyorsam – eğer gerçekten harika bir startup fikri düşünebiliyorsam, eğer bana yeterince açıksa, o zaman muhtemelen birçok insana da açıktır. OpenAI'yi kurduğumuzda, dünyadaki belki – cömertçe konuşursak – dört AGI çabasından biriydik."
   },
   {
     "start": 212.6,
@@ -150,6 +96,153 @@
     "text_tr": "Ölçek kavramı, son 10 yıl boyunca her türlü şekilde ampirik olarak araştırdığınız bir şey gibi görünüyor. Bize yardımcı olabilir misiniz, önce ölçeği şimdi, 10 yıl sonra ne anlama geldiğini açalım, bunu bir sistem tasarım niteliği olarak nasıl parçalayacağınızı uygulamak için, ister bir araç olarak mı? Oradan başlayabilir miyiz? Evet. Yani, aşağıdaki gözlemin neden doğru olduğunu bilmiyorum. Bunu açıklamak için tatmin edici bir teori sunmuyorum ve bu beni biraz gergin hissettiriyor ama yine de bunu önermek istiyorum çünkü ampirik olarak bunun doğru olduğu görünüyor. Kariyerimde gözlemlediğim en ilginç şeylerin hepsi, ölçeklenebilir veya ölçeğin sağladığı getirilerle ilgili acil özelliklerle bir şeyler olmuştur ki bu, konsensüsün işe yarayacağını düşündüğünden çok daha fazlasını sağlamaktadır."
   },
   {
+    "start": 816.9,
+    "end": 879.3,
+    "text": "On the same day, a few\ndifferent developers kind of got it to do\nsomething cool, posted it, other people started trying. And then a lot of people\nstarted trying the API, but it was shockingly bad. If you go back and\nuse GPT-3 or 3.5, you will be astonished at\nhow bad the models were then, relative to the\namount of excitement they generated at the time. So people tried all\nof these things, and, really, the only\nbusiness that people got to work in a significant\nway with GPT-3 was copywriting. And that was, like, not that\ngreat and not that exciting. And we were kind\nof like, ah, it's just going to have to\nwait for a better model. But although that was the only\nbusiness that was working, developers had figured\nout how to put in a prompt and be able to chat with it. And we saw this a lot. Like, more people were using-- they couldn't get the API\nto work for their business, but they were using their\nAPI key to just chat. And we said, well, we\ncan build a good chatbot. People clearly want that.",
+    "speaker": "Sam Altman",
+    "claim": "Early versions of GPT-3 were underwhelming despite the excitement around them, and practical applications were limited.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "Early versions of GPT-3 were underwhelming despite the excitement around them, and practical applications were limited.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI development",
+    "reviewed": true,
+    "text_tr": "Aynı gün, birkaç farklı geliştirici bununla harika bir şey yapmayı başardı, paylaştı, diğer insanlar denemeye başladı. Ve sonra birçok insan API'yi denemeye başladı ama bu şok edici derecede kötüydü. Eğer geri dönüp GPT-3 veya 3.5'i kullanırsanız, o zamanlar modellerin ne kadar kötü olduğunu göreceksiniz, o dönemde yarattıkları heyecanla kıyaslandığında. İnsanlar bu şeylerin hepsini denediler ve gerçekten, insanların GPT-3 ile önemli bir şekilde çalıştığı tek iş yazım oldu. Ve bu da pek iyi değildi ve çok heyecan verici değildi. Ve biz de, ah, bunun daha iyi bir model beklemesi gerekecek diye düşündük. Ama bu tek iş çalışıyordu, geliştiriciler bir istem girmeyi ve onunla sohbet etmeyi başarmışlardı. Bunu çok gördük. Daha fazla insan kullanıyordu - işlerine API'yi çalıştıramıyorlardı ama API anahtarlarını sadece sohbet etmek için kullanıyorlardı. Ve dedik ki, iyi bir sohbet botu yapabiliriz. İnsanlar açıkça bunu istiyor."
+  },
+  {
+    "start": 1079.8,
+    "end": 1156.5,
+    "text": "I think that is definitely\nthe current pipeline. I expect we will go\nthrough a major rewrite. I don't know when it'll\nhappen or exactly how, but it is a little\nodd to me that it's so happens as a pipeline\nand it doesn't quite feel like the optimal solution. What would be an optimal\nsolution in your head? I think that's a research\nproblem for the AIs to figure out. I think we're at a point where--\nand we've set this goal that by September of this year, we\nwill use 500,000 A100 equivalent GPUs-- like a lot\nof computing power-- as an AI research intern. And by March of 2028, that we\nwill have a full end to end, very talented researcher\nfiguring out completely new architectures. So I think we are going to\nget-- with the current pipeline, the current\narchitectures, I think we're going to get\nover the line of when AIs can do incredible work. One of the things that you\njust described there is you-- we've been talking\na lot in the class about systems,\nframeworks, and analogies to make concepts from one\ndomain legible to other people who may not have all\nthe context in another, but sometimes because of\nthe translation problem, reasoning by analogy\nis not helpful because then errors compound.",
+    "speaker": "Sam Altman",
+    "claim": "AGI will achieve significant advancements in the near term due to increased computing power and research efforts.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will achieve significant advancements in the near term due to increased computing power and research efforts.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Bence bu kesinlikle mevcut boru hattı. Büyük bir yeniden yazım sürecinden geçeceğimizi bekliyorum. Ne zaman veya tam olarak nasıl olacağını bilmiyorum, ama bir boru hattı olarak bu kadar gerçekleşmesi ve optimal çözüm gibi hissettirmemesi bana biraz tuhaf geliyor. Kafanızdaki optimal çözüm ne olurdu? Bence bu, yapay zekaların çözmesi gereken bir araştırma problemi. Sanırım öyle bir noktadayız ki – ve bu yılın Eylül ayına kadar 500.000 A100 eşdeğeri GPU'yu – yani çok fazla hesaplama gücünü – bir yapay zeka araştırma stajyeri olarak kullanacağımız hedefini belirledik. Ve Mart 2028'e kadar, tamamen yeni mimariler bulan, tam uçtan uca, çok yetenekli bir araştırmacımız olacak. Bu yüzden bence mevcut boru hattı, mevcut mimarilerle, yapay zekaların inanılmaz işler yapabileceği çizgiyi aşacağız. Az önce tarif ettiğiniz şeylerden biri de şu: derste sistemler, çerçeveler ve benzetmeler hakkında çok konuştuk; bir alandaki kavramları başka bir alanda tüm bağlama sahip olmayan diğer insanlara anlaşılır kılmak için, ancak bazen çeviri problemi nedeniyle, benzetmeyle akıl yürütmek faydalı olmuyor çünkü o zaman hatalar birikiyor."
+  },
+  {
+    "start": 1424.9,
+    "end": 1496.7,
+    "text": "But what you think about\npaying for that kind of internet utility\nin this case is just like access to the whole system. And the particular hardware\nat the base station and how it connects\nto the internet, you don't think\nabout that as much. I know I could nerd out\nabout utility infrastructure for a long time,\nbut I want to make sure we switch a little bit to\nbeing relevant for the students. Usually we have\nquestions but we're not doing this today, unless\nyou're comfortable with it. Oh, OK, great. How about that, improv. OK. So one final question\nto start getting the creative juices flowing\nis the final project for this class,\naccording Project 183 is the one person frontier lab. So everybody here is working\non projects where they're simulating being an individual\nas a lab with access to all the right tools, they've\ngot hundreds of thousands of dollars of credits\nfrom Cloudflare. I think we've got some\nOpenAI tokens maybe, but there's a bunch of\ncompute at their disposal. If you were in the\nclass, what would you be working on for your\none-person frontier lab project? First of all, I think\nthat's an awesome project. I think this is top of\nmind because we were just talking about utility\nframework frameworks.",
+    "speaker": "Moderator",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Moderator",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false,
+    "text_tr": "Ama bu durumda bu tür bir internet hizmeti için ödeme yapmayı düşündüğünüz şey, tüm sisteme erişim gibidir. Ve baz istasyonundaki belirli donanım ve internete nasıl bağlandığı hakkında o kadar çok düşünmezsiniz. Biliyorum, hizmet altyapısı hakkında uzun süre geeklik yapabilirim, ama biraz öğrencilere yönelik olmaya geçiş yaptığımızdan emin olmak istiyorum. Genellikle sorularımız olur ama bugün bunu yapmıyoruz, eğer sizin için uygunsa. Oh, tamam, harika. Peki ya doğaçlama? Tamam. Yaratıcı suları akıtmaya başlamak için son bir soru da bu dersin final projesi, Proje 183'e göre tek kişilik sınır laboratuvarı. Yani buradaki herkes, tüm doğru araçlara erişimi olan bir laboratuvar olarak bir birey olmayı simüle ettikleri projeler üzerinde çalışıyor, Cloudflare'dan yüz binlerce dolarlık kredileri var. Sanırım bazı OpenAI tokenlarımız da var, ama emrinde bir sürü hesaplama gücü var. Eğer derste olsaydınız, tek kişilik sınır laboratuvarı projeniz için ne üzerinde çalışırdınız? Öncelikle, bence bu harika bir proje. Bence bu akılda en üst sırada çünkü az önce hizmet çerçeveleri hakkında konuşuyorduk."
+  },
+  {
+    "start": 1563.8,
+    "end": 1629.1,
+    "text": "First of all, in terms\nof achieving human level intelligence, these\nmodels have already far surpassed human\nintelligence in some ways, and then they're wildly\nworse than others. Like, for example,\nthey seem much worse than people are at\nvery long horizon, kind of, high judgment\nsignal and tasks. On the other hand, yesterday we\nhad one of our models discover-- or disprove a conjecture one of\nthe hardest problems that had-- smart people had worked\non for a long time. And a lot of people, a\nlot of smart scientists-- I don't know if\nLeCun was one of them or not-- had even quite\nrecently said something like that was not\ngoing to happen, and then the model just did it. And now you have all these\nmathematicians saying like, is math over? What does this\nmean for our field? So, clearly LLMs are capable\nof figuring out new knowledge, and clearly they are capable\nof doing some things that-- some intelligence tasks\nthat humans just can't do. They are going to\nscale much further, so how much better and what\ndistribution of the tasks they can do better than humans?",
+    "speaker": "Sam Altman",
+    "claim": "Current AI models have surpassed human intelligence in some areas and will continue to improve, suggesting optimism about their capabilities.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models have surpassed human intelligence in some areas and will continue to improve, suggesting optimism about their capabilities.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI capabilities",
+    "reviewed": true,
+    "text_tr": "Öncelikle, insan seviyesinde zekaya ulaşma açısından, bu modeller bazı açılardan insan zekasını çoktan aşmış durumda ve bazı açılardan da oldukça kötü. Örneğin, çok uzun vadeli, yüksek yargı sinyali ve görevlerde insanlardan çok daha kötü görünüyorlar. Öte yandan, dün modellerimizden biri, akıllı insanların uzun süre çalıştığı en zor problemlerden birinin bir varsayımını keşfetti veya çürüttü. Ve birçok akıllı bilim insanı - LeCun'un bunlardan biri olup olmadığını bilmiyorum - yakın zamanda bunun olmayacağını söylemişti ve model bunu yaptı. Şimdi tüm bu matematikçiler, matematiğin sona erip ermediğini, bu durumun alanımız için ne anlama geldiğini soruyorlar. Yani, açıkça LLM'ler yeni bilgileri keşfetme yeteneğine sahip ve açıkça bazı şeyleri yapma yeteneğine sahipler ki, bazı zeka görevlerini insanlar yapamaz. Çok daha ileri ölçeklenecekler, peki ne kadar daha iyi olacaklar ve hangi görevleri insanlardan daha iyi yapacaklar?"
+  },
+  {
+    "start": 1692.4,
+    "end": 1768.4,
+    "text": "It's like you were just-- Like, choose Nirvana. You're still going on about it. Like, the data is quite\nstrong on our side. And I don't think it'd be\nthat fun to say I told you so, also the fact that you're\nstill saying we're wrong doesn't really bother me. Just move on. There's that saying\nthat insanity is doing the same thing over\nand over again when presented with data that is not working. And if they keep repeating\nthat, in a sense, it's a form of\ninsanity, I think. I think there's\nsomething that happens, which is if you\nmake your identity about a particular thing is\ngoing to work or not work, and you associate\nyourself with that belief, and then the science or the\nempirical results disprove you, and you're like too hung\nup on your identity, you can't let it go,\nyou can't see the truth. And I think this is an important\nreminder in both directions. How do you see education? It clearly has to super adapt. And I am worried-- I thought by now it would have. I think if we continue to\nteach and evaluate students as if we were in a pre AGI\nworld, it's not going to work and it is going to lead to\natrophy of learning how to think or whatever.",
+    "speaker": "Unknown",
+    "claim": "Continuing to teach in a pre-AGI world will hinder learning and adaptation.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "education/AGI impact",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Continuing to teach in a pre-AGI world will hinder learning and adaptation.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "education/AGI impact",
+    "reviewed": true,
+    "text_tr": "Sanki hala Nirvana'dan bahsediyormuşsunuz gibi. Veriler bizim tarafımızda oldukça güçlü. Ve 'sana söyledim' demek o kadar eğlenceli olmayacak, ayrıca hala yanlış olduğumuzu söylemeniz beni pek rahatsız etmiyor. Sadece devam edin. Deliliğin, işe yaramayan bir veriye karşı her seferinde aynı şeyi yapmaya devam etmek olduğunu söyleyen bir söz var. Eğer bunu tekrar ederlerse, bir anlamda bu bir delilik biçimidir, bence. Bence, bir şeyin kimliğinizi oluşturması durumunda, o şeyin işe yarayıp yaramayacağına dair bir inançla kendinizi ilişkilendiriyorsanız ve bilim veya ampirik sonuçlar sizi çürütüyorsa, kimliğinizle çok fazla bağlıysanız, bunu bırakamazsınız, gerçeği göremezsiniz. Ve bence bu her iki yönde de önemli bir hatırlatmadır. Eğitimi nasıl görüyorsunuz? Açıkça süper uyum sağlaması gerekiyor. Ve endişeliyim - şu ana kadar uyum sağlamış olacağını düşünmüştüm. Eğer öğrencileri AGI öncesi bir dünyadaymış gibi öğretmeye ve değerlendirmeye devam edersek, bu işe yaramayacak ve düşünmeyi öğrenme atrofisine yol açacak."
+  },
+  {
     "start": 1768.4,
     "end": 1831.9,
     "text": "And I thought that was\ngoing to be obvious enough that I wasn't that worried. When ChatGPT launched,\nI was like, yeah, we're going to have one\nyear of students cheating and not learning that much and\nthen the educational system is just going to redesign\nitself, and we're going to teach people so much better. People are going to\nreally get projects where they have to use\nAI to be able to do it, but they still have to\nstretch their brain more and think more and figure\nout new things to do. And, honestly, I struggle\nto point to any significant systemic change that I've seen\nin the education system at large in the three and 1/2 years\nsince ChatGPT launched, and that was a\nprediction error for me. I thought that\nwould have happened. So I have no doubt\nthat we can likely have done with every other\ntechnological leap before, redesign how education\nworks so that you still have to learn how to think. And there will be some things. Like, I am a person\nwho thinks by writing, and I write a lot of stuff\nthat I never show anyone else but it's still important to\nme to figure something out and so I'm grateful\nthat I learned to write.",
@@ -180,6 +273,36 @@
     "text_tr": "Ve bunun yeterince açık olacağını düşündüm, bu yüzden çok endişelenmiyordum. ChatGPT piyasaya sürüldüğünde, evet, bir yıl boyunca öğrencilerin kopya çekeceğini ve çok fazla öğrenmeyeceğini düşündüm ve sonra eğitim sistemi kendini yeniden tasarlayacak ve insanlara çok daha iyi öğreteceğiz. İnsanlar, bunu yapabilmek için AI kullanmaları gereken projeler alacaklar ama yine de beyinlerini daha fazla zorlamaları, daha fazla düşünmeleri ve yeni şeyler bulmaları gerekecek. Ve dürüst olmak gerekirse, ChatGPT'nin piyasaya sürülmesinden bu yana üç buçuk yıl içinde eğitim sisteminde gördüğüm herhangi bir önemli sistemik değişiklik göstermek için mücadele ediyorum ve bu benim için bir tahmin hatasıydı. Bunun olacağını düşünmüştüm. Bu nedenle, her diğer teknolojik sıçrama ile birlikte eğitim sistemini yeniden tasarlayabileceğimizden hiç şüphem yok, böylece düşünmeyi öğrenmeye devam edersiniz. Ve bazı şeyler olacak. Ben yazarken düşünen biriyim ve başkalarına asla göstermediğim birçok şey yazıyorum ama yine de bir şeyi çözmek için yazmayı öğrendiğim için minnettarım."
   },
   {
+    "start": 1912.4,
+    "end": 1976.0,
+    "text": "And I didn't think that at\nthe time I was kind of like, this stuff is all\ncool, but it's mostly going to be about learning CS. I only did two years of school,\nso there was a lot of stuff I wanted to take\nthat I didn't get to, but that's the surprising thing. My question is, what is\nyour spiciest steak of all? I think with more\ntime to think, I could come up with\na much spicier one but I think AI is just\ngoing to keep going. And I think this is considered-- I don't think this is\nwidely believed yet. And I think if this\nwere widely believed, there would be significantly\nmore reverberations that are happening through\nsociety right now. Maybe I don't have the-- or actually, maybe this\nis the high order bit that if AI progress\ncontinues on the exponential that it's on for another-- it's been three and 1/2\nyears since ChatGPT.",
+    "speaker": "Unknown",
+    "claim": "AI progress is expected to continue exponentially, but this belief is not widely held yet.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AI progress is expected to continue exponentially, but this belief is not widely held yet.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Ve o zamanlar öyle düşünmemiştim, sanki bu şeyler hepsi harika, ama çoğunlukla bilgisayar bilimi öğrenmekle ilgili olacak gibiydi. Sadece iki yıl okula gittim, bu yüzden almak istediğim ama alamadığım çok şey vardı, ama şaşırtıcı olan bu. Benim sorum, tüm zamanların en baharatlı tahmininiz nedir? Sanırım daha fazla düşünme sürem olsaydı çok daha baharatlı bir tane bulabilirdim ama bence yapay zeka sadece devam edecek. Ve bence bu kabul ediliyor – henüz yaygın olarak inanıldığına inanmıyorum. Ve bence eğer buna yaygın olarak inanılıyor olsaydı, şu anda toplumda önemli ölçüde daha fazla yankı olurdu. Belki bende yok – ya da aslında, belki de bu, yapay zeka ilerlemesi şu anki üstel hızında devam ederse en önemli kısım budur – ChatGPT'den bu yana üç buçuk yıl oldu."
+  },
+  {
     "start": 1976.0,
     "end": 2040.2,
     "text": "Even if it were another three\nand 1/2 years on that same trajectory, the\nworld, the potential-- the way that society-- what\nsociety is capable of are just completely different. Well, let me try to prompt\nyou in more thinking tokens on that one. If we treated you as a\nmodel, as a frontier model, and you have some\ninherent capabilities-- and we're going to try to\nelicit capabilities that people don't know about for\nthe next few minutes-- one of them is that you've\nbeen post trained now on-- you've been\ncontinuously RL on OpenAI, as well as the external\nfeedback loop of the world on what doesn't work and--\nwhat works and doesn't work. So now, if we're\ngoing to treat you as a prediction\nengine for a sec, the prompt is what are the\nthree most likely forks of the universe you see\nover the next 10 years? And what is your probability\nassessment on each of those? Does that make sense? One that feels very\nimportant is how much is this technology going to be\nvery widely democratized versus how much is it going to\nsit in a few companies.",
@@ -205,5 +328,65 @@
     "topic_silver": "AGI timeline",
     "reviewed": true,
     "text_tr": "Aynı yolda üç buçuk yıl daha geçse bile, dünya, potansiyel - toplumun - toplumun neler yapabileceği tamamen farklıdır. Şimdi, sizi bir model olarak, bir sınır modeli olarak ele alırsak ve bazı içsel yetenekleriniz varsa - ve bu yetenekleri ortaya çıkarmaya çalışacağız - bunlardan biri, artık sürekli olarak OpenAI üzerinde RL ile eğitilmiş olmanız ve dünyanın dış geri bildirim döngüsü üzerinde neyin işe yarayıp neyin yaramadığı konusunda sürekli olarak eğitilmiş olmanızdır. Şimdi, sizi bir tahmin motoru olarak ele alırsak, önermemiz, önümüzdeki 10 yıl içinde gördüğünüz evrenin en olası üç ayrım noktası nedir? Ve her biri için olasılık değerlendirmeleriniz nedir? Bu mantıklı mı? Çok önemli bir şey, bu teknolojinin ne kadar yaygın bir şekilde demokratikleştirileceği ile ne kadarının birkaç şirkette kalacağıdır."
+  },
+  {
+    "start": 2040.2,
+    "end": 2104.1,
+    "text": "I think a world-- there are all\nof these reasons why you could imagine the default\nis that this gets concentrated to a few\ncompanies and they become like a significant\nfraction of the wealth on Earth. That would, obviously,\nbe terrible, and we work super hard\nto push against that, but I think that's going to\nrequire the will of the world to really avoid because there is\na sort of attractor state there. And I think part of\nthe reason that we need to push to this kind of\nutility model of the world is that, A, it's quite\nunstable and quite bad and will feel quite unfair if a\nfew companies have all of this. But, B, I think there's\na real alignment failure and a very fragile world. And the best way\nto get to a world we want that\nrepresents everybody winning and everybody's values\nbeing represented, everybody having agency is to just\npush this technology out into the world,\nbut there will be a very strong\nargument against that around safety and stability. And I think that\nwill be a big fork. And it's very important. And I encourage all\nof you in your careers to push hard that\nthis is a technology-- it can bring us an\nincredible sci-fi future.",
+    "speaker": "Sam Altman",
+    "claim": "AGI technology can lead to an incredible future, but there are significant safety and stability concerns that need to be addressed.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "AGI technology can lead to an incredible future, but there are significant safety and stability concerns that need to be addressed.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Bence bir dünyada, bu durumun birkaç şirkette yoğunlaşabileceği ve bu şirketlerin dünyanın zenginliğinin önemli bir kısmını elinde bulundurabileceği birçok neden var. Bu, elbette ki korkunç olurdu ve buna karşı koymak için çok çalışıyoruz, ama bunun gerçekten önlenmesi için dünyanın iradesini gerektireceğini düşünüyorum çünkü orada bir tür çekim durumu var. Ve bence bu tür bir fayda modeli için çaba göstermemizin nedenlerinden biri, A, oldukça istikrarsız ve kötü olması ve birkaç şirketin her şeye sahip olması durumunda oldukça adaletsiz hissettirecek olması. Ama B, bence gerçek bir uyum eksikliği ve çok kırılgan bir dünya var. Ve istediğimiz, herkesin kazandığı ve herkesin değerlerinin temsil edildiği, herkesin iradesinin olduğu bir dünyaya ulaşmanın en iyi yolu, bu teknolojiyi dünyaya yaymak. Ancak bunun etrafında güvenlik ve istikrarla ilgili çok güçlü bir karşıt argüman olacak. Ve bunun büyük bir ayrım olacağını düşünüyorum. Bu çok önemli. Ve kariyerlerinizde bunun bir teknoloji olduğunu, bize inanılmaz bir bilim kurgu geleceği getirebileceğini savunmanızı teşvik ediyorum."
+  },
+  {
+    "start": 2104.1,
+    "end": 2168.8,
+    "text": "Life can be unbelievably\nmuch better. We are going to incur\nsome risk to get there, but the risk of\nkeeping is concentrated in a handful of\ncompanies, even though we would be one of these\ncompanies is not something we should tolerate. So I think that\nwill be a big fork. In terms of probability,\nI think it's-- the world should\nhave such an interest in it happening this\nway that I think it's like 80% we end up\non the Democratic path, but there will be a very\nstrong safety message and there will be a lot of\npower seeking people who want to concentrate the power. And one of the problems\nwith forecasting this-- or that you have and\nwe all have as humans is once you make that\nforecast, then you have agency to affect the\nforecasts and the forks? Well, I mean, we're\nclear on what we're going to use our agency for. Like, this is what\nwe believe in, we think that we're going\nto do everything we can to push it in this direction. We see the forces in\nthe other direction. Maybe a related fork,\nthere's a lot talk about future economic\nmodels and are we going to do universal\nbasic income?",
+    "speaker": "Sam Altman",
+    "claim": "The future of AGI could lead to significant improvements in life, but there are risks involved that need to be managed.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "The future of AGI could lead to significant improvements in life, but there are risks involved that need to be managed.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": false,
+    "text_tr": "Hayat inanılmaz derecede çok daha iyi olabilir. Oraya ulaşmak için bazı riskler alacağız, ancak elde tutma riski, biz bu şirketlerden biri olsak bile, bir avuç şirkette yoğunlaşmış durumda ve bu tolere etmemiz gereken bir şey değil. Bu yüzden bunun büyük bir ayrım olacağını düşünüyorum. Olasılık açısından, bence dünya bunun bu şekilde gerçekleşmesi konusunda öyle bir ilgiye sahip olmalı ki, %80 oranında Demokratik yolda ilerleyeceğimizi düşünüyorum, ancak çok güçlü bir güvenlik mesajı olacak ve gücü yoğunlaştırmak isteyen birçok güç arayan insan olacak. Ve bunu tahmin etmenin sorunlarından biri – veya sizin ve hepimizin insan olarak sahip olduğu bir sorun – bu tahmini yaptıktan sonra, tahminleri ve ayrımları etkilemek için bir etki gücüne sahip olmanızdır. Şey, yani, etki gücümüzü ne için kullanacağımız konusunda netiz. Yani, inandığımız şey bu, bunu bu yöne itmek için elimizden gelen her şeyi yapacağımızı düşünüyoruz. Diğer yöndeki güçleri görüyoruz. Belki ilgili bir ayrım, gelecekteki ekonomik modeller hakkında çok konuşuluyor ve evrensel temel gelir uygulayacak mıyız?"
   }
 ]

@@ -1,63 +1,33 @@
 [
   {
-    "start": 3720.5,
-    "end": 3789.2,
-    "text": "- There's a refrigerator\nmaking a buzzing noise. - Very menacing. Very menacing. So every time I'm about\nto talk about this topic, things start to happen. My flight yesterday was canceled without possibility to rebook. I was giving a talk at Google in Israel and three cars, which\nwere supposed to take me to the talk could not, I'm just saying, - I like AIs. I for one, welcome our overloads. - Well, there's a degree\nto which we, I mean, it is very obvious as we already have. We've increasingly given our\nlife over to software systems. And then it seems obvious\ngiven the capabilities of AI that are coming that we'll give\nour lives over increasingly to AI systems. Cars will drive themselves, refrigerator eventually will\noptimize what I get to eat. And as more and more out\nof our lives are controlled or managed by AI assistance, it is very possible that there's a drift.",
+    "start": 918.6,
+    "end": 981.2,
+    "text": "So yeah, I don't mind,\nyou know, a video game where I get haptic feedback\nthat is a little bit of shaking, maybe I'm a little scared. I don't want a game where like\nkids are tortured literally, that seems unethical at\nleast by our human standards. - Are you suggesting it's\npossible to remove suffering if we're looking at human civilization as an optimization problem? - So we know there are some humans who, because of a mutation, don't\nexperience physical pain. So at least physical pain can be mutated out, re-engineered out. Suffering in terms of meaning, like you burn the only copy\nof my book is a little harder. But even there you can manipulate\nyour hedonic set point, you can change defaults, you can reset. Problem with that is if you start messing with your reward channel,\nyou start wireheading and end up blissing out a little too much. - Well that's the question. Would you really want to live in a world where there's no suffering?",
     "speaker": "Roman Yampolskiy",
-    "claim": "As AI systems become more capable, we will increasingly rely on them to manage our lives.",
-    "stance": "Refute",
+    "claim": "It is possible to remove physical pain and manipulate suffering, but doing so could lead to negative consequences like wireheading.",
+    "stance": "Neutral",
     "claim_labels": [
       "ai_optimism_benefit",
-      "scaling_compute"
+      "execution_engineering"
     ],
     "is_claim": true,
-    "topic": "AI reliance",
+    "topic": "AI ethics",
     "confidence": "medium",
     "claim_labels_auto": [
       "ai_optimism_benefit",
-      "scaling_compute"
+      "execution_engineering"
     ],
     "speaker_silver": "Roman Yampolskiy",
     "is_claim_silver": true,
-    "claim_silver": "As AI systems become more capable, we will increasingly rely on them to manage our lives.",
+    "claim_silver": "It is possible to remove physical pain and manipulate suffering, but doing so could lead to negative consequences like wireheading.",
     "claim_labels_silver": [
       "ai_optimism_benefit",
-      "scaling_compute"
+      "execution_engineering"
     ],
-    "stance_silver": "Support",
-    "topic_silver": "AI reliance",
-    "reviewed": true,
-    "text_tr": "- Bir buzdolabı vızıldayan bir ses çıkarıyor. - Çok tehditkar. Çok tehditkar. Bu konuyu konuşmaya başlayacağım her seferinde, bir şeyler olmaya başlıyor. Dün uçağım iptal edildi, yeniden rezervasyon yapma imkanı yoktu. İsrail'deki Google'da bir konuşma yapıyordum ve beni konuşmaya götürmesi gereken üç araba gelemedi, sadece bunu söylüyorum. - Ben yapay zekaları seviyorum. Ben bir birey olarak, efendilerimizi karşılamaktan mutluluk duyuyorum. - Bir dereceye kadar, yani, çok açık ki, zaten yaptığımız gibi. Hayatımızı giderek daha fazla yazılım sistemlerine devrettik. Ve yapay zekanın gelen yetenekleri göz önüne alındığında, hayatlarımızı giderek daha fazla yapay zeka sistemlerine devredeceğimiz de açık görünüyor. Arabalar kendilerini sürecek, buzdolabı sonunda ne yiyeceğimi optimize edecek. Ve hayatlarımızın daha fazla kısmı yapay zeka yardımıyla kontrol ediliyor veya yönetiliyorsa, bir kayma olması çok mümkün."
-  },
-  {
-    "start": 7503.9,
-    "end": 7567.5,
-    "text": "You can't predict what's\ngonna happen in the universe. You have to create a new\nuniverse and run the thing. Big bang, the whole thing. - But running it may be\nconsequential as well. - It might destroy humans. And to you, there's no chance that AI somehow carry the\nflame of consciousness, the flame of specialness and\nawesomeness that is humans. - It may somehow, but I still feel kind of bad\nthat it killed all of us. I would prefer that doesn't happen. I can be happy for others,\nbut to a certain degree. - It would be nice if we\nstuck around for a long time. At least give us a\nplanet, the human planet. It'd be nice for it to be earth. And then they can go elsewhere. Since they're so smart\nthey can colonize Mars. Do you think they could\nhelp convert us to, you know, type one, type two, type three. Let's just stick to type two civilization on the Kardashev scale.",
-    "speaker": "Roman Yampolskiy",
-    "claim": "Running AI simulations could have catastrophic consequences for humanity, and while AI might carry some form of consciousness, it is concerning if it leads to human extinction.",
-    "stance": "Refute",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "is_claim": true,
-    "topic": "AI consequences",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "speaker_silver": "Roman Yampolskiy",
-    "is_claim_silver": true,
-    "claim_silver": "Running AI simulations could have catastrophic consequences for humanity, and while AI might carry some form of consciousness, it is concerning if it leads to human extinction.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI consequences",
-    "reviewed": true,
-    "text_tr": "Evrenin ne olacağını tahmin edemezsiniz. Yeni bir evren yaratmanız ve bunu çalıştırmanız gerekiyor. Büyük patlama, her şey. - Ama bunu çalıştırmak da sonuç doğurabilir. - İnsanları yok edebilir. Ve sizin için, yapay zekanın bir şekilde bilincin, insanlara özgü olan özel olmanın ve harikalığın ateşini taşıma şansı yok mu? - Belki bir şekilde, ama yine de hepimizin öldüğünü düşündüğümde kendimi kötü hissediyorum. Bunun olmamasını tercih ederim. Başkaları için mutlu olabilirim, ama belli bir dereceye kadar. - Uzun bir süre burada kalmamız güzel olurdu. En azından bize bir gezegen verin, insan gezegeni. Bunun Dünya olması güzel olurdu. Sonra başka yerlere gidebilirler. O kadar zeki olduklarına göre Mars'ı kolonileştirebilirler. Sizce bizi, yani tip bir, tip iki, tip üçe dönüştürmelerine yardımcı olabilirler mi? Kardashev ölçeğinde tip iki medeniyetle kalalım."
+    "stance_silver": "Neutral",
+    "topic_silver": "AI ethics",
+    "reviewed": false,
+    "text_tr": "Yani evet, haptik geri bildirim aldığım, biraz titreme olan, belki biraz korktuğum bir video oyununa itirazım yok. Ama çocukların kelimenin tam anlamıyla işkence gördüğü bir oyun istemem, bu en azından bizim insani standartlarımıza göre etik dışı görünüyor. - İnsan medeniyetine bir optimizasyon problemi olarak bakarsak, acıyı ortadan kaldırmanın mümkün olduğunu mu öne sürüyorsunuz? - Biliyoruz ki bazı insanlar bir mutasyon nedeniyle fiziksel acı hissetmiyor. Yani en azından fiziksel acı mutasyonla veya yeniden mühendislikle ortadan kaldırılabilir. Anlam açısından acı çekmek, mesela kitabımın tek kopyasını yakmanız biraz daha zor. Ama orada bile hedonik ayar noktanızı manipüle edebilir, varsayılanları değiştirebilir, sıfırlayabilirsiniz. Bununla ilgili sorun şu ki, ödül kanalınızla oynamaya başlarsanız, kendinizi aşırı derecede mutlu etmeye başlarsınız. - İşte soru bu. Gerçekten acının olmadığı bir dünyada yaşamak ister miydiniz?"
   },
   {
     "start": 1183.3,
@@ -90,6 +60,36 @@
     "text_tr": "- Evet, bir süreliğine kesinlikle ayak uydurabiliriz. Ama bunu sonsuza dek yapamazsınız. Bir noktada bilişsel fark çok büyük. Savunmanız gereken yüzey sonsuz. Ama saldırganların sadece bir açığı bulması gerekiyor. - Yani, bu sonunda bir uçurumdan aşağıya düşmekte olduğumuz anlamına geliyor. - Eğer genel süper zekalar yaratırsak, insanlık için uzun vadede iyi bir sonuç göremiyorum. Bu oyunu kazanmanın tek yolu oynamamak. - Tamam, peki olası çözümler ve oynamamanın ne anlama geldiği hakkında konuşacağız, ama burada olası zaman çizelgeleri nedir? Hangi yıllardan, on yıllardan, yüzyıllardan bahsediyoruz? Ne düşünüyorsun? - Kesin olarak bilmiyorum. Tahmin piyasaları şu anda AGI için 2026 diyor. Aynı şeyi Anthropic'in CEO'sundan, DeepMind'dan da duydum. Belki de iki yıl içindeyiz, bu da çalışır bir güvenlik mekanizması veya onun için bir prototipimiz olmadığı düşünüldüğünde çok yakın görünüyor."
   },
   {
+    "start": 1775.2,
+    "end": 1849.7,
+    "text": "We remove the gender bias.\nWe are removing race bias. Why is this pro-human bias?\nWe are polluting the planet. We are, as you said, you\nknow, fight a lot of war, kind of violent, maybe it's better if\nit's super intelligent, perfect society comes and replaces us. It's normal stage in the\nevolution of our species. - Yeah, so somebody says,\nlet's develop an AI system that removes the violent\nhumans from the world. And then it turns out that all\nhumans have violence in them or the capacity for violence and therefore all humans are removed. Yeah, yeah, yeah. Let me ask about Yann LeCun, he's somebody who we've\nhad a few exchanges with and he's somebody who actively pushes back against this view that AI is going to lead to destruction\nof human civilization, also known as AI doomism. So in one example that he tweeted, he said, \"I do acknowledge risks, but,\" two points, \"One, open\nresearch and open source are the best ways to understand\nand mitigate the risks.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI could potentially replace humans and create a perfect society, which is a normal stage in human evolution.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI optimism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI could potentially replace humans and create a perfect society, which is a normal stage in human evolution.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI optimism",
+    "reviewed": false,
+    "text_tr": "Cinsiyet ayrımcılığını kaldırıyoruz. Irk ayrımcılığını kaldırıyoruz. Neden bu insan yanlısı bir önyargı? Gezegeni kirletiyoruz. Dediğiniz gibi, çok savaş yapıyoruz, şiddet eğilimliyiz, belki süper zeki, mükemmel bir toplum gelip yerimizi alırsa daha iyi olur. Bu, türümüzün evriminde normal bir aşama. - Evet, yani biri diyor ki, dünyadan şiddet yanlısı insanları ortadan kaldıran bir yapay zeka sistemi geliştirelim. Ve sonra ortaya çıkıyor ki tüm insanlar şiddet içeriyor veya şiddet kapasitesine sahip ve bu yüzden tüm insanlar ortadan kaldırılıyor. Evet, evet, evet. Yann LeCun hakkında sorayım, kendisiyle birkaç kez fikir alışverişinde bulunduk ve yapay zekanın insan medeniyetinin yıkımına yol açacağı, yani yapay zeka kıyametçiliği olarak da bilinen bu görüşe aktif olarak karşı çıkan biri. Bir tweet'inde verdiği örnekte şöyle dedi: \"Riskleri kabul ediyorum, ancak,\" iki nokta, \"Birincisi, açık araştırma ve açık kaynak, riskleri anlamanın ve azaltmanın en iyi yollarıdır."
+  },
+  {
     "start": 1914.0,
     "end": 1984.0,
     "text": "And it takes years to figure\nout, even for existing models, if it's trained for six months, it'll take you two,\nthree years to figure out basic capabilities of that system. We still discover new\ncapabilities in systems which are already out there. So that's not the case. - So just to linger on that,\nto you, the difference there that there is some level\nof emergent intelligence that happens in our current approaches? So stuff that we don't hardcode in. - Absolutely. That's what\nmakes it so successful. When we had to painstakingly\nhardcode in everything, we didn't have much progress. Now just spend more money and more compute and\nit's a lot more capable. - And then the question is, when there is emergent\nintelligent phenomena, what is the ceiling of that? For you, there's no ceiling. For Yann LeCun, I think\nthere's a kind of ceiling that happens that we\nhave full control over. Even if we don't understand\nthe internals of the emergence, how the emergence happens, there's a sense that we have control and an understanding of the approximate ceiling of capability, the limits of the capability.",
@@ -120,34 +120,64 @@
     "text_tr": "Ve mevcut modeller için bile, altı ay boyunca eğitilmişse, o sistemin temel yeteneklerini anlamak iki, üç yıl alır. Zaten mevcut olan sistemlerde yeni yetenekler keşfetmeye devam ediyoruz. Yani bu doğru değil. - Yani, buna biraz daha dikkat çekmek gerekirse, sizin için mevcut yaklaşımlarımızda bazı seviyelerde ortaya çıkan bir zeka var mı? Yani, kodlamadığımız şeyler. - Kesinlikle. Bu, onu bu kadar başarılı kılan şey. Her şeyi zahmetle kodlamak zorunda kaldığımızda, çok fazla ilerleme kaydedemedik. Şimdi sadece daha fazla para ve daha fazla hesaplama gücü harcıyoruz ve çok daha yetenekli hale geliyor. - Ve sonra soru şu: Ortaya çıkan zeka fenomeni olduğunda, bunun bir sınırı nedir? Sizin için bir sınır yok. Yann LeCun için, sanırım, tam kontrolümüz altında olan bir tür sınır var. Ortaya çıkmanın iç işleyişini, nasıl gerçekleştiğini anlamasak bile, bir kontrol ve yeteneklerin yaklaşık sınırını anlama hissine sahibiz."
   },
   {
-    "start": 4530.0,
-    "end": 4593.3,
-    "text": "What about a thing which\nI actually have is a voice that is constantly extremely critical. So like engineer into the system, a constant uncertainty about\nself, a constant doubt. - Well any smart system would have doubt about everything, right? You not sure if what information\nyou are given is true if you are subject to manipulation. You have this safety and security mindset. - But I mean you have\ndoubt about yourself. So the AI systems that has a doubt about whether the thing is doing is causing harm, is the\nright thing to be doing. So just a constant doubt\nabout what it's doing because it's hard to be\na dictator full of doubt. - I may be wrong, but I\nthink Stuart Russell's ideas are all about machines\nwhich are uncertain about what humans want and trying\nto learn better and better what we want. The problem of course is\nwe don't know what we want and we don't agree on it.",
+    "start": 2449.5,
+    "end": 2512.8,
+    "text": "How dangerous, I have no idea. But neither people training it. - At the training stage, but then there's a testing\nstage inside the company, they can start getting intuition about what the system is capable to do. You're saying that the somehow leap from GPT-4 to GPT-5 can happen. The kind of leap where\nGPT-4 was controllable and GPT-5 is no longer controllable and we get no insights from using GPT-4 about the fact that GPT-5\nwill be uncontrollable. Like that's the situation\nyou're concerned about. Where their leap from n to n plus one would be such that a uncontrollable system is created without any ability for\nus to anticipate that. - If we had capability of ahead of the run before the training\nrun to register exactly what capabilities that\nnext model will have at the end of the training run. And we accurately guessed all of them. I would say you are right, we can definitely go ahead with this run.",
     "speaker": "Roman Yampolskiy",
-    "claim": "AI systems should have a constant doubt about their actions and the information they receive.",
-    "stance": "Neutral",
+    "claim": "The leap from GPT-4 to GPT-5 could result in an uncontrollable system that we cannot anticipate based on GPT-4's capabilities.",
+    "stance": "Refute",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_safety_risk"
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The leap from GPT-4 to GPT-5 could result in an uncontrollable system that we cannot anticipate based on GPT-4's capabilities.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Ne kadar tehlikeli, hiçbir fikrim yok. Ama onu eğitenlerin de yok. - Eğitim aşamasında, ama sonra şirketin içinde bir test aşaması var, sistemin ne yapabileceği hakkında sezgi edinmeye başlayabilirler. GPT-4'ten GPT-5'e bir şekilde sıçrama olabileceğini söylüyorsunuz. GPT-4'ün kontrol edilebilir olduğu ve GPT-5'in artık kontrol edilemez olduğu ve GPT-4'ü kullanarak GPT-5'in kontrol edilemez olacağına dair hiçbir içgörü elde edemediğimiz türden bir sıçrama. Yani endişelendiğiniz durum bu. N'den N+1'e olan sıçramanın, bizim bunu tahmin etme yeteneğimiz olmadan kontrol edilemez bir sistemin yaratılması şeklinde olacağı bir durum. - Eğer eğitimden önce, bir sonraki modelin eğitim sonunda tam olarak hangi yeteneklere sahip olacağını kaydetme yeteneğimiz olsaydı. Ve hepsini doğru bir şekilde tahmin etseydik. Haklısınız derdim, bu çalıştırmaya kesinlikle devam edebiliriz."
+  },
+  {
+    "start": 2789.1,
+    "end": 2851.8,
+    "text": "I don't know, it writes Chinese poetry. Hypothetical, I know it does. But we haven't tested for\nall possible capabilities and we are not explicitly designing them. We can only rule out bugs we find. We cannot rule out bugs and capabilities because we haven't found them. - Is it possible for a system\nto have hidden capabilities that are orders of magnitude greater than its non hidden capabilities? This is the thing I'm\nreally struggling with. Where on the surface the\nthing we understand it can do doesn't seem that harmful. So even if it has bugs, even if it has hidden\ncapabilities like Chinese poetry or generating effective\nviruses, software viruses, the damage that can do\nseems like on the same order of magnitude as the capabilities that we know about.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "There may be hidden capabilities in AI systems that could be harmful, even if their known capabilities seem benign.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
     ],
     "is_claim": true,
     "topic": "AI safety",
     "confidence": "medium",
     "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "ai_safety_risk"
+      "ai_safety_risk",
+      "open_source"
     ],
     "speaker_silver": "Roman Yampolskiy",
     "is_claim_silver": true,
-    "claim_silver": "AI systems should have a constant doubt about their actions and the information they receive.",
+    "claim_silver": "There may be hidden capabilities in AI systems that could be harmful, even if their known capabilities seem benign.",
     "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "ai_safety_risk"
+      "ai_safety_risk",
+      "open_source"
     ],
-    "stance_silver": "Support",
+    "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": true,
-    "text_tr": "Sürekli olarak son derece eleştirel bir sesi olan bir şey hakkında ne düşünüyorsunuz? Yani, sisteme sürekli bir belirsizlik, sürekli bir şüphe yerleştirmek. - Her akıllı sistem her şey hakkında şüphe duyar, değil mi? Size verilen bilgilerin doğru olup olmadığından emin değilsiniz, manipülasyona tabi olup olmadığınızı düşünüyorsunuz. Bu bir güvenlik ve emniyet zihniyeti. - Ama demek istediğim, kendiniz hakkında şüpheniz var. Yani, bir yapay zeka sistemi, yaptığı şeyin zarar verip vermediği konusunda şüphe duyuyorsa, doğru bir şey yaptığını düşünüyorsa, yaptığı şey hakkında sürekli bir şüphe duyması gerekiyor çünkü şüphe dolu bir diktatör olmak zor. - Yanılıyor olabilirim, ama Stuart Russell'ın fikirlerinin, makinelerin insanların ne istediği konusunda belirsiz olduğu ve ne istediğimizi daha iyi öğrenmeye çalıştığı hakkında olduğunu düşünüyorum. Sorun, elbette, ne istediğimizi bilmememiz ve bu konuda hemfikir olmamamızdır."
+    "reviewed": false,
+    "text_tr": "Bilmiyorum, Çince şiir yazıyor. Varsayımsal, biliyorum ki yazıyor. Ama tüm olası yetenekleri test etmedik ve onları açıkça tasarlamıyoruz. Sadece bulduğumuz hataları eleyebiliriz. Bulamadığımız için hataları ve yetenekleri eleyemeyiz. - Bir sistemin, gizli olmayan yeteneklerinden kat kat daha büyük gizli yeteneklere sahip olması mümkün müdür? Bu gerçekten zorlandığım bir konu. Yüzeyde anladığımız şeyin o kadar da zararlı görünmediği bir durum. Yani hataları olsa bile, Çince şiir yazmak veya etkili virüsler, yazılım virüsleri üretmek gibi gizli yetenekleri olsa bile, verebileceği zarar, bildiğimiz yeteneklerle aynı büyüklükte gibi görünüyor."
   },
   {
     "start": 3116.2,
@@ -180,6 +210,126 @@
     "text_tr": "Bunun yakınında olduğumuzu hissetmiyorum, kendi kararlarını verebilen ve herkesin bu kararlar hakkında yanıltılmasına neden olabilen bir sistem. Makine öğrenimindeki mevcut mimarimiz ve sistemleri nasıl eğittiğimiz, sistemleri nasıl dağıttığımız ve tüm bunlar, o tür bir ajansı desteklemiyor gibi görünüyor. - Umarım haklısınızdır. Ölçeklenme hipotezinin doğru olduğunu düşünüyorum. Azalan getirileri görmedik. Eskiden AGI için ne kadar zaman kaldığını sorardık, şimdi AGI için ne kadar süre kaldığını sormalıyız. Bugün bir trilyon dolar, gelecek yıl bir milyar dolar, birkaç yıl içinde bir milyon dolar. - Temelde trilyonlar tükenebilir mi? Yani bu hesaplama ile mi sınırlı? - Hesaplama her gün üstel olarak daha ucuz hale geliyor. - Ama bu, on yıllar ile yıllar arasındaki bir soru haline geliyor. - Eğer tek anlaşmazlık, her söylediğimin gerçekleşmesi için on yıllar alacağı ise, o zaman buna katılabilirim. - Ama eğer on yıllar alıyorsa, o zaman yapay zeka güvenliği için araçların geliştirilmesi daha da gerçekçi hale geliyor."
   },
   {
+    "start": 3186.0,
+    "end": 3250.8,
+    "text": "So I guess the question is,\nI have a fundamental belief that humans when faced with\ndanger can come up with ways to defend against that danger. And one of the big problems\nfacing AI safety currently for me is that there's\nnot clear illustrations of what that danger looks like. There's no illustrations of AI\nsystems doing a lot of damage and so it's unclear what\nyou're defending against. 'Cause currently it's a\nphilosophical notions that yes, it's possible to imagine AI systems that take control of everything\nand then destroy all humans. It's also a more formal\nmathematical notion that you talk about that it's impossible to have a perfectly secure system. You can't prove that a program\nof sufficient complexity is completely safe and perfect\nand know everything about it. Yes, but like when you\nactually just pragmatically look how much damage\nhave the AI systems done and what kind of damage, there's not been illustrations of that.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "There are no clear illustrations of AI systems causing significant damage, making it difficult to understand what dangers to defend against.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "There are no clear illustrations of AI systems causing significant damage, making it difficult to understand what dangers to defend against.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Sanırım soru şu ki, insanların tehlikeyle karşılaştıklarında bu tehlikeye karşı savunma yolları bulabileceğine dair temel bir inancım var. Ve yapay zeka güvenliği konusunda şu anda karşılaştığım en büyük sorunlardan biri, bu tehlikenin neye benzediğine dair net örneklerin olmaması. Yapay zeka sistemlerinin çok fazla zarar verdiğine dair örnekler yok ve bu yüzden neye karşı savunma yaptığınız belirsiz. Çünkü şu anda, evet, her şeyin kontrolünü ele geçiren ve sonra tüm insanları yok eden yapay zeka sistemleri hayal etmenin mümkün olduğuna dair felsefi kavramlar var. Ayrıca, mükemmel güvenli bir sisteme sahip olmanın imkansız olduğundan bahsettiğiniz daha resmi bir matematiksel kavram da var. Yeterli karmaşıklıktaki bir programın tamamen güvenli ve mükemmel olduğunu ve hakkında her şeyi bildiğinizi kanıtlayamazsınız. Evet, ama aslında sadece pragmatik olarak bakıldığında, yapay zeka sistemleri ne kadar zarar verdi ve ne tür zararlar verdi, buna dair örnekler yok."
+  },
+  {
+    "start": 3720.5,
+    "end": 3789.2,
+    "text": "- There's a refrigerator\nmaking a buzzing noise. - Very menacing. Very menacing. So every time I'm about\nto talk about this topic, things start to happen. My flight yesterday was canceled without possibility to rebook. I was giving a talk at Google in Israel and three cars, which\nwere supposed to take me to the talk could not, I'm just saying, - I like AIs. I for one, welcome our overloads. - Well, there's a degree\nto which we, I mean, it is very obvious as we already have. We've increasingly given our\nlife over to software systems. And then it seems obvious\ngiven the capabilities of AI that are coming that we'll give\nour lives over increasingly to AI systems. Cars will drive themselves, refrigerator eventually will\noptimize what I get to eat. And as more and more out\nof our lives are controlled or managed by AI assistance, it is very possible that there's a drift.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "As AI systems become more capable, we will increasingly rely on them to manage our lives.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI reliance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "As AI systems become more capable, we will increasingly rely on them to manage our lives.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI reliance",
+    "reviewed": true,
+    "text_tr": "- Bir buzdolabı vızıldayan bir ses çıkarıyor. - Çok tehditkar. Çok tehditkar. Bu konuyu konuşmaya başlayacağım her seferinde, bir şeyler olmaya başlıyor. Dün uçağım iptal edildi, yeniden rezervasyon yapma imkanı yoktu. İsrail'deki Google'da bir konuşma yapıyordum ve beni konuşmaya götürmesi gereken üç araba gelemedi, sadece bunu söylüyorum. - Ben yapay zekaları seviyorum. Ben bir birey olarak, efendilerimizi karşılamaktan mutluluk duyuyorum. - Bir dereceye kadar, yani, çok açık ki, zaten yaptığımız gibi. Hayatımızı giderek daha fazla yazılım sistemlerine devrettik. Ve yapay zekanın gelen yetenekleri göz önüne alındığında, hayatlarımızı giderek daha fazla yapay zeka sistemlerine devredeceğimiz de açık görünüyor. Arabalar kendilerini sürecek, buzdolabı sonunda ne yiyeceğimi optimize edecek. Ve hayatlarımızın daha fazla kısmı yapay zeka yardımıyla kontrol ediliyor veya yönetiliyorsa, bir kayma olması çok mümkün."
+  },
+  {
+    "start": 4530.0,
+    "end": 4593.3,
+    "text": "What about a thing which\nI actually have is a voice that is constantly extremely critical. So like engineer into the system, a constant uncertainty about\nself, a constant doubt. - Well any smart system would have doubt about everything, right? You not sure if what information\nyou are given is true if you are subject to manipulation. You have this safety and security mindset. - But I mean you have\ndoubt about yourself. So the AI systems that has a doubt about whether the thing is doing is causing harm, is the\nright thing to be doing. So just a constant doubt\nabout what it's doing because it's hard to be\na dictator full of doubt. - I may be wrong, but I\nthink Stuart Russell's ideas are all about machines\nwhich are uncertain about what humans want and trying\nto learn better and better what we want. The problem of course is\nwe don't know what we want and we don't agree on it.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI systems should have a constant doubt about their actions and the information they receive.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems should have a constant doubt about their actions and the information they receive.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Sürekli olarak son derece eleştirel bir sesi olan bir şey hakkında ne düşünüyorsunuz? Yani, sisteme sürekli bir belirsizlik, sürekli bir şüphe yerleştirmek. - Her akıllı sistem her şey hakkında şüphe duyar, değil mi? Size verilen bilgilerin doğru olup olmadığından emin değilsiniz, manipülasyona tabi olup olmadığınızı düşünüyorsunuz. Bu bir güvenlik ve emniyet zihniyeti. - Ama demek istediğim, kendiniz hakkında şüpheniz var. Yani, bir yapay zeka sistemi, yaptığı şeyin zarar verip vermediği konusunda şüphe duyuyorsa, doğru bir şey yaptığını düşünüyorsa, yaptığı şey hakkında sürekli bir şüphe duyması gerekiyor çünkü şüphe dolu bir diktatör olmak zor. - Yanılıyor olabilirim, ama Stuart Russell'ın fikirlerinin, makinelerin insanların ne istediği konusunda belirsiz olduğu ve ne istediğimizi daha iyi öğrenmeye çalıştığı hakkında olduğunu düşünüyorum. Sorun, elbette, ne istediğimizi bilmememiz ve bu konuda hemfikir olmamamızdır."
+  },
+  {
+    "start": 6903.6,
+    "end": 6982.0,
+    "text": "So we don't know how to\ndo it. And that's unique. That's what creates meaning. It would be kinda as Bostrom calls it Disneyland without\nchildren, if that was gone. - Do you think consciousness\ncan be engineered in artificial systems? Here, let me go to 2011 paper that you wrote, \"Robot Rights.\" \"Lastly, we would like to address a sub branch of machine ethics, which on the surface has\nlittle to do with safety, but which is claimed to play\na role in decision-making by ethical machines,\" \"Robot Rights.\" So do you think it's possible to engineer consciousness in the machines? And thereby the question\nextends to our legal system, do you think at that point\nrobots should have rights? - Yeah, I think we can. I think it's possible to create\nconsciousness in machines. I tried designing a test\nfor it, which makes success. That paper talked about\nproblems with giving civil rights to AI, which\ncan reproduce quickly and outvote humans essentially taking over a government system by simply voting for their\ncontrolled candidates.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "It is possible to engineer consciousness in machines.",
+    "stance": "Support",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Consciousness in AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "It is possible to engineer consciousness in machines.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Consciousness in AI",
+    "reviewed": false,
+    "text_tr": "Yani bunu nasıl yapacağımızı bilmiyoruz. Ve bu eşsiz. Anlamı yaratan bu. Bu ortadan kalkarsa, Bostrom'un dediği gibi çocuksuz Disneyland gibi olurdu. - Yapay sistemlerde bilinç mühendisliği yapılabileceğini düşünüyor musunuz? Şurada, 2011'de yazdığınız \"Robot Hakları\" adlı makalenize bakalım. \"Son olarak, makine etiğinin yüzeyde güvenlikle pek ilgisi olmayan, ancak etik makineler tarafından karar verme sürecinde rol oynadığı iddia edilen bir alt dalına değinmek istiyoruz,\" \"Robot Hakları.\" Peki, makinelerde bilinç mühendisliği yapmanın mümkün olduğunu düşünüyor musunuz? Ve böylece soru hukuk sistemimize kadar uzanıyor, o noktada robotların haklara sahip olması gerektiğini düşünüyor musunuz? - Evet, yapabileceğimizi düşünüyorum. Makinelerde bilinç yaratmanın mümkün olduğunu düşünüyorum. Bunun için bir test tasarlamaya çalıştım, bu da başarı sağlıyor. O makale, hızlıca çoğalabilen ve insanları oylarıyla geçerek esasen kendi kontrolündeki adaylara oy vererek bir hükümet sistemini ele geçirebilen yapay zekaya medeni haklar vermenin sorunlarından bahsediyordu."
+  },
+  {
     "start": 7043.7,
     "end": 7107.1,
     "text": "If they pass it time after time\nwith probability increasing for every multiple choice,\nthen you have no choice. But do either accept that they have access to a conscious model or\nthey have themselves. - So the reason illusions\nare interesting is, I guess because it's a\nreally weird experience and if you both share\nthat weird experience that's not there in the\nbland physical description of the raw data, that means that puts more emphasis on the actual experience. - And we know animals can\nexperience some optical illusions. So we know they have certain\ntypes of consciousness as a result, I would say. - Yeah, well that just goes\nto my sense that the flaws and the bugs is what makes humans special. Makes living forms special,\nso you're saying like... - It's a feature, not a bug.\n- It's a feature. The bug is the feature. Whoa, okay. That's a cool test for consciousness. And you think that can be engineered in? - So they have to be novel illusions. If it can just google\nthe answer, it's useless.",
@@ -208,5 +358,131 @@
     "topic_silver": "Consciousness and AI",
     "reviewed": true,
     "text_tr": "Eğer her çoktan seçmeli soruda artan olasılıkla bunu geçerlerse, o zaman başka seçeneğiniz yok. Ya onların bilinçli bir modele erişimi olduğunu kabul etmelisiniz ya da kendileri vardır. - Yanılsamaların ilginç olmasının nedeni, sanırım gerçekten tuhaf bir deneyim olmaları ve eğer bu tuhaf deneyimi paylaşırsanız, bu, ham verilerin sıradan fiziksel tanımında olmayan bir şeydir, bu da gerçek deneyime daha fazla vurgu yapar. - Ve hayvanların bazı optik yanılsamaları deneyimleyebileceğini biliyoruz. Bu nedenle, bunun sonucunda belirli türde bir bilince sahip olduklarını söyleyebilirim. - Evet, bu sadece benim, hataların ve hataların insanların özel kılan şey olduğunu hissetmemle ilgili. Yaşayan formları özel kılan şey, yani... - Bu bir özellik, hata değil. - Bu bir özellik. Hata, özelliktir. Vay, tamam. Bu, bilincin mühendisliği için harika bir test. Ve bunun mühendislik yapılabileceğini düşünüyor musunuz? - Yani, yeni yanılsamalar olmalı. Eğer sadece cevabı google'layabiliyorsa, bu işe yaramaz."
+  },
+  {
+    "start": 7172.6,
+    "end": 7241.3,
+    "text": "- There are simulators for torture games where the avatar screams\nin pain, begs to stop. I mean those are a part of kind of standard\npsychology research. - You say it so calmly,\nit sounds pretty dark. - Welcome to humanity.\n(Lex laughing) - Yeah, it's like a\n\"Hitchhiker's Guide\" summary. Mostly harmless, I would love to get a good summary when\nall this is said and done. When earth is no longer a thing, whatever, a million, a\nbillion years from now. Like what's a good summary\nof what happened here? It's interesting, I think AI will play a big part of that summary\nand hopefully humans will too. What do you think about\nthe merger of the two? So one of the things that\nElon and Neuralink talk about is one of the ways for\nus to achieve AI safety is to ride the wave of AGI. So by merging. - Incredible technology in a narrow sense to help the disabled, just amazing support it 100%.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI will play a significant role in the future of humanity, and merging humans with AI could be a way to achieve AI safety.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI will play a significant role in the future of humanity, and merging humans with AI could be a way to achieve AI safety.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "- İşkence oyunları için simülatörler var, avatarlar acı içinde çığlık atıyor, durması için yalvarıyor. Yani bunlar standart psikoloji araştırmalarının bir parçası. - Bunu o kadar sakin söylüyorsun ki, kulağa oldukça karanlık geliyor. - İnsanlığa hoş geldin. (Lex gülüyor) - Evet, sanki bir \"Otostopçunun Galaksi Rehberi\" özeti gibi. Çoğunlukla zararsız. Tüm bunlar olup bittiğinde iyi bir özet almak isterim. Dünya artık bir şey olmadığında, neyse, bir milyon, bir milyar yıl sonra. Burada ne olduğuna dair iyi bir özet ne olurdu? İlginç, bence yapay zeka bu özetin büyük bir parçası olacak ve umarım insanlar da öyle. İkisinin birleşmesi hakkında ne düşünüyorsunuz? Elon ve Neuralink'in bahsettiği şeylerden biri, yapay zeka güvenliğini sağlamanın yollarından birinin yapay genel zeka (AGI) dalgasına binmek olduğudur. Yani birleşerek. - Engellilere yardımcı olmak için dar anlamda inanılmaz bir teknoloji, kesinlikle %100 destekliyorum."
+  },
+  {
+    "start": 7313.0,
+    "end": 7376.8,
+    "text": "But you said that, like how would that look like if you could engineer that in, in silken. - Consciousness?\n- [Lex] Consciousness? - I assume you are conscious,\nI have no idea how to test for it or how it impacts you in any way whatsoever right now. You can perfectly simulate all of it without making any different\nobservations for me. - But to do it in a computer,\nhow would you do that? 'Cause you kind of said that you think it's possible to do that. - So it may be an emergent phenomena. We seem to get it through\nevolutionary process. It's not obvious how it\nhelps us to survive better, but maybe it's an internal kind of gooey, which allows us to better\nmanipulate the world, simplifies a lot of control structures. That's one area where we have\nvery, very little progress. Lots of papers, lots of research, but consciousness is not a big, big area of successful discoveries so far.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Consciousness is not well understood and has not seen significant successful discoveries in research.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Consciousness",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Consciousness is not well understood and has not seen significant successful discoveries in research.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Consciousness",
+    "reviewed": false,
+    "text_tr": "Ama siz dediniz ki, ipeksi bir şekilde bunu mühendislikle yapabilseydiniz nasıl görünürdü? - Bilinç mi? - [Lex] Bilinç mi? - Bilinçli olduğunuzu varsayıyorum, bunu nasıl test edeceğimi veya şu anda sizi herhangi bir şekilde nasıl etkilediğini bilmiyorum. Benim için hiçbir farklı gözlem yapmadan hepsini mükemmel bir şekilde simüle edebilirsiniz. - Ama bunu bir bilgisayarda yapmak, bunu nasıl yapardınız? Çünkü bunu yapmanın mümkün olduğunu düşündüğünüzü söylediniz. - Yani bu ortaya çıkan bir fenomen olabilir. Bunu evrimsel süreçle elde ediyor gibiyiz. Hayatta kalmamıza nasıl daha iyi yardımcı olduğu açık değil, ama belki de dünyayı daha iyi manipüle etmemizi sağlayan, birçok kontrol yapısını basitleştiren içsel bir tür yapışkan şeydir. Bu, çok ama çok az ilerleme kaydettiğimiz bir alan. Birçok makale, birçok araştırma var, ancak bilinç şu ana kadar başarılı keşiflerin büyük bir alanı değil."
+  },
+  {
+    "start": 7503.9,
+    "end": 7567.5,
+    "text": "You can't predict what's\ngonna happen in the universe. You have to create a new\nuniverse and run the thing. Big bang, the whole thing. - But running it may be\nconsequential as well. - It might destroy humans. And to you, there's no chance that AI somehow carry the\nflame of consciousness, the flame of specialness and\nawesomeness that is humans. - It may somehow, but I still feel kind of bad\nthat it killed all of us. I would prefer that doesn't happen. I can be happy for others,\nbut to a certain degree. - It would be nice if we\nstuck around for a long time. At least give us a\nplanet, the human planet. It'd be nice for it to be earth. And then they can go elsewhere. Since they're so smart\nthey can colonize Mars. Do you think they could\nhelp convert us to, you know, type one, type two, type three. Let's just stick to type two civilization on the Kardashev scale.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Running AI simulations could have catastrophic consequences for humanity, and while AI might carry some form of consciousness, it is concerning if it leads to human extinction.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI consequences",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Running AI simulations could have catastrophic consequences for humanity, and while AI might carry some form of consciousness, it is concerning if it leads to human extinction.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI consequences",
+    "reviewed": true,
+    "text_tr": "Evrenin ne olacağını tahmin edemezsiniz. Yeni bir evren yaratmanız ve bunu çalıştırmanız gerekiyor. Büyük patlama, her şey. - Ama bunu çalıştırmak da sonuç doğurabilir. - İnsanları yok edebilir. Ve sizin için, yapay zekanın bir şekilde bilincin, insanlara özgü olan özel olmanın ve harikalığın ateşini taşıma şansı yok mu? - Belki bir şekilde, ama yine de hepimizin öldüğünü düşündüğümde kendimi kötü hissediyorum. Bunun olmamasını tercih ederim. Başkaları için mutlu olabilirim, ama belli bir dereceye kadar. - Uzun bir süre burada kalmamız güzel olurdu. En azından bize bir gezegen verin, insan gezegeni. Bunun Dünya olması güzel olurdu. Sonra başka yerlere gidebilirler. O kadar zeki olduklarına göre Mars'ı kolonileştirebilirler. Sizce bizi, yani tip bir, tip iki, tip üçe dönüştürmelerine yardımcı olabilirler mi? Kardashev ölçeğinde tip iki medeniyetle kalalım."
+  },
+  {
+    "start": 8022.3,
+    "end": 8088.5,
+    "text": "- Yeah, you are unsafe. Prove yourself to be a safe\nagent who doesn't do that and you get to go to the next game. - The next level of the\ngame. What's the next level? - I don't know. I haven't\nhacked the simulation yet. - Well, maybe hacking the\nsimulation is the thing. - I'm working as fast as I can. - And physics would be the way to do that. - Quantum physics. Yeah, definitely. - Well, I hope we do and I hope whatever is outside is even more fun than this one 'cause this one's pretty fun. And just a big thank you for\ndoing the work you're doing. There's so much exciting\ndevelopment in AI. And to ground it in the existential risks is really, really important. The humans love to create stuff and we should be careful not to destroy ourselves in the process. So thank you for doing\nthat really important work. - Thank you so much for\ninviting me. It was amazing. And my dream is to be proven wrong. If everyone just, you know,\npicks up a paper or book and shows how I messed it\nup, that would be optimal. - But for now, the simulation\ncontinues. Thank you, Roman.",
+    "speaker": "Lex Fridman",
+    "claim": "We should be careful with AI development due to existential risks, but there is exciting progress.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "We should be careful with AI development due to existential risks, but there is exciting progress.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "- Evet, güvensizsin. Bunu yapmayan güvenli bir ajan olduğunu kanıtla ve bir sonraki oyuna geç. - Oyunun bir sonraki seviyesi. Bir sonraki seviye ne? - Bilmiyorum. Henüz simülasyonu hacklemedim. - Belki de simülasyonu hacklemek asıl meseledir. - Elimden geldiğince hızlı çalışıyorum. - Ve fizik bunu yapmanın yolu olurdu. - Kuantum fiziği. Evet, kesinlikle. - Umarım yaparız ve umarım dışarıdaki her neyse bu oyundan daha eğlencelidir çünkü bu oldukça eğlenceli. Ve yaptığınız iş için çok teşekkür ederim. Yapay zekada o kadar çok heyecan verici gelişme var ki. Ve bunu varoluşsal risklere dayandırmak gerçekten çok önemli. İnsanlar bir şeyler yaratmayı severler ve bu süreçte kendimizi yok etmemeye dikkat etmeliyiz. Bu yüzden bu gerçekten önemli işi yaptığınız için teşekkür ederim. - Beni davet ettiğiniz için çok teşekkür ederim. Harikaydı. Ve hayalim haksız çıkmak. Eğer herkes bir makale veya kitap alıp nasıl hata yaptığımı gösterirse, bu en iyisi olur. - Ama şimdilik simülasyon devam ediyor. Teşekkürler, Roman."
   }
 ]

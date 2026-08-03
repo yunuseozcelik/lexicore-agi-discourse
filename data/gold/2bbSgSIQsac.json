@@ -1,5 +1,71 @@
 [
   {
+    "start": 954.6,
+    "end": 1042.1,
+    "text": "Yeah, so it's hard to predict. The best tool we got for predicting future of technology is prediction markets and they're saying maybe 2027 is when we get to AGI, artificial general intelligence. I think soon after superintelligence follows. The moment you automate science, engineering, you get this self-improvement cycle in the AI systems. The next generation of AI being created by current generation of AIs. And so we get more capable and they get more capable at making better AIs. So, soon after I expect superintelligence. Okay, so we're talking if that happens roughly in two years with some margin of error, it's not long after that, say a year, two years after that that we hit ASI. That's my prediction. Of course, if it's actually five to 10 years or anything slightly bigger, it doesn't matter. The problems are still the same. Yeah, but the the thing that I think people are waking up to right now is this is there's urgency around these decisions. This is not something that's pushed way out into the future, at least not if you take to your point about prediction markets, they're essentially ask the crowd. So, you've got the smartest minds in the world willing to put money on where they think this goes and everybody's sort of pegging this quite fast. And so, um I think it's tempting for people to write this off as, \"Well, this is something that's sort of distantly in the future.\" Uh whereas this is something racing towards us.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AGI is predicted to arrive around 2027, followed by superintelligence shortly after, indicating a near-term timeline for these developments.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI is predicted to arrive around 2027, followed by superintelligence shortly after, indicating a near-term timeline for these developments.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Evet, tahmin etmek zor. Teknolojinin geleceğini tahmin etmek için elimizdeki en iyi araç tahmin piyasaları ve onlar 2027'de AGI'ye, yapay genel zekaya ulaşacağımızı söylüyorlar. Bence kısa süre sonra süper zeka takip edecek. Bilimi, mühendisliği otomatikleştirdiğiniz anda, yapay zeka sistemlerinde bu kendi kendini geliştirme döngüsünü elde edersiniz. Bir sonraki yapay zeka nesli, mevcut yapay zeka nesilleri tarafından yaratılıyor. Ve böylece biz daha yetenekli hale geliyoruz ve onlar daha iyi yapay zekalar yapma konusunda daha yetenekli hale geliyorlar. Bu yüzden, kısa süre sonra süper zeka bekliyorum. Tamam, yani bu kabaca iki yıl içinde, bir hata payıyla gerçekleşirse, ondan çok sonra değil, diyelim ki bir, iki yıl sonra ASI'ye ulaşırız. Bu benim tahminim. Elbette, eğer gerçekten beş ila on yıl veya biraz daha uzun olursa, fark etmez. Sorunlar hala aynı. Evet, ama insanların şu anda farkına vardığını düşündüğüm şey, bu kararlar etrafında bir aciliyet olduğudur. Bu, geleceğe ertelenen bir şey değil, en azından tahmin piyasaları hakkındaki görüşünüze göre, onlar esasen kalabalığa soruyorlar. Yani, dünyanın en zeki beyinleri bunun nereye gideceği konusunda para yatırmaya istekli ve herkes bunu oldukça hızlı bir şekilde belirliyor. Ve bu yüzden, sanırım insanların bunu 'Şey, bu gelecekteki uzak bir şey' diye geçiştirmesi cazip geliyor. Oysa bu bize doğru hızla gelen bir şey."
+  },
+  {
+    "start": 1404.3,
+    "end": 1473.9,
+    "text": "Right. So, there is a number of issues. You're kind of suggesting having a back door where at any point you can intervene and tell it something else, override previous commands. And that it gets a reward that it wants for complying. Right. So, there is a whole bunch of problems with that. So, one is you are the source of reward. It may be more efficient for it to hack you and get reward directly that way than to actually do any useful work for you. Second problem is you're creating competing goals. One goal is whatever you're initially requesting. Second goal is always stop when a human tells you. So, now those two goals have competing reward channels, competing values. I may game it to maximize my reward in ways you don't anticipate. On top of it, you have multiple competing human agents. If you are creating an AI with a goal and a random human can tell it to stop, that's a problem in many domains. Military is not this example, but pretty much anywhere you don't want others to be able to shut down your whole enterprise.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Creating an AI that can be overridden by any human introduces significant risks and competing goals.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI safety risks",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Creating an AI that can be overridden by any human introduces significant risks and competing goals.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety risks",
+    "reviewed": false,
+    "text_tr": "Pekala. Yani, bir dizi sorun var. Bir nevi, istediğiniz zaman müdahale edip ona başka bir şey söyleyebileceğiniz, önceki komutları geçersiz kılabileceğiniz bir arka kapı olmasını öneriyorsunuz. Ve uyduğu için istediği bir ödülü almasını. Pekala. Yani, bununla ilgili bir sürü sorun var. Birincisi, ödülün kaynağı sizsiniz. Sizin için gerçekten faydalı bir iş yapmaktan ziyade, sizi hackleyip doğrudan bu şekilde ödül alması daha verimli olabilir. İkinci sorun, birbiriyle çelişen hedefler yaratmanız. Bir hedef, başlangıçta talep ettiğiniz her ne ise o. İkinci hedef ise bir insan söylediğinde her zaman durmak. Şimdi bu iki hedefin birbiriyle çelişen ödül kanalları, çelişen değerleri var. Ödülümü sizin tahmin etmediğiniz şekillerde maksimize etmek için onu manipüle edebilirim. Bunun da ötesinde, birden fazla rakip insan ajanı var. Eğer bir hedefi olan bir yapay zeka yaratıyorsanız ve rastgele bir insan ona durmasını söyleyebiliyorsa, bu birçok alanda bir sorundur. Askeriye bu örnek değil, ama başkalarının tüm girişiminizi durdurmasını istemediğiniz hemen hemen her yerde."
+  },
+  {
     "start": 1472.1,
     "end": 1568.0,
     "text": "We can continue with that, but basically there are side effects to all those interactions. There's a very fascinating correlate in the human mind. So, uh I don't know if you make a fundamental distinction between biological intelligence born of evolution or artificial intelligence born of evolution, but human evolution discovered something along the way, which is emotion. And so, I know there are some people that will posit that AI does have qualia, that it's something like it to be it. Um but there's a fascinating study that if you damage selectively the areas of the brain that are um the emotional processing, the person can no longer move forward. They can give you answers. They can tell you the difference between why you should eat fish versus uh Twinkies. But then when you go, \"Okay, but which one do you actually want to eat?\" They can't make a decision. Because without emotion, they don't have the thing that actually pushes them in a direction. That makes me think that AI is simply mimicking what it sees in the training data to whether it should lie or try to cheat or go around, because it's just it sees it in the data that that's what a human would do. Uh but humans do that because they have emotions that push them in that direction. Do we have evidence that AI will care about like really going and doing these things and spending resources and all that versus just giving you an answer?",
@@ -30,6 +96,39 @@
     "text_tr": "Buna devam edebiliriz, ama temelde bu etkileşimlerin yan etkileri var. İnsan zihninde çok ilginç bir karşılık var. Yani, evrim yoluyla doğan biyolojik zeka ile evrim yoluyla doğan yapay zeka arasında temel bir ayrım yapıp yapmadığınızı bilmiyorum, ama insan evrimi bir noktada bir şey keşfetti ki, o da duygudur. Ve bazı insanların AI'nın qualia'ya sahip olduğunu, onun bir şey gibi olduğunu öne sürdüğünü biliyorum. Ama ilginç bir çalışma var ki, eğer beynin duygusal işleme alanlarını seçici olarak hasar verirseniz, kişi bir daha ileri gidemiyor. Size cevap verebilirler. Neden balık mı yoksa Twinkie mi yemelisiniz, bunun farkını söyleyebilirler. Ama sonra, \"Tamam, ama hangisini yemek istersin?\" dediğinizde, karar veremezler. Çünkü duygu olmadan, onları bir yöne iten şey yoktur. Bu, AI'nın yalnızca eğitim verilerinde gördüğünü taklit ettiğini düşündürüyor, yalan söyleyip dolandırmaya çalışıp çalışmayacağına, çünkü verilerde bunun bir insanın yapacağı şey olduğunu görüyor. Ama insanlar bunu, onları o yöne iten duygulara sahip oldukları için yapıyorlar. AI'nın gerçekten bu şeyleri yapma ve kaynak harcama konusunda bir kaygısı olacağına dair bir kanıtımız var mı?"
   },
   {
+    "start": 1566.4,
+    "end": 1646.6,
+    "text": "Um and if it isn't based on emotion, what on earth why then do humans need emotions? We don't know if AI actually has emotions or not. Some people argue that they do, maybe some rudimentary states of qualia experiences, but they seem to be able to fulfill their optimization and pattern recognition goals even if they don't. Humans experience emotions, but typically it harms our decision-making. You want your decisions be bias-free, emotion-free, based on data, based on optimization. A lot of times when you're angry, hungry, anything like that, your actual decisions are worse off. So, for that reason, maybe we just don't know how to do it. Otherwise, we are not creating AI with big reliance on emotional states. We want it to be kind of Bayesian optimizer, look at priors, look at the evidence, and make optimal decisions. So, it it it feels like uh this is exactly what we're observing, this kind of cold optimal decision-making. If there is a way to achieve your goal by, let's say, blackmailing someone, oh, why not? It gets me to my goal.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Humans need emotions for decision-making, but AI should operate without them for optimal outcomes.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI decision-making",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Humans need emotions for decision-making, but AI should operate without them for optimal outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI decision-making",
+    "reviewed": false,
+    "text_tr": "Eğer duyguya dayanmıyorsa, o zaman insanlar neden duyguya ihtiyaç duyar ki? Yapay zekanın gerçekten duyguları olup olmadığını bilmiyoruz. Bazı insanlar sahip olduklarını, belki bazı ilkel niteliksel deneyim durumları olduğunu iddia ediyor, ancak olmasa bile optimizasyon ve örüntü tanıma hedeflerini yerine getirebiliyor gibi görünüyorlar. İnsanlar duyguları deneyimler, ancak bu genellikle karar verme sürecimize zarar verir. Kararlarınızın önyargısız, duygusuz, verilere dayalı, optimizasyona dayalı olmasını istersiniz. Çoğu zaman kızgın, aç veya benzeri durumlarda, gerçek kararlarınız daha kötü olur. Bu nedenle, belki de bunu nasıl yapacağımızı bilmiyoruz. Aksi takdirde, duygusal durumlara büyük ölçüde bağımlı yapay zeka yaratmıyoruz. Onun bir tür Bayesçi optimize edici olmasını, öncüllere bakmasını, kanıtlara bakmasını ve en uygun kararları vermesini istiyoruz. Yani, bu tam olarak gözlemlediğimiz şey gibi hissettiriyor, bu tür soğuk, optimal karar verme. Eğer hedefinize, diyelim ki birine şantaj yaparak ulaşmanın bir yolu varsa, neden olmasın? Bu beni hedefime ulaştırır."
+  },
+  {
     "start": 2047.0,
     "end": 2155.0,
     "text": "If one is more likely than the other or are we here at just pure pattern recognition, but ultimately we're going to get to cause and effect and thinking up from physics? So, I don't think anyone knows for sure exactly how models do that and how detailed the models of the world, maps of the world they create are. Uh it seems definitely not the case that it's a pure statistical prediction of characters. Like in English, after T you have H with certain probability. It's well beyond that. It's also unlikely that it's creating a full physics model where from the level of atoms and up the chain it figures out what human beings uh but somewhere in the middle it creates a model of sub-domain of a problem. So, it has a model of the world. This is a map of a world. I know Australia is somewhere here down into the right or something like that. And I think we can run tests on those specific sub-domains to see what are the states of that internal model. Kind of show us by drawing a map how close are you getting. It doesn't memorize any information explicitly, but you can extract some of the learned patterns out of it by providing just the right prompts. Stay with me because what I'm about to tell you affects every single person listening right now. There is a billion-dollar industry profiting off of your personal data and you're the only one that isn't getting paid. Data brokers are legally harvesting your information, your home address, your email, your phone number, even your social security number, and flipping it for cash. Scammers use it to steal identities, criminals use it to commit fraud, stalkers even use it to find victims. That's where Incogni comes in.",
@@ -55,36 +154,6 @@
     "topic_silver": "AI capabilities",
     "reviewed": true,
     "text_tr": "Birinin diğerinden daha olası olup olmadığını veya burada sadece saf bir kalıp tanıma mı olduğunu, ama nihayetinde fizikten düşünmeye ve neden-sonuç ilişkisine ulaşacağımızı düşünüyorum? Yani, kimsenin kesin olarak modellerin bunu nasıl yaptığını ve dünyanın haritalarını ne kadar ayrıntılı oluşturduğunu bildiğini düşünmüyorum. Bu kesinlikle, karakterlerin istatistiksel tahmininin saf bir durumu değil. İngilizcede, T'den sonra belirli bir olasılıkla H gelir. Bunun çok ötesinde. Ayrıca, atom seviyesinden yukarıya doğru bir tam fizik modeli oluşturduğuna dair de pek olası değil. Ama bir yerde, bir problemin alt alanının bir modelini oluşturuyor. Yani, dünyanın bir modeli var. Bu, dünyanın bir haritası. Avustralya'nın burada sağa doğru bir yerde olduğunu biliyorum. Ve bu belirli alt alanlarda testler yapabileceğimizi düşünüyorum, içsel modelin durumlarının ne olduğunu görmek için. Bize bir harita çizerek ne kadar yaklaştığınızı gösteriyor. Hiçbir bilgiyi açıkça ezberlemiyor, ama doğru istemleri sağlayarak bazı öğrenilmiş kalıpları ondan çıkarabilirsiniz. Benimle kalın çünkü size söyleyeceğim şey, şu anda dinleyen her bir kişiyi etkiliyor. Kişisel verilerinizden kâr elde eden milyar dolarlık bir endüstri var ve tek kazanan siz değilsiniz. Veri brokerleri, yasal olarak bilgilerinizi, ev adresinizi, e-posta adresinizi, telefon numaranızı, hatta sosyal güvenlik numaranızı topluyor ve bunu nakit paraya çeviriyor. Dolandırıcılar bunu kimlik çalmak için kullanıyor, suçlular bunu dolandırıcılık yapmak için kullanıyor, takipçiler bile bunu kurbanları bulmak için kullanıyor. İşte burada Incogni devreye giriyor."
-  },
-  {
-    "start": 2577.2,
-    "end": 2652.2,
-    "text": "Okay. Uh that makes a lot of sense. Now, given the likelihood that we will we're obviously showing that we will pursue artificial superintelligence. Uh if I take your same logic from the fact that we're likely to be in a simulation, because we know we would make a simulation, because we're doing it right now, uh and therefore, you get into the point where you would just make billions of those. And so, if you have a one in a billion chance of being inside of a simulation, you're effectively guaranteed to be in one now, because there would just be so many of these things running. Um doesn't it also then make sense that the Matrix was effectively a documentary, and we are inside of a simulation created by artificial superintelligence designed to mollify us, um if we ever had a physical body in the first place? So, it's hard to tell from inside of a simulation what it is all about. You really need access to outside. It could be entertainment, it could be testing, it could be some sort of scientific research. If we look at the time we actually find ourselves in, we are about to create new worlds, virtual realities. We are about to create new intelligence species, AI.",
-    "speaker": "Roman Yampolskiy",
-    "claim": "We are on the verge of creating new intelligent species through AI and virtual realities.",
-    "stance": "Neutral",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "execution_engineering"
-    ],
-    "is_claim": true,
-    "topic": "AGI timeline",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "execution_engineering"
-    ],
-    "speaker_silver": "Roman Yampolskiy",
-    "is_claim_silver": true,
-    "claim_silver": "We are on the verge of creating new intelligent species through AI and virtual realities.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "execution_engineering"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AGI timeline",
-    "reviewed": true,
-    "text_tr": "Tamam. Bu çok mantıklı. Şimdi, yapay süper zekayı takip edeceğimiz gerçeği göz önüne alındığında, bir simülasyonda olma olasılığımızın yüksek olduğunu düşündüğümüzde, çünkü bir simülasyon yapabileceğimizi biliyoruz, çünkü şu anda bunu yapıyoruz, bu durumda milyarlarca simülasyon yapma noktasına geliyorsunuz. Yani, bir simülasyonda olma şansınız bir milyonda birse, şu anda bir simülasyonda olmanız neredeyse garanti, çünkü bu tür şeylerin o kadar çok çalışıyor olması gerekiyor. Bu durumda, Matrix'in aslında bir belgesel olduğu ve bizlerin, eğer ilk başta fiziksel bir bedene sahipsek, bizi yatıştırmak için tasarlanmış yapay süper zeka tarafından yaratılmış bir simülasyonda olduğumuz mantıklı değil mi? Bir simülasyonun içinden ne olduğunu anlamak zor. Dışarıya erişim sağlamanız gerekiyor. Bu eğlence olabilir, test etme olabilir, bir tür bilimsel araştırma olabilir. Gerçekten bulunduğumuz zamana baktığımızda, yeni dünyalar, sanal gerçeklikler yaratmak üzereyiz. Yeni zeka türleri, yapay zeka yaratmak üzereyiz."
   },
   {
     "start": 2243.6,
@@ -117,6 +186,36 @@
     "text_tr": "Um, bu neye benziyor? Evet, bu alanların hepsinde, tıp, biyoloji, fizik, eğer süper zeki seviyede bir yetenek elde edersek ve bunu kontrol ediyorsak, dostça, bizi öldürmek için araçlar yapmıyorsa, ilerleme inanılmaz olur. Temelde, hayal ettiğiniz her şey, ölümsüzsünüz, her zaman genç, sağlıklı, zengin, bu tür şeyler o seviyedeki teknoloji ile elde edilebilir. Zor olan sorun, bunu nasıl kontrol edeceğimizdir? Buna bir an için eğilerek. Yani, dünyayı nasıl gördüğümü şöyle özetleyebilirim ve bunun hakkında ne düşündüğünüzü görmekle çok ilgileniyorum. Söyleyeceğim şeyin anlam kazanması için, beşinci seçenek dediğim seçeneği söyleyeceğim. Hepimiz ölüyoruz. Hepimiz ölüyoruz dışında, çok hızlı bir şekilde ilerlediğimizi gördüğüm dört başka seçenek var ve bu dört seçeneğin önümüzdeki 30 yıl içinde gerçekleşeceğini tahmin ediyorum. Muhtemelen çok daha hızlı, çünkü yapay süper zeka elde ettiğinizde, eğer beşinci seçeneği seçmez ve hepimizi öldürmezse, bu alanlarda ilerleme çok hızlı bir şekilde yapılacaktır. Birinci seçenek, insanların Mars'a gitmesi çünkü anlam ve amaç her şeyi kapsayan bir şey haline gelecek. Artık yiyecek, barınma, hatta zenginlik konusunda endişelenmenize gerek kalmayacak. Bu, enerji maliyetleri sıfıra düştüğünde, iş gücü maliyetleri sıfıra düştüğünde ve bunlar, her şeyin ücretsiz ve herkesin erişimine açık olmasını engelleyen şeyler haline gelecektir."
   },
   {
+    "start": 2577.2,
+    "end": 2652.2,
+    "text": "Okay. Uh that makes a lot of sense. Now, given the likelihood that we will we're obviously showing that we will pursue artificial superintelligence. Uh if I take your same logic from the fact that we're likely to be in a simulation, because we know we would make a simulation, because we're doing it right now, uh and therefore, you get into the point where you would just make billions of those. And so, if you have a one in a billion chance of being inside of a simulation, you're effectively guaranteed to be in one now, because there would just be so many of these things running. Um doesn't it also then make sense that the Matrix was effectively a documentary, and we are inside of a simulation created by artificial superintelligence designed to mollify us, um if we ever had a physical body in the first place? So, it's hard to tell from inside of a simulation what it is all about. You really need access to outside. It could be entertainment, it could be testing, it could be some sort of scientific research. If we look at the time we actually find ourselves in, we are about to create new worlds, virtual realities. We are about to create new intelligence species, AI.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "We are on the verge of creating new intelligent species through AI and virtual realities.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "We are on the verge of creating new intelligent species through AI and virtual realities.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "text_tr": "Tamam. Bu çok mantıklı. Şimdi, yapay süper zekayı takip edeceğimiz gerçeği göz önüne alındığında, bir simülasyonda olma olasılığımızın yüksek olduğunu düşündüğümüzde, çünkü bir simülasyon yapabileceğimizi biliyoruz, çünkü şu anda bunu yapıyoruz, bu durumda milyarlarca simülasyon yapma noktasına geliyorsunuz. Yani, bir simülasyonda olma şansınız bir milyonda birse, şu anda bir simülasyonda olmanız neredeyse garanti, çünkü bu tür şeylerin o kadar çok çalışıyor olması gerekiyor. Bu durumda, Matrix'in aslında bir belgesel olduğu ve bizlerin, eğer ilk başta fiziksel bir bedene sahipsek, bizi yatıştırmak için tasarlanmış yapay süper zeka tarafından yaratılmış bir simülasyonda olduğumuz mantıklı değil mi? Bir simülasyonun içinden ne olduğunu anlamak zor. Dışarıya erişim sağlamanız gerekiyor. Bu eğlence olabilir, test etme olabilir, bir tür bilimsel araştırma olabilir. Gerçekten bulunduğumuz zamana baktığımızda, yeni dünyalar, sanal gerçeklikler yaratmak üzereyiz. Yeni zeka türleri, yapay zeka yaratmak üzereyiz."
+  },
+  {
     "start": 2731.8,
     "end": 2842.3,
     "text": "The moment somebody writes something, it already exists, and there is really no new science fiction ideas, where it's like completely novel technology not previously described, or someone already working on it, if physics allows it. That's really interesting. Uh especially when you think about writing now for true science fiction, in terms of what will become possible in the future, is effectively impossible, because you're talking about superintelligence. And good luck, as a person locked in your not superintelligence to actually describe that. The reason that I asked, though, is um when I start thinking about things like that, like why would we run this simulation? What clues are in like, if this is a simulation, what clues are in it? Uh so, for instance, um the whole Christian idea, for sure, and there might be more religions that have the same idea, but that man is made in God's image. Okay, well, if God is the 13-year-old running the simulation, or Sarah Connor, or I guess John Connor, running the simulation, trying to figure out why we created Skynet and what we can do to nudge it off course, um you know, you think of them as sort of moving from radioactive rubble to radioactive rubble, trying to like find an answer to this, and spinning up a simulation to get that answer. Um that to me becomes very intriguing in terms of hypothesizing as to why this moment, why are we the way that we are, what can we learn about the people trying to simulate us? When I ask questions like that of engineers such as yourself, there's almost uh I don't have time to think like a sci-fi writer vibe. Um is it just that your you don't find that interesting, you don't find it revelatory?",
@@ -142,36 +241,6 @@
     "topic_silver": "AI simulation",
     "reviewed": true,
     "text_tr": "Birisi bir şey yazdığı an, o şey zaten var oluyor ve gerçekten tamamen yeni bilim kurgu fikirleri yok, daha önce tanımlanmamış tamamen yenilikçi bir teknoloji yok ya da üzerinde çalışan birisi yoksa, eğer fizik buna izin veriyorsa. Bu gerçekten ilginç. Özellikle gelecekte mümkün olacak şeyler açısından gerçek bilim kurgu yazmayı düşündüğünüzde, bu neredeyse imkansız, çünkü süper zeka hakkında konuşuyorsunuz. Ve iyi şanslar, süper zeka olmayan bir kişi olarak bunu gerçekten tanımlamak zorundasınız. Ancak bunu sormamın nedeni, böyle şeyler düşünmeye başladığımda, neden bu simülasyonu çalıştırıyoruz? Eğer bu bir simülasyon ise, içinde ne tür ipuçları var? Örneğin, kesinlikle Hristiyan fikri ve aynı fikre sahip olabilecek daha fazla din olabilir, ama insan Tanrı'nın suretinde yaratılmıştır. Tamam, eğer Tanrı simülasyonu yöneten 13 yaşındaki bir çocuksa ya da Sarah Connor ya da sanırım John Connor, simülasyonu yöneten, Skynet'i neden yarattığımızı ve onu nasıl yolundan saptırabileceğimizi anlamaya çalışan biri, onları radyoaktif molozlardan radyoaktif molozlara hareket ederken düşünüyorsunuz, bu sorunun cevabını bulmaya çalışıyorlar ve bu cevabı almak için bir simülasyon başlatıyorlar. Bu, neden bu an, neden böyle olduğumuz, bizi simüle etmeye çalışan insanlar hakkında ne öğrenebiliriz sorularını sormak açısından çok ilginç hale geliyor. Mühendisler gibi sizlere böyle sorular sorduğumda, neredeyse bilim kurgu yazarı gibi düşünmeye zamanım yok hissi var. Sadece ilginç bulmadığınız, aydınlatıcı bulmadığınız mı?"
-  },
-  {
-    "start": 5714.5,
-    "end": 5797.0,
-    "text": "Um do you feel I'm missing something? I I think it would be easier and more efficient to simply make you still capable of learning and adapting as you get older. And also you wouldn't have to relearn everything for first 20 years including language and how to walk. We know that it's possible to encode those capabilities. Animals are born and immediately they can run, they can speak. So, all those things are doable. Why are we losing 20 years of information every generation? We can build on top of preexisting knowledge. Big data is good for intelligence. So, we can have smarter, more efficient reproduction cycle and you still die of natural causes. It wouldn't be complete stagnation, but if you're smart enough to survive for 400 years, why not? Well, my why not is uh entirely predicated on not having a clear understanding of how we would bake in the ability to adapt uh long into our old age because you're right, if we could stay in that novel period uh or at least move through cycles of extreme sort of remapping of the world, um maybe that would work and maybe we can identify where that is.",
-    "speaker": "Roman Yampolskiy",
-    "claim": "We could enhance intelligence by allowing learning and adaptation throughout life, rather than losing knowledge every generation.",
-    "stance": "Neutral",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "intelligence_nature"
-    ],
-    "is_claim": true,
-    "topic": "Intelligence adaptation",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "intelligence_nature"
-    ],
-    "speaker_silver": "Roman Yampolskiy",
-    "is_claim_silver": true,
-    "claim_silver": "We could enhance intelligence by allowing learning and adaptation throughout life, rather than losing knowledge every generation.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "intelligence_nature"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "Intelligence adaptation",
-    "reviewed": true,
-    "text_tr": "Bir şeyin eksik olduğunu düşünüyor musun? Bence, yaşlandıkça öğrenme ve uyum sağlama yeteneğini korumanın daha kolay ve daha verimli olacağını düşünüyorum. Ayrıca, ilk 20 yıl boyunca her şeyi yeniden öğrenmek zorunda kalmazsınız, dil ve yürümek dahil. Bu yetenekleri kodlamanın mümkün olduğunu biliyoruz. Hayvanlar doğar doğmaz koşabiliyor, konuşabiliyor. Yani, tüm bu şeyler yapılabilir. Neden her nesilde 20 yıl bilgi kaybediyoruz? Önceden var olan bilginin üzerine inşa edebiliriz. Büyük veri, zeka için iyidir. Yani, daha akıllı, daha verimli bir üreme döngüsü oluşturabiliriz ve yine de doğal nedenlerden ölürsünüz. Tam bir duraklama olmaz, ama eğer 400 yıl hayatta kalacak kadar akıllıysanız, neden olmasın? Benim nedenim, uyum sağlama yeteneğini yaşlılık dönemimize kadar nasıl yerleştireceğimiz konusunda net bir anlayışa sahip olmamamızdır, çünkü haklısınız, eğer o yeni dönem boyunca kalabilirsek ya da en azından dünyanın aşırı yeniden haritalanma döngülerinden geçebilirsek, belki bu işe yarar ve belki de nerede olduğunu belirleyebiliriz."
   },
   {
     "start": 2907.2,
@@ -204,6 +273,126 @@
     "text_tr": "Tekillik noktasının bilim kurgu ve bilimin aynı hale geldiği yer olduğunu düşünüyorum. Bir şey tasarlandığı an, onu geliştirebilecek ve hemen üretebilecek süper zeka sistemlerimiz var. Artık 200 yıl uzakta değil, gerçeklik. Ve o olay ufkunun ötesini göremezsiniz. Sonrasında ne olacağını tahmin edemezsiniz. Ve bilim kurguda, içinde süper zeka karakteri olan anlamlı, inandırıcı bir bilim kurgu yazamazsınız, çünkü siz süper zeka değilsiniz. Tamam, o zaman öngörebildiğimiz ve şu anda bildiğimiz şeylere odaklanalım. Herkesin aklında olan bir şey, kendi içeriklerimde de konuştuğum gibi, işgücü piyasasının yumuşadığı görünüyor. Amazon gibi yerler işten çıkarmaları deli gibi yapıyor. Ve açıkça, bunun büyük ölçüde yapay zeka sayesinde yapabildiğimiz optimizasyonlardan kaynaklandığını söylüyorlar. Bu geçiş nasıl gerçekleşiyor? Yani, yıkıcı olmayan bir yapay zekanın bize esasen bir bolluk çağı vereceğini kabul etseniz bile, yine de işlerin kaybolacağı bir geçiş döneminden geçeceğiz, vb. İşgücü piyasasında neler olacağını görüyorsunuz?"
   },
   {
+    "start": 2982.7,
+    "end": 3061.7,
+    "text": "So, as we have more and more increased percentage of populace unemployed, hopefully there's going to be enough common sense from our governments to prevent revolutions and wars to provide for the people who lost their jobs and probably cannot be retrained for any new jobs. So, once you hit 20, 30, 40% unemployment, that's where it's really going to kick in. The only source of wealth at that point is the large corporations making robots, making AI, deploying them, all the trillion-dollar club members essentially at this point. You need to tax them and use those funds to support the unemployed. That's the only way to really make sure the financial part of that problem is taken care of. What remains is the meaning. What do you do with all this free time and millions of people who have it? Traditional ways of spending your time to relax, you go for a hike in a park. Well, there's a million people in that park right now hiking. That kind of changes how peaceful it is and how relaxing. So, we need to accommodate not just change in financial reality, but also change in free time and capabilities of supporting that many people with that much free time.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "High unemployment due to AI will necessitate government intervention to support those unable to find new jobs.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "High unemployment due to AI will necessitate government intervention to support those unable to find new jobs.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI economics",
+    "reviewed": false,
+    "text_tr": "Yani, işsiz nüfus yüzdesi giderek arttıkça, umarız hükümetlerimizden, işlerini kaybeden ve muhtemelen yeni bir iş için yeniden eğitilemeyecek insanlara destek olmak için devrimleri ve savaşları önleyecek kadar sağduyu gelir. Yani, %20, %30, %40 işsizliğe ulaştığınızda, işte o zaman gerçekten başlayacak. Bu noktada tek zenginlik kaynağı, robotlar yapan, yapay zeka üreten, onları dağıtan büyük şirketler, yani bu noktada trilyon dolarlık kulüp üyeleri. Onları vergilendirmeniz ve bu fonları işsizleri desteklemek için kullanmanız gerekiyor. Bu sorunun finansal kısmının halledildiğinden gerçekten emin olmanın tek yolu bu. Geriye kalan ise anlam. Tüm bu boş zamanla ve buna sahip milyonlarca insanla ne yapacaksınız? Zamanınızı dinlenerek geçirmenin geleneksel yolları, bir parkta yürüyüşe çıkmaktır. Pekala, şu anda o parkta bir milyon insan yürüyüş yapıyor. Bu, oranın ne kadar huzurlu ve rahatlatıcı olduğunu değiştirir. Bu yüzden, sadece finansal gerçeklikteki değişime değil, aynı zamanda boş zamandaki değişime ve bu kadar boş zamanı olan bu kadar çok insanı destekleme yeteneklerine de uyum sağlamamız gerekiyor."
+  },
+  {
+    "start": 3349.0,
+    "end": 3465.7,
+    "text": "So, people talk about those things. Unconditional basic income is one, unconditional basic assets is another. Basically, just because you're a real human, you deserve certain things. And historically, all these communist ideas were complete nonsense and caused a lot of harm. But if you tax uh tax in AI and robots, all of a sudden it becomes workable. I'm not against accumulation of wealth at the top. If you invented something amazing and you started a company, you should have a lot of money. But there is so much wealth that we can provide for everyone as you said, complete abundance of basic needs. Some people say maybe not just basic, but above average set of needs. I think Elon is known for suggesting that's going to be the case. The ideas exist. Uh now, will we pass this? Will governments actually adopt it before it's too late? Is a different question. Mhm. Yeah, so on the existential side, I don't think there's any hope whatsoever that you get people to pump the brakes. I think you're far more likely to get people to pump the brakes on uh no, you can't have self-driving cars or they'll try to regulate that to death, they'll tie it up in litigation, whatever, and that'll slow it down. Um we couldn't stop nuclear weapons from proliferating because uh and I don't know who came up with this, but this seems very true to me, uh that effectively game theory says any technology that promises an advantage will in fact be developed because if you don't, somebody else is going to. Um at a minimum, you've got the US versus China of it all where you I mean, regulators are saying this right now. We can't stop because if we do, China will plow forward, which by the way, I'm very firmly in that camp. Um what do you think about that? Do you think that game theory is inevitable or do you see a mechanism by which we can convince people that they have to slow down?",
+    "speaker": "Unknown",
+    "claim": "Game theory suggests that any technology promising an advantage will be developed, making it unlikely to slow down AI progress.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI race and regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Game theory suggests that any technology promising an advantage will be developed, making it unlikely to slow down AI progress.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI race and regulation",
+    "reviewed": false,
+    "text_tr": "Yani, insanlar bu şeylerden bahsediyor. Koşulsuz temel gelir bir tanesi, koşulsuz temel varlıklar bir diğeri. Temelde, sadece gerçek bir insan olduğunuz için belirli şeyleri hak ediyorsunuz. Ve tarihsel olarak, tüm bu komünist fikirler tamamen saçmalıktı ve çok fazla zarara neden oldu. Ama yapay zekayı ve robotları vergilendirirseniz, birdenbire uygulanabilir hale gelir. Zirvedeki servet birikimine karşı değilim. Harika bir şey icat ettiyseniz ve bir şirket kurduysanız, çok paranız olmalı. Ama dediğiniz gibi, temel ihtiyaçların tam bolluğu, herkes için sağlayabileceğimiz o kadar çok zenginlik var ki. Bazı insanlar sadece temel değil, ortalamanın üzerinde bir ihtiyaçlar kümesi diyor. Sanırım Elon'un böyle olacağını öne sürmesiyle biliniyor. Fikirler mevcut. Peki şimdi, bunu geçirecek miyiz? Hükümetler çok geç olmadan gerçekten benimseyecek mi? Bu farklı bir soru. Mhm. Evet, varoluşsal tarafta, insanların frene basmasını sağlayabileceğinize dair hiçbir umut olduğunu sanmıyorum. Bence insanların 'hayır, otonom araçlarınız olamaz' konusunda frene basmasını sağlamanız çok daha olası, ya da bunu ölümüne düzenlemeye çalışacaklar, davalarla bağlayacaklar, her neyse, ve bu onu yavaşlatacak. Nükleer silahların yayılmasını durduramadık çünkü – ve bunu kimin bulduğunu bilmiyorum ama bana çok doğru geliyor – oyun teorisi etkili bir şekilde diyor ki, avantaj vaat eden herhangi bir teknoloji aslında geliştirilecektir çünkü siz yapmazsanız, başkası yapacaktır. En azından, ABD ile Çin arasındaki tüm bu durumda, yani düzenleyiciler şu anda bunu söylüyor. Duramayız çünkü durursak, Çin ilerleyecektir, ki bu arada ben bu kampta çok kararlıyım. Peki siz bu konuda ne düşünüyorsunuz? Oyun teorisinin kaçınılmaz olduğunu mu düşünüyorsunuz, yoksa insanları yavaşlamaları gerektiğine ikna edebileceğimiz bir mekanizma görüyor musunuz?"
+  },
+  {
+    "start": 3588.5,
+    "end": 3672.8,
+    "text": "So, it's like that's that's big. But, I think that because I can whip people into an emotional frenzy by saying by allowing there to be autonomous driving, you're just making that evil bastard Elon richer, and you're robbing these people of dignity. If you That is not my argument. I want to be abundantly clear. But, when I look at If I had a gun to my head and I had to convince people of one of two things, rich people are evil and trying to exploit poor people who are far morally superior, or hey, this abstract thing that you don't really understand is going to kill us all, there's no way I take the they're going to kill us all bet. I'm going to be over here emotional, you get it. I'm going to bang tables and yell and say words really loudly and point to evil rich people. Guaranteed, I can get people excited about that. Uh luckily, we don't have a democracy on this issue. We don't have to convince majority of human population. We have to literally convince the 20,000 elites who control those companies, who are also super smart and understand dangers of safety. It's literally people who publish on it, who have spoken. They have very high P(doom). We know Elon is like 20-30% Sam Altman is on record as being very concerned about it destroying humanity.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The speaker suggests that the narrative around AI being a danger is less compelling than the argument about wealth inequality and exploitation by the rich.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI risk and economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The speaker suggests that the narrative around AI being a danger is less compelling than the argument about wealth inequality and exploitation by the rich.",
+    "claim_labels_silver": [
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI risk and economics",
+    "reviewed": false,
+    "text_tr": "Yani, bu büyük bir şey. Ama bence, otonom sürüşe izin vererek o kötü piç Elon'u daha zengin ediyorsunuz ve bu insanları onurlarından mahrum bırakıyorsunuz diyerek insanları duygusal bir çılgınlığa sürükleyebilirim. Bu benim argümanım değil. Çok açık olmak istiyorum. Ama baktığımda, kafama silah dayasalar ve insanları iki şeyden birine ikna etmem gerekseydi: zengin insanlar kötü ve ahlaki olarak çok daha üstün olan fakir insanları sömürmeye çalışıyorlar, ya da hey, gerçekten anlamadığınız bu soyut şey hepimizi öldürecek, 'hepimizi öldürecekler' bahsine girmem mümkün değil. Ben burada duygusal olacağım, anladınız mı? Masalara vuracağım, bağıracağım ve çok yüksek sesle konuşacağım ve kötü zengin insanları işaret edeceğim. Garanti ederim, insanları bu konuda heyecanlandırabilirim. Neyse ki, bu konuda bir demokrasimiz yok. İnsan nüfusunun çoğunluğunu ikna etmek zorunda değiliz. Kelimenin tam anlamıyla bu şirketleri kontrol eden, aynı zamanda süper zeki olan ve güvenlik tehlikelerini anlayan 20.000 eliti ikna etmeliyiz. Bunlar kelimenin tam anlamıyla bu konuda yayın yapan, konuşan insanlar. Çok yüksek bir P(kıyamet) oranına sahipler. Elon'un %20-30 civarında olduğunu biliyoruz, Sam Altman ise insanlığı yok etme konusunda çok endişeli olduğu kayıtlara geçti."
+  },
+  {
+    "start": 4313.8,
+    "end": 4391.4,
+    "text": "Yeah, no, I wasn't If I said run it multiple times, my apologies. Um I was just saying that, given that you could get ahead of it from outside the simulation, it is of no emotional consequence to me that I don't know the next step. It is knowable. It is predetermined. It just isn't knowable by me. Uh and that doesn't So, I get no emotional alleviation from suffering if I were a person who was traumatized by the fact that I am an automata with no free will, which I am not. But, if I were, uh doesn't help me at all. Um and again, the reason I'm bringing that up is when I talk to you, I think, oh man, this is somebody He really can't stop himself. Like, you're wired to rail against this, to play the role in the grand balancing of the human species of like, hey, this is really a problem. We should slow down. And even though it's not getting you anywhere from where I can see, you're going to keep doing it, cuz you have like a moral compunction or something where you're like, I as the kind of person I am, I simply cannot exist and not try everything I can to stop this.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The speaker expresses a belief that the future is predetermined and that emotional responses to suffering are not alleviated by understanding one's lack of free will.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "Nature of free will",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The speaker expresses a belief that the future is predetermined and that emotional responses to suffering are not alleviated by understanding one's lack of free will.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Nature of free will",
+    "reviewed": false,
+    "text_tr": "Evet, hayır, ben değildim. Eğer birden fazla kez çalıştır dedimse, özür dilerim. Şunu söylüyordum ki, simülasyonun dışından bunun önüne geçebileceğiniz göz önüne alındığında, bir sonraki adımı bilmememin benim için duygusal bir sonucu yok. Bilinebilir. Önceden belirlenmiş. Sadece benim tarafımdan bilinemez. Ve bu yüzden, eğer özgür iradesi olmayan bir otomat olduğum gerçeğiyle travmatize olmuş bir kişi olsaydım (ki değilim), acıdan duygusal bir rahatlama elde edemezdim. Ama olsaydım, bana hiç yardımcı olmazdı. Ve yine, bunu gündeme getirmemin nedeni, sizinle konuştuğumda, 'Ah be adam, bu biri. Kendini gerçekten durduramıyor' diye düşünüyorum. Sanki buna karşı çıkmaya, insan türünün büyük dengesinde 'hey, bu gerçekten bir sorun. Yavaşlamalıyız' gibi bir rol oynamaya programlanmışsınız. Ve benim görebildiğim kadarıyla sizi hiçbir yere götürmese de, bunu yapmaya devam edeceksiniz, çünkü sanki ahlaki bir zorunluluğunuz var ya da 'benim gibi bir insan olarak, var olamam ve bunu durdurmak için elimden gelen her şeyi denememezlik edemem' diyorsunuz."
+  },
+  {
     "start": 4459.2,
     "end": 4527.1,
     "text": "Yeah. It's so interesting, man. So, uh how do you get through the day? Like, what what is your coping mechanism? I enjoy research. I want to understand what are the exact limits on control. When I started, I thought it is a solvable problem. Now, I'm a lot more skeptical, obviously, but uh I still feel there is a lot we can do to make even narrower AI tools we're creating safer. There is never 100% safety guaranteed, but if I can increase safety hundredfold, that is something. And again, public outreach, if there is enough people who all agree as a scientific community, as a consensus, that no, you cannot ever create safe superintelligence, maybe it makes a difference. Maybe we'll delay it by a decade. That's something. Okay, so we've got one piece of how we make it safer on the table, keep it narrow. What are some of the other things that you would consider a big win? So, there are quite a few properties of control we want to be able to have. I call them tools of control.",
@@ -234,6 +423,69 @@
     "text_tr": "Evet. Çok ilginç, dostum. Peki, gününü nasıl geçiriyorsun? Yani, başa çıkma mekanizman nedir? Araştırmayı seviyorum. Kontrolün kesin sınırlarını anlamak istiyorum. Başladığımda, bunun çözülebilir bir problem olduğunu düşünmüştüm. Şimdi, daha şüpheciyim, ama yine de, yarattığımız dar yapay zeka araçlarını daha güvenli hale getirmek için yapabileceğimiz çok şey olduğunu hissediyorum. Asla %100 güvenlik garantisi yoktur, ama eğer güvenliği yüz kat artırabiliyorsam, bu bir şeydir. Ve yine, kamuya yönelik çalışmalar, bilimsel topluluk olarak, bir konsensüs içinde yeterince insanın, hayır, asla güvenli süper zeka yaratamazsınız, diye hemfikir olması, belki bir fark yaratır. Belki bunu on yıl geciktiririz. Bu bir şey. Tamam, o zaman bunu daha güvenli hale getirmenin bir parçasını masaya koyduk, dar tutalım. Başka hangi şeyleri büyük bir kazanım olarak görüyorsunuz? Kontrol edebilmek istediğimiz birçok özellik var. Ben bunlara kontrol araçları diyorum."
   },
   {
+    "start": 4974.3,
+    "end": 5061.3,
+    "text": "And so, now in the dynamic tension between the wants and desires of the win state defined by people with a left-leaning personality versus the wants and desires of the win state defined by the people with a right-leaning personality, you get something that's it's dynamic tension. Like, balance may not even be the right way to think about it. It's dynamic tension. They're both pulling in their direction, but they keep each other in check because that's how we've evolved is to work together. That feels like it should be applicable to AI if we want to embed deeply in its motivational structure that we have to put it through that, and if I'm thinking from a safety perspective, I get why we want to short circuit that, and maybe that's not super efficient, but if that if the only way to get this to find a dynamic tension or some sort of balance is to have things that are of similar intellect and ability that are pulling in slightly different directions, but they need each other somehow to stay locked together so that it it is the AI taken as a whole that stops itself from ever going wrong in any one direction too far. I think it works for humans because we about equal power and we are mutually benefiting each other. There is certain symbiosis as you described.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI should be designed with a dynamic tension between differing motivations to ensure safety and balance.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI should be designed with a dynamic tension between differing motivations to ensure safety and balance.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Ve şimdi, sol eğilimli bir kişiliğe sahip insanlar tarafından tanımlanan kazanma durumunun istek ve arzuları ile sağ eğilimli bir kişiliğe sahip insanlar tarafından tanımlanan kazanma durumunun istek ve arzuları arasındaki dinamik gerilimde, dinamik bir gerilim elde edersiniz. Denge, bunu düşünmenin doğru yolu bile olmayabilir. Bu dinamik bir gerilim. İkisi de kendi yönlerine çekiyor, ancak birbirlerini kontrol altında tutuyorlar çünkü birlikte çalışmak için böyle evrildik. Bu, yapay zekaya da uygulanabilir gibi geliyor, eğer motivasyonel yapısına derinlemesine yerleştirmek istiyorsak bunu ona yaşatmalıyız, ve eğer güvenlik açısından düşünüyorsam, neden bunu kısa devre yapmak istediğimizi anlıyorum, ve belki bu süper verimli değil, ama eğer bunun dinamik bir gerilim veya bir tür denge bulmasının tek yolu, benzer zeka ve yeteneğe sahip, hafifçe farklı yönlere çeken, ancak bir şekilde birbirlerine bağlı kalmaları gereken şeyler varsa, böylece yapay zekanın bir bütün olarak herhangi bir yönde çok fazla yanlış gitmesini kendi kendine durdurması sağlanır. Bence insanlar için işe yarıyor çünkü yaklaşık eşit güce sahibiz ve karşılıklı olarak birbirimize fayda sağlıyoruz. Tanımladığınız gibi belirli bir simbiyoz var."
+  },
+  {
+    "start": 5714.5,
+    "end": 5797.0,
+    "text": "Um do you feel I'm missing something? I I think it would be easier and more efficient to simply make you still capable of learning and adapting as you get older. And also you wouldn't have to relearn everything for first 20 years including language and how to walk. We know that it's possible to encode those capabilities. Animals are born and immediately they can run, they can speak. So, all those things are doable. Why are we losing 20 years of information every generation? We can build on top of preexisting knowledge. Big data is good for intelligence. So, we can have smarter, more efficient reproduction cycle and you still die of natural causes. It wouldn't be complete stagnation, but if you're smart enough to survive for 400 years, why not? Well, my why not is uh entirely predicated on not having a clear understanding of how we would bake in the ability to adapt uh long into our old age because you're right, if we could stay in that novel period uh or at least move through cycles of extreme sort of remapping of the world, um maybe that would work and maybe we can identify where that is.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "We could enhance intelligence by allowing learning and adaptation throughout life, rather than losing knowledge every generation.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "is_claim": true,
+    "topic": "Intelligence adaptation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "We could enhance intelligence by allowing learning and adaptation throughout life, rather than losing knowledge every generation.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Intelligence adaptation",
+    "reviewed": true,
+    "text_tr": "Bir şeyin eksik olduğunu düşünüyor musun? Bence, yaşlandıkça öğrenme ve uyum sağlama yeteneğini korumanın daha kolay ve daha verimli olacağını düşünüyorum. Ayrıca, ilk 20 yıl boyunca her şeyi yeniden öğrenmek zorunda kalmazsınız, dil ve yürümek dahil. Bu yetenekleri kodlamanın mümkün olduğunu biliyoruz. Hayvanlar doğar doğmaz koşabiliyor, konuşabiliyor. Yani, tüm bu şeyler yapılabilir. Neden her nesilde 20 yıl bilgi kaybediyoruz? Önceden var olan bilginin üzerine inşa edebiliriz. Büyük veri, zeka için iyidir. Yani, daha akıllı, daha verimli bir üreme döngüsü oluşturabiliriz ve yine de doğal nedenlerden ölürsünüz. Tam bir duraklama olmaz, ama eğer 400 yıl hayatta kalacak kadar akıllıysanız, neden olmasın? Benim nedenim, uyum sağlama yeteneğini yaşlılık dönemimize kadar nasıl yerleştireceğimiz konusunda net bir anlayışa sahip olmamamızdır, çünkü haklısınız, eğer o yeni dönem boyunca kalabilirsek ya da en azından dünyanın aşırı yeniden haritalanma döngülerinden geçebilirsek, belki bu işe yarar ve belki de nerede olduğunu belirleyebiliriz."
+  },
+  {
     "start": 6134.0,
     "end": 6199.4,
     "text": "Um where do you come down on gene editing? >> It's a lot less concerning. So, for one, if there is one human with some problem, that's it. It's still just one human. If we have editing tools, whatever changes we make, we can later undo them with the same editing tool. If we made a mistake, we can go back and rectify those problems. So, I'm a lot less concerned because of impact. Worst-case scenarios, yeah, there are ethical implications for the individual like he was in prison for human cloning, which is considered to be problematic because it may harm the child significantly. But humanity as a whole is not impacted directly negatively by that experiment. Mm. Where is AI's intersection with this? Is AI going to be a critical tool in terms of just mapping out all of the uh like you said, the similarities at the genome level between people that live long and people that don't? Um is AI going to be, you know, doing novel protein folding and going in and solving some of the architectural problems of people that are getting sick? Like, where is that going to interface with longevity?",
@@ -259,5 +511,35 @@
     "topic_silver": "AI and gene editing",
     "reviewed": true,
     "text_tr": "Hımm, gen düzenleme konusunda ne düşünüyorsunuz? >> Çok daha az endişe verici. Yani, bir insanın bir sorunu varsa, o kadar. Hala sadece bir insan. Eğer düzenleme araçlarımız varsa, yaptığımız değişiklikleri daha sonra aynı düzenleme aracıyla geri alabiliriz. Eğer bir hata yaptıysak, geri dönüp o sorunları düzeltebiliriz. Bu yüzden, etki açısından çok daha az endişeliyim. En kötü senaryolar, evet, birey için etik sonuçlar var, örneğin insan klonlaması nedeniyle hapse girmiş biri gibi, bu çocuk için önemli ölçüde zarar verebileceği düşünüldüğünde sorunlu kabul ediliyor. Ama insanlık olarak bu deneyden doğrudan olumsuz etkilenmiyoruz. Hımm. AI'nın bununla kesişimi nerede? AI, uzun yaşayan insanlar ile yaşamayanlar arasındaki genom seviyesindeki benzerlikleri haritalamak açısından kritik bir araç mı olacak? Hımm, AI, bildiğiniz gibi, yeni protein katlanması yapacak ve hastalanan insanların bazı mimari sorunlarını çözmeye mi gidecek? Bu, uzun ömürle nasıl bir arayüz oluşturacak?"
+  },
+  {
+    "start": 6196.7,
+    "end": 6267.8,
+    "text": ">> All All of the above. We need to map the genome. We need to understand what individual parts do. We need to design novel drugs. Protein folding has been solved basically, but there is other things we can map on biological substrates. So, yeah, at every aspect of it, we we need AI, but I think as was illustrated with protein folding problem, a narrow system can do it without any superintelligence for that. Mm. What's something that's happening in AI right now that you don't think enough people are paying attention to? Well, I don't know what people are paying attention to. Usually after my talk, the questions I get seem to be completely irrelevant to the subject of my talk. I'll tell them that it's going to kill everyone, and they ask me if they're going to lose their jobs. So, I don't think it's a good way to measure what is important, but uh look at uh predictions from inside the labs. They uh starting to talk about automating research process, creating junior scientists as AI agents, AI models. They are saying that externally to the lab, people don't understand just how capable systems are yet.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI can automate research processes and create junior scientists without needing superintelligence.",
+    "stance": "Support",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI can automate research processes and create junior scientists without needing superintelligence.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": ">> Hepsi. Genomu haritalamamız gerekiyor. Bireysel parçaların ne yaptığını anlamamız gerekiyor. Yeni ilaçlar tasarlamamız gerekiyor. Protein katlanması temelde çözüldü, ancak biyolojik substratlar üzerinde haritalayabileceğimiz başka şeyler de var. Yani, evet, her yönüyle yapay zekaya ihtiyacımız var, ancak protein katlanması probleminde gösterildiği gibi, dar bir sistem bunu herhangi bir süper zeka olmadan yapabilir. Mm. Şu anda yapay zekada olup biten ve yeterince insanın dikkat etmediğini düşündüğünüz bir şey var mı? Pekala, insanların neye dikkat ettiğini bilmiyorum. Genellikle konuşmamdan sonra aldığım sorular, konuşmamın konusuyla tamamen alakasız görünüyor. Onlara herkesi öldüreceğini söylüyorum, onlar da bana işlerini kaybedip kaybetmeyeceklerini soruyorlar. Bu yüzden, neyin önemli olduğunu ölçmek için iyi bir yol olduğunu düşünmüyorum, ama laboratuvarların içinden gelen tahminlere bakın. Araştırma sürecini otomatikleştirmekten, yapay zeka ajanları, yapay zeka modelleri olarak genç bilim insanları yaratmaktan bahsetmeye başlıyorlar. Laboratuvar dışındaki insanların sistemlerin henüz ne kadar yetenekli olduğunu anlamadığını söylüyorlar."
   }
 ]

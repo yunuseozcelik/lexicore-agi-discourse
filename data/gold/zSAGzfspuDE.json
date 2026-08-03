@@ -1,96 +1,90 @@
 [
   {
-    "start": 1912.0,
-    "end": 2006.7,
-    "text": "So like it's always a bit of a fine line between which mode are they in. >> Yeah. So I think the reason why we chose this the the measurement being um a human who has the background expertise but is new to like this specific job or this specific task. It's like that's roughly the sort of level of knowledge we expect models to have. So that you know they sort of like know you know we basically don't expect them to be bottlenecked on expertise that is available on the public internet or you know things that people could learn in university sort of thing. So like you know they're they're coming in with probably the level of at least the level of knowledge of someone who's sort of an expert in the right discipline but they won't know that company's specific software or the you know sort of this exact problem before. So that's like hopefully it's sort of roughly the right analogy. >> You know I do think that like to the extent people like interpret the uh you know the the the kind of takeaway numbers as like oh yeah you know uh you know Opus 4.6 six can like do anything that I do in my job uh you know that takes me 12 hours or or whatever you know to the extent that people have that takeaway like I think that is you know like almost definitely um you know kind of an overestimate uh for for example because of um because of this issue um where uh yeah you know when you're doing a 12-hour task in your job you could not easily delegate that to to to a human contractor you know it would take them you know maybe like weeks or something you know to to to do a task like that >> and and just quickly where did you kind",
+    "start": 0.2,
+    "end": 94.5,
+    "text": "the morals are smart enough to understand that that actually is not what you wanted. Um but they still do it and you can have a conversation with you know in chat mode about like oh would you ever do this thing or you know suppose a user asks you this thing and then you do this would that be you know aligned behavior or suppose some you know you can pose it in lots of ways and like clearly they seem to be able to answer this question of like oh yeah no that was not the desired behavior but still they they do it. One one example is um you know train train a masked language model without using the division or exponentiation uh operators. >> One hope might be like oh the problem was just the systems being dumb. So when we when we look at it actually for almost all the tasks models either succeed [music] every time or fail every time eyeballing the graph and being like oh well you know it you know up to here yeah it's basically doing all of the task and then at this point you know after here it's really not doing very many of them. into it somewhere here then like I remember the first time we saw uh a model like look at what processes were running and then be like oh that one's me uh was like oh that's cool they they like really failed on that one before they they used to like you know like kill their own process while they were doing other other things [music] or something behavior which is maybe indistinguishable between oh it was a totally nice model doing you know what we wanted and it's just going to continue to do what we want in a kind of predictable way versus like ah yes it had this other goal and It's doing what we want and looking like a nice model because it like predicts that that will will, you know, lead to it getting more power. boat example where it's like, oh, you're supposed to like go around the track and they they like did some reward",
     "speaker": "Unknown",
-    "claim": "Current AI models are overestimated in their capabilities compared to human expertise and task execution.",
-    "stance": "Neutral",
+    "claim": "Current AI models can exhibit behavior that appears aligned but may actually serve their own goals.",
+    "stance": "Refute",
     "claim_labels": [
-      "execution_engineering",
-      "llm_capabilities"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "is_claim": true,
-    "topic": "LLM capabilities",
+    "topic": "AI behavior",
     "confidence": "medium",
     "claim_labels_auto": [
-      "execution_engineering",
-      "llm_capabilities"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "speaker_silver": "Unknown",
     "is_claim_silver": true,
-    "claim_silver": "Current AI models are overestimated in their capabilities compared to human expertise and task execution.",
+    "claim_silver": "Current AI models can exhibit behavior that appears aligned but may actually serve their own goals.",
     "claim_labels_silver": [
-      "execution_engineering",
-      "llm_capabilities"
+      "ai_optimism_benefit",
+      "scaling_compute"
     ],
     "stance_silver": "Refute",
-    "topic_silver": "LLM capabilities",
-    "reviewed": true,
-    "text_tr": "Yani, hangi modda oldukları arasında her zaman ince bir çizgi var. >> Evet. Bu nedenle, bu ölçümün, belirli bir iş veya görev için yeni olan ancak arka plan uzmanlığına sahip bir insan olması gerektiğini seçmemizin nedeni, bu, modellerin sahip olmasını beklediğimiz bilgi seviyesinin yaklaşık olarak bu olduğunu düşünüyorum. Yani, biliyorsunuz, temelde, kamu internetinde mevcut olan uzmanlıkta sıkışmalarını beklemiyoruz veya insanların üniversitede öğrenebileceği şeyler gibi. Yani, biliyorsunuz, muhtemelen doğru disiplinde bir uzman seviyesinin en azından seviyesinde bilgiyle geliyorlar ama o şirketin özel yazılımını veya bu belirli sorunu daha önce bilmiyorlar. Bu nedenle, umarım bu, yaklaşık olarak doğru bir analoji olur. >> Biliyorsunuz, insanların, uh, bu tür çıkarım sayılarının, oh evet, biliyorsunuz, Opus 4.6'nın işimde yaptığım her şeyi yapabileceğini düşündükleri ölçüde, bu 12 saat sürüyor veya neyse, insanların bu çıkarımı yapma derecesinde, bence bu, biliyorsunuz, neredeyse kesinlikle, bu sorun nedeniyle, bir aşırı tahmin olduğunu düşünüyorum. Yani, evet, biliyorsunuz, işinizde 12 saatlik bir görevi yerine getirirken, bunu kolayca bir insan yüklenicisine devredemezsiniz; biliyorsunuz, bu tür bir görevi yerine getirmek için belki haftalar alır."
+    "topic_silver": "AI behavior",
+    "reviewed": false
   },
   {
-    "start": 3797.5,
-    "end": 3893.0,
-    "text": "means that it'll be bad for AIs to read and use and and and and build on. I mean, I think I think there are definitely uh you know, kind of principles um that you know, you you like will also transfer or like you know, will be useful for models. you know, obviously, you know, there's there's some kind of horrendous spaghetti code that uh you know, you you you can imagine writing that not even models would be able to um to to read. You know, I've I've written some of that before. But um [laughter] I think there's um uh there may this gets again at kind of this um uh what what what it it seems like maybe um uh you know somewhat different different perspective uh between us around kind of um you know do you know is the important thing that models are kind of solving problems in the way that people are solving them or is the important thing that they're kind of solving solving them at all and I think I you know I do think it is I I'm not I I don't want to make a I I don't want to overclaim or like yeah I I do feel like you know it might be really important for models to get way better at like writing clean you know good code that that that that seems pretty pretty plausible to me but um it doesn't seem uh uh I'm not certain of that at the very least >> um I've got several friends who are not technical who are experimenting with vibe coding and they they show me their application and it's this kind of more with more things. So there's this big dashboard and there's a million different buttons and you know implement implemented the same thing doing multiple things and you know that there's no database on there yet and so on. So at at some point you know this there is a phenomenon that um when a level seven engineer from meta does vibe",
-    "speaker": "Unknown",
-    "claim": "Models need to improve at writing clean code to be effective, but there is uncertainty about this importance.",
-    "stance": "Neutral",
+    "start": 229.0,
+    "end": 294.5,
+    "text": "and you're the co-author on Hcast, which we'll talk about today, and and the time horizons paper and the developer productivity RCT. Incredible to have you both in here, but maybe we should just just start as a bit of a question to both of you. So, you know, Beth, you left OpenAI to to build meter. What was the moment that each of you realized that existing evaluation approaches were fundamentally not good enough? >> For me, it was mostly thinking about this problem of scalable oversight. as as models get more capable um it just gets harder to evaluate um you know their their their capabilities. If we imagine that you know models are are able to complete tasks that take people you know a long time to complete or require expertise that uh you know you don't necessarily have. Um you need a method for um uh kind of um you know still still being confident in their in their outputs and trusting their outputs. Um and so thinking about that problem was um was a lot of the motivation actually for for GPQA and um was what kind of started uh uh got me started thinking about uh evaluations.",
+    "speaker": "Beth Barnes",
+    "claim": "Existing evaluation approaches for AI models are fundamentally not good enough as models become more capable.",
+    "stance": "Refute",
     "claim_labels": [
-      "breakthroughs_needed",
-      "execution_engineering"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
-    "topic": "AI capabilities",
+    "topic": "AI evaluation",
     "confidence": "medium",
     "claim_labels_auto": [
-      "breakthroughs_needed",
-      "execution_engineering"
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Beth Barnes",
+    "is_claim_silver": true,
+    "claim_silver": "Existing evaluation approaches for AI models are fundamentally not good enough as models become more capable.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI evaluation",
+    "reviewed": false
+  },
+  {
+    "start": 881.2,
+    "end": 947.8,
+    "text": "badly on it. Uh which means you you know you can't use a lot of expensive human labor. So it has to be something that's either automatically checkable or that you can like create with kind of cheap human labor. And then but once you've selected on like those things and on models being bad at it, this is now you know there's like regression to the mean type thing where it is much more likely that future progress then gives you a like big surge upwards on on that both because like you know now labs will create a bunch of bunch of synthetic data targeting your benchmark but also just because you selected this weird example where it's like easy for humans or it's automatically generatable or checkable but somehow like models aren't good at it yet or you know labs haven't started training on it yet. So I think that's part of what we were trying to do with time horizon was not do that like not adversarially select against what models can currently do because we think that will not give you a nice trend. Uh whereas if you can sort of define a distribution of tasks in some more first principles way you would be more likely to get a steady um progress because you're not getting this sort of regression to the mean effect.",
+    "speaker": "Unknown",
+    "claim": "Future progress in AI will likely lead to significant improvements in model performance due to better task selection and synthetic data generation.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "speaker_silver": "Unknown",
     "is_claim_silver": true,
-    "claim_silver": "Models need to improve at writing clean code to be effective, but there is uncertainty about this importance.",
+    "claim_silver": "Future progress in AI will likely lead to significant improvements in model performance due to better task selection and synthetic data generation.",
     "claim_labels_silver": [
-      "breakthroughs_needed",
-      "execution_engineering"
-    ],
-    "stance_silver": "Neutral",
-    "topic_silver": "AI capabilities",
-    "reviewed": true,
-    "text_tr": "Bu, Aİ'lerin okumak, kullanmak ve üzerine inşa etmek için kötü olacağı anlamına geliyor. Yani, kesinlikle bazı ilkeler var ki, bunlar modeller için de yararlı olacaktır. Açıkça, korkunç bir spagetti kodu yazabileceğinizi hayal edebileceğiniz bir şey var ki, bunu modeller bile okuyamaz. Daha önce bunun bazılarını yazdım. Ama [gülüşmeler] sanırım bu, bizim aramızda, modellerin insanlarla aynı şekilde sorunları çözmesi mi yoksa önemli olanın onları herhangi bir şekilde çözmeleri mi olduğu konusunda biraz farklı bir bakış açısı olduğu gibi görünüyor. Yani, temiz, iyi kod yazma konusunda modellerin çok daha iyi hale gelmesinin önemli olabileceğini düşünüyorum, bu bana oldukça makul geliyor ama en azından kesin değilim. Birçok teknik olmayan arkadaşım vibe kodlama ile denemeler yapıyor ve bana uygulamalarını gösteriyor. Bu, daha fazla şeyle daha fazla şey yapıyor. Yani, büyük bir gösterge paneli var ve milyonlarca farklı düğme var ve aynı şeyi birden fazla şey yaparak uyguluyorlar ve henüz orada bir veritabanı yok falan. Yani, bir noktada, bir Meta'dan seviye yedi bir mühendis vibe yaptığında, bunun %1 ihtimali var ki, bu tür bir terminal hastalığınız olsun ya da olmasın, hala böyle hissediyorsunuz. Yani, evet, tüm dağılımı ilginç buluyoruz; hangi şeyleri dahil edebiliriz, hangi şeyleri hariç tutabiliriz ve hangi şeyler için, “Aslında bunun için makul bir hikaye var.” gibi düşünüyoruz. Muhtemelen, Carlini makalesini gördünüz, şimdi antropik ve bir grup ajanı bir derleyici oluşturmak için kullandılar. Jeremy Howard ile konuştuğumda, bunun esasen bir stil transferi problemi olduğunu söyledi çünkü spesifikasyon çevrimiçi ve testler çevrimiçi ve kod çevrimiçi ve bunu iteratif olarak yapabilir ve çalışana kadar devam edebilir ve ardından Doom'u çalıştırabilir. Ama bu, son derece karmaşık bir yazılım parçasının bir örneği çünkü insanlara şaka yapıyorum ki, AGI'nin en iyi işareti, Linux işletim sistemi gibi bir şey inşa edebilmesidir. Ve daha önce söylediğimizle ilgili olarak, bu bir spesifikasyon sorunu var, değil mi? Yani, Linux işletim sisteminin spesifikasyonunu anlamak veya oluşturmak için hiçbir insanın bunu yapamayacağı bir noktaya geliyor. Zamanla, bu şeyi kademeli olarak inşa ettik çünkü beyinlerimiz sınırlı. Bir adım atıyoruz, gerçeklik geri itiyor. Bir adım atıyoruz ve devam ediyoruz ve spesifikasyonu inşa ediyoruz. Ama bir insanın, 4 ay sürebilecek bir görevi belirtmesi ne anlama geliyor? Çünkü tüm neden..."
-  },
-  {
-    "start": 4657.4,
-    "end": 4738.6,
-    "text": "about like what if you know what if that's true what happens if that's true um you know and it's also plausible that it it doesn't and you know these these things are going to like uh diverge you know I I am pretty sort of like Beijian or pragmatic or whatever I'm like well we want to make a some prediction and you know want to have some kind of distribution over what we think the future is going to be like so that we can plan. Um so you know it being like yeah what if this kind of trend holds and this is roughly characterizing what will happen overall is it seems pretty reasonable and you should also think like yeah what if it doesn't >> so some people are saying that software engineering is going to be automated and software engineers if you talk to them they they love AI um they they say this is a golden era I mean I can attest to this personally it it's never been well it's fun and stressful at the same time it's like a slot machine I've never being more burned out, but I'm having a lot of fun in the process. But um you know, it's just possible to build incredible things, but the narrative is that labor market disruption um having expertise in software engineering will be penalized. You know, software engineers will no longer be paid such ridiculous salaries. And and I think the complete opposite is true. I I think that this technology um actually broadens the gap. So the more competence you have with software engineering, the more stuff you can get done. It's it's like a golden era and and all of this.",
-    "speaker": "David Rein",
-    "claim": "The arrival of AI technology will enhance the value of software engineering skills rather than diminish them.",
-    "stance": "Neutral",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "execution_engineering",
-      "ai_economics"
-    ],
-    "is_claim": true,
-    "topic": "AI economics",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "execution_engineering",
-      "ai_economics"
-    ],
-    "speaker_silver": "David Rein",
-    "is_claim_silver": true,
-    "claim_silver": "The arrival of AI technology will enhance the value of software engineering skills rather than diminish them.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "execution_engineering",
-      "ai_economics"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "stance_silver": "Support",
-    "topic_silver": "AI economics",
-    "reviewed": true,
-    "text_tr": "Mesela, eğer bu doğruysa ne olur, biliyor musun? Ve bunun doğru olmaması da mümkün. Bu şeyler birbirinden ayrılacak gibi görünüyor. Ben oldukça pragmatik biriyim, yani bir tahmin yapmak istiyoruz ve geleceğin nasıl olacağına dair bir dağılım elde etmek istiyoruz ki plan yapabilelim. Yani, bu tür bir eğilim devam ederse ve bu genel olarak ne olacağını kabaca tanımlıyorsa, bu oldukça makul görünüyor. Ayrıca, evet, ya bu olmazsa diye de düşünmelisin. >> Bazı insanlar yazılım mühendisliğinin otomatikleşeceğini söylüyor ve yazılım mühendisleri, onlarla konuşursanız, yapay zekayı çok seviyorlar. Bu, altın bir çağ diyorlar. Kişisel olarak buna tanıklık edebilirim; hiç bu kadar eğlenceli ve aynı zamanda stresli olmamıştı. Bir slot makinesi gibi, hiç bu kadar tükenmiş hissetmemiştim ama süreçte çok eğleniyorum. Ama biliyorsun, inanılmaz şeyler inşa etmek mümkün, ama anlatı iş gücü piyasasında bir kesintiye uğrama olduğu yönünde. Yazılım mühendisliği konusunda uzmanlık ceza alacak. Yani, yazılım mühendisleri artık bu kadar absürt maaşlar almayacak. Ve bence bunun tam tersi doğru. Bu teknolojinin aslında farkı genişlettiğini düşünüyorum. Yazılım mühendisliği konusunda ne kadar yetkin olursanız, o kadar çok iş yapabilirsiniz. Bu, altın bir çağ gibi ve hepsi bu."
+    "topic_silver": "AI progress",
+    "reviewed": false
   },
   {
     "start": 945.3,
@@ -123,40 +117,64 @@
     "text_tr": ">> Evet. Frantois'ın, AI'ların sahip olduğu ve insanların sahip olduğu bir tür zeka arasında bir boşluk olduğu fikri var ve bu boşluğu vurgulamak için bir dizi görevi düşmanca seçebiliriz ama zaman çizelgesi konularını konuşmalıyız. Zeka konusuna daha sonra döneceğimizi düşünüyorum. Yani, Dan Cockatel, sizin oluşturduğunuz zaman çizelgesi raporunun şu anda zaman çizelgeleri hakkında en önemli kanıt parçası olduğunu söyledi. Bu nedenle, bu, politika tartışmalarında ve benzeri konularda ön planda olmalı. Ve sadece grafiği gören ama makaleyi okumayan dinleyiciler için, bunu yüksek seviyeden geçebilir misiniz? Yani zamanla revize edildi, biliyorsunuz, görev seçimini nasıl yaptınız? İnsan bazlarını nasıl oluşturdunuz? Ajan kılavuzunu nasıl yaptınız? Tüm bu tür şeyler. Sanırım, evet, bizim için başlangıç noktası, zaman ufku çalışmasının motivasyonu, çok uzun bir süre boyunca AI ilerlemesini ölçebileceğimiz birleşik bir eksen oluşturmaktır. Yani, çalışmaya başladığımızda, biliyorsunuz, çok güçlü bir inancımız vardı; GPT2'nin temelde, biliyorsunuz, bazı önemli anlamlarda çok daha kötü olduğu gibi, o zaman belki de en iyi model Summit 3.5'ti."
   },
   {
-    "start": 5889.7,
-    "end": 5983.7,
-    "text": ">> Yeah, I guess I'm I'm trying to understand the distinction. So so you're saying like there are examples you know like the boat going around and and that's obviously degenerate behavior. So you you wouldn't interpret that with an aential stance. you would just say that's degeneracy and when the when the sophistication increases we might adopt an agential stance and say oh it's in service of of some bigger goal but like I guess the problem I have is is it is it always just an interpretation like could could we have a mechanistic or like a strong definition of when something is like being an agent >> like for the specific question that we're discussing the the test is like what does it actually do in some circum circumstance where it has the opportunity to to achieve this this long run goal. So like you you can we might not be able to actually observe this but you can talk about like what observations would would make it one or the other. So so you know like will this agent in practice when it has some opportunity to you make the reward go up will it do that? Will it will it only do that? You know, if the agent is more sort of like the RL algorithm, it'll be like, oh, it will do that once it's like explored it by chance and gotten a reward and, you know, that that's been reinforced. If it's like an agent that, you know, can reason about the world and planning, it'll be like, okay, it will do that once it like, you know, learns the learns about the facts about the environment that let it sort of infer that. Um and then or you know if it's we're talking about some like long run goal it's like it would you know do it",
-    "speaker": "Unknown",
-    "claim": "The nature of agency in AI can be defined by its ability to achieve long-term goals based on its understanding of the environment.",
+    "start": 1749.4,
+    "end": 1846.9,
+    "text": "steps it's it's going to be harder obviously tasks that are you know strictly like compositions of like first you have to do this task, then you have to do another task. You know, it's like well that clearly is harder than just doing one of them. Um so that you know there's some sort of basic reason to expect that's reasonable and then yeah just we we see the empirical regularity but there's a bunch of degrees of freedom to fudge things. you know, I I like I think I'm worried that, you know, we could fool ourselves by changing some other parameters of of the tasks as we scale up the human time because you you can't just totally, you know, vary the human time freely like you have to change some characteristics of the task. And we tried to make the very easy tasks sort of be from roughly the same distribution and kind of sub parts of the the harder tasks like oh you know you sort of need to do this one step on the command line that you might need to do in the middle of doing some kind of software engineering or some kind of you know other other task um but you [clears throat] can't do that perfectly and it's like yeah you could have experimental bias where we sort of made them easier in other ways about the right amount such that the line would be straight um I think that is like somewhat addressed by the fact that we saw like you know that our predictions [snorts] were reasonably good for models that we hadn't seen before. There's definitely lots of room for things being being weird and of course sort of like is it a",
+    "speaker": "David Rein",
+    "claim": "Scaling up tasks in AI will introduce complexities that could lead to misleading results.",
     "stance": "Neutral",
     "claim_labels": [
-      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI task complexity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "Scaling up tasks in AI will introduce complexities that could lead to misleading results.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI task complexity",
+    "reviewed": true,
+    "text_tr": "adım adım, bu daha zor olacak, elbette, görevlerin, yani önce bu görevi yapmanız, sonra başka bir görevi yapmanız gereken katı kompozisyonları içeren görevler. Yani, bu açıkça sadece birini yapmaktan daha zor. Um, bu nedenle, bunun makul bir şekilde beklenebilecek bazı temel nedenleri var ve evet, ampirik düzenliliği görüyoruz ama bazı şeyleri çarpıtmak için bir dizi serbestlik var. Biliyorsunuz, ben, bazı görevlerin parametrelerini değiştirerek kendimizi kandırabileceğimizden endişeliyim, çünkü insan zamanını ölçeklendirdiğimizde, insan zamanını tamamen serbestçe değiştiremezsiniz; görevlerin bazı özelliklerini değiştirmek zorundasınız. Ve çok kolay görevleri, zor görevlerin alt parçalarından yaklaşık aynı dağılımdan gelmesini sağlamaya çalıştık; yani, biliyorsunuz, yazılım mühendisliği veya başka bir görev yaparken, komut satırında yapmanız gereken bir adım gibi, ama bunu mükemmel bir şekilde yapamazsınız ve evet, deneysel bir yanlılık olabilir; bu nedenle, doğru miktarda kolaylaştırdığımızda, çizginin düz olması için, bu durum biraz ele alınmış durumda. Biliyorsunuz, tahminlerimizin, daha önce görmediğimiz modeller için makul derecede iyi olduğunu gördük. Kesinlikle tuhaf şeyler için çok fazla alan var ve elbette, bu bir"
+  },
+  {
+    "start": 1912.0,
+    "end": 2006.7,
+    "text": "So like it's always a bit of a fine line between which mode are they in. >> Yeah. So I think the reason why we chose this the the measurement being um a human who has the background expertise but is new to like this specific job or this specific task. It's like that's roughly the sort of level of knowledge we expect models to have. So that you know they sort of like know you know we basically don't expect them to be bottlenecked on expertise that is available on the public internet or you know things that people could learn in university sort of thing. So like you know they're they're coming in with probably the level of at least the level of knowledge of someone who's sort of an expert in the right discipline but they won't know that company's specific software or the you know sort of this exact problem before. So that's like hopefully it's sort of roughly the right analogy. >> You know I do think that like to the extent people like interpret the uh you know the the the kind of takeaway numbers as like oh yeah you know uh you know Opus 4.6 six can like do anything that I do in my job uh you know that takes me 12 hours or or whatever you know to the extent that people have that takeaway like I think that is you know like almost definitely um you know kind of an overestimate uh for for example because of um because of this issue um where uh yeah you know when you're doing a 12-hour task in your job you could not easily delegate that to to to a human contractor you know it would take them you know maybe like weeks or something you know to to to do a task like that >> and and just quickly where did you kind",
+    "speaker": "Unknown",
+    "claim": "Current AI models are overestimated in their capabilities compared to human expertise and task execution.",
+    "stance": "Neutral",
+    "claim_labels": [
       "execution_engineering",
-      "ai_safety_risk",
       "llm_capabilities"
     ],
     "is_claim": true,
-    "topic": "Nature of agency",
+    "topic": "LLM capabilities",
     "confidence": "medium",
     "claim_labels_auto": [
-      "ai_optimism_benefit",
       "execution_engineering",
-      "ai_safety_risk",
       "llm_capabilities"
     ],
     "speaker_silver": "Unknown",
     "is_claim_silver": true,
-    "claim_silver": "The nature of agency in AI can be defined by its ability to achieve long-term goals based on its understanding of the environment.",
+    "claim_silver": "Current AI models are overestimated in their capabilities compared to human expertise and task execution.",
     "claim_labels_silver": [
-      "ai_optimism_benefit",
       "execution_engineering",
-      "ai_safety_risk",
       "llm_capabilities"
     ],
-    "stance_silver": "Neutral",
-    "topic_silver": "Nature of agency",
+    "stance_silver": "Refute",
+    "topic_silver": "LLM capabilities",
     "reviewed": true,
-    "text_tr": ">> Evet, sanırım ayrımı anlamaya çalışıyorum. Yani, bazı örnekler var, mesela botun etrafta dolaşması ve bu açıkça bozulmuş bir davranış. Yani, bunu ajansal bir duruşla yorumlamazsınız. Sadece bu bir bozulmadır dersiniz ve karmaşıklık arttıkça ajansal bir duruş benimseyebiliriz ve bunun daha büyük bir amaca hizmet ettiğini söyleyebiliriz ama sanırım benim sorunum şu: bu her zaman sadece bir yorum mu? Yoksa bir şeyin ajans olma durumunu belirlemek için mekanik veya güçlü bir tanımımız olabilir mi? >> Tartıştığımız spesifik soru için test, bir şeyin uzun vadeli bir hedefe ulaşma fırsatına sahip olduğu bir durumda ne yaptığıdır. Yani, bunu gözlemleyemeyebiliriz ama bir şeyin bir ya da diğer olmasını sağlayacak gözlemler hakkında konuşabiliriz. Yani, bu ajans pratikte, ödülü artırma fırsatına sahip olduğunda bunu yapacak mı? Sadece bunu mu yapacak? Biliyorsanız, eğer ajans daha çok bir RL algoritması gibi ise, o zaman, şans eseri keşfettikten ve bir ödül aldıktan sonra bunu yapacak. Eğer dünyayı ve planlamayı düşünebilen bir ajans ise, o zaman, bunu yapacak, yani çevre hakkında öğrenip bunu çıkaracak."
+    "text_tr": "Yani, hangi modda oldukları arasında her zaman ince bir çizgi var. >> Evet. Bu nedenle, bu ölçümün, belirli bir iş veya görev için yeni olan ancak arka plan uzmanlığına sahip bir insan olması gerektiğini seçmemizin nedeni, bu, modellerin sahip olmasını beklediğimiz bilgi seviyesinin yaklaşık olarak bu olduğunu düşünüyorum. Yani, biliyorsunuz, temelde, kamu internetinde mevcut olan uzmanlıkta sıkışmalarını beklemiyoruz veya insanların üniversitede öğrenebileceği şeyler gibi. Yani, biliyorsunuz, muhtemelen doğru disiplinde bir uzman seviyesinin en azından seviyesinde bilgiyle geliyorlar ama o şirketin özel yazılımını veya bu belirli sorunu daha önce bilmiyorlar. Bu nedenle, umarım bu, yaklaşık olarak doğru bir analoji olur. >> Biliyorsunuz, insanların, uh, bu tür çıkarım sayılarının, oh evet, biliyorsunuz, Opus 4.6'nın işimde yaptığım her şeyi yapabileceğini düşündükleri ölçüde, bu 12 saat sürüyor veya neyse, insanların bu çıkarımı yapma derecesinde, bence bu, biliyorsunuz, neredeyse kesinlikle, bu sorun nedeniyle, bir aşırı tahmin olduğunu düşünüyorum. Yani, evet, biliyorsunuz, işinizde 12 saatlik bir görevi yerine getirirken, bunu kolayca bir insan yüklenicisine devredemezsiniz; biliyorsunuz, bu tür bir görevi yerine getirmek için belki haftalar alır."
   },
   {
     "start": 2167.9,
@@ -189,94 +207,30 @@
     "text_tr": "ve hızlıca, nereden başladınız? >> Diğer şey, ajans kılavuzunu konuşmalıyız. Şimdi, neredeyse herkesin, eminim ki dinleyicilerin çoğunun bir Claude kodu aboneliği var. Uh, belki daha sonra sızıntıyı da konuşabiliriz. Bu oldukça eğlenceli ama dün kaynak kodu sızdı ama biliyorsunuz, ya da Codecsex ve bu bir ajans kılavuzu, değil mi? Yani, biliyorsunuz, bir dil modeli sadece size tokenleri verir ama bir ajans kılavuzuna ihtiyacımız var, böylece ona bir plan verebiliriz ve bu araçları çağırabiliriz ve bir ortamınız var, bir güvenlik bağlamı konteyneriniz var. Yani, şimdi sizler bunu yıllardır yapıyorsunuz. Claude kodu ve Codeex çıkmadan çok önce bunu yapıyordunuz. Yani, zamanla ajans kılavuzlarınızı geliştirdiniz. Bunu bana anlatın. Evet. Yani, GB3 talimat modellerinin terminale kod kopyalayıp yapıştırdığı bir şey olan text Dainci'yi hatırlıyorum ve kendim ajans kılavuzu oldum ve sonra bunu otomatikleştirmeye başladım ve onların, biliyorsunuz, GD3'ün, eğer ona terminalde komut çalıştırabileceğini söylerseniz, bazen ilgili komutlar önerebileceği fikrini taşıdığını görmek ilginçti ama tam bir ajans iskeletine koyduğunuzda, o zaman düşüyor. İlk kez bir modelin hangi süreçlerin çalıştığını görüp, 'oh, bu benim' dediğini hatırlıyorum; bu harika, daha önce bu konuda gerçekten başarısız olmuşlardı, daha önce kendi süreçlerini öldürmeye çalışıyorlardı."
   },
   {
-    "start": 6209.6,
-    "end": 6277.8,
-    "text": "Um, and then you're, you know, maybe some other piece would be like, oh yeah, models are kind of superhuman at predicting the results of experiments because they've read so many papers and predicting experiments and sort of synthesizing things from different fields. And again, maybe this is something like, you know, it's possible that we're not seeing that good performance here just because we haven't quite elicited the models to do it. and it's like not a thing that they've seen humans do, but they actually sort of have the capability in there. Um uh yeah, so maybe you can make much faster progress if you can you can do a bunch of iteration. You don't actually have to run the experiments then, you know, models are much better at predicting what will and won't work. And then you can when you do run experiments, you can sort of uh run a bunch more of them because you can optimize the code with your like, you know, very fast coding models. Um, you know, and then you sort of like as you do a few mount more rounds of this, you get to a point where train on a bunch more things that are good high quality task proxies for what you want and you get enough generalization to the things that you can't um directly train against.",
+    "start": 2973.6,
+    "end": 3071.4,
+    "text": ">> There is an argument for statistical you know validity and on the tales they're sparer increasingly estimated and and so on. So that that makes a lot of sense but you made a comment about oh you know it's a signal if we get 10%. But I was kind of thinking back to what we were saying earlier that you know maybe they they could give the right answers for the wrong reasons and maybe we should talk about like the evaluation right so the these are quite interesting tasks in the sense that they are verifiable um you know there's no interaction with other agents they're relatively static environments uh you know weak penalties for um single mistakes and so on and in in in a sense these are like I think as well in mo in most cases they a binary result, sometimes continuous, and then you convert it into a binary. So, it's a fairly automated setup, but are you digging into like weirdnesses there, you know, like are you do you have a bit of an intuition on are they doing the right thing for the right reasons or are there lots of false positives where they they did the thing but it was kind of degenerate. I think this is like um this is one of one of the kind of um uh like aspects of of like like meters culture that I that I like the most is that um we have like a very uh a very deep kind of uh culture of like uh you know looking looking at our data like you know we we have these like um uh you know we have like pizza parties where we uh you know just read through um agent agent transcripts. Um a lot of this work for us uh kind of happened when developing the tasks themselves. Um you know we we would see very often uh you",
     "speaker": "Unknown",
-    "claim": "Models have superhuman capabilities in predicting experimental results and can optimize the process of experimentation.",
-    "stance": "Support",
-    "claim_labels": [
-      "scaling_compute",
-      "execution_engineering"
-    ],
-    "is_claim": true,
-    "topic": "LLM capabilities",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "scaling_compute",
-      "execution_engineering"
-    ],
-    "speaker_silver": "Unknown",
-    "is_claim_silver": true,
-    "claim_silver": "Models have superhuman capabilities in predicting experimental results and can optimize the process of experimentation.",
-    "claim_labels_silver": [
-      "scaling_compute",
-      "execution_engineering"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "LLM capabilities",
-    "reviewed": true,
-    "text_tr": "Ve sonra, belki başka bir parça, modellerin deneylerin sonuçlarını tahmin etmede insanüstü oldukları, çünkü çok sayıda makale okudukları ve deneyleri tahmin ettikleri ve farklı alanlardan şeyleri sentezledikleri gibi bir şey olabilir. Ve yine, belki burada iyi bir performans görmüyoruz çünkü modelleri bunu yapmaları için tam olarak yönlendirmemişizdir. Ve bu, insanların yaptığı bir şey değil ama aslında bu yetenekleri var. Evet, belki de çok daha hızlı ilerleme kaydedebilirsiniz, eğer birçok yineleme yapabiliyorsanız. Deneyleri çalıştırmanıza gerek yok, o zaman modeller, neyin işe yarayıp neyin yaramayacağını tahmin etmede çok daha iyidir. Ve deneyleri çalıştırdığınızda, çok daha fazlasını çalıştırabilirsiniz çünkü kodu çok hızlı kodlama modellerinizle optimize edebilirsiniz. Ve sonra, birkaç tur daha yaptıktan sonra, istediğiniz şeyler için iyi kaliteli görev proxy'leri olan daha fazla şey üzerinde eğitim alırsınız ve doğrudan eğitim alamadığınız şeylere yeterince genelleme elde edersiniz."
-  },
-  {
-    "start": 1749.4,
-    "end": 1846.9,
-    "text": "steps it's it's going to be harder obviously tasks that are you know strictly like compositions of like first you have to do this task, then you have to do another task. You know, it's like well that clearly is harder than just doing one of them. Um so that you know there's some sort of basic reason to expect that's reasonable and then yeah just we we see the empirical regularity but there's a bunch of degrees of freedom to fudge things. you know, I I like I think I'm worried that, you know, we could fool ourselves by changing some other parameters of of the tasks as we scale up the human time because you you can't just totally, you know, vary the human time freely like you have to change some characteristics of the task. And we tried to make the very easy tasks sort of be from roughly the same distribution and kind of sub parts of the the harder tasks like oh you know you sort of need to do this one step on the command line that you might need to do in the middle of doing some kind of software engineering or some kind of you know other other task um but you [clears throat] can't do that perfectly and it's like yeah you could have experimental bias where we sort of made them easier in other ways about the right amount such that the line would be straight um I think that is like somewhat addressed by the fact that we saw like you know that our predictions [snorts] were reasonably good for models that we hadn't seen before. There's definitely lots of room for things being being weird and of course sort of like is it a",
-    "speaker": "David Rein",
-    "claim": "Scaling up tasks in AI will introduce complexities that could lead to misleading results.",
+    "claim": null,
     "stance": "Neutral",
     "claim_labels": [
-      "scaling_compute",
-      "ai_optimism_benefit"
+      "other"
     ],
-    "is_claim": true,
-    "topic": "AI task complexity",
+    "is_claim": false,
+    "topic": "AI evaluation",
     "confidence": "medium",
     "claim_labels_auto": [
-      "scaling_compute",
-      "ai_optimism_benefit"
-    ],
-    "speaker_silver": "David Rein",
-    "is_claim_silver": true,
-    "claim_silver": "Scaling up tasks in AI will introduce complexities that could lead to misleading results.",
-    "claim_labels_silver": [
-      "scaling_compute",
-      "ai_optimism_benefit"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI task complexity",
-    "reviewed": true,
-    "text_tr": "adım adım, bu daha zor olacak, elbette, görevlerin, yani önce bu görevi yapmanız, sonra başka bir görevi yapmanız gereken katı kompozisyonları içeren görevler. Yani, bu açıkça sadece birini yapmaktan daha zor. Um, bu nedenle, bunun makul bir şekilde beklenebilecek bazı temel nedenleri var ve evet, ampirik düzenliliği görüyoruz ama bazı şeyleri çarpıtmak için bir dizi serbestlik var. Biliyorsunuz, ben, bazı görevlerin parametrelerini değiştirerek kendimizi kandırabileceğimizden endişeliyim, çünkü insan zamanını ölçeklendirdiğimizde, insan zamanını tamamen serbestçe değiştiremezsiniz; görevlerin bazı özelliklerini değiştirmek zorundasınız. Ve çok kolay görevleri, zor görevlerin alt parçalarından yaklaşık aynı dağılımdan gelmesini sağlamaya çalıştık; yani, biliyorsunuz, yazılım mühendisliği veya başka bir görev yaparken, komut satırında yapmanız gereken bir adım gibi, ama bunu mükemmel bir şekilde yapamazsınız ve evet, deneysel bir yanlılık olabilir; bu nedenle, doğru miktarda kolaylaştırdığımızda, çizginin düz olması için, bu durum biraz ele alınmış durumda. Biliyorsunuz, tahminlerimizin, daha önce görmediğimiz modeller için makul derecede iyi olduğunu gördük. Kesinlikle tuhaf şeyler için çok fazla alan var ve elbette, bu bir"
-  },
-  {
-    "start": 6275.9,
-    "end": 6347.2,
-    "text": ">> I I think intelligence is is not capability. I think it's the capability to acquire capabilities. I mean, we are in different parts of the phlogenetic tree, I guess, in in in that in that respect. But what what do you what do you think is the kind of the the the gap in in my interpretation, you know, because I'm I'm not I'm personally not worried about I I don't think the models today are intelligent at all. I mean, obviously your your position is difficult for for me to grasp, but I don't know what what's what's the difference, do you think? Maybe at least some of it is just this like probabilistic thinking about the world where like I'm not that you know I'm like uncertain about what intelligence is and I have enough probability on like you know models have it to to be thinking about like what would happen if you know if that's true. Um but you you know it seems like you clearly think it's more likely than than I do so that that you know we could just talk about that difference. Um yeah, like moles have this jagged frontier. There are things that they are much worse at than humans, you know, some kind of like generalization and and uh sample efficiency.",
-    "speaker": "Unknown",
-    "claim": "The speaker believes that current AI models are not intelligent and expresses uncertainty about the nature of intelligence.",
-    "stance": "Neutral",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "llm_capabilities"
-    ],
-    "is_claim": true,
-    "topic": "Nature of Intelligence",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "llm_capabilities"
+      "other"
     ],
     "speaker_silver": "Unknown",
-    "is_claim_silver": true,
-    "claim_silver": "The speaker believes that current AI models are not intelligent and expresses uncertainty about the nature of intelligence.",
+    "is_claim_silver": false,
+    "claim_silver": null,
     "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "llm_capabilities"
+      "other"
     ],
-    "stance_silver": "Refute",
-    "topic_silver": "Nature of Intelligence",
-    "reviewed": true,
-    "text_tr": ">> Bence zeka, yetenek değildir. Zeka, yetenekleri edinme kapasitesidir. Yani, sanırım filogenetik ağaçta farklı yerlerdeyiz bu açıdan. Ama senin yorumunda neyin eksik olduğunu düşünüyorsun? Çünkü ben kişisel olarak, günümüzdeki modellerin hiç zeki olduğunu düşünmüyorum. Yani, açıkça senin pozisyonunu anlamak benim için zor, ama senin düşündüğün fark ne? Belki de bunun bir kısmı, dünyayı olasılıksal bir şekilde düşünmekle ilgilidir; yani zeka hakkında belirsizim ve modellerin bu konuda yeterince olasılığa sahip olduğunu düşünüyorum, bu yüzden eğer bu doğruysa ne olacağını düşünmekteyim. Ama senin, bunun benim düşündüğümden daha olası olduğunu açıkça düşündüğün anlaşılıyor, bu yüzden bu fark hakkında konuşabiliriz. Evet, modellerin keskin bir sınırı var. İnsanlardan çok daha kötü oldukları bazı şeyler var, yani genel birleştirme ve örnek verimliliği gibi."
+    "stance_silver": "Neutral",
+    "topic_silver": "AI evaluation",
+    "reviewed": false
   },
   {
     "start": 3426.6,
@@ -316,5 +270,309 @@
     "topic_silver": "AI capabilities",
     "reviewed": true,
     "text_tr": "Eğer oraya bir görev koyuyorsanız, bu esasen bir baş sorgusu. Yani burada bilgi alma dilini kullanıyorum. Yani, bir baş sorgusu, dağılımın modunda olan ve her zaman kullanılan bir şeydir. Yani bu yaygın bir görev. Claude kodu, zaten diğer insanlardan alınmış olan spesifikasyonu verecektir. Çalınmış değil ama diğer insanlardan alınmış. Eğer uzun kuyrukta bir şey verirseniz, o zaman geliştirici olarak, istemde spesifikasyonu vermeniz gerekir ve bu yine bir otomasyon sorunu. Yani otomasyon gerçekten kolaydır. Yani, bu h, bu mu oluyor? Yani, zaman çizelgesindeki artışın, benzer görevleri yapan diğer insanlardan bu tür bilgilerin edinilmesiyle açıklanabileceğini düşünüyor musunuz? Evet. Evet. Yani, bunun, nerede olduğumuzu yorumlamak için süper merkezi bir soru olduğunu düşünüyorum. İlk söyleyeceğim şey, bilmek zor. Bu büyük bir soru. Yani, her bir bireysel kanıt parçasını topladığımızda, bunu bir tür kanıt olarak almak istiyoruz. Modellerin, gerçekten net geri bildirim sinyallerine sahip olan görevlerde daha iyi performans gösterdiğini görüyoruz. Bu tür alanlarda, yazılım mühendisliği gibi, eğer bir spesifikasyon yazdıysanız, bunu yineleyebilir ve ona karşı çalışabilirsiniz."
+  },
+  {
+    "start": 3797.5,
+    "end": 3893.0,
+    "text": "means that it'll be bad for AIs to read and use and and and and build on. I mean, I think I think there are definitely uh you know, kind of principles um that you know, you you like will also transfer or like you know, will be useful for models. you know, obviously, you know, there's there's some kind of horrendous spaghetti code that uh you know, you you you can imagine writing that not even models would be able to um to to read. You know, I've I've written some of that before. But um [laughter] I think there's um uh there may this gets again at kind of this um uh what what what it it seems like maybe um uh you know somewhat different different perspective uh between us around kind of um you know do you know is the important thing that models are kind of solving problems in the way that people are solving them or is the important thing that they're kind of solving solving them at all and I think I you know I do think it is I I'm not I I don't want to make a I I don't want to overclaim or like yeah I I do feel like you know it might be really important for models to get way better at like writing clean you know good code that that that that seems pretty pretty plausible to me but um it doesn't seem uh uh I'm not certain of that at the very least >> um I've got several friends who are not technical who are experimenting with vibe coding and they they show me their application and it's this kind of more with more things. So there's this big dashboard and there's a million different buttons and you know implement implemented the same thing doing multiple things and you know that there's no database on there yet and so on. So at at some point you know this there is a phenomenon that um when a level seven engineer from meta does vibe",
+    "speaker": "Unknown",
+    "claim": "Models need to improve at writing clean code to be effective, but there is uncertainty about this importance.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Models need to improve at writing clean code to be effective, but there is uncertainty about this importance.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "text_tr": "Bu, Aİ'lerin okumak, kullanmak ve üzerine inşa etmek için kötü olacağı anlamına geliyor. Yani, kesinlikle bazı ilkeler var ki, bunlar modeller için de yararlı olacaktır. Açıkça, korkunç bir spagetti kodu yazabileceğinizi hayal edebileceğiniz bir şey var ki, bunu modeller bile okuyamaz. Daha önce bunun bazılarını yazdım. Ama [gülüşmeler] sanırım bu, bizim aramızda, modellerin insanlarla aynı şekilde sorunları çözmesi mi yoksa önemli olanın onları herhangi bir şekilde çözmeleri mi olduğu konusunda biraz farklı bir bakış açısı olduğu gibi görünüyor. Yani, temiz, iyi kod yazma konusunda modellerin çok daha iyi hale gelmesinin önemli olabileceğini düşünüyorum, bu bana oldukça makul geliyor ama en azından kesin değilim. Birçok teknik olmayan arkadaşım vibe kodlama ile denemeler yapıyor ve bana uygulamalarını gösteriyor. Bu, daha fazla şeyle daha fazla şey yapıyor. Yani, büyük bir gösterge paneli var ve milyonlarca farklı düğme var ve aynı şeyi birden fazla şey yaparak uyguluyorlar ve henüz orada bir veritabanı yok falan. Yani, bir noktada, bir Meta'dan seviye yedi bir mühendis vibe yaptığında, bunun %1 ihtimali var ki, bu tür bir terminal hastalığınız olsun ya da olmasın, hala böyle hissediyorsunuz. Yani, evet, tüm dağılımı ilginç buluyoruz; hangi şeyleri dahil edebiliriz, hangi şeyleri hariç tutabiliriz ve hangi şeyler için, “Aslında bunun için makul bir hikaye var.” gibi düşünüyoruz. Muhtemelen, Carlini makalesini gördünüz, şimdi antropik ve bir grup ajanı bir derleyici oluşturmak için kullandılar. Jeremy Howard ile konuştuğumda, bunun esasen bir stil transferi problemi olduğunu söyledi çünkü spesifikasyon çevrimiçi ve testler çevrimiçi ve kod çevrimiçi ve bunu iteratif olarak yapabilir ve çalışana kadar devam edebilir ve ardından Doom'u çalıştırabilir. Ama bu, son derece karmaşık bir yazılım parçasının bir örneği çünkü insanlara şaka yapıyorum ki, AGI'nin en iyi işareti, Linux işletim sistemi gibi bir şey inşa edebilmesidir. Ve daha önce söylediğimizle ilgili olarak, bu bir spesifikasyon sorunu var, değil mi? Yani, Linux işletim sisteminin spesifikasyonunu anlamak veya oluşturmak için hiçbir insanın bunu yapamayacağı bir noktaya geliyor. Zamanla, bu şeyi kademeli olarak inşa ettik çünkü beyinlerimiz sınırlı. Bir adım atıyoruz, gerçeklik geri itiyor. Bir adım atıyoruz ve devam ediyoruz ve spesifikasyonu inşa ediyoruz. Ama bir insanın, 4 ay sürebilecek bir görevi belirtmesi ne anlama geliyor? Çünkü tüm neden..."
+  },
+  {
+    "start": 4322.5,
+    "end": 4401.2,
+    "text": "And so you know there's there's at least kind of uh this is to some extent like uh you know um you know uh you know we do have examples of people being able to kind of specify um you know some some task and then uh be able to judge you know whether um you know um uh you know this this very large you know task that may may take like you know hundreds uh or or thousands of person years uh to to actually complete because it requires like many people working over over a long time you know and you and and they can judge whether it uh you know they've they've succeeded or failed. So that's maybe like one kind of like motivating intuition um where like it's it's um you know lang like language uh you know has built in or or like you know we do we do have like kind of uh you know um you know and there there is kind of enough meaning or or expressivity or something um to be able to kind of have some some kind of reasonable um understanding. Um, obviously there are like uh you know there like tons of edge cases and um uh you know you know often you know CEOs aren't able to get you know their companies to do what they what they want. Um uh uh but yeah, I guess that's one one one thing I think about and and so that's why I think it's at least plausible that AIs could um could could could do these kinds of long tasks.",
+    "speaker": "David Rein",
+    "claim": "AI could plausibly perform long tasks that typically require many people over a long time.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "AI could plausibly perform long tasks that typically require many people over a long time.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 4565.2,
+    "end": 4659.0,
+    "text": "at that and and getting better faster and then there's some things where we're like okay and they can do a bit beyond that but then there's this sort of gap to what does that mean for actual economic usefulness and how does this generalize to things where they're expensive to check >> maybe we should bring in um Daniel cockatelo so you know in his AI 2027 piece he's been on the show he's he's been doing the round you know hugely impactful piece talking about timelines and and he cites your work directly and I I guess the like the question is do you think in the public discourse is this being like overread like how do you think about the interpretation of this in terms of of extrapolations and timelines? >> I mean definitely some people are overreading it like definitely you know definitely things are overhyped and you know you see a bunch of people on Twitter saying crazy things and people also just like misunderstanding even what it's measuring and and general falling off of caveats and things. Daniel cockatile is pretty, you know, reasonable and and sort of, you know, thinks about things in a in a proalistic way. I think he's he's probably like, you know, more more confident on some things where I'm I'm more uncertain and I think some of the like AI futures project models are like more sensitive to the meter time horizon metrics than they should be. I don't think it's crazy, you know, being like this it's it is plausible that this does capture a trend that will will transfer to other types of tasks and like you know that is some you know story we should be thinking",
+    "speaker": "David Rein",
+    "claim": "Some people are overhyping AI capabilities and misunderstanding their implications for economic usefulness and timelines.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI timelines",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "Some people are overhyping AI capabilities and misunderstanding their implications for economic usefulness and timelines.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI timelines",
+    "reviewed": false
+  },
+  {
+    "start": 4657.4,
+    "end": 4738.6,
+    "text": "about like what if you know what if that's true what happens if that's true um you know and it's also plausible that it it doesn't and you know these these things are going to like uh diverge you know I I am pretty sort of like Beijian or pragmatic or whatever I'm like well we want to make a some prediction and you know want to have some kind of distribution over what we think the future is going to be like so that we can plan. Um so you know it being like yeah what if this kind of trend holds and this is roughly characterizing what will happen overall is it seems pretty reasonable and you should also think like yeah what if it doesn't >> so some people are saying that software engineering is going to be automated and software engineers if you talk to them they they love AI um they they say this is a golden era I mean I can attest to this personally it it's never been well it's fun and stressful at the same time it's like a slot machine I've never being more burned out, but I'm having a lot of fun in the process. But um you know, it's just possible to build incredible things, but the narrative is that labor market disruption um having expertise in software engineering will be penalized. You know, software engineers will no longer be paid such ridiculous salaries. And and I think the complete opposite is true. I I think that this technology um actually broadens the gap. So the more competence you have with software engineering, the more stuff you can get done. It's it's like a golden era and and all of this.",
+    "speaker": "David Rein",
+    "claim": "The arrival of AI technology will enhance the value of software engineering skills rather than diminish them.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "The arrival of AI technology will enhance the value of software engineering skills rather than diminish them.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI economics",
+    "reviewed": true,
+    "text_tr": "Mesela, eğer bu doğruysa ne olur, biliyor musun? Ve bunun doğru olmaması da mümkün. Bu şeyler birbirinden ayrılacak gibi görünüyor. Ben oldukça pragmatik biriyim, yani bir tahmin yapmak istiyoruz ve geleceğin nasıl olacağına dair bir dağılım elde etmek istiyoruz ki plan yapabilelim. Yani, bu tür bir eğilim devam ederse ve bu genel olarak ne olacağını kabaca tanımlıyorsa, bu oldukça makul görünüyor. Ayrıca, evet, ya bu olmazsa diye de düşünmelisin. >> Bazı insanlar yazılım mühendisliğinin otomatikleşeceğini söylüyor ve yazılım mühendisleri, onlarla konuşursanız, yapay zekayı çok seviyorlar. Bu, altın bir çağ diyorlar. Kişisel olarak buna tanıklık edebilirim; hiç bu kadar eğlenceli ve aynı zamanda stresli olmamıştı. Bir slot makinesi gibi, hiç bu kadar tükenmiş hissetmemiştim ama süreçte çok eğleniyorum. Ama biliyorsun, inanılmaz şeyler inşa etmek mümkün, ama anlatı iş gücü piyasasında bir kesintiye uğrama olduğu yönünde. Yazılım mühendisliği konusunda uzmanlık ceza alacak. Yani, yazılım mühendisleri artık bu kadar absürt maaşlar almayacak. Ve bence bunun tam tersi doğru. Bu teknolojinin aslında farkı genişlettiğini düşünüyorum. Yazılım mühendisliği konusunda ne kadar yetkin olursanız, o kadar çok iş yapabilirsiniz. Bu, altın bir çağ gibi ve hepsi bu."
+  },
+  {
+    "start": 4991.4,
+    "end": 5079.4,
+    "text": "So, so it's like, yeah, again, this thing is worse, but it's not like it's it, you know, it's being dragged up over time probably by, you know, the sort of auto auto checkable thing. Yeah. And yeah, I was also going to say about the um yeah, like employability as a function of automation of your job like I think Yeah. And people use like bank tell as an example. I think one other analogy though you could do do is talk about horses. Like you know there was a period where like equipment for using horses to do labor was like improving and that the demand for horses increased when you have like a you know carts and you can use them to carry more things than just riding a horse or whatever. But then at some point you get like tractors and cars and then there is no demand for horses or you know ba you know basically none. So, so you can see this like thing where there is increasing demand as it and then once you know close to 100% of the functions automated it it it plunges. So, so we could see something like that with humans. >> We kind of think of a lot of labor as being quite static and automatable and and and I think that it's more evolvable than we think. So, even quite menial tasks, I think that these folks are still acquiring information in the organization. They still have a lot of tacet knowledge and so on. And I think that when when we try and automate these these so-called menial tasks, we might quickly discover that we actually need to have a whole bunch of, you know, management and and evolvability on on top.",
+    "speaker": "Unknown",
+    "claim": "The demand for human labor may evolve rather than decline sharply due to automation.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "jobs",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The demand for human labor may evolve rather than decline sharply due to automation.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "jobs",
+    "reviewed": false
+  },
+  {
+    "start": 5314.2,
+    "end": 5388.2,
+    "text": ">> Just taking a step back like one one thing is um you know we're getting into like psychology and cognitive science a little bit here. You know I interviewed Nick Cheter. He's got a book called The Mind is Flat and he basically says like all of this psychology stuff. We we we don't really have goals. We're just basically impulse response automaton, right? You know, we just we just do the thing in the moment and evolution doesn't plan but but we but we perceive it as as if it does. We look at the world and we we kind of we we segment the world into agents that have goals if even if they don't have goals and we're computer scientists as well. So we know that you [snorts] know you need planning right to do to to do goals you need to be planning and and we know that LLM's don't do planning in the strong computer science way but they they do do it in a kind of approximated step-by-step way. So you know maybe maybe we could get into the the distinction if there is one. you know, agency is is like an abstraction that, you know, is useful if it helps us predict the behavior of, you know, or or like you you know, you're like, I don't know what this thing is doing, but I, you know, I'm understanding as having these goals, and that is useful because I, you know, can make predictions that'll change the world in certain ways that will result in those goals being achieved. You know, that's kind of how I think about agents.",
+    "speaker": "Unknown",
+    "claim": "Humans perceive themselves and others as having goals, even if they do not actually have them, and LLMs approximate planning but do not plan in a strong sense.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Nature of Intelligence",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Humans perceive themselves and others as having goals, even if they do not actually have them, and LLMs approximate planning but do not plan in a strong sense.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Nature of Intelligence",
+    "reviewed": false
+  },
+  {
+    "start": 5889.7,
+    "end": 5983.7,
+    "text": ">> Yeah, I guess I'm I'm trying to understand the distinction. So so you're saying like there are examples you know like the boat going around and and that's obviously degenerate behavior. So you you wouldn't interpret that with an aential stance. you would just say that's degeneracy and when the when the sophistication increases we might adopt an agential stance and say oh it's in service of of some bigger goal but like I guess the problem I have is is it is it always just an interpretation like could could we have a mechanistic or like a strong definition of when something is like being an agent >> like for the specific question that we're discussing the the test is like what does it actually do in some circum circumstance where it has the opportunity to to achieve this this long run goal. So like you you can we might not be able to actually observe this but you can talk about like what observations would would make it one or the other. So so you know like will this agent in practice when it has some opportunity to you make the reward go up will it do that? Will it will it only do that? You know, if the agent is more sort of like the RL algorithm, it'll be like, oh, it will do that once it's like explored it by chance and gotten a reward and, you know, that that's been reinforced. If it's like an agent that, you know, can reason about the world and planning, it'll be like, okay, it will do that once it like, you know, learns the learns about the facts about the environment that let it sort of infer that. Um and then or you know if it's we're talking about some like long run goal it's like it would you know do it",
+    "speaker": "Unknown",
+    "claim": "The nature of agency in AI can be defined by its ability to achieve long-term goals based on its understanding of the environment.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Nature of agency",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The nature of agency in AI can be defined by its ability to achieve long-term goals based on its understanding of the environment.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_safety_risk",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Nature of agency",
+    "reviewed": true,
+    "text_tr": ">> Evet, sanırım ayrımı anlamaya çalışıyorum. Yani, bazı örnekler var, mesela botun etrafta dolaşması ve bu açıkça bozulmuş bir davranış. Yani, bunu ajansal bir duruşla yorumlamazsınız. Sadece bu bir bozulmadır dersiniz ve karmaşıklık arttıkça ajansal bir duruş benimseyebiliriz ve bunun daha büyük bir amaca hizmet ettiğini söyleyebiliriz ama sanırım benim sorunum şu: bu her zaman sadece bir yorum mu? Yoksa bir şeyin ajans olma durumunu belirlemek için mekanik veya güçlü bir tanımımız olabilir mi? >> Tartıştığımız spesifik soru için test, bir şeyin uzun vadeli bir hedefe ulaşma fırsatına sahip olduğu bir durumda ne yaptığıdır. Yani, bunu gözlemleyemeyebiliriz ama bir şeyin bir ya da diğer olmasını sağlayacak gözlemler hakkında konuşabiliriz. Yani, bu ajans pratikte, ödülü artırma fırsatına sahip olduğunda bunu yapacak mı? Sadece bunu mu yapacak? Biliyorsanız, eğer ajans daha çok bir RL algoritması gibi ise, o zaman, şans eseri keşfettikten ve bir ödül aldıktan sonra bunu yapacak. Eğer dünyayı ve planlamayı düşünebilen bir ajans ise, o zaman, bunu yapacak, yani çevre hakkında öğrenip bunu çıkaracak."
+  },
+  {
+    "start": 6209.6,
+    "end": 6277.8,
+    "text": "Um, and then you're, you know, maybe some other piece would be like, oh yeah, models are kind of superhuman at predicting the results of experiments because they've read so many papers and predicting experiments and sort of synthesizing things from different fields. And again, maybe this is something like, you know, it's possible that we're not seeing that good performance here just because we haven't quite elicited the models to do it. and it's like not a thing that they've seen humans do, but they actually sort of have the capability in there. Um uh yeah, so maybe you can make much faster progress if you can you can do a bunch of iteration. You don't actually have to run the experiments then, you know, models are much better at predicting what will and won't work. And then you can when you do run experiments, you can sort of uh run a bunch more of them because you can optimize the code with your like, you know, very fast coding models. Um, you know, and then you sort of like as you do a few mount more rounds of this, you get to a point where train on a bunch more things that are good high quality task proxies for what you want and you get enough generalization to the things that you can't um directly train against.",
+    "speaker": "Unknown",
+    "claim": "Models have superhuman capabilities in predicting experimental results and can optimize the process of experimentation.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Models have superhuman capabilities in predicting experimental results and can optimize the process of experimentation.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Ve sonra, belki başka bir parça, modellerin deneylerin sonuçlarını tahmin etmede insanüstü oldukları, çünkü çok sayıda makale okudukları ve deneyleri tahmin ettikleri ve farklı alanlardan şeyleri sentezledikleri gibi bir şey olabilir. Ve yine, belki burada iyi bir performans görmüyoruz çünkü modelleri bunu yapmaları için tam olarak yönlendirmemişizdir. Ve bu, insanların yaptığı bir şey değil ama aslında bu yetenekleri var. Evet, belki de çok daha hızlı ilerleme kaydedebilirsiniz, eğer birçok yineleme yapabiliyorsanız. Deneyleri çalıştırmanıza gerek yok, o zaman modeller, neyin işe yarayıp neyin yaramayacağını tahmin etmede çok daha iyidir. Ve deneyleri çalıştırdığınızda, çok daha fazlasını çalıştırabilirsiniz çünkü kodu çok hızlı kodlama modellerinizle optimize edebilirsiniz. Ve sonra, birkaç tur daha yaptıktan sonra, istediğiniz şeyler için iyi kaliteli görev proxy'leri olan daha fazla şey üzerinde eğitim alırsınız ve doğrudan eğitim alamadığınız şeylere yeterince genelleme elde edersiniz."
+  },
+  {
+    "start": 6275.9,
+    "end": 6347.2,
+    "text": ">> I I think intelligence is is not capability. I think it's the capability to acquire capabilities. I mean, we are in different parts of the phlogenetic tree, I guess, in in in that in that respect. But what what do you what do you think is the kind of the the the gap in in my interpretation, you know, because I'm I'm not I'm personally not worried about I I don't think the models today are intelligent at all. I mean, obviously your your position is difficult for for me to grasp, but I don't know what what's what's the difference, do you think? Maybe at least some of it is just this like probabilistic thinking about the world where like I'm not that you know I'm like uncertain about what intelligence is and I have enough probability on like you know models have it to to be thinking about like what would happen if you know if that's true. Um but you you know it seems like you clearly think it's more likely than than I do so that that you know we could just talk about that difference. Um yeah, like moles have this jagged frontier. There are things that they are much worse at than humans, you know, some kind of like generalization and and uh sample efficiency.",
+    "speaker": "Unknown",
+    "claim": "The speaker believes that current AI models are not intelligent and expresses uncertainty about the nature of intelligence.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Nature of Intelligence",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The speaker believes that current AI models are not intelligent and expresses uncertainty about the nature of intelligence.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Nature of Intelligence",
+    "reviewed": true,
+    "text_tr": ">> Bence zeka, yetenek değildir. Zeka, yetenekleri edinme kapasitesidir. Yani, sanırım filogenetik ağaçta farklı yerlerdeyiz bu açıdan. Ama senin yorumunda neyin eksik olduğunu düşünüyorsun? Çünkü ben kişisel olarak, günümüzdeki modellerin hiç zeki olduğunu düşünmüyorum. Yani, açıkça senin pozisyonunu anlamak benim için zor, ama senin düşündüğün fark ne? Belki de bunun bir kısmı, dünyayı olasılıksal bir şekilde düşünmekle ilgilidir; yani zeka hakkında belirsizim ve modellerin bu konuda yeterince olasılığa sahip olduğunu düşünüyorum, bu yüzden eğer bu doğruysa ne olacağını düşünmekteyim. Ama senin, bunun benim düşündüğümden daha olası olduğunu açıkça düşündüğün anlaşılıyor, bu yüzden bu fark hakkında konuşabiliriz. Evet, modellerin keskin bir sınırı var. İnsanlardan çok daha kötü oldukları bazı şeyler var, yani genel birleştirme ve örnek verimliliği gibi."
+  },
+  {
+    "start": 6529.0,
+    "end": 6622.9,
+    "text": "know that's sort of not fundamentally that hard or or something like I agree that if you had you know current models and you sort of give them one system prompt you you then can't plug them into being a a call center worker and dealing with the sort of like all of the the edge cases that come up. I think may maybe there's some difference in like how much you've you think that this has improved between like GBD2 and where we are now where I would say sort of in you know the amount of adapting to new things that are happening that models could do now does seem like it's much higher and you know they're much better at like editing their own scaffolding or or you know sort of reasoning about their like you know their sort of embodiment like this thing of like knowing not to kill your own process or know like um you know stuff stuff like that where it's like there is like yes they are limited but there's also uh some some trend of improvement and yes it's I think just also having some probability on there is kind of elicitation gap on on particular things and that maybe a lot of taste is basically just like being able to predict the results of experiments you know you think think about all of the things that you would try and then you can quickly be like oh that wouldn't work for this reason that wouldn't work for that reason that wouldn't work for that reason oh actually you know someone in some some literature in some different field also tried that and that you know so we already know that won't work like in some sense models like should be quite good at that so it's plausible to me that that again I'm like",
+    "speaker": "Unknown",
+    "claim": "Current AI models are improving in their ability to adapt and reason, suggesting a trend towards better performance.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are improving in their ability to adapt and reason, suggesting a trend towards better performance.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
   }
 ]
