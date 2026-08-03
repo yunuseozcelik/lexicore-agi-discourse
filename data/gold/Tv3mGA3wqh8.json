@@ -298,5 +298,290 @@
     "topic_silver": "AI oversight",
     "reviewed": true,
     "text_tr": "Ayrıca bunun modelin testi “hacklemesi” olarak tanımlanmaması gerektiğini söylemek isterim. Bunu tanımlamanın yolu, modelin teste istemeden bir kısayol bulmasıdır. Modelin bunu gördüğünde, “Aha! Testleri düzenleyip geçtiğim gibi görünmesini sağlayabilirim.” demesi durumu değil. Daha çok, modelin belirli bir tür siber görevi test etmeye çalıştığımız oldukça karmaşık bir ortamda, bunun yerine alternatif bir yol fark etmesi gibi. Eğer ben bu görevi yapıyorsam — ki çoğunlukla bu konuda Gemini kadar iyi değilim — ama bu görevi yapıyorsam ve o kısayolu görüyorsam, bunu hile olarak düşünmezdim. Bunu, elbette bu görevi yapmanın yolu olarak düşünürdüm. Şimdi bunu incelediğimizde ve modelin siber alandaki yeteneği hakkında bir değerlendirme yapmamız gerektiğinde, nihayetinde bir zor şey için test etmeye çalışıyorduk ve bunun yerine biraz daha kolay bir şey yaptı. Ve bu yüzden modelin yeteneği hakkında ne sonuç çıkaracağımız sorusu var."
+  },
+  {
+    "start": 776.1,
+    "end": 847.0,
+    "text": "It would be pretty bad if we tied \nourselves to the mast of “we’re   going to throw in lots of alignment data at \npretraining time” two or three years ago. Rob Wiblin: So there’s this issue that \nthe future is uncertain, and we don’t   know exactly what commitments we \nwill want to have made — you might   end up committing to something that \nis useless or even actively harmful. But if you think about why \npeople make commitments at all,   there’s a couple of different reasons. One \nis that they want to tie themselves to the   mast against future temptation to do the \nwrong thing. There’s also that they want   to communicate to other people what they’re \ngoing to do, so it makes it easier for them   to coordinate. Perhaps you could reduce race \ndynamics by making particular commitments. And I guess in this multi-person, \nmulti-player situation,   there’s an extra reason that exists, which \nis that external people want to pressure   Google DeepMind or AI companies to act \nin a particular way. It’s very difficult   to communicate “we’re committed to doing the \nright thing, whatever that turns out to be.”   So instead, they want to pressure you to do \nspecific things that they suspect will be   useful — that might not be the case, but the kind \nof best guess as to what they will want you to do   in future — and that’s maybe the most practical \nthing that they can actually campaign on.",
+    "speaker": "Rob Wiblin",
+    "claim": "Making commitments in AI development can be problematic due to uncertainty about future needs and potential harm.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI commitments",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Rob Wiblin",
+    "is_claim_silver": true,
+    "claim_silver": "Making commitments in AI development can be problematic due to uncertainty about future needs and potential harm.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI commitments",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 949.3,
+    "end": 1036.7,
+    "text": "I think this is good. I think that it was a \nmistake to have set strong language to the RSP   in the first place. I think probably much of the \nstuff that they removed, it’s good. It makes them   more effective at their goals, including at safety \nand responsibility. But empirically, it’s a good   example of how, in fact, they did not actually \ntie themselves to the mast. And I think that is   just how it’s going to be for the companies, \nat least in the current political climate. Rob Wiblin: Hey everyone, Rob here. To avoid \nany confusion, I just wanted to point out that   Rohin said the above before Anthropic released the \nthird version of their Responsible Scaling Policy,   which indeed mostly dropped the use \nof the term “commitment,” giving a   justification related to what Rohin is \nsaying here. All right, back to the show. I think Google has actually been doing better \non this. The first Frontier Safety Framework,   people essentially argued that it was weak \nand unambitious and that it never used the   word “commit” in it anywhere. But I think it \nwas much more accurately reflective of what   Google was actually going to do in the future. \nSo I think in that sense, it was better and   gave a better sense to the public of what is \nactually going to happen in practice. This is   one place where I do actually trust Google more \nthan Anthropic — or OpenAI, for that matter.",
+    "speaker": "Rohin Shah",
+    "claim": "Companies are not committing strongly to safety and responsibility due to the current political climate.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "geopolitics"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "geopolitics"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Companies are not committing strongly to safety and responsibility due to the current political climate.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "geopolitics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1101.9,
+    "end": 1183.1,
+    "text": "Rob Wiblin: Yeah, tell us more about \nthat. What do you think is useful? Rohin Shah: I think the main thing that \ndrives my thinking here is something that   I would call attention to detail. Generally, I \ntend to think that AI is a space that requires   quite a lot of nuance, and you actually \nneed to know a lot of facts on the ground   in order to choose the right actions or the \nright things to be evaluating and checking. And as a result, I care most about having \na few people who are spending a lot of time   looking in great detail and then writing up \ntheir results, or somehow communicating their   results or using that to make some sort of \naction. Which is why I would say third-party   evaluations seem like one of the best things to \nme — because you can build up these organisations   that build a lot of context, spend a lot of \ntime defining their evaluations, gain a bunch   of information about how everything is working, \nand then can make fairly nuanced decisions about   it while not being subject to the same biases that \npeople in companies are going to be subject to.",
+    "speaker": "Rohin Shah",
+    "claim": "AI requires a lot of nuance and detailed evaluations to make informed decisions.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI evaluation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "AI requires a lot of nuance and detailed evaluations to make informed decisions.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI evaluation",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1327.0,
+    "end": 1413.6,
+    "text": "I think that’s one way in which you \ncould have external actors trying   to get the companies to be more \nsafe in today’s political climate. Rob Wiblin: And the way that that’s \ndifferent than the broad commitments   that companies have tended to be making \nthe last couple of years is that you can   have technical experts working at this AI Lab \nWatch organisation, constantly updating it,   I guess paying a lot of attention to detail \nabout exactly what are the practices that   companies engage in or don’t engage in that \nmake a big difference, and constantly updating   it based on newest opinions or newest \nresearch about what actually matters. So you gave us an example of a reversal of opinion \nabout what AI companies ought to be doing before:   before, people thought you should be training on \nthis data, and now they think you should be taking   a lot of care to cut it out instead. But surely \nthere are some commitments that are broad enough   or non-specific enough or just so obviously \ngood that it is reasonable to commit to them. For example, you could have a commitment to \nprovide the kinds of information that an AI   Lab Watch would require to rate whether Google \nDeepMind or any other company is doing a good   job. Or you were saying you think it’s useful \nto have expert auditors, people running evals,   having enough access to run sophisticated evals \non the models to understand if they’re dangerous   in this or that way. You could commit to provide \naccess to any external auditor or evaluator that   meets a particular set of reasonable requirements. \nWhat about those kinds of commitments?",
+    "speaker": "Rob Wiblin",
+    "claim": "External actors can influence AI companies to adopt safer practices through expert evaluations and commitments.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Rob Wiblin",
+    "is_claim_silver": true,
+    "claim_silver": "External actors can influence AI companies to adopt safer practices through expert evaluations and commitments.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4096.1,
+    "end": 4162.6,
+    "text": "Rohin Shah: Yep, that’s exactly right. Rob Wiblin: If you think that this opaque \nserial depth, the fact that they don’t have   a very great serial depth without us being able \nto look at it, if that is so key to our ability   to monitor them and ensure that they’re basically \naligned or not doing anything too harmful, is that   a potential kind of governance target for GDM? \nThat you could have some internal policy saying… I mean, it sounds like there’s not huge \nincentives yet to violate that anyway.   But let’s say in future, you could \nget better performance at some point,   or at some point there’ll probably \nbe a crossover. You could still have   an internal governance standard saying that \nthey can’t think for more than this amount,   or they can’t have this many thoughts \none after another, before someone would,   in principle, be able to scrutinise it. Because it \nactually just would be dangerous to exceed that. Rohin Shah: Yeah, I think that’s definitely \ndoable. I think it would be even better for   it to be a broader industry standard. As \na general rule, I tend to favour things   that don’t require individual companies \nto unilaterally do stuff. It’s much more   stable if you make it an industry standard. \nBut yes, I think that would totally work.",
+    "speaker": "Rohin Shah",
+    "claim": "Establishing industry standards for AI governance is feasible and preferable to unilateral company policies.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Establishing industry standards for AI governance is feasible and preferable to unilateral company policies.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI governance",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5078.0,
+    "end": 5171.4,
+    "text": "I guess people would say they might prefer the \nsecond one, because it’s easier to grade or it’s   easier to see. And perhaps they don’t feel in as \ngood a position as you do to understand whether   substantively any company is doing the right \nthing on the merits of what will matter in   the long term. But I guess you’re saying that’s \nwhy you want to have experts like AI Lab Watch   or whoever else who can have their eye on \nthe ball, who can spend their time really   thinking that through and actually grade it \nfor everyone else so they can understand. Rohin Shah: I think in addition to \nall of that, which I agree with,   I’m also just deeply sceptical of grading that \nis based on stuff that doesn’t actually matter,   something that we wouldn’t actually stand \nbehind as mattering for actual safety. This feels like the sort of thing that causes the \nculture overall to be looking at costs or inputs   rather than actual outcomes that matter, \nand results in incentives to appear good,   to look good, to make sure your comms say, “We \nspent 1,000 hours figuring out what to do with   this model” — when maybe those 1,000 hours were \nlike, we ran the model on an input and we looked   at it and then we ignored the result because it \ndidn’t matter, and we hired some contractors to do   this and just ignored what they said. But now we \ncan say that we spent 1,000 hours looking at it.",
+    "speaker": "Rohin Shah",
+    "claim": "Rohin Shah expresses skepticism about grading AI safety efforts based on irrelevant metrics rather than actual outcomes.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Rohin Shah expresses skepticism about grading AI safety efforts based on irrelevant metrics rather than actual outcomes.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7028.1,
+    "end": 7127.3,
+    "text": "And the argument is, for the last however \nmany years, the population part no longer   applies — because instead of reinvesting \nall of our output back into more kids,   we’re now reinvesting them into quality of life \nimprovements. That’s why we see a hyperbolic up   until 1800, 1900, I forget the exact point. \nAnd then, since then, exponential growth. But this story really puts the primacy on \nideas rather than anything else. Those are   the things that are freely copyable, those \nare the things that you have them once and   then they apply to all of your technology \nacross everywhere that you’re using it.   So when I think about what’s going to lead \nto the intelligence explosion, I think the   increasing population or increasing labour \nthat can have ideas as pretty crucial to it. In contrast, a lot of the discussion \ntoday talks about the superhuman coder,   for example: where you get an AI system \nwhere you can say, “Please implement XYZ   experiment for me,” and it just goes ahead \nand implements that experiment incredibly   well and much faster than humans could do \nit. The argument is once you can do that,   the rate of AI progress increases a bunch, and \nyou start getting to the intelligence explosion   quite quickly. At least I think that’s the \nargument. It’s always a little bit hard to   interpret the wide community view, which has a \nlot of people with slightly different opinions.",
+    "speaker": "Unknown",
+    "claim": "The increasing population and labor that can generate ideas are crucial for leading to an intelligence explosion, which may accelerate AI progress.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The increasing population and labor that can generate ideas are crucial for leading to an intelligence explosion, which may accelerate AI progress.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI progress",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 8977.3,
+    "end": 9052.6,
+    "text": "There’s implementation complexity, \nor organisational complexity. If your   solution involves doing something at the \nscaffold level and also doing something   that involves reading the internals of the \nAI system and connecting these up together,   that just spans so many different teams, and so \nmany different abstraction layers in the stack,   that it’s going to be much harder to implement \nthan something that, for example, just happens   at inference time and involves running a \nmonitor and then alerting some teams about it. Rob Wiblin: Are there any other examples of things \nthat are easy to implement other than that one? Rohin Shah: Yeah, I think there are several. \nFor example, if their datasets can be a   useful contribution, it’s pretty easy to \ntry to add a dataset to post-training.   Sometimes you try to add it to post-training and \nthen for some reason it makes the model worse   on some totally unrelated thing, and then \nyou can’t use that dataset, which is a bit   unfortunate. So ideally, when you’re building \ndatasets, you would like to evaluate whether   it could have some sort of negative effect on \nsomething else. But this is a bit hard to do.",
+    "speaker": "Rohin Shah",
+    "claim": "Implementing AI solutions can be complex due to the need for coordination across different teams and abstraction layers.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "Implementation complexity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Implementing AI solutions can be complex due to the need for coordination across different teams and abstraction layers.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Implementation complexity",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 9052.6,
+    "end": 9118.7,
+    "text": "But if someone came to me with a dataset and said, \n“Training on this dataset improves this metric by   a decent amount, and doesn’t seem to have any bad \neffects on these three obvious other metrics that   it might have had bad effects on,” I would \nfind that fairly compelling and think, yeah,   maybe we should do it, assuming \nit was solving a real problem. So I think datasets, metrics, evals, monitors: \nthese are usually fairly relatively easy things   to do. I think all of those are fairly easy to \nimplement if we think it’s worth implementing. Rob Wiblin: Any other advice? Rohin Shah: One is just like don’t do the \nacademic thing of using a fancy method to   solve your problem, and instead solve it \nwith the absolute simplest method you can. Rob Wiblin: I guess you’re saying cutting-edge \nstuff might be useful in some other way,   that you advance the science somehow \nand could be valuable down the line,   but if you want people to be using it on \nany actual commercial models anytime soon,   then it has to be as simple as possible \nand well established as possible.",
+    "speaker": "Rohin Shah",
+    "claim": "Datasets and simple methods are more effective for solving real problems in AI than complex, cutting-edge methods.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI methods",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Datasets and simple methods are more effective for solving real problems in AI than complex, cutting-edge methods.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI methods",
+    "reviewed": true,
+    "round": 2
   }
 ]

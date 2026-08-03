@@ -241,5 +241,188 @@
     "topic_silver": "off-topic",
     "reviewed": true,
     "text_tr": "Ve bu onun için çok zor. Tüm bu toplantılardan önce bir brifing var. Birisi ona bir brifing kitabı veriyor ve diyor ki, \"Tamam, bu konuşacağımız şey. İşte politika seçenekleri. Hangisini istiyorsun?\" Karar vermesi gerekiyor. Bazen diğer insanlarla danıştığını biliyorum. Ama günlük olarak çok sayıda politika alanıyla gerçekten ilgilenmesi gerekiyor, çünkü aldığı kararlar esasen yasalaşıyor. Düşünmesi bile şaşırtıcı. Birine Çin'in ne kadar büyük olduğunu söyleyebilirsiniz—nüfusu, ekonominin büyüklüğü vb.—ama ziyaret etmek, ne kadar büyük olduğunu somut bir şekilde hissettiriyor. Her biri normal bir ulus-devlet kadar insan barındıran eyaletler var, yüz milyonlarca insanın yaşadığı eyaletler, 40 milyon ve benzeri. Bir kişi, bir toplantının sonunda, Kuzey ve Güney Amerika'nın nüfusunu belirleyen bir şey söyleyebilir. Toplantıların sonunda, konuşmalar sırasında, bu farklı politika alanlarını gerçekten iyi anladığını gösteren şeyler mi söylüyor?"
+  },
+  {
+    "start": 1655.8,
+    "end": 1719.4,
+    "text": "Should we be looking for a leading\ngroup on AGI in particular? Should we be trying to\njust read more speeches? What should we be paying attention to? Thus far, it seems like it’s under\nthe cybersecurity leading group. So Ding Xuexiang would be in charge of it. There won’t be a new group? I don’t think so. Because for the Party, it’s the security\naspect of it that’s the most important. There’s one aspect where it’d be great\nto automate all industrial production. China is already doing\na good job with that. I don’t think they need additional\ngoverning infrastructure to allow them to do that. But when it comes to applying AGI\nor AI to governance, even to service sectors—generating video content for\npeople, doing travel agency stuff—the Party is very paranoid that some hostile\nactor, outside of China—certainly they believe that very strongly—or inside\nChina, is going to do something and the AGI is going to take off, and it’s going\nto undermine the Party’s authority. So",
+    "speaker": "Victor Shih",
+    "claim": "The Chinese government is concerned that AGI could undermine its authority and is cautious about its application in governance.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "The Chinese government is concerned that AGI could undermine its authority and is cautious about its application in governance.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1915.9,
+    "end": 1979.6,
+    "text": "I think they’re just using the\nexisting command structure. There is potentially a\nforeign aspect to this. You build up all this cloud computing\ncapacity in the Gulf States. Who’s going to be the customer? Who’s willing to pay billions\nof dollars to use it? China, right? So then the foreign policy apparatus will\nhave to coordinate that, and so forth. Belt and Road v2. Exactly. Does it have any end implication for\nthe progression of AI—who actually ends up controlling these leading\ngroups, whose purview it ends up under? Or is that basically a detail? In terms of what happens with\nAI in China, does it actually have that big an implication? I think it does matter. You have some decision-makers who have\nshown themselves to be not very good—even politically not very good—but nonetheless,\nfor some reason, they’re trusted. Maybe precisely because\nthey’re not very good.",
+    "speaker": "Victor Shih",
+    "claim": "The control and decision-making in AI development, particularly in China, will significantly impact its progression.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI control and geopolitics",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "The control and decision-making in AI development, particularly in China, will significantly impact its progression.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI control and geopolitics",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2869.9,
+    "end": 2937.8,
+    "text": "Woah, that’s on top of the 60% that’s\nowed by the central government? Yeah, so total government\ndebt is pushing 200%. And the high-level way to understand what\nthis debt was for… The debt in Western countries and other OECD countries is\noften because you owe money to pensioners. In this case, it was just that they built bridges…. Yeah, they built all the high-speed\nrail, all the beautiful infrastructure that you do see in China. More recently, it’s been\nindustrial policies. For example, if there’s a new science\npark for AI, the land they acquire, the infrastructure that’s built,\nit’s all built with borrowed money. Then there are these startups. The startups are partially financed\nby some of these central-level investment funds that you read\nabout in industrial policies. But actually, the local governments\nalso have their own seeder funds, which use borrowed money to finance\nsome of these venture deals. For startups, is the fact that they can\nget cheap credit from banks more relevant?",
+    "speaker": "Victor Shih",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "AI funding",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI funding",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3434.8,
+    "end": 3496.6,
+    "text": "A lot of migrant workers\nare barely getting by. Homelessness is increasingly a problem\nin China, especially with the labor market being so fickle these days. Elderly care is pretty abysmal, very\nbasic level for a lot of people. It’s not the case for everyone. Some people get very good elderly\ncare if they worked for the government or an SOE previously. So you see a lot of problems the\nChinese government has overlooked. This is why I say that they have\na goal of making all Chinese people happy and fulfilled. One part of that is the “fulfilled”\npart, the technology part. But the part about truly helping people\nlive a good life, they’re not making as much progress as they should. Just to close the loop on this,\nsometimes we get impressed when we see things like Made in China 2025. The NDRC and MIIT have these very specific\ntargets, like “LIDAR needs to get to this level,” or",
+    "speaker": "Victor Shih",
+    "claim": "The Chinese government is not making sufficient progress in truly helping people live a good life despite technological advancements.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "China's social issues",
+    "confidence": "medium",
+    "claim_labels": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": true,
+    "claim_silver": "The Chinese government is not making sufficient progress in truly helping people live a good life despite technological advancements.",
+    "claim_labels_silver": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "China's social issues",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4111.8,
+    "end": 4174.7,
+    "text": "It already has more than\nenough for national defense. It has some of the best jet\nfighters in the world, some of the best missile systems. No one is going to invade\nChina or come close to it. So they actually don’t need it. Now, on the tech race I’m\nsomewhat sympathetic to China. Because now there are US policies\npreventing Chinese companies from buying all the chips for\nAI, they want their own capacity. They’re spending a lot of money on it. So that part I’m somewhat sympathetic to. But other aspects of industrial\npolicy—for some of the battery stuff, for solar power, etc.—they could\ncertainly reduce a lot of subsidies. They could increase taxes, actually,\non many export-oriented firms. That’s one reason for the large\ntrade surplus in China and the trade imbalance with the US. They could get more revenue that way\nto finance domestic demand and pay down local government debt over time.",
+    "speaker": "Victor Shih",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5043.7,
+    "end": 5107.9,
+    "text": "That’s probably by design. Xi doesn’t want people in the Politburo\nto trust each other and be friends with each other too much, because they\nmight get together and usurp his power. So given that there isn't this social\ncapital, the kind we saw in 1976, I think this transition is going\nto be more ruthless, more brutal, and potentially more disruptive. What are the important factions\nin Chinese politics today? What’s the equivalent of liberal or\nconservative in American politics? Historically, there were things\nlike the Shanghai clique. Do those still exist? If they do, what do they stand for? They’re all beholden to Xi\nJinping in one way or another. But do they have different ideas\nabout what should happen with China, or what should happen in the world? Generally speaking, you have some\npeople who are more pro-market. These tend to be people with\nmore governing experience along the coastal provinces, like\nZhejiang Province or Shanghai. Then you have the statists,\npeople whose careers were mostly in state-owned enterprises.",
+    "speaker": "Victor Shih",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Victor Shih",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "round": 2
   }
 ]

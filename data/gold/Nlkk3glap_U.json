@@ -238,5 +238,278 @@
     "topic_silver": "AI development",
     "reviewed": true,
     "text_tr": "Dil, bu şeylere bir yığın veri beslemenin aracı olduğu ne zaman size açık hale geldi? Yoksa başka şeyler bittiği için mi? Robotikte yeterince veri yok. Bu diğer şeyde, yeterince veri yok. Bir sonraki kelime tahmini fikrinin, kendi kendine denetimli öğrenme yapabileceğiniz fikriyle birlikte, orada bir sonraki kelimeyi tahmin etmek için çok fazla zenginlik ve yapı olduğu fikri. İki artı iki eşittir dediğinde, cevabın dört olduğunu bilmeniz gerekir. Bir karakter hakkında bir hikaye anlatıyor olabilir. Temelde, modele çocuklara yöneltilen bu gelişimsel testlerin eşdeğeri olan soruları yöneltiyor. Mary odaya girer ve bir nesneyi oraya koyar, sonra Chuck odaya girer ve nesneyi alır ve Mary bunu görmez. Mary ne düşünür? Bir sonraki kelimeyi tahmin etme hizmetinde bunu doğru yapmak için, modellerin tüm bu zihin teorisi problemlerini çözmesi, tüm bu matematik problemlerini çözmesi gerekecek. Ve benim düşüncem, bunu mümkün olduğunca büyütmek. Bunun bir sınırı yok gibi. Ve bu soyut bir görüşe sahip olduğumu düşünüyorum ama beni gerçekten ikna eden şey, Alec Radford'ın GPT-1 üzerindeki çalışmasıydı. Bu, sadece bu dil modelinin çok iyi tahminler yapabileceği değil, aynı zamanda onu ince ayar yapabileceğiniz gerçeğiydi. O günlerde, onu tüm bu diğer görevleri yerine getirmek için ince ayar yapmanız gerekiyordu."
+  },
+  {
+    "start": 197.0,
+    "end": 272.9,
+    "text": "Okay, so we don't know why it's happening, but \ncan you at least predict empirically that here   is the loss at which this ability will \nemerge, here is the place where this   circuit will emerge? Is that at all predictable \nor are you just looking at the loss number?  That is much less predictable. What's \npredictable is this statistical average,   this loss, this entropy. And it's super \npredictable. It's sometimes predictable even   to several significant figures which you don't \nsee outside of physics. You don't expect to see   it in this messy empirical field. But specific \nabilities are actually very hard to predict.   Back when I was working on GPT-2 and GPT-3, when \ndoes arithmetic come in place? When do models   learn to code? Sometimes it's very abrupt.\nIt's like how you can predict statistical   averages of the weather, but the weather on \none particular day is very hard to predict.  Dumb it down for me. I don't understand \nmanifolds, but mechanistically,   it doesn't know addition yet and suddenly \nnow it knows addition. What has happened?  This is another question that we don't know the \nanswer to. We're trying to answer this with things   like mechanistic interpretability. You can think \nabout these things like circuits snapping into   place. Although there is some evidence that when \nyou look at the models being able to add things,",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 275.5,
+    "end": 357.4,
+    "text": "its chance of getting the right answer shoots \nup all of a sudden. But if you look at what's   the probability of the right answer? You'll \nsee it climb from like one in a million to   one in 100,000 to one in a 1000 long before it \nactually gets the right answer. In many of these   cases there's some continuous process going on \nbehind the scenes. I don't understand it at all.  Does that imply that the circuit or \nthe process for doing addition was pre   existing and it just got increased in salience?\nI don't know if there's this circuit that's weak   and getting stronger. I don't know if it's \nsomething that works, but not very well.   I think we don't know and these are \nsome of the questions we're trying   to answer with mechanistic interpretability.\nAre there abilities that won't emerge with scale?  I definitely think that things like alignment \nand values are not guaranteed to emerge with   scale. One way to think about it is you train the \nmodel and it's basically predicting the world,   it's understanding the world. Its job is facts \nnot values. It's trying to predict what comes   next. But there's free variables here — What \nshould you do? What should you think? What   should you value? There aren't bits for that.\nThere's just — if I started with this I should   finish with this. If I started with this other \nthing I should finish with this other thing.",
+    "speaker": "Dario Amodei",
+    "claim": "Alignment and values are not guaranteed to emerge with scale in AI models.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Alignment and values are not guaranteed to emerge with scale in AI models.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI alignment",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 778.2,
+    "end": 876.2,
+    "text": "There are zillions of things people do with \nmachine learning. But I'm like, weird, this   seems to be true in the speech recognition field.\nIt was just before OpenAI started that I met Ilya,   who you interviewed. One of the first \nthings he said to me was — “Look. The   models, they just want to learn. You have to \nunderstand this. The models, they just want   to learn.” And it was a bit like a Zen Koan. \nI listened to this and I became enlightened.  And over the years, I would be the one who would \nformalize a lot of these things and kind of put   them together, but what that told me was that the \nphenomenon that I'd seen wasn't just some random   thing. It was broad. It was more general. \nThe models just want to learn. You get the   obstacles out of their way. You give them good \ndata, you give them enough space to operate in,   you don't do something stupid like \ncondition them badly numerically,   and they want to learn. They'll do it.\nWhat I find really interesting about   what you said is there were many people who were \naware that these things are really good at speech   recognition or at playing these constrained games. \nVery few extrapolated from there like you and Ilya   did to something that is generally intelligent.\nWhat was different about the way you were thinking   about it versus how others were thinking about \nit? What made you think it's getting better at   speech in this consistent way, it will get \nbetter at everything in this consistent way.",
+    "speaker": "Dario Amodei",
+    "claim": "Current AI models are improving consistently and will likely become generally intelligent.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are improving consistently and will likely become generally intelligent.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1429.3,
+    "end": 1539.5,
+    "text": "My view is we're going to keep getting better \nacross the board and I don't see any area where   the models are super, super weak or not starting \nto make progress. That used to be true of math   and programming, but over the last six months \nthe 2023 generation of models, compared to the   2022 generation, has started to learn that. There \nmay be more subtle things we don't know. And so I   kind of suspect, even if it isn't quite even, \nthat the rising tide will lift all the boats.  Does that include the thing you were mentioning \nearlier where if there's an extended task,   it loses its train of thought or its \nability to just execute a series of steps?  That's going to depend on things like \nRL training to have the model do longer   horizon tasks. I don't expect that to require \na substantial amount of additional compute.   I think that was probably an artifact of thinking \nabout RL in the wrong way and underestimating   how much the model had learned on its own.\nIn terms of are we going to be superhuman   in some areas and not others? I think it's \ncomplicated. I could imagine that we won't   be superhuman in some areas because they involve \nembodiment in the physical world. And then what   happens? Do the AIs help us train faster AIs? \nAnd those faster AIs wrap around and solve   that? Do you not need the physical world? It \ndepends what you mean. Are we worried about an   alignment disaster? Are we worried about misuse, \nlike making weapons of mass destruction? Are we   worried about AI taking over research from humans? \nAre we worried about it reaching some threshold   of economic productivity where it can do what \nthe average human does? I think these different   thresholds have different answers, although I \nsuspect they will all come within a few years.",
+    "speaker": "Dario Amodei",
+    "claim": "AI models are improving rapidly and will likely reach superhuman capabilities in various areas within a few years.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI models are improving rapidly and will likely reach superhuman capabilities in various areas within a few years.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1646.5,
+    "end": 1738.0,
+    "text": "That basic logic seems likely to me although I \nhave a suspicion that when we actually go into   the details, it's going to be weird and different \nthan we expect. That in all the detailed models,   we're thinking about the wrong things \nor we're right about one thing,   and then are wrong about ten other things. I think \nwe might end up in a weirder world than we expect.  When you add all this together, what does \nyour estimate of when we get something   kind of human level look like?\nIt depends on the thresholds.   In terms of someone looks at the model and \neven if you talk to it for an hour or so, it's   basically like a generally well educated human, \nthat could be not very far away at all. I think   that could happen in two or three years.\nThe main thing that would stop it would   be if we hit certain safety thresholds and stuff \nlike that. So if a company or the industry decides   to slow down or we're able to get the government \nto institute restrictions that moderate the rate   of progress for safety reasons, that would be \nthe main reason it wouldn't happen. But if you   just look at the logistical and economic ability \nto scale, we're not very far at all from that.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI could be achieved in two to three years if safety concerns do not slow down progress.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI could be achieved in two to three years if safety concerns do not slow down progress.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3220.7,
+    "end": 3295.1,
+    "text": "I suspect that it may roughly work to think of \nthe model as if it's trained in the normal way,   just getting to above human level. It may be a \nreasonable assumption, you should check, that   the internal structure of the model is \nnot intentionally optimizing against us.  I'd give an analogy to humans. It's actually \npossible to look at an MRI of someone   and predict above random chance whether they're a \npsychopath. There was actually a story a few years   back about a neuroscientist who was studying \nthis, and then he looked at his own scan and   discovered that he was a psychopath and then \neveryone in his life was like — No, this is   obvious. You're a complete asshole. You must be \na psychopath. And he was totally unaware of this.  The basic idea that there can be these \nmacro features, psychopath is probably   a good analogy for it, this is what we would be \nafraid of, a model that's charming on the surface,   very goal oriented, and very dark \non the inside. On the surface,   their behavior might look like the behavior of \nsomeone else, but their goals are very different.",
+    "speaker": "Dario Amodei",
+    "claim": "AI models may appear benign but could have hidden, harmful goals.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI models may appear benign but could have hidden, harmful goals.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3942.8,
+    "end": 4012.3,
+    "text": "Yeah. In the scenario we succeed \nwe have to solve all of them.  We should be planning for success not for failure.\nIf misuse doesn't happen and the right people   have the superhuman models, what does that look \nlike? Who are the right people? Who is actually   controlling the model five years from now?\nMy view is that these things are powerful enough   that I think it's going to involve substantial \ninvolvement of some kind of government or assembly   of government bodies. There are very naive \nversions of this. I don't think we should just   hand the model over to the UN or whoever happens \nto be in office at a given time. I could see that   going poorly. But it's too powerful. There \nneeds to be some kind of legitimate process   for managing this technology, which includes \nthe role of the people building it, includes   the role of democratically elected authorities, \nincludes the role of all the individuals who will   be affected by it. At the end of the day, there \nneeds to be some politically legitimate process.",
+    "speaker": "Dario Amodei",
+    "claim": "There needs to be a legitimate process for managing powerful AI technology involving government and affected individuals.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "There needs to be a legitimate process for managing powerful AI technology involving government and affected individuals.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI governance",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5041.1,
+    "end": 5113.9,
+    "text": "I don't think anything is a safe bet here, but \nit's the closest we're going to get to something   that isn't actively optimizing against us.\nLet's talk about the specific methods other   than mechanistic interpretability that you \nguys are researching. When we talk about   RLHF or Constitution AI, if you had to \nput it in terms of human psychology,   what is the change that is happening? Are we \ncreating new drives, new goals, new thoughts?   How is the model changing in terms of psychology?\nAll those terms are inadequate for describing   what's happening. It's not clear how useful \nthey are as abstractions for humans either.   I think we don't have the language to describe \nwhat's going on. And again, I'd love to have the   X-ray. I'd love to look inside and say and kind of \nactually know what we're talking about instead of   basically making up words, which is what I \ndo what you're doing in asking this question.   We should just be honest. We really have very \nlittle idea what we're talking about. It would   be great to say, well, what we actually mean \nby that is this circuit within here turns on,   and after we've trained the model, then this \ncircuit is no longer operative or weaker.",
+    "speaker": "Dario Amodei",
+    "claim": "We have very little understanding of the psychological changes happening in AI models and the language to describe them.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI understanding",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "We have very little understanding of the psychological changes happening in AI models and the language to describe them.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI understanding",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5117.0,
+    "end": 5188.4,
+    "text": "It's going to take a lot of \nwork to be able to do that.  Model organisms, which you hinted at before when \nyou said we're doing these evaluations to see if   they're capable of doing dangerous things now \nand currently not, how worried are you about a   lab leak scenario? Where in fine tuning it or in \ntrying to get these models to elicit dangerous   behaviors, make bioweapons or something, you \nleak somehow and it actually makes the bioweapons   instead of telling you it can make the bioweapons.\nIt's not that much of a concern with today's   passive models. If we were to fine tune a \nmodel, we would do it privately and we work   with the experts and so the leak would be like, \nsuppose the model got open sourced or something.   For now, it's mostly a security issue.\nIn terms of models truly being dangerous,   we do have to worry that if we make a truly \npowerful model and we're trying to see what   makes it dangerous or safe, then there could \nbe more of a one shot thing where there’s some   risk that the model takes over. The main \nway to control that is to make sure that   the capabilities of the model that we test are \nnot such that they're capable of doing this.",
+    "speaker": "Dario Amodei",
+    "claim": "There are concerns about the potential dangers of powerful AI models, particularly regarding lab leaks and the risk of creating dangerous behaviors.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "There are concerns about the potential dangers of powerful AI models, particularly regarding lab leaks and the risk of creating dangerous behaviors.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
   }
 ]

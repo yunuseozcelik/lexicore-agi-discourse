@@ -238,5 +238,275 @@
     "topic_silver": "off-topic",
     "reviewed": true,
     "text_tr": "Dizlerimin üstüne düştüm karın içinde ve haykırdım, ey Tanrım, eğer bir Tanrı varsa, bu kar fırtınasında kayboldum ve bana yardım etmezsen öleceğim. Ve şimdi barda, dindar adam ateiste şaşkın bir şekilde bakıyor. O zaman şimdi inanmalısın, diyor. Sonuçta, oradasın, hayattasın. Ateist sadece gözlerini devirdi, hayır adamım. Tüm olan, birkaç Eskimo'nun oradan geçip beni kampa geri götürmesiydi. Bütün bunlar bana her şeyin bir bakış açısı meselesi olduğunu ve bilgelik kazanmanın, dünyaya bakış açımızı değiştirme ve genişletme alçakgönüllüğüne sahip olmamız durumunda mümkün olabileceğini öğretiyor. David Foster Wallace hakkında biraz konuşmama izin verdiğiniz için teşekkür ederim. O, en sevdiğim yazarlardan biri ve güzel bir ruh. Eğer izin verirseniz, kısaca yorum yapmak istediğim bir şey daha var. Kendimi çevrimiçi olarak her taraftan saldırıya uğrayan, bazen seçici yanlış temsil yoluyla yalan söylenen ama çoğunlukla açıkça yalan söylenen tuhaf bir pozisyonda buldum."
+  },
+  {
+    "start": 1910.1,
+    "end": 1981.9,
+    "text": "Evolutionary methods is one, but you could also imagine\nMonte Carlo Tree Search. Basically many types of search algorithms or reasoning algorithms sort of on top of or using the\nfoundation models as a basis. So I actually think there's quite a lot of interesting things\nto be discovered probably with these sort of hybrid\nsystems let's call them. - But not to romanticize evolution. - Yeah.\n- And I'm only human. But you think there's some value in whatever that mechanism is. 'Cause we already talked\nabout natural systems. Do you think there's a lot of low-hanging fruit of us understanding, being able to model, being able to simulate\nevolution and then using that, whatever we understand about that nature, its biomechanism, to then do search better\nand better and better. - Yes, so if you think about, again, breaking down the sort\nof systems we've built to their really fundamental core, you've got like the model of the underlying dynamics of the system. And then if you want to\ndiscover something new, something novel that\nhasn't been seen before, then you need some kind\nof search process on top to take you to a novel\nregion of the search space.",
+    "speaker": "Demis Hassabis",
+    "claim": "There is potential for hybrid systems that combine evolutionary methods and search algorithms to enhance AI capabilities.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "There is potential for hybrid systems that combine evolutionary methods and search algorithms to enhance AI capabilities.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2317.0,
+    "end": 2382.0,
+    "text": "And that's what, you know, today's systems definitely they can't do. So, you know, I often say it's harder to\ncome up with a conjecture, a really good conjecture\nthan it is to solve it. So we may have systems soon that can solve pretty hard conjectures. You know, Math Olympiad\nproblems where you know, AlphaProof last year our\nsystem got, you know, silver medal in that. Really hard problems. Maybe eventually we'll solve a Millennium Prize kind of problem. But could a system come up with\na conjecture worthy of study that someone like Terence\nTao would've gone, you know what, that's\na really deep question about the nature of maths\nor the nature of numbers or the nature of physics. And that is far harder type of creativity. And we don't really know, today's systems clearly can't do that and we're not quite sure\nwhat that mechanism would be. This kind of leap of imagination, like Einstein had when he\ncame up with, you know, special relativity and\nthen general relativity with the knowledge you had at the time. - And for conjecture, you want to come up with a\nthing that's interesting, it's amenable to proof.\n- Yes.",
+    "speaker": "Demis Hassabis",
+    "claim": "Current AI systems cannot generate deep mathematical conjectures, which is a significant challenge for future AI development.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems cannot generate deep mathematical conjectures, which is a significant challenge for future AI development.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2918.3,
+    "end": 2981.2,
+    "text": "You know, it's like how,\nwhat is going on here? You know, and I mean that\nin the deeper sense like, you know, the nature of reality, which has to be the ultimate question. - [Lex] Yeah. - That would answer all of these things. It's sort of crazy if you think about it. We can stare at each other, and every one of these\nliving things all the time, we can inspect it\nmicroscopes and take it apart almost down to the atomic level, and yet we still can't\nanswer that clearly, - Yeah.\n- in a simple way, that question of how do you define living? - [Lex] Yeah. - It's kind of amazing. - Yeah, living, you can kind of talk your\nway out of thinking about, but like consciousness, like we have this very obviously subjective conscious experience, like we're at the center of our own world and it feels like something. And then, how are you not screaming,\n- Yeah. - at the mystery of it all, right? I mean, but really, humans have been contending with the mystery of the world\naround them for a long, long. There's a lot of mysteries. Like what's up with the sun and the rain. - Yeah.\n- Like what's that about? And then like last year\nwe had a lot of rain and this year we don't have rain.",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Nature of reality",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Nature of reality",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3664.3,
+    "end": 3726.4,
+    "text": "And I think there's similar like, look, just make a better\nversion of yourself. That's too unconstrained. But we've done it in, you know, and as you know with AlphaEvolve like things like faster matrix multiplication. So when you hone it down to very specific thing you want, it's very good at\nincrementally improving that. But at the moment, these are more like\nincremental improvements, sort of small iterations. Whereas if, you know, if you wanted a big leap in understanding, you need a much larger advance. - Yeah, but it could also be sort of to push back against\nhard takeoff scenario, it could be just a sequence\nof incremental improvements like matrix multiplication. Like it has to sit there for days thinking how to\nincrementally improve a thing and that it does so recursively. And as you do more and more\nimprovement, it'll slow down. - Right.\n- So there'll be like, like the path to AGI won't be like, it'll be a gradual improvement over time. - Yes. If it was just incremental improvements, that's how it would look.",
+    "speaker": "Demis Hassabis",
+    "claim": "The path to AGI will be a gradual improvement over time rather than a sudden breakthrough.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "The path to AGI will be a gradual improvement over time rather than a sudden breakthrough.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5513.2,
+    "end": 5581.9,
+    "text": "- How does it fit into the bigger thing? - Yes, exactly.\n- Yeah. - Exactly, and then you're constantly this process of converging\nupstream, we call it, you know, ideas from the product surfaces or from the post-training. And even further downstream than that, you kind of upstream that\ninto the core model training for the next run. Right, so then the main model, the main Gemini track becomes\nmore and more general. And eventually, you know, AGI. - One hero run at a time.\n- Yes, exactly. - A few hero runs later. - Yeah. So sometimes when you\nrelease these new versions or every version really, are benchmarks productive\nor counterproductive for showing the performance of a model? - You need them, but it's important that you\ndon't over fit to them, right? So there shouldn't be the end\nor the be-all and end-all. So there's LM Arena or it used to be called LMSYS, that's one of them that turned\nout sort of organically to be one of the main ways people\nlike to test these systems, at least the chatbots. Obviously there's loads\nof academic benchmarks from that test, mathematics and coding ability, general language ability,\nscience ability, and so on.",
+    "speaker": "Demis Hassabis",
+    "claim": "The development of AGI is a gradual process that involves iterative improvements and benchmarks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AGI is a gradual process that involves iterative improvements and benchmarks.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6044.5,
+    "end": 6106.6,
+    "text": "So, you know, they can help influence the way that goes and steward that technology\nsafely into the world. And, you know, Meta right\nnow are not at the frontier. Maybe they'll manage to get back on there. And you know, it's probably rational what they're doing from their perspective because they're behind and\nthey need to do something. But I think there's more\nimportant things than just money. Of course one has to\npay, you know, people, their market rates and all of these things and that continues to go up. But, and I was expecting this, because more and more\npeople are finally realizing leaders of companies, what I've always known\nfor 30 plus years now, which is that AGI is the\nmost important technology probably that's ever gonna be invented. So in some sense it's\nrational to be doing that. But I also think there's\na much bigger question. I mean, people in AI these\ndays are very well paid. You know, I remember when we\nwere starting out back in 2010, you know, I didn't even pay\nmyself a couple of years because it wasn't enough money, we couldn't raise any money. And these days interns\nare being paid, you know, the amount that we raised as\nour first entire seed round. So it's pretty funny.",
+    "speaker": "Demis Hassabis",
+    "claim": "AGI is the most important technology ever invented, which influences the actions of companies in AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_economics",
+      "open_source",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI importance",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics",
+      "open_source",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "AGI is the most important technology ever invented, which influences the actions of companies in AI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_economics",
+      "open_source",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI importance",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6767.1,
+    "end": 6831.4,
+    "text": "So I think he's right. So I think he would've been, I imagine, fascinated by where we are now. - And I think one of the, maybe you can correct me, but one of the takeaways\nfrom the book is that reason as said in the book, mad dreams of reason, it's not enough for guiding humanity as we build these super\npowerful technology that there's something else. I mean, there's also like\na religious component. Whatever God, whatever religion gives, it pulls us something in the human spirit that raw cold reason doesn't give us. - And I agree with that. I think we need to approach it with whatever you wanna call it, a spiritual dimension\nor humanist dimension, it doesn't have to be to\ndo with religion, right? But this idea of a soul, what makes us human,\nthe spark that we have, perhaps it's to do with consciousness when we finally understand that, I think that has to be at\nthe heart of the endeavor. And technology, I've always seen technology\nas the enabler, right? The tools that enable us to flourish and to understand more about the world.",
+    "speaker": "Demis Hassabis",
+    "claim": "We need to incorporate a spiritual or humanist dimension into our approach to powerful technology, beyond just cold reason.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "We need to incorporate a spiritual or humanist dimension into our approach to powerful technology, beyond just cold reason.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI ethics",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6970.7,
+    "end": 7036.9,
+    "text": "- Do you think there will be something like a Manhattan\nProject where there will be an escalation of the\npower of this technology, and states in their old way of thinking will try to use it as weapons technologies and there will be this kind of escalation? - I hope not. I think that would be\nvery dangerous to do. And I think also, you know, not the right\nuse of the technology. I hope we'll end up with something more collaborative if needed. Like more like a CERN project. - Yeah.\n- You know, where, it's research focused and the best minds in\nthe world come together to carefully complete the final steps and make sure it's responsibly done, before, you know, like\ndeploying it to the world. We'll see. I mean it's difficult with the current\ngeopolitical climate I think to see cooperation, but things can change. And I think at least on\nthe scientific level, it's important for the\nresearchers to keep in touch and keep close to each other on at least on those kinds of topics.",
+    "speaker": "Demis Hassabis",
+    "claim": "There is a risk that states may misuse AI technology as weapons, but collaboration and responsible research are preferable.",
+    "stance": "Refute",
+    "claim_labels": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "There is a risk that states may misuse AI technology as weapons, but collaboration and responsible research are preferable.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 8378.3,
+    "end": 8444.0,
+    "text": "I don't know how else to put it. This all breaks my heart frankly. But I've come to understand that it's the way of the internet and the cost of the path I've chosen. There's been days when it's\nbeen rough on me mentally. It's not fun being lied about, especially when it's about\nthings that are usually for a long time have been a source of happiness and joy for me. But again, that's life. I'll continue exploring the\nworld of people and ideas with empathy and rigor, wearing my heart on my\nsleeve as much as I can. For me, that's the only way to live. Anyway, a common attack on me is about my time at MIT and Drexel, two great universities I love and have tremendous respect for. Since a bunch of lies\nhave accumulated online about me on these topics to a sad and at times hilarious degree, I thought I would once more\nstate the obvious facts about my bio for the small\nnumber of you who may care. TL;DR, two things.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "round": 2
   }
 ]

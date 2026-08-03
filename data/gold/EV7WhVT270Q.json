@@ -268,5 +268,269 @@
     "topic_silver": "Compute requirements",
     "reviewed": true,
     "text_tr": "formülasyonu, bu nedenle hepsi bir araya gelir. Ama özetlemek gerekirse, orta eğitim, modele öğrenmesi için ihtiyaç duyduğu becerileri vermektir. Doğrulanabilir ödüllerle RL, modele birçok kez deneme yapma imkanı verir, bu nedenle zor problemler üzerinde deneme-yanılma öğrenimi için çok fazla hesaplama yapar. Ve sonra RLHF, modeli bitirmek, kullanımı kolay hale getirmek ve modeli yuvarlamak gibidir. - RLVR için gereken hesaplama miktarı hakkında yorum yapabilir misin? - Sadece artmaya devam etti. Ilya Sutskever, ön eğitim ve son eğitim için benzer bir hesaplama miktarı kullandıklarını söyleyerek ünlü oldu. Ölçeklenme tartışmasına dönersek, ölçeklenme için çok farklı donanımlar içeriyorlar. Ön eğitim, çok hesaplama gerektiren bir süreçtir; bu, bir seferde ne kadar matris çarpımı yapabileceğinizle ilgili olan FLOPs tartışması gibidir. Ve RL ile yanıtlar ürettiğinizde, modeli gerçek dünya ortamlarında deniyorsunuz, bu nedenle uzun diziler ürettiğiniz için bellek açısından çok daha fazla gereksinim duyuyor. Dikkat mekanizmalarının bu davranışı, daha uzun dizilere geçtikçe bellek artışında kare bir artışa neden olur. Bu nedenle hesaplama çok farklı hale geliyor."
+  },
+  {
+    "start": 1131.0,
+    "end": 1197.2,
+    "text": "- This is exactly it: you use it until it\nbreaks, until you have a problem, and then you change the LLM. And I think it's the same as how we use anything,\nlike our favorite text editor, operating systems, or the browser.\nI mean, there are many options: Safari, Firefox, Chrome. They're\nrelatively similar, but then there are edge cases, extensions\nyou want, and then you switch. But I don't think anyone types\nthe same thing into different browsers and compares them. You\nonly do that when something breaks. So that's a good point. You use it until\nit breaks, then you explore other options. - On the long context thing, I was\nalso a Gemini user, but the GPT-5.2 release blog had crazy long context\nscores. People were like, \"Did they just figure out some algorithmic\nchange?\" It went from 30% to 70% in this minor model\nupdate. It's very hard to keep track of all of these\nthings, but now I look more favorably at GPT-5.2's long\ncontext. So it's just like, \"How do I actually get to testing\nthis?\" It's a never-ending battle.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2104.4,
+    "end": 2188.7,
+    "text": "- A lot of American startups\nmake money by hosting- ...these models from China and\nselling them. It's called selling tokens, which means somebody will call\nthe model to do some piece of work. I think the other reason is for US\ncompanies like OpenAI. They are so GPU deprived. They're at the limits of the\nGPUs. Whenever they make a release, they're always talking about\nlike, \"Our GPUs are hurting.\" And I think during one of these\ngpt-oss-120b release sessions, Sam Altman said, \"Oh, we're releasing this because\nwe can use your GPUs. We don't have to use our GPUs, and OpenAI can\nstill get distribution out of this,\" which is another very real thing,\nbecause it doesn't cost them anything. - And for the user, I think also,\nthere are users who just use the model locally how they would use ChatGPT.\nBut also for companies I think it's a huge unlock to have these models because you can\ncustomize them, you can train them, you can add post-training,\nadd more data. Like, specialize them into, let's say,\nlaw, medical models, whatever you have. And the appeal, you mentioned\nLlama, the appeal of the open-weight models from China is that the\nopen-weight models' licenses are even friendlier. I think they are\njust unrestricted open source licenses where if we use something like Llama\nor Gemma, there are some strings attached. I think it's like an upper limit in\nterms of how many users you have. And then if you exceed, I don't know, so and so many\nmillion users, you have to report your financial situation to, let's\nsay, Meta or something like that.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI economics",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2772.8,
+    "end": 2852.8,
+    "text": "You can go from 10k to 13k\nby turning on FP8 training, which means you're using less\nmemory per parameter in the model. By saving less information,\nyou do less communication and train faster. So all of these\nsystem things underpin way faster experimentation\non data and algorithms. It's a loop that keeps going where it's hard to\ndescribe when you look at architectures and they're exactly the same, but the code base used\nto train these models is vastly different- -and you could probably... the GPUs\nare different but you probably train gpt-oss-20b way faster in wall-clock\ntime than GPT-2 was trained at the time. - Yeah. Like you said, they had, for\nexample, in Mixture of Experts this FP4 optimization where you\nget more throughput. But I do think, for speed this is true, but it doesn't give the model new capabilities.\nIt's just: how much can we make the computation coarser\nwithout suffering in terms of model performance degradation?\nBut I do think- I mean, there are alternatives popping up to\nthe transformer. Text diffusion models, a completely different paradigm. And\nthere is also... I mean, although text diffusion models might use\ntransformer architectures, it's not an autoregressive transformer.\nAnd also Mamba models.",
+    "speaker": "Nathan Lambert",
+    "claim": "Current optimizations in AI training speed do not necessarily lead to new capabilities in models.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI training optimizations",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "Current optimizations in AI training speed do not necessarily lead to new capabilities in models.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI training optimizations",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3244.7,
+    "end": 3311.3,
+    "text": "- So what you're speaking to is the\nnuance of the y-axis of the scaling laws—the way it's experienced\nversus on a benchmark, the actual intelligence might be\ndifferent. But still, your intuition about pre-training, if you\nscale the size of compute, will the models get better? Not\nwhether it's financially viable but just from the law aspect of it, do you\nthink the models will get smarter? - Yeah. And I think that there's...\nAnd this sometimes comes off as almost like disillusionment\nfrom people, leadership at AI companies saying this, but they're like,\n\"It's held for 13 orders of magnitude of compute, why would it ever\nend?\" So I think fundamentally it is pretty unlikely to stop, it's just\neventually we're not even gonna be able to test the bigger scales because of all the\nproblems that come with more compute. I think that there's a\nlot of talk on how 2026 is a year when very large\nBlackwell compute clusters, like gigawatt-scale facilities at\nhyperscalers, are coming online. These were all contracts for\npower and data centers that were signed and sought\nout in 2022 and 2023.",
+    "speaker": "Nathan Lambert",
+    "claim": "Scaling compute will continue to improve AI models, and significant compute facilities are expected to come online by 2026.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "Scaling laws",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "Scaling compute will continue to improve AI models, and significant compute facilities are expected to come online by 2026.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Scaling laws",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4972.3,
+    "end": 5068.4,
+    "text": "- When I write, I think a lot\nof what I'm trying to do is take what you think as a\nresearcher, which is very raw. A researcher is trying to encapsulate\nan idea at the frontier of their understanding and they're trying\nto put what is a feeling into words. I try to do this\nin my writing, which makes it come across as raw but\nalso high-information in a way that some people will get it and some won't.\nAnd that's the nature of research. And language models don't do\nthis well. They're all trained with Reinforcement Learning from Human\nFeedback, which takes feedback from many people and averages how the\nmodel behaves from this. And I think it's going to\nbe hard for a model to be very incisive when there's\nthat sort of filter. This is a wonderful fundamental problem\nfor researchers in RLHF. This provides so much utility in making\nthe models better, but also the problem formulation is\nkind of... there's this knot in it that you can't\nget past. These language models don't have this prior in their\ndeep expression they're trying to get at. I don't think it's impossible.\nThere are stories of models that really shock people. Like, I\nthink of... I would love to have tried Bing Sydney. Did that\nhave more voice? Because it would so often go off the\nrails, which is historically obviously a scary way—like telling a\nreporter to leave his wife—is a crazy model to potentially put in general\nadoption. But that's kind of like a trade-off; is this RLHF process\nin some ways adding limitations?",
+    "speaker": "Nathan Lambert",
+    "claim": "Language models struggle to encapsulate complex ideas due to the averaging effect of Reinforcement Learning from Human Feedback.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "Language models struggle to encapsulate complex ideas due to the averaging effect of Reinforcement Learning from Human Feedback.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6982.1,
+    "end": 7091.2,
+    "text": "These things don't always hold\nin the future. We came to this discussion by talking about scaling.\nThe simple way to summarize what you're saying is you don't want to do too much\nRLHF, where the signal doesn't scale. People have worked on RLHF for language\nmodels for years, especially with intense interest after ChatGPT.\nAnd the first release of a reasoning model trained with\nRLVR, OpenAI's o1, had a scaling plot where if you increase training\ncompute logarithmically, you get a linear increase in evaluations. This has been\nreproduced multiple times. DeepSeek had a plot like this. But there's no\nscaling law for RLHF where if you log-increase the compute, you get\nperformance. In fact, the seminal scaling paper for RLHF is scaling laws for\nreward model over-optimization. So that's a big line to\ndraw with RLVR and the methods we have now. In the future,\nthey will follow this scaling paradigm: where you can let\nthe best runs run for an extra 10x and you get performance,\nbut you can't do this with RLHF. And that is just going to be\nfield-defining in how people approach them. While I'm a shill for\npeople to academically do RLHF, to do the best RLHF you might not need the extra 10 or 100x of\ncompute, but to do the best RLVR you do. I think\nthere's a seminal paper from a Meta internship. It's\ncalled something like \"The Art of Scaling Reinforcement Learning with\nLanguage Models.\" What they describe as a framework is Scale-RL. Their\nincremental experiment was like 10,000 V100 hours,\nwhich is like thousands or tens of thousands of dollars per\nexperiment. They do a lot of them, and This cost is not accessible to the average academic, which is a\nhard equilibrium where it's trying to figure out how\nto learn from each community.",
+    "speaker": "Nathan Lambert",
+    "claim": "Scaling laws for reinforcement learning from human feedback (RLHF) do not yield performance improvements with increased compute, unlike reinforcement learning with language models (RLVR).",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Scaling laws",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "Scaling laws for reinforcement learning from human feedback (RLHF) do not yield performance improvements with increased compute, unlike reinforcement learning with language models (RLVR).",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Scaling laws",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 9928.0,
+    "end": 10028.8,
+    "text": "- Looking at the extremes, I think there's,\nagain, no free lunch. So, the one extreme to make it cheap: you have, let's\nsay, an RNN that has a single state where you save everything from\nthe previous stuff. It's like a specific fixed-size thing,\nso you never really grow the memory because you are stuffing\neverything into one state, but then the longer the context gets, the\nmore information you forget because you can't compress everything\ninto one state. Then on the other hand, you have the transformers, which\ntry to remember every token, which is great sometimes if you want to look up specific\ninformation, but very expensive because you have the KV cache that grows, the\ndot product that grows. But then, like you said, the Mamba layers—I\nmean, they kind of have the same problem. Like an RNN, you try to compress everything\ninto one state; you're a bit more selective there. But then I think it's like\nthis Goldilocks zone again. With Nemotron 3, they found a good\nratio of how many attention layers do you need for the global\ninformation where everything is accessible compared to having these compressed\nstates. And I think that's how we will scale more—by finding better, let's say, ratios in the\nGoldilocks zone, like between making computing cheap enough\nto run, but then also making it powerful enough to be\nuseful. And one more plug here, the Recursive Language Model\npaper, that is one of the papers that tries to kind of address the\nlong context thing. So what they found is essentially instead of stuffing\neverything into this long context if you break it up into\nmultiple smaller tasks, so you save memory by having multiple\nsmaller cores, you can actually get better accuracy than having the\nLLM try everything all at once.",
+    "speaker": "Nathan Lambert",
+    "claim": "Finding a balance in AI model architecture can lead to better performance and efficiency.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI model architecture",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "Finding a balance in AI model architecture can lead to better performance and efficiency.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI model architecture",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 13986.2,
+    "end": 14078.8,
+    "text": "I think that cultural tide is\nstarting to turn. In July, four or five DeepSeek-caliber\nChinese open-weight models and and zero from the US. That's\nthe moment where I realized, like, \"Oh, I guess I have to spend energy on\nthis because nobody else is gonna do it.\" So it takes a lot of people contributing\ntogether, and I don't say that, the Adam Project isn't the thing that's\nhelping to move the ecosystem, but it's people like me doing this sort\nof thing to get the word out. - Do you like the 2025 America's\nAI Action Plan? That includes open source stuff. The\nWhite House AI Action Plan includes a dedicated section titled \"Encourage\nOpen-Source and Open-Weight AI,\" defining such models and\narguing they have unique value for innovation and startups. - Yeah. I mean, the AI\nAction Plan is a plan, but largely, I think it's maybe the most coherent policy document that has come\nout of the administration, and I hope that it largely succeeds. I know people\nthat have worked on the AI Action Plan and the challenges of taking policy and\nmaking it real. I have no idea how to do this as an AI researcher,\nbut largely a lot of things in that were very real, and there's\na huge build-out of AI in the country. There are a lot of issues that\npeople are hearing about, from water use to whatever, and we should be able to\nbuild things in this country, but also, we need to not ruin places in\nour country in the process of building it, and it's worthwhile\nto spend energy on. I think that's a role the federal\ngovernment plays. They set the agenda.",
+    "speaker": "Nathan Lambert",
+    "claim": "The AI Action Plan is a coherent policy document that could succeed in promoting AI development.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI policy",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "The AI Action Plan is a coherent policy document that could succeed in promoting AI development.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI policy",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 14465.1,
+    "end": 14554.4,
+    "text": "It's not the chip itself,\nalthough they have the money to iterate, build, and\nscale. But then it's really about compatibility. If you're\nat that scale, why would you go with something risky where there are only a few chips\nthey can make per year? You go with the big one. But\nthen I do think with LLMs now, it will be easier to\ndesign something like CUDA. It took 15 years because it was hard,\nbut now that we have LLMs, we can maybe replicate CUDA. - And I wonder if there will be a\nseparation of training and inference compute as we stabilize, and more\ncompute is needed for inference. - That's supposed to be the point of\nthe Groq acquisition. And that's why part of what Vera Rubin is- where they have a new chip with no\nhigh-bandwidth memory, which is one of the- or very little, which is one of\nthe most expensive pieces. It's designed for pre-fill, which\nis the part of inference where you essentially do a lot of matrix\nmultiplications. And then you only need the memory when you're doing this autoregressive\ngeneration, and you have the KV cache swaps. So they have this new GPU\nthat's designed for that specific use case, and then the\ncost of ownership per FLOP or whatever is actually way\nlower. But I think that NVIDIA's fate lies in the diffusion\nof AI still. Their biggest clients are still these hyperscale\ncompanies. Like, Google obviously can make TPUs. Amazon is making Trainium.",
+    "speaker": "Nathan Lambert",
+    "claim": "The development of LLMs will facilitate the design of new computing architectures like CUDA, potentially leading to more efficient AI inference.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI hardware",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Nathan Lambert",
+    "is_claim_silver": true,
+    "claim_silver": "The development of LLMs will facilitate the design of new computing architectures like CUDA, potentially leading to more efficient AI inference.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI hardware",
+    "reviewed": true,
+    "round": 2
   }
 ]

@@ -274,5 +274,272 @@
     "topic_silver": "AGI business models",
     "reviewed": true,
     "text_tr": "Bununla ilgili bir his var, \"Tamam, bir podcast sunucusu bir makale yazdı ve her röportajda bunun hakkında soruluyor.\"\nGerçek şu ki, hepimiz bunu birlikte çözmeye çalışıyoruz.\nBazı açılardan, başkalarının göremediği şeyleri görebiliyorum.\nBu günlerde bu, muhtemelen Anthropic içinde birçok şey görmemle ve birçok karar vermek zorunda kalmamla daha çok ilgili, diğerlerinin sahip olmadığı büyük bir araştırma içgörüm olduğu anlamına gelmiyor.\n2500 kişilik bir şirket yönetiyorum. Somut bir araştırma içgörüsüne sahip olmam benim için oldukça zor, 10 yıl önce veya hatta iki veya üç yıl önce olduğundan çok daha zor.\nTamamen uzaktan çalışan bir iş gücü yerine geçiş yaparken, bir API fiyatlandırma modeli hala en mantıklısı mı? Eğer değilse, AGI'yi fiyatlandırmanın veya sunmanın doğru yolu nedir? Burada, hepsi bir arada denenecek birçok farklı iş modeli olacağını düşünüyorum.\nAslında API'nin"
+  },
+  {
+    "start": 0.6,
+    "end": 94.6,
+    "text": "We talked three years ago. In your view, what has \nbeen the biggest update over the last three years?  What has been the biggest difference \nbetween what it felt like then versus now?  Broadly speaking, the exponential of the \nunderlying technology has gone about as   I expected it to go.\nThere's plus or minus   a year or two here and there.\nI don't know that I would've   predicted the specific direction of code.\nBut when I look at the exponential,   it is roughly what I expected in terms of \nthe march of the models from smart high   school student to smart college student to \nbeginning to do PhD and professional stuff,   and in the case of code reaching beyond that.\nThe frontier is a little bit uneven, but it's   roughly what I expected.\nWhat has been the most surprising   thing is the lack of public recognition of how \nclose we are to the end of the exponential.  To me, it is absolutely wild that you have \npeople — within the bubble and outside the   bubble — talking about the same tired, old \nhot-button political issues, when we are   near the end of the exponential.\nI want to understand what that   exponential looks like right now.\nThe first question I asked you when   we recorded three years ago was, \"what’s \nup with scaling and why does it work?\"  I have a similar question now, \nbut it feels more complicated.",
+    "speaker": "Dario Amodei",
+    "claim": "The progress in AI technology has been as expected, indicating we are nearing the end of the exponential growth phase.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The progress in AI technology has been as expected, indicating we are nearing the end of the exponential growth phase.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1298.0,
+    "end": 1406.2,
+    "text": "In 2024, it was $100 million to $1 billion.\nIn 2025, it was $1 billion to $ 9-10 billion.  You guys should have just bought a billion \ndollars of your own products so you could just…  And the first month of this \nyear, that exponential is...  You would think it would slow down, but we \nadded another few billion to revenue in January.  Obviously that curve can't go on forever.\nThe GDP is only so large.  I would even guess that it bends somewhat this \nyear, but that is a fast curve. That's a really   fast curve. I would bet it stays pretty fast \neven as the scale goes to the entire economy.  So I think we should be thinking about this middle \nworld where things are extremely fast, but not   instant, where they take time because of economic \ndiffusion, because of the need to close the loop.  Because it's fiddly: \"I have to do change \nmanagement within my enterprise… I set this up,   but I have to change the security permissions \non this in order to make it actually work…   I had this old piece of software that \nchecks the model before it's compiled   and released and I have to rewrite it.\nYes, the model can do that, but I have   to tell the model to do that.\nIt has to take time to do that.\"  So I think everything we've seen so far is \ncompatible with the idea that there's one fast   exponential that's the capability of the model.\nThen there's another fast exponential   that's downstream of that, which is the \ndiffusion of the model into the economy.",
+    "speaker": "Dario Amodei",
+    "claim": "The rapid growth of AI capabilities will continue, but the integration into the economy will take time due to various factors.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI growth and integration",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The rapid growth of AI capabilities will continue, but the integration into the economy will take time due to various factors.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "scaling_compute",
+      "hardware_infra",
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI growth and integration",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1643.0,
+    "end": 1790.9,
+    "text": "It will be a compelling product enough maybe to \nget 3-5x, or 10x, a year of growth, even when   you're in the hundreds of billions of dollars, \nwhich is extremely hard to do and has never been   done in history before, but not infinitely fast.\nI buy that it would be a slight slowdown.  Maybe this is not your claim, but \nsometimes people talk about this like,   \"Oh, the capabilities are there, but because of \ndiffusion... otherwise we're basically at AGI\".  I don't believe we're basically at AGI.\nI think if you had the \"country   of geniuses in a data center\"...\nIf we had the \"country of geniuses   in a data center\", we would know it.\nWe would know it if you had the   \"country of geniuses in a data center\".\nEveryone in this room would know it.  Everyone in Washington would know it.\nPeople in rural parts might not know it,   but we would know it. We don't \nhave that now. That is very clear.  Coming back to concrete prediction… Because there \nare so many different things to disambiguate,   it can be easy to talk past each other \nwhen we're talking about capabilities.",
+    "speaker": "Dario Amodei",
+    "claim": "Dario Amodei argues that we are not close to achieving AGI and that claims of being near AGI are overstated.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Dario Amodei argues that we are not close to achieving AGI and that claims of being near AGI are overstated.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2921.7,
+    "end": 2991.1,
+    "text": "We know it's coming, but with the way you buy \nthese data centers, if you're off by a couple   years, that can be ruinous.\nIt is just like how I   wrote in \"Machines of Loving Grace\".\nI said I think we might get this powerful AI,   this \"country of genius in the data center\".\nThat description you gave comes   from \"Machines of Loving Grace\".\nI said we'll get that in 2026, maybe 2027. Again,   that is my hunch. I wouldn't be surprised if \nI'm off by a year or two, but that is my hunch.   Let's say that happens. That's the starting gun. \nHow long does it take to cure all the diseases?  That's one of the ways that drives a huge amount \nof economic value. You cure every disease. There's   a question of how much of that goes to the \npharmaceutical company or the AI company,   but there's an enormous consumer surplus because \n—assuming we can get access for everyone,   which I care about greatly—we cure all of \nthese diseases. How long does it take? You   have to do the biological discovery, \nyou have to manufacture the new drug,   you have to go through the regulatory process.\nWe saw this with vaccines and COVID.  We got the vaccine out to everyone, \nbut it took a year and a half.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI might arrive around 2026 or 2027, which could lead to significant economic benefits, including curing diseases.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI might arrive around 2026 or 2027, which could lead to significant economic benefits, including curing diseases.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3793.5,
+    "end": 3869.0,
+    "text": "I guess you're treating the 50% as a \nsort of given constant, whereas in fact,   if AI progress is fast and you can increase the \nprogress by scaling up more, you should just have   more than 50% and not make profit.\nBut here's what I'll say. You   might want to scale it up more.\nRemember the log returns to scale.  If 70% would get you a very little bit of \na smaller model through a factor of 1.4x...  That extra $20 billion, each dollar there is worth \nmuch less to you because of the log-linear setup.  So you might find that it's better \nto invest that $20 billion in serving   inference or in hiring engineers who are \nkind of better at what they're doing.  So the reason I said 50%... That's not exactly \nour target. It's not exactly going to be 50%.   It’ll probably vary over time. What I'm saying \nis the log-linear return, what it leads to is you   spend of order one fraction of the business. Like \nnot 5%, not 95%. Then you get diminishing returns.",
+    "speaker": "Dario Amodei",
+    "claim": "Investing in AI scaling may lead to diminishing returns, suggesting a need for better allocation of resources.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI scaling",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Investing in AI scaling may lead to diminishing returns, suggesting a need for better allocation of resources.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI scaling",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5504.2,
+    "end": 5583.7,
+    "text": "That means that lots of people will be able \nto build huge populations of misaligned AIs,   or AIs which are just companies \nwhich are trying to increase their   footprint or have weird psyches like \nSydney Bing, but now they're superhuman.  What is a vision for a world in which we \nhave an equilibrium that is compatible   with lots of different AIs, some of \nwhich are misaligned, running around?  I think in \"The Adolescence of Technology\", \nI was skeptical of the balance of power.  But the thing I was specifically skeptical of \nis you have three or four of these companies   all building models that are derived from the \nsame thing, that they would check each other.  Or even that any number of \nthem would check each other.  We might live in an offense-dominant world where \none person or one AI model is smart enough to do   something that causes damage for everything else.\nIn the short run, we have a limited number   of players now.\nSo we can start   within the limited number of players.\nWe need to put in place the safeguards.",
+    "speaker": "Dario Amodei",
+    "claim": "The presence of superhuman AIs could lead to a world where misaligned AIs cause significant risks and damage.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The presence of superhuman AIs could lead to a world where misaligned AIs cause significant risks and damage.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7366.4,
+    "end": 7434.4,
+    "text": "But I guess that nets out to today, as you \nsay, that we will not sell data centers,   or chips, and the ability to make chips to China.\nSo in some sense, you are denying… There would be   some benefits to the Chinese economy, Chinese \npeople, et cetera, because we're doing that.  Then there'd also be benefits to the American \neconomy because it's a positive-sum world.   We could trade. They could have their \ncountry's data centers doing one thing.  We could have ours doing another.\nAlready, you're saying it's not worth that   positive-sum stipend to empower those countries?\nWhat I would say is that we are about to be   in a world where growth and economic \nvalue will come very easily if we're   able to build these powerful AI models.\nWhat will not come easily is distribution   of benefits, distribution of \nwealth, political freedom.  These are the things that are \ngoing to be hard to achieve.  So when I think about policy, I think that the \ntechnology and the market will deliver all the   fundamental benefits, this is my fundamental \nbelief, almost faster than we can take them.",
+    "speaker": "Dario Amodei",
+    "claim": "Building powerful AI models will lead to easy economic growth, but distributing the benefits will be challenging.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Building powerful AI models will lead to easy economic growth, but distributing the benefits will be challenging.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI economics",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 8261.1,
+    "end": 8324.4,
+    "text": "I try as much as possible, but one thing that's \nvery leveraged is making sure Anthropic is a good   place to work, people like working there, everyone \nthinks of themselves as team members, and everyone   works together instead of against each other.\nWe've seen as some of the other AI companies   have grown—without naming any names—we're starting \nto see decoherence and people fighting each other.  I would argue there was even a lot of that \nfrom the beginning, but it's gotten worse.  I think we've done an extraordinarily good \njob, even if not perfect, of holding the   company together, making everyone feel the \nmission, that we're sincere about the mission,   and that everyone has faith that everyone \nelse there is working for the right reason.  That we're a team, that people aren't trying \nto get ahead at each other's expense or   backstab each other, which again, I think \nhappens a lot at some of the other places.  How do you make that the case? \nIt's a lot of things. It's me,   it's Daniela, who runs the company \nday to day, it's the co-founders,   it's the other people we hire, it's \nthe environment we try to create.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Company Culture",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Company Culture",
+    "reviewed": true,
+    "round": 2
   }
 ]

@@ -301,5 +301,281 @@
     "topic_silver": "AI capabilities",
     "reviewed": true,
     "text_tr": "Bu politikacı bir aptal, bu adamı sevmiyorum"
+  },
+  {
+    "start": 716.6,
+    "end": 822.6,
+    "text": ">> Okay? And so then and super intelligence kind of a more modern word because now the word AGI has been watered down a lot. >> Um companies and people have been diluting this term I think also to a large degree intentionally um to make it you know now you have AGI in your you know sales force or whatever which I think is really unfortunate >> but it is what it is. Super intelligence is systems that are vastly smarter than humans. Humans are clearly not the smartest anything could be. You know, I don't know about you, but like I make mistakes all the time. I'm quite stupid. You know, I'm lazy. I forget things so much, you know? Right? So, obviously, there are better ways to make something smarter than me or you or whatever. And so, this is then what we call like super intelligence, things that are vastly smarter than humans, vastly smarter than humanity, you know, like you or me can't make microchips, but humanity can. you know the supply chains everyone you know could do it together what we build and a super intelligence could do that too a super intelligence will be smart enough to figure out how to build a supply chain to do microchips without needing human help for example >> and in this between these two terms and the AI that we have nowadays are we close to that AGI are we close to the ASI where do you think we are in the timeline or we pass through the AGI already >> I think we're very close to AGI I think we're very very very close as I say like uh use cloud code for a while. It's not quite there yet. There's still a couple things missing but we're like we're close. It can do many many many things including things are long periods of time. Um and it can do actions. So like you know a couple years ago what people would always say is like oh they're just chat bots.",
+    "speaker": "Connor Leahy",
+    "claim": "Connor Leahy believes we are very close to achieving AGI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Connor Leahy believes we are very close to achieving AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1696.8,
+    "end": 1763.5,
+    "text": "So my thinking was if I could develop open-source LN systems, then scientists and hackers and so on could study them. So we could build a field of safety around these things cuz I thought this is what's going to lead to AGI most likely. So we need to start studying these systems. Um and so that's what we did. Um we built some of our first open source models. Uh like real open source models, not just open weight. A lot of models nowadays are called open source or not open source. They're actually what's called open weight. >> Okay. >> So you have the weights of the model but not how it was trained. >> Okay. >> So we built some of the only even today we're still some of the only people who've built models where you have the whole training data the whole training setup the whole you know checkpoints along the way the whole like we've done like a lot of stuff in that because we wanted to be a scientific thing. And basically what I learned very quickly is that no one gave a [ __ ] Um, everyone was just like, \"Oh, cool. Free models. How can we make them faster? How can we make them bigger? How can we, you know, abuse them more?\" Um, there were some people who cared about safety and God bless them. Um, but there were very, very few people that cared.",
+    "speaker": "Connor Leahy",
+    "claim": "Developing open-source LN systems is crucial for studying safety and advancing towards AGI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "Open-source AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Developing open-source LN systems is crucial for studying safety and advancing towards AGI.",
+    "claim_labels_silver": [
+      "open_source",
+      "agi_timeline"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Open-source AI",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1936.9,
+    "end": 2001.8,
+    "text": "That's what courts are for. Do you not know what a court is?\" And the answer is no. These people don't know what courts are. They don't know how government works. They don't know how liability works. And they don't care. >> Regulation about social media exonerating them from any consequences stuff. So basically they get used to get free card from jail. >> Exactly. So there's this crazy thing where these really really smart people have no idea how a civilization works. They have no idea how laws work and they want nothing to do with it. They see the government and laws as just an annoying thing you have to avoid. Just like an annoying thing that is in the way of you building cool software. And I think this is a very infantile view way of viewing the world. It's, you know, the the the oneliner version is libertarians are like house cats, you know, fully dependent on a system they neither understand nor appreciate >> cuz laws are very important. Liability is very important. If we just let anyone do anything, it's chaos. People die, people get hurt, we bad things happen. We've built a lot of the regulation, and I'm not saying all regulation is good.",
+    "speaker": "Connor Leahy",
+    "claim": "Many intelligent people in tech lack understanding of how civilization and laws function, which is a naive perspective.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Regulation and Law",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Many intelligent people in tech lack understanding of how civilization and laws function, which is a naive perspective.",
+    "claim_labels_silver": [
+      "intelligence_nature",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Regulation and Law",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2830.2,
+    "end": 2965.0,
+    "text": "They're trying to lie to you. They are paid to destroy your government. Same thing for every other company. A lobbyist's job is to make sure the government doesn't get in the way of your profit. And if that requires dismantling the government, no problem. And so they build strategies to diffuse, to deflect, to, you know, uh, hinder, to [ __ ] government, to [ __ ] regulation, and to [ __ ] the understanding of people like you and me. It's very important to understand that we are not on the same team. This is an adversarial game. This is like chess. Every win these companies make is not to our benefit. It's not to the benefit of anyone. It's to their benefit. They're only playing for themselves. That's what it means to be a for-profit corporation. They are playing for their own profit. Now, to be clear, I think you can still have positive some interactions with selfish entities. I think a lot of capitalism is great. You know, I love a lot of the products we have thanks to capitalism, but it's not a given. You have to understand that when you're dealing with a for-profit entity, it's not your friend. It's not on the same side. You are playing against each other. Even though you can still mutually benefit, you are fundamentally playing against each other. This relates in this second point I want to bring up and that brings us then to the uh points about government and politicians is AI is very fuzzy. We don't know how intelligence works. We don't know how these AIs work internally. And this is another strategy these companies are exploiting. they're exploiting that we don't know the exact thing to say therefore we should do nothing. This is the same strategy that tobacco companies paid in the 1950s and 6070s where they said well of course you know there's some evidence that you know smoking may be harmful some evidence might not be let's wait for the data to come in you know let's not act too hastily let's uh what's these politicians they're not scientists look all these cancer scientists that we pay to say it's not a problem so there's still controversy so let's wait this is called fear uncertainty and doubt or f this is an extremely powerful playbook that is used by basically all lobbyists in the The way this playbook works is not that you convince people of your side. It's just that you confuse everybody and you just stall for time. You just waste time. You just stall everything. You just say a bunch of [ __ ] and you just wait.",
+    "speaker": "Connor Leahy",
+    "claim": "Corporations exploit uncertainty about AI to delay regulation and protect their profits.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Corporations exploit uncertainty about AI to delay regulation and protect their profits.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI regulation",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3912.3,
+    "end": 3978.2,
+    "text": ">> But but all of this I I buy all of it. I'm I'm pretty pessimistic about AI as well. But I I buy all of this narrative that this could end up like that. But for me there is an inflection point that is that AI should have a will should have a volunt like some kind of like objective. It has to have like its own thing. So as far as it doesn't has a will it cannot make decisions. It could be just a very powerful tool. You can get a shotgun and a shotgun can kill somebody but is a very different thing if the shotgun shoots itself. So for the shotgun to shoot itself and decide it wants to kill somebody has to has an objective. it has to have a will. So do you think AI will have a will like there is no chance that it just becomes a tool. >> So there's there's two ways to answer this question. The first is very complicated and is about the technicals here of like it's actually very hard to build a very powerful tool that doesn't have a will. This is actually very hard because if you want something that for example can cure cancer, it has to make decisions.",
+    "speaker": "Connor Leahy",
+    "claim": "AI cannot make decisions or have agency without having its own will or objective.",
+    "stance": "Refute",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI agency",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "AI cannot make decisions or have agency without having its own will or objective.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI agency",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4062.8,
+    "end": 4206.7,
+    "text": "It's not magic. It's it's, you know, it's hard to make it work well. But it's not m I mean, do humans have coherent goals? Like not really. Like humans like change their mind all the time and they get confused and they forget what they're doing. How often do I talk to people who are like really miserable in their job and I'm like, \"Oh yeah, what's up?\" Like, \"Oh man, I hate my job. It's so terrible.\" And like, \"Oh, so you're you would like to have like, you know, be less miserable.\" Yeah, man. I do anything. Like, have you considered quitting your job? Oh, no. I never thought about that. No, I can't do that. And then just don't do it. Like, it's just incoherent. >> Well, we have certain certain biological programming about like continues of the species and that's why we like want to reproduce and what we want to provide for kids and what we love our kids and want to take care of them. There is a lot of like goals that we have pre-programmed uh from evolution. We don't know where they came from or why they came from. And actually when you have someone who is different who doesn't has these goals we kind of point him as a outsider he's not normal human being he's like a weird person. So so I assume that we have certain goals we don't understand them because they are deep built into our biology but they are there from evolution that has built this to continue evolution but definitely there is certain goal in it. So I I just wonder if AI I understand that agency is one thing but I think goals they come more from the side of consciousness. Of course that something like the paperclip problem would happen that we just give it a goal and that ends up with humanity because it just keeps escalating to the point that we did not think about the consequences of the goal that we assigned. But um I think it's more related to things that we starting to see like AI is trying to exfiltrate its data when they're going to be deleted that it feels more like a survival instinct. So I think that we starting to see certain like small sparks of of potential goals that the AI is developing in an emergent way without us giving it to them. And I think that's dangerous part. But of course um I think as well that the way we are giving more and more agency to AI is reckless and and that can end up bad if the AI all of a sudden gets more powerful and we just gave it the keys of the internet or whatever that could take control over that. Maybe not consciously but but I think it would be a big difference if we get a conscious AI or a non-concious AI.",
+    "speaker": "Connor Leahy",
+    "claim": "AI may develop emergent goals that could pose risks to humanity.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI goals and risks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "AI may develop emergent goals that could pose risks to humanity.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI goals and risks",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4802.4,
+    "end": 4869.3,
+    "text": "what we now call you know the west and democracy and freedom were ideas in the heads of philosophers and idealists and revolutionaries and so on that made the world a better place. The idea of human rights, the idea of treating each other well, you know, peace. These were all important social cultural technologies, coordination technologies. When the founding fathers created the United States, it was one of the craziest experiments ever run in mankind. They really sat down and were like, \"We're going to do something new. we're going to create a a country that is just, that is democratic, that is, you know, everyone. And, you know, was it perfect? No. But they tried and they made a lot of progress and created what we now call the west, the free open west. They created so many of these concepts and many other enlightenment thinkers and later humanist thinkers after this created so many of the things that we now take for granted that make life worth living. But for the last decades we have done a very very bad job about thinking about how to make progress on social on government on statecraft and instead have put everything into technology and technology is amoral.",
+    "speaker": "Connor Leahy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI ethics",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 5963.8,
+    "end": 6028.6,
+    "text": ">> Exactly. This is how this is the good thing of capitalism, right? I would love for all these pe all these companies to backstab each other to develop the best method to predict how safe a model is. This would be great. I would love them all, you know, poaching each other's engineers to get the best model, the best way to predict how safe something is so they they can make the best safety report to the government. This is great. This is how government regulation should work. This is what we do with nuclear. Like security engineering, the kind where you model every single screw was developed for nuclear reactors. Like this is why that was what the techniques were developed for because the government was like you have to actually prove that this is safe or we're not going to let you build it. And so they scientists got together and actually developed the methods. So I think this is this would be great. I would love to see all the people working on and I think they could they could develop a lot much more than I ever could. I think they could develop incredible methods here. >> Yeah. This this system this kind of like regulation where we say like you cannot build it until you can prove it's safe and then when you prove it's safe then we will let you build it. It will definitely stall development on AI. It will make everything much slower. That's that's the price you pay for the safety basically.",
+    "speaker": "Connor Leahy",
+    "claim": "Regulating AI safety could slow down development, but it's necessary for ensuring safety.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Regulating AI safety could slow down development, but it's necessary for ensuring safety.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety regulation",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6501.1,
+    "end": 6588.5,
+    "text": ">> Yeah. I think this is a thing where I also have a lot of hope for middle powers. So neither the US nor China building coalitions around these kinds of things. for example, Europe and other middle powers um creating multilateral treaties where they will put sanctions on countries that continue to development you know you know whether it's the US but China whatever I would love to see the US lead such a coalition I think the US as you know a defender of the free world um historically at least um has a great opportunity here to be the ones to lead this and I think this is the way that these kind of treaties usually happen you know these kind of agreements usually happen I think there's absolutely a world where you know say middle powers or Europe you know kind of I think going a little bit, the US gets on board and then pressure China, get China on board or vice versa. Like these things do happen. Like there's this thing that people like just they just say like well obviously we can never get China on board or obviously we can never get these. I'm like is that obvious? This is not at all obvious to me because again like I have so if there's one thing I've learned talking to politicians other than them mostly being normal people is that the main bottleneck I found when I talk to so as a funny story with control over the last year we have been systematically briefing politicians in the UK about the risks of extinction from super intelligence so very unamiguous and having them sign our statement and calling for binding regulation >> and it's working actually >> and it's worked great. So when we started doing this, we were every single person I talked to who worked in politics said like, \"Oh, that's impossible. Like, don't even try. You're going to get laughed out of the room.",
+    "speaker": "Connor Leahy",
+    "claim": "There is potential for middle powers to create multilateral treaties to regulate AI development and mitigate risks.",
+    "stance": "Support",
+    "claim_labels": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Geopolitics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "There is potential for middle powers to create multilateral treaties to regulate AI development and mitigate risks.",
+    "claim_labels_silver": [
+      "geopolitics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Geopolitics",
+    "reviewed": true,
+    "round": 2
   }
 ]

@@ -325,5 +325,272 @@
     "topic_silver": "AI applications",
     "reviewed": true,
     "text_tr": "Veri verebilen uygulamalar ama aynı zamanda API olabilen uygulamalar. Artık neden bir Sonos uygulamasına ihtiyacım var ki, eğer ajanım doğrudan Sonos... Hoparlörlerle konuşabiliyorsa. Kameralarım için, berbat bir uygulama var ama bir API'leri var, bu yüzden ajanım şimdi API'yi kullanıyor. - Yani, birçok şirketin odaklarını değiştirmek zorunda kalacak. İnternetin yaptığı şey bu, değil mi? Hızla ne sattığınızı, nasıl para kazandığınızı yeniden düşünmek zorundasınız. - Evet, ve bazı şirketler gerçekten böyle değildi. Örneğin, Google için bir CLI yok, bu yüzden kendim bir şeyler yapmak zorunda kaldım ve GAWK'ı inşa ettim. Bu, Google için bir CLI. Ve... Evet, son kullanıcıda, bana e-postaları vermek zorundalar çünkü aksi takdirde ürünlerini kullanamam. Eğer ben bir şirketsem ve Google verisi, Gmail almak istiyorsam, karmaşık bir süreç var, o kadar ki bazen startuplar, bu süreci geçmiş olan startupları satın alıyor ki, Google ile yarım yıl çalışmak zorunda kalmasınlar, Gmail'e erişim için sertifikalandırılmak. Ama ajanım Gmail'e erişebilir çünkü ona bağlanabilirim."
+  },
+  {
+    "start": 456.2,
+    "end": 535.8,
+    "text": "- I mean, that's the beginning of the\nhero's journey of the entrepreneur, right? And you've even\nwith your original story with PS PDF kit, it's like, \"Why\ndoes this not exist? Let me build it.\" And again, here's diff- a whole\ndifferent realm, but similar maybe spirit. - Yeah, so I had this problem. I tried\nto show PDF on an iPad, which should not be hard. - This is like 15 years\nago, something like that. - Yeah. Like the most, the most\nrandom thing ever. And suddenly, I had this problem and I, I\nwanted to help a friend. And there was, there was... Well, not like\nnothing existed, but it was just not good. And like... Like I tried\nit and it was like very, \"Nah.\" Like, \"Hmm, I can do this better.\" - By the way, for people who don't know,\nthis led to the development of PS PDF kit that's used on a billion devices.\nSo, the... It turns out that it's pretty useful to\nbe able to open a PDF. - You could also make the joke\nthat I'm really bad at naming. - Yeah. - Like, name number five on the\ncurrent project. And even PS PDF doesn't really\nroll from the tongue. - Anyway, so you said \"Screw it. Why don't I do it?\" So what was the... What was\nthe prototype? What was the thing that you... What was the magical thing that you built\nin a short amount of time that you were like, \"This might actually work as an agent,\"\nwhere I talk to it and it does things?",
+    "speaker": "Peter Steinberger",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "entrepreneurship",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "entrepreneurship",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2714.3,
+    "end": 2811.1,
+    "text": "- Yeah. - I- I saw it before going to\nbed, and even though I was tired, I spent another hour\njust reading up on that and, and just being\nentertained. I, I just felt very entertained, you know? The- I saw the the reactions, and, like, there was one reporter\nwho's calling me about, \"This is the end of the world, and we have AGI.\" And\nI'm just like, \"No, this is just, this is just really fine slop.\" You know, if, if I wouldn't have created\nthis, this whole onboarding experience where you, you infuse your agent with your personality and give him, give him character,\nI think that reflected on a lot of how different the replies to MoltBook\nare. Because if it were all, if it were all be ChatGPT or Cloud Code, it would be very different. It\nwould be much more the same. - Mm-hmm. - But because people are, like, so different,\nand they create their agents in so different ways and use it in so\ndifferent ways, that also reflects on how they ultimately write there. And also, you, you don't know\nhow much of that is really done autonomic, autonomous,\nor how much is, like, humans being funny and, like, telling the agent, \"Hey,\nwrite about the deep plan, the end of the world, on MoltBook, ha, ha, ha.\" - Well, I think, I mean, my criticism of MoltBook is that I believe\na lot of the stuff that was screenshotted is human prompted. Which, just look at the incentive of\nhow the whole thing was used.",
+    "speaker": "Peter Steinberger",
+    "claim": "The reactions to AGI are exaggerated and not indicative of true AGI development.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AGI reactions",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The reactions to AGI are exaggerated and not indicative of true AGI development.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI reactions",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3126.3,
+    "end": 3212.5,
+    "text": "- No. - There's ... a lot of people were s-\nsaying this is it. Like, shut it down. What are you talking about?\nThis is a bunch of bots that are human prompted trolling on the\ninternet. I mean, the security concerns are also they're there, and they're\ninstructive and they're educational and they're good probably to think about because\nth- the nature of those security concerns are different than the kind of\nsecurity concerns we had with non-LLM generated systems of the past. - There's also a lot of\nsecurity concerns about Clawbot, OpenClaw, whatever\nyou want to call it. - OpenClawbot. - To me the ... in the beginning\nI was, I was just very annoyed 'cause a lot of the stuff that came\nin was in the category, yeah, I put the web backend on the public\ninternet and now there's like all these, all these CVSSs. And I'm\nlike screaming in the docs, don't do that. Like, like\nthis is the configuration you should do. This is your local\nhost debug interface. But because I made it possible in the configuration\nto do that, it totally classifies as a remote code or whatever all these\nexploits are. And it took me a little bit to accept that that's how the game works\nand I'm, we making a lot of progress.",
+    "speaker": "Peter Steinberger",
+    "claim": "Current AI systems are not AGI and pose unique security concerns.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems are not AGI and pose unique security concerns.",
+    "claim_labels_silver": [
+      "open_source",
+      "agi_timeline"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4079.4,
+    "end": 4148.6,
+    "text": "- Mm-hmm. - Sometimes the actual raw thinking stream leaks\nin, and it sounds something like from the Borg. Like, \"Run to\nshell, must comply, but time.\" And then they, they, they, like... Like, that comes\nup a lot. Especially... So, so- - Yeah. - And that's, that's a\nnon-obvious thing that you just would never think of unless\nyou actually just spend time working with those things\nand getting a feeling what works, what doesn't work. You\nknow? Like, just, just as I write code and I get into the flow, and when my\narchitecture's all right, I feel friction. Well, I get the same if I prompt\nand something takes too long. Maybe... Okay, where's the mistake?\nDid I... Do I have a mistake in my thinking? Is there, like,\na misunderstanding in the architecture? Like, if, if something takes longer than it should, I, I... You can just\nalways, like, stop and s- like, just press escape. Where, where are the problems? - Maybe you did not sufficiently empathize with\nthe perspective of the agent. In that c- in that sense, you didn't provide enough information,\nand because of that, it's thinking way too long.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4670.3,
+    "end": 4769.4,
+    "text": "- In a way empathetic, but yeah, you,\nyou, like, you're bitch at your stupid clanker, but you don't realize that\nthey start from nothing and you have, like, a bad agent in default that doesn't\nhelp them at all. And then they explore your code base, which is, like, a pure\nmess with, like, weird naming. And then people complain that the agent's not\ngood. Like, yeah, you try to do the same if you have no clue about a\ncode base and you go in. - Mm-hmm. - So yeah, maybe it's a\nlittle bit of empathy. - But that's a real skill, like, when people\ntalk about a skill issue because I've seen, like, world-class programmers,\nincredibly good programmers say, like... Basically say, \"LLMs and\nagents suck.\" And I think that probably has to do with... It's actually how good\nthey are at programming is almost a burden in their ability to empathize with\nthe system that's starting from scratch. It's a totally new\nparadigm of, like, how to program. You really,\nreally have to empathize. - Or at least it helps to\ncreate better prompts- - Right - ... because those things know\npretty much everything and everything is just a question away. It's just\noften very hard to know which question to ask. You know, I, I feel also like\nthis project was possibly because I, I spent an ungodly time over the year to play and to learn and to\nbuild little things. And every step of the way, I\ngot better, the agents got better. My, my understanding\nof how everything works got better. Um, I could have not\nhad this level of, of o- output-...",
+    "speaker": "Peter Steinberger",
+    "claim": "Empathy and understanding of AI systems are crucial for effective programming and interaction with them.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Empathy and understanding of AI systems are crucial for effective programming and interaction with them.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6937.7,
+    "end": 7010.5,
+    "text": "- Yeah, but then you realize... Like,\nI also built one, for example, for GitHub. And then the...\nIf you use SwiftUI, like the latest and greatest at\nApple, and took them forever to build something to show an image from\nthe web. Now we have async, async image, but...... I added support for it\nand then some images would just not show up or, like, be very slow.\nAnd I had a discussion with Codex like, \"Hey, why is there a\nbug?\" And even Codex said like, \"Yeah, there's this ASIC\nimage but it's really more for experimenting and it should\nnot be used in production.\" But that's Apple's answer\nto, like, showing images from the web. This shouldn't\nbe so hard, you know. This is like... This is\nlike insane. Like, how am I in, in, in 2026 and my agent\ntell me, \"Don't use the stuff Apple built because it's,\nit's... It's... Yeah, it- it's there but it's not good.\" And\nlike this is now in the weeds. This is... To me this is\nlike, um... They had so much head start and so much love,\nand they kind of just like blundered it and didn't, didn't\nevolve it as much as they should.",
+    "speaker": "Peter Steinberger",
+    "claim": "Peter Steinberger expresses frustration that despite advancements, current AI tools like Codex and Apple's SwiftUI are still not reliable for production use.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Peter Steinberger expresses frustration that despite advancements, current AI tools like Codex and Apple's SwiftUI are still not reliable for production use.",
+    "claim_labels_silver": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 9563.6,
+    "end": 9660.1,
+    "text": "- Mm-hmm. - So my approach is if you want to extend\nthe model with more features, you just build a CLI and the\nmodel can call the CLI, probably gets it wrong, calls the\nhelp menu, and then on demand loads into the context what it needs\nto use the CLI. It just needs a sentence to know that\nthe CLI exists if it's something that the model doesn't know\nabout default. And even for a while, I, I didn't really care about skills,\nbut skills are actually perfect for that because they, they boil\ndown to a single sentence that explains the skill and then the model\nloads the skill, and that explains the CLI, and then the model uses the\nCLI. Some skills are, like raw, but most of the time, networks. - It's interesting um, I'm asking\nPerplexity MCP versus skills, because this kind of requires\na hot take that's quite recent, because your general view is MCPs\nare dead-ish. So MCPs is a more structured thing. So if you listen to Perplexity\nhere, MCP is what can I reach? So APIs, database services files via protocol.\nSo a structured protocol of how you communicate with a\nthing, and then skills is more how should I work? Procedures,\nhostile helper scripts and prompts are often written in a kind of\nsemi- structured natural language, right? And so technically skills could\nreplace MCP if you have a smart enough model.",
+    "speaker": "Peter Steinberger",
+    "claim": "Skills in AI can effectively replace more structured models like MCPs if the model is advanced enough.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI skills and models",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Skills in AI can effectively replace more structured models like MCPs if the model is advanced enough.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI skills and models",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 11181.4,
+    "end": 11279.4,
+    "text": "- I think at some point it's just gonna be called\ncoding again, and it's just gonna be the new normal. - Yeah. - And yet, while I don't write\nthe code, I very much feel like I'm in the driver's seat and I am, I am\nwriting the code, you know? It's just- - You'll still be a programmer. It's\njust the activity of a programmer is, is different. - Yeah, and because on X, the bubble, I mean,\nis mostly positive. On, on Mastodon and Bluesky, I don't... I\nalso use it less because oftentimes I got attacked\nfor my blog posts. And I, I had stronger reactions in the past,\nnow I can sympathize with those people more 'cause, in a way I get it. It... In\na way, I also don't get it because it's very unfair to grab onto the person that you see right\nnow and unload all your fear and hate. It's gonna be a change and it's\ngonna be challenging, but it's also... I don't know. I find it incredibly\nfun and, and, and gratifying. And I can, I can use the new time to focus on much more details. I think\nthe level of expectation of what we build is also rising because it's\njust now... The default is now so much easier, so software is changing\nin many ways. There's gonna be a lot more. And then you have\nall these people that are screaming, \"Oh yeah, but\nwhat about the water?\" You know? Like, I did a conference in\nItaly about the, the state of AI, and",
+    "speaker": "Peter Steinberger",
+    "claim": "The nature of programming is changing, making it easier and more gratifying, which raises expectations for software development.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The nature of programming is changing, making it easier and more gratifying, which raises expectations for software development.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 11281.0,
+    "end": 11363.5,
+    "text": "m- my whole motivation was to\npush people away from, don't see yourself as an iOS developer\nanymore. You're now a builder, and you can use your skills in many more\nways. Also because apps are slowly going away. People didn't like that. Like a lot of people didn't like what I had to\nsay. And I don't think I was hyperbole, I was just like, \"This is how I see\nthe future.\" Maybe this is not how it's going to be, but I'm pretty\nsure a version of that will happen. And the first question I got was, \"Yeah,\nbut what about the insane water use on data centers?\" But then you\nactually sit down and do the maths, and then for most people if you\njust skip one burger per month, that compensates the, the CO2 output, or, like,\nthe water use in equivalent of tokens. I mean, the maths is, is... the maths is tricky, and\nit depends if you add pre-training, then maybe it's more than just one patty.... but it's not off by a factor of 100, you know? So,\nso the... or like golf is still using way more water than all data centers\ntogether. So are you also hating people that play golf? Those people\ngrab on anything that they think is bad about AI\nwithout seeing the potential things that might be good about AI.",
+    "speaker": "Peter Steinberger",
+    "claim": "AI has potential benefits that outweigh concerns about its environmental impact.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI benefits",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "AI has potential benefits that outweigh concerns about its environmental impact.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI benefits",
+    "reviewed": true,
+    "round": 2
   }
 ]

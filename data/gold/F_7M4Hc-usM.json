@@ -205,5 +205,188 @@
     "topic_silver": "AGI timeline",
     "reviewed": true,
     "text_tr": "Aynı yolda üç buçuk yıl daha geçse bile, dünya, potansiyel - toplumun - toplumun neler yapabileceği tamamen farklıdır. Şimdi, sizi bir model olarak, bir sınır modeli olarak ele alırsak ve bazı içsel yetenekleriniz varsa - ve bu yetenekleri ortaya çıkarmaya çalışacağız - bunlardan biri, artık sürekli olarak OpenAI üzerinde RL ile eğitilmiş olmanız ve dünyanın dış geri bildirim döngüsü üzerinde neyin işe yarayıp neyin yaramadığı konusunda sürekli olarak eğitilmiş olmanızdır. Şimdi, sizi bir tahmin motoru olarak ele alırsak, önermemiz, önümüzdeki 10 yıl içinde gördüğünüz evrenin en olası üç ayrım noktası nedir? Ve her biri için olasılık değerlendirmeleriniz nedir? Bu mantıklı mı? Çok önemli bir şey, bu teknolojinin ne kadar yaygın bir şekilde demokratikleştirileceği ile ne kadarının birkaç şirkette kalacağıdır."
+  },
+  {
+    "start": 9.8,
+    "end": 73.2,
+    "text": "Please join me in\nwelcoming Sam Altman. [APPLAUSE] This class was designed\nas an inspiration from a set of\ndifferent experiences while I was a student here. One of them was Terry Winograd's\nintro seminar CS-47M, Computers and the Open Society. But a second one that was a\npretty formative experience for me, and a lot of\nmy friends and peers on campus at the time\nin 2014, was CS-183, How to Start a Startup by Sam. And so it's really\ncool to have you back. What's it like? How's it feeling\nfor you to be back? I was thinking as\nI was walking in, if I had just a\nlittle more time, I would do an\nupdate to that class because I think everything about\nstarting a startup has changed so much, and I have\nnot seen anyone do a good version of how you're\nsupposed to make a starter now. So I had that-- just\nwalking in here, I had that, oh, it'd be fun to do it again. So, timeline wise you\nthought that in '14. I think OpenAI was\nfounded in 2015?",
+    "speaker": "Moderator",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Moderator",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 879.3,
+    "end": 943.9,
+    "text": "And we had a new model. We actually had\nGPT-4 done but we had a new model we were ready to\nrelease in between called 3.5, and we had figured out a\nnew kind of post training where we could get the models to\ndo a good job with instruction following so it can make\nit easier to chat with. And we said, well, the API\nis not working great-- maybe it was like a $10\nor a $20 million run rate kind of business--\nbut there is this thing that people love. And under the YC principle,\nsee what your users love and do that, we said we'll build\na chatbot around it. And we put that out. And we still didn't think it\nwas going to do that well. It was really meant\nas a research demo to convince other\npeople that they should build chat-like products\nand pay us for the API, but that went crazy viral. And another thing I\nhad learned from YC is when something really starts\ngrowing and it's not very good, you have a guaranteed\nhit on your hands. And so we had like five\ndays where the traffic would shoot up, fall off and\neverybody would be like, well, that was just a hype cycle. But then the next day it\nwould get to a higher peak, fall off again, later\nin the day people would say that's a hype cycle.",
+    "speaker": "Sam Altman",
+    "claim": "The unexpected success of the chatbot indicates a strong user interest in AI products, suggesting optimism about future developments in AGI.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "The unexpected success of the chatbot indicates a strong user interest in AI products, suggesting optimism about future developments in AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 943.9,
+    "end": 1006.7,
+    "text": "By the fourth or fifth day I\nwas like, I know how this works. I know what's going to happen. Like, we have the potential\nhere at a killer product, and we knew we could\nmake it much better. We knew we could--\nwe knew we had GPT-4, we knew we could keep scaling,\nbut by that fifth day, we got everybody together and\nsaid, this is an emergency. This is the good\nkind of emergency, but we have to build a company\nand a product all at once. We then had two months of crazy\nscaling, and then we said, we have to figure out\na business model later. For now, we're just\ngoing to charge people so that we don't run\nout our compute bills, but that's, obviously,\nnot the long term answer. That also turned\nout just to work. And that was the\nstory of ChatGPT. And then there was so much\nutility that people just had not gotten over the\nactivation energy to find that that has\nworked really well. And then Codex-- actually,\nthe plan before ChatGPT was that we were going\nto go all in on code. We knew these models\ncould write code.",
+    "speaker": "Sam Altman",
+    "claim": "The development of ChatGPT and its utility demonstrates the potential for rapid advancements in AI technology.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "The development of ChatGPT and its utility demonstrates the potential for rapid advancements in AI technology.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1221.0,
+    "end": 1296.9,
+    "text": "But I was recently looking at\nwhat happened when electricity became a utility. And it's a good analogy\nfor many reasons. It's imperfect, of course, too,\nbut the electricity companies-- at least the ones I\ncould find information about-- they didn't talk\nabout selling electricity because no one knew what that\nwas or why they wanted it. It sounds very scary. It's this thing that's like\ngoing to come into your house and it can kill you\nin this gruesome way, and it feels very different\nthan the world before. And maybe they tried to\nsell electricity or market electricity first, I don't know. But in any case,\nthat didn't work. And then what they started\nmarketing, selling to people was light at night. We are going to-- what you are getting from\nus is not electricity. It's light at night. By the way, you can use the same\nthing that lets you get light for all these other things,\nbut people are like, well, why would I want that? And they're like, well, it'll\nwash your clothes for you someday. And, no, it won't. That's too far of a jump for me. So, I don't know what our\nanalogy for this should be, but I suspect that even\nif we're totally right and intelligence is going\nto become this new utility, that every company,\nevery customer, every government just\nwho needs access to and is going to use on all\nsorts of incredible ways.",
+    "speaker": "Unknown",
+    "claim": "The analogy of electricity becoming a utility suggests that the transition to AGI may be misunderstood or miscommunicated, leading to skepticism about its immediate benefits.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI analogy",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The analogy of electricity becoming a utility suggests that the transition to AGI may be misunderstood or miscommunicated, leading to skepticism about its immediate benefits.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI analogy",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2104.1,
+    "end": 2168.8,
+    "text": "Life can be unbelievably\nmuch better. We are going to incur\nsome risk to get there, but the risk of\nkeeping is concentrated in a handful of\ncompanies, even though we would be one of these\ncompanies is not something we should tolerate. So I think that\nwill be a big fork. In terms of probability,\nI think it's-- the world should\nhave such an interest in it happening this\nway that I think it's like 80% we end up\non the Democratic path, but there will be a very\nstrong safety message and there will be a lot of\npower seeking people who want to concentrate the power. And one of the problems\nwith forecasting this-- or that you have and\nwe all have as humans is once you make that\nforecast, then you have agency to affect the\nforecasts and the forks? Well, I mean, we're\nclear on what we're going to use our agency for. Like, this is what\nwe believe in, we think that we're going\nto do everything we can to push it in this direction. We see the forces in\nthe other direction. Maybe a related fork,\nthere's a lot talk about future economic\nmodels and are we going to do universal\nbasic income?",
+    "speaker": "Sam Altman",
+    "claim": "The future of AGI could lead to significant improvements in life, but there are risks involved that need to be managed.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "The future of AGI could lead to significant improvements in life, but there are risks involved that need to be managed.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2361.9,
+    "end": 2426.9,
+    "text": "At least to some folks\nit feels like COVID, but for the compute era, like\nall the toilet paper is gone, why are people not\nfreaking out about this? Well, I think people assume\nwe will make big inference gains on the hardware we have. I also think there is a\ntsunami of hardware coming, but maybe the demand\ntsunami is even bigger and I think people should\nbe freaking out somewhat. And would you say it's\nfair-- like, how long are we going to exist in a\ncompute shortage, at least, based on current data you have? I think other-- you\ncan't talk, really, about worldwide\ndemand for electricity without talking about the price. Like, there's an\nextremely different demand about how much energy\npeople need in the world if the price comes\ndown by a factor of 10 or goes up by a factor of 10. And I think AI is like that too. If we can make models\nsufficiently smart and at sufficiently\nlow cost, I think demand is kind of uncapped.",
+    "speaker": "Unknown",
+    "claim": "There is a potential uncapped demand for AI if models can be made smart and low-cost.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "There is a potential uncapped demand for AI if models can be made smart and low-cost.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "compute/chips",
+    "reviewed": true,
+    "round": 2
   }
 ]

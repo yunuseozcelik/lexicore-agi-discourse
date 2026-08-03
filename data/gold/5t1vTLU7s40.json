@@ -235,5 +235,269 @@
     "topic_silver": "AI models",
     "reviewed": true,
     "text_tr": "Yani, temel ilke şöyle. İstek, gözlemlenen değişkenler gibidir. Ve modelin yaptığı şey, bir cevabın bir istek için ne kadar iyi bir cevap olduğunu ölçmektir. Tamam mı? Yani, devasa bir sinir ağı olarak düşünün, ama sadece bir çıktısı var. Ve o çıktı, eğer cevap soru için iyi bir cevapsa sıfır, eğer cevap iyi bir cevap değilse büyük bir sayı. Böyle bir modeliniz varsa, iyi cevaplar üretmek için bunu kullanabilirsiniz. Yapacağınız şey, isteği üretmek ve ardından mümkün olan cevaplar arasında bu sayıyı minimize eden birini aramaktır. Buna enerji tabanlı model denir. - Ama o enerji tabanlı model, LLM tarafından inşa edilen modele ihtiyaç duyar. - Gerçekten, yapmanız gereken şey, o enerjiyi minimize eden metin dizileri üzerinde arama yapmamak olacaktır."
+  },
+  {
+    "start": 812.2,
+    "end": 875.7,
+    "text": "And once you do this, you shift it into the input, et cetera. That's called autoregressive prediction, which is why those LLMs should be called autoregressive LLMs, but we just call them at LLMs. And there is a difference\nbetween this kind of process and a process by which\nbefore producing a word, when you talk. When you and I talk, you and I are bilinguals. We think about what we're gonna say, and it's relatively independent of the language in which we're gonna say. When we talk about like, I don't know, let's say a mathematical\nconcept or something. The kind of thinking that we're doing and the answer that\nwe're planning to produce is not linked to whether\nwe're gonna say it in French or Russian or English. - Chomsky just rolled his\neyes, but I understand. So you're saying that\nthere's a bigger abstraction that goes before language- - [Yann] Yeah.\n- And maps onto language. - Right. It's certainly true for a\nlot of thinking that we do. - Is that obvious that we don't?",
+    "speaker": "Yann LeCun",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "language processing",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "language processing",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1865.5,
+    "end": 1927.1,
+    "text": "Whenever we describe a phenomenon, we describe it at a particular\nlevel of abstraction. And we don't always describe\nevery natural phenomenon in terms of quantum field theory, right? That would be impossible, right? So we have multiple levels of abstraction to describe what happens in the world. Starting from quantum field theory to like atomic theory and\nmolecules in chemistry, materials, all the way up to kind of\nconcrete objects in the real world and things like that. So we can't just only model\neverything at the lowest level. And that's what the idea\nof JEPA is really about. Learn abstract representation\nin a self supervised manner. And you can do it hierarchically as well. So that I think is an essential component of an intelligent system. And in language, we can\nget away without doing this because language is already\nto some level abstract and already has eliminated\na lot of information that is not predictable.",
+    "speaker": "Yann LeCun",
+    "claim": "We need multiple levels of abstraction to describe phenomena, which is essential for intelligent systems.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI representation",
+    "confidence": "medium",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "We need multiple levels of abstraction to describe phenomena, which is essential for intelligent systems.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI representation",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3904.6,
+    "end": 3974.0,
+    "text": "I mean, that's the 16,000 hours of wake time of a 4-year-old. And tend to do 15 bytes,\ngoing through vision. Just vision, right? There is a similar bandwidth of touch and a little less through audio. And then text doesn't... Language doesn't come in\nuntil like a year in life. And by the time you are nine years old, you've learned about gravity, you know about inertia, you know about gravity, you know there's stability, you know about the distinction between animate and inanimate objects. By 18 months, you know about like why\npeople want to do things and you help them if they can't. I mean there's a lot of\nthings that you learn mostly by observation, really not even through interaction. In the first few months of life, babies don't really have\nany influence on the world. They can only observe, right? And you accumulate like a\ngigantic amount of knowledge just from that. So that's what we're missing\nfrom current AI systems. - I think in one of your\nslides you have this nice plot that is one of the ways you\nshow that LLMs are limited.",
+    "speaker": "Yann LeCun",
+    "claim": "Current AI systems lack the observational learning capabilities that humans develop in early childhood.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI learning limitations",
+    "confidence": "high",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems lack the observational learning capabilities that humans develop in early childhood.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI learning limitations",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6034.6,
+    "end": 6097.9,
+    "text": "So I'll tell you, I talked to the French\ngovernment quite a bit and the French government will not accept that the digital diet\nof all their citizens be controlled by three companies on the west coast of the US. That's just not acceptable. It's a danger to democracy. Regardless of how well intentioned those companies are, right? And it's also a danger to local culture, to values, to language, right? I was talking with the\nfounder of Infosys in India. He's funding a project\nto fine tune LLaMA 2, the open source model produced by Meta. So that LLaMA 2 speaks all 22\nofficial languages in India. It's very important for people in India. I was talking to a\nformer colleague of mine, Moustapha Cisse, who used to be a scientist at FAIR, and then moved back to Africa and created a research\nlab for Google in Africa and now has a new startup Kera.",
+    "speaker": "Yann LeCun",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6292.7,
+    "end": 6359.7,
+    "text": "So for example, if you have an LLM that can help a mom-and-pop pizza place by talking to their\ncustomers through WhatsApp, and so the customers\ncan just order a pizza and the system will just ask them, like what topping do you want\nor what size, blah blah, blah. The business will pay for that. Okay? That's a model. And otherwise, if it's a system that is on the more kind\nof classical services, it can be ad supported or\nthere's several models. But the point is, if you have a big enough\npotential customer base and you need to build that\nsystem anyway for them, it doesn't hurt you to actually distribute it to open source. - Again, I'm no business guy, but if you release the open source model, then other people can\ndo the same kind of task and compete on it. Basically provide fine\ntuned models for businesses, is the bet that Meta is making...",
+    "speaker": "Yann LeCun",
+    "claim": "Releasing open source models can benefit businesses by allowing competition and fine-tuning for specific tasks.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "business models",
+    "confidence": "medium",
+    "claim_labels": [
+      "open_source",
+      "breakthroughs_needed"
+    ],
+    "claim_labels_auto": [
+      "open_source",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Releasing open source models can benefit businesses by allowing competition and fine-tuning for specific tasks.",
+    "claim_labels_silver": [
+      "open_source",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "business models",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6634.3,
+    "end": 6696.8,
+    "text": "Two, constant risk of\ngenerating a bad answer or drawing a bad picture\nor rendering a bad video. Who knows what it's going\nto say or do at any moment? Three, legal exposure,\nproduct liability, slander, election law, many other things and so on. Anything that makes Congress mad. Four, continuous attempts to tighten grip on acceptable output, degrade the model, like how good it actually is in terms of usable and\npleasant to use and effective and all that kind of stuff. And five, publicity of\nbad text, images, video, actual puts those examples\ninto the training data for the next version. And so on. So he just highlights\nhow difficult this is. From all kinds of people being unhappy. He just said you can't create a system that makes everybody happy. - [Yann] Yes. - So if you're going to do\nthe fine tuning yourself and keep a close source, essentially the problem there is then trying to minimize\nthe number of people who are going to be unhappy.",
+    "speaker": "Yann LeCun",
+    "claim": "Creating AGI that satisfies everyone is impossible due to diverse expectations and risks.",
+    "stance": "Refute",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Creating AGI that satisfies everyone is impossible due to diverse expectations and risks.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7033.1,
+    "end": 7098.1,
+    "text": "And it's the same with\nchemical weapons or bio weapons or things like this. It requires expertise in the real world that the LLM is not gonna help you with. - And it requires even\nthe common sense expertise that we've been talking about, which is how to take\nlanguage based instructions and materialize them in the physical world requires a lot of knowledge\nthat's not in the instructions. - Yeah, exactly. A lot of biologists have\nposted on this actually in response to those things saying like do you realize how hard it is to actually do the lab work? Like this is not trivial. - Yeah. And that's Hans Moravec\ncomes to light once again. Just to linger on LLaMA. Mark announced that LLaMA\n3 is coming out eventually, I don't think there's a release date, but what are you most excited about? First of all, LLaMA 2\nthat's already out there, and maybe the future LLaMA 3, 4, 5, 6, 10, just the future of the\nopen source under Meta? - Well, a number of things.",
+    "speaker": "Lex Fridman",
+    "claim": "The expertise required for physical tasks cannot be fulfilled by language models alone.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI limitations",
+    "confidence": "high",
+    "claim_labels": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "The expertise required for physical tasks cannot be fulfilled by language models alone.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI limitations",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 7228.3,
+    "end": 7289.4,
+    "text": "So I think it's very exciting. I think I'm super excited about... I haven't been that excited about like the direction\nof machine learning and AI since 10 years ago when FAIR was started, and before that, 30 years ago, when we were working on, sorry 35, on combination nets and the\nearly days of neural net. So I'm super excited because I see a path towards potentially human level intelligence with systems that can\nunderstand the world, remember, plan, reason. There is some set of ideas\nto make progress there that might have a chance of working. And I'm really excited about this. What I like is that somewhat we get onto like a good direction and perhaps succeed before my\nbrain turns to a white sauce or before I need to retire. (laughs) - Yeah.",
+    "speaker": "Yann LeCun",
+    "claim": "Yann LeCun is excited about the potential for achieving human-level intelligence in AI in the near future.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "high",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Yann LeCun is excited about the potential for achieving human-level intelligence in AI in the near future.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 9396.5,
+    "end": 9460.3,
+    "text": "We can do like two level\nhierarchical planning when we design the two levels. So for example, you have like\na dog legged robot, right? You want it to go from the\nliving room to the kitchen. You can plan a path that\navoids the obstacle. And then you can send this\nto a lower level planner that figures out how to move the legs to kind of follow that\ntrajectories, right? So that works, but that two level planning\nis designed by hand, right? We specify what the proper\nlevels of abstraction, the representation at each\nlevel of abstraction have to be. How do you learn this? How do you learn that\nhierarchical representation of action plans, right? With com nets and deep learning, we can train the system to learn hierarchical\nrepresentations of percepts. What is the equivalent when what you're trying to\nrepresent are action plans? - For action plans. Yeah. So you want basically a\nrobot dog or humanoid robot that turns on and travels\nfrom New York to Paris all by itself.",
+    "speaker": "Yann LeCun",
+    "claim": "Hierarchical planning in robotics can be learned through deep learning techniques.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "robotics/learning",
+    "confidence": "medium",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yann LeCun",
+    "is_claim_silver": true,
+    "claim_silver": "Hierarchical planning in robotics can be learned through deep learning techniques.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "robotics/learning",
+    "reviewed": true,
+    "round": 2
   }
 ]

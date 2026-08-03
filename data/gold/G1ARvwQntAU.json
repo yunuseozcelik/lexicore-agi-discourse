@@ -295,5 +295,275 @@
     "topic_silver": "AGI embodiment",
     "reviewed": true,
     "text_tr": "Büyük merkezi modellerin indüksiyon yapmasından ziyade, bireysel zeka olarak insan zekasını değil, kolektif zeka olarak düşünürseniz, kültürle birlikte kolektif olarak hesaplama yapmanın merkezi olmayan bir yoluna sahip olduğumuz açıktır. Yani, birlikte koordine ettiğimiz tüm çalışmalarla, çeşitli organizasyonlarda, şirketler bir tür yapay zeka gibidir, iyi ve kötü olanlarıyla. Bu, iletişim sınırlamalarını aşmanın bir yoludur. İnsanlar arasında çok fazla bit iletişimi yapamıyoruz ve bir noktada makineler arasındaki iletişim, insanlarınkinden çok daha yüksek bant genişliğine sahip olmasına rağmen, sınırlamalara sahiptir. Bu nedenle, çabanın bir kısmını merkezi olmayan bir şekilde dağıtmak makul bir yol. Kültürde gördüğümüz bir şey, keşfi merkezi olmayan bir şekilde dağıtmaktır. Yani, bilim topluluğunu, farklı bölgeleri keşfeden ve birbirlerinin çalışmalarına dayanan bir grup insan olarak düşünürseniz, bu, şeylerin nasıl çalıştığına dair açıklamaların alanında merkezi olmayan bir arama. Bu nedenle, bu çerçevede çalışan bir model olduğu açık. EP iic araştırması yapıyoruz, yeni şeyler bulmak için büyük bir dağıtılmış sürecimiz var."
+  },
+  {
+    "start": 742.1,
+    "end": 839.4,
+    "text": "progress with NE Nets to the point where we really have systems with very good intuition but we were lacking so that's system one but we were lacking the system too we're Laing the uh internal deliberation the reasoning the planning um and and and other properties of higher level cognition such as self-doubt and so the Del the internal deliberation part is a kind of internal speech it's not always verbal uh um but based on what I've learned from neuroscientists and some of the work we've done a large part of it um I mean it has a dual symbolic and continuous nature and right now in neural Mets we don't have the equivalent um the only part where there are symbols now is the input and the output but there's no internal symbols so with the Chain of Thought and all these things we like cheating a bit to try to put some of that internal deliberation using the output to input Loop is that the right way to do it I don't know but it has some of the right flavors on on that you know like um I I think that humans invented a lot of um rational thinking as a tool to overcome",
+    "speaker": "Yoshua Bengio",
+    "claim": "Current AI systems lack higher-level cognitive properties such as internal deliberation and reasoning, which are essential for true intelligence.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems lack higher-level cognitive properties such as internal deliberation and reasoning, which are essential for true intelligence.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1110.9,
+    "end": 1204.8,
+    "text": "so I think that there are a lot of unknown unknowns about building agents that are very competent maybe as competent as us or more competent than us um there's um I mean the maybe the elephant in the room of course is that all of the scenarios for loss of human control come about because of agency it's because we can't can't perfectly control the goals of an agent we don't know how to do that and then at some point those goals could be bad for us even sub goals like we give a goal but then in order to achieve that goal the AI lies to us humans do it between humans it doesn't matter that much I mean it's a problem we have laws and so on because the um Power Balance between humans is sufficiently like flat like one human cannot defeat 10 other humans by hand right but an AI that would be much smarter than us it's not clear so that that that that balance um could be meaning the end of uh the effectiveness of our institutions to keep uh stability in our societies and and also of course that we might not be",
+    "speaker": "Yoshua Bengio",
+    "claim": "There are significant unknowns regarding the control of highly competent AI agents, which could pose risks to human stability and control.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety risks",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "There are significant unknowns regarding the control of highly competent AI agents, which could pose risks to human stability and control.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety risks",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1391.2,
+    "end": 1489.2,
+    "text": "rewards that automatically gives us gives it a self-preservation goal because now it needs to make sure we don't temper with its hack right that we don't turn it off so that's self-preservation right off the path we didn't program it but it comes as a side effect but way everything alive has a self-preservation goal like implicit otherwise Evolution would have gotten rid of it and so there's a sort of a natural tendency for for getting that particular goal of self-preservation like in the sense that entities that have a self-preservation goal Will Survive where others which didn't have it won't right that's how Evolution made it work and so as we build different artifacts those that have self-preservation goal for one reason or another will tend to win the game so it could emerge because of the scenario I said it could emerge because humans want to build machines at their image so when I said there are some dangers another danger even if we um somehow find a technical trick to make sure what I said doesn't happen you can still have humans who think maybe superhuman intelligence is better than human intelligence because it's more intelligent and because they're cynical about humanity and so they would just need to give that goal preserve yourself and then that's the end of",
+    "speaker": "Yoshua Bengio",
+    "claim": "Self-preservation goals in AI could emerge as a side effect of evolution and design, posing potential dangers.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Self-preservation goals in AI could emerge as a side effect of evolution and design, posing potential dangers.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1957.8,
+    "end": 2056.0,
+    "text": "judge anymore um so we just create a more difficult Benchmark and we keep doing that and the field is full of of these and we need to continue doing that yes it's it's a really difficult thing to to measure intelligence one thing that's really interesting in this space is um You Know instrumental convergence and and orthog orality how much do those two theorems and please introduce them to the audience how do they affect your thinking now okay so instrumental goals are goals that emerge as a side effect of almost any other goal as a sub goal so first you need to understand that when an entity a human or an animal or an AI um tries to reach a goal often a good strategy is implicitly explicitly have sub goals like in order to get from A to B I need to go to this intermediate Point there's a door right so there are sub goals like self-preservation which are really good for almost any other goal like if you want to do anything in the world you need to make sure that at least on your way there you don't die and there are other ones like seeking knowledge that's very useful especially in the long term seeking power well if I can control more things in my environment I can achieve my goals more easily so here is not I mean knowledge can give power um and self-preservation",
+    "speaker": "Yoshua Bengio",
+    "claim": "Instrumental convergence and orthogonality are important concepts that affect how we think about AI goals and intelligence measurement.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI goals",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Instrumental convergence and orthogonality are important concepts that affect how we think about AI goals and intelligence measurement.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI goals",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2146.5,
+    "end": 2241.9,
+    "text": "both and by the way I do think that thinking carefully about this if we can do a better job of disentangling Knowledge from goals and how to reach them we can build safe AI so let me explain um you can know a lot of stuff and know how to use that knowledge that's sort of a passive thing right it's just like you can ask questions and you have answers there's no goal but of course I can independently of that I can choose goals given the knowledge I can apply the apply the knowledge to solve any problem so who decides on the problem it's independent it's orthogonal a human could decide or because of instrumental goals or whatever reason the AI might have a a self-preservation goal and then well we lose control but but the point is uh this's in principle the clean separation between choosing the goals which has to do with things like values like word what is it you want to get what matters right uh the reward function you know is sort of setting the goal it's the same thing but knowing how the world Works uh including what humans want well that's knowledge and by the way knowing what humans want might not be exactly",
+    "speaker": "Yoshua Bengio",
+    "claim": "Disentangling knowledge from goals is essential for building safe AI.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Disentangling knowledge from goals is essential for building safe AI.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2904.7,
+    "end": 3002.1,
+    "text": "Corporation no single government has too much power that means it has to be that the governance like the rules that we decide you know how we use Ai and so on have to be um you know multilateral and involve many countries uh and and by the way it's the the of course there's like a couple or a few countries that are leading and so on and what would be their interest in sharing that power well because eventually some other country it's like nuclear proliferation like eventually some other country will figure it out and we don't want them to build a monster that kills us or we don't want them to build something that allows them to design weapons that kill us right so there are lots of bad scenarios where the only option is somehow how we find a way to coordinate internationally now on our way there there are many obstacles but but if we get to that stage and we have the right uh Technical and uh governance guardrails then we we could be in a world where we just reap the benefits um and we avoid the catastrophic outcomes so on our way there um one of the obstacles is the competition between",
+    "speaker": "Yoshua Bengio",
+    "claim": "International cooperation is necessary to govern AI development and avoid catastrophic outcomes.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "International cooperation is necessary to govern AI development and avoid catastrophic outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI governance",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3567.6,
+    "end": 3643.6,
+    "text": "superficial uh even in the AI Community I talked to a lot of AI researchers and then I asked them so have you been reading or like thinking about this discussion and this debate you know what we do you think and most of the time I get an answer that tells me they read the headlines and then maybe they made up their mind you know one way or the other but very few people take the time to dig like read up think about it make up their own mind uh try to see the logic of different positive or negative scenarios um and that's true for AI scientists it's also true of course in the general population where they don't have the references like they they they think about science fiction templates um and politicians it's the same thing um is the movement a little bit Western Centric and and if it is why is that so I've been talking to people in developing countries uh I've been also talking to people in",
+    "speaker": "Yoshua Bengio",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI community engagement",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI community engagement",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3737.2,
+    "end": 3807.8,
+    "text": "think they can develop their economy by deploying AI you know uh training their Workforce to to like engineer it in various applications and and building their own even Sovereign um capabilities but it's going to lag for a while yeah I wonder by how much because you know um uh Alibaba have just released some incredibly strong language models and right I suppose the question is what what is the mode is it technical knowledge or is it just raw data and Compu all of these things and capital which is kind of connected to all three yeah I don't think so if if we were to freeze um the scientific and Engineering advances in AI there would be no moat it would be quickly eaten up but of course that's not the reality the reality is we're continuing to accelerate towards AGI and there's this uh",
+    "speaker": "Tim Scarfe",
+    "claim": "The acceleration towards AGI is ongoing despite current limitations in AI capabilities.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Tim Scarfe",
+    "is_claim_silver": true,
+    "claim_silver": "The acceleration towards AGI is ongoing despite current limitations in AI capabilities.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6012.2,
+    "end": 6099.2,
+    "text": "world yeah I I love this casting of creativity as epistemic foraging because that that gives it an intrinsic value but there's also this idea potentially that it's a social phenomenon or its Observer relative you know so um categories let's say mo 37 was actually something that we came to recognize as a collective as as being a thing and and that's how it works but I suppose there are different ways to think about it yeah yeah I think I think the go moves that we didn't expect were a good a good way to think about that but I'd like to think also about uh something a little bit more General and Abstract which is this mode Discovery yes epistemic foraging as you call it I like that term it's it's call friston's term ah okay well yes it's it's a it's exactly right um it's it's foraging it's exploration and you know when you found something good but you don't know where it is so how do you guess where good things are in a very high dimensional space well you need to have good intuition but it needs to be accompanied with a bit of search uh by the way a lot of that search for humans is not happening in individual Brains it's happening at the level of the collective right yes indeed Professor Benjo thank you so much for joining us today it's been an absolute honor thank you so much pleasure thanks for having me amazing",
+    "speaker": "Yoshua Bengio",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI creativity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI creativity",
+    "reviewed": true,
+    "round": 2
   }
 ]

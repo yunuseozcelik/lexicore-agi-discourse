@@ -259,5 +259,278 @@
     "topic_silver": "AI and gene editing",
     "reviewed": true,
     "text_tr": "Hımm, gen düzenleme konusunda ne düşünüyorsunuz? >> Çok daha az endişe verici. Yani, bir insanın bir sorunu varsa, o kadar. Hala sadece bir insan. Eğer düzenleme araçlarımız varsa, yaptığımız değişiklikleri daha sonra aynı düzenleme aracıyla geri alabiliriz. Eğer bir hata yaptıysak, geri dönüp o sorunları düzeltebiliriz. Bu yüzden, etki açısından çok daha az endişeliyim. En kötü senaryolar, evet, birey için etik sonuçlar var, örneğin insan klonlaması nedeniyle hapse girmiş biri gibi, bu çocuk için önemli ölçüde zarar verebileceği düşünüldüğünde sorunlu kabul ediliyor. Ama insanlık olarak bu deneyden doğrudan olumsuz etkilenmiyoruz. Hımm. AI'nın bununla kesişimi nerede? AI, uzun yaşayan insanlar ile yaşamayanlar arasındaki genom seviyesindeki benzerlikleri haritalamak açısından kritik bir araç mı olacak? Hımm, AI, bildiğiniz gibi, yeni protein katlanması yapacak ve hastalanan insanların bazı mimari sorunlarını çözmeye mi gidecek? Bu, uzun ömürle nasıl bir arayüz oluşturacak?"
+  },
+  {
+    "start": 514.1,
+    "end": 596.8,
+    "text": "Typically, we start with human data as a seed and grow from there, but there is zero reason to think we cannot do with zero knowledge learning in other domains. You can do run novel experiments in physics and chemistry, discover things from first principles. And yeah, we're starting to see AI used to assist in design design of new models, parameters for models, optimization of runs. And this process will continue. They already design new computer chips on which they're going to run. So, there is definitely a improvement cycle. It's not fully complete. There are still humans in a loop, a lot of great humans in a loop, but long-term, I think all the steps can be automated. Okay, and do you think that right now AI already has what it needs to improve itself, or are we still at a point where if all humans stopped, that AI would be like, \"Oh, damn. I'm I didn't quite get the thing that I needed.\" So, there is a debate about whatever we need another big breakthrough to get to full AGI and superintelligence, or maybe multiple breakthroughs, or you're just scaling what we have is enough. If I just give another, I don't know, trillion dollars worth of compute to train on and more data, will it get to AGI?",
+    "speaker": "Roman Yampolskiy",
+    "claim": "There is a debate about whether we need another big breakthrough to achieve AGI or if scaling current methods is sufficient.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "There is a debate about whether we need another big breakthrough to achieve AGI or if scaling current methods is sufficient.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1404.3,
+    "end": 1473.9,
+    "text": "Right. So, there is a number of issues. You're kind of suggesting having a back door where at any point you can intervene and tell it something else, override previous commands. And that it gets a reward that it wants for complying. Right. So, there is a whole bunch of problems with that. So, one is you are the source of reward. It may be more efficient for it to hack you and get reward directly that way than to actually do any useful work for you. Second problem is you're creating competing goals. One goal is whatever you're initially requesting. Second goal is always stop when a human tells you. So, now those two goals have competing reward channels, competing values. I may game it to maximize my reward in ways you don't anticipate. On top of it, you have multiple competing human agents. If you are creating an AI with a goal and a random human can tell it to stop, that's a problem in many domains. Military is not this example, but pretty much anywhere you don't want others to be able to shut down your whole enterprise.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Creating an AI that can be overridden by any human introduces significant risks and competing goals.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI safety risks",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Creating an AI that can be overridden by any human introduces significant risks and competing goals.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety risks",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 1813.0,
+    "end": 1883.5,
+    "text": "So, I think that it is a network with humans is because we are about the same level of capability, about the same level of intelligence. So, there is checks. If you start doing something unethical, your community can realize that and and punish you for it, control you in that way. If AI is so much more capable as we anticipate superintelligence to be, there is not much you can do in terms of impacting it or even detecting misbehavior. Also, all the standard human punishments, prisons, capital punishment, none of it is applicable to distributed immortal agents. So, kind of a standard infrastructure does not work with artificial more capable agents. As far as uh setting up specific metrics for delivering happiness or financial gain, all those can be played. The moment you give me a specific measure, I'll find a way to game it to where you will get anything but what you expected to get. Ooh, well, just to remind everybody the time frame we're talking about is somewhere between 2 and 5 years. This is not exactly a long time.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AGI is expected to arrive within 2 to 5 years, which is a short time frame.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI is expected to arrive within 2 to 5 years, which is a short time frame.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 2651.2,
+    "end": 2734.2,
+    "text": "There is a lot of kind of meta-inventions we are right about to make. And so, if someone was interested in studying how civilizations go through that stage, how do they control these technologies or fail to control them, that's the most interesting time to run. You're not going to run Dark Ages, where there is not as much happening. It's less interesting, but this seems to be like a meta-interesting state to be in. It's hard to tell, cuz we're inside the simulation, but you're saying it's a little bit suspect that we're living in the most interesting time ever. Yes, and I think it's interesting, not just because I'm living in it, but objectively, it's a time of meta-invention. You can go back through history and say, \"Oh, here they invented fire. Here they invented the wheel.\" That's all great, but those are just inventions, they are not meta-inventions. Whereas now, we're doing something godlike. We are creating new worlds. We are creating new beings. And that's something we have never done before. Mhm. Do you ever think like a sci-fi writer? So, I think the difference between science fiction and science used to be maybe 200 years. They wrote about travel to the moon, they wrote about kind of internet and computers, and it took hundreds of years to get there. And then it was like, I don't know, 20 years. And now, I think science fiction and science are like a year away.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "We are in a unique and interesting time of meta-invention, particularly with the creation of new beings and worlds through technology.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "Meta-invention",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "We are in a unique and interesting time of meta-invention, particularly with the creation of new beings and worlds through technology.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "agi_timeline"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Meta-invention",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 3059.7,
+    "end": 3170.5,
+    "text": "I have as much pessimism around our ability to do that well as you have our likelihood of surviving. So, I'll say 99.99% chance that the government completely messes that up. Uh I think the transitionary period will be violent. Um when you look out at this, knowing what you know about humans and governments, what What odds do you give it that that's a smooth transition? It's very likely to continue to be as it historically always been. We had many revolutions, many wars, a lot of violence. That's why we hear stories about people who can't afford it building bunkers, securing resources because they anticipate certain degree of unrest, absolutely. Mhm. What degree of unrest do you anticipate? It really depends on a percentage of population which quickly gets unemployed. If it's a gradual process, we can kind of learn and adapt and provide safety net. If over a course of weeks, months, we're losing 10, 20, 30% of jobs, that's a very different situation. Mhm. I can't imagine a scenario where jobs will be lost that quickly. To your point, we've already created, you said billions or even trillions of dollars of value in the technology, but it hasn't been deployed yet. Uh an example you often use is the video phone invented in the '70s, but not really adopted uh largely because of infrastructure, I would say, until the whatever 2011 uh where that starts to really gain in popularity. So, I have a feeling like just the deploying of all this stuff uh is going to take time. So, in a world where an unimaginable amount of people, which I'll clock at in the US, call it six or seven million people lose their jobs in the next five years.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The transition to a future with advanced AI will likely be violent and disruptive, leading to significant job losses.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI transition risks",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The transition to a future with advanced AI will likely be violent and disruptive, leading to significant job losses.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI transition risks",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4313.8,
+    "end": 4391.4,
+    "text": "Yeah, no, I wasn't If I said run it multiple times, my apologies. Um I was just saying that, given that you could get ahead of it from outside the simulation, it is of no emotional consequence to me that I don't know the next step. It is knowable. It is predetermined. It just isn't knowable by me. Uh and that doesn't So, I get no emotional alleviation from suffering if I were a person who was traumatized by the fact that I am an automata with no free will, which I am not. But, if I were, uh doesn't help me at all. Um and again, the reason I'm bringing that up is when I talk to you, I think, oh man, this is somebody He really can't stop himself. Like, you're wired to rail against this, to play the role in the grand balancing of the human species of like, hey, this is really a problem. We should slow down. And even though it's not getting you anywhere from where I can see, you're going to keep doing it, cuz you have like a moral compunction or something where you're like, I as the kind of person I am, I simply cannot exist and not try everything I can to stop this.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The speaker expresses a belief that the future is predetermined and that emotional responses to suffering are not alleviated by understanding one's lack of free will.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "Nature of free will",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The speaker expresses a belief that the future is predetermined and that emotional responses to suffering are not alleviated by understanding one's lack of free will.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Nature of free will",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4777.3,
+    "end": 4840.5,
+    "text": "They all worried about the next level of AI not wanting the same things, not caring about them personally. So, this is an ongoing self-improvement curve, and there is no upper limit we can see. There are these physical limits to what can be done in a physical universe, but it's so far away from us that it's almost infinity from our point of view. Mhm. When I look at humans, and when I I I may be making a um either a category error or I may have a foundational base assumption that's leading me astray, but when I look at what made humans work on a long time scale is evolution itself had survival as like a North Star. So, you have to survive and replicate. Uh at whatever point way back, evolution decided I'm going to do this through sexual replication, and I'm going to make sure that this creature dies off. Uh I think there are reasons for that which we'll get to when we get to longevity.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The ongoing self-improvement of AI has no upper limit, and there are concerns about AI not aligning with human values.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The ongoing self-improvement of AI has no upper limit, and there are concerns about AI not aligning with human values.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI alignment",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 4839.2,
+    "end": 4905.6,
+    "text": "Uh but I wanted to survive, but I wanted to survive by mating and having offspring that carry um certainly immune system uh blends so that it's less vulnerable to a single point of failure. And it realized, okay, if I'm going to do that, then this needs to be a species that both cooperates and competes, which means no one of them is the answer to the question of how to best survive. It's the whole um species. And when I look at even things like the left and the right politically, the way that I make sense of that is I say to myself, okay, I get from an evolutionary perspective, evolution had to be like, oh, hey, we have to cooperate. There's no refrigeration. So, I'm going to store calories on your body that I may need to take later versus uh being able to put in a refrigerator. And by that, I don't mean that I'm going to eat you. I mean, when I'm the one that's successfully hunting, I let you eat.",
+    "speaker": "Roman Yampolskiy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "evolutionary perspective",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "evolutionary perspective",
+    "reviewed": true,
+    "round": 2
+  },
+  {
+    "start": 6196.7,
+    "end": 6267.8,
+    "text": ">> All All of the above. We need to map the genome. We need to understand what individual parts do. We need to design novel drugs. Protein folding has been solved basically, but there is other things we can map on biological substrates. So, yeah, at every aspect of it, we we need AI, but I think as was illustrated with protein folding problem, a narrow system can do it without any superintelligence for that. Mm. What's something that's happening in AI right now that you don't think enough people are paying attention to? Well, I don't know what people are paying attention to. Usually after my talk, the questions I get seem to be completely irrelevant to the subject of my talk. I'll tell them that it's going to kill everyone, and they ask me if they're going to lose their jobs. So, I don't think it's a good way to measure what is important, but uh look at uh predictions from inside the labs. They uh starting to talk about automating research process, creating junior scientists as AI agents, AI models. They are saying that externally to the lab, people don't understand just how capable systems are yet.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI can automate research processes and create junior scientists without needing superintelligence.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI can automate research processes and create junior scientists without needing superintelligence.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2
   }
 ]
