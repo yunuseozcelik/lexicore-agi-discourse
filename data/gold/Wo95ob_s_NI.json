@@ -1,35 +1,5 @@
 [
   {
-    "start": 324.4,
-    "end": 390.3,
-    "text": "The models will be more sample efficient. You \nwon't have to collect a ton of data to teach   them how to get back on track. Just a little \nbit of data or their generalization from other   abilities will allow them to get back on track. \nCurrent models might just get stuck and get lost.\n   I want to understand specifically how \nthe generalization helps you get back on   track. Can you say more about that? I'm not \nsure why those two concepts are connected.\n   Right, they're not directly connected. You usually \nhave a little bit of data that does everything.   If you collect a diverse data set, you're going \nto get a little bit of everything in it. If you   have models that generalize really well—even from \njust a couple of examples of getting back on track   or if in the pre-training data there are a couple \nof examples of a model getting back on track—the   model will be able to generalize from those \nother things it’s seen to the current situation.",
-    "speaker": "John Schulman",
-    "claim": "Current AI models are improving in sample efficiency and generalization, allowing them to learn from fewer examples.",
-    "stance": "Neutral",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "is_claim": true,
-    "topic": "LLM capabilities",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "speaker_silver": "John Schulman",
-    "is_claim_silver": true,
-    "claim_silver": "Current AI models are improving in sample efficiency and generalization, allowing them to learn from fewer examples.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "scaling_compute"
-    ],
-    "stance_silver": "Neutral",
-    "topic_silver": "LLM capabilities",
-    "reviewed": false,
-    "text_tr": "Modeller daha örnek verimli olacak. Onları doğru yola geri döndürmek için tonlarca veri toplamanıza gerek kalmayacak. Sadece biraz veri veya diğer yeteneklerden genel bir çıkarım, onları doğru yola geri döndürmeye yetecek. Mevcut modeller sadece takılıp kaybolabilir. Genel çıkarımın doğru yola geri dönmenize nasıl yardımcı olduğunu özel olarak anlamak istiyorum. Bu konuda daha fazla şey söyleyebilir misiniz? Bu iki kavramın neden bağlantılı olduğunu pek anlayamıyorum. Doğru, doğrudan bağlantılı değiller. Genellikle her şeyi yapan biraz veri alırsınız. Çeşitli bir veri seti toplarsanız, içinde her şeyden biraz alırsınız. Eğer gerçekten iyi genelleştiren modellere sahipseniz—sadece doğru yola geri dönme ile ilgili birkaç örnekten veya ön eğitim verilerinde bir modelin doğru yola geri döndüğü birkaç örnekten—model, gördüğü diğer şeylerden mevcut duruma genelleme yapabilecektir."
-  },
-  {
     "start": 1111.6,
     "end": 1180.8,
     "text": "properly sandboxed and everything. Maybe \nit means not deploying it at scale or   being careful about what scale you deploy it at.\n \nLet's just play with a scenario. AGI happens next   year. You're not training a smarter system but \nyou're deploying it in a somewhat measured way.   Presumably the development wouldn’t be particular \nto OpenAI. AGI just turns out to be much easier   than we expected and that’s why it happened. \nSo you wait to deploy a little bit. Now other   companies have a similar level of capabilities. \nWhat happens next? While you wait to deploy,   what are you waiting for? What is every \ncompany doing in this scenario?  \n   The game theory is a little tough \nto think through. First of all,   I don't think this is going to \nhappen next year but it's still   useful to have the conversation. It \ncould be two or three years instead.",
@@ -56,38 +26,8 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AGI timeline",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "doğru bir şekilde sandbox'lanmış ve her şey. Belki de bu, onu ölçeklendirmemek veya hangi ölçekle dağıtım yapacağınız konusunda dikkatli olmak anlamına geliyor. Hadi bir senaryo ile oynayalım. AGI gelecek yıl gerçekleşiyor. Daha akıllı bir sistemi eğitmiyorsunuz ama onu bir ölçüde ölçülü bir şekilde dağıtıyorsunuz. Geliştirmenin OpenAI'ye özgü olmayacağı varsayılıyor. AGI, beklediğimizden çok daha kolay ortaya çıkıyor ve bu yüzden oldu. Biraz dağıtım yapmayı bekliyorsunuz. Şimdi diğer şirketler benzer yetenek seviyelerine sahip. Sonra ne oluyor? Dağıtım yapmayı beklerken, neyi bekliyorsunuz? Bu senaryoda her şirket ne yapıyor? Oyun teorisi biraz zor düşünülüyor. Öncelikle, bunun gelecek yıl olacağını düşünmüyorum ama bu konuşmayı yapmak yine de faydalı. Belki iki veya üç yıl sürebilir."
-  },
-  {
-    "start": 2072.9,
-    "end": 2179.2,
-    "text": "I'm not even sure if it's specialization. \nIt’s more so “I don't understand this part,   so let me look into it more deeply. I \nalready understand this.” I guess it’s   specializing to your existing knowledge base.\n \nI see. So it's not just about training on a bunch   of sources that are relevant and fine-tuning \non some special domain. It's also about   reasoning and developing some knowledge \nthrough your own reasoning and using some   sort of introspection or self-knowledge \nto figure out what it needs to learn?\n   Yeah.\n \nThat does feel like something that's missing   from today's systems. People haven't really pushed \ntoo hard on this middle ground between large-scale   training—where you produce a single snapshot model \nthat's supposed to do everything like a deployed   model—and on the other hand in-context learning.\nPart of that is that we've just been increasing   context length so much that there hasn't \nbeen an incentive for it. If you can go   to a hundred thousand or a million context, \nthen that's actually quite a lot. It’s not   actually the bottleneck in a lot of cases.\nI agree that you'd probably also want to   supplement that with some kind of fine-tuning. \nThe capabilities you get from fine-tuning and   in-context learning are probably somewhat \ncomplementary. I’d expect us to want to build   systems that do some online learning and also \nhave some cognitive skills, like introspecting   on their own knowledge and seeking out \nnew knowledge that fills in the holes.",
-    "speaker": "John Schulman",
-    "claim": "Current AI systems lack the ability to introspect and learn from their own knowledge gaps, which is a necessary capability for future development.",
-    "stance": "Refute",
-    "claim_labels": [
-      "llm_capabilities",
-      "ai_optimism_benefit"
-    ],
-    "is_claim": true,
-    "topic": "AI capabilities",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "llm_capabilities",
-      "ai_optimism_benefit"
-    ],
-    "speaker_silver": "John Schulman",
-    "is_claim_silver": true,
-    "claim_silver": "Current AI systems lack the ability to introspect and learn from their own knowledge gaps, which is a necessary capability for future development.",
-    "claim_labels_silver": [
-      "llm_capabilities",
-      "ai_optimism_benefit"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI capabilities",
-    "reviewed": false,
-    "text_tr": "Bunun bir uzmanlaşma olup olmadığından bile emin değilim. Daha çok “Bu kısmı anlamıyorum, o yüzden daha derinlemesine inceleyeyim. Bunu zaten anlıyorum.” gibi. Sanırım mevcut bilgi tabanınıza uzmanlaşmakla ilgili. Anladım. Yani, sadece ilgili birçok kaynağa eğitim vermek ve belirli bir alanda ince ayar yapmakla ilgili değil. Aynı zamanda kendi akıl yürütmenizle bazı bilgileri geliştirmek ve ne öğrenmesi gerektiğini anlamak için bir tür iç gözlem veya öz bilgi kullanmakla da ilgili mi? Evet. Bu, günümüz sistemlerinde eksik olan bir şey gibi görünüyor. İnsanlar, büyük ölçekli eğitim ile dağıtımda her şeyi yapması beklenen tek bir anlık görüntü modeli ürettiğiniz bu orta alan üzerinde çok fazla zorlamadılar ve diğer tarafta bağlam içinde öğrenme var. Bunun bir kısmı, bağlam uzunluğunu o kadar artırdık ki bunun için bir teşvik olmadı. Eğer yüz bin veya bir milyon bağlama gidebiliyorsanız, bu aslında oldukça fazla. Birçok durumda bu gerçekten bir darboğaz değil. Muhtemelen bunu bir tür ince ayar ile desteklemek isteyeceksiniz. İnce ayar ve bağlam içinde öğrenmeden elde ettiğiniz yetenekler muhtemelen bir şekilde tamamlayıcıdır. Online öğrenme yapan ve kendi bilgileri üzerinde iç gözlem yapabilen, yeni bilgileri arayan sistemler inşa etmek isteyeceğimizi düşünüyorum."
   },
   {
     "start": 2689.4,
@@ -116,7 +56,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "İnsanlar bir süreliğine sohbeti unuttular, bu alternatif dalga. Bunu daha da ileri götürdük ve tüm veri setlerini, talimat ve sohbet verilerini bir araya getirerek her iki dünyanın en iyisini elde etmeye çalıştık. Sohbet modelleri açıkça daha kolay kullanılıyordu. Modelin kendi sınırlamalarını bilmesi açısından çok daha mantıklı bir davranış sergiliyordu. Bu, geliştirme sürecinde beni heyecanlandıran şeylerden biriydi. İnsanların dil modellerinde kusur olarak düşündükleri birçok şeyin, açıkça hayal gücü gibi, tamamen düzeltilemeyecek şeyler değil, oldukça basit yöntemlerle büyük ilerleme kaydedilebilecek şeyler olduğunu fark ettim. Sohbetle ilgili diğer bir şey, bu talimat modellerine sahip olduğumuzda, “bu metni tamamla, ama güzel veya yardımcı bir şekilde” görevinin oldukça kötü tanımlanmış bir görev olmasıydı. Bu görev, hem model için hem de veri etiketleme yapması gereken insan için kafa karıştırıcıydı. Oysa sohbet için, insanların yardımcı bir robotun nasıl olması gerektiğine dair sezgisel bir anlayışları vardı. Bu nedenle, modelin ne yapması gerektiğini anlamak insanların çok daha kolayına geliyordu."
   },
   {
@@ -125,7 +65,7 @@
     "text": "Right, you might not be able to conclude that \nif transfer fails at GPT-2 size, then it's   also going to fail at a higher scale. It might \nbe that for the larger models, you learn better   shared representations, whereas the smaller models \nhave to lean too much on memorization. The larger   models can learn how to do the right computation. \nI would expect this to be true to some extent.\n   This might have a very simple answer. You \ntrain bigger models on the same amount of data   and they become smarter. Or to get the same \nlevel of intelligence, you only have to train   them on less data. Why is that the case? \nIt's got more parameters, seen fewer things,   and now it's equally as smart. Why is that?\n \nI don't think anyone has a good explanation   for the scaling law with parameter count. \nI don't even know what the best mental   model is for this. Clearly, you have more \ncapacity if you have a bigger model. So you   should eventually be able to get lower loss.\nWhy are bigger models more sample efficient?",
     "speaker": "John Schulman",
     "claim": "Larger AI models can learn better representations and become smarter with less data compared to smaller models.",
-    "stance": "Support",
+    "stance": "Neutral",
     "claim_labels": [
       "scaling_compute",
       "ai_optimism_benefit"
@@ -146,37 +86,193 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "Model scaling",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Doğru, eğer transfer GPT-2 boyutunda başarısız olursa, o zaman daha yüksek ölçeklerde de başarısız olacağını kesin olarak söyleyemezsiniz. Daha büyük modeller için, daha iyi paylaşılan temsiller öğreniyor olabilirsiniz, oysa daha küçük modeller çok fazla ezberlemeye dayanmak zorunda kalıyor. Daha büyük modeller doğru hesaplamayı yapmayı öğrenebilir. Bunun bir dereceye kadar doğru olmasını bekliyorum. Bu çok basit bir cevabı olabilir. Aynı miktarda veri ile daha büyük modeller eğitiyorsunuz ve daha akıllı hale geliyorlar. Ya da aynı zeka seviyesine ulaşmak için daha az veri ile eğitmeniz yeterli. Bunun nedeni nedir? Daha fazla parametreye sahip, daha az şey görmüş ve şimdi eşit derecede akıllı. Bunun nedeni nedir? Kimsenin parametre sayısı ile ölçek yasası için iyi bir açıklaması olduğunu düşünmüyorum. Bunun için en iyi zihinsel modelin ne olduğunu bile bilmiyorum. Açıkça, daha büyük bir modele sahip olduğunuzda daha fazla kapasiteye sahipsiniz. Bu nedenle, sonunda daha düşük kayıp elde edebilmelisiniz. Neden daha büyük modeller daha örnek verimli?"
   },
   {
-    "start": 5540.1,
-    "end": 5627.4,
-    "text": "Presumably, these things understand what screens \nlook like and will be able to interact with them   in a much more coherent way. Also you're going \nto do this long-horizon RL, so they'll be able   to act as agents in the systems and be part of \nyour workflow in a much more integrated way.  What do you expect that to look like? What will be \nthe next steps from there? Suppose by the end of   the year or next year, you have something that's \nan assistant who can work with you on your screen.   Does that seem like a sensible thing to \nexpect? Where does it go from there?\n   I definitely expect things to move in that \ndirection. It's unclear what's going to be   the best form factor. It could be something that's \nlike a Clippy on your computer helping you or if   it's more like a helpful colleague in the cloud. \nWe'll see which kinds of form factors work the   best. I expect people to try all of them out.\nI expect the mental model of a helpful assistant   or helpful colleague to become more real. It’ll \nbe something where you can share more of your   everyday work. Instead of just giving it \none-off queries, you would have a whole   project that you're doing and it knows about \neverything you've done on that project so far.",
+    "start": 2965.2,
+    "end": 3031.8,
+    "text": "see what we can do here with this language model \nstuff.\" But after GPT-2, I wasn't quite sure yet.\n   Let’s say the stuff we were talking about \nearlier with RL starts working better with   these smarter models. Does the fraction \nof compute that is spent on pre-training   versus post-training change significantly \nin favor of post-training in the future?\n   There are some arguments for that. \nRight now it's a pretty lopsided ratio.   You could argue that the output generated \nby the model is higher quality than most of   what's on the web. So it makes more sense for \nthe model to think by itself rather than just   training to imitate what's on the web. So I think \nthere's a first principles argument for that.  We found a lot of gains through post-training. \nSo I would expect us to keep pushing this   methodology and probably increasing \nthe amount of compute we put into it.",
     "speaker": "John Schulman",
-    "claim": "AI assistants will become more integrated into workflows and capable of long-horizon reinforcement learning.",
-    "stance": "Support",
+    "claim": "The fraction of compute spent on post-training will likely increase in the future due to the effectiveness of smarter models.",
+    "stance": "Neutral",
     "claim_labels": [
-      "ai_optimism_benefit",
-      "scaling_compute"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
-    "topic": "AI capabilities",
+    "topic": "LLM capabilities",
     "confidence": "medium",
     "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "scaling_compute"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "speaker_silver": "John Schulman",
     "is_claim_silver": true,
-    "claim_silver": "AI assistants will become more integrated into workflows and capable of long-horizon reinforcement learning.",
+    "claim_silver": "The fraction of compute spent on post-training will likely increase in the future due to the effectiveness of smarter models.",
     "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "scaling_compute"
+      "scaling_compute",
+      "ai_optimism_benefit"
     ],
     "stance_silver": "Support",
-    "topic_silver": "AI capabilities",
-    "reviewed": false,
-    "text_tr": "Muhtemelen, bu şeyler ekranların nasıl göründüğünü anlıyor ve onlarla çok daha tutarlı bir şekilde etkileşimde bulunabilecekler. Ayrıca uzun vadeli RL yapacaksınız, bu nedenle sistemlerde ajanlar olarak hareket edebilecekler ve iş akışınıza çok daha entegre bir şekilde katılabilecekler. Bunun nasıl görüneceğini bekliyorsunuz? Oradan sonraki adımlar ne olacak? Diyelim ki yılın sonuna veya gelecek yıla kadar, sizinle ekranınızda çalışabilen bir asistanınız var. Bu mantıklı bir şey gibi mi görünüyor? Oradan nereye gidiyor? Bu yönde bir hareket olmasını kesinlikle bekliyorum. En iyi form faktörünün ne olacağı belirsiz. Bilgisayarınızdaki Clippy gibi bir şey olabilir ya da bulutta yardımcı bir meslektaş gibi olabilir. Hangi form faktörlerinin en iyi çalıştığını göreceğiz. Yardımcı bir asistan veya yardımcı bir meslektaş zihinsel modelinin daha gerçek hale gelmesini bekliyorum. Bu, günlük işlerinizi daha fazla paylaşabileceğiniz bir şey olacak. Sadece tek seferlik sorgular vermek yerine, üzerinde çalıştığınız bir proje olacak ve o proje üzerinde şimdiye kadar yaptığınız her şeyi bilecek."
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Burada bu dil modeli şeyleriyle ne yapabileceğimize bakalım. Ama GPT-2'den sonra, henüz emin değildim. Diyelim ki, daha akıllı modellerle RL ile daha önce konuştuğumuz şeyler daha iyi çalışmaya başlıyor. Ön eğitim ile son eğitim arasında harcanan hesaplama oranı gelecekte son eğitimin lehine önemli ölçüde değişir mi? Bunun için bazı argümanlar var. Şu anda oldukça dengesiz bir oran var. Modelin ürettiği çıktının, internetteki çoğu şeyden daha yüksek kalitede olduğunu savunabilirsiniz. Bu nedenle, modelin sadece internetteki şeyleri taklit etmek yerine kendi başına düşünmesi daha mantıklı. Bu konuda ilk prensipler açısından bir argüman olduğunu düşünüyorum. Son eğitimle birçok kazanç elde ettik. Bu metodolojiyi zorlamaya devam edeceğimizi ve muhtemelen buna koyduğumuz hesaplama miktarını artıracağımızı bekliyorum."
+  },
+  {
+    "start": 2569.5,
+    "end": 2685.8,
+    "text": "It was clear after we did the first version, that \nthe next version should be conversational. So we   started working on the conversational chat \nassistant. This was built on top of GPT-3.5,   which was done training at the beginning of \n2022. That model was quite good at language   and code.  We quickly realized that it was \nactually quite good at coding help. That was   one of the things we were excited about.\nWe worked on that for most of the year.   We had browsing as another feature in \nit although we ended up deemphasizing   that later on because the model's internal \nknowledge was so good. The browsing wasn't   the most interesting thing about it. We had it \nout to friends and family for a while and we   were thinking about doing a public release.\nActually, GPT-4 finished training in August   that year. The flagship RL effort at OpenAI was \nthe instruction following effort because those   were the models that were being deployed into \nproduction. The first fine-tunes of GPT-4 used   that whole stack. Those models were really \ngood and everyone got really excited about   that after seeing the instruct fine tune GPT-4s.\nThey were really good. They would occasionally   give you amazing outputs, but the model \nwas clearly also pretty unreliable. It   would sometimes hallucinate it a lot. It \nwould sometimes give you pretty unhinged   outputs. So it was clearly not quite ready for \nprime time, but it was obviously very good.",
+    "speaker": "John Schulman",
+    "claim": "The development of GPT-4 showed significant advancements in language and coding capabilities, but it also had reliability issues.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "The development of GPT-4 showed significant advancements in language and coding capabilities, but it also had reliability issues.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "İlk versiyonu yaptıktan sonra, bir sonraki versiyonun konuşma odaklı olması gerektiği açıktı. Bu yüzden konuşma odaklı sohbet asistanı üzerinde çalışmaya başladık. Bu, 2022'nin başında eğitimi tamamlanan GPT-3.5'in üzerine inşa edildi. O model dil ve kod konusunda oldukça iyiydi. Kodlama yardımı konusunda gerçekten iyi olduğunu hızlıca fark ettik. Bu, bizi heyecanlandıran şeylerden biriydi. Bunun üzerinde yılın çoğunu çalıştık. İçinde başka bir özellik olarak tarayıcı da vardı, ancak modelin iç bilgisi o kadar iyi olduğu için bunu daha sonra önemsiz hale getirdik. Tarayıcı, onun en ilginç yanı değildi. Bir süreliğine arkadaşlarımıza ve ailemize sunduk ve kamuya açık bir sürüm yapmayı düşünüyorduk. Aslında, GPT-4 o yılın Ağustos ayında eğitimini tamamladı. OpenAI'deki öncelikli RL çabası, üretime dağıtılan modeller olduğu için talimatları takip etme çabasıydı. GPT-4'ün ilk ince ayarları bu tüm yığınları kullandı. Bu modeller gerçekten iyiydi ve herkes, talimat ince ayar GPT-4'leri gördükten sonra çok heyecanlandı. Gerçekten iyiydiler. Ara sıra harika çıktılar veriyorlardı, ancak modelin aynı zamanda oldukça güvenilmez olduğu da açıktı. Bazen çok fazla hayal gücüyle yanıt veriyordu. Bazen oldukça dengesiz çıktılar veriyordu. Yani, kesinlikle prime time için hazır değildi, ama çok iyi olduğu da açıktı."
+  },
+  {
+    "start": 236.5,
+    "end": 324.4,
+    "text": "Fundamentally the unlock is that it can act \ncoherently for long enough to write multiple files   of code? What has changed between now and then?  \n \nI would say this will come from some combination   of training the models to do harder tasks \nlike this. Most of the training data is   more like doing single steps at a time. \nI would expect us to do more for training   the models to carry out these longer projects.  \nThat’s for any kind of training, like doing RL,   to learn how to do these tasks. Whether you're \nsupervising the final output or supervising it   at each step, any kind of training at \ncarrying out these long projects is   going to make the models a lot better.\nSince the whole area is pretty new,   I'd say there's a lot of low-hanging fruit \nin doing this kind of training. That's one   thing. I would also expect that as models get \nbetter, they get better at recovering from   errors or dealing with edge cases. When things \ngo wrong, they’ll know how to recover from it.",
+    "speaker": "John Schulman",
+    "claim": "Improving AI models to handle longer projects and recover from errors will enhance their capabilities.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "Improving AI models to handle longer projects and recover from errors will enhance their capabilities.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Temelde açılım, uzun süre boyunca birden fazla kod dosyası yazacak şekilde tutarlı bir şekilde hareket edebilmesidir. Şimdi ile o zaman arasında ne değişti? Bunu, bu tür daha zor görevleri yerine getirmek için modelleri eğitmekten kaynaklanacağını söyleyebilirim. Çoğu eğitim verisi, daha çok tek adım atma gibi. Modelleri bu daha uzun projeleri gerçekleştirmeye yönelik daha fazla eğitim yapmamızı bekliyorum. Bu, bu görevleri nasıl yapacaklarını öğrenmek için RL gibi herhangi bir tür eğitim içindir. Sonuçları denetleyip denetlememeniz fark etmez; bu uzun projeleri gerçekleştirmek için herhangi bir tür eğitim, modelleri çok daha iyi hale getirecektir. Tüm alan oldukça yeni olduğu için, bu tür bir eğitimde çok sayıda kolay kazanım olduğunu söyleyebilirim. Bu bir şey. Modeller geliştikçe, hatalardan kurtulma veya kenar durumlarıyla başa çıkma konusunda daha iyi hale geleceklerini de bekliyorum. Bir şeyler ters gittiğinde, nasıl kurtulacaklarını bilecekler."
+  },
+  {
+    "start": 4227.2,
+    "end": 4367.8,
+    "text": "Will it mean that they basically do what the \nuser wants them to do? Does it mean that they   have to result in some sort of global outcome \nthat we're happy with as the stakeholders in   OpenAI? Concretely, what would that mean?\n \nIf the models are being used for these higher   stakes use cases, then we would have to \nthink about RLHF in a much different way   than we are right now.We're not quite ready \nfor that or the current methods might not be   completely sufficient. We would need to make \ncompromises between the needs of the different   stakeholders involved. We have this document \nthat we're releasing called the Model Spec.   It's about how we want our models \nto behave in the API and in ChatGPT.  We try to talk about this issue where there are \ndifferent stakeholders involved and sometimes   there are conflicts between what they might \nwant. In our case, we were thinking of the   stakeholders as the end user (someone sitting in \nfront of ChatGPT or some other app), the developer   (someone using the API who might be serving other \nend users with their app), the platform (OpenAI,   we don't want the models to expose us to legal \nrisk), and the rest of humanity (including   people not part of the users or customers).\nObviously, the user might ask the model to   do something that we think is actively harmful to \nother people. We might have to refuse that. By the   way, this isn't the order of priority necessarily. \nThese are just the four or so classes of   stakeholder. Actually, you could maybe also say in \nthe future, the model itself. We're not there yet.",
+    "speaker": "John Schulman",
+    "claim": "Current AI models are not ready for high-stakes use cases and may require compromises between different stakeholder needs.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are not ready for high-stakes use cases and may require compromises between different stakeholder needs.",
+    "claim_labels_silver": [
+      "open_source",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Kullanıcının istediği şeyleri temelde yapmaları mı anlamına geliyor? Bu, OpenAI'deki paydaşlar olarak mutlu olduğumuz bir tür küresel sonuçla mı sonuçlanması gerektiği anlamına geliyor? Somut olarak, bu ne anlama geliyor? Eğer modeller bu daha yüksek riskli kullanım durumları için kullanılıyorsa, o zaman RLHF'yi şu anda olduğundan çok farklı bir şekilde düşünmemiz gerekecek. Bunun için henüz hazır değiliz ya da mevcut yöntemler tamamen yeterli olmayabilir. İlgili farklı paydaşların ihtiyaçları arasında uzlaşmalar yapmamız gerekecek. Yayınlayacağımız bir belge var, Model Spesifikasyonu adını taşıyor. Modellerimizin API'de ve ChatGPT'de nasıl davranmasını istediğimizle ilgili. Farklı paydaşların dahil olduğu bu sorunu ele almaya çalışıyoruz ve bazen ne istediklerinde çatışmalar olabiliyor. Bizim durumumuzda, paydaşları son kullanıcı (ChatGPT veya başka bir uygulamanın önünde oturan biri), geliştirici (API'yi kullanan ve diğer son kullanıcılara hizmet eden biri), platform (OpenAI, modellerin bizi yasal risklere maruz bırakmasını istemiyoruz) ve insanlığın geri kalanı (kullanıcılar veya müşteriler dışında kalan insanlar) olarak düşünüyorduk. Açıkça, kullanıcı modelden, diğer insanlara aktif olarak zarar verebileceğini düşündüğümüz bir şey yapmasını isteyebilir. Bunu reddetmek zorunda kalabiliriz. Bu arada, bu mutlaka öncelik sırası değil. Bunlar sadece dört veya daha fazla paydaş sınıfı. Aslında, belki de gelecekte modelin kendisi de olabilir. Henüz orada değiliz."
+  },
+  {
+    "start": 1622.4,
+    "end": 1698.4,
+    "text": "I would say it's not something we have to be \nscared of right now because right now it's   hard to get the models to do anything coherent.\nIf they started to get really good, we would   want to take some of these questions seriously. \nWe would want to have a lot of evals that test   them for misbehavior, mostly for the alignment \nof the models. We'd want to check that they’re   not going to turn against us or something. You \nmight also want to look for discontinuous jumps   in capabilities. You'd want to have lots of \nevals for the capabilities of the models.  You'd also want to make sure that whatever \nyou're training on doesn't have any reason to   make the model turn against you. That doesn't \nseem like the hardest thing to do. The way we   train them with RLHF, that does feel very \nsafe even though the models are very smart.",
+    "speaker": "John Schulman",
+    "claim": "We shouldn't be scared of AGI right now because current models struggle with coherence and alignment.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "We shouldn't be scared of AGI right now because current models struggle with coherence and alignment.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Bunu şu anda korkulacak bir şey olarak görmüyorum çünkü şu an modellerin tutarlı bir şeyler yapması zor. Eğer gerçekten iyi hale gelirlerse, bu soruları ciddiye almak isteyeceğiz. Modellerin uyumunu test eden birçok değerlendirme yapmak isteyeceğiz. Onların bize karşı dönmeyeceklerinden emin olmak isteyeceğiz. Yeteneklerde kesintili sıçramalar aramak isteyebilirsiniz. Modellerin yetenekleri için birçok değerlendirme yapmak isteyeceksiniz. Eğittiğiniz şeyin, modelin size karşı dönmesine neden olacak bir şey içermediğinden emin olmalısınız. Bu, yapılması zor bir şey gibi görünmüyor. Onları RLHF ile eğitme şeklimiz oldukça güvenli hissettiriyor, oysa modeller gerçekten çok akıllı."
+  },
+  {
+    "start": 393.7,
+    "end": 486.2,
+    "text": "If you have models that are weaker, you might \nbe able to get them to do almost anything with   enough data. But you might have to put a lot \nof effort into a particular domain or skill.    Whereas for a stronger model, \nit might just do the right thing   without any training data or any effort.\n \nRight now these models can work coherently   for five minutes. We want them to be able to do \ntasks that a human would take an hour to do, then   a week, then a month, and so forth. \nTo get to each of these benchmarks,   is it going to be the case that each one takes \n10X more compute, analogous to the current   scaling laws for pre-training? Or is it going \nto be a much more streamlined process of just   getting to that point where you're already more \nsample efficient and you can just go straight to   the years of carrying out tasks or something? \n \nAt a high level, I would agree that longer-horizon   tasks are going to require more model intelligence \nto do well. They are going to be more expensive to   train. I'm not sure I would expect a really \nclean scaling law unless you set it up in a   very careful way, or design the experiment in a \ncertain way. There might end up being some phase   transitions where once you get to a certain \nlevel you can deal with much longer tasks.",
+    "speaker": "John Schulman",
+    "claim": "Longer-horizon tasks will require more model intelligence and may not follow a clean scaling law.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "Longer-horizon tasks will require more model intelligence and may not follow a clean scaling law.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Eğer daha zayıf modellere sahipseniz, yeterince veri ile neredeyse her şeyi yapmalarını sağlayabilirsiniz. Ama belirli bir alan veya beceri üzerinde çok fazla çaba harcamanız gerekebilir. Oysa daha güçlü bir model için, herhangi bir eğitim verisi veya çaba olmadan doğru şeyi yapabilir. Şu anda bu modeller beş dakika boyunca tutarlı bir şekilde çalışabiliyor. Onların, bir insanın bir saatte yapacağı görevleri, sonra bir haftada, sonra bir ayda ve daha fazlasında yapabilmelerini istiyoruz. Bu her bir bu eşik için, her birinin 10 kat daha fazla hesaplama gerektirip gerektirmeyeceği, mevcut ön eğitim için ölçekleme yasalarına benzer mi? Yoksa, zaten daha örnek verimli hale geldiğiniz ve doğrudan görevleri yerine getirme yıllarına geçebileceğiniz çok daha akıcı bir süreç mi olacak? Yüksek seviyede, daha uzun vadeli görevlerin iyi bir şekilde yerine getirilmesi için daha fazla model zekası gerektireceğine katılıyorum. Bunlar eğitmek için daha pahalı olacak. Gerçekten temiz bir ölçekleme yasası beklemiyorum, eğer bunu çok dikkatli bir şekilde kurmazsanız veya deneyi belirli bir şekilde tasarlamazsanız. Belirli bir seviyeye ulaştığınızda, çok daha uzun görevlerle başa çıkabileceğiniz bazı aşama geçişleri olabilir."
   }
 ]

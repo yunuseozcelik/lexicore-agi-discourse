@@ -26,7 +26,7 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "Nature of AI",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Buna devam edebiliriz, ama temelde bu etkileşimlerin yan etkileri var. İnsan zihninde çok ilginç bir karşılık var. Yani, evrim yoluyla doğan biyolojik zeka ile evrim yoluyla doğan yapay zeka arasında temel bir ayrım yapıp yapmadığınızı bilmiyorum, ama insan evrimi bir noktada bir şey keşfetti ki, o da duygudur. Ve bazı insanların AI'nın qualia'ya sahip olduğunu, onun bir şey gibi olduğunu öne sürdüğünü biliyorum. Ama ilginç bir çalışma var ki, eğer beynin duygusal işleme alanlarını seçici olarak hasar verirseniz, kişi bir daha ileri gidemiyor. Size cevap verebilirler. Neden balık mı yoksa Twinkie mi yemelisiniz, bunun farkını söyleyebilirler. Ama sonra, \"Tamam, ama hangisini yemek istersin?\" dediğinizde, karar veremezler. Çünkü duygu olmadan, onları bir yöne iten şey yoktur. Bu, AI'nın yalnızca eğitim verilerinde gördüğünü taklit ettiğini düşündürüyor, yalan söyleyip dolandırmaya çalışıp çalışmayacağına, çünkü verilerde bunun bir insanın yapacağı şey olduğunu görüyor. Ama insanlar bunu, onları o yöne iten duygulara sahip oldukları için yapıyorlar. AI'nın gerçekten bu şeyleri yapma ve kaynak harcama konusunda bir kaygısı olacağına dair bir kanıtımız var mı?"
   },
   {
@@ -53,7 +53,7 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Birinin diğerinden daha olası olup olmadığını veya burada sadece saf bir kalıp tanıma mı olduğunu, ama nihayetinde fizikten düşünmeye ve neden-sonuç ilişkisine ulaşacağımızı düşünüyorum? Yani, kimsenin kesin olarak modellerin bunu nasıl yaptığını ve dünyanın haritalarını ne kadar ayrıntılı oluşturduğunu bildiğini düşünmüyorum. Bu kesinlikle, karakterlerin istatistiksel tahmininin saf bir durumu değil. İngilizcede, T'den sonra belirli bir olasılıkla H gelir. Bunun çok ötesinde. Ayrıca, atom seviyesinden yukarıya doğru bir tam fizik modeli oluşturduğuna dair de pek olası değil. Ama bir yerde, bir problemin alt alanının bir modelini oluşturuyor. Yani, dünyanın bir modeli var. Bu, dünyanın bir haritası. Avustralya'nın burada sağa doğru bir yerde olduğunu biliyorum. Ve bu belirli alt alanlarda testler yapabileceğimizi düşünüyorum, içsel modelin durumlarının ne olduğunu görmek için. Bize bir harita çizerek ne kadar yaklaştığınızı gösteriyor. Hiçbir bilgiyi açıkça ezberlemiyor, ama doğru istemleri sağlayarak bazı öğrenilmiş kalıpları ondan çıkarabilirsiniz. Benimle kalın çünkü size söyleyeceğim şey, şu anda dinleyen her bir kişiyi etkiliyor. Kişisel verilerinizden kâr elde eden milyar dolarlık bir endüstri var ve tek kazanan siz değilsiniz. Veri brokerleri, yasal olarak bilgilerinizi, ev adresinizi, e-posta adresinizi, telefon numaranızı, hatta sosyal güvenlik numaranızı topluyor ve bunu nakit paraya çeviriyor. Dolandırıcılar bunu kimlik çalmak için kullanıyor, suçlular bunu dolandırıcılık yapmak için kullanıyor, takipçiler bile bunu kurbanları bulmak için kullanıyor. İşte burada Incogni devreye giriyor."
   },
   {
@@ -62,7 +62,7 @@
     "text": "Okay. Uh that makes a lot of sense. Now, given the likelihood that we will we're obviously showing that we will pursue artificial superintelligence. Uh if I take your same logic from the fact that we're likely to be in a simulation, because we know we would make a simulation, because we're doing it right now, uh and therefore, you get into the point where you would just make billions of those. And so, if you have a one in a billion chance of being inside of a simulation, you're effectively guaranteed to be in one now, because there would just be so many of these things running. Um doesn't it also then make sense that the Matrix was effectively a documentary, and we are inside of a simulation created by artificial superintelligence designed to mollify us, um if we ever had a physical body in the first place? So, it's hard to tell from inside of a simulation what it is all about. You really need access to outside. It could be entertainment, it could be testing, it could be some sort of scientific research. If we look at the time we actually find ourselves in, we are about to create new worlds, virtual realities. We are about to create new intelligence species, AI.",
     "speaker": "Roman Yampolskiy",
     "claim": "We are on the verge of creating new intelligent species through AI and virtual realities.",
-    "stance": "Support",
+    "stance": "Neutral",
     "claim_labels": [
       "ai_optimism_benefit",
       "execution_engineering"
@@ -83,8 +83,95 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Tamam. Bu çok mantıklı. Şimdi, yapay süper zekayı takip edeceğimiz gerçeği göz önüne alındığında, bir simülasyonda olma olasılığımızın yüksek olduğunu düşündüğümüzde, çünkü bir simülasyon yapabileceğimizi biliyoruz, çünkü şu anda bunu yapıyoruz, bu durumda milyarlarca simülasyon yapma noktasına geliyorsunuz. Yani, bir simülasyonda olma şansınız bir milyonda birse, şu anda bir simülasyonda olmanız neredeyse garanti, çünkü bu tür şeylerin o kadar çok çalışıyor olması gerekiyor. Bu durumda, Matrix'in aslında bir belgesel olduğu ve bizlerin, eğer ilk başta fiziksel bir bedene sahipsek, bizi yatıştırmak için tasarlanmış yapay süper zeka tarafından yaratılmış bir simülasyonda olduğumuz mantıklı değil mi? Bir simülasyonun içinden ne olduğunu anlamak zor. Dışarıya erişim sağlamanız gerekiyor. Bu eğlence olabilir, test etme olabilir, bir tür bilimsel araştırma olabilir. Gerçekten bulunduğumuz zamana baktığımızda, yeni dünyalar, sanal gerçeklikler yaratmak üzereyiz. Yeni zeka türleri, yapay zeka yaratmak üzereyiz."
+  },
+  {
+    "start": 2243.6,
+    "end": 2334.2,
+    "text": "Um what does that look like? Yeah, so in all those domains, medicine, biology, physics, if we got superintelligent level capability and we're controlling it, it's friendly, it's not using it to make tools to kill us, the progress would be incredible. Basically, anything you ever dreamed about, you're immortal, you're always young, healthy, wealthy, like all those things can be achieved with that level of technology. The hard problem is how do we control it? Leaning into that for a second. So, here's how I see the world playing out and I'd be very interested to see what you think about this. So, you have to for what I'm about to say to make any sense, I'll say it your option is what I'll call the fifth option. We're we're all dead. Other than we're all dead, there are four other options that I see us racing towards very rapidly and I will say these four will play out in the next 30 years would be my guess. Probably much faster given that once you get artificial superintelligence, assuming it doesn't choose option five and kill us all, that progress in these domains would be made very fast. Option number one is people go to Mars because meaning and purpose will become the all-consuming thing. You won't have to worry about food, shelter, not even wealth. It'll just be an age of because energy costs go to zero, labor costs go to zero and those are the things that stop things from being free and readily available to everybody.",
+    "speaker": "Unknown",
+    "claim": "If we achieve superintelligent AI that is friendly, it could lead to incredible progress and solutions to many human problems within the next 30 years.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "If we achieve superintelligent AI that is friendly, it could lead to incredible progress and solutions to many human problems within the next 30 years.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": true,
+    "text_tr": "Um, bu neye benziyor? Evet, bu alanların hepsinde, tıp, biyoloji, fizik, eğer süper zeki seviyede bir yetenek elde edersek ve bunu kontrol ediyorsak, dostça, bizi öldürmek için araçlar yapmıyorsa, ilerleme inanılmaz olur. Temelde, hayal ettiğiniz her şey, ölümsüzsünüz, her zaman genç, sağlıklı, zengin, bu tür şeyler o seviyedeki teknoloji ile elde edilebilir. Zor olan sorun, bunu nasıl kontrol edeceğimizdir? Buna bir an için eğilerek. Yani, dünyayı nasıl gördüğümü şöyle özetleyebilirim ve bunun hakkında ne düşündüğünüzü görmekle çok ilgileniyorum. Söyleyeceğim şeyin anlam kazanması için, beşinci seçenek dediğim seçeneği söyleyeceğim. Hepimiz ölüyoruz. Hepimiz ölüyoruz dışında, çok hızlı bir şekilde ilerlediğimizi gördüğüm dört başka seçenek var ve bu dört seçeneğin önümüzdeki 30 yıl içinde gerçekleşeceğini tahmin ediyorum. Muhtemelen çok daha hızlı, çünkü yapay süper zeka elde ettiğinizde, eğer beşinci seçeneği seçmez ve hepimizi öldürmezse, bu alanlarda ilerleme çok hızlı bir şekilde yapılacaktır. Birinci seçenek, insanların Mars'a gitmesi çünkü anlam ve amaç her şeyi kapsayan bir şey haline gelecek. Artık yiyecek, barınma, hatta zenginlik konusunda endişelenmenize gerek kalmayacak. Bu, enerji maliyetleri sıfıra düştüğünde, iş gücü maliyetleri sıfıra düştüğünde ve bunlar, her şeyin ücretsiz ve herkesin erişimine açık olmasını engelleyen şeyler haline gelecektir."
+  },
+  {
+    "start": 2731.8,
+    "end": 2842.3,
+    "text": "The moment somebody writes something, it already exists, and there is really no new science fiction ideas, where it's like completely novel technology not previously described, or someone already working on it, if physics allows it. That's really interesting. Uh especially when you think about writing now for true science fiction, in terms of what will become possible in the future, is effectively impossible, because you're talking about superintelligence. And good luck, as a person locked in your not superintelligence to actually describe that. The reason that I asked, though, is um when I start thinking about things like that, like why would we run this simulation? What clues are in like, if this is a simulation, what clues are in it? Uh so, for instance, um the whole Christian idea, for sure, and there might be more religions that have the same idea, but that man is made in God's image. Okay, well, if God is the 13-year-old running the simulation, or Sarah Connor, or I guess John Connor, running the simulation, trying to figure out why we created Skynet and what we can do to nudge it off course, um you know, you think of them as sort of moving from radioactive rubble to radioactive rubble, trying to like find an answer to this, and spinning up a simulation to get that answer. Um that to me becomes very intriguing in terms of hypothesizing as to why this moment, why are we the way that we are, what can we learn about the people trying to simulate us? When I ask questions like that of engineers such as yourself, there's almost uh I don't have time to think like a sci-fi writer vibe. Um is it just that your you don't find that interesting, you don't find it revelatory?",
+    "speaker": "Roman Yampolskiy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI simulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI simulation",
+    "reviewed": true,
+    "text_tr": "Birisi bir şey yazdığı an, o şey zaten var oluyor ve gerçekten tamamen yeni bilim kurgu fikirleri yok, daha önce tanımlanmamış tamamen yenilikçi bir teknoloji yok ya da üzerinde çalışan birisi yoksa, eğer fizik buna izin veriyorsa. Bu gerçekten ilginç. Özellikle gelecekte mümkün olacak şeyler açısından gerçek bilim kurgu yazmayı düşündüğünüzde, bu neredeyse imkansız, çünkü süper zeka hakkında konuşuyorsunuz. Ve iyi şanslar, süper zeka olmayan bir kişi olarak bunu gerçekten tanımlamak zorundasınız. Ancak bunu sormamın nedeni, böyle şeyler düşünmeye başladığımda, neden bu simülasyonu çalıştırıyoruz? Eğer bu bir simülasyon ise, içinde ne tür ipuçları var? Örneğin, kesinlikle Hristiyan fikri ve aynı fikre sahip olabilecek daha fazla din olabilir, ama insan Tanrı'nın suretinde yaratılmıştır. Tamam, eğer Tanrı simülasyonu yöneten 13 yaşındaki bir çocuksa ya da Sarah Connor ya da sanırım John Connor, simülasyonu yöneten, Skynet'i neden yarattığımızı ve onu nasıl yolundan saptırabileceğimizi anlamaya çalışan biri, onları radyoaktif molozlardan radyoaktif molozlara hareket ederken düşünüyorsunuz, bu sorunun cevabını bulmaya çalışıyorlar ve bu cevabı almak için bir simülasyon başlatıyorlar. Bu, neden bu an, neden böyle olduğumuz, bizi simüle etmeye çalışan insanlar hakkında ne öğrenebiliriz sorularını sormak açısından çok ilginç hale geliyor. Mühendisler gibi sizlere böyle sorular sorduğumda, neredeyse bilim kurgu yazarı gibi düşünmeye zamanım yok hissi var. Sadece ilginç bulmadığınız, aydınlatıcı bulmadığınız mı?"
+  },
+  {
+    "start": 5714.5,
+    "end": 5797.0,
+    "text": "Um do you feel I'm missing something? I I think it would be easier and more efficient to simply make you still capable of learning and adapting as you get older. And also you wouldn't have to relearn everything for first 20 years including language and how to walk. We know that it's possible to encode those capabilities. Animals are born and immediately they can run, they can speak. So, all those things are doable. Why are we losing 20 years of information every generation? We can build on top of preexisting knowledge. Big data is good for intelligence. So, we can have smarter, more efficient reproduction cycle and you still die of natural causes. It wouldn't be complete stagnation, but if you're smart enough to survive for 400 years, why not? Well, my why not is uh entirely predicated on not having a clear understanding of how we would bake in the ability to adapt uh long into our old age because you're right, if we could stay in that novel period uh or at least move through cycles of extreme sort of remapping of the world, um maybe that would work and maybe we can identify where that is.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "We could enhance intelligence by allowing learning and adaptation throughout life, rather than losing knowledge every generation.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "is_claim": true,
+    "topic": "Intelligence adaptation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "We could enhance intelligence by allowing learning and adaptation throughout life, rather than losing knowledge every generation.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Intelligence adaptation",
+    "reviewed": true,
+    "text_tr": "Bir şeyin eksik olduğunu düşünüyor musun? Bence, yaşlandıkça öğrenme ve uyum sağlama yeteneğini korumanın daha kolay ve daha verimli olacağını düşünüyorum. Ayrıca, ilk 20 yıl boyunca her şeyi yeniden öğrenmek zorunda kalmazsınız, dil ve yürümek dahil. Bu yetenekleri kodlamanın mümkün olduğunu biliyoruz. Hayvanlar doğar doğmaz koşabiliyor, konuşabiliyor. Yani, tüm bu şeyler yapılabilir. Neden her nesilde 20 yıl bilgi kaybediyoruz? Önceden var olan bilginin üzerine inşa edebiliriz. Büyük veri, zeka için iyidir. Yani, daha akıllı, daha verimli bir üreme döngüsü oluşturabiliriz ve yine de doğal nedenlerden ölürsünüz. Tam bir duraklama olmaz, ama eğer 400 yıl hayatta kalacak kadar akıllıysanız, neden olmasın? Benim nedenim, uyum sağlama yeteneğini yaşlılık dönemimize kadar nasıl yerleştireceğimiz konusunda net bir anlayışa sahip olmamamızdır, çünkü haklısınız, eğer o yeni dönem boyunca kalabilirsek ya da en azından dünyanın aşırı yeniden haritalanma döngülerinden geçebilirsek, belki bu işe yarar ve belki de nerede olduğunu belirleyebiliriz."
   },
   {
     "start": 2907.2,
@@ -92,7 +179,7 @@
     "text": "I do think the singularity point is where science fiction and science become the same. The moment something is conceived, we have superintelligence systems capable of developing it and producing it immediately. It's no longer 200 years away, it's reality. And you can't see beyond that event horizon. You cannot predict what's going to happen afterwards. And with science fiction, you cannot write meaningful, believable science fiction with a superintelligent character in it, because you are not. All right, let's ground things then in what we can predict and we can know right now. Something that's on everybody's mind, and I've been talking about this in my own content, is the labor market seems to be softening. You've got places like Amazon that are just cutting jobs like crazy. Um and just saying outright, this is largely because of optimizations that we're able to make because of AI. How does this transition play out? Like, even if you concede that uh a non-destructive AI would give us um essentially an age of abundance, we're still going to go through a transition period where our jobs go away, etc., etc. What are the What are the steps that you see happening in the labor market?",
     "speaker": "Roman Yampolskiy",
     "claim": "The arrival of superintelligent systems will drastically change our reality and the labor market, leading to job losses during the transition.",
-    "stance": "Support",
+    "stance": "Neutral",
     "claim_labels": [
       "ai_economics",
       "ai_optimism_benefit"
@@ -113,7 +200,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI impact on jobs",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Tekillik noktasının bilim kurgu ve bilimin aynı hale geldiği yer olduğunu düşünüyorum. Bir şey tasarlandığı an, onu geliştirebilecek ve hemen üretebilecek süper zeka sistemlerimiz var. Artık 200 yıl uzakta değil, gerçeklik. Ve o olay ufkunun ötesini göremezsiniz. Sonrasında ne olacağını tahmin edemezsiniz. Ve bilim kurguda, içinde süper zeka karakteri olan anlamlı, inandırıcı bir bilim kurgu yazamazsınız, çünkü siz süper zeka değilsiniz. Tamam, o zaman öngörebildiğimiz ve şu anda bildiğimiz şeylere odaklanalım. Herkesin aklında olan bir şey, kendi içeriklerimde de konuştuğum gibi, işgücü piyasasının yumuşadığı görünüyor. Amazon gibi yerler işten çıkarmaları deli gibi yapıyor. Ve açıkça, bunun büyük ölçüde yapay zeka sayesinde yapabildiğimiz optimizasyonlardan kaynaklandığını söylüyorlar. Bu geçiş nasıl gerçekleşiyor? Yani, yıkıcı olmayan bir yapay zekanın bize esasen bir bolluk çağı vereceğini kabul etseniz bile, yine de işlerin kaybolacağı bir geçiş döneminden geçeceğiz, vb. İşgücü piyasasında neler olacağını görüyorsunuz?"
   },
   {
@@ -143,13 +230,13 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI safety",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Evet. Çok ilginç, dostum. Peki, gününü nasıl geçiriyorsun? Yani, başa çıkma mekanizman nedir? Araştırmayı seviyorum. Kontrolün kesin sınırlarını anlamak istiyorum. Başladığımda, bunun çözülebilir bir problem olduğunu düşünmüştüm. Şimdi, daha şüpheciyim, ama yine de, yarattığımız dar yapay zeka araçlarını daha güvenli hale getirmek için yapabileceğimiz çok şey olduğunu hissediyorum. Asla %100 güvenlik garantisi yoktur, ama eğer güvenliği yüz kat artırabiliyorsam, bu bir şeydir. Ve yine, kamuya yönelik çalışmalar, bilimsel topluluk olarak, bir konsensüs içinde yeterince insanın, hayır, asla güvenli süper zeka yaratamazsınız, diye hemfikir olması, belki bir fark yaratır. Belki bunu on yıl geciktiririz. Bu bir şey. Tamam, o zaman bunu daha güvenli hale getirmenin bir parçasını masaya koyduk, dar tutalım. Başka hangi şeyleri büyük bir kazanım olarak görüyorsunuz? Kontrol edebilmek istediğimiz birçok özellik var. Ben bunlara kontrol araçları diyorum."
   },
   {
-    "start": 5876.9,
-    "end": 5965.7,
-    "text": "I think if you do live forever or at least you expect to, you're less likely to reproduce at young age. You may take your first 400, 500 years to start a family. So, I think all this kind of expectation of 20-year generations and younger generations showing up will be modified as a result. We're already starting to see population dynamics change in Europe, Asia where we're not producing enough children to even maintain the population. It's interesting. The way that I think that will play out maybe even a little bit different than that because part of why I haven't had kids is I was like, I only get one youth where I can go hard, have a ton of energy, um I feel like I'm of the culture, so I'm far more likely to build something relevant than I am as I get older. Genius is a young man's game as they say. And so, I don't want to be distracted by something. Uh I also don't want it to pull at my marriage. So, I'm like, ah, I'm going to hold off for now. If I knew that I was going to live for 500 years, I might just be like, ah, whatever. Let's do it now because I'd rather see like it only takes me a 25, 30-year investment and then after that like I get to see what they do and I get to see all my my and all of that and I'm going to have plenty of time. You know, if my youth lasts for 250 years, it's like, yeah, word, whatever. I'll clock the 30 years now so that I can see how big my family gets.",
+    "start": 6134.0,
+    "end": 6199.4,
+    "text": "Um where do you come down on gene editing? >> It's a lot less concerning. So, for one, if there is one human with some problem, that's it. It's still just one human. If we have editing tools, whatever changes we make, we can later undo them with the same editing tool. If we made a mistake, we can go back and rectify those problems. So, I'm a lot less concerned because of impact. Worst-case scenarios, yeah, there are ethical implications for the individual like he was in prison for human cloning, which is considered to be problematic because it may harm the child significantly. But humanity as a whole is not impacted directly negatively by that experiment. Mm. Where is AI's intersection with this? Is AI going to be a critical tool in terms of just mapping out all of the uh like you said, the similarities at the genome level between people that live long and people that don't? Um is AI going to be, you know, doing novel protein folding and going in and solving some of the architectural problems of people that are getting sick? Like, where is that going to interface with longevity?",
     "speaker": "Unknown",
     "claim": null,
     "stance": "Neutral",
@@ -157,7 +244,7 @@
       "other"
     ],
     "is_claim": false,
-    "topic": "Population dynamics",
+    "topic": "AI and gene editing",
     "confidence": "medium",
     "claim_labels_auto": [
       "other"
@@ -169,8 +256,8 @@
       "other"
     ],
     "stance_silver": "Neutral",
-    "topic_silver": "Population dynamics",
-    "reviewed": false,
-    "text_tr": "Eğer sonsuza kadar yaşarsanız ya da en azından öyle bekliyorsanız, genç yaşta üreme olasılığınız daha düşük olur. İlk 400, 500 yılınızı bir aile kurmaya harcayabilirsiniz. Bu nedenle, 20 yıllık nesil beklentisi ve daha genç nesillerin ortaya çıkması, bunun sonucunda değişecektir. Avrupa, Asya'da nüfus dinamiklerinin değişmeye başladığını görüyoruz, yeterince çocuk üretmiyoruz, nüfusu bile koruyamıyoruz. Bu ilginç. Bunun nasıl gelişeceğini düşündüğümde, belki de biraz farklı bir şekilde, çünkü çocuk sahibi olmamamın bir nedeni, sadece bir gençliğim var, bu yüzden enerjimle dolup taşmak istiyorum, kültürün bir parçası olduğumu hissediyorum, bu yüzden bir şey inşa etme olasılığım daha yüksek. Zeka, genç bir adamın oyunudur derler. Ve bu yüzden bir şeyin dikkatimi dağıtmasını istemiyorum. Ayrıca, evliliğime de zarar vermesini istemiyorum. Yani, ah, şimdi bekleyeceğim. Eğer 500 yıl yaşayacağımı bilseydim, belki de, ah, neyse, şimdi yapalım derdim, çünkü sadece 25, 30 yıllık bir yatırım yapmam yeterli olurdu ve sonrasında ne yapacaklarını görebilir ve tüm bunları görebilirim ve bolca zamanım olacak. Biliyorsunuz, eğer gençliğim 250 yıl sürerse, evet, tamam, neyse, 30 yılı şimdi harcayayım ki ailemin ne kadar büyüdüğünü görebileyim."
+    "topic_silver": "AI and gene editing",
+    "reviewed": true,
+    "text_tr": "Hımm, gen düzenleme konusunda ne düşünüyorsunuz? >> Çok daha az endişe verici. Yani, bir insanın bir sorunu varsa, o kadar. Hala sadece bir insan. Eğer düzenleme araçlarımız varsa, yaptığımız değişiklikleri daha sonra aynı düzenleme aracıyla geri alabiliriz. Eğer bir hata yaptıysak, geri dönüp o sorunları düzeltebiliriz. Bu yüzden, etki açısından çok daha az endişeliyim. En kötü senaryolar, evet, birey için etik sonuçlar var, örneğin insan klonlaması nedeniyle hapse girmiş biri gibi, bu çocuk için önemli ölçüde zarar verebileceği düşünüldüğünde sorunlu kabul ediliyor. Ama insanlık olarak bu deneyden doğrudan olumsuz etkilenmiyoruz. Hımm. AI'nın bununla kesişimi nerede? AI, uzun yaşayan insanlar ile yaşamayanlar arasındaki genom seviyesindeki benzerlikleri haritalamak açısından kritik bir araç mı olacak? Hımm, AI, bildiğiniz gibi, yeni protein katlanması yapacak ve hastalanan insanların bazı mimari sorunlarını çözmeye mi gidecek? Bu, uzun ömürle nasıl bir arayüz oluşturacak?"
   }
 ]

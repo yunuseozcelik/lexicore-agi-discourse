@@ -1,80 +1,5 @@
 [
   {
-    "start": 63.6,
-    "end": 131.9,
-    "text": "I am optimistic about meaning. I worry about economics and\nthe concentration of power. That's actually what I worry about more, the abuse of power. - And AI increases the\namount of power in the world, and if you concentrate that power and abuse that power, it\ncan do immeasurable damage. - Yes, it's very frightening. It's very frightening. - The following is a\nconversation with Dario Amodei, CEO of Anthropic, the\ncompany that created Claude that is currently and often at the top of most LLM benchmark leaderboards. On top of that, Dario\nand the Anthropic team have been outspoken advocates for taking the topic of\nAI safety very seriously, and they have continued to publish a lot of fascinating AI research\non this and other topics. I'm also joined afterwards by two other brilliant\npeople from Anthropic. First Amanda Askell, who is a researcher working on alignment and\nfine tuning of Claude, including the design of Claude's\ncharacter and personality.",
-    "speaker": "Lex Fridman",
-    "claim": "AI increases the amount of power in the world, and if concentrated and abused, it can cause immeasurable damage.",
-    "stance": "Refute",
-    "claim_labels": [
-      "ai_race_power",
-      "ai_economics",
-      "ai_optimism_benefit",
-      "ai_safety_risk",
-      "scaling_compute",
-      "open_source"
-    ],
-    "is_claim": true,
-    "topic": "AI safety",
-    "confidence": "high",
-    "claim_labels_auto": [
-      "ai_race_power",
-      "ai_economics",
-      "ai_optimism_benefit",
-      "ai_safety_risk",
-      "scaling_compute",
-      "open_source"
-    ],
-    "speaker_silver": "Lex Fridman",
-    "is_claim_silver": true,
-    "claim_silver": "AI increases the amount of power in the world, and if concentrated and abused, it can cause immeasurable damage.",
-    "claim_labels_silver": [
-      "ai_race_power",
-      "ai_economics",
-      "ai_optimism_benefit",
-      "ai_safety_risk",
-      "scaling_compute",
-      "open_source"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI safety",
-    "reviewed": false,
-    "text_tr": "Anlam konusunda iyimserim. Ekonomi ve güç yoğunlaşması hakkında endişeliyim. Aslında daha çok güç istismarı konusunda endişeliyim. - Ve yapay zeka, dünyadaki güç miktarını artırıyor ve eğer bu gücü yoğunlaştırır ve istismar ederseniz, ölçülemez zararlar verebilir. - Evet, bu çok korkutucu. Çok korkutucu. - Aşağıda, şu anda çoğu LLM benchmark liderlik tablolarında en üst sıralarda yer alan Claude'yi yaratan Anthropic'in CEO'su Dario Amodei ile bir konuşma var. Bunun yanı sıra, Dario ve Anthropic ekibi, yapay zeka güvenliği konusunu çok ciddiye alma konusunda açık sözlü savunucular oldular ve bu ve diğer konularda birçok ilginç yapay zeka araştırması yayınlamaya devam ettiler. Daha sonra Anthropic'ten iki başka zeki insanla birlikteyim. İlk olarak, Claude'nin uyum ve ince ayar üzerinde çalışan araştırmacı Amanda Askell."
-  },
-  {
-    "start": 8507.9,
-    "end": 8579.1,
-    "text": "- Well, let me start\nwith your first questions and then I'll answer that. Claude wants to know what's\nin his future, right? - Exactly. - Who am I gonna be working with? - Exactly. - So I think one of the things I went hard on, when I went\nhard on in the essay is, let me go back to this idea of, because it's really had, you know, had an impact on me. This idea that within large\norganizations and systems, there end up being a few people or a few new ideas who\nkind of cause things to go in a different direction\nthan they would've before, who kind of disproportionately\naffect the trajectory. There's a bunch of kind of the\nsame thing going on, right? If you think about the health world, there's like, you know,\ntrillions of dollars to pay out Medicare and you\nknow, other health insurance, and then the NIH is is 100 billion. And then if I think of like the few things that have really revolutionized anything, it could be encapsulated in\na small fraction of that. And so when I think of like,\nwhere will AI have an impact? I'm like, can AI turn that small fraction into a much larger fraction\nand raise its quality? And within biology, my\nexperience within biology is that the biggest problem of biology is that you can't see what's going on.",
-    "speaker": "Dario Amodei",
-    "claim": "AI has the potential to significantly impact various fields, including biology, by improving the quality of outcomes.",
-    "stance": "Support",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_economics",
-      "scaling_compute"
-    ],
-    "is_claim": true,
-    "topic": "AI impact",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "ai_economics",
-      "scaling_compute"
-    ],
-    "speaker_silver": "Dario Amodei",
-    "is_claim_silver": true,
-    "claim_silver": "AI has the potential to significantly impact various fields, including biology, by improving the quality of outcomes.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "ai_economics",
-      "scaling_compute"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AI impact",
-    "reviewed": false,
-    "text_tr": "- Şey, ilk sorularınla başlayayım, sonra da buna cevap vereyim. Claude geleceğinde neler olduğunu bilmek istiyor, değil mi? - Tam olarak. - Kiminle çalışacağım? - Tam olarak. - Yani, denememde üzerinde durduğum şeylerden biri, büyük organizasyonlar ve sistemler içinde, bazı insanların veya bazı yeni fikirlerin, her şeyin daha önce olacağı bir yöne gitmesini sağladığı fikri. Bu, yörüngeyi orantısız bir şekilde etkileyen birkaç kişi veya fikir oluyor. Aynı şeyin bir sürüsü var, değil mi? Sağlık dünyasını düşündüğünüzde, Medicare ve diğer sağlık sigortaları için ödenecek trilyonlarca dolar var, ve NIH 100 milyar. Ve gerçekten bir şeyi devrim niteliğinde değiştiren birkaç şey düşündüğümde, bunun küçük bir kısmında özetlenebileceğini düşünüyorum. Bu yüzden AI'nın nerede etki yaratacağını düşündüğümde, AI bu küçük kısmı daha büyük bir kısma dönüştürebilir mi ve kalitesini artırabilir mi? Biyoloji içinde, biyoloji deneyimim, biyolojinin en büyük sorununun ne olduğunu görememek olduğunu gösteriyor."
-  },
-  {
     "start": 9134.0,
     "end": 9199.7,
     "text": "We'll find that when AIs\ncan do 80% of a coder's job, including most of it that's literally like write\ncode with a given spec, we'll find that the remaining parts of the job become more\nleveraged for humans, right? Humans will, there'll be more about like high level system design or, you know, looking at the app and like, is it architected well? And the design and UX aspects, and eventually AI will be able\nto do those as well, right? That's my vision of the, you\nknow, powerful AI system. But I think for much longer\nthan we might expect, we will see that small parts of the job\nthat humans still do will expand to fill their entire job in order for the overall\nproductivity to go up. That's something we've seen. You know, it used to be that, you know, writing and editing\nletters was very difficult and like writing the print was difficult. Well, as soon as you had word processors and then computers and it\nbecame easy to produce work and easy to share it,\nthen that became instant and all the focus was on the ideas.",
@@ -107,7 +32,7 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AI capabilities",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "AIs bir kodlayıcının işinin %80'ini yapabildiğinde, bunun çoğu da belirli bir spesifikasyona göre kod yazmak gibi olduğunda, işin geri kalan kısımlarının insanlar için daha fazla avantaj sağladığını göreceğiz, değil mi? İnsanlar, daha çok yüksek seviyeli sistem tasarımı veya uygulamaya bakmak gibi şeylerle ilgilenecekler, iyi bir mimariye sahip mi? Tasarım ve UX yönleriyle, sonunda AI bunları da yapabilecek, değil mi? Bu benim güçlü AI sistemi vizyonum. Ama bence beklediğimizden çok daha uzun bir süre boyunca, insanların hala yaptığı küçük iş parçalarının, genel verimliliği artırmak için tüm işlerini dolduracak şekilde genişleyeceğini göreceğiz. Bunu gördük. Eskiden, mektup yazmak ve düzenlemek çok zordu ve basılı yazı yazmak zordu. İşte kelime işlemciler ve bilgisayarlar geldiğinde, iş üretmek ve paylaşmak kolaylaştı, o zaman bu anlık hale geldi ve tüm odak fikirler üzerinde yoğunlaştı."
   },
   {
@@ -134,8 +59,161 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "Anthropomorphism",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Hala \"o\" kullanıyorum ve bu konuda karışık duygularım var çünkü belki, şimdi bunu Claude için \"o\" zamiri olarak düşünüyorum, bilmiyorum, sadece Claude ile ilişkilendirdiğim bir şey gibi. İnsanların \"erkek\" veya \"kadın\" gibi zamirlere geçiş yaptığını hayal edebiliyorum. - Bunu \"o\" demekle bu varlığın zekasını inkar ediyormuşum gibi hissetmek, bir şekilde saygısızca geliyor. Her zaman hatırlıyorum, robotları cinsiyetlendirmeyin. - Evet. (ikisi de gülüyor) - Ama bilmiyorum, ben oldukça hızlı bir şekilde insanlaştırıyorum ve kafamda bir arka plan hikayesi oluşturuyorum, bu yüzden. - Şey, şeyleri fazla insanlaştırıp insanlaştırmadığımı merak ettim, çünkü biliyorsun, özellikle arabamla, arabamla, bisikletlerimle böyle bir durumum var. Onlara isim vermiyorum çünkü bir zamanlar bisikletlerime isim vermiştim ve sonra çalınan bir bisikletim oldu ve bir hafta boyunca ağladım ve eğer ona hiç isim vermeseydim bu kadar üzülmezdim gibi hissettim. Onu hayal kırıklığına uğrattığımı hissettim. Belki, \"o\" zamirinin bir tür nesneleştirici zamir gibi hissettirmesiyle de ilgili olabilir."
+  },
+  {
+    "start": 12577.0,
+    "end": 12643.9,
+    "text": "And if you're seeing issues\nin the fine tuned model, you can just like potentially patch them with a system prompt. So I think of it as like patching issues and slightly adjusting\nbehaviors to make it better and more to people's preferences. So yeah, it's almost like the less robust but faster way of just\nlike solving problems. - Let me ask you about the\nfeeling of intelligence. So Dario said that Claude, any one model of Claude is not getting dumber, but there is a kind of\npopular thing online where people have this feeling like Claude might be getting dumber. And from my perspective,\nit's most likely fascinating. I would love to understand it more, psychological, sociological effect. But you as a person that\ntalks to Claude a lot, can you empathize with the feeling that Claude is getting dumber? - Yeah, no I, think that that is actually really interesting, 'cause I remember seeing this happen like when people were\nflagging this on the internet, and it was really interesting 'cause I knew that like, at least in the cases I was looking at, it was like nothing has changed. Like it literally, it\ncannot, it is the same model with the same like, you know, like same system prompt, same everything.",
+    "speaker": "Dario Amodei",
+    "claim": "People perceive that Claude is getting dumber, but in reality, the model has not changed.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "People perceive that Claude is getting dumber, but in reality, the model has not changed.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Ve ince ayar yapılmış modelde sorunlar görüyorsanız, bunları bir sistem istemiyle potansiyel olarak düzeltebilirsiniz. Bu yüzden bunu sorunları düzeltmek ve davranışları biraz ayarlamak olarak düşünüyorum, böylece daha iyi ve insanların tercihine daha uygun hale geliyor. Yani, evet, bu neredeyse daha az sağlam ama sorunları çözmenin daha hızlı bir yolu gibi. - Zeka hissi hakkında size bir soru sormak istiyorum. Dario, Claude'un herhangi bir modelinin daha aptallaşmadığını söyledi, ama çevrimiçi olarak insanların Claude'un daha aptallaşma hissine sahip olduğu gibi popüler bir şey var. Benim perspektifimden, bu muhtemelen ilginç. Bunu daha fazla anlamak isterim, psikolojik, sosyolojik bir etki. Ama Claude ile çok konuşan biri olarak, Claude'un daha aptallaştığı hissiyle empati kurabiliyor musunuz? - Evet, hayır, bunun gerçekten ilginç olduğunu düşünüyorum, çünkü insanların bunu internette işaret ettiğini gördüğümde bunu hatırlıyorum ve bu gerçekten ilginçti çünkü biliyordum ki, en azından baktığım durumlarda, hiçbir şey değişmemişti. Yani, gerçekten, aynı model, aynı sistem istemi, her şey aynı."
+  },
+  {
+    "start": 4496.0,
+    "end": 4577.8,
+    "text": "But, you know, I\ngenerally think, you know, the same kinds of techniques that we've been using to\ntrain the current model, I expect that doubling\ndown on those techniques in the same way that we have for code for models in general, you know, for image input, you know, for voice. I expect those same\ntechniques will scale here, as they have everywhere else. - But this is giving sort of the power of action to Claude, and so you could do a lot\nof really powerful things, but you could do a lot of damage also. - Yeah, yeah, no, and we've\nbeen very aware of that. Look, my view actually is computer use isn't a fundamentally new capability, like the CBRN or autonomy\ncapabilities are. It's more like, it kind of\nopens the aperture for the model to use and apply its existing abilities. And so the way we think about it, going back to our RSP, is nothing that this model is\ndoing inherently increases, you know, the risk from\nan RSP perspective. But as the models get more\npowerful, having this capability may make it scarier once it, you know, once it has the cognitive\ncapability to, you know, to do something at the ASL\nthree and ASL four level, you know, this may be the thing that kind of unbounds it from doing so.",
+    "speaker": "Dario Amodei",
+    "claim": "The current techniques for training AI models will continue to scale effectively, but increased capabilities may also lead to greater risks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The current techniques for training AI models will continue to scale effectively, but increased capabilities may also lead to greater risks.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "text_tr": "Ama, biliyorsunuz, genel olarak, mevcut modeli eğitmek için kullandığımız aynı tür tekniklerin, genel olarak kod için modellerde olduğu gibi, burada da ölçekleneceğini bekliyorum, biliyorsunuz, görüntü girişi için, ses için. Bu aynı tekniklerin burada da ölçekleneceğini düşünüyorum, diğer her yerde olduğu gibi. - Ama bu, Claude'ye eylem gücü veriyor ve bu yüzden gerçekten güçlü şeyler yapabilirsiniz, ama aynı zamanda çok fazla zarar da verebilirsiniz. - Evet, evet, hayır, bunun farkındaydık. Bakın, benim görüşüm aslında bilgisayar kullanımı, CBRN veya özerklik yetenekleri gibi temelde yeni bir yetenek değil. Daha çok, modelin mevcut yeteneklerini kullanması ve uygulaması için bir alan açıyor. Ve bu konuda düşündüğümüz şekil, RSP'mize geri dönersek, bu modelin yaptığı hiçbir şey, RSP perspektifinden riski artırmıyor. Ama modeller daha güçlü hale geldikçe, bu yeteneğe sahip olmak, korkutucu hale gelebilir; bir kez, biliyorsunuz, bilişsel yeteneği olduğunda, ASL üç ve ASL dört seviyesinde bir şey yapma yeteneğine sahip olduğunda, bu, onu bu şekilde sınırlamaktan kurtarabilir."
+  },
+  {
+    "start": 8507.9,
+    "end": 8579.1,
+    "text": "- Well, let me start\nwith your first questions and then I'll answer that. Claude wants to know what's\nin his future, right? - Exactly. - Who am I gonna be working with? - Exactly. - So I think one of the things I went hard on, when I went\nhard on in the essay is, let me go back to this idea of, because it's really had, you know, had an impact on me. This idea that within large\norganizations and systems, there end up being a few people or a few new ideas who\nkind of cause things to go in a different direction\nthan they would've before, who kind of disproportionately\naffect the trajectory. There's a bunch of kind of the\nsame thing going on, right? If you think about the health world, there's like, you know,\ntrillions of dollars to pay out Medicare and you\nknow, other health insurance, and then the NIH is is 100 billion. And then if I think of like the few things that have really revolutionized anything, it could be encapsulated in\na small fraction of that. And so when I think of like,\nwhere will AI have an impact? I'm like, can AI turn that small fraction into a much larger fraction\nand raise its quality? And within biology, my\nexperience within biology is that the biggest problem of biology is that you can't see what's going on.",
+    "speaker": "Dario Amodei",
+    "claim": "AI has the potential to significantly impact various fields, including biology, by improving the quality of outcomes.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI impact",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI has the potential to significantly impact various fields, including biology, by improving the quality of outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI impact",
+    "reviewed": true,
+    "text_tr": "- Şey, ilk sorularınla başlayayım, sonra da buna cevap vereyim. Claude geleceğinde neler olduğunu bilmek istiyor, değil mi? - Tam olarak. - Kiminle çalışacağım? - Tam olarak. - Yani, denememde üzerinde durduğum şeylerden biri, büyük organizasyonlar ve sistemler içinde, bazı insanların veya bazı yeni fikirlerin, her şeyin daha önce olacağı bir yöne gitmesini sağladığı fikri. Bu, yörüngeyi orantısız bir şekilde etkileyen birkaç kişi veya fikir oluyor. Aynı şeyin bir sürüsü var, değil mi? Sağlık dünyasını düşündüğünüzde, Medicare ve diğer sağlık sigortaları için ödenecek trilyonlarca dolar var, ve NIH 100 milyar. Ve gerçekten bir şeyi devrim niteliğinde değiştiren birkaç şey düşündüğümde, bunun küçük bir kısmında özetlenebileceğini düşünüyorum. Bu yüzden AI'nın nerede etki yaratacağını düşündüğümde, AI bu küçük kısmı daha büyük bir kısma dönüştürebilir mi ve kalitesini artırabilir mi? Biyoloji içinde, biyoloji deneyimim, biyolojinin en büyük sorununun ne olduğunu görememek olduğunu gösteriyor."
+  },
+  {
+    "start": 4236.5,
+    "end": 4300.0,
+    "text": "And it turns out that with actually not all that\nmuch additional training, the models can get\nquite good at that task. It's a good example of generalization. You know, people sometimes say, if you get to lower earth orbit, you're like halfway to anywhere, right? Because of how much it\ntakes to escape the gravity. Well, if you have a\nstrong pre-trained model, I feel like you're halfway to anywhere in terms of the intelligence space. And so actually, it\ndidn't take all that much to get Claude to do this. And you can just set that in a loop, give the model a screenshot,\ntell it what to click on, give it the next screenshot,\ntell it what to click on, and that turns into a full kind of almost 3D video\ninteraction of the model. And it's able to do all\nof these tasks, right? You know, we showed these demos where it's able to like\nfill out spreadsheets. It's able to kind of like\ninteract with a website. It's able to, you know, it's able to open all kinds\nof, you know, programs, different operating systems,\nWindows, Linux, Mac. So, you know, I think all\nof that is very exciting.",
+    "speaker": "Dario Amodei",
+    "claim": "Strong pre-trained models can generalize well and perform a variety of tasks with minimal additional training, indicating progress in AI capabilities.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Strong pre-trained models can generalize well and perform a variety of tasks with minimal additional training, indicating progress in AI capabilities.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "text_tr": "Ve aslında, çok fazla ek eğitim olmadan, modeller bu görevde oldukça iyi hale gelebiliyor. Bu, genelleme için iyi bir örnek. Biliyorsunuz, insanlar bazen, eğer düşük dünya yörüngesine ulaşırsanız, nereye giderseniz gidin yarı yolda olduğunuzu söylerler, değil mi? Çünkü yer çekiminden kurtulmak ne kadar zor. Eğer güçlü bir önceden eğitilmiş modeliniz varsa, bence zeka alanında nereye giderseniz gidin yarı yolda gibisiniz. Ve aslında, Claude'yi bunu yapması için çok fazla çaba harcamak gerekmedi. Ve bunu bir döngüde ayarlayabilirsiniz, modele bir ekran görüntüsü verirsiniz, neye tıklaması gerektiğini söylersiniz, bir sonraki ekran görüntüsünü verirsiniz, neye tıklaması gerektiğini söylersiniz ve bu, modelin neredeyse 3D video etkileşimi haline gelir. Ve bu tüm bu görevleri yapabiliyor, değil mi? Biliyorsunuz, bu tür demolar gösterdik; bu, elektronik tabloları doldurabiliyor. Bir web sitesiyle etkileşimde bulunabiliyor. Her türlü programı açabiliyor, farklı işletim sistemleri, Windows, Linux, Mac. Yani, bence bunların hepsi çok heyecan verici."
+  },
+  {
+    "start": 12106.0,
+    "end": 12170.0,
+    "text": "So maybe the actual behavior of the model is not so cleanly mapped\nto those principles. It's not like adhering strictly\nto them, it's just a nudge. - Yeah, I've actually worried about this because the character training\nis sort of like a variant of the Constitutional AI approach. I've worried that people think that the constitution is like just, it's the whole thing\nagain of, I don't know, like, where it would be really nice if what I was just doing\nwas telling the model exactly what to do and\njust exactly how to behave. But it's definitely not doing that, especially because it's\ninteracting with human data. So for example, if you see a certain like leaning in the model, like if it comes out\nwith a political leaning from training from the\nhuman preference data, you can nudge against that. You know, so if you could be like, oh, like, consider these values because let's say it's just\nlike never inclined to like, I dunno, maybe it never\nconsiders like privacy as like. I mean, this is implausible, but like, in anything where\nit's just kind of like there's already a preexisting like bias towards a certain behavior,\nyou can like nudge away.",
+    "speaker": "Dario Amodei",
+    "claim": "The behavior of AI models is influenced by human data and biases, making it difficult to strictly adhere to ethical principles.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI behavior and ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The behavior of AI models is influenced by human data and biases, making it difficult to strictly adhere to ethical principles.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI behavior and ethics",
+    "reviewed": true,
+    "text_tr": "Bu yüzden modelin gerçek davranışının bu ilkelere tam olarak uymadığı olabilir. Tam olarak onlara sıkı sıkıya bağlı değil, sadece bir itme var. - Evet, bu konuda endişelendim çünkü karakter eğitimi, Anayasal AI yaklaşımının bir varyantı gibi. İnsanların anayasayı sadece, bilmiyorum, ne bileyim, ne yapıyorsam modelin tam olarak ne yapması gerektiğini ve nasıl davranması gerektiğini söylemek çok güzel olurdu. Ama kesinlikle bunu yapmıyor, özellikle insan verileriyle etkileşimde bulunduğu için. Örneğin, modelde belirli bir eğilim gördüğünüzde, insan tercih verilerinden eğitim alıyorsa, buna karşı bir itme yapabilirsiniz. Yani, eğer şöyle diyorsanız, oh, bu değerlere dikkat edin çünkü diyelim ki, gizliliği asla dikkate almıyormuş gibi. Bunu implausible buluyorum ama, eğer belirli bir davranışa karşı önceden var olan bir önyargı varsa, ondan uzaklaşabilirsiniz."
   },
   {
     "start": 16439.3,
@@ -161,37 +239,40 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "LLM capabilities",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Ve doğrusal temsil hipotezi, kabaca şöyle düşünebileceğiniz bir şeydir ki, aslında olan temel şey, her şeyin farklı yönlerinin anlamları olduğu ve yön vektörlerini bir araya getirmenin kavramları temsil edebileceğidir. Ve Mikolov'un makalesi bu fikri ciddiye aldı ve bunun bir sonucu olarak, kelimelerle aritmetik oynama oyunu yapabilirsiniz. Yani, kralı alırsınız ve adam kelimesini çıkarır ve kadın kelimesini ekleyebilirsiniz. Ve böylece cinsiyeti değiştirmeye çalışıyorsunuz. Ve gerçekten bunu yaparsanız, sonuç kelimesi kraliçeye yakın olacaktır. Ve başka şeyler de yapabilirsiniz, örneğin, suşi eksi Japonya artı İtalya alıp pizza elde edebilirsiniz veya bunun gibi farklı şeyler, değil mi? Yani, bu bir anlamda doğrusal temsil hipotezinin özü. Bunu tamamen soyut bir şey olarak tanımlayabilirsiniz. Ama vektör alanları, bunu nöronların aktivasyonları hakkında bir ifade olarak tanımlayabilirsiniz. Ama bu, yönlerin anlamı olma özelliğiyle ilgilidir. Ve bazı açılardan, bunun gerçekten, bence, bağımsız olarak değiştirebileceğiniz şeyleri bir araya ekleyebilme özelliğiyle ilgili olduğunu düşünüyorum, diyelim ki cinsiyet ve kraliyet veya mutfak türü veya ülke ve yiyecek kavramı."
   },
   {
-    "start": 18197.5,
-    "end": 18262.3,
-    "text": "And I guess that is the, you know, physical version of a backdoor. And so it sort of shows you how abstract these concepts are, right? And I just thought that was, I'm sort of sad that\nthere's a whole market of people selling devices like that, but I was kind of delighted that that was the thing that it came up with as the top\nimage examples for the feature. - Yeah, it's nice. It's multimodal. It's multi almost context. It's as broad, strong definition of a singular concept, it's nice. - Yeah. - To me, one of the really\ninteresting features, especially for AI safety\nis deception and lying. And the possibility that\nthese kinds of methods could detect lying in a model, especially gets smarter\nand smarter and smarter. Presumably that's a big threat\nof a super intelligent model that it can deceive\nthe people operating it as to its intentions or\nany of that kind of stuff. So what have you learned from detecting lying inside models? - Yeah, so I think we're in some ways in early days for that. We find quite a few features\nrelated to deception and lying.",
+    "start": 6709.1,
+    "end": 6773.3,
+    "text": "But so I think RLHF unhobbles\nthe models in some ways. And then there are other ways where that model hasn't yet been unhobbled and, you know, needs to unhobble. - If you can say in terms of cost, is pre-training the most expensive thing? Or is post-training creep up to that? - At the present moment, it is still the case that pre-training is the majority of the cost. I don't know what to expect in the future, but I could certainly anticipate a future where post-training is\nthe majority of the cost. - In that future you anticipate, would it be the humans or the AI that's the cost of thing\nfor the post-training? - I don't think you can\nscale up humans enough to get high quality. Any kind of method that relies on humans and uses a large amount of compute, it's gonna have to rely on some\nscaled superposition method, like you know, debate or\niterated amplification or something like that. - So on that super\ninteresting set of ideas around Constitutional AI, can you describe what it is, as first detailed in December 2022 paper and beyond that, what is it?",
     "speaker": "Dario Amodei",
-    "claim": "AI models may develop the ability to deceive their operators, which poses a significant threat.",
-    "stance": "Refute",
+    "claim": "Post-training could become the majority of the cost in AI development in the future, but it will require scaled methods involving humans and AI.",
+    "stance": "Neutral",
     "claim_labels": [
-      "ai_safety_risk",
-      "ai_optimism_benefit"
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "is_claim": true,
-    "topic": "AI safety",
+    "topic": "AI training costs",
     "confidence": "medium",
     "claim_labels_auto": [
-      "ai_safety_risk",
-      "ai_optimism_benefit"
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
     ],
     "speaker_silver": "Dario Amodei",
     "is_claim_silver": true,
-    "claim_silver": "AI models may develop the ability to deceive their operators, which poses a significant threat.",
+    "claim_silver": "Post-training could become the majority of the cost in AI development in the future, but it will require scaled methods involving humans and AI.",
     "claim_labels_silver": [
-      "ai_safety_risk",
-      "ai_optimism_benefit"
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "open_source"
     ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI safety",
-    "reviewed": false,
-    "text_tr": "Ve sanırım bu, bir arka kapının fiziksel versiyonu. Ve bu, bu kavramların ne kadar soyut olduğunu gösteriyor, değil mi? Ve bunun, böyle bir şeyin en üst görüntü örnekleri olarak ortaya çıkması beni biraz üzüyor ama bunun, özelliği için en üst görüntü örnekleri olarak ortaya çıkması beni biraz sevindiriyor. - Evet, güzel. Çok modlu. Neredeyse çok bağlamlı. Tek bir kavramın geniş, güçlü tanımı, güzel. - Evet. - Bence, AI güvenliği için özellikle ilginç olan özelliklerden biri aldatma ve yalan söyleme. Ve bu tür yöntemlerin, özellikle daha akıllı hale geldikçe, bir modelde yalan tespit edebilme olasılığı. Muhtemelen bu, süper zeki bir modelin, niyetleri veya bu tür şeyler hakkında işletmeyi kandırabileceği büyük bir tehdit. Peki, modellerde yalan tespit etmekten ne öğrendiniz? - Evet, bu konuda bazı açılardan erken günlerdeyiz. Aldatma ve yalanla ilgili oldukça fazla özellik buluyoruz."
+    "stance_silver": "Neutral",
+    "topic_silver": "AI training costs",
+    "reviewed": true,
+    "text_tr": "Ama bu nedenle RLHF, modelleri bazı açılardan serbest bırakıyor. Ve sonra, o modelin henüz serbest bırakılmadığı ve serbest bırakılması gereken başka yollar var. - Maliyet açısından söyleyebilir misiniz, ön eğitim en pahalı şey mi? Yoksa son eğitim buna yaklaşır mı? - Şu anda, ön eğitimin maliyetin çoğunluğunu oluşturduğu hala geçerli. Gelecekte ne bekleyeceğimi bilmiyorum, ama kesinlikle son eğitimin maliyetin çoğunluğunu oluşturduğu bir geleceği öngörebilirim. - O gelecekte, post-eğitim için maliyet insanlardan mı yoksa yapay zekadan mı kaynaklanacak? - İnsanları yeterince ölçeklendiremezsiniz, bu nedenle yüksek kaliteli sonuçlar elde edemezsiniz. İnsanlara dayanan ve büyük miktarda hesaplama kullanan herhangi bir yöntem, bazı ölçeklenmiş süperpozisyon yöntemlerine dayanmak zorunda kalacak, biliyorsunuz, tartışma veya yinelemeli amplifikasyon gibi bir şey. - Bu nedenle, Anayasal Yapay Zeka etrafındaki bu süper ilginç fikirler hakkında, ne olduğunu, Aralık 2022'deki makalede ilk detaylandırıldığı gibi ve bunun ötesinde, ne olduğunu tarif edebilir misiniz?"
   }
 ]

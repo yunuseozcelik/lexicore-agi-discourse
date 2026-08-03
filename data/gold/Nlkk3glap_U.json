@@ -1,41 +1,11 @@
 [
   {
-    "start": 455.9,
-    "end": 531.5,
-    "text": "You could have made a case a few years ago \nthat they can't reason, they can't program.   You could have drawn boundaries and said maybe \nyou'll hit a wall. I didn't think we would hit a   wall, a few other people didn't think we would \nhit a wall, but it was a more plausible case   then. It's a less plausible case now.\nIt could happen. This stuff is crazy.   We could hit a wall tomorrow. If that happens my \nexplanation would be there's something wrong with   the loss when you train on next word prediction.\nIf you really want to learn to program at a   really high level, it means you care about some \ntokens much more than others and they're rare   enough that the loss function over focuses on the \nappearance, the things that are responsible for   the most bits of entropy, and instead they don't \nfocus on this stuff that's really essential. So   you could have the signal drowned out in the \nnoise. I don't think it's going to play out   that way for a number of reasons. But if you \ntold me — Yes, you trained your 2024 model.",
-    "speaker": "Dario Amodei",
-    "claim": "AGI may not hit a wall in development, and the current trajectory suggests continued progress.",
-    "stance": "Support",
-    "claim_labels": [
-      "agi_timeline",
-      "breakthroughs_needed"
-    ],
-    "is_claim": true,
-    "topic": "AGI development",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "agi_timeline",
-      "breakthroughs_needed"
-    ],
-    "speaker_silver": "Dario Amodei",
-    "is_claim_silver": true,
-    "claim_silver": "AGI may not hit a wall in development, and the current trajectory suggests continued progress.",
-    "claim_labels_silver": [
-      "agi_timeline",
-      "breakthroughs_needed"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AGI development",
-    "reviewed": false,
-    "text_tr": "Verilen görev açısından şanslıydım. Bize ve oradaki diğer arkadaşlara verilen görev, mümkün olan en iyi konuşma tanıma sistemini yapmaktı. Çok fazla veri mevcuttu, çok sayıda GPU vardı. Problemi, bu tür ölçeklemenin bir çözüm olduğunu keşfetmeye uygun bir şekilde sundu. Bu, bir fikri bulmak ve yeni ve akıllıca görünen bir şeyle kendinizi tanıtmak için bir postdoc olmanın çok farklı bir hali. Ben sadece en basit deneyleri denedim. Bazı düğmelere dokunuyordum. Daha fazla katman eklemeyi dene, daha uzun süre eğit, ne oluyor? Aşırı uyum sağlamak ne kadar sürüyor? Yeni veri eklersem ve daha az tekrar edersem ne olur? Ve bu çok tutarlı kalıpları gördüm. Bunun alışılmadık olduğunu veya başkalarının bu şekilde düşünmediğini gerçekten bilmiyordum. Bu neredeyse bir acemi şansı gibiydi. Bu benim ilk deneyimimdi ve bunu konuşma tanıma dışında pek düşünmedim. Sadece, bu alanda hiçbir şey bilmediğimi düşündüm."
-  },
-  {
     "start": 1198.7,
     "end": 1269.9,
     "text": "If you look back to these diagrams that are \nlike, here's the village idiot, here's Einstein.   Here's the scale of intelligence. And the village \nidiot and Einstein are very close to each other. Maybe that's still true in some abstract sense or \nsomething but it's not really what we're seeing,   is it? We're seeing that it seems like \nthe human range is pretty broad and we   don't hit the human range in the same place \nor at the same time for different tasks.  Like, write a sonnet in the style of Cormac \nMcCarthy. I'm not very creative, so I couldn't   do that but that's a pretty high level human \nskill. And even the model is starting to get   good at stuff like constrained writing like, \nwrite a page about X without using the letter E.  I think the models might be superhuman or close \nto superhuman at that. But when it comes to   proving relatively simple mathematical theorems, \nthey're just starting to do the beginning of it.",
     "speaker": "Dario Amodei",
     "claim": "Current AI models are approaching superhuman capabilities in creative tasks but are still limited in mathematical reasoning.",
-    "stance": "Neutral",
+    "stance": "Support",
     "claim_labels": [
       "scaling_compute",
       "llm_capabilities",
@@ -59,38 +29,8 @@
     ],
     "stance_silver": "Neutral",
     "topic_silver": "AI capabilities",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Benim görüşüm, her alanda daha iyi olmaya devam edeceğiz ve modellerin süper, süper zayıf olduğu veya ilerleme kaydetmeye başlamadığı bir alan görmüyorum. Bu daha önce matematik ve programlama için geçerliydi, ama son altı ayda 2023 nesli modeller, 2022 nesline kıyasla bunu öğrenmeye başladı. Bilmediğimiz daha ince şeyler olabilir. Bu yüzden, her ne kadar eşit olmasa da, yükselen gelirin tüm tekneleri kaldıracağına inanıyorum. Bu, daha önce bahsettiğiniz, eğer uzatılmış bir görev varsa, düşünce akışını kaybetmesi veya bir dizi adımı yürütme yeteneğini kaybetmesiyle ilgili mi? Bu, modelin daha uzun vadeli görevler yapabilmesi için RL eğitimine bağlı olacak. Bunun önemli bir ek hesaplama gerektireceğini düşünmüyorum. Bunun, RL'yi yanlış bir şekilde düşünmenin ve modelin kendi başına ne kadar öğrendiğini küçümsemenin bir sonucu olduğunu düşünüyorum. Bazı alanlarda süper insan olup olmayacağımız konusunda karmaşık bir durum var. Fiziksel dünyada bedenlenmeyi gerektiren bazı alanlarda süper insan olmayacağımızı hayal edebilirim. O zaman ne olur? Yapay zekalar, daha hızlı yapay zekaları eğitmemize yardımcı mı olur? Ve bu daha hızlı yapay zekalar bunu sarıp sarmalar mı? Fiziksel dünyaya ihtiyacınız yok mu? Ne demek istediğinize bağlı. Bir uyum felaketi konusunda endişeli miyiz? Kitle imha silahları yapma gibi kötüye kullanım konusunda endişeli miyiz? Yapay zekanın insanlardan araştırmayı devralmasından mı endişeliyiz? Ortalama bir insanın yaptığı şeyi yapabilecek ekonomik verimlilik eşiğine ulaşmasından mı endişeliyiz? Bu farklı eşiklerin farklı yanıtları var, ama hepsinin birkaç yıl içinde geleceğini düşünüyorum."
-  },
-  {
-    "start": 2282.5,
-    "end": 2359.6,
-    "text": "I think they are just on the cusp of \nbeing able to put these things together.  On that point. Last week in your Senate testimony, \nyou said that these models are two to three years   away from potentially enabling large scale bio \nterrorism attacks. Can you make that more concrete   without obviously giving the kind of information \nthat would result in speeding that up? Is it one   shotting how to weaponize something or \ndo you have to fine tune an open source   model? What would that actually look like?\nI think it'd be good to clarify this because   we did a blog post and the Senate testimony \nand various people didn't understand the   point or didn't understand what we'd done.\nToday you can ask the models all kinds of   things about biology and get them to say all \nkinds of scary things, but often those scary   things are things that you could Google, and I'm \ntherefore not particularly worried about that.   I think it's actually an impediment to seeing \nthe real danger, where someone just says — Oh,   I asked this model to tell me some \nthings about smallpox, and it will.  That is actually not what I'm worried about. \nWe spent about six months working with folks   who are the most expert in the world \non how do biological attacks happen,",
-    "speaker": "Dario Amodei",
-    "claim": "Current AI models are not a significant threat for enabling large scale bio terrorism attacks despite some concerns.",
-    "stance": "Refute",
-    "claim_labels": [
-      "ai_safety_risk",
-      "scaling_compute"
-    ],
-    "is_claim": true,
-    "topic": "AI safety",
-    "confidence": "medium",
-    "claim_labels_auto": [
-      "ai_safety_risk",
-      "scaling_compute"
-    ],
-    "speaker_silver": "Dario Amodei",
-    "is_claim_silver": true,
-    "claim_silver": "Current AI models are not a significant threat for enabling large scale bio terrorism attacks despite some concerns.",
-    "claim_labels_silver": [
-      "ai_safety_risk",
-      "scaling_compute"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI safety",
-    "reviewed": false,
-    "text_tr": "Bence bu şeyleri bir araya getirme noktasında tam sınırdalar. Bu noktada, geçen hafta Senato'daki ifadenizde, bu modellerin büyük ölçekli biyoterörizm saldırılarını potansiyel olarak mümkün kılmaktan iki ila üç yıl uzakta olduğunu söylediniz. Bunu daha somut hale getirebilir misiniz, elbette bunu hızlandıracak türden bilgiler vermeden? Bir şeyi silahlandırmayı öğrenmek tek seferlik bir şey mi, yoksa açık kaynak bir modeli ince ayar yapmanız mı gerekiyor? Bu gerçekten nasıl bir şey olurdu? Bunu netleştirmenin iyi olacağını düşünüyorum çünkü bir blog yazısı ve Senato ifadesi yaptık ve çeşitli insanlar bu noktayı anlamadı ya da ne yaptığımızı anlamadı. Bugün, modellere biyoloji hakkında her türlü şeyi sorabilirsiniz ve onlardan korkutucu şeyler söylemelerini sağlayabilirsiniz, ancak genellikle bu korkutucu şeyler Google'da bulabileceğiniz şeylerdir, bu yüzden bu konuda çok endişeli değilim. Aslında bu, gerçek tehlikeyi görmeyi engelleyen bir engel. Birisi sadece — Oh, bu modele çiçek hastalığı hakkında bazı şeyler söylemesini istedim, ve o da söyleyecek. Bu, benim endişelendiğim şey değil. Biyolojik saldırıların nasıl gerçekleştiği konusunda dünyadaki en uzman kişilerle yaklaşık altı ay çalıştık."
   },
   {
     "start": 3795.0,
@@ -119,67 +59,184 @@
     ],
     "stance_silver": "Support",
     "topic_silver": "AGI timeline",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Umarım işler bu yönde gider ve bu durumda, sınırda olmadığımız ve istediğimiz gibi araştırma yapamadığımız ya da diğer kuruluşları istediğimiz gibi etkileyemediğimiz ya da sınırda olduğumuz ve net pozitif olan ancak her iki yönde de çok şey barındıran takasları kabul etmemiz gerekecek bir durumla karşılaşmayız. Kötüye kullanım ile uyumsuzluk arasındaki bu iki sorun, uzun vadede, 30 yıl sonra, hangisinin daha büyük bir sorun olarak değerlendirileceğini düşünüyorsunuz? Bunun 30 yıldan çok daha az olacağını düşünüyorum. Her ikisi hakkında da endişeliyim. Teorik olarak dünyayı kendi başına ele geçirebilecek bir modeliniz varsa, o modeli kontrol edebiliyorsanız, o zaman bir modelin bazı küçük bir grup insanın isteklerini takip etmesi ve diğerlerinin değilse, o zaman bu insanlar onu kendi adlarına dünyayı ele geçirmek için kullanabilir. Uyumsuzluğun temel varsayımı, kötüye kullanım konusunda da endişelenmemiz gerektiği anlamına geliyor, benzer sonuçlarla."
   },
   {
-    "start": 4965.2,
-    "end": 5040.3,
-    "text": "But the kind of thing that would really be \nlike, oh man, we can't solve this is like,   we see it happening inside the X-ray. I think \nright now there's way too many assumptions,   there's way too much overconfidence about how \nall this is going to go. I have a substantial   probability mass on — this all goes wrong, it's a \ncomplete disaster, but in a completely different   way than anyone had anticipated it would.\nIt would be beside the point to ask how   it could go different than anyone anticipated.\nOn this, in particular, what information would   be relevant? How much would the difficulty of \naligning Claude 3 and the next generation of   models be? Is that a big piece of information?\nI think the people who are most worried are   predicting that all the subhuman AI models are \ngoing to be alignable, They're going to seem   aligned. They're going to deceive us in some \nway. It certainly gives us some information   but I am more interested in what mechanistic \ninterpretability can tell us because, again,   you see this X ray, it would be too strong to \nsay it doesn't lie, but at least in the current   systems, it doesn't feel like it's optimizing \nagainst us. There are exotic ways that it could.",
+    "start": 6139.4,
+    "end": 6216.1,
+    "text": "That's a little how I think about it. If you go \nback to Ilya's, the models want to learn, the   compute wants to be free and it's being blocked \nin various ways where you don't understand that   it's being blocked until you need to free it up.\nI love the gradients changing that to spice.   On that point, though, do you think that another \nthing on the scale of a transformer is coming down   the pike to enable the next great iteration?\nI think it's possible. People have worked on   things like trying to model very long time \ndependencies or there's various different   ideas where I could see that we're missing an \nefficient way of representing or dealing with   something. I think those inventions are possible.\nI guess my perspective would be, even if they   don't happen, we're already on this very, \nvery steep trajectory. Unless we're constantly   trying to discover them, as are others, but \nthings are already on such a fast trajectory,   all that would do is speed up the trajectory \neven more, and probably not by that much   because it's already going so fast.\nIs having an embodied version of a   model at all important in terms of \ngetting either data or progress?",
     "speaker": "Dario Amodei",
-    "claim": "There is significant overconfidence about the future of AI, and it may lead to unforeseen disasters.",
-    "stance": "Refute",
-    "claim_labels": [
-      "ai_optimism_benefit",
-      "ai_safety_risk"
-    ],
-    "is_claim": true,
-    "topic": "AI safety",
-    "confidence": "high",
-    "claim_labels_auto": [
-      "ai_optimism_benefit",
-      "ai_safety_risk"
-    ],
-    "speaker_silver": "Dario Amodei",
-    "is_claim_silver": true,
-    "claim_silver": "There is significant overconfidence about the future of AI, and it may lead to unforeseen disasters.",
-    "claim_labels_silver": [
-      "ai_optimism_benefit",
-      "ai_safety_risk"
-    ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI safety",
-    "reviewed": false,
-    "text_tr": "Ama gerçekten, oh adamım, bunu çözemeyeceğimiz türden bir şey, X-ray içinde bunu görmemiz gibi bir şeydir. Şu anda çok fazla varsayım var, bu işlerin nasıl gideceği konusunda aşırı bir güven var. Bunun tamamen yanlış gitmesi, tam bir felaket olması için önemli bir olasılık kütlesine sahibim, ancak bunun herkesin beklediğinden tamamen farklı bir şekilde olacağına inanıyorum. Bunun, herkesin beklediğinden farklı bir şekilde nasıl gidebileceğini sormak, konunun dışında kalır. Bu konuda, hangi bilginin ilgili olacağını düşünüyorsunuz? Claude 3 ve sonraki nesil modellerin hizalanmasının ne kadar zor olacağı? Bu büyük bir bilgi parçası mı? En çok endişelenen insanların, tüm alt insan AI modellerinin hizalanabilir olacağını tahmin ettiklerini düşünüyorum. Onlar hizalı gibi görünecekler. Bir şekilde bizi aldatacaklar. Bu kesinlikle bize bazı bilgiler veriyor ama ben mekanik yorumlanabilirliğin bize ne söyleyebileceğiyle daha çok ilgileniyorum çünkü, tekrar, bu X-ray'i görüyorsunuz, bu yalan söylemiyor demek çok güçlü olurdu, ama en azından mevcut sistemlerde, bizimle karşıt bir şekilde optimize ediyormuş gibi hissetmiyor. Bunun egzotik yolları olabilir."
-  },
-  {
-    "start": 6041.2,
-    "end": 6137.2,
-    "text": "But a weakness of LSTMs is that they can't attend \nover the whole context. So there's kind of this   structural weakness. If a model isn't structurally \ncapable of absorbing and managing things that   happened in a far enough distant past, then it's \nlike the compute doesn't flow. The spice doesn't   flow. The blob has to be unencumbered. It's not \ngoing to work if you artificially close things   off. And I think RNNs and LSTMs artificially \nclose things off because they close you off   to the distant past. Again, things need to \nflow freely. If they don't, it doesn't work.  And then I added a couple things. One of them \nwas conditioning, which is if the thing you're   optimizing with is just really numerically \nbad, you're going to have trouble. And so   this is why atom works better than normal STD.\nI'm forgetting what the 7th condition was,   but it was similar to things like this, where \nif you set things up in a way that's set up to   fail or that doesn't allow the compute to \nwork in an uninhibited way, then it won't   work. Transformers were kind of within that even \nthough I can't remember if the transformer paper   had been published, it was around the same \ntime as I wrote that document. It might have   been just before. It might have been just after.\nFrom that view it sounds like the way to think   about these algorithmic progresses is not as \nincreasing the power of the blob of compute,   but simply getting rid of the artificial \nhindrances that older architectures have.",
-    "speaker": "Unknown",
-    "claim": "Older architectures like LSTMs and RNNs have structural weaknesses that hinder their ability to process distant past information effectively.",
-    "stance": "Neutral",
+    "claim": "Even without new inventions, AI is already on a very steep trajectory of progress.",
+    "stance": "Support",
     "claim_labels": [
       "breakthroughs_needed",
-      "llm_capabilities"
+      "scaling_compute"
     ],
     "is_claim": true,
-    "topic": "AI architectures",
+    "topic": "AI progress trajectory",
     "confidence": "medium",
     "claim_labels_auto": [
       "breakthroughs_needed",
-      "llm_capabilities"
+      "scaling_compute"
     ],
-    "speaker_silver": "Unknown",
+    "speaker_silver": "Dario Amodei",
     "is_claim_silver": true,
-    "claim_silver": "Older architectures like LSTMs and RNNs have structural weaknesses that hinder their ability to process distant past information effectively.",
+    "claim_silver": "Even without new inventions, AI is already on a very steep trajectory of progress.",
     "claim_labels_silver": [
       "breakthroughs_needed",
-      "llm_capabilities"
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI progress trajectory",
+    "reviewed": true,
+    "text_tr": "Bunu biraz böyle düşünüyorum. Ilya'nın modeline geri dönersek, modeller öğrenmek istiyor, hesaplama özgür olmak istiyor ve çeşitli şekillerde engelleniyor, engellendiğini anlamadan, onu serbest bırakmanız gerektiğinde. O noktada, bir dönüştürücünün ölçeğinde başka bir şeyin gelmekte olduğunu düşünüyor musun? Bir sonraki büyük yinelemeyi sağlamak için? Bunun mümkün olduğunu düşünüyorum. İnsanlar, çok uzun zaman bağımlılıklarını modellemeye çalışmak gibi şeyler üzerinde çalıştılar veya bir şeyleri temsil etmenin veya başa çıkmanın verimli bir yolunu kaçırdığımızı görebileceğim çeşitli farklı fikirler var. Bu icatların mümkün olduğunu düşünüyorum. Benim perspektifim, bunlar gerçekleşmese bile, zaten çok, çok dik bir yolda olduğumuz. Sürekli olarak onları keşfetmeye çalışmadıkça, diğerleri de öyle, ama her şey zaten çok hızlı bir yolda, tüm bunlar sadece yolda daha da hızlandırır, ve muhtemelen o kadar da fazla değil çünkü zaten çok hızlı gidiyor. Bir modelin bedensel bir versiyonuna sahip olmak, veri veya ilerleme elde etmek açısından önemli mi?"
+  },
+  {
+    "start": 5800.9,
+    "end": 5961.2,
+    "text": "We don't have to go into the particulars on \nthose numbers, but should we be worried about   how sample inefficient these models seem to be?\nThat's one of the remaining mysteries. One way   you could phrase it is that the models are maybe \ntwo to three orders of magnitude smaller than the   human brain. If you compare it to the number of \nsynapses, while at the same time being trained   on three to four more orders of magnitude of data. \nIf you compare the number of words a human sees as   they're developing to age 18, I don't remember \nexactly, but I think it's in the hundreds of   millions, whereas for the models, we're talking \nabout the hundreds of billions to the trillions.   So what explains this? There are these offsetting \nthings where the models are smaller, they need a   lot more data. They're still below human level.\nThere's some way in which   the analogy to the brain is not quite right or \nis breaking down or there's some missing factor.   This is just like in physics, where we can't \nexplain the Michelson-Morley experiment, or   one of the other 19th century physics paradoxes. \nIt's one thing we don't quite understand. Humans   see so little data, and they still do fine.\nOne theory on it, it could be that it's like   our other modalities. How do we get 10^14 bits \ninto the human brain? Most of it is these images,   and maybe a lot of what's going on inside the \nhuman brain is, our mental workspace involves   all these simulated images or something like that.\nBut honestly, intellectually we have to admit that   that's a weird thing that doesn't match up. And \nit's one reason I'm a bit skeptical of biological   analogies. I thought in terms of them, like, five \nor six years ago, but now that we actually have   these models in front of us as artifacts, it \nfeels like almost all the evidence from that   has been screened off by what we've seen. And \nwhat we've seen are models that are much smaller   than the human brain and yet can do a lot of the \nthings that humans can do, and yet, paradoxically,   require a lot more data. Maybe we'll discover \nsomething that makes it all efficient,   or maybe we'll understand why the discrepancy \nis present, but at the end of the day, I don't   think it matters, right? If we keep scaling the \nway we are. I think what's more relevant at this   point is just measuring the abilities of the \nmodel and seeing how far they are from humans,   and they don't seem terribly far to me.\nDoes this scaling picture and the big blob   of compute more generally, underemphasize the \nrole that algorithmic progress has played. When   you composed the big blob of compute, you're \npresumably talking about LSTMs at that point,   the scaling on that would not have \nyou at Claude 2 at this point.",
+    "speaker": "Dario Amodei",
+    "claim": "Current AI models are smaller than the human brain but require significantly more data, which raises questions about their efficiency and the validity of biological analogies.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are smaller than the human brain but require significantly more data, which raises questions about their efficiency and the validity of biological analogies.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "text_tr": "Bu rakamların ayrıntılarına girmemize gerek yok, ama bu modellerin örnek verimsizliği hakkında endişelenmeli miyiz? Bu, kalan gizemlerden biri. Bunu şöyle ifade edebilirsin ki, modeller belki insan beyninden iki ila üç büyüklük sırası daha küçük. Sinapsların sayısıyla karşılaştırıldığında, aynı zamanda üç ila dört büyüklük sırası daha fazla veri üzerinde eğitiliyorlar. Bir insanın 18 yaşına kadar gördüğü kelime sayısını karşılaştırırsak, tam olarak hatırlamıyorum ama sanırım yüz milyonlarca, oysa modeller için yüz milyarlarca ile trilyonlar arasında bir şeyden bahsediyoruz. Peki, bu durumu ne açıklıyor? Modeller daha küçük, daha fazla veriye ihtiyaç duyuyorlar. Hala insan seviyesinin altında. Beyinle olan analojinin tam olarak doğru olmadığı veya bozulduğu ya da eksik bir faktör olduğu bir yol var. Bu, fizik alanında Michelson-Morley deneyini veya 19. yüzyıl fizik paradokslarından birini açıklayamadığımız gibi bir şey. Tam olarak anlamadığımız bir şey. İnsanlar çok az veri görüyor ve yine de iyi gidiyorlar. Bununla ilgili bir teori, bunun diğer modalitelerimiz gibi olabileceği. İnsan beynine 10^14 bit nasıl giriyor? Bunun çoğu bu görüntüler ve belki de insan beyninin içindeki birçok şey, zihinsel çalışma alanımızın bu simüle edilmiş görüntülerle ilgili olduğu bir şeydir. Ama dürüst olmak gerekirse, entelektüel olarak bunun tuhaf bir şey olduğunu kabul etmemiz gerekiyor, bu da biyolojik analojilere biraz şüpheyle yaklaşmamın bir nedeni. Beş veya altı yıl önce bunları düşünmüştüm, ama şimdi bu modelleri önümüzdeki nesneler olarak gördüğümüzde, bununla ilgili tüm kanıtların neredeyse tamamen göz ardı edildiğini hissediyorum. Ve gördüğümüz şeyler, insan beyninden çok daha küçük olan modeller ve yine de insanların yapabildiği birçok şeyi yapabiliyorlar, ama paradoksal olarak çok daha fazla veriye ihtiyaç duyuyorlar. Belki de her şeyi verimli hale getiren bir şey keşfedeceğiz ya da belki de neden bu tutarsızlığın mevcut olduğunu anlayacağız, ama sonunda bunun önemli olduğunu düşünmüyorum, değil mi? Eğer olduğumuz gibi ölçeklenmeye devam edersek. Bence bu noktada daha alakalı olan şey, modelin yeteneklerini ölçmek ve insanların ne kadar uzakta olduğunu görmek, ve bana çok da uzak görünmüyorlar. Bu ölçeklenme resmi ve genel olarak büyük hesaplama yığını, algoritmik ilerlemenin oynadığı rolü yeterince vurgulamıyor mu? Büyük hesaplama yığını oluşturduğunuzda, o noktada muhtemelen LSTM'lerden bahsediyorsunuz, bunun ölçeklenmesi sizi şu anda Claude 2'ye ulaştırmaz."
+  },
+  {
+    "start": 455.9,
+    "end": 531.5,
+    "text": "You could have made a case a few years ago \nthat they can't reason, they can't program.   You could have drawn boundaries and said maybe \nyou'll hit a wall. I didn't think we would hit a   wall, a few other people didn't think we would \nhit a wall, but it was a more plausible case   then. It's a less plausible case now.\nIt could happen. This stuff is crazy.   We could hit a wall tomorrow. If that happens my \nexplanation would be there's something wrong with   the loss when you train on next word prediction.\nIf you really want to learn to program at a   really high level, it means you care about some \ntokens much more than others and they're rare   enough that the loss function over focuses on the \nappearance, the things that are responsible for   the most bits of entropy, and instead they don't \nfocus on this stuff that's really essential. So   you could have the signal drowned out in the \nnoise. I don't think it's going to play out   that way for a number of reasons. But if you \ntold me — Yes, you trained your 2024 model.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI may not hit a wall in development, and the current trajectory suggests continued progress.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI may not hit a wall in development, and the current trajectory suggests continued progress.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": true,
+    "text_tr": "Verilen görev açısından şanslıydım. Bize ve oradaki diğer arkadaşlara verilen görev, mümkün olan en iyi konuşma tanıma sistemini yapmaktı. Çok fazla veri mevcuttu, çok sayıda GPU vardı. Problemi, bu tür ölçeklemenin bir çözüm olduğunu keşfetmeye uygun bir şekilde sundu. Bu, bir fikri bulmak ve yeni ve akıllıca görünen bir şeyle kendinizi tanıtmak için bir postdoc olmanın çok farklı bir hali. Ben sadece en basit deneyleri denedim. Bazı düğmelere dokunuyordum. Daha fazla katman eklemeyi dene, daha uzun süre eğit, ne oluyor? Aşırı uyum sağlamak ne kadar sürüyor? Yeni veri eklersem ve daha az tekrar edersem ne olur? Ve bu çok tutarlı kalıpları gördüm. Bunun alışılmadık olduğunu veya başkalarının bu şekilde düşünmediğini gerçekten bilmiyordum. Bu neredeyse bir acemi şansı gibiydi. Bu benim ilk deneyimimdi ve bunu konuşma tanıma dışında pek düşünmedim. Sadece, bu alanda hiçbir şey bilmediğimi düşündüm."
+  },
+  {
+    "start": 4751.1,
+    "end": 4820.4,
+    "text": "Now what I do think is that hopefully within a \ntimescale of two to three years we get better at   diagnosing when the models are good and when \nthey're bad. We get better at increasing our   repertoire of methods to train the model that \nthey're less likely to do bad things and more   likely to do good things in a way that isn't just \nrelevant to the current models but scales. And we   can help develop that with interpretability \nas the test set. I don't think of it as,   oh, man, we tried RLHF, it didn't work. We tried \nConstitutional AI, it didn't work. We tried this   other thing, it didn't work. We tried mechanistic \ninterpretability. Now we're going to try something   else. I think this frame of like, man, we \nhaven't cracked the problem yet, we haven't   solved the Riemann hypothesis isn't quite right.\nAlready with today's systems, we are not very   good at controlling them and the consequences \nof that could be very bad. We just need to get   more ways of increasing the likelihood that \nwe can control our models and understand   what's going on in them. And we have some \nof them so far. They aren't that good yet.",
+    "speaker": "Dario Amodei",
+    "claim": "We need to improve our methods for diagnosing and controlling AI models within the next few years to ensure they behave well.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "We need to improve our methods for diagnosing and controlling AI models within the next few years to ensure they behave well.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Şimdi, umarım iki ila üç yıl içinde modellerin ne zaman iyi, ne zaman kötü olduğunu teşhis etme konusunda daha iyi hale geliriz. Modelleri eğitmek için yöntemlerimizi artırma konusunda daha iyi hale geliriz, böylece kötü şeyler yapma olasılıkları daha az, iyi şeyler yapma olasılıkları ise daha fazla olur ve bu sadece mevcut modellere değil, ölçeklenebilir. Ve bunu, test seti olarak yorumlanabilirlik ile geliştirmeye yardımcı olabiliriz. Bunu, oh, adamım, RLHF denedik, işe yaramadı. Anayasal AI denedik, işe yaramadı. Bu diğer şeyi denedik, işe yaramadı. Mekanik yorumlanabilirlik denedik. Şimdi başka bir şey deneyeceğiz gibi düşünmüyorum. Bu çerçeve, adamım, henüz bu sorunu çözemediğimiz, Riemann hipotezini henüz çözemediğimiz gibi doğru değil. Bugünün sistemleriyle, onları kontrol etme konusunda pek iyi değiliz ve bunun sonuçları çok kötü olabilir. Modellerimizi kontrol edebilme ve içlerinde neler olup bittiğini anlama olasılığımızı artırmanın daha fazla yolunu bulmalıyız. Ve şu ana kadar bazılarına sahibiz. Henüz o kadar iyi değiller."
+  },
+  {
+    "start": 4437.1,
+    "end": 4509.1,
+    "text": "I think it will defend against most attacks and \nagainst a state level actor who's less determined.   But there's a lot more we need to do, and some of \nit may require new research on how to do security.  Let's talk about what it would take at that \npoint. We're at Anthropic offices and it's   got good security. We had to get badges and \neverything to come in here. But what does the   eventual version of this building or bunker or \nwhatever where the AGI is built look like? Is it   a building in the middle of San Francisco or are \nyou out in the middle of Nevada or Arizona? What   is a point in which you're Los Alamos-ing it?\nAt one point there was a running joke somewhere   that the way building AGI would look like is, \nthere would be a data center next to a nuclear   power plant next to a bunker, and that we'd all \nkind of live in the bunker and everything would   be local so it wouldn't get on the Internet.\nIf we take the rate at which all this is going   to happen seriously, which I can't be \nsure of, then it does make me think   that something like that might happen, but \nmaybe not something quite as cartoonish.",
+    "speaker": "Dario Amodei",
+    "claim": "The eventual construction of AGI facilities may require significant security measures and new research.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The eventual construction of AGI facilities may require significant security measures and new research.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "breakthroughs_needed"
     ],
     "stance_silver": "Neutral",
-    "topic_silver": "AI architectures",
-    "reviewed": false,
-    "text_tr": "Ama LSTM'lerin bir zayıflığı, tüm bağlama dikkat edememeleridir. Yani, burada bir tür yapısal zayıflık var. Eğer bir model, uzak geçmişte olan şeyleri emme ve yönetme yapısal yeteneğine sahip değilse, o zaman hesaplama akışı gerçekleşmez. Baharat akmaz. Yığın, engellenmemiş olmalıdır. Eğer yapay olarak bir şeyleri kapatırsanız, çalışmayacaktır. Ve bence RNN'ler ve LSTM'ler, uzak geçmişe kapalı oldukları için yapay olarak bir şeyleri kapatıyorlar. Yine, şeylerin serbestçe akması gerekiyor. Eğer akmazsa, çalışmaz. Ve sonra birkaç şey ekledim. Bunlardan biri, optimize ettiğiniz şey gerçekten sayısal olarak kötü ise, sorun yaşayacaksınız. Ve bu nedenle atom, normal STD'den daha iyi çalışıyor. 7. koşulun ne olduğunu unuttum ama bu, başarısız olmaya veya hesaplamanın engellenmesine neden olan bir şekilde ayarlandığında çalışmayacak şeyler gibi benzer şeylerdi. Dönüştürücüler, bunun içinde yer alıyordu, hatta dönüştürücü makalesinin yayınlanıp yayınlanmadığını hatırlayamıyorum, o belgeyi yazdığım zamanla aynı zamanda ya da hemen öncesinde ya da sonrasında olabilir. Bu açıdan, bu algoritmik ilerlemeleri düşünmenin yolu, hesaplama yığınının gücünü artırmak değil, daha eski mimarilerin sahip olduğu yapay engelleri ortadan kaldırmak gibi görünüyor."
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Çoğu saldırıya ve daha az kararlı bir devlet aktörüne karşı savunma yapacağını düşünüyorum. Ancak yapmamız gereken çok şey var ve bunların bir kısmı güvenlik sağlama konusunda yeni araştırmalar gerektirebilir. O noktada ne olacağını konuşalım. Anthropic ofislerindeyiz ve burada iyi bir güvenlik var. Buraya girmek için rozetler almak zorundaydık. Ama AGI'nin inşa edileceği bu binanın veya sığınakların nihai versiyonu nasıl görünüyor? San Francisco'nun ortasında bir bina mı, yoksa Nevada veya Arizona'nın ortasında mı? Los Alamos tarzı bir noktaya ne zaman geliyorsunuz? Bir noktada, AGI inşa etmenin nasıl görüneceğine dair bir şaka vardı; bir veri merkezi, bir nükleer santralin yanında, bir sığınak yanında olacaktı ve hepimiz sığınakta yaşayacaktık ve her şey yerel olacaktı, böylece internete çıkmayacaktı. Tüm bunların ne hızda gerçekleşeceğini ciddiye alırsak, ki bundan emin olamam, o zaman böyle bir şeyin olabileceğini düşünüyorum, ama belki de bu kadar karikatürize bir şey olmayabilir."
+  },
+  {
+    "start": 702.6,
+    "end": 778.2,
+    "text": "I kind of got lucky in that the task \nthat was given to me and the other   folks there. It was just to make the best \nspeech recognition system that you can.  There was a lot of data available, there were a \nlot of GPUs available. It posed the problem in   a way that was amenable to discovering that kind \nof scaling was a solution. That's very different   from being a postdoc whose job is to come up with \nan idea that seems clever and new and makes your   mark as someone who's invented something.\nI just tried the simplest experiments. I   was just fiddling with some dials. I was \nlike, try adding more layers to the RNN,   try training it for longer, what happens? \nHow long does it take to overfit? What if   I add new data and repeat it less times? And \nI just saw these very consistent patterns.  I didn't really know that this was unusual or \nthat others weren't thinking in this way. This was   almost like beginner's luck. It was my first \nexperience with it and I didn't really think   about it beyond speech recognition. I was just \nlike, oh, I don't know anything about this field.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI development",
+    "reviewed": true,
+    "text_tr": "Dil, bu şeylere bir yığın veri beslemenin aracı olduğu ne zaman size açık hale geldi? Yoksa başka şeyler bittiği için mi? Robotikte yeterince veri yok. Bu diğer şeyde, yeterince veri yok. Bir sonraki kelime tahmini fikrinin, kendi kendine denetimli öğrenme yapabileceğiniz fikriyle birlikte, orada bir sonraki kelimeyi tahmin etmek için çok fazla zenginlik ve yapı olduğu fikri. İki artı iki eşittir dediğinde, cevabın dört olduğunu bilmeniz gerekir. Bir karakter hakkında bir hikaye anlatıyor olabilir. Temelde, modele çocuklara yöneltilen bu gelişimsel testlerin eşdeğeri olan soruları yöneltiyor. Mary odaya girer ve bir nesneyi oraya koyar, sonra Chuck odaya girer ve nesneyi alır ve Mary bunu görmez. Mary ne düşünür? Bir sonraki kelimeyi tahmin etme hizmetinde bunu doğru yapmak için, modellerin tüm bu zihin teorisi problemlerini çözmesi, tüm bu matematik problemlerini çözmesi gerekecek. Ve benim düşüncem, bunu mümkün olduğunca büyütmek. Bunun bir sınırı yok gibi. Ve bu soyut bir görüşe sahip olduğumu düşünüyorum ama beni gerçekten ikna eden şey, Alec Radford'ın GPT-1 üzerindeki çalışmasıydı. Bu, sadece bu dil modelinin çok iyi tahminler yapabileceği değil, aynı zamanda onu ince ayar yapabileceğiniz gerçeğiydi. O günlerde, onu tüm bu diğer görevleri yerine getirmek için ince ayar yapmanız gerekiyordu."
   }
 ]

@@ -1,93 +1,63 @@
 [
   {
-    "start": 1846.0,
-    "end": 1910.1,
-    "text": "And I love that. For me it's this sort of\nmultidisciplinary kind of effort is again, something I've\nenjoyed my whole life. - I have to ask you I almost\nforgot about one of the many and I would say one of the\nmost incredible things recently that somehow didn't yet get\nenough attention is AlphaEvolve. We talked about evolution a little bit, but it's the Google DeepMind system that evolves algorithms.\n- Yeah. - Are these kinds of evolution\nlike techniques promising as a component of future\nsuperintelligence system? So for people who don't know, it's kind of, I don't\nknow if it's fair to say, it's LLM-guided evolution search. - Yeah.\n- So evolutionary algorithms - are doing the search,\n- Yes. - and LLMs are telling you where. - Yes, exactly. So LLMs are kind of proposing\nsome possible solutions and then you use\nevolutionary computing on top to find some novel part\nof the search space. So actually I think it's an example of very promising directions where you combine LLMs\nor foundation models with other computational techniques.",
+    "start": 7100.0,
+    "end": 7162.7,
+    "text": "The reason I don't is because I think it would imply a level of\nprecision that is not there. So like, I don't know how people are\ngetting their p doom numbers. I think it's a kind of a little\nbit of a ridiculous notion because what I would say\nis it's definitely non-zero and it's probably non-negligible. So that in itself is pretty sobering. And my view is it's just\nhugely uncertain, right? What these technologies\nare gonna be able to do? How fast are they gonna take off? How controllable they're gonna be? Some things may turn out to be, and hopefully like way easier\nthan we thought, right? But it may be there are\nsome really hard problems that are harder than we guess today. And I think we don't know that for sure. And so under those conditions\nof a lot of uncertainty, but huge stakes both ways. You know, on the one hand, we could solve all\ndiseases, energy problems, the scarcity problem and\nthen travel to the stars and conscious of the stars\nand maximum human flourishing, on the other hand, is this\nsort of p doom scenarios.",
     "speaker": "Demis Hassabis",
-    "claim": "Combining LLMs with evolutionary algorithms is a promising direction for future superintelligence systems.",
-    "stance": "Support",
+    "claim": "The future of AGI is highly uncertain, with both potential benefits and significant risks.",
+    "stance": "Refute",
     "claim_labels": [
-      "llm_capabilities",
-      "scaling_compute"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "is_claim": true,
-    "topic": "AI techniques",
+    "topic": "AI safety",
     "confidence": "medium",
     "claim_labels_auto": [
-      "llm_capabilities",
-      "scaling_compute"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
     "speaker_silver": "Demis Hassabis",
     "is_claim_silver": true,
-    "claim_silver": "Combining LLMs with evolutionary algorithms is a promising direction for future superintelligence systems.",
+    "claim_silver": "The future of AGI is highly uncertain, with both potential benefits and significant risks.",
     "claim_labels_silver": [
-      "llm_capabilities",
-      "scaling_compute"
+      "agi_timeline",
+      "ai_optimism_benefit"
     ],
-    "stance_silver": "Support",
-    "topic_silver": "AI techniques",
-    "reviewed": false,
-    "text_tr": "Ve bunu seviyorum. Benim için bu tür çok disiplinli bir çaba, hayatım boyunca keyif aldığım bir şey. - Sormam gereken bir şey var, neredeyse unuttum, son zamanlarda yeterince dikkat çekmeyen birçok şeyden biri ve bence en inanılmaz olanı AlphaEvolve. Evrim hakkında biraz konuştuk, ama bu, algoritmaları evrimleştiren Google DeepMind sistemidir. - Evet. - Bu tür evrim teknikleri, gelecekteki süper zeka sisteminin bir bileşeni olarak umut verici mi? Bilmeyenler için, bunun, bilmiyorum, adil mi söylemek, LLM rehberliğinde bir evrim araması gibi olduğunu söyleyebilirim. - Evet. - Yani evrimsel algoritmalar arama yapıyor, - Evet. - ve LLM'ler sana nerede olduğunu söylüyor. - Evet, tam olarak. Yani LLM'ler bazı olası çözümler öneriyor ve sonra evrimsel hesaplama ile üstüne ekleyerek arama alanının yeni bir bölümünü buluyorsun. Bu yüzden aslında, LLM'leri veya temel modelleri diğer hesaplama teknikleriyle birleştirdiğin çok umut verici yönlerin bir örneği olduğunu düşünüyorum."
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Bunu yapmamamın nedeni, bunun mevcut olmayan bir hassasiyet seviyesini ima edeceğini düşünmem. Yani, insanların p kıyamet sayılarının nasıl elde edildiğini bilmiyorum. Bu, biraz saçma bir kavram gibi geliyor çünkü söyleyebileceğim şey, kesinlikle sıfırdan büyük ve muhtemelen göz ardı edilemeyecek bir şey. Bu başlı başına oldukça düşündürücü. Ve benim görüşüm, bunun son derece belirsiz olduğu. Bu teknolojilerin ne yapabileceği? Ne kadar hızlı yükselebilecekler? Ne kadar kontrol edilebilir olacaklar? Bazı şeyler, düşündüğümüzden çok daha kolay çıkabilir, değil mi? Ama belki de bugün tahmin ettiğimizden daha zor bazı gerçekten zor problemler vardır. Ve bunun kesin olarak bilmediğimizi düşünüyorum. Ve bu belirsizlik koşullarında, her iki yönde de büyük riskler var. Yani, bir yandan tüm hastalıkları, enerji problemlerini, kıtlık problemini çözebiliriz ve sonra yıldızlara seyahat edebiliriz ve yıldızların bilincinde olabiliriz ve maksimum insan gelişimi, diğer yandan ise bu tür p kıyamet senaryoları var."
   },
   {
-    "start": 2981.2,
-    "end": 3050.8,
-    "text": "Like what did we do wrong? Humans have been asking that question for a long time.\n- Yeah, exactly. So we're quite, I guess we've developed\na lot of mechanisms to cope with this.\n- Yeah. - These deep mysteries\nthat we can't fully, we can see but we can't fully understand and we have to just get on with daily life.\n- Yeah. - And we keep ourselves busy, right? In a way, did we keep\nourselves distracted? - I mean weather is one of the most important\nquestions of human history. We still, that's the\ngo-to small talk direction of the weather.\n- Yes. Especially in England, yeah. - And then which is, you know, famously is an extremely difficult system to model.\n- Yeah. - And even that system, Google DeepMind has made progress on. - Yes, yeah, we've created the best weather prediction\nsystems in the world and they're better than traditional fluid dynamics sort of systems that usually calculated\non massive supercomputers, takes days to calculate it. We've managed to model a\nlot of the weather dynamics with neural network systems with our WeatherNext system. And again, it's interesting, that those kinds of\ndynamics can be modeled even though they're very complicated, almost bordering on chaotic\nsystems in some cases.",
+    "start": 7438.1,
+    "end": 7500.9,
+    "text": "- Yeah, as the AI become\nsmarter and smarter, one of the interesting questions\nwe can ask ourselves is what makes humans special? It does feel perhaps biased that we humans are deeply special. I don't know if it's our intelligence. It could be something else that other thing that's outside\nthe mad dreams of reason. - I think that's what I've\nalways imagined when I was a kid and starting on this journey of like, I was of course fascinated\nby things like consciousness, did a neuroscience PhD to\nlook at how the brain works, especially imagination and memory. I focused on the hippocampus. And it's sort of gonna be interesting. I always thought the best way, of course one can philosophize about it and have thought experiments and maybe even do actual experiments like you do in neuroscience\non real brains, but in the end, I always imagined that building AI a kind of intelligent artifact and then comparing that to the human mind and seeing what the differences were would be the best way to uncover what's special about the human mind, if indeed there is anything special.",
     "speaker": "Demis Hassabis",
-    "claim": "DeepMind has developed advanced neural network systems for weather prediction that outperform traditional methods.",
+    "claim": "Building AI and comparing it to the human mind will help uncover what makes humans special.",
     "stance": "Neutral",
     "claim_labels": [
-      "llm_capabilities",
-      "ai_optimism_benefit"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "is_claim": true,
-    "topic": "AI capabilities",
+    "topic": "Nature of intelligence",
     "confidence": "medium",
     "claim_labels_auto": [
-      "llm_capabilities",
-      "ai_optimism_benefit"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "speaker_silver": "Demis Hassabis",
     "is_claim_silver": true,
-    "claim_silver": "DeepMind has developed advanced neural network systems for weather prediction that outperform traditional methods.",
+    "claim_silver": "Building AI and comparing it to the human mind will help uncover what makes humans special.",
     "claim_labels_silver": [
-      "llm_capabilities",
-      "ai_optimism_benefit"
+      "ai_optimism_benefit",
+      "execution_engineering"
     ],
     "stance_silver": "Neutral",
-    "topic_silver": "AI capabilities",
-    "reviewed": false,
-    "text_tr": "Yani, bunu simüle etmekten kaçınabilir misin? Yani, buradaki zorluklardan biri, bunun herhangi birinin kuantum mekanik yönlerini simüle etmemek, değil mi?"
-  },
-  {
-    "start": 3118.2,
-    "end": 3183.6,
-    "text": "So they actually might be\nusing DeepMind systems, so that's.\n- Yeah, hopefully they are. And I love to join them\nin one of those chases. They look amazing, right?\n- It's great. - To actually experience it one time. - Exactly.\n- Yeah. - And then also to experience\nthe correct prediction, - Yeah, yeah.\n- where something will come, and how it's going to evolve. It's incredible, yeah. You've estimated that\nwe'll have AGI by 2030, so there's interesting\nquestions around that. How will we actually\nknow that we got there and what may be the move,\nquote, \"Move 37\" of AGI? - My estimate is sort of 50% chance by in the next five years. So, you know, by 2030 let's say. And so I think there's a good\nchance that that could happen. Part of it is what is\nyour definition of AGI, of course people arguing about that now. And mine's quite a high bar\nand always has been of like, can we match the cognitive\nfunctions that the brain has? Right, so we know our\nbrains are pretty much general Turing machines, approximate. And of course we created incredible modern\ncivilization with our minds.",
-    "speaker": "Demis Hassabis",
-    "claim": "Demis Hassabis estimates a 50% chance of achieving AGI by 2030, suggesting optimism about its near-term arrival.",
-    "stance": "Support",
-    "claim_labels": [
-      "agi_timeline",
-      "ai_optimism_benefit"
-    ],
-    "is_claim": true,
-    "topic": "AGI timeline",
-    "confidence": "high",
-    "claim_labels_auto": [
-      "agi_timeline",
-      "ai_optimism_benefit"
-    ],
-    "speaker_silver": "Demis Hassabis",
-    "is_claim_silver": true,
-    "claim_silver": "Demis Hassabis estimates a 50% chance of achieving AGI by 2030, suggesting optimism about its near-term arrival.",
-    "claim_labels_silver": [
-      "agi_timeline",
-      "ai_optimism_benefit"
-    ],
-    "stance_silver": "Support",
-    "topic_silver": "AGI timeline",
-    "reviewed": false,
-    "text_tr": "Yanlış ne yaptık? İnsanlar bu soruyu uzun zamandır soruyor. - Evet, tam olarak. Yani, sanırım bu konuda başa çıkmak için birçok mekanizma geliştirdik. - Evet. - Tam olarak anlayamadığımız, görebildiğimiz ama tam olarak anlayamadığımız derin gizemler var ve günlük yaşamla devam etmemiz gerekiyor. - Evet. - Ve kendimizi meşgul tutuyoruz, değil mi? Bir şekilde, kendimizi oyalıyor muyuz? - Yani hava, insanlık tarihinin en önemli sorularından biridir. Hala, bu hava ile ilgili küçük konuşma yönü. - Evet. Özellikle İngiltere'de, evet. - Ve bu, biliyorsun, modellemesi son derece zor bir sistemdir. - Evet. - Ve bu sistemde, Google DeepMind ilerleme kaydetti. - Evet, evet, dünyanın en iyi hava tahmin sistemlerini oluşturduk ve bunlar, genellikle dev süper bilgisayarlarda hesaplanan geleneksel akış dinamiklerinden daha iyi. Günlerce hesaplama alıyor. Hava dinamiklerinin çoğunu, WeatherNext sistemimizle sinir ağı sistemleri ile modellemeyi başardık. Ve yine, ilginç olan, bu tür dinamiklerin, karmaşık olmalarına rağmen, bazı durumlarda kaotik sistemlere yakın olmalarına rağmen modellenebilmesidir."
+    "topic_silver": "Nature of intelligence",
+    "reviewed": true,
+    "text_tr": "- Evet, AI daha akıllı hale geldikçe, kendimize sorabileceğimiz ilginç sorulardan biri, insanları özel kılan şey nedir? İnsanların derin bir şekilde özel olduğunu hissetmek belki de önyargılı. Bilmiyorum, bu bizim zekamız mı? Belki de aklın delice hayallerinin dışında başka bir şeydir. - Bence bu, çocukken her zaman hayal ettiğim şeydi ve bu yolculuğa başladığımda, elbette bilinç gibi şeylere hayran kalmıştım, beynin nasıl çalıştığını, özellikle hayal gücü ve hafızayı incelemek için bir nörobilim doktorası yaptım. Hipokampusa odaklandım. Ve bu oldukça ilginç olacak. Elbette, bunun hakkında felsefi olarak düşünmek ve düşünce deneyleri yapmak ve belki de nörobilimde gerçek beyinler üzerinde yaptığınız gibi gerçek deneyler yapmak mümkün, ama sonunda, her zaman düşündüm ki, AI inşa etmek, bir tür zeki nesne oluşturmak ve ardından bunu insan zihniyle karşılaştırmak ve farklılıkları görmek, insan zihninin özel olanını ortaya çıkarmanın en iyi yolu olacaktır, eğer gerçekten özel bir şey varsa."
   },
   {
     "start": 3600.2,
@@ -122,67 +92,151 @@
     ],
     "stance_silver": "Refute",
     "topic_silver": "AI capabilities",
-    "reviewed": false,
+    "reviewed": true,
     "text_tr": "Sence bu basit olacak mı? Sence bu, kendini geliştiren bir program ve basit bir şey olacak mı? - Yani, potansiyel olarak bunun mümkün olduğunu söyleyebilirim. Bunun istenebilir olup olmadığından bile emin değilim çünkü bu, bir tür sert kalkış senaryosu gibi. - Evet. - Ama bu mevcut sistemler, AlphaEvolve gibi, çeşitli şeyleri karar veren insanın devrede olduğu, etkileşimde bulunan ayrı hibrit sistemler. Sonunda bunu uçtan uca yapmanın mümkün olabileceğini hayal edebiliriz. Bunun mümkün olamayacağını düşünmüyorum. Ama şu anda, bildiğin gibi, bu sistemlerin kod mimarisini oluşturma açısından yeterince iyi olduğunu düşünmüyorum. Ve yine, bu, yeni bir varsayım hipotezi oluşturma fikriyle biraz bağlantılı. Onlara ne yapmaya çalıştığınız hakkında çok spesifik talimatlar verirseniz iyi çalışıyorlar. Ama onlara çok belirsiz, yüksek seviyeli bir talimat verirseniz, bu şu anda işe yaramaz. Ve bunun, Go kadar iyi bir oyun icat etme fikriyle ilgili olduğunu düşünüyorum, değil mi? Bunun bir istem olduğunu hayal edin. Bu oldukça belirsiz. Ve bu nedenle mevcut sistemlerin bununla ne yapacaklarını, bunu nasıl somut bir hale getireceklerini bilmiyorlar gibi geliyor."
   },
   {
-    "start": 7100.0,
-    "end": 7162.7,
-    "text": "The reason I don't is because I think it would imply a level of\nprecision that is not there. So like, I don't know how people are\ngetting their p doom numbers. I think it's a kind of a little\nbit of a ridiculous notion because what I would say\nis it's definitely non-zero and it's probably non-negligible. So that in itself is pretty sobering. And my view is it's just\nhugely uncertain, right? What these technologies\nare gonna be able to do? How fast are they gonna take off? How controllable they're gonna be? Some things may turn out to be, and hopefully like way easier\nthan we thought, right? But it may be there are\nsome really hard problems that are harder than we guess today. And I think we don't know that for sure. And so under those conditions\nof a lot of uncertainty, but huge stakes both ways. You know, on the one hand, we could solve all\ndiseases, energy problems, the scarcity problem and\nthen travel to the stars and conscious of the stars\nand maximum human flourishing, on the other hand, is this\nsort of p doom scenarios.",
+    "start": 2647.2,
+    "end": 2718.5,
+    "text": "But we know that biology, all the interesting things happen with the dynamics, the interactions. And that's what AlphaFold 3\nis the first step towards is modeling those interactions. So first of all, pairwise, you know, proteins with proteins, proteins with RNA and DNA, but then the next step after that would be modeling maybe a whole pathway, maybe like the TOR pathway\nthat's involved in cancer or something like this. And then eventually you\nmight be able to model, you know, a whole cell. - Also, there's another complexity here that stuff in a cell happens\nat different timescales. Is that tricky? Like they're, you know, protein folding is, you know, super fast. - [Demis] Yes. - I don't know all the\nbiological mechanisms, - Yeah.\n- but some of them take a long time.\n- Yeah. - And so that's a level, so the levels of interaction has a different temporal scale\n- Yeah. - that you have to be able to model. - So that would be hard. So you'd probably need\nseveral simulated systems that can interact at these\ndifferent temporal dynamics, or at least maybe it's\nlike a hierarchical system so you can jump up or down\nthe different temporal stages. - So can you avoid, I mean, one of the challenges\nhere is not avoid simulating, for example, the quantum\nmechanical aspects of any of this, right?",
     "speaker": "Demis Hassabis",
-    "claim": "The future of AGI is highly uncertain, with both potential benefits and significant risks.",
-    "stance": "Refute",
+    "claim": null,
+    "stance": "Neutral",
     "claim_labels": [
-      "agi_timeline",
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "biological modeling",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "biological modeling",
+    "reviewed": true,
+    "text_tr": "Ama biliyoruz ki biyolojide, tüm ilginç şeyler dinamiklerle, etkileşimlerle gerçekleşiyor. Ve AlphaFold 3'ün ilk adımı, bu etkileşimleri modellemektir. Öncelikle, biliyorsun, proteinler ile proteinler, proteinler ile RNA ve DNA arasında, ama sonra sonraki adım belki de kanserle ilgili TOR yolu gibi bir bütün yolu modellemek olacaktır. Ve sonunda, biliyorsun, belki de bir hücreyi modelleyebileceksin. - Ayrıca, burada başka bir karmaşıklık var, hücredeki şeyler farklı zaman ölçeklerinde gerçekleşiyor. Bu zor mu? Yani, biliyorsun, protein katlanması, biliyorsun, süper hızlı. - [Demis] Evet. - Tüm biyolojik mekanizmaları bilmiyorum, - Evet. - ama bazıları uzun zaman alıyor. - Evet. - Ve bu, etkileşim seviyeleri farklı bir zamansal ölçeğe sahip olduğu anlamına geliyor. - Evet. - Bunu modelleyebilmen gerekiyor. - Bu zor olacaktır. Yani, muhtemelen bu farklı zamansal dinamiklerde etkileşim kurabilen birkaç simüle edilmiş sisteme ihtiyacın olacak, ya da belki de farklı zamansal aşamalarda yukarı veya aşağı atlayabileceğin hiyerarşik bir sistem gibi."
+  },
+  {
+    "start": 1380.8,
+    "end": 1452.2,
+    "text": "As you say, it's just giving\nyou the illusion of choice. What you want to be able to do is potentially anything in\nthat game environment. And I think the only\nway you can do that is to have generated systems, systems that will\ngenerate that on the fly. Of course, you can't create infinite amounts of game assets, right? It's expensive enough already\nhow AAA games are made today. And that was obvious\nto us back in the '90s when I was working on all these games. I think maybe Black & White\nwas the game that I worked on, early stages of that, that had the still probably\nthe best learning AI in it. It was an early reinforcement\nlearning system that you, you know, you were looking\nafter this mythical creature and growing it and nurturing it. And depending how you treated it, it would treat the villagers\nin that world in the same way. So if you were mean to\nit, it would be mean. If you were good, it would be protective. And so it was really a reflection\nof the way you played it. So actually all of the, I've been working on sort\nof simulations and AI through the medium of games\nat the beginning of my career. And really the whole of what I\ndo today is still a follow on from those early more\nhard-coded ways of doing the AI to now, you know, fully\ngeneral learning systems that are trying to achieve the same thing.",
+    "speaker": "Demis Hassabis",
+    "claim": "The development of fully general learning systems is a continuation of early AI work in games.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
       "ai_optimism_benefit"
     ],
     "is_claim": true,
-    "topic": "AI safety",
+    "topic": "AI development",
     "confidence": "medium",
     "claim_labels_auto": [
-      "agi_timeline",
+      "scaling_compute",
       "ai_optimism_benefit"
     ],
     "speaker_silver": "Demis Hassabis",
     "is_claim_silver": true,
-    "claim_silver": "The future of AGI is highly uncertain, with both potential benefits and significant risks.",
+    "claim_silver": "The development of fully general learning systems is a continuation of early AI work in games.",
     "claim_labels_silver": [
-      "agi_timeline",
+      "scaling_compute",
       "ai_optimism_benefit"
     ],
-    "stance_silver": "Refute",
-    "topic_silver": "AI safety",
-    "reviewed": false,
-    "text_tr": "Bunu yapmamamın nedeni, bunun mevcut olmayan bir hassasiyet seviyesini ima edeceğini düşünmem. Yani, insanların p kıyamet sayılarının nasıl elde edildiğini bilmiyorum. Bu, biraz saçma bir kavram gibi geliyor çünkü söyleyebileceğim şey, kesinlikle sıfırdan büyük ve muhtemelen göz ardı edilemeyecek bir şey. Bu başlı başına oldukça düşündürücü. Ve benim görüşüm, bunun son derece belirsiz olduğu. Bu teknolojilerin ne yapabileceği? Ne kadar hızlı yükselebilecekler? Ne kadar kontrol edilebilir olacaklar? Bazı şeyler, düşündüğümüzden çok daha kolay çıkabilir, değil mi? Ama belki de bugün tahmin ettiğimizden daha zor bazı gerçekten zor problemler vardır. Ve bunun kesin olarak bilmediğimizi düşünüyorum. Ve bu belirsizlik koşullarında, her iki yönde de büyük riskler var. Yani, bir yandan tüm hastalıkları, enerji problemlerini, kıtlık problemini çözebiliriz ve sonra yıldızlara seyahat edebiliriz ve yıldızların bilincinde olabiliriz ve maksimum insan gelişimi, diğer yandan ise bu tür p kıyamet senaryoları var."
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": true,
+    "text_tr": "Söylediğin gibi, bu sadece sana seçim illüzyonu sunuyor. O oyunun ortamında yapabileceğin şey, potansiyel olarak her şey olmalı. Ve bence bunu yapmanın tek yolu, anlık olarak bunu üretecek sistemler oluşturmaktır. Tabii ki, sonsuz miktarda oyun varlığı yaratamazsın, değil mi? Bugün AAA oyunlarının nasıl yapıldığı zaten yeterince pahalı. Ve bu, 90'larda bu oyunlar üzerinde çalışırken bizim için açıktı. Belki de Black & White, üzerinde çalıştığım, hala muhtemelen en iyi öğrenen yapay zekaya sahip olan oyundu. Bu, senin bakıp büyüttüğün ve beslediğin efsanevi bir yaratıkla ilgili erken bir pekiştirme öğrenme sistemiydi. Ve ona nasıl davrandığına bağlı olarak, o da o dünyadaki köylülere aynı şekilde davranıyordu. Yani ona kötü davranırsan, o da kötü olurdu. İyi davranırsan, koruyucu olurdu. Bu yüzden, gerçekten oynama şeklinin bir yansımasıydı. Aslında, kariyerimin başında oyunlar aracılığıyla simülasyonlar ve yapay zeka üzerinde çalışıyordum. Ve bugün yaptığım her şey, hala o erken daha katı kodlanmış yapay zeka yöntemlerinden, şimdi tamamen genel öğrenme sistemlerine geçişin bir devamı."
   },
   {
-    "start": 7438.1,
-    "end": 7500.9,
-    "text": "- Yeah, as the AI become\nsmarter and smarter, one of the interesting questions\nwe can ask ourselves is what makes humans special? It does feel perhaps biased that we humans are deeply special. I don't know if it's our intelligence. It could be something else that other thing that's outside\nthe mad dreams of reason. - I think that's what I've\nalways imagined when I was a kid and starting on this journey of like, I was of course fascinated\nby things like consciousness, did a neuroscience PhD to\nlook at how the brain works, especially imagination and memory. I focused on the hippocampus. And it's sort of gonna be interesting. I always thought the best way, of course one can philosophize about it and have thought experiments and maybe even do actual experiments like you do in neuroscience\non real brains, but in the end, I always imagined that building AI a kind of intelligent artifact and then comparing that to the human mind and seeing what the differences were would be the best way to uncover what's special about the human mind, if indeed there is anything special.",
+    "start": 3251.2,
+    "end": 3313.1,
+    "text": "- Maybe to push back a little bit. It seems like humans are really incredible as the intelligence\nimproves across all domains to take it for granted. Like you mentioned, Terrence Tao, these brilliant experts, they might quickly in a span of weeks take for granted all the\nincredible things you can do and then focus in well, aha, right there. You know, I consider myself, first of all, human.\n- Yeah. - I identify as human. You know, some people listen\nto me talk and they're like, that guy is not good at talking, the stuttering, you know. So like even humans have\nobvious across domains, limits, even just outside of mathematics\nand physics and so on. I wonder if it will take\nsomething like a move 37, so on the positive side,\n- Yeah. - versus like a barrage\nof 10,000 cognitive tasks. - Yeah.\n- where it'll be one or two where it's like,\n- Yes.",
     "speaker": "Demis Hassabis",
-    "claim": "Building AI and comparing it to the human mind will help uncover what makes humans special.",
+    "claim": "Humans have limits in intelligence and performance across various domains, which may affect perceptions of AI advancements.",
     "stance": "Neutral",
     "claim_labels": [
       "ai_optimism_benefit",
-      "execution_engineering"
+      "ai_economics",
+      "scaling_compute"
     ],
     "is_claim": true,
-    "topic": "Nature of intelligence",
+    "topic": "Human intelligence limits",
     "confidence": "medium",
     "claim_labels_auto": [
       "ai_optimism_benefit",
-      "execution_engineering"
+      "ai_economics",
+      "scaling_compute"
     ],
     "speaker_silver": "Demis Hassabis",
     "is_claim_silver": true,
-    "claim_silver": "Building AI and comparing it to the human mind will help uncover what makes humans special.",
+    "claim_silver": "Humans have limits in intelligence and performance across various domains, which may affect perceptions of AI advancements.",
     "claim_labels_silver": [
       "ai_optimism_benefit",
-      "execution_engineering"
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Human intelligence limits",
+    "reviewed": true,
+    "text_tr": "Yani, aslında DeepMind sistemlerini kullanıyor olabilirler, öyle değil mi? - Evet, umarım öyledir. Ve onlardan birine katılmayı çok isterim. Onlar harika görünüyor, değil mi? - Harika. - Bir kez deneyimlemek için. - Tam olarak. - Evet. - Ve sonra doğru tahminin deneyimlemek için, - Evet, evet. - bir şeyin nasıl geleceği ve nasıl evrileceği. Bu inanılmaz, evet. 2030'a kadar AGI'ye sahip olacağınızı tahmin ettiniz, bu konuda ilginç sorular var. Gerçekten oraya ulaştığımızı nasıl bileceğiz ve AGI'nin \"Hamle 37\"si ne olabilir? - Tahminim, önümüzdeki beş yıl içinde %50 şans var. Yani, 2030'a kadar diyelim. Ve bunun olma ihtimalinin iyi olduğunu düşünüyorum. Bunun bir kısmı, AGI tanımının ne olduğu, tabii ki insanların bunun hakkında tartıştığı. Ve benim tanımım oldukça yüksek bir çıta ve her zaman öyleydi; beynin sahip olduğu bilişsel işlevleri karşılayabilir miyiz? Biliyor musun, beynimizin neredeyse genel Turing makineleri olduğunu biliyoruz, yaklaşık olarak. Ve tabii ki, aklımızla muazzam modern bir medeniyet yarattık."
+  },
+  {
+    "start": 5451.9,
+    "end": 5513.2,
+    "text": "And we like to think of\nthis Pareto frontier of, you know, on the one hand the y-axis is, you know, like performance, and then the x-axis is, you know, cost or latency\nand speed basically. And we have models that\ncompletely define the frontier. So whatever your trade off is that you want as an individual\nuser or as a developer, you should find one of our\nmodels satisfies that constraint. - So behind the version changes\nthere is a big hero run. - Yes.\n- And then, there's just an insane\ncomplexity of productization, then there's the distillation of the different sizes\nalong that Pareto front. And then with each step you take, you realize there might be a cool product. There's side quests. - Yes, exactly. - And then you also don't want\nto take too many side quests because then you have a million versions and a million products.\n- Yes, yes, precisely. - It's very unclear.\n- Yeah. - But you also get super excited 'cause it's super cool.\n- Yup. - Like how does, even\nwhen you look at Veo, it's very cool.\n- Yeah.",
+    "speaker": "Demis Hassabis",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI productization",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
     ],
     "stance_silver": "Neutral",
-    "topic_silver": "Nature of intelligence",
-    "reviewed": false,
-    "text_tr": "- Evet, AI daha akıllı hale geldikçe, kendimize sorabileceğimiz ilginç sorulardan biri, insanları özel kılan şey nedir? İnsanların derin bir şekilde özel olduğunu hissetmek belki de önyargılı. Bilmiyorum, bu bizim zekamız mı? Belki de aklın delice hayallerinin dışında başka bir şeydir. - Bence bu, çocukken her zaman hayal ettiğim şeydi ve bu yolculuğa başladığımda, elbette bilinç gibi şeylere hayran kalmıştım, beynin nasıl çalıştığını, özellikle hayal gücü ve hafızayı incelemek için bir nörobilim doktorası yaptım. Hipokampusa odaklandım. Ve bu oldukça ilginç olacak. Elbette, bunun hakkında felsefi olarak düşünmek ve düşünce deneyleri yapmak ve belki de nörobilimde gerçek beyinler üzerinde yaptığınız gibi gerçek deneyler yapmak mümkün, ama sonunda, her zaman düşündüm ki, AI inşa etmek, bir tür zeki nesne oluşturmak ve ardından bunu insan zihniyle karşılaştırmak ve farklılıkları görmek, insan zihninin özel olanını ortaya çıkarmanın en iyi yolu olacaktır, eğer gerçekten özel bir şey varsa."
+    "topic_silver": "AI productization",
+    "reviewed": true,
+    "text_tr": "Ve bu Pareto sınırını düşünmeyi seviyoruz, bir yanda y ekseni performans, diğer yanda x ekseni maliyet veya gecikme ve hız temelde. Ve sınırı tamamen tanımlayan modellerimiz var. Yani, bireysel kullanıcı veya geliştirici olarak istediğiniz her türlü dengeyi bulmalısınız, modellerimizden biri bu kısıtlamayı karşılayacaktır. - Versiyon değişikliklerinin arkasında büyük bir kahraman koşusu var. - Evet. - Ve ardından, ürünleştirme ile ilgili çılgın bir karmaşıklık var, ardından o Pareto önünde farklı boyutların damıtılması var. Ve her adım attığınızda, muhtemelen harika bir ürün olabileceğini fark ediyorsunuz. Yan görevler var. - Evet, tam olarak. - Ve çok fazla yan görev almak istemezsiniz çünkü o zaman milyonlarca versiyon ve milyonlarca ürününüz olur. - Evet, evet, tam olarak. - Çok belirsiz. - Evet. - Ama aynı zamanda süper heyecan verici çünkü süper havalı. - Evet. - Mesela, Veo'ya baktığınızda, çok havalı. - Evet."
+  },
+  {
+    "start": 8306.0,
+    "end": 8378.3,
+    "text": "I fell on my knees in\nthe snow and cried out, oh God, if there is a God, I'm lost in this blizzard and I'm gonna die if you don't help me. And now back in the bar, the religious guy looks at\nthe atheist all puzzled. Well, then you must believe now, he says. After all, there you are alive. The atheist just rolls his eyes, no man. All that happened was a couple of Eskimos\nhappened to be wandering by and show me the way back to the camp. All this I think teaches us that everything is a matter of perspective and that wisdom may arrive if we have the humility to keep shifting and expanding\nour perspective on the world. Thank you for allowing me to talk a bit about David Foster Wallace. He's one of my favorite writers\nand he's a beautiful soul. If I may, one more thing I wanted\nto briefly comment on. I found myself to be in\nthis strange position of getting attacked online\noften from all sides, including being lied about sometimes through selective\nmisrepresentation, but often through downright lies.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "text_tr": "Dizlerimin üstüne düştüm karın içinde ve haykırdım, ey Tanrım, eğer bir Tanrı varsa, bu kar fırtınasında kayboldum ve bana yardım etmezsen öleceğim. Ve şimdi barda, dindar adam ateiste şaşkın bir şekilde bakıyor. O zaman şimdi inanmalısın, diyor. Sonuçta, oradasın, hayattasın. Ateist sadece gözlerini devirdi, hayır adamım. Tüm olan, birkaç Eskimo'nun oradan geçip beni kampa geri götürmesiydi. Bütün bunlar bana her şeyin bir bakış açısı meselesi olduğunu ve bilgelik kazanmanın, dünyaya bakış açımızı değiştirme ve genişletme alçakgönüllüğüne sahip olmamız durumunda mümkün olabileceğini öğretiyor. David Foster Wallace hakkında biraz konuşmama izin verdiğiniz için teşekkür ederim. O, en sevdiğim yazarlardan biri ve güzel bir ruh. Eğer izin verirseniz, kısaca yorum yapmak istediğim bir şey daha var. Kendimi çevrimiçi olarak her taraftan saldırıya uğrayan, bazen seçici yanlış temsil yoluyla yalan söylenen ama çoğunlukla açıkça yalan söylenen tuhaf bir pozisyonda buldum."
   }
 ]
