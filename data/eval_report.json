@@ -1,0 +1,142 @@
+{
+  "n": 400,
+  "fields": {
+    "is_claim": {
+      "accuracy": 0.995,
+      "kappa": 0.981159625076539,
+      "macro_f1": 0.9905798125382694,
+      "n": 400,
+      "labels": [
+        "False",
+        "True"
+      ],
+      "per_class": {
+        "False": {
+          "precision": 0.9841269841269841,
+          "recall": 0.9841269841269841,
+          "f1": 0.9841269841269841,
+          "support": 63
+        },
+        "True": {
+          "precision": 0.9970326409495549,
+          "recall": 0.9970326409495549,
+          "f1": 0.9970326409495549,
+          "support": 337
+        }
+      },
+      "errors": [
+        {
+          "video": "G1ARvwQntAU",
+          "start": 92.8,
+          "silver": true,
+          "gold": false,
+          "text": "Tarab, Zürih'te başlattığım yeni bir yapay zeka araştırma laboratuvarı. Bir şekilde, bu, ilk olarak araştırmak istediğimiz LLM sistemleri ve bunlara uygulanan arama yöntemlerinin İsviçre versiyonu. O yüzden ters mühendislik yapmak ve teknik"
+        },
+        {
+          "video": "srwTa8R5Sho",
+          "start": 7081.2,
+          "silver": false,
+          "gold": true,
+          "text": "Tam olarak. Bu anlamda bu kelime sihirli geliyor. Bu, özel bir özellik gibi geliyor. >> Bilinç >> Bilinç, sihir gibi. Eğer insanlar sihirli özelliklere sahipse, bunun yapay zeka için geçerli olduğunu düşünmüyorum. Önemli olan, eylemde bulun"
+        }
+      ]
+    },
+    "stance": {
+      "accuracy": 0.52,
+      "kappa": 0.2789544840018026,
+      "macro_f1": 0.48249327814070897,
+      "n": 400,
+      "labels": [
+        "Support",
+        "Refute",
+        "Neutral"
+      ],
+      "per_class": {
+        "Support": {
+          "precision": 0.21641791044776118,
+          "recall": 0.90625,
+          "f1": 0.34939759036144574,
+          "support": 32
+        },
+        "Refute": {
+          "precision": 0.36363636363636365,
+          "recall": 0.8571428571428571,
+          "f1": 0.5106382978723404,
+          "support": 56
+        },
+        "Neutral": {
+          "precision": 0.9776119402985075,
+          "recall": 0.4198717948717949,
+          "f1": 0.5874439461883407,
+          "support": 312
+        }
+      },
+      "confusion": [
+        [
+          29,
+          2,
+          1
+        ],
+        [
+          6,
+          48,
+          2
+        ],
+        [
+          99,
+          82,
+          131
+        ]
+      ],
+      "confusion_labels": [
+        "Support",
+        "Refute",
+        "Neutral"
+      ],
+      "errors": [
+        {
+          "video": "-HzgcbRXUK8",
+          "start": 1380.8,
+          "silver": "Support",
+          "gold": "Neutral",
+          "text": "Söylediğin gibi, bu sadece sana seçim illüzyonu sunuyor. O oyunun ortamında yapabileceğin şey, potansiyel olarak her şey olmalı. Ve bence bunu yapmanın tek yolu, anlık olarak bunu üretecek sistemler oluşturmaktır. Tabii ki, sonsuz miktarda "
+        },
+        {
+          "video": "-HzgcbRXUK8",
+          "start": 3251.2,
+          "silver": "Refute",
+          "gold": "Neutral",
+          "text": "Yani, aslında DeepMind sistemlerini kullanıyor olabilirler, öyle değil mi? - Evet, umarım öyledir. Ve onlardan birine katılmayı çok isterim. Onlar harika görünüyor, değil mi? - Harika. - Bir kez deneyimlemek için. - Tam olarak. - Evet. - Ve"
+        },
+        {
+          "video": "-HzgcbRXUK8",
+          "start": 1910.1,
+          "silver": "Support",
+          "gold": "Neutral",
+          "text": "Evolutionary methods is one, but you could also imagine\nMonte Carlo Tree Search. Basically many types of search algorithms or reasoning algorithms sort of on top of or using the\nfoundation models as a basis. So I actually think there's quit"
+        },
+        {
+          "video": "-HzgcbRXUK8",
+          "start": 2317.0,
+          "silver": "Refute",
+          "gold": "Neutral",
+          "text": "And that's what, you know, today's systems definitely they can't do. So, you know, I often say it's harder to\ncome up with a conjecture, a really good conjecture\nthan it is to solve it. So we may have systems soon that can solve pretty hard"
+        },
+        {
+          "video": "-HzgcbRXUK8",
+          "start": 3664.3,
+          "silver": "Refute",
+          "gold": "Neutral",
+          "text": "And I think there's similar like, look, just make a better\nversion of yourself. That's too unconstrained. But we've done it in, you know, and as you know with AlphaEvolve like things like faster matrix multiplication. So when you hone it do"
+        },
+        {
+          "video": "-HzgcbRXUK8",
+          "start": 5513.2,
+          "silver": "Support",
+          "gold": "Neutral",
+          "text": "- How does it fit into the bigger thing? - Yes, exactly.\n- Yeah. - Exactly, and then you're constantly this process of converging\nupstream, we call it, you know, ideas from the product surfaces or from the post-training. And even further do"
+        }
+      ]
+    }
+  }
+}
