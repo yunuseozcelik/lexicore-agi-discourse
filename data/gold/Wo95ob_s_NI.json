@@ -541,5 +541,230 @@
     "topic_silver": "AGI timeline",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 324.4,
+    "end": 390.3,
+    "text": "The models will be more sample efficient. You \nwon't have to collect a ton of data to teach   them how to get back on track. Just a little \nbit of data or their generalization from other   abilities will allow them to get back on track. \nCurrent models might just get stuck and get lost.\n   I want to understand specifically how \nthe generalization helps you get back on   track. Can you say more about that? I'm not \nsure why those two concepts are connected.\n   Right, they're not directly connected. You usually \nhave a little bit of data that does everything.   If you collect a diverse data set, you're going \nto get a little bit of everything in it. If you   have models that generalize really well—even from \njust a couple of examples of getting back on track   or if in the pre-training data there are a couple \nof examples of a model getting back on track—the   model will be able to generalize from those \nother things it’s seen to the current situation.",
+    "speaker": "John Schulman",
+    "claim": "Current AI models are improving in sample efficiency and generalization, allowing them to learn from fewer examples.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are improving in sample efficiency and generalization, allowing them to learn from fewer examples.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false,
+    "text_tr": "Modeller daha örnek verimli olacak. Onlara nasıl yola geri döneceklerini öğretmek için tonlarca veri toplamanıza gerek kalmayacak. Sadece biraz veri veya diğer yeteneklerinden genellemeleri, onların yola geri dönmelerini sağlayacak. Mevcut modeller takılıp kalabilir ve kaybolabilir. Genellemenin yola geri dönmenize tam olarak nasıl yardımcı olduğunu anlamak istiyorum. Bu konuda daha fazla bilgi verebilir misiniz? Bu iki kavramın neden bağlantılı olduğundan emin değilim. Doğru, doğrudan bağlantılı değiller. Genellikle her şeyi yapan küçük bir veri parçanız olur. Çeşitli bir veri kümesi toplarsanız, içinde her şeyden biraz bulursunuz. Eğer çok iyi genelleme yapan modellere sahipseniz – yola geri dönme konusunda sadece birkaç örnekten bile veya ön eğitim verilerinde bir modelin yola geri döndüğüne dair birkaç örnek varsa – model, gördüğü diğer şeylerden mevcut duruma genelleme yapabilecektir."
+  },
+  {
+    "start": 486.2,
+    "end": 574.1,
+    "text": "For example, when people do planning for \ndifferent timescales, I'm not sure they use   completely different mechanisms. We probably \nuse the same mental machinery thinking about   one month from now, one year from now, or a \nhundred years from now. We're not actually   doing some kind of reinforcement learning \nwhere we need to worry about a discount factor   that covers that timescale and so forth.\nUsing language, you can describe all of   these different timescales and then you can do \nthings like plan. In the moment you can try to   make progress towards your goal, whether it's \na month away or 10 years away. I don’t know if   it’s a phase transition but I might expect the \nsame out of models where there might be some   capabilities that work at multiple scales.\n \nCorrect me if this is wrong. It seems like you’re   implying that right now we have models that are on \na per token basis pretty smart. They might be as   smart as the smartest humans on a per token basis. \nThe thing that prevents them from being as useful   as they could be is that five minutes from now, \nthey're not going to be still writing your code in   a way that’s coherent and aligns with your broader \ngoals you have for your project or something.",
+    "speaker": "John Schulman",
+    "claim": "Current AI models are smart on a per-token basis but struggle with long-term coherence and alignment with broader goals.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are smart on a per-token basis but struggle with long-term coherence and alignment with broader goals.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false,
+    "text_tr": "Örneğin, insanlar farklı zaman ölçekleri için planlama yaptıklarında, tamamen farklı mekanizmalar kullandıklarından emin değilim. Muhtemelen bir ay sonrasını, bir yıl sonrasını veya yüz yıl sonrasını düşünürken aynı zihinsel mekanizmayı kullanıyoruz. Aslında, o zaman ölçeğini kapsayan bir indirim faktörü hakkında endişelenmemiz gereken bir tür pekiştirmeli öğrenme yapmıyoruz. Dili kullanarak, tüm bu farklı zaman ölçeklerini tanımlayabilir ve sonra planlama gibi şeyler yapabilirsiniz. O anda, hedefiniz bir ay uzakta veya 10 yıl uzakta olsun, hedefinize doğru ilerleme kaydetmeye çalışabilirsiniz. Bunun bir faz geçişi olup olmadığını bilmiyorum ama modellerden de aynı şeyi bekleyebilirim; birden fazla ölçekte çalışan bazı yetenekler olabilir. Eğer yanlışsam düzeltin. Şu anda token bazında oldukça akıllı modellere sahip olduğumuzu ima ediyorsunuz gibi görünüyor. Token bazında en akıllı insanlar kadar akıllı olabilirler. Onların olabilecekleri kadar faydalı olmalarını engelleyen şey, beş dakika sonra projeniz için sahip olduğunuz daha geniş hedeflerinizle tutarlı ve uyumlu bir şekilde kodunuzu yazmaya devam etmeyecek olmalarıdır."
+  },
+  {
+    "start": 2072.9,
+    "end": 2179.2,
+    "text": "I'm not even sure if it's specialization. \nIt’s more so “I don't understand this part,   so let me look into it more deeply. I \nalready understand this.” I guess it’s   specializing to your existing knowledge base.\n \nI see. So it's not just about training on a bunch   of sources that are relevant and fine-tuning \non some special domain. It's also about   reasoning and developing some knowledge \nthrough your own reasoning and using some   sort of introspection or self-knowledge \nto figure out what it needs to learn?\n   Yeah.\n \nThat does feel like something that's missing   from today's systems. People haven't really pushed \ntoo hard on this middle ground between large-scale   training—where you produce a single snapshot model \nthat's supposed to do everything like a deployed   model—and on the other hand in-context learning.\nPart of that is that we've just been increasing   context length so much that there hasn't \nbeen an incentive for it. If you can go   to a hundred thousand or a million context, \nthen that's actually quite a lot. It’s not   actually the bottleneck in a lot of cases.\nI agree that you'd probably also want to   supplement that with some kind of fine-tuning. \nThe capabilities you get from fine-tuning and   in-context learning are probably somewhat \ncomplementary. I’d expect us to want to build   systems that do some online learning and also \nhave some cognitive skills, like introspecting   on their own knowledge and seeking out \nnew knowledge that fills in the holes.",
+    "speaker": "John Schulman",
+    "claim": "Current AI systems lack the ability to introspect and learn from their own knowledge gaps, which is a necessary capability for future development.",
+    "stance": "Refute",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems lack the ability to introspect and learn from their own knowledge gaps, which is a necessary capability for future development.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "Uzmanlaşma olup olmadığından bile emin değilim. Daha çok \"Bu kısmı anlamıyorum, o yüzden daha derinlemesine inceleyeyim. Bunu zaten anlıyorum.\" gibi. Sanırım mevcut bilgi tabanınıza göre uzmanlaşmak. Anlıyorum. Yani sadece ilgili birçok kaynak üzerinde eğitim yapmak ve belirli bir alanda ince ayar yapmakla ilgili değil. Aynı zamanda kendi muhakemenizle bilgi geliştirmek ve ne öğrenmesi gerektiğini anlamak için bir tür iç gözlem veya öz bilgi kullanmakla da ilgili mi? Evet. Bu, günümüz sistemlerinde eksik olan bir şey gibi geliyor. İnsanlar, büyük ölçekli eğitim – yani dağıtılmış bir model gibi her şeyi yapması beklenen tek bir anlık model ürettiğiniz yer – ile diğer yandan bağlam içi öğrenme arasındaki bu orta yolu gerçekten çok zorlamadılar. Bunun bir kısmı, bağlam uzunluğunu o kadar çok artırdık ki, buna teşvik kalmadı. Yüz bin veya bir milyon bağlama gidebiliyorsanız, bu aslında oldukça fazla. Birçok durumda aslında darboğaz bu değil. Buna bir tür ince ayar ile desteklemek isteyeceğinize katılıyorum. İnce ayardan ve bağlam içi öğrenmeden elde ettiğiniz yetenekler muhtemelen birbiriyle biraz tamamlayıcıdır. Ben, bazı çevrimiçi öğrenme yapan ve aynı zamanda kendi bilgilerini iç gözlemleme ve boşlukları dolduran yeni bilgiler arama gibi bazı bilişsel becerilere sahip sistemler inşa etmek isteyeceğimizi beklerdim."
+  },
+  {
+    "start": 3230.0,
+    "end": 3306.5,
+    "text": "If you train on a bunch of code, it gets better at \nreasoning in language? Is that actually the case?  Do you see positive transfer between different \nmodalities? If you train on a bunch of videos   and images, it'll get smarter from synthetic data? \nOr does it seem like the abilities unlocked are   extremely local to the exact kind of labels \nand data you put into the training corpus?\n   I'll try to respond to all that. \nFirst, are we about to hit the   data wall? I wouldn't draw too much from the \ntime since GPT-4 was released because it does   take a while to train these models and do all \nthe prep to train a new generation of models.  I wouldn't draw too much from that fact. There \nare definitely some challenges from the limited   amount of data, but I wouldn't expect us \nto immediately hit the data wall. However,   I would expect the nature of pre-training to \nsomewhat change over time as we get closer to it.",
+    "speaker": "John Schulman",
+    "claim": "The nature of pre-training for AI models will change over time as we approach limitations in data availability.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "The nature of pre-training for AI models will change over time as we approach limitations in data availability.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false,
+    "text_tr": "Bir sürü kod üzerinde eğitim yaparsanız, dilde akıl yürütmede daha mı iyi olur? Gerçekten böyle mi? Farklı modaliteler arasında pozitif transfer görüyor musunuz? Bir sürü video ve görüntü üzerinde eğitim yaparsanız, sentetik verilerden daha mı akıllı olur? Yoksa açığa çıkan yetenekler, eğitim kümesine koyduğunuz etiketlerin ve verilerin tam türüne mi aşırı derecede yerel görünüyor? Hepsine yanıt vermeye çalışacağım. İlk olarak, veri duvarına çarpmak üzere miyiz? GPT-4'ün piyasaya sürülmesinden bu yana geçen süreden çok fazla çıkarım yapmazdım çünkü bu modelleri eğitmek ve yeni nesil modelleri eğitmek için tüm hazırlıkları yapmak biraz zaman alıyor. Bu gerçekten çok fazla çıkarım yapmazdım. Sınırlı veri miktarından kaynaklanan kesinlikle bazı zorluklar var, ancak hemen veri duvarına çarpacağımızı beklemezdim. Ancak, ön eğitimin doğasının zamanla, ona yaklaştıkça bir miktar değişmesini beklerdim."
+  },
+  {
+    "start": 3637.8,
+    "end": 3709.7,
+    "text": "You're unlocking long-horizon RL \nat some point, but as you said,   there are potentially other bottlenecks. What's \nhappening? How good are these models? How are   they being deployed? What other modalities are \npart of them and at what stage are these being   unlocked? I want to understand your broader \npicture of what the next few years look like.\n   I would expect new modalities to be added \nover time or pretty soon. I would expect the   capabilities to generally keep getting better \nthrough a combination of pre-training and   post-training, and that'll open up new use cases.\nRight now, AI is still not a huge part of the   economy. There's a pretty small fraction of \njobs that it can help with at all. I'd expect   that to be higher over time, not just from the \nmodels improving but also from people figuring   out how to integrate them into different \nprocesses. So even if we just froze the   models at their current state, you would still \nsee a lot of growth in how they're being used.",
+    "speaker": "John Schulman",
+    "claim": "AI capabilities will improve over time, leading to increased integration into various processes and a larger economic impact.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "AI capabilities will improve over time, leading to increased integration into various processes and a larger economic impact.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "Bir noktada uzun ufuklu RL'yi açıyorsunuz, ancak dediğiniz gibi, potansiyel olarak başka darboğazlar da var. Ne oluyor? Bu modeller ne kadar iyi? Nasıl dağıtılıyorlar? Başka hangi modaliteler bunların bir parçası ve bunlar hangi aşamada açılıyor? Önümüzdeki birkaç yılın nasıl göründüğüne dair daha geniş resminizi anlamak istiyorum. Zamanla veya oldukça yakında yeni modalitelerin ekleneceğini beklerdim. Yeteneklerin genellikle ön eğitim ve son eğitim kombinasyonuyla gelişmeye devam etmesini beklerdim ve bu da yeni kullanım durumları açacaktır. Şu anda yapay zeka ekonominin hala büyük bir parçası değil. Yardımcı olabileceği işlerin oldukça küçük bir kısmı var. Bunun zamanla artmasını beklerdim, sadece modellerin iyileşmesinden değil, aynı zamanda insanların onları farklı süreçlere nasıl entegre edeceklerini bulmasından da. Yani modelleri mevcut durumlarında dondursak bile, kullanılış biçimlerinde hala çok fazla büyüme görürdünüz."
+  },
+  {
+    "start": 3714.1,
+    "end": 3788.2,
+    "text": "I would expect AI to be used much more widely \nand for more technically sophisticated tasks.   I gave the programming example earlier, doing \nlonger projects, but also helping with various   kinds of research. I hope that we can use \nAI to accelerate science in various ways,   because you can potentially have the models \nunderstand all the literature in a given field   and be able to sift through tons of data. It’s \nmore than a person would have patience to do.  I hope the form factor would be such that people \nare still driving all of this and you have your   helpful assistants that you can direct and \npoint to lots of different problems that are   useful to you. Everyone would have all these \nAIs helping them do more and get more done.",
+    "speaker": "John Schulman",
+    "claim": "AI will be used more widely and for more sophisticated tasks, potentially accelerating science and assisting people in various ways.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": true,
+    "claim_silver": "AI will be used more widely and for more sophisticated tasks, potentially accelerating science and assisting people in various ways.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "Yapay zekanın çok daha yaygın ve daha teknik olarak sofistike görevler için kullanılmasını beklerdim. Daha önce programlama örneğini vermiştim, daha uzun projeler yapmak, ama aynı zamanda çeşitli araştırmalara yardımcı olmak. Umarım yapay zekayı bilimi çeşitli şekillerde hızlandırmak için kullanabiliriz, çünkü potansiyel olarak modellerin belirli bir alandaki tüm literatürü anlamasını ve tonlarca veriyi elemesini sağlayabilirsiniz. Bu, bir insanın sabredeceğinden daha fazlasıdır. Umarım form faktörü öyle olur ki, insanlar hala tüm bunları yönlendirir ve size faydalı olan birçok farklı soruna yönlendirebileceğiniz ve işaret edebileceğiniz yardımcı asistanlarınız olur. Herkesin daha fazlasını yapmasına ve daha fazlasını başarmasına yardımcı olan tüm bu yapay zekaları olurdu."
+  },
+  {
+    "start": 4368.7,
+    "end": 4462.9,
+    "text": "Anyway, we have these different stakeholders. \nSometimes they have conflicting demands. We   have to make some call on how to resolve those \nconflicts.It's not always obvious how to do   that. We had to think through the trade-offs and \nbasically the rough heuristic is that we mostly   want the models to follow your instructions \nand be helpful to the user and the developer.  But when this impinges on other people's happiness \nor way of life, this becomes a problem and we have   to block certain kinds of usage. We mostly want \nthe models to just be an extension of people's   will and do what they say. We don't want to be \ntoo paternalistic. We want to be neutral and   not impose our opinions on people. We mostly want \nto let people do what they want with the models.\n   I got a chance to read the Spec beforehand. \nThis is a question of how well that transfers   over to how the model itself behaves. I was \nimpressed with how sensible the trade-offs   were. I believe the actual edge cases were \nexplicitly stated rather than the kinds   of things where are obvious. In this case, \nyou really are going after the edge cases.",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI usage and ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "John Schulman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI usage and ethics",
+    "reviewed": false,
+    "text_tr": "Neyse, bu farklı paydaşlarımız var. Bazen çelişkili talepleri oluyor. Bu çatışmaları nasıl çözeceğimize dair bir karar vermemiz gerekiyor. Bunu nasıl yapacağımız her zaman açık değil. Takasları düşünmek zorunda kaldık ve temel olarak kaba sezgisel yöntemimiz, modellerin çoğunlukla talimatlarınızı takip etmesini ve kullanıcıya ve geliştiriciye yardımcı olmasını istememizdir. Ancak bu, diğer insanların mutluluğunu veya yaşam tarzını etkilediğinde, bu bir sorun haline gelir ve belirli kullanım türlerini engellemek zorunda kalırız. Modellerin çoğunlukla insanların iradesinin bir uzantısı olmasını ve söylediklerini yapmasını istiyoruz. Çok babacan olmak istemiyoruz. Tarafsız olmak ve fikirlerimizi insanlara dayatmamak istiyoruz. Çoğunlukla insanların modellerle istediklerini yapmalarına izin vermek istiyoruz. Şartnameyi önceden okuma fırsatım oldu. Bu, bunun modelin kendisinin nasıl davrandığına ne kadar iyi aktarıldığına dair bir soru. Takasların ne kadar mantıklı olduğuna hayran kaldım. Gerçek uç durumların, bariz olan şeyler yerine açıkça belirtildiğine inanıyorum. Bu durumda, gerçekten uç durumların peşindesiniz."
   }
 ]

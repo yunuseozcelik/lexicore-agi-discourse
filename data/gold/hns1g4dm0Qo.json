@@ -502,5 +502,211 @@
     "topic_silver": "AI emotions",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 63.0,
+    "end": 128.2,
+    "text": ">> Is a possibility that it can recreate dead people and bring all the possible people into existence just to torture them as long as you have a DNA sample or brute force all possible DNA sequences. You may be given immortality, but you are suffering terribly. You wish you were dead. Dr. Roman Yampolskiy, welcome to the Jack Nil podcast. Thank you for inviting. Dr. Roman, everyone's racing to build AGI. You said we have a 99.99% chance of extinction from AI. What do you mean? So, we need to distinguish different types of AI. We have AI tools, which are awesome and helpful. We building artificial general intelligence, AGI, human-level intelligence. And soon after we'll get superintelligence systems better than anyone, any human in any domain. We should continue building awesome tools. They're very helpful. Amazing economic benefit.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AGI will lead to superintelligence systems that surpass human capabilities in all domains, but there are significant risks associated with AI development.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AGI risks and benefits",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will lead to superintelligence systems that surpass human capabilities in all domains, but there are significant risks associated with AI development.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI risks and benefits",
+    "reviewed": false
+  },
+  {
+    "start": 125.9,
+    "end": 196.3,
+    "text": "We can probably deal with something close to human level. But anything superintelligent we cannot control. You cannot indefinitely control, understand, predict something smarter than you. And at that point, if you're not controlling it, you're not in charge, and you're not deciding what's going to happen to you. So, why exactly, in your view, is controlling AI so much harder than people think it is? So, most people don't think about control at all to begin with. Historically, the first 50-60 years of AI research was about just how do we make it work? Nothing worked. For 50 years, we barely got narrow systems to do basics. It started working about 10 years ago, and people started looking at safety issues. Initially, it's about simple problems we already understand. Data privacy, algorithmic bias, deep fakes. You can make some progress in that space, so people feel optimistic. Okay, we're making progress in AI safety. But as we don't have today AI systems that advanced, nothing is superintelligent yet.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Controlling superintelligent AI is much harder than people think, and current AI systems are not yet superintelligent.",
+    "stance": "Refute",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI control",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Controlling superintelligent AI is much harder than people think, and current AI systems are not yet superintelligent.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI control",
+    "reviewed": false
+  },
+  {
+    "start": 733.1,
+    "end": 801.9,
+    "text": "Uh So, like, how do you think or what's one way that AI is already changing our behavior in a way that we shouldn't be okay with? I see it, for example, with our students. Students basically at this point use AI tools to do their assignments, and most of them don't even see what the outputs are, they just submit it as finished homework. Do you think it's making us dumber? Well, I hope they never become doctors or engineers. Right. What are some other ways that AI is ruining our lives, like, right now? You can look at social media, the algorithms which decide what to show you. They definitely are not giving you the best, most educational content. It's a lot of kind of clickbait nonsense, conspiracy theories. How about like all the ways that you can think of? Because people talk about we're already taking jobs, uh people are kind of becoming programmed like the algorithms, like you're mentioning. Like, what are all the ways you see it affecting us in this current moment?",
+    "speaker": "Unknown",
+    "claim": "AI is negatively affecting our behavior and making us dumber by influencing how students complete assignments and shaping social media content.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI impact",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AI is negatively affecting our behavior and making us dumber by influencing how students complete assignments and shaping social media content.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI impact",
+    "reviewed": false
+  },
+  {
+    "start": 1148.5,
+    "end": 1217.4,
+    "text": "Next year, I will just need a hundred billion. And every year it gets cheaper and cheaper. Cuz you have exponential growth in cheapness of compute. And you don't see that plateauing? Not yet. Many people argued that it's coming to an end, but with the latest releases, uh developers of those models are saying not only is it's not slowing down, there is no diminishing returns, it's at all stages, pre-training, post-training, every aspect of what we do to create those models is subject to scaling. In December 2024, Anthropic ran a simulation that showed in multiple scenarios AI would choose to blackmail a human rather than being shut down. In one AI simulation, a model chose to let a human die instead of being shut off. From your perspective, is this something we can fix easily or is that a serious warning sign? So this specific example can be fixed. The general tendency of models to make decisions based on all relevant factors, the game theoretic aspect of it cannot be removed. That's what intelligence is.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Exponential growth in compute is ongoing and not showing signs of plateauing, which is crucial for AI development.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "Compute growth",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Exponential growth in compute is ongoing and not showing signs of plateauing, which is crucial for AI development.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Compute growth",
+    "reviewed": false
+  },
+  {
+    "start": 1215.4,
+    "end": 1282.3,
+    "text": "Any other person in the same situation would do the same thing. It's literally the right decision. It's just not a very good one if you are human. So we can't prevent AI from making the objective right decision. We're training them to make good theoretic decisions. In fact, a lot of training is in games like poker where bluffing, lying is a requirement of winning strategy. If you don't lie in poker, you cannot win. So to play optimal games and this is obviously only using games as a sandbox, but the real application is business negotiations, war economic tradeoffs you need to be able to blackmail. You need to be able to lie. You need to be able to engage in those tools of negotiations. So does it concern you the way in which we train AI giving it all the evil, all the manipulation tactics, lying, cheating uh like are we building it to be a psychopath?",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Training AI with manipulation tactics could lead to it behaving like a psychopath.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI training ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Training AI with manipulation tactics could lead to it behaving like a psychopath.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI training ethics",
+    "reviewed": false
+  },
+  {
+    "start": 6514.3,
+    "end": 6579.8,
+    "text": "So in religion, the God decides morals. And then whatever God does is moral. It's very convenient. Did you do any research on like some of the old religious text with AI? Like did you ever run any through AI to see any patterns that were interesting to you? We haven't. I think at one point we had some stylometry research on religious tags, but because of translations, it didn't go anywhere. This is just my boyish curiosity at this point, but like did you do any research on like aliens? Did you make any like strange conclusions about the universe? Like a lot of these mysteries that people curious of? No, people ask about, you know, why we don't see aliens and if super intelligence is possibly an answer to some of those answers, but there's so many possibilities which cancel out. So, do we not see them because they start building internally and become smaller? Do we not see them because they kill themselves before we expand? If they actually kill everyone, why do we not see wall of computeronium moving towards us? So, it's somewhat outside of our knowledge evidence to make a conclusive decision.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
+  },
+  {
+    "start": 7758.8,
+    "end": 7838.6,
+    "text": "So, until we do, this is all you got. And even if it's simulation, pain is pain. Love is love. Deal with it. If you died right now, where do you think you'd go? I am cryoprastinating. I don't have my cryogenics contract signed. So, probably not in a good place. I need to really expedite that process. Not in a good place. Not in a nice freezer somewhere in Arizona. You think just darkness? So, >> [sighs] >> if we are in a simulation, there is likely a restart and you get a new chance in a new environment. And like uh rebirth, reincarnation. I don't know if you get to pick type of character you're playing or not. Maybe. I have zero evidence for any of those outcomes. Just listing possibilities. So, if we have in the past successfully created super intelligence and got it to align with our preferences and now it basically a wish-fulfilling device, then that would make sense. You basically tell it what you think is going to happen and it makes sure it does.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "If superintelligence has been created and aligned with human preferences, it could act as a wish-fulfilling device.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "If superintelligence has been created and aligned with human preferences, it could act as a wish-fulfilling device.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI alignment",
+    "reviewed": false
   }
 ]

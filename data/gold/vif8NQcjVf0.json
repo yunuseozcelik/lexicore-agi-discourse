@@ -598,5 +598,173 @@
     "topic_silver": "optimism about AGI",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 931.5,
+    "end": 996.9,
+    "text": "- And then that became the platform and the\nfoundation for the deep learning revolution. - That was also another great,\ngreat observation. Yeah. - That existential moment, do you\nremember... Like, what were those meetings like? What were those discussions like,\ndeciding as a company, risking everything? - Well I had to make it clear to the\nboard what we're trying to do, and the management team knew our gross\nmargins were gonna get crushed. So you could imagine a world\nwhere GeForce would carry the burden of CUDA and\nnone of the gamers would appreciate it and none of the gamers\nwould pay for it. You know, they only pay certain price and it doesn't matter what\nyour cost is. And so the... You know, we, we increased our cost\nby 50% and that con- consumed... And we were a 35%\ngross margin company, and so it, it was a... It was quite a\ndifficult decision to make. But you could imagine that someday this would\ngo into workstations and it would go into supercomputers and, and in those segments,\nmaybe we can capture more margin.",
+    "speaker": "Jensen Huang",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 2241.2,
+    "end": 2344.0,
+    "text": "And out of those two out of three\ncapabilities, we also give you access control based on whatever rights that\nyou're given by enterprise. And then we connect it to a policy engine\nthat all these enterprises already have. And so we're going to try to do our best\nto help OpenClaw become a better claw. - So you eloquently explained\nhow we have a long history of blockers that we thought were going to be blockers,\nand we overcame them. But now looking into the future, what do you think might be the\nblockers now that it's clear that agents will be everywhere? So obviously we're going to need\ncompute. So what is going to be the blocker for that scaling? - Power is a concern, but it's not the\nonly concern. But that's the reason why we're pushing so hard on extreme co-design,\nso that we can improve the tokens per second per watt orders of magnitude every single year. And so in\nthe last 10 years, Moore's Law would have progressed computing\nabout 100 times in the last 10 years. We progressed\nand scaled up computing by a million times in the last 10 years.\nAnd so we're gonna keep on doing that through extreme co-design. So\nenergy efficiency, perf per watt, completely affects the\nrevenues of a company. It affects the revenues of a\nfactory. And we're just going to push that to the limit so that we\ncan keep on driving token costs down as fast as we can. You know, the our computer price is going\nup, but our token generation effectiveness is going up so\nmuch faster that token cost is coming down. It's just coming down\nan order of magnitude every year.",
+    "speaker": "Jensen Huang",
+    "claim": "Energy efficiency and compute scaling are critical for the future of AI agents.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "Energy efficiency and compute scaling are critical for the future of AI agents.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 5085.3,
+    "end": 5152.2,
+    "text": "- I think that NVIDIA's growth is Extremely\nlikely, and in my mind, inevitable. And let me explain why. We're the\nlargest computer company in history. That alone should beg the question, why? And the reason of course... Two reasons.\nFirst, two foundational technical reasons. The first reason is that computing went\nfrom being a retrieval-based, file retrieval system. Almost everything is\na file... We pre-write something, we pre-record something. You know, we draw\nsomething, we put it on the web, we put it in a file. And we use a\nrecommender system, some smart filter, to figure out what to\nretrieve for you. And so we were a pre-recording, human\npre-recording, and file retrieving system. That's what a\ncomputer is, largely. To now, AI computers\nare contextually aware, which means that it has to process\nand generate tokens in real time. So we went from a retrieval-based\ncomputing system to a generative-based computing system.",
+    "speaker": "Jensen Huang",
+    "claim": "NVIDIA's growth is inevitable due to advancements in AI computing.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "compute/chips",
+    "confidence": "medium",
+    "claim_labels": [
+      "hardware_infra",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "hardware_infra",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Jensen Huang",
+    "is_claim_silver": true,
+    "claim_silver": "NVIDIA's growth is inevitable due to advancements in AI computing.",
+    "claim_labels_silver": [
+      "hardware_infra",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "compute/chips",
+    "reviewed": false
+  },
+  {
+    "start": 6954.3,
+    "end": 7040.4,
+    "text": "- No. It has to- It has to be\nworth more than a billion, more, more than a billion dollars. So, you know, you know how hard it\nis to do all those components. So, how far are we away\nfrom that? So, we're talking about OpenClaw that does all the incredibly complex stuff\nthat are required to to, first of all, innovate, to find\ncustomers, to sell to them, to manage, to build a team of some agents, some humans, all that\nkind of stuff. Is this five, 10, 15, 20 years away? - I think it's now. I think\nwe've achieved AGI. - Do you think you could have a company\nrun by an AI system like this? - Possible, and the reason for that is\nthis. You said a billion, and you didn't say forever. And so for example,\nuh... It is not out of the question that a Claw was able to create a web\nservice, some interesting little app that all of a sudden, you know, a few billion\npeople used for 50 cents, and then it went out of business again shortly after. Now, we\nsaw a whole bunch of those type of companies during the internet era, and most of those\nwebsites were not anything more sophisticated than what\nOpenClaw could generate today.",
+    "speaker": "Unknown",
+    "claim": "AGI has already been achieved and could potentially run a company.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AGI has already been achieved and could potentially run a company.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 8096.0,
+    "end": 8169.1,
+    "text": "I have 60 of 'em. They're\nall superhuman to me. And somehow, I'm sitting in the\nmiddle orchestrating all 60 of 'em. And so you gotta ask yourself...\nUh, what is, what is it about a dishwasher that allows that dishwasher to sit in the middle of\nsuperhumans? Does that make sense? And so, but that's my point. My point\nis intelligence is a functional thing. Humanity is not a, not specified\nfunctionally. It's a much, much bigger word. And, and our life experience,\nour tolerance for pain, our determination, those are, those\nare different words than intelligence. And so the thing that I wanna\nhelp the audience understand, if I could give them one thing, is, is intelligence is a word that we've\nelevated to a very high form over time. - The, the word we should\nreally elevate is humanity. - Character, humanity. - All those things. - All of those things.\nCompassion, generosity, all of the things that you said just now, I believe those are superhuman\npowers. And that now intelligence is gonna be commoditized.",
+    "speaker": "Lex Fridman",
+    "claim": "Intelligence should not be elevated above humanity, which encompasses compassion and character.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "Intelligence should not be elevated above humanity, which encompasses compassion and character.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 8316.4,
+    "end": 8401.9,
+    "text": "- Man. - And the reason, the reason for that,\nthe reason for that isn't because I'm immortal. The reason for that is\nbecause if you're worried about succession planning, if you're worried, all that anxiety of succession\nplanning, then what should you do about it? Then you break it all the way back down. The most important thing you should do\ntoday, if you care about the future of your company, post you, is to pass on\nknowledge, information, insight, skills, experience as often and continuously\nas you can, which is the reason why I continuously reason about\neverything in front of my team. Every single meeting is\nabout a reasoning meeting. Every moment I spend inside a\ncompany, outside a company is about passing on knowledge to\npeople as fast as I can. Nothing I learn ever sits on my desk\nlonger than, you know, a fraction of a second. I'm passing that\ninformation, that knowl- oh my gosh, this is cool. Before I even finish\nlearning all of it myself, I'm already pointing it to somebody else. \"Get on\nthis. This is so cool. You're gonna wanna, you're gonna wanna learn this.\" And\nso I'm constantly passing knowledge, empowering people,\nelevating the capability of everybody around me, so that the\noutcome that I, that I seek, that I hope for, is that I die\non the job, you know? And, and hopefully I die on the job\ninstantaneously, you know?",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false
   }
 ]

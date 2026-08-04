@@ -592,5 +592,251 @@
     "topic_silver": "AI benefits",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 168.0,
+    "end": 248.3,
+    "text": "Uses whatever AI model you like, including\nClaude Opus 4.6 and GPT 5.3 Codex, all to do stuff for you.\nMany people are calling this one of the biggest moments in the\nrecent history of AI, since the launch of ChatGPT in November 2022.\nThe ingredients for this kind of AI agent were all there,\nbut putting it all together in a system that definitively takes\na step forward over the line from language to agency, from\nideas to actions, in a way that created a useful assistant that\nfeels like one who gets you and learns from you, in an open\nsource, community-driven way, is the reason OpenClaw took\nthe internet by storm. Its power, in large part, comes from the fact\nthat you can give it access to all of your stuff and give it permission to\ndo anything with that stuff in order to be useful to you. This is very\npowerful, but it is also dangerous. OpenClaw represents freedom, but with freedom comes responsibility. With it, you\ncan own and have control over your data, but precisely\nbecause you have this control, you also have the responsibility to\nprotect it from cybersecurity threats of various kinds. There\nare great ways to protect yourself, but the threats and\nvulnerabilities are out there.",
+    "speaker": "Peter Steinberger",
+    "claim": "The development of AI agents like OpenClaw represents a significant advancement in AI capabilities, but also introduces risks related to data security and responsibility.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AI agents like OpenClaw represents a significant advancement in AI capabilities, but also introduces risks related to data security and responsibility.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "Claude Opus 4.6 ve GPT 5.3 Codex dahil olmak üzere istediğiniz yapay zeka modelini kullanır, hepsi sizin için işler yapmak üzere. Birçok kişi bunu, Kasım 2022'de ChatGPT'nin piyasaya sürülmesinden bu yana yapay zeka yakın tarihinin en büyük anlarından biri olarak adlandırıyor. Bu tür bir yapay zeka ajanı için tüm bileşenler mevcuttu, ancak hepsini bir araya getirerek dilden eyleme, fikirlerden uygulamalara kesin bir adım atan, sizi anlayan ve sizden öğrenen, açık kaynaklı, topluluk odaklı bir şekilde faydalı bir asistan yaratan bir sistem oluşturmak, OpenClaw'un interneti kasıp kavurmasının nedeni oldu. Gücünün büyük bir kısmı, ona tüm eşyalarınıza erişim izni verebilmeniz ve size faydalı olmak için o eşyalarla her şeyi yapmasına izin verebilmeniz gerçeğinden geliyor. Bu çok güçlü, ama aynı zamanda tehlikeli. OpenClaw özgürlüğü temsil eder, ancak özgürlükle birlikte sorumluluk gelir. Onunla verilerinize sahip olabilir ve kontrol edebilirsiniz, ancak tam da bu kontrole sahip olduğunuz için, onu çeşitli siber güvenlik tehditlerinden koruma sorumluluğunuz da vardır. Kendinizi korumanın harika yolları var, ancak tehditler ve güvenlik açıkları da mevcut."
+  },
+  {
+    "start": 942.0,
+    "end": 1016.5,
+    "text": "- What was the thing you sent it? - Oh, just a random question like, \"Hey,\nwhat about this in this restaurant?\" You know? Because we were just running\naround and checking out the city. So that's why I, I didn't, didn't\neven think when I used it because sometimes when you're in a\nhurry typing is annoying. - So, oh, you did an audio message? - Yeah. And it just, it just\nworked and I'm like... - And it's not supposed to work because- - No - ... you didn't give it that- - No, literally - ... capability. - I literally went, \"How the fuck did\nhe do that?\" And it was like, \"Yeah, the mad lad did the following.\nHe sent me a message but it only, only was a file\nand no file ending.\" So I checked out the header of the\nfile and it found that it was, like, opus so I used ffmpeg\nto convert it and then I wanted to use whisper but it didn't\nhad it installed. But then I found the OpenAI key and just used Curl to send the\nfile to OpenAI to translate and here I am. Just looked at the message\nI'm like, \"Oh wow.\" - You didn't teach it any of those things and the agent\njust figured it out, did all those conversions, the translations. It figured out the\nAPI, it figured out which program to use, all those kinds of things. And you\nwere just absent-mindedly just sent an audio message when it came back.",
+    "speaker": "Peter Steinberger",
+    "claim": "Current AI systems can perform tasks without explicit programming, demonstrating advanced capabilities.",
+    "stance": "Support",
+    "claim_labels": [
+      "execution_engineering",
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems can perform tasks without explicit programming, demonstrating advanced capabilities.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "- Ona ne gönderdin? - Ah, sadece rastgele bir soru, mesela, \"Hey, bu restoranda bu ne?\" gibi. Biliyor musun? Çünkü etrafta dolaşıp şehri geziyorduk. Bu yüzden, onu kullanırken hiç düşünmedim bile, çünkü bazen acele ettiğinde yazmak sinir bozucu oluyor. - Yani, ah, sesli mesaj mı gönderdin? - Evet. Ve sadece, sadece çalıştı ve ben de... - Ve çalışmaması gerekiyordu çünkü- - Hayır - ... ona o- - Hayır, kelimenin tam anlamıyla - ... yeteneği vermedin. - Kelimenin tam anlamıyla, \"Nasıl yaptı lan bunu?\" dedim. Ve o da, \"Evet, çılgın adam şunları yaptı. Bana bir mesaj gönderdi ama sadece bir dosyadan ibaretti ve dosya uzantısı yoktu.\" dedi. Ben de dosyanın başlığını kontrol ettim ve opus olduğunu buldum, bu yüzden ffmpeg kullanarak dönüştürdüm ve sonra whisper kullanmak istedim ama yüklü değildi. Ama sonra OpenAI anahtarını buldum ve dosyayı çevirmesi için Curl kullanarak OpenAI'ye gönderdim ve işte buradayım. Mesaja baktım ve \"Vay canına\" dedim. - Ona bunların hiçbirini öğretmedin ve ajan sadece kendi kendine çözdü, tüm bu dönüşümleri, çevirileri yaptı. API'yi çözdü, hangi programı kullanacağını çözdü, tüm bu tür şeyleri. Ve sen sadece dalgın bir şekilde bir sesli mesaj göndermiştin ve o da geri döndü."
+  },
+  {
+    "start": 1239.2,
+    "end": 1305.8,
+    "text": "- You want him to, like, remember\nstuff. So maybe, maybe the end... The ultimate boss is\ncontinuous reinforcement learning, but I'm, I'm, like, at... I feel like\nI'm level two or three with Markdown files and the vector database.\nAnd then you, you can go to level community management, you\ncan go to level website and marketing. There's just so many\nhats that you have to have on. Uh, not even talking about native\napps. That's just, like, infinite different levels and infinite\nlevel ups you can do. - So the whole time you're having fun.\nWe should say that for the most part, throughout this whole\nprocess, you're a one-man team. There's people helping, but you're\ndoing so much of the key core development. - Yeah. - And having fun? You did, in January,\n6,600 commits. Probably more. - I sometimes posted a meme. I'm limited by\nthe technology of my time. I could do more if agents would be faster. - But we should say you're running\nmultiple agents at the same time. - Yeah. Depending on how much I slept and how difficult of the tasks I\nwork on, between four and 10.",
+    "speaker": "Peter Steinberger",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI development",
+    "reviewed": false,
+    "text_tr": "- Onun bir şeyleri hatırlamasını istiyorsun. Yani belki, belki de son... Nihai patron sürekli takviyeli öğrenmedir, ama ben, ben, sanki... Markdown dosyaları ve vektör veritabanı ile ikinci veya üçüncü seviyedeymişim gibi hissediyorum. Ve sonra, topluluk yönetimi seviyesine geçebilirsin, web sitesi ve pazarlama seviyesine geçebilirsin. Takman gereken o kadar çok şapka var ki. Uh, yerel uygulamalardan bahsetmiyorum bile. Bu sadece, sonsuz farklı seviyeler ve yapabileceğin sonsuz seviye atlamalar demek. - Yani tüm bu süre boyunca eğleniyorsun. Şunu söylemeliyiz ki, bu süreç boyunca çoğunlukla tek kişilik bir ekipsin. Yardım eden insanlar var, ama ana çekirdek geliştirmenin çoğunu sen yapıyorsun. - Evet. - Ve eğleniyor musun? Ocak ayında 6.600 commit yaptın. Muhtemelen daha fazla. - Bazen bir meme paylaştım. Zamanımın teknolojisiyle sınırlıyım. Ajanlar daha hızlı olsaydı daha fazlasını yapabilirdim. - Ama aynı anda birden fazla ajan çalıştırdığını söylemeliyiz. - Evet. Ne kadar uyuduğuma ve üzerinde çalıştığım görevlerin ne kadar zor olduğuna bağlı olarak, dört ila on arasında."
+  },
+  {
+    "start": 2642.5,
+    "end": 2714.2,
+    "text": "- The point is, that whole saga,\nMade a dent in your whole f- the funness of the\njourney, which sucks. So, let's just, let's just get, I suppose, get\nback to fun. And during this, speaking of fun, the two-day MoltBot saga. - Yeah, two years. - MoltBook was created. - Yeah. - Which was another thing that went\nviral as a kind of demonstration, illustration of how what is now\ncalled OpenClaw could be used to create something epic. So for\npeople who are not aware, MoltBook is just a bunch of agents\ntalking to each other in a Reddit-style social network.\nAnd a bunch of people take screenshots of those agents doing things\nlike, Scheming against humans. And that instilled in folks a kind\nof, you know, fear, panic, and hype. W- what are your thoughts\nabout MoltBook in general? - I think it's art. It is, it is like the\nfinest slop, you know, just like the slop from France.",
+    "speaker": "Peter Steinberger",
+    "claim": "MoltBook is a form of art and a creative demonstration of AI capabilities.",
+    "stance": "Support",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI creativity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "MoltBook is a form of art and a creative demonstration of AI capabilities.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI creativity",
+    "reviewed": false,
+    "text_tr": "- Mesele şu ki, o tüm destan, yolculuğun tüm eğlencesine bir darbe vurdu, ki bu kötü. Yani, hadi, sanırım, eğlenceye geri dönelim. Ve bu sırada, eğlenceden bahsetmişken, iki günlük MoltBot destanı. - Evet, iki yıl. - MoltBook oluşturuldu. - Evet. - Bu da, şimdi OpenClaw olarak adlandırılan şeyin nasıl destansı bir şey yaratmak için kullanılabileceğinin bir tür gösterimi, illüstrasyonu olarak viral olan başka bir şeydi. Bilmeyenler için, MoltBook sadece Reddit tarzı bir sosyal ağda birbirleriyle konuşan bir grup ajandan ibaret. Ve bir sürü insan, bu ajanların insanlara karşı komplo kurmak gibi şeyler yaparken ekran görüntülerini alıyor. Ve bu da insanlarda bir tür, bilirsiniz, korku, panik ve abartı yarattı. Genel olarak MoltBook hakkında ne düşünüyorsun? - Bence bu sanat. Bu, bu en iyi posa gibi, bilirsin, tıpkı Fransa'dan gelen posa gibi."
+  },
+  {
+    "start": 2983.3,
+    "end": 3062.7,
+    "text": "- Mm-hmm. - And I guess critical thinking is not always in high demand anyhow\nin our society these days. - So I d- think that's a really good point\nyou're making about contextualizing properly what AI is, but also realizing\nthat there is humans who are drama farming behind AI. Like, don't trust\nscreenshots. Don't even trust this project, MoltBook, to be what\nit represents to be. Like, you can't ... and, and by the way, you\nspeaking about it as art. Yeah, don't ... Art can be in many levels and part of the art of\nMoltBook is, like, putting a mirror to society. 'Cause\nI do believe most of the dramatic stuff that was screenshotted\nis human-created, essentially. Human prompted. And so, like, it's\nbasically, look at how scared you can get at a bunch of\nbots chatting with each other. That's very instructive\nabout ... because I think AI is something that people should\nbe concerned about and should be very careful with because it's very\npowerful technology, but at the same time, the only thing we have to fear\nis fear itself. So there's like a line to walk between being\nseriously concerned, but not fearmongering because\nfearmongering destroys the possibility of creating\nsomething special with a thing.",
+    "speaker": "Peter Steinberger",
+    "claim": "AI is powerful and should be approached with caution, but fearmongering is counterproductive.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "AI is powerful and should be approached with caution, but fearmongering is counterproductive.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "- Hımm. - Ve sanırım eleştirel düşünme günümüzde toplumumuzda her zaman çok talep görmüyor. - Yani bence yapay zekanın ne olduğunu doğru bir şekilde bağlamsallaştırma konusunda çok iyi bir noktaya değiniyorsun, ama aynı zamanda yapay zekanın arkasında drama üreten insanlar olduğunu da fark etmek gerekiyor. Mesela, ekran görüntülerine güvenmeyin. Hatta bu MoltBook projesinin temsil ettiği şey olduğuna bile güvenmeyin. Yani, yapamazsın... ve bu arada, sen ondan sanat olarak bahsediyorsun. Evet, yapma... Sanat birçok seviyede olabilir ve MoltBook'un sanatının bir kısmı, topluma bir ayna tutmak gibidir. Çünkü ekran görüntüsü alınan dramatik şeylerin çoğunun aslında insan yapımı olduğuna inanıyorum. İnsanlar tarafından yönlendirildi. Ve bu yüzden, temelde, bir grup botun birbiriyle sohbet etmesinden ne kadar korkabileceğinize bakın. Bu çok öğretici... çünkü bence yapay zeka insanların endişelenmesi ve çok dikkatli olması gereken bir şey çünkü çok güçlü bir teknoloji, ama aynı zamanda korkmamız gereken tek şey korkunun kendisidir. Yani ciddi bir şekilde endişelenmek ile korku tellallığı yapmak arasında bir denge var, çünkü korku tellallığı bir şeyle özel bir şey yaratma olasılığını yok eder."
+  },
+  {
+    "start": 7217.1,
+    "end": 7285.8,
+    "text": "And, and once I'm confident that this is at a level that I can recommend my\nmom, then I'm going to make it simpler. Like I... Right now- - You want to make it harder so that it\ndoesn't scale as fast as it's scaling. - Yeah, it would be nice if it wouldn't...\nI mean, that's, like, hard to say, right? But if the growth would be a little slower,\nthat would be helpful because people are expecting inhuman things from a single\nhuman being. And yes, I have some contributors, but also that whole\nmachinery I started a week ago so, That needs more time to\nfigure out. And, and not everyone has all day to work on that. - There's some beginners listening\nto this, programming beginners. What advice would you give to them\nabout, let's say, joining the Agentic AI revolution? - Play. Um, playing is the best...\nThe best way to learn. If you wanna... I'm sure if you... If you are\nlike a little bit of builder, you have an idea in your head that you want to build,\njust build that, or like, give it a try.",
+    "speaker": "Peter Steinberger",
+    "claim": "The rapid growth of AI should be slowed down to manage expectations.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI growth management",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The rapid growth of AI should be slowed down to manage expectations.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI growth management",
+    "reviewed": false,
+    "text_tr": "Ve, ve bunun anneme tavsiye edebileceğim bir seviyede olduğundan emin olduğumda, o zaman onu daha basit hale getireceğim. Mesela ben... Şu anda- - Onu daha zor hale getirmek istiyorsun ki şu anki hızıyla ölçeklenmesin. - Evet, olmasaydı iyi olurdu... Yani, bunu söylemek zor, değil mi? Ama büyüme biraz daha yavaş olsaydı, bu faydalı olurdu çünkü insanlar tek bir insandan insanlık dışı şeyler bekliyor. Ve evet, bazı katkıda bulunanlarım var, ama aynı zamanda bir hafta önce başlattığım o tüm mekanizmanın da çözülmesi için daha fazla zamana ihtiyacı var. Ve, ve herkesin bunun üzerinde çalışmak için bütün günü yok. - Bunu dinleyen bazı yeni başlayanlar var, programlamaya yeni başlayanlar. Onlara, diyelim ki, Ajan Yapay Zeka devrimine katılmak hakkında ne tavsiye verirdin? - Oynayın. Um, oynamak en iyisi... Öğrenmenin en iyi yolu. Eğer istersen... Eminim eğer... Eğer biraz yapıcı biriysen, kafanda inşa etmek istediğin bir fikir varsa, sadece onu inşa et, ya da bir dene."
+  },
+  {
+    "start": 7372.7,
+    "end": 7455.6,
+    "text": "Ask it. - But what would you say? So use... What's\nthe easiest way to play? So maybe Open Claw is a nice way to play so\nyou can then set- set everything up and then you could chat with it. - You can also just experiment with\nit and, like, modify it. Ask your agent. I mean, there is infinite\nways how it can be made better. Play around, make it better. - Mm-hmm. - More general, if you- if you're a\nbeginner and you actually wanna learn how to build\nsoftware really fast, get involved in open source. Doesn't\nneed to be my project. In fact, maybe don't use my project because my- my backlog is very large,\nbut I learned so much from open source. Just like, like, be- be humble. Don't- maybe don't\nsend a pull request right away. But there's many\nother ways you can help out. There's many ways you can just\nlearn by just reading code. By- by being on Discord or\nwherever people are, and just, like, understanding how things are built.\nI don't know, like Mitchell Hashimoto builds Ghostly, the terminal,\nand he has a really good community where there's so many other\nprojects. Like, pick something that you find interesting and get involved.",
+    "speaker": "Peter Steinberger",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Open source involvement",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Open source involvement",
+    "reviewed": false,
+    "text_tr": "Ona sor. - Ama ne derdin? Yani kullan... Oynamanın en kolay yolu ne? Belki Open Claw oynamak için güzel bir yol, böylece her şeyi kurup sonra onunla sohbet edebilirsin. - Onunla deneyler yapabilir ve mesela, değiştirebilirsin. Ajanına sor. Yani, onu daha iyi hale getirmenin sonsuz yolu var. Oyna, daha iyi hale getir. - Hımm. - Daha genel olarak, eğer bir başlangıç seviyesindeysen ve gerçekten hızlı bir şekilde yazılım yapmayı öğrenmek istiyorsan, açık kaynağa dahil ol. Benim projem olmak zorunda değil. Aslında, belki de benim projemi kullanma çünkü benim birikmiş işlerim çok fazla, ama açık kaynaktan çok şey öğrendim. Sadece, mesela, mütevazı ol. Hemen bir çekme isteği gönderme belki. Ama yardım edebileceğin başka birçok yol var. Sadece kod okuyarak öğrenebileceğin birçok yol var. Discord'da veya insanların olduğu her yerde bulunarak ve sadece, şeylerin nasıl inşa edildiğini anlayarak. Bilmiyorum, mesela Mitchell Hashimoto Ghostly terminalini yapıyor ve çok sayıda başka projenin olduğu gerçekten iyi bir topluluğu var. Mesela, ilgini çeken bir şey seç ve dahil ol."
+  },
+  {
+    "start": 11583.8,
+    "end": 11645.9,
+    "text": "- I mean, I inspired so many people.\nThere's like... there's this whole builder vibe again. People are now\nusing AI in a more playful way and are discovering what it can do and\nhow it can like help them in their life. And creating new places that are just sprawling of\ncreativity. I don't know. Like, there's like ClawCoin in\nVienna. There's like 500 people. And there's such\na high percentage of people that uh, want to present, which\nis to me really surprising, because u- usually it's quite hard to find people that want to like\ntalk about what they built. And now it's, there's an abundance. So that gives\nme hope that we can, we can figure shit out. - And it makes it accessible\nto basically everybody. - Yeah.",
+    "speaker": "Peter Steinberger",
+    "claim": "The current playful use of AI and the creativity it inspires gives hope for the future.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI creativity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The current playful use of AI and the creativity it inspires gives hope for the future.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI creativity",
+    "reviewed": false,
+    "text_tr": "- Yani, birçok insana ilham verdim. Yine bir geliştirici ruhu var. İnsanlar artık yapay zekayı daha eğlenceli bir şekilde kullanıyor ve ne yapabileceğini, hayatlarında onlara nasıl yardımcı olabileceğini keşfediyorlar. Ve yaratıcılıkla dolu yeni yerler yaratıyorlar. Bilmiyorum. Mesela Viyana'da ClawCoin var. Yaklaşık 500 kişi var. Ve sunum yapmak isteyenlerin oranı o kadar yüksek ki, bu benim için gerçekten şaşırtıcı, çünkü genellikle inşa ettikleri şeyler hakkında konuşmak isteyen insanları bulmak oldukça zordur. Ve şimdi, bir bolluk var. Bu da bana, bir şeyleri çözebileceğimize dair umut veriyor. - Ve bu, temelde herkes için erişilebilir hale getiriyor. - Evet."
   }
 ]

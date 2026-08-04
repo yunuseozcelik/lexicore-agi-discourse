@@ -541,5 +541,272 @@
     "topic_silver": "Company Culture",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 403.8,
+    "end": 473.8,
+    "text": "If we look at pre-training \nscaling, it was very interesting   back in 2017 when Alec Radford was doing GPT-1.\nThe models before GPT-1 were trained on datasets   that didn't represent a wide distribution of text.\nYou had very standard language   modeling benchmarks.\nGPT-1 itself was trained on   a bunch of fanfiction, I think actually.\nIt was literary text, which is a very   small fraction of the text you can get.\nIn those days it was like a billion words   or something, so small datasets representing \na pretty narrow distribution of what you can   see in the world. It didn't generalize well. \nIf you did better on some fanfiction corpus,   it wouldn't generalize that well to other \ntasks. We had all these measures. We had   all these measures of how well it did at \npredicting all these other kinds of texts.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 475.8,
+    "end": 546.4,
+    "text": "It was only when you trained over all the tasks \non the internet — when you did a general internet   scrape from something like Common Crawl or \nscraping links in Reddit, which is what we did for   GPT-2 — that you started to get generalization.\nI think we're seeing the same thing on RL.  We're starting first with simple RL tasks like \ntraining on math competitions, then moving to   broader training that involves things like code.\nNow we're moving to many other tasks.  I think then we're going to \nincreasingly get generalization.  So that kind of takes out the \nRL vs. pre-training side of it.  But there is a puzzle either way, which is that \nin pre-training we use trillions of tokens.  Humans don't see trillions of words.\nSo there is an actual sample   efficiency difference here.\nThere is actually something different here.  The models start from scratch \nand they need much more training.",
+    "speaker": "Dario Amodei",
+    "claim": "Generalization in AI models improves with broader training across various tasks.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Generalization in AI models improves with broader training across various tasks.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 870.1,
+    "end": 939.6,
+    "text": "You could construct a 5% world where \nthings get delayed for ten years.  There's another 5% which is that I'm very \nconfident on tasks that can be verified.  With coding, except for that \nirreducible uncertainty,   I think we'll be there in one or two years.\nThere's no way we will not be there in ten years   in terms of being able to do end-to-end coding.\nMy one little bit of fundamental uncertainty,   even on long timescales, is about tasks that \naren't verifiable: planning a mission to Mars;   doing some fundamental scientific \ndiscovery like CRISPR; writing a novel.  It’s hard to verify those tasks.\nI am almost certain we have a   reliable path to get there, but if there's \na little bit of uncertainty it's there.  On the ten-year timeline I'm at 90%, \nwhich is about as certain as you can be.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI will be capable of end-to-end coding within ten years, with high confidence in this timeline.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will be capable of end-to-end coding within ten years, with high confidence in this timeline.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 1864.4,
+    "end": 1935.2,
+    "text": "I guess what you're talking about is that \nwe're doing this interview for three hours.  Someone's going to come in, \nsomeone's going to edit it.  They're going to be like, \"Oh, I don't know, Dario \nscratched his head and we could edit that out.\"  \"Magnify that.\"\n\"There was this long   discussion that is less interesting to people.\nThere's another thing that's more interesting   to people, so let's make this edit.\"\nI think the \"country of geniuses in   a data center\" will be able to do that.\nThe way it will be able to do that is it will   have general control of a computer screen.\nYou'll be able to feed this in.  It'll be able to also use the computer screen \nto go on the web, look at all your previous   interviews, look at what people are saying \non Twitter in response to your interviews,   talk to you, ask you questions, talk to \nyour staff, look at the history of edits   that you did, and from that, do the job.\nI think that's dependent on several things.  I think this is one of the things \nthat's actually blocking deployment:   getting to the point on computer use where the \nmodels are really masters at using the computer.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI will enable advanced editing capabilities by mastering computer use and accessing various data sources.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will enable advanced editing capabilities by mastering computer use and accessing various data sources.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 4007.1,
+    "end": 4079.8,
+    "text": "To me, the end conclusion you're \narriving at makes a lot of sense.  But that's because it seems like \"country of \ngeniuses\" is hard and there's a long way to go.  So stepping back, the thing I'm trying to get \nat is more that it seems like your worldview   is compatible with somebody who says, \"We're \nlike 10 years away from a world in which we're   generating trillions of dollars of value.\"\nThat's just not my view. So I'll make   another prediction. It is hard for me \nto see that there won't be trillions   of dollars in revenue before 2030.\nI can construct a plausible world.   It takes maybe three years. That would be \nthe end of what I think it's plausible.  Like in 2028, we get the real \"country \nof geniuses in the data center\".  The revenue's going into the low hundreds \nof billions by 2028, and then the country   of geniuses accelerates it to trillions.\nWe’re basically on the slow end of diffusion.  It takes two years to get to the trillions.\nThat would be the world where it takes until 2030.",
+    "speaker": "Dario Amodei",
+    "claim": "Dario Amodei expresses skepticism about the near-term arrival of AGI, suggesting that while there may be significant economic value generated by AI, he does not believe AGI will be achieved within the next decade.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Dario Amodei expresses skepticism about the near-term arrival of AGI, suggesting that while there may be significant economic value generated by AI, he does not believe AGI will be achieved within the next decade.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": false
+  },
+  {
+    "start": 4145.9,
+    "end": 4223.2,
+    "text": "The point is it doesn't equilibrate to \nperfect competition with zero margins.  If there's three firms in the economy and all \nare kind of independently behaving rationally,   it doesn't equilibrate to zero.\nHelp me understand that, because   right now we do have three leading firms and \nthey're not making profit. So what is changing?  Again, the gross margins \nright now are very positive.  What's happening is a combination of two things.\nOne is that we're still in the exponential   scale-up phase of compute. A model \ngets trained. Let's say a model got   trained that costs $1 billion last year.\nThen this year it produced $4 billion of   revenue and cost $1 billion to inference from.\nAgain, I'm using stylized numbers here, but that   would be 75% gross margins and this 25% tax.\nSo that model as a whole makes $2 billion.",
+    "speaker": "Unknown",
+    "claim": "The current AI firms are in a phase of exponential scale-up, leading to high gross margins despite not making profit.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The current AI firms are in a phase of exponential scale-up, leading to high gross margins despite not making profit.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI economics",
+    "reviewed": false
+  },
+  {
+    "start": 6264.2,
+    "end": 6332.1,
+    "text": "That's why I wrote Adolescence of Technology.\nI wanted policymakers, economists, national   security professionals, and decision-makers to \nread it so that they have some hope of acting   faster than they would have otherwise.\nIs there anything you can do or advocate   that would make it more certain that the \nbenefits of AI are better instantiated?  I feel like you have worked \nwith legislatures to say, \"Okay,   we're going to prevent bioterrorism here.\nWe're going to increase transparency, we're   going to increase whistleblower protection.\"\nBut I think by default, the actual benefits   we're looking forward to seem very fragile \nto different kinds of moral panics or   political economy problems.\nI don't actually agree that   much regarding the developed world.\nI feel like in the developed world,   markets function pretty well.\nWhen there's a lot of money to   be made on something and it's clearly the best \navailable alternative, it's actually hard for   the regulatory system to stop it.\nWe're seeing that in AI itself.",
+    "speaker": "Unknown",
+    "claim": "The benefits of AI are fragile and could be undermined by moral panics or political issues.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI benefits and risks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The benefits of AI are fragile and could be undermined by moral panics or political issues.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI benefits and risks",
+    "reviewed": false
+  },
+  {
+    "start": 6494.0,
+    "end": 6561.7,
+    "text": "We could also have a world where it's unstable.\nThe nuclear equilibrium is   stable because it's deterrence.\nBut let's say there was uncertainty about,   if the two AIs fought, which AI would win? \nThat could create instability. You often have   conflict when the two sides have a different \nassessment of their likelihood of winning.  If one side is like, \"Oh yeah, there's a 90% \nchance I'll win,\" and the other side thinks   the same, then a fight is much more likely.\nThey can't both be right,   but they can both think that.\nBut this seems like a fully general argument   against the diffusion of AI technology.\nThat's the implication of this world.  Let me just go on, because I think \nwe will get diffusion eventually.  The other concern I have is that governments \nwill oppress their own people with AI.  I'm worried about a world where you have a country \nin which there’s already a government that's   building a high-tech authoritarian state.\nTo be clear, this is about the government.",
+    "speaker": "Dario Amodei",
+    "claim": "The diffusion of AI technology could lead to instability and government oppression.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The diffusion of AI technology could lead to instability and government oppression.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 7946.3,
+    "end": 8031.6,
+    "text": "But that is a thing you could try to do.\nIs there some much less heavy-handed   version of that? Maybe.\nI really like control loop two.  Obviously, this is not how constitutions \nof actual governments do or should work.  There's not this vague sense in which the \nSupreme Court will feel out how people   are feeling—what are the vibes—and \nupdate the constitution accordingly.  With actual governments, there's \na more formal, procedural process.  But you have a vision of competition between \nconstitutions, which is actually very reminiscent   of how some libertarian charter cities people used \nto talk, about what an archipelago of different   kinds of governments would look like.\nThere would be selection among them of   who could operate the most effectively \nand where people would be the happiest.  In a sense, you're recreating that \nvision of a utopia of archipelagos.  I think that vision has things to recommend \nit and things that will go wrong with it.  It's an interesting, in some ways \ncompelling, vision, but things will   go wrong that you hadn't imagined.\nSo I like loop two as well,   but I feel like the whole thing has got to \nbe some mix of loops one, two, and three,   and it's a matter of the proportions.\nI think that's gotta be the answer.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "governance",
+    "reviewed": false
   }
 ]

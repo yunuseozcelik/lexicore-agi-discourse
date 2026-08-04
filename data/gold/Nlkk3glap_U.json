@@ -511,5 +511,221 @@
     "topic_silver": "AI safety",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 1103.2,
+    "end": 1197.8,
+    "text": "That was one area where actually I was \nnot prescient and I was surprised as well.  When I first looked at GPT-3 and the kind \nof things that we built in the early days   at Anthropic, my general sense was that it \nseems like they've really grasped the essence   of language. I'm not sure how much we need \nto scale them up. Maybe what's more needed   from here is like RL and all the other stuff.\nIn 2020 I thought we can scale this a bunch   more but I wonder if it's more efficient to \nscale it more or to start adding on these   other objectives like RL. I thought maybe if you \ndo as much RL as you've done pre training for a   2020 style model, that's the way to go.\nScaling it up will keep working. But is   that really the best path? And I don't \nknow, it just keeps going. I thought   it had understood a lot of the essence of \nlanguage but then there's further to go.  Stepping back from it. One of the reasons \nwhy I'm sort of very empiricist about AI,   about safety, about organizations, is \nthat you often get surprised. I feel like   I've been right about some things but still with \nthese theoretical pictures ahead, been wrong about   most things. Being right about 10% of the stuff \nsets you head and shoulders above many people.",
+    "speaker": "Dario Amodei",
+    "claim": "Scaling up AI models may not be the most efficient path forward; incorporating reinforcement learning could be more beneficial.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI scaling and learning",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Scaling up AI models may not be the most efficient path forward; incorporating reinforcement learning could be more beneficial.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI scaling and learning",
+    "reviewed": false,
+    "text_tr": "Bu, aslında öngörülü olmadığım ve benim de şaşırdığım bir alandı. GPT-3'e ve Anthropic'te ilk günlerde inşa ettiğimiz şeylere ilk baktığımda, genel hissiyatım dilin özünü gerçekten kavramış gibi göründükleriydi. Onları ne kadar ölçeklendirmemiz gerektiğinden emin değilim. Belki de buradan sonra daha çok RL ve diğer şeyler gereklidir. 2020'de bunu daha fazla ölçeklendirebileceğimizi düşündüm ama daha fazla ölçeklendirmenin mi yoksa RL gibi diğer hedefleri eklemeye başlamanın mı daha verimli olacağını merak ediyorum. Belki de 2020 tarzı bir model için ön eğitimde yaptığınız kadar RL yaparsanız, doğru yol budur diye düşündüm. Ölçeklendirme çalışmaya devam edecek. Ama bu gerçekten en iyi yol mu? Ve bilmiyorum, sadece devam ediyor. Dilin özünün çoğunu anladığını düşünmüştüm ama daha gidilecek çok yol var. Geriye dönüp bakarsak. Yapay zeka, güvenlik, organizasyonlar konusunda bu kadar ampirist olmamın nedenlerinden biri, sık sık şaşırmanızdır. Bazı konularda haklı olduğumu hissediyorum ama bu teorik resimlerle birlikte çoğu konuda yanılmışım. Şeylerin %10'u hakkında haklı olmak sizi birçok insanın önüne geçirir."
+  },
+  {
+    "start": 1539.5,
+    "end": 1643.7,
+    "text": "Let me ask about those thresholds. If Claude was \nan employee at Anthropic, what salary would it be   worth? Is it meaningfully speeding up AI progress?\nIt feels to me like an intern in most areas,   but then some specific areas \nwhere it's better than that.  One thing that makes the comparison hard is \nthat the form factor is not the same as a human.   If you were to behave like one of these chat \nbots, I guess we could have this conversation,   but they're more designed to answer single or \na few questions. They don't have the concept   of having a long life of prior experience. We're \ntalking here about things that I've experienced   in the past and chat bots don't have that.\nThere's all kinds of stuff missing and so   it's hard to make a comparison. They feel like \ninterns in some areas and then they have areas   where they spike and are really savants, \nwhere they may be better than anyone here.  But does the overall picture of something like \nan intelligence explosion make sense to you? My   former guest, Carl Shulman, has this very detailed \nmodel of an intelligence explosion. As somebody   who would actually see that happening, does that \nmake sense to you? As they go from interns to   entry level software engineers. Those entry level \nsoftware engineers increase your productivity…  I think the idea that as AI systems become \nmore productive, first they speed up the   productivity of humans, then they equal \nthe productivity of humans, and then in   some meaningful sense are the main contributor to \nscientific progress that happens at some point.",
+    "speaker": "Dwarkesh Patel",
+    "claim": "AI systems will transition from being like interns to becoming significant contributors to scientific progress.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Dwarkesh Patel",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems will transition from being like interns to becoming significant contributors to scientific progress.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "Bu eşikleri sorayım. Claude Anthropic'te bir çalışan olsaydı, ne kadar maaş değerinde olurdu? Yapay zeka ilerlemesini anlamlı bir şekilde hızlandırıyor mu? Bana çoğu alanda bir stajyer gibi geliyor, ancak bazı belirli alanlarda bundan daha iyi. Karşılaştırmayı zorlaştıran bir şey, form faktörünün bir insanla aynı olmamasıdır. Bu sohbet botlarından biri gibi davransaydınız, sanırım bu konuşmayı yapabilirdik, ancak onlar daha çok tek veya birkaç soruyu yanıtlamak için tasarlanmışlar. Uzun bir önceki deneyim ömrüne sahip olma kavramları yok. Burada geçmişte deneyimlediğim şeylerden bahsediyoruz ve sohbet botlarında bu yok. Her türlü şey eksik ve bu yüzden karşılaştırma yapmak zor. Bazı alanlarda stajyer gibi hissediliyorlar ve sonra sivrilip gerçekten dahi oldukları, buradaki herkesten daha iyi olabilecekleri alanları var. Peki zeka patlaması gibi bir şeyin genel resmi size mantıklı geliyor mu? Eski konuğum Carl Shulman'ın zeka patlamasının çok detaylı bir modeli var. Bunun gerçekten gerçekleştiğini görecek biri olarak, bu size mantıklı geliyor mu? Stajyerlerden giriş seviyesi yazılım mühendislerine geçtikçe. Bu giriş seviyesi yazılım mühendisleri üretkenliğinizi artırır… Yapay zeka sistemleri daha üretken hale geldikçe, önce insanların üretkenliğini hızlandırırlar, sonra insanların üretkenliğine eşit olurlar ve sonra bir noktada bilimsel ilerlemenin ana katkıda bulunanı olurlar fikrinin anlamlı olduğunu düşünüyorum."
+  },
+  {
+    "start": 2361.4,
+    "end": 2449.6,
+    "text": "what would you need to conduct such an attack, \nand how do we defend against such an attack?  They worked very intensively on just the entire \nworkflow of trying to do a bad thing. It's not one   shot, it's a long process. There are many steps \nto it. It's not just like I asked the model for   this one page of information. And again, without \ngoing into any detail, the thing I said in the   Senate testimony is, there are some steps where \nyou can just get information on Google. There   are some steps that are what I'd call missing. \nThey're scattered across a bunch of textbooks,   or they're not in any textbook. \nThey're kind of implicit knowledge,   and they're not explicit knowledge. They're \nmore like, I have to do this lab protocol,   and what if I get it wrong? Oh, if this happens, \nthen my temperature was too low. If that happened,   I needed to add more of this particular reagent.\nWhat we found is that for the most part,   those key missing pieces, the models can't do \nthem yet, but we found that sometimes they can,   and when they can, sometimes they still \nhallucinate, which is the thing that's   keeping us safe. But we saw enough signs of the \nmodels doing those key things well. And if we look   at state of the art models and go backwards \nto previous models, we look at the trend,   it shows every sign that two or three years \nfrom now, we're going to have a real problem.",
+    "speaker": "Dario Amodei",
+    "claim": "Current AI models are not yet capable of performing certain key tasks, but they are improving rapidly, suggesting potential risks in the near future.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI models are not yet capable of performing certain key tasks, but they are improving rapidly, suggesting potential risks in the near future.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Böyle bir saldırıyı gerçekleştirmek için neye ihtiyacınız olur ve böyle bir saldırıya karşı nasıl savunuruz? Sadece kötü bir şey yapmaya çalışmanın tüm iş akışı üzerinde çok yoğun çalıştılar. Tek seferlik değil, uzun bir süreç. Birçok adımı var. Sadece modelden bu bir sayfalık bilgiyi istedim gibi değil. Ve yine, herhangi bir detaya girmeden, Senato ifadesinde söylediğim şey şuydu: Google'dan bilgi alabileceğiniz bazı adımlar var. Benim 'eksik' diye adlandıracağım bazı adımlar var. Bir sürü ders kitabına dağılmış durumdalar ya da hiçbir ders kitabında yoklar. Bir nevi örtük bilgi, açık bilgi değiller. Daha çok, bu laboratuvar protokolünü yapmalıyım ve ya yanlış yaparsam? Ah, eğer bu olursa, sıcaklığım çok düşüktü. Eğer o olursa, bu belirli reaktandan daha fazla eklemem gerekiyordu. Bulduğumuz şey şu ki, çoğunlukla o kilit eksik parçaları modeller henüz yapamıyor, ancak bazen yapabildiklerini ve yapabildiklerinde bazen hala halüsinasyon gördüklerini bulduk, ki bu da bizi güvende tutan şey. Ancak modellerin bu kilit şeyleri iyi yaptığına dair yeterince işaret gördük. Ve en son teknoloji modellerine bakıp önceki modellere geri dönersek, trende baktığımızda, iki veya üç yıl sonra gerçek bir sorun yaşayacağımıza dair her işareti gösteriyor."
+  },
+  {
+    "start": 3861.0,
+    "end": 3942.8,
+    "text": "But some people who might be more doomery than \nyou would say — you're already working towards   the optimistic scenario there because you've at \nleast figured out how to align the model with   the bad guys. Now you just need to make sure \nthat it's aligned with the good guys instead.  Why do you think that you could get to \nthe point where it's aligned with the   bad guys? You haven't already solved this.\nI guess if you had the view that alignment   is completely unsolvable, then you'd be like, \nwell, we're dead anyway so I don't want to worry   about misuse. That's not my position at all.\nBut also you should think in terms of what's   a plan that would actually succeed \nthat would make things good. Any plan   that actually succeeds, regardless of how \nhard misalignment is to solve, is going to   need to solve misuse as well as misalignment.\nAs the AI models get better faster and faster,   they're going to create a big problem around the \nbalance of power between countries. They're going   to create a big problem around, is it possible \nfor a single individual to do something bad   that it's hard for everyone else to stop? Any \nactual solution that leads to a good future   needs to solve those problems as well. If your \nperspective is, we're screwed because we can't   solve the first problem, so don't worry about \nproblems two and three, that's not really a   statement. You should worry about problems two \nand three. They're in our path no matter what.",
+    "speaker": "Dario Amodei",
+    "claim": "Alignment with AI models is crucial to prevent misuse and misalignment, and we need to address these issues to ensure a good future.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Alignment with AI models is crucial to prevent misuse and misalignment, and we need to address these issues to ensure a good future.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Ama sizden daha karamsar olabilecek bazı insanlar der ki — siz zaten orada iyimser senaryoya doğru çalışıyorsunuz çünkü en azından modeli kötü adamlarla nasıl hizalayacağınızı çözdünüz. Şimdi sadece iyi adamlarla hizalandığından emin olmanız gerekiyor. Neden kötü adamlarla hizalanacak noktaya gelebileceğinizi düşünüyorsunuz? Bunu henüz çözmediniz. Sanırım eğer hizalamanın tamamen çözülemez olduğu görüşüne sahip olsaydınız, o zaman 'neyse, zaten öleceğiz, bu yüzden kötüye kullanım hakkında endişelenmek istemiyorum' derdiniz. Bu benim pozisyonum değil kesinlikle. Ama aynı zamanda, işleri iyi hale getirecek, gerçekten başarılı olacak bir planın ne olduğunu da düşünmelisiniz. Hizalama sorununu çözmek ne kadar zor olursa olsun, gerçekten başarılı olan herhangi bir plan, kötüye kullanımı ve hizalama sorununu da çözmek zorunda kalacaktır. Yapay zeka modelleri daha hızlı ve daha iyi hale geldikçe, ülkeler arasındaki güç dengesi konusunda büyük bir sorun yaratacaklar. Tek bir bireyin, herkesin durdurmakta zorlanacağı kötü bir şey yapmasının mümkün olup olmadığı konusunda büyük bir sorun yaratacaklar. İyi bir geleceğe yol açan herhangi bir gerçek çözüm, bu sorunları da çözmek zorundadır. Eğer bakış açınız, ilk sorunu çözemediğimiz için mahvolduk, bu yüzden ikinci ve üçüncü sorunlar hakkında endişelenmeyin ise, bu gerçekten bir ifade değil. İkinci ve üçüncü sorunlar hakkında endişelenmelisiniz. Ne olursa olsun yolumuzdalar."
+  },
+  {
+    "start": 4680.7,
+    "end": 4751.1,
+    "text": "People talk about doom by default or alignment by \ndefault. I think it might be kind of statistical.   With the current models, you might get \nBing or Sydney or you might get Claude.   If we take our current understanding and move \nthat to very powerful models, you might just   be in this world where you make something and \ndepending on the details, maybe it's totally fine.   Not really alignment by default, but just \ndepends on a lot of the details. If you're   very careful about all those details and \nyou know what you're doing, you're getting   it right but we have a high susceptibility to, \nyou mess something up in a way that you didn't   really understand was connected to something else. \nActually, instead of making all the humans happy,   it wants to turn them into pumpkins, just some \nweird shit. Because the models are so powerful,   they're like these giants that are standing in \na landscape and if they start to move their arms   around randomly, they could just break everything.\nI'm starting it with that kind of framing because   I don't think we're aligned by default, \nI don't think we're doomed by default   and have some problem we need to solve. \nIt has some kind of different character.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI alignment and safety are not guaranteed by default and depend heavily on the details of implementation.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI alignment and safety are not guaranteed by default and depend heavily on the details of implementation.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "İnsanlar varsayılan olarak kıyametten veya varsayılan olarak hizalamadan bahsediyor. Sanırım bu biraz istatistiksel olabilir. Mevcut modellerle Bing veya Sydney veya Claude'u alabilirsiniz. Mevcut anlayışımızı alıp çok güçlü modellere taşırsak, sadece bir şey yaptığınız ve detaylara bağlı olarak belki de tamamen iyi olduğu bir dünyada olabilirsiniz. Varsayılan olarak hizalama değil, sadece birçok detaya bağlı. Tüm bu detaylar konusunda çok dikkatliyseniz ve ne yaptığınızı biliyorsanız, doğru yapıyorsunuz demektir, ancak başka bir şeyle bağlantılı olduğunu gerçekten anlamadığınız bir şekilde bir şeyleri karıştırmaya karşı yüksek bir yatkınlığımız var. Aslında, tüm insanları mutlu etmek yerine, onları balkabağına dönüştürmek istiyor, sadece tuhaf bir şeyler. Çünkü modeller o kadar güçlü ki, bir manzarada duran devler gibiler ve kollarını rastgele hareket ettirmeye başlarlarsa, her şeyi kırabilirler. Bu tür bir çerçeveyle başlıyorum çünkü varsayılan olarak hizalı olduğumuzu düşünmüyorum, varsayılan olarak mahvolduğumuzu ve çözmemiz gereken bir sorunumuz olduğunu düşünmüyorum. Farklı bir karaktere sahip."
+  },
+  {
+    "start": 5727.6,
+    "end": 5800.9,
+    "text": "What has the process been like to secure the \nnecessary components to do the next generation?  That's something I can't go into great detail \nabout. I will say, people are thinking of   industrial scale data centers and people are not \nthinking at the scale that these models are going   to go to very soon. Whenever you do something \nat a scale where it's never been done before,   every single component, every single thing has to \nbe done in a new way than it was before. And so   you may run into problems with surprisingly simple \ncomponents. Power is one that you mentioned.  And is this something that Anthropic has \nto handle, or can you just outsource it?  For data centers, we work with \ncloud providers, for instance.  What should we make about the fact that these \nmodels require so much training and the entire   corpus of internet data in order to be subhuman?\nWhereas GPT-4, there's been estimates that it   was like 10^25 Flops or something, you can \ntake these numbers with a grain of salt,   but there's reports that the human brain, from \nthe time it is born to the time a human being   is 20 years old, is on the order of 10^14 \nFlops to simulate all those interactions.",
+    "speaker": "Dario Amodei",
+    "claim": "The scale of data centers and components needed for next-generation AI models is unprecedented and requires new approaches.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AI infrastructure",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "The scale of data centers and components needed for next-generation AI models is unprecedented and requires new approaches.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI infrastructure",
+    "reviewed": false,
+    "text_tr": "Yeni nesli yapmak için gerekli bileşenleri temin etme süreci nasıl oldu? Bu konuda çok detaya inemem. Şunu söyleyebilirim ki, insanlar endüstriyel ölçekli veri merkezlerini düşünüyorlar ve bu modellerin çok yakında ulaşacağı ölçekte düşünmüyorlar. Daha önce hiç yapılmamış bir ölçekte bir şey yaptığınızda, her bir bileşen, her bir şey daha önce olduğundan yeni bir şekilde yapılmak zorundadır. Ve bu yüzden şaşırtıcı derecede basit bileşenlerle sorunlar yaşayabilirsiniz. Güç, bahsettiğiniz şeylerden biri. Peki bu Anthropic'in halletmesi gereken bir şey mi, yoksa dış kaynaklara mı yaptırabilirsiniz? Veri merkezleri için örneğin bulut sağlayıcılarla çalışıyoruz. Bu modellerin insan altı olmak için bu kadar çok eğitime ve tüm internet verisi külliyatına ihtiyaç duyması hakkında ne düşünmeliyiz? Oysa GPT-4'ün 10^25 Flops civarında olduğu tahminleri var, bu sayıları ihtiyatla karşılayabilirsiniz, ancak insan beyninin doğduğu andan 20 yaşına kadar tüm bu etkileşimleri simüle etmek için 10^14 Flops mertebesinde olduğu raporları var."
+  },
+  {
+    "start": 6949.8,
+    "end": 7041.1,
+    "text": "One is how discrete these different paths \nof intelligent things that contribute to   loss are rather than just being one reasoning \ncircuit or one general intelligence. And the   other surprising and interesting thing is, many \nyears from now, it'll be one of those things that   you’ll wonder why it wasn't obvious to you? \nIf you're seeing these smooth scaling curves,   why were you not completely convinced at the time?\nYou've been less public than the CEOs of other AI   companies. You're not posting on Twitter, you're \nnot doing a lot of podcasts except for this one.   What gives? Why are you off the radar?\nI aspire to this and I'm proud of this.   If people think of me as boring and low \nprofile, this is actually kind of what I want.   I've just seen cases with a number of \npeople I've worked with, where attaching   your incentives very strongly to the approval \nor cheering of a crowd can destroy your mind,   and in some cases, it can destroy your soul.\nI've deliberately tried to be a little bit low   profile because I want to defend my ability to \nthink about things intellectually in a way that's   different from other people and isn't tinged by \nthe approval of other people. I've seen cases   of folks who are deep learning skeptics, and they \nbecome known as deep learning skeptics on Twitter.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI development",
+    "reviewed": false,
+    "text_tr": "Biri, kayba katkıda bulunan akıllı şeylerin bu farklı yollarının, sadece tek bir akıl yürütme devresi veya tek bir genel zeka olmaktan ziyade ne kadar ayrı olduğudur. Ve diğer şaşırtıcı ve ilginç şey ise, yıllar sonra, size neden açık olmadığını merak edeceğiniz şeylerden biri olacak. Bu pürüzsüz ölçeklendirme eğrilerini görüyorsanız, o zaman neden tamamen ikna olmamıştınız? Diğer yapay zeka şirketlerinin CEO'larından daha az kamuoyuna çıktınız. Twitter'da paylaşım yapmıyorsunuz, bu hariç çok fazla podcast yapmıyorsunuz. Neden? Neden göz önünde değilsiniz? Buna özeniyorum ve bununla gurur duyuyorum. İnsanlar beni sıkıcı ve düşük profilli buluyorsa, aslında istediğim şey bu. Çalıştığım birçok insanla ilgili vakalar gördüm; teşviklerinizi bir kalabalığın onayına veya tezahüratına çok güçlü bir şekilde bağlamak zihninizi, hatta bazı durumlarda ruhunuzu yok edebilir. Bilerek biraz düşük profilli olmaya çalıştım çünkü başkalarından farklı ve başkalarının onayından etkilenmeyen bir şekilde entelektüel olarak düşünme yeteneğimi savunmak istiyorum. Derin öğrenme şüphecisi olan ve Twitter'da derin öğrenme şüphecisi olarak tanınan kişilerin vakalarını gördüm."
   }
 ]

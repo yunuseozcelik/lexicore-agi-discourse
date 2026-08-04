@@ -589,5 +589,147 @@
     "topic_silver": "LLM capabilities",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 229.0,
+    "end": 294.5,
+    "text": "and you're the co-author on Hcast, which we'll talk about today, and and the time horizons paper and the developer productivity RCT. Incredible to have you both in here, but maybe we should just just start as a bit of a question to both of you. So, you know, Beth, you left OpenAI to to build meter. What was the moment that each of you realized that existing evaluation approaches were fundamentally not good enough? >> For me, it was mostly thinking about this problem of scalable oversight. as as models get more capable um it just gets harder to evaluate um you know their their their capabilities. If we imagine that you know models are are able to complete tasks that take people you know a long time to complete or require expertise that uh you know you don't necessarily have. Um you need a method for um uh kind of um you know still still being confident in their in their outputs and trusting their outputs. Um and so thinking about that problem was um was a lot of the motivation actually for for GPQA and um was what kind of started uh uh got me started thinking about uh evaluations.",
+    "speaker": "Beth Barnes",
+    "claim": "Existing evaluation approaches for AI models are fundamentally not good enough as models become more capable.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI evaluation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Beth Barnes",
+    "is_claim_silver": true,
+    "claim_silver": "Existing evaluation approaches for AI models are fundamentally not good enough as models become more capable.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI evaluation",
+    "reviewed": false
+  },
+  {
+    "start": 2973.6,
+    "end": 3071.4,
+    "text": ">> There is an argument for statistical you know validity and on the tales they're sparer increasingly estimated and and so on. So that that makes a lot of sense but you made a comment about oh you know it's a signal if we get 10%. But I was kind of thinking back to what we were saying earlier that you know maybe they they could give the right answers for the wrong reasons and maybe we should talk about like the evaluation right so the these are quite interesting tasks in the sense that they are verifiable um you know there's no interaction with other agents they're relatively static environments uh you know weak penalties for um single mistakes and so on and in in in a sense these are like I think as well in mo in most cases they a binary result, sometimes continuous, and then you convert it into a binary. So, it's a fairly automated setup, but are you digging into like weirdnesses there, you know, like are you do you have a bit of an intuition on are they doing the right thing for the right reasons or are there lots of false positives where they they did the thing but it was kind of degenerate. I think this is like um this is one of one of the kind of um uh like aspects of of like like meters culture that I that I like the most is that um we have like a very uh a very deep kind of uh culture of like uh you know looking looking at our data like you know we we have these like um uh you know we have like pizza parties where we uh you know just read through um agent agent transcripts. Um a lot of this work for us uh kind of happened when developing the tasks themselves. Um you know we we would see very often uh you",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI evaluation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI evaluation",
+    "reviewed": false
+  },
+  {
+    "start": 4565.2,
+    "end": 4659.0,
+    "text": "at that and and getting better faster and then there's some things where we're like okay and they can do a bit beyond that but then there's this sort of gap to what does that mean for actual economic usefulness and how does this generalize to things where they're expensive to check >> maybe we should bring in um Daniel cockatelo so you know in his AI 2027 piece he's been on the show he's he's been doing the round you know hugely impactful piece talking about timelines and and he cites your work directly and I I guess the like the question is do you think in the public discourse is this being like overread like how do you think about the interpretation of this in terms of of extrapolations and timelines? >> I mean definitely some people are overreading it like definitely you know definitely things are overhyped and you know you see a bunch of people on Twitter saying crazy things and people also just like misunderstanding even what it's measuring and and general falling off of caveats and things. Daniel cockatile is pretty, you know, reasonable and and sort of, you know, thinks about things in a in a proalistic way. I think he's he's probably like, you know, more more confident on some things where I'm I'm more uncertain and I think some of the like AI futures project models are like more sensitive to the meter time horizon metrics than they should be. I don't think it's crazy, you know, being like this it's it is plausible that this does capture a trend that will will transfer to other types of tasks and like you know that is some you know story we should be thinking",
+    "speaker": "David Rein",
+    "claim": "Some people are overhyping AI capabilities and misunderstanding their implications for economic usefulness and timelines.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI timelines",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "David Rein",
+    "is_claim_silver": true,
+    "claim_silver": "Some people are overhyping AI capabilities and misunderstanding their implications for economic usefulness and timelines.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI timelines",
+    "reviewed": false
+  },
+  {
+    "start": 4991.4,
+    "end": 5079.4,
+    "text": "So, so it's like, yeah, again, this thing is worse, but it's not like it's it, you know, it's being dragged up over time probably by, you know, the sort of auto auto checkable thing. Yeah. And yeah, I was also going to say about the um yeah, like employability as a function of automation of your job like I think Yeah. And people use like bank tell as an example. I think one other analogy though you could do do is talk about horses. Like you know there was a period where like equipment for using horses to do labor was like improving and that the demand for horses increased when you have like a you know carts and you can use them to carry more things than just riding a horse or whatever. But then at some point you get like tractors and cars and then there is no demand for horses or you know ba you know basically none. So, so you can see this like thing where there is increasing demand as it and then once you know close to 100% of the functions automated it it it plunges. So, so we could see something like that with humans. >> We kind of think of a lot of labor as being quite static and automatable and and and I think that it's more evolvable than we think. So, even quite menial tasks, I think that these folks are still acquiring information in the organization. They still have a lot of tacet knowledge and so on. And I think that when when we try and automate these these so-called menial tasks, we might quickly discover that we actually need to have a whole bunch of, you know, management and and evolvability on on top.",
+    "speaker": "Unknown",
+    "claim": "The demand for human labor may evolve rather than decline sharply due to automation.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "jobs",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The demand for human labor may evolve rather than decline sharply due to automation.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "jobs",
+    "reviewed": false
+  },
+  {
+    "start": 5314.2,
+    "end": 5388.2,
+    "text": ">> Just taking a step back like one one thing is um you know we're getting into like psychology and cognitive science a little bit here. You know I interviewed Nick Cheter. He's got a book called The Mind is Flat and he basically says like all of this psychology stuff. We we we don't really have goals. We're just basically impulse response automaton, right? You know, we just we just do the thing in the moment and evolution doesn't plan but but we but we perceive it as as if it does. We look at the world and we we kind of we we segment the world into agents that have goals if even if they don't have goals and we're computer scientists as well. So we know that you [snorts] know you need planning right to do to to do goals you need to be planning and and we know that LLM's don't do planning in the strong computer science way but they they do do it in a kind of approximated step-by-step way. So you know maybe maybe we could get into the the distinction if there is one. you know, agency is is like an abstraction that, you know, is useful if it helps us predict the behavior of, you know, or or like you you know, you're like, I don't know what this thing is doing, but I, you know, I'm understanding as having these goals, and that is useful because I, you know, can make predictions that'll change the world in certain ways that will result in those goals being achieved. You know, that's kind of how I think about agents.",
+    "speaker": "Unknown",
+    "claim": "Humans perceive themselves and others as having goals, even if they do not actually have them, and LLMs approximate planning but do not plan in a strong sense.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Nature of Intelligence",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Humans perceive themselves and others as having goals, even if they do not actually have them, and LLMs approximate planning but do not plan in a strong sense.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Nature of Intelligence",
+    "reviewed": false
   }
 ]

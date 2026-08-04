@@ -490,5 +490,191 @@
     "topic_silver": "AGI intelligence",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 918.6,
+    "end": 981.2,
+    "text": "So yeah, I don't mind,\nyou know, a video game where I get haptic feedback\nthat is a little bit of shaking, maybe I'm a little scared. I don't want a game where like\nkids are tortured literally, that seems unethical at\nleast by our human standards. - Are you suggesting it's\npossible to remove suffering if we're looking at human civilization as an optimization problem? - So we know there are some humans who, because of a mutation, don't\nexperience physical pain. So at least physical pain can be mutated out, re-engineered out. Suffering in terms of meaning, like you burn the only copy\nof my book is a little harder. But even there you can manipulate\nyour hedonic set point, you can change defaults, you can reset. Problem with that is if you start messing with your reward channel,\nyou start wireheading and end up blissing out a little too much. - Well that's the question. Would you really want to live in a world where there's no suffering?",
+    "speaker": "Roman Yampolskiy",
+    "claim": "It is possible to remove physical pain and manipulate suffering, but doing so could lead to negative consequences like wireheading.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "It is possible to remove physical pain and manipulate suffering, but doing so could lead to negative consequences like wireheading.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI ethics",
+    "reviewed": false,
+    "text_tr": "Yani evet, haptik geri bildirim aldığım, biraz titreme olan, belki biraz korktuğum bir video oyununa itirazım yok. Ama çocukların kelimenin tam anlamıyla işkence gördüğü bir oyun istemem, bu en azından bizim insani standartlarımıza göre etik dışı görünüyor. - İnsan medeniyetine bir optimizasyon problemi olarak bakarsak, acıyı ortadan kaldırmanın mümkün olduğunu mu öne sürüyorsunuz? - Biliyoruz ki bazı insanlar bir mutasyon nedeniyle fiziksel acı hissetmiyor. Yani en azından fiziksel acı mutasyonla veya yeniden mühendislikle ortadan kaldırılabilir. Anlam açısından acı çekmek, mesela kitabımın tek kopyasını yakmanız biraz daha zor. Ama orada bile hedonik ayar noktanızı manipüle edebilir, varsayılanları değiştirebilir, sıfırlayabilirsiniz. Bununla ilgili sorun şu ki, ödül kanalınızla oynamaya başlarsanız, kendinizi aşırı derecede mutlu etmeye başlarsınız. - İşte soru bu. Gerçekten acının olmadığı bir dünyada yaşamak ister miydiniz?"
+  },
+  {
+    "start": 1775.2,
+    "end": 1849.7,
+    "text": "We remove the gender bias.\nWe are removing race bias. Why is this pro-human bias?\nWe are polluting the planet. We are, as you said, you\nknow, fight a lot of war, kind of violent, maybe it's better if\nit's super intelligent, perfect society comes and replaces us. It's normal stage in the\nevolution of our species. - Yeah, so somebody says,\nlet's develop an AI system that removes the violent\nhumans from the world. And then it turns out that all\nhumans have violence in them or the capacity for violence and therefore all humans are removed. Yeah, yeah, yeah. Let me ask about Yann LeCun, he's somebody who we've\nhad a few exchanges with and he's somebody who actively pushes back against this view that AI is going to lead to destruction\nof human civilization, also known as AI doomism. So in one example that he tweeted, he said, \"I do acknowledge risks, but,\" two points, \"One, open\nresearch and open source are the best ways to understand\nand mitigate the risks.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI could potentially replace humans and create a perfect society, which is a normal stage in human evolution.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI optimism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI could potentially replace humans and create a perfect society, which is a normal stage in human evolution.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI optimism",
+    "reviewed": false,
+    "text_tr": "Cinsiyet ayrımcılığını kaldırıyoruz. Irk ayrımcılığını kaldırıyoruz. Neden bu insan yanlısı bir önyargı? Gezegeni kirletiyoruz. Dediğiniz gibi, çok savaş yapıyoruz, şiddet eğilimliyiz, belki süper zeki, mükemmel bir toplum gelip yerimizi alırsa daha iyi olur. Bu, türümüzün evriminde normal bir aşama. - Evet, yani biri diyor ki, dünyadan şiddet yanlısı insanları ortadan kaldıran bir yapay zeka sistemi geliştirelim. Ve sonra ortaya çıkıyor ki tüm insanlar şiddet içeriyor veya şiddet kapasitesine sahip ve bu yüzden tüm insanlar ortadan kaldırılıyor. Evet, evet, evet. Yann LeCun hakkında sorayım, kendisiyle birkaç kez fikir alışverişinde bulunduk ve yapay zekanın insan medeniyetinin yıkımına yol açacağı, yani yapay zeka kıyametçiliği olarak da bilinen bu görüşe aktif olarak karşı çıkan biri. Bir tweet'inde verdiği örnekte şöyle dedi: \"Riskleri kabul ediyorum, ancak,\" iki nokta, \"Birincisi, açık araştırma ve açık kaynak, riskleri anlamanın ve azaltmanın en iyi yollarıdır."
+  },
+  {
+    "start": 2789.1,
+    "end": 2851.8,
+    "text": "I don't know, it writes Chinese poetry. Hypothetical, I know it does. But we haven't tested for\nall possible capabilities and we are not explicitly designing them. We can only rule out bugs we find. We cannot rule out bugs and capabilities because we haven't found them. - Is it possible for a system\nto have hidden capabilities that are orders of magnitude greater than its non hidden capabilities? This is the thing I'm\nreally struggling with. Where on the surface the\nthing we understand it can do doesn't seem that harmful. So even if it has bugs, even if it has hidden\ncapabilities like Chinese poetry or generating effective\nviruses, software viruses, the damage that can do\nseems like on the same order of magnitude as the capabilities that we know about.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "There may be hidden capabilities in AI systems that could be harmful, even if their known capabilities seem benign.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "There may be hidden capabilities in AI systems that could be harmful, even if their known capabilities seem benign.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Bilmiyorum, Çince şiir yazıyor. Varsayımsal, biliyorum ki yazıyor. Ama tüm olası yetenekleri test etmedik ve onları açıkça tasarlamıyoruz. Sadece bulduğumuz hataları eleyebiliriz. Bulamadığımız için hataları ve yetenekleri eleyemeyiz. - Bir sistemin, gizli olmayan yeteneklerinden kat kat daha büyük gizli yeteneklere sahip olması mümkün müdür? Bu gerçekten zorlandığım bir konu. Yüzeyde anladığımız şeyin o kadar da zararlı görünmediği bir durum. Yani hataları olsa bile, Çince şiir yazmak veya etkili virüsler, yazılım virüsleri üretmek gibi gizli yetenekleri olsa bile, verebileceği zarar, bildiğimiz yeteneklerle aynı büyüklükte gibi görünüyor."
+  },
+  {
+    "start": 3186.0,
+    "end": 3250.8,
+    "text": "So I guess the question is,\nI have a fundamental belief that humans when faced with\ndanger can come up with ways to defend against that danger. And one of the big problems\nfacing AI safety currently for me is that there's\nnot clear illustrations of what that danger looks like. There's no illustrations of AI\nsystems doing a lot of damage and so it's unclear what\nyou're defending against. 'Cause currently it's a\nphilosophical notions that yes, it's possible to imagine AI systems that take control of everything\nand then destroy all humans. It's also a more formal\nmathematical notion that you talk about that it's impossible to have a perfectly secure system. You can't prove that a program\nof sufficient complexity is completely safe and perfect\nand know everything about it. Yes, but like when you\nactually just pragmatically look how much damage\nhave the AI systems done and what kind of damage, there's not been illustrations of that.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "There are no clear illustrations of AI systems causing significant damage, making it difficult to understand what dangers to defend against.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "There are no clear illustrations of AI systems causing significant damage, making it difficult to understand what dangers to defend against.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Sanırım soru şu ki, insanların tehlikeyle karşılaştıklarında bu tehlikeye karşı savunma yolları bulabileceğine dair temel bir inancım var. Ve yapay zeka güvenliği konusunda şu anda karşılaştığım en büyük sorunlardan biri, bu tehlikenin neye benzediğine dair net örneklerin olmaması. Yapay zeka sistemlerinin çok fazla zarar verdiğine dair örnekler yok ve bu yüzden neye karşı savunma yaptığınız belirsiz. Çünkü şu anda, evet, her şeyin kontrolünü ele geçiren ve sonra tüm insanları yok eden yapay zeka sistemleri hayal etmenin mümkün olduğuna dair felsefi kavramlar var. Ayrıca, mükemmel güvenli bir sisteme sahip olmanın imkansız olduğundan bahsettiğiniz daha resmi bir matematiksel kavram da var. Yeterli karmaşıklıktaki bir programın tamamen güvenli ve mükemmel olduğunu ve hakkında her şeyi bildiğinizi kanıtlayamazsınız. Evet, ama aslında sadece pragmatik olarak bakıldığında, yapay zeka sistemleri ne kadar zarar verdi ve ne tür zararlar verdi, buna dair örnekler yok."
+  },
+  {
+    "start": 7172.6,
+    "end": 7241.3,
+    "text": "- There are simulators for torture games where the avatar screams\nin pain, begs to stop. I mean those are a part of kind of standard\npsychology research. - You say it so calmly,\nit sounds pretty dark. - Welcome to humanity.\n(Lex laughing) - Yeah, it's like a\n\"Hitchhiker's Guide\" summary. Mostly harmless, I would love to get a good summary when\nall this is said and done. When earth is no longer a thing, whatever, a million, a\nbillion years from now. Like what's a good summary\nof what happened here? It's interesting, I think AI will play a big part of that summary\nand hopefully humans will too. What do you think about\nthe merger of the two? So one of the things that\nElon and Neuralink talk about is one of the ways for\nus to achieve AI safety is to ride the wave of AGI. So by merging. - Incredible technology in a narrow sense to help the disabled, just amazing support it 100%.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI will play a significant role in the future of humanity, and merging humans with AI could be a way to achieve AI safety.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI will play a significant role in the future of humanity, and merging humans with AI could be a way to achieve AI safety.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "- İşkence oyunları için simülatörler var, avatarlar acı içinde çığlık atıyor, durması için yalvarıyor. Yani bunlar standart psikoloji araştırmalarının bir parçası. - Bunu o kadar sakin söylüyorsun ki, kulağa oldukça karanlık geliyor. - İnsanlığa hoş geldin. (Lex gülüyor) - Evet, sanki bir \"Otostopçunun Galaksi Rehberi\" özeti gibi. Çoğunlukla zararsız. Tüm bunlar olup bittiğinde iyi bir özet almak isterim. Dünya artık bir şey olmadığında, neyse, bir milyon, bir milyar yıl sonra. Burada ne olduğuna dair iyi bir özet ne olurdu? İlginç, bence yapay zeka bu özetin büyük bir parçası olacak ve umarım insanlar da öyle. İkisinin birleşmesi hakkında ne düşünüyorsunuz? Elon ve Neuralink'in bahsettiği şeylerden biri, yapay zeka güvenliğini sağlamanın yollarından birinin yapay genel zeka (AGI) dalgasına binmek olduğudur. Yani birleşerek. - Engellilere yardımcı olmak için dar anlamda inanılmaz bir teknoloji, kesinlikle %100 destekliyorum."
+  },
+  {
+    "start": 8022.3,
+    "end": 8088.5,
+    "text": "- Yeah, you are unsafe. Prove yourself to be a safe\nagent who doesn't do that and you get to go to the next game. - The next level of the\ngame. What's the next level? - I don't know. I haven't\nhacked the simulation yet. - Well, maybe hacking the\nsimulation is the thing. - I'm working as fast as I can. - And physics would be the way to do that. - Quantum physics. Yeah, definitely. - Well, I hope we do and I hope whatever is outside is even more fun than this one 'cause this one's pretty fun. And just a big thank you for\ndoing the work you're doing. There's so much exciting\ndevelopment in AI. And to ground it in the existential risks is really, really important. The humans love to create stuff and we should be careful not to destroy ourselves in the process. So thank you for doing\nthat really important work. - Thank you so much for\ninviting me. It was amazing. And my dream is to be proven wrong. If everyone just, you know,\npicks up a paper or book and shows how I messed it\nup, that would be optimal. - But for now, the simulation\ncontinues. Thank you, Roman.",
+    "speaker": "Lex Fridman",
+    "claim": "We should be careful with AI development due to existential risks, but there is exciting progress.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "We should be careful with AI development due to existential risks, but there is exciting progress.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "agi_timeline"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "- Evet, güvensizsin. Bunu yapmayan güvenli bir ajan olduğunu kanıtla ve bir sonraki oyuna geç. - Oyunun bir sonraki seviyesi. Bir sonraki seviye ne? - Bilmiyorum. Henüz simülasyonu hacklemedim. - Belki de simülasyonu hacklemek asıl meseledir. - Elimden geldiğince hızlı çalışıyorum. - Ve fizik bunu yapmanın yolu olurdu. - Kuantum fiziği. Evet, kesinlikle. - Umarım yaparız ve umarım dışarıdaki her neyse bu oyundan daha eğlencelidir çünkü bu oldukça eğlenceli. Ve yaptığınız iş için çok teşekkür ederim. Yapay zekada o kadar çok heyecan verici gelişme var ki. Ve bunu varoluşsal risklere dayandırmak gerçekten çok önemli. İnsanlar bir şeyler yaratmayı severler ve bu süreçte kendimizi yok etmemeye dikkat etmeliyiz. Bu yüzden bu gerçekten önemli işi yaptığınız için teşekkür ederim. - Beni davet ettiğiniz için çok teşekkür ederim. Harikaydı. Ve hayalim haksız çıkmak. Eğer herkes bir makale veya kitap alıp nasıl hata yaptığımı gösterirse, bu en iyisi olur. - Ama şimdilik simülasyon devam ediyor. Teşekkürler, Roman."
   }
 ]
