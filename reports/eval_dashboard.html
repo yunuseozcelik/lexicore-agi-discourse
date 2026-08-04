@@ -154,19 +154,19 @@
   <header>
     <div class="eyebrow">LexiCore · AGI-Discourse · Adım 3b değerlendirme</div>
     <h1>LLM etiketleri ne kadar <span class="accent">güvenilir?</span></h1>
-    <p class="lede">400 segmentlik insan-onaylı <em>gold</em> set üzerinde, pipeline'ın ürettiği
+    <p class="lede">406 segmentlik insan-onaylı <em>gold</em> set üzerinde, pipeline'ın ürettiği
       otomatik (<em>silver</em>) etiketleri gerçek referans kabul edip ölçtük.
       İki görev, çok farklı iki sonuç.</p>
     <div class="chips">
-      <span class="chip"><b>400</b> gold segment</span>
+      <span class="chip"><b>406</b> onaylı gold</span>
+      <span class="chip"><b>569</b> segment havuzu</span>
       <span class="chip"><b>23</b> video</span>
-      <span class="chip"><b>200+200</b> iki tur onay</span>
       <span class="chip"><b>Cohen κ</b> uyum ölçütü</span>
     </div>
   </header>
 
   <section>
-    <div class="sec-head"><h2>Görev skorkartları</h2><span class="n">silver vs gold · n=400</span></div>
+    <div class="sec-head"><h2>Görev skorkartları</h2><span class="n">silver vs gold · n=406</span></div>
     <div class="cards">
 
       <!-- is_claim -->
@@ -176,7 +176,7 @@
           <span class="verdict v-good">neredeyse kusursuz</span>
         </div>
         <div class="metrics3">
-          <div class="m"><div class="lab">Cohen κ</div><div class="val big">0.981</div></div>
+          <div class="m"><div class="lab">Cohen κ</div><div class="val big">0.982</div></div>
           <div class="m"><div class="lab">Accuracy</div><div class="val">0.995</div></div>
           <div class="m"><div class="lab">Macro-F1</div><div class="val">0.991</div></div>
         </div>
@@ -187,7 +187,7 @@
             <div class="band" style="width:20%;background:var(--warn-soft)"></div>
             <div class="band" style="width:20%;background:var(--good-soft)"></div>
             <div class="band" style="width:20%;background:var(--good-soft)"></div>
-            <div class="marker" style="left:98.1%" data-k="0.98"></div>
+            <div class="marker" style="left:98.2%" data-k="0.98"></div>
           </div>
           <div class="scale"><span>0</span><span>.20</span><span>.40</span><span>.60</span><span>.80</span><span>1</span></div>
         </div>
@@ -200,9 +200,9 @@
           <span class="verdict v-warn">zayıf uyum · en zor görev</span>
         </div>
         <div class="metrics3">
-          <div class="m"><div class="lab">Cohen κ</div><div class="val big">0.279</div></div>
-          <div class="m"><div class="lab">Accuracy</div><div class="val">0.520</div></div>
-          <div class="m"><div class="lab">Macro-F1</div><div class="val">0.482</div></div>
+          <div class="m"><div class="lab">Cohen κ</div><div class="val big">0.273</div></div>
+          <div class="m"><div class="lab">Accuracy</div><div class="val">0.517</div></div>
+          <div class="m"><div class="lab">Macro-F1</div><div class="val">0.481</div></div>
         </div>
         <div class="gauge">
           <div class="track">
@@ -211,7 +211,7 @@
             <div class="band" style="width:20%;background:var(--warn-soft)"></div>
             <div class="band" style="width:20%;background:var(--good-soft)"></div>
             <div class="band" style="width:20%;background:var(--good-soft)"></div>
-            <div class="marker" style="left:27.9%" data-k="0.28"></div>
+            <div class="marker" style="left:27.3%" data-k="0.27"></div>
           </div>
           <div class="scale"><span>0</span><span>.20</span><span>.40</span><span>.60</span><span>.80</span><span>1</span></div>
         </div>
@@ -230,11 +230,11 @@
         <tbody>
           <tr>
             <td><span class="tag"><span class="dot d-sup"></span>Support</span></td>
-            <td class="r">32</td>
+            <td class="r">36</td>
             <td class="r"><span class="metric-cell"><span class="v">0.22</span>
               <span class="bar"><i style="width:22%;background:var(--bad)"></i></span></span></td>
-            <td class="r"><span class="metric-cell"><span class="v">0.91</span>
-              <span class="bar"><i style="width:91%;background:var(--good)"></i></span></span></td>
+            <td class="r"><span class="metric-cell"><span class="v">0.83</span>
+              <span class="bar"><i style="width:83%;background:var(--good)"></i></span></span></td>
             <td class="r"><span class="metric-cell"><span class="v">0.35</span>
               <span class="bar"><i style="width:35%;background:var(--warn)"></i></span></span></td>
           </tr>
@@ -250,9 +250,9 @@
           </tr>
           <tr>
             <td><span class="tag"><span class="dot d-neu"></span>Neutral</span></td>
-            <td class="r">312</td>
-            <td class="r"><span class="metric-cell"><span class="v">0.98</span>
-              <span class="bar"><i style="width:98%;background:var(--good)"></i></span></span></td>
+            <td class="r">314</td>
+            <td class="r"><span class="metric-cell"><span class="v">0.96</span>
+              <span class="bar"><i style="width:96%;background:var(--good)"></i></span></span></td>
             <td class="r"><span class="metric-cell"><span class="v">0.42</span>
               <span class="bar"><i style="width:42%;background:var(--bad)"></i></span></span></td>
             <td class="r"><span class="metric-cell"><span class="v">0.59</span>
@@ -279,9 +279,9 @@
             </tr>
             <tr>
               <th class="rowlab">Support</th>
-              <td class="cell" style="background:var(--good)">29<small>doğru</small></td>
-              <td class="cell" style="background:#c9ccd6">2</td>
-              <td class="cell" style="background:#d7dae1">1</td>
+              <td class="cell" style="background:var(--good)">30<small>doğru</small></td>
+              <td class="cell" style="background:#c9ccd6">3</td>
+              <td class="cell" style="background:#d7dae1">3</td>
             </tr>
             <tr>
               <th class="rowlab">Refute</th>
@@ -291,16 +291,16 @@
             </tr>
             <tr>
               <th class="rowlab">Neutral</th>
-              <td class="cell" style="background:var(--bad)">99<small>yanlış</small></td>
+              <td class="cell" style="background:var(--bad)">100<small>yanlış</small></td>
               <td class="cell" style="background:#dd6a80">82<small>yanlış</small></td>
-              <td class="cell" style="background:var(--good)">131<small>doğru</small></td>
+              <td class="cell" style="background:var(--good)">132<small>doğru</small></td>
             </tr>
           </table>
         </div>
         <div>
           <p class="cm-legend">Köşegen = isabet. Asıl hasar <span class="k">Neutral</span> satırında:
-            gerçekte nötr olan 312 segmentin büyük kısmı silver tarafından taraflı sanılmış.</p>
-          <div class="diag-note">Gerçek-Neutral segmentlerin <b>181'i</b> (99 + 82)
+            gerçekte nötr olan 314 segmentin büyük kısmı silver tarafından taraflı sanılmış.</p>
+          <div class="diag-note">Gerçek-Neutral segmentlerin <b>182'si</b> (100 + 82)
             yanlışlıkla Support/Refute etiketlendi — tüm stance hatalarının ana kaynağı.</div>
         </div>
       </div>
