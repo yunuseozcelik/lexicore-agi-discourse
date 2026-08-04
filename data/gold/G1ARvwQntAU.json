@@ -565,5 +565,251 @@
     "topic_silver": "AI creativity",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 459.2,
+    "end": 552.2,
+    "text": "intelligence is about information processing and learning and making sense of the world um and all of these things can be I think uh developed for some time without solving the embodiment problem uh at some point we will want to solve it anyways because well or maybe we shouldn't because it's dangerous but either way um yeah the question is do we need to go through the embodiment to get to really very dangerous superhuman or very useful superum machines um I don't think so it's interesting isn't it because when when we have embodied agents it feels that they can interact with the world they can learn all of the micro causal relationships and so on so they learn a better world model yeah but that's the data like that's the information but the way to process the information is more abstract right so if we figure out an efficient way of exploring the world in in an abstract sense not necessarily our world it could be the internet it could be scientific papers it could be chemical experiments if if we find the right principles that would work across the board I think sensory motor you know uh loop is is maybe special but not that special is the direction of travel though understanding the world as well",
+    "speaker": "Yoshua Bengio",
+    "claim": "Embodiment may not be necessary to develop superhuman machines, as abstract information processing could suffice.",
+    "stance": "Refute",
+    "claim_labels": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Intelligence nature",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Embodiment may not be necessary to develop superhuman machines, as abstract information processing could suffice.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Intelligence nature",
+    "reviewed": false,
+    "text_tr": "zeka, bilgi işleme, öğrenme ve dünyayı anlamlandırma ile ilgilidir ve tüm bunlar, bence, somutlaşma sorununu çözmeden bir süre geliştirilebilir. Bir noktada yine de çözmek isteyeceğiz çünkü, ya da belki de tehlikeli olduğu için çözmemeliyiz, ama her iki durumda da, evet, soru şu ki, gerçekten çok tehlikeli süper insan veya çok faydalı süper makineler elde etmek için somutlaşma sürecinden geçmemiz gerekiyor mu? Bence hayır. İlginç değil mi, çünkü somutlaşmış aracılarımız olduğunda, dünyayla etkileşime girebildiklerini, tüm mikro nedensel ilişkileri ve benzerlerini öğrenebildiklerini hissediyoruz, böylece daha iyi bir dünya modeli öğreniyorlar. Evet, ama bu veridir, yani bilgidir, ancak bilgiyi işleme şekli daha soyuttur, değil mi? Yani, dünyayı soyut bir anlamda keşfetmenin verimli bir yolunu bulursak, mutlaka bizim dünyamız olmak zorunda değil, internet olabilir, bilimsel makaleler olabilir, kimyasal deneyler olabilir, eğer genel olarak işe yarayacak doğru ilkeleri bulursak, bence duyusal motor, bilirsiniz, döngü belki özeldir ama o kadar da özel değildir, ancak seyahat yönü dünyayı anlamaktır."
+  },
+  {
+    "start": 550.7,
+    "end": 645.5,
+    "text": "as we can so we can understand the world and we can build increasing abstractions or another school of thought is rationality and logic you know we we have this perfect AI that can that can reason really really well one interesting thing with um France sh AR challenge is that in the beginning we would doing like discrete program search I'm coming up with you know logical ways of doing it and when humans intuitively look at the puzzles it's almost like they're doing something different they they have this intuition where does the intuition come from our experience or schooling exactly yes so it's almost as if our experience in the world is a significant component of our cognition right sure yeah but it it what I'm trying to say is that there's a more abstract principle and um that LE that's my belief right it could be that there's like a separate set of recipes for embodied Ai and for ey cognition my instinct is no there's like just one set of principles that are about information and learning and you know they can be derived in different settings and and and give rise to different solutions but the principles I think are General and if we make sufficient progress on the principles then um dealing with the embodiment issues and maybe maybe the embodiment issue is not even that complicated maybe it is just a",
+    "speaker": "Tim Scarfe",
+    "claim": "There is a belief that there is a general set of principles about information and learning that can lead to progress in AI, regardless of embodiment issues.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI principles",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Tim Scarfe",
+    "is_claim_silver": true,
+    "claim_silver": "There is a belief that there is a general set of principles about information and learning that can lead to progress in AI, regardless of embodiment issues.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI principles",
+    "reviewed": false,
+    "text_tr": "olabildiğince, böylece dünyayı anlayabilir ve artan soyutlamalar inşa edebiliriz veya başka bir düşünce ekolü rasyonellik ve mantıktır, bilirsiniz, gerçekten çok iyi akıl yürütebilen bu mükemmel yapay zekaya sahibiz. Fransa'daki AR yarışmasıyla ilgili ilginç bir şey, başlangıçta ayrık program araması yapıyorduk, yani mantıksal yollar buluyorduk ve insanlar bulmacalara sezgisel olarak baktıklarında sanki farklı bir şey yapıyorlarmış gibi oluyor, bu sezgi nereden geliyor? Deneyimimizden mi yoksa eğitimimizden mi? Kesinlikle evet, yani sanki dünyadaki deneyimimiz bilişimizin önemli bir bileşeniymiş gibi, değil mi? Elbette evet, ama benim söylemeye çalıştığım şey, daha soyut bir ilke olduğu ve bu benim inancım, değil mi? Somutlaşmış yapay zeka ve göz bilişi için ayrı bir dizi tarif olabilir, benim içgüdüm hayır, bilgi ve öğrenmeyle ilgili tek bir ilke kümesi var ve bunlar farklı ortamlarda türetilebilir ve farklı çözümler doğurabilir, ancak ilkelerin genel olduğunu düşünüyorum ve ilkeler üzerinde yeterli ilerleme kaydedersek, o zaman somutlaşma sorunlarıyla başa çıkmak ve belki de somutlaşma sorunu o kadar da karmaşık değildir, belki de sadece bir"
+  },
+  {
+    "start": 1023.4,
+    "end": 1110.0,
+    "text": "knowledge and and explanations and right now I mean I think of AIS as tools so they're they're supercharging us but increasingly we're starting to think of these things as agential you know almost as if they have some privileged status is is that is that a transition is it a dimmer switch is it is it just like the light going on suddenly how does that pan out no I I think it's a it's a transition wa that systems like CH GPT and and Cloe and so on they already are agentic to some extent just not as competent as agents and not as competent at planning as humans typically are even when you only even if you get rid of the rhf part just the imitation learning where the way we pre-rain right basically behave as humans would have been behaved at least on texts that's already the agentic because humans are agents so the AI learns to imitate humans in fact most of the agency that we find in current uh chatbots comes from that the rlf is a little bit of uh you know uh reward maximization on top uh to get more agency probably there's going to be more reinforcement learning um but the question is is that desirable",
+    "speaker": "Tim Scarfe",
+    "claim": "Current AI systems are becoming increasingly agentic but are not yet as competent as human agents.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Tim Scarfe",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems are becoming increasingly agentic but are not yet as competent as human agents.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "bilgi ve açıklamalar ve şu anda yapay zekaları araç olarak görüyorum, yani bizi süper şarj ediyorlar ama giderek bu şeyleri ajans sahibi olarak düşünmeye başlıyoruz, sanki ayrıcalıklı bir statüleri varmış gibi, bu bir geçiş mi, bir dimmer anahtarı mı, yoksa sadece ışığın aniden yanması gibi mi? Bu nasıl sonuçlanır? Hayır, bence bu bir geçiş. ChatGPT ve Claude gibi sistemler zaten bir dereceye kadar ajans sahibidir, sadece ajanlar kadar yetkin değiller ve insanlar kadar planlama konusunda yetkin değiller, hatta sadece RHF kısmını çıkarsanız bile, ön eğitimde kullandığımız taklit öğrenme, yani temelde insanların metinlerde davrandığı gibi davranmak, zaten ajans sahibidir çünkü insanlar ajandır, bu yüzden yapay zeka insanları taklit etmeyi öğrenir. Aslında mevcut sohbet robotlarında bulduğumuz ajansın çoğu buradan gelir. RLF, biraz daha fazla ajans elde etmek için üzerine eklenen bir ödül maksimizasyonudur, muhtemelen daha fazla pekiştirmeli öğrenme olacak, ancak soru şu ki, bu arzu edilir mi?"
+  },
+  {
+    "start": 4091.2,
+    "end": 4180.6,
+    "text": "its context so it's thinking about this and thinking about this it gets confused more easily and in a weird way even though we've copied the weights of all of these neuron networks because they've taken different trajectories and then they share the information they I'm just speculating here but it it might not be quite as big of an uplift as we think well um this was an issue 10 years ago it has been solved to the extent that we can put 100,000 gpus on a cluster yeah so I'm not saying that the same recips will work for a million or 10 million but Engineers have found ways that you can paralyze very efficiently at least for training and of course inference is even like easier but in a way solving a task together is more like training because you need to exchange lots of information to be efficient so clearly I don't have the answer to you know is that going to be an obstacle or not I'm just saying the conditions are quite different um the break point of paralyzation might be very different for that reason eventually yeah maybe it becomes an obstacle but but this is so far off our you know Human Experience that it would still be a huge Advantage how responsible do you think the the hypers scalers are you know um Dario for example he he's recently become a bit more of an accelerationist what what what are your kind of perspectives on",
+    "speaker": "Tim Scarfe",
+    "claim": "The uplift from scaling AI may not be as significant as expected, and the challenges of parallelization could be different in the future.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "Scaling AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Tim Scarfe",
+    "is_claim_silver": true,
+    "claim_silver": "The uplift from scaling AI may not be as significant as expected, and the challenges of parallelization could be different in the future.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Scaling AI",
+    "reviewed": false,
+    "text_tr": "kendi bağlamı, bu yüzden bunu düşünürken daha kolay kafası karışıyor ve garip bir şekilde, tüm bu nöron ağlarının ağırlıklarını kopyalamış olsak bile, farklı yörüngeler izledikleri ve sonra bilgiyi paylaştıkları için, burada sadece spekülasyon yapıyorum ama düşündüğümüz kadar büyük bir yükseliş olmayabilir. Şey, bu 10 yıl önce bir sorundu, 100.000 GPU'yu bir kümeye koyabileceğimiz ölçüde çözüldü, evet. Yani aynı tariflerin bir milyon veya 10 milyon için işe yarayacağını söylemiyorum ama mühendisler, en azından eğitim için çok verimli bir şekilde paralelleştirebileceğiniz yollar buldular ve elbette çıkarım daha da kolaydır. Ama bir görevi birlikte çözmek bir bakıma eğitime daha çok benzer çünkü verimli olmak için çok fazla bilgi alışverişi yapmanız gerekir. Bu yüzden bunun bir engel olup olmayacağı konusunda bir cevabım yok, sadece koşulların oldukça farklı olduğunu söylüyorum. Paralelleşmenin kırılma noktası bu nedenle çok farklı olabilir, sonunda evet, belki bir engel haline gelir ama bu bizim insan deneyimimizden o kadar uzak ki yine de büyük bir avantaj olacaktır. Hiper ölçekleyicilerin ne kadar sorumlu olduğunu düşünüyorsunuz, bilirsiniz, örneğin Dario, son zamanlarda biraz daha hızlandırıcı oldu, sizin bu konudaki bakış açınız nedir?"
+  },
+  {
+    "start": 4277.9,
+    "end": 4368.7,
+    "text": "um also for this reason like we need to put together all our resources to move towards AGI while doing it safely so that means we need the capital not just in the US we need capital from other democracies we need the talent from other democracies we need the energy from other democracies um the you know the to run the data centers uh we need the electrical grids that may be you know might not be sufficient in the US so there's a greater chance that we achieve both safety and maintaining sort of democratic Advantage if we if we if we take the right decisions and we work with multiple democracies together I spoke with um Gary Marcus recently and he was saying that the the silic valley companies it's a little bit like you know with cigarettes and social media and so on and that they they're not being sufficiently regulated I mean I give an example in the Lex interview of of Dario he was kind of saying that they have these guidelines around reaching certain threshold of of of intelligence and they of course make those designations themselves now they do loads of loads of great work on the 01 model they had Apollo research doing lots of um safety engineering and so on so they do lots of good stuff but but do you think that they should be regulated yes uh it should be obvious",
+    "speaker": "Yoshua Bengio",
+    "claim": "We need to collaborate with other democracies to ensure safe progress towards AGI.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "We need to collaborate with other democracies to ensure safe progress towards AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "ayrıca bu nedenle, AGI'ye doğru ilerlerken bunu güvenli bir şekilde yapmak için tüm kaynaklarımızı bir araya getirmemiz gerekiyor, bu da sadece ABD'de değil, diğer demokrasilerden de sermayeye ihtiyacımız olduğu anlamına geliyor, diğer demokrasilerden yeteneğe ihtiyacımız var, diğer demokrasilerden enerjiye ihtiyacımız var, yani veri merkezlerini çalıştırmak için, ABD'de yeterli olmayabilecek elektrik şebekelerine ihtiyacımız var, bu yüzden doğru kararları alırsak ve birden fazla demokrasiyle birlikte çalışırsak hem güvenliği sağlamak hem de bir tür demokratik avantajı sürdürmek için daha büyük bir şansımız var. Yakın zamanda Gary Marcus ile konuştum ve Silikon Vadisi şirketlerinin sigara ve sosyal medya gibi olduğunu ve yeterince düzenlenmediğini söylüyordu. Lex röportajında Dario'dan bir örnek verdim, zeka eşiğine ulaşma konusunda belirli yönergeleri olduğunu ve bu belirlemeleri elbette kendilerinin yaptığını söylüyordu. Şimdi 01 modeli üzerinde çok sayıda harika iş yapıyorlar, Apollo araştırması çok sayıda güvenlik mühendisliği vb. yapıyordu, yani çok iyi şeyler yapıyorlar ama düzenlenmeleri gerektiğini düşünüyor musunuz? Evet, bu açık olmalı."
+  },
+  {
+    "start": 4369.3,
+    "end": 4464.3,
+    "text": "like uh we don't want companies to grade their own homework we need EX internal neutral uh evaluations that represent the interest of the public now I think the real question is not you know should we have regulation or not it's what regulation right how do we um make sure we you know we don't stifle these advances and I think there are answers so the general principle is is don't tell the companies how they should do it how they should mitigate risks how you should evaluate risks use transparency as the main tool to obtain uh good behavior let me explain why transparency is so powerful [Music] um first the obvious the companies want to keep a good Public Image at least in in democracies second they don't want to be sued if your you know risk assessment becomes a public document or at least a document that a judge in a court could see because there there's some National Security things but you know uh some things are going to be redacted and some",
+    "speaker": "Yoshua Bengio",
+    "claim": "Regulation should focus on transparency rather than dictating how companies should mitigate risks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Regulation should focus on transparency rather than dictating how companies should mitigate risks.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI regulation",
+    "reviewed": false,
+    "text_tr": "yani, şirketlerin kendi ödevlerini notlandırmasını istemiyoruz, halkın çıkarlarını temsil eden harici, tarafsız değerlendirmelere ihtiyacımız var. Şimdi bence asıl soru, düzenleme yapmalı mıyız yapmamalı mıyız değil, hangi düzenleme, değil mi? Bu ilerlemeleri nasıl engellemeyeceğimizden nasıl emin oluruz ve bence cevaplar var. Genel ilke şudur: şirketlere bunu nasıl yapmaları gerektiğini, riskleri nasıl azaltmaları gerektiğini, riskleri nasıl değerlendirmeleri gerektiğini söylemeyin, iyi davranış elde etmek için ana araç olarak şeffaflığı kullanın. Şeffaflığın neden bu kadar güçlü olduğunu açıklayayım. Birincisi, açık olan şey, şirketler en azından demokrasilerde iyi bir halk imajı sürdürmek isterler. İkincisi, risk değerlendirmeniz halka açık bir belge haline gelirse veya en azından bir mahkemede bir yargıcın görebileceği bir belge haline gelirse dava edilmek istemezler, çünkü bazı ulusal güvenlik konuları var ama bilirsiniz, bazı şeyler sansürlenecek ve bazıları"
+  },
+  {
+    "start": 5827.0,
+    "end": 5922.4,
+    "text": "box is something that requires more of a search type of computation so when we do scientific research there's kind of a search we try this we try that you of course our intuition guides us it's crucial right but it's not like oh we have the solution in one shot is a search like in alago there's a search and there's intuition and right now we haven't reaped the sort of uh benefits from the search part in our current uh like LMS and so on there's this boundary between combinatorial creativity and and inventive creativity I'm not sure whether it's a hard boundary whether it's a vague soft boundary but how could we measure this paradigmatically inventive creativity I don't know um I think I think when we see it we'll recognize it so if the AI actually makes uh true discoveries that nobody thought about I think we'll know we're entering that territory but that's not that's it's not like a a test you can you can do um but but I do think that at a mathematical level we can uh design our methodology so that it will be trying to do that intuition plus search like system one system",
+    "speaker": "Yoshua Bengio",
+    "claim": "Current AI systems have not yet achieved the level of inventive creativity needed for true discoveries.",
+    "stance": "Refute",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems have not yet achieved the level of inventive creativity needed for true discoveries.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "kutu, daha çok arama tipi bir hesaplama gerektiren bir şeydir, bu yüzden bilimsel araştırma yaptığımızda bir tür arama vardır, bunu deneriz, şunu deneriz, elbette sezgimiz bize rehberlik eder, bu çok önemlidir, değil mi? Ama tek seferde çözümü bulduğumuz gibi değil, Alago'da olduğu gibi bir arama ve sezgi vardır ve şu anda mevcut LMS'lerimizde arama kısmından faydaları tam olarak elde edemedik. Kombinatoryal yaratıcılık ile yaratıcı yaratıcılık arasında bir sınır var, bunun katı bir sınır mı yoksa belirsiz, yumuşak bir sınır mı olduğundan emin değilim ama bu paradigmatik olarak yaratıcı yaratıcılığı nasıl ölçebiliriz? Bilmiyorum, sanırım gördüğümüzde tanıyacağız, yani yapay zeka gerçekten kimsenin düşünmediği gerçek keşifler yaparsa, o bölgeye girdiğimizi bileceğiz ama bu yapabileceğiniz bir test gibi değil, ama matematiksel düzeyde metodolojimizi, sezgi artı arama gibi sistem bir sistem"
+  },
+  {
+    "start": 5920.3,
+    "end": 6014.8,
+    "text": "to more um and so I I believe that will deliver but how do we quantify so there is a sense in which scientific discoveries are about finding modes modes meaning like uh highly probable explanations uh for the explanations in the space of explanations for how the world works so there are many possible explanations good ones explain the data well the day when we make a new discovery we discover a new potential explanation that seems to fit the data well um and we can abstract that into like small size problems as mode Discovery in in a jargon of like uh probabilistic uh uh Machinery right so if uh if an AI is trying to uh discover all the good things like all the good explanations uh it's going to be intractable but it might be more efficient at finding new modes that they didn't know and some of the tasks that we can design will be focusing on this ability so I think I think there's a way to answer your question uh and do it even at a small scale like we don't need to solve AGI for this we can design algorithms that will be more creative in their little",
+    "speaker": "Yoshua Bengio",
+    "claim": "AI can be designed to discover new explanations and be creative without needing to achieve AGI.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "AI can be designed to discover new explanations and be creative without needing to achieve AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "daha fazlasına, bu yüzden bunun işe yarayacağına inanıyorum ama nasıl nicelleştireceğiz? Bilimsel keşiflerin, dünyanın nasıl çalıştığına dair açıklamalar alanındaki açıklamalar için yüksek olasılıklı açıklamalar anlamına gelen modları bulmakla ilgili olduğu bir anlam var, yani birçok olası açıklama var, iyi olanlar verileri iyi açıklıyor. Yeni bir keşif yaptığımız gün, verilere iyi uyuyor gibi görünen yeni bir potansiyel açıklama keşfederiz ve bunu, olasılıksal makinelerin jargonunda mod keşfi olarak küçük boyutlu problemlere soyutlayabiliriz, değil mi? Yani, bir yapay zeka tüm iyi şeyleri, yani tüm iyi açıklamaları keşfetmeye çalışıyorsa, bu imkansız olacaktır, ancak bilmedikleri yeni modları bulmada daha verimli olabilir ve tasarlayabileceğimiz bazı görevler bu yeteneğe odaklanacaktır. Bu yüzden sorunuzu cevaplamanın bir yolu olduğunu düşünüyorum ve bunu küçük ölçekte bile yapabiliriz, bunun için AGI'yi çözmemize gerek yok, kendi küçük alanlarında daha yaratıcı olacak algoritmalar tasarlayabiliriz."
   }
 ]

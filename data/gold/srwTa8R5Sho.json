@@ -577,5 +577,173 @@
     "topic_silver": "Geopolitics",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 1761.8,
+    "end": 1866.9,
+    "text": "Um, the vast majority of people just want something cool. They just wanted to build as much as possible, as fast as possible, you know, like scale it up as much as possible. Well, this is not the thing I fundamentally cared about. Uh, you know, it was it's fun to build things. I love building software. I'm a hacker at heart. I love building software. of doing stuff like this. But um yeah, and so ultimately it uh didn't, you know, end up the way I was hoping. I would say I think uh I think we did a lot of cool technical work. I guess I just overestimated how much people would care about the safety aspect versus just scaling and making a lot of money. >> And you have a different view now on open source. >> Yes. Um my >> we should not do open source. I think open source is much more of a double-edged sword than people want to believe. There's a thing where people outside of the open source community, I think, don't realize how crazy the open source community is. And I say this partially with love, partially with hate. Um, I grew up in this community and my good friends are in this community, but it's extremely libertarian. And I mean this is derogatory. I mean this as a slur. Um, it is extremely I give you an example. I remember in the early days um I met some students who were working on a voice cloning AI so it could like take people's voice clone it and they only released it open source and I'm like hey that seems like kind of a bad idea like this will enable a lot of criminals and like you know hurt a lot of people and they were like it's open source it's good >> like that's it like that was the whole reasoning there was no like what are the consequences of me doing this it's just it's open source so it's good So there's this kind of maximalism that everything should be free. Everything should be open no matter the consequences.",
+    "speaker": "Connor Leahy",
+    "claim": "The open source community often overlooks the potential negative consequences of their projects, prioritizing freedom over safety.",
+    "stance": "Refute",
+    "claim_labels": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "Open Source",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "The open source community often overlooks the potential negative consequences of their projects, prioritizing freedom over safety.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Open Source",
+    "reviewed": false
+  },
+  {
+    "start": 2507.1,
+    "end": 2592.8,
+    "text": ">> And that's a very naive point of view. No like um that's definitely you cannot just unplug I don't know internet because if you unplug internet we don't have electricity we don't have flu food uh food supplies. We don't have anything. So basically we cannot get off of internet anymore even if we wanted to as you as you mentioned. So I think all of these it's like getting things very complicated in the timeline. The more we advance the more difficult it is to make a decision because there is way too much backpack to make that decision and then it's just basically taking our freedom to decide. Before we get into that because I think governance and legislation something really important what do you think about meta because meta they've been releasing open source to certain level obviously not fully open source but if there has been a player it's been llama. Lama has been the main open source model that most people has remade. I don't know how many it's been, but it's insane the number. What do you think? Do you think they did good? They did okay. They should not have done that. Why did they do that? >> I don't like speculating about the internals of other people's minds. I don't think it's very productive. Um I we can argue, oh, it was a marketing stunt or it was because they truly believed in no. Ultimately, it doesn't matter. I think really I I don't think it's good that we are proliferating powerful AI technology because of the reason we just described. So look, I've used LMO before. It's like a nice model, right? Like I use Quinn, I I've used DeepSeek before. They're nice models.",
+    "speaker": "Connor Leahy",
+    "claim": "Proliferating powerful AI technology is not good due to the complexities and risks involved.",
+    "stance": "Refute",
+    "claim_labels": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Proliferating powerful AI technology is not good due to the complexities and risks involved.",
+    "claim_labels_silver": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 2694.4,
+    "end": 2759.2,
+    "text": "They're just trying to get reelected and they are just making decisions based on [ __ ] that they've been told and we seeing that everywhere in the world and I don't know if it's better that they decide than Mark Zuckerberg decides when Mark Zuckerberg not has a much more knowledge than Ursula Bonder or whatever other on the matter you know like at the end of the day I understand that the government has to react and they have to decide what to do and as we said if you go private companies it's easier to handle them because you can just trust them and then otherwise sue them. But at the end of the day, um the problem we have is on on governance. We have a problem on how we making decisions. Why the hell we don't have a committee about AI safety like we had about nuclear where scientists were part of it to make decisions of what can be done and what cannot be done. So why do you think it's that? Is there like economical interest or >> So, um there's three things I would like to talk about and kind of like a little bit before we dive fully into the politician because I think this is a really important one.",
+    "speaker": "Connor Leahy",
+    "claim": "There should be a committee on AI safety similar to the one for nuclear safety, involving scientists in decision-making.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "There should be a committee on AI safety similar to the one for nuclear safety, involving scientists in decision-making.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI governance",
+    "reviewed": false
+  },
+  {
+    "start": 3235.3,
+    "end": 3379.8,
+    "text": ">> This is insane. >> This is like but like let's take a step back. Like this is actually insane. Like these people should be making the top dollars >> because we want the best players. >> We want the be like of course I want the best person in the world to be my president. Are you kidding me? like or the prime minister whatever they should be making the highest salary like of course they should they're so important we need the best people doing this and so like an example of this is a counter example of this is Singapore in Singapore government jobs are benchmarked against the private sector this is such an obvious thing to do so if you work for the government you can make as much money as if you worked at a top private sector position >> which gives you the incentive to be playing there and not in the private sector >> exactly so like in Singapore it's like I I talked to anyone in the government in Singapore and They're so competent. Like it's incredible. Like I I go I go to any meeting with the Singaporean government and like everyone in the room has like a Cambridge or Oxford or MIT education and it's like super competent, takes notes, you know, acts immediately and things get done. And I the first time I saw this I was like I was so shocked and because like in the west we weren't even used to this. We're so used to our politicians being underpaid, you know, not not qualified, etc. And it doesn't have to be this way. It doesn't have to be this way. But it and it didn't used to be this way like say in America in the 1950s it was very common for very you know very competent people to go into government or even for like you know famous scientists to do a stint in the government like it was just a normal thing you kind of did you know you would kind of like you know contribute back to your society you're you're the best scientist whatever well then you run for office for a while because you know you want to you know contribute your intelligence to the you know the gang of your civilization. So the problem is much deeper. So there's a very there's a thing that I think happens a lot where it's very tempting to point to the individual people like oh this politician he's an idiot I hate this guy and like maybe he is right like many of them are idiots right but like many of them are doing the best they can in an extremely shitty situation and it's very very very hard to get good talent in these situations. What's happened is is that these private companies and tech companies and so on have now optimized to suck all of the talent out of everything else which is like it's the people working at meta these people should be working in the government like if we were a good civilization half of the people that are getting you know $10 million a year at Meta should be getting $10 million working at the government to make the United States a better place.",
+    "speaker": "Connor Leahy",
+    "claim": "Government jobs should offer competitive salaries to attract top talent, similar to private sector benchmarks.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_economics",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": true,
+    "claim_silver": "Government jobs should offer competitive salaries to attract top talent, similar to private sector benchmarks.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI economics",
+    "reviewed": false
+  },
+  {
+    "start": 3378.6,
+    "end": 3446.7,
+    "text": "They should be running all the best programs. They should be doing making the best laws. They should be because they are extremely competent people. Of course they are. You know, if you're making $10 million metag, you know, or or woman, of course. Like, of course you are, right? If you're working at a hedge fund and you're making a billion dollars, whatever, right? Like, of course, you're a competent person. These are the people we should want also in our government. >> Running a counter. >> Yes. But it like what is more important than running the country? Like this is such like the amount of money, the amount of power that is being put into the hands of people who are just underresourced, understaffed, underappreciated. is like like of course everything's going to fall apart like what else is supposed to happen like our most competent in a good world if we actually allocated resources effectively the most wellstaffed highest status job should be the government cuz like what is a bigger what is a bigger entity than the US government for example even nothing like this is the most important job in the world this should be the highest thing but it's not and I think a lot of this is downstream of the kind of adversariality we're talking about is that many people would like the government to not be powerful.",
+    "speaker": "Connor Leahy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "government competence",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "government competence",
+    "reviewed": false
+  },
+  {
+    "start": 6836.4,
+    "end": 6931.2,
+    "text": ">> Yeah. It's like we're a teeny organization with like and we're, you know, half as big a year ago, right? We were like, you know, seven people or something a year ago and you know with like much less money than any of these organization and still we can do this much and I think the reason is this is to the large degree is that it's very very expensive to lobby someone into doing something against their interests. It's very very it's much harder to lie to someone than it is to say the truth just tell the truth. >> Do you guys propose a cards of action as well like when they sign into it or it's just like trying to give them the information and then do something with this or you propose them what they should do? >> We also do a lot of this as well. Um so our primary focus is kind of the first phase is building coalition, building understanding, building groups and as we push forward towards we have concrete suggestions for how you could implement these various things for what needs to be done. A lot of this kind of the stuff we've talked about like you know the circle you need to like if you can't prove it tough luck you know multilateral um engagement you know between different countries. For example something that we strongly support is what's called a conditional uh agreement. What it means is the treatment if you sign it to like you know regulate ASI you don't have to do it until others have also signed until like a certain threshold of like for example USA signs it but only binding of China signs it or vice versa so there's no downside to signing it >> right >> so this is already solves many of the game >> many of the many of the game theory problems are solved by this where you can just do this unilaterally and it doesn't hurt you and if both do it great you know then everyone has a good outcome >> Twitter much. No, >> it's no problem saying you Twitter.",
+    "speaker": "Connor Leahy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Connor Leahy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI safety",
+    "reviewed": false
   }
 ]

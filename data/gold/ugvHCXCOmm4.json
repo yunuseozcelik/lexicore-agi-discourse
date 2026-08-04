@@ -562,5 +562,269 @@
     "topic_silver": "Neural Networks",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 528.0,
+    "end": 599.7,
+    "text": "- A bit of a philosophical question, but what's your intuition\nabout why bigger is better in terms of network size and data size? Why does it lead to\nmore intelligent models? - So in my previous\ncareer as a biophysicist, so I did physics undergrad and then biophysics in grad school. So I think back to what\nI know as a physicist, which is actually much less than what some of my colleagues at Anthropic have in terms\nof expertise in physics. There's this concept called the 1/f noise and 1/x distributions\nwhere often, you know, just like if you add up a bunch of natural processes, you get a Gaussian. If you add up a bunch of kind of differently\ndistributed natural processes, if you like take a probe and hook it up to a resistor, the distribution of the thermal noise in the resistor goes as\none over the frequency. It's some kind of natural\nconvergent distribution. And I think what it amounts to is that if you look at a lot of things that are produced by some natural process that has a lot of different scales, right?",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 733.2,
+    "end": 800.8,
+    "text": "And so these rarer and more complex patterns get picked up as I add more capacity to the network. - Well, the natural question then is, what's the ceiling of this? - Yeah.\n- Like how complicated and complex is the real world? How much stuff is there to learn? - I don't think any of us knows\nthe answer to that question. My strong instinct would be that there's no ceiling below\nthe level of humans, right? We humans are able to understand\nthese various patterns, and so that makes me think\nthat if we continue to, you know, scale up these models to kind of develop new\nmethods for training them and scaling them up, that\nwill at least get to the level that we've gotten to with humans. There's then a question of, you know, how much more is it possible\nto understand than humans do? How much is it possible to be smarter and more perceptive than humans? I would guess the answer has\ngot to be domain dependent. If I look at an area like biology, and, you know, I wrote this essay, \"Machines of Loving Grace.\" It seems to me that humans are struggling to understand the complexity\nof biology, right?",
+    "speaker": "Dario Amodei",
+    "claim": "Scaling up AI models could potentially lead to capabilities that match or exceed human understanding, particularly in complex domains like biology.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Scaling up AI models could potentially lead to capabilities that match or exceed human understanding, particularly in complex domains like biology.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 3546.1,
+    "end": 3619.7,
+    "text": "So if I were to back up a little bit, I think we have an interesting dilemma with AI systems where they're\nnot yet powerful enough to present these catastrophes. I don't know that they'll ever\nprevent these catastrophes, it's possible they won't,\nbut the case for worry, the case for risk is strong enough that we should act now. And they're getting better\nvery, very fast, right? You know, I testified in the Senate that, you know, we might have serious bio risks within two to three years. That was about a year ago. Things have proceeded at pace. So we have this thing where it's like, it's surprisingly hard\nto address these risks because they're not here today. They don't exist. They're like ghosts, but\nthey're coming at us so fast because the models are improving so fast. So how do you deal with\nsomething that's not here today, doesn't exist but is\ncoming at us very fast? So the solution we came up with for that in collaboration with, you know, people like the organization METR and Paul Christiano is, okay, what you need for that are you need tests to tell you when the\nrisk is getting close.",
+    "speaker": "Dario Amodei",
+    "claim": "AI systems are improving rapidly, and while they may not yet present catastrophic risks, we should act now due to the strong case for concern.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems are improving rapidly, and while they may not yet present catastrophic risks, we should act now due to the strong case for concern.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 7240.5,
+    "end": 7306.6,
+    "text": "And I think I imagine, because look, you have all\nthese investors, all these VCs, all these AI companies talking about all the positive benefits of AI. But as you point out, it's weird, there's actually a dearth of really getting specific about it. There's a lot of like\nrandom people on Twitter like posting these kind\nof like gleaning cities, and this just kind of\nlike vibe of like grind, accelerate harder, like\nkick out the, you know, it's just this very like\naggressive ideological. But then you're like, well, what are you actually excited about? And so I figured that, you know, I think it would be\ninteresting and valuable for someone who's actually coming from the risk side to try, and to try and really\nmake a try at explaining what the benefits are, both because I think it's\nsomething we can all get behind and I want people to understand. I want them to really understand that this isn't doomers versus accelerationist.",
+    "speaker": "Dario Amodei",
+    "claim": "There is a lack of specific discussion about the positive benefits of AI despite widespread optimism.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI benefits",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "There is a lack of specific discussion about the positive benefits of AI despite widespread optimism.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI benefits",
+    "reviewed": false
+  },
+  {
+    "start": 7447.6,
+    "end": 7512.0,
+    "text": "So, okay, that's just intelligence. So it's both in creativity and be able to generate new ideas, all that kind of stuff, in every discipline, Nobel Prize winner, okay, in their prime. (laughs) It can use every modality, so that's kind of self-explanatory, but just to operate across all\nthe modalities of the world. It can go off for many hours,\ndays and weeks to do tasks, and do its own sort of detailed planning and only ask you help when it's needed. It can use, this is\nactually kind of interesting because I think in the essay you said, I mean, again, it's a bet, that\nit's not gonna be embodied, but it can control embodied tools. So it can control tools,\nrobots, laboratory equipment. The resources used to train\nit can then be repurposed to run millions of copies of it. And each of those copies\nwould be independent, they could do their own independent work. So you can do the cloning of the intelligence system software. - Yeah, yeah, I mean, you might imagine from outside the field that like, there's only one of these, right? That like, you made it,\nyou've only made one. But the truth is that like,\nthe scale up is very quick.",
+    "speaker": "Dario Amodei",
+    "claim": "AGI can operate across multiple modalities and can independently perform tasks, suggesting rapid scaling of intelligence systems.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "AGI can operate across multiple modalities and can independently perform tasks, suggesting rapid scaling of intelligence systems.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 9199.7,
+    "end": 9268.0,
+    "text": "So this logic of comparative advantage that expands tiny parts of the tasks to large parts of the tasks and creates new tasks in\norder to expand productivity, I think that's going to be the case. Again, someday AI will\nbe better at everything in that logic won't apply, and then we all have, you\nknow, humanity will have to think about how to\ncollectively deal with that, and we're thinking about that every day. And you know, that's another one of the grand problems to deal with, aside from misuse and autonomy and, you know, we should\ntake it very seriously. But I think in the near term, and maybe even in the medium\nterm, like medium term, like 2, 3, 4 years, you\nknow, I expect that humans will continue to have a huge role and the nature of programming will change, but programming as a role, programming as a job will not change. It'll just be less writing\nthings line by line and it'll be more macroscopic. - And I wonder what the\nfuture of IDs looks like. So the tooling of\ninteracting with AI systems, this is true for programming and also probably true\nfor in other contexts, like computer use, but\nmaybe domain specific, like we mentioned biology, it probably needs its own tooling\nabout how to be effective, and then programming\nneeds its own tooling.",
+    "speaker": "Dario Amodei",
+    "claim": "In the near to medium term, humans will continue to play a significant role in programming, despite AI advancements.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI role in programming",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "In the near to medium term, humans will continue to play a significant role in programming, despite AI advancements.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline",
+      "execution_engineering",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI role in programming",
+    "reviewed": false
+  },
+  {
+    "start": 14459.2,
+    "end": 14529.8,
+    "text": "It might not be that\ncostly to have Claude, you know, just like\nnot take abuse as much, like not be willing to be\nlike the recipient of that. In fact, it might just have benefits for both the person\ninteracting with the model and if the model itself\nis like, I don't know, like extremely intelligent and conscious, it also helps it. So that's my hope. If we live in a world where there aren't that many trade-offs\nhere and we can just find all of the kind of like\npositive sum interactions that we can have, that would be lovely. I mean, I think eventually\nthere might be trade-offs and then we just have to do a difficult kind of like calculation. Like it's really easy for people to think of the zero sum cases and I'm\nlike, let's exhaust the areas where it's just basically\ncostless to assume that if this thing is suffering then we're making its life better. - And I agree with you, when a human is being\nmean to an AI system, I think the obvious near\nterm negative effect is on the human, not on the AI system. And so we have to kind of try to construct an incentive system where you\nshould be behave the same, just like as you were saying with prompt engineering, behave with Claude like you\nwould with other humans.",
+    "speaker": "Dario Amodei",
+    "claim": "Interacting positively with AI models can benefit both humans and the AI itself, suggesting a hopeful outlook on AI interactions.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI interactions",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": true,
+    "claim_silver": "Interacting positively with AI models can benefit both humans and the AI itself, suggesting a hopeful outlook on AI interactions.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI interactions",
+    "reviewed": false
+  },
+  {
+    "start": 18464.1,
+    "end": 18530.2,
+    "text": "Can we get up from this\nvery microscopic approach? - Yeah, you've written about\nthis kind of organs question. - Yeah, exactly.\n- So if we think of interpretability as a kind\nof anatomy of neural networks, most of the circuits threads involve studying tiny little veins, looking at the small scale at individual neurons\nand how they connect. However, there are many natural questions that the small scale\napproach doesn't address. In contrast, the most\nprominent abstractions in biological anatomy involve\nlarger scale structures, like individual organs, like the heart, or entire organ systems,\nlike the respiratory system. And so we wonder, is there a\nrespiratory system or heart or brain region of an\nartificial neural network? - Yeah, exactly. And I mean, like if you\nthink about science, right? A lot of scientific fields have, you know, investigate things at many\nlevels of abstractions. In biology you have like, you know, molecular biology studying, you know, proteins and molecules and so on. And they have cellular biology, and then you have\nhistology studying tissues, and you have anatomy, and\nthen you have zoology, and then you have ecology.",
+    "speaker": "Dario Amodei",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI interpretability",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Dario Amodei",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI interpretability",
+    "reviewed": false
+  },
+  {
+    "start": 18810.0,
+    "end": 18876.1,
+    "text": "- It feels to me like one of the questions that's just calling out to be asked, and I'm sort of, I mean, a lot of people are thinking about this,\nbut I'm often surprised that not more are is, how is it that we don't know how to\ncreate computer systems that can do these things, and yet we have these amazing systems that we don't know how to\ndirectly create computer programs that can do these things, but these neural networks can\ndo all these amazing things? And it just feels like that\nis obviously the question that sort of is calling out\nto be answered if you are, if you have any degree of curiosity. It's like how is it that\nhumanity now has these artifacts that can do these things\nthat we don't know how to do? - Yeah, I love the image of the circuits reaching towards the light of the objective function. - Yeah, it's just, it's this organic thing that we've grown and we have\nno idea what we've grown. Well, thank you for working on safety and thank you for appreciating the beauty of the things you discover. And thank you for talking today, Chris. This was wonderful.\n- Yeah. Thank you for taking the\ntime to chat as well. - Thanks for listening to this\nconversation with Chris Olah, and before that with Dario\nAmodei and Amanda Askell. To support this podcast, please check out our\nsponsors in the description.",
+    "speaker": "Lex Fridman",
+    "claim": "We have advanced AI systems that perform tasks we don't fully understand how to create.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "We have advanced AI systems that perform tasks we don't fully understand how to create.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false
   }
 ]

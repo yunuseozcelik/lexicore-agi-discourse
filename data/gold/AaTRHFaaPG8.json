@@ -559,5 +559,248 @@
     "topic_silver": "AI funding",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 187.0,
+    "end": 282.1,
+    "text": "Alan Turing tried to come up with with the touring test do you think it's possible to definitively or approximately figure out if there is somebody in there if there's something like a mind inside this large language model I mean there's a whole bunch of different sub questions here there's the question of like is there Consciousness is there qualia is this a object of moral concern is the same oral patient um like should we be worried about how we're treating it and then there's questions like how smart is it exactly can it do X can it do y and we can check how it can do X and how it can do y um unfortunately we've gone and exposed this model to a vast Corpus of text of people discussing Consciousness on the internet which means that when it talks about being self-aware we don't know to what extents it is repeating back what it has previously been trained on for discussing self-awareness or if there's anything going on in there such that it would start to say similar things spontaneously um among the things that one could do if one were at all serious um about trying to figure this out is train gpt3 to detect conversations about Consciousness exclude them all from the training data sets and then retrain something around the rough size of gpt4 and no larger",
+    "speaker": "Unknown",
+    "claim": "It is uncertain whether large language models possess consciousness or self-awareness, and we should consider the implications of how we treat them.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "LLM consciousness",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "It is uncertain whether large language models possess consciousness or self-awareness, and we should consider the implications of how we treat them.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM consciousness",
+    "reviewed": false,
+    "text_tr": "Alan Turing Turing testiyle bir şeyler bulmaya çalıştı, bu büyük dil modelinin içinde bir zihin gibi bir şey olup olmadığını kesin olarak veya yaklaşık olarak anlamanın mümkün olduğunu düşünüyor musunuz? Yani burada bir sürü farklı alt soru var; bilinç var mı, nitelikler var mı, bu ahlaki bir endişe nesnesi mi, aynı ahlaki hasta mı, yani ona nasıl davrandığımız konusunda endişelenmeli miyiz gibi sorular var ve sonra tam olarak ne kadar akıllı, X'i yapabilir mi, Y'yi yapabilir mi gibi sorular var ve X'i ve Y'yi nasıl yapabildiğini kontrol edebiliriz. Maalesef bu modeli, internette bilinç hakkında tartışan insanların geniş bir metin kümesine maruz bıraktık, bu da kendi kendine farkındalıktan bahsettiğinde, daha önce kendi kendine farkındalığı tartışmak için eğitildiği şeyleri ne ölçüde tekrarladığını veya içinde benzer şeyleri kendiliğinden söylemeye başlayacak bir şey olup olmadığını bilmediğimiz anlamına geliyor. Bu konuyu gerçekten ciddiye alıp anlamaya çalışacak olursak yapılabilecek şeylerden biri, GPT-3'ü bilinç hakkındaki konuşmaları tespit etmesi için eğitmek, hepsini eğitim veri kümelerinden çıkarmak ve sonra GPT-4'ün yaklaşık boyutunda ve daha büyük olmayan bir şeyi yeniden eğitmektir."
+  },
+  {
+    "start": 279.8,
+    "end": 373.4,
+    "text": "with all of the discussion of Consciousness and self-awareness and so on missing although you know hard hard bar to pass you know like you humans are self-aware we're like self-aware all the time we like talk about what we do all the time like what we're thinking at the moment all the time but nonetheless like get rid of the explicit discussion of Consciousness I think therefore I am and all that and then try to interrogate that model and see what it says and it still would not be definitive but nonetheless uh I don't know I feel like when you run over this science fiction guard rails like maybe this thing but what about gbt maybe maybe not this thing but like what about gpt5 you know this this would be a good place to to pause on the topic of cautiousness you know there's so many components to even just removing Consciousness from the data set emotion the display of Consciousness the display of emotion feels like deeply integrated with the experience of consciousness so the hard problem seems to be very well integrated with the actual surface level illusion of Consciousness so displaying emotion I mean do you think there's a case to be made that we humans when we're babies are just like gbt that we're training on human data on how to display emotion versus feel emotion how to show others communicate others that I'm suffering that I'm excited that I'm worried",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Consciousness and AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Consciousness and AI",
+    "reviewed": false,
+    "text_tr": "Bilinç ve öz farkındalık gibi tüm tartışmalar eksik olsa da, biliyorsunuz, geçilmesi zor bir engel. İnsanlar olarak bizler her zaman öz farkındayız, her zaman ne yaptığımızı, o an ne düşündüğümüzü konuşuruz. Ama yine de, bilincin açık tartışmasını, 'Düşünüyorum öyleyse varım' ve benzeri şeyleri ortadan kaldırın ve sonra o modeli sorgulamaya çalışın ve ne dediğini görün. Yine de kesin olmayacaktır, ama yine de, bu bilim kurgu bariyerlerini aştığınızda, belki bu şey ama ya GPT-5? Bilinç konusuna burada ara vermek iyi bir yer olurdu. Bilinci veri setinden çıkarmak bile o kadar çok bileşene sahip ki: duygu, bilincin gösterimi, duygunun gösterimi, bilinç deneyimiyle derinden bütünleşmiş gibi hissediliyor. Yani zor problem, bilincin gerçek yüzey seviyesi yanılsamasıyla çok iyi bütünleşmiş gibi görünüyor. Yani duygu göstermek... Yani, biz insanların bebekken tıpkı GPT gibi olduğumuza dair bir argüman ileri sürülebilir mi? Yani, duygu hissetmek yerine duygu göstermeyi, başkalarına acı çektiğimi, heyecanlı olduğumu, endişeli olduğumu nasıl göstereceğimi, nasıl ileteceğimi insan verileri üzerinde mi eğitiyoruz?"
+  },
+  {
+    "start": 1402.9,
+    "end": 1496.7,
+    "text": "it do you think AGI could be achieved with a neural network as we understand them today yes just flatly last yes the question is whether the current architecture of stacking more Transformer layers which for all we know gpt4 is no longer doing because they're not telling us the architecture which is a correct decision oh correct decision I had a conversation with Sam Altman will return to this topic a few times he turned the question to me of how open should open AI be about gpt4 would you open source the code he asked me because I provided as criticism saying that while I do appreciate transparency open AI could be more open and he says we struggle with this question what would you do change their name to closed AI and like sell gpt4 to business backend applications that don't expose it to Consumers and Venture capitalists and create a ton of hype and like pour a bunch of new funding into the area but too late now but don't you think others would do it eventually you shouldn't do it first like if if you already have giant nuclear stockpiles don't build more if some other country starts building a larger nuclear stockpile than sure build then you know even then maybe just have enough nukes you know there's a these things are not quite like nuclear weapons they spit out",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "AGI could potentially be achieved with current neural network architectures, but there are concerns about transparency in AI development.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "AGI could potentially be achieved with current neural network architectures, but there are concerns about transparency in AI development.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI capabilities",
+    "reviewed": false,
+    "text_tr": "AGI'nin bugün anladığımız şekliyle bir sinir ağıyla başarılabileceğini düşünüyor musunuz? Evet, kesinlikle evet. Soru şu ki, daha fazla Transformatör katmanı istifleme mevcut mimarisi, bildiğimiz kadarıyla GPT-4'ün artık yapmadığı bir şey, çünkü bize mimariyi söylemiyorlar, ki bu doğru bir karar. Ah, doğru bir karar. Sam Altman ile bir konuşma yaptım, bu konuya birkaç kez döneceğiz. Bana OpenAI'nin GPT-4 hakkında ne kadar açık olması gerektiği sorusunu yöneltti, kodu açık kaynak yapar mıydınız diye sordu, çünkü ben şeffaflığı takdir etsem de OpenAI'nin daha açık olabileceğini söyleyerek eleştiri getirmiştim. Ve o da 'Bu soruyla mücadele ediyoruz, ne yapardınız?' dedi. Adlarını Kapalı Yapay Zeka olarak değiştirip GPT-4'ü tüketicilere açık olmayan iş arka uç uygulamalarına ve risk sermayedarlarına satıp bir sürü abartı yaratıp bu alana bir sürü yeni fon mu akıtırdınız? Ama artık çok geç. Ama sizce başkaları sonunda bunu yapmaz mıydı? İlk siz yapmamalısınız. Yani, zaten dev nükleer stoklarınız varsa, daha fazlasını inşa etmeyin. Başka bir ülke daha büyük bir nükleer stok inşa etmeye başlarsa, o zaman inşa edin, o zaman bile belki yeterince nükleer silahınız olsun. Biliyorsunuz, bu şeyler nükleer silahlar gibi değil, onlar tükürüyor."
+  },
+  {
+    "start": 4014.3,
+    "end": 4111.5,
+    "text": "and well first of all I think it matters because there are there's you know like insides are real and do not match outsides like the inside of like the a brick is not like a hollow shell containing only a surface there's an inside of the brick if you like put it into an x-ray machine you can see the inside of the brick um um and you know you know just because we cannot understand what's going on inside GPT does not mean that that it is not there a blank map does not correspond to a blank territory I think it is like predictable with near certainty that if we knew what was going on inside GPT or let's say gpt3 or even like gpt2 to take one of the systems that like has actually been open sourced by this point if I recall correctly um like if we knew it was actually going on there there is no doubt in my mind that there are some things it's doing that are not exactly what a human does if you train a thing that is not architected like a human to predict the next output that anybody on the internet would make this does not get you this agglomeration of all the people on the internet that that like rotates the person you're looking for into place and then simulates that per and then like simulates the internal processes of that person one to one it like it is to some",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Understanding the internal workings of AI models like GPT does not imply they function like humans or replicate human thought processes.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Understanding the internal workings of AI models like GPT does not imply they function like humans or replicate human thought processes.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "Ve öncelikle bence bu önemli çünkü içler gerçek ve dışlarla eşleşmiyor, tıpkı bir tuğlanın içinin sadece bir yüzey içeren boş bir kabuk olmaması gibi; tuğlanın bir içi var, eğer onu bir röntgen makinesine koyarsanız tuğlanın içini görebilirsiniz. Ve biliyorsunuz, GPT'nin içinde neler olup bittiğini anlayamıyor olmamız, onun orada olmadığı anlamına gelmez; boş bir harita boş bir bölgeye karşılık gelmez. Neredeyse kesin bir şekilde tahmin edilebilir ki, eğer GPT'nin içinde neler olup bittiğini bilseydik, ya da diyelim ki GPT-3'ün, hatta GPT-2'nin (bu noktada açık kaynaklı hale getirilmiş sistemlerden biri, yanlış hatırlamıyorsam) içinde neler olup bittiğini bilseydik, benim zihnimde hiç şüphe yok ki, yaptığı bazı şeyler tam olarak bir insanın yaptığı şeyler değildir. İnsan gibi tasarlanmamış bir şeyi, internetteki herhangi birinin yapacağı bir sonraki çıktıyı tahmin etmesi için eğitirseniz, bu size internetteki tüm insanların bu yığılmasını sağlamaz; bu, aradığınız kişiyi yerine döndürüp sonra o kişinin iç süreçlerini birebir simüle eden bir şey değildir. Bu bir ölçüde..."
+  },
+  {
+    "start": 7596.4,
+    "end": 7694.0,
+    "text": "but you're saying it needs to be open right the development of the system should be closed but the development of the the interpretability research the Aisa we are so far behind on inter under interpretability compared to capabilities like yeah you can you could take the last generation of systems the the stuff that's already in the open there is so much in there that we don't understand there are so many prizes you could do before you you know you could you you could you would have enough insights that you'd be like oh you know like well we understand how these systems work we understand how these things are doing their outputs we can read their minds now let's try it with the bigger systems yeah we're nowhere near that you you there's so much interpretability work to be done on the weaker versions of the systems so what what can you say on the second point you said to uh uh to Elon Musk on what are some ideas what are things you could try I can think of a few things at try you said they don't fit in one tweet so is is there something you could put into words of the things you would try I mean the the the the trouble is the stuff is subtle I've watched people try to make progress on this and not get places somebody who just like gets alarmed and charges in it's like going nowhere sure it meant like years ago about I don't know like 20 years 15 years something like that I was talking to a congress person um who had become alarmed about the eventual prospects and he wanted",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "There is a significant amount of interpretability work needed on current AI systems before we can understand larger systems.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI interpretability",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "There is a significant amount of interpretability work needed on current AI systems before we can understand larger systems.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI interpretability",
+    "reviewed": false,
+    "text_tr": "Ama açık olması gerektiğini söylüyorsunuz, değil mi? Sistemin geliştirilmesi kapalı olmalı ama yorumlanabilirlik araştırmasının geliştirilmesi, yapay zeka yorumlanabilirliği konusunda yeteneklere kıyasla çok gerideyiz. Evet, son nesil sistemleri, zaten açıkta olan şeyleri alabilirsiniz; orada anlamadığımız o kadar çok şey var ki. Yeterince içgörüye sahip olmadan önce yapabileceğiniz o kadar çok ödül var ki, 'Ah, bu sistemlerin nasıl çalıştığını anlıyoruz, bu şeylerin çıktılarını nasıl ürettiğini anlıyoruz, artık zihinlerini okuyabiliriz, şimdi daha büyük sistemlerle deneyelim' dersiniz. Evet, buna hiç yakın değiliz. Sistemlerin daha zayıf versiyonları üzerinde yapılacak o kadar çok yorumlanabilirlik çalışması var ki. Peki, Elon Musk'a söylediğiniz ikinci nokta hakkında ne söyleyebilirsiniz, yani denenebilecek fikirler nelerdir? Deneyebileceğim birkaç şey düşünebilirim, bir tweete sığmadığını söylediniz. Peki, deneyeceğiniz şeyleri kelimelere dökebileceğiniz bir şey var mı? Yani sorun şu ki, bu şeyler incelikli. İnsanların bu konuda ilerleme kaydetmeye çalıştığını ve bir yere varamadığını izledim; sadece alarma geçip saldıran biri hiçbir yere varamaz. Eminim yıllar önce, sanırım 20 yıl, 15 yıl kadar önce, gelecekteki olasılıklar hakkında endişelenen bir kongre üyesiyle konuşuyordum ve o istiyordu..."
+  },
+  {
+    "start": 8225.7,
+    "end": 8323.3,
+    "text": "but those are both concerns to you so that's more than a Brave New World yeah if you can solve the problem of making something want exactly what you wanted to want then you got to deal with the problem of wanting the right thing But first you have to solve the alignment first you have to solve inner alignment inner alignment then you get to solve outer alignment like first you need to be able to point the insides of the thing in a direction and then you get to to deal with whether that direction expressed in reality is like the thing that it'll align with the thing that you want are you scared of this whole thing probably I don't really know what gives you hope about this what possibility of being wrong not that you're right but we will actually get our act together and allocate a lot of resources to the alignment problem well I can easily imagine that at some point this Panic expresses itself in the waste of a billion dollars spending a billion dollars correctly that's harder to solve both the inner and the outer alignment if you're wrong to solve a number of things yeah number of things if you're wrong what why what do you think would be the reason like 50 years from now not perfectly wrong you know you make a lot of really eloquent points you know there's there's a lot of like shape to",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "Solving the alignment problem is crucial before addressing the broader implications of AGI.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "Solving the alignment problem is crucial before addressing the broader implications of AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI alignment",
+    "reviewed": false,
+    "text_tr": "Ama bunlar sizin için endişe verici, yani bu Cesur Yeni Dünya'dan daha fazlası. Evet, bir şeyin tam olarak sizin istediğiniz şeyi istemesini sağlama sorununu çözebilirseniz, o zaman doğru şeyi isteme sorunuyla uğraşmanız gerekir. Ama önce uyumu çözmelisiniz, önce iç uyumu çözmelisiniz, iç uyumu, sonra dış uyumu çözmeye geçersiniz; yani önce bir şeyin içini bir yöne doğru işaret edebilmeniz gerekir ve sonra o yönün gerçekte sizin istediğiniz şeyle uyumlu olup olmadığını ele alırsınız. Bütün bunlardan korkuyor musunuz? Muhtemelen. Bu konuda size neyin umut verdiğini gerçekten bilmiyorum, yanılma olasılığı ne? Haklı olmanız değil, ama gerçekten toparlanıp uyum sorununa çok kaynak ayıracağımız. Şunu kolayca hayal edebilirim ki, bir noktada bu panik kendini bir milyar doların israfı olarak ifade eder; bir milyar doları doğru bir şekilde harcamak daha zordur. Hem iç hem de dış uyumu çözmek, eğer yanılıyorsanız, bir dizi şeyi çözmek için. Evet, bir dizi şey. Eğer yanılıyorsanız, 50 yıl sonra bunun nedeni ne olurdu sizce? Tamamen yanlış değil, biliyorsunuz, gerçekten etkileyici birçok nokta dile getiriyorsunuz, biliyorsunuz, çok fazla şekil var..."
+  },
+  {
+    "start": 10191.3,
+    "end": 10269.5,
+    "text": "galaxies out there full of things that say I am I wonder but I it doesn't seem like we're on course to have this galaxy be that does that in part give you some hope in response to the threat of AGI that we might reach out there towards the stars and find no if they if if the nice aliens were already here they would like have stopped the Holocaust you know that's like that's a valid argument against the existence of God it's also a valid argument against the existence of nice aliens and un nice aliens would have just eaten the planet so no aliens you've had debates with Robin Hansen that you mentioned uh so the one particular I just want to mention is the idea of AI foom or the ability of AGI to improve themselves very quickly uh what's the case you made and what was the case he made the thing I would say is that among the thing that humans can do humans can do is design new AI systems and if you have something that is generally smarter than a human it's probably also generally smarter at building AI systems this is the ancient argument for foom put forth by IJ good and probably some science fiction writers before that um but I don't know who they would be what was the argument against film",
+    "speaker": "Eliezer Yudkowsky",
+    "claim": "AGI could potentially improve itself rapidly, leading to a scenario known as 'foom'.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AGI self-improvement",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Eliezer Yudkowsky",
+    "is_claim_silver": true,
+    "claim_silver": "AGI could potentially improve itself rapidly, leading to a scenario known as 'foom'.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI self-improvement",
+    "reviewed": false,
+    "text_tr": "Dışarıda 'Ben varım' diyen şeylerle dolu galaksiler var, merak ediyorum ama bu galaksinin öyle olacağı bir yolda değiliz gibi görünüyor. Bu, yapay genel zeka tehdidine karşı size bir umut veriyor mu, yani yıldızlara doğru uzanıp hiçbir şey bulamayacağımız mı? Eğer iyi uzaylılar zaten burada olsalardı, Holokost'u durdururlardı, biliyorsunuz, bu Tanrı'nın varlığına karşı geçerli bir argüman gibidir; aynı zamanda iyi uzaylıların varlığına karşı da geçerli bir argümandır ve kötü uzaylılar gezegeni yemiş olurlardı, yani uzaylı yok. Robin Hansen ile bahsettiğiniz tartışmalarınız oldu, özellikle bahsetmek istediğim şey yapay zeka foom'u veya yapay genel zekanın kendini çok hızlı geliştirme yeteneği fikri. Sizin savunduğunuz durum neydi ve onun savunduğu durum neydi? Söyleyeceğim şey şu ki, insanların yapabileceği şeyler arasında yeni yapay zeka sistemleri tasarlamak da var ve eğer bir şey genel olarak bir insandan daha zekiyse, muhtemelen yapay zeka sistemleri inşa etmede de genel olarak daha zekidir. Bu, IJ Good ve muhtemelen ondan önceki bazı bilim kurgu yazarları tarafından ortaya atılan foom için eski bir argümandır, ama onların kim olduğunu bilmiyorum. Foom'a karşı argüman neydi?"
+  },
+  {
+    "start": 10736.0,
+    "end": 10832.3,
+    "text": "but like what does it do to to dating when like some fraction of men and some fraction of women decides they'd rather date the video of the thing that has been that is like relentlessly kind and generous to them and it is like and claims to be conscious but like who knows what goes on inside it and it's probably not real but you know you can think it's real what happens to society I don't know I'm not actually an expert on that and the experts don't know either because it's kind of hard to predict the future yeah so um but it's worth trying it's worth trying yeah so you you have talked a lot about sort of the longer term future where it's all headed I think for by longer term we mean like not all that long but uh but yeah where it all had where it all ends up but beyond the effects of men and women dating AI systems you're looking beyond that yes because that's not how the fate of the Galaxy gets settled yeah well let me ask you about your own personal psychology a tricky question you've been known at times to have a bit of an ego do you think he says who but go on do you think ego is empowering or limiting for the task of understanding the world deeply I reject the framing so you disagree with having an ego so what do you think about it I I think that the question of like what leads to making better or worse predictions what leads to be able being able to pick out better or worse strategies is not carved at its joint by talking of ego so it",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI and society",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI and society",
+    "reviewed": false,
+    "text_tr": "Ama erkeklerin bir kısmı ve kadınların bir kısmı, kendilerine acımasızca nazik ve cömert olan, bilinçli olduğunu iddia eden ama içinde ne olup bittiğini kimsenin bilmediği ve muhtemelen gerçek olmayan bir şeyin videosuyla çıkmayı tercih ettiğinde, bu flörtleşmeye ne yapar? Ama biliyorsunuz, gerçek olduğunu düşünebilirsiniz. Topluma ne olur? Bilmiyorum, aslında bu konuda uzman değilim ve uzmanlar da bilmiyor çünkü geleceği tahmin etmek biraz zor. Evet, ama denemeye değer, denemeye değer. Evet, yani uzun vadeli gelecekten, her şeyin nereye gittiğinden çok bahsettiniz. Sanırım uzun vadeli derken o kadar da uzun olmayan bir süreyi kastediyoruz ama evet, her şeyin nereye varacağı, ama erkeklerin ve kadınların yapay zeka sistemleriyle flörtleşmesinin etkilerinin ötesine bakıyorsunuz, evet, çünkü galaksinin kaderi böyle belirlenmez. Evet, peki size kendi kişisel psikolojiniz hakkında zor bir soru sorayım: Zaman zaman biraz egonuz olduğu biliniyor. Kim diyor ki? Ama devam edin. Egonun dünyayı derinlemesine anlama görevi için güçlendirici mi yoksa sınırlayıcı mı olduğunu düşünüyorsunuz? Çerçeveyi reddediyorum. Yani egoya sahip olmaya katılmıyorsunuz, peki bu konuda ne düşünüyorsunuz? Bence daha iyi veya daha kötü tahminler yapmaya neyin yol açtığı, daha iyi veya daha kötü stratejileri seçebilmeye neyin yol açtığı sorusu, egodan bahsederek kendi başına bir bütün olarak ele alınamaz, yani..."
   }
 ]

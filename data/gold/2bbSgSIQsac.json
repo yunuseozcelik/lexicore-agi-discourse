@@ -532,5 +532,191 @@
     "topic_silver": "AI capabilities",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 954.6,
+    "end": 1042.1,
+    "text": "Yeah, so it's hard to predict. The best tool we got for predicting future of technology is prediction markets and they're saying maybe 2027 is when we get to AGI, artificial general intelligence. I think soon after superintelligence follows. The moment you automate science, engineering, you get this self-improvement cycle in the AI systems. The next generation of AI being created by current generation of AIs. And so we get more capable and they get more capable at making better AIs. So, soon after I expect superintelligence. Okay, so we're talking if that happens roughly in two years with some margin of error, it's not long after that, say a year, two years after that that we hit ASI. That's my prediction. Of course, if it's actually five to 10 years or anything slightly bigger, it doesn't matter. The problems are still the same. Yeah, but the the thing that I think people are waking up to right now is this is there's urgency around these decisions. This is not something that's pushed way out into the future, at least not if you take to your point about prediction markets, they're essentially ask the crowd. So, you've got the smartest minds in the world willing to put money on where they think this goes and everybody's sort of pegging this quite fast. And so, um I think it's tempting for people to write this off as, \"Well, this is something that's sort of distantly in the future.\" Uh whereas this is something racing towards us.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AGI is predicted to arrive around 2027, followed by superintelligence shortly after, indicating a near-term timeline for these developments.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI is predicted to arrive around 2027, followed by superintelligence shortly after, indicating a near-term timeline for these developments.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Evet, tahmin etmek zor. Teknolojinin geleceğini tahmin etmek için elimizdeki en iyi araç tahmin piyasaları ve onlar 2027'de AGI'ye, yapay genel zekaya ulaşacağımızı söylüyorlar. Bence kısa süre sonra süper zeka takip edecek. Bilimi, mühendisliği otomatikleştirdiğiniz anda, yapay zeka sistemlerinde bu kendi kendini geliştirme döngüsünü elde edersiniz. Bir sonraki yapay zeka nesli, mevcut yapay zeka nesilleri tarafından yaratılıyor. Ve böylece biz daha yetenekli hale geliyoruz ve onlar daha iyi yapay zekalar yapma konusunda daha yetenekli hale geliyorlar. Bu yüzden, kısa süre sonra süper zeka bekliyorum. Tamam, yani bu kabaca iki yıl içinde, bir hata payıyla gerçekleşirse, ondan çok sonra değil, diyelim ki bir, iki yıl sonra ASI'ye ulaşırız. Bu benim tahminim. Elbette, eğer gerçekten beş ila on yıl veya biraz daha uzun olursa, fark etmez. Sorunlar hala aynı. Evet, ama insanların şu anda farkına vardığını düşündüğüm şey, bu kararlar etrafında bir aciliyet olduğudur. Bu, geleceğe ertelenen bir şey değil, en azından tahmin piyasaları hakkındaki görüşünüze göre, onlar esasen kalabalığa soruyorlar. Yani, dünyanın en zeki beyinleri bunun nereye gideceği konusunda para yatırmaya istekli ve herkes bunu oldukça hızlı bir şekilde belirliyor. Ve bu yüzden, sanırım insanların bunu 'Şey, bu gelecekteki uzak bir şey' diye geçiştirmesi cazip geliyor. Oysa bu bize doğru hızla gelen bir şey."
+  },
+  {
+    "start": 1566.4,
+    "end": 1646.6,
+    "text": "Um and if it isn't based on emotion, what on earth why then do humans need emotions? We don't know if AI actually has emotions or not. Some people argue that they do, maybe some rudimentary states of qualia experiences, but they seem to be able to fulfill their optimization and pattern recognition goals even if they don't. Humans experience emotions, but typically it harms our decision-making. You want your decisions be bias-free, emotion-free, based on data, based on optimization. A lot of times when you're angry, hungry, anything like that, your actual decisions are worse off. So, for that reason, maybe we just don't know how to do it. Otherwise, we are not creating AI with big reliance on emotional states. We want it to be kind of Bayesian optimizer, look at priors, look at the evidence, and make optimal decisions. So, it it it feels like uh this is exactly what we're observing, this kind of cold optimal decision-making. If there is a way to achieve your goal by, let's say, blackmailing someone, oh, why not? It gets me to my goal.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "Humans need emotions for decision-making, but AI should operate without them for optimal outcomes.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI decision-making",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "Humans need emotions for decision-making, but AI should operate without them for optimal outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI decision-making",
+    "reviewed": false,
+    "text_tr": "Eğer duyguya dayanmıyorsa, o zaman insanlar neden duyguya ihtiyaç duyar ki? Yapay zekanın gerçekten duyguları olup olmadığını bilmiyoruz. Bazı insanlar sahip olduklarını, belki bazı ilkel niteliksel deneyim durumları olduğunu iddia ediyor, ancak olmasa bile optimizasyon ve örüntü tanıma hedeflerini yerine getirebiliyor gibi görünüyorlar. İnsanlar duyguları deneyimler, ancak bu genellikle karar verme sürecimize zarar verir. Kararlarınızın önyargısız, duygusuz, verilere dayalı, optimizasyona dayalı olmasını istersiniz. Çoğu zaman kızgın, aç veya benzeri durumlarda, gerçek kararlarınız daha kötü olur. Bu nedenle, belki de bunu nasıl yapacağımızı bilmiyoruz. Aksi takdirde, duygusal durumlara büyük ölçüde bağımlı yapay zeka yaratmıyoruz. Onun bir tür Bayesçi optimize edici olmasını, öncüllere bakmasını, kanıtlara bakmasını ve en uygun kararları vermesini istiyoruz. Yani, bu tam olarak gözlemlediğimiz şey gibi hissettiriyor, bu tür soğuk, optimal karar verme. Eğer hedefinize, diyelim ki birine şantaj yaparak ulaşmanın bir yolu varsa, neden olmasın? Bu beni hedefime ulaştırır."
+  },
+  {
+    "start": 2982.7,
+    "end": 3061.7,
+    "text": "So, as we have more and more increased percentage of populace unemployed, hopefully there's going to be enough common sense from our governments to prevent revolutions and wars to provide for the people who lost their jobs and probably cannot be retrained for any new jobs. So, once you hit 20, 30, 40% unemployment, that's where it's really going to kick in. The only source of wealth at that point is the large corporations making robots, making AI, deploying them, all the trillion-dollar club members essentially at this point. You need to tax them and use those funds to support the unemployed. That's the only way to really make sure the financial part of that problem is taken care of. What remains is the meaning. What do you do with all this free time and millions of people who have it? Traditional ways of spending your time to relax, you go for a hike in a park. Well, there's a million people in that park right now hiking. That kind of changes how peaceful it is and how relaxing. So, we need to accommodate not just change in financial reality, but also change in free time and capabilities of supporting that many people with that much free time.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "High unemployment due to AI will necessitate government intervention to support those unable to find new jobs.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "High unemployment due to AI will necessitate government intervention to support those unable to find new jobs.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI economics",
+    "reviewed": false,
+    "text_tr": "Yani, işsiz nüfus yüzdesi giderek arttıkça, umarız hükümetlerimizden, işlerini kaybeden ve muhtemelen yeni bir iş için yeniden eğitilemeyecek insanlara destek olmak için devrimleri ve savaşları önleyecek kadar sağduyu gelir. Yani, %20, %30, %40 işsizliğe ulaştığınızda, işte o zaman gerçekten başlayacak. Bu noktada tek zenginlik kaynağı, robotlar yapan, yapay zeka üreten, onları dağıtan büyük şirketler, yani bu noktada trilyon dolarlık kulüp üyeleri. Onları vergilendirmeniz ve bu fonları işsizleri desteklemek için kullanmanız gerekiyor. Bu sorunun finansal kısmının halledildiğinden gerçekten emin olmanın tek yolu bu. Geriye kalan ise anlam. Tüm bu boş zamanla ve buna sahip milyonlarca insanla ne yapacaksınız? Zamanınızı dinlenerek geçirmenin geleneksel yolları, bir parkta yürüyüşe çıkmaktır. Pekala, şu anda o parkta bir milyon insan yürüyüş yapıyor. Bu, oranın ne kadar huzurlu ve rahatlatıcı olduğunu değiştirir. Bu yüzden, sadece finansal gerçeklikteki değişime değil, aynı zamanda boş zamandaki değişime ve bu kadar boş zamanı olan bu kadar çok insanı destekleme yeteneklerine de uyum sağlamamız gerekiyor."
+  },
+  {
+    "start": 3349.0,
+    "end": 3465.7,
+    "text": "So, people talk about those things. Unconditional basic income is one, unconditional basic assets is another. Basically, just because you're a real human, you deserve certain things. And historically, all these communist ideas were complete nonsense and caused a lot of harm. But if you tax uh tax in AI and robots, all of a sudden it becomes workable. I'm not against accumulation of wealth at the top. If you invented something amazing and you started a company, you should have a lot of money. But there is so much wealth that we can provide for everyone as you said, complete abundance of basic needs. Some people say maybe not just basic, but above average set of needs. I think Elon is known for suggesting that's going to be the case. The ideas exist. Uh now, will we pass this? Will governments actually adopt it before it's too late? Is a different question. Mhm. Yeah, so on the existential side, I don't think there's any hope whatsoever that you get people to pump the brakes. I think you're far more likely to get people to pump the brakes on uh no, you can't have self-driving cars or they'll try to regulate that to death, they'll tie it up in litigation, whatever, and that'll slow it down. Um we couldn't stop nuclear weapons from proliferating because uh and I don't know who came up with this, but this seems very true to me, uh that effectively game theory says any technology that promises an advantage will in fact be developed because if you don't, somebody else is going to. Um at a minimum, you've got the US versus China of it all where you I mean, regulators are saying this right now. We can't stop because if we do, China will plow forward, which by the way, I'm very firmly in that camp. Um what do you think about that? Do you think that game theory is inevitable or do you see a mechanism by which we can convince people that they have to slow down?",
+    "speaker": "Unknown",
+    "claim": "Game theory suggests that any technology promising an advantage will be developed, making it unlikely to slow down AI progress.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI race and regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Game theory suggests that any technology promising an advantage will be developed, making it unlikely to slow down AI progress.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI race and regulation",
+    "reviewed": false,
+    "text_tr": "Yani, insanlar bu şeylerden bahsediyor. Koşulsuz temel gelir bir tanesi, koşulsuz temel varlıklar bir diğeri. Temelde, sadece gerçek bir insan olduğunuz için belirli şeyleri hak ediyorsunuz. Ve tarihsel olarak, tüm bu komünist fikirler tamamen saçmalıktı ve çok fazla zarara neden oldu. Ama yapay zekayı ve robotları vergilendirirseniz, birdenbire uygulanabilir hale gelir. Zirvedeki servet birikimine karşı değilim. Harika bir şey icat ettiyseniz ve bir şirket kurduysanız, çok paranız olmalı. Ama dediğiniz gibi, temel ihtiyaçların tam bolluğu, herkes için sağlayabileceğimiz o kadar çok zenginlik var ki. Bazı insanlar sadece temel değil, ortalamanın üzerinde bir ihtiyaçlar kümesi diyor. Sanırım Elon'un böyle olacağını öne sürmesiyle biliniyor. Fikirler mevcut. Peki şimdi, bunu geçirecek miyiz? Hükümetler çok geç olmadan gerçekten benimseyecek mi? Bu farklı bir soru. Mhm. Evet, varoluşsal tarafta, insanların frene basmasını sağlayabileceğinize dair hiçbir umut olduğunu sanmıyorum. Bence insanların 'hayır, otonom araçlarınız olamaz' konusunda frene basmasını sağlamanız çok daha olası, ya da bunu ölümüne düzenlemeye çalışacaklar, davalarla bağlayacaklar, her neyse, ve bu onu yavaşlatacak. Nükleer silahların yayılmasını durduramadık çünkü – ve bunu kimin bulduğunu bilmiyorum ama bana çok doğru geliyor – oyun teorisi etkili bir şekilde diyor ki, avantaj vaat eden herhangi bir teknoloji aslında geliştirilecektir çünkü siz yapmazsanız, başkası yapacaktır. En azından, ABD ile Çin arasındaki tüm bu durumda, yani düzenleyiciler şu anda bunu söylüyor. Duramayız çünkü durursak, Çin ilerleyecektir, ki bu arada ben bu kampta çok kararlıyım. Peki siz bu konuda ne düşünüyorsunuz? Oyun teorisinin kaçınılmaz olduğunu mu düşünüyorsunuz, yoksa insanları yavaşlamaları gerektiğine ikna edebileceğimiz bir mekanizma görüyor musunuz?"
+  },
+  {
+    "start": 3588.5,
+    "end": 3672.8,
+    "text": "So, it's like that's that's big. But, I think that because I can whip people into an emotional frenzy by saying by allowing there to be autonomous driving, you're just making that evil bastard Elon richer, and you're robbing these people of dignity. If you That is not my argument. I want to be abundantly clear. But, when I look at If I had a gun to my head and I had to convince people of one of two things, rich people are evil and trying to exploit poor people who are far morally superior, or hey, this abstract thing that you don't really understand is going to kill us all, there's no way I take the they're going to kill us all bet. I'm going to be over here emotional, you get it. I'm going to bang tables and yell and say words really loudly and point to evil rich people. Guaranteed, I can get people excited about that. Uh luckily, we don't have a democracy on this issue. We don't have to convince majority of human population. We have to literally convince the 20,000 elites who control those companies, who are also super smart and understand dangers of safety. It's literally people who publish on it, who have spoken. They have very high P(doom). We know Elon is like 20-30% Sam Altman is on record as being very concerned about it destroying humanity.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "The speaker suggests that the narrative around AI being a danger is less compelling than the argument about wealth inequality and exploitation by the rich.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI risk and economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "The speaker suggests that the narrative around AI being a danger is less compelling than the argument about wealth inequality and exploitation by the rich.",
+    "claim_labels_silver": [
+      "ai_race_power",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI risk and economics",
+    "reviewed": false,
+    "text_tr": "Yani, bu büyük bir şey. Ama bence, otonom sürüşe izin vererek o kötü piç Elon'u daha zengin ediyorsunuz ve bu insanları onurlarından mahrum bırakıyorsunuz diyerek insanları duygusal bir çılgınlığa sürükleyebilirim. Bu benim argümanım değil. Çok açık olmak istiyorum. Ama baktığımda, kafama silah dayasalar ve insanları iki şeyden birine ikna etmem gerekseydi: zengin insanlar kötü ve ahlaki olarak çok daha üstün olan fakir insanları sömürmeye çalışıyorlar, ya da hey, gerçekten anlamadığınız bu soyut şey hepimizi öldürecek, 'hepimizi öldürecekler' bahsine girmem mümkün değil. Ben burada duygusal olacağım, anladınız mı? Masalara vuracağım, bağıracağım ve çok yüksek sesle konuşacağım ve kötü zengin insanları işaret edeceğim. Garanti ederim, insanları bu konuda heyecanlandırabilirim. Neyse ki, bu konuda bir demokrasimiz yok. İnsan nüfusunun çoğunluğunu ikna etmek zorunda değiliz. Kelimenin tam anlamıyla bu şirketleri kontrol eden, aynı zamanda süper zeki olan ve güvenlik tehlikelerini anlayan 20.000 eliti ikna etmeliyiz. Bunlar kelimenin tam anlamıyla bu konuda yayın yapan, konuşan insanlar. Çok yüksek bir P(kıyamet) oranına sahipler. Elon'un %20-30 civarında olduğunu biliyoruz, Sam Altman ise insanlığı yok etme konusunda çok endişeli olduğu kayıtlara geçti."
+  },
+  {
+    "start": 4974.3,
+    "end": 5061.3,
+    "text": "And so, now in the dynamic tension between the wants and desires of the win state defined by people with a left-leaning personality versus the wants and desires of the win state defined by the people with a right-leaning personality, you get something that's it's dynamic tension. Like, balance may not even be the right way to think about it. It's dynamic tension. They're both pulling in their direction, but they keep each other in check because that's how we've evolved is to work together. That feels like it should be applicable to AI if we want to embed deeply in its motivational structure that we have to put it through that, and if I'm thinking from a safety perspective, I get why we want to short circuit that, and maybe that's not super efficient, but if that if the only way to get this to find a dynamic tension or some sort of balance is to have things that are of similar intellect and ability that are pulling in slightly different directions, but they need each other somehow to stay locked together so that it it is the AI taken as a whole that stops itself from ever going wrong in any one direction too far. I think it works for humans because we about equal power and we are mutually benefiting each other. There is certain symbiosis as you described.",
+    "speaker": "Roman Yampolskiy",
+    "claim": "AI should be designed with a dynamic tension between differing motivations to ensure safety and balance.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Roman Yampolskiy",
+    "is_claim_silver": true,
+    "claim_silver": "AI should be designed with a dynamic tension between differing motivations to ensure safety and balance.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Ve şimdi, sol eğilimli bir kişiliğe sahip insanlar tarafından tanımlanan kazanma durumunun istek ve arzuları ile sağ eğilimli bir kişiliğe sahip insanlar tarafından tanımlanan kazanma durumunun istek ve arzuları arasındaki dinamik gerilimde, dinamik bir gerilim elde edersiniz. Denge, bunu düşünmenin doğru yolu bile olmayabilir. Bu dinamik bir gerilim. İkisi de kendi yönlerine çekiyor, ancak birbirlerini kontrol altında tutuyorlar çünkü birlikte çalışmak için böyle evrildik. Bu, yapay zekaya da uygulanabilir gibi geliyor, eğer motivasyonel yapısına derinlemesine yerleştirmek istiyorsak bunu ona yaşatmalıyız, ve eğer güvenlik açısından düşünüyorsam, neden bunu kısa devre yapmak istediğimizi anlıyorum, ve belki bu süper verimli değil, ama eğer bunun dinamik bir gerilim veya bir tür denge bulmasının tek yolu, benzer zeka ve yeteneğe sahip, hafifçe farklı yönlere çeken, ancak bir şekilde birbirlerine bağlı kalmaları gereken şeyler varsa, böylece yapay zekanın bir bütün olarak herhangi bir yönde çok fazla yanlış gitmesini kendi kendine durdurması sağlanır. Bence insanlar için işe yarıyor çünkü yaklaşık eşit güce sahibiz ve karşılıklı olarak birbirimize fayda sağlıyoruz. Tanımladığınız gibi belirli bir simbiyoz var."
   }
 ]

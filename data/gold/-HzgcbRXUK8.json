@@ -508,5 +508,247 @@
     "topic_silver": "off-topic",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 578.2,
+    "end": 656.6,
+    "text": "And I think the limit the, you know, what the bounds of that kind of system, what it can do, it's a very interesting question and directly speaks to\nthe P equals NP question. - What do you think, again, hypothetical, might be outside of this\nmaybe emergent phenomena? Like if you look at cellular automata, some of have extremely simple systems and then some complexity emerges. - Yes.\n- Maybe that would be outside or even would you guess\neven that might be amenable to efficient modeling\nby a classical machine? - Yeah, I think those systems would be right on the boundary, right? So I think most emergent\nsystems, cellular automata, things like that could be\nmodelable by a classical system. You just sort of do a\nforward simulation of it and it'd probably be efficient enough. Of course, there's the question of things like chaotic systems where the initial\nconditions really matter, and then you get to some, you\nknow, uncorrelated end state. Now those could be difficult to model. So I think these are kind\nof the open questions. But I think when you step back and look at what we've\ndone with the systems and the problems that we've solved, and then you look at things that Veo 3 on like video generation sort of rendering physics and\nlighting and things like that, you know, really core\nfundamental things in physics, it's pretty interesting.",
+    "speaker": "Demis Hassabis",
+    "claim": "Emergent systems and chaotic systems present open questions for classical modeling.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Modeling complexity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "Emergent systems and chaotic systems present open questions for classical modeling.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Modeling complexity",
+    "reviewed": true,
+    "text_tr": "Ve bence bu tür bir sistemin sınırları, yani ne yapabileceği, çok ilginç bir soru ve doğrudan P eşittir NP sorusuna değiniyor. - Peki, yine varsayımsal olarak, bunun dışında kalabilecek, belki de ortaya çıkan fenomenler neler olabilir? Hücresel otomatlara bakarsanız, bazıları son derece basit sistemlere sahiptir ve sonra bir karmaşıklık ortaya çıkar. - Evet. - Belki bu dışarıda kalır, hatta klasik bir makine tarafından verimli bir şekilde modellenebilir mi dersiniz? - Evet, bence bu sistemler tam sınırda olurdu, değil mi? Yani çoğu ortaya çıkan sistem, hücresel otomatlar ve benzerleri klasik bir sistem tarafından modellenebilir. Sadece ileriye dönük bir simülasyonunu yaparsınız ve muhtemelen yeterince verimli olurdu. Elbette, başlangıç koşullarının gerçekten önemli olduğu kaotik sistemler gibi şeyler var ve sonra bir, biliyorsunuz, ilişkisiz bir son duruma ulaşıyorsunuz. Bunları modellemek zor olabilir. Yani bence bunlar açık sorular. Ama geri çekilip sistemlerle yaptıklarımıza ve çözdüğümüz sorunlara baktığınızda, sonra da Veo 3'ün video üretimi gibi fizik ve ışıklandırma gibi şeyleri render etmesi gibi, yani fizikteki gerçekten temel şeylere baktığınızda, oldukça ilginç."
+  },
+  {
+    "start": 982.6,
+    "end": 1044.0,
+    "text": "But actually the thing I'm most impressed with\nand fascinated by is the physics behavior, the lighting and materials and liquids. And it's pretty amazing\nthat it can do that. And I think that shows it that it has some notion of at least\nintuitive physics, right? How things are supposed\nto work intuitively? Maybe the way that a human child would understand physics, right? As opposed to a, you know, a PhD student really being able\nto unpack all the equations. It's more of an intuitive\nphysics understanding. - Well, that intuitive\nphysics understanding, that's the base layer, that's the thing people\nsometimes call a common sense. Like it really understands something. I think that really\nsurprised a lot of people. It blows my mind that I just didn't think it would\nbe possible to generate that level of realism\nwithout understanding. You know, there's this notion that you can only understand\nthe physical world by having an embodied AI system, a robot that interacts with that world. That's the only way to construct an understanding of that world. - [Demis] Yeah.",
+    "speaker": "Lex Fridman",
+    "claim": "Current AI systems exhibit an intuitive understanding of physics similar to that of a human child.",
+    "stance": "Support",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems exhibit an intuitive understanding of physics similar to that of a human child.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "text_tr": "Ama aslında beni en çok etkileyen ve büyüleyen şey fiziksel davranış, ışıklandırma, malzemeler ve sıvılar. Ve bunu yapabilmesi oldukça şaşırtıcı. Ve bence bu, en azından sezgisel bir fizik anlayışına sahip olduğunu gösteriyor, değil mi? İşlerin sezgisel olarak nasıl yürümesi gerektiği? Belki de bir insan çocuğunun fiziği anlayacağı şekilde, değil mi? Yani bir doktora öğrencisinin tüm denklemleri çözebilmesinin aksine. Daha çok sezgisel bir fizik anlayışı. - İşte o sezgisel fizik anlayışı, o temel katman, insanların bazen sağduyu dediği şey. Sanki gerçekten bir şeyi anlıyor. Bence bu birçok insanı gerçekten şaşırttı. Anlamadan bu düzeyde bir gerçekçilik üretmenin mümkün olacağını düşünmediğim için aklım başımdan gidiyor. Biliyorsunuz, fiziksel dünyayı ancak o dünyayla etkileşime giren, somutlaşmış bir yapay zeka sistemi, bir robot aracılığıyla anlayabileceğiniz fikri var. O dünyayı anlamanın tek yolu bu. - [Demis] Evet."
+  },
+  {
+    "start": 3050.8,
+    "end": 3118.2,
+    "text": "A lot of the interesting aspects of that can be modeled by these\nneural network systems. Including very recently we had, you know, cyclone prediction of where, you know, paths of hurricanes might go. Of course super useful, super\nimportant for the world. And it's super important to do that very timely and very quickly\nand as well as accurately. And I think it's very\npromising direction again of, you know, simulating, and so that you can run forward\npredictions and simulations of very complicated real world systems. - I should mention that I've gotten a chance in Texas to meet a community of folks\ncalled the storm chasers. - [Demis] Yes. - And what's really incredible about them, I need to talk to them more, is they're extremely tech-savvy because what they have to do\nis they have to use models to predict where the storm is.\n- Yeah. - So it's this beautiful mix of like crazy enough\n- Yeah. - to like go into the eye of the storm. - Yeah.\n- And like, in order to protect your life and predict where the extreme\nevents are going to be, they have to have increasingly sophisticated\nmodels of weather. - Yeah.\n- Yeah. It's a beautiful balance of like being in it as living organisms and the cutting edge of science.",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Support",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI applications",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI applications",
+    "reviewed": true,
+    "text_tr": "Bunun birçok ilginç yönü bu sinir ağı sistemleri tarafından modellenebilir. Çok yakın zamanda, biliyorsunuz, kasırgaların yollarının nereye gidebileceğine dair siklon tahmini yaptık. Elbette dünya için süper faydalı, süper önemli. Ve bunu çok zamanında, çok hızlı ve doğru bir şekilde yapmak süper önemli. Ve bence bu, çok karmaşık gerçek dünya sistemlerinin ileriye dönük tahminlerini ve simülasyonlarını yapabilmek için yine çok umut vadeden bir yön. - Şunu da belirtmeliyim ki Teksas'ta fırtına avcıları denilen bir toplulukla tanışma fırsatım oldu. - [Demis] Evet. - Ve onlarla ilgili gerçekten inanılmaz olan şey, onlarla daha fazla konuşmam gerekiyor, aşırı derecede teknoloji meraklısı olmaları, çünkü yapmaları gereken şey fırtınanın nerede olduğunu tahmin etmek için modeller kullanmak. - Evet. - Yani bu, fırtınanın gözüne girecek kadar çılgın olmanın - Evet. - ve hayatınızı korumak ve aşırı olayların nerede olacağını tahmin etmek için giderek daha sofistike hava durumu modellerine sahip olmaları gereken güzel bir karışım. - Evet. - Evet. Canlı organizmalar olarak içinde olmakla bilimin en ileri noktasında olmak arasında güzel bir denge."
+  },
+  {
+    "start": 3313.1,
+    "end": 3380.5,
+    "text": "- holy shit, this is special.\n- So I think there are. Exactly. So I think there's the\nsort of blanket testing to just make sure you've\ngot the consistency. But I think there are the\nsort of lighthouse moments like the move 37 that\nI would be looking for. So one would be inventing a new conjecture or a new\nhypothesis about physics like Einstein did. So maybe you could even\nrun the back test of that very rigorously. Like have a cutoff, a\nknowledge cutoff of 1900 and then give the system\neverything that was, you know, that was written up to 1900, and then see if it could come up with special relativity and\ngeneral relativity, right, like Einstein did. That would be an interesting test. Another one would be, can\nit invent a game like Go? Not just come up with\nmove 37, a new strategy, but can it invent a game that's as deep, as aesthetically beautiful,\nas elegant as Go? And those are the sorts of things I would be looking out for. And probably a system being able to do several of those things, right? For it to be very general,\nnot just one domain. And so I think that would\nbe the signs at least that I would be looking for, that we've got a system that's AGI level.",
+    "speaker": "Demis Hassabis",
+    "claim": "Demis Hassabis suggests that achieving AGI can be indicated by a system's ability to invent new scientific theories or create complex games like Go.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AGI indicators",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "Demis Hassabis suggests that achieving AGI can be indicated by a system's ability to invent new scientific theories or create complex games like Go.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI indicators",
+    "reviewed": true,
+    "text_tr": "- Vay canına, bu özel bir şey. - Bence var. Aynen öyle. Yani tutarlılığı sağlamak için genel bir test var. Ama bence 37. hamle gibi, arayacağım türden dönüm noktaları var. Yani biri, Einstein'ın yaptığı gibi fizikle ilgili yeni bir varsayım veya yeni bir hipotez icat etmek olurdu. Belki de bunun geriye dönük testini çok titiz bir şekilde yapabilirsiniz. Mesela 1900 yılına kadar bir bilgi kesintisi belirleyip, sisteme 1900 yılına kadar yazılmış her şeyi verip, sonra Einstein'ın yaptığı gibi özel görelilik ve genel göreliliği bulup bulamayacağını görmek. Bu ilginç bir test olurdu. Bir diğeri de Go gibi bir oyun icat edebilir mi? Sadece 37. hamleyi, yeni bir stratejiyi bulmakla kalmayıp, Go kadar derin, estetik olarak güzel, zarif bir oyun icat edebilir mi? Ve arayacağım şeyler bunlar. Ve muhtemelen bir sistemin bunlardan birkaçını yapabilmesi, değil mi? Sadece tek bir alanda değil, çok genel olması. Ve bu yüzden, en azından arayacağım işaretler bunlar olurdu, yani bir AGI seviyesinde bir sistemimiz olduğunu gösteren işaretler."
+  },
+  {
+    "start": 3380.5,
+    "end": 3457.4,
+    "text": "And then maybe to fill that out, you would also check their consistency, you know, make sure there's no\nholes in that system either. - Yeah, something like a new conjecture or scientific discovery. That would be a cool feeling. - Yeah, that would be amazing. So it's not just helping us do that, but actually coming up\nwith something brand new. - And you would be in the room for that. - Absolutely.\n- So it would be like probably two or three\nmonths before announcing it. And you would just be sitting\nthere trying not to tweet. - Something like that. Exactly, it's like, what is this amazing, - Yeah.\n- you know, physics idea? And then we would probably check it with world experts in that domain. - Yeah.\n- Right. And validate it and kind\nof go through its workings, and I guess it would be\nexplaining its workings too. Yeah, it'd be an amazing moment. - Do you worry that we as\nhumans, even expert humans, like you might miss it? - Well, it may be pretty complicated. So it could be, the\nanalogy I give there is I don't think it will\nbe totally mysterious to the best human scientists, but it may be a bit like, for example, in chess, if I was to talk to Garry\nKasparov or Magnus Carlson and play a game with them and they make a brilliant move, I might not be able to\ncome up with that move, but they could explain why\nafterwards that move made sense.",
+    "speaker": "Demis Hassabis",
+    "claim": "Humans may struggle to fully understand complex ideas generated by advanced AI, even if experts can explain them afterwards.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "is_claim": true,
+    "topic": "AI understanding",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "Humans may struggle to fully understand complex ideas generated by advanced AI, even if experts can explain them afterwards.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI understanding",
+    "reviewed": true,
+    "text_tr": "Ve sonra belki bunu tamamlamak için tutarlılıklarını da kontrol ederdiniz, yani o sistemde de boşluk olmadığından emin olurdunuz. - Evet, yeni bir varsayım veya bilimsel keşif gibi bir şey. Bu harika bir duygu olurdu. - Evet, bu inanılmaz olurdu. Yani sadece bize bunu yapmamızda yardımcı olmakla kalmayıp, aslında yepyeni bir şey ortaya çıkarmak. - Ve siz de o odada olurdunuz. - Kesinlikle. - Yani muhtemelen duyurmadan iki üç ay önce olurdu. Ve siz de orada oturmuş tweet atmamaya çalışırdınız. - Buna benzer bir şey. Aynen öyle, bu inanılmaz, - Evet. - biliyorsunuz, fizik fikri ne? Ve sonra muhtemelen o alandaki dünya uzmanlarıyla kontrol ederdik. - Evet. - Doğru. Ve doğrular, işleyişini incelerdik ve sanırım o da kendi işleyişini açıklardı. Evet, inanılmaz bir an olurdu. - Biz insanlar, hatta sizin gibi uzman insanlar olarak, bunu kaçırabileceğimizden endişeleniyor musunuz? - Şey, oldukça karmaşık olabilir. Yani olabilir, verdiğim benzetme şu ki, en iyi insan bilimciler için tamamen gizemli olacağını sanmıyorum, ama biraz şuna benzeyebilir, örneğin satrançta, Garry Kasparov veya Magnus Carlsen ile konuşup onlarla bir oyun oynasam ve parlak bir hamle yapsalar, ben o hamleyi bulamayabilirim, ama sonradan o hamlenin neden mantıklı olduğunu açıklayabilirlerdi."
+  },
+  {
+    "start": 4639.9,
+    "end": 4712.8,
+    "text": "I mean there's something about I guess why I love role playing games. Like the number go up of like my, - Yes.\n- on the skill tree. Like literally that is a source\nof meaning for us humans. Whatever our-\n- Yeah. We're quite addicted\nto this sort of, yeah. These numbers going up.\n- Yeah. - And maybe that's why we made games like that.\n- Yeah. - 'Cause obviously that is something we're hill climbing\nsystems ourselves, right? - Yeah, it would be quite sad if we didn't have,\n- Yeah. - any mechanism.\n- Different colored belts. We do this everywhere, right? Where we just have this thing, it's great. - And I don't wanna dismiss that, that there is a source of deep meaning across humans.\n- Yeah. - So one of the incredible\nstories on the business, on the leadership side is what Google has done over the past year. So I think it's fair to\nsay that Google was losing on the LLM product side a\nyear ago with Gemini 1.5 and now it's winning with Gemini 2.5. And you took the helm\nand you led this effort. What did it take to go from let's say, quote, unquote, \"losing\" to quote, unquote, \"winning\"\nin a span of a year? - Yeah, well firstly, it's absolutely incredible\nteam that we have, you know, led by Koray\nand Jeff Dean and Oriol and the amazing team we have on Gemini, absolutely world class.",
+    "speaker": "Demis Hassabis",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other",
+      "ai_race_power",
+      "execution_engineering"
+    ],
+    "is_claim": false,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI development",
+    "reviewed": true,
+    "text_tr": "Yani sanırım rol yapma oyunlarını neden sevdiğime dair bir şey var. Yetenek ağacımda sayının artması gibi, - Evet. - Kelimenin tam anlamıyla bu, biz insanlar için bir anlam kaynağı. Ne olursa olsun- - Evet. Bu tür şeylere oldukça bağımlıyız, evet. Bu sayıların yükselmesine. - Evet. - Ve belki de bu yüzden böyle oyunlar yaptık. - Evet. - Çünkü açıkçası biz de kendimiz tepe tırmanma sistemleriyiz, değil mi? - Evet, eğer sahip olmasaydık oldukça üzücü olurdu, - Evet. - hiçbir mekanizmaya. - Farklı renkli kemerler. Bunu her yerde yapıyoruz, değil mi? Sadece bu şeye sahibiz, harika. - Ve bunu göz ardı etmek istemiyorum, insanlar arasında derin bir anlam kaynağı var. - Evet. - İş dünyasında, liderlik tarafında inanılmaz hikayelerden biri de Google'ın geçen yıl yaptıklarındır. Yani sanırım bir yıl önce Gemini 1.5 ile LLM ürün tarafında Google'ın kaybettiğini söylemek doğru olur ve şimdi Gemini 2.5 ile kazanıyor. Ve siz dümeni ele aldınız ve bu çabaya liderlik ettiniz. Bir yıl içinde tırnak içinde 'kaybetmekten' tırnak içinde 'kazanmaya' geçmek ne gerektirdi? - Evet, öncelikle, Koray ve Jeff Dean ve Oriol liderliğindeki ve Gemini'daki harika ekibimizle kesinlikle inanılmaz bir ekibimiz var, kesinlikle dünya standartlarında."
+  },
+  {
+    "start": 5836.4,
+    "end": 5903.1,
+    "text": "And the same with energy. All of the things that I'm interested in in helping solve with AI. So I just want that technology\nto exist in the world and be used for the right things and the kind of the benefits of that, the productivity benefits\nof that being shared for the benefit of everyone. So I try to maintain good relations with all the leading lab people. They're very interesting\ncharacters many of them as you might expect.\n- Yeah. - But yeah, I'm on good terms I hope with pretty much all of them. And I think that's gonna be important when things get even more\nserious than they are now, that there are those\ncommunication channels and that's what will facilitate\ncooperation or collaboration if that's what is required especially on things like safety. - Yeah, I hope there's\nsome collaboration on stuff that's sort of less high stakes. And in so doing sort of as a mechanism for maintaining friendships\nand relationships. So for example, I think\nthe internet would love it if you and Elon somehow collaborate on creating a video game, that kind of thing.\n- Right. - That I think that enables\ncamaraderie in good terms. And also you two are legit gamers, so it's just fun to,\n- Yeah.",
+    "speaker": "Lex Fridman",
+    "claim": "AI technology should be developed and used for the benefit of everyone, emphasizing the importance of collaboration and communication among leading AI researchers.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI collaboration",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": true,
+    "claim_silver": "AI technology should be developed and used for the benefit of everyone, emphasizing the importance of collaboration and communication among leading AI researchers.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI collaboration",
+    "reviewed": false,
+    "text_tr": "Ve enerjiyle de aynı. Yapay zeka ile çözmeye yardımcı olmakla ilgilendiğim her şey. Yani sadece o teknolojinin dünyada var olmasını ve doğru şeyler için kullanılmasını ve bunun faydalarının, üretkenlik faydalarının herkesin yararına paylaşılmasını istiyorum. Bu yüzden tüm önde gelen laboratuvar insanlarıyla iyi ilişkiler sürdürmeye çalışıyorum. Çoğu beklediğiniz gibi çok ilginç karakterler. - Evet. - Ama evet, umarım hemen hemen hepsiyle iyi ilişkiler içindeyimdir. Ve bence bu, işler şimdikinden daha da ciddileştiğinde önemli olacak, o iletişim kanallarının olması ve özellikle güvenlik gibi konularda işbirliği veya ortak çalışma gerekiyorsa bunu kolaylaştıracak olan şey bu. - Evet, umarım daha az riskli konularda bir miktar işbirliği olur. Ve bunu yaparak arkadaşlıkları ve ilişkileri sürdürmek için bir mekanizma oluşturulur. Örneğin, bence siz ve Elon bir şekilde bir video oyunu yaratmak için işbirliği yapsanız internet buna bayılırdı, bu tür şeyler. - Doğru. - Bence bu, iyi ilişkilerde dostluğu mümkün kılar. Ve ayrıca ikiniz de gerçek oyuncusunuz, bu yüzden sadece eğlenceli olurdu, - Evet."
+  },
+  {
+    "start": 7292.5,
+    "end": 7356.4,
+    "text": "It's a pretty tricky problem that I've not heard a clear solution to. So there's the bad actor use case problem and then there's obviously as the systems become more\nagentic and closer to AGI and more autonomous, how do we ensure the guardrails and they stick to what we want them to do and under our control. - Yeah, I tend to, maybe\nmy mind is limited, worry more about the\nhumans, so the bad actors. And there it could be in part how do you not put destructive technology in the hands of bad actors, but in another part, from, again, geopolitical\ntechnology perspective, how do you reduce the number\nof bad actors in the world? That's also an interesting human problem. - Yeah, it's a hard problem. I mean look, we can maybe\nalso use the technology itself to help early warning on some of the bad actor use cases, right? Whether that's bio or\nnuclear or whatever it is, like AI could be potentially helpful there as long as the AI that you're using is itself reliable, right?",
+    "speaker": "Demis Hassabis",
+    "claim": "The challenge of ensuring AI systems remain under human control and do not fall into the hands of bad actors is significant and complex.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Demis Hassabis",
+    "is_claim_silver": true,
+    "claim_silver": "The challenge of ensuring AI systems remain under human control and do not fall into the hands of bad actors is significant and complex.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Çözümünü duymadığım oldukça zor bir sorun. Yani kötü niyetli aktör kullanım durumu sorunu var ve sonra açıkçası sistemler daha ajanslı hale geldikçe, AGI'ye yaklaştıkça ve daha otonom hale geldikçe, güvenlik önlemlerini nasıl sağlarız ve istediklerimize bağlı kalmalarını ve kontrolümüz altında olmalarını nasıl temin ederiz? - Evet, ben, belki de zihnim sınırlıdır, daha çok insanlardan, yani kötü niyetli aktörlerden endişelenme eğilimindeyim. Ve burada kısmen yıkıcı teknolojiyi kötü niyetli aktörlerin eline nasıl vermezsiniz, ama diğer yandan, yine jeopolitik teknoloji perspektifinden, dünyadaki kötü niyetli aktörlerin sayısını nasıl azaltırsınız? Bu da ilginç bir insan sorunu. - Evet, zor bir sorun. Yani bakın, belki de teknolojinin kendisini bazı kötü niyetli aktör kullanım durumlarında erken uyarıya yardımcı olmak için kullanabiliriz, değil mi? Biyolojik veya nükleer veya her ne olursa olsun, kullandığınız yapay zeka güvenilir olduğu sürece yapay zeka orada potansiyel olarak yardımcı olabilir, değil mi?"
   }
 ]

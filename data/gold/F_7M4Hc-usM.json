@@ -388,5 +388,131 @@
     "topic_silver": "compute/chips",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 145.1,
+    "end": 212.6,
+    "text": "And what would be\nthe biggest updates you'd make based on your data? With an affordable amount\nof spend on tokens, you can do what a 100-person,\nincredibly great engineering team would do as a startup. And that was just\ntotally impossible. That was not in the set\nof options for a startup, and now it is. So I think what you can take\non, the level of ambition you can have, the speed\nof which you can move, the amount of stuff\nyou can do at once, it's just totally different. And does that change the\nshape of the problems you feel like you assign at\nthe end of the class for people to attack at the\nend of that quarter if you were teaching it again? I don't think assigning\nproblems to attack ever works because if you like-- if I can think of\na problem-- if I can think of a really\ngreat startup idea, if it's, obvious,\nenough to me, then it's probably obvious\nto a lot of people. When we started\nOpenAI, we were one of maybe-- generously speaking--\nfour AGI efforts in the world.",
+    "speaker": "Sam Altman",
+    "claim": "The advancements in AI technology allow startups to achieve what previously required large engineering teams, indicating a shift in the landscape of AGI development.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "execution_engineering",
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "execution_engineering",
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "The advancements in AI technology allow startups to achieve what previously required large engineering teams, indicating a shift in the landscape of AGI development.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "execution_engineering",
+      "scaling_compute",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": false,
+    "text_tr": "Peki, verilerinize dayanarak yapacağınız en büyük güncellemeler neler olurdu? Tokenlara uygun fiyatlı bir harcama ile, 100 kişilik, inanılmaz harika bir mühendislik ekibinin bir startup olarak yapacağı şeyi yapabilirsiniz. Ve bu tamamen imkansızdı. Bir startup için seçenekler kümesinde yoktu, şimdi ise var. Bu yüzden bence üstlenebileceğiniz şey, sahip olabileceğiniz hırs seviyesi, hareket edebileceğiniz hız, aynı anda yapabileceğiniz şey miktarı tamamen farklı. Ve bu, dersi tekrar öğretiyor olsaydınız, o çeyreğin sonunda insanların çözmesi için dersin sonunda atadığınız sorunların şeklini değiştirir mi? Bence çözülecek sorunlar atamak asla işe yaramaz çünkü eğer ben bir sorun düşünebiliyorsam – eğer gerçekten harika bir startup fikri düşünebiliyorsam, eğer bana yeterince açıksa, o zaman muhtemelen birçok insana da açıktır. OpenAI'yi kurduğumuzda, dünyadaki belki – cömertçe konuşursak – dört AGI çabasından biriydik."
+  },
+  {
+    "start": 1079.8,
+    "end": 1156.5,
+    "text": "I think that is definitely\nthe current pipeline. I expect we will go\nthrough a major rewrite. I don't know when it'll\nhappen or exactly how, but it is a little\nodd to me that it's so happens as a pipeline\nand it doesn't quite feel like the optimal solution. What would be an optimal\nsolution in your head? I think that's a research\nproblem for the AIs to figure out. I think we're at a point where--\nand we've set this goal that by September of this year, we\nwill use 500,000 A100 equivalent GPUs-- like a lot\nof computing power-- as an AI research intern. And by March of 2028, that we\nwill have a full end to end, very talented researcher\nfiguring out completely new architectures. So I think we are going to\nget-- with the current pipeline, the current\narchitectures, I think we're going to get\nover the line of when AIs can do incredible work. One of the things that you\njust described there is you-- we've been talking\na lot in the class about systems,\nframeworks, and analogies to make concepts from one\ndomain legible to other people who may not have all\nthe context in another, but sometimes because of\nthe translation problem, reasoning by analogy\nis not helpful because then errors compound.",
+    "speaker": "Sam Altman",
+    "claim": "AGI will achieve significant advancements in the near term due to increased computing power and research efforts.",
+    "stance": "Support",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Sam Altman",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will achieve significant advancements in the near term due to increased computing power and research efforts.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Bence bu kesinlikle mevcut boru hattı. Büyük bir yeniden yazım sürecinden geçeceğimizi bekliyorum. Ne zaman veya tam olarak nasıl olacağını bilmiyorum, ama bir boru hattı olarak bu kadar gerçekleşmesi ve optimal çözüm gibi hissettirmemesi bana biraz tuhaf geliyor. Kafanızdaki optimal çözüm ne olurdu? Bence bu, yapay zekaların çözmesi gereken bir araştırma problemi. Sanırım öyle bir noktadayız ki – ve bu yılın Eylül ayına kadar 500.000 A100 eşdeğeri GPU'yu – yani çok fazla hesaplama gücünü – bir yapay zeka araştırma stajyeri olarak kullanacağımız hedefini belirledik. Ve Mart 2028'e kadar, tamamen yeni mimariler bulan, tam uçtan uca, çok yetenekli bir araştırmacımız olacak. Bu yüzden bence mevcut boru hattı, mevcut mimarilerle, yapay zekaların inanılmaz işler yapabileceği çizgiyi aşacağız. Az önce tarif ettiğiniz şeylerden biri de şu: derste sistemler, çerçeveler ve benzetmeler hakkında çok konuştuk; bir alandaki kavramları başka bir alanda tüm bağlama sahip olmayan diğer insanlara anlaşılır kılmak için, ancak bazen çeviri problemi nedeniyle, benzetmeyle akıl yürütmek faydalı olmuyor çünkü o zaman hatalar birikiyor."
+  },
+  {
+    "start": 1424.9,
+    "end": 1496.7,
+    "text": "But what you think about\npaying for that kind of internet utility\nin this case is just like access to the whole system. And the particular hardware\nat the base station and how it connects\nto the internet, you don't think\nabout that as much. I know I could nerd out\nabout utility infrastructure for a long time,\nbut I want to make sure we switch a little bit to\nbeing relevant for the students. Usually we have\nquestions but we're not doing this today, unless\nyou're comfortable with it. Oh, OK, great. How about that, improv. OK. So one final question\nto start getting the creative juices flowing\nis the final project for this class,\naccording Project 183 is the one person frontier lab. So everybody here is working\non projects where they're simulating being an individual\nas a lab with access to all the right tools, they've\ngot hundreds of thousands of dollars of credits\nfrom Cloudflare. I think we've got some\nOpenAI tokens maybe, but there's a bunch of\ncompute at their disposal. If you were in the\nclass, what would you be working on for your\none-person frontier lab project? First of all, I think\nthat's an awesome project. I think this is top of\nmind because we were just talking about utility\nframework frameworks.",
+    "speaker": "Moderator",
+    "claim": null,
+    "stance": "Neutral",
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels": [
+      "other"
+    ],
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Moderator",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": false,
+    "text_tr": "Ama bu durumda bu tür bir internet hizmeti için ödeme yapmayı düşündüğünüz şey, tüm sisteme erişim gibidir. Ve baz istasyonundaki belirli donanım ve internete nasıl bağlandığı hakkında o kadar çok düşünmezsiniz. Biliyorum, hizmet altyapısı hakkında uzun süre geeklik yapabilirim, ama biraz öğrencilere yönelik olmaya geçiş yaptığımızdan emin olmak istiyorum. Genellikle sorularımız olur ama bugün bunu yapmıyoruz, eğer sizin için uygunsa. Oh, tamam, harika. Peki ya doğaçlama? Tamam. Yaratıcı suları akıtmaya başlamak için son bir soru da bu dersin final projesi, Proje 183'e göre tek kişilik sınır laboratuvarı. Yani buradaki herkes, tüm doğru araçlara erişimi olan bir laboratuvar olarak bir birey olmayı simüle ettikleri projeler üzerinde çalışıyor, Cloudflare'dan yüz binlerce dolarlık kredileri var. Sanırım bazı OpenAI tokenlarımız da var, ama emrinde bir sürü hesaplama gücü var. Eğer derste olsaydınız, tek kişilik sınır laboratuvarı projeniz için ne üzerinde çalışırdınız? Öncelikle, bence bu harika bir proje. Bence bu akılda en üst sırada çünkü az önce hizmet çerçeveleri hakkında konuşuyorduk."
+  },
+  {
+    "start": 1912.4,
+    "end": 1976.0,
+    "text": "And I didn't think that at\nthe time I was kind of like, this stuff is all\ncool, but it's mostly going to be about learning CS. I only did two years of school,\nso there was a lot of stuff I wanted to take\nthat I didn't get to, but that's the surprising thing. My question is, what is\nyour spiciest steak of all? I think with more\ntime to think, I could come up with\na much spicier one but I think AI is just\ngoing to keep going. And I think this is considered-- I don't think this is\nwidely believed yet. And I think if this\nwere widely believed, there would be significantly\nmore reverberations that are happening through\nsociety right now. Maybe I don't have the-- or actually, maybe this\nis the high order bit that if AI progress\ncontinues on the exponential that it's on for another-- it's been three and 1/2\nyears since ChatGPT.",
+    "speaker": "Unknown",
+    "claim": "AI progress is expected to continue exponentially, but this belief is not widely held yet.",
+    "stance": "Neutral",
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AI progress is expected to continue exponentially, but this belief is not widely held yet.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Ve o zamanlar öyle düşünmemiştim, sanki bu şeyler hepsi harika, ama çoğunlukla bilgisayar bilimi öğrenmekle ilgili olacak gibiydi. Sadece iki yıl okula gittim, bu yüzden almak istediğim ama alamadığım çok şey vardı, ama şaşırtıcı olan bu. Benim sorum, tüm zamanların en baharatlı tahmininiz nedir? Sanırım daha fazla düşünme sürem olsaydı çok daha baharatlı bir tane bulabilirdim ama bence yapay zeka sadece devam edecek. Ve bence bu kabul ediliyor – henüz yaygın olarak inanıldığına inanmıyorum. Ve bence eğer buna yaygın olarak inanılıyor olsaydı, şu anda toplumda önemli ölçüde daha fazla yankı olurdu. Belki bende yok – ya da aslında, belki de bu, yapay zeka ilerlemesi şu anki üstel hızında devam ederse en önemli kısım budur – ChatGPT'den bu yana üç buçuk yıl oldu."
   }
 ]

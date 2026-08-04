@@ -583,5 +583,182 @@
     "topic_silver": "AI methods",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 437.4,
+    "end": 516.1,
+    "text": "We had also started this section by asking what \nmakes me feel like things are likely going to   be OK. Besides that I don’t buy the arguments \nfor confidence in misalignment being a problem,   the other thing is I do think we will see many of \nthe problems in advance and then do something to   deal with them. Certainly there is some amount \nof generalisation required. At some point,   the AIs go from not powerful enough to take \nover to they are powerful enough to take over,   and your techniques do have to generalise across \nthat. And the AI, to the extent that it knows when   that crossover point is, you could imagine the \nAI is like, “I’m not going to do anything shady   until I have the power to succeed.” And you have \nto be able to be robust to that kind of strategy. So there is some subtlety there, but I \nstill think that many of the problems that   underlie this, like the difficulty of \noversight or the need for interpretability,   are things that we can look at \nin advance, get some traction on,   iterate on. And this, I think, is very helpful \nfor building mitigations that actually work.",
+    "speaker": "Rohin Shah",
+    "claim": "Rohin Shah believes that many AI-related problems can be anticipated and addressed before they become critical.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Rohin Shah believes that many AI-related problems can be anticipated and addressed before they become critical.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Bu bölüme, işlerin yolunda gideceğine dair bana neyin hissettirdiğini sorarak başlamıştık. Uyumsuzluğun bir sorun olduğuna dair güven argümanlarına inanmamamın yanı sıra, diğer bir şey de birçok sorunu önceden göreceğimizi ve sonra onlarla başa çıkmak için bir şeyler yapacağımızı düşünüyorum. Kesinlikle bir miktar genelleme gereklidir. Bir noktada, yapay zekalar ele geçirecek kadar güçlü olmamaktan, ele geçirecek kadar güçlü olmaya geçer ve tekniklerinizin bu geçişi genelleştirmesi gerekir. Ve yapay zeka, bu geçiş noktasının ne zaman olduğunu bildiği ölçüde, yapay zekanın 'Başaracak güce sahip olana kadar hiçbir şaibeli şey yapmayacağım' dediğini hayal edebilirsiniz. Ve bu tür bir stratejiye karşı sağlam olabilmeniz gerekir. Yani orada bazı incelikler var, ama yine de bunun temelini oluşturan birçok sorunun, örneğin denetim zorluğu veya yorumlanabilirlik ihtiyacı gibi, önceden bakabileceğimiz, üzerinde ilerleme kaydedebileceğimiz, yineleyebileceğimiz şeyler olduğunu düşünüyorum. Ve bence bu, gerçekten işe yarayan hafifletmeler oluşturmak için çok faydalı."
+  },
+  {
+    "start": 2257.5,
+    "end": 2332.7,
+    "text": "Rohin Shah: Yeah, I think that’s almost \nexactly the kind of model that I would want. Rob Wiblin: Maybe the most dominant approach that \nmany people in AI safety and alignment are taking,   actually maybe in both technical and policy areas, \nis trying to create and enforce pre-deployment   evaluations: testing what models are capable of \ndoing and what they’re inclined to do before they   are deployed as products to the public, trying to \ntest for ways that things could go really wrong. You think that this is probably a misguided, not \nvery effective high-level strategy. Why is that? Rohin Shah: Yeah, I think the main cost \nof this is that launch schedules are just   really quite important at a company, and \nyou try to keep them as short as possible.   Once you have a model, you would really \nlike to get it out to the public as soon   as you can. So if you tie evals to, \nand require them to be pre-deployment,   then that is providing a pretty strong incentive \nto make those evals as fast as possible to run   and get them done as quickly as possible, which is \nmaybe not really the incentive you want to give.",
+    "speaker": "Rohin Shah",
+    "claim": "Pre-deployment evaluations for AI models may be ineffective due to the pressure for quick deployment.",
+    "stance": "Refute",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Pre-deployment evaluations for AI models may be ineffective due to the pressure for quick deployment.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Rohin Shah: Evet, bence bu neredeyse tam olarak istediğim model türü. Rob Wiblin: Belki de yapay zeka güvenliği ve uyumu alanında birçok kişinin, aslında hem teknik hem de politika alanlarında, benimsediği en baskın yaklaşım, dağıtım öncesi değerlendirmeler oluşturmaya ve uygulamaya çalışmaktır: modellerin neler yapabildiğini ve halka ürün olarak dağıtılmadan önce ne yapmaya eğilimli olduklarını test etmek, işlerin gerçekten ters gidebileceği yolları test etmeye çalışmak. Bunun muhtemelen yanlış yönlendirilmiş, pek etkili olmayan üst düzey bir strateji olduğunu düşünüyorsunuz. Neden? Rohin Shah: Evet, bence bunun ana maliyeti, bir şirkette lansman programlarının gerçekten oldukça önemli olması ve bunları mümkün olduğunca kısa tutmaya çalışmanızdır. Bir modeliniz olduğunda, onu mümkün olan en kısa sürede halka sunmak istersiniz. Yani değerlendirmeleri dağıtım öncesine bağlar ve bunu zorunlu kılarsanız, bu, bu değerlendirmeleri mümkün olduğunca hızlı çalıştırmak ve mümkün olduğunca çabuk tamamlamak için oldukça güçlü bir teşvik sağlar, ki bu belki de vermek istediğiniz teşvik değildir."
+  },
+  {
+    "start": 4238.5,
+    "end": 4309.0,
+    "text": "On the cybersecurity evals, on his reading \nhe thought that you treated the model hacking   the test rather than solving the test in \nthe natural way as kind of a green light   (a reason not to be concerned) rather than \na red light (a reason to be more worried).  And in terms of helping people \nto acquire WMDs, it felt to him,   and I think a lot of people have had this \nimpression — not just about GDM, but about   companies in general — that when it seems like \nthe models are starting to approach the line,   maybe it’s a bit ambiguous whether they’re above \nor below the line that they had six months or a   year ago, it feels like the goalposts kind \nof shift and the standards rise over time,   so that always the model is basically acceptable \nto put out. And that’s what he was worried   about was happening here with Gemini 3 as well.\nHow do you respond to these kinds of objections? Rohin Shah: Yeah, I have so many thoughts on \nthis one. For most of these, I would say my   primary response is that we care about the \nfrontier safety report as a way of saying we   have made a formal determination that this \nmodel is safe and we’re ready to release   it from a safety perspective. I think that \naspect of the frontier safety report is great.",
+    "speaker": "Rohin Shah",
+    "claim": "There are concerns about shifting safety standards for AI models, which could lead to unsafe releases.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "There are concerns about shifting safety standards for AI models, which could lead to unsafe releases.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Siber güvenlik değerlendirmelerinde, okumasına göre, modelin testi doğal yolla çözmek yerine testi 'hack'lemesini bir yeşil ışık (endişelenmemek için bir neden) olarak ele aldığınızı, kırmızı ışık (daha fazla endişelenmek için bir neden) olarak değil, düşündü. Ve insanların kitle imha silahları edinmesine yardımcı olma konusunda, ona öyle geldi ki – ve bence birçok kişi bu izlenime sahip oldu, sadece GDM hakkında değil, genel olarak şirketler hakkında – modeller çizgiye yaklaşmaya başladığında, belki altı ay veya bir yıl önceki çizginin üstünde mi altında mı oldukları biraz belirsiz olsa da, hedef direklerinin kaydığı ve standartların zamanla yükseldiği hissi oluşuyor, böylece model her zaman piyasaya sürülmek için temelde kabul edilebilir oluyor. Ve Gemini 3 ile de burada olan şeyin bu olduğundan endişeleniyordu. Bu tür itirazlara nasıl yanıt veriyorsunuz? Rohin Shah: Evet, bu konuda çok fazla düşüncem var. Bunların çoğu için, birincil yanıtımın, bu modelin güvenli olduğuna dair resmi bir karar verdiğimizi ve güvenlik açısından piyasaya sürmeye hazır olduğumuzu belirtmenin bir yolu olarak sınır güvenlik raporunu önemsediğimiz olduğunu söyleyebilirim. Sınır güvenlik raporunun bu yönünün harika olduğunu düşünüyorum."
+  },
+  {
+    "start": 5253.7,
+    "end": 5339.0,
+    "text": "Rohin Shah: I think there is some substantial \ntruth to this. Certainly for the purpose of   building on the research, it is good to have \ndetails, and I think that’s why we publish papers. Do we need to do this in the model card or the \nfrontier safety report? I’ve gone around talking   to policy and governance people especially \nabout this, and I asked them, “What do you   actually use our model card and frontier safety \nreport for?” They will sometimes say things like,   “It was really good to get more details about how \nexactly you evaluate for such-and-such risks.”   And then I will say something like, “Great, and \nyou know we also have this paper that goes into   more details of the evaluation. Probably \nit was even cited in the model card on the   frontier safety report. Did you read it?” Usually \nthey will not even have heard about this paper,   so I kind of don’t believe them when they say \nthat these details actually matter to them. Again, I do think publishing papers is \nimportant, and doesn’t need to be tied to   the model cards. And some people who I’ve talked \nto, who are especially more on the technical   side and the people actually building these \nevaluations, do actually find the papers useful   and helpful for them to build on. And so I do want \nto continue publishing the papers where we can.",
+    "speaker": "Rohin Shah",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI research publishing",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI research publishing",
+    "reviewed": false,
+    "text_tr": "Rohin Shah: Bence bunda önemli bir doğruluk payı var. Araştırmayı geliştirmek amacıyla detaylara sahip olmak kesinlikle iyidir ve bence bu yüzden makaleler yayınlıyoruz. Bunu model kartında veya sınır güvenlik raporunda yapmamız gerekiyor mu? Özellikle politika ve yönetişimden sorumlu kişilerle bu konuda konuştum ve onlara sordum: “Model kartımızı ve sınır güvenlik raporumuzu aslında ne için kullanıyorsunuz?” Bazen şöyle şeyler söylüyorlar: “Şu veya bu riskler için tam olarak nasıl değerlendirme yaptığınıza dair daha fazla ayrıntı almak gerçekten iyi oldu.” Ve sonra ben de şöyle bir şey söylüyorum: “Harika, ve biliyorsunuz değerlendirmenin daha fazla ayrıntısına giren bu makalemiz de var. Muhtemelen sınır güvenlik raporundaki model kartında bile alıntılanmıştır. Okudunuz mu?” Genellikle bu makaleden bile haberdar olmamışlardır, bu yüzden bu ayrıntıların onlar için gerçekten önemli olduğunu söylediklerinde onlara pek inanmıyorum. Yine de, makale yayınlamanın önemli olduğunu ve model kartlarına bağlı olması gerekmediğini düşünüyorum. Ve konuştuğum bazı kişiler, özellikle teknik tarafta olanlar ve bu değerlendirmeleri gerçekten yapan kişiler, makaleleri kendileri için faydalı ve üzerine inşa edilebilir buluyorlar. Bu yüzden mümkün olduğunca makaleler yayınlamaya devam etmek istiyorum."
+  },
+  {
+    "start": 6362.0,
+    "end": 6439.9,
+    "text": "That’s a kind of wild, crazy problem \nthat definitely is not a problem today   but really might come up at some point before \na superintelligence, and I don’t want to have   to say, like, “Yes, I have identified all \nproblems like this and have an approach to   solving all of them today.” Obviously we \nshould just take these as they come up. Rob Wiblin: So some people would really \nlike you to plan ahead a lot. They would   like you to have a grasp on all the important \nconsiderations that are going to come up,   all the way through to artificial \nsuperintelligence until I guess   the point where you could feel like \nyou’re safely handed everything over. And you’re saying, “We are not going to do that, \nnot at all. We’re going to think a lot about the   next model that we’re training. We’re going \nto think a bit about the model after that,   and kind of beyond that we’re going to hope \nthat the future will take care of itself,   or we in the future will take care of things as \nthey come up.” That’s the point you’re making. Rohin Shah: Yes, though I think we’re longer-term \nthinking than that made it sound. Like I said,   often I’m thinking five years into the \nfuture. That’s many, many, many models,   right? I say chain of thought monitoring, I think \nI said four years is my median that that lasts.",
+    "speaker": "Rohin Shah",
+    "claim": "We should focus on immediate AI models and address future problems as they arise rather than trying to predict all future issues.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "We should focus on immediate AI models and address future problems as they arise rather than trying to predict all future issues.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Bu, kesinlikle bugün bir sorun olmayan ama süper zeka ortaya çıkmadan önce bir noktada gerçekten ortaya çıkabilecek çılgın, tuhaf bir sorun ve ben “Evet, bu tür tüm sorunları tespit ettim ve hepsini bugün çözmek için bir yaklaşımım var” demek zorunda kalmak istemiyorum. Açıkçası bunları ortaya çıktıkça ele almalıyız. Rob Wiblin: Yani bazı insanlar sizin çok önceden plan yapmanızı gerçekten isterdi. Yapay süper zekaya kadar ortaya çıkacak tüm önemli hususları, sanırım her şeyi güvenli bir şekilde devrettiğinizi hissedebileceğiniz noktaya kadar kavramış olmanızı isterlerdi. Ve siz de diyorsunuz ki, “Bunu yapmayacağız, kesinlikle yapmayacağız. Eğittiğimiz bir sonraki model hakkında çok düşüneceğiz. Ondan sonraki model hakkında biraz düşüneceğiz ve bunun ötesinde geleceğin kendi kendine halledeceğini ya da gelecekte bizlerin ortaya çıkan şeyleri halledeceğini umacağız.” Söylediğiniz şey bu. Rohin Shah: Evet, ancak bence bu kadar kısa vadeli düşünmediğimizi, daha uzun vadeli düşündüğümüzü düşünüyorum. Dediğim gibi, genellikle geleceğe beş yıl sonrasını düşünüyorum. Bu birçok, birçok, birçok model demek, değil mi? Düşünce zinciri izleme diyorum, sanırım bunun dört yıl süreceğini tahmin ettiğimi söylemiştim."
+  },
+  {
+    "start": 8056.0,
+    "end": 8141.0,
+    "text": "But it is a lot weaker than the thing that I \nwould guess will actually happen, which will be   substantially faster, and happen substantially \nearlier than what that statement would imply. What I would actually say is: a decent \nchance that it starts at the point where   the AI systems can automate most of AI \nR&D, as opposed to all arbitrary R&D;   a decent chance that it finishes over \nfive to 10 years rather than a century,   depends on exactly what you set \nas the starting point; and so on. Going back to your original \nquestion about abruptness,   the reason I’m a slight downvote on abruptness \nis that I would expect that actually the first   automated systems that can really automate \nAI R&D will probably just be very expensive,   to the point of potentially being more \nexpensive than humans would be. You can see   this with over the last year there’s just been \nway more investment in inference time compute,   inference time scaling. Google has a Deep Think \nalgorithm which applies even more inference   scaling to get even better results. I think \nyou should basically expect this to continue.",
+    "speaker": "Rohin Shah",
+    "claim": "AGI is likely to arrive faster than commonly expected, potentially within five to ten years, especially as AI systems begin to automate their own research and development.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "AGI is likely to arrive faster than commonly expected, potentially within five to ten years, especially as AI systems begin to automate their own research and development.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Ama bu, aslında olacağını tahmin ettiğim şeyden çok daha zayıf; ki bu önemli ölçüde daha hızlı olacak ve o ifadenin ima ettiğinden önemli ölçüde daha erken gerçekleşecek. Aslında söyleyeceğim şey şu: yapay zeka sistemlerinin tüm rastgele Ar-Ge yerine yapay zeka Ar-Ge'sinin çoğunu otomatikleştirebildiği noktada başlaması için iyi bir şans; bir yüzyıl yerine beş ila on yıl içinde bitmesi için iyi bir şans, başlangıç noktası olarak tam olarak ne belirlediğinize bağlı; ve benzeri. Ani olma konusundaki orijinal sorunuza geri dönersek, ani olma konusunda biraz olumsuz oy vermemin nedeni, yapay zeka Ar-Ge'sini gerçekten otomatikleştirebilecek ilk otomatik sistemlerin muhtemelen çok pahalı olacağını, hatta potansiyel olarak insanlardan daha pahalı olabileceğini beklememdir. Bunu geçen yıl çıkarım zamanı hesaplamasına, çıkarım zamanı ölçeklendirmesine çok daha fazla yatırım yapıldığında görebilirsiniz. Google'ın, daha da iyi sonuçlar elde etmek için daha da fazla çıkarım ölçeklendirmesi uygulayan bir Deep Think algoritması var. Bence bunun devam etmesini beklemelisiniz."
   }
 ]

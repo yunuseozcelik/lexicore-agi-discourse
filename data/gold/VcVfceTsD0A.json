@@ -511,5 +511,275 @@
     "topic_silver": "Consciousness and AI",
     "reviewed": true,
     "round": 2
+  },
+  {
+    "start": 4013.8,
+    "end": 4082.6,
+    "text": "Why are we doing this? The answer is Moloch is\ntricking us into doing it. And it's such a clever trick that even though we see the trick, we still have no choice\nbut to fall for it, right? And also, thing you said about you using co-pilot AI tools to program faster, how many, what factor faster would\nyou say you code now? Does it go twice as fast? Or, - I don't really, because it's such a new tool. - [Max] Yeah. - I don't know if speed\nis significantly improved, but it feels like I'm a year away from being 5 to 10 times faster. - So if that's typical for programmers, then you're already seeing another kind of recursive self-improvement, right? Because previously, like a major generation of\nimprovement of the codes would happen on the\nhuman R and D time scale. And now if that's five times shorter, then it's gonna take five times less time than it otherwise would to develop the next level of these tools, and so on.",
+    "speaker": "Max Tegmark",
+    "claim": "The use of AI tools could lead to recursive self-improvement in programming efficiency, significantly speeding up development cycles.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI tools and efficiency",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "The use of AI tools could lead to recursive self-improvement in programming efficiency, significantly speeding up development cycles.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI tools and efficiency",
+    "reviewed": false,
+    "text_tr": "Neden bunu yapıyoruz? Cevap, Moloch bizi bunu yapmaya kandırıyor. Ve o kadar zekice bir numara ki, numarayı görmemize rağmen yine de ona kanmaktan başka çaremiz yok, değil mi? Ayrıca, daha hızlı programlamak için yardımcı pilot yapay zeka araçlarını kullandığınızı söylemiştiniz, şimdi ne kadar daha hızlı kod yazdığınızı söylersiniz? İki kat daha mı hızlı gidiyor? Ya da, - Gerçekten bilmiyorum, çünkü çok yeni bir araç. - [Max] Evet. - Hızın önemli ölçüde arttığını bilmiyorum ama 5 ila 10 kat daha hızlı olmaktan bir yıl uzaktaymışım gibi geliyor. - Yani bu programcılar için tipikse, o zaman zaten başka bir tür özyinelemeli kendi kendini geliştirme görüyorsunuz, değil mi? Çünkü daha önce, kodların büyük bir nesil iyileşmesi insan Ar-Ge zaman ölçeğinde gerçekleşirdi. Ve şimdi bu beş kat daha kısaysa, o zaman bu araçların bir sonraki seviyesini geliştirmek için normalde alacağından beş kat daha az zaman alacak, ve benzeri."
+  },
+  {
+    "start": 4696.2,
+    "end": 4765.1,
+    "text": "You also have to align the\nincentives of corporations with the greater good. And some corporations have\ngotten so big and so powerful very quickly that in many cases, their lobbyists instead\nalign the regulators to what they want rather\nthan the other way round. It's a classic regulatory capture. - Right, is the thing that\nthe slowdown hopes to achieve is give enough time to\nregulators to catch up, or enough time to the companies themselves to breathe and understand how to do AI safety correctly? - I think both, but I think that the vision, the path to success I see is first you give a breather actually to the people in these companies, their leadership who wants\nto do the right thing, and they all have safety teams and so on, on their companies, give them a chance to get\ntogether with the other companies, and the outside pressure can\nalso help catalyze that, right? And work out what is it that's, what are the reasonable\nsafety requirements one should put on future systems\nbefore they get rolled out.",
+    "speaker": "Max Tegmark",
+    "claim": "Corporations need time to align their AI safety practices with regulatory requirements and the greater good.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Corporations need time to align their AI safety practices with regulatory requirements and the greater good.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Ayrıca şirketlerin teşviklerini daha büyük iyilikle uyumlu hale getirmelisiniz. Ve bazı şirketler o kadar hızlı büyüdü ve güçlendi ki, çoğu durumda lobicileri bunun yerine düzenleyicileri kendi istediklerine göre hizalıyor, tersi değil. Bu klasik bir düzenleyici yakalama. - Doğru, yavaşlamanın başarmayı umduğu şey, düzenleyicilere yetişmeleri için yeterli zaman vermek mi, yoksa şirketlerin kendilerine nefes alıp yapay zeka güvenliğini doğru bir şekilde nasıl yapacaklarını anlamaları için yeterli zaman vermek mi? - Bence ikisi de, ama gördüğüm başarı yolu, öncelikle bu şirketlerdeki insanlara, doğru şeyi yapmak isteyen liderliklerine bir nefes alma şansı vermektir ve hepsinin şirketlerinde güvenlik ekipleri vb. var, onlara diğer şirketlerle bir araya gelme şansı verin ve dış baskı da bunu katalize etmeye yardımcı olabilir, değil mi? Ve gelecekteki sistemler piyasaya sürülmeden önce onlara hangi makul güvenlik gereksinimlerinin getirilmesi gerektiğini belirlemek."
+  },
+  {
+    "start": 5038.2,
+    "end": 5113.7,
+    "text": "So you brought up capitalism earlier, and there are a lot of\npeople who love capitalism and a lot of people who\nreally, really don't. And it struck me recently, that what's happening with capitalism here is exactly analogous to the way in which superintelligence\nmight wipe us out. Do you know why I studied\neconomics for my undergrad? Stockholm School of Economics, yay. (Lex laughing) - Well, no. No why, tell me. - So I was very interested in how you could use market forces to just get stuff done more efficiently, but give the right incentives to market so that it wouldn't do really bad things. So Dylan Hadfield-Menell, who's a professor and\ncolleague of mine at MIT, wrote this really interesting paper with some collaborators recently, where they proved mathematically that if you just take one goal\nthat you just optimize for, on and on, and on, indefinitely, that you think is gonna bring\nyou in the right direction, what basically always happens is, in the beginning, it will\nmake things better for you, but if you keep going, at some point, it's gonna start making\nthings worse for you again.",
+    "speaker": "Max Tegmark",
+    "claim": "Optimizing for a single goal indefinitely can lead to negative outcomes after initial improvements.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Optimizing for a single goal indefinitely can lead to negative outcomes after initial improvements.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Daha önce kapitalizmi gündeme getirdiniz ve kapitalizmi seven birçok insan ve gerçekten, gerçekten sevmeyen birçok insan var. Ve yakın zamanda aklıma geldi ki, burada kapitalizmle olan şey, süper zekanın bizi yok edebileceği yolla tamamen benzer. Lisans eğitimim için neden ekonomi okuduğumu biliyor musunuz? Stockholm Ekonomi Okulu, yaşasın. (Lex gülüyor) - Hayır, hayır neden, söyleyin bana. - Piyasa güçlerini işleri daha verimli bir şekilde halletmek için nasıl kullanabileceğimi, ancak piyasaya doğru teşvikleri vererek gerçekten kötü şeyler yapmamasını sağlamayı çok merak ediyordum. MIT'de profesör ve meslektaşım olan Dylan Hadfield-Menell, yakın zamanda bazı işbirlikçileriyle gerçekten ilginç bir makale yazdı ve burada matematiksel olarak kanıtladılar ki, eğer sadece tek bir hedefi alıp durmadan, sonsuza dek optimize ederseniz, bunun sizi doğru yöne götüreceğini düşünseniz bile, temelde her zaman olan şey şudur: başlangıçta işleri sizin için daha iyi hale getirecektir, ancak devam ederseniz, bir noktada işler sizin için tekrar kötüleşmeye başlayacaktır."
+  },
+  {
+    "start": 5113.7,
+    "end": 5182.9,
+    "text": "And then gradually, it's gonna make it\nreally, really terrible. So just as a simple, the way I think of the proof is, suppose you want to go from\nhere back to Austin for example, and you're like, \"Okay, yeah, let's go south,\" but you put in exactly sort\nof the right direction. Just optimize that, as south as possible. You get closer and closer to Austin, but there's always some little error. So you're not going\nexactly towards Austin, but you get pretty close, but eventually, you\nstart going away again, and eventually, you're gonna\nbe leaving the solar system. - [Lex] (chuckles) Yeah. - And they proved, it's a beautiful mathematical proof, this happens generally, and this is very important for AI because, even though Stuart\nRussell has written a book and given a lot of talks\non why it's a bad idea to have AI just blindly\noptimize something, that's what pretty much\nall our systems do. - [Lex] Yeah. - We have something\ncalled the loss function that we're just minimizing, or reward function, we're\njust maximizing, and, capitalism is exactly like that too.",
+    "speaker": "Max Tegmark",
+    "claim": "Current AI systems blindly optimize objectives, which can lead to dangerous outcomes.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI optimization risks",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems blindly optimize objectives, which can lead to dangerous outcomes.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI optimization risks",
+    "reviewed": false,
+    "text_tr": "Ve sonra yavaş yavaş, gerçekten, gerçekten korkunç hale getirecek. Yani basitçe, kanıtı düşünme şeklim şudur: diyelim ki buradan Austin'e geri dönmek istiyorsunuz ve 'Tamam, evet, güneye gidelim' diyorsunuz, ama tam olarak doğru yönü belirliyorsunuz. Sadece bunu optimize edin, mümkün olduğunca güneye. Austin'e giderek daha çok yaklaşıyorsunuz, ama her zaman küçük bir hata var. Yani tam olarak Austin'e gitmiyorsunuz, ama oldukça yaklaşıyorsunuz, ama sonunda tekrar uzaklaşmaya başlıyorsunuz ve sonunda güneş sistemini terk edeceksiniz. - [Lex] (kıkırdar) Evet. - Ve kanıtladılar ki, bu güzel bir matematiksel kanıt, bu genellikle olur ve bu yapay zeka için çok önemlidir çünkü Stuart Russell, yapay zekanın bir şeyi körü körüne optimize etmesinin neden kötü bir fikir olduğu hakkında bir kitap yazmış ve birçok konuşma yapmış olsa da, sistemlerimizin hemen hemen hepsi bunu yapıyor. - [Lex] Evet. - Sadece minimize ettiğimiz kayıp fonksiyonu veya sadece maksimize ettiğimiz ödül fonksiyonu diye bir şeyimiz var ve kapitalizm de aynen böyle."
+  },
+  {
+    "start": 6906.7,
+    "end": 6976.9,
+    "text": "we might have to forfeit some of the technology that we could get if we were putting blind faith in our AIs, but we're still gonna get amazing stuff. - Do you envision a process\nwith a proof checker? Like something like GPT-4, GPT-5, will go through a process\nof rigorous interrogation? - No I think it's hopeless, That's like trying to\nproof-verify spaghetti. - [Lex] (laughs) Okay. - What I think, the vision I have for\nsuccess is instead that, you know, just like we human beings were able to look at our brains and distill out the key knowledge. Galileo, when his dad threw\nhim an apple when he was a kid, he was able to catch it\n'cause his brain could, in his funny spaghetti kind of way, you know, predict how\nparabolas are gonna move, his Kahneman System 1, right? But then he got older and he's like, \"Wait, this is a parabola. It's y equals x squared.\" I can distill this knowledge out and today you can easily\nprogram it into a computer and it can simulate not just that, but how to get to Mars and so on, right? I envision a similar process where we use the amazing\nlearning power of neural networks to discover the knowledge\nin the first place, but we don't stop with a\nblack box and use that.",
+    "speaker": "Max Tegmark",
+    "claim": "We may have to sacrifice some technological advancements due to blind faith in AI, but we will still achieve remarkable things.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "We may have to sacrifice some technological advancements due to blind faith in AI, but we will still achieve remarkable things.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "yapay zekalarımıza körü körüne güvenirsek elde edebileceğimiz bazı teknolojilerden vazgeçmek zorunda kalabiliriz, ama yine de harika şeyler elde edeceğiz. - Bir kanıt denetleyicisi içeren bir süreç mi öngörüyorsunuz? GPT-4, GPT-5 gibi bir şey, titiz bir sorgulama sürecinden mi geçecek? - Hayır, bence umutsuz. Bu, spagettiyi kanıtlamaya çalışmak gibi bir şey. - [Lex] (gülüyor) Tamam. - Bence, başarı için sahip olduğum vizyon ise, biliyorsunuz, tıpkı biz insanların beyinlerimize bakıp anahtar bilgiyi damıtabildiğimiz gibi. Galileo, babası ona çocukken bir elma attığında, onu yakalayabildi çünkü beyni, o komik spagetti benzeri şekilde, biliyorsunuz, parabollerin nasıl hareket edeceğini tahmin edebiliyordu, Kahneman Sistem 1'i, değil mi? Ama sonra büyüdü ve 'Bekle, bu bir parabol. Bu y eşittir x kare.' dedi. Bu bilgiyi damıtabilirim ve bugün bunu kolayca bir bilgisayara programlayabilir ve sadece bunu değil, Mars'a nasıl gidileceğini vb. simüle edebilir, değil mi? Benzer bir süreç öngörüyorum; sinir ağlarının şaşırtıcı öğrenme gücünü öncelikle bilgiyi keşfetmek için kullanırız, ancak bir kara kutuyla durmayız ve onu kullanmayız."
+  },
+  {
+    "start": 7591.4,
+    "end": 7659.3,
+    "text": "And that's the elephant in the room. And obviously no matter how hard any of these companies have tried, that's not something that's easy for them to verify with large language models. And the only way to really\nlower that risk a lot would be to not let, for example, never let it read any code, not train on that, and not put it into an API, and to not Give it access\nto so much information about how to manipulate humans, so, but that doesn't mean you still can't make a ton of money on them, you know? We're gonna just watch now\nthis coming year, right? Microsoft is rolling\nout the new Office Suite where you go into Microsoft Word, and give it a prompt, and it write the whole text for you and then you edit it and then you're like, \"Oh, gimme a PowerPoint version of this,\" and it makes it. \"And now take the\nspreadsheet and blah blah.\" And you know, all of those things I think are, you can debate the economic impact of it and whether society is prepared to deal with this disruption.",
+    "speaker": "Max Tegmark",
+    "claim": "The economic impact of AI tools like large language models is significant, but society may not be prepared for the disruption they cause.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI economics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "The economic impact of AI tools like large language models is significant, but society may not be prepared for the disruption they cause.",
+    "claim_labels_silver": [
+      "ai_economics",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI economics",
+    "reviewed": false,
+    "text_tr": "Ve işte odadaki fil bu. Ve açıkçası bu şirketlerden herhangi biri ne kadar uğraşırsa uğraşsın, büyük dil modelleriyle doğrulamaları kolay bir şey değil. Ve bu riski gerçekten çok azaltmanın tek yolu, örneğin, asla kod okumasına izin vermemek, bunun üzerinde eğitim yapmamak, onu bir API'ye koymamak ve insanları nasıl manipüle edeceğine dair bu kadar çok bilgiye erişimini engellemektir. Ama bu, onlardan hala tonlarca para kazanamayacağınız anlamına gelmez, biliyor musunuz? Şimdi izleyeceğiz bu gelecek yıl, değil mi? Microsoft, yeni Office Süiti'ni piyasaya sürüyor; Microsoft Word'e girip bir komut veriyorsunuz ve o sizin için tüm metni yazıyor, sonra siz düzenliyorsunuz ve sonra diyorsunuz ki, \"Bunun bir PowerPoint versiyonunu yap,\" ve o da yapıyor. \"Şimdi de elektronik tabloyu al ve falan filan.\" Ve biliyorsunuz, tüm bu şeylerin ekonomik etkisini ve toplumun bu aksaklıkla başa çıkmaya hazır olup olmadığını tartışabilirsiniz."
+  },
+  {
+    "start": 7659.3,
+    "end": 7727.8,
+    "text": "But those are not the things which, that's not the elephant of the room that keeps me awake at night\nfor wiping out humanity. And I think that's the biggest\nmisunderstanding we have. A lot of people think that we're scared of like automatic spreadsheets. That's not the case. That's not what Eliezer was\nfreaked out about either. - Is there in terms of\nthe actual mechanism of how AI might kill all humans. So something you've been outspoken about, you've talked about a lot. Is it autonomous weapon systems? So the use of AI in war, is that one of the things that's still you carry concern for as these systems become\nmore and more powerful? - I carry a concern for it, not that all humans are gonna\nget killed by slaughter bots, but rather just as express route into an Orwellian dystopia where it becomes much easier for very few to kill very many, and therefore it becomes very easy for very few to dominate very many, right? AI, if you wanna know how\nAI could kill all people, just ask yourself, we humans have driven a\nlot of species extinct.",
+    "speaker": "Max Tegmark",
+    "claim": "AI could lead to an Orwellian dystopia where a few can dominate many, rather than directly killing all humans.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "AI could lead to an Orwellian dystopia where a few can dominate many, rather than directly killing all humans.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Ama bunlar, beni geceleri insanlığı yok etme konusunda uykusuz bırakan odadaki fil değil. Ve bence sahip olduğumuz en büyük yanlış anlama bu. Birçok insan otomatik elektronik tablolardan korktuğumuzu düşünüyor. Durum bu değil. Eliezer'in de korktuğu şey bu değildi. - Yapay zekanın tüm insanları nasıl öldürebileceğine dair gerçek mekanizma açısından bir şey var mı? Hakkında çok konuştuğunuz, açıkça dile getirdiğiniz bir şey. Otonom silah sistemleri mi? Yani yapay zekanın savaşta kullanılması, bu sistemler giderek daha güçlü hale geldikçe hala endişe duyduğunuz şeylerden biri mi? - Bunun için endişe duyuyorum, tüm insanların katil robotlar tarafından öldürüleceği için değil, daha ziyade çok az kişinin çok sayıda kişiyi öldürmesinin çok daha kolay hale geldiği, dolayısıyla çok az kişinin çok sayıda kişiye hükmetmesinin çok kolay hale geldiği Orwellci bir distopyaya giden hızlı bir yol olarak. Değil mi? Yapay zekanın tüm insanları nasıl öldürebileceğini bilmek istiyorsanız, kendinize sorun, biz insanlar birçok türü yok ettik."
+  },
+  {
+    "start": 8302.7,
+    "end": 8366.9,
+    "text": "The skills that were really useful when the curriculum was written, I mean how many of those skills are gonna get you a job in 12 years? I mean, seriously. - If we just linger on the\nGPT-4 system a little bit, you kind of hinted at it, especially talking about the importance of consciousness in in the\nhuman mind with Homo sentiens. Do you think GPT-4 is conscious? - Ah, I love this question. So let's define consciousness first because in my experience, like 90% of all arguments\nabout consciousness, (Lex chuckles) boil down to the two people arguing having totally different\ndefinitions of what it is, then they're just\nshouting past each other. I define consciousness\nas subjective experience. Right now I'm experiencing\ncolors and sounds, and emotions, you know, but does a self-driving\ncar experience anything? That's the question about whether it's conscious or not, right?",
+    "speaker": "Max Tegmark",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Consciousness in AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Consciousness in AI",
+    "reviewed": false,
+    "text_tr": "Müfredat yazıldığında gerçekten işe yarayan beceriler, yani bu becerilerin kaçı size 12 yıl içinde bir iş bulacak? Yani, cidden. - GPT-4 sistemi üzerinde biraz duracak olursak, özellikle Homo sentiens ile insan zihnindeki bilincin öneminden bahsederken buna biraz değindiniz. GPT-4'ün bilinçli olduğunu düşünüyor musunuz? - Ah, bu soruyu seviyorum. Önce bilinci tanımlayalım çünkü deneyimlerime göre, bilinç hakkındaki tüm tartışmaların %90'ı, (Lex kıkırdar) tartışan iki kişinin ne olduğu hakkında tamamen farklı tanımlara sahip olmasına dayanıyor, sonra sadece birbirlerinin yanından bağırıyorlar. Bilinci öznel deneyim olarak tanımlıyorum. Şu anda renkleri, sesleri ve duyguları deneyimliyorum, biliyorsunuz, ama kendi kendine giden bir araba bir şey deneyimliyor mu? Bilinçli olup olmadığı hakkındaki soru bu, değil mi?"
+  },
+  {
+    "start": 9723.1,
+    "end": 9793.1,
+    "text": "- Isn't that great news? - Yes, if it's true, it's wonderful. 'Cause then we don't have to fear the ultimate zombie apocalypse. And I think if you look\nat our brains, actually. Our brains are part\nzombie and part conscious. When I open my eyes, I immediately take all these pixels that hit on my retina, right? And I'm like, \"Oh, that's Lex.\" But I have no freaking clue\nof how I did that computation. It's actually quite complicated, right? It was only relatively recently, we could even do it well\nwith machines, right? You get a bunch of information processing happening in my retina and then it goes to the\nlateral geniculate nucleus in my thalamus, and the area V1, V2, V4, and the fusiform face area here, that Nancy Kanwisher at MIT invented, and blah, blah, blah, blah, blah. And I have no frigging clue\nhow that worked, right? It feels to me subjectively, like my conscious module just\ngot a little email saying, \"Facial processing task\ncomplete, it's Lex.\" - [Lex] Yeah.",
+    "speaker": "Max Tegmark",
+    "claim": "Our brains are complex and involve unconscious processing, which raises questions about the nature of consciousness and AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "intelligence_nature",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "Nature of consciousness",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "intelligence_nature",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Max Tegmark",
+    "is_claim_silver": true,
+    "claim_silver": "Our brains are complex and involve unconscious processing, which raises questions about the nature of consciousness and AI.",
+    "claim_labels_silver": [
+      "intelligence_nature",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Nature of consciousness",
+    "reviewed": false,
+    "text_tr": "- Bu harika bir haber değil mi? - Evet, eğer doğruysa, harika. Çünkü o zaman nihai zombi kıyametinden korkmamıza gerek kalmaz. Ve bence aslında beynimize bakarsanız. Beyinlerimiz kısmen zombi ve kısmen bilinçli. Gözlerimi açtığımda, retinamdaki tüm bu pikselleri hemen alıyorum, değil mi? Ve diyorum ki, \"Ah, bu Lex.\" Ama o hesaplamayı nasıl yaptığıma dair hiçbir fikrim yok. Aslında oldukça karmaşık, değil mi? Nispeten yakın zamana kadar, makinelerle bile bunu iyi yapabiliyorduk, değil mi? Retinamda bir sürü bilgi işleme oluyor ve sonra talamusumdaki lateral genikulat çekirdeğe, V1, V2, V4 alanına ve burada MIT'den Nancy Kanwisher'ın icat ettiği fusiform yüz alanına gidiyor ve falan filan, falan filan. Ve bunun nasıl çalıştığına dair hiçbir fikrim yok, değil mi? Bana öznel olarak, bilinçli modülümün küçük bir e-posta aldığını ve \"Yüz işleme görevi tamamlandı, bu Lex\" dediğini hissettiriyor. - [Lex] Evet."
   }
 ]
