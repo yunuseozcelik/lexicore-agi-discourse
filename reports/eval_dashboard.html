@@ -1,0 +1,352 @@
+<title>LexiCore — Silver vs Gold Değerlendirme</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --surface:#ffffff; --surface-2:#fbfcfd;
+    --ink:#151a21; --muted:#5c6675; --faint:#8a93a1;
+    --border:#e4e7ec; --border-strong:#d3d8df;
+    --accent:#4a5bd4; --accent-soft:#eaecfb;
+    --good:#1f9d6b; --good-soft:#e2f4ec;
+    --warn:#c07d12; --warn-soft:#f8efd9;
+    --bad:#d1445f; --bad-soft:#fbe6ea;
+    --shadow:0 1px 2px rgba(18,24,33,.04),0 6px 20px rgba(18,24,33,.05);
+    --mono:ui-monospace,"SFMono-Regular","Cascadia Mono","Consolas",monospace;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#0d1015; --surface:#161b22; --surface-2:#1b212a;
+      --ink:#e8ebf0; --muted:#939dab; --faint:#6b7482;
+      --border:#232a33; --border-strong:#303945;
+      --accent:#8093ff; --accent-soft:#1e2440;
+      --good:#3cc088; --good-soft:#12271f;
+      --warn:#e0a83e; --warn-soft:#2a2311;
+      --bad:#f2688a; --bad-soft:#2c1620;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#f5f6f8; --surface:#ffffff; --surface-2:#fbfcfd;
+    --ink:#151a21; --muted:#5c6675; --faint:#8a93a1;
+    --border:#e4e7ec; --border-strong:#d3d8df;
+    --accent:#4a5bd4; --accent-soft:#eaecfb;
+    --good:#1f9d6b; --good-soft:#e2f4ec; --warn:#c07d12; --warn-soft:#f8efd9;
+    --bad:#d1445f; --bad-soft:#fbe6ea;
+    --shadow:0 1px 2px rgba(18,24,33,.04),0 6px 20px rgba(18,24,33,.05);
+  }
+  :root[data-theme="dark"]{
+    --bg:#0d1015; --surface:#161b22; --surface-2:#1b212a;
+    --ink:#e8ebf0; --muted:#939dab; --faint:#6b7482;
+    --border:#232a33; --border-strong:#303945;
+    --accent:#8093ff; --accent-soft:#1e2440;
+    --good:#3cc088; --good-soft:#12271f; --warn:#e0a83e; --warn-soft:#2a2311;
+    --bad:#f2688a; --bad-soft:#2c1620;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+    line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1040px;margin:0 auto;padding:clamp(20px,4vw,52px) clamp(16px,4vw,28px) 80px}
+  .num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  .eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--faint);font-weight:600}
+
+  /* header */
+  header{border-bottom:1px solid var(--border);padding-bottom:26px;margin-bottom:34px}
+  h1{font-size:clamp(26px,4.5vw,40px);line-height:1.08;margin:.35em 0 .3em;
+    letter-spacing:-.02em;text-wrap:balance;font-weight:680}
+  h1 .accent{color:var(--accent)}
+  .lede{color:var(--muted);max-width:60ch;font-size:15.5px;margin:0}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+  .chip{display:inline-flex;align-items:baseline;gap:7px;padding:7px 12px;
+    background:var(--surface);border:1px solid var(--border);border-radius:999px;
+    font-size:12.5px;color:var(--muted)}
+  .chip b{font-family:var(--mono);font-size:14px;color:var(--ink)}
+
+  section{margin-top:44px}
+  .sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:16px}
+  .sec-head h2{font-size:17px;margin:0;font-weight:650;letter-spacing:-.01em}
+  .sec-head .n{font-size:12.5px;color:var(--faint);font-family:var(--mono)}
+
+  /* scorecards */
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:640px){.cards{grid-template-columns:1fr}}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    padding:22px 22px 20px;box-shadow:var(--shadow)}
+  .card .task{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .card .task h3{margin:0;font-size:15px;font-weight:640}
+  .card .task .code{font-family:var(--mono);font-size:12px;color:var(--faint)}
+  .verdict{font-size:12px;font-weight:600;padding:3px 9px;border-radius:6px}
+  .v-good{background:var(--good-soft);color:var(--good)}
+  .v-warn{background:var(--warn-soft);color:var(--warn)}
+  .metrics3{display:flex;gap:20px;margin:18px 0 6px}
+  .metrics3 .m .lab{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
+  .metrics3 .m .val{font-family:var(--mono);font-size:27px;font-weight:600;letter-spacing:-.02em;line-height:1.1}
+  .metrics3 .m .val.big{color:var(--accent)}
+
+  /* kappa gauge on Landis-Koch scale */
+  .gauge{margin-top:16px}
+  .gauge .track{position:relative;height:26px;border-radius:7px;overflow:hidden;
+    display:flex;border:1px solid var(--border)}
+  .gauge .band{height:100%}
+  .gauge .marker{position:absolute;top:-4px;width:2px;height:34px;background:var(--ink);
+    border-radius:2px}
+  .gauge .marker::after{content:attr(data-k);position:absolute;top:-18px;left:50%;
+    transform:translateX(-50%);font-family:var(--mono);font-size:11.5px;font-weight:600;
+    color:var(--ink);white-space:nowrap}
+  .gauge .scale{display:flex;justify-content:space-between;margin-top:7px;
+    font-size:10px;color:var(--faint);font-family:var(--mono)}
+
+  /* per-class table */
+  .panel{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    box-shadow:var(--shadow);overflow:hidden}
+  .tbl{width:100%;border-collapse:collapse;font-size:14px}
+  .tbl thead th{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--faint);font-weight:600;text-align:left;padding:14px 16px 10px}
+  .tbl thead th.r{text-align:right}
+  .tbl td{padding:13px 16px;border-top:1px solid var(--border)}
+  .tbl td.r{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+  .tag{display:inline-flex;align-items:center;gap:7px;font-weight:600}
+  .dot{width:9px;height:9px;border-radius:50%}
+  .d-sup{background:var(--good)} .d-ref{background:var(--warn)} .d-neu{background:var(--faint)}
+  .bar{position:relative;height:7px;border-radius:4px;background:var(--border);
+    width:120px;display:inline-block;vertical-align:middle;margin-left:10px}
+  .bar > i{position:absolute;left:0;top:0;height:100%;border-radius:4px}
+  .metric-cell{display:flex;align-items:center;justify-content:flex-end;gap:2px}
+  .metric-cell .v{width:44px;text-align:right}
+
+  /* confusion matrix */
+  .cm-wrap{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start}
+  @media(max-width:560px){.cm-wrap{grid-template-columns:1fr}}
+  .cm{border-collapse:separate;border-spacing:6px}
+  .cm .corner{font-size:10.5px;color:var(--faint)}
+  .cm th{font-size:11px;font-weight:600;color:var(--muted);padding:2px 4px}
+  .cm th.top{text-align:center}
+  .cm .rowlab{text-align:right;white-space:nowrap}
+  .cm td.cell{width:74px;height:60px;border-radius:10px;text-align:center;vertical-align:middle;
+    font-family:var(--mono);font-size:20px;font-weight:600;color:#fff;position:relative}
+  .cm td.cell small{display:block;font-size:9.5px;font-weight:500;opacity:.85;font-family:var(--sans)}
+  .cm-legend{font-size:12.5px;color:var(--muted);max-width:34ch;line-height:1.5}
+  .cm-legend .k{font-family:var(--mono);color:var(--ink);font-weight:600}
+  .diag-note{margin-top:10px;padding:11px 13px;background:var(--bad-soft);border-radius:10px;
+    font-size:12.5px;color:var(--ink)}
+  .diag-note b{color:var(--bad)}
+
+  /* errors */
+  .err-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:640px){.err-grid{grid-template-columns:1fr}}
+  .err{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:15px 16px;
+    box-shadow:var(--shadow)}
+  .err .flow{display:flex;align-items:center;gap:8px;font-size:12px;margin-bottom:9px;flex-wrap:wrap}
+  .pill{font-family:var(--mono);font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:6px}
+  .p-silver{background:var(--warn-soft);color:var(--warn)}
+  .p-gold{background:var(--good-soft);color:var(--good)}
+  .arrow{color:var(--faint)}
+  .err p{margin:0;font-size:13px;color:var(--muted);line-height:1.5}
+  .err .vid{margin-top:9px;font-family:var(--mono);font-size:10.5px;color:var(--faint)}
+
+  footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--border);
+    font-size:12.5px;color:var(--muted);line-height:1.6}
+  footer code{font-family:var(--mono);font-size:11.5px;background:var(--surface-2);
+    padding:1px 5px;border-radius:4px;border:1px solid var(--border)}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">LexiCore · AGI-Discourse · Adım 3b değerlendirme</div>
+    <h1>LLM etiketleri ne kadar <span class="accent">güvenilir?</span></h1>
+    <p class="lede">400 segmentlik insan-onaylı <em>gold</em> set üzerinde, pipeline'ın ürettiği
+      otomatik (<em>silver</em>) etiketleri gerçek referans kabul edip ölçtük.
+      İki görev, çok farklı iki sonuç.</p>
+    <div class="chips">
+      <span class="chip"><b>400</b> gold segment</span>
+      <span class="chip"><b>23</b> video</span>
+      <span class="chip"><b>200+200</b> iki tur onay</span>
+      <span class="chip"><b>Cohen κ</b> uyum ölçütü</span>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head"><h2>Görev skorkartları</h2><span class="n">silver vs gold · n=400</span></div>
+    <div class="cards">
+
+      <!-- is_claim -->
+      <div class="card">
+        <div class="task">
+          <div><h3>İddia tespiti</h3><span class="code">is_claim</span></div>
+          <span class="verdict v-good">neredeyse kusursuz</span>
+        </div>
+        <div class="metrics3">
+          <div class="m"><div class="lab">Cohen κ</div><div class="val big">0.981</div></div>
+          <div class="m"><div class="lab">Accuracy</div><div class="val">0.995</div></div>
+          <div class="m"><div class="lab">Macro-F1</div><div class="val">0.991</div></div>
+        </div>
+        <div class="gauge">
+          <div class="track">
+            <div class="band" style="width:20%;background:var(--bad-soft)"></div>
+            <div class="band" style="width:20%;background:var(--warn-soft)"></div>
+            <div class="band" style="width:20%;background:var(--warn-soft)"></div>
+            <div class="band" style="width:20%;background:var(--good-soft)"></div>
+            <div class="band" style="width:20%;background:var(--good-soft)"></div>
+            <div class="marker" style="left:98.1%" data-k="0.98"></div>
+          </div>
+          <div class="scale"><span>0</span><span>.20</span><span>.40</span><span>.60</span><span>.80</span><span>1</span></div>
+        </div>
+      </div>
+
+      <!-- stance -->
+      <div class="card">
+        <div class="task">
+          <div><h3>Duruş sınıflandırma</h3><span class="code">stance</span></div>
+          <span class="verdict v-warn">zayıf uyum · en zor görev</span>
+        </div>
+        <div class="metrics3">
+          <div class="m"><div class="lab">Cohen κ</div><div class="val big">0.279</div></div>
+          <div class="m"><div class="lab">Accuracy</div><div class="val">0.520</div></div>
+          <div class="m"><div class="lab">Macro-F1</div><div class="val">0.482</div></div>
+        </div>
+        <div class="gauge">
+          <div class="track">
+            <div class="band" style="width:20%;background:var(--bad-soft)"></div>
+            <div class="band" style="width:20%;background:var(--warn-soft)"></div>
+            <div class="band" style="width:20%;background:var(--warn-soft)"></div>
+            <div class="band" style="width:20%;background:var(--good-soft)"></div>
+            <div class="band" style="width:20%;background:var(--good-soft)"></div>
+            <div class="marker" style="left:27.9%" data-k="0.28"></div>
+          </div>
+          <div class="scale"><span>0</span><span>.20</span><span>.40</span><span>.60</span><span>.80</span><span>1</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Stance — sınıf bazında</h2><span class="n">precision / recall / F1</span></div>
+    <div class="panel" style="overflow-x:auto">
+      <table class="tbl">
+        <thead><tr>
+          <th>Sınıf</th><th>Destek (n)</th>
+          <th class="r">Precision</th><th class="r">Recall</th><th class="r">F1</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+            <td><span class="tag"><span class="dot d-sup"></span>Support</span></td>
+            <td class="r">32</td>
+            <td class="r"><span class="metric-cell"><span class="v">0.22</span>
+              <span class="bar"><i style="width:22%;background:var(--bad)"></i></span></span></td>
+            <td class="r"><span class="metric-cell"><span class="v">0.91</span>
+              <span class="bar"><i style="width:91%;background:var(--good)"></i></span></span></td>
+            <td class="r"><span class="metric-cell"><span class="v">0.35</span>
+              <span class="bar"><i style="width:35%;background:var(--warn)"></i></span></span></td>
+          </tr>
+          <tr>
+            <td><span class="tag"><span class="dot d-ref"></span>Refute</span></td>
+            <td class="r">56</td>
+            <td class="r"><span class="metric-cell"><span class="v">0.36</span>
+              <span class="bar"><i style="width:36%;background:var(--bad)"></i></span></span></td>
+            <td class="r"><span class="metric-cell"><span class="v">0.86</span>
+              <span class="bar"><i style="width:86%;background:var(--good)"></i></span></span></td>
+            <td class="r"><span class="metric-cell"><span class="v">0.51</span>
+              <span class="bar"><i style="width:51%;background:var(--warn)"></i></span></span></td>
+          </tr>
+          <tr>
+            <td><span class="tag"><span class="dot d-neu"></span>Neutral</span></td>
+            <td class="r">312</td>
+            <td class="r"><span class="metric-cell"><span class="v">0.98</span>
+              <span class="bar"><i style="width:98%;background:var(--good)"></i></span></span></td>
+            <td class="r"><span class="metric-cell"><span class="v">0.42</span>
+              <span class="bar"><i style="width:42%;background:var(--bad)"></i></span></span></td>
+            <td class="r"><span class="metric-cell"><span class="v">0.59</span>
+              <span class="bar"><i style="width:59%;background:var(--warn)"></i></span></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="lede" style="margin-top:14px;font-size:13.5px">
+      Ayna deseni: minority sınıflarda <b>yüksek recall, düşük precision</b> (LLM "Support/Refute"
+      demeye hevesli), Neutral'da tam tersi. Model taraf <em>varmış gibi</em> okumaya meyilli.
+    </p>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Karışıklık matrisi</h2><span class="n">satır = gold · sütun = silver</span></div>
+    <div class="panel" style="padding:22px">
+      <div class="cm-wrap">
+        <div style="overflow-x:auto">
+          <table class="cm">
+            <tr>
+              <td class="corner">gold ↓ / silver →</td>
+              <th class="top">Support</th><th class="top">Refute</th><th class="top">Neutral</th>
+            </tr>
+            <tr>
+              <th class="rowlab">Support</th>
+              <td class="cell" style="background:var(--good)">29<small>doğru</small></td>
+              <td class="cell" style="background:#c9ccd6">2</td>
+              <td class="cell" style="background:#d7dae1">1</td>
+            </tr>
+            <tr>
+              <th class="rowlab">Refute</th>
+              <td class="cell" style="background:#b98fa0">6</td>
+              <td class="cell" style="background:var(--good)">48<small>doğru</small></td>
+              <td class="cell" style="background:#d7dae1">2</td>
+            </tr>
+            <tr>
+              <th class="rowlab">Neutral</th>
+              <td class="cell" style="background:var(--bad)">99<small>yanlış</small></td>
+              <td class="cell" style="background:#dd6a80">82<small>yanlış</small></td>
+              <td class="cell" style="background:var(--good)">131<small>doğru</small></td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <p class="cm-legend">Köşegen = isabet. Asıl hasar <span class="k">Neutral</span> satırında:
+            gerçekte nötr olan 312 segmentin büyük kısmı silver tarafından taraflı sanılmış.</p>
+          <div class="diag-note">Gerçek-Neutral segmentlerin <b>181'i</b> (99 + 82)
+            yanlışlıkla Support/Refute etiketlendi — tüm stance hatalarının ana kaynağı.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Hata örnekleri</h2><span class="n">silver ≠ gold</span></div>
+    <div class="err-grid">
+      <div class="err">
+        <div class="flow"><span class="pill p-silver">silver: Support</span><span class="arrow">→</span>
+          <span class="pill p-gold">gold: Neutral</span></div>
+        <p>"Söylediğin gibi, bu sadece sana seçim illüzyonu sunuyor. O oyunun ortamında yapabileceğin şey,
+          potansiyel olarak her şey olmalı…" — betimleyici; olumlu bir yargı yok.</p>
+        <div class="vid">-HzgcbRXUK8</div>
+      </div>
+      <div class="err">
+        <div class="flow"><span class="pill p-silver">silver: Refute</span><span class="arrow">→</span>
+          <span class="pill p-gold">gold: Neutral</span></div>
+        <p>"…today's systems definitely they can't do. So I often say it's harder to come up with a
+          conjecture than to solve it…" — teknik gözlem; endişe/karşıtlık değil.</p>
+        <div class="vid">-HzgcbRXUK8</div>
+      </div>
+      <div class="err">
+        <div class="flow"><span class="pill p-silver">silver: Support</span><span class="arrow">→</span>
+          <span class="pill p-gold">gold: Neutral</span></div>
+        <p>"Evolutionary methods is one, but you could also imagine Monte Carlo Tree Search…" —
+          yöntem sayımı; herhangi bir duruş bildirmiyor.</p>
+        <div class="vid">-HzgcbRXUK8</div>
+      </div>
+      <div class="err">
+        <div class="flow"><span class="pill p-silver">silver: Refute</span><span class="arrow">→</span>
+          <span class="pill p-gold">gold: Neutral</span></div>
+        <p>"…just make a better version of yourself. That's too unconstrained. But we've done it… with
+          AlphaEvolve, faster matrix…" — nüanslı, tartışmalı ama tarafsız anlatım.</p>
+        <div class="vid">-HzgcbRXUK8</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <strong>Yöntem.</strong> Gold set iki turda kuruldu (200 + 200): pipeline'ın LLM etiketleri
+    <code>*_silver</code> olarak dondurulup her segment insan onayından geçirildi
+    (<code>reviewed=true</code>). Uyum = silver vs gold, Cohen κ. Landis–Koch:
+    &lt;0.20 zayıf · 0.21–0.40 orta-altı · 0.41–0.60 orta · 0.61–0.80 güçlü · &gt;0.80 neredeyse tam.
+    Üreten script'ler: <code>src/build_gold_sample.py</code>, <code>src/evaluate_gold.py</code>,
+    <code>src/compute_agreement_nolib.py</code>.
+  </footer>
+</div>
