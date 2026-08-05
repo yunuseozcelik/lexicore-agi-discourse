@@ -172,6 +172,15 @@ td.cellwrap{padding:2px}
 .hbar.best .hfill{background:var(--accent)}
 .hval{font-family:var(--mono);font-weight:700;text-align:right}
 
+.mm{border-collapse:collapse;font-size:13px;width:100%;min-width:480px}
+.mm th,.mm td{padding:9px 12px;text-align:right;border-bottom:1px solid var(--line)}
+.mm th:first-child,.mm td:first-child{text-align:left;font-weight:600}
+.mm thead th{color:var(--muted);font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-bottom:1.5px solid var(--line-strong)}
+.mm td.val{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.mm td.win{color:var(--accent);font-weight:700}
+.mm td.win::after{content:" ★";font-size:10px}
+.mm td.drop{color:var(--ref);font-weight:700}
+.mm tbody tr:last-child td{border-bottom:none}
 .cm{border-collapse:separate;border-spacing:3px;font-family:var(--mono);font-size:12px}
 .cm th{font-weight:600;color:var(--muted);font-family:var(--sans);font-size:11px;padding:3px}
 .cm td{width:52px;height:40px;text-align:center;border-radius:6px;font-weight:700}
@@ -333,6 +342,24 @@ footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);f
         <div style="overflow-x:auto"><table class="cm" id="confusion"></table></div>
         <p class="note" id="cm-note"></p>
       </div>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <h3>Üç görev, üç model — hangisi kazandı?</h3>
+      <p class="hint">Silver etiket, 5-fold CV, Macro-F1. Her görev için ayrı model; TF-IDF baseline'a karşı damıtılmış BERT.</p>
+      <div style="overflow-x:auto"><table class="mm" id="model-matrix"></table></div>
+      <p class="note">Stance'te BERT-base net kazandı (bağlam + olumsuzluk). Claim'de de BERT önde. Speaker'da
+        modeli büyütmek <b>işe yaramadı</b> — az örnekli konuşmacılar yüzünden BERT-base, DistilBERT'in altında.</p>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <h3>Dürüst genelleme — sayılar sızıntısız ölçülünce ne oluyor?</h3>
+      <p class="hint">Aynı TF-IDF modeli üç ayarda: (a) segment 5-fold (bildirilen), (b) video-holdout
+        (aynı video train+test'te olamaz), (c) insan gold'una karşı test.</p>
+      <div style="overflow-x:auto"><table class="mm" id="honest-matrix"></table></div>
+      <p class="note"><b>Claim en sağlam</b> — üç ayarda da benzer (video değişince çökmüyor).
+        <b>Stance</b> düşüyor (silver gürültüsü). <b>Speaker çöküyor</b> (0.66→0.04): model konuşmacıyı değil,
+        <b>videoyu</b> ezberliyor — çoğu kişi tek videoda olduğu için yeni videoda tanıyamıyor. Dürüst sınır.</p>
     </div>
 
     <div class="grid2" style="margin-top:18px">
@@ -528,6 +555,9 @@ function buildResults(){
         color:${a>0.5?'#fff':'var(--ink)'}">${v}</td>`;}).join('')+'</tr>';});
   $('#confusion').innerHTML=h;
   $('#cm-note').innerHTML='Alt satıra bak: gerçekte <b>Tarafsız</b> olan 314 segmentin 100’ü “Destek”, 82’si “Karşı” sanıldı — κ’nın düşük olma sebebi bu.';
+  // --- 3-görev × model matrisi ---
+  buildModelMatrix();
+  buildHonestMatrix();
   // model bars
   const m=DATA.models.stance;
   $('#bars-model').innerHTML=hbars([['TF-IDF (baseline)',m.tfidf],['DistilBERT (66M)',m.distilbert],['BERT-base (110M)',m.bertbase]],0.7);
@@ -544,6 +574,48 @@ function buildResults(){
          <div class="kd">valid ${j.counts.valid} · unclear ${j.counts.unclear} · <b>invalid sadece ${j.counts.invalid}</b>.
          Hakem “yanlış” neredeyse hiç demiyor; “karar veremiyorum” diyor.</div></div></div>`+
     hbars(cats.map(([id,c])=>[catName(id),c.rate]),1.0,true);
+}
+function buildModelMatrix(){
+  // Macro-F1, silver 5-fold CV. (Speaker'da claim yok; claim tek-model degeri.)
+  const rows=[
+    {task:'Stance (duruş)',      tfidf:0.566, distil:0.583, bert:0.606},
+    {task:'Claim (iddia, macro)',tfidf:0.365, distil:0.436, bert:0.442},
+    {task:'Speaker (konuşmacı)', tfidf:0.661, distil:0.564, bert:0.549},
+  ];
+  const f=v=>v==null?'—':v.toFixed(3);
+  let h='<thead><tr><th>Görev</th><th>TF-IDF</th><th>DistilBERT<br>66M</th><th>BERT-base<br>110M</th><th>Kazanan</th></tr></thead><tbody>';
+  for(const r of rows){
+    const vals=[['tfidf',r.tfidf],['distil',r.distil],['bert',r.bert]].filter(x=>x[1]!=null);
+    const best=vals.reduce((a,b)=>b[1]>a[1]?b:a);
+    const name={tfidf:'TF-IDF',distil:'DistilBERT',bert:'BERT-base'};
+    h+=`<tr><td>${r.task}</td>`+
+       ['tfidf','distil','bert'].map(k=>{const v=r[k];
+         return `<td class="val${k===best[0]?' win':''}">${f(v)}</td>`;}).join('')+
+       `<td>${name[best[0]]}</td></tr>`;
+  }
+  h+='</tbody>';
+  document.getElementById('model-matrix').innerHTML=h;
+}
+function buildHonestMatrix(){
+  // Ayni TF-IDF modeli, 3 ayar (honest_eval.py cikti). Macro-F1.
+  const rows=[
+    {task:'Claim (macro)', a:0.365, b:0.324, c:0.367, note:'sağlam'},
+    {task:'Stance',        a:0.573, b:0.515, c:0.419, note:'düşüyor'},
+    {task:'Speaker',       a:0.661, b:0.041, c:null,  note:'çöküyor'},
+  ];
+  const f=v=>v==null?'—':v.toFixed(3);
+  let h='<thead><tr><th>Görev</th><th>(a) segment<br>5-fold</th><th>(b) video<br>holdout</th>'+
+        '<th>(c) insan<br>gold</th><th>Durum</th></tr></thead><tbody>';
+  for(const r of rows){
+    const drop = r.b!=null && r.a!=null && (r.a-r.b)>0.15;   // ciddi dusus
+    h+=`<tr><td>${r.task}</td>`+
+       `<td class="val">${f(r.a)}</td>`+
+       `<td class="val${drop?' drop':''}">${f(r.b)}</td>`+
+       `<td class="val">${f(r.c)}</td>`+
+       `<td>${r.note}</td></tr>`;
+  }
+  h+='</tbody>';
+  document.getElementById('honest-matrix').innerHTML=h;
 }
 function hbars(rows,scale,pct,bestLab){
   const mx=Math.max(...rows.map(r=>r[1]));
