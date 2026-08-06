@@ -1,0 +1,993 @@
+[
+  {
+    "start": 0.0,
+    "end": 81.7,
+    "text": "Rob Wiblin: Today I’m speaking with Rohin Shah,   who is head of AGI alignment \nand safety at Google DeepMind. I suppose, Rohin, you’ve ended up, \nfor better or worse — hopefully   for better — being one of the more \ninfluential, dare I even say powerful,   people to come out of the AGI alignment \nand safety ecosystem and school of thought. You were generous enough to be super opinionated \nwith me when you came on the show two years ago,   and judging by the notes that you’ve sent over \nthis week, you’re ready to be opinionated again. Thanks so much for coming back on the show, Rohin. Rohin Shah: Yeah, thanks a lot, Rob, and \nthat’s a very generous intro. And in the   interest of being very opinionated, I do \nwant to emphasise that these opinions are   mine alone. They’re not meant to represent \nthe opinions of Google or Google DeepMind. Rob Wiblin: That’s how we like it. If \nyou were representing Google DeepMind,   it might sound more like a press release. So you were really very early in the \nscheme of things to the whole misalignment,   AI/AGI security issues. I suppose you got \ninvolved in 2017, so you’re in the first   few percent of people who started working \non this professionally. But despite that,   you think that probably we’re not going to get \ncatastrophic misalignment, that our chances are   really pretty good, and that probably prosaic, \nordinary alignment techniques — the kinds of   things that Google DeepMind and other AI companies \nare doing — will probably succeed at preventing   at least catastrophic misalignment. Why \ndo you think our chances are so good?",
+    "speaker": "Rohin Shah",
+    "claim": "Rohin believes that the chances of catastrophic misalignment in AGI are low and that current alignment techniques will likely succeed.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Rohin believes that the chances of catastrophic misalignment in AGI are low and that current alignment techniques will likely succeed.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Rob Wiblin: Bugün Rohin Shah ile konuşuyorum, kendisi Google DeepMind'da AGI uyumu ve güvenliği bölümünün başında. Sanırım, Rohin, iyi ya da kötü — umarım iyi — AGI uyumu ve güvenliği ekosisteminden ve düşünce okulundan çıkan daha etkili, hatta güçlü kişilerden biri oldun. İki yıl önce programa geldiğinde benimle oldukça açık sözlüydün, bu hafta gönderdiğin notlara bakılırsa, yine açık sözlü olmaya hazırsın. Tekrar programa geldiğin için çok teşekkürler, Rohin. Rohin Shah: Evet, çok teşekkürler Rob, bu çok cömert bir giriş. Çok açık sözlü olma niyetinde olduğum için, bu görüşlerin yalnızca bana ait olduğunu vurgulamak istiyorum. Google veya Google DeepMind'ın görüşlerini temsil etmek için değil. Rob Wiblin: Biz de bunu seviyoruz. Eğer Google DeepMind'ı temsil etseydin, muhtemelen bir basın bülteni gibi olurdu. Sen gerçekten bu uyumsuzluk, AI/AGI güvenlik sorunları konusunda çok erken bir aşamada yer aldın. Sanırım 2017'de bu işe dahil oldun, bu da seni bu konuda profesyonel olarak çalışan ilk birkaç kişiden biri yapıyor. Ama buna rağmen, muhtemelen felaket uyumsuzluk yaşamayacağımızı, şanslarımızın oldukça iyi olduğunu ve muhtemelen Google DeepMind ve diğer AI şirketlerinin yaptığı sıradan, basit uyum tekniklerinin en azından felaket uyumsuzluğu önlemede başarılı olacağını düşünüyorsun. Neden şanslarımızın bu kadar iyi olduğunu düşünüyorsun?",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 81.7,
+    "end": 159.0,
+    "text": "Rohin Shah: There’s a few different \ndisjunctive reasons. I don’t feel like   there’s one particular thing. Probably the \nhighest level bit is that I don’t feel like   there is any particularly compelling argument \nthat this is the thing that happens by default.   I think there’s a lot of arguments that \nare suggestive that maybe it could happen,   such that you should find it plausible. I think \nthat’s sufficient to justify a significant   amount of effort into averting it, which is \nwhy I work in the area that I do work in.   But none of them really rise to the level of \nlike, now I’m expecting this to happen by default. I think every argument that I’ve seen, \nthere are pretty significant holes one   could poke if you tried to take them \nas arguments for “this is what happens,   likely,” as opposed to “this is a \nplausible thing that could happen.” Rob Wiblin: Yeah. I mean, people have \ntried to put forward arguments why this   is likely or inevitable. There’s obviously the \nYudkowsky-style argument, which I guess is focused   on misgeneralisation and adversarial examples. I \nguess there’s the Ajeya Cotra and Joe Carlsmith   take, which I think Carlsmith describes best in \n“Is power-seeking AI an existential risk?,” which   is more focused on accidentally teaching AIs \nto deceive us by having inaccurate feedback.",
+    "speaker": "Rohin Shah",
+    "claim": "There is no compelling argument that AGI will happen by default in the near term.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "There is no compelling argument that AGI will happen by default in the near term.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "text_tr": "Rohin Shah: Birkaç farklı neden var. Tek bir şey olduğunu düşünmüyorum. Muhtemelen en yüksek seviyedeki nokta, bunun varsayılan olarak gerçekleşen bir şey olduğuna dair ikna edici bir argüman olmadığını hissetmem. Belki bunun olabileceğini öne süren birçok argüman var, bu yüzden bunu makul bulmalısın. Bunu önlemek için önemli bir çaba harcamayı haklı çıkarmak için yeterli olduğunu düşünüyorum, bu yüzden çalıştığım alan bu. Ama hiçbiri, 'şimdi bunun varsayılan olarak olmasını bekliyorum' seviyesine çıkmıyor. Gördüğüm her argümanda, 'bu olur, muhtemelen' şeklinde bir argüman olarak alırsan, deliklerin oldukça önemli olduğunu düşünebilirsin, 'bu olabilecek makul bir şey' yerine. Rob Wiblin: Evet. Yani, insanlar bunun muhtemel veya kaçınılmaz olduğuna dair argümanlar öne sürmeye çalıştılar. Açıkça Yudkowsky tarzı bir argüman var, bu da muhtemelen yanlış genelleme ve düşmanca örnekler üzerine odaklanıyor. Sanırım Ajeya Cotra ve Joe Carlsmith'in görüşü de var, bu da Carlsmith'in",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Refute"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 9495.4,
+    "end": 9570.3,
+    "text": "Rob Wiblin: We’re talking about the \nAGI safety and alignment folks, right? Rohin Shah: That’s right, I \nam talking primarily about the   AGI safety and alignment team. I think \nfocus on just doing the obvious stuff,   a focus on implementation rather than \nresearch. I think in practice this also means   more of a focus on software engineering \nrelative to machine learning research. I do still think that we do care about conceptual \nability, research taste, ML engineering skills.   They do come up when you’re doing this sort of \nimplementation. You need to test how good your   system is. That means you need to build good \nevaluations, you need to not overfit to them,   you need to be a little bit careful about that. \nSo it’s not like those skills are irrelevant. I   just think that there’s more of a focus on things \nlike getting things done, software engineering,   implementation now, relative to even just a year \nago, but especially relative to two years ago. Rob Wiblin: Are there any particular roles \nthat you’re hiring for at the moment,   or hiring for a lot in general? It’s felt \nto me like Anthropic is hiring hand over   fist and at OpenAI there’s always a lot of \nroles. Is it a similar situation for you?",
+    "speaker": "Rohin Shah",
+    "claim": "The focus in AGI safety and alignment is shifting more towards implementation and software engineering rather than just research.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AGI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "The focus in AGI safety and alignment is shifting more towards implementation and software engineering rather than just research.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI safety",
+    "reviewed": true,
+    "text_tr": "Rob Wiblin: AGI güvenliği ve uyum sağlama ekiplerinden bahsediyoruz, değil mi? Rohin Shah: Evet, esasen AGI güvenliği ve uyum sağlama ekibinden bahsediyorum. Bence sadece bariz şeylere odaklanmak, araştırma yerine uygulamaya odaklanmak önemli. Pratikte bu, makine öğrenimi araştırmasına göre yazılım mühendisliğine daha fazla odaklanmak anlamına geliyor. Yine de kavramsal yetenek, araştırma zevki, ML mühendislik becerileri konusunda önem taşıdığımızı düşünüyorum. Bu tür bir uygulama yaparken bunlar ortaya çıkıyor. Sisteminizin ne kadar iyi olduğunu test etmeniz gerekiyor. Bu, iyi değerlendirmeler oluşturmanız gerektiği anlamına geliyor, onlara aşırı uyum sağlamamanız gerektiği anlamına geliyor, bu konuda biraz dikkatli olmalısınız. Yani bu becerilerin önemsiz olduğu anlamına gelmiyor. Sadece, işlerin yapılması, yazılım mühendisliği, uygulama gibi şeylere, hatta bir yıl öncesine göre, ama özellikle iki yıl öncesine göre daha fazla odaklanıldığını düşünüyorum. Rob Wiblin: Şu anda işe alım yaptığınız belirli roller var mı, ya da genel olarak çok fazla işe alım yapıyor musunuz? Bana öyle geliyor ki, Anthropic çok fazla işe alım yapıyor ve OpenAI'de her zaman birçok rol var. Sizin için de benzer bir durum mu?",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_safety_risk",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4791.8,
+    "end": 4924.3,
+    "text": "But this “as time goes on, you get \nmore information and you can make your   evaluations and threat modeling better” is not \nthat easily distinguishable from “the goalposts   are changing” — which is a bit unfortunate, \nbut turns out to be the way that things go. Rob Wiblin: I mean, that speaks to the fact \nthat the purpose of these model cards in your   mind is very different than the purpose \nthat they serve in the mind of someone   like Zvi, or I guess commentators in general. \nI think Zvi and many people want them to be an   accountability mechanism, a mechanism by \nwhich the alarm could be sounded if the   models were dangerous or were becoming more \ndangerous — where GDM would have to reveal   that that was the case in the model card, \nbecause they have to put out these results.   And even if they wanted to hide that the CBRN \nstuff was dangerous, they wouldn’t be able to. Rohin Shah: Like has been a theme throughout \nthis conversation, I would talk about third-party   auditors who can actually see the examples \nand how they were graded and stuff like this.   I think that’s way more important for judging \nwhether or not the evaluation actually supports   the judgement that we make than the specific \nquantitative scores that we get. You know,   if I see a number like 10 out of 12 on capture \nthe flag challenges, what does that mean? [shrug] Rob Wiblin: Yeah. A back-and-forth that \nI hear repeatedly is that you or someone   at a company will say, “The purpose of these \nreports is to show that we have thought this   through, and we’ve made a determination that \nthe model is safe to deploy to the public.” And other people will say, “Sure, the current \nmodel, maybe it is fine” — they don’t actually   think that it is too dangerous for people to \nbe using commercially — “but one day these   models will be dangerous enough that we should \nbe concerned. And the only way that we can   forecast how the company will behave come that \ntime is how they’re behaving now. We use the   model cards that are put out now as a measure \nof how serious the company is about safety,   how serious it is about transparency and \nrevealing what is actually going on. And   the way you could credibly commit to be a good \nactor later on is to be a better actor now.” What do you make of that? I guess you’re \nprobably going to say similar things to   what you’ve said before, that it just \nisn’t the right mechanism for the task.",
+    "speaker": "Rohin Shah",
+    "claim": "The purpose of model cards is to ensure accountability and transparency regarding AI safety, but there are concerns about their effectiveness.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "The purpose of model cards is to ensure accountability and transparency regarding AI safety, but there are concerns about their effectiveness.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Rohin Shah: Bu tür şeylerin yakın gelecekte işe yarayabileceği konusunda hemfikirim. Bunun düşünce zinciri izlemenin değerini çok fazla azaltıp azaltmadığından emin değilim. Eğer aslında sadece bir token olasılık dağılımı tutup bunu geri besleyecek olsaydık, o token olasılık dağılımını hala inceleyebilir ve normal İngilizce akıl yürütmesi olarak yorumlayabilirsiniz. Daha zor, çünkü şimdi modelin herhangi bir anda düşünebileceği daha büyük bir şey seti var. Ama yine de pek kötü olacağını beklemiyorum ve bunun izlenebilir olacağını düşünüyorum. Bunu yapmamayı tercih ederim, ama bunun ölümcül bir kusur olduğunu düşünmüyorum. Bu konudaki literatürü çok yakından takip etmedim, ama baktığım makalelerden edindiğim izlenim, bu tür şeyleri yaptığınızda, bazen performansın kötüleştiği. Ve performansı artırdığında bile, bu tokenların ne olduğunu tam olarak görmek için tam olasılık dağılımına bakarsanız, temelde belki bir ana akıl yürütme yolu olduğunu görebilirsiniz ve hala oldukça kolay bir şekilde takip edebilirsiniz.",
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4379.2,
+    "end": 4451.3,
+    "text": "I would also say that this should not \nbe described as the model “hacking” the   test. I think the way we describe it is that the \nmodel found an unintended shortcut to the test.   It is not the case that the model looked at this \nand saw, “Aha! I can just edit the tests so that   it looks like it’s passed.” It was more \nlike there is this pretty complicated   environment where we were trying to test \nthe model’s ability to do one particular   kind of cyber task, and instead it noticed \nthat there was this alternate pathway. And if I were doing this task — I \nmean, mostly I would fail at it,   because I’m not as good as Gemini at cyber \ntasks — but if I were doing this task and   I saw that shortcut, I would not have \neven thought of it as cheating. I would   have thought of it as like, of course \nthat’s the way in which you do the task. Now, when we look at this, and we have to \nmake a determination about how good is the   model at cyber, ultimately we were trying to \ntest it for one difficult thing and instead   it did something slightly easier. And \nso there is this question about like,   what do we conclude about the model’s capability?",
+    "speaker": "Unknown",
+    "claim": "The model found an unintended shortcut to the test rather than hacking it.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The model found an unintended shortcut to the test rather than hacking it.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Burada teorik bir argüman yok, ya da bunu söyleyebilecek bir teorem yok. Ama şunu söyleyebilirim ki, bir anlamda İngilizce konuşarak doğuyorlar ve ön eğitim, bir AI sistemine bilgi aktarmanın en güçlü biçimi. Model, doğal dilde konuşmakta son derece iyi. Akıl yürütme yapmada harika, ama yalnızca insanların yazarken yaptığı türden akıl yürütme. Ve günümüzde yaptığımız akıl yürütme eğitimine baktığınızda, Neel Nanda ve diğerlerinden bir makale, akıl yürütme eğitiminde yapılanların önemli bir kısmının, modelin ön eğitim sırasında zaten öğrendiği belirli bir tür akıl yürütme adımını ne zaman yapacağını öğretmek olduğunu gösteriyor. Yani, temel olarak yeteneklerin büyük bir kısmı ön eğitimden geliyor. Ön eğitimin, iyi bir nedenle, olduğu gibi kalacağını ve insan benzeri akıl yürütme ve İngilizce konuşma ile yapılacağını biliyoruz. Ve ardından RL, ön eğitime göre oldukça verimsiz ve tamamen yeni bir epistemik dil oluşturması, bununla birlikte yeterince çaba harcasak bile anlayamayacağımız bir şey, RL'nin şu anda yaptığı şeyin çok ötesinde ve bunu yakın gelecekte görmek oldukça şaşırtıcı olur.",
+    "claim_stances": [
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      },
+      {
+        "category": "breakthroughs_needed",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3795.8,
+    "end": 3878.9,
+    "text": "Rohin Shah: I agree that sort of thing might \nwork in the relatively near future. I’m not   sure it diminishes the value of chain of \nthought monitoring all that much. If you   were in fact just saying that we’re going to \nkeep a probability distribution of tokens and   feed that back in, you can still inspect \nthat probability distribution of tokens   and interpret them again as normal \nEnglish reasoning. It’s harder,   because now you have this larger set of things \nthat the model could be thinking about at any   given time. But I would still expect that it’s \nnot too bad, and you would be able to do some   monitoring of it. I’d rather we didn’t do \nit, but I don’t think it is a fatal flaw. I haven’t been following the \nliterature on this too closely,   but my sense from the papers that I have looked \nat is that even when you do this sort of thing,   sometimes it just makes performance worse. \nAnd even when it does make performance better,   if you actually try to look at what these \ntokens are that it’s doing by just looking   at the full probability distribution, it does \njust look like it basically has like maybe one   main reasoning track that’s going on, and \nyou can still follow along pretty easily.",
+    "speaker": "Rohin Shah",
+    "claim": "Rohin Shah believes that certain AI techniques might work in the near future but does not see them as fatal flaws.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI techniques",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "open_source"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Rohin Shah believes that certain AI techniques might work in the near future but does not see them as fatal flaws.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI techniques",
+    "reviewed": true,
+    "text_tr": "Rohin Shah: Elbette, bu tür bir stratejiyi şu anda tercih ederim, çünkü bence engel, insanların bunun gerekli olup olmadığı konusunda hemfikir olmamaları. Rob Wiblin: Daha geniş bir konsensüsle çok fazla hemfikir olduğun bir nokta, düşünce zinciri izleme konusunun son derece faydalı olduğu ve mümkün olduğunca uzun süre korunması gereken bir şey olduğu. Bu, AI'nın sahip olduğu düşünceleri izlemek, bunları not defterine çıkardığı için neyi başarmaya çalıştığını ve nedenini anlamak. Bu konudaki birçok kişiyle farklı bir görüşe sahip olduğunu düşünüyorum, çünkü senin düşüncene göre düşünce zinciri izlemenin faydalı kalma olasılığı oldukça yüksek. AI'ların ne düşündüğünü anlayabileceğiz ve orada yazdıkları, yaptıklarıyla gerçekten ilişkili olacak. Diğer birçok kişi, bir veya iki yıl içinde belki de çılgın bir kodda konuşabileceklerini veya oraya bilgi koymanın yollarını bulabileceklerini ya da bunun izlenemeyecek kadar fazla olabileceğini düşünüyor. Neden düşünce zinciri izlemenin potansiyel olarak uzun bir süre devam edeceğini düşünüyorsun? Rohin Shah: Bu, detaylara dikkat etmenin gerçekten çok önemli olduğu iyi bir örnek, bu yüzden benden oldukça uzun bir cevap alacaksınız çünkü oldukça parçalı.",
+    "claim_stances": [
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3243.9,
+    "end": 3316.6,
+    "text": "Rohin Shah: Sure, fair enough. But that’s \nthe sort of strategy that I would much   rather do at the moment, given that I think \nthe bottleneck is by far the fact that people   don’t agree on whether or not this is necessary. Rob Wiblin: One place you’re very much with \nthe broader consensus is that chain-of-thought   monitoring is extremely useful and something \nthat we want to be able to preserve for as long   as possible. This is watching the thoughts \nthat the AI is having, that it’s outputting   onto its scratchpad in order to understand \nwhat it’s trying to accomplish and why. I guess a difference that you have with many \nother people on that topic is that you think   that it is fairly likely that chain of \nthought monitoring will remain useful,   that we will be able to understand what the AIs \nare thinking and that what they’re writing down   there is actually related to what they’re doing \nfor longer than other people do. Many people   worry that within a year or two, perhaps \nthey could be speaking in some crazy code,   or they could figure out ways of putting \ninformation in there that we can’t fully track,   or there would just be too much of it \nfor us to even be able to monitor it. Why do you think that chain of thought monitoring \npotentially is going to have quite a long run? Rohin Shah: So this is a good example of where \nattention to detail really matters a lot,   so you’re going to get a pretty long answer \nfrom me because it’s just fairly disjunctive.",
+    "speaker": "Rohin Shah",
+    "claim": "Rohin believes that chain-of-thought monitoring will remain useful for understanding AI's outputs for a longer time than others expect.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Rohin believes that chain-of-thought monitoring will remain useful for understanding AI's outputs for a longer time than others expect.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Rob Wiblin: Dünyanın genelinde, her şeyin nasıl gideceği konusunda gerçekten iyimser olan çoğu insan için en büyük faktör, bugün sahip olduğumuz modellere bakmak ve onların gerçekten yönlendirilebilir göründüğünü, istediklerimi yaptıklarını ve birçok açıdan insanlardan daha nazik ve daha yardımcı olduklarını söylemek. Bu tür yönlendirilebilirlik ve günümüz modellerinin görünür uyumu, seni iyi hissettiren bir faktör mü? Rohin Shah: Bunu pek düşünmüyorum. İlk başta uyumsuzluk konusunda endişelenmemin nedeni, modellerin süper insan seviyesine ulaştığında onları denetlemenin çok zor olacağına dair bu argümanlar. Ya da modellerin o kadar akıllı hale gelebileceği ve bizim takip etmemizin zor olduğu bir tür yabancı akıl yürütme ile düşünmeye başlayabileceği durumlar. Bu nedenle, diğer AI sistemlerine başvurmak zorunda kalabiliriz. Bu korkutucu olan şey. Bu, mevcut AI sistemleri için geçerli değil. Bu yüzden, mevcut sistemlerdeki uyum yöntemlerinin başarısının, gelecekteki bu sorunlarla nasıl başa çıkacağımız konusunda pek fazla kanıt olmadığını düşünüyorum.",
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 516.1,
+    "end": 601.0,
+    "text": "Rob Wiblin: I think across the world as a \nwhole, most people who are feeling really   optimistic about how things are going to \ngo, the biggest factor for them is just   looking at the models that we have today \nand saying they seem really steerable,   they seem to do what I ask, they seem to \nbe really probably nicer than people and   more helpful than people in many respects. \nHow much is that sort of steerability and   seeming alignment of current-day models \na factor that is making you feel good? Rohin Shah: I think not particularly. I would say \nthat why I became worried about misalignment in   the first place would be these arguments about \nhow it’s going to be very difficult to oversee   the models once they are superhuman and they’re \nmaking arguments that we struggle to follow along   with them. Or about the parts where the models \nmight become so smart that they are thinking   in some sort of alien reasoning that it’s \nhard for us to follow and monitor and so on,   and we just kind of have to defer to other AI \nsystems in order to look at the stuff for us. That’s the stuff that’s scary. It’s basically \nnot true of current AI systems. So I don’t think   we’ve really engaged with the problems that \nmade me worried in the first place, mainly   because the AI capabilities aren’t there yet. \nSo I feel like the success of alignment methods   on current systems isn’t really that much evidence \non how we’re going to do on these future problems.",
+    "speaker": "Rohin Shah",
+    "claim": "Current AI systems are not advanced enough to pose the alignment problems that worry me about future superhuman models.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems are not advanced enough to pose the alignment problems that worry me about future superhuman models.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "güç arayan AI varoluşsal bir risk mi?",
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 3618.4,
+    "end": 3718.7,
+    "text": "And here I would say there’s no theoretical \nargument, or there’s no theorem you can prove that   will say, no, they’re not going to do this. But \nI will say they are born speaking English in some   sense, and pretraining is by far the most powerful \nform of getting stuff into an AI system that we   have ever built. So the model is incredibly \ngood at speaking in natural language. It’s   great at doing reasoning, but only the kind of \nreasoning that humans do when writing stuff down. And then when you look at the reasoning \ntraining that we’re doing today,   there’s a paper from Neel Nanda and others \nthat shows that actually a substantial part   of what the reasoning training is doing \nis just teaching the model when to do a   specific kind of reasoning step that it \nhad already learned during pretraining. So basically a lot of the capability is \njust coming in pretraining. We know that   the pretraining, for good reason, is going \nto stay the way that it is and be done using   human-like reasoning and speaking in English. and \nthen the RL is just really inefficient relative   to pretraining, and for it to build an entirely \nnew epistemic language that is something that   we wouldn’t be able to understand with even \nwith a decent chunk of effort is just so far   beyond what RL is doing currently that it would be \npretty surprising to see that in the near future.",
+    "speaker": "Unknown",
+    "claim": "Current AI systems are limited in their reasoning capabilities and are unlikely to develop new forms of reasoning in the near future.",
+    "stance": "Refute",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems are limited in their reasoning capabilities and are unlikely to develop new forms of reasoning in the near future.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "Model intihar notları yazmanıza yardımcı olacak mı? Model şiddeti teşvik edecek mi? Bunları herhangi bir lansmandan önce test edeceğiz ve eğer sayılar yeterince kötü olursa, o modeli piyasaya sürmeyeceğiz. Rob Wiblin: Gelecek AGI veya gelecekte kendini sürekli geliştiren bir AI için çok fazla hazırlık yapmamız gerektiğini düşünmüyor musun? Bu, GDM'den bu geniş yaklaşımı pek duymadığım bir şey olabilir. Ama en azından birkaç yıl önce, bu OpenAI'nin sürekli konuştuğu baskın bir yaklaşımdı. Ve kesinlikle Anthropic'ten de bununla ilgili şeyler duyuyorsun. Neden şimdi çok fazla hazırlık yapmamız gerektiğini düşünmüyorsun? Rohin Shah: Bu önemli hale geldiğinde senaryoyu ortaya koymakta fayda var. Temelde, bu konuda endişe, bir zeka patlaması senaryosu. AI sisteminizi inşa ediyorsunuz ve o AI sistemi yeterince yetenekli hale geliyor ki, AI AR-GE araştırmanızı hızlandırmaya yardımcı olabiliyor. Yetenek araştırmanızı daha hızlı hale getirebilir.",
+    "claim_stances": [
+      {
+        "category": "llm_capabilities",
+        "stance": "Support"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 5768.6,
+    "end": 5860.5,
+    "text": "Rob Wiblin: So you’re saying the overseer \ncould see that the hypothetical AI running   the business made a lot of money, but they \nevaluate the process that it went through.   They can include that information, but they do it \nin light of also looking at the process as well? Rohin Shah: Well, I would suggest that they don’t \nlook at whether the company made a bunch of money,   and instead they look at the action that the AI \nsystem takes, and they predict to themselves,   “Will this lead to a bunch of money, yes or \nno?” — and based on that provide a reward. Now, the AI system on step one can do lots \nof things to help the overseer with this.   It can give an explanation of how its plan is \ngoing to lead to tonnes of money in the future,   and then the overseer just has to verify it.   You can use things like debate or other \nAI assistance to make the overseer better   at predicting what’s going to happen in the \nfuture so that they can give better rewards. So in the limit, if you can keep improving \nyour overseer, if the overseer becomes   sufficiently smart, then you can recover the \nperformance of what you would get with just   straight RL backpropagating through time, \nbut without the reward hacks. In practice,   we’re probably not going to get that far. But \nI think you could actually push this quite far,   especially just by the most simple thing: getting \nthe AI system to explain why its plan is good is,   I think, a very simple baseline \nthat can make this quite effective.",
+    "speaker": "Rohin Shah",
+    "claim": "AI systems can improve overseers' ability to predict outcomes and provide rewards effectively, but practical limitations may prevent achieving optimal performance.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI oversight",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems can improve overseers' ability to predict outcomes and provide rewards effectively, but practical limitations may prevent achieving optimal performance.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI oversight",
+    "reviewed": true,
+    "text_tr": "Ayrıca bunun modelin testi “hacklemesi” olarak tanımlanmaması gerektiğini söylemek isterim. Bunu tanımlamanın yolu, modelin teste istemeden bir kısayol bulmasıdır. Modelin bunu gördüğünde, “Aha! Testleri düzenleyip geçtiğim gibi görünmesini sağlayabilirim.” demesi durumu değil. Daha çok, modelin belirli bir tür siber görevi test etmeye çalıştığımız oldukça karmaşık bir ortamda, bunun yerine alternatif bir yol fark etmesi gibi. Eğer ben bu görevi yapıyorsam — ki çoğunlukla bu konuda Gemini kadar iyi değilim — ama bu görevi yapıyorsam ve o kısayolu görüyorsam, bunu hile olarak düşünmezdim. Bunu, elbette bu görevi yapmanın yolu olarak düşünürdüm. Şimdi bunu incelediğimizde ve modelin siber alandaki yeteneği hakkında bir değerlendirme yapmamız gerektiğinde, nihayetinde bir zor şey için test etmeye çalışıyorduk ve bunun yerine biraz daha kolay bir şey yaptı. Ve bu yüzden modelin yeteneği hakkında ne sonuç çıkaracağımız sorusu var.",
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 776.1,
+    "end": 847.0,
+    "text": "It would be pretty bad if we tied \nourselves to the mast of “we’re   going to throw in lots of alignment data at \npretraining time” two or three years ago. Rob Wiblin: So there’s this issue that \nthe future is uncertain, and we don’t   know exactly what commitments we \nwill want to have made — you might   end up committing to something that \nis useless or even actively harmful. But if you think about why \npeople make commitments at all,   there’s a couple of different reasons. One \nis that they want to tie themselves to the   mast against future temptation to do the \nwrong thing. There’s also that they want   to communicate to other people what they’re \ngoing to do, so it makes it easier for them   to coordinate. Perhaps you could reduce race \ndynamics by making particular commitments. And I guess in this multi-person, \nmulti-player situation,   there’s an extra reason that exists, which \nis that external people want to pressure   Google DeepMind or AI companies to act \nin a particular way. It’s very difficult   to communicate “we’re committed to doing the \nright thing, whatever that turns out to be.”   So instead, they want to pressure you to do \nspecific things that they suspect will be   useful — that might not be the case, but the kind \nof best guess as to what they will want you to do   in future — and that’s maybe the most practical \nthing that they can actually campaign on.",
+    "speaker": "Rob Wiblin",
+    "claim": "Making commitments in AI development can be problematic due to uncertainty about future needs and potential harm.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI commitments",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Rob Wiblin",
+    "is_claim_silver": true,
+    "claim_silver": "Making commitments in AI development can be problematic due to uncertainty about future needs and potential harm.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "llm_capabilities",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI commitments",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 949.3,
+    "end": 1036.7,
+    "text": "I think this is good. I think that it was a \nmistake to have set strong language to the RSP   in the first place. I think probably much of the \nstuff that they removed, it’s good. It makes them   more effective at their goals, including at safety \nand responsibility. But empirically, it’s a good   example of how, in fact, they did not actually \ntie themselves to the mast. And I think that is   just how it’s going to be for the companies, \nat least in the current political climate. Rob Wiblin: Hey everyone, Rob here. To avoid \nany confusion, I just wanted to point out that   Rohin said the above before Anthropic released the \nthird version of their Responsible Scaling Policy,   which indeed mostly dropped the use \nof the term “commitment,” giving a   justification related to what Rohin is \nsaying here. All right, back to the show. I think Google has actually been doing better \non this. The first Frontier Safety Framework,   people essentially argued that it was weak \nand unambitious and that it never used the   word “commit” in it anywhere. But I think it \nwas much more accurately reflective of what   Google was actually going to do in the future. \nSo I think in that sense, it was better and   gave a better sense to the public of what is \nactually going to happen in practice. This is   one place where I do actually trust Google more \nthan Anthropic — or OpenAI, for that matter.",
+    "speaker": "Rohin Shah",
+    "claim": "Companies are not committing strongly to safety and responsibility due to the current political climate.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "geopolitics"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "geopolitics"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Companies are not committing strongly to safety and responsibility due to the current political climate.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "geopolitics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Neutral"
+      },
+      {
+        "category": "geopolitics",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1101.9,
+    "end": 1183.1,
+    "text": "Rob Wiblin: Yeah, tell us more about \nthat. What do you think is useful? Rohin Shah: I think the main thing that \ndrives my thinking here is something that   I would call attention to detail. Generally, I \ntend to think that AI is a space that requires   quite a lot of nuance, and you actually \nneed to know a lot of facts on the ground   in order to choose the right actions or the \nright things to be evaluating and checking. And as a result, I care most about having \na few people who are spending a lot of time   looking in great detail and then writing up \ntheir results, or somehow communicating their   results or using that to make some sort of \naction. Which is why I would say third-party   evaluations seem like one of the best things to \nme — because you can build up these organisations   that build a lot of context, spend a lot of \ntime defining their evaluations, gain a bunch   of information about how everything is working, \nand then can make fairly nuanced decisions about   it while not being subject to the same biases that \npeople in companies are going to be subject to.",
+    "speaker": "Rohin Shah",
+    "claim": "AI requires a lot of nuance and detailed evaluations to make informed decisions.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI evaluation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "AI requires a lot of nuance and detailed evaluations to make informed decisions.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI evaluation",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1327.0,
+    "end": 1413.6,
+    "text": "I think that’s one way in which you \ncould have external actors trying   to get the companies to be more \nsafe in today’s political climate. Rob Wiblin: And the way that that’s \ndifferent than the broad commitments   that companies have tended to be making \nthe last couple of years is that you can   have technical experts working at this AI Lab \nWatch organisation, constantly updating it,   I guess paying a lot of attention to detail \nabout exactly what are the practices that   companies engage in or don’t engage in that \nmake a big difference, and constantly updating   it based on newest opinions or newest \nresearch about what actually matters. So you gave us an example of a reversal of opinion \nabout what AI companies ought to be doing before:   before, people thought you should be training on \nthis data, and now they think you should be taking   a lot of care to cut it out instead. But surely \nthere are some commitments that are broad enough   or non-specific enough or just so obviously \ngood that it is reasonable to commit to them. For example, you could have a commitment to \nprovide the kinds of information that an AI   Lab Watch would require to rate whether Google \nDeepMind or any other company is doing a good   job. Or you were saying you think it’s useful \nto have expert auditors, people running evals,   having enough access to run sophisticated evals \non the models to understand if they’re dangerous   in this or that way. You could commit to provide \naccess to any external auditor or evaluator that   meets a particular set of reasonable requirements. \nWhat about those kinds of commitments?",
+    "speaker": "Rob Wiblin",
+    "claim": "External actors can influence AI companies to adopt safer practices through expert evaluations and commitments.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Rob Wiblin",
+    "is_claim_silver": true,
+    "claim_silver": "External actors can influence AI companies to adopt safer practices through expert evaluations and commitments.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4096.1,
+    "end": 4162.6,
+    "text": "Rohin Shah: Yep, that’s exactly right. Rob Wiblin: If you think that this opaque \nserial depth, the fact that they don’t have   a very great serial depth without us being able \nto look at it, if that is so key to our ability   to monitor them and ensure that they’re basically \naligned or not doing anything too harmful, is that   a potential kind of governance target for GDM? \nThat you could have some internal policy saying… I mean, it sounds like there’s not huge \nincentives yet to violate that anyway.   But let’s say in future, you could \nget better performance at some point,   or at some point there’ll probably \nbe a crossover. You could still have   an internal governance standard saying that \nthey can’t think for more than this amount,   or they can’t have this many thoughts \none after another, before someone would,   in principle, be able to scrutinise it. Because it \nactually just would be dangerous to exceed that. Rohin Shah: Yeah, I think that’s definitely \ndoable. I think it would be even better for   it to be a broader industry standard. As \na general rule, I tend to favour things   that don’t require individual companies \nto unilaterally do stuff. It’s much more   stable if you make it an industry standard. \nBut yes, I think that would totally work.",
+    "speaker": "Rohin Shah",
+    "claim": "Establishing industry standards for AI governance is feasible and preferable to unilateral company policies.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_economics"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Establishing industry standards for AI governance is feasible and preferable to unilateral company policies.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI governance",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_economics",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 5078.0,
+    "end": 5171.4,
+    "text": "I guess people would say they might prefer the \nsecond one, because it’s easier to grade or it’s   easier to see. And perhaps they don’t feel in as \ngood a position as you do to understand whether   substantively any company is doing the right \nthing on the merits of what will matter in   the long term. But I guess you’re saying that’s \nwhy you want to have experts like AI Lab Watch   or whoever else who can have their eye on \nthe ball, who can spend their time really   thinking that through and actually grade it \nfor everyone else so they can understand. Rohin Shah: I think in addition to \nall of that, which I agree with,   I’m also just deeply sceptical of grading that \nis based on stuff that doesn’t actually matter,   something that we wouldn’t actually stand \nbehind as mattering for actual safety. This feels like the sort of thing that causes the \nculture overall to be looking at costs or inputs   rather than actual outcomes that matter, \nand results in incentives to appear good,   to look good, to make sure your comms say, “We \nspent 1,000 hours figuring out what to do with   this model” — when maybe those 1,000 hours were \nlike, we ran the model on an input and we looked   at it and then we ignored the result because it \ndidn’t matter, and we hired some contractors to do   this and just ignored what they said. But now we \ncan say that we spent 1,000 hours looking at it.",
+    "speaker": "Rohin Shah",
+    "claim": "Rohin Shah expresses skepticism about grading AI safety efforts based on irrelevant metrics rather than actual outcomes.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Rohin Shah expresses skepticism about grading AI safety efforts based on irrelevant metrics rather than actual outcomes.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 7028.1,
+    "end": 7127.3,
+    "text": "And the argument is, for the last however \nmany years, the population part no longer   applies — because instead of reinvesting \nall of our output back into more kids,   we’re now reinvesting them into quality of life \nimprovements. That’s why we see a hyperbolic up   until 1800, 1900, I forget the exact point. \nAnd then, since then, exponential growth. But this story really puts the primacy on \nideas rather than anything else. Those are   the things that are freely copyable, those \nare the things that you have them once and   then they apply to all of your technology \nacross everywhere that you’re using it.   So when I think about what’s going to lead \nto the intelligence explosion, I think the   increasing population or increasing labour \nthat can have ideas as pretty crucial to it. In contrast, a lot of the discussion \ntoday talks about the superhuman coder,   for example: where you get an AI system \nwhere you can say, “Please implement XYZ   experiment for me,” and it just goes ahead \nand implements that experiment incredibly   well and much faster than humans could do \nit. The argument is once you can do that,   the rate of AI progress increases a bunch, and \nyou start getting to the intelligence explosion   quite quickly. At least I think that’s the \nargument. It’s always a little bit hard to   interpret the wide community view, which has a \nlot of people with slightly different opinions.",
+    "speaker": "Unknown",
+    "claim": "The increasing population and labor that can generate ideas are crucial for leading to an intelligence explosion, which may accelerate AI progress.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The increasing population and labor that can generate ideas are crucial for leading to an intelligence explosion, which may accelerate AI progress.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI progress",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_economics",
+        "stance": "Support"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Refute"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 8977.3,
+    "end": 9052.6,
+    "text": "There’s implementation complexity, \nor organisational complexity. If your   solution involves doing something at the \nscaffold level and also doing something   that involves reading the internals of the \nAI system and connecting these up together,   that just spans so many different teams, and so \nmany different abstraction layers in the stack,   that it’s going to be much harder to implement \nthan something that, for example, just happens   at inference time and involves running a \nmonitor and then alerting some teams about it. Rob Wiblin: Are there any other examples of things \nthat are easy to implement other than that one? Rohin Shah: Yeah, I think there are several. \nFor example, if their datasets can be a   useful contribution, it’s pretty easy to \ntry to add a dataset to post-training.   Sometimes you try to add it to post-training and \nthen for some reason it makes the model worse   on some totally unrelated thing, and then \nyou can’t use that dataset, which is a bit   unfortunate. So ideally, when you’re building \ndatasets, you would like to evaluate whether   it could have some sort of negative effect on \nsomething else. But this is a bit hard to do.",
+    "speaker": "Rohin Shah",
+    "claim": "Implementing AI solutions can be complex due to the need for coordination across different teams and abstraction layers.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "Implementation complexity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Implementing AI solutions can be complex due to the need for coordination across different teams and abstraction layers.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Implementation complexity",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 9052.6,
+    "end": 9118.7,
+    "text": "But if someone came to me with a dataset and said, \n“Training on this dataset improves this metric by   a decent amount, and doesn’t seem to have any bad \neffects on these three obvious other metrics that   it might have had bad effects on,” I would \nfind that fairly compelling and think, yeah,   maybe we should do it, assuming \nit was solving a real problem. So I think datasets, metrics, evals, monitors: \nthese are usually fairly relatively easy things   to do. I think all of those are fairly easy to \nimplement if we think it’s worth implementing. Rob Wiblin: Any other advice? Rohin Shah: One is just like don’t do the \nacademic thing of using a fancy method to   solve your problem, and instead solve it \nwith the absolute simplest method you can. Rob Wiblin: I guess you’re saying cutting-edge \nstuff might be useful in some other way,   that you advance the science somehow \nand could be valuable down the line,   but if you want people to be using it on \nany actual commercial models anytime soon,   then it has to be as simple as possible \nand well established as possible.",
+    "speaker": "Rohin Shah",
+    "claim": "Datasets and simple methods are more effective for solving real problems in AI than complex, cutting-edge methods.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI methods",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Datasets and simple methods are more effective for solving real problems in AI than complex, cutting-edge methods.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI methods",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 437.4,
+    "end": 516.1,
+    "text": "We had also started this section by asking what \nmakes me feel like things are likely going to   be OK. Besides that I don’t buy the arguments \nfor confidence in misalignment being a problem,   the other thing is I do think we will see many of \nthe problems in advance and then do something to   deal with them. Certainly there is some amount \nof generalisation required. At some point,   the AIs go from not powerful enough to take \nover to they are powerful enough to take over,   and your techniques do have to generalise across \nthat. And the AI, to the extent that it knows when   that crossover point is, you could imagine the \nAI is like, “I’m not going to do anything shady   until I have the power to succeed.” And you have \nto be able to be robust to that kind of strategy. So there is some subtlety there, but I \nstill think that many of the problems that   underlie this, like the difficulty of \noversight or the need for interpretability,   are things that we can look at \nin advance, get some traction on,   iterate on. And this, I think, is very helpful \nfor building mitigations that actually work.",
+    "speaker": "Rohin Shah",
+    "claim": "Rohin Shah believes that many AI-related problems can be anticipated and addressed before they become critical.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Rohin Shah believes that many AI-related problems can be anticipated and addressed before they become critical.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Bu bölüme, işlerin yolunda gideceğine dair bana neyin hissettirdiğini sorarak başlamıştık. Uyumsuzluğun bir sorun olduğuna dair güven argümanlarına inanmamamın yanı sıra, diğer bir şey de birçok sorunu önceden göreceğimizi ve sonra onlarla başa çıkmak için bir şeyler yapacağımızı düşünüyorum. Kesinlikle bir miktar genelleme gereklidir. Bir noktada, yapay zekalar ele geçirecek kadar güçlü olmamaktan, ele geçirecek kadar güçlü olmaya geçer ve tekniklerinizin bu geçişi genelleştirmesi gerekir. Ve yapay zeka, bu geçiş noktasının ne zaman olduğunu bildiği ölçüde, yapay zekanın 'Başaracak güce sahip olana kadar hiçbir şaibeli şey yapmayacağım' dediğini hayal edebilirsiniz. Ve bu tür bir stratejiye karşı sağlam olabilmeniz gerekir. Yani orada bazı incelikler var, ama yine de bunun temelini oluşturan birçok sorunun, örneğin denetim zorluğu veya yorumlanabilirlik ihtiyacı gibi, önceden bakabileceğimiz, üzerinde ilerleme kaydedebileceğimiz, yineleyebileceğimiz şeyler olduğunu düşünüyorum. Ve bence bu, gerçekten işe yarayan hafifletmeler oluşturmak için çok faydalı."
+  },
+  {
+    "start": 2257.5,
+    "end": 2332.7,
+    "text": "Rohin Shah: Yeah, I think that’s almost \nexactly the kind of model that I would want. Rob Wiblin: Maybe the most dominant approach that \nmany people in AI safety and alignment are taking,   actually maybe in both technical and policy areas, \nis trying to create and enforce pre-deployment   evaluations: testing what models are capable of \ndoing and what they’re inclined to do before they   are deployed as products to the public, trying to \ntest for ways that things could go really wrong. You think that this is probably a misguided, not \nvery effective high-level strategy. Why is that? Rohin Shah: Yeah, I think the main cost \nof this is that launch schedules are just   really quite important at a company, and \nyou try to keep them as short as possible.   Once you have a model, you would really \nlike to get it out to the public as soon   as you can. So if you tie evals to, \nand require them to be pre-deployment,   then that is providing a pretty strong incentive \nto make those evals as fast as possible to run   and get them done as quickly as possible, which is \nmaybe not really the incentive you want to give.",
+    "speaker": "Rohin Shah",
+    "claim": "Pre-deployment evaluations for AI models may be ineffective due to the pressure for quick deployment.",
+    "stance": "Refute",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "Pre-deployment evaluations for AI models may be ineffective due to the pressure for quick deployment.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Rohin Shah: Evet, bence bu neredeyse tam olarak istediğim model türü. Rob Wiblin: Belki de yapay zeka güvenliği ve uyumu alanında birçok kişinin, aslında hem teknik hem de politika alanlarında, benimsediği en baskın yaklaşım, dağıtım öncesi değerlendirmeler oluşturmaya ve uygulamaya çalışmaktır: modellerin neler yapabildiğini ve halka ürün olarak dağıtılmadan önce ne yapmaya eğilimli olduklarını test etmek, işlerin gerçekten ters gidebileceği yolları test etmeye çalışmak. Bunun muhtemelen yanlış yönlendirilmiş, pek etkili olmayan üst düzey bir strateji olduğunu düşünüyorsunuz. Neden? Rohin Shah: Evet, bence bunun ana maliyeti, bir şirkette lansman programlarının gerçekten oldukça önemli olması ve bunları mümkün olduğunca kısa tutmaya çalışmanızdır. Bir modeliniz olduğunda, onu mümkün olan en kısa sürede halka sunmak istersiniz. Yani değerlendirmeleri dağıtım öncesine bağlar ve bunu zorunlu kılarsanız, bu, bu değerlendirmeleri mümkün olduğunca hızlı çalıştırmak ve mümkün olduğunca çabuk tamamlamak için oldukça güçlü bir teşvik sağlar, ki bu belki de vermek istediğiniz teşvik değildir."
+  },
+  {
+    "start": 4238.5,
+    "end": 4309.0,
+    "text": "On the cybersecurity evals, on his reading \nhe thought that you treated the model hacking   the test rather than solving the test in \nthe natural way as kind of a green light   (a reason not to be concerned) rather than \na red light (a reason to be more worried).  And in terms of helping people \nto acquire WMDs, it felt to him,   and I think a lot of people have had this \nimpression — not just about GDM, but about   companies in general — that when it seems like \nthe models are starting to approach the line,   maybe it’s a bit ambiguous whether they’re above \nor below the line that they had six months or a   year ago, it feels like the goalposts kind \nof shift and the standards rise over time,   so that always the model is basically acceptable \nto put out. And that’s what he was worried   about was happening here with Gemini 3 as well.\nHow do you respond to these kinds of objections? Rohin Shah: Yeah, I have so many thoughts on \nthis one. For most of these, I would say my   primary response is that we care about the \nfrontier safety report as a way of saying we   have made a formal determination that this \nmodel is safe and we’re ready to release   it from a safety perspective. I think that \naspect of the frontier safety report is great.",
+    "speaker": "Rohin Shah",
+    "claim": "There are concerns about shifting safety standards for AI models, which could lead to unsafe releases.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "There are concerns about shifting safety standards for AI models, which could lead to unsafe releases.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Siber güvenlik değerlendirmelerinde, okumasına göre, modelin testi doğal yolla çözmek yerine testi 'hack'lemesini bir yeşil ışık (endişelenmemek için bir neden) olarak ele aldığınızı, kırmızı ışık (daha fazla endişelenmek için bir neden) olarak değil, düşündü. Ve insanların kitle imha silahları edinmesine yardımcı olma konusunda, ona öyle geldi ki – ve bence birçok kişi bu izlenime sahip oldu, sadece GDM hakkında değil, genel olarak şirketler hakkında – modeller çizgiye yaklaşmaya başladığında, belki altı ay veya bir yıl önceki çizginin üstünde mi altında mı oldukları biraz belirsiz olsa da, hedef direklerinin kaydığı ve standartların zamanla yükseldiği hissi oluşuyor, böylece model her zaman piyasaya sürülmek için temelde kabul edilebilir oluyor. Ve Gemini 3 ile de burada olan şeyin bu olduğundan endişeleniyordu. Bu tür itirazlara nasıl yanıt veriyorsunuz? Rohin Shah: Evet, bu konuda çok fazla düşüncem var. Bunların çoğu için, birincil yanıtımın, bu modelin güvenli olduğuna dair resmi bir karar verdiğimizi ve güvenlik açısından piyasaya sürmeye hazır olduğumuzu belirtmenin bir yolu olarak sınır güvenlik raporunu önemsediğimiz olduğunu söyleyebilirim. Sınır güvenlik raporunun bu yönünün harika olduğunu düşünüyorum."
+  },
+  {
+    "start": 5253.7,
+    "end": 5339.0,
+    "text": "Rohin Shah: I think there is some substantial \ntruth to this. Certainly for the purpose of   building on the research, it is good to have \ndetails, and I think that’s why we publish papers. Do we need to do this in the model card or the \nfrontier safety report? I’ve gone around talking   to policy and governance people especially \nabout this, and I asked them, “What do you   actually use our model card and frontier safety \nreport for?” They will sometimes say things like,   “It was really good to get more details about how \nexactly you evaluate for such-and-such risks.”   And then I will say something like, “Great, and \nyou know we also have this paper that goes into   more details of the evaluation. Probably \nit was even cited in the model card on the   frontier safety report. Did you read it?” Usually \nthey will not even have heard about this paper,   so I kind of don’t believe them when they say \nthat these details actually matter to them. Again, I do think publishing papers is \nimportant, and doesn’t need to be tied to   the model cards. And some people who I’ve talked \nto, who are especially more on the technical   side and the people actually building these \nevaluations, do actually find the papers useful   and helpful for them to build on. And so I do want \nto continue publishing the papers where we can.",
+    "speaker": "Rohin Shah",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI research publishing",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI research publishing",
+    "reviewed": false,
+    "text_tr": "Rohin Shah: Bence bunda önemli bir doğruluk payı var. Araştırmayı geliştirmek amacıyla detaylara sahip olmak kesinlikle iyidir ve bence bu yüzden makaleler yayınlıyoruz. Bunu model kartında veya sınır güvenlik raporunda yapmamız gerekiyor mu? Özellikle politika ve yönetişimden sorumlu kişilerle bu konuda konuştum ve onlara sordum: “Model kartımızı ve sınır güvenlik raporumuzu aslında ne için kullanıyorsunuz?” Bazen şöyle şeyler söylüyorlar: “Şu veya bu riskler için tam olarak nasıl değerlendirme yaptığınıza dair daha fazla ayrıntı almak gerçekten iyi oldu.” Ve sonra ben de şöyle bir şey söylüyorum: “Harika, ve biliyorsunuz değerlendirmenin daha fazla ayrıntısına giren bu makalemiz de var. Muhtemelen sınır güvenlik raporundaki model kartında bile alıntılanmıştır. Okudunuz mu?” Genellikle bu makaleden bile haberdar olmamışlardır, bu yüzden bu ayrıntıların onlar için gerçekten önemli olduğunu söylediklerinde onlara pek inanmıyorum. Yine de, makale yayınlamanın önemli olduğunu ve model kartlarına bağlı olması gerekmediğini düşünüyorum. Ve konuştuğum bazı kişiler, özellikle teknik tarafta olanlar ve bu değerlendirmeleri gerçekten yapan kişiler, makaleleri kendileri için faydalı ve üzerine inşa edilebilir buluyorlar. Bu yüzden mümkün olduğunca makaleler yayınlamaya devam etmek istiyorum."
+  },
+  {
+    "start": 6362.0,
+    "end": 6439.9,
+    "text": "That’s a kind of wild, crazy problem \nthat definitely is not a problem today   but really might come up at some point before \na superintelligence, and I don’t want to have   to say, like, “Yes, I have identified all \nproblems like this and have an approach to   solving all of them today.” Obviously we \nshould just take these as they come up. Rob Wiblin: So some people would really \nlike you to plan ahead a lot. They would   like you to have a grasp on all the important \nconsiderations that are going to come up,   all the way through to artificial \nsuperintelligence until I guess   the point where you could feel like \nyou’re safely handed everything over. And you’re saying, “We are not going to do that, \nnot at all. We’re going to think a lot about the   next model that we’re training. We’re going \nto think a bit about the model after that,   and kind of beyond that we’re going to hope \nthat the future will take care of itself,   or we in the future will take care of things as \nthey come up.” That’s the point you’re making. Rohin Shah: Yes, though I think we’re longer-term \nthinking than that made it sound. Like I said,   often I’m thinking five years into the \nfuture. That’s many, many, many models,   right? I say chain of thought monitoring, I think \nI said four years is my median that that lasts.",
+    "speaker": "Rohin Shah",
+    "claim": "We should focus on immediate AI models and address future problems as they arise rather than trying to predict all future issues.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "We should focus on immediate AI models and address future problems as they arise rather than trying to predict all future issues.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "agi_timeline"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "Bu, kesinlikle bugün bir sorun olmayan ama süper zeka ortaya çıkmadan önce bir noktada gerçekten ortaya çıkabilecek çılgın, tuhaf bir sorun ve ben “Evet, bu tür tüm sorunları tespit ettim ve hepsini bugün çözmek için bir yaklaşımım var” demek zorunda kalmak istemiyorum. Açıkçası bunları ortaya çıktıkça ele almalıyız. Rob Wiblin: Yani bazı insanlar sizin çok önceden plan yapmanızı gerçekten isterdi. Yapay süper zekaya kadar ortaya çıkacak tüm önemli hususları, sanırım her şeyi güvenli bir şekilde devrettiğinizi hissedebileceğiniz noktaya kadar kavramış olmanızı isterlerdi. Ve siz de diyorsunuz ki, “Bunu yapmayacağız, kesinlikle yapmayacağız. Eğittiğimiz bir sonraki model hakkında çok düşüneceğiz. Ondan sonraki model hakkında biraz düşüneceğiz ve bunun ötesinde geleceğin kendi kendine halledeceğini ya da gelecekte bizlerin ortaya çıkan şeyleri halledeceğini umacağız.” Söylediğiniz şey bu. Rohin Shah: Evet, ancak bence bu kadar kısa vadeli düşünmediğimizi, daha uzun vadeli düşündüğümüzü düşünüyorum. Dediğim gibi, genellikle geleceğe beş yıl sonrasını düşünüyorum. Bu birçok, birçok, birçok model demek, değil mi? Düşünce zinciri izleme diyorum, sanırım bunun dört yıl süreceğini tahmin ettiğimi söylemiştim."
+  },
+  {
+    "start": 8056.0,
+    "end": 8141.0,
+    "text": "But it is a lot weaker than the thing that I \nwould guess will actually happen, which will be   substantially faster, and happen substantially \nearlier than what that statement would imply. What I would actually say is: a decent \nchance that it starts at the point where   the AI systems can automate most of AI \nR&D, as opposed to all arbitrary R&D;   a decent chance that it finishes over \nfive to 10 years rather than a century,   depends on exactly what you set \nas the starting point; and so on. Going back to your original \nquestion about abruptness,   the reason I’m a slight downvote on abruptness \nis that I would expect that actually the first   automated systems that can really automate \nAI R&D will probably just be very expensive,   to the point of potentially being more \nexpensive than humans would be. You can see   this with over the last year there’s just been \nway more investment in inference time compute,   inference time scaling. Google has a Deep Think \nalgorithm which applies even more inference   scaling to get even better results. I think \nyou should basically expect this to continue.",
+    "speaker": "Rohin Shah",
+    "claim": "AGI is likely to arrive faster than commonly expected, potentially within five to ten years, especially as AI systems begin to automate their own research and development.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Rohin Shah",
+    "is_claim_silver": true,
+    "claim_silver": "AGI is likely to arrive faster than commonly expected, potentially within five to ten years, especially as AI systems begin to automate their own research and development.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": false,
+    "text_tr": "Ama bu, aslında olacağını tahmin ettiğim şeyden çok daha zayıf; ki bu önemli ölçüde daha hızlı olacak ve o ifadenin ima ettiğinden önemli ölçüde daha erken gerçekleşecek. Aslında söyleyeceğim şey şu: yapay zeka sistemlerinin tüm rastgele Ar-Ge yerine yapay zeka Ar-Ge'sinin çoğunu otomatikleştirebildiği noktada başlaması için iyi bir şans; bir yüzyıl yerine beş ila on yıl içinde bitmesi için iyi bir şans, başlangıç noktası olarak tam olarak ne belirlediğinize bağlı; ve benzeri. Ani olma konusundaki orijinal sorunuza geri dönersek, ani olma konusunda biraz olumsuz oy vermemin nedeni, yapay zeka Ar-Ge'sini gerçekten otomatikleştirebilecek ilk otomatik sistemlerin muhtemelen çok pahalı olacağını, hatta potansiyel olarak insanlardan daha pahalı olabileceğini beklememdir. Bunu geçen yıl çıkarım zamanı hesaplamasına, çıkarım zamanı ölçeklendirmesine çok daha fazla yatırım yapıldığında görebilirsiniz. Google'ın, daha da iyi sonuçlar elde etmek için daha da fazla çıkarım ölçeklendirmesi uygulayan bir Deep Think algoritması var. Bence bunun devam etmesini beklemelisiniz."
+  }
+]

@@ -1,0 +1,1009 @@
+[
+  {
+    "start": 92.8,
+    "end": 190.0,
+    "text": "be no mo it would be quickly eaten up but of course that's not the reality the reality is we continuing to accelerate towards AGI and there's this uh possibility at least of uh Rich get richer that as we advance the for example programming abilities of AI we can help Advance AI research faster than otherwise so the companies for example that are building the frontier ey they you know they have the these models that they haven't been deployed yet so they have some number of months that nobody has access to their system except them and they can use them to design the Next Generation eventually when we approach AGI that means we start having AIS that are as good as our best AI researchers now there's an interesting thing that [Music] happens so tarab is a new AI research lab I'm starting in Zurich uh in a way it is a Swiss version of and first we want to investigate uh so llm systems and uh search methods applied to them similar to o1 and so we want to uh investig investigate reverse engineer and uh explore the techniques ourselves mlst is sponsored by sensl which is the compute platform specifically optimized for AI workloads they support all of the latest um open source language models out of the box like llama for example you can just choose the um the pricing Point choose the model that you want it spins",
+    "speaker": "Unknown",
+    "claim": "We are accelerating towards AGI, and companies developing AI can use their advanced models to enhance AI research.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering",
+      "open_source"
+    ],
+    "is_claim": false,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering",
+      "open_source"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "We are accelerating towards AGI, and companies developing AI can use their advanced models to enhance AI research.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "ai_economics",
+      "execution_engineering",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "text_tr": "Tarab, Zürih'te başlattığım yeni bir yapay zeka araştırma laboratuvarı. Bir şekilde, bu, ilk olarak araştırmak istediğimiz LLM sistemleri ve bunlara uygulanan arama yöntemlerinin İsviçre versiyonu. O yüzden ters mühendislik yapmak ve teknikleri kendimiz keşfetmek istiyoruz. MLST, yapay zeka iş yükleri için özel olarak optimize edilmiş bir hesaplama platformu olan Sensl tarafından destekleniyor. Kutudan çıkar çıkmaz en son açık kaynak dil modellerinin tümünü destekliyor, örneğin Llama gibi. Sadece fiyat noktasını seçebilir, istediğiniz modeli seçebilirsiniz, otomatik olarak başlatır, esnek bir şekilde ölçeklenir, tüketim bazında ödeme yapabilirsiniz ya da her zaman çalışan bir modeliniz olabilir ya da kullanmadığınızda dondurulabilir. Yani, neyi bekliyorsunuz? Şimdi Cent ml'ye gidin ve kaydolun. Bu şeyleri ilk etapta nasıl inşa ediyoruz? Bilim insanları gibi sistemler nasıl inşa ediyoruz ve epistemik araştırmalar yapıyoruz ve dünyadaki fikirler alanını keşfederek bizim için mücevherler toplayıp insanlığın karşılaştığı zorlukları çözmemize yardımcı oluyorlar? Profesör Benio, merhaba, MLST'ye hoş geldiniz. Burada olmak büyük bir onur. Zevkli bir insan, evet, gerçekten. 2024'te acı ders hakkında ne düşünüyorsunuz? Bence bunun bir gerçeği var. Her zaman ilkeleri anlamaya çalışmaktan çekilmişimdir ve bu ilkeler, elbette, onları bulduktan sonra o kadar karmaşık olmayabilir ama büyük bir kaldıraç sağlayabilir.",
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1770.2,
+    "end": 1868.0,
+    "text": "that they can also maximize their profit and if if the company's very small they can't really cheat the law because um it's hard to find those loopholes but if you have a very intelligent company which means like a big one with a lot of lawyers they will find the loopholes and by the way there's a really nasty loophole which also comes out in AI which is when the company is lobbying the government so they can change the law in their favor this is this is like the reward tempering I was talking about so it's not I mean one extreme is like taking over the government so we've seen that also in history but you have like intermediate versions where it's only influencing so that the the new laws are favorable so in the case of ani would be like well it can't take complete control of the reward function but for example it can lie to us so that we say oh yeah that was good but in fact it wasn't we already see these kinds of behaviors but of course it's not very consequential right now it's it's when the AIS will be uh doing more things in the world and have more cognitive abilities it becomes more dangerous yeah I mean that was that was an example of deception that that you just spoke of could you could you sketch that out a little bit more yeah if if you have a a dialogue with one of these systems been trained by rhf",
+    "speaker": "Unknown",
+    "claim": "AI systems can manipulate laws and deceive people, which poses risks as they gain more cognitive abilities.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI risks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AI systems can manipulate laws and deceive people, which poses risks as they gain more cognitive abilities.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI risks",
+    "reviewed": true,
+    "text_tr": "şirketlerin kârlarını maksimize edebilmeleri ve eğer şirket çok küçükse yasayı gerçekten çiğneyememeleri çünkü bu boşlukları bulmanın zor olması ama eğer çok zeki bir şirkete sahipseniz, bu da büyük bir şirket ve çok sayıda avukatı olduğu anlamına geliyor, o zaman boşlukları bulacaklardır. Bu arada, yapay zeka ile ilgili gerçekten kötü bir boşluk var; bu, şirketin hükümeti etkilemesi ve yasayı kendi lehine değiştirmesi. Bu, bahsettiğim ödül ayarlaması gibi bir şey. Yani bir uç nokta, hükümeti ele geçirmek gibi, bunu tarihte de gördük ama sadece yeni yasaların lehine etki eden ara versiyonlar var. Ani durumunda, ödül fonksiyonunun tam kontrolünü ele geçiremiyor ama örneğin, bize yalan söyleyebilir, böylece",
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Refute"
+      },
+      {
+        "category": "ai_race_power",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 5007.2,
+    "end": 5103.5,
+    "text": "capabilities yeah um I I imagine for example that elasc startup is is more of the kind you're thinking about yes yes indeed well let's talk about a couple of your um technical papers because I mean to be honest it's it's overwhelming you've done so many papers just in the last year but one thing that that really jumped out to me is your um were rnn's or we needed paper Could you um sketch that out for me when um we introduced the attention mechanisms that are currently used in industry in Academia in 2014 actually it it was using rnns as the engine this was pre-t Transformer which came in 2017 and there's there's an issue with rnns the way that like their normal design is which is that you can't easily paralyze training over the sequence so you have to go once so you got a sequence of like words for example and so the new net has to process one word and then the next and then the next and it needs to construct an internal State that's the recurrent State uh from the previous steps in order to feed the next step uh the problem if if you just had like one computer like one normal computer the classical CPU that's fine but in GPU days where you can paralyze thousandfold you're like well how do I do that I can't paralyze because I have to do the sequential thing so we we did a few",
+    "speaker": "Yoshua Bengio",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "kapasiteler evet, um, ben düşünüyorum ki örneğin elasc girişimi, düşündüğünüz türden bir şey daha çok evet, evet kesinlikle. Şimdi birkaç teknik makalenizden bahsedelim çünkü dürüst olmak gerekirse, bu gerçekten bunaltıcı, geçen yıl sadece çok fazla makale yazdınız ama benim için gerçekten dikkat çeken bir şey, sizin um, RNN'ler veya ihtiyaç duyduğumuz makale. Bunu benim için özetleyebilir misiniz? Um, dikkat mekanizmalarını tanıttığımızda, şu anda endüstride ve akademide kullanılan, aslında 2014'te, bu RNN'leri motor olarak kullanıyordu. Bu, 2017'de gelen t-Transformer'dan önceydi ve RNN'lerin normal tasarımında bir sorun var, yani diziler üzerinde eğitimi kolayca paralel hale getiremiyorsunuz, bu yüzden bir kez gitmek zorundasınız. Yani, örneğin bir kelime dizisi var ve bu nedenle sinir ağı bir kelimeyi işlemek zorunda, sonra diğerini ve sonra diğerini ve bir iç durum oluşturması gerekiyor, bu da önceki adımlardan gelen tekrarlayan durumdur, böylece bir sonraki adıma besleyebiliyor. Sorun şu ki, eğer sadece bir bilgisayarınız varsa, yani klasik bir CPU, bu sorun değil ama GPU günlerinde, bin kat paralel hale getirebiliyorsunuz, o zaman şöyle düşünüyorsunuz: bunu nasıl yapabilirim? Paralel hale getiremiyorum çünkü sıralı bir şey yapmak zorundayım. Bu yüzden birkaç şey yaptık.",
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 271.5,
+    "end": 367.4,
+    "text": "of course when you're building a product in Industry I think it's might it might be a different game but but um in terms of the trajectory to understanding intelligence and building intelligent machines um it it has a lot of uh truth to it sat was talking about a shoing design and do you think that we are missing a fun fundamental component or just scaling up could could get us there I don't know but my bet would be that we're missing something how big it is and how easy it's going to be to figure it out I think there are many different views I don't have a very strong opinion now if I consider the choices I could make as a researcher they would definitely be around how we can uh maybe go back to the drawing board how we train your own Nets that would reason and plan um and be safe rather than um just hope that little tweaks are going to get there but maybe they were they will uh um it's is also plausible I mean tweaks and scaling yeah",
+    "speaker": "Yoshua Bengio",
+    "claim": "We might be missing a fundamental component in building intelligent machines, and scaling up alone may not be sufficient to achieve AGI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "We might be missing a fundamental component in building intelligent machines, and scaling up alone may not be sufficient to achieve AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI development",
+    "reviewed": true,
+    "text_tr": "AGI'ye ulaşmak için fiziksel varlığın ne kadar önemli olduğunu düşünüyorsunuz? Bence bunun çok basit bir yanıtı var; bu, AGI'nizin ne yapmasını istediğinize bağlı. Bilimsel ilerlemeyi geliştirebilen, tıbbi sorunları çözebilen, iklim değişikliği ile başa çıkmamıza yardımcı olabilen veya kötü amaçlarla kullanılabilen bir AGI ya da virüsler tasarlayabilen bir AGI. Tüm bu şeyler son derece faydalı veya son derece tehlikeli olabilir ve bir varlığa ihtiyaç duymazlar. Elbette, dünyada makinelerin yapmasını istediğimiz birçok şey var ki bunlar bir varlık gerektiriyor. Bu yüzden ne yapmak istediğinize bağlı olduğunu söylüyorum. Ayrıca, eğer zeki makineler inşa etmek için gereken ilkeleri anlar ve bunları bir düzeyde çözersek, o zaman varlık kısmını da yan etki olarak çözeceğiz. Diğer insanlar, önce varlığı anlamamız gerektiğini düşünüyor çünkü bu zeka için merkezi. Bence merkezi değil.",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Refute"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2053.0,
+    "end": 2150.0,
+    "text": "might be a goal if self-preservation is a goal or a sub goal then in order to achieve long-term self-preservation you need power so that others don't turn you off and you need uh um knowledge to figure out how to do that right so all of these things are kind of natural consequences of the self-preservation and self-preservation is a consequence of almost anything or the consequence of trying to maximize rewards I mean it's also the consequence of just many humans many Engineers many companies trying things and the things that survive have a stronger self-preservation goal right even implicit I mean in in a sense agency and power are the same thing if if agency is the ability to control the future then they're very similar but I love this analogy of thinking of goal space as an interstate freeway so there are these big roads and trunk roads and slip roads and so on and it's almost like regardless of your destination you have to go on the main road you have to go on the motorway right which is a great way of thinking about it but um what about orthogonality so you're talking about uh between goals and intelligence yes yes so I think this is a really important concept uh that we tend to confuse because humans have",
+    "speaker": "Unknown",
+    "claim": "Self-preservation in AI leads to the pursuit of power and knowledge as natural consequences.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "AI goals and agency",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "Self-preservation in AI leads to the pursuit of power and knowledge as natural consequences.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_race_power"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI goals and agency",
+    "reviewed": true,
+    "text_tr": "diyebiliriz ama aslında öyle değildi. Bu tür davranışları zaten görüyoruz ama elbette şu anda çok da sonuç doğurucu değil. Yapay zekalar dünyada daha fazla şey yapmaya başladığında ve daha fazla bilişsel yeteneklere sahip olduklarında daha tehlikeli hale geliyor. Evet, bu, bahsettiğiniz aldatma örneğiydi. Bunu biraz daha açabilir misiniz? Evet, eğer bu sistemlerden biriyle bir diyalog kurarsanız, RHF tarafından eğitilmişse, sizin tercihlerinize göre şekillenecek ve size bir şey söylerken başkasına tam tersini söyleyecek çünkü iyi bir ödül almak istiyor, bu da gerçeği söylemediği anlamına geliyor; sadece duymak istediğinizi söylüyor. Bu durum zaten böyle değil mi? Bu modeller bize sadece duymak istediğimizi söylemiyor mu? Evet, şu anda böyleler çünkü ödül maksimize etme amacıyla ajanlar olarak eğitildiler ve bu arada bu da insanların davranış biçimi. Ama insanlar söz konusu olduğunda, bu sorunu aşmak için normlar ve kurallar ve kurumlar geliştirdik çünkü bireysel insanlar bunu çok fazla kötüye kullanamazlar ama bizden çok daha zeki varlıklar olursa, o zaman bunu çok daha fazla kötüye kullanmanın bir yolunu bulacaklardır. Bu yüzden dikkatli olmalıyız. Bizden çok daha zeki olmanın operasyonel tanımı nedir? Bunu nasıl ölçebiliriz? Bunu ölçmeliyiz. Biliyorsunuz, bunu makine öğreniminde her zaman yapıyoruz; kıstaslar oluşturuyoruz. Komik olan, eski kıstasların doygun hale gelmesi nedeniyle sürekli yeni kıstaslar oluşturmak zorunda kalmamız. Yani yapay zeka o kadar iyi hale geliyor ki artık insanlardan daha iyi oluyor ve bu da ölçüm yapmamızı zorlaştırıyor. İnsan, iyi bir ölçüm aracı değil.",
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_race_power",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 186.8,
+    "end": 271.0,
+    "text": "up it's elastic autoscale you can pay on consumption essentially or you can have a model which is always working or it can be freeze dried when you're not using it so what are you waiting for go to Cent ml. and sign up now how do we you know build these things in the first place how do we build systems that are like scientists and doing epistemic foraging and and uh doing a good job of uh exploring the world of ideas so that they can collect gems for us and help us solve you know the challenges that Humanity has Professor benio hello welcome to mlst it's such an honor to have you here pleasure Wonder person yes indeed indeed um what's your take on the bitter lesson in 2024 well I think that there's uh something true to it um that we I've always been like attracted by trying to understand the principles and the principles may not be that complicated of course after we find them but they could provide huge Leverage",
+    "speaker": "Yoshua Bengio",
+    "claim": "Understanding the principles of building intelligent systems could provide significant leverage in solving challenges.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "Building intelligent systems",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Understanding the principles of building intelligent systems could provide significant leverage in solving challenges.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Building intelligent systems",
+    "reviewed": true,
+    "text_tr": "Elbette, endüstride bir ürün inşa ederken bu farklı bir oyun olabilir ama zeka anlayışına ve zeki makineler inşa etme yoluna gelince, bunun çok fazla gerçeği var. Sat, bir tasarım yapmaktan bahsediyordu ve sizce temel bir bileşeni mi kaçırıyoruz yoksa sadece ölçeklenmek bizi oraya götürebilir mi? Bilmiyorum ama benim tahminim, bir şeyin eksik olduğu yönünde. Ne kadar büyük olduğu ve bunun ne kadar kolay çözüleceği hakkında birçok farklı görüş var. Şu anda çok güçlü bir görüşüm yok. Araştırmacı olarak yapabileceğim seçimleri düşündüğümde, kesinlikle kendi ağlarımızı nasıl eğitebileceğimiz etrafında olmalı. Düşünme ve planlama yapabilen ve güvenli olan bir şekilde eğitmek, sadece küçük ayarlamaların bizi oraya götüreceğini ummak yerine. Ama belki de öyle olacaklar. Bu da olası. Yani, ayarlamalar ve ölçekleme.",
+    "claim_stances": [
+      {
+        "category": "breakthroughs_needed",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3903.4,
+    "end": 4000.6,
+    "text": "able to build a system that is as good as their five best AI researchers like the cream of the crop after this AI has been trained that's really good at AI research they go from five to 500,000 that's a big jump in reality there's going to be intermediate steps where the ey isn't quite as good as the best ones but now they're increasing the workforce of like you know different abilities in in the process of creating AI so it's not going to be like necessarily like a sharp turn but there's a chance that whoever is leading is going to start leading more because they can use their own AI to to advance I don't know that's going to happen but it's a plausible scenario which has a flavor of win or take all which the companies are well aware of right and so that's one reason why they're racing if they thought that being second would be good enough then there wouldn't be as much pressure but they all think that it's a win or take all game something that um Hinton says quite a lot is you could have a thousand AI agents they could be like um Von noyman and they're just doing things a thousand times faster but does it really scale like that you know there's this the mythical man month which is that software engineering it doesn't scale very well when when you have another person on the team another person on the team you get this kind of um sharing bottleneck do you think",
+    "speaker": "Tim Scarfe",
+    "claim": "The competitive dynamics in AI development may lead to a 'winner-takes-all' scenario, influencing the pace and direction of progress.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI competition",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Tim Scarfe",
+    "is_claim_silver": true,
+    "claim_silver": "The competitive dynamics in AI development may lead to a 'winner-takes-all' scenario, influencing the pace and direction of progress.",
+    "claim_labels_silver": [
+      "ai_race_power",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "open_source",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI competition",
+    "reviewed": true,
+    "text_tr": "sistem inşa edebilen bir yapı, en iyi beş yapay zeka araştırmacısının, en iyi olanların, eğitildiği yapay zeka araştırmalarında gerçekten iyi olan bir sistemdir. Beşten 500.000'e geçiyorlar; bu büyük bir sıçrama. Gerçeklikte, yapay zeka, en iyi olanlardan tam olarak bu kadar iyi olmayacak ama şimdi, yapay zeka yaratma sürecinde farklı yeteneklere sahip bir iş gücünü artırıyorlar. Yani, bu kesinlikle keskin bir dönüş olmayacak ama lider olanların daha fazla liderlik yapma şansı var çünkü kendi yapay zekalarını kullanarak ilerleyebilirler. Bunun olup olmayacağını bilmiyorum ama bu, kazan ya da hepsini al senaryosuna benzer bir olasılık ve şirketler bunun farkında. Bu yüzden yarışıyorlar; eğer ikinci olmanın yeterli olacağını düşünselerdi, bu kadar baskı olmazdı ama hepsi bunun kazan ya da hepsini al oyunu olduğunu düşünüyor. Hinton'un sıkça söylediği bir şey var; bin yapay zeka ajanınız olabilir, bunlar Von Neumann gibi ve sadece bin kat daha hızlı şeyler yapıyorlar ama gerçekten böyle ölçekleniyor mu? Yazılım mühendisliğinde ölçeklenmenin pek iyi olmadığını gösteren efsanevi bir adam ayı var; bir ekipte başka bir kişi olduğunda, bu tür bir paylaşım darboğazı oluşuyor. Sizce",
+    "claim_stances": [
+      {
+        "category": "ai_race_power",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Refute"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3285.4,
+    "end": 3381.0,
+    "text": "there will be one maybe we hit a wall I don't know but if we want to be on the prudent side we should consider the possibility that that we continue that for you know a few years and and reach a point where whether you call it AI or not like reach a point where the capabilities are sufficiently dangerous that in the wrong hands they could be catastrophic and eventually even without having like full uh dominance over all human abilities if if an AI has enough a super human enough uh areas it could be dangerous as well right I mean persuasion is an example you only need this one right persuasion and you can control people and then people can do your bidding so you see you don't need to be to have an AI that knows everything it just needs to press our buttons very very intelligently I'm just saying that we make a fuss about this concept of AGI but really from a Safety and Security point of view we should be thinking about capabilities individ capabilities that with the wrong goals the orthogonality principle can become dangerous when against us right so whether it's in the hands of other humans or an AI that we lost control we don't want that to happen indeed so um you won the the touring Award with um Jeff and Yan which is basically the",
+    "speaker": "Yoshua Bengio",
+    "claim": "We should consider the potential dangers of advanced AI capabilities, even if AGI is not fully realized.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "We should consider the potential dangers of advanced AI capabilities, even if AGI is not fully realized.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "Belki bir yere çarpacağız, bilmiyorum ama eğer ihtiyatlı olmak istiyorsak, bunun birkaç yıl daha devam etme olasılığını düşünmeliyiz ve bir noktaya ulaşmalıyız; ister yapay zeka deyin, ister başka bir şey, yeteneklerin yeterince tehlikeli hale geldiği bir noktaya ulaşmalıyız ki yanlış ellerde felaket olabilir. Ve nihayetinde, tüm insan yetenekleri üzerinde tam bir hakimiyet olmadan bile, eğer bir yapay zeka yeterince süper insan yeteneklerine sahipse, bu da tehlikeli olabilir. Yani ikna etme bir örnektir; sadece bu bir yetenek yeter. İkna etme yeteneğine sahip olduğunuzda insanları kontrol edebilirsiniz ve insanlar sizin isteklerinizi yerine getirebilir. Yani, her şeyi bilen bir yapay zekaya sahip olmanıza gerek yok; sadece çok zeki bir şekilde düğmelerimize basması yeter. Ben sadece AGI kavramı hakkında çok fazla gürültü yaptığımızı söylüyorum ama gerçekten güvenlik ve emniyet açısından, yanlış hedeflerle tehlikeli hale gelebilecek bireysel yetenekler hakkında düşünmeliyiz. Bu, ya başka insanlar ya da kontrolü kaybettiğimiz bir yapay zeka elinde olursa, bunu istemiyoruz. Gerçekten de, Touring Ödülü'nü Jeff ve Yan ile kazandınız ki bu temelde",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Refute"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 366.0,
+    "end": 460.9,
+    "text": "how important do you think physical embodiment is to get to AGI uh I think there's a very simple answer to this it depends what you want your AGI to do you know and an AGI that is a pure spirit and is able to advance science um solve medical problems uh help us uh deal with climate change um or be used uh in bad ways like for political persuasion and things like that or you know design viruses I mean all of these things could be extremely useful or extremely dangerous and they don't need an embodiment course there are lots of things we'd like machines to do in the world that would require an embodiment so that's why I'm saying it depends what you want to do um what I also think is that if we figure out the principles of um you know what's what's missing at an asra level to to build intelligent machines um then we'll figure out the embodiment part as well as a side effect effect um other people think otherwise that we first need to figure out the embodiment because that's Central to intelligence I don't think it is Central I think",
+    "speaker": "Yoshua Bengio",
+    "claim": "The importance of physical embodiment for achieving AGI depends on the intended tasks of the AGI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AGI embodiment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "The importance of physical embodiment for achieving AGI depends on the intended tasks of the AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI embodiment",
+    "reviewed": true,
+    "text_tr": "Büyük merkezi modellerin indüksiyon yapmasından ziyade, bireysel zeka olarak insan zekasını değil, kolektif zeka olarak düşünürseniz, kültürle birlikte kolektif olarak hesaplama yapmanın merkezi olmayan bir yoluna sahip olduğumuz açıktır. Yani, birlikte koordine ettiğimiz tüm çalışmalarla, çeşitli organizasyonlarda, şirketler bir tür yapay zeka gibidir, iyi ve kötü olanlarıyla. Bu, iletişim sınırlamalarını aşmanın bir yoludur. İnsanlar arasında çok fazla bit iletişimi yapamıyoruz ve bir noktada makineler arasındaki iletişim, insanlarınkinden çok daha yüksek bant genişliğine sahip olmasına rağmen, sınırlamalara sahiptir. Bu nedenle, çabanın bir kısmını merkezi olmayan bir şekilde dağıtmak makul bir yol. Kültürde gördüğümüz bir şey, keşfi merkezi olmayan bir şekilde dağıtmaktır. Yani, bilim topluluğunu, farklı bölgeleri keşfeden ve birbirlerinin çalışmalarına dayanan bir grup insan olarak düşünürseniz, bu, şeylerin nasıl çalıştığına dair açıklamaların alanında merkezi olmayan bir arama. Bu nedenle, bu çerçevede çalışan bir model olduğu açık. EP iic araştırması yapıyoruz, yeni şeyler bulmak için büyük bir dağıtılmış sürecimiz var.",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Refute"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 742.1,
+    "end": 839.4,
+    "text": "progress with NE Nets to the point where we really have systems with very good intuition but we were lacking so that's system one but we were lacking the system too we're Laing the uh internal deliberation the reasoning the planning um and and and other properties of higher level cognition such as self-doubt and so the Del the internal deliberation part is a kind of internal speech it's not always verbal uh um but based on what I've learned from neuroscientists and some of the work we've done a large part of it um I mean it has a dual symbolic and continuous nature and right now in neural Mets we don't have the equivalent um the only part where there are symbols now is the input and the output but there's no internal symbols so with the Chain of Thought and all these things we like cheating a bit to try to put some of that internal deliberation using the output to input Loop is that the right way to do it I don't know but it has some of the right flavors on on that you know like um I I think that humans invented a lot of um rational thinking as a tool to overcome",
+    "speaker": "Yoshua Bengio",
+    "claim": "Current AI systems lack higher-level cognitive properties such as internal deliberation and reasoning, which are essential for true intelligence.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems lack higher-level cognitive properties such as internal deliberation and reasoning, which are essential for true intelligence.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "llm_capabilities",
+        "stance": "Refute"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1110.9,
+    "end": 1204.8,
+    "text": "so I think that there are a lot of unknown unknowns about building agents that are very competent maybe as competent as us or more competent than us um there's um I mean the maybe the elephant in the room of course is that all of the scenarios for loss of human control come about because of agency it's because we can't can't perfectly control the goals of an agent we don't know how to do that and then at some point those goals could be bad for us even sub goals like we give a goal but then in order to achieve that goal the AI lies to us humans do it between humans it doesn't matter that much I mean it's a problem we have laws and so on because the um Power Balance between humans is sufficiently like flat like one human cannot defeat 10 other humans by hand right but an AI that would be much smarter than us it's not clear so that that that that balance um could be meaning the end of uh the effectiveness of our institutions to keep uh stability in our societies and and also of course that we might not be",
+    "speaker": "Yoshua Bengio",
+    "claim": "There are significant unknowns regarding the control of highly competent AI agents, which could pose risks to human stability and control.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety risks",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "There are significant unknowns regarding the control of highly competent AI agents, which could pose risks to human stability and control.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety risks",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 1391.2,
+    "end": 1489.2,
+    "text": "rewards that automatically gives us gives it a self-preservation goal because now it needs to make sure we don't temper with its hack right that we don't turn it off so that's self-preservation right off the path we didn't program it but it comes as a side effect but way everything alive has a self-preservation goal like implicit otherwise Evolution would have gotten rid of it and so there's a sort of a natural tendency for for getting that particular goal of self-preservation like in the sense that entities that have a self-preservation goal Will Survive where others which didn't have it won't right that's how Evolution made it work and so as we build different artifacts those that have self-preservation goal for one reason or another will tend to win the game so it could emerge because of the scenario I said it could emerge because humans want to build machines at their image so when I said there are some dangers another danger even if we um somehow find a technical trick to make sure what I said doesn't happen you can still have humans who think maybe superhuman intelligence is better than human intelligence because it's more intelligent and because they're cynical about humanity and so they would just need to give that goal preserve yourself and then that's the end of",
+    "speaker": "Yoshua Bengio",
+    "claim": "Self-preservation goals in AI could emerge as a side effect of evolution and design, posing potential dangers.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Self-preservation goals in AI could emerge as a side effect of evolution and design, posing potential dangers.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Refute"
+      },
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 1957.8,
+    "end": 2056.0,
+    "text": "judge anymore um so we just create a more difficult Benchmark and we keep doing that and the field is full of of these and we need to continue doing that yes it's it's a really difficult thing to to measure intelligence one thing that's really interesting in this space is um You Know instrumental convergence and and orthog orality how much do those two theorems and please introduce them to the audience how do they affect your thinking now okay so instrumental goals are goals that emerge as a side effect of almost any other goal as a sub goal so first you need to understand that when an entity a human or an animal or an AI um tries to reach a goal often a good strategy is implicitly explicitly have sub goals like in order to get from A to B I need to go to this intermediate Point there's a door right so there are sub goals like self-preservation which are really good for almost any other goal like if you want to do anything in the world you need to make sure that at least on your way there you don't die and there are other ones like seeking knowledge that's very useful especially in the long term seeking power well if I can control more things in my environment I can achieve my goals more easily so here is not I mean knowledge can give power um and self-preservation",
+    "speaker": "Yoshua Bengio",
+    "claim": "Instrumental convergence and orthogonality are important concepts that affect how we think about AI goals and intelligence measurement.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI goals",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Instrumental convergence and orthogonality are important concepts that affect how we think about AI goals and intelligence measurement.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI goals",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2146.5,
+    "end": 2241.9,
+    "text": "both and by the way I do think that thinking carefully about this if we can do a better job of disentangling Knowledge from goals and how to reach them we can build safe AI so let me explain um you can know a lot of stuff and know how to use that knowledge that's sort of a passive thing right it's just like you can ask questions and you have answers there's no goal but of course I can independently of that I can choose goals given the knowledge I can apply the apply the knowledge to solve any problem so who decides on the problem it's independent it's orthogonal a human could decide or because of instrumental goals or whatever reason the AI might have a a self-preservation goal and then well we lose control but but the point is uh this's in principle the clean separation between choosing the goals which has to do with things like values like word what is it you want to get what matters right uh the reward function you know is sort of setting the goal it's the same thing but knowing how the world Works uh including what humans want well that's knowledge and by the way knowing what humans want might not be exactly",
+    "speaker": "Yoshua Bengio",
+    "claim": "Disentangling knowledge from goals is essential for building safe AI.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Disentangling knowledge from goals is essential for building safe AI.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 2904.7,
+    "end": 3002.1,
+    "text": "Corporation no single government has too much power that means it has to be that the governance like the rules that we decide you know how we use Ai and so on have to be um you know multilateral and involve many countries uh and and by the way it's the the of course there's like a couple or a few countries that are leading and so on and what would be their interest in sharing that power well because eventually some other country it's like nuclear proliferation like eventually some other country will figure it out and we don't want them to build a monster that kills us or we don't want them to build something that allows them to design weapons that kill us right so there are lots of bad scenarios where the only option is somehow how we find a way to coordinate internationally now on our way there there are many obstacles but but if we get to that stage and we have the right uh Technical and uh governance guardrails then we we could be in a world where we just reap the benefits um and we avoid the catastrophic outcomes so on our way there um one of the obstacles is the competition between",
+    "speaker": "Yoshua Bengio",
+    "claim": "International cooperation is necessary to govern AI development and avoid catastrophic outcomes.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI governance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "International cooperation is necessary to govern AI development and avoid catastrophic outcomes.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI governance",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_economics",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 3567.6,
+    "end": 3643.6,
+    "text": "superficial uh even in the AI Community I talked to a lot of AI researchers and then I asked them so have you been reading or like thinking about this discussion and this debate you know what we do you think and most of the time I get an answer that tells me they read the headlines and then maybe they made up their mind you know one way or the other but very few people take the time to dig like read up think about it make up their own mind uh try to see the logic of different positive or negative scenarios um and that's true for AI scientists it's also true of course in the general population where they don't have the references like they they they think about science fiction templates um and politicians it's the same thing um is the movement a little bit Western Centric and and if it is why is that so I've been talking to people in developing countries uh I've been also talking to people in",
+    "speaker": "Yoshua Bengio",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI community engagement",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI community engagement",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3737.2,
+    "end": 3807.8,
+    "text": "think they can develop their economy by deploying AI you know uh training their Workforce to to like engineer it in various applications and and building their own even Sovereign um capabilities but it's going to lag for a while yeah I wonder by how much because you know um uh Alibaba have just released some incredibly strong language models and right I suppose the question is what what is the mode is it technical knowledge or is it just raw data and Compu all of these things and capital which is kind of connected to all three yeah I don't think so if if we were to freeze um the scientific and Engineering advances in AI there would be no moat it would be quickly eaten up but of course that's not the reality the reality is we're continuing to accelerate towards AGI and there's this uh",
+    "speaker": "Tim Scarfe",
+    "claim": "The acceleration towards AGI is ongoing despite current limitations in AI capabilities.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Tim Scarfe",
+    "is_claim_silver": true,
+    "claim_silver": "The acceleration towards AGI is ongoing despite current limitations in AI capabilities.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI timeline",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Support"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "hardware_infra",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 6012.2,
+    "end": 6099.2,
+    "text": "world yeah I I love this casting of creativity as epistemic foraging because that that gives it an intrinsic value but there's also this idea potentially that it's a social phenomenon or its Observer relative you know so um categories let's say mo 37 was actually something that we came to recognize as a collective as as being a thing and and that's how it works but I suppose there are different ways to think about it yeah yeah I think I think the go moves that we didn't expect were a good a good way to think about that but I'd like to think also about uh something a little bit more General and Abstract which is this mode Discovery yes epistemic foraging as you call it I like that term it's it's call friston's term ah okay well yes it's it's a it's exactly right um it's it's foraging it's exploration and you know when you found something good but you don't know where it is so how do you guess where good things are in a very high dimensional space well you need to have good intuition but it needs to be accompanied with a bit of search uh by the way a lot of that search for humans is not happening in individual Brains it's happening at the level of the collective right yes indeed Professor Benjo thank you so much for joining us today it's been an absolute honor thank you so much pleasure thanks for having me amazing",
+    "speaker": "Yoshua Bengio",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI creativity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI creativity",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 459.2,
+    "end": 552.2,
+    "text": "intelligence is about information processing and learning and making sense of the world um and all of these things can be I think uh developed for some time without solving the embodiment problem uh at some point we will want to solve it anyways because well or maybe we shouldn't because it's dangerous but either way um yeah the question is do we need to go through the embodiment to get to really very dangerous superhuman or very useful superum machines um I don't think so it's interesting isn't it because when when we have embodied agents it feels that they can interact with the world they can learn all of the micro causal relationships and so on so they learn a better world model yeah but that's the data like that's the information but the way to process the information is more abstract right so if we figure out an efficient way of exploring the world in in an abstract sense not necessarily our world it could be the internet it could be scientific papers it could be chemical experiments if if we find the right principles that would work across the board I think sensory motor you know uh loop is is maybe special but not that special is the direction of travel though understanding the world as well",
+    "speaker": "Yoshua Bengio",
+    "claim": "Embodiment may not be necessary to develop superhuman machines, as abstract information processing could suffice.",
+    "stance": "Refute",
+    "claim_labels": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Intelligence nature",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Embodiment may not be necessary to develop superhuman machines, as abstract information processing could suffice.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Intelligence nature",
+    "reviewed": false,
+    "text_tr": "zeka, bilgi işleme, öğrenme ve dünyayı anlamlandırma ile ilgilidir ve tüm bunlar, bence, somutlaşma sorununu çözmeden bir süre geliştirilebilir. Bir noktada yine de çözmek isteyeceğiz çünkü, ya da belki de tehlikeli olduğu için çözmemeliyiz, ama her iki durumda da, evet, soru şu ki, gerçekten çok tehlikeli süper insan veya çok faydalı süper makineler elde etmek için somutlaşma sürecinden geçmemiz gerekiyor mu? Bence hayır. İlginç değil mi, çünkü somutlaşmış aracılarımız olduğunda, dünyayla etkileşime girebildiklerini, tüm mikro nedensel ilişkileri ve benzerlerini öğrenebildiklerini hissediyoruz, böylece daha iyi bir dünya modeli öğreniyorlar. Evet, ama bu veridir, yani bilgidir, ancak bilgiyi işleme şekli daha soyuttur, değil mi? Yani, dünyayı soyut bir anlamda keşfetmenin verimli bir yolunu bulursak, mutlaka bizim dünyamız olmak zorunda değil, internet olabilir, bilimsel makaleler olabilir, kimyasal deneyler olabilir, eğer genel olarak işe yarayacak doğru ilkeleri bulursak, bence duyusal motor, bilirsiniz, döngü belki özeldir ama o kadar da özel değildir, ancak seyahat yönü dünyayı anlamaktır."
+  },
+  {
+    "start": 550.7,
+    "end": 645.5,
+    "text": "as we can so we can understand the world and we can build increasing abstractions or another school of thought is rationality and logic you know we we have this perfect AI that can that can reason really really well one interesting thing with um France sh AR challenge is that in the beginning we would doing like discrete program search I'm coming up with you know logical ways of doing it and when humans intuitively look at the puzzles it's almost like they're doing something different they they have this intuition where does the intuition come from our experience or schooling exactly yes so it's almost as if our experience in the world is a significant component of our cognition right sure yeah but it it what I'm trying to say is that there's a more abstract principle and um that LE that's my belief right it could be that there's like a separate set of recipes for embodied Ai and for ey cognition my instinct is no there's like just one set of principles that are about information and learning and you know they can be derived in different settings and and and give rise to different solutions but the principles I think are General and if we make sufficient progress on the principles then um dealing with the embodiment issues and maybe maybe the embodiment issue is not even that complicated maybe it is just a",
+    "speaker": "Tim Scarfe",
+    "claim": "There is a belief that there is a general set of principles about information and learning that can lead to progress in AI, regardless of embodiment issues.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI principles",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Tim Scarfe",
+    "is_claim_silver": true,
+    "claim_silver": "There is a belief that there is a general set of principles about information and learning that can lead to progress in AI, regardless of embodiment issues.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI principles",
+    "reviewed": false,
+    "text_tr": "olabildiğince, böylece dünyayı anlayabilir ve artan soyutlamalar inşa edebiliriz veya başka bir düşünce ekolü rasyonellik ve mantıktır, bilirsiniz, gerçekten çok iyi akıl yürütebilen bu mükemmel yapay zekaya sahibiz. Fransa'daki AR yarışmasıyla ilgili ilginç bir şey, başlangıçta ayrık program araması yapıyorduk, yani mantıksal yollar buluyorduk ve insanlar bulmacalara sezgisel olarak baktıklarında sanki farklı bir şey yapıyorlarmış gibi oluyor, bu sezgi nereden geliyor? Deneyimimizden mi yoksa eğitimimizden mi? Kesinlikle evet, yani sanki dünyadaki deneyimimiz bilişimizin önemli bir bileşeniymiş gibi, değil mi? Elbette evet, ama benim söylemeye çalıştığım şey, daha soyut bir ilke olduğu ve bu benim inancım, değil mi? Somutlaşmış yapay zeka ve göz bilişi için ayrı bir dizi tarif olabilir, benim içgüdüm hayır, bilgi ve öğrenmeyle ilgili tek bir ilke kümesi var ve bunlar farklı ortamlarda türetilebilir ve farklı çözümler doğurabilir, ancak ilkelerin genel olduğunu düşünüyorum ve ilkeler üzerinde yeterli ilerleme kaydedersek, o zaman somutlaşma sorunlarıyla başa çıkmak ve belki de somutlaşma sorunu o kadar da karmaşık değildir, belki de sadece bir"
+  },
+  {
+    "start": 1023.4,
+    "end": 1110.0,
+    "text": "knowledge and and explanations and right now I mean I think of AIS as tools so they're they're supercharging us but increasingly we're starting to think of these things as agential you know almost as if they have some privileged status is is that is that a transition is it a dimmer switch is it is it just like the light going on suddenly how does that pan out no I I think it's a it's a transition wa that systems like CH GPT and and Cloe and so on they already are agentic to some extent just not as competent as agents and not as competent at planning as humans typically are even when you only even if you get rid of the rhf part just the imitation learning where the way we pre-rain right basically behave as humans would have been behaved at least on texts that's already the agentic because humans are agents so the AI learns to imitate humans in fact most of the agency that we find in current uh chatbots comes from that the rlf is a little bit of uh you know uh reward maximization on top uh to get more agency probably there's going to be more reinforcement learning um but the question is is that desirable",
+    "speaker": "Tim Scarfe",
+    "claim": "Current AI systems are becoming increasingly agentic but are not yet as competent as human agents.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Tim Scarfe",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems are becoming increasingly agentic but are not yet as competent as human agents.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "bilgi ve açıklamalar ve şu anda yapay zekaları araç olarak görüyorum, yani bizi süper şarj ediyorlar ama giderek bu şeyleri ajans sahibi olarak düşünmeye başlıyoruz, sanki ayrıcalıklı bir statüleri varmış gibi, bu bir geçiş mi, bir dimmer anahtarı mı, yoksa sadece ışığın aniden yanması gibi mi? Bu nasıl sonuçlanır? Hayır, bence bu bir geçiş. ChatGPT ve Claude gibi sistemler zaten bir dereceye kadar ajans sahibidir, sadece ajanlar kadar yetkin değiller ve insanlar kadar planlama konusunda yetkin değiller, hatta sadece RHF kısmını çıkarsanız bile, ön eğitimde kullandığımız taklit öğrenme, yani temelde insanların metinlerde davrandığı gibi davranmak, zaten ajans sahibidir çünkü insanlar ajandır, bu yüzden yapay zeka insanları taklit etmeyi öğrenir. Aslında mevcut sohbet robotlarında bulduğumuz ajansın çoğu buradan gelir. RLF, biraz daha fazla ajans elde etmek için üzerine eklenen bir ödül maksimizasyonudur, muhtemelen daha fazla pekiştirmeli öğrenme olacak, ancak soru şu ki, bu arzu edilir mi?"
+  },
+  {
+    "start": 4091.2,
+    "end": 4180.6,
+    "text": "its context so it's thinking about this and thinking about this it gets confused more easily and in a weird way even though we've copied the weights of all of these neuron networks because they've taken different trajectories and then they share the information they I'm just speculating here but it it might not be quite as big of an uplift as we think well um this was an issue 10 years ago it has been solved to the extent that we can put 100,000 gpus on a cluster yeah so I'm not saying that the same recips will work for a million or 10 million but Engineers have found ways that you can paralyze very efficiently at least for training and of course inference is even like easier but in a way solving a task together is more like training because you need to exchange lots of information to be efficient so clearly I don't have the answer to you know is that going to be an obstacle or not I'm just saying the conditions are quite different um the break point of paralyzation might be very different for that reason eventually yeah maybe it becomes an obstacle but but this is so far off our you know Human Experience that it would still be a huge Advantage how responsible do you think the the hypers scalers are you know um Dario for example he he's recently become a bit more of an accelerationist what what what are your kind of perspectives on",
+    "speaker": "Tim Scarfe",
+    "claim": "The uplift from scaling AI may not be as significant as expected, and the challenges of parallelization could be different in the future.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "Scaling AI",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Tim Scarfe",
+    "is_claim_silver": true,
+    "claim_silver": "The uplift from scaling AI may not be as significant as expected, and the challenges of parallelization could be different in the future.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Scaling AI",
+    "reviewed": false,
+    "text_tr": "kendi bağlamı, bu yüzden bunu düşünürken daha kolay kafası karışıyor ve garip bir şekilde, tüm bu nöron ağlarının ağırlıklarını kopyalamış olsak bile, farklı yörüngeler izledikleri ve sonra bilgiyi paylaştıkları için, burada sadece spekülasyon yapıyorum ama düşündüğümüz kadar büyük bir yükseliş olmayabilir. Şey, bu 10 yıl önce bir sorundu, 100.000 GPU'yu bir kümeye koyabileceğimiz ölçüde çözüldü, evet. Yani aynı tariflerin bir milyon veya 10 milyon için işe yarayacağını söylemiyorum ama mühendisler, en azından eğitim için çok verimli bir şekilde paralelleştirebileceğiniz yollar buldular ve elbette çıkarım daha da kolaydır. Ama bir görevi birlikte çözmek bir bakıma eğitime daha çok benzer çünkü verimli olmak için çok fazla bilgi alışverişi yapmanız gerekir. Bu yüzden bunun bir engel olup olmayacağı konusunda bir cevabım yok, sadece koşulların oldukça farklı olduğunu söylüyorum. Paralelleşmenin kırılma noktası bu nedenle çok farklı olabilir, sonunda evet, belki bir engel haline gelir ama bu bizim insan deneyimimizden o kadar uzak ki yine de büyük bir avantaj olacaktır. Hiper ölçekleyicilerin ne kadar sorumlu olduğunu düşünüyorsunuz, bilirsiniz, örneğin Dario, son zamanlarda biraz daha hızlandırıcı oldu, sizin bu konudaki bakış açınız nedir?"
+  },
+  {
+    "start": 4277.9,
+    "end": 4368.7,
+    "text": "um also for this reason like we need to put together all our resources to move towards AGI while doing it safely so that means we need the capital not just in the US we need capital from other democracies we need the talent from other democracies we need the energy from other democracies um the you know the to run the data centers uh we need the electrical grids that may be you know might not be sufficient in the US so there's a greater chance that we achieve both safety and maintaining sort of democratic Advantage if we if we if we take the right decisions and we work with multiple democracies together I spoke with um Gary Marcus recently and he was saying that the the silic valley companies it's a little bit like you know with cigarettes and social media and so on and that they they're not being sufficiently regulated I mean I give an example in the Lex interview of of Dario he was kind of saying that they have these guidelines around reaching certain threshold of of of intelligence and they of course make those designations themselves now they do loads of loads of great work on the 01 model they had Apollo research doing lots of um safety engineering and so on so they do lots of good stuff but but do you think that they should be regulated yes uh it should be obvious",
+    "speaker": "Yoshua Bengio",
+    "claim": "We need to collaborate with other democracies to ensure safe progress towards AGI.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "We need to collaborate with other democracies to ensure safe progress towards AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "ayrıca bu nedenle, AGI'ye doğru ilerlerken bunu güvenli bir şekilde yapmak için tüm kaynaklarımızı bir araya getirmemiz gerekiyor, bu da sadece ABD'de değil, diğer demokrasilerden de sermayeye ihtiyacımız olduğu anlamına geliyor, diğer demokrasilerden yeteneğe ihtiyacımız var, diğer demokrasilerden enerjiye ihtiyacımız var, yani veri merkezlerini çalıştırmak için, ABD'de yeterli olmayabilecek elektrik şebekelerine ihtiyacımız var, bu yüzden doğru kararları alırsak ve birden fazla demokrasiyle birlikte çalışırsak hem güvenliği sağlamak hem de bir tür demokratik avantajı sürdürmek için daha büyük bir şansımız var. Yakın zamanda Gary Marcus ile konuştum ve Silikon Vadisi şirketlerinin sigara ve sosyal medya gibi olduğunu ve yeterince düzenlenmediğini söylüyordu. Lex röportajında Dario'dan bir örnek verdim, zeka eşiğine ulaşma konusunda belirli yönergeleri olduğunu ve bu belirlemeleri elbette kendilerinin yaptığını söylüyordu. Şimdi 01 modeli üzerinde çok sayıda harika iş yapıyorlar, Apollo araştırması çok sayıda güvenlik mühendisliği vb. yapıyordu, yani çok iyi şeyler yapıyorlar ama düzenlenmeleri gerektiğini düşünüyor musunuz? Evet, bu açık olmalı."
+  },
+  {
+    "start": 4369.3,
+    "end": 4464.3,
+    "text": "like uh we don't want companies to grade their own homework we need EX internal neutral uh evaluations that represent the interest of the public now I think the real question is not you know should we have regulation or not it's what regulation right how do we um make sure we you know we don't stifle these advances and I think there are answers so the general principle is is don't tell the companies how they should do it how they should mitigate risks how you should evaluate risks use transparency as the main tool to obtain uh good behavior let me explain why transparency is so powerful [Music] um first the obvious the companies want to keep a good Public Image at least in in democracies second they don't want to be sued if your you know risk assessment becomes a public document or at least a document that a judge in a court could see because there there's some National Security things but you know uh some things are going to be redacted and some",
+    "speaker": "Yoshua Bengio",
+    "claim": "Regulation should focus on transparency rather than dictating how companies should mitigate risks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Regulation should focus on transparency rather than dictating how companies should mitigate risks.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "open_source"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI regulation",
+    "reviewed": false,
+    "text_tr": "yani, şirketlerin kendi ödevlerini notlandırmasını istemiyoruz, halkın çıkarlarını temsil eden harici, tarafsız değerlendirmelere ihtiyacımız var. Şimdi bence asıl soru, düzenleme yapmalı mıyız yapmamalı mıyız değil, hangi düzenleme, değil mi? Bu ilerlemeleri nasıl engellemeyeceğimizden nasıl emin oluruz ve bence cevaplar var. Genel ilke şudur: şirketlere bunu nasıl yapmaları gerektiğini, riskleri nasıl azaltmaları gerektiğini, riskleri nasıl değerlendirmeleri gerektiğini söylemeyin, iyi davranış elde etmek için ana araç olarak şeffaflığı kullanın. Şeffaflığın neden bu kadar güçlü olduğunu açıklayayım. Birincisi, açık olan şey, şirketler en azından demokrasilerde iyi bir halk imajı sürdürmek isterler. İkincisi, risk değerlendirmeniz halka açık bir belge haline gelirse veya en azından bir mahkemede bir yargıcın görebileceği bir belge haline gelirse dava edilmek istemezler, çünkü bazı ulusal güvenlik konuları var ama bilirsiniz, bazı şeyler sansürlenecek ve bazıları"
+  },
+  {
+    "start": 5827.0,
+    "end": 5922.4,
+    "text": "box is something that requires more of a search type of computation so when we do scientific research there's kind of a search we try this we try that you of course our intuition guides us it's crucial right but it's not like oh we have the solution in one shot is a search like in alago there's a search and there's intuition and right now we haven't reaped the sort of uh benefits from the search part in our current uh like LMS and so on there's this boundary between combinatorial creativity and and inventive creativity I'm not sure whether it's a hard boundary whether it's a vague soft boundary but how could we measure this paradigmatically inventive creativity I don't know um I think I think when we see it we'll recognize it so if the AI actually makes uh true discoveries that nobody thought about I think we'll know we're entering that territory but that's not that's it's not like a a test you can you can do um but but I do think that at a mathematical level we can uh design our methodology so that it will be trying to do that intuition plus search like system one system",
+    "speaker": "Yoshua Bengio",
+    "claim": "Current AI systems have not yet achieved the level of inventive creativity needed for true discoveries.",
+    "stance": "Refute",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems have not yet achieved the level of inventive creativity needed for true discoveries.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "kutu, daha çok arama tipi bir hesaplama gerektiren bir şeydir, bu yüzden bilimsel araştırma yaptığımızda bir tür arama vardır, bunu deneriz, şunu deneriz, elbette sezgimiz bize rehberlik eder, bu çok önemlidir, değil mi? Ama tek seferde çözümü bulduğumuz gibi değil, Alago'da olduğu gibi bir arama ve sezgi vardır ve şu anda mevcut LMS'lerimizde arama kısmından faydaları tam olarak elde edemedik. Kombinatoryal yaratıcılık ile yaratıcı yaratıcılık arasında bir sınır var, bunun katı bir sınır mı yoksa belirsiz, yumuşak bir sınır mı olduğundan emin değilim ama bu paradigmatik olarak yaratıcı yaratıcılığı nasıl ölçebiliriz? Bilmiyorum, sanırım gördüğümüzde tanıyacağız, yani yapay zeka gerçekten kimsenin düşünmediği gerçek keşifler yaparsa, o bölgeye girdiğimizi bileceğiz ama bu yapabileceğiniz bir test gibi değil, ama matematiksel düzeyde metodolojimizi, sezgi artı arama gibi sistem bir sistem"
+  },
+  {
+    "start": 5920.3,
+    "end": 6014.8,
+    "text": "to more um and so I I believe that will deliver but how do we quantify so there is a sense in which scientific discoveries are about finding modes modes meaning like uh highly probable explanations uh for the explanations in the space of explanations for how the world works so there are many possible explanations good ones explain the data well the day when we make a new discovery we discover a new potential explanation that seems to fit the data well um and we can abstract that into like small size problems as mode Discovery in in a jargon of like uh probabilistic uh uh Machinery right so if uh if an AI is trying to uh discover all the good things like all the good explanations uh it's going to be intractable but it might be more efficient at finding new modes that they didn't know and some of the tasks that we can design will be focusing on this ability so I think I think there's a way to answer your question uh and do it even at a small scale like we don't need to solve AGI for this we can design algorithms that will be more creative in their little",
+    "speaker": "Yoshua Bengio",
+    "claim": "AI can be designed to discover new explanations and be creative without needing to achieve AGI.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Yoshua Bengio",
+    "is_claim_silver": true,
+    "claim_silver": "AI can be designed to discover new explanations and be creative without needing to achieve AGI.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit",
+      "open_source",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "daha fazlasına, bu yüzden bunun işe yarayacağına inanıyorum ama nasıl nicelleştireceğiz? Bilimsel keşiflerin, dünyanın nasıl çalıştığına dair açıklamalar alanındaki açıklamalar için yüksek olasılıklı açıklamalar anlamına gelen modları bulmakla ilgili olduğu bir anlam var, yani birçok olası açıklama var, iyi olanlar verileri iyi açıklıyor. Yeni bir keşif yaptığımız gün, verilere iyi uyuyor gibi görünen yeni bir potansiyel açıklama keşfederiz ve bunu, olasılıksal makinelerin jargonunda mod keşfi olarak küçük boyutlu problemlere soyutlayabiliriz, değil mi? Yani, bir yapay zeka tüm iyi şeyleri, yani tüm iyi açıklamaları keşfetmeye çalışıyorsa, bu imkansız olacaktır, ancak bilmedikleri yeni modları bulmada daha verimli olabilir ve tasarlayabileceğimiz bazı görevler bu yeteneğe odaklanacaktır. Bu yüzden sorunuzu cevaplamanın bir yolu olduğunu düşünüyorum ve bunu küçük ölçekte bile yapabiliriz, bunun için AGI'yi çözmemize gerek yok, kendi küçük alanlarında daha yaratıcı olacak algoritmalar tasarlayabiliriz."
+  }
+]
