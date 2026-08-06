@@ -1,0 +1,2793 @@
+{
+  "nodes": [
+    {
+      "id": "PERSON::Dario Amodei",
+      "type": "person",
+      "label": "Dario Amodei",
+      "segments": 346
+    },
+    {
+      "id": "PERSON::Roman Yampolskiy",
+      "type": "person",
+      "label": "Roman Yampolskiy",
+      "segments": 255
+    },
+    {
+      "id": "PERSON::Will MacAskill",
+      "type": "person",
+      "label": "Will MacAskill",
+      "segments": 155
+    },
+    {
+      "id": "PERSON::Ege Erdil",
+      "type": "person",
+      "label": "Ege Erdil",
+      "segments": 118
+    },
+    {
+      "id": "PERSON::Max Tegmark",
+      "type": "person",
+      "label": "Max Tegmark",
+      "segments": 113
+    },
+    {
+      "id": "PERSON::Nathan Lambert",
+      "type": "person",
+      "label": "Nathan Lambert",
+      "segments": 93
+    },
+    {
+      "id": "PERSON::Yann LeCun",
+      "type": "person",
+      "label": "Yann LeCun",
+      "segments": 92
+    },
+    {
+      "id": "PERSON::Eliezer Yudkowsky",
+      "type": "person",
+      "label": "Eliezer Yudkowsky",
+      "segments": 86
+    },
+    {
+      "id": "PERSON::Demis Hassabis",
+      "type": "person",
+      "label": "Demis Hassabis",
+      "segments": 84
+    },
+    {
+      "id": "PERSON::Rohin Shah",
+      "type": "person",
+      "label": "Rohin Shah",
+      "segments": 84
+    },
+    {
+      "id": "PERSON::Connor Leahy",
+      "type": "person",
+      "label": "Connor Leahy",
+      "segments": 69
+    },
+    {
+      "id": "PERSON::Lex Fridman",
+      "type": "person",
+      "label": "Lex Fridman",
+      "segments": 57
+    },
+    {
+      "id": "PERSON::Peter Steinberger",
+      "type": "person",
+      "label": "Peter Steinberger",
+      "segments": 55
+    },
+    {
+      "id": "PERSON::Jensen Huang",
+      "type": "person",
+      "label": "Jensen Huang",
+      "segments": 46
+    },
+    {
+      "id": "PERSON::Andrej Karpathy",
+      "type": "person",
+      "label": "Andrej Karpathy",
+      "segments": 43
+    },
+    {
+      "id": "PERSON::John Schulman",
+      "type": "person",
+      "label": "John Schulman",
+      "segments": 42
+    },
+    {
+      "id": "PERSON::Yoshua Bengio",
+      "type": "person",
+      "label": "Yoshua Bengio",
+      "segments": 38
+    },
+    {
+      "id": "PERSON::Victor Shih",
+      "type": "person",
+      "label": "Victor Shih",
+      "segments": 17
+    },
+    {
+      "id": "PERSON::Sam Altman",
+      "type": "person",
+      "label": "Sam Altman",
+      "segments": 17
+    },
+    {
+      "id": "PERSON::Rob Wiblin",
+      "type": "person",
+      "label": "Rob Wiblin",
+      "segments": 17
+    },
+    {
+      "id": "PERSON::David Rein",
+      "type": "person",
+      "label": "David Rein",
+      "segments": 15
+    },
+    {
+      "id": "PERSON::Sebastian Raschka",
+      "type": "person",
+      "label": "Sebastian Raschka",
+      "segments": 11
+    },
+    {
+      "id": "PERSON::Tamay Besiroglu",
+      "type": "person",
+      "label": "Tamay Besiroglu",
+      "segments": 9
+    },
+    {
+      "id": "PERSON::Dwarkesh Patel",
+      "type": "person",
+      "label": "Dwarkesh Patel",
+      "segments": 8
+    },
+    {
+      "id": "PERSON::Tim Scarfe",
+      "type": "person",
+      "label": "Tim Scarfe",
+      "segments": 7
+    },
+    {
+      "id": "PERSON::Amanda",
+      "type": "person",
+      "label": "Amanda",
+      "segments": 1
+    },
+    {
+      "id": "PERSON::Beth Barnes",
+      "type": "person",
+      "label": "Beth Barnes",
+      "segments": 1
+    },
+    {
+      "id": "CLAIM::agi_timeline",
+      "type": "claim",
+      "label": "AGI Timeline",
+      "segments": 473
+    },
+    {
+      "id": "CLAIM::llm_capabilities",
+      "type": "claim",
+      "label": "LLM Capabilities & Limits",
+      "segments": 239
+    },
+    {
+      "id": "CLAIM::scaling_compute",
+      "type": "claim",
+      "label": "Scaling & Compute",
+      "segments": 567
+    },
+    {
+      "id": "CLAIM::breakthroughs_needed",
+      "type": "claim",
+      "label": "New Breakthroughs Needed",
+      "segments": 217
+    },
+    {
+      "id": "CLAIM::ai_safety_risk",
+      "type": "claim",
+      "label": "AI Safety & Risk",
+      "segments": 448
+    },
+    {
+      "id": "CLAIM::ai_optimism_benefit",
+      "type": "claim",
+      "label": "AI Optimism & Human Benefit",
+      "segments": 1109
+    },
+    {
+      "id": "CLAIM::ai_economics",
+      "type": "claim",
+      "label": "AI Economics & Jobs",
+      "segments": 283
+    },
+    {
+      "id": "CLAIM::ai_race_power",
+      "type": "claim",
+      "label": "AI Race & Power Concentration",
+      "segments": 158
+    },
+    {
+      "id": "CLAIM::geopolitics",
+      "type": "claim",
+      "label": "Geopolitics (US / China)",
+      "segments": 32
+    },
+    {
+      "id": "CLAIM::open_source",
+      "type": "claim",
+      "label": "Open Source vs Proprietary",
+      "segments": 342
+    },
+    {
+      "id": "CLAIM::intelligence_nature",
+      "type": "claim",
+      "label": "Nature of Intelligence & Learning",
+      "segments": 38
+    },
+    {
+      "id": "CLAIM::execution_engineering",
+      "type": "claim",
+      "label": "Execution & Engineering Reality",
+      "segments": 347
+    },
+    {
+      "id": "CLAIM::hardware_infra",
+      "type": "claim",
+      "label": "Hardware & Infrastructure",
+      "segments": 124
+    }
+  ],
+  "edges": [
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 51,
+      "refute": 14,
+      "neutral": 131,
+      "weight": 196,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 19,
+      "refute": 65,
+      "neutral": 84,
+      "weight": 168,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::scaling_compute",
+      "support": 60,
+      "refute": 6,
+      "neutral": 87,
+      "weight": 153,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 103,
+      "refute": 4,
+      "neutral": 12,
+      "weight": 119,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 31,
+      "refute": 11,
+      "neutral": 62,
+      "weight": 104,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 76,
+      "refute": 1,
+      "neutral": 18,
+      "weight": 95,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 30,
+      "refute": 29,
+      "neutral": 28,
+      "weight": 87,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::agi_timeline",
+      "support": 40,
+      "refute": 5,
+      "neutral": 31,
+      "weight": 76,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::agi_timeline",
+      "support": 23,
+      "refute": 5,
+      "neutral": 42,
+      "weight": 70,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 18,
+      "refute": 2,
+      "neutral": 43,
+      "weight": 63,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 3,
+      "refute": 28,
+      "neutral": 30,
+      "weight": 61,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::execution_engineering",
+      "support": 14,
+      "refute": 1,
+      "neutral": 46,
+      "weight": 61,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::ai_economics",
+      "support": 31,
+      "refute": 0,
+      "neutral": 29,
+      "weight": 60,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::agi_timeline",
+      "support": 17,
+      "refute": 1,
+      "neutral": 39,
+      "weight": 57,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::open_source",
+      "support": 1,
+      "refute": 0,
+      "neutral": 55,
+      "weight": 56,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 26,
+      "refute": 0,
+      "neutral": 25,
+      "weight": 51,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::scaling_compute",
+      "support": 29,
+      "refute": 0,
+      "neutral": 21,
+      "weight": 50,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::open_source",
+      "support": 1,
+      "refute": 0,
+      "neutral": 47,
+      "weight": 48,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::scaling_compute",
+      "support": 25,
+      "refute": 1,
+      "neutral": 21,
+      "weight": 47,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::llm_capabilities",
+      "support": 5,
+      "refute": 7,
+      "neutral": 34,
+      "weight": 46,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 2,
+      "refute": 2,
+      "neutral": 41,
+      "weight": 45,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 22,
+      "refute": 2,
+      "neutral": 18,
+      "weight": 42,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 13,
+      "refute": 1,
+      "neutral": 25,
+      "weight": 39,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 1,
+      "refute": 15,
+      "neutral": 22,
+      "weight": 38,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::execution_engineering",
+      "support": 5,
+      "refute": 0,
+      "neutral": 32,
+      "weight": 37,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::scaling_compute",
+      "support": 5,
+      "refute": 0,
+      "neutral": 31,
+      "weight": 36,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::ai_economics",
+      "support": 28,
+      "refute": 1,
+      "neutral": 7,
+      "weight": 36,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 22,
+      "refute": 6,
+      "neutral": 7,
+      "weight": 35,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::ai_race_power",
+      "support": 6,
+      "refute": 3,
+      "neutral": 26,
+      "weight": 35,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 30,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 34,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 11,
+      "refute": 1,
+      "neutral": 21,
+      "weight": 33,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 29,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 33,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::llm_capabilities",
+      "support": 2,
+      "refute": 22,
+      "neutral": 8,
+      "weight": 32,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::scaling_compute",
+      "support": 3,
+      "refute": 1,
+      "neutral": 28,
+      "weight": 32,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 3,
+      "refute": 8,
+      "neutral": 21,
+      "weight": 32,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::ai_economics",
+      "support": 18,
+      "refute": 0,
+      "neutral": 14,
+      "weight": 32,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::agi_timeline",
+      "support": 6,
+      "refute": 3,
+      "neutral": 21,
+      "weight": 30,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 28,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 30,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::scaling_compute",
+      "support": 9,
+      "refute": 0,
+      "neutral": 20,
+      "weight": 29,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::llm_capabilities",
+      "support": 6,
+      "refute": 1,
+      "neutral": 22,
+      "weight": 29,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::open_source",
+      "support": 8,
+      "refute": 0,
+      "neutral": 21,
+      "weight": 29,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 1,
+      "refute": 0,
+      "neutral": 26,
+      "weight": 27,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::execution_engineering",
+      "support": 3,
+      "refute": 4,
+      "neutral": 19,
+      "weight": 26,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::agi_timeline",
+      "support": 4,
+      "refute": 0,
+      "neutral": 22,
+      "weight": 26,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::hardware_infra",
+      "support": 14,
+      "refute": 0,
+      "neutral": 12,
+      "weight": 26,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 23,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 26,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::agi_timeline",
+      "support": 7,
+      "refute": 3,
+      "neutral": 16,
+      "weight": 26,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::ai_race_power",
+      "support": 2,
+      "refute": 0,
+      "neutral": 24,
+      "weight": 26,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 22,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 25,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 4,
+      "refute": 4,
+      "neutral": 17,
+      "weight": 25,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::execution_engineering",
+      "support": 10,
+      "refute": 0,
+      "neutral": 15,
+      "weight": 25,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 17,
+      "refute": 0,
+      "neutral": 8,
+      "weight": 25,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::John Schulman",
+      "target": "CLAIM::scaling_compute",
+      "support": 6,
+      "refute": 0,
+      "neutral": 19,
+      "weight": 25,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::ai_economics",
+      "support": 13,
+      "refute": 0,
+      "neutral": 11,
+      "weight": 24,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::John Schulman",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 4,
+      "refute": 1,
+      "neutral": 19,
+      "weight": 24,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::agi_timeline",
+      "support": 13,
+      "refute": 0,
+      "neutral": 10,
+      "weight": 23,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::agi_timeline",
+      "support": 11,
+      "refute": 1,
+      "neutral": 11,
+      "weight": 23,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::agi_timeline",
+      "support": 0,
+      "refute": 9,
+      "neutral": 13,
+      "weight": 22,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::scaling_compute",
+      "support": 5,
+      "refute": 2,
+      "neutral": 15,
+      "weight": 22,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 1,
+      "neutral": 21,
+      "weight": 22,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::execution_engineering",
+      "support": 7,
+      "refute": 0,
+      "neutral": 15,
+      "weight": 22,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 9,
+      "refute": 2,
+      "neutral": 10,
+      "weight": 21,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::llm_capabilities",
+      "support": 5,
+      "refute": 6,
+      "neutral": 10,
+      "weight": 21,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::scaling_compute",
+      "support": 6,
+      "refute": 0,
+      "neutral": 15,
+      "weight": 21,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::ai_race_power",
+      "support": 12,
+      "refute": 0,
+      "neutral": 9,
+      "weight": 21,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::open_source",
+      "support": 2,
+      "refute": 7,
+      "neutral": 12,
+      "weight": 21,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::agi_timeline",
+      "support": 4,
+      "refute": 7,
+      "neutral": 10,
+      "weight": 21,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::scaling_compute",
+      "support": 6,
+      "refute": 1,
+      "neutral": 14,
+      "weight": 21,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::execution_engineering",
+      "support": 10,
+      "refute": 1,
+      "neutral": 10,
+      "weight": 21,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 0,
+      "neutral": 21,
+      "weight": 21,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::scaling_compute",
+      "support": 8,
+      "refute": 0,
+      "neutral": 12,
+      "weight": 20,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::scaling_compute",
+      "support": 4,
+      "refute": 0,
+      "neutral": 16,
+      "weight": 20,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 9,
+      "refute": 0,
+      "neutral": 10,
+      "weight": 19,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::execution_engineering",
+      "support": 1,
+      "refute": 0,
+      "neutral": 18,
+      "weight": 19,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::open_source",
+      "support": 4,
+      "refute": 0,
+      "neutral": 15,
+      "weight": 19,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 18,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 18,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 4,
+      "refute": 4,
+      "neutral": 10,
+      "weight": 18,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::execution_engineering",
+      "support": 2,
+      "refute": 4,
+      "neutral": 11,
+      "weight": 17,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::scaling_compute",
+      "support": 11,
+      "refute": 0,
+      "neutral": 6,
+      "weight": 17,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 1,
+      "refute": 3,
+      "neutral": 12,
+      "weight": 16,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::open_source",
+      "support": 2,
+      "refute": 2,
+      "neutral": 12,
+      "weight": 16,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::llm_capabilities",
+      "support": 2,
+      "refute": 6,
+      "neutral": 8,
+      "weight": 16,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::open_source",
+      "support": 1,
+      "refute": 0,
+      "neutral": 14,
+      "weight": 15,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::ai_economics",
+      "support": 8,
+      "refute": 0,
+      "neutral": 7,
+      "weight": 15,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::llm_capabilities",
+      "support": 5,
+      "refute": 3,
+      "neutral": 6,
+      "weight": 14,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::execution_engineering",
+      "support": 1,
+      "refute": 1,
+      "neutral": 12,
+      "weight": 14,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 10,
+      "refute": 2,
+      "neutral": 2,
+      "weight": 14,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::ai_economics",
+      "support": 9,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 14,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::execution_engineering",
+      "support": 0,
+      "refute": 0,
+      "neutral": 14,
+      "weight": 14,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::hardware_infra",
+      "support": 14,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 14,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::scaling_compute",
+      "support": 1,
+      "refute": 1,
+      "neutral": 11,
+      "weight": 13,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::open_source",
+      "support": 6,
+      "refute": 1,
+      "neutral": 6,
+      "weight": 13,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::ai_race_power",
+      "support": 6,
+      "refute": 0,
+      "neutral": 7,
+      "weight": 13,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::execution_engineering",
+      "support": 2,
+      "refute": 0,
+      "neutral": 11,
+      "weight": 13,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 1,
+      "neutral": 12,
+      "weight": 13,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::John Schulman",
+      "target": "CLAIM::llm_capabilities",
+      "support": 4,
+      "refute": 2,
+      "neutral": 7,
+      "weight": 13,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::scaling_compute",
+      "support": 1,
+      "refute": 1,
+      "neutral": 11,
+      "weight": 13,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 3,
+      "refute": 1,
+      "neutral": 8,
+      "weight": 12,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::agi_timeline",
+      "support": 2,
+      "refute": 0,
+      "neutral": 10,
+      "weight": 12,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 2,
+      "neutral": 10,
+      "weight": 12,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::open_source",
+      "support": 1,
+      "refute": 0,
+      "neutral": 11,
+      "weight": 12,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::agi_timeline",
+      "support": 3,
+      "refute": 1,
+      "neutral": 8,
+      "weight": 12,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 2,
+      "refute": 3,
+      "neutral": 7,
+      "weight": 12,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::agi_timeline",
+      "support": 3,
+      "refute": 5,
+      "neutral": 4,
+      "weight": 12,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 11,
+      "weight": 12,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 3,
+      "refute": 1,
+      "neutral": 8,
+      "weight": 12,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 3,
+      "refute": 1,
+      "neutral": 8,
+      "weight": 12,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::ai_economics",
+      "support": 11,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 12,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::execution_engineering",
+      "support": 1,
+      "refute": 3,
+      "neutral": 7,
+      "weight": 11,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::execution_engineering",
+      "support": 4,
+      "refute": 0,
+      "neutral": 7,
+      "weight": 11,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::llm_capabilities",
+      "support": 2,
+      "refute": 2,
+      "neutral": 7,
+      "weight": 11,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::hardware_infra",
+      "support": 7,
+      "refute": 2,
+      "neutral": 2,
+      "weight": 11,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::ai_economics",
+      "support": 8,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 11,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::ai_economics",
+      "support": 7,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 10,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 3,
+      "refute": 1,
+      "neutral": 6,
+      "weight": 10,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 4,
+      "refute": 4,
+      "neutral": 2,
+      "weight": 10,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::ai_economics",
+      "support": 3,
+      "refute": 0,
+      "neutral": 7,
+      "weight": 10,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::agi_timeline",
+      "support": 2,
+      "refute": 1,
+      "neutral": 7,
+      "weight": 10,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::execution_engineering",
+      "support": 3,
+      "refute": 1,
+      "neutral": 6,
+      "weight": 10,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::ai_economics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 10,
+      "weight": 10,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 1,
+      "refute": 2,
+      "neutral": 7,
+      "weight": 10,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::ai_race_power",
+      "support": 5,
+      "refute": 1,
+      "neutral": 4,
+      "weight": 10,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 2,
+      "refute": 2,
+      "neutral": 6,
+      "weight": 10,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::John Schulman",
+      "target": "CLAIM::agi_timeline",
+      "support": 3,
+      "refute": 1,
+      "neutral": 6,
+      "weight": 10,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::David Rein",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 1,
+      "refute": 1,
+      "neutral": 8,
+      "weight": 10,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::hardware_infra",
+      "support": 2,
+      "refute": 0,
+      "neutral": 7,
+      "weight": 9,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::hardware_infra",
+      "support": 9,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 9,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 4,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 9,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::open_source",
+      "support": 4,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 9,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::ai_economics",
+      "support": 5,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 8,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::intelligence_nature",
+      "support": 0,
+      "refute": 1,
+      "neutral": 7,
+      "weight": 8,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::open_source",
+      "support": 6,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 8,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::scaling_compute",
+      "support": 6,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 8,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::intelligence_nature",
+      "support": 2,
+      "refute": 1,
+      "neutral": 5,
+      "weight": 8,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::geopolitics",
+      "support": 5,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 8,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::ai_race_power",
+      "support": 6,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 8,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::execution_engineering",
+      "support": 2,
+      "refute": 0,
+      "neutral": 6,
+      "weight": 8,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 6,
+      "refute": 1,
+      "neutral": 1,
+      "weight": 8,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::David Rein",
+      "target": "CLAIM::scaling_compute",
+      "support": 2,
+      "refute": 0,
+      "neutral": 6,
+      "weight": 8,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 2,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 7,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::geopolitics",
+      "support": 1,
+      "refute": 0,
+      "neutral": 6,
+      "weight": 7,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tim Scarfe",
+      "target": "CLAIM::scaling_compute",
+      "support": 2,
+      "refute": 1,
+      "neutral": 4,
+      "weight": 7,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::John Schulman",
+      "target": "CLAIM::execution_engineering",
+      "support": 2,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 7,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 6,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 6,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::ai_race_power",
+      "support": 3,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 6,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::llm_capabilities",
+      "support": 1,
+      "refute": 5,
+      "neutral": 0,
+      "weight": 6,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::llm_capabilities",
+      "support": 2,
+      "refute": 1,
+      "neutral": 3,
+      "weight": 6,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 6,
+      "weight": 6,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::agi_timeline",
+      "support": 1,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 6,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 0,
+      "refute": 0,
+      "neutral": 6,
+      "weight": 6,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Sebastian Raschka",
+      "target": "CLAIM::scaling_compute",
+      "support": 3,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 6,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::agi_timeline",
+      "support": 1,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 6,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::open_source",
+      "support": 1,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 6,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 4,
+      "refute": 1,
+      "neutral": 1,
+      "weight": 6,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::scaling_compute",
+      "support": 1,
+      "refute": 2,
+      "neutral": 3,
+      "weight": 6,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 3,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 6,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::agi_timeline",
+      "support": 2,
+      "refute": 1,
+      "neutral": 3,
+      "weight": 6,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::David Rein",
+      "target": "CLAIM::execution_engineering",
+      "support": 2,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 6,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::hardware_infra",
+      "support": 3,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 5,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::ai_race_power",
+      "support": 3,
+      "refute": 1,
+      "neutral": 1,
+      "weight": 5,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::hardware_infra",
+      "support": 2,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 1,
+      "refute": 1,
+      "neutral": 3,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::execution_engineering",
+      "support": 3,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 5,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::geopolitics",
+      "support": 4,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 5,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 1,
+      "neutral": 4,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Sebastian Raschka",
+      "target": "CLAIM::llm_capabilities",
+      "support": 1,
+      "refute": 1,
+      "neutral": 3,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dwarkesh Patel",
+      "target": "CLAIM::agi_timeline",
+      "support": 2,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dwarkesh Patel",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 1,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::llm_capabilities",
+      "support": 0,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::ai_economics",
+      "support": 3,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 5,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::execution_engineering",
+      "support": 0,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::ai_economics",
+      "support": 1,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::intelligence_nature",
+      "support": 1,
+      "refute": 2,
+      "neutral": 2,
+      "weight": 5,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::llm_capabilities",
+      "support": 3,
+      "refute": 1,
+      "neutral": 1,
+      "weight": 5,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::agi_timeline",
+      "support": 2,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::ai_economics",
+      "support": 3,
+      "refute": 1,
+      "neutral": 1,
+      "weight": 5,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 2,
+      "refute": 1,
+      "neutral": 2,
+      "weight": 5,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::John Schulman",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 5,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 5,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::John Schulman",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::llm_capabilities",
+      "support": 2,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 0,
+      "refute": 0,
+      "neutral": 5,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::David Rein",
+      "target": "CLAIM::ai_economics",
+      "support": 2,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 5,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Roman Yampolskiy",
+      "target": "CLAIM::intelligence_nature",
+      "support": 0,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::ai_economics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::hardware_infra",
+      "support": 0,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::execution_engineering",
+      "support": 3,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 4,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 1,
+      "refute": 2,
+      "neutral": 1,
+      "weight": 4,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::scaling_compute",
+      "support": 0,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::llm_capabilities",
+      "support": 0,
+      "refute": 1,
+      "neutral": 3,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::agi_timeline",
+      "support": 2,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 4,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::scaling_compute",
+      "support": 2,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 4,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 0,
+      "refute": 1,
+      "neutral": 3,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::hardware_infra",
+      "support": 4,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 4,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::llm_capabilities",
+      "support": 0,
+      "refute": 1,
+      "neutral": 3,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::agi_timeline",
+      "support": 2,
+      "refute": 1,
+      "neutral": 1,
+      "weight": 4,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::John Schulman",
+      "target": "CLAIM::ai_economics",
+      "support": 4,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 4,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::David Rein",
+      "target": "CLAIM::llm_capabilities",
+      "support": 0,
+      "refute": 3,
+      "neutral": 1,
+      "weight": 4,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::David Rein",
+      "target": "CLAIM::agi_timeline",
+      "support": 0,
+      "refute": 0,
+      "neutral": 4,
+      "weight": 4,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::ai_economics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 2,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 3,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::llm_capabilities",
+      "support": 0,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 2,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 3,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sebastian Raschka",
+      "target": "CLAIM::open_source",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 0,
+      "refute": 1,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tim Scarfe",
+      "target": "CLAIM::execution_engineering",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tim Scarfe",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tim Scarfe",
+      "target": "CLAIM::agi_timeline",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tim Scarfe",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dwarkesh Patel",
+      "target": "CLAIM::ai_economics",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Dario Amodei",
+      "target": "CLAIM::geopolitics",
+      "support": 2,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 3,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Dwarkesh Patel",
+      "target": "CLAIM::execution_engineering",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::llm_capabilities",
+      "support": 0,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 0,
+      "refute": 0,
+      "neutral": 3,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::intelligence_nature",
+      "support": 1,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 3,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::ai_race_power",
+      "support": 1,
+      "refute": 1,
+      "neutral": 1,
+      "weight": 3,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Demis Hassabis",
+      "target": "CLAIM::intelligence_nature",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Eliezer Yudkowsky",
+      "target": "CLAIM::intelligence_nature",
+      "support": 0,
+      "refute": 1,
+      "neutral": 1,
+      "weight": 2,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::ai_race_power",
+      "support": 1,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 2,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::intelligence_nature",
+      "support": 1,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 2,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sebastian Raschka",
+      "target": "CLAIM::ai_economics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Sebastian Raschka",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 0,
+      "refute": 1,
+      "neutral": 1,
+      "weight": 2,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Sebastian Raschka",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Sebastian Raschka",
+      "target": "CLAIM::execution_engineering",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Nathan Lambert",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 2,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 2,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::ai_economics",
+      "support": 2,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 2,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::llm_capabilities",
+      "support": 1,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 2,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::ai_economics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tim Scarfe",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 2,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Dwarkesh Patel",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 2,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Dwarkesh Patel",
+      "target": "CLAIM::scaling_compute",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 2,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::llm_capabilities",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rohin Shah",
+      "target": "CLAIM::geopolitics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 2,
+      "weight": 2,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Max Tegmark",
+      "target": "CLAIM::geopolitics",
+      "support": 0,
+      "refute": 2,
+      "neutral": 0,
+      "weight": 2,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Ege Erdil",
+      "target": "CLAIM::geopolitics",
+      "support": 2,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 2,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::John Schulman",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 0,
+      "refute": 2,
+      "neutral": 0,
+      "weight": 2,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::geopolitics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Yann LeCun",
+      "target": "CLAIM::geopolitics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::hardware_infra",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::scaling_compute",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::execution_engineering",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Victor Shih",
+      "target": "CLAIM::llm_capabilities",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Andrej Karpathy",
+      "target": "CLAIM::ai_economics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Sebastian Raschka",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 1,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sebastian Raschka",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::hardware_infra",
+      "support": 1,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 1,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Sam Altman",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 1,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 1,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Tim Scarfe",
+      "target": "CLAIM::ai_race_power",
+      "support": 1,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 1,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Yoshua Bengio",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tim Scarfe",
+      "target": "CLAIM::llm_capabilities",
+      "support": 0,
+      "refute": 1,
+      "neutral": 0,
+      "weight": 1,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Dwarkesh Patel",
+      "target": "CLAIM::llm_capabilities",
+      "support": 1,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 1,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Will MacAskill",
+      "target": "CLAIM::intelligence_nature",
+      "support": 1,
+      "refute": 0,
+      "neutral": 0,
+      "weight": 1,
+      "dominant_stance": "Support"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::intelligence_nature",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Connor Leahy",
+      "target": "CLAIM::geopolitics",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Rob Wiblin",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Amanda",
+      "target": "CLAIM::execution_engineering",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Amanda",
+      "target": "CLAIM::scaling_compute",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Lex Fridman",
+      "target": "CLAIM::intelligence_nature",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Jensen Huang",
+      "target": "CLAIM::intelligence_nature",
+      "support": 0,
+      "refute": 1,
+      "neutral": 0,
+      "weight": 1,
+      "dominant_stance": "Refute"
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::breakthroughs_needed",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::execution_engineering",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Tamay Besiroglu",
+      "target": "CLAIM::ai_safety_risk",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Peter Steinberger",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Beth Barnes",
+      "target": "CLAIM::scaling_compute",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::Beth Barnes",
+      "target": "CLAIM::ai_optimism_benefit",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::David Rein",
+      "target": "CLAIM::open_source",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::David Rein",
+      "target": "CLAIM::hardware_infra",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    },
+    {
+      "source": "PERSON::David Rein",
+      "target": "CLAIM::ai_race_power",
+      "support": 0,
+      "refute": 0,
+      "neutral": 1,
+      "weight": 1,
+      "dominant_stance": "Neutral"
+    }
+  ]
+}
