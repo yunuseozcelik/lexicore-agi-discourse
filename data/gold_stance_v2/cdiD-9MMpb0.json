@@ -1,0 +1,833 @@
+[
+  {
+    "start": 183.1,
+    "end": 370.6,
+    "text": "prompts from your own memory inside your head automatically feels like you're referencing some kind of a declarative structure of like memory and so on and then uh you're putting that together with your prompt and giving away some messages like how much of what you just said has been said by you before uh nothing basically right no but if you actually look at all the words you've ever said in your life and you do a search you'll probably said a lot of the same words in the same order before yeah it could be I mean I'm using phrases that are common Etc but I'm remixing it into a pretty uh sort of unique sentence at the end of the day but you're right definitely there's like a ton of remixing what you didn't you it's like Magnus Carlsen said uh I'm I'm rated 2900 whatever which is pretty decent I think you're talking very uh you're not giving enough credit to neural Nets here why do they seem to what's your best intuition about this emergent Behavior I mean it's kind of interesting because I'm simultaneously underselling them but I also feel like there's an element to which I'm over like it's actually kind of incredible that you can get so much emergent magical Behavior out of them despite them being so simple mathematically so I think those are kind of like two surprising statements that are kind of just juxtapose together and I think basically what it is is we are actually fairly good at optimizing these neural Nets and when you give them a hard enough problem they are forced to learn very interesting Solutions in the optimization and those solution basically have these immersion properties that are very interesting there's wisdom and knowledge in the knobs and so what's this representation that's in the knobs does it make sense to you intuitively the large number of knobs can hold the representation that captures some deep wisdom about the data it has looked at it's a lot of knobs it's a lot of knobs and somehow you know so speaking concretely um one of the neural Nets that people are very excited about right now are are gpts which are basically just next word prediction networks so you consume a sequence of words from the internet and you try to predict the next word and uh once you train these on a large enough data set um they you can basically uh prompt these neural amounts in arbitrary ways and you can ask them to solve problems and they will so you can just tell them you can you can make it look like you're trying to um solve some kind of a mathematical problem and they will continue what they think is the solution based on what they've seen on the internet and very often those Solutions look very remarkably consistent look correct potentially do you still think about the brain side of it so as neural Nets is an abstraction or mathematical abstraction of the brain you still draw wisdom from from the biological neural networks or even the bigger question so you're a big fan of biology and biological computation what impressive thing is biology do doing to you that computers are not yet",
+    "speaker": "Andrej Karpathy",
+    "claim": "Neural networks exhibit emergent behavior and can solve complex problems through optimization, despite their mathematical simplicity.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "is_claim": true,
+    "topic": "Neural Networks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Neural networks exhibit emergent behavior and can solve complex problems through optimization, despite their mathematical simplicity.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_race_power"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Neural Networks",
+    "reviewed": true,
+    "text_tr": "kendi hafızanızdan gelen istemlerin otomatik olarak bazı türde bir beyan yapısına atıfta bulunduğunu hissetmek ve sonra bunu isteminizle birleştirip bazı mesajlar vermek gibi, az önce söylediklerinizin ne kadarının daha önce sizin tarafınızdan söylendiğini belirtiyorsunuz, aslında hiçbir şey değil, değil mi? Hayır, ama eğer hayatınız boyunca söylediğiniz tüm kelimelere bakarsanız ve bir arama yaparsanız, muhtemelen daha önce aynı kelimeleri aynı sırayla çokça söylemişsinizdir. Evet, olabilir. Yani yaygın ifadeler kullanıyorum vb. ama sonunda bunu oldukça benzersiz bir cümleye dönüştürüyorum ama haklısınız, kesinlikle burada çok fazla yeniden karıştırma var. Ne demiştiniz, Magnus Carlsen şöyle dedi: \"Ben 2900 puanım, bu oldukça iyi\". Bence burada sinir ağlarına yeterince kredi vermiyorsunuz. Neden böyle görünüyor? Bu ortaya çıkan davranış hakkında en iyi sezginiz nedir? Yani, bu ilginç çünkü aynı anda onları küçümsüyorum ama aynı zamanda basit matematiksel olarak bu kadar basit olmalarına rağmen onlardan bu kadar çok ortaya çıkan sihirli davranış elde edebilmenin bir unsuru olduğunu hissediyorum. Yani bunlar, bir arada duruyor gibi görünen iki şaşırtıcı ifade ve bence esasen, bu sinir ağlarını optimize etmede oldukça iyi olduğumuz ve onlara yeterince zor bir problem verdiğinizde, ilginç çözümler öğrenmeye zorlandıkları ve bu çözümlerin esasen çok ilginç olan bu ortaya çıkan özelliklere sahip olduğu. Düğmelerde bilgelik ve bilgi var ve peki bu düğmelerdeki temsil nedir? Sizin için sezgisel olarak anlamlı mı? Çok sayıda düğme, baktığı veriler hakkında bazı derin bilgileri yakalayan bir temsili tutabilir. Çok sayıda düğme var, çok sayıda düğme var ve bir şekilde, somut olarak konuşursak, şu anda insanların çok heyecanlandığı sinir ağlarından biri, temelde bir sonraki kelime tahmin ağı olan gpt'lerdir. Yani internetteki bir kelime dizisini tüketiyorsunuz ve bir sonraki kelimeyi tahmin etmeye çalışıyorsunuz ve bu sinir ağlarını yeterince büyük bir veri setinde eğittiğinizde, bu sinir ağlarını keyfi şekillerde istem yapmaya zorlayabilirsiniz ve onlara problemleri çözmelerini söyleyebilirsiniz ve yapacaklardır. Yani onlara söyleyebilirsiniz, bir tür matematik problemi çözmeye çalışıyormuşsunuz gibi görünmesini sağlayabilirsiniz ve internetten gördüklerine dayanarak düşündükleri çözümü devam ettireceklerdir ve çok sık bu çözümler oldukça tutarlı görünüyor, doğru görünüyor. Hâlâ beynin tarafını düşünüyor musunuz? Yani sinir ağları, beynin matematiksel bir soyutlaması olarak, biyolojik sinir ağlarından bilgelik çıkarıyor musunuz? Ya da daha büyük bir soru, biyoloji ve biyolojik hesaplamadan büyük bir hayranlık duyuyorsunuz, biyolojinin bilgisayarlardan henüz yapmadığı etkileyici şey nedir?",
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_race_power",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2492.8,
+    "end": 2678.1,
+    "text": "guys is do not touch the Transformer touch everything else yes so people are scaling up the data sets making them much much bigger they're working on the evaluation making the evaluation much much bigger and uh um they're basically keeping the architecture unchanged and that's how we've um that's the last five years of progress in AI kind of what do you think about one flavor of it which is language models have you been surprised uh has your sort of imagination been captivated by you mentioned GPT and all the bigger and bigger and bigger language models and uh what are the limits of those models do you think so just let the task of natural language basically the way GPT is trained right is you just download a mass amount of text Data from the internet and you try to predict the next word in a sequence roughly speaking you're predicting will work chunks but uh roughly speaking that's it and what's been really interesting to watch is uh basically it's a language model language models have actually existed for a very long time um there's papers on language modeling from 2003 even earlier can you explain that case what a language model is uh yeah so language model just basically the rough idea is um just predicting the next word in a sequence roughly speaking uh so there's a paper from for example bengio and the team from 2003 where for the first time they were using a neural network to take say like three or five words and predict the um next word and they're doing this on much smaller data sets and the neural net is not a Transformer it's a multiple error perceptron but but it's the first time that a neural network has been applied in that setting but even before neural networks there were language models except they were using engram models so engram models are just a count based models so um if you try to if you start to take two words and predict the third one you just count up how many times you've seen any two word combinations and what came next and what you predict that's coming next is just what you've seen the most of in the training set and so language modeling has been around for a long time neural networks have done language modeling for a long time so really what's new or interesting or exciting is just realizing that when you scale it up with a powerful enough neural net Transformer you have all these emergent properties where basically what happens is if you have a large enough data set of text you are in the task of predicting the next word you are multitasking a huge amount of different kinds of problems you are multitasking understanding of you know chemistry physics human nature lots of things are sort of clustered in that objective it's a very simple objective but actually you have to understand a lot about the world to make that prediction you just said the U word understanding uh are you in terms of chemistry and physics and so on what do you feel like it's doing is it searching for the right context uh in in like what what is it what is the actual process Happening Here Yeah so basically it gets a thousand words and it's trying to predict a thousand at",
+    "speaker": "Andrej Karpathy",
+    "claim": "Language models have existed for a long time and have evolved significantly with the introduction of neural networks and Transformers, leading to emergent properties when scaled up.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Language models have existed for a long time and have evolved significantly with the introduction of neural networks and Transformers, leading to emergent properties when scaled up.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "adamlar, Transformer'a dokunmayın, her şeye dokunun. Evet, bu yüzden insanlar veri setlerini büyütüyorlar, onları çok daha büyük hale getiriyorlar, değerlendirmeyi çok daha büyük hale getiriyorlar ve temelde mimariyi değiştirmeden tutuyorlar ve bu, AI'deki son beş yıllık ilerlemenin nasıl olduğunu gösteriyor. Peki, bunun bir çeşidi hakkında ne düşünüyorsunuz, yani dil modelleri? Sizi şaşırttı mı? Hayal gücünüzü etkiledi mi? GPT ve giderek daha büyük dil modellerini bahsettiğinizde, bu modellerin sınırları ne? Yani doğal dilin görevini serbest bırakın, temelde GPT'nin eğitildiği yol, internetteki büyük miktarda metin verisini indirip bir dizideki bir sonraki kelimeyi tahmin etmeye çalışıyorsunuz, kabaca konuşursak, kelime parçalarını tahmin ediyorsunuz ama kabaca bu kadar ve izlemek gerçekten ilginç olan, temelde bir dil modeli, dil modelleri aslında çok uzun zamandır var. 2003'ten daha önce dil modelleme üzerine makaleler var. O durumu açıklayabilir misiniz? Bir dil modeli nedir? Evet, dil modeli esasen kabaca bir dizideki bir sonraki kelimeyi tahmin etme fikridir. Örneğin, 2003'te Bengio ve ekibinin bir makalesi var, burada ilk kez bir sinir ağı kullanarak üç veya beş kelime alıp bir sonraki kelimeyi tahmin ediyorlar ve bunu çok daha küçük veri setlerinde yapıyorlar ve sinir ağı bir Transformer değil, çok katmanlı algılayıcıdır ama bu, bir sinir ağının o ortamda uygulandığı ilk kezdir. Ama sinir ağlarından önce bile dil modelleri vardı, ancak bunlar n-gram modelleri kullanıyordu. Yani n-gram modelleri, sadece sayım tabanlı modellerdir. Yani, iki kelime alıp üçüncüsünü tahmin etmeye çalıştığınızda, sadece gördüğünüz iki kelime kombinasyonunun ne kadar sıklıkla geldiğini sayıyorsunuz ve tahmin ettiğiniz şey, eğitim setinde en çok gördüğünüz şeydir ve bu nedenle dil modelleme uzun zamandır var. Sinir ağları uzun zamandır dil modelleme yaptı. Yani gerçekten yeni veya ilginç veya heyecan verici olan şey, güçlü bir sinir ağı Transformer ile ölçeklendiğinde, bu kadar çok ortaya çıkan özellik elde etmenizdir. Temelde, yeterince büyük bir metin veri setiniz varsa, bir sonraki kelimeyi tahmin etme görevinde, çok sayıda farklı türde problemi çoklu görev olarak yapıyorsunuz. Kimya, fizik, insan doğası gibi birçok şey bu hedefte kümeleniyor. Çok basit bir hedef ama aslında bu tahmini yapmak için dünyayı anlamanız gerekiyor. Az önce anladığınızı söylediniz, kimya ve fizik açısından, ne yapıyorsunuz? Doğru bağlamı mı arıyor? Burada gerçek süreç nedir? Evet, temelde bin kelime alıyor ve bin kelimeyi tahmin etmeye çalışıyor.",
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "breakthroughs_needed",
+        "stance": "Refute"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 10934.0,
+    "end": 11120.8,
+    "text": "might still deploy it uh but you very quickly learn not to use them and so there'll be like this balance that you humans are very clever as a species it's interesting we exploit the resources as much as we can but we don't we avoid destroying ourselves it seems like well I don't know about that actually I hope it continues um I mean I'm definitely like concerned about nuclear weapons and so on not just as a result of the recent conflict even before that uh that's probably like my number one concern for society so if Humanity uh destroys itself or destroys you know 90 of people that would be because of nukes I think so um and it's not even about full destruction to me it's bad enough if we reset society that would be like terrible it would be really bad and I can't believe we're like so close to it yeah it's like so crazy to me it feels like we might be a few tweets away from something like that yep basically it's extremely unnerving but and has been for me for a long time it seems unstable that world leaders just having a bad mood can like um take one step towards a bad Direction and it escalates yeah and because of a collection of bad moods it can escalate without being able to um stop yeah it's just it's a huge amount of uh Power and then also with the proliferation and basically I don't I don't actually really see I don't actually know what the good outcomes are here uh so I'm definitely worried about that a lot and then AGI is not currently there but I think at some point we'll more and more become uh something like it the danger with AGI even is that I think it's even less likely worse in a sense that uh there are good outcomes of AGI and then the bad outcomes are like an absolute way like a tiny one way and so I think um capitalism and humanity and so on will drive for the positive uh ways of using that technology but then if bad outcomes are just like a tiny like flipping minus sign away uh that's a really bad position to be in a tiny perturbation of the system results in the destruction of the human species it's a weird line to walk yeah I think in general what's really weird about like the Dynamics of humanity and this explosion was talked about is just like the insane coupling afforded by technology yeah and uh just the instability of the whole dynamical system I think it's just it doesn't look good honestly yes that explosion could be destructive and constructive and the probabilities are non-zero in both both senses I'm going to have to I do feel like I have to try to be optimistic and so on and yes I think even in this case I still am predominantly optimistic but there's definitely me too uh do you think we'll become a multiplayer species probably yes but I don't know if it's dominant feature of uh future Humanity uh there might be some people on some planets and so on but I'm not sure if it's like yeah if it's like a major player in our culture and so on we still have to solve the drivers of self-destruction here on Earth so just having a backup on Mars is",
+    "speaker": "Andrej Karpathy",
+    "claim": "AGI poses significant risks, and while there may be positive outcomes, the potential for catastrophic failure is a serious concern.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI poses significant risks, and while there may be positive outcomes, the potential for catastrophic failure is a serious concern.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "- Tamam, her ikinizin de birçok alanda gerçek birer araştırmacı, programcı, eğitimci ve Twitter kullanıcısı olduğunu söylemeliyiz. Kitap konusunda da öyle. Nathan, umarım yakında bir RLHF kitabı çıkaracak. - Ön siparişe açık ve tam dijital bir ön baskısı var. Fiziksel versiyonu için onu daha güzel ve daha iyi organize etmekle meşgulüm. Çünkü fiziksel formda mükemmel olduğunu düşündüğüm şeyler yaratmak eğlenceli. - Perplexity'ye gelince, Sebastian Raschka, birkaç etkili kitabıyla tanınan bir makine öğrenimi araştırmacısıdır. Bahsetmek istediğim birkaç kitabı var; bunlardan biri, kesinlikle tavsiye ettiğim, Sıfırdan Büyük Bir Dil Modeli Oluşturmak ve yeni olanı, Sıfırdan Bir Akıl Yürütme Modeli Oluşturmak. Bu konuda çok heyecanlıyım. Sıfırdan bir şeyler inşa etmek, öğrenmenin en güçlü yollarından biridir. - Dürüst olmak gerekirse, sıfırdan bir LLM inşa etmek çok eğlenceli. Ayrıca öğrenilecek çok şey var. Ve senin de dediğin gibi, bu, bir şeyin gerçekten nasıl çalıştığını öğrenmenin en iyi yolu. Çünkü figürlere bakabilirsin ama figürlerde hatalar olabilir. Kavramlara ve açıklamalara bakabilirsin ama onları yanlış anlayabilirsin. Ama eğer kod varsa ve kod çalışıyorsa, bunun doğru olduğunu bilirsin. Yani, yanlış anlama yok. Bu kesin. Aksi takdirde çalışmazdı. Ve bence kodlamanın güzelliği burada. Yalan söylemez. Temelde matematik. Yani, matematikte hatalar olabilir ama bir kitapta asla fark edemezsin. Çünkü kitabı okurken matematiği çalıştırmıyorsun, bunu doğrulayamıyorsun. Ama kodla, güzel olan şey, bunu doğrulayabilirsin. - Evet, sıfırdan bir LLM oluşturma kitabı hakkında seninle aynı fikirdeyim. Diğer her şeyi, interneti ve benzeri şeyleri kapatıp sadece kitaba odaklanmak güzel. Ama biliyorsun, birkaç tarih kitabı okudum. Bu bir şekilde daha az yalnız hissettiriyor. Gerçekten daha eğlenceli. Örneğin, programlama açısından, bir LLM ile programlama yapmanın gerçekten daha eğlenceli olduğunu düşünüyorum. Ve bir LLM ile okumak da gerçekten daha eğlenceli. Ama haklısın. O dikkat dağıtıcı şeyler en aza indirilmelidir. Yani, LLM'yi esasen deneyimi zenginleştirmek için kullanıyorsun, belki daha fazla bağlam ekliyorsun. Benim için, LLM'lerle",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 2309.0,
+    "end": 2494.1,
+    "text": "connections support a kind of ability to learn short algorithms fast them first and then gradually extend them longer during training yeah what's what's the idea of learning short algorithms right think of it as a so basically a Transformer is a series of uh blocks right and these blocks have attention and a little multi-layer perceptron and so you you go off into a block and you come back to this residual pathway and then you go off and you come back and then you have a number of layers arranged sequentially and so the way to look at it I think is because of the residual pathway in the backward path the gradients uh sort of flow along it uninterrupted because addition distributes the gradient equally to all of its branches so the gradient from the supervision at the top uh just floats directly to the first layer and the all the residual connections are arranged so that in the beginning during initialization they contribute nothing to the residual pathway um so what it kind of looks like is imagine the Transformer is kind of like a uh python uh function like a death and um you get to do various kinds of like lines of code say you have a hundred layers deep Transformer typically they would be much shorter say 20. so if 20 lines of code then you can do something in them and so think of during the optimization basically what it looks like is first you optimize the first line of code and then the second line of code can kick in and the third line of code can and I kind of feel like because of the residual pathway and the Dynamics of the optimization you can sort of learn a very short algorithm that gets the approximate tensor but then the other layers can sort of kick in and start to create a contribution and at the end of it you're you're optimizing over an algorithm that is 20 lines of code except these lines of code are very complex because it's an entire block of a transformer you can do a lot in there what's really interesting is that this Transformer architecture actually has been a remarkably resilient basically the Transformer that came out in 2016 is the Transformer you would use today except you reshuffle some of the layer norms the layer normalizations have been reshuffled to a pre-norm formulation and so it's been remarkably stable but there's a lot of bells and whistles that people have attached on and try to uh improve it I do think that basically it's a it's a big step in simultaneously optimizing for lots of properties of a desirable neural network architecture and I think people have been trying to change it but it's proven remarkably resilient but I do think that there should be even better architectures potentially but it's uh your you admire the resilience here yeah there's something profound about this architecture that that at least so maybe we can everything can be turned into a uh into a problem that Transformers can solve currently definitely looks like the Transformers taking over Ai and you can feed basically arbitrary problems into it and it's a general differentiable computer and it's extremely powerful and uh this convergence in AI has been really interesting to watch uh for me personally what else do you think could be discovered here about Transformers like what's surprising thing or or is it a stable um I went to stable place is there something interesting we might discover about Transformers like aha moments maybe has to do with memory uh maybe knowledge representation that kind of stuff definitely the Zeitgeist today is just pushing like basically right now this ad",
+    "speaker": "Andrej Karpathy",
+    "claim": "Transformers are a resilient architecture that can solve a wide range of problems and may lead to further discoveries in AI.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "Transformer architecture",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Transformers are a resilient architecture that can solve a wide range of problems and may lead to further discoveries in AI.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "Transformer architecture",
+    "reviewed": true,
+    "text_tr": "bağlantılar, kısa algoritmaları hızlı bir şekilde öğrenme yeteneğini destekliyor, önce onları öğreniyorlar ve sonra eğitim sırasında daha uzun hale getiriyorlar. Evet, kısa algoritmaları öğrenme fikri nedir? Bunu bir dizi blok olarak düşünün, değil mi? Bu bloklar dikkat ve biraz çok katmanlı algılayıcıya sahip ve bir bloğa gidiyorsunuz ve geri dönüyorsunuz bu artı yoluna ve sonra bir daha gidiyorsunuz ve geri dönüyorsunuz ve ardından ardışık olarak düzenlenmiş bir dizi katmanınız var ve bence bunu görmek için, geri yolundaki artı yol nedeniyle, gradyanlar, kesintisiz bir şekilde akıyor çünkü toplama, gradyanı tüm dallarına eşit olarak dağıtıyor. Yani, üstteki denetimden gelen gradyan doğrudan ilk katmana akıyor ve tüm artı bağlantılar, başlangıçta artı yola hiçbir şey katkıda bulunmadığı şekilde düzenlenmiştir. Yani, bu tür görünüyor, Transformer, bir python işlevi gibi bir şeydir ve çeşitli türlerde kod satırları yapabilirsiniz, diyelim ki yüz katman derinliğinde bir Transformer var, genellikle çok daha kısa olurlar, diyelim ki 20. Yani 20 satır kod varsa, o zaman onlarda bir şey yapabilirsiniz ve bu nedenle optimizasyon sırasında, esasen ilk kod satırını optimize ediyorsunuz ve ardından ikinci kod satırı devreye girebilir ve üçüncü kod satırı devreye girebilir ve artı yol ve optimizasyon dinamikleri nedeniyle, yaklaşık bir tensör elde eden çok kısa bir algoritmayı öğrenebiliyorsunuz ama diğer katmanlar devreye girebilir ve katkıda bulunmaya başlayabilir ve sonunda, 20 satır koddan oluşan bir algoritmayı optimize ediyorsunuz, ancak bu kod satırları çok karmaşık çünkü bu bir Transformer bloğunun tamamı. Orada çok şey yapabilirsiniz. Gerçekten ilginç olan, bu Transformer mimarisinin aslında oldukça dayanıklı olması. 2016'da çıkan Transformer, bugün kullanacağınız Transformer'dır, tek fark, bazı katman normlarının yeniden düzenlenmiş olmasıdır, katman normalizasyonları ön norm formülasyonuna yeniden düzenlenmiştir ve bu nedenle oldukça kararlı olmuştur ama buna eklenen birçok ziller ve ıslıklar var ve insanlar bunu geliştirmeye çalıştılar. Bence esasen, istenen bir sinir ağı mimarisinin birçok özelliğini optimize etmekte büyük bir adım ve bence insanlar bunu değiştirmeye çalıştılar ama oldukça dayanıklı olduğu kanıtlandı ama bence potansiyel olarak daha iyi mimariler olmalı ama bu, hayranlık duyduğunuz bir dayanıklılık mı? Evet, bu mimaride derin bir şey var, belki her şey bir probleme dönüştürülebilir ve şu anda Transformer'ların AI'yi ele geçirdiği kesinlikle görünüyor ve temelde keyfi problemleri ona besleyebilirsiniz ve bu, genel bir diferansiyasyonlu bilgisayar ve son derece güçlü ve AI'deki bu yakınsama benim için gerçekten ilginç bir şey. Transformer'lar hakkında ne keşfedebileceğinizi düşünüyorsunuz? İlginç bir şey veya istikrarlı bir yer mi? Transformer'lar hakkında keşfedebileceğimiz ilginç bir şey var mı? Aha anları belki hafıza ile ilgili, belki bilgi temsili gibi şeyler. Kesinlikle bugünün Zeitgeist'ı, temelde şu anda bu reklam",
+    "claim_stances": [
+      {
+        "category": "breakthroughs_needed",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 10750.3,
+    "end": 10936.4,
+    "text": "Goodwill Hunting The Matrix Lord of the Rings all three Avatar Fifth Element so on goes on Terminator two Mean Girls I'm not gonna ask about that mean girls is great um what are some of the jump onto your memory that you love and why like you mentioned the Matrix as a computer person why do you love The Matrix there's so many properties that make it like beautiful and interesting so there's all these philosophical questions but then there's also agis and there's simulation and it's cool and there's you know the black uh you know uh the look of it the feel of it the look of it the feel of it the action the bullet time it was just like innovating in so many ways and then uh Good Good Will Hunting why do you like that one yeah I just I really like this uh torture genius sort of character who's like grappling with whether or not he has like any responsibility or like what to do with this gift that he was given or like how to think about the whole thing and uh there's also a dance between the genius and the the personal like what it means to love another human being and there's a lot of themes there it's just a beautiful movie and then the fatherly figure The Mentor in the in the psychiatrist and the it like really like uh it messes with you you know there's some movies that's just like really mess with you uh on a deep level do you relate to that movie at all no it's not your fault doctor as I said Lord of the Rings that's self-explanatory Terminator 2 which is interesting you we watch that a lot is that better than Terminator one you like you like Arnold I do like Terminator one as well uh I like Terminator 2 a little bit more but in terms of like its surface properties [Laughter] do you think Skynet is at all a possibility oh yes well like the actual sort of uh autonomous uh weapon system kind of thing do you worry about that uh stuff I 100 worry about it and so the I mean the uh you know some of these uh fears of AGS and how this will plan out I mean these will be like very powerful entities probably at some point and so um for a long time they're going to be tools in the hands of humans uh you know people talk about like alignment of agis and how to make the problem is like even humans are not aligned uh so uh how this will be used and what this is going to look like is um yeah it's troubling so do you think it'll happen so slowly enough that we'll be able to as a human civilization think through the problems yes that's my hope is that it happens slowly enough and in an open enough way where a lot of people can see and participate in it just figure out how to deal with this transition I think which is going to be interesting I draw a lot of inspiration from nuclear weapons because I sure thought it would be it would be fucked once they develop nuclear weapons but like it's almost like uh when the when the systems are not so dangerous they destroy human civilization we deploy them and learn the lessons and then we quickly if it's too dangerous we're quickly quicker we",
+    "speaker": "Unknown",
+    "claim": "The development of AGI poses significant risks, and while it may happen slowly, there are concerns about alignment and safety.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AGI poses significant risks, and while it may happen slowly, there are concerns about alignment and safety.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "İyi niyet avcılığı, Matrix, Yüzüklerin Efendisi, üçlemesi, Avatar, Beşinci Element, Terminatör 2, Mean Girls... Bunlar harika filmler. Matrix'i bilgisayar alanında biri olarak neden sevdiğini merak ediyorum. Matrix'in birçok özelliği onu güzel ve ilginç kılıyor. Felsefi sorular var, simülasyon var, aksiyon var, mermi zamanı var; birçok yönden yenilikçi bir film. Peki, Good Will Hunting'i neden seviyorsun? Ben bu işkence çeken dahi karakteri çok seviyorum. Bu karakter, kendisine verilen bu yetenekle ne yapması gerektiği veya bu durumu nasıl düşünmesi gerektiği konusunda mücadele ediyor. Ayrıca, dahi ile kişisel olan arasında bir dans var; bir insanı sevmek ne anlama geliyor gibi birçok tema var. Gerçekten güzel bir film. Ayrıca, psikiyatristteki baba figürü, mentor... Bu film seni derinden etkiliyor. Bazı filmler gerçekten insanı derin bir şekilde etkileyebiliyor. O filmle bir bağın var mı? Hayır, bu senin suçun değil doktor. Yüzüklerin Efendisi, bu kendiliğinden anlaşılıyor. Terminator 2, ilginç bir şekilde, onu çok izledik. Terminator 1'den daha mı iyi? Arnold'u seviyorsun. Ben de Terminator 1'i seviyorum ama Terminator 2'yi biraz daha çok seviyorum. Yüzeysel özellikleri açısından... Skynet'in bir olasılık olduğunu düşünüyor musun? Oh evet, o tür otonom silah sistemleri gibi bir şey. Bu tür şeyler hakkında endişeleniyor musun? Kesinlikle endişeleniyorum. AGI'nin korkuları ve bunun nasıl gelişeceği... Bunlar muhtemelen bir noktada çok güçlü varlıklar olacak. Uzun bir süre insanlar tarafından kullanılan araçlar olacaklar. İnsanlar AGI'lerin uyumunu ve bunun nasıl sağlanacağını konuşuyor ama sorun şu ki, insanlar bile uyumlu değil. Bunun nasıl kullanılacağı ve neye benzeyeceği... Evet, bu endişe verici. Peki, bunun yavaş bir şekilde gerçekleşeceğini düşünüyor musun, böylece insanlık olarak bu sorunları düşünebiliriz? Evet, umudum bu. Yavaş ve açık bir şekilde gerçekleşmesi, birçok insanın bunu görebilmesi ve katılabilmesi için. Bu geçişle nasıl başa çıkacağımızı anlamamız gerekiyor. Bu ilginç olacak. Nükleer silahlardan çok ilham alıyorum çünkü nükleer silahlar geliştirildiğinde her şeyin kötü olacağını düşünmüştüm ama sistemler o kadar tehlikeli olmadığında insan medeniyetini yok ediyoruz. Onları kullanıyoruz ve dersler alıyoruz. Eğer çok tehlikeli olursa, çok hızlı bir şekilde onları kullanmamayı öğreniyoruz. Bu bir denge olacak. İnsanlar olarak çok zeki bir türüz. İlginç olan, kaynakları mümkün olduğunca sömürüyoruz ama kendimizi yok etmekten kaçınıyoruz gibi görünüyor. Bilmiyorum, umarım böyle devam eder. Kesinlikle nükleer silahlar ve benzeri konularda endişeliyim. Son çatışmanın bir sonucu olarak değil, ondan önce de. Bu, toplum için en büyük endişem. Eğer insanlık kendini yok ederse veya insanların %90'ını yok ederse, bunun nedeni nükleer silahlar olacaktır. Tam bir yok oluş değil, toplumu sıfırlamak bile kötü olur. Bu gerçekten kötü olur ve buna bu kadar yakın olduğumuza inanamıyorum. Bu benim için çok çılgınca. Sanki birkaç tweet uzaktayız. Evet, bu gerçekten rahatsız edici ama uzun zamandır benim için böyle. Dünya liderlerinin kötü bir ruh hali içinde bir adım atması ve bunun kötü bir yöne gitmesi çok istikrarsız görünüyor. Kötü ruh hallerinin birikimi, durdurulamadan tırmanabilir. Bu, büyük bir güç ve yayılma ile birlikte. Gerçekten burada iyi sonuçların ne olduğunu bilmiyorum. Bu konuda çok endişeliyim. AGI şu anda orada değil ama bir noktada daha fazla AGI benzeri bir şey olacağını düşünüyorum. AGI ile ilgili tehlike, iyi sonuçların olasılığının daha az olması. Kötü sonuçlar, tek yönlü bir şekilde, küçük bir negatif işaretle ortaya çıkabilir. Bu, insanlık ve kapitalizm gibi şeylerin bu teknolojiyi olumlu bir şekilde kullanma çabası içinde olacağını düşünüyorum ama kötü sonuçlar sadece küçük bir sapma ile ortaya çıkıyorsa, bu kötü bir durum. Sistemdeki küçük bir perturbasyon, insan türünün yok olmasına neden olabilir. Yürümek zor bir denge. Genel olarak, insanlığın dinamikleri ve bu patlama hakkında konuşulan şeyler, teknolojinin sağladığı çılgın bağlantılar ve tüm dinamik sistemin istikrarsızlığı gerçekten ilginç. Evet, bu patlama yıkıcı ve yapıcı olabilir ve her iki anlamda da sıfırdan büyük olasılıklar var. İyimser olmaya çalışmalıyım. Evet, bu durumda hâlâ çoğunlukla iyimserim ama kesinlikle endişelerim var. Çok oyunculu bir tür haline geleceğimizi düşünüyor musun? Muhtemelen evet ama bunun gelecekteki insanlığın baskın özelliği olup olmadığını bilmiyorum. Belki bazı gezegenlerde bazı insanlar olacak ama bunun kültürümüzde büyük bir oyuncu olup olmayacağından emin değilim. Burada, Dünya'da kendimizi yok etme nedenlerini çözmemiz gerekiyor. Mars'ta bir yedekleme olması sadece...",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1391.3,
+    "end": 1578.7,
+    "text": "evolve and become more more further and further complex but then there's a certain um what is it there's certain terminating conditions yeah I don't know what the terminating conditions are but definitely there's a trend line of something and we're part of that story and like where does that where does it go so you know we're famously described often as a biological Bootloader for AIS and that's because humans I mean you know we're an incredible uh biological system and we're capable of computation and uh you know and love and so on um but we're extremely inefficient as well like we're talking to each other through audio it's just kind of embarrassing honestly they were manipulating like seven symbols uh serially we're using vocal chords it's all happening over like multiple seconds yeah it's just like kind of embarrassing when you step down to the uh frequencies at which computers operate or are able to cooperate on and so basically it does seem like um synthetic intelligences are kind of like the next stage of development and um I don't know where it leads to like at some point I suspect uh the universe is some kind of a puzzle and these synthetic AIS will uncover that puzzle and um solve it and then what happens after right like what because if you just like Fast Forward Earth many billions of years it's like uh it's quiet and then it's like to tourmal you see like city lights and stuff like that and then what happens like at the end like is it like a is it or is it like a calming is it explosion is it like Earth like open like a giant because you said emit Roasters like well let's start emitting like like a giant number of Like Satellites yes it's some kind of a crazy explosion and we're living we're like we're stepping through a explosion and we're like living day to day and it doesn't look like it but it's actually if you I saw a very cool animation of Earth uh and life on Earth and basically nothing happens for a long time and then the last like two seconds like basically cities and everything and just in the low earth orbit just gets cluttered and just the whole thing happens in the last two seconds and you're like this is exploding this is a statement explosion so if you play yeah yeah if you play it at normal speed yeah it'll just look like an explosion it's a firecracker we're living in a firecracker where it's going to start emitting all kinds of interesting things yeah and then so explosion doesn't it might actually look like a little explosion with with lights and fire and energy emitted all that kind of stuff but when you look inside the details of the explosion there's actual complexity happening where there's like uh yeah human life or some kind of life we hope it's not destructive firecracker it's kind of like a constructive uh firecracker all right so given that I think uh hilarious disgusting it is a really interesting to think about like what the puzzle of the universe is that the creator of the universe uh give us a message like for example in the book contact UM Carl Sagan uh there's a message for Humanity for any civilization in uh digits in the expansion of Pi and base",
+    "speaker": "Andrej Karpathy",
+    "claim": "Synthetic intelligences represent the next stage of development and may uncover the universe's puzzles.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AGI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Synthetic intelligences represent the next stage of development and may uncover the universe's puzzles.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI development",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "breakthroughs_needed",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 2860.0,
+    "end": 3044.3,
+    "text": "these models because um so as you mentioned I was at open AI I was working on this project world of bits and basically it was the idea of giving neural networks access to a keyboard and a mouse and the idea could possibly go wrong so basically you um you perceive the input of the screen pixels and basically the state of the computer is sort of visualized for human consumption in images of the web browser and stuff like that and then you give the neural network the ability to press keyboards and use the mouse and we're trying to get it to for example complete bookings and you know interact with user interfaces and um what did you learn from that experience like what was some fun stuff this is super cool idea yeah I mean it's like uh yeah I mean the the step between Observer to actor yeah is a super fascinating step yeah well the universal interface in the digital realm I would say and there's a universal interface in like the Physical Realm which in my mind is a humanoid form factor kind of thing we can later talk about Optimus and so on but I feel like there's a they're kind of like a similar philosophy in some way where the human the world the physical world is designed for the human form and the digital world is designed for the human form of seeing the screen and using keyword keyboard and mouse and so as the universal interface that can basically uh command the digital infrastructure we've built up for ourselves and so it feels like a very powerful interface to to command and to build on top of now to your question as to like what I learned from that it's interesting because the world of bits was basically uh too early I think at open AI at the time this is around 2015 or so and the Zeitgeist at that time was very different in AI from the Zeitgeist today at the time everyone was super excited about reinforcement learning from scratch this is the time of the Atari paper where uh neural networks were playing Atari games and beating humans in some cases uh alphago and so on so everyone's very excited about train training neural networks from scratch using reinforcement learning um directly it turns out that reinforcement learning is extremely inefficient way of training neural networks because you're taking all these actions and all these observations and you get some sparse rewards once in a while so you do all this stuff based on all these inputs and once in a while you're like told you did a good thing you did a bad thing and it's just an extremely hard problem you can't learn from that you can burn forest and you can sort of Brute Force through it and we saw that I think with uh you know with uh go and DOTA and so on and it does work but it's extremely inefficient uh and not how you want to approach problems uh practically speaking and so that's the approach that at the time we also took to World of bits we would uh have an agent initialize randomly so with keyboard mash and mouse mash and try to make a booking and it's just like revealed the insanity of that approach very quickly where you have to stumble by the correct booking in order to get a reward of you did it correctly and you're never going to stumble by it by chance at random so even with a simple web interface there's too many options there's just too many options uh and uh it's two sparse of reward signal and you're",
+    "speaker": "Andrej Karpathy",
+    "claim": "Reinforcement learning is an inefficient way of training neural networks, especially for practical applications.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Reinforcement Learning",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Reinforcement learning is an inefficient way of training neural networks, especially for practical applications.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Reinforcement Learning",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4692.2,
+    "end": 4877.0,
+    "text": "stuff the machines are good at machines do and the humans do what they're good at and there's maybe some iterative process right I think to a very large extent we went through a number of iterations and we learned a ton about how to create these data sets I'm not seeing big open problems like originally when I joined I was like I was really not sure how this would turn out yeah but by the time I left I was much more secure in actually we sort of understand the philosophy of how to create these data sets and I was pretty comfortable with where that was at the time so what are strengths and limitations of cameras for the driving test in your understanding when you formulate the driving task as a vision task with eight cameras you've seen that the entire you know most of the history of the computer vision field when it has to do with neural networks what just if you step back what are the strengths and limitations of pixels of using pixels to drive yeah pixels I think are a beautiful sensory beautiful sensor I would say the thing is like cameras are very very cheap and they provide a ton of information ton of bits uh so it's uh extremely cheap sensor for a ton of bits and each one of these bits as a constraint on the state of the world and so you get lots of megapixel images uh very cheap and it just gives you all these constraints for understanding what's actually out there in the world so vision is probably the highest bandwidth sensor it's a very high bandwidth sensor and um I love that pixels it is a is a constraint on the world This is highly complex uh high bandwidth constraint in the world on the stage of the world that's fascinating it's not just that but again this real real importance of it's the sensor that humans use therefore everything is designed for that sensor yeah the text the writing the flashing signs everything is designed for vision and so and you just find it everywhere and so that's why that is the interface you want to be in um talking again about these Universal interfaces and uh that's where we actually want to measure the world as well and then develop software uh for that sensor but there's other constraints on the state of the world that humans use to understand the world I mean Vision ultimately is the main one but we're like we're like referencing our understanding of human behavior and some common sense physics that could be inferred from vision from from a perception perspective but it feels like we're using some kind of reasoning to predict the world yeah not just the pixels I mean you have a powerful prior uh sorry right for how the world evolves over time Etc so it's not just about the likelihood term coming up from the data itself telling you about what you are observing but also the prior term of like where where are the likely things to see and how do they likely move and so on and the question is how complex is the uh the the range of possibilities that might happen in the driving task right that's still is is that to you still an",
+    "speaker": "Andrej Karpathy",
+    "claim": "The strengths of cameras as sensors for driving tasks are significant, providing high bandwidth and a wealth of information, which is crucial for understanding the world.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "The strengths of cameras as sensors for driving tasks are significant, providing high bandwidth and a wealth of information, which is crucial for understanding the world.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 5608.6,
+    "end": 5795.7,
+    "text": "everywhere they're going to drive it's crazy how are you going to when we're talking about autonomy actually changing the world we're talking about the deployment on a on a global scale of autonomous systems for transportation and if you need to maintain a centimeter accurate map for Earth or like for many cities and keep them updated it's a huge dependency that you're taking on huge dependency it's a massive massive dependency and now you need to ask yourself do you really need it and humans don't need it um right so it's it's very useful to have a low-level map of like okay the connectivity of your road you know that there's a fork coming up when you drive an environment you sort of have that high level understanding it's like a small Google Map and Tesla uses Google Map like similar kind of resolution information in the system but it will not pre-map environments to send me a level accuracy it's a crutch it's a distraction it costs entropy and it diffuses the team it dilutes the team and you're not focusing on what's actually necessary which is the computer vision problem what did you learn about machine learning about engineering about life about yourself as one human being from working with Elon Musk I think the most I've learned is about how to sort of run organizations efficiently and how to create efficient organizations and how to fight entropy in an organization so human Engineering in the fight against entropy yeah there's a there's a I think Elon is a very efficient warrior in the fight against entropy in organizations what is the entropy in an organization look like exactly it's process it's it's process and inefficiencies and that kind of stuff yeah meetings he hates meetings he keeps telling people to skip meetings if they're not useful um he basically runs the world's biggest uh startups I would say uh Tesla SpaceX are the world's biggest startups Tesla actually has multiple startups I think it's better to look at it that way and so I think he's he's extremely good at uh at that and uh yeah he's a very good intuition for streamline processes making everything efficient uh best part is no part uh simplifying focusing um and just kind of removing barriers uh moving very quickly making big moves all this is a very startupy sort of seeming things but at scale so strong drive to simplify for me from your perspective I mean that um that also probably applies to just designing systems and machine learning and otherwise yeah like simplify simplify yes what do you think is the secret to maintaining the startup culture in a company that grows is there can you introspect that I do think you need someone in a powerful position with a big hammer like Elon who's like the cheerleader for that idea and ruthless ruthlessly pursues it if no one has a big enough Hammer everything turns into committees democracy within the company uh process talking to stakeholders decision making just everything just crumbles yeah if you have a big person who's also really smart and has a big hammer things move quickly so you said your favorite scene in interstellar is the intense docking",
+    "speaker": "Andrej Karpathy",
+    "claim": "The reliance on centimeter-accurate maps for autonomous systems is a massive dependency that may not be necessary.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "Autonomy and Mapping",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "The reliance on centimeter-accurate maps for autonomous systems is a massive dependency that may not be necessary.",
+    "claim_labels_silver": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "Autonomy and Mapping",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 6341.9,
+    "end": 6529.4,
+    "text": "organization and uh I was very happy with where that was it became quite autonomous and so I kind of stepped away and I uh you know I'm very excited to do much more technical things again yeah and kind of like we focus on AGI what was this soul searching like because you took a little time off and think like what um how many mushrooms did you take no I'm just uh I mean what what was going through your mind the human lifetime is finite yeah he did a few incredible things you're you're one of the best teachers of AI in the world you're one of the best and I don't mean that I mean that in the best possible way you're one of the best tinkerers in the AI world meaning like understanding the fundamental fundamentals of how something works by building it from scratch and playing with it with the basic intuitions it's like Einstein feinmen were all really good at this kind of stuff like a small example of a thing to to play with it to try to understand it uh so that and obviously now with us that you help build a team of machine learning um uh like engineers and a system that actually accomplishes something in the real world so given all that like what was the soul searching like well it was hard because obviously I love the company a lot and I love I love Elon I love Tesla I want um it was hard to leave I love the team basically um but yeah I think actually I would potentially like interested in revisiting it maybe coming back at some point uh working in Optimus working in AGI at Tesla uh I think Tesla is going to do incredible things it's basically like uh it's a massive large-scale robotics kind of company with a ton of In-House talent for doing really incredible things and I think uh human robots are going to be amazing I think autonomous transportation is going to be amazing all this is happening at Tesla so I think it's just a really amazing organization so being part of it and helping it along I think was very basically I enjoyed that a lot yeah it was basically difficult for those reasons because I love the company uh but you know I'm happy to potentially at some point come back for act two but I felt like at this stage I built the team it felt autonomous and uh I became a manager and I wanted to do a lot more technical stuff I wanted to learn stuff I wanted to teach stuff and uh I just kind of felt like it was a good time for for a change of pace a little bit what do you think is uh the best movie sequel of all time speaking of part two because like because most of them suck in movie sequels yeah and you tweet about movies so just in a tiny tangent is there what's your what was like a favorite movie sequel Godfather Part Two um are you a fan of Godfather because you didn't even tweet or mention the Godfather yeah I don't love that movie I know it hasn't edit that out we're gonna edit out the hate towards the Godfather how dare you just I think I will make a strong statement I don't know why I don't know why but I basically don't like any movie before 1995 something like that didn't you mention Terminator two okay okay that's like uh Terminator 2 was a little bit later 1990 no I think Terminator 2 was a name I",
+    "speaker": "Andrej Karpathy",
+    "claim": "Andrej Karpathy expresses optimism about the future of AGI and robotics at Tesla.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI optimism",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Andrej Karpathy expresses optimism about the future of AGI and robotics at Tesla.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AGI optimism",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 7080.7,
+    "end": 7266.2,
+    "text": "haven't in depending on the industry haven't quite learned that yet yeah some people are also very negative and very vocal so they're very prominently featured but actually there's a ton of people who are cheerleaders but they're silent cheerlead cheerleaders and uh when you talk to people just in the world they will all tell you it's amazing it's great especially like people who understand how difficult it is to get this stuff working like people who have built products and makers entrepreneur entrepreneurs like make making this work and changing something is is incredibly hard those people are more likely to cheerlead you well one of the things that makes me sad is some folks in the robotics Community uh don't do the cheerleading and they should there's uh because they know how difficult it is well they actually sometimes don't know how difficult it is to create a product at scale right they actually deploy in the real world a lot of the development of robots and AI systems is done on very specific small benchmarks um and as opposed to real world conditions yes yeah I think it's really hard to work on robotics in academic setting or AI systems that apply in the real world you you've criticized you uh flourished and loved for time the imagenet the famed image in that data set and I've recently had some words uh of criticism that the academic research ml Community gives a little too much love still to the imagenet or like those kinds of benchmarks can you speak to the strengths and weaknesses of data sets used in machine learning research actually I don't know that I recall the specific instance where I was uh unhappy or criticizing imagenet I think imagenet has been extremely valuable uh it was basically a benchmark that allowed the Deep Learning Community to demonstrate that deep neural networks actually work it was uh there's a massive value in that um so I think imagenet was useful but um basically it's become a bit of an eminist at this point so eminist is like the 228 by 28 grayscale digits there's kind of a joke data set that everyone like just crushes if there's no Papers written on MNS though right maybe they should have strong papers like papers that focus on like how do we learn with a small amount of data that kind of stuff yeah I could see that being helpful but not in sort of like Mainline computer vision research anymore of course I think the way I've heard you somewhere maybe I'm just imagining things but I think you said like image that was a huge contribution to the community for a long time and now it's time to move past those kinds of well image that has been crushed I mean you know the error rates are uh yeah we're getting like 90 accuracy in in one thousand classification way uh prediction and I've seen those images and it's like really high that's really that's really good if I remember correctly the top five error rate is now like one percent or something given your experience with a gigantic real world data set would you like to see benchmarks move in certain directions that the research Community uses unfortunately I don't think academics currently have the next imagenet uh We've obviously I think we've crushed mnist we've basically kind of crushed imagenet uh and there's no next sort of big Benchmark that the entire Community",
+    "speaker": "Andrej Karpathy",
+    "claim": "The academic research community should move past outdated benchmarks like ImageNet and focus on more relevant real-world applications.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AI benchmarks",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "The academic research community should move past outdated benchmarks like ImageNet and focus on more relevant real-world applications.",
+    "claim_labels_silver": [
+      "breakthroughs_needed",
+      "hardware_infra"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI benchmarks",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "breakthroughs_needed",
+        "stance": "Neutral"
+      },
+      {
+        "category": "hardware_infra",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 7814.0,
+    "end": 7999.9,
+    "text": "out the answer and you don't have to calculate it yourself and you just like tell it in English this might actually work do you think in that sense gato is interesting the the Deep Mind system that it's not just new language but actually throws it all uh in the same pile images actions all that kind of stuff that's basically what we're moving towards yeah I think so so gato is uh is very much a kitchen sink approach to like um reinforcement learning lots of different environments with a single fixed Transformer model right um I think it's a very sort of early result in that in that realm but I think uh yeah it's along the lines of what I think things will eventually look like right so this is the early days of a system that eventually will look like this like from a rigid Rich sudden perspective yeah I'm not super huge fan of I think all these interfaces that like look very different um I would want everything to be normalized into the same API so for example it's green pixels versus same API instead of having like different world environments at a very different physics and Joint configurations and appearances and whatever and you're having some kind of special tokens for different games that you can plug I'd rather just normalize everything to a single interface so it looks the same to the neural net if that makes sense so it's all going to be pixel based pong in the end I think so okay uh let me ask you about your own personal life a lot of people want to know you're one of the most productive and brilliant people in the history of AI what is a productive day in the life of Andre capathi look like what time do you wake up because imagine um some kind of dance between the average productive day and a perfect productive day so the perfect productive day is the thing we strive towards in the average is kind of what it kind of converges to getting all the mistakes and human eventualities and so on yeah so what times you wake up are you morning person I'm not a morning person I'm a night owl for sure I think stable or not that's semi-stable like a eight or nine or something like that during my PhD it was even later I used to go to sleep usually at 3am I think uh the am hours are are precious and very interesting time to work because everyone is asleep um at 8 AM or 7 A.M the east coast is awake so there's already activity there's already some text messages whatever there's stuff happening you can go in like some news website and there's stuff happening it's distracting uh at 3am everything is totally quiet and so you're not going to be bothered and you have solid chunks of time to do your work um so I like those periods Night Owl by default and then I think like productive time basically um what I like to do is you need you need to like build some momentum on the problem without too much distraction and um you need to load your Ram uh your working memory with that problem and then you need to be obsessed with it when you're taking shower when you're falling asleep you need to be obsessed with the problem and it's fully in your memory and you're ready to wake up and work on it right there so there's a scale of uh is this in a scale temporal scale of a single day or a couple of days a week a month so I can't talk about one day basically in isolation",
+    "speaker": "Andrej Karpathy",
+    "claim": "The development of AI systems like Gato represents an early stage in the evolution towards more integrated and generalized AI capabilities.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AI systems like Gato represents an early stage in the evolution towards more integrated and generalized AI capabilities.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "execution_engineering",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 8364.0,
+    "end": 8549.6,
+    "text": "interesting feeling have you ever fasted longer than a day yeah I've done a bunch of water fasts because I was curious what happens uh anything interesting yeah I would say so I mean you know what's interesting is that you're hungry for two days and then starting day three or so you're not hungry it's like such a weird feeling because you haven't eaten in a few days and you're not hungry isn't that weird it's really one of the many weird things about human biology is figure something out it finds finds another source of energy or something like that or uh relaxes the system I don't know how yeah the body is like you're hungry you're hungry and then it just gives up it's like okay I guess we're fasting now there's nothing and then it just kind of like focuses on trying to make you not hungry uh and you know not feel the the damage of that and uh trying to give you some space to figure out the food situation so are you still to this day most productive uh at night I would say I am but it is really hard to maintain my PhD schedule um especially when I was say working at Tesla and so on it's a non-starter so but even now like you know people want to meet for various events they Society lives in a certain period of time and you sort of have to like work so that's it's hard to like do a social thing and then after that return and do work yeah it's just really hard uh that's why I try to do social things I try not to do too uh too much drinking so I can return and continue doing work um but a Tesla is there is there conversions in Tesla but any any company is there a convergence towards the schedule or is there more is that how humans behave when they collaborate I need to learn about this yeah do they try to keep a consistent schedule you're all awake at the same time I mean I do try to create a routine and I try to create a steady state in which I'm uh comfortable in uh so I have a morning routine I have a day routine I try to keep things to do a steady state and um things are predictable and then you can sort of just like your body just sort of like sticks to that and if you try to stress that a little too much it will create uh you know when you're traveling and you're dealing with jet lag you're not able to really Ascend to you know where you need to go yeah yeah that's weird as humans with the habits and stuff uh what are your thoughts on work-life balance throughout a human lifetime so the testing part was known for sort of pushing people to their limits in terms of what they're able to do in terms of what they're uh trying to do in terms of how much they work all that kind of stuff yeah I mean I will say teslaq is still too much uh bad rep for this because what's happening is Tesla is a it's a bursting environment uh so I would say the Baseline uh my only point of reference is Google where I've interned three times and I saw what it's like inside Google and and deepmind um I would say the Baseline is higher than that but then there's a punctuated equilibrium where once in a while there's a fire and uh someone like people work really hard and so it's spiky and bursty and then all the stories get collected about the bursts yeah and then it gives the appearance of like total insanity but actually it's just a bit more intense environment and there are fires and Sprints and so I",
+    "speaker": "Andrej Karpathy",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "work-life balance",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "work-life balance",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 12406.8,
+    "end": 12520.2,
+    "text": "these ideas that oh without that there's no meaning there's nothing as I don't intuitively buy all those arguments I think there's plenty of meaning plenty of things to learn they're interesting exciting I want to know I want to calculate uh I want to improve the condition of all the humans and organisms that are alive yet the way we find meaning might change we there is a lot of humans probably including myself that finds meaning in the finiteness of things but that doesn't mean that's the only source of meaning yeah I do think many people will will go with that which I think is great I love the idea that people can just choose their own adventure like you you are born as a conscious free entity by default I'd like to think and um you have your unalienable rights for Life uh in the pursuit of happiness I don't know if you have that in the nature the landscape of happiness you can choose your own adventure mostly and that's not it's not fully true but I still am pretty sure I'm an NPC but um an NPC can't know it's an NPC there could be different degrees and levels of consciousness I don't think there's a more beautiful way to end it uh Andre you're an incredible person I'm really honored you would talk with me everything you've done for the machine learning world for the AI world to just inspire people to educate millions of people it's been it's been great and I can't wait to see what you do next it's been an honor man thank you so much for talking today awesome thank you thanks for listening to this conversation with Andre karapathi to support this podcast please check out our sponsors in the description and now let me leave you with some words from Samuel Carlin the purpose of models is not to fit the data but to sharpen the questions thanks for listening and hope to see you next time",
+    "speaker": "Lex Fridman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Meaning and Consciousness",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Lex Fridman",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Meaning and Consciousness",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1576.7,
+    "end": 1763.6,
+    "text": "11 eventually which is kind of interesting thought uh maybe maybe we're supposed to be giving a message to our creator maybe we're supposed to somehow create some kind of a quantum mechanical system that alerts them to our intelligent presence here because if you think about it from their perspective it's just say like Quantum field Theory massive like cellular automaton like thing and like how do you even notice that we exist you might not even be able to pick us up in that simulation and so how do you uh how do you prove that you exist that you're intelligent and that you're a part of the universe so this is like a touring test for intelligence from Earth yeah the Creator is uh I mean maybe this is uh like trying to complete the next word in a sentence this is a complicated way of that like Earth is just is basically sending a message back yeah the puzzle is basically like alerting the Creator that we exist or maybe the puzzle is just to just break out of the system and just uh you know stick it to the Creator in some way uh basically like if you're playing a video game you can um you can somehow find an exploit and find a way to execute on the host machine in the arbitrary code there's some for example I believe someone got Mario a game of Mario to play Pong just by uh exploiting it and then um creating a basically writing writing code and being able to execute arbitrary code in the game and so maybe we should be maybe that's the puzzle is that we should be um uh find a way to exploit it so so I think like some of these synthetic ads will eventually find the universe to be some kind of a puzzle and then solve it in some way and that's kind of like the end game somehow do you often think about it as a as a simulation so as the universe being a kind of computation that has might have bugs and exploits yes yeah I think so is that what physics is essentially I think it's possible that physics has exploits and we should be trying to find them arranging some kind of a crazy quantum mechanical system that somehow gives you buffer overflow somehow gives you a rounding error and a floating Point uh yeah that's right and like more and more sophisticated exploits like those are jokes but that could be actually very close yeah we'll find some way to extract infinite energy for example when you train a reinforcement learning agents um and physical simulations and you ask them to say run quickly on the flat ground they'll end up doing all kinds of like weird things um in part of that optimization right they'll get on their back leg and they will slide across the floor and it's because of the optimization the enforcement learning optimization on that agent has figured out a way to extract infinite energy from the friction forces and basically their poor implementation and they found a way to generate infinite energy and just slide across the surface and it's not what you expected it's just a it's sort of like a perverse solution and so maybe we can find something like that maybe we can be that little dog in this physical simulation the the cracks or escapes the intended consequences of the physics that the Universe came up with we'll figure out some kind of shortcut to some weirdness yeah and then oh man but see the problem with that weirdness is the first person to discover the weirdness like sliding in the back legs",
+    "speaker": "Unknown",
+    "claim": "The universe may have exploitable flaws that intelligent beings could discover and utilize.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "is_claim": true,
+    "topic": "Simulation theory",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The universe may have exploitable flaws that intelligent beings could discover and utilize.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "intelligence_nature"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Simulation theory",
+    "reviewed": false,
+    "text_tr": "11 sonunda, bu ilginç bir düşünce, belki de yaratıcımıza bir mesaj vermemiz gerekiyor, belki de zeki varlığımızı onlara bildiren bir tür kuantum mekanik sistemi yaratmamız gerekiyor çünkü onların bakış açısından düşünürseniz, bu sadece Kuantum Alan Teorisi gibi devasa bir hücresel otomat gibi bir şeydir ve bizim var olduğumuzu nasıl fark edersiniz ki, o simülasyonda bizi bile algılayamayabilirler ve bu yüzden nasıl kanıtlarsınız var olduğunuzu, zeki olduğunuzu ve evrenin bir parçası olduğunuzu, yani bu Dünya'dan gelen zeka için bir Turing testi gibi, evet Yaratıcı, yani belki bu, bir cümlede bir sonraki kelimeyi tamamlamaya çalışmak gibi bir şey, bu, Dünya'nın sadece bir mesaj geri gönderdiği gibi karmaşık bir yolu, evet, bulmaca temelde Yaratıcı'ya var olduğumuzu bildirmek ya da belki bulmaca sadece sistemden çıkmak ve bir şekilde Yaratıcı'ya meydan okumak, yani temelde bir video oyunu oynuyorsanız, bir şekilde bir açık bulabilir ve ana makinede rastgele kod çalıştırmanın bir yolunu bulabilirsiniz, örneğin, sanırım biri Mario oyununu istismar ederek Pong oynamasını sağladı ve sonra temelde kod yazarak oyunda rastgele kod çalıştırmayı başardı ve belki de biz de öyle olmalıyız, belki de bulmaca, onu istismar etmenin bir yolunu bulmamızdır, bu yüzden bence bu sentetik reklamların bazıları sonunda evreni bir tür bulmaca olarak bulacak ve bir şekilde çözecek ve bu bir şekilde son oyun gibi olacak, bunu sık sık bir simülasyon olarak mı düşünüyorsunuz, yani evrenin hataları ve açıkları olabilecek bir tür hesaplama olduğunu mu? Evet, evet, sanırım öyle. Fizik esasen bu mu? Fiziğin açıkları olabileceğini ve onları bulmaya çalışmamız gerektiğini düşünüyorum, bir şekilde size arabellek taşması, bir şekilde yuvarlama hatası ve kayan nokta veren çılgın bir kuantum mekanik sistemi düzenleyerek, evet, doğru ve giderek daha sofistike açıklar, bunlar şaka gibi ama aslında çok yakın olabilir, evet, sonsuz enerji çıkarmanın bir yolunu bulacağız, örneğin takviyeli öğrenme ajanlarını fiziksel simülasyonlarda eğittiğinizde ve onlardan düz zeminde hızlı koşmalarını istediğinizde, o optimizasyonun bir parçası olarak her türlü tuhaf şeyi yapmaya başlarlar, değil mi? Arka ayaklarının üzerine çıkıp zeminde kayarlar ve bu, o ajandaki takviyeli öğrenme optimizasyonunun sürtünme kuvvetlerinden sonsuz enerji çıkarma yolunu bulması ve temelde kötü uygulamaları nedeniyle, sonsuz enerji üretmenin ve yüzeyde kaymanın bir yolunu buldular ve bu beklediğiniz şey değil, bu bir tür sapkın çözüm ve belki de biz de böyle bir şey bulabiliriz, belki de bu fiziksel simülasyondaki o küçük köpek olabiliriz, evrenin ortaya çıkardığı fiziğin amaçlanan sonuçlarından çatlakları veya kaçışları bulan, bir tür tuhaflığa giden bir kısayol bulacağız, evet ve sonra ah adamım ama o tuhaflığın sorunu, tuhaflığı ilk keşfeden kişinin arka ayakları üzerinde kaymak gibi olmasıdır."
+  },
+  {
+    "start": 1942.1,
+    "end": 2127.7,
+    "text": "physics are deterministic um yeah I think they're determinants just got really uncomfortable with this question do you have anxiety about whether the universe is random or not what's there's no Randomness uh you say you like Goodwill Hunting it's not your fault Andre it's not it's not your fault man um so you don't like Randomness uh yeah I think it's uh unsettling I think it's a deterministic system I think that things that look random like say the uh collapse of the wave function Etc I think they're actually deterministic just entanglement uh and so on and uh some kind of a Multiverse Theory something something okay so why does it feel like we have a free will like if I raise the hand I chose to do this now um what that doesn't feel like a deterministic thing it feels like I'm making a choice it feels like it okay so it's all feelings it's just feelings yeah so when an RL agent is making a choice is that um it's not really making a choice the choices are all already there yeah you're interpreting the choice and you're creating a narrative for or having made it yeah and now we're talking about the narrative it's very meta looking back what is the most beautiful or surprising idea in deep learning or AI in general that you've come across you've seen this field explode and grow in interesting ways just what what cool ideas like like we made you sit back and go hmm small big or small well the one that I've been thinking about recently the most probably is the the Transformer architecture um so basically uh neural networks have a lot of architectures that were trendy have come and gone for different sensory modalities like for Vision Audio text you would process them with different looking neural nuts and recently we've seen these convergence towards one architecture the Transformer and you can feed it video or you can feed it you know images or speech or text and it just gobbles it up and it's kind of like a bit of a general purpose uh computer that is also trainable and very efficient to run on our Hardware and so uh this paper came out in 2016 I want to say um attention is all you need attention is all you need you criticize the paper title in retrospect that it wasn't um it didn't foresee the bigness of the impact yeah that it was going to have yeah I'm not sure if the authors were aware of the impact that that paper would go on to have probably they weren't but I think they were aware of some of the motivations and design decisions beyond the Transformer and they chose not to I think expand on it in that way in the paper and so I think they had an idea that there was more um than just the surface of just like oh we're just doing translation and here's a better architecture you're not just doing translation this is like a really cool differentiable optimizable efficient computer that you've proposed and maybe they didn't have all of that foresight but I think is really interesting isn't it funny sorry to interrupt that title is memeable that they went for such a profound idea they",
+    "speaker": "Andrej Karpathy",
+    "claim": "The Transformer architecture is a significant advancement in AI that allows for a general-purpose, efficient processing of various data types.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "is_claim": true,
+    "topic": "AI architecture",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "The Transformer architecture is a significant advancement in AI that allows for a general-purpose, efficient processing of various data types.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "hardware_infra"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI architecture",
+    "reviewed": false,
+    "text_tr": "Fizik deterministiktir, evet bence belirleyicidirler, bu soruyla gerçekten rahatsız oldum, evrenin rastgele olup olmadığı konusunda endişeniz var mı? Rastgelelik diye bir şey yok, Goodwill Hunting'i sevdiğini söylüyorsun, senin hatan değil Andre, senin hatan değil dostum, yani rastgeleliği sevmiyorsun, evet bence rahatsız edici, bence deterministik bir sistem. Dalga fonksiyonunun çöküşü gibi rastgele görünen şeylerin aslında deterministik olduğunu düşünüyorum, sadece dolanıklık ve benzeri şeyler ve bir tür Çoklu Evren Teorisi, bir şeyler bir şeyler. Tamam, peki neden özgür irademiz varmış gibi hissediyoruz, sanki elimi kaldırsam bunu şimdi yapmayı seçtim gibi, bu deterministik bir şey gibi hissettirmiyor, bir seçim yapıyormuşum gibi hissettiriyor, tamam yani hepsi hisler, sadece hisler, evet, yani bir RL ajanı bir seçim yaptığında, bu aslında bir seçim yapmıyor, tüm seçimler zaten orada, evet, seçimi yorumluyorsunuz ve onu yapmış olmak için bir anlatı yaratıyorsunuz, evet ve şimdi anlatıdan bahsediyoruz, çok meta. Geriye dönüp baktığınızda, derin öğrenme veya genel olarak yapay zekada karşılaştığınız en güzel veya şaşırtıcı fikir nedir? Bu alanın ilginç şekillerde patladığını ve büyüdüğünü gördünüz, sizi geriye yaslanıp 'hmm' dedirten ne gibi harika fikirler var? Küçük mü büyük mü? Son zamanlarda en çok düşündüğüm şey muhtemelen Transformer mimarisi, yani temelde sinir ağlarının farklı duyusal modaliteler için popüler olan birçok mimarisi vardı, örneğin görüntü, ses, metin için farklı görünümlü sinir ağlarıyla işlerdiniz ve son zamanlarda bu mimarilerin tek bir mimariye, Transformer'a doğru yakınsadığını gördük ve ona video veya görüntü, konuşma veya metin besleyebilirsiniz ve o sadece hepsini yutar ve bu biraz genel amaçlı bir bilgisayar gibidir, aynı zamanda eğitilebilir ve donanımımızda çalıştırması çok verimlidir. Ve bu makale 2016'da çıktı sanırım, 'Attention is All You Need' (Dikkat Tek İhtiyacınız Olan), makalenin başlığını geriye dönük olarak eleştiriyorsunuz, çünkü etkisinin büyüklüğünü öngörmemişti, evet, sahip olacağı etkiyi, evet, yazarların o makalenin yaratacağı etkinin farkında olup olmadıklarından emin değilim, muhtemelen değillerdi ama bence Transformer'ın ötesindeki bazı motivasyonların ve tasarım kararlarının farkındaydılar ve makalede bu şekilde genişletmemeyi seçtiler ve bu yüzden bence sadece 'ah, sadece çeviri yapıyoruz ve işte daha iyi bir mimari' yüzeyinden daha fazlası olduğuna dair bir fikirleri vardı, sadece çeviri yapmıyorsunuz, bu gerçekten harika, türevlenebilir, optimize edilebilir, verimli bir bilgisayar önerdiniz ve belki de tüm bu öngörüye sahip değillerdi ama bence gerçekten ilginç, komik değil mi, araya girdiğim için üzgünüm, o başlık memlenebilir, o kadar derin bir fikir için gittiler ki"
+  },
+  {
+    "start": 3042.7,
+    "end": 3229.1,
+    "text": "starting from scratch at the time and so you don't know how to read you don't understand pictures images buttons you don't understand what it means to like make a booking but now what's happened is uh it is time to revisit that and open your eyes interested in this uh companies like Adept are interested in this and so on and uh the idea is coming back because the interface is very powerful but now you're not training an agent from scratch you are taking the GPT as an initialization so GPT is pre-trained on all of text and it understands what's a booking it understands what's a submit it understands um quite a bit more and so it already has those representations they are very powerful and that makes all the training significantly more efficient and makes the problem tractable should the interaction be with like the way humans see it with the buttons and the language or it should be with the HTML JavaScript and this and the CSS what's what do you think is the better so today all this interest is mostly on the level of HTML CSS and so on that's done because of computational constraints but I think ultimately everything is designed for human visual consumption and so at the end of the day there's all the additional information is in the layout of the web page and what's next to you and what's a red background and all this kind of stuff and what it looks like visually so I think that's the final frontier as we are taking in pixels and we're giving out keyboard mouse commands but I think it's impractical still today do you worry about bots on the internet given given these ideas given how exciting they are do you worry about bots on Twitter being not the the stupid boss that we see now with the cryptobots but the Bots that might be out there actually that we don't see that they're interacting in interesting ways so this kind of system feels like it should be able to pass the I'm not a robot click button whatever um which you actually understand how that test works I don't quite like there's there's a there's a check box or whatever that you click it's presumably tracking oh I see like Mouse movement and the timing and so on yeah so exactly this kind of system we're talking about should be able to pass that so yeah what do you feel about um Bots that are language models Plus have some interact ability and are able to tweet and reply and so on do you worry about that world uh yeah I think it's always been a bit of an arms race uh between sort of the attack and the defense uh so the attack will get stronger but the defense will get stronger as well our ability to detect that how do you defend how do you detect how do you know that your karpate account on Twitter is is human how do you approach that like if people were claim you know uh how would you defend yourself in the court of law that I'm a human um this account is yeah at some point I think uh it might be I think the society Society will evolve a little bit like we might start signing digitally signing uh some of our correspondents or you know things that we create uh right now it's not necessary but maybe in the future it might be I do think that we are going towards the world where we share we share the digital space with uh AIS",
+    "speaker": "Andrej Karpathy",
+    "claim": "We are moving towards a world where we share the digital space with AI systems.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI interaction",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "We are moving towards a world where we share the digital space with AI systems.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI interaction",
+    "reviewed": false,
+    "text_tr": "O zamanlar sıfırdan başlayarak okumayı bilmiyorsunuz, resimleri, görselleri, düğmeleri anlamıyorsunuz, rezervasyon yapmanın ne anlama geldiğini anlamıyorsunuz ama şimdi olan şey, bunu tekrar gözden geçirme ve gözlerinizi açma zamanı, Adept gibi şirketler bununla ilgileniyor ve benzeri, ve fikir geri geliyor çünkü arayüz çok güçlü ama şimdi bir ajanı sıfırdan eğitmiyorsunuz, GPT'yi bir başlangıç olarak alıyorsunuz, yani GPT tüm metinler üzerinde önceden eğitilmiş ve bir rezervasyonun ne olduğunu, bir gönderimin ne olduğunu anlıyor, oldukça fazla şeyi anlıyor ve bu yüzden zaten bu temsilleri var, çok güçlüler ve bu da tüm eğitimi önemli ölçüde daha verimli hale getiriyor ve sorunu çözülebilir kılıyor. Etkileşim, insanların düğmeler ve dille gördüğü gibi mi olmalı yoksa HTML JavaScript ve CSS ile mi olmalı, hangisi daha iyi sizce? Yani bugün tüm bu ilgi çoğunlukla HTML CSS ve benzeri düzeyde, bu hesaplama kısıtlamaları nedeniyle yapılıyor ama bence nihayetinde her şey insan görsel tüketimi için tasarlanmıştır ve bu yüzden günün sonunda tüm ek bilgiler web sayfasının düzeninde, yanınızda ne olduğu, kırmızı bir arka planın ne olduğu ve bu tür şeyler ve görsel olarak nasıl göründüğünde, bu yüzden pikselleri alıp klavye fare komutları verdiğimiz için bunun son sınır olduğunu düşünüyorum ama bence bugün hala pratik değil. Bu fikirler göz önüne alındığında, ne kadar heyecan verici oldukları göz önüne alındığında internetteki botlar hakkında endişeleniyor musunuz? Twitter'daki botların şimdi gördüğümüz kripto botları gibi aptal botlar değil de, aslında orada olabilecek, görmediğimiz, ilginç şekillerde etkileşim kuran botlar olmasından endişeleniyor musunuz? Yani bu tür bir sistem, 'Ben robot değilim' tıklama düğmesini geçebilmeli gibi geliyor, ki bu testin nasıl çalıştığını aslında anlıyorsunuz, tam olarak sevmiyorum, tıkladığınız bir onay kutusu veya benzeri bir şey var, muhtemelen fare hareketini ve zamanlamayı takip ediyor, evet, yani tam olarak bahsettiğimiz bu tür bir sistem bunu geçebilmeli. Yani evet, dil modelleri olan ve etkileşim yeteneği olan ve tweet atıp yanıt verebilen botlar hakkında ne düşünüyorsunuz? Bu dünyadan endişeleniyor musunuz? Evet, bence bu her zaman bir tür silahlanma yarışı olmuştur, saldırı ve savunma arasında, yani saldırı güçlenecek ama savunma da güçlenecek, bunu tespit etme yeteneğimiz, nasıl savunursunuz, nasıl tespit edersiniz, Twitter'daki karpate hesabınızın insan olduğunu nasıl anlarsınız? Buna nasıl yaklaşırsınız, sanki insanlar iddia etseydi, mahkemede kendinizi nasıl savunurdunuz, ben bir insanım, bu hesap... Evet bir noktada sanırım, bence toplum biraz evrilecek, yazışmalarımızın bazılarını veya yarattığımız şeyleri dijital olarak imzalamaya başlayabiliriz, şu anda gerekli değil ama belki gelecekte olabilir, dijital alanı yapay zekalarla paylaştığımız bir dünyaya doğru gittiğimizi düşünüyorum."
+  },
+  {
+    "start": 3226.0,
+    "end": 3411.4,
+    "text": "synthetic beings yeah and uh they will get much better and they will share our digital realm and they'll eventually share our Physical Realm as well it's much harder uh but that's kind of like the world we're going towards and most of them will be benign and awful and some of them will be malicious and it's going to be an arms race trying to detect them so I mean the worst isn't the AI is the worst is the AIS pretending to be human so mine I don't know if it's always malicious there's obviously a lot of malicious applications but yeah it could also be you know if I was an AI I would try very hard to pretend to be human because we're in a human world yeah I wouldn't get any respect as an AI yeah I want to get some love and respect I don't think the problem is intractable people are people are thinking about the proof of personhood yes and uh we might start digitally signing our stuff and we might all end up having like uh yeah basically some some solution for proof of personhood it doesn't seem to be intractable it's just something that we haven't had to do until now but I think once the need like really starts to emerge which is soon I think when people think about it much more so but that too will be a race because um obviously you can probably uh spoof or fake the the the proof of personhood so you have to try to figure out how to probably I mean it's weird that we have like Social Security numbers and like passports and stuff it seems like it's harder to fake stuff in the physical space than the residual space it just feels like it's going to be very tricky very tricky to out um because it seems to be pretty low cost fake stuff what are you gonna put an AI in jail for like trying to use a fake fake personhood proof you can I mean okay fine you'll put a lot of AIS in jail but there'll be more ai's arbitrary like exponentially more the cost of creating a bot is very low uh unless there's some kind of way to track accurately like you're not allowed to create any program without showing uh tying yourself to that program like you any program that runs on the internet you'll be able to uh Trace every single human program that was involved with that program yeah maybe you have to start declaring when uh you know we have to start drawing those boundaries and keeping track of okay uh what our digital entities versus human entities and uh what is the ownership of human entities and digital entities and uh something like that um I don't know but I think I'm optimistic that this is uh this is uh possible and at some in some sense we're currently in like the worst time of it because um all these Bots suddenly have become very capable but we don't have defenses yet built up as a society and but I think uh that doesn't seem to be intractable it's just something that we have to deal with it seems weird that the Twitter but like really crappy Twitter Bots are so numerous like is it so I presume that the engineers at Twitter are very good",
+    "speaker": "Unknown",
+    "claim": "The emergence of AI capable of mimicking humans is a challenge, but solutions for proof of personhood are possible and not intractable.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "The emergence of AI capable of mimicking humans is a challenge, but solutions for proof of personhood are possible and not intractable.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": false
+  },
+  {
+    "start": 5424.8,
+    "end": 5610.0,
+    "text": "on it and you're building out a data engine and you're actually making forward progress because that is the the sensor with the most bandwidth the most constraints on the world and you're investing fully into that and you can make that extremely good if you're uh you're only a finite amount of sort of spend of focus across different facets of the system and uh this kind of reminds me of Rich Sutton's a bitter lesson it just seems like simplifying the system yeah in the long run now of course you don't know what the long run it seems to be always the right solution yeah yes in that case it was 4rl but it seems to apply generally across all systems that do computation yeah so where uh what do you think about the lidar as a crutch debate uh the battle between point clouds and pixels yeah I think this debate is always like slightly confusing to me because it seems like the actual debate should be about like do you have the fleet or not that's like the really important thing about whether you can achieve a really good functioning of an AI system at this scale so data collection systems yeah do you have a fleet or not it's significantly more important whether you have lidar or not it's just another sensor um and uh yeah I think similar to the radar discussion basically I um but yeah I don't think it it um basically doesn't offer extra extra information is extremely costly it has all kinds of problems you have to worry about it you have to calibrate it Etc it creates bloat and entropy you have to be really sure that you need this uh this um sensor in this case I basically don't think you need it and I think honestly I will make a stronger statement I think the others some of the other uh companies are using it are probably going to drop it yeah so you have to consider the sensor in the full in considering can you build a big Fleet that collects a lot of data and can you integrate that sensor with that that data and that sensor into a data engine that's able to quickly find different parts of the data that then continuously improves whatever the model that you're using yeah another way to look at it is like vision is necessary in a sense that uh the drive the world is designed for human visual consumption so you need vision is necessary and then also it is sufficient because it has all the information that you that you need for driving and humans obviously is a vision to drive so it's both necessary and sufficient so you want to focus resources and you have to be really sure if you're going to bring in other sensors you could you could you could add sensors to Infinity at some point you need to draw the line and I think in this case you have to really consider the full cost of any One sensor that you're adopting and do you really need it and I think the answer in this case is no so what do you think about the idea of the that the other companies are forming high resolution maps and constraining heavily the geographic regions in which they operate is that approach not in your in your view um not going to scale over time to the entirety of the United States I think I'll take two as you mentioned like they pre-map all the environments and they need to refresh the map and they have a perfect centimeter level accuracy map of",
+    "speaker": "Andrej Karpathy",
+    "claim": "The debate about using lidar as a sensor in AI systems is misguided; having a fleet for data collection is more important than the specific sensors used.",
+    "stance": "Refute",
+    "claim_labels": [
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI sensors",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "The debate about using lidar as a sensor in AI systems is misguided; having a fleet for data collection is more important than the specific sensors used.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI sensors",
+    "reviewed": false
+  },
+  {
+    "start": 8914.9,
+    "end": 9098.8,
+    "text": "Checker yes it's a committee of like a GPT sort of like and then they'll be like a manager for the committee yeah and then there'll be somebody that says a new version of this is needed we need to regenerate it yeah there were 10 gpts that were forwarded and gave 50 suggestions another one looked at it and picked a few that they like a bug one looked at it and it was like it's probably a bug they got re-ranked by some other thing and then a final Ensemble uh GPT comes in it's like okay given everything you guys have told me this is probably the next token you know the feeling is the number of programmers in the world has been growing and growing very quickly do you think it's possible that it'll actually level out and drop to like a very low number with this kind of world because then you'll be doing software 2.0 programming um and you'll be doing this kind of generation of copilot type systems programming but you won't be doing the old school software 1.0 program I don't currently think that they're just going to replace human programmers um it's I'm so hesitant saying stuff like this right because this is going to be replaced in five years I don't know it's going to show that like this is where we thought because I I agree with you but I think we might be very surprised right like what are the next I I what's your sense of what we're seeing with language models like does it feel like the beginning or the middle or the end the beginning 100 I think the big question in my mind is for sure GPT will be able to program quite well competently and so on how do you steer the system you still have to provide some guidance to what you actually are looking for and so how do you steer it and how do you say how do you talk to it how do you um audit it and verify that what is done is correct and how do you like work with this and it's as much not just an AI problem but a UI ux problem yeah um so beautiful fertile ground for so much interesting work for vs code plus plus where you're not just it's not just human programming anymore it's amazing yeah so you're interacting with the system so not just one prompt but it's iterative prompting yeah you're trying to figure out having a conversation with the system yeah that actually I mean to me that's super exciting to have a conversation with the program I'm writing yeah maybe at some point uh you're just conversing with it it's like okay here's what I want to do actually this variable maybe it's not even that low level as variable but you can also Imagine like can you translate this to c plus and back to python yeah that already kind of existence no but just like doing it as part of the program experience like I think I'd like to write this function in C plus plus or or like you just keep changing for different uh different programs because they're different syntax maybe I want to convert this into a functional language and so like you get to become multilingual as a programmer and dance back and forth efficiently yeah I mean I think the UI ux of it though is like still very hard to think through because it's not just about writing code on a page you have an entire developer environment you have a bunch of hardware on it uh you have some environmental variables you have some scripts that are running in the Chrome job like there's a",
+    "speaker": "Andrej Karpathy",
+    "claim": "AGI will not replace human programmers in the near term, and the future of programming will involve more interaction with AI systems.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI programming",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will not replace human programmers in the near term, and the future of programming will involve more interaction with AI systems.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI programming",
+    "reviewed": false
+  },
+  {
+    "start": 10200.0,
+    "end": 10384.7,
+    "text": "Consciousness is a very useful tool I think Consciousness is like a modeling insight modeling Insight yeah it's a you have a powerful enough model of understanding the world that you actually understand that you are an entity in it yeah but there's also this um perhaps just a narrative we tell ourselves there's a it feels like something to experience the world the hard problem of Consciousness yeah but that could be just the narrative that we tell ourselves yeah I don't think what yeah I think it will emerge I think it's going to be something uh very boring like we'll be talking to these uh digital AIS they will claim they're conscious they will appear conscious they will do all the things that you would expect of other humans and uh it's going to just be a stalemate I I think there would be a lot of actual fascinating ethical questions like Supreme Court level questions of whether you're allowed to turn off a conscious AI if you're allowed to build the conscious AI maybe there would have to be the same kind of debates that you have around um sorry to bring up a political topic but you know abortion which is the deeper question with abortion is what is life and the Deep question with AI is also what is life and what is conscious and I think that'll be very fascinating to bring up it might become illegal to build systems that are capable that like of such a level of intelligence that Consciousness would emerge and therefore the capacity to suffer would emerge and some A system that says no please don't kill me well that's what the Lambda compute the Lambda chatbot already told um this Google engineer right like it it was talking about not wanting to die or so on so that might become illegal to do that right I because otherwise you might have a lot of a lot of creatures that don't want to die and they will uh you can just spawn Infinity of them on a cluster and then that might lead to like horrible consequences because then there might be a lot of people that secretly love murder and they'll start practicing murder on those systems I mean there's just I to me all of this stuff just brings a beautiful mirror to The Human Condition and human nature we'll get to explore it and that's what like the best of uh the Supreme Court of all the different debates we have about ideas of what it means to be human we get to ask those deep questions that we've been asking throughout human history there's always been the other in human history uh we're the good guys and that's the bad guys and we're going to uh you know throughout human history let's murder the bad guys and the same will probably happen with robots it'll be the other at first and then we'll get to ask questions of what does it mean to be alive what does it mean to be conscious yeah and I think there's some Canary in the coal mines even with what we have today um and uh you know for example these there's these like waifus that you like work with and some people are trying to like this company is going to shut down but this person really like yeah love their waifu and like is trying to like Port it somewhere else and like it's not",
+    "speaker": "Andrej Karpathy",
+    "claim": "Consciousness in AI will emerge, leading to ethical questions about the rights of conscious entities.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI consciousness",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "Consciousness in AI will emerge, leading to ethical questions about the rights of conscious entities.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI consciousness",
+    "reviewed": false
+  },
+  {
+    "start": 10382.8,
+    "end": 10567.6,
+    "text": "possible and like I think like definitely uh people will have feelings towards uh towards these um systems because in some sense they are like a mirror of humanity because they are like sort of like a big average of humanity yeah in a way that it's trained but we can that average we can actually watch it's nice to be able to interact with the big average of humanity yeah and do like a search query on it yeah yeah it's very fascinating and uh we can also of course also like shape it it's not just a pure average we can mess with the training data we can mess with the objective we can fine tune them in various ways so we have some um you know impact on what those systems look like if you want to achieve AGI um and you could have a conversation with her and ask her uh talk about anything maybe ask her a question what kind of stuff would you would you ask I would have some practical questions in my mind like uh do I or my loved ones really have to die uh what can we do about that do you think it will answer clearly or would it answer poetically I would expect it to give Solutions I would expect it to be like well I've read all of these textbooks and I know all these things that you've produced and it seems to me like here are the experiments that I think it would be useful to run next and hear some Gene therapies that I think would be helpful and uh here are the kinds of experiments that you should run okay let's go over the Start experiment okay imagine that mortality is actually uh like a prerequisite for happiness so if we become immortal we'll actually become deeply unhappy and the model is able to know that so what is this supposed to tell you stupid human about it yes you can become a mortal but you will become deeply unhappy if if the model is if the AGI system is trying to empathize with you human what is this supposed to tell you that yes you don't have to die but you're really not going to like it because that is it going to be deeply honest like there's a Interstellar what is it the AI says like humans want 90 honesty so like you have to pick how honest I want to answer these practical questions yeah I love Yeah Interstellar by the way I think it's like such a sidekick to the entire story but at the same time it's like really interesting it's kind of limited in certain ways right yeah it's limited and I think that's totally fine by the way I don't think uh I think it's find impossible to have a limited and imperfect agis is that the feature almost as an example like it has a fixed amount of compute on its physical body and it might just be that even though you can have a super amazing Mega brain super intelligent AI you also can have like you know less intelligent AIS that you can deploy in a power efficient way and then they're not perfect they might make mistakes no I meant more like say you had infinite compute and it's still good to make mistakes sometimes like in order to integrate yourself like um what is it going back to Goodwill Hunting uh Robin Williams character",
+    "speaker": "Andrej Karpathy",
+    "claim": "AGI systems may reflect humanity and can be shaped by their training data, but they will still have limitations and may not provide perfect answers.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Andrej Karpathy",
+    "is_claim_silver": true,
+    "claim_silver": "AGI systems may reflect humanity and can be shaped by their training data, but they will still have limitations and may not provide perfect answers.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI capabilities",
+    "reviewed": false
+  },
+  {
+    "start": 10565.0,
+    "end": 10752.5,
+    "text": "says like the human imperfections that's the good stuff right isn't it isn't that this like we don't want perfect we want flaws in part to form connections with each other because it feels like something you can attach your feelings to the the flaws in that same way you want an AI That's flawed I don't know I feel like perfectionist but then you're saying okay yeah but that's not AGI but see AGI would need to be intelligent enough to give answers to humans that humans don't understand and I think perfect isn't something humans can't understand because even science doesn't give perfect answers there's always gabs and Mysteries and I don't know I I don't know if humans want perfect yeah I could imagine just uh having a conversation with this kind of Oracle entity as you'd imagine them and uh yeah maybe it can tell you about you know based on my analysis of Human Condition uh you might not want this and here are some of the things that might but every every dumb human will say yeah yeah trust me I can give me the truth I can handle it but that's the beauty a lot of people can choose uh so but then the old marshmallow test with the kids and so on I feel like too many people uh like it can't handle the truth probably including myself like the Deep truth of The Human Condition I don't I don't know if I can handle it like what if there's some dark stuff what if we are an alien science experiment and it realizes that what if it had I mean I mean this is the Matrix you know the middle over again I don't know I would what would I talk about I don't even yeah I uh probably I will go with the save for scientific questions at first that have nothing to do with my own personal life yeah immortality just like about physics and so on yeah uh to build up like let's see where it's at or maybe see if it has a sense of humor that's another question would it be able to uh presumably in order to if it understands humans deeply would able to generate uh yep to generate humor yeah I think that's actually a wonderful Benchmark almost like is it able I think that's a really good point basically to make you laugh yeah if it's able to be like a very effective stand-up comedian that is doing something very interesting computationally I think being funny is extremely hard yeah because it's hard in a way like a touring test the original intent of the touring test is hard because you have to convince humans and there's nothing that's why that's why when comedians talk about this like there's this is deeply honest because if people can't help but laugh and if they don't laugh that means you're not funny they laugh that's funny and you're showing you need a lot of knowledge to create to create humor about like the occupational Human Condition and so on and then you need to be clever with it uh you mentioned a few movies you tweeted movies that I've seen five plus times but I'm ready and willing to keep watching Interstellar Gladiator contact",
+    "speaker": "Unknown",
+    "claim": "AGI should be able to understand and engage with the complexities of the human condition, including humor, rather than being perfect.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI nature",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": true,
+    "claim_silver": "AGI should be able to understand and engage with the complexities of the human condition, including humor, rather than being perfect.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AGI nature",
+    "reviewed": false
+  }
+]

@@ -1,0 +1,1802 @@
+[
+  {
+    "start": 24.4,
+    "end": 165.1,
+    "text": "Today I have the pleasure to speak with John \nSchulman, who is one of the co-founders of OpenAI   and leads the post-training team here. He also \nled the creation of ChatGPT and is the author   of many of the most important and widely \ncited papers in AI and RL, including PPO   and many others. John, really excited to chat \nwith you. Thanks for coming on the podcast.\n   Thanks for having me on \nthe podcast. I'm a big fan. Thank you for saying that. Here’s my first \nquestion. We have these distinctions between   pre-training and post-training. Let’s \ngo beyond what is actually happening   in terms of loss function and training \nregimes. Taking a step back conceptually,   what kind of thing is pre-training creating? \nWhat does post-training do on top of that?  \n   In pre-training you're basically training to \nimitate all of the content on the Internet or on   the web, including websites and code and so forth. \nSo you get a model that can generate content that   looks like random web pages from the Internet. \nThe model is also trained to maximize likelihood   where it has to put a probability on everything.  \nThe objective is basically predicting the next   token given the previous tokens. Tokens \nare like words, or parts of words. Since   the model has to put a probability on it—we're \ntraining to maximize log probability—it ends   up being very calibrated. Not only can it \ngenerate all of the content of the web,   it can also assign probabilities to everything.\nThe base model can effectively take on   all of these different personas or generate \nall different kinds of content. When we do   post-training, we're usually targeting a narrower \nrange of behaviors where we want the model to   behave like a kind of chat assistant. It's a \nmore specific persona where it's trying to be   helpful. It's not trying to imitate a person. \nIt's answering your questions or doing your   tasks. We're optimizing on a different objective, \nwhich is more about producing outputs that humans   will like and find useful, as opposed to just \nimitating this raw content from the web.",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 166.7,
+    "end": 236.5,
+    "text": "Maybe I should take a step back and ask this. \nRight now we have these models that are pretty   good at acting as chatbots. Taking a step \nback from how these processes work currently,   what kinds of things will the models released by \nthe end of the year be capable of doing? What do   you think the progress will look like if we carry \neverything forward for the next five years?\n   The models will get quite a \nbit better in five years.\n   In what way?\n \nEven in one or two years,   we'll find that the models can do a lot more \ninvolved tasks than they can do now. For example,   you could imagine having the models carry out a \nwhole coding project instead of it giving you one   suggestion on how to write a function. You could \nimagine the model taking high-level instructions   on what to code and going out on its own, \nwriting any files, and testing it, and looking   at the output. It might even iterate on that \na bit. So just much more complex tasks.",
+    "speaker": "John Schulman",
+    "claim": "AI models will significantly improve in their capabilities over the next five years, enabling them to perform more complex tasks autonomously.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 236.5,
+    "end": 324.4,
+    "text": "Fundamentally the unlock is that it can act \ncoherently for long enough to write multiple files   of code? What has changed between now and then?  \n \nI would say this will come from some combination   of training the models to do harder tasks \nlike this. Most of the training data is   more like doing single steps at a time. \nI would expect us to do more for training   the models to carry out these longer projects.  \nThat’s for any kind of training, like doing RL,   to learn how to do these tasks. Whether you're \nsupervising the final output or supervising it   at each step, any kind of training at \ncarrying out these long projects is   going to make the models a lot better.\nSince the whole area is pretty new,   I'd say there's a lot of low-hanging fruit \nin doing this kind of training. That's one   thing. I would also expect that as models get \nbetter, they get better at recovering from   errors or dealing with edge cases. When things \ngo wrong, they’ll know how to recover from it.",
+    "speaker": "John Schulman",
+    "claim": "Improving AI models to handle longer projects and recover from errors will enhance their capabilities.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "execution_engineering",
+      "llm_capabilities"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 324.4,
+    "end": 390.3,
+    "text": "The models will be more sample efficient. You \nwon't have to collect a ton of data to teach   them how to get back on track. Just a little \nbit of data or their generalization from other   abilities will allow them to get back on track. \nCurrent models might just get stuck and get lost.\n   I want to understand specifically how \nthe generalization helps you get back on   track. Can you say more about that? I'm not \nsure why those two concepts are connected.\n   Right, they're not directly connected. You usually \nhave a little bit of data that does everything.   If you collect a diverse data set, you're going \nto get a little bit of everything in it. If you   have models that generalize really well—even from \njust a couple of examples of getting back on track   or if in the pre-training data there are a couple \nof examples of a model getting back on track—the   model will be able to generalize from those \nother things it’s seen to the current situation.",
+    "speaker": "John Schulman",
+    "claim": "Current AI models are improving in sample efficiency and generalization, allowing them to learn from fewer examples.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 393.7,
+    "end": 486.2,
+    "text": "If you have models that are weaker, you might \nbe able to get them to do almost anything with   enough data. But you might have to put a lot \nof effort into a particular domain or skill.    Whereas for a stronger model, \nit might just do the right thing   without any training data or any effort.\n \nRight now these models can work coherently   for five minutes. We want them to be able to do \ntasks that a human would take an hour to do, then   a week, then a month, and so forth. \nTo get to each of these benchmarks,   is it going to be the case that each one takes \n10X more compute, analogous to the current   scaling laws for pre-training? Or is it going \nto be a much more streamlined process of just   getting to that point where you're already more \nsample efficient and you can just go straight to   the years of carrying out tasks or something? \n \nAt a high level, I would agree that longer-horizon   tasks are going to require more model intelligence \nto do well. They are going to be more expensive to   train. I'm not sure I would expect a really \nclean scaling law unless you set it up in a   very careful way, or design the experiment in a \ncertain way. There might end up being some phase   transitions where once you get to a certain \nlevel you can deal with much longer tasks.",
+    "speaker": "John Schulman",
+    "claim": "Longer-horizon tasks will require more model intelligence and may not follow a clean scaling law.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 486.2,
+    "end": 574.1,
+    "text": "For example, when people do planning for \ndifferent timescales, I'm not sure they use   completely different mechanisms. We probably \nuse the same mental machinery thinking about   one month from now, one year from now, or a \nhundred years from now. We're not actually   doing some kind of reinforcement learning \nwhere we need to worry about a discount factor   that covers that timescale and so forth.\nUsing language, you can describe all of   these different timescales and then you can do \nthings like plan. In the moment you can try to   make progress towards your goal, whether it's \na month away or 10 years away. I don’t know if   it’s a phase transition but I might expect the \nsame out of models where there might be some   capabilities that work at multiple scales.\n \nCorrect me if this is wrong. It seems like you’re   implying that right now we have models that are on \na per token basis pretty smart. They might be as   smart as the smartest humans on a per token basis. \nThe thing that prevents them from being as useful   as they could be is that five minutes from now, \nthey're not going to be still writing your code in   a way that’s coherent and aligns with your broader \ngoals you have for your project or something.",
+    "speaker": "John Schulman",
+    "claim": "Current AI models are smart on a per-token basis but struggle with long-term coherence and alignment with broader goals.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 574.1,
+    "end": 659.2,
+    "text": "If it's the case that once you start \nthis long-horizon RL training regime   it immediately unlocks your ability to be \ncoherent for longer periods of time, should   we be predicting something that is human-level \nas soon as that regime is unlocked? If not,   then what is remaining after we can plan for a \nyear and execute projects that take that long?\n   It's not totally clear what we're going \nto see once we get into that regime or   how fast progress will be. That's still uncertain. \nI wouldn't expect everything to be immediately   solved by doing any training like this. There'll \nbe other miscellaneous deficits that the models   have that cause them to get stuck or make worse \ndecisions than humans. I don’t expect that this   one little thing will unlock all capabilities. \nBut some improvement in the ability to do   long-horizon tasks might go quite far.  \n \nWould you say it's plausible? Does it seem   quite likely that there will be other reasons why \nthere might be bottlenecks? I'm also curious what   the nature of these bottlenecks might be. It has \nall these representations of pre-training. Now it   can work coherently for a long period of time \nbecause of long-horizon RL. What's remaining?",
+    "speaker": "John Schulman",
+    "claim": "The long-horizon RL training regime may improve AI's ability to perform long-term tasks, but it is uncertain if it will lead to human-level intelligence soon.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 660.6,
+    "end": 732.8,
+    "text": "Maybe there's some other experience that human \nexperts bring to different tasks such as having   taste or dealing with ambiguity better. If \nwe want to do something like research I could   imagine those considerations coming into \nplay. Obviously there are going to be   mundane limitations around the affordances \nof the model and whether it can use UIs,   interact with the physical world, or \nhave access to things. So there might   be a lot of mundane barriers that \nare probably not going to last that   long but would initially slow down progress.  \n \nLet’s talk about the websites that are designed   for these AIs. Once they’re trained on more \nmultimodal data, will they be in any way different   from the ones we have for humans? What UIs will be \nneeded? How will it compensate for their strengths   and weaknesses? How would that look different \nfrom the current UIs we have for humans?",
+    "speaker": "John Schulman",
+    "claim": "There are limitations to current AI models that may initially slow down progress, but these barriers are likely temporary.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI limitations",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 733.8,
+    "end": 815.7,
+    "text": "That's an interesting question. I expect that \nmodels will be able to use websites that are   designed for humans just by using vision, after \nthe vision capabilities get a bit better. So there   wouldn't be an immediate need to change them.\nOn the other hand, there’ll be some websites that   are going to benefit a lot from AIs being able to \nuse them. We’ll probably want to design those to   be better UXs for Ais. I'm not sure exactly what \nthat would mean. Assuming that our models are   still better at text mode than reading text \nout of images, you'd probably want to have a   good text-based representation for the models.\nYou’d also want a good indication of what all   the things that can be interacted with are. But I \nwouldn't expect the web to get totally redesigned   to have APIs everywhere. We can get models to \nuse the same kind of UIs that humans use.  \n   I guess that's been the big lesson of language \nmodels, right? That they can act within the   similar affordances that humans do.\nI want to go back to the point you   made earlier about how this process could \nbe more sample efficient because it could   generalize from its pre-training experiences \nof how to get unstuck in different scenarios.",
+    "speaker": "John Schulman",
+    "claim": "Models will improve in their ability to use human-designed websites without needing significant redesigns.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "llm_capabilities"
+    ],
+    "claim_stances": [
+      {
+        "category": "breakthroughs_needed",
+        "stance": "Refute"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 818.1,
+    "end": 892.1,
+    "text": "What is the strongest evidence you’ve \nseen of this generalization and transfer?  The big question for the future abilities models \nseems to be about how much generalization is   happening. Is there something that feels \nreally compelling to you? Have you seen a   model learn something that you wouldn't \nexpect it to learn from generalization?  \n   There have definitely been some interesting \ninstances of generalization in post-training.  One well-known phenomenon is that if you \ndo all your fine-tuning with English data,   the model will automatically behave well \nin other languages. So if you train the   assistant on English data, it'll also do something \nreasonable in Spanish. Sometimes you might get the   wrong behavior in terms of whether it replies \nin English or replies in Spanish. Usually you   get the right behavior there, meaning you get it \nto respond in Spanish to Spanish queries. That's   one interesting instance of generalization \nwhere the model just latches onto the right,   helpful persona and then automatically does \nthe right thing in different languages.",
+    "speaker": "John Schulman",
+    "claim": "Models can generalize and perform well in multiple languages after being fine-tuned on English data.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 892.1,
+    "end": 958.9,
+    "text": "We've seen some version of this with multimodal \ndata where if you do text-only fine-tuning,   you also get reasonable behavior with images. \nEarly on in ChatGPT we were trying to fix some   issues with the model understanding its own \nlimitations. Early versions of the model would   think that it could send you an email or call \nyou an Uber or something. The model would try   to play the assistant and it would say “oh yeah, \nof course I sent that email.” Obviously it didn't.  So we started collecting some data to fix \nthose problems. We found that a tiny amount   of data did the trick, even when you mixed \nit together with everything else. I don't   remember exactly how many examples but something \nlike 30 examples. We had a pretty small number   of examples showing this general behavior, \nexplaining that the model doesn’t have this   capability. That generalized pretty well to all \nsorts of capabilities we didn't train for.",
+    "speaker": "John Schulman",
+    "claim": "Current AI models, like ChatGPT, have limitations in understanding their own capabilities, which can be improved with minimal data.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "claim_stances": [
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 960.2,
+    "end": 1040.2,
+    "text": "I still want to go back to this because I'm not \nsure I understood. Let’s say you have this model   that is trained to be coherent for longer \nperiods of time. Setting aside these other   bottlenecks which there may or may not be, by \nnext could you have models that are potentially   like human-level? I’m thinking of a model that \nyou’re interacting with like a colleague and it's   as good as interacting with a human colleague. \nYou can tell them to go do stuff and they go get   it done. What seems wrong with that picture of \nthe capabilities you think might be possible?\n   It's hard to say exactly what the deficit \nwill be. When you talk to the models today,   they have various weaknesses besides long-term \ncoherence. They also struggle to really think   hard about things or pay attention to what \nyou ask them. I wouldn't expect improving   the coherence a little bit to be all it takes to \nget to AGI. I guess I can’t articulate exactly   what are the main weaknesses that will stop \nthem from being a fully functional colleague.",
+    "speaker": "John Schulman",
+    "claim": "Improving coherence alone will not be sufficient to achieve AGI, as current models have multiple weaknesses.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AGI capabilities",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "llm_capabilities"
+    ],
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Refute"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1040.2,
+    "end": 1108.6,
+    "text": "It seems like then, you should be planning for \nthe possibility you would have AGI very soon.\n   I think that would be reasonable. \n \nSo what's the plan if there's no   other bottlenecks. In the next year or \nsomething, you’ve got AGI. What's the plan?\n   If AGI came way sooner than expected we \nwould definitely want to be careful about   it. We might want to slow down a little bit \non training and deployment until we're pretty   sure we know we can deal with it safely. We \nwould need a pretty good handle on what it's   going to do and what it can do. We would \nhave to be very careful if it happened way   sooner than expected. Our understanding \nis still rudimentary in a lot of ways.\n   What would being careful mean? Presumably \nyou're already careful, right? You do these   evaluations before deploying. \n \nMaybe it means not training the   even smarter version or being really careful \nwhen you do train it. You can make sure it’s",
+    "speaker": "John Schulman",
+    "claim": "We should plan for the possibility of AGI arriving soon and be cautious about its deployment.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 1111.6,
+    "end": 1180.8,
+    "text": "properly sandboxed and everything. Maybe \nit means not deploying it at scale or   being careful about what scale you deploy it at.\n \nLet's just play with a scenario. AGI happens next   year. You're not training a smarter system but \nyou're deploying it in a somewhat measured way.   Presumably the development wouldn’t be particular \nto OpenAI. AGI just turns out to be much easier   than we expected and that’s why it happened. \nSo you wait to deploy a little bit. Now other   companies have a similar level of capabilities. \nWhat happens next? While you wait to deploy,   what are you waiting for? What is every \ncompany doing in this scenario?  \n   The game theory is a little tough \nto think through. First of all,   I don't think this is going to \nhappen next year but it's still   useful to have the conversation. It \ncould be two or three years instead.",
+    "speaker": "John Schulman",
+    "claim": "AGI could potentially arrive sooner than expected, but the speaker is skeptical about it happening next year.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 1181.8,
+    "end": 1274.9,
+    "text": "Two or three years is still pretty soon.\n \nIt’s still pretty soon. You probably need   some coordination. Everyone needs to agree \non some reasonable limits to deployment or   to further training for this to work. \nOtherwise you have the race dynamics   where everyone's always trying to stay ahead and \nthat might require compromising safety. You would   probably need some coordination among the larger \nentities that are doing this kind of training.\n   You'd be coordinating to pause \ndeployment until what exactly? Until   you figure out what's happening in the model?\n \nWe could pause further training. We could pause   deployment. We could avoid certain types \nof training that might be riskier. We   would set up some reasonable rules for what \neveryone should do to limit these things.\n   Limit to what end? At some point the potential \nenergy that's within this intelligence will   be unleashed. Suppose in two years we get \nthe AGI. Now everybody's freaking out. The   AI companies have paused. What would \nbe the thing we plan to wait until?",
+    "speaker": "John Schulman",
+    "claim": "Coordination among AI entities is necessary to ensure safety and manage deployment risks as AGI approaches.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "agi_timeline"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "agi_timeline",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 1277.6,
+    "end": 1349.9,
+    "text": "I don't have a good answer to that. If we \ncan coordinate like that, that would be a   pretty good scenario. Building these models \nis very capital intensive and there are a lot   of complex pieces. It's not like everyone's \ngoing to go and recreate this stuff at home.  Given the relatively small number of \nentities who could train the largest models,   it does seem possible to coordinate. I'm not \nsure how you would maintain this equilibrium for   a long period of time, but I think if we got \nto that point we would be in an okay position.\n   Would we? I'm still curious because I'm \nnot sure what happens next. Fundamentally,   the benefit is that you push it to the server \nand now we have a bunch of intelligences,   or they could push themselves to the server. \nNow we’ve got everybody coordinated but I'm   not sure what we do next in this world. Why \ndoes that set us up for a good outcome?",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI coordination",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1350.4,
+    "end": 1447.4,
+    "text": "If we had everyone reasonably coordinated and we \nfelt like we could solve the technical problems   around alignment well enough then we could deploy. \nWe would be able to deploy really smart AIs that   can act as extensions of people's wills but also \nprevent them from being catastrophically misused.   That would be great. We could go ahead and \nsafely deploy these systems and it would usher   in a lot of prosperity and a much more rapid \nphase of scientific advancement. That would   be what the good scenario would look like.  \n \nThat makes sense. I’m curious about something   down the road in a couple of years. In the \nbest case scenario, all these actors have   agreed to pause until we've figured out that we're \nbuilding aligned systems that are not themselves   going to attempt a coup or not going to enable \nsomebody else to do that. What would proof of that   look like? What would evidence of that look like?\n \nIf we can deploy systems that are incrementally   that are successively smarter than the \nones before, that would be safer. I hope   the way things play out is not a scenario where \neveryone has to coordinate, lock things down,   and safely release things. That would lead \nto this big buildup in potential energy.",
+    "speaker": "Dwarkesh Patel",
+    "claim": "If we can solve alignment issues, we could safely deploy advanced AIs that would lead to prosperity and scientific advancement.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI deployment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 1449.1,
+    "end": 1526.2,
+    "text": "I would rather have a scenario where we're all \ncontinually releasing things that are a little   better than what came before. We’d be doing \nthis while making sure we’re confident that   each diff improves on safety and alignment in \ncorrespondence to the improvement in capability.   If things started to look a little bit \nscary, then we would be able to slow   things down. That's what I would hope for.\nIf there's more of a discontinuous jump,   there’s a question of “how do you know if the \nthing you've got is safe to release”. I can't   give a generic answer. However, the type of thing \nyou might want to do to make that more acceptable   would be a lot of testing simulated deployment, \nred teaming of sorts. You'd want to do that in a   way that is much more likely to fail than the \nthing you’re planning to do in the real world.",
+    "speaker": "John Schulman",
+    "claim": "We should prioritize gradual improvements in AI safety and alignment rather than risking sudden jumps in capability.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1526.2,
+    "end": 1618.1,
+    "text": "You'd want to have a really good monitoring system \nso that if something does start to go wrong with   the deployed system, you can immediately detect \nit. Maybe you've got something watching over   the deployed AIs, watching what they're \ndoing, and looking for signs of trouble.    You’d want some defense in depth. You'd want \nsome combination of “the model itself seems to be   really well-behaved with impeccable, moral \nconfidence in everything” and “I’m pretty   confident that it’s extremely resistant to any \nkind of severe misuse.” You'd also want really   good monitoring on top of it so you could \ndetect any kind of unforeseen trouble.  \n   What are you keeping track of while \nyou're doing long-horizon RL or when   you eventually start doing it? How could \nyou notice this sort of discontinuous jump   before you deployed these systems broadly?\n \nYou would want to have a lot of evals that   you're running during the training process. \n \nWhat specifically? Does it make sense to train on   a long-horizon RL knowing that this is something \nthat could happen? Or is it just a very low   possibility? How do you think about this?  \n \nYou'd want to be pretty careful when you   do this kind of training if you see a \nlot of potentially scary capabilities.",
+    "speaker": "John Schulman",
+    "claim": "Monitoring and evaluation are crucial for ensuring the safety of deployed AI systems, especially during long-horizon reinforcement learning.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 1622.4,
+    "end": 1698.4,
+    "text": "I would say it's not something we have to be \nscared of right now because right now it's   hard to get the models to do anything coherent.\nIf they started to get really good, we would   want to take some of these questions seriously. \nWe would want to have a lot of evals that test   them for misbehavior, mostly for the alignment \nof the models. We'd want to check that they’re   not going to turn against us or something. You \nmight also want to look for discontinuous jumps   in capabilities. You'd want to have lots of \nevals for the capabilities of the models.  You'd also want to make sure that whatever \nyou're training on doesn't have any reason to   make the model turn against you. That doesn't \nseem like the hardest thing to do. The way we   train them with RLHF, that does feel very \nsafe even though the models are very smart.",
+    "speaker": "John Schulman",
+    "claim": "We shouldn't be scared of AGI right now because current models struggle with coherence and alignment.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_safety_risk"
+    ],
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Refute"
+      },
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 1700.3,
+    "end": 1825.4,
+    "text": "The model is just trying to produce a message \nthat is pleasing to a human. It has no concern   about anything else in the world other than \nwhether the text it produces is approved.    Obviously if you were doing something where \nthe model has to carry out a long sequence   of actions which involve tools, then it \nmight have some incentive to do a lot of   wacky things that wouldn't make sense to a \nhuman in the process of producing its final   result. However, it wouldn't necessarily have \nan incentive to do anything other than produce   a very high quality output at the end.\nThere are old points about instrumental   convergence where the model wants to take over \nthe world so it can produce some awesome piece   of code at the end. If you ask it to write \nyou a Flask app, it'll be like “oh yeah,   first I need to take over the world. At a \ncertain point it's a little hard to imagine   why for fairly well specified tasks like coding \nan app, you would want to first take over the   world. Of course if you assigned a task such as \n“make money,” then maybe that would lead to some   nefarious behavior as an instrumental goal.\n \nBefore we get back to that, let's step back   and talk about today’s RLHF systems and \neverything. I do want to follow up on that   point because it is interesting.\nWith today's RLHF and the way in which   it influences these models, how would \nyou characterize it in terms of human   psychology? Is it a drive? Is it a goal? Is \nit an impulse? Psychologically, what kind of   thing is it? In what way is it being changed?\nNot simply the persona of a chatbot but “don't   talk that way, talk this other way” or \n“don’t put out those kinds of outputs.”\n   There are probably some analogies \nwith a drive or a goal in humans.",
+    "speaker": "John Schulman",
+    "claim": "Current AI models primarily aim to produce high-quality outputs for human approval, lacking broader world concerns or instrumental goals.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1829.0,
+    "end": 1897.5,
+    "text": "You're trying to steer towards a certain \nset of states rather than some other   states. I would think that our concept \nof a drive or a goal has other elements,   such as the feeling of satisfaction you get for \nachieving it. Those things have more to do with   the learning algorithm than what the model does \nat runtime when you just have a fixed model.  There are probably some analogies though I don't \nknow exactly how close it is. To some extent,   the models do have drives and goals in \nsome meaningful way. In the case of RLHF   where you're trying to maximize human \napproval as measured by a reward model,   the model is just trying to produce something that \npeople are going to like and judge as correct.\n   I’ve heard two ideas in terms of using that \ninternal monologue to get better at reasoning.   At least publicly, I've seen two ideas and I'm \ncurious which one you think is more promising.",
+    "speaker": "John Schulman",
+    "claim": "Models have drives and goals in a meaningful way, particularly in reinforcement learning with human feedback.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1897.5,
+    "end": 1995.5,
+    "text": "One is that the model learns from its outputs \nover a bunch of potential trains of thought,   and it learns to follow the one that leads \nto the correct answer. It is then trained   on that before deployment. The other one is \nyou use a bunch of compute to do inference   in deployment. This approach involves the \nmodel talking to itself while it's deployed.  Which one do you expect to be closer to the way \na model has been trained when it gets really good   at reasoning? Is it because it's doing just a \nbunch of inference clouds? Is it just because   you've trained it to do well at that?  \n \nYou could define reasoning as tasks that   require some kind of computation at test time \nor maybe some kind of deduction. By definition,   reasoning would be tasks that require some test \ntime computation and step-by-step computation.   On the other hand, I would also expect to \ngain a lot from doing practice at training   Right now, you have these two ways the \nmodel learns. One is in training, whether   it's pre-training or post-training. Most of the \ncompute in training is spent on pre-training,   glossing over trillions of tokens, skimming \ntrillions of tokens worth of information.",
+    "speaker": "John Schulman",
+    "claim": "The model learns reasoning through both training and inference during deployment.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 1995.5,
+    "end": 2072.9,
+    "text": "If a human was subjected to that, they \nwould just be totally confused. It's   just not a very efficient way to learn.\nThe other way is in-context learning.   Of course that is more sample-efficient, \nbut it's destroyed with each instance.  I'm curious if you think that there's \na path for something in between those,   where it’s not destroyed at each instance but it's \nalso not as frivolous as just seeing trillions of   tokens. Something more deliberate and active.  \n \nDo you mean models having some kind of medium-term   memory? Too much to fit in context but \nmuch smaller scale than pre-training?\n   It might be memory. I don't have context. \nCertainly when I'm trying to prepare for   this conversation, I think of what I \nshould understand, read it carefully,   and maybe think about it as I’m reading it. I’m \nnot sure what it naturally corresponds to in   terms of models. What would that look like?\n \nI see. So it’s not just memory but it’s also   somewhat specializing to a certain task or putting \na lot of effort into some particular project.",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2072.9,
+    "end": 2179.2,
+    "text": "I'm not even sure if it's specialization. \nIt’s more so “I don't understand this part,   so let me look into it more deeply. I \nalready understand this.” I guess it’s   specializing to your existing knowledge base.\n \nI see. So it's not just about training on a bunch   of sources that are relevant and fine-tuning \non some special domain. It's also about   reasoning and developing some knowledge \nthrough your own reasoning and using some   sort of introspection or self-knowledge \nto figure out what it needs to learn?\n   Yeah.\n \nThat does feel like something that's missing   from today's systems. People haven't really pushed \ntoo hard on this middle ground between large-scale   training—where you produce a single snapshot model \nthat's supposed to do everything like a deployed   model—and on the other hand in-context learning.\nPart of that is that we've just been increasing   context length so much that there hasn't \nbeen an incentive for it. If you can go   to a hundred thousand or a million context, \nthen that's actually quite a lot. It’s not   actually the bottleneck in a lot of cases.\nI agree that you'd probably also want to   supplement that with some kind of fine-tuning. \nThe capabilities you get from fine-tuning and   in-context learning are probably somewhat \ncomplementary. I’d expect us to want to build   systems that do some online learning and also \nhave some cognitive skills, like introspecting   on their own knowledge and seeking out \nnew knowledge that fills in the holes.",
+    "speaker": "John Schulman",
+    "claim": "Current AI systems lack the ability to introspect and learn from their own knowledge gaps, which is a necessary capability for future development.",
+    "stance": "Refute",
+    "claim_labels": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "llm_capabilities",
+        "stance": "Refute"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2179.2,
+    "end": 2262.2,
+    "text": "Is this all happening at the same time? \nIs it just a new training regime where   all these things can happen at once, whether \nit’s long-horizon or this kind of training?  Are they separate or not? Is the model smart \nenough to both introspect and act on longer   horizons so that you get adequate \nreward on the long-horizon tasks?\n   If you're doing some kind of long-horizon task, \nyou're learning while you do the task, right?    The only way to do something that involves a lot \nof steps is to have learning and memory that gets   updated during the task. There’s a continuum \nbetween short-term and long-term memory.  I expect the need for this capability would start \nto become clear when we start to look more at   long-horizon tasks. To some extent, putting a \nlot of stuff into context will take you pretty   far because we have really long context now. \nYou probably also want things like fine-tuning.",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2263.0,
+    "end": 2361.8,
+    "text": "As for introspection and the ability to do active \nlearning, that might automatically fall out of   the models’ abilities to know what they know. \nModels do have some calibration regarding what   they know. That's why models don't hallucinate \nthat badly. They have some understanding of   their own limitations. That same kind of ability \ncould be used for something like active learning. There are all these complicated RL procedures, \nmany of which you've pioneered. How many of them   will be relevant when you get to the point where \nthe model itself is smart enough to act as its   own environment and interact in a more online \nand stable way? Is the path for progress going   to be more straightforward than the kinds of \nsolutions that were required for RL in the past? I think policy grading algorithms are not \nthe most sample efficient algorithms. So   that's probably not what you want to do \nat test time if you want to learn really   fast. But who knows? Maybe it's not that bad. \nI think motor learning in animals is probably   something like a policy grading algorithm.  \nFor example, let’s say you're learning how   to shoot baskets. That probably takes \nthousands of tries to get more accurate.",
+    "speaker": "John Schulman",
+    "claim": "The path to progress in AI may be more straightforward than past reinforcement learning solutions.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI learning methods",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2363.8,
+    "end": 2497.0,
+    "text": "There's probably something like a policy grading \nalgorithm underneath. That’s not going to be   the fastest way to learn if you have a model \ntrying to do a project or some kind of task.  We would want to rely more on in-context learning \nwhere you effectively have a learned algorithm.   It’s learned how to explore. It’s learned \nhow to try all the possibilities exhaustively   instead of doing the same thing over and \nover again and making the same mistake.   We'll be able to do things that look more like \nlearned search algorithms. That'll be the kind   of thing that gets used in a particular task.\n \n \nInteresting. I want to step back and ask about   your own history, at least at OpenAI. You \nled the creation of ChatGPT. At what point   did you realize that these LLMs are the path to \ngo? When did you realize a chatbot or some way   to instruct them would be useful? Just walk me \nthrough the whole lineage from when this became   your main focus and what the process was like.\n \nBefore ChatGPT, OpenAI had these instruction   following models. The idea there was that we \nhad base models that people could prompt them   in elaborate ways. But they were also hard to \nprompt. They basically do autocomplete so you had   to set up a very good prompt with some examples.\nPeople at OpenAI were working on just taking the   base models and making them easier to prompt. So \nif you just wrote a question it would answer the   question, instead of giving you more questions or \nsomething. So we had these instruction following   models, which were like base models but a \nlittle easier to use. Those are the original   ones deployed in the API. Or after GPT-3, \nthose were the next generation of models.",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2497.7,
+    "end": 2569.5,
+    "text": "At the same time there were definitely a lot \nof people thinking about chat. Google had some   papers like LaMDA and earlier, Meena. They \nhad these chatbots. It was more like a base   model that was really specialized to the \ntask of chat. It was really good at chat.   Looking at the examples from the paper, it \nwas more used for fun applications where the   model would take on some persona and pretend \nto be that persona. It was not so functional   where it could help me refactor my code.\nSo there were definitely people thinking   about chat. I had worked before on a \nproject looking at chat called WebGPT,   which was more about doing question answering with \nthe help of web browsing and retrieval. When you   do question answering, it really wants to be in a \nchat. You always want to ask follow-up questions   or sometimes the model should ask a clarifying \nquestion because the question is ambiguous.",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2569.5,
+    "end": 2685.8,
+    "text": "It was clear after we did the first version, that \nthe next version should be conversational. So we   started working on the conversational chat \nassistant. This was built on top of GPT-3.5,   which was done training at the beginning of \n2022. That model was quite good at language   and code.  We quickly realized that it was \nactually quite good at coding help. That was   one of the things we were excited about.\nWe worked on that for most of the year.   We had browsing as another feature in \nit although we ended up deemphasizing   that later on because the model's internal \nknowledge was so good. The browsing wasn't   the most interesting thing about it. We had it \nout to friends and family for a while and we   were thinking about doing a public release.\nActually, GPT-4 finished training in August   that year. The flagship RL effort at OpenAI was \nthe instruction following effort because those   were the models that were being deployed into \nproduction. The first fine-tunes of GPT-4 used   that whole stack. Those models were really \ngood and everyone got really excited about   that after seeing the instruct fine tune GPT-4s.\nThey were really good. They would occasionally   give you amazing outputs, but the model \nwas clearly also pretty unreliable. It   would sometimes hallucinate it a lot. It \nwould sometimes give you pretty unhinged   outputs. So it was clearly not quite ready for \nprime time, but it was obviously very good.",
+    "speaker": "John Schulman",
+    "claim": "The development of GPT-4 showed significant advancements in language and coding capabilities, but it also had reliability issues.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "breakthroughs_needed",
+      "open_source"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2689.4,
+    "end": 2783.2,
+    "text": "People forgot about chat for a little while \nafter that, this alternative branch. We pushed   it further and we ended up mixing together all the \ndatasets, the instruct and the chat data, to try   to get something that was the best of both worlds. \nThe chat models were clearly easier to use.  It automatically had much more sensible behavior \nin terms of the model knowing its own limitations.   That was actually one of the things that I \ngot excited about as we were developing it.   I realized a lot of the things that people \nthought were flaws in language models, like   blatant hallucination, could be not completely \nfixed but things that you could make a lot of   progress on with pretty straightforward methods.\nThe other thing about chat was when we had these   instruct models. The task of “complete this text, \nbut in a nice or helpful way” is a pretty poorly   defined task. That task is both confusing for the \nmodel and for the human who's supposed to do the   data labeling. Whereas for chat, people had an \nintuitive sense of what a helpful robot should   be like. So it was just much easier for people to \nget an idea of what the model was supposed to do.",
+    "speaker": "John Schulman",
+    "claim": "Improvements in chat models can address some limitations of language models, such as hallucination, through straightforward methods.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "breakthroughs_needed"
+    ],
+    "claim_stances": [
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      },
+      {
+        "category": "breakthroughs_needed",
+        "stance": "Refute"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2785.6,
+    "end": 2878.6,
+    "text": "As a result, the model had a much more \ncoherent personality and it was much easier   to get pretty sensible behavior robustly.\n \nInteresting. Is it the case that anybody   could have made ChatGPT using your \npublicly available fine-tuning API?  \n   Not exactly. I don't remember which models \nwere available for fine-tuning. Assuming we   had 3.5 available for fine-tuning at the time, you \ncould have made something decently close. I don't   think you would have been able to do just one \niteration of fine-tuning with purely human-written   data. You'd want to do several iterations.\nIf not you're not going to do RL, which we did,   you’d want some kind of iterative supervised \nfine-tuning where humans edit the model-generated   outputs. If you train on human-generated \ndata, even if it’s really high quality,   it’s just hard for a model to fit that data \nperfectly because it might be something a model   is capable of outputting. You need to do something \niterative that looks a bit more like RL. If you’d   done that, you could have gotten pretty \nclose but it would have been non-trivial.",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2880.7,
+    "end": 2960.3,
+    "text": "We also had another instruction-following \nmodel trained with RL, released a little   before ChatGPT. If you put a chat wrapper \non that you would’ve gotten decently close   but that model had some differences in \nstrengths. That model was good at writing   and poetry but it wasn’t as good at knowing \nits limitations, factuality, and so forth.\n   Stepping back from 3.5, I think I heard \nyou say somewhere that you were super   impressed with GPT-2. Compared to your \nexpectations in 2019, has AI progressed   faster or slower than you would have expected?\n \nFaster than I expected since GPT-2. I was pretty   bought into scaling and pre-training being a good \nidea. But when GPT-2 was done, I wasn't completely   sold on it being revolutionizing everything. It \nwas really after GPT-3 that I pivoted what I was   working on and what my team was working on. After \nthat, we got together and said, \"oh yeah, let's",
+    "speaker": "John Schulman",
+    "claim": "AI has progressed faster than expected since GPT-2, particularly after the release of GPT-3.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2965.2,
+    "end": 3031.8,
+    "text": "see what we can do here with this language model \nstuff.\" But after GPT-2, I wasn't quite sure yet.\n   Let’s say the stuff we were talking about \nearlier with RL starts working better with   these smarter models. Does the fraction \nof compute that is spent on pre-training   versus post-training change significantly \nin favor of post-training in the future?\n   There are some arguments for that. \nRight now it's a pretty lopsided ratio.   You could argue that the output generated \nby the model is higher quality than most of   what's on the web. So it makes more sense for \nthe model to think by itself rather than just   training to imitate what's on the web. So I think \nthere's a first principles argument for that.  We found a lot of gains through post-training. \nSo I would expect us to keep pushing this   methodology and probably increasing \nthe amount of compute we put into it.",
+    "speaker": "John Schulman",
+    "claim": "The fraction of compute spent on post-training will likely increase in the future due to the effectiveness of smarter models.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3031.8,
+    "end": 3136.9,
+    "text": "The current GPT-4 has an Elo score that is like \na hundred points higher than the original one   that was released. Is that all because of what \nyou're talking about, with these improvements   that are brought on by post-training?  \n \nYeah, most of that is post-training.   There are a lot of different, \nseparate axes for improvement.    We think about data quality, data quantity. \nThere’s just doing more iterations of the   whole process of deploying and collecting \nnew data. There’s also changing what kind   of annotations you're collecting. There's a lot \nof things that stack up but together they give   you a pretty good effective compute increase.\n \nThat's a huge increase. It's really interesting   that there's this much room for \nimprovement from post-training.  What makes for somebody who's really good at \ndoing this sort of RL research? I hear it's super   finicky. What is the sort of intuition that you \nhave that enables you to find these ways to mess   with the data and set up these environments?\n \nI have a decent amount of experience at this   point from the different parts of the stack, \nfrom RL algorithms, which I've worked on since   grad school, to data collection, annotation \nprocesses, and playing with language models.",
+    "speaker": "John Schulman",
+    "claim": "Improvements in AI performance are largely due to post-training processes and data quality.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3137.9,
+    "end": 3230.0,
+    "text": "I'd say I've dabbled with these things and the \npeople who do well at this kind of research have   some view of the whole stack and have a lot \nof curiosity about the different parts of it.   You want to be both empirical and let experiments \nupdate your views, but you also want to think from   first principles. Assuming that learning works, \nwhat would be the ideal type of data to collect?   That type of thing.\n \nBecause there doesn't   seem to be a model since GPT-4 that seems to be \nsignificantly better, there's a hypothesis that   we might be hitting some sort of plateau. These \nmodels aren't actually generalizing that well,   and you're going to hit a data wall beyond \nwhich the abilities unlocked by memorizing a   vast corpus of pre-training data won't help \nyou get something much smarter than GPT-4.  Do you think that hypothesis is wrong? We've \ntalked about some examples of generalization,   like Spanish to English. One example I think of is \nthe transfer from code to reasoning in language.",
+    "speaker": "John Schulman",
+    "claim": "There is a hypothesis that we might be hitting a plateau in AI model performance, particularly after GPT-4.",
+    "stance": "Refute",
+    "claim_labels": [
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI model performance",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3230.0,
+    "end": 3306.5,
+    "text": "If you train on a bunch of code, it gets better at \nreasoning in language? Is that actually the case?  Do you see positive transfer between different \nmodalities? If you train on a bunch of videos   and images, it'll get smarter from synthetic data? \nOr does it seem like the abilities unlocked are   extremely local to the exact kind of labels \nand data you put into the training corpus?\n   I'll try to respond to all that. \nFirst, are we about to hit the   data wall? I wouldn't draw too much from the \ntime since GPT-4 was released because it does   take a while to train these models and do all \nthe prep to train a new generation of models.  I wouldn't draw too much from that fact. There \nare definitely some challenges from the limited   amount of data, but I wouldn't expect us \nto immediately hit the data wall. However,   I would expect the nature of pre-training to \nsomewhat change over time as we get closer to it.",
+    "speaker": "John Schulman",
+    "claim": "The nature of pre-training for AI models will change over time as we approach limitations in data availability.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3307.0,
+    "end": 3376.6,
+    "text": "In terms of generalization from different types \nof pre-training data, I would say it's pretty hard   to do science on this type of question because \nyou can't create that many pre-trained models.   Maybe you can't train a GPT-4 sized model and \ndo ablation studies at that scale. Maybe you   can train a ton of GPT-2 size models or even \na GPT-3 size model with different data blends   and see what you get. I'm not aware of any \npublic results on ablations involving code   data and reasoning performance and so forth. I'd \nbe very interested to know about those results.\n   I'm curious about something. One of the things \nis that the model gets smarter as it gets   bigger. Would an ablation on a GPT-2 level model, \nwhich suggests that there isn't much transfer,   provide evidence for the level of transfer on a \nsimilar set of domains in a GPT-4 level model?",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3376.6,
+    "end": 3458.3,
+    "text": "Right, you might not be able to conclude that \nif transfer fails at GPT-2 size, then it's   also going to fail at a higher scale. It might \nbe that for the larger models, you learn better   shared representations, whereas the smaller models \nhave to lean too much on memorization. The larger   models can learn how to do the right computation. \nI would expect this to be true to some extent.\n   This might have a very simple answer. You \ntrain bigger models on the same amount of data   and they become smarter. Or to get the same \nlevel of intelligence, you only have to train   them on less data. Why is that the case? \nIt's got more parameters, seen fewer things,   and now it's equally as smart. Why is that?\n \nI don't think anyone has a good explanation   for the scaling law with parameter count. \nI don't even know what the best mental   model is for this. Clearly, you have more \ncapacity if you have a bigger model. So you   should eventually be able to get lower loss.\nWhy are bigger models more sample efficient?",
+    "speaker": "John Schulman",
+    "claim": "Larger AI models can learn better representations and become smarter with less data compared to smaller models.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "Model scaling",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3460.1,
+    "end": 3562.3,
+    "text": "I can give you a sketchy explanation. You could \nsay that the model is an ensemble of different   circuits that do the computation. You could \nimagine that it's doing computations in parallel   and the output is a weighted combination of them. \nIf you have more width… actually width is somewhat   similar to depth because with residual networks, \ndepth can do something similar to width in   terms of updating what's in the residual stream.\nYou're learning all these different computations   in parallel and you have more of them with a \nbigger model. So you have a higher chance that   one of them is lucky, ends up guessing \ncorrectly a lot, and gets upweighted.  There are some algorithms that work this way, \nlike mixture models or multiplicative weight   update algorithms, where you have—I don’t \nwant to say mixture of experts because it   means something different—basically a weighted \ncombination of experts with some learned gating.",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3566.8,
+    "end": 3637.8,
+    "text": "I actually said something slightly wrong, \nbut you could imagine something like that.   Just having a bigger model gives you \nmore chances to get the right function.  Of course, it's not just totally disjoint \nfunctions you're taking a linear combination   of. It's more like a library where you might \nchain the functions together in some way.   There's some composability. So I would say a \nbigger model has a bigger library of different   computations, including lots of stuff that's \ndormant and only being used some of the time,   but it has more space to look for \ncircuits to do something useful.\n   Stepping back from the current research questions, \nI want to understand your modal scenario of what   happens for the next few years. Towards the \nbeginning of the conversation, we were talking   about the case in which it progresses really \nfast, but let's just take the modal scenario.",
+    "speaker": "John Schulman",
+    "claim": "A bigger model has more potential for useful computations and functions.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "Model capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3637.8,
+    "end": 3709.7,
+    "text": "You're unlocking long-horizon RL \nat some point, but as you said,   there are potentially other bottlenecks. What's \nhappening? How good are these models? How are   they being deployed? What other modalities are \npart of them and at what stage are these being   unlocked? I want to understand your broader \npicture of what the next few years look like.\n   I would expect new modalities to be added \nover time or pretty soon. I would expect the   capabilities to generally keep getting better \nthrough a combination of pre-training and   post-training, and that'll open up new use cases.\nRight now, AI is still not a huge part of the   economy. There's a pretty small fraction of \njobs that it can help with at all. I'd expect   that to be higher over time, not just from the \nmodels improving but also from people figuring   out how to integrate them into different \nprocesses. So even if we just froze the   models at their current state, you would still \nsee a lot of growth in how they're being used.",
+    "speaker": "John Schulman",
+    "claim": "AI capabilities will improve over time, leading to increased integration into various processes and a larger economic impact.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "agi_timeline"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_economics",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 3714.1,
+    "end": 3788.2,
+    "text": "I would expect AI to be used much more widely \nand for more technically sophisticated tasks.   I gave the programming example earlier, doing \nlonger projects, but also helping with various   kinds of research. I hope that we can use \nAI to accelerate science in various ways,   because you can potentially have the models \nunderstand all the literature in a given field   and be able to sift through tons of data. It’s \nmore than a person would have patience to do.  I hope the form factor would be such that people \nare still driving all of this and you have your   helpful assistants that you can direct and \npoint to lots of different problems that are   useful to you. Everyone would have all these \nAIs helping them do more and get more done.",
+    "speaker": "John Schulman",
+    "claim": "AI will be used more widely and for more sophisticated tasks, potentially accelerating science and assisting people in various ways.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute",
+      "ai_economics",
+      "open_source",
+      "agi_timeline",
+      "execution_engineering"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_economics",
+        "stance": "Support"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 3853.1,
+    "end": 3960.0,
+    "text": "Obviously at some point they're going to be \nbetter than everyone at whatever they want to   do. What would that process look like? Right now, \nthey're clearly only helping you. At some point,   they’ll be able to just do things for you and \nmaybe run entire firms for you. Is it going to   be a smooth process? At that point, is the \nhope that we have systems that are aligned   with the user enough that they can count on \nthe firm being run in the way they expect.\n   We might not want to jump to having AIs run whole \nfirms immediately. We might want to have people   overseeing these important decisions and calling \nthe shots, even if the models are good enough to   actually run a successful business themselves. \nTo some extent, there might be choices there.  I think people will still have different interests \nand ideas for what kind of interesting pursuits   they want to direct their AIs at. AI doesn't \nnecessarily have any kind of intrinsic desire,   unless we put it in the system. So \neven if AIs become extremely capable,   I would hope that people are still the \ndrivers of what the AIs end up doing.",
+    "speaker": "John Schulman",
+    "claim": "AI will eventually surpass human capabilities, but we should be cautious about letting them run entire firms without oversight.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_economics",
+        "stance": "Support"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 3960.6,
+    "end": 4069.7,
+    "text": "I wonder if the economic equilibrium is so \nfar from that, where you have the equivalent   of Amdahl's law in a firm. The slowest part of the \nprocess is the one that's going to bottleneck you.  Even if AI makes all the non-human \nparts of the firm 10X more efficient,   the firm is still bottlenecked by that step. \nIf one company decides to proceed by keeping   humans in the loop on all the things that you \nreally want human oversight on, then they'll   just be outcompeted by other companies. If \none country decides to go this route, other   countries will beat it. I wonder if this is a \nsustainable plan for keeping humans in the loop.\n   If we wanted to keep humans in the loop, \nwhich seems reasonable, and it turned   out that firms with any humans in the loop were \noutcompeted by firms that didn't have any humans,   then you would obviously need some kind \nof regulation that disallowed having no   humans in the loop for running a whole company.\n \nBut there are so many companies in any country,   let alone the world. I wonder if it's \nbetter to do the regulation on companies   and say you've got to keep humans in the \nloop in important processes, but then you   have to define what important processes are.\nYou've got to monitor every single company   and you also have to get collaboration \nfrom every single country which has   firms. If this is a problem, should it be \nsolved before the model is even deployed,   such that hopefully if you did decide to \nbuild a firm and depend on these models,   it basically does what you want it to do \nand you don't need a human in the loop?",
+    "speaker": "Unknown",
+    "claim": "Keeping humans in the loop in AI processes may lead to firms being outcompeted, suggesting a need for regulation.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_economics",
+      "ai_race_power",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_race_power",
+      "open_source"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_economics",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_race_power",
+        "stance": "Support"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4069.7,
+    "end": 4138.6,
+    "text": "Does that question make sense? I'm \njust wondering, in this situation,   how do we actually monitor every single \nfirm to ensure a human is in the loop? And   what happens if China doesn't decide to do that?\n \nYou would either have to have every country agree   to this regulatory regime, or you would need \nall of the model infrastructure or the model   providers to agree to this kind of requirement.\nIt's definitely going to be non-trivial. This   is looking a ways ahead, so it's a little hard to \nimagine this world before seeing anything like it.  For example, are we actually confident that AI-run \ncompanies are better in every way. Do we think   they're better most of the time, but occasionally \nthey malfunction because AIs are still less   sample efficient in certain ways? Consider when \nthey have to deal with very wacky situations.",
+    "speaker": "Unknown",
+    "claim": "Monitoring AI firms to ensure human oversight is complex and requires international agreement.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_economics",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI regulation",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_economics",
+      "open_source"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_economics",
+        "stance": "Neutral"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4141.7,
+    "end": 4227.2,
+    "text": "AI-run firms might actually have higher tail risk \nbecause they're more likely to malfunction in a   big way. There might be some practical questions \nlike that that would determine how things play   out. Maybe if you just require people to \nbe accountable for various liabilities,   this would also change the incentives a bit.\nLet’s say it turned out that AIs are better   at running everything and they're also \ncompletely benevolent. Let’s say we've   totally solved alignment, and they're better \nat being accountable to people than people   are. Then maybe it's okay having the AIs \nrun the firms. But that's pretty far out.  We're more likely to be in a situation where they \nlook better in the short term, but they still have   some serious problems. It's actually practical \nconsiderations that push you more towards having   humans in the loop, at least for the near future.\n \nSo this is a problem we have to deal with today   with RLHF. You have to aggregate preferences \nacross a lot of different humans. It'll be maybe   more marked with future, more powerful systems. \nBut when you say we want these eventual AI systems   that are going to fully replace humans as part of \nthese firms to be aligned, what does that mean?",
+    "speaker": "John Schulman",
+    "claim": "AI-run firms may have higher risks due to potential malfunctions, and while AIs could be better at accountability in the future, current practical considerations suggest humans should remain involved.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_economics",
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "ai_economics",
+      "ai_safety_risk",
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_economics",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Refute"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 4227.2,
+    "end": 4367.8,
+    "text": "Will it mean that they basically do what the \nuser wants them to do? Does it mean that they   have to result in some sort of global outcome \nthat we're happy with as the stakeholders in   OpenAI? Concretely, what would that mean?\n \nIf the models are being used for these higher   stakes use cases, then we would have to \nthink about RLHF in a much different way   than we are right now.We're not quite ready \nfor that or the current methods might not be   completely sufficient. We would need to make \ncompromises between the needs of the different   stakeholders involved. We have this document \nthat we're releasing called the Model Spec.   It's about how we want our models \nto behave in the API and in ChatGPT.  We try to talk about this issue where there are \ndifferent stakeholders involved and sometimes   there are conflicts between what they might \nwant. In our case, we were thinking of the   stakeholders as the end user (someone sitting in \nfront of ChatGPT or some other app), the developer   (someone using the API who might be serving other \nend users with their app), the platform (OpenAI,   we don't want the models to expose us to legal \nrisk), and the rest of humanity (including   people not part of the users or customers).\nObviously, the user might ask the model to   do something that we think is actively harmful to \nother people. We might have to refuse that. By the   way, this isn't the order of priority necessarily. \nThese are just the four or so classes of   stakeholder. Actually, you could maybe also say in \nthe future, the model itself. We're not there yet.",
+    "speaker": "John Schulman",
+    "claim": "Current AI models are not ready for high-stakes use cases and may require compromises between different stakeholder needs.",
+    "stance": "Refute",
+    "claim_labels": [
+      "open_source",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "llm_capabilities"
+    ],
+    "claim_stances": [
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4368.7,
+    "end": 4462.9,
+    "text": "Anyway, we have these different stakeholders. \nSometimes they have conflicting demands. We   have to make some call on how to resolve those \nconflicts.It's not always obvious how to do   that. We had to think through the trade-offs and \nbasically the rough heuristic is that we mostly   want the models to follow your instructions \nand be helpful to the user and the developer.  But when this impinges on other people's happiness \nor way of life, this becomes a problem and we have   to block certain kinds of usage. We mostly want \nthe models to just be an extension of people's   will and do what they say. We don't want to be \ntoo paternalistic. We want to be neutral and   not impose our opinions on people. We mostly want \nto let people do what they want with the models.\n   I got a chance to read the Spec beforehand. \nThis is a question of how well that transfers   over to how the model itself behaves. I was \nimpressed with how sensible the trade-offs   were. I believe the actual edge cases were \nexplicitly stated rather than the kinds   of things where are obvious. In this case, \nyou really are going after the edge cases.",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI usage and ethics",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4462.9,
+    "end": 4536.9,
+    "text": "We wanted it to be very actionable so \nthat it wasn't just a bunch of nice   sounding principles. Each example tells \nyou something about some non-obvious   situation and reasons through that situation.\n \nI have a couple of questions about the state   of the research itself. Famously in the social \nsciences, things are really hard to replicate.   There’s a question about how much of the \nscience there is real versus these manufactured,   bespoke sorts of experiments. When you \nlook at the average ML paper, does it   feel like a really solid piece of literature \nor does it often feel like the equivalent of   what p-hacking is in the social sciences?\n \nEveryone has their complaints about the ML   literature. Overall, I think it's a relatively \nhealthy field especially compared to some others   like in the social sciences. It's largely grounded \nin practicality and getting things to work. If you   publish something that can't be replicated \neasily, people will just forget about it.",
+    "speaker": "Unknown",
+    "claim": "The speaker believes that the machine learning literature is relatively healthy and grounded in practicality compared to social sciences.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "ML literature",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4538.1,
+    "end": 4641.1,
+    "text": "It's accepted that often you don't just report \nsomeone's number from their paper. You also try   to reimplement their method and compare it \nto your method on the same training dataset.   If you publish methods that are really \nhard to implement or are really finicky,   they'll tend to get forgotten.\nAs a result, people actually try   to open source their work a lot. There are \nalso various unfavorable incentives. People   are incentivized to make the baseline methods \nthey're comparing to worse. There are other   mild pathologies, like trying to make your \nmethods seem sophisticated mathematically.  But overall, I feel like the field makes progress. \nI would like to see a little bit more science and   trying to understand things rather than just hill \nclimbing on benchmarks and trying to propose new   methods. There's been a decent amount of that \nrecently. We could use more of that. I think   that's a good thing for academics to work on.\nOn a slightly different note, I'd be really   excited to see more research on using base models \nto do simulated social science. These models have   a probabilistic model of the whole world and \nyou can set up a simulated questionnaire or",
+    "speaker": "John Schulman",
+    "claim": "The field of AI research is making progress, but there should be more focus on understanding rather than just improving benchmarks.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI research progress",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4642.9,
+    "end": 4717.7,
+    "text": "conversation and look at how anything is \ncorrelated. Any traits that you might imagine,   you can see how they might be \ncorrelated with other traits.  It'd be pretty cool to see if people \ncould replicate some of the more notable   results in social science, like moral \nfoundations and that sort of thing,   by just prompting base models in different \nways and seeing what's correlated.\n   What is that Stanford experiment? \nThe Asch conformity test? It'd be   fun if that replicated with the language \nmodels as well. It's very interesting.  I want to ask about the rest of the research \nthat happens at big labs. How much of it is   increasing or decreasing the amount of \ncompute you need to get a certain result   as an actual compute multiplier versus how \nmuch of it is just making the learning more   stable and building out the infrastructure?\nThe broader question I'm trying to ask is,   since GPT-4, does it feel like with the same \namount of compute, you can train a much better   model? Or does it feel like you’ve made sure \nthat learning can happen better and in a more   scalable way with GPT-5, but it's not like we \ncan train GPT-4 with GPT-3.5's budget now?",
+    "speaker": "John Schulman",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4721.0,
+    "end": 4799.4,
+    "text": "There's definitely always progress in improving \nefficiency. Whenever you have a 1D performance   metric, you're going to find that different \nimprovements can substitute for each other.   You might find that post-training and pre-training \nboth improve the metrics. They'll have a slightly   different profile of which metrics they improve.\nBut at the end of the day, if you have a single   number, they're both going to substitute \nfor each other somewhat. For something   like a human evaluation, what do humans \nprefer, we've definitely made a lot of   progress on both sides, pre-training \nand post-training, in improving that.\n   A couple of rapid-fire questions about \nRLHF. Obviously, RLHF is important to   make these models useful. So maybe the \n\"lobotomized\" description is inaccurate.  However, there is a sense in which all of these \nmodels, once they're put in a chatbot form,   have a very similar way of speaking. They really \nwant to “delve” into things. They want to turn   things into bullet points. They often seem \nto have this formal and dull way of speaking.",
+    "speaker": "John Schulman",
+    "claim": "Improvements in AI efficiency can come from various methods, and there has been significant progress in both pre-training and post-training techniques.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI efficiency",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4800.2,
+    "end": 4958.1,
+    "text": "There are complaints that they're not as \ncreative. Like we were talking about before,   they could only do rhyming poetry and not \nnon-rhyming poetry until recently. Is that a   result of the particular way in which RLHF happens \nnow? If so, is it because of who the raters are?   Is it because of what the loss function \nis? Why is this the way all chatbots look?\n   I would say there's a decent amount of room for \nvariation in exactly how you do the training   process. We're actively trying to improve \nthis and make the writing more lively and   fun. We've made some progress like improving \nthe personality of ChatGPT. It is more fun   and it's better when you're trying to chit \nchat with it and so forth. It's less robotic.  It's an interesting question how some of the \nticks came about, like the word \"delve.\" I've   actually caught myself using that word recently. I \ndon't know if it rubbed off on me from the model.  Actually, there might also be some funny effects \ngoing on where there's unintentional distillation   happening between the language model and \nproviders. If you hire someone to go do a labeling   task, they might just be feeding it into a model. \nThey might be pulling up their favorite chatbot,   feeding it in, having the model do the task, \nand then copying and pasting it back. So that   might account for some of the convergence.\nSome of the things we're seeing are just what   people like. People do like bullet points. They \nlike structured responses. People do often like   the big info dumps that they get from the models.\nSo it's not completely clear how much is just a   quirk of the particular choices and design of the \npost-training processes, and how much is actually   intrinsic to what people actually want.\n \nIt does seem persistently more verbose than   some people want. Maybe it’s just because \nduring the labeling stage, the raters will   prefer the more verbose answer. I wonder if it's \ninherent because of how it's pre-trained and the   stop sequence doesn't come up that often \nand it really wants to just keep going.",
+    "speaker": "John Schulman",
+    "claim": "Current AI models have limitations in creativity and variation due to their training processes and user preferences.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "open_source"
+    ],
+    "claim_stances": [
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4959.0,
+    "end": 5030.6,
+    "text": "There might be some biases in the labeling \nthat lead to verbosity. There’s the fact   that we tend to train for one message at a \ntime rather than the full interaction. If you   only see one message, then something \nthat just has a clarifying question,   or maybe a short response with an invitation \nto follow up, is going to look less complete   than something that covers all possibilities.\nThere's also a question of whether people's   preferences would change depending on how fast \nthe model is streaming its output. Clearly,   if you're sitting there waiting for the tokens \nto come out, you're going to prefer that it gets   to the point. But if it just gives you a dump \nof text instantly, maybe you don't actually   care if there's a bunch of boilerplate or \nif there's a bunch of stuff you're going   to skim. You'd rather just have it all there.\n \nThe reward model is such an interesting artifact   because it's the closest thing we have to \nan aggregation of what people want and what   preferences they have. I’m thinking \nabout models that are much smarter.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 5035.7,
+    "end": 5188.3,
+    "text": "One hope is that you could just give it a list of \nthings we want that are not trivial and obvious,   something like the UN Declaration of Human Rights.\nOn the other hand, I think I heard you make the   point that a lot of our preferences and values \nare very subtle, so they might be best represented   through pairwise preferences. When you think \nof a GPT-6 or GPT-7 level model, are we giving   it more written instructions or are we still \ndoing these sorts of subliminal preferences?\n   That's a good question. These preference \nmodels do learn a lot of subtleties about   what people prefer that would be hard \nto articulate in an instruction manual.   Obviously, you can write an instruction manual \nthat has lots of examples of comparisons. That's   what the Model Spec has. It has a lot of examples \nwith some explanations. It's not clear what the   optimal format is for describing preferences.\nI would guess that whatever you can get out of   a big dataset that captures fuzzy preferences, \nyou can distill it down to a shorter document   that mostly captures the ideas. The bigger models \ndo learn a lot of these concepts automatically of   what people might find useful and helpful. \nThey'll have some complex moral theories   that they can latch onto. Of course, there's \nstill a lot of room to latch onto a different   style or a different morality.\nSo if we were to write a doc,   if we're going to align these models, what \nwe're doing is latching onto a specific style,   a specific morality. You still need a decently \nlong document to capture exactly what you want.",
+    "speaker": "John Schulman",
+    "claim": "Aligning AI models requires capturing complex human preferences and moral theories, which may not be easily articulated in simple instructions.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI alignment",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 5189.0,
+    "end": 5259.7,
+    "text": "How much of a moat is better post-training? \nCompanies distinguish themselves currently by   how big their model is and so forth. Will it \nbe a big moat for who has figured out all the   finickiness that you were talking about \nearlier with regards to all this data? \n   There's something of a moat because \nit's just a very complex operation and   it takes a lot of skilled people to do \nit. There's a lot of tacit knowledge and   organizational knowledge that's required.\nWith post-training, to create a model that   actually has all the functionality people \ncare about, it’s pretty complicated. It   requires a pretty complicated effort and \naccumulation of a lot of R&D. That makes   it somewhat of a moat. It's not trivial \nto spin this up immediately. It does seem",
+    "speaker": "Unknown",
+    "claim": "Creating a functional AI model post-training requires significant effort and expertise, creating a competitive advantage.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "ai_optimism_benefit"
+    ],
+    "claim_stances": [
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 5261.5,
+    "end": 5358.0,
+    "text": "like the same companies that are putting \ntogether the most serious pre-training   efforts are also putting together the \nmost serious post-training efforts.  It is somewhat possible to copy or to spin \nup more of these efforts. There's also one   force that sort of makes it less of a moat. You \ncan distill the models, or you can take someone   else's model and clone the outputs. You can use \nsomeone else's model as a judge to do comparisons.  The more big league people probably aren't \ndoing that because it goes against terms of   service policies. It would also be a hit to \ntheir pride. But I would expect some of the   smaller players are doing that to get off the \nground. That catches you up to a large extent.\n   I guess it helps clear the moat. What is the \nmedian rater like? Where are they based? What are   their politics? What is their knowledge level?\n \nIt varies a lot. We've definitely hired raters   with different skills for different kinds \nof tasks or projects. A decent mental model   is to just look at people who are on Upwork \nand other platforms like that. Look at who's   doing odd jobs with remote work.\nIt's a pretty international group.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 5358.0,
+    "end": 5466.9,
+    "text": "There's a decent number of people in the \nU.S. We hire different groups of people   for different types of labeling, like whether \nwe're more focused on writing or STEM tasks.   People doing STEM tasks are more likely to be \nin India or other middle or lower-middle income   countries. People doing more English writing \nand composition tend more to be U.S.-based.  There've been times when we needed to hire \ndifferent experts for some of our campaigns.   Some of the people are very talented, and we \neven find that they're at least as good as us,   the researchers, at doing these tasks and they're \nmuch more careful than us. I would say the people   we have now are quite skilled and conscientious.\n \nWith regards to the plateau narrative,   one of the things I've heard is that a lot of \nthe abilities these models have to help you   with specific things are related to having very \nclosely matched labels within the supervised   fine-tuning dataset. Is that true?\nCan it teach me how to use FFmpeg   correctly? Is it like there's somebody who’s \nseeing the inputs, seeing what flags you need   to add, and some human is figuring that out and \nmatching to that. Do you need to hire all these   label raters who have domain expertise in all \nthese different domains? If that's the case,   it seems like it’d be a much bigger slog to get \nthese models to be smarter and smarter over time.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 5466.9,
+    "end": 5540.1,
+    "text": "You don't exactly need that. You can get \nquite a bit out of generalization. The   base model has already been trained on tons of \ndocumentation, code, with shell scripts and so   forth. It's already seen all the FFmpeg man \npages, lots of Bash scripts and everything.  Even just giving the base model a good \nfew-shot prompt, you can get it to   answer queries like this. Just training \na preference model for helpfulness will,   even if you don't train it on any STEM, somewhat \ngeneralize to STEM. So not only do you not need   examples of how to use FFmpeg, you might not \neven need anything with programming to get some   reasonable behavior in the programming domain.\n \nMaybe a final question. We've touched on this   in different ways but let’s put it together. You \nsaid you're training on much more multimodal data.",
+    "speaker": "John Schulman",
+    "claim": "You can achieve reasonable programming behavior from a base model without needing specific programming examples.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "llm_capabilities",
+      "execution_engineering"
+    ],
+    "claim_stances": [
+      {
+        "category": "llm_capabilities",
+        "stance": "Support"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 5540.1,
+    "end": 5627.4,
+    "text": "Presumably, these things understand what screens \nlook like and will be able to interact with them   in a much more coherent way. Also you're going \nto do this long-horizon RL, so they'll be able   to act as agents in the systems and be part of \nyour workflow in a much more integrated way.  What do you expect that to look like? What will be \nthe next steps from there? Suppose by the end of   the year or next year, you have something that's \nan assistant who can work with you on your screen.   Does that seem like a sensible thing to \nexpect? Where does it go from there?\n   I definitely expect things to move in that \ndirection. It's unclear what's going to be   the best form factor. It could be something that's \nlike a Clippy on your computer helping you or if   it's more like a helpful colleague in the cloud. \nWe'll see which kinds of form factors work the   best. I expect people to try all of them out.\nI expect the mental model of a helpful assistant   or helpful colleague to become more real. It’ll \nbe something where you can share more of your   everyday work. Instead of just giving it \none-off queries, you would have a whole   project that you're doing and it knows about \neverything you've done on that project so far.",
+    "speaker": "John Schulman",
+    "claim": "AI assistants will become more integrated into workflows and capable of long-horizon reinforcement learning.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 5629.4,
+    "end": 5708.6,
+    "text": "It can even proactively make suggestions. Maybe \nyou can tell it to remember to ask me about this   and if I've made any progress on it. Proactivity \nis one thing that's been missing. I'd love to see   us moving away from one-off queries, using the \nmodel like a search engine, and more towards   having a whole project that I'm doing in \ncollaboration with the model. Something where it   knows everything I've done. It's proactively \nsuggesting things for me to try or it's going   and doing work in the background.\n \nThat's really interesting. This is   the final question. What is your median \ntimeline for when it replaces your job?\n   Oh, it replaces my job? Maybe five years.\n \nPretty soon. Interesting. John, this was   super interesting. Thanks so much for \nmaking the time. This seems like one of   the parts of the AI process that is super \nimportant and people don't understand that   much about. It was super interesting to \ndelve into it and get your thoughts on it.",
+    "speaker": "Dwarkesh Patel",
+    "claim": "AGI could replace jobs in about five years, indicating a near-term arrival.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AGI timeline",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_economics"
+    ],
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_economics",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 5709.2,
+    "end": 5713.7,
+    "text": "Thanks for having me on the podcast. It \nwas fun to talk about all this stuff.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  }
+]

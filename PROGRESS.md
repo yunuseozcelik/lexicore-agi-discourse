@@ -847,6 +847,59 @@ Raporlar `data/graph/` altında yan yana duruyor:
 
 ---
 
+## 18. Dürüstlük düzeltmeleri — sahte-Neutral, few-shot/koşullu stance, BERT eval
+
+Rehberin (6-aşama) işaret ettiği ve elle tespit edilen dört eksik giderildi.
+
+### 18.1 Sahte-Neutral stance değerlendirmeden çıkarıldı
+`is_claim=False` olan 661 segmentin tamamı etiketleyici tarafından zorla
+`Neutral` yapılmıştı; bunları stance değerlendirmesine katmak Neutral sınıfını
+şişirip stance yerine etiket artefaktını ölçüyordu. `honest_eval.py` stance
+artık claim-taşıyan segmentlerle sınırlı (hem silver hem gold).
+
+| Stance Macro-F1 | segment 5-fold | video GroupKFold | gold |
+|---|---|---|---|
+| eski (tüm segment) | 0.573 | 0.515 | 0.419 |
+| claim-only (dürüst) | 0.522 | 0.472 | 0.369 |
+| n | 2782→2121 | | 406→341 |
+
+Düşüş beklenen: kolay sahte-Neutral'lar çıkınca görev zorlaştı, eski sayı şişmeydi.
+
+### 18.2 Few-shot + kategori-koşullu stance (`label_stance_v2.py`)
+İki zayıflık giderildi: (a) zero-shot → few-shot örnekler; (b) tek global çıpa →
+her kategori kendi önermesini taşıyor (`CLAIM_PROPOSITIONS`), stance o kategoriye
+karşı ölçülüyor (`claim_stances`). Mevcut `claim_labels` korunur, sadece stance
+yeniden üretilir. Model: `gpt-5.6-luna` (OpenAI), eşzamanlı çağrı.
+
+Gold (341 claim segment, aynı insan gold'a karşı, adil kıyas):
+
+| stance kaynağı | acc | Macro-F1 | Cohen κ |
+|---|---|---|---|
+| eski silver (gpt-4o-mini, zero-shot, tek çıpa) | 0.431 | 0.429 | 0.229 |
+| **yeni (gpt-5.6-luna, few-shot + koşullu)** | **0.619** | **0.534** | **0.292** |
+
+Accuracy +0.188, Macro-F1 +0.105, κ +0.063. Ölçüm: `eval_stance_agreement.py`.
+
+### 18.3 Kategori-koşullu graf (`build_graph_full.py --conditional-stance`)
+Tam corpus (2121 claim segment) yeniden etiketlendi; graf her person→kategori
+kenarını o kategorinin `claim_stances`'inden kurar. v2 claims-only, 173 kenar:
+global stance %81 non-Neutral (Refute 73/Support 68) iken koşullu %28
+(Neutral 123/Support 46/Refute 4). Daha ilkeli (rehber 2.6 belirsizliğini
+giderir) ama daha Neutral-ağırlıklı; kesin üstünlük LLM-hakemle ölçülmeli (açık).
+
+### 18.4 BERT dürüst değerlendirmesi (`honest_eval_bert.py`)
+Rehber 3.7'nin işaret ettiği boşluk: TF-IDF'in üç protokolü BERT için de
+çalıştırıldı (claim-taşıyan, distilbert 3-fold 3-epoch).
+
+| Stance Macro-F1 | segment k-fold | video GroupKFold | gold |
+|---|---|---|---|
+| TF-IDF | 0.522 | 0.472 | 0.369 |
+| **BERT (distilbert)** | **0.547** | **0.534** | **0.383** |
+
+BERT üç protokolde de geçiyor; sızıntı-kontrollü video-holdout'ta +0.062.
+
+---
+
 ## 13. Sonraki adımlar (planlanan)
 
 - **Support sınıfını güçlendir:** stance'in en zayıf sınıfı (BERT-base F1 0.511).
@@ -894,5 +947,9 @@ Raporlar `data/graph/` altında yan yana duruyor:
 | `src/build_graph_full.py` | Person–claim–stance grafı (+ `--taxonomy v2`, `--claims-only`, heatmap) |
 | `src/eval_retrieval.py` | Stance-aware retrieval eval (BM25/dense/hybrid, MRR/nDCG@10) |
 | `src/graph_judge.py` | LLM-as-a-judge graf doğrulama (+ `--taxonomy`, `--claims-only`, `--tag`) |
+| `src/honest_eval.py` | Sızıntı-kontrollü değerlendirme (segment 5-fold / video GroupKFold / gold), stance claim-only |
+| `src/honest_eval_bert.py` | BERT stance dürüst eval (aynı üç protokol, `--folds`, artımlı kayıt) |
+| `src/label_stance_v2.py` | Few-shot + kategori-koşullu stance (OpenAI/Gemini, eşzamanlı, `claim_stances`) |
+| `src/eval_stance_agreement.py` | Otomatik stance kaynaklarının insan gold ile uyumu (acc/F1/κ) |
 | `run_labeling.sh` | Etiketleme + graf yeniden kurma yardımcı script'i |
 | `add_video.sh` | Tek video ekleme (çek → segmentle → etiketle; ASR tespiti, idempotent) |

@@ -35,6 +35,7 @@ from claim_taxonomy import CLAIM_IDS, ID2NAME
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 LABELED_DIR = DATA_DIR / "labeled"
+STANCE_V2_DIR = DATA_DIR / "labeled_stance_v2"
 GOLD_DIR = DATA_DIR / "gold"
 GRAPH_DIR = DATA_DIR / "graph"
 STANCES = ["Support", "Refute", "Neutral"]
@@ -56,8 +57,9 @@ def use_taxonomy(version):
         CLAIM_IDS, ID2NAME, _COLLAPSE = list(V1), N1, None
 
 
-def load_segments(source):
-    src = GOLD_DIR if source == "gold" else LABELED_DIR
+def load_segments(source, conditional=False):
+    # conditional stance lives in labeled_stance_v2 (has per-category claim_stances)
+    src = GOLD_DIR if source == "gold" else (STANCE_V2_DIR if conditional else LABELED_DIR)
     segs = []
     for f in sorted(src.glob("*.json")):
         segs.extend(json.loads(f.read_text(encoding="utf-8")))
@@ -68,8 +70,14 @@ def load_segments(source):
     return segs
 
 
-def build(segments, claims_only=False):
+def build(segments, claims_only=False, conditional=False):
     """Build the tripartite graph.
+
+    conditional=True uses the category-conditional stance (claim_stances): each
+    person->category edge carries the stance the speaker took toward THAT
+    category's proposition, instead of one global-anchor stance reused for every
+    category the segment expressed. This is the fix for the single-anchor
+    ambiguity documented in the guide (section 2.6).
 
     claims_only=True drops segments the labeller marked `is_claim=False`. All
     439 such segments that reach the graph are labelled Neutral -- not because
@@ -90,11 +98,31 @@ def build(segments, claims_only=False):
 
     for s in segments:
         spk = s.get("speaker")
-        st = s.get("stance")
         labels = s.get("claim_labels") or []
-        if not spk or spk == "Unknown" or st not in STANCES or not labels:
+        if not spk or spk == "Unknown" or not labels:
             continue
         if claims_only and not s.get("is_claim"):
+            continue
+
+        if conditional:
+            # one edge per (category, its own stance); map v1 category -> active
+            # taxonomy so v2 collapsing still works.
+            person_segs[spk] += 1
+            for c in (s.get("claim_stances") or []):
+                cid, stc = c.get("category"), c.get("stance")
+                if stc not in STANCES or not cid:
+                    continue
+                if _COLLAPSE is not None:
+                    m = _COLLAPSE([cid])
+                    cid = m[0] if m else None
+                if not cid or cid not in CLAIM_IDS or (claims_only and cid == "other"):
+                    continue
+                edge[(spk, cid)][stc] += 1
+                claim_segs[cid] += 1
+            continue
+
+        st = s.get("stance")
+        if st not in STANCES:
             continue
         person_segs[spk] += 1
         for cid in labels:
@@ -288,18 +316,24 @@ def main():
                     help="drop segments marked is_claim=False (all of them are "
                          "Neutral-by-default artefacts) and the `other` category; "
                          "genuine Support/Neutral/Refute edges are all kept")
+    ap.add_argument("--conditional-stance", action="store_true",
+                    help="build edges from category-conditional claim_stances "
+                         "(data/labeled_stance_v2) instead of one global stance")
     args = ap.parse_args()
 
     use_taxonomy(args.taxonomy)
     suffix = "" if args.taxonomy == "v1" else "_v2"
     if args.claims_only:
         suffix += "_claims"
+    if args.conditional_stance:
+        suffix += "_cond"
 
-    segs = load_segments(args.source)
+    segs = load_segments(args.source, conditional=args.conditional_stance)
     if not segs:
-        print("No segments. Run the pipeline first.")
+        print("No segments. Run the pipeline first "
+              "(label_stance_v2.py for --conditional-stance).")
         return
-    graph = build(segs, claims_only=args.claims_only)
+    graph = build(segs, claims_only=args.claims_only, conditional=args.conditional_stance)
     n_person = sum(1 for n in graph["nodes"] if n["type"] == "person")
     n_claim = sum(1 for n in graph["nodes"] if n["type"] == "claim")
 

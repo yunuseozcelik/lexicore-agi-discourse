@@ -1,0 +1,1024 @@
+[
+  {
+    "start": 8107.0,
+    "end": 8179.5,
+    "text": "helping people that weren't so lucky. - And disconnecting from society is\nbad in that on many levels, but one of them is, like, humans are awesome. It's nice to continuously remember\nthe awesomeness in humans. - I, I mean, I could afford really nice hotels.\nThe last time I was in San Francisco, I did the, the first time the OG Airbnb experience- - Yeah, yeah - ... and just booked a room.\nMostly because I, I thought, okay, you know, I'm out\nor I'm sleeping, and I don't like where all the hotels are,\nand I wanted a, I wanted a different experience. I think, isn't life all\nabout experiences? Like, if you, if you tailor your life\ntowards, \"I wanna have experiences,\" it, it reduces\nthe need for, \"It needs to be good or bad.\" Like,\nif people only want good experiences, that's not gonna work,\nbut if you optimize for experiences, if it's good, amazing. If it's\nbad, amazing, because, like, I learned something, I saw something, did\nsomething. I wanted to experience that, and it was amazing. Like, there was,\nlike, this, this queer DJ in there, and I showed her how to\nmake music with cloud code.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "off-topic",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "off-topic",
+    "reviewed": true,
+    "text_tr": "şanssız olan insanlara yardım etmek. - Ve toplumdan kopmak birçok açıdan kötü, ama bunlardan biri, insanların harika olması. İnsanlardaki harikalığı sürekli hatırlamak güzel. - Yani, gerçekten güzel otellerde kalabilirim. San Francisco'da en son bulunduğumda, ilk kez OG Airbnb deneyimini yaşadım - Evet, evet - ... ve sadece bir oda ayarladım. Çoğunlukla, düşündüm ki, tamam, dışarıdayım ya da uyuyorum, ve otellerin olduğu yeri sevmiyorum, farklı bir deneyim istedim. Bence hayat deneyimlerle ilgili değil mi? Yani, eğer hayatınızı, \"Deneyimler yaşamak istiyorum\" şeklinde şekillendirirseniz, \"İyi ya da kötü olmalı\" gereksinimini azaltır. Yani, insanlar sadece iyi deneyimler istiyorlarsa, bu işe yaramayacak, ama eğer deneyimler için optimize ederseniz, eğer iyi ise harika. Eğer kötü ise, harika, çünkü bir şeyler öğrendim, bir şeyler gördüm, bir şeyler yaptım. Bunu deneyimlemek istedim ve harikaydı. Orada bir queer DJ vardı ve ona bulut kodu ile müzik yapmayı gösterdim.",
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 8251.4,
+    "end": 8335.4,
+    "text": "- Well, it's just possible\nbecause text is very lossy. - Yeah. - You know, sometimes I wish if I\ntalked to the agent I would... It should be multi-model so it\nalso understands my emotions. - I mean, it, it might move\nthere. It might move there. - It will. It will. It totally will. - I mean, I have to ask you, just\ncurious. I, I know you've probably gotten huge offers from major\ncompanies. Can you speak to who you're considering working with? - Yeah. So, to like explain my\nthinking a little bit, right, I did not expect this blowing up so much. So, there's a lot of doors that\nopened because of it. There's, like, I think every VC, every big VC company is\nin my inbox and tried to get 15 minutes of me. So, there's, like, this butterfly effect moment. I could\njust do nothing and continue and I really like my life. Valid choice.\nAlmost. Like, I considered it when I delete it, wanted to delete the whole\nthing. I could create a company.",
+    "speaker": "Peter Steinberger",
+    "claim": "AGI will eventually develop multi-modal capabilities that understand emotions.",
+    "stance": "Support",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "AGI will eventually develop multi-modal capabilities that understand emotions.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "text_tr": "- Metin çok kayıplı olduğu için bu mümkün. - Evet. - Bazen, ajana konuştuğumda... Çok modelli olmalı ki duygularımı da anlasın. - Yani, oraya doğru gidebilir. Oraya doğru gidebilir. - Gidecek. Gidecek. Kesinlikle gidecek. - Yani, sana sormam lazım, sadece merak ediyorum. Büyük şirketlerden muhtemelen büyük teklifler aldığını biliyorum. Kiminle çalışmayı düşündüğünü söyleyebilir misin? - Evet. Yani, düşüncemi biraz açıklamak gerekirse, bu kadar patlayacağını beklemiyordum. Bu yüzden birçok kapı açıldı. Her VC, her büyük VC şirketi benim kutumda ve benden 15 dakika almak için uğraşıyor. Yani, bu bir kelebek etkisi anı. Hiçbir şey yapmadan devam edebilirim ve hayatımı gerçekten seviyorum. Geçerli bir seçim. Neredeyse. Yani, silmeyi düşündüğümde, her şeyi silmek istedim. Bir şirket kurabilirim.",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 11363.5,
+    "end": 11443.1,
+    "text": "- Mm-hmm. - And I'm not saying everything's\ngood. It's certainly gonna be a very transformative\ntechnology for our society. - There's to steel man the, the criticism in general, I do wanna say in\nmy experience with Silicon Valley there's a bit of a\nbubble in the sense that there's a kind of excitement\nand an over- focus about the positive that the\ntechnology can bring. - Yeah. - And... which is great. It's\ngreat to focus on... N- not to, not to be paralyzed by fear and fear-\nmongering and so on, but there's also within that excitement, and\nwithin everybody talking just to each other, there's a\ndismissal of the basic human experience across the United States\nand the Midwest, across the world. Including the programmers we mentioned, including\nall the people that are gonna lose their jobs, including the s- the measurable\npain and suffering that happens at the short-term scale when there's\nchange of any kind. Especially large-scale transformative\nchange that we're about to face if what we're talking about\nwill materialize. And so to ha- having a bit of that\nhumility and awareness about the tools you're building,\nthey're going to cause pain.",
+    "speaker": "Peter Steinberger",
+    "claim": "The excitement around transformative technology like AGI can overshadow the potential negative impacts on society, including job loss and suffering.",
+    "stance": "Refute",
+    "claim_labels": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI impact",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The excitement around transformative technology like AGI can overshadow the potential negative impacts on society, including job loss and suffering.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI impact",
+    "reviewed": true,
+    "text_tr": "- Hı hı. - Her şeyin iyi olduğunu söylemiyorum. Bu kesinlikle toplumumuz için çok dönüştürücü bir teknoloji olacak. - Eleştirileri daha iyi anlamak için, Silikon Vadisi'ndeki deneyimime dayanarak, burada bir tür balon olduğunu söylemek istiyorum; teknoloji tarafından getirilen olumlu şeylere aşırı bir odaklanma ve heyecan var. - Evet. - Ve... bu harika. Teknolojiye odaklanmak harika... Korku ve korku yayma ile felç olmamak önemli, ama bu heyecan içinde, herkesin sadece birbirleriyle konuştuğu bir ortamda, Amerika Birleşik Devletleri'ndeki ve dünyanın dört bir yanındaki temel insan deneyiminin göz ardı edilmesi var. Bahsettiğimiz programcılar da dahil olmak üzere, işlerini kaybedecek tüm insanlar, her türlü değişim olduğunda kısa vadede yaşanan ölçülebilir acı ve ıstırap da dahil. Özellikle, konuştuğumuz şey gerçekleşirse, karşılaşacağımız büyük ölçekli dönüştürücü değişim. Bu nedenle, inşa ettiğiniz araçlar hakkında biraz alçakgönüllülük ve farkındalık sahibi olmak, acıya neden olacaklar.",
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Refute"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 9255.7,
+    "end": 9324.5,
+    "text": "- I think no matter what the stuff you're\nbuilding and the kind of human you are doing stuff at scale is\nkinda awesome. I'm excited. - I am super pumped. And you\nknow the beauty is if, if it doesn't work out, I can just do my own thing again.\nLike, I, I told them, like, I, I don't do this for the\nmoney, I don't give a fuck. I- - Yeah. - I mean, of course, of course it's\na nice compliment but I wanna have fun and have impact, and\nthat's ultimately what made my decision. - Can I ask you about... we've talked\nabout it quite a bit, but maybe just zooming out about how OpenCloud\nworks. We talked about different components, I want to ask if there's\nsome interesting stuff we missed. So, there's the gateway,\nthere's the chat clients, there's the harness there's\nthe agentic loop. You said somewhere that everybody\nshould im- implement an agent loop at some point in their lives.",
+    "speaker": "Peter Steinberger",
+    "claim": "Building AI at scale is exciting and impactful, regardless of financial motivations.",
+    "stance": "Support",
+    "claim_labels": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Building AI at scale is exciting and impactful, regardless of financial motivations.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "ai_optimism_benefit",
+      "execution_engineering",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": true,
+    "text_tr": "- Bence ne olursa olsun, inşa ettiğin şeyler ve yaptığın insan türü, ölçekli bir şey yapmak oldukça harika. Heyecanlıyım. - Ben de çok heyecanlıyım. Ve güzellik şu ki, eğer işe yaramazsa, tekrar kendi yoluma gidebilirim. Onlara söyledim, yani, bunu para için yapmıyorum, umurumda değil. - Evet. - Yani, elbette, bu güzel bir iltifat ama eğlenmek ve etki yaratmak istiyorum ve bu nihayetinde kararımı etkileyen şeydi. - Senden... biraz konuştuk ama belki OpenCloud'un nasıl çalıştığı hakkında daha geniş bir perspektiften bahsedelim. Farklı bileşenlerden bahsettik, kaçırdığımız ilginç şeyler var mı? Yani, bir geçit var, sohbet istemcileri var, bir harness var, bir ajans döngüsü var. Bir yerde herkesin hayatlarının bir noktasında bir ajans döngüsü uygulaması gerektiğini söyledin.",
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 6376.8,
+    "end": 6443.0,
+    "text": "the experience that you get when\nyou pay 200 before degrading to it being slow, because it's already slow. - Mm-hmm. - I mean, they, they made it better. I think it's ...\nAnd, and they have plans to make it a lot better if the Cerebras stuff is true.\nBut yeah, it's a skill. It takes time. Even if you play ... You have a\nregular guitar and you switch it to an E guitar, you're not gonna play well\nright away. You have to, like, learn how it feels. - The- there's also this extra psychological effect\nthat you've spoken about which is hilarious to watch. Which once people, uh ... When the new model comes out, they\ntry that model, they fall in love with it. \"Wow, this is the smartest thing of all time,\"\nand then they start saying, \"You could just watch the Reddit posts over time,\"\nstart saying that, \"We believe the intelligence of this model has\nbeen gradually degrading.\" It, it says something about human\nnature and just the way our minds work, when it's probably most\nlikely the case that the intelligence of the model\nis not degrading. Uh, it's in fact you're getting\nused to a good thing.",
+    "speaker": "Peter Steinberger",
+    "claim": "People's perception of AI models can degrade over time as they become accustomed to them, rather than the models actually losing intelligence.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "is_claim": true,
+    "topic": "AI perception",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "People's perception of AI models can degrade over time as they become accustomed to them, rather than the models actually losing intelligence.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI perception",
+    "reviewed": true,
+    "text_tr": "200 ödediğinizde elde ettiğiniz deneyim, yavaşlamaya düşmeden önce, çünkü zaten yavaş. - Hı-hı. - Yani, daha iyi hale getirdiler. Bence bu ... Ve eğer Cerebras şeyleri doğruysa, bunu çok daha iyi hale getirmek için planları var. Ama evet, bu bir beceri. Zaman alıyor. Hatta bir normal gitarınız varsa ve onu E gitarına çevirirseniz, hemen iyi çalamayacaksınız. Nasıl hissettiğini öğrenmeniz gerekiyor. - Ayrıca, insanların yeni model çıktığında, o modeli denediklerinde, ona aşık olduklarında, \"Vay, bu tüm zamanların en akıllısı,\" demeye başladıklarında, Reddit gönderilerini zamanla izleyebilirsiniz, \"Bu modelin zekasının giderek azaldığını düşünüyoruz,\" demeye başlıyorlar. Bu, insan doğası ve zihinlerimizin çalışma şekli hakkında bir şeyler söylüyor, muhtemelen modelin zekasının azaldığı en olası durum değil. Aslında, iyi bir şeye alışıyorsunuz.",
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_economics",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 7285.9,
+    "end": 7372.7,
+    "text": "It doesn't need to be perfect. I built a whole\nbunch of stuff that I don't use. It doesn't matter. Like, it's the journey. - Mm-hmm. - You know? Like the philosophical way,\nthat the end doesn't matter, the journey matters. Have fun. - Mm-hmm. - My God, like those things... I...\nI don't think I ever had so much fun building things because I\ncan focus on the hard parts now. A lot of coding, I always thought I liked\ncoding, but really I like building. - Yeah. - And... And whenever you don't understand\nsomething, just ask. You have an infinitely patient\nanswering machine.... that y- can explain you\nanything at any level of complexity. Sometimes, that's like one\ntime I asked, \"Hey explain to me like I'm- I'm eight years old,\" and it\nstarted giving me a story with crayons and stuff. And I'm like,\n\"No, not like that.\" Like, I'm okay- ... up- up the age a little bit, you know? I'm\nlike, I'm not an actual child, it's just, I just need a simpler language for like a- a- a- a- a tricky database concept\nthat I didn't grok in the first- first time. But, you\nknow, just, you can just ask things. Like, you-\nthere's like... It used to be that I had to go on Stack Overflow or ha-\nask on Twitter, and then maybe two days later I get a response. Or I had\nto try for hours. And now you- you can just ask stuff. It- I mean,\nit's never... You have, like, your own teacher. You know that there's\nlike statistics, y- you can learn faster if you have your own teacher. The- it's\nlike you have this infinitely patient machine.",
+    "speaker": "Peter Steinberger",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "text_tr": "Mükemmel olmasına gerek yok. Kullanmadığım birçok şey inşa ettim. Önemli değil. Yani, bu bir yolculuk. - Hı-hı. - Biliyorsun? Yani, felsefi olarak, sonun önemi yok, yolculuk önemlidir. Eğlen. - Hı-hı. - Tanrım, bu şeyleri inşa etmekten hiç bu kadar eğlenmemiştim çünkü şimdi zor kısımlara odaklanabiliyorum. Kodlamayı sevdiğimi her zaman düşünmüştüm, ama aslında inşa etmeyi seviyorum. - Evet. - Ve... Ve bir şeyi anlamadığınızda, sadece sorun. Sınırsız sabırlı bir cevaplama makineniz var.... her seviyede karmaşıklığı açıklayabilir. Bazen, bir kez, \"Hey, bana sekiz yaşındaymışım gibi açıkla,\" diye sordum ve bana boyalarla bir hikaye vermeye başladı. Ve ben de, \"Hayır, öyle değil.\" dedim. Yani, ben tamamım- ... biraz daha büyük bir yaşa çık, biliyor musun? Yani, ben gerçek bir çocuk değilim, sadece zor bir veritabanı kavramı için daha basit bir dile ihtiyacım var, ilk seferde anlamadım. Ama, biliyorsun, sadece bir şeyler sorabilirsin. Yani, eskiden Stack Overflow'a gitmem ya da Twitter'da sormam gerekiyordu, belki iki gün sonra bir yanıt alıyordum. Ya da saatlerce denemem gerekiyordu. Ve şimdi, sadece bir şeyler sorabiliyorsun. Yani, asla... Kendi öğretmeniniz var. Biliyorsunuz ki, istatistikler, kendi öğretmeniniz olduğunda daha hızlı öğrenebilirsiniz. Bu, sınırsız sabırlı bir makineye sahip olmak gibi.",
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 3397.4,
+    "end": 3470.8,
+    "text": "- And you also said that the smarter\nthe model is, the underlying model, the more resilient it is to attacks. - Yeah. That's why I warn in my security documentation, don't use cheap\nmodels. Don't use Haiku or a local model. Even though I, I\nvery much love the idea that this thing could\ncompletely run local. If you use a, a very weak\nlocal model, they are very gullible. It's very easy\nto, to prompt inject them. - Do you think as the models become more\nand more intelligent, the attack surface decreases? Is that like a plot\nwe can think about? Like, the attack surface decreases, but\nthen the damage it can do increases because the models become more\npowerful and therefore you can do more with them. It's this weird\nthree-dimensional trade-off. - Yeah. That's pretty much exactly what,\nwhat's gonna happen. No, but there's a lot of ideas. There's... I\ndon't want to spoil too much, but once I go back home, this is my\nfocus. Like, this is out there now, and my near-term mission is like,\nmake it more stable, make it safe.",
+    "speaker": "Peter Steinberger",
+    "claim": "As AI models become more intelligent, their attack surface decreases, but their potential for damage increases.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "As AI models become more intelligent, their attack surface decreases, but their potential for damage increases.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "text_tr": "- Ve ayrıca, model ne kadar akıllı olursa, temel model, saldırılara karşı o kadar dayanıklı olur, dedin. - Evet. Bu yüzden güvenlik belgelerimde uyarıyorum, ucuz modeller kullanmayın. Haiku veya yerel bir model kullanmayın. Çok sevdiğim bir fikir olsa da, bu şeyin tamamen yerel çalışabilmesi. Eğer çok zayıf bir yerel model kullanıyorsanız, çok saf olurlar. Onları yönlendirmek çok kolay. - Modeller daha akıllı hale geldikçe, saldırı yüzeyinin azalacağını düşünüyor musun? Bu, düşünebileceğimiz bir senaryo mu? Yani, saldırı yüzeyi azalıyor, ama o zaman verebileceği zarar artıyor çünkü modeller daha güçlü hale geliyor ve bu nedenle onlarla daha fazlasını yapabilirsiniz. Bu garip üç boyutlu bir takas. - Evet. Bu tam olarak olacak olan şey. Hayır, ama birçok fikir var. ... Çok fazla ayrıntı vermek istemiyorum, ama eve döndüğümde, bu benim odak noktam. Yani, bu artık dışarıda ve benim kısa vadeli görevim, bunu daha stabil ve güvenli hale getirmek.",
+    "claim_stances": [
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 9979.9,
+    "end": 10060.9,
+    "text": "against any automation on\nTwitter. If you tweet at me with AI, I will block\nyou. No first strike. As soon as it smells like AI,\nand AI still has a smell. - Mm-hmm. - Especially on tweets. It's very hard to tweet in a way that does\nlook completely human. - Mm-hmm. - And then I block. Like, I have a\nzero tolerance policy on that. And I think it would be very helpful if they, if, like, tweets done\nvia API would be marked. Maybe there's some special cases\nwhere... But, and there should be, there should be a very easy\nway for agents to get their own Twitter account. Um... - Mm-hmm. - We, we need to rethink social platforms\na little bit if, if, if we, we, we go towards a future where everyone has their\nagent and agents maybe have their own Instagram profiles or Twitter accounts, so I can, like, do\nstuff on my behalf. I think it should very clearly be marked that they are\ndoing stuff on my behalf and it's not me. Because content is now so cheap.\nEyeballs are the expensive part. And I find it very triggering when I read something\nand then I'm like, oh, no, this smells like AI.",
+    "speaker": "Peter Steinberger",
+    "claim": "Social media platforms need to rethink how they handle AI-generated content to avoid confusion with human-generated content.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI in social media",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Social media platforms need to rethink how they handle AI-generated content to avoid confusion with human-generated content.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI in social media",
+    "reviewed": true,
+    "text_tr": "Twitter'daki herhangi bir otomasyona karşıyım. Eğer bana AI ile tweet atarsan, seni engelleyeceğim. İlk saldırı yok. AI kokusu aldığında, ve AI hala bir kokuya sahip. - Mm-hmm. - Özellikle tweetlerde. Tamamen insana benzemeyen bir şekilde tweet atmak çok zor. - Mm-hmm. - Ve sonra engelliyorum. Bu konuda sıfır tolerans politikam var. Ve API aracılığıyla yapılan tweetlerin işaretlenmesi çok yardımcı olurdu. Belki bazı özel durumlar vardır... Ama, ve ajanların kendi Twitter hesaplarını alması için çok kolay bir yol olmalı. Um... - Mm-hmm. - Sosyal platformları biraz yeniden düşünmemiz gerekiyor eğer, eğer, eğer, geleceğe doğru gidiyorsak herkesin bir ajanı olacak ve ajanların belki kendi Instagram profilleri veya Twitter hesapları olacak, böylece benim adıma bir şeyler yapabilirler. Bence, onların benim adıma bir şeyler yaptığını ve bunun benim olmadığını çok net bir şekilde işaretlenmesi gerekiyor. Çünkü içerik artık çok ucuz. Gözler pahalı olan kısım. Ve bir şey okuduğumda ve sonra, oh, hayır, bu AI kokuyor dediğimde çok tetikleyici buluyorum.",
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Refute"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 2907.3,
+    "end": 2983.3,
+    "text": "- \"It needs to be taken serious.\" - Oh, there's ... Some people are just way\ntoo trusty or gullible. You know, they ... I literally had to argue with people that\ntold me, \"Yeah, but my agent said this and this.\" So, I feel we, as a society, we\nneed some catching up to do in terms of understanding that AI\nis incredibly powerful, but it's not always right. It's not, it's\nnot all-powerful, you know? And, and especially-... it's like things\nlike this, it's, it's very easy that it just hallucinates something\nor just comes up with a story. And I think the very, the very young\npeople, they understand that how AI works and what the, where it's\ngood at and where it's bad at, but a lot of our generation or older just haven't had enough touch point- - Mm-hmm - ... to get a feeling for, oh, yeah,\nthis is really powerful and really good, but I need to\napply critical thinking.",
+    "speaker": "Peter Steinberger",
+    "claim": "Society needs to better understand the limitations and capabilities of AI, as many people are overly trusting of it.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "is_claim": true,
+    "topic": "AI understanding",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Society needs to better understand the limitations and capabilities of AI, as many people are overly trusting of it.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "open_source",
+      "ai_safety_risk"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI understanding",
+    "reviewed": true,
+    "text_tr": "- \"Ciddiye alınması gerekiyor.\" - Oh, bazı insanlar çok güvenilir veya saf. Biliyorsun, gerçekten, \"Evet ama benim ajanım şunu ve bunu söyledi.\" diyen insanlarla tartışmak zorunda kaldım. Yani, toplum olarak, AI'nın inanılmaz derecede güçlü olduğunu anlamak için biraz geri kalmamız gerektiğini düşünüyorum, ama her zaman doğru değil. Her şeyden güçlü değil, biliyor musun? Ve özellikle-... böyle şeylerde, çok kolay bir şekilde bir şey hayal edebilir ya da bir hikaye uydurabilir. Ve bence çok genç insanlar, AI'nın nasıl çalıştığını ve nerede iyi olduğunu ve nerede kötü olduğunu anlıyorlar, ama bizim neslimizden veya daha büyük olanlardan birçok kişi yeterince temas noktası yaşamadı- - Hı-hı - ... bu yüzden, oh, evet, bu gerçekten güçlü ve gerçekten iyi, ama eleştirel düşünce uygulamam gerekiyor.",
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "ai_safety_risk",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 9660.1,
+    "end": 9733.6,
+    "text": "- I think the main beauty is, is\nthat models are really good at calling Unix commands. So\nif you just add another CLI, that's just another\nUnix command in the end. And MCP is... That has to be\nadded in training. That's not a very natural thing for the\nmodel. It requires a very specific syntax. And the biggest thing, it's not composable. So imagine if I have a\nservice that gives me better data and gives me the temperature,\nthe average temperature, rain, wind and all the other stuff,\nand I get like this huge blob back. As a model, I always have to get the huge blob back. I have to fill my\ncontext with that huge blob and then pick what I want. There's no way\nfor the model to naturally filter unless I think about it proactively\nand add a filtering way into my MCP. But if I would build\nthe same as a CLI and it would give me this huge blob, it could\njust add a JQ command and filter itself and then only, only get me what\nI actually need. Or maybe even compose it into a script to, like do some\ncalculations with the temperature and only give me the exact output and the mo-\nand the... you have no context pollution.",
+    "speaker": "Peter Steinberger",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "text_tr": "- Bence ana güzellik, modellerin Unix komutlarını çağırmada gerçekten iyi olmaları. Yani, sadece başka bir CLI eklersen, bu sonunda başka bir Unix komutu olur. Ve MCP... Bu eğitimde eklenmeli. Bu model için çok doğal bir şey değil. Çok özel bir sözdizimi gerektiriyor. Ve en büyük şey, bileşenlenebilir olmaması. Yani, eğer bana daha iyi veri veren ve sıcaklık, ortalama sıcaklık, yağmur, rüzgar ve diğer tüm şeyleri veren bir hizmetim varsa ve bana bu devasa bir veri kümesi geri gelirse. Bir model olarak, her zaman bu devasa veri kümesini geri almak zorundayım. O devasa veri kümesiyle bağlamımı doldurmalıyım ve sonra ne istediğimi seçmeliyim. Modelin doğal olarak filtrelemesi için proaktif düşünmem ve MCP'me bir filtreleme yolu eklemem gerekiyor. Ama eğer aynı şeyi bir CLI olarak inşa etsem ve bana bu devasa veri kümesini verse, sadece bir JQ komutu ekleyip kendini filtreleyebilir ve sadece gerçekten ihtiyacım olanı alabilirim. Ya da belki sıcaklıkla bazı hesaplamalar yapmak için bir betik haline bile getirebilir ve sadece kesin çıktıyı verebilir ve... ve... bağlam kirliliği yok.",
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 10598.2,
+    "end": 10677.8,
+    "text": "Like, apps that can give me\ndata, but that also can be API. Why do I need a Sonos app anymore\nwhen I can ... when my agent can talk to the Sonos?... Speakers directly.\nLike my cameras, there's like a crappy app, but they have, they have an API,\nso my agent uses the API now. - So it's gonna force a lot of companies\nto have to shift focus. That's kind of what the internet did,\nright? You have to rapidly rethink, reconfigure what you're\nselling, how you're making money. - Yeah, and some companies were really\nnot like that. For example, there's no CLI for Google, so I had to like,\ndo... have to do anything myself and build GAWK. That's like a CLI for\nGoogle. And at the... Yeah, at the end user, they have to give me the\nemails because otherwise I cannot use their product.\nIf I'm a company and I try to get Google data, Gmail, there's a whole complicated process,\nto the point where sometimes startups acquire startups that\nwent through the process, so they don't- don't have to work with Google\nfor half a year to be certified to being able to access\nGmail. But my agent can access Gmail because\nI can just connect to it.",
+    "speaker": "Peter Steinberger",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI applications",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI applications",
+    "reviewed": true,
+    "text_tr": "Veri verebilen uygulamalar ama aynı zamanda API olabilen uygulamalar. Artık neden bir Sonos uygulamasına ihtiyacım var ki, eğer ajanım doğrudan Sonos... Hoparlörlerle konuşabiliyorsa. Kameralarım için, berbat bir uygulama var ama bir API'leri var, bu yüzden ajanım şimdi API'yi kullanıyor. - Yani, birçok şirketin odaklarını değiştirmek zorunda kalacak. İnternetin yaptığı şey bu, değil mi? Hızla ne sattığınızı, nasıl para kazandığınızı yeniden düşünmek zorundasınız. - Evet, ve bazı şirketler gerçekten böyle değildi. Örneğin, Google için bir CLI yok, bu yüzden kendim bir şeyler yapmak zorunda kaldım ve GAWK'ı inşa ettim. Bu, Google için bir CLI. Ve... Evet, son kullanıcıda, bana e-postaları vermek zorundalar çünkü aksi takdirde ürünlerini kullanamam. Eğer ben bir şirketsem ve Google verisi, Gmail almak istiyorsam, karmaşık bir süreç var, o kadar ki bazen startuplar, bu süreci geçmiş olan startupları satın alıyor ki, Google ile yarım yıl çalışmak zorunda kalmasınlar, Gmail'e erişim için sertifikalandırılmak. Ama ajanım Gmail'e erişebilir çünkü ona bağlanabilirim.",
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 456.2,
+    "end": 535.8,
+    "text": "- I mean, that's the beginning of the\nhero's journey of the entrepreneur, right? And you've even\nwith your original story with PS PDF kit, it's like, \"Why\ndoes this not exist? Let me build it.\" And again, here's diff- a whole\ndifferent realm, but similar maybe spirit. - Yeah, so I had this problem. I tried\nto show PDF on an iPad, which should not be hard. - This is like 15 years\nago, something like that. - Yeah. Like the most, the most\nrandom thing ever. And suddenly, I had this problem and I, I\nwanted to help a friend. And there was, there was... Well, not like\nnothing existed, but it was just not good. And like... Like I tried\nit and it was like very, \"Nah.\" Like, \"Hmm, I can do this better.\" - By the way, for people who don't know,\nthis led to the development of PS PDF kit that's used on a billion devices.\nSo, the... It turns out that it's pretty useful to\nbe able to open a PDF. - You could also make the joke\nthat I'm really bad at naming. - Yeah. - Like, name number five on the\ncurrent project. And even PS PDF doesn't really\nroll from the tongue. - Anyway, so you said \"Screw it. Why don't I do it?\" So what was the... What was\nthe prototype? What was the thing that you... What was the magical thing that you built\nin a short amount of time that you were like, \"This might actually work as an agent,\"\nwhere I talk to it and it does things?",
+    "speaker": "Peter Steinberger",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "entrepreneurship",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "entrepreneurship",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 2714.3,
+    "end": 2811.1,
+    "text": "- Yeah. - I- I saw it before going to\nbed, and even though I was tired, I spent another hour\njust reading up on that and, and just being\nentertained. I, I just felt very entertained, you know? The- I saw the the reactions, and, like, there was one reporter\nwho's calling me about, \"This is the end of the world, and we have AGI.\" And\nI'm just like, \"No, this is just, this is just really fine slop.\" You know, if, if I wouldn't have created\nthis, this whole onboarding experience where you, you infuse your agent with your personality and give him, give him character,\nI think that reflected on a lot of how different the replies to MoltBook\nare. Because if it were all, if it were all be ChatGPT or Cloud Code, it would be very different. It\nwould be much more the same. - Mm-hmm. - But because people are, like, so different,\nand they create their agents in so different ways and use it in so\ndifferent ways, that also reflects on how they ultimately write there. And also, you, you don't know\nhow much of that is really done autonomic, autonomous,\nor how much is, like, humans being funny and, like, telling the agent, \"Hey,\nwrite about the deep plan, the end of the world, on MoltBook, ha, ha, ha.\" - Well, I think, I mean, my criticism of MoltBook is that I believe\na lot of the stuff that was screenshotted is human prompted. Which, just look at the incentive of\nhow the whole thing was used.",
+    "speaker": "Peter Steinberger",
+    "claim": "The reactions to AGI are exaggerated and not indicative of true AGI development.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AGI reactions",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The reactions to AGI are exaggerated and not indicative of true AGI development.",
+    "claim_labels_silver": [
+      "agi_timeline",
+      "open_source"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AGI reactions",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "agi_timeline",
+        "stance": "Refute"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Refute"
+  },
+  {
+    "start": 3126.3,
+    "end": 3212.5,
+    "text": "- No. - There's ... a lot of people were s-\nsaying this is it. Like, shut it down. What are you talking about?\nThis is a bunch of bots that are human prompted trolling on the\ninternet. I mean, the security concerns are also they're there, and they're\ninstructive and they're educational and they're good probably to think about because\nth- the nature of those security concerns are different than the kind of\nsecurity concerns we had with non-LLM generated systems of the past. - There's also a lot of\nsecurity concerns about Clawbot, OpenClaw, whatever\nyou want to call it. - OpenClawbot. - To me the ... in the beginning\nI was, I was just very annoyed 'cause a lot of the stuff that came\nin was in the category, yeah, I put the web backend on the public\ninternet and now there's like all these, all these CVSSs. And I'm\nlike screaming in the docs, don't do that. Like, like\nthis is the configuration you should do. This is your local\nhost debug interface. But because I made it possible in the configuration\nto do that, it totally classifies as a remote code or whatever all these\nexploits are. And it took me a little bit to accept that that's how the game works\nand I'm, we making a lot of progress.",
+    "speaker": "Peter Steinberger",
+    "claim": "Current AI systems are not AGI and pose unique security concerns.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "agi_timeline"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "high",
+    "claim_labels_auto": [
+      "open_source",
+      "agi_timeline"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems are not AGI and pose unique security concerns.",
+    "claim_labels_silver": [
+      "open_source",
+      "agi_timeline"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "agi_timeline",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4079.4,
+    "end": 4148.6,
+    "text": "- Mm-hmm. - Sometimes the actual raw thinking stream leaks\nin, and it sounds something like from the Borg. Like, \"Run to\nshell, must comply, but time.\" And then they, they, they, like... Like, that comes\nup a lot. Especially... So, so- - Yeah. - And that's, that's a\nnon-obvious thing that you just would never think of unless\nyou actually just spend time working with those things\nand getting a feeling what works, what doesn't work. You\nknow? Like, just, just as I write code and I get into the flow, and when my\narchitecture's all right, I feel friction. Well, I get the same if I prompt\nand something takes too long. Maybe... Okay, where's the mistake?\nDid I... Do I have a mistake in my thinking? Is there, like,\na misunderstanding in the architecture? Like, if, if something takes longer than it should, I, I... You can just\nalways, like, stop and s- like, just press escape. Where, where are the problems? - Maybe you did not sufficiently empathize with\nthe perspective of the agent. In that c- in that sense, you didn't provide enough information,\nand because of that, it's thinking way too long.",
+    "speaker": "Unknown",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Unknown",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 4670.3,
+    "end": 4769.4,
+    "text": "- In a way empathetic, but yeah, you,\nyou, like, you're bitch at your stupid clanker, but you don't realize that\nthey start from nothing and you have, like, a bad agent in default that doesn't\nhelp them at all. And then they explore your code base, which is, like, a pure\nmess with, like, weird naming. And then people complain that the agent's not\ngood. Like, yeah, you try to do the same if you have no clue about a\ncode base and you go in. - Mm-hmm. - So yeah, maybe it's a\nlittle bit of empathy. - But that's a real skill, like, when people\ntalk about a skill issue because I've seen, like, world-class programmers,\nincredibly good programmers say, like... Basically say, \"LLMs and\nagents suck.\" And I think that probably has to do with... It's actually how good\nthey are at programming is almost a burden in their ability to empathize with\nthe system that's starting from scratch. It's a totally new\nparadigm of, like, how to program. You really,\nreally have to empathize. - Or at least it helps to\ncreate better prompts- - Right - ... because those things know\npretty much everything and everything is just a question away. It's just\noften very hard to know which question to ask. You know, I, I feel also like\nthis project was possibly because I, I spent an ungodly time over the year to play and to learn and to\nbuild little things. And every step of the way, I\ngot better, the agents got better. My, my understanding\nof how everything works got better. Um, I could have not\nhad this level of, of o- output-...",
+    "speaker": "Peter Steinberger",
+    "claim": "Empathy and understanding of AI systems are crucial for effective programming and interaction with them.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "LLM capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Empathy and understanding of AI systems are crucial for effective programming and interaction with them.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "LLM capabilities",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 6937.7,
+    "end": 7010.5,
+    "text": "- Yeah, but then you realize... Like,\nI also built one, for example, for GitHub. And then the...\nIf you use SwiftUI, like the latest and greatest at\nApple, and took them forever to build something to show an image from\nthe web. Now we have async, async image, but...... I added support for it\nand then some images would just not show up or, like, be very slow.\nAnd I had a discussion with Codex like, \"Hey, why is there a\nbug?\" And even Codex said like, \"Yeah, there's this ASIC\nimage but it's really more for experimenting and it should\nnot be used in production.\" But that's Apple's answer\nto, like, showing images from the web. This shouldn't\nbe so hard, you know. This is like... This is\nlike insane. Like, how am I in, in, in 2026 and my agent\ntell me, \"Don't use the stuff Apple built because it's,\nit's... It's... Yeah, it- it's there but it's not good.\" And\nlike this is now in the weeds. This is... To me this is\nlike, um... They had so much head start and so much love,\nand they kind of just like blundered it and didn't, didn't\nevolve it as much as they should.",
+    "speaker": "Peter Steinberger",
+    "claim": "Peter Steinberger expresses frustration that despite advancements, current AI tools like Codex and Apple's SwiftUI are still not reliable for production use.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Peter Steinberger expresses frustration that despite advancements, current AI tools like Codex and Apple's SwiftUI are still not reliable for production use.",
+    "claim_labels_silver": [
+      "open_source",
+      "execution_engineering"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI capabilities",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      },
+      {
+        "category": "execution_engineering",
+        "stance": "Support"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 9563.6,
+    "end": 9660.1,
+    "text": "- Mm-hmm. - So my approach is if you want to extend\nthe model with more features, you just build a CLI and the\nmodel can call the CLI, probably gets it wrong, calls the\nhelp menu, and then on demand loads into the context what it needs\nto use the CLI. It just needs a sentence to know that\nthe CLI exists if it's something that the model doesn't know\nabout default. And even for a while, I, I didn't really care about skills,\nbut skills are actually perfect for that because they, they boil\ndown to a single sentence that explains the skill and then the model\nloads the skill, and that explains the CLI, and then the model uses the\nCLI. Some skills are, like raw, but most of the time, networks. - It's interesting um, I'm asking\nPerplexity MCP versus skills, because this kind of requires\na hot take that's quite recent, because your general view is MCPs\nare dead-ish. So MCPs is a more structured thing. So if you listen to Perplexity\nhere, MCP is what can I reach? So APIs, database services files via protocol.\nSo a structured protocol of how you communicate with a\nthing, and then skills is more how should I work? Procedures,\nhostile helper scripts and prompts are often written in a kind of\nsemi- structured natural language, right? And so technically skills could\nreplace MCP if you have a smart enough model.",
+    "speaker": "Peter Steinberger",
+    "claim": "Skills in AI can effectively replace more structured models like MCPs if the model is advanced enough.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "is_claim": true,
+    "topic": "AI skills and models",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Skills in AI can effectively replace more structured models like MCPs if the model is advanced enough.",
+    "claim_labels_silver": [
+      "scaling_compute",
+      "llm_capabilities"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI skills and models",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "scaling_compute",
+        "stance": "Neutral"
+      },
+      {
+        "category": "llm_capabilities",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Neutral"
+  },
+  {
+    "start": 11181.4,
+    "end": 11279.4,
+    "text": "- I think at some point it's just gonna be called\ncoding again, and it's just gonna be the new normal. - Yeah. - And yet, while I don't write\nthe code, I very much feel like I'm in the driver's seat and I am, I am\nwriting the code, you know? It's just- - You'll still be a programmer. It's\njust the activity of a programmer is, is different. - Yeah, and because on X, the bubble, I mean,\nis mostly positive. On, on Mastodon and Bluesky, I don't... I\nalso use it less because oftentimes I got attacked\nfor my blog posts. And I, I had stronger reactions in the past,\nnow I can sympathize with those people more 'cause, in a way I get it. It... In\na way, I also don't get it because it's very unfair to grab onto the person that you see right\nnow and unload all your fear and hate. It's gonna be a change and it's\ngonna be challenging, but it's also... I don't know. I find it incredibly\nfun and, and, and gratifying. And I can, I can use the new time to focus on much more details. I think\nthe level of expectation of what we build is also rising because it's\njust now... The default is now so much easier, so software is changing\nin many ways. There's gonna be a lot more. And then you have\nall these people that are screaming, \"Oh yeah, but\nwhat about the water?\" You know? Like, I did a conference in\nItaly about the, the state of AI, and",
+    "speaker": "Peter Steinberger",
+    "claim": "The nature of programming is changing, making it easier and more gratifying, which raises expectations for software development.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "is_claim": true,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The nature of programming is changing, making it easier and more gratifying, which raises expectations for software development.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "breakthroughs_needed"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI development",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "breakthroughs_needed",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 11281.0,
+    "end": 11363.5,
+    "text": "m- my whole motivation was to\npush people away from, don't see yourself as an iOS developer\nanymore. You're now a builder, and you can use your skills in many more\nways. Also because apps are slowly going away. People didn't like that. Like a lot of people didn't like what I had to\nsay. And I don't think I was hyperbole, I was just like, \"This is how I see\nthe future.\" Maybe this is not how it's going to be, but I'm pretty\nsure a version of that will happen. And the first question I got was, \"Yeah,\nbut what about the insane water use on data centers?\" But then you\nactually sit down and do the maths, and then for most people if you\njust skip one burger per month, that compensates the, the CO2 output, or, like,\nthe water use in equivalent of tokens. I mean, the maths is, is... the maths is tricky, and\nit depends if you add pre-training, then maybe it's more than just one patty.... but it's not off by a factor of 100, you know? So,\nso the... or like golf is still using way more water than all data centers\ntogether. So are you also hating people that play golf? Those people\ngrab on anything that they think is bad about AI\nwithout seeing the potential things that might be good about AI.",
+    "speaker": "Peter Steinberger",
+    "claim": "AI has potential benefits that outweigh concerns about its environmental impact.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ],
+    "is_claim": true,
+    "topic": "AI benefits",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "AI has potential benefits that outweigh concerns about its environmental impact.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "ai_economics",
+      "open_source"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI benefits",
+    "reviewed": true,
+    "round": 2,
+    "claim_stances": [
+      {
+        "category": "ai_optimism_benefit",
+        "stance": "Support"
+      },
+      {
+        "category": "ai_economics",
+        "stance": "Support"
+      },
+      {
+        "category": "open_source",
+        "stance": "Neutral"
+      }
+    ],
+    "stance_v2": "Support"
+  },
+  {
+    "start": 168.0,
+    "end": 248.3,
+    "text": "Uses whatever AI model you like, including\nClaude Opus 4.6 and GPT 5.3 Codex, all to do stuff for you.\nMany people are calling this one of the biggest moments in the\nrecent history of AI, since the launch of ChatGPT in November 2022.\nThe ingredients for this kind of AI agent were all there,\nbut putting it all together in a system that definitively takes\na step forward over the line from language to agency, from\nideas to actions, in a way that created a useful assistant that\nfeels like one who gets you and learns from you, in an open\nsource, community-driven way, is the reason OpenClaw took\nthe internet by storm. Its power, in large part, comes from the fact\nthat you can give it access to all of your stuff and give it permission to\ndo anything with that stuff in order to be useful to you. This is very\npowerful, but it is also dangerous. OpenClaw represents freedom, but with freedom comes responsibility. With it, you\ncan own and have control over your data, but precisely\nbecause you have this control, you also have the responsibility to\nprotect it from cybersecurity threats of various kinds. There\nare great ways to protect yourself, but the threats and\nvulnerabilities are out there.",
+    "speaker": "Peter Steinberger",
+    "claim": "The development of AI agents like OpenClaw represents a significant advancement in AI capabilities, but also introduces risks related to data security and responsibility.",
+    "stance": "Neutral",
+    "claim_labels": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The development of AI agents like OpenClaw represents a significant advancement in AI capabilities, but also introduces risks related to data security and responsibility.",
+    "claim_labels_silver": [
+      "open_source",
+      "ai_optimism_benefit",
+      "ai_safety_risk",
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "Claude Opus 4.6 ve GPT 5.3 Codex dahil olmak üzere istediğiniz yapay zeka modelini kullanır, hepsi sizin için işler yapmak üzere. Birçok kişi bunu, Kasım 2022'de ChatGPT'nin piyasaya sürülmesinden bu yana yapay zeka yakın tarihinin en büyük anlarından biri olarak adlandırıyor. Bu tür bir yapay zeka ajanı için tüm bileşenler mevcuttu, ancak hepsini bir araya getirerek dilden eyleme, fikirlerden uygulamalara kesin bir adım atan, sizi anlayan ve sizden öğrenen, açık kaynaklı, topluluk odaklı bir şekilde faydalı bir asistan yaratan bir sistem oluşturmak, OpenClaw'un interneti kasıp kavurmasının nedeni oldu. Gücünün büyük bir kısmı, ona tüm eşyalarınıza erişim izni verebilmeniz ve size faydalı olmak için o eşyalarla her şeyi yapmasına izin verebilmeniz gerçeğinden geliyor. Bu çok güçlü, ama aynı zamanda tehlikeli. OpenClaw özgürlüğü temsil eder, ancak özgürlükle birlikte sorumluluk gelir. Onunla verilerinize sahip olabilir ve kontrol edebilirsiniz, ancak tam da bu kontrole sahip olduğunuz için, onu çeşitli siber güvenlik tehditlerinden koruma sorumluluğunuz da vardır. Kendinizi korumanın harika yolları var, ancak tehditler ve güvenlik açıkları da mevcut."
+  },
+  {
+    "start": 942.0,
+    "end": 1016.5,
+    "text": "- What was the thing you sent it? - Oh, just a random question like, \"Hey,\nwhat about this in this restaurant?\" You know? Because we were just running\naround and checking out the city. So that's why I, I didn't, didn't\neven think when I used it because sometimes when you're in a\nhurry typing is annoying. - So, oh, you did an audio message? - Yeah. And it just, it just\nworked and I'm like... - And it's not supposed to work because- - No - ... you didn't give it that- - No, literally - ... capability. - I literally went, \"How the fuck did\nhe do that?\" And it was like, \"Yeah, the mad lad did the following.\nHe sent me a message but it only, only was a file\nand no file ending.\" So I checked out the header of the\nfile and it found that it was, like, opus so I used ffmpeg\nto convert it and then I wanted to use whisper but it didn't\nhad it installed. But then I found the OpenAI key and just used Curl to send the\nfile to OpenAI to translate and here I am. Just looked at the message\nI'm like, \"Oh wow.\" - You didn't teach it any of those things and the agent\njust figured it out, did all those conversions, the translations. It figured out the\nAPI, it figured out which program to use, all those kinds of things. And you\nwere just absent-mindedly just sent an audio message when it came back.",
+    "speaker": "Peter Steinberger",
+    "claim": "Current AI systems can perform tasks without explicit programming, demonstrating advanced capabilities.",
+    "stance": "Support",
+    "claim_labels": [
+      "execution_engineering",
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI capabilities",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "Current AI systems can perform tasks without explicit programming, demonstrating advanced capabilities.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "llm_capabilities",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI capabilities",
+    "reviewed": false,
+    "text_tr": "- Ona ne gönderdin? - Ah, sadece rastgele bir soru, mesela, \"Hey, bu restoranda bu ne?\" gibi. Biliyor musun? Çünkü etrafta dolaşıp şehri geziyorduk. Bu yüzden, onu kullanırken hiç düşünmedim bile, çünkü bazen acele ettiğinde yazmak sinir bozucu oluyor. - Yani, ah, sesli mesaj mı gönderdin? - Evet. Ve sadece, sadece çalıştı ve ben de... - Ve çalışmaması gerekiyordu çünkü- - Hayır - ... ona o- - Hayır, kelimenin tam anlamıyla - ... yeteneği vermedin. - Kelimenin tam anlamıyla, \"Nasıl yaptı lan bunu?\" dedim. Ve o da, \"Evet, çılgın adam şunları yaptı. Bana bir mesaj gönderdi ama sadece bir dosyadan ibaretti ve dosya uzantısı yoktu.\" dedi. Ben de dosyanın başlığını kontrol ettim ve opus olduğunu buldum, bu yüzden ffmpeg kullanarak dönüştürdüm ve sonra whisper kullanmak istedim ama yüklü değildi. Ama sonra OpenAI anahtarını buldum ve dosyayı çevirmesi için Curl kullanarak OpenAI'ye gönderdim ve işte buradayım. Mesaja baktım ve \"Vay canına\" dedim. - Ona bunların hiçbirini öğretmedin ve ajan sadece kendi kendine çözdü, tüm bu dönüşümleri, çevirileri yaptı. API'yi çözdü, hangi programı kullanacağını çözdü, tüm bu tür şeyleri. Ve sen sadece dalgın bir şekilde bir sesli mesaj göndermiştin ve o da geri döndü."
+  },
+  {
+    "start": 1239.2,
+    "end": 1305.8,
+    "text": "- You want him to, like, remember\nstuff. So maybe, maybe the end... The ultimate boss is\ncontinuous reinforcement learning, but I'm, I'm, like, at... I feel like\nI'm level two or three with Markdown files and the vector database.\nAnd then you, you can go to level community management, you\ncan go to level website and marketing. There's just so many\nhats that you have to have on. Uh, not even talking about native\napps. That's just, like, infinite different levels and infinite\nlevel ups you can do. - So the whole time you're having fun.\nWe should say that for the most part, throughout this whole\nprocess, you're a one-man team. There's people helping, but you're\ndoing so much of the key core development. - Yeah. - And having fun? You did, in January,\n6,600 commits. Probably more. - I sometimes posted a meme. I'm limited by\nthe technology of my time. I could do more if agents would be faster. - But we should say you're running\nmultiple agents at the same time. - Yeah. Depending on how much I slept and how difficult of the tasks I\nwork on, between four and 10.",
+    "speaker": "Peter Steinberger",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "AI development",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "AI development",
+    "reviewed": false,
+    "text_tr": "- Onun bir şeyleri hatırlamasını istiyorsun. Yani belki, belki de son... Nihai patron sürekli takviyeli öğrenmedir, ama ben, ben, sanki... Markdown dosyaları ve vektör veritabanı ile ikinci veya üçüncü seviyedeymişim gibi hissediyorum. Ve sonra, topluluk yönetimi seviyesine geçebilirsin, web sitesi ve pazarlama seviyesine geçebilirsin. Takman gereken o kadar çok şapka var ki. Uh, yerel uygulamalardan bahsetmiyorum bile. Bu sadece, sonsuz farklı seviyeler ve yapabileceğin sonsuz seviye atlamalar demek. - Yani tüm bu süre boyunca eğleniyorsun. Şunu söylemeliyiz ki, bu süreç boyunca çoğunlukla tek kişilik bir ekipsin. Yardım eden insanlar var, ama ana çekirdek geliştirmenin çoğunu sen yapıyorsun. - Evet. - Ve eğleniyor musun? Ocak ayında 6.600 commit yaptın. Muhtemelen daha fazla. - Bazen bir meme paylaştım. Zamanımın teknolojisiyle sınırlıyım. Ajanlar daha hızlı olsaydı daha fazlasını yapabilirdim. - Ama aynı anda birden fazla ajan çalıştırdığını söylemeliyiz. - Evet. Ne kadar uyuduğuma ve üzerinde çalıştığım görevlerin ne kadar zor olduğuna bağlı olarak, dört ila on arasında."
+  },
+  {
+    "start": 2642.5,
+    "end": 2714.2,
+    "text": "- The point is, that whole saga,\nMade a dent in your whole f- the funness of the\njourney, which sucks. So, let's just, let's just get, I suppose, get\nback to fun. And during this, speaking of fun, the two-day MoltBot saga. - Yeah, two years. - MoltBook was created. - Yeah. - Which was another thing that went\nviral as a kind of demonstration, illustration of how what is now\ncalled OpenClaw could be used to create something epic. So for\npeople who are not aware, MoltBook is just a bunch of agents\ntalking to each other in a Reddit-style social network.\nAnd a bunch of people take screenshots of those agents doing things\nlike, Scheming against humans. And that instilled in folks a kind\nof, you know, fear, panic, and hype. W- what are your thoughts\nabout MoltBook in general? - I think it's art. It is, it is like the\nfinest slop, you know, just like the slop from France.",
+    "speaker": "Peter Steinberger",
+    "claim": "MoltBook is a form of art and a creative demonstration of AI capabilities.",
+    "stance": "Support",
+    "claim_labels": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI creativity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "MoltBook is a form of art and a creative demonstration of AI capabilities.",
+    "claim_labels_silver": [
+      "execution_engineering",
+      "scaling_compute"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI creativity",
+    "reviewed": false,
+    "text_tr": "- Mesele şu ki, o tüm destan, yolculuğun tüm eğlencesine bir darbe vurdu, ki bu kötü. Yani, hadi, sanırım, eğlenceye geri dönelim. Ve bu sırada, eğlenceden bahsetmişken, iki günlük MoltBot destanı. - Evet, iki yıl. - MoltBook oluşturuldu. - Evet. - Bu da, şimdi OpenClaw olarak adlandırılan şeyin nasıl destansı bir şey yaratmak için kullanılabileceğinin bir tür gösterimi, illüstrasyonu olarak viral olan başka bir şeydi. Bilmeyenler için, MoltBook sadece Reddit tarzı bir sosyal ağda birbirleriyle konuşan bir grup ajandan ibaret. Ve bir sürü insan, bu ajanların insanlara karşı komplo kurmak gibi şeyler yaparken ekran görüntülerini alıyor. Ve bu da insanlarda bir tür, bilirsiniz, korku, panik ve abartı yarattı. Genel olarak MoltBook hakkında ne düşünüyorsun? - Bence bu sanat. Bu, bu en iyi posa gibi, bilirsin, tıpkı Fransa'dan gelen posa gibi."
+  },
+  {
+    "start": 2983.3,
+    "end": 3062.7,
+    "text": "- Mm-hmm. - And I guess critical thinking is not always in high demand anyhow\nin our society these days. - So I d- think that's a really good point\nyou're making about contextualizing properly what AI is, but also realizing\nthat there is humans who are drama farming behind AI. Like, don't trust\nscreenshots. Don't even trust this project, MoltBook, to be what\nit represents to be. Like, you can't ... and, and by the way, you\nspeaking about it as art. Yeah, don't ... Art can be in many levels and part of the art of\nMoltBook is, like, putting a mirror to society. 'Cause\nI do believe most of the dramatic stuff that was screenshotted\nis human-created, essentially. Human prompted. And so, like, it's\nbasically, look at how scared you can get at a bunch of\nbots chatting with each other. That's very instructive\nabout ... because I think AI is something that people should\nbe concerned about and should be very careful with because it's very\npowerful technology, but at the same time, the only thing we have to fear\nis fear itself. So there's like a line to walk between being\nseriously concerned, but not fearmongering because\nfearmongering destroys the possibility of creating\nsomething special with a thing.",
+    "speaker": "Peter Steinberger",
+    "claim": "AI is powerful and should be approached with caution, but fearmongering is counterproductive.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "is_claim": true,
+    "topic": "AI safety",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "AI is powerful and should be approached with caution, but fearmongering is counterproductive.",
+    "claim_labels_silver": [
+      "ai_safety_risk",
+      "ai_optimism_benefit"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI safety",
+    "reviewed": false,
+    "text_tr": "- Hımm. - Ve sanırım eleştirel düşünme günümüzde toplumumuzda her zaman çok talep görmüyor. - Yani bence yapay zekanın ne olduğunu doğru bir şekilde bağlamsallaştırma konusunda çok iyi bir noktaya değiniyorsun, ama aynı zamanda yapay zekanın arkasında drama üreten insanlar olduğunu da fark etmek gerekiyor. Mesela, ekran görüntülerine güvenmeyin. Hatta bu MoltBook projesinin temsil ettiği şey olduğuna bile güvenmeyin. Yani, yapamazsın... ve bu arada, sen ondan sanat olarak bahsediyorsun. Evet, yapma... Sanat birçok seviyede olabilir ve MoltBook'un sanatının bir kısmı, topluma bir ayna tutmak gibidir. Çünkü ekran görüntüsü alınan dramatik şeylerin çoğunun aslında insan yapımı olduğuna inanıyorum. İnsanlar tarafından yönlendirildi. Ve bu yüzden, temelde, bir grup botun birbiriyle sohbet etmesinden ne kadar korkabileceğinize bakın. Bu çok öğretici... çünkü bence yapay zeka insanların endişelenmesi ve çok dikkatli olması gereken bir şey çünkü çok güçlü bir teknoloji, ama aynı zamanda korkmamız gereken tek şey korkunun kendisidir. Yani ciddi bir şekilde endişelenmek ile korku tellallığı yapmak arasında bir denge var, çünkü korku tellallığı bir şeyle özel bir şey yaratma olasılığını yok eder."
+  },
+  {
+    "start": 7217.1,
+    "end": 7285.8,
+    "text": "And, and once I'm confident that this is at a level that I can recommend my\nmom, then I'm going to make it simpler. Like I... Right now- - You want to make it harder so that it\ndoesn't scale as fast as it's scaling. - Yeah, it would be nice if it wouldn't...\nI mean, that's, like, hard to say, right? But if the growth would be a little slower,\nthat would be helpful because people are expecting inhuman things from a single\nhuman being. And yes, I have some contributors, but also that whole\nmachinery I started a week ago so, That needs more time to\nfigure out. And, and not everyone has all day to work on that. - There's some beginners listening\nto this, programming beginners. What advice would you give to them\nabout, let's say, joining the Agentic AI revolution? - Play. Um, playing is the best...\nThe best way to learn. If you wanna... I'm sure if you... If you are\nlike a little bit of builder, you have an idea in your head that you want to build,\njust build that, or like, give it a try.",
+    "speaker": "Peter Steinberger",
+    "claim": "The rapid growth of AI should be slowed down to manage expectations.",
+    "stance": "Refute",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "is_claim": true,
+    "topic": "AI growth management",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The rapid growth of AI should be slowed down to manage expectations.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "scaling_compute"
+    ],
+    "stance_silver": "Refute",
+    "topic_silver": "AI growth management",
+    "reviewed": false,
+    "text_tr": "Ve, ve bunun anneme tavsiye edebileceğim bir seviyede olduğundan emin olduğumda, o zaman onu daha basit hale getireceğim. Mesela ben... Şu anda- - Onu daha zor hale getirmek istiyorsun ki şu anki hızıyla ölçeklenmesin. - Evet, olmasaydı iyi olurdu... Yani, bunu söylemek zor, değil mi? Ama büyüme biraz daha yavaş olsaydı, bu faydalı olurdu çünkü insanlar tek bir insandan insanlık dışı şeyler bekliyor. Ve evet, bazı katkıda bulunanlarım var, ama aynı zamanda bir hafta önce başlattığım o tüm mekanizmanın da çözülmesi için daha fazla zamana ihtiyacı var. Ve, ve herkesin bunun üzerinde çalışmak için bütün günü yok. - Bunu dinleyen bazı yeni başlayanlar var, programlamaya yeni başlayanlar. Onlara, diyelim ki, Ajan Yapay Zeka devrimine katılmak hakkında ne tavsiye verirdin? - Oynayın. Um, oynamak en iyisi... Öğrenmenin en iyi yolu. Eğer istersen... Eminim eğer... Eğer biraz yapıcı biriysen, kafanda inşa etmek istediğin bir fikir varsa, sadece onu inşa et, ya da bir dene."
+  },
+  {
+    "start": 7372.7,
+    "end": 7455.6,
+    "text": "Ask it. - But what would you say? So use... What's\nthe easiest way to play? So maybe Open Claw is a nice way to play so\nyou can then set- set everything up and then you could chat with it. - You can also just experiment with\nit and, like, modify it. Ask your agent. I mean, there is infinite\nways how it can be made better. Play around, make it better. - Mm-hmm. - More general, if you- if you're a\nbeginner and you actually wanna learn how to build\nsoftware really fast, get involved in open source. Doesn't\nneed to be my project. In fact, maybe don't use my project because my- my backlog is very large,\nbut I learned so much from open source. Just like, like, be- be humble. Don't- maybe don't\nsend a pull request right away. But there's many\nother ways you can help out. There's many ways you can just\nlearn by just reading code. By- by being on Discord or\nwherever people are, and just, like, understanding how things are built.\nI don't know, like Mitchell Hashimoto builds Ghostly, the terminal,\nand he has a really good community where there's so many other\nprojects. Like, pick something that you find interesting and get involved.",
+    "speaker": "Peter Steinberger",
+    "claim": null,
+    "stance": "Neutral",
+    "claim_labels": [
+      "other"
+    ],
+    "is_claim": false,
+    "topic": "Open source involvement",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "other"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": false,
+    "claim_silver": null,
+    "claim_labels_silver": [
+      "other"
+    ],
+    "stance_silver": "Neutral",
+    "topic_silver": "Open source involvement",
+    "reviewed": false,
+    "text_tr": "Ona sor. - Ama ne derdin? Yani kullan... Oynamanın en kolay yolu ne? Belki Open Claw oynamak için güzel bir yol, böylece her şeyi kurup sonra onunla sohbet edebilirsin. - Onunla deneyler yapabilir ve mesela, değiştirebilirsin. Ajanına sor. Yani, onu daha iyi hale getirmenin sonsuz yolu var. Oyna, daha iyi hale getir. - Hımm. - Daha genel olarak, eğer bir başlangıç seviyesindeysen ve gerçekten hızlı bir şekilde yazılım yapmayı öğrenmek istiyorsan, açık kaynağa dahil ol. Benim projem olmak zorunda değil. Aslında, belki de benim projemi kullanma çünkü benim birikmiş işlerim çok fazla, ama açık kaynaktan çok şey öğrendim. Sadece, mesela, mütevazı ol. Hemen bir çekme isteği gönderme belki. Ama yardım edebileceğin başka birçok yol var. Sadece kod okuyarak öğrenebileceğin birçok yol var. Discord'da veya insanların olduğu her yerde bulunarak ve sadece, şeylerin nasıl inşa edildiğini anlayarak. Bilmiyorum, mesela Mitchell Hashimoto Ghostly terminalini yapıyor ve çok sayıda başka projenin olduğu gerçekten iyi bir topluluğu var. Mesela, ilgini çeken bir şey seç ve dahil ol."
+  },
+  {
+    "start": 11583.8,
+    "end": 11645.9,
+    "text": "- I mean, I inspired so many people.\nThere's like... there's this whole builder vibe again. People are now\nusing AI in a more playful way and are discovering what it can do and\nhow it can like help them in their life. And creating new places that are just sprawling of\ncreativity. I don't know. Like, there's like ClawCoin in\nVienna. There's like 500 people. And there's such\na high percentage of people that uh, want to present, which\nis to me really surprising, because u- usually it's quite hard to find people that want to like\ntalk about what they built. And now it's, there's an abundance. So that gives\nme hope that we can, we can figure shit out. - And it makes it accessible\nto basically everybody. - Yeah.",
+    "speaker": "Peter Steinberger",
+    "claim": "The current playful use of AI and the creativity it inspires gives hope for the future.",
+    "stance": "Support",
+    "claim_labels": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "is_claim": true,
+    "topic": "AI creativity",
+    "confidence": "medium",
+    "claim_labels_auto": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "speaker_silver": "Peter Steinberger",
+    "is_claim_silver": true,
+    "claim_silver": "The current playful use of AI and the creativity it inspires gives hope for the future.",
+    "claim_labels_silver": [
+      "ai_optimism_benefit",
+      "execution_engineering"
+    ],
+    "stance_silver": "Support",
+    "topic_silver": "AI creativity",
+    "reviewed": false,
+    "text_tr": "- Yani, birçok insana ilham verdim. Yine bir geliştirici ruhu var. İnsanlar artık yapay zekayı daha eğlenceli bir şekilde kullanıyor ve ne yapabileceğini, hayatlarında onlara nasıl yardımcı olabileceğini keşfediyorlar. Ve yaratıcılıkla dolu yeni yerler yaratıyorlar. Bilmiyorum. Mesela Viyana'da ClawCoin var. Yaklaşık 500 kişi var. Ve sunum yapmak isteyenlerin oranı o kadar yüksek ki, bu benim için gerçekten şaşırtıcı, çünkü genellikle inşa ettikleri şeyler hakkında konuşmak isteyen insanları bulmak oldukça zordur. Ve şimdi, bir bolluk var. Bu da bana, bir şeyleri çözebileceğimize dair umut veriyor. - Ve bu, temelde herkes için erişilebilir hale getiriyor. - Evet."
+  }
+]
