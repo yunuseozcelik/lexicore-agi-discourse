@@ -125,6 +125,18 @@ V1_TO_V2 = {
     "other":                 "other",
 }
 
+# Per-category proposition for category-conditional stance (see claim_taxonomy.py).
+CLAIM_PROPOSITIONS_V2 = {
+    "agi_timeline":           "AGI / human-level AI will arrive in the near term (within roughly the next several years).",
+    "llm_capabilities":       "Current AI systems are already broadly capable — they can genuinely reason, plan, and model the world.",
+    "scaling_and_hardware":   "Scaling models, data, compute, and hardware is the main path to further AI progress.",
+    "ai_safety_risk":         "AI poses a serious safety / existential risk that society should take seriously.",
+    "ai_optimism_benefit":    "AI will, on balance, greatly benefit humanity and the future is something to be optimistic about.",
+    "industry_and_economics": "AI will drive large economic and industrial transformation — major effects on jobs, markets, and how systems get built.",
+    "race_and_geopolitics":   "AI development is a high-stakes competitive race for power between companies and nations.",
+    "other":                  None,
+}
+
 CLAIM_IDS_V2 = [c["id"] for c in CLAIM_TAXONOMY_V2]
 ID2NAME_V2 = {c["id"]: c["name"] for c in CLAIM_TAXONOMY_V2}
 ID2DESC_V2 = {c["id"]: c["description"] for c in CLAIM_TAXONOMY_V2}

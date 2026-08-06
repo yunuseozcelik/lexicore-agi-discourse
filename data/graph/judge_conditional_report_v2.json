@@ -1,0 +1,1049 @@
+{
+  "audited": 173,
+  "counts": {
+    "valid": 141,
+    "unclear": 28,
+    "invalid": 4
+  },
+  "validity_rate": 0.815028901734104,
+  "edges": [
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Beth Barnes",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "race_and_geopolitics",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "invalid"
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Amanda",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Amanda",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Beth Barnes",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "invalid"
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "industry_and_economics",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "llm_capabilities",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "race_and_geopolitics",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "agi_timeline",
+      "stance": "Refute",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "llm_capabilities",
+      "stance": "Refute",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "ai_safety_risk",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "ai_safety_risk",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tim Scarfe",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "scaling_and_hardware",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "invalid"
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "invalid"
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "race_and_geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "industry_and_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "scaling_and_hardware",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "ai_safety_risk",
+      "stance": "Neutral",
+      "verdict": "valid"
+    }
+  ]
+}
