@@ -890,8 +890,14 @@ aynı config). Eski etiketlerle F1 0.380 / acc 0.402; yeni few-shot etiketlerle
 Tam corpus (2121 claim segment) yeniden etiketlendi; graf her person→kategori
 kenarını o kategorinin `claim_stances`'inden kurar. v2 claims-only, 173 kenar:
 global stance %81 non-Neutral (Refute 73/Support 68) iken koşullu %28
-(Neutral 123/Support 46/Refute 4). Daha ilkeli (rehber 2.6 belirsizliğini
-giderir) ama daha Neutral-ağırlıklı; kesin üstünlük LLM-hakemle ölçülmeli (açık).
+(Neutral 123/Support 46/Refute 4). Daha ilkeli (rehber 2.6 belirsizliğini giderir)
+ama daha Neutral-ağırlıklı.
+
+**Hakem doğrulaması** (`judge_conditional.py`, v1 koşullu graf, gpt-5.6-luna,
+40 kenar): önerme-tabanlı hakem her kenarı o kategorinin kendi önermesine göre
+denetledi → **%70 valid, %0 invalid**, 12 unclear. Eski global graf %61.8 valid /
+%1.7 invalid idi; koşullu grafta çelişen kenar yok (farklı taksonomi/konvansiyon,
+birebir kıyas değil ama koşullu grafın kenarları metinle tutarlı).
 
 ### 18.4 BERT dürüst değerlendirmesi (`honest_eval_bert.py`)
 Rehber 3.7'nin işaret ettiği boşluk: TF-IDF'in üç protokolü BERT için de

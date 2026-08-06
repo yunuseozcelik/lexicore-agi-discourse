@@ -1,0 +1,251 @@
+{
+  "audited": 40,
+  "counts": {
+    "valid": 28,
+    "unclear": 12,
+    "invalid": 0
+  },
+  "validity_rate": 0.7,
+  "edges": [
+    {
+      "speaker": "Yann LeCun",
+      "claim": "breakthroughs_needed",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "intelligence_nature",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "open_source",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "hardware_infra",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "agi_timeline",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dario Amodei",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sam Altman",
+      "claim": "execution_engineering",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Ege Erdil",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "ai_safety_risk",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Eliezer Yudkowsky",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "scaling_compute",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Yann LeCun",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "breakthroughs_needed",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "execution_engineering",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rohin Shah",
+      "claim": "execution_engineering",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Peter Steinberger",
+      "claim": "breakthroughs_needed",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "agi_timeline",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "ai_race_power",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Andrej Karpathy",
+      "claim": "ai_economics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Lex Fridman",
+      "claim": "geopolitics",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "John Schulman",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "ai_race_power",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Yoshua Bengio",
+      "claim": "scaling_compute",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Dwarkesh Patel",
+      "claim": "ai_economics",
+      "stance": "Neutral",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Tamay Besiroglu",
+      "claim": "ai_safety_risk",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Will MacAskill",
+      "claim": "intelligence_nature",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Roman Yampolskiy",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Sebastian Raschka",
+      "claim": "scaling_compute",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "llm_capabilities",
+      "stance": "Neutral",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "open_source",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Demis Hassabis",
+      "claim": "open_source",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Rob Wiblin",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "Nathan Lambert",
+      "claim": "ai_optimism_benefit",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Jensen Huang",
+      "claim": "breakthroughs_needed",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Connor Leahy",
+      "claim": "ai_safety_risk",
+      "stance": "Support",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Max Tegmark",
+      "claim": "ai_optimism_benefit",
+      "stance": "Support",
+      "verdict": "unclear"
+    },
+    {
+      "speaker": "David Rein",
+      "claim": "execution_engineering",
+      "stance": "Neutral",
+      "verdict": "valid"
+    },
+    {
+      "speaker": "Victor Shih",
+      "claim": "scaling_compute",
+      "stance": "Neutral",
+      "verdict": "valid"
+    }
+  ]
+}
