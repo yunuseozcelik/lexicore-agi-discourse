@@ -54,6 +54,7 @@ def load_labeled():
                 "text": (s.get("text") or "").strip(),
                 "speaker": (s.get("speaker") or "").strip(),
                 "stance": s.get("stance"),
+                "is_claim": s.get("is_claim"),
                 "claims": s.get("claim_labels") or [],
             })
     return rows
@@ -69,6 +70,7 @@ def load_gold():
                     "text": (s.get("text") or "").strip(),
                     "speaker": (s.get("speaker") or "").strip(),
                     "stance": s.get("stance"),
+                    "is_claim": s.get("is_claim"),
                     "claims": s.get("claim_labels") or [],
                 }
     return g
@@ -105,8 +107,12 @@ def cv_multi(X, Y, splitter, groups=None):
 
 # ---------------------------------------------------------------- STANCE
 def eval_stance(rows, gold):
+    # Claim-bearing segments only: non-claims (is_claim=False) were all forced to
+    # Neutral by the labeller, so scoring them inflates the Neutral class and
+    # measures label artefacts rather than stance. Stance is only meaningful where
+    # there is an actual assertion, so both silver and gold are filtered to claims.
     d = [(r["text"], r["stance"], r["vid"], r["key"]) for r in rows
-         if r["stance"] in STANCES and r["text"]]
+         if r["stance"] in STANCES and r["text"] and r["is_claim"]]
     X = np.array([a for a, *_ in d], dtype=object)
     y = np.array([b for _, b, *_ in d])
     g = np.array([c for *_, c, _ in d])
@@ -115,10 +121,9 @@ def eval_stance(rows, gold):
     a = cv_single(X, y, g, STANCES, StratifiedKFold(5, shuffle=True, random_state=42))
     b = cv_single(X, y, g, STANCES, GroupKFold(5), groups=g)
 
-    gkeys = {k for k, v in gold.items() if v["stance"] in STANCES}
     tr = [i for i, k in enumerate(keys) if k not in gold]
     gt = [(v["text"], v["stance"]) for k, v in gold.items()
-          if v["stance"] in STANCES and v["text"]]
+          if v["stance"] in STANCES and v["text"] and v["is_claim"]]
     m = clf().fit(X[tr], y[tr])
     Xg = np.array([t for t, _ in gt], dtype=object)
     yg = np.array([s for _, s in gt])
@@ -195,7 +200,7 @@ def main():
     sp = eval_speaker(rows, gold)
 
     print("=" * 68)
-    print("STANCE  (Macro-F1)                              n_silver / n_gold")
+    print("STANCE  (Macro-F1, claim-bearing segments only) n_silver / n_gold")
     print(f"  (a) segment 5-fold  : {st[0]:.3f}")
     print(f"  (b) video GroupKFold: {st[1]:.3f}    <- sizinti kontrollu")
     print(f"  (c) gold test       : {st[2]:.3f}    <- insan gerçegine karsi")
