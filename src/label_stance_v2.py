@@ -175,11 +175,22 @@ def main():
     n = 0
     for f in sorted(indir.glob("*.json")):
         segs = json.loads(f.read_text(encoding="utf-8"))
+        # resume: carry over stance_v2 already written for this file on a prior run
+        prev_path = outdir / f.name
+        if prev_path.exists():
+            prev = json.loads(prev_path.read_text(encoding="utf-8"))
+            for i, p in enumerate(prev):
+                if i < len(segs) and "stance_v2" in p:
+                    segs[i]["stance_v2"] = p["stance_v2"]
+                    segs[i]["claim_stances"] = p.get("claim_stances", [])
+        dirty = False
         for seg in segs:
             if args.limit is not None and n >= args.limit:
                 break
             if args.only_gold and not seg.get("reviewed"):
                 continue
+            if "stance_v2" in seg:
+                continue  # already done (resume)
             labels = seg.get("claim_labels") or []
             text = (seg.get("text") or "").strip()
             # non-claims have no stance target
@@ -195,15 +206,18 @@ def main():
                                     if cs.get("category") in CLAIM_IDS]
             seg["stance_v2"] = out.get("stance")
             n += 1
+            dirty = True
             print(f"  [{f.stem}] {n:4} | {out.get('stance'):7} | "
                   f"{[(c['category'], c['stance']) for c in seg['claim_stances']]}")
+            if n % 10 == 0:  # periodic checkpoint so a kill doesn't lose work
+                prev_path.write_text(json.dumps(segs, ensure_ascii=False, indent=2), encoding="utf-8")
             time.sleep(args.sleep)
-        (outdir / f.name).write_text(
-            json.dumps(segs, ensure_ascii=False, indent=2), encoding="utf-8")
+        if dirty or not prev_path.exists():
+            prev_path.write_text(json.dumps(segs, ensure_ascii=False, indent=2), encoding="utf-8")
         if args.limit is not None and n >= args.limit:
             break
 
-    print(f"\nRe-labeled {n} claim segments -> {outdir}")
+    print(f"\nRe-labeled {n} new claim segments this run -> {outdir}")
 
 
 if __name__ == "__main__":
