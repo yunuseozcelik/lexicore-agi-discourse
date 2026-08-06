@@ -5,9 +5,9 @@ import argparse
 import json
 import random
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from claim_taxonomy import ID2NAME, CLAIM_PROPOSITIONS
 from label_stance_v2 import env_key
 
 DATA = Path(__file__).resolve().parent.parent / "data"
@@ -38,12 +38,19 @@ def load_v2segs():
     return segs
 
 
-def quotes_for(segs, spk, cid, stance, k=3):
+def quotes_for(segs, spk, cid, stance, collapse=None, k=3):
     out = []
     for s in segs:
         if s.get("speaker") != spk or not s.get("is_claim"):
             continue
-        cs = {c["category"]: c["stance"] for c in (s.get("claim_stances") or [])}
+        cs = {}
+        for c in (s.get("claim_stances") or []):
+            cat = c["category"]
+            if collapse is not None:
+                m = collapse([cat])
+                cat = m[0] if m else None
+            if cat:
+                cs[cat] = c["stance"]
         if cs.get(cid) != stance:
             continue
         t = (s.get("text") or "").strip().replace("\n", " ")
@@ -58,10 +65,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sample", type=int, default=40)
     ap.add_argument("--model", default="gpt-5.6-luna")
+    ap.add_argument("--taxonomy", choices=["v1", "v2"], default="v1")
     args = ap.parse_args()
 
-    graph = json.loads((DATA / "graph" / "person_claim_stance_graph_claims_cond.json")
-                       .read_text(encoding="utf-8"))
+    if args.taxonomy == "v2":
+        from claim_taxonomy_v2 import ID2NAME_V2 as ID2NAME, CLAIM_PROPOSITIONS_V2 as PROPS, collapse_labels
+        collapse, gfile, tag = collapse_labels, "person_claim_stance_graph_v2_claims_cond.json", "_v2"
+    else:
+        from claim_taxonomy import ID2NAME, CLAIM_PROPOSITIONS as PROPS
+        collapse, gfile, tag = None, "person_claim_stance_graph_claims_cond.json", ""
+
+    graph = json.loads((DATA / "graph" / gfile).read_text(encoding="utf-8"))
     segs = load_v2segs()
     from openai import OpenAI
     client = OpenAI(api_key=env_key("OPENAI_API_KEY"))
@@ -70,39 +84,46 @@ def main():
     random.seed(42)
     random.shuffle(edges)
 
-    counts = defaultdict(int)
-    per_cat = defaultdict(lambda: defaultdict(int))
-    report = []
-    n = 0
+    # gather edges that have supporting quotes, then judge them in parallel
+    tasks = []
     for e in edges:
-        if n >= args.sample:
+        if len(tasks) >= args.sample:
             break
         spk = e["source"].split("::", 1)[1]
         cid = e["target"].split("::", 1)[1]
         stance = e["dominant_stance"]
-        prop = CLAIM_PROPOSITIONS.get(cid)
+        prop = PROPS.get(cid)
         if not prop:
             continue
-        qs = quotes_for(segs, spk, cid, stance)
+        qs = quotes_for(segs, spk, cid, stance, collapse=collapse)
         if not qs:
             continue
         ev = "\n".join(f'  {i+1}. "{q}"' for i, q in enumerate(qs))
-        prompt = PROMPT.format(prop=prop, stance=stance, ev=ev)
+        tasks.append((spk, cid, stance, PROMPT.format(prop=prop, stance=stance, ev=ev)))
+
+    def judge(t):
         r = client.chat.completions.create(
-            model=args.model, messages=[{"role": "user", "content": prompt}],
+            model=args.model, messages=[{"role": "user", "content": t[3]}],
             response_format={"type": "json_schema",
                              "json_schema": {"name": "v", "strict": True, "schema": SCHEMA}})
-        v = json.loads(r.choices[0].message.content)["verdict"]
+        return t[0], t[1], t[2], json.loads(r.choices[0].message.content)["verdict"]
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        results = list(ex.map(judge, tasks))
+
+    counts = defaultdict(int)
+    per_cat = defaultdict(lambda: defaultdict(int))
+    report = []
+    for spk, cid, stance, v in results:
         counts[v] += 1
         per_cat[cid][v] += 1
         report.append({"speaker": spk, "claim": cid, "stance": stance, "verdict": v})
-        n += 1
         print(f"  [{v:7}] {spk[:16]:16} · {ID2NAME.get(cid, cid)[:24]:24} · {stance}")
-
+    n = len(results)
     rate = counts["valid"] / n if n else 0
     print(f"\nedges={n}  valid={counts['valid']} invalid={counts['invalid']} unclear={counts['unclear']}")
     print(f"validity rate: {rate:.1%}")
-    out = DATA / "graph" / "judge_conditional_report.json"
+    out = DATA / "graph" / f"judge_conditional_report{tag}.json"
     out.write_text(json.dumps({"audited": n, "counts": dict(counts),
                                "validity_rate": rate, "edges": report}, indent=2), encoding="utf-8")
     print(f"saved -> {out}")
