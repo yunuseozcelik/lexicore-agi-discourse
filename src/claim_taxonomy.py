@@ -111,10 +111,41 @@ CLAIM_IDS = [c["id"] for c in CLAIM_TAXONOMY]
 ID2NAME = {c["id"]: c["name"] for c in CLAIM_TAXONOMY}
 ID2DESC = {c["id"]: c["description"] for c in CLAIM_TAXONOMY}
 
+# Category-conditional stance targets. A single global anchor makes stance
+# ambiguous ("advanced AI is risky" supports the safety-risk claim but refutes
+# blunt optimism). Instead each category carries its own proposition, and a
+# speaker's stance is scored against the proposition of the category they are
+# actually discussing: Support = agrees with it, Refute = disagrees, Neutral =
+# mentions it without taking a side. `other` has no proposition (always Neutral).
+CLAIM_PROPOSITIONS = {
+    "agi_timeline":         "AGI / human-level AI will arrive in the near term (within roughly the next several years).",
+    "llm_capabilities":     "Current AI systems are already broadly capable — they can genuinely reason, plan, and model the world.",
+    "scaling_compute":      "Scaling models, data, and compute is the main path to further AI progress.",
+    "breakthroughs_needed": "Fundamentally new ideas or architectures are still needed; today's methods are not enough to reach AGI.",
+    "ai_safety_risk":       "AI poses a serious safety / existential risk that society should take seriously.",
+    "ai_optimism_benefit":  "AI will, on balance, greatly benefit humanity and the future is something to be optimistic about.",
+    "ai_economics":         "AI will drive large economic transformation — major effects on jobs, industry, and productivity.",
+    "ai_race_power":        "AI development is a dangerous race that concentrates power in a few actors.",
+    "geopolitics":          "National AI competition (especially the US vs. China) is decisive for how AI unfolds.",
+    "open_source":          "AI should be developed openly (open-source / open weights) rather than closed and proprietary.",
+    "intelligence_nature":  "Machine intelligence is fundamentally the same kind of thing as human / biological intelligence.",
+    "execution_engineering":"Practical engineering and execution — not new ideas — is the real bottleneck to building AI.",
+    "hardware_infra":       "Hardware and compute infrastructure (chips, GPUs, datacenters) is a critical driver of AI progress.",
+    "other":                None,
+}
+
 
 def taxonomy_prompt_block():
     """A compact bullet list of the taxonomy for LLM labeling prompts."""
     return "\n".join(f"- {c['id']}: {c['description']}" for c in CLAIM_TAXONOMY)
+
+
+def propositions_prompt_block(ids=None):
+    """Bullet list of `id: proposition` for the given categories (default: all
+    with a proposition), used by the category-conditional stance labeler."""
+    ids = ids if ids is not None else CLAIM_IDS
+    return "\n".join(f"- {cid}: {CLAIM_PROPOSITIONS[cid]}"
+                     for cid in ids if CLAIM_PROPOSITIONS.get(cid))
 
 
 if __name__ == "__main__":
