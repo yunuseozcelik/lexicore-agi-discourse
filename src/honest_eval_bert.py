@@ -20,6 +20,7 @@ Usage:
 import argparse
 import json
 import sys
+import time
 from pathlib import Path
 
 import numpy as np
@@ -66,6 +67,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="distilbert-base-uncased")
     ap.add_argument("--epochs", type=int, default=4)
+    ap.add_argument("--folds", type=int, default=5)
     ap.add_argument("--batch", type=int, default=16)
     ap.add_argument("--max-len", type=int, default=256)
     args = ap.parse_args()
@@ -78,33 +80,46 @@ def main():
     keys = [r["key"] for r in rows]
     tok = AutoTokenizer.from_pretrained(args.model)
     out = str(DATA / "bert_out")
-    print(f"{len(rows)} claim-bearing stance segments | {len(gold)} gold | model {args.model}\n")
+    # Results are written to disk as each protocol finishes, so a killed run
+    # still leaves whatever was computed.
+    res_path = DATA / "honest_eval_bert.json"
+    res = {"model": args.model, "epochs": args.epochs, "folds": args.folds,
+           "n_silver": len(rows), "n_gold": len(gold)}
+
+    def save():
+        res_path.write_text(json.dumps(res, indent=2), encoding="utf-8")
+
+    print(f"{len(rows)} claim-bearing stance segments | {len(gold)} gold | "
+          f"model {args.model} | {args.folds}-fold {args.epochs}ep", flush=True)
 
     def run_cv(splitter, groups=None):
         yp = np.empty_like(y)
         it = splitter.split(X, y, groups) if groups is not None else splitter.split(X, y)
         for k, (tr, te) in enumerate(it, 1):
-            print(f"    fold {k} (train={len(tr)}, test={len(te)})")
+            t0 = time.time()
             yp[te] = train_fold(args.model, tok, X[tr], y[tr], X[te], y[te],
                                 args.epochs, args.batch, args.max_len, out)
+            print(f"    fold {k}/{args.folds} done ({time.time()-t0:.0f}s)", flush=True)
         return f1_score(y, yp, average="macro")
 
-    print("(a) segment 5-fold"); a = run_cv(StratifiedKFold(5, shuffle=True, random_state=42))
-    print("(b) video GroupKFold"); b = run_cv(GroupKFold(5), groups=g)
+    print("(a) segment k-fold", flush=True)
+    res["a_segment_kfold"] = float(run_cv(StratifiedKFold(args.folds, shuffle=True, random_state=42))); save()
+    print("(b) video GroupKFold", flush=True)
+    res["b_video_groupkfold"] = float(run_cv(GroupKFold(args.folds), groups=g)); save()
 
-    print("(c) gold held-out")
+    print("(c) gold held-out", flush=True)
     tr = [i for i, k in enumerate(keys) if k not in gold]
     Xg = np.array([v["text"] for v in gold.values()], dtype=object)
     yg = np.array([v["y"] for v in gold.values()])
     pg = train_fold(args.model, tok, X[tr], y[tr], Xg, yg,
                     args.epochs, args.batch, args.max_len, out)
-    c = f1_score(yg, pg, average="macro")
+    res["c_gold"] = float(f1_score(yg, pg, average="macro")); save()
 
     print("\n" + "=" * 60)
     print(f"BERT STANCE ({args.model}) Macro-F1, claim-bearing only")
-    print(f"  (a) segment 5-fold  : {a:.3f}")
-    print(f"  (b) video GroupKFold: {b:.3f}    <- sizinti kontrollu")
-    print(f"  (c) gold test       : {c:.3f}    <- insan gerçegine karsi")
+    print(f"  (a) segment {args.folds}-fold  : {res['a_segment_kfold']:.3f}")
+    print(f"  (b) video GroupKFold: {res['b_video_groupkfold']:.3f}    <- sizinti kontrollu")
+    print(f"  (c) gold test       : {res['c_gold']:.3f}    <- insan gerçegine karsi")
     print("=" * 60)
     print("krsl. TF-IDF (honest_eval.py): 0.522 / 0.472 / 0.369")
 

@@ -1,0 +1,10 @@
+{
+  "model": "distilbert-base-uncased",
+  "epochs": 3,
+  "folds": 3,
+  "n_silver": 2121,
+  "n_gold": 341,
+  "a_segment_kfold": 0.5469466377688258,
+  "b_video_groupkfold": 0.5336046668660125,
+  "c_gold": 0.3832241207516958
+}
