@@ -1,0 +1,11 @@
+{
+  "model": "distilbert-base-uncased",
+  "epochs": 3,
+  "folds": 5,
+  "labels_dir": "labeled_stance_v2",
+  "stance_field": "stance_v2",
+  "n_silver": 2121,
+  "n_gold": 341,
+  "c_gold": 0.40799273459869756,
+  "c_gold_acc": 0.46920821114369504
+}

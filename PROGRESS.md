@@ -880,6 +880,12 @@ Gold (341 claim segment, aynı insan gold'a karşı, adil kıyas):
 
 Accuracy +0.188, Macro-F1 +0.105, κ +0.063. Ölçüm: `eval_stance_agreement.py`.
 
+**Daha iyi öğretmen → daha iyi öğrenci:** BERT student, her öğretmenin silver
+etiketleriyle eğitilip insan-gold'a karşı test edildi (distilbert, gold-only,
+aynı config). Eski etiketlerle F1 0.380 / acc 0.402; yeni few-shot etiketlerle
+**F1 0.408 / acc 0.469** (`honest_eval_bert.py --gold-only --stance-field stance_v2`).
+İyi etiketler modele damıtılıyor — accuracy +0.067.
+
 ### 18.3 Kategori-koşullu graf (`build_graph_full.py --conditional-stance`)
 Tam corpus (2121 claim segment) yeniden etiketlendi; graf her person→kategori
 kenarını o kategorinin `claim_stances`'inden kurar. v2 claims-only, 173 kenar:
