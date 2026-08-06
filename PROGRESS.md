@@ -910,6 +910,15 @@ Rehber 3.7'nin işaret ettiği boşluk: TF-IDF'in üç protokolü BERT için de
 
 BERT üç protokolde de geçiyor; sızıntı-kontrollü video-holdout'ta +0.062.
 
+### 18.5 Kendi modelimizden graf (`build_graph_full.py --predicted`)
+Rehber 4.2'nin işaret ettiği eksik: graf LLM silver etiketlerinden kuruluyordu.
+`predict_labels_oof.py` OOF (5-fold, sızıntısız) claim + stance tahminleri üretir;
+`--predicted` bunlardan grafı kurar (speaker meta veriden korunur — speaker
+tahmini çok zayıf, video-holdout F1 0.041). v2 claims-only karşılaştırması:
+silver 173 kenar, tahmin 165; **160 ortak (silver kenarlarının %92'si korunuyor)**,
+dominant-stance uyumu %59. Yapı (kim neyi konuşuyor) iyi üretiliyor; stance zayıf
+halka (OOF stance macro-F1 0.573).
+
 ---
 
 ## 13. Sonraki adımlar (planlanan)

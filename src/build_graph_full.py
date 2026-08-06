@@ -57,7 +57,17 @@ def use_taxonomy(version):
         CLAIM_IDS, ID2NAME, _COLLAPSE = list(V1), N1, None
 
 
-def load_segments(source, conditional=False):
+def load_segments(source, conditional=False, predicted=False, taxonomy="v1"):
+    if predicted:
+        # graph from the classifiers' own out-of-fold predictions, not silver.
+        # pred labels are already in the target taxonomy, so no collapse here.
+        f = DATA_DIR / "predicted" / f"oof_labels_{taxonomy}.json"
+        segs = json.loads(f.read_text(encoding="utf-8"))
+        for s in segs:
+            s["claim_labels"] = s.get("pred_claim_labels") or []
+            s["stance"] = s.get("pred_stance")
+        return segs
+
     # conditional stance lives in labeled_stance_v2 (has per-category claim_stances)
     src = GOLD_DIR if source == "gold" else (STANCE_V2_DIR if conditional else LABELED_DIR)
     segs = []
@@ -319,6 +329,9 @@ def main():
     ap.add_argument("--conditional-stance", action="store_true",
                     help="build edges from category-conditional claim_stances "
                          "(data/labeled_stance_v2) instead of one global stance")
+    ap.add_argument("--predicted", action="store_true",
+                    help="build from the classifiers' OOF predictions "
+                         "(data/predicted/oof_labels_*.json) instead of silver labels")
     args = ap.parse_args()
 
     use_taxonomy(args.taxonomy)
@@ -327,8 +340,11 @@ def main():
         suffix += "_claims"
     if args.conditional_stance:
         suffix += "_cond"
+    if args.predicted:
+        suffix += "_pred"
 
-    segs = load_segments(args.source, conditional=args.conditional_stance)
+    segs = load_segments(args.source, conditional=args.conditional_stance,
+                         predicted=args.predicted, taxonomy=args.taxonomy)
     if not segs:
         print("No segments. Run the pipeline first "
               "(label_stance_v2.py for --conditional-stance).")

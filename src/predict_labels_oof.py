@@ -64,7 +64,8 @@ def load_segments(source="labeled", taxonomy="v1"):
             if collapse_labels is not None:
                 labels = collapse_labels(labels)
             segs.append({"text": txt, "claim_labels": labels,
-                         "stance": s.get("stance")})
+                         "stance": s.get("stance"),
+                         "speaker": s.get("speaker"), "is_claim": s.get("is_claim")})
     return segs, list(CLAIM_IDS)
 
 
